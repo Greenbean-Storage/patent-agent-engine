@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "description": "P02.R00.CENTRAL_AGENT (Director) 의 단일 LLM step output — IOM 상태 + 사용자 입력을 종합하여 다음 action 결정.",
+  "properties": {
+    "iom_completeness_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "IOM 완성도 (0.0~1.0). ≥0.7 이면 출원 가능 신호."
+    },
+    "action": {
+      "type": "string",
+      "enum": ["gap_analysis", "classify", "rejection_search", "prior_art_search", "reasoning", "drawing", "evaluation"],
+      "description": "다음에 수행해야 할 액션 라벨."
+    },
+    "rationale": {
+      "type": "string",
+      "description": "이 action 을 선택한 이유 (한국어 한 단락)."
+    },
+    "context_delta": {
+      "type": "object",
+      "description": "IOM 에 patch 할 변경 사항 (key=path, value=새 값). Director 만 IOM 의 writer."
+    },
+    "dispatch_choice": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 6,
+      "description": "0=gap_analysis (P02.R10), 1=classify_invention (P02.R20), 2=rejection_search (P03.R20), 3=prior_art_search (P03.R00), 4=invention_reasoning (P04.R00), 5=drawing_orchestration (P02.R12), 6=patent_evaluation (P02.R11)."
+    }
+  },
+  "required": ["iom_completeness_score", "action", "rationale", "dispatch_choice"]
+}

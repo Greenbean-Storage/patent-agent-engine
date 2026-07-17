@@ -1,0 +1,231 @@
+{
+  "subclass": "H04S",
+  "title": {
+    "ko": null,
+    "en": "STEREOPHONIC SYSTEMS"
+  },
+  "groups": [
+    {
+      "code": "H04S 1/00",
+      "title": {
+        "ko": null,
+        "en": "Two-channel systems (H04S5/00, H04S7/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 1/002",
+          "title": {
+            "ko": null,
+            "en": "{Non-adaptive circuits, e.g. manually adjustable or static, for enhancing the sound image or the spatial distribution (control circuits for electronic adaptation of the sound field H04S7/30)}"
+          }
+        },
+        {
+          "code": "H04S 1/007",
+          "title": {
+            "ko": null,
+            "en": "{in which the audio signals are in digital form (data reduction aspects thereof based on psychoacoustics G10L19/02)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04S 3/00",
+      "title": {
+        "ko": null,
+        "en": "Systems employing more than two channels, e.g. quadraphonic (H04S5/00, H04S7/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 3/002",
+          "title": {
+            "ko": null,
+            "en": "{Non-adaptive circuits, e.g. manually adjustable or static, for enhancing the sound image or the spatial distribution (control circuits for electronic adaptation of the sound field H04S7/30)}"
+          }
+        },
+        {
+          "code": "H04S 3/006",
+          "title": {
+            "ko": null,
+            "en": "{in which a plurality of audio signals are transformed in a combination of audio signals and modulated signals, e.g. CD-4 systems}"
+          }
+        },
+        {
+          "code": "H04S 3/008",
+          "title": {
+            "ko": null,
+            "en": "{in which the audio signals are in digital form, i.e. employing more than two discrete digital channels (data reduction aspects thereof based on psychoacoustics G10L19/02)}"
+          }
+        },
+        {
+          "code": "H04S 3/02",
+          "title": {
+            "ko": null,
+            "en": "of the matrix type, i.e. in which input signals are combined algebraically, e.g. after having been phase shifted with respect to each other"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04S 5/00",
+      "title": {
+        "ko": null,
+        "en": "Pseudo-stereo systems, e.g. in which additional channel signals are derived from monophonic signals by means of phase shifting, time delay or reverberation"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 5/005",
+          "title": {
+            "ko": null,
+            "en": "{of the pseudo five- or more-channel type, e.g. virtual surround}"
+          }
+        },
+        {
+          "code": "H04S 5/02",
+          "title": {
+            "ko": null,
+            "en": "of the pseudo four-channel type, e.g. in which rear channel signals are derived from two-channel stereo signals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04S 7/00",
+      "title": {
+        "ko": null,
+        "en": "Indicating arrangements; Control arrangements, e.g. balance control"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 7/30",
+          "title": {
+            "ko": null,
+            "en": "{Control circuits for electronic adaptation of the sound field}"
+          }
+        },
+        {
+          "code": "H04S 7/40",
+          "title": {
+            "ko": null,
+            "en": "{Visual indication of stereophonic sound image}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04S 2400/00",
+      "title": {
+        "ko": null,
+        "en": "Details of stereophonic systems covered by H04S but not provided for in its groups"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 2400/01",
+          "title": {
+            "ko": null,
+            "en": "Multi-channel, i.e. more than two input channels, sound reproduction with two speakers wherein the multi-channel information is substantially preserved"
+          }
+        },
+        {
+          "code": "H04S 2400/03",
+          "title": {
+            "ko": null,
+            "en": "Aspects of down-mixing multi-channel audio to configurations with lower numbers of playback channels, e.g. 7.1 -> 5.1 (H04S2400/01 takes precedence)"
+          }
+        },
+        {
+          "code": "H04S 2400/05",
+          "title": {
+            "ko": null,
+            "en": "Generation or adaptation of centre channel in multi-channel audio systems"
+          }
+        },
+        {
+          "code": "H04S 2400/07",
+          "title": {
+            "ko": null,
+            "en": "Generation or adaptation of the Low Frequency Effect [LFE] channel, e.g. distribution or signal processing"
+          }
+        },
+        {
+          "code": "H04S 2400/09",
+          "title": {
+            "ko": null,
+            "en": "Electronic reduction of distortion of stereophonic sound systems"
+          }
+        },
+        {
+          "code": "H04S 2400/11",
+          "title": {
+            "ko": null,
+            "en": "Positioning of individual sound objects, e.g. moving airplane, within a sound field (H04S2420/13 takes precedence)"
+          }
+        },
+        {
+          "code": "H04S 2400/13",
+          "title": {
+            "ko": null,
+            "en": "Aspects of volume control, not necessarily automatic, in stereophonic sound systems"
+          }
+        },
+        {
+          "code": "H04S 2400/15",
+          "title": {
+            "ko": null,
+            "en": "Aspects of sound capture and related signal processing for recording or reproduction"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04S 2420/00",
+      "title": {
+        "ko": null,
+        "en": "Techniques used stereophonic systems covered by H04S but not provided for in its groups"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 2420/01",
+          "title": {
+            "ko": null,
+            "en": "Enhancing the perception of the sound image or of the spatial distribution using head related transfer functions [HRTF's] or equivalents thereof, e.g. interaural time difference [ITD] or interaural level difference [ILD]"
+          }
+        },
+        {
+          "code": "H04S 2420/03",
+          "title": {
+            "ko": null,
+            "en": "Application of parametric coding in stereophonic audio systems"
+          }
+        },
+        {
+          "code": "H04S 2420/05",
+          "title": {
+            "ko": null,
+            "en": "Application of the precedence or Haas effect, i.e. the effect of first wavefront, in order to improve sound-source localisation"
+          }
+        },
+        {
+          "code": "H04S 2420/07",
+          "title": {
+            "ko": null,
+            "en": "Synergistic effects of band splitting and sub-band processing"
+          }
+        },
+        {
+          "code": "H04S 2420/11",
+          "title": {
+            "ko": null,
+            "en": "Application of ambisonics in stereophonic audio systems"
+          }
+        },
+        {
+          "code": "H04S 2420/13",
+          "title": {
+            "ko": null,
+            "en": "Application of wave-field synthesis in stereophonic audio systems"
+          }
+        }
+      ]
+    }
+  ]
+}

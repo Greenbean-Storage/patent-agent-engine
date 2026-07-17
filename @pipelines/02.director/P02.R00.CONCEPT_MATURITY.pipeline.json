@@ -1,0 +1,168 @@
+{
+  "description": "구체화 단계 — 7 sub-항목 채점 + 가중 합산. 매 user message 마다 spawn. 채점 step 2/3/4 는 정적 병렬 묶음(독립 — clarity/completeness/potential 동시 채점, D-6); 그 외 직렬.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": null,
+  "steps": [
+    {
+      "id": "0",
+      "description": "conversation → concept-discovery-stack 7 필드 갱신 (LLM 이 정리). 이전 stack 누적 위에 새 사이클 정보 더함.",
+      "inject_context": {
+        "conversation": "cm://conversation",
+        "current_stack": "cm://concept_discovery_stack"
+      },
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R00/extract_stack.md"
+      },
+      "llm_tools": [],
+      "output_contract": "staging-stack-output",
+      "display_status": {
+        "ko": "발명을 정리하고 있어요",
+        "en": "Organizing the invention…"
+      }
+    },
+    {
+      "id": "1",
+      "description": "concept-discovery-stack CM PUT (DRO tool step, KIPRIS 패턴, LLM 없음).",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "staging.save",
+      "params": {
+        "purpose": "$.steps.0.purpose",
+        "components": "$.steps.0.components",
+        "operation_sequence": "$.steps.0.operation_sequence",
+        "causality": "$.steps.0.causality",
+        "embodiments": "$.steps.0.embodiments",
+        "differentiation": "$.steps.0.differentiation",
+        "effects": "$.steps.0.effects"
+      },
+      "output_contract": "staging-stack-saved-output",
+      "display_status": {
+        "ko": "발명 정보를 저장하고 있어요",
+        "en": "Saving details…"
+      }
+    },
+    [
+      {
+        "id": "2",
+        "description": "아이디어 구체도 채점 (2 sub: purpose / components). 갱신된 stack 의 해당 필드만 input. 정적 병렬 묶음 (completeness/potential 과 독립 동시).",
+        "inject_context": {
+          "stack_purpose": "cm://concept_discovery_stack/purpose",
+          "stack_components": "cm://concept_discovery_stack/components"
+        },
+        "recommended_context": {},
+        "fragments": {},
+        "instructions": {
+          "reference": "@pipelines/02.director/P02.R00/score_clarity.md"
+        },
+        "llm_tools": [],
+        "output_contract": "clarity-sub-scores-output",
+        "display_status": {
+          "ko": "명확성을 살펴보고 있어요",
+          "en": "Checking clarity…"
+        }
+      },
+      {
+        "id": "3",
+        "description": "설명의 완전성 채점 (3 sub: sequence / causality / embodiment). 정적 병렬 묶음 (clarity/potential 과 독립 동시).",
+        "inject_context": {
+          "stack_sequence": "cm://concept_discovery_stack/operation_sequence",
+          "stack_causality": "cm://concept_discovery_stack/causality",
+          "stack_embodiments": "cm://concept_discovery_stack/embodiments"
+        },
+        "recommended_context": {},
+        "fragments": {},
+        "instructions": {
+          "reference": "@pipelines/02.director/P02.R00/score_completeness.md"
+        },
+        "llm_tools": [],
+        "output_contract": "completeness-sub-scores-output",
+        "display_status": {
+          "ko": "완성도를 살펴보고 있어요",
+          "en": "Checking completeness…"
+        }
+      },
+      {
+        "id": "4",
+        "description": "특허성 잠재력 채점 (2 sub: differentiation / effect). 정적 병렬 묶음 (clarity/completeness 와 독립 동시).",
+        "inject_context": {
+          "stack_differentiation": "cm://concept_discovery_stack/differentiation",
+          "stack_effects": "cm://concept_discovery_stack/effects"
+        },
+        "recommended_context": {},
+        "fragments": {},
+        "instructions": {
+          "reference": "@pipelines/02.director/P02.R00/score_potential.md"
+        },
+        "llm_tools": [],
+        "output_contract": "potential-sub-scores-output",
+        "display_status": {
+          "ko": "잠재력을 살펴보고 있어요",
+          "en": "Checking potential…"
+        }
+      }
+    ],
+    {
+      "id": "5",
+      "description": "7 sub-score 가중 합산 + CMM PUT (DRO tool step, 정확 계산). CMM 영속만 — model.maturity WS 는 Nexus 가 chain 완료 시 CM fetch 로 생성 (#12, DRO 미발사).",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "maturity.compute",
+      "params": {
+        "clarity": "$.steps.2",
+        "completeness": "$.steps.3",
+        "potential": "$.steps.4"
+      },
+      "output_contract": "maturity-compute-output",
+      "display_status": {
+        "ko": "구체화 정도를 계산하고 있어요",
+        "en": "Computing maturity…"
+      }
+    },
+    {
+      "id": "6",
+      "description": "Roadmap 갱신 (Agent step). conversation + IOM + CMM + CDS + 현재 roadmap 보고 새 items list 작성. 4-mode reasoning (분화/해소/신설/유지) + id 보존.",
+      "inject_context": {
+        "conversation": "cm://conversation",
+        "concept_maturity_model": "cm://concept_maturity_model",
+        "concept_discovery_stack": "cm://concept_discovery_stack",
+        "user_roadmap": "cm://user_roadmap"
+      },
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R00/update_roadmap.md"
+      },
+      "llm_tools": [],
+      "output_contract": "update-roadmap-output",
+      "display_status": {
+        "ko": "다음 단계를 정리하고 있어요",
+        "en": "Planning next steps…"
+      }
+    },
+    {
+      "id": "7",
+      "description": "Roadmap items list CM PUT (DRO tool step, top-level array). UR 영속만 — model.roadmap WS 는 Nexus 가 chain 완료 시 CM fetch 로 생성 (#12, DRO 미발사).",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "roadmap.persist",
+      "params": {
+        "items": "$.steps.6"
+      },
+      "output_contract": "roadmap-persisted-output",
+      "display_status": {
+        "ko": "로드맵을 저장하고 있어요",
+        "en": "Saving the roadmap…"
+      }
+    }
+  ]
+}

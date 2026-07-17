@@ -1,0 +1,725 @@
+{
+  "subclass": "G04C",
+  "title": {
+    "ko": "전자기계식 시계 또는 휴대 시계",
+    "en": "ELECTROMECHANICAL CLOCKS OR WATCHES"
+  },
+  "definition": {
+    "ko": "기계적 시계의 전기감기 G04C1/00 전기기계시계의 운동기구; 전기적 또는 전기적 탈진기 G04C3/00, G04C5/00 시각의 지시 광학적 음향적 수단 시각 맞춤 G04C17/00; 19/00; 21/00 전원 G04C9/00 동기화; 모자시계방식; 동기전동기시계 G04C10/00 예정시각에 장치를 조작하는 시계 G04C11/00; 13/00; 15/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제사항 G04C23/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G04C 1/00",
+      "title": {
+        "ko": "기계 시계의 전기적 감기",
+        "en": "Electric winding of mechanical clocks; Independent electric clocks or watches"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04C 1/00",
+      "title": {
+        "ko": "기계 시계의 전기적 감기",
+        "en": "Winding mechanical clocks electrically"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 1/02",
+          "title": {
+            "ko": null,
+            "en": "by electromagnets"
+          }
+        },
+        {
+          "code": "G04C 1/04",
+          "title": {
+            "ko": null,
+            "en": "by electric motors with rotating or with reciprocating movement"
+          }
+        },
+        {
+          "code": "G04C 1/06",
+          "title": {
+            "ko": null,
+            "en": "winding-up springs"
+          }
+        },
+        {
+          "code": "G04C 1/08",
+          "title": {
+            "ko": null,
+            "en": "raising weights"
+          }
+        },
+        {
+          "code": "G04C 1/10",
+          "title": {
+            "ko": "권과 방지",
+            "en": "Protection against overwinding"
+          }
+        },
+        {
+          "code": "G04C 1/12",
+          "title": {
+            "ko": null,
+            "en": "of the spring"
+          }
+        },
+        {
+          "code": "G04C 1/14",
+          "title": {
+            "ko": null,
+            "en": "of the weights"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 3/00",
+      "title": {
+        "ko": "다른 시계와 독립적이고 운동이 전기적 수단에 의해 유지되는 전기기계식 시계 또는 휴대용 시계 (동기식 모터에 의한 시계 구동 G04C15/00)",
+        "en": "Electromechanical clocks or watches independent of other time-pieces and in which the movement is maintained by electric means (clocks driven by synchronous motors G04C0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 3/02",
+          "title": {
+            "ko": "운동이 진자에 의해 조정되는 것",
+            "en": "wherein movement is regulated by a pendulum"
+          }
+        },
+        {
+          "code": "G04C 3/027",
+          "title": {
+            "ko": "전원과 진자와의 전자기적 결합을 사용하는 것 (G04C3/033이 우선)",
+            "en": "using electromagnetic coupling between electric power source and pendulum (G04C0003033000 takes precedence)"
+          }
+        },
+        {
+          "code": "G04C 3/033",
+          "title": {
+            "ko": "비틀림 진자를 사용하는 것; 원추 진자를 사용하는 것",
+            "en": "using torsion pendulums; using conical pendulums"
+          }
+        },
+        {
+          "code": "G04C 3/04",
+          "title": {
+            "ko": null,
+            "en": "wherein movement is regulated by a balance"
+          }
+        },
+        {
+          "code": "G04C 3/06",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic coupling between electric power source and balance"
+          }
+        },
+        {
+          "code": "G04C 3/08",
+          "title": {
+            "ko": null,
+            "en": "wherein movement is regulated by a mechanical oscillator other than a pendulum or balance, e.g. by a tuning fork"
+          }
+        },
+        {
+          "code": "G04C 3/10",
+          "title": {
+            "ko": null,
+            "en": "driven by electromagnetic means"
+          }
+        },
+        {
+          "code": "G04C 3/12",
+          "title": {
+            "ko": null,
+            "en": "driven by piezoelectric means; driven by magnetostrictive means"
+          }
+        },
+        {
+          "code": "G04C 3/14",
+          "title": {
+            "ko": "스텝모터를 넣어 만든 것 (G04C3/02 - G04C3/12가 우선)",
+            "en": "incorporating a stepping motor (G04C0003020000-G04C0003120000 take precedence)"
+          }
+        },
+        {
+          "code": "G04C 3/16",
+          "title": {
+            "ko": "연속 회전하는 전동기를 넣어 만든 것(3/02 ～ 3/12가 우선; 동기전동기에 의하여 구동되는 시계 15/00)",
+            "en": "incorporating an electro-dynamic continuously rotating motor (G04C0003020000-G04C0003120000 take precedence)"
+          }
+        },
+        {
+          "code": "G04C 3/18",
+          "title": {
+            "ko": null,
+            "en": "incorporating electro-thermal or electro-pneumatic driving means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 5/00",
+      "title": {
+        "ko": "진동을 회전운동으로 변환하기 위한 시계에 있어서의 전기적 혹은 자기적 수단, 즉 전기적 또는 자기적 탈진기 (조정기 G04C3/00)",
+        "en": "Electric or magnetic means for converting oscillatory to rotary motion in time-pieces, i.e. electric or magnetic escapements (regulators G04C0003000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04C 9/00",
+      "title": {
+        "ko": "시각 표시 수단을 설정하기 위한 전기적 작동장치 (보조 시계 G04C13/03)",
+        "en": "Electrically-actuated devices for setting the time-indicating means  (of secondary clocks G04C0013030000)"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 9/04",
+          "title": {
+            "ko": null,
+            "en": "by blocking the driving means"
+          }
+        },
+        {
+          "code": "G04C 9/06",
+          "title": {
+            "ko": "구동수단을 잘라 흩어지게 하는 것에 의한 것 (억제수단과 결합되는 것 G04C9/04)",
+            "en": "by decoupling the driving means (combined with blocking means G04C0009040000)"
+          }
+        },
+        {
+          "code": "G04C 9/08",
+          "title": {
+            "ko": null,
+            "en": "by electric drive"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 10/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements of electric power supplies in time-pieces"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 10/02",
+          "title": {
+            "ko": null,
+            "en": "the power supply being a radioactive source"
+          }
+        },
+        {
+          "code": "G04C 10/04",
+          "title": {
+            "ko": null,
+            "en": "with means for indicating the condition of the power supply"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 11/00",
+      "title": {
+        "ko": "독립적으로 구동되는 시계의 동기화",
+        "en": "Electric clock installations; Primary-and-secondary clock systems; Synchronous-motor clocks"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04C 11/00",
+      "title": {
+        "ko": "독립적으로 구동되는 시계의 동기화",
+        "en": "Synchronisation of independently-driven clocks"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 11/04",
+          "title": {
+            "ko": "전송선에 의한 것",
+            "en": "over a line"
+          }
+        },
+        {
+          "code": "G04C 11/06",
+          "title": {
+            "ko": null,
+            "en": "with direct mechanical action on the time-indicating means"
+          }
+        },
+        {
+          "code": "G04C 11/08",
+          "title": {
+            "ko": null,
+            "en": "using an electric magnet or motor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 13/00",
+      "title": {
+        "ko": "모시계에 의한 시계구동기구",
+        "en": "Driving mechanisms for clocks by primary clocks"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 13/02",
+          "title": {
+            "ko": "회로 장치; 전기 시계 장치",
+            "en": "Circuit arrangements; Electric clock installations"
+          }
+        },
+        {
+          "code": "G04C 13/03",
+          "title": {
+            "ko": null,
+            "en": "Pulse transmission systems with additional means for setting the time indication of secondary clocks"
+          }
+        },
+        {
+          "code": "G04C 13/04",
+          "title": {
+            "ko": "모시계",
+            "en": "Primary clocks"
+          }
+        },
+        {
+          "code": "G04C 13/06",
+          "title": {
+            "ko": "접점기구(복수의 시계를 동시에 감아 올리는 것 G04C 1/00)",
+            "en": "Contact devices (for simultaneously winding several clocks G04C0001000000)"
+          }
+        },
+        {
+          "code": "G04C 13/08",
+          "title": {
+            "ko": null,
+            "en": "Secondary clocks actuated intermittently"
+          }
+        },
+        {
+          "code": "G04C 13/10",
+          "title": {
+            "ko": null,
+            "en": "by electromechanical step-advancing mechanisms"
+          }
+        },
+        {
+          "code": "G04C 13/11",
+          "title": {
+            "ko": null,
+            "en": "with rotating armature"
+          }
+        },
+        {
+          "code": "G04C 13/12",
+          "title": {
+            "ko": null,
+            "en": "by continuously-rotating electric motors"
+          }
+        },
+        {
+          "code": "G04C 13/14",
+          "title": {
+            "ko": null,
+            "en": "by electrically-released mechanical driving mechanisms"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Clocks driven by synchronous motors"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04C 17/00",
+      "title": {
+        "ko": "전기적 수단에 의한 광학적 시각 표시 (G04C19/00이 우선)",
+        "en": "Indicating the time or producing time signals electrically"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04C 17/00",
+      "title": {
+        "ko": "전기적 수단에 의한 광학적 시각 표시 (G04C19/00이 우선)",
+        "en": "Indicating the time optically by electric means (G04C0019000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 17/02",
+          "title": {
+            "ko": null,
+            "en": "by electric lamps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 19/00",
+      "title": {
+        "ko": null,
+        "en": "Producing optical time signals at prefixed times by electric means"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 19/02",
+          "title": {
+            "ko": null,
+            "en": "by electric lamps"
+          }
+        },
+        {
+          "code": "G04C 19/04",
+          "title": {
+            "ko": null,
+            "en": "by indicating members moved electrically, e.g. flap, band"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 21/00",
+      "title": {
+        "ko": "전기적 수단에 의하여 음향적 시각신호를 발생하는 것",
+        "en": "Producing acoustic time signals by electrical means"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 21/02",
+          "title": {
+            "ko": "구조의 세부(G04C 21/04, G04C 21/16이 우선)",
+            "en": "Constructional details (G04C0021040000, G04C0021160000 take precedence)"
+          }
+        },
+        {
+          "code": "G04C 21/04",
+          "title": {
+            "ko": "시각의 표시",
+            "en": "Indicating the time of the day"
+          }
+        },
+        {
+          "code": "G04C 21/06",
+          "title": {
+            "ko": null,
+            "en": "by striking mechanism"
+          }
+        },
+        {
+          "code": "G04C 21/08",
+          "title": {
+            "ko": null,
+            "en": "with snail"
+          }
+        },
+        {
+          "code": "G04C 21/10",
+          "title": {
+            "ko": null,
+            "en": "with locking plate"
+          }
+        },
+        {
+          "code": "G04C 21/12",
+          "title": {
+            "ko": null,
+            "en": "by electro-acoustic means"
+          }
+        },
+        {
+          "code": "G04C 21/14",
+          "title": {
+            "ko": null,
+            "en": "Electro-acoustic time announcement, i.e. spoken"
+          }
+        },
+        {
+          "code": "G04C 21/16",
+          "title": {
+            "ko": null,
+            "en": "producing the signals at adjustable fixed times"
+          }
+        },
+        {
+          "code": "G04C 21/18",
+          "title": {
+            "ko": null,
+            "en": "by mechanically unlocking an electromechanical vibrator, e.g. actuated by the leakage flux of the electric driving means"
+          }
+        },
+        {
+          "code": "G04C 21/20",
+          "title": {
+            "ko": null,
+            "en": "by closing a contact to ring an electromechanical alarm"
+          }
+        },
+        {
+          "code": "G04C 21/22",
+          "title": {
+            "ko": null,
+            "en": "put into action by the arbor of a mechanical alarm work"
+          }
+        },
+        {
+          "code": "G04C 21/24",
+          "title": {
+            "ko": null,
+            "en": "put into action by the spring of a mechanical alarm work"
+          }
+        },
+        {
+          "code": "G04C 21/26",
+          "title": {
+            "ko": null,
+            "en": "put into action by the vibrations caused by the operation of a mechanical alarm work"
+          }
+        },
+        {
+          "code": "G04C 21/28",
+          "title": {
+            "ko": null,
+            "en": "by closing a contact to put into action electro-acoustic means, e.g. awakening by music"
+          }
+        },
+        {
+          "code": "G04C 21/30",
+          "title": {
+            "ko": null,
+            "en": "with provision for a number of operations at different times, e.g. ringing the bells in a school"
+          }
+        },
+        {
+          "code": "G04C 21/32",
+          "title": {
+            "ko": null,
+            "en": "giving indications at a number of places, each at a different time, e.g. system of alarms in a hotel"
+          }
+        },
+        {
+          "code": "G04C 21/34",
+          "title": {
+            "ko": null,
+            "en": "Devices on watches or similar portable time-pieces"
+          }
+        },
+        {
+          "code": "G04C 21/36",
+          "title": {
+            "ko": null,
+            "en": "Signal-repeating devices"
+          }
+        },
+        {
+          "code": "G04C 21/38",
+          "title": {
+            "ko": null,
+            "en": "Adjusting the duration of signals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 23/00",
+      "title": {
+        "ko": "미리 선정된 시각 또는 미리 선정된 시간 간격의 후에 장치를 작동하는 부착되거나 내장되어 있는 시계 (전기적 방법으로 음향 시간 신호를 생성하는 것으로 제한되는 경우 G04C21/00)",
+        "en": "Clocks with attached or built-in means operating any device at preselected times or after preselected time-intervals (if restricted to producing acoustic time signals by electrical means G04C0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G04C 23/02",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "G04C 23/04",
+          "title": {
+            "ko": null,
+            "en": "Housings, supports, shielding, or similar stationary parts"
+          }
+        },
+        {
+          "code": "G04C 23/06",
+          "title": {
+            "ko": null,
+            "en": "Driving or regulating means"
+          }
+        },
+        {
+          "code": "G04C 23/08",
+          "title": {
+            "ko": null,
+            "en": "Programming means"
+          }
+        },
+        {
+          "code": "G04C 23/10",
+          "title": {
+            "ko": null,
+            "en": "for actuating any element which operates, or initiates the operation of, the device concerned"
+          }
+        },
+        {
+          "code": "G04C 23/12",
+          "title": {
+            "ko": null,
+            "en": "Electric circuitry"
+          }
+        },
+        {
+          "code": "G04C 23/14",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms continuously running to relate the operation(s) to the time of day"
+          }
+        },
+        {
+          "code": "G04C 23/16",
+          "title": {
+            "ko": null,
+            "en": "acting only at one preselected time or during one adjustable time interval"
+          }
+        },
+        {
+          "code": "G04C 23/18",
+          "title": {
+            "ko": null,
+            "en": "for operating one device at a number of different times"
+          }
+        },
+        {
+          "code": "G04C 23/20",
+          "title": {
+            "ko": null,
+            "en": "with contacts operated, or formed, by clock hands or elements of similar form"
+          }
+        },
+        {
+          "code": "G04C 23/22",
+          "title": {
+            "ko": null,
+            "en": "with the actuating element carried by a disc"
+          }
+        },
+        {
+          "code": "G04C 23/24",
+          "title": {
+            "ko": null,
+            "en": "the actuating element controlling another element mechanically"
+          }
+        },
+        {
+          "code": "G04C 23/26",
+          "title": {
+            "ko": null,
+            "en": "for operating a number of devices at different times"
+          }
+        },
+        {
+          "code": "G04C 23/28",
+          "title": {
+            "ko": null,
+            "en": "with contacts operated, or formed, by clock hands or elements of similar form"
+          }
+        },
+        {
+          "code": "G04C 23/30",
+          "title": {
+            "ko": null,
+            "en": "with the actuating element carried by a disc"
+          }
+        },
+        {
+          "code": "G04C 23/32",
+          "title": {
+            "ko": null,
+            "en": "the actuating element controlling another element mechanically"
+          }
+        },
+        {
+          "code": "G04C 23/34",
+          "title": {
+            "ko": null,
+            "en": "with provision for automatic modification of the programme, e.g. on Sunday"
+          }
+        },
+        {
+          "code": "G04C 23/36",
+          "title": {
+            "ko": null,
+            "en": "by external influences"
+          }
+        },
+        {
+          "code": "G04C 23/38",
+          "title": {
+            "ko": "시작하는 시각에 관계없이 선택된 시간간격을 측정하는 기구",
+            "en": "Mechanisms measuring a chosen time interval independently of the time of day at which the interval starts"
+          }
+        },
+        {
+          "code": "G04C 23/40",
+          "title": {
+            "ko": null,
+            "en": "using continuously-running mechanism"
+          }
+        },
+        {
+          "code": "G04C 23/42",
+          "title": {
+            "ko": "1개의 시간간격 끝에만 작동하는 것",
+            "en": "acting only at the end of a single time interval"
+          }
+        },
+        {
+          "code": "G04C 23/44",
+          "title": {
+            "ko": null,
+            "en": "with provision for selection from a number of preset intervals"
+          }
+        },
+        {
+          "code": "G04C 23/46",
+          "title": {
+            "ko": "시간간격을 조정할 수 있는 것(G04C 23/44가 우선)",
+            "en": "with provision for adjustment of the interval (G04C0023440000 takes precedence)"
+          }
+        },
+        {
+          "code": "G04C 23/48",
+          "title": {
+            "ko": null,
+            "en": "acting at the ends of successive time intervals"
+          }
+        },
+        {
+          "code": "G04C 23/50",
+          "title": {
+            "ko": null,
+            "en": "with provision for modification of the interval(s) by external influences"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

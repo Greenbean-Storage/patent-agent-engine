@@ -1,0 +1,307 @@
+{
+  "subclass": "G04F",
+  "title": {
+    "ko": "시간 간격 측정 (펄스 특성을 측정하는 것 G01R, 예. G01R29/02; 레이더 또는 유사한 시스템에서의 것 G01S)",
+    "en": "TIME-INTERVAL MEASURING (measuring pulse characteristics G01R, e.g. G01R0029020000;in radar or like systems G01S)"
+  },
+  "definition": {
+    "ko": "미리 정해진 시간간격을 측정하는 것 시간표준을 발생하는 것 G04F5/00 장치; 구동기구가 없는 것; 구동기구가 있는 것 G04F1/00; 3/00 말지의 시간간격을 측정하는 것 기계적; 전자기계적; 전기적; 기타 G04F7/00; 8/00; 10/00; 13/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G04F 1/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus which can be set and started to measure-off predetermined or adjustably-fixed time intervals without driving mechanisms, e.g. egg timers"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 1/02",
+          "title": {
+            "ko": null,
+            "en": "by consuming prefixed quantities of materials, e.g. by burning candle"
+          }
+        },
+        {
+          "code": "G04F 1/04",
+          "title": {
+            "ko": null,
+            "en": "by movement or acceleration due to gravity"
+          }
+        },
+        {
+          "code": "G04F 1/06",
+          "title": {
+            "ko": null,
+            "en": "by flowing-away of a prefixed quantity of fine-granular or liquid materials, e.g. sand-glass, water-clock"
+          }
+        },
+        {
+          "code": "G04F 1/08",
+          "title": {
+            "ko": null,
+            "en": "by a body falling a prefixed distance in air or in a viscous material"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 3/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus which can be set and started to measure-off predetermined or adjustably-fixed time intervals with driving mechanisms, e.g. dosimeters with clockwork"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 3/02",
+          "title": {
+            "ko": null,
+            "en": "with mechanical driving mechanisms"
+          }
+        },
+        {
+          "code": "G04F 3/04",
+          "title": {
+            "ko": null,
+            "en": "Additional arrangements in connection with ordinary non-electric clocks for this purpose"
+          }
+        },
+        {
+          "code": "G04F 3/06",
+          "title": {
+            "ko": null,
+            "en": "with electric driving mechanisms"
+          }
+        },
+        {
+          "code": "G04F 3/08",
+          "title": {
+            "ko": null,
+            "en": "Additional arrangements in connection with ordinary electric clocks for this purpose"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 5/00",
+      "title": {
+        "ko": "타이밍 표준으로 사용하기 위해 미리 선택된 시간 간격을 생성하는 장치 (전기 디지털 컴퓨터용 시계 신호를 생성하는 것 G06F1/04)",
+        "en": "Apparatus for producing preselected time intervals for use as timing standards (generating clock signals for electric digital computers G06F0001040000)"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 5/02",
+          "title": {
+            "ko": null,
+            "en": "Metronomes"
+          }
+        },
+        {
+          "code": "G04F 5/04",
+          "title": {
+            "ko": null,
+            "en": "using oscillators with electromechanical resonators"
+          }
+        },
+        {
+          "code": "G04F 5/06",
+          "title": {
+            "ko": null,
+            "en": "using piezoelectric resonators"
+          }
+        },
+        {
+          "code": "G04F 5/08",
+          "title": {
+            "ko": null,
+            "en": "using magnetostrictive resonators"
+          }
+        },
+        {
+          "code": "G04F 5/10",
+          "title": {
+            "ko": "전기적 또는 전자적 공진기를 사용하는 것 (G04F5/14 가 우선)",
+            "en": "using electric or electronic resonators (G04F0005140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G04F 5/12",
+          "title": {
+            "ko": null,
+            "en": "using fluidic devices"
+          }
+        },
+        {
+          "code": "G04F 5/14",
+          "title": {
+            "ko": null,
+            "en": "using atomic clocks"
+          }
+        },
+        {
+          "code": "G04F 5/16",
+          "title": {
+            "ko": null,
+            "en": "using pulses produced by radio-isotopes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 7/00",
+      "title": {
+        "ko": "비전기적 수단으로 미지의 시간 간격을 측정하기 위한 장치 (유체 수단을 사용하는 것 G04F13/06)",
+        "en": "Apparatus for measuring unknown time intervals by non-electric means  (using fluidic means G04F0013060000)"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 7/02",
+          "title": {
+            "ko": null,
+            "en": "by measuring the distance of fall or the final velocity of a falling body"
+          }
+        },
+        {
+          "code": "G04F 7/04",
+          "title": {
+            "ko": null,
+            "en": "using a mechanical oscillator"
+          }
+        },
+        {
+          "code": "G04F 7/06",
+          "title": {
+            "ko": null,
+            "en": "running only during the time interval to be measured, e.g. stopwatches"
+          }
+        },
+        {
+          "code": "G04F 7/08",
+          "title": {
+            "ko": null,
+            "en": "Watches or clocks with stop devices, e.g. chronograph"
+          }
+        },
+        {
+          "code": "G04F 7/10",
+          "title": {
+            "ko": null,
+            "en": "Means used apart from the time-piece for starting or stopping same"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 8/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for measuring unknown time intervals by electromechanical means"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 8/02",
+          "title": {
+            "ko": null,
+            "en": "using an electromechanical oscillator"
+          }
+        },
+        {
+          "code": "G04F 8/04",
+          "title": {
+            "ko": null,
+            "en": "using a piezoelectric oscillator"
+          }
+        },
+        {
+          "code": "G04F 8/06",
+          "title": {
+            "ko": null,
+            "en": "using a magnetostrictive oscillator"
+          }
+        },
+        {
+          "code": "G04F 8/08",
+          "title": {
+            "ko": null,
+            "en": "Means used apart from the time-piece for starting or stopping same"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 10/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for measuring unknown time intervals by electric means"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 10/02",
+          "title": {
+            "ko": null,
+            "en": "using oscillators with passive electric resonator, e.g. lumped LC"
+          }
+        },
+        {
+          "code": "G04F 10/04",
+          "title": {
+            "ko": null,
+            "en": "by counting pulses or half-cycles of an AC"
+          }
+        },
+        {
+          "code": "G04F 10/06",
+          "title": {
+            "ko": null,
+            "en": "by measuring phase"
+          }
+        },
+        {
+          "code": "G04F 10/08",
+          "title": {
+            "ko": null,
+            "en": "using pulses produced by radio-isotopes"
+          }
+        },
+        {
+          "code": "G04F 10/10",
+          "title": {
+            "ko": null,
+            "en": "by measuring electric or magnetic quantities changing in proportion to time"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 13/00",
+      "title": {
+        "ko": "그룹 G04F5/00-G04F10/00사이에 분류되지 않은 수단에 의하여 미지 시간간격을 측정하는 장치",
+        "en": "Apparatus for measuring unknown time intervals by means not provided for in groups G04F0005000000-G04F0010000000"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 13/02",
+          "title": {
+            "ko": null,
+            "en": "using optical means"
+          }
+        },
+        {
+          "code": "G04F 13/04",
+          "title": {
+            "ko": null,
+            "en": "using electrochemical means"
+          }
+        },
+        {
+          "code": "G04F 13/06",
+          "title": {
+            "ko": null,
+            "en": "using fluidic means"
+          }
+        }
+      ]
+    }
+  ]
+}

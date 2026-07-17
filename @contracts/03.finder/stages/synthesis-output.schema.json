@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "novelty_assessment": {
+      "type": "string"
+    },
+    "non_obviousness_assessment": {
+      "type": "string"
+    },
+    "exclusivity_assessment": {
+      "type": "string"
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3,
+      "maxItems": 7
+    },
+    "claim_strategy": {
+      "type": "string"
+    },
+    "risk_factors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "maxItems": 5
+    },
+    "confidence_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "total_patents_found": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "novelty_assessment",
+    "non_obviousness_assessment",
+    "exclusivity_assessment",
+    "recommendations",
+    "claim_strategy",
+    "risk_factors",
+    "confidence_score",
+    "total_patents_found"
+  ]
+}

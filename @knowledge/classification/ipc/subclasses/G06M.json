@@ -1,0 +1,340 @@
+{
+  "subclass": "G06M",
+  "title": {
+    "ko": "계수 메커니즘; 달리 분류되지 않는 객체 계산",
+    "en": "COUNTING MECHANISMS; COUNTING OF OBJECTS NOT OTHERWISE PROVIDED FOR"
+  },
+  "definition": {
+    "ko": "이 서브클래스는 다음의 것을 포함한다. - 단계적으로 또는 연속적으로 동작하는 기계식 계수기에서 최하위단에 기계적으로 또는 전기적으로 인가되는 하나 또는 그 이상의 입력으로 작동되는 것 - 계수시스템으로써 기계식, 전기식 또는 전자식 중 어느 것을 사용하는 것",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G06M 1/00",
+      "title": {
+        "ko": "일반적 구성사항",
+        "en": "Design features of general application"
+      },
+      "subgroups": [
+        {
+          "code": "G06M 1/02",
+          "title": {
+            "ko": "하우징",
+            "en": "Housing"
+          }
+        },
+        {
+          "code": "G06M 1/04",
+          "title": {
+            "ko": "최하위단의 구동용(구동비가 가변적인 것 1/38)",
+            "en": "for driving the stage of lowest order (with variable ratio of drive G06M0001380000)"
+          }
+        },
+        {
+          "code": "G06M 1/06",
+          "title": {
+            "ko": null,
+            "en": "producing continuous revolution of the stage, e.g. with gear train"
+          }
+        },
+        {
+          "code": "G06M 1/08",
+          "title": {
+            "ko": null,
+            "en": "for actuating the drive"
+          }
+        },
+        {
+          "code": "G06M 1/10",
+          "title": {
+            "ko": null,
+            "en": "by electric or magnetic means"
+          }
+        },
+        {
+          "code": "G06M 1/12",
+          "title": {
+            "ko": null,
+            "en": "by fluid means"
+          }
+        },
+        {
+          "code": "G06M 1/14",
+          "title": {
+            "ko": "어떤 단으로부터 고위 단으로 어떤 상태를 전달하기 위한 것 (전달비가 가변인 것 G06M1/38)",
+            "en": "for transferring a condition from one stage to a higher stage (with variable ratio of transfer G06M0001380000)"
+          }
+        },
+        {
+          "code": "G06M 1/16",
+          "title": {
+            "ko": null,
+            "en": "self-operating, e.g. by Geneva mechanism"
+          }
+        },
+        {
+          "code": "G06M 1/18",
+          "title": {
+            "ko": null,
+            "en": "requiring external operation, e.g. by electromagnetic force"
+          }
+        },
+        {
+          "code": "G06M 1/20",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for denominations with unequal numbers in each stage, e.g. degrees and minutes of angle"
+          }
+        },
+        {
+          "code": "G06M 1/22",
+          "title": {
+            "ko": null,
+            "en": "for visual indication of the result of count on counting mechanisms, e.g. by window with magnifying lens"
+          }
+        },
+        {
+          "code": "G06M 1/24",
+          "title": {
+            "ko": null,
+            "en": "Drums; Dials; Pointers"
+          }
+        },
+        {
+          "code": "G06M 1/26",
+          "title": {
+            "ko": null,
+            "en": "Aligning means"
+          }
+        },
+        {
+          "code": "G06M 1/27",
+          "title": {
+            "ko": null,
+            "en": "for representing the result of count in the form of electric signals, e.g. by sensing markings on the counter drum"
+          }
+        },
+        {
+          "code": "G06M 1/272",
+          "title": {
+            "ko": null,
+            "en": "using photoelectric means"
+          }
+        },
+        {
+          "code": "G06M 1/274",
+          "title": {
+            "ko": null,
+            "en": "using magnetic means; using Hall-effect devices"
+          }
+        },
+        {
+          "code": "G06M 1/276",
+          "title": {
+            "ko": null,
+            "en": "using mechanically-actuated contacts"
+          }
+        },
+        {
+          "code": "G06M 1/28",
+          "title": {
+            "ko": null,
+            "en": "for zeroising or setting to a particular value"
+          }
+        },
+        {
+          "code": "G06M 1/30",
+          "title": {
+            "ko": null,
+            "en": "using heart-shaped or similar cams; using levers"
+          }
+        },
+        {
+          "code": "G06M 1/32",
+          "title": {
+            "ko": null,
+            "en": "Actuating means, e.g. magnet, spring, weight"
+          }
+        },
+        {
+          "code": "G06M 1/34",
+          "title": {
+            "ko": null,
+            "en": "using reset shafts"
+          }
+        },
+        {
+          "code": "G06M 1/36",
+          "title": {
+            "ko": null,
+            "en": "Actuating means, e.g. magnet, spring, weight"
+          }
+        },
+        {
+          "code": "G06M 1/38",
+          "title": {
+            "ko": null,
+            "en": "for varying ratio of drive or transfer mechanism, e.g. by using alternative counting trains"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06M 3/00",
+      "title": {
+        "ko": "부가적 수단을 갖는 카운터",
+        "en": "Counters with additional facilities"
+      },
+      "subgroups": [
+        {
+          "code": "G06M 3/02",
+          "title": {
+            "ko": null,
+            "en": "for performing an operation at a predetermined value of the count, e.g. arresting a machine"
+          }
+        },
+        {
+          "code": "G06M 3/04",
+          "title": {
+            "ko": null,
+            "en": "with an additional counter train operating in the reverse direction"
+          }
+        },
+        {
+          "code": "G06M 3/06",
+          "title": {
+            "ko": "인쇄하거나 별도로 계산 결과를 표시하기 위한 것",
+            "en": "for printing or separately displaying result of count"
+          }
+        },
+        {
+          "code": "G06M 3/08",
+          "title": {
+            "ko": null,
+            "en": "for counting the input from several sources; for counting inputs of different amounts"
+          }
+        },
+        {
+          "code": "G06M 3/10",
+          "title": {
+            "ko": "각 단계에서 단위가 같지 않은 것을 계산하는 경우, 예. 각도의 도나 분",
+            "en": "for counting denominations with unequal numbers in each stage, e.g. degrees and minutes of angle"
+          }
+        },
+        {
+          "code": "G06M 3/12",
+          "title": {
+            "ko": null,
+            "en": "for preventing incorrect actuation, e.g. for preventing falsification"
+          }
+        },
+        {
+          "code": "G06M 3/14",
+          "title": {
+            "ko": null,
+            "en": "for registering difference of positive and negative actuations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06M 7/00",
+      "title": {
+        "ko": null,
+        "en": "Counting of objects"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06M 7/00",
+      "title": {
+        "ko": null,
+        "en": "Counting of objects carried by a conveyor"
+      },
+      "subgroups": [
+        {
+          "code": "G06M 7/02",
+          "title": {
+            "ko": null,
+            "en": "wherein objects ahead of the sensing element are separated to produce a distinct gap between successive objects"
+          }
+        },
+        {
+          "code": "G06M 7/04",
+          "title": {
+            "ko": null,
+            "en": "Counting of piece goods, e.g. of boxes"
+          }
+        },
+        {
+          "code": "G06M 7/06",
+          "title": {
+            "ko": null,
+            "en": "Counting of flat articles, e.g. of sheets of paper"
+          }
+        },
+        {
+          "code": "G06M 7/08",
+          "title": {
+            "ko": null,
+            "en": "wherein the direction of movement of the objects is changed at the station where they are sensed"
+          }
+        },
+        {
+          "code": "G06M 7/10",
+          "title": {
+            "ko": null,
+            "en": "Counting of flat overlapped articles, e.g. of cards"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06M 9/00",
+      "title": {
+        "ko": null,
+        "en": "Counting of objects in a stack thereof"
+      },
+      "subgroups": [
+        {
+          "code": "G06M 9/02",
+          "title": {
+            "ko": null,
+            "en": "by using a rotating separator incorporating pneumatic suction nozzles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06M 11/00",
+      "title": {
+        "ko": "불규칙하게 분포되어 있는 물품의 계수, 예. 한 표면상에 분포하고 있는 것의 계수",
+        "en": "Counting of objects distributed at random, e.g. on a surface"
+      },
+      "subgroups": [
+        {
+          "code": "G06M 11/02",
+          "title": {
+            "ko": "하나의 표면을 계속선상으로 주사하는 전자빔을 사용하는 것, 예. 기판상의 혈구에 관한 것",
+            "en": "using an electron beam scanning a surface line by line, e.g. of blood cells on a substrate"
+          }
+        },
+        {
+          "code": "G06M 11/04",
+          "title": {
+            "ko": "다양한 크기의 물품을 구별하는 수단을 갖는 것",
+            "en": "with provision for distinguishing between different sizes of objects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06M 15/00",
+      "title": {
+        "ko": null,
+        "en": "Counting of objects, not otherwise provided for"
+      },
+      "subgroups": []
+    }
+  ]
+}

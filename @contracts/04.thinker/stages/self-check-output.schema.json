@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "issues": {
+      "type": "integer"
+    },
+    "corrected_claims": {
+      "type": "string"
+    },
+    "self_check_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "issues",
+    "corrected_claims",
+    "self_check_notes"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "chosen_tool": { "enum": ["plantuml", "openscad", "schemdraw"], "type": "string" },
+    "file_extension": { "enum": ["puml", "scad", "py"], "type": "string" },
+    "figure_format": { "enum": ["svg", "png"], "type": "string" },
+    "rationale": { "type": "string" }
+  },
+  "required": ["chosen_tool", "file_extension", "figure_format", "rationale"]
+}

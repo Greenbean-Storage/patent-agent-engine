@@ -1,0 +1,207 @@
+{
+  "subclass": "G01H",
+  "title": {
+    "ko": "기계적 진동 또는 초음파, 음파 또는 초저주파의 측정",
+    "en": "MEASUREMENT OF MECHANICAL VIBRATIONS OR ULTRASONIC, SONIC OR INFRASONIC WAVES"
+  },
+  "definition": {
+    "ko": "측정 원리 직접행하는 것; 유체중에 검출하는 것; 방사에 대한 감도에 의해 검출하는 것; 전기 또는 자기적인 성질변화의 검출에 의한 것 G01H1/00; 3/00; 9/00; 11/00 측정 특성에 특징이 있는 것 전파속도; 잔향시간; 공진주파수; 기계적 또는 음향 임피던스 G01H5/00; 7/00; 13/00; 15/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01H 1/00",
+      "title": {
+        "ko": "검출기에 직접 작용에 의한 고체진동의 측정(G01H 9/00, G01H 11/00이 우선)",
+        "en": "Measuring vibrations in solids by using direct conduction to the detector (G01H0009000000, G01H0011000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01H 1/04",
+          "title": {
+            "ko": null,
+            "en": "of vibrations which are transverse to direction of propagation"
+          }
+        },
+        {
+          "code": "G01H 1/06",
+          "title": {
+            "ko": null,
+            "en": "Frequency"
+          }
+        },
+        {
+          "code": "G01H 1/08",
+          "title": {
+            "ko": null,
+            "en": "Amplitude"
+          }
+        },
+        {
+          "code": "G01H 1/10",
+          "title": {
+            "ko": null,
+            "en": "of torsional vibrations"
+          }
+        },
+        {
+          "code": "G01H 1/12",
+          "title": {
+            "ko": null,
+            "en": "of longitudinal or not specified vibrations"
+          }
+        },
+        {
+          "code": "G01H 1/14",
+          "title": {
+            "ko": null,
+            "en": "Frequency"
+          }
+        },
+        {
+          "code": "G01H 1/16",
+          "title": {
+            "ko": null,
+            "en": "Amplitude"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01H 3/00",
+      "title": {
+        "ko": "검출기를 유체중에 넣어 진동을 측정하는 것(G01H 7/00, G01H 9/00, G01H 11/00 우선)",
+        "en": "Measuring vibrations by using a detector in a fluid (G01H0007000000, G01H0009000000, G01H0011000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01H 3/04",
+          "title": {
+            "ko": null,
+            "en": "Frequency"
+          }
+        },
+        {
+          "code": "G01H 3/06",
+          "title": {
+            "ko": null,
+            "en": "by electric means"
+          }
+        },
+        {
+          "code": "G01H 3/08",
+          "title": {
+            "ko": null,
+            "en": "Analysing frequencies present in complex vibrations, e.g. comparing harmonics present"
+          }
+        },
+        {
+          "code": "G01H 3/10",
+          "title": {
+            "ko": "진폭; 전력",
+            "en": "Amplitude; Power"
+          }
+        },
+        {
+          "code": "G01H 3/12",
+          "title": {
+            "ko": "전기적 수단에 의한 것(G01H 3/14가 우선)",
+            "en": "by electric means (G01H0003140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01H 3/14",
+          "title": {
+            "ko": null,
+            "en": "Measuring mean amplitude; Measuring mean power; Measuring time integral of power"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01H 5/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring propagation velocity of ultrasonic, sonic or infrasonic waves"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01H 7/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring reverberation time"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01H 9/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring mechanical vibrations or ultrasonic, sonic or infrasonic waves by using radiation-sensitive means, e.g. optical means"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01H 11/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring mechanical vibrations or ultrasonic, sonic or infrasonic waves by detecting changes in electric or magnetic properties"
+      },
+      "subgroups": [
+        {
+          "code": "G01H 11/02",
+          "title": {
+            "ko": null,
+            "en": "by magnetic means, e.g. reluctance"
+          }
+        },
+        {
+          "code": "G01H 11/04",
+          "title": {
+            "ko": null,
+            "en": "using magnetostrictive devices"
+          }
+        },
+        {
+          "code": "G01H 11/06",
+          "title": {
+            "ko": null,
+            "en": "by electric means"
+          }
+        },
+        {
+          "code": "G01H 11/08",
+          "title": {
+            "ko": null,
+            "en": "using piezoelectric devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01H 13/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring resonant frequency"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01H 15/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring mechanical or acoustic impedance"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01H 17/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring mechanical vibrations or ultrasonic, sonic or infrasonic waves, not provided for in the other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

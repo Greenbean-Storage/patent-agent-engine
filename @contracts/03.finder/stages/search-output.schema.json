@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "patents": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "application_number": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "abstract": {
+                  "type": "string"
+                },
+                "applicant": {
+                  "type": "string"
+                },
+                "application_date": {
+                  "type": "string"
+                },
+                "ipc_codes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "application_number",
+                "title"
+              ]
+            }
+          }
+        },
+        "required": [
+          "query",
+          "patents"
+        ]
+      },
+      "description": "각 query 별 KIPRIS 검색 결과"
+    }
+  },
+  "required": [
+    "results"
+  ]
+}

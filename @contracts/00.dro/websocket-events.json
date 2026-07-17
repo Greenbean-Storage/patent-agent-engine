@@ -1,0 +1,289 @@
+{
+  "title": "Nexus Client WebSocket Events (envelope v2)",
+  "description": "Nexus client WS push 이벤트 envelope. `type` 가 data shape 결정 — 모든 type 은 `<domain>.<event>` 네임스페이스(bare 금지). DRC 내부 식별자(chain_id/rt_id/persona/pipeline_id) 비노출. 라우팅 = (user_id, work_id) WS키. 이벤트는 **best-effort 알림**(진실은 CM, 누락/순서역전은 client refresh 로 복구). 봉투 = {type, timestamp, seq, data} — scope/subject_id 없음(연결이 work별이라 무용). 서버 = Nexus 게이트웨이.",
+  "type": "object",
+  "required": [
+    "type",
+    "timestamp",
+    "seq",
+    "data"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "message.received",
+        "message.reply",
+        "work.progress",
+        "work.failed",
+        "model.maturity",
+        "model.roadmap",
+        "output.ready",
+        "system.resync_required",
+        "system.error"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "seq": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "broadcast 이벤트의 (user_id, work_id) 별 monotonic 시퀀스 — 재연결 시 since_seq replay 의 key (순서 보장 아님 — best-effort). unicast ack/error(message.received·system.error·system.resync_required)는 replay 버퍼 미적재·seq=0 sentinel (replay 스트림 아님)."
+    },
+    "data": {
+      "type": "object",
+      "description": "type 별 payload — 구체 shape 은 _payload_schemas 참조."
+    }
+  },
+  "_payload_schemas": {
+    "_comment": "각 type 별 data 의 형태. underscore prefix 라 일반 JSON Schema 도구는 무시 — 별도 검증기가 사용.",
+    "message.received": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "correlation_id",
+        "id"
+      ],
+      "properties": {
+        "correlation_id": {
+          "type": "string",
+          "description": "클라가 message.send 에 실은 멱등키 — ack 가 echo."
+        },
+        "id": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "저장된 user turn 의 메시지 id(work 내 0-based 위치). 동시중복(in_flight) 재-ack 면 null."
+        }
+      }
+    },
+    "message.reply": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "답장 assistant turn 의 메시지 id(work 내 0-based 위치). history·커서와 동일 어휘."
+        },
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "work.progress": {
+      "type": "object",
+      "required": [
+        "display_status",
+        "channel"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "display_status": {
+          "type": "object",
+          "required": [
+            "ko"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "ko": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            }
+          }
+        },
+        "channel": {
+          "type": "string",
+          "description": "RT 진행 카테고리 라벨(lane). 메타 비식별 — persona/LLM 명 금지. DRO/Actor 가 persona→메타안전 카테고리 산출."
+        },
+        "phase": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "사람-친화 단계 라벨(선택·예약)."
+        }
+      }
+    },
+    "work.failed": {
+      "type": "object",
+      "required": [
+        "message"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "message": {
+          "type": "string",
+          "description": "사용자 안전 실패 메시지. 내부 예외/persona/chain id 비노출(sanitize) — raw 는 trail/log."
+        },
+        "channel": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "실패한 lane(선택)."
+        }
+      }
+    },
+    "model.maturity": {
+      "type": "object",
+      "required": [
+        "overall_score",
+        "scores"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "overall_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "scores": {
+          "type": "object",
+          "required": [
+            "clarity",
+            "completeness",
+            "potential"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "clarity": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "completeness": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "potential": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        },
+        "weights": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "clarity": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "completeness": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "potential": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        }
+      }
+    },
+    "model.roadmap": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "output.ready": {
+      "type": "object",
+      "required": [
+        "document_id",
+        "filename",
+        "size_bytes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "document_id": {
+          "type": "string"
+        },
+        "filename": {
+          "type": "string"
+        },
+        "size_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "preview_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "download_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "system.resync_required": {
+      "type": "object",
+      "required": [
+        "reason"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "system.error": {
+      "type": "object",
+      "required": [
+        "code",
+        "message"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "unauthorized",
+            "not_found",
+            "validation_failed",
+            "conflict",
+            "precondition_required",
+            "rate_limited",
+            "internal",
+            "not_implemented",
+            "pipeline_ambiguous",
+            "pipeline_unknown",
+            "work_not_found",
+            "document_not_ready",
+            "content_not_ready"
+          ],
+          "description": "공유 ErrorCode (REST 와 동일 어휘). 원천 = shared/venezia_contracts/models/dro_api/error.py."
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

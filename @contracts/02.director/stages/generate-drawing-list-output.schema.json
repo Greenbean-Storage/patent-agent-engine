@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "drawings": {
+      "type": "array"
+    },
+    "generation_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "drawings",
+    "generation_notes"
+  ]
+}

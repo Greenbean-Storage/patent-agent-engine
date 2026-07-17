@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "ipc_subclass_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cpc_subclass_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "ipc_subclass_candidates",
+    "cpc_subclass_candidates"
+  ]
+}

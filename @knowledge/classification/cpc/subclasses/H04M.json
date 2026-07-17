@@ -1,0 +1,1882 @@
+{
+  "subclass": "H04M",
+  "title": {
+    "ko": null,
+    "en": "TELEPHONIC COMMUNICATION (circuits for controlling other apparatus via a telephone cable and not involving telephone switching apparatus G08)"
+  },
+  "groups": [
+    {
+      "code": "H04M 1/00",
+      "title": {
+        "ko": null,
+        "en": "Substation equipment, e.g. for use by subscribers (subscriber services or facilities provided at exchanges H04M3/00; prepayment telephone coin boxes H04M17/00; current supply arrangements H04M19/08)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 1/003",
+          "title": {
+            "ko": null,
+            "en": "{Telephone sets using electrooptical means in the transmission path}"
+          }
+        },
+        {
+          "code": "H04M 1/006",
+          "title": {
+            "ko": null,
+            "en": "{Call diverting means}"
+          }
+        },
+        {
+          "code": "H04M 1/02",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of telephone sets"
+          }
+        },
+        {
+          "code": "H04M 1/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for testing"
+          }
+        },
+        {
+          "code": "H04M 1/247",
+          "title": {
+            "ko": null,
+            "en": "Telephone sets including user guidance or feature selection means facilitating their use (user interfaces specially adapted for cordless or mobile telephones H04M1/724)"
+          }
+        },
+        {
+          "code": "H04M 1/253",
+          "title": {
+            "ko": null,
+            "en": "Telephone sets using digital voice transmission"
+          }
+        },
+        {
+          "code": "H04M 1/26",
+          "title": {
+            "ko": null,
+            "en": "Devices for calling a subscriber (H04M1/66 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/56",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating or recording the called number at the calling subscriber's set"
+          }
+        },
+        {
+          "code": "H04M 1/57",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating or recording the number of the calling subscriber at the called subscriber's set (at the operator set in a manual exchange H04M5/20)"
+          }
+        },
+        {
+          "code": "H04M 1/58",
+          "title": {
+            "ko": null,
+            "en": "Anti-side-tone circuits"
+          }
+        },
+        {
+          "code": "H04M 1/60",
+          "title": {
+            "ko": null,
+            "en": "including speech amplifiers"
+          }
+        },
+        {
+          "code": "H04M 1/64",
+          "title": {
+            "ko": null,
+            "en": "Automatic arrangements for answering calls; Automatic arrangements for recording messages for absent subscribers; Arrangements for recording conversations (centralised dictation systems H04M11/10)"
+          }
+        },
+        {
+          "code": "H04M 1/66",
+          "title": {
+            "ko": null,
+            "en": "with means for preventing unauthorised or fraudulent calling (verifying user identity or authority in secret or secure digital communications H04L9/32)"
+          }
+        },
+        {
+          "code": "H04M 1/68",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for preventing eavesdropping"
+          }
+        },
+        {
+          "code": "H04M 1/71",
+          "title": {
+            "ko": null,
+            "en": "Substation extension arrangements"
+          }
+        },
+        {
+          "code": "H04M 1/72",
+          "title": {
+            "ko": null,
+            "en": "Mobile telephones; Cordless telephones, i.e. devices for establishing wireless links to base stations without route selection"
+          }
+        },
+        {
+          "code": "H04M 1/738",
+          "title": {
+            "ko": null,
+            "en": "Interface circuits for coupling substations to external telephone lines (H04M1/78 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/78",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements in which low-frequency speech signals proceed in one direction on the line, while speech signals proceeding in the other direction on the line are modulated on a high-frequency carrier signal"
+          }
+        },
+        {
+          "code": "H04M 1/80",
+          "title": {
+            "ko": null,
+            "en": "Telephone line holding circuits"
+          }
+        },
+        {
+          "code": "H04M 1/82",
+          "title": {
+            "ko": null,
+            "en": "Line monitoring circuits for call progress or status discrimination {(for detecting caller identity H04M1/573)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 3/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic or semi-automatic exchanges"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 3/002",
+          "title": {
+            "ko": null,
+            "en": "{Applications of echo suppressors or cancellers in telephonic connections (in two-way loud-speaking telephone systems H04M9/08, echo suppressors or cancellers per se H04B3/20)}"
+          }
+        },
+        {
+          "code": "H04M 3/005",
+          "title": {
+            "ko": null,
+            "en": "{Interface circuits for subscriber lines (current supply H04M19/00 and subgroups; supervisory, monitoring or testing arrangements H04M3/22 and subgroups; in key telephone systems H04M9/006)}"
+          }
+        },
+        {
+          "code": "H04M 3/02",
+          "title": {
+            "ko": null,
+            "en": "Calling substations, e.g. by ringing (selective calling H04Q)"
+          }
+        },
+        {
+          "code": "H04M 3/08",
+          "title": {
+            "ko": null,
+            "en": "Indicating faults in circuits or apparatus"
+          }
+        },
+        {
+          "code": "H04M 3/16",
+          "title": {
+            "ko": null,
+            "en": "with lock-out or secrecy provision in party-line systems"
+          }
+        },
+        {
+          "code": "H04M 3/18",
+          "title": {
+            "ko": null,
+            "en": "with means for reducing interference {or noise}; with means for reducing effects due to line faults {with means for protecting lines}"
+          }
+        },
+        {
+          "code": "H04M 3/20",
+          "title": {
+            "ko": null,
+            "en": "with means for interrupting existing connections; with means for breaking-in on conversations"
+          }
+        },
+        {
+          "code": "H04M 3/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supervision, monitoring or testing"
+          }
+        },
+        {
+          "code": "H04M 3/38",
+          "title": {
+            "ko": null,
+            "en": "Graded-service arrangements, i.e. some subscribers prevented from establishing certain connections (queuing arrangements H04Q3/64)"
+          }
+        },
+        {
+          "code": "H04M 3/40",
+          "title": {
+            "ko": null,
+            "en": "Applications of speech amplifiers"
+          }
+        },
+        {
+          "code": "H04M 3/42",
+          "title": {
+            "ko": null,
+            "en": "Systems providing special services or facilities to subscribers (specially adapted for wireless communication networks H04W4/00)"
+          }
+        },
+        {
+          "code": "H04M 3/60",
+          "title": {
+            "ko": null,
+            "en": "Semi-automatic systems, i.e. in which the numerical selection of the outgoing line is under the control of an operator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 5/00",
+      "title": {
+        "ko": null,
+        "en": "Manual exchanges (substation equipment in general H04M1/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 5/02",
+          "title": {
+            "ko": null,
+            "en": "Constructional details (jacks, jack-plugs H01R24/58)"
+          }
+        },
+        {
+          "code": "H04M 5/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating calls or supervising connections for calling or clearing"
+          }
+        },
+        {
+          "code": "H04M 5/08",
+          "title": {
+            "ko": null,
+            "en": "using connecting means other than cords"
+          }
+        },
+        {
+          "code": "H04M 5/10",
+          "title": {
+            "ko": null,
+            "en": "using separate plug for each subscriber"
+          }
+        },
+        {
+          "code": "H04M 5/12",
+          "title": {
+            "ko": null,
+            "en": "Calling substations, e.g. by ringing"
+          }
+        },
+        {
+          "code": "H04M 5/14",
+          "title": {
+            "ko": null,
+            "en": "Applications of speech amplifiers"
+          }
+        },
+        {
+          "code": "H04M 5/16",
+          "title": {
+            "ko": null,
+            "en": "with means for reducing interference; with means for reducing effects due to line faults"
+          }
+        },
+        {
+          "code": "H04M 5/18",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for signalling the class or number of called or calling line from one exchange to another"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 7/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for interconnection between switching centres"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 7/0003",
+          "title": {
+            "ko": null,
+            "en": "{Interconnection between telephone networks and data networks}"
+          }
+        },
+        {
+          "code": "H04M 7/0012",
+          "title": {
+            "ko": null,
+            "en": "{Details of application programming interfaces [API] for telephone networks; Arrangements which combine a telephonic communication equipment and a computer, i.e. computer telephony integration [CPI] arrangements}"
+          }
+        },
+        {
+          "code": "H04M 7/0024",
+          "title": {
+            "ko": null,
+            "en": "{Services and arrangements where telephone services are combined with data services (arrangements which combine a telephonic equipment and a computer H04M7/0012)}"
+          }
+        },
+        {
+          "code": "H04M 7/006",
+          "title": {
+            "ko": null,
+            "en": "{Networks other than PSTN/ISDN providing telephone service, e.g. Voice over Internet Protocol (VoIP) , including next generation networks with a packet-switched transport layer (H04L65/00 takes precedence; aspects not specific to the type of network H04M3/00; special services in those networks H04M3/42)}"
+          }
+        },
+        {
+          "code": "H04M 7/009",
+          "title": {
+            "ko": null,
+            "en": "{in systems involving PBX or KTS networks}"
+          }
+        },
+        {
+          "code": "H04M 7/0093",
+          "title": {
+            "ko": null,
+            "en": "{signalling arrangements in networks}"
+          }
+        },
+        {
+          "code": "H04M 7/0096",
+          "title": {
+            "ko": null,
+            "en": "{Trunk circuits}"
+          }
+        },
+        {
+          "code": "H04M 7/06",
+          "title": {
+            "ko": null,
+            "en": "using auxiliary connections for control or supervision {, e.g. where the auxiliary connection is a signalling system number 7 link}"
+          }
+        },
+        {
+          "code": "H04M 7/08",
+          "title": {
+            "ko": null,
+            "en": "for phantom working {(phantom working in transmission of digital information H04L5/20)}"
+          }
+        },
+        {
+          "code": "H04M 7/12",
+          "title": {
+            "ko": null,
+            "en": "for working between exchanges having different types of switching equipment, e.g. power-driven and step by step or decimal and non-decimal"
+          }
+        },
+        {
+          "code": "H04M 7/14",
+          "title": {
+            "ko": null,
+            "en": "in systems involving main and subordinate switching centres"
+          }
+        },
+        {
+          "code": "H04M 7/16",
+          "title": {
+            "ko": null,
+            "en": "in systems employing carrier frequencies"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 9/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for interconnection not involving centralised switching"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 9/001",
+          "title": {
+            "ko": null,
+            "en": "{Two-way communication systems between a limited number of parties}"
+          }
+        },
+        {
+          "code": "H04M 9/002",
+          "title": {
+            "ko": null,
+            "en": "{with subscriber controlled access to a line, i.e. key telephone systems}"
+          }
+        },
+        {
+          "code": "H04M 9/02",
+          "title": {
+            "ko": null,
+            "en": "involving a common line for all parties"
+          }
+        },
+        {
+          "code": "H04M 9/04",
+          "title": {
+            "ko": null,
+            "en": "involving a separate line for each pair of parties"
+          }
+        },
+        {
+          "code": "H04M 9/06",
+          "title": {
+            "ko": null,
+            "en": "involving combinations of interconnecting lines"
+          }
+        },
+        {
+          "code": "H04M 9/08",
+          "title": {
+            "ko": null,
+            "en": "Two-way loud-speaking telephone systems with means for conditioning the signal, e.g. for suppressing echoes for one or both directions of traffic"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 11/00",
+      "title": {
+        "ko": null,
+        "en": "Telephonic communication systems specially adapted for combination with other electrical systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 11/002",
+          "title": {
+            "ko": null,
+            "en": "{with telemetering systems (telemetering in general G08C)}"
+          }
+        },
+        {
+          "code": "H04M 11/007",
+          "title": {
+            "ko": null,
+            "en": "{with remote control systems (remote control in general G08C)}"
+          }
+        },
+        {
+          "code": "H04M 11/02",
+          "title": {
+            "ko": null,
+            "en": "with bell or annunciator systems"
+          }
+        },
+        {
+          "code": "H04M 11/04",
+          "title": {
+            "ko": null,
+            "en": "with alarm systems, e.g. fire, police or burglar alarm systems"
+          }
+        },
+        {
+          "code": "H04M 11/06",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous speech and data transmission, e.g. telegraphic transmission over the same conductors"
+          }
+        },
+        {
+          "code": "H04M 11/08",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for optional reception of entertainment or informative matter"
+          }
+        },
+        {
+          "code": "H04M 11/10",
+          "title": {
+            "ko": null,
+            "en": "with dictation recording and playback systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 13/00",
+      "title": {
+        "ko": null,
+        "en": "Party-line systems (substation equipment H04M1/00; exchange equipment H04M3/00, H04M5/00; metering arrangements H04M15/36)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04M 15/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for metering, time-control or time indication {; Metering, charging or billing arrangements for voice wireline or wireless communications, e.g. VoIP}"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 15/04",
+          "title": {
+            "ko": null,
+            "en": "Recording calls {, or communications} in printed, perforated or other permanent form"
+          }
+        },
+        {
+          "code": "H04M 15/07",
+          "title": {
+            "ko": null,
+            "en": "{Split billing, i.e. both A-party and B-party charged for the communication}"
+          }
+        },
+        {
+          "code": "H04M 15/08",
+          "title": {
+            "ko": null,
+            "en": "Metering calls to called party {, i.e. B-party charged for the communication}"
+          }
+        },
+        {
+          "code": "H04M 15/09",
+          "title": {
+            "ko": null,
+            "en": "{Third party charged communications}"
+          }
+        },
+        {
+          "code": "H04M 15/10",
+          "title": {
+            "ko": null,
+            "en": "Metering calls from calling party {, i.e. A-party charged for the communication}"
+          }
+        },
+        {
+          "code": "H04M 15/28",
+          "title": {
+            "ko": null,
+            "en": "with meter at substation {or with calculation of charges at terminal}"
+          }
+        },
+        {
+          "code": "H04M 15/31",
+          "title": {
+            "ko": null,
+            "en": "{Distributed metering or calculation of charges}"
+          }
+        },
+        {
+          "code": "H04M 15/32",
+          "title": {
+            "ko": null,
+            "en": "{Charging, billing or} metering arrangements for satellites or concentrators which connect one or more exchange lines with a group of local lines"
+          }
+        },
+        {
+          "code": "H04M 15/34",
+          "title": {
+            "ko": null,
+            "en": "{Charging, billing or} metering arrangements for private branch exchanges"
+          }
+        },
+        {
+          "code": "H04M 15/36",
+          "title": {
+            "ko": null,
+            "en": "{Charging, billing or} metering arrangements for party-lines"
+          }
+        },
+        {
+          "code": "H04M 15/38",
+          "title": {
+            "ko": null,
+            "en": "{Charging, billing or} metering by apparatus other than mechanical step-by-step counter type"
+          }
+        },
+        {
+          "code": "H04M 15/39",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements for preventing metering, charging or billing}"
+          }
+        },
+        {
+          "code": "H04M 15/41",
+          "title": {
+            "ko": null,
+            "en": "{Billing record details, i.e. parameters, identifiers, structure of call data record [CDR]}"
+          }
+        },
+        {
+          "code": "H04M 15/42",
+          "title": {
+            "ko": null,
+            "en": "{Dynamic individual rates per user}"
+          }
+        },
+        {
+          "code": "H04M 15/43",
+          "title": {
+            "ko": null,
+            "en": "{Billing software details}"
+          }
+        },
+        {
+          "code": "H04M 15/44",
+          "title": {
+            "ko": null,
+            "en": "{Augmented, consolidated or itemized billing statement or bill presentation}"
+          }
+        },
+        {
+          "code": "H04M 15/46",
+          "title": {
+            "ko": null,
+            "en": "{Real-time negotiation between users and providers or operators}"
+          }
+        },
+        {
+          "code": "H04M 15/47",
+          "title": {
+            "ko": null,
+            "en": "{Fraud detection or prevention means}"
+          }
+        },
+        {
+          "code": "H04M 15/48",
+          "title": {
+            "ko": null,
+            "en": "{Secure or trusted billing, e.g. trusted elements or encryption}"
+          }
+        },
+        {
+          "code": "H04M 15/49",
+          "title": {
+            "ko": null,
+            "en": "{Connection to several service providers}"
+          }
+        },
+        {
+          "code": "H04M 15/50",
+          "title": {
+            "ko": null,
+            "en": "{for cross-charging network operators}"
+          }
+        },
+        {
+          "code": "H04M 15/51",
+          "title": {
+            "ko": null,
+            "en": "{for resellers, retailers or service providers}"
+          }
+        },
+        {
+          "code": "H04M 15/52",
+          "title": {
+            "ko": null,
+            "en": "{for operator independent billing system}"
+          }
+        },
+        {
+          "code": "H04M 15/53",
+          "title": {
+            "ko": null,
+            "en": "{using mediation}"
+          }
+        },
+        {
+          "code": "H04M 15/54",
+          "title": {
+            "ko": null,
+            "en": "{for revenue sharing}"
+          }
+        },
+        {
+          "code": "H04M 15/55",
+          "title": {
+            "ko": null,
+            "en": "{for hybrid networks}"
+          }
+        },
+        {
+          "code": "H04M 15/56",
+          "title": {
+            "ko": null,
+            "en": "{for VoIP communications}"
+          }
+        },
+        {
+          "code": "H04M 15/57",
+          "title": {
+            "ko": null,
+            "en": "{for integrated multimedia messaging subsystem [IMS]}"
+          }
+        },
+        {
+          "code": "H04M 15/58",
+          "title": {
+            "ko": null,
+            "en": "{based on statistics of usage or network monitoring}"
+          }
+        },
+        {
+          "code": "H04M 15/59",
+          "title": {
+            "ko": null,
+            "en": "{based on real time}"
+          }
+        },
+        {
+          "code": "H04M 15/60",
+          "title": {
+            "ko": null,
+            "en": "{based on actual use of network resources}"
+          }
+        },
+        {
+          "code": "H04M 15/61",
+          "title": {
+            "ko": null,
+            "en": "{based on the service used}"
+          }
+        },
+        {
+          "code": "H04M 15/62",
+          "title": {
+            "ko": null,
+            "en": "{based on trigger specification}"
+          }
+        },
+        {
+          "code": "H04M 15/63",
+          "title": {
+            "ko": null,
+            "en": "{based on the content carried by the session initiation protocol [SIP] messages}"
+          }
+        },
+        {
+          "code": "H04M 15/64",
+          "title": {
+            "ko": null,
+            "en": "{On-line charging system [OCS]}"
+          }
+        },
+        {
+          "code": "H04M 15/65",
+          "title": {
+            "ko": null,
+            "en": "{Off-line charging system}"
+          }
+        },
+        {
+          "code": "H04M 15/66",
+          "title": {
+            "ko": null,
+            "en": "{Policy and charging system}"
+          }
+        },
+        {
+          "code": "H04M 15/67",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting arrangements for sending billing related information}"
+          }
+        },
+        {
+          "code": "H04M 15/68",
+          "title": {
+            "ko": null,
+            "en": "{Payment of value-added services}"
+          }
+        },
+        {
+          "code": "H04M 15/70",
+          "title": {
+            "ko": null,
+            "en": "{Administration or customization aspects; Counter-checking correct charges}"
+          }
+        },
+        {
+          "code": "H04M 15/80",
+          "title": {
+            "ko": null,
+            "en": "{Rating or billing plans; Tariff determination aspects}"
+          }
+        },
+        {
+          "code": "H04M 15/81",
+          "title": {
+            "ko": null,
+            "en": "{Dynamic pricing, e.g. change of tariff during call}"
+          }
+        },
+        {
+          "code": "H04M 15/82",
+          "title": {
+            "ko": null,
+            "en": "{Criteria or parameters used for performing billing operations}"
+          }
+        },
+        {
+          "code": "H04M 15/83",
+          "title": {
+            "ko": null,
+            "en": "{Notification aspects}"
+          }
+        },
+        {
+          "code": "H04M 15/88",
+          "title": {
+            "ko": null,
+            "en": "{Provision for limiting connection, or expenditure}"
+          }
+        },
+        {
+          "code": "H04M 15/90",
+          "title": {
+            "ko": null,
+            "en": "{using Intelligent Networks [IN] or Advanced Intelligent Networks [AIN]}"
+          }
+        },
+        {
+          "code": "H04M 15/93",
+          "title": {
+            "ko": null,
+            "en": "{using near field or similar technologies}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 17/00",
+      "title": {
+        "ko": null,
+        "en": "Prepayment {of wireline communication systems, wireless communication systems or} telephone systems (using a coded card to authorise calls from a telephone set H04M1/675)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 17/005",
+          "title": {
+            "ko": null,
+            "en": "{Disposable prepaid communication devices}"
+          }
+        },
+        {
+          "code": "H04M 17/01",
+          "title": {
+            "ko": null,
+            "en": "{Cocot systems, i.e. private ownership of payphones}"
+          }
+        },
+        {
+          "code": "H04M 17/02",
+          "title": {
+            "ko": null,
+            "en": "Coin-freed or check-freed systems {, e.g. mobile- or card-operated phones, public telephones or booths}"
+          }
+        },
+        {
+          "code": "H04M 17/10",
+          "title": {
+            "ko": null,
+            "en": "{Account details or usage}"
+          }
+        },
+        {
+          "code": "H04M 2017/12",
+          "title": {
+            "ko": null,
+            "en": "{using calling, telephone credit/debit cards}"
+          }
+        },
+        {
+          "code": "H04M 2017/14",
+          "title": {
+            "ko": null,
+            "en": "{using commercial credit/debit cards, e.g. VISA, AMEX}"
+          }
+        },
+        {
+          "code": "H04M 17/20",
+          "title": {
+            "ko": null,
+            "en": "{with provision for recharging the prepaid account or card, or for credit establishment}"
+          }
+        },
+        {
+          "code": "H04M 2017/22",
+          "title": {
+            "ko": null,
+            "en": "{with automatic recharging of account/card, e.g. if limit is reached during connection the account is recharged automatically}"
+          }
+        },
+        {
+          "code": "H04M 2017/24",
+          "title": {
+            "ko": null,
+            "en": "{with on-line recharging of an account or card, e.g. cashless}"
+          }
+        },
+        {
+          "code": "H04M 2017/25",
+          "title": {
+            "ko": null,
+            "en": "{using a code}"
+          }
+        },
+        {
+          "code": "H04M 2017/26",
+          "title": {
+            "ko": null,
+            "en": "{with real-time recharging of account/card, e.g. if limit is reached during connection user is asked if he wants to recharge or not}"
+          }
+        },
+        {
+          "code": "H04M 17/30",
+          "title": {
+            "ko": null,
+            "en": "{using a code}"
+          }
+        },
+        {
+          "code": "H04M 17/35",
+          "title": {
+            "ko": null,
+            "en": "{Pay as you go}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 19/00",
+      "title": {
+        "ko": null,
+        "en": "Current supply arrangements for telephone systems (for selecting-equipment H04Q1/28)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 19/001",
+          "title": {
+            "ko": null,
+            "en": "{Current supply source at the exchanger providing current to substations}"
+          }
+        },
+        {
+          "code": "H04M 19/02",
+          "title": {
+            "ko": null,
+            "en": "providing ringing current or supervisory tones, e.g. dialling tone or busy tone"
+          }
+        },
+        {
+          "code": "H04M 19/06",
+          "title": {
+            "ko": null,
+            "en": "in which current supply sources at subordinate switching centres are charged from the main exchange"
+          }
+        },
+        {
+          "code": "H04M 19/08",
+          "title": {
+            "ko": null,
+            "en": "with current supply sources at the substations (generating ringing current H04M19/04)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04M 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Electronic components, circuits, software, systems or apparatus used in telephone systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 2201/02",
+          "title": {
+            "ko": null,
+            "en": "Diodes"
+          }
+        },
+        {
+          "code": "H04M 2201/04",
+          "title": {
+            "ko": null,
+            "en": "Transistors"
+          }
+        },
+        {
+          "code": "H04M 2201/06",
+          "title": {
+            "ko": null,
+            "en": "Integrated circuits"
+          }
+        },
+        {
+          "code": "H04M 2201/08",
+          "title": {
+            "ko": null,
+            "en": "Magnetic elements"
+          }
+        },
+        {
+          "code": "H04M 2201/10",
+          "title": {
+            "ko": null,
+            "en": "Logic circuits"
+          }
+        },
+        {
+          "code": "H04M 2201/12",
+          "title": {
+            "ko": null,
+            "en": "Counting circuits"
+          }
+        },
+        {
+          "code": "H04M 2201/14",
+          "title": {
+            "ko": null,
+            "en": "Delay circuits; Timers"
+          }
+        },
+        {
+          "code": "H04M 2201/16",
+          "title": {
+            "ko": null,
+            "en": "Sequence circuits"
+          }
+        },
+        {
+          "code": "H04M 2201/18",
+          "title": {
+            "ko": null,
+            "en": "Comparators"
+          }
+        },
+        {
+          "code": "H04M 2201/20",
+          "title": {
+            "ko": null,
+            "en": "Scanners"
+          }
+        },
+        {
+          "code": "H04M 2201/22",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation circuits"
+          }
+        },
+        {
+          "code": "H04M 2201/26",
+          "title": {
+            "ko": null,
+            "en": "A/D convertors"
+          }
+        },
+        {
+          "code": "H04M 2201/28",
+          "title": {
+            "ko": null,
+            "en": "S/P convertors"
+          }
+        },
+        {
+          "code": "H04M 2201/30",
+          "title": {
+            "ko": null,
+            "en": "PCM"
+          }
+        },
+        {
+          "code": "H04M 2201/32",
+          "title": {
+            "ko": null,
+            "en": "Personal computers"
+          }
+        },
+        {
+          "code": "H04M 2201/34",
+          "title": {
+            "ko": null,
+            "en": "Microprocessors"
+          }
+        },
+        {
+          "code": "H04M 2201/36",
+          "title": {
+            "ko": null,
+            "en": "Memories"
+          }
+        },
+        {
+          "code": "H04M 2201/38",
+          "title": {
+            "ko": null,
+            "en": "Displays"
+          }
+        },
+        {
+          "code": "H04M 2201/39",
+          "title": {
+            "ko": null,
+            "en": "using speech synthesis"
+          }
+        },
+        {
+          "code": "H04M 2201/40",
+          "title": {
+            "ko": null,
+            "en": "using speech recognition"
+          }
+        },
+        {
+          "code": "H04M 2201/41",
+          "title": {
+            "ko": null,
+            "en": "using speaker recognition"
+          }
+        },
+        {
+          "code": "H04M 2201/42",
+          "title": {
+            "ko": null,
+            "en": "Graphical user interfaces"
+          }
+        },
+        {
+          "code": "H04M 2201/50",
+          "title": {
+            "ko": null,
+            "en": "Telephonic communication in combination with video communication"
+          }
+        },
+        {
+          "code": "H04M 2201/52",
+          "title": {
+            "ko": null,
+            "en": "Telephonic communication in combination with fax communication"
+          }
+        },
+        {
+          "code": "H04M 2201/54",
+          "title": {
+            "ko": null,
+            "en": "Object oriented software"
+          }
+        },
+        {
+          "code": "H04M 2201/60",
+          "title": {
+            "ko": null,
+            "en": "Medium conversion"
+          }
+        },
+        {
+          "code": "H04M 2201/80",
+          "title": {
+            "ko": null,
+            "en": "line protection circuits such as current or overvoltage protection circuits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 2203/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of automatic or semi-automatic exchanges"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 2203/05",
+          "title": {
+            "ko": null,
+            "en": "related to OAM&P"
+          }
+        },
+        {
+          "code": "H04M 2203/10",
+          "title": {
+            "ko": null,
+            "en": "related to the purpose or context of the telephonic communication"
+          }
+        },
+        {
+          "code": "H04M 2203/15",
+          "title": {
+            "ko": null,
+            "en": "related to dial plan and call routing"
+          }
+        },
+        {
+          "code": "H04M 2203/20",
+          "title": {
+            "ko": null,
+            "en": "related to features of supplementary services"
+          }
+        },
+        {
+          "code": "H04M 2203/25",
+          "title": {
+            "ko": null,
+            "en": "related to user interface aspects of the telephonic communication service"
+          }
+        },
+        {
+          "code": "H04M 2203/30",
+          "title": {
+            "ko": null,
+            "en": "related to audio recordings in general"
+          }
+        },
+        {
+          "code": "H04M 2203/35",
+          "title": {
+            "ko": null,
+            "en": "related to information services provided via a voice call"
+          }
+        },
+        {
+          "code": "H04M 2203/40",
+          "title": {
+            "ko": null,
+            "en": "related to call centers"
+          }
+        },
+        {
+          "code": "H04M 2203/45",
+          "title": {
+            "ko": null,
+            "en": "related to voicemail messaging"
+          }
+        },
+        {
+          "code": "H04M 2203/50",
+          "title": {
+            "ko": null,
+            "en": "related to audio conference"
+          }
+        },
+        {
+          "code": "H04M 2203/55",
+          "title": {
+            "ko": null,
+            "en": "related to network data storage and management"
+          }
+        },
+        {
+          "code": "H04M 2203/60",
+          "title": {
+            "ko": null,
+            "en": "related to security aspects in telephonic communication systems"
+          }
+        },
+        {
+          "code": "H04M 2203/65",
+          "title": {
+            "ko": null,
+            "en": "related to applications where calls are combined with other types of communication"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Type of exchange or network, i.e. telephonic medium, in which the telephonic communication takes place"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 2207/08",
+          "title": {
+            "ko": null,
+            "en": "ISDN systems"
+          }
+        },
+        {
+          "code": "H04M 2207/12",
+          "title": {
+            "ko": null,
+            "en": "intelligent networks"
+          }
+        },
+        {
+          "code": "H04M 2207/14",
+          "title": {
+            "ko": null,
+            "en": "cable networks"
+          }
+        },
+        {
+          "code": "H04M 2207/18",
+          "title": {
+            "ko": null,
+            "en": "wireless networks"
+          }
+        },
+        {
+          "code": "H04M 2207/20",
+          "title": {
+            "ko": null,
+            "en": "hybrid systems"
+          }
+        },
+        {
+          "code": "H04M 2207/30",
+          "title": {
+            "ko": null,
+            "en": "third party service providers"
+          }
+        },
+        {
+          "code": "H04M 2207/35",
+          "title": {
+            "ko": null,
+            "en": "virtual private networks"
+          }
+        },
+        {
+          "code": "H04M 2207/40",
+          "title": {
+            "ko": null,
+            "en": "terminals with audio html browser"
+          }
+        },
+        {
+          "code": "H04M 2207/45",
+          "title": {
+            "ko": null,
+            "en": "public-private interworking, e.g. centrex"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 2215/00",
+      "title": {
+        "ko": null,
+        "en": "Metering arrangements; Time controlling arrangements; Time indicating arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 2215/01",
+          "title": {
+            "ko": null,
+            "en": "Details of billing arrangements"
+          }
+        },
+        {
+          "code": "H04M 2215/14",
+          "title": {
+            "ko": null,
+            "en": "Billing aspects relating to the actual charge"
+          }
+        },
+        {
+          "code": "H04M 2215/20",
+          "title": {
+            "ko": null,
+            "en": "Technology dependant metering"
+          }
+        },
+        {
+          "code": "H04M 2215/22",
+          "title": {
+            "ko": null,
+            "en": "Bandwidth or usage-sensitve billing"
+          }
+        },
+        {
+          "code": "H04M 2215/24",
+          "title": {
+            "ko": null,
+            "en": "Voice over IP billing"
+          }
+        },
+        {
+          "code": "H04M 2215/26",
+          "title": {
+            "ko": null,
+            "en": "Data billing charged as a voice call, i.e. based on time or unit charging"
+          }
+        },
+        {
+          "code": "H04M 2215/28",
+          "title": {
+            "ko": null,
+            "en": "SMS billing"
+          }
+        },
+        {
+          "code": "H04M 2215/32",
+          "title": {
+            "ko": null,
+            "en": "Involving wireless systems"
+          }
+        },
+        {
+          "code": "H04M 2215/34",
+          "title": {
+            "ko": null,
+            "en": "Roaming"
+          }
+        },
+        {
+          "code": "H04M 2215/42",
+          "title": {
+            "ko": null,
+            "en": "Least cost routing, i.e. provision for selecting the lowest cost tariff"
+          }
+        },
+        {
+          "code": "H04M 2215/44",
+          "title": {
+            "ko": null,
+            "en": "Charging/billing arrangements for connection made over different networks, e.g. wireless and PSTN, ISDN, etc."
+          }
+        },
+        {
+          "code": "H04M 2215/46",
+          "title": {
+            "ko": null,
+            "en": "Connection to several service providers"
+          }
+        },
+        {
+          "code": "H04M 2215/48",
+          "title": {
+            "ko": null,
+            "en": "Sending information over a non-traffic network channel or another connection than the one actually used, e.g. signalling, D-channel, data and voice"
+          }
+        },
+        {
+          "code": "H04M 2215/52",
+          "title": {
+            "ko": null,
+            "en": "Interconnection, inter-exchange, reseller billing, billing agreements between different operators, e.g. billing identifier added on the CDR in order to cross charge the other operator, inter-operator accounting, reconciliation, bill directly resellers customers"
+          }
+        },
+        {
+          "code": "H04M 2215/54",
+          "title": {
+            "ko": null,
+            "en": "Resellers-retail or service providers billing, e.g. agreements with telephone service operator, activation, charging/recharging of accounts"
+          }
+        },
+        {
+          "code": "H04M 2215/56",
+          "title": {
+            "ko": null,
+            "en": "On line or real-time flexible agreements between service providers and telecoms operators"
+          }
+        },
+        {
+          "code": "H04M 2215/62",
+          "title": {
+            "ko": null,
+            "en": "Called party billing, e.g. reverse billing, freephone, collect call, 0800 or 0900"
+          }
+        },
+        {
+          "code": "H04M 2215/64",
+          "title": {
+            "ko": null,
+            "en": "Split billing, sharing the cost of calls, e.g. between calling and called parties"
+          }
+        },
+        {
+          "code": "H04M 2215/66",
+          "title": {
+            "ko": null,
+            "en": "Third party billing, i.e. third party can also be the predetermined telephone line of the caller if he is calling from another telephone set"
+          }
+        },
+        {
+          "code": "H04M 2215/68",
+          "title": {
+            "ko": null,
+            "en": "Billing calls completely to the calling party, except POTS, e.g. charge on caller's choice service"
+          }
+        },
+        {
+          "code": "H04M 2215/70",
+          "title": {
+            "ko": null,
+            "en": "Administration aspects, modify settings or limits or counter-check correct charges"
+          }
+        },
+        {
+          "code": "H04M 2215/72",
+          "title": {
+            "ko": null,
+            "en": "Account specifications"
+          }
+        },
+        {
+          "code": "H04M 2215/74",
+          "title": {
+            "ko": null,
+            "en": "Rating aspects, e.g. rating parameters or tariff determination apects"
+          }
+        },
+        {
+          "code": "H04M 2215/78",
+          "title": {
+            "ko": null,
+            "en": "Metric aspects"
+          }
+        },
+        {
+          "code": "H04M 2215/81",
+          "title": {
+            "ko": null,
+            "en": "Notifying aspects, e.g. notifications or displays to the user"
+          }
+        },
+        {
+          "code": "H04M 2215/82",
+          "title": {
+            "ko": null,
+            "en": "Advice-of-Charge [AOC], i.e. notify subscriber of charges/cumulative charge; meter at the substation"
+          }
+        },
+        {
+          "code": "H04M 2215/92",
+          "title": {
+            "ko": null,
+            "en": "Autonomous calculations of charges in terminal, i.e. meter not controlled from exchange"
+          }
+        },
+        {
+          "code": "H04M 2215/96",
+          "title": {
+            "ko": null,
+            "en": "Distributed calculation of charges, e.g. in different nodes like for mobiles between HLR and VLR, or between the terminal and the billing function"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 2242/00",
+      "title": {
+        "ko": null,
+        "en": "Special services or facilities"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 2242/02",
+          "title": {
+            "ko": null,
+            "en": "Broadcasting"
+          }
+        },
+        {
+          "code": "H04M 2242/04",
+          "title": {
+            "ko": null,
+            "en": "for emergency applications"
+          }
+        },
+        {
+          "code": "H04M 2242/06",
+          "title": {
+            "ko": null,
+            "en": "Lines and connections with preferential service"
+          }
+        },
+        {
+          "code": "H04M 2242/08",
+          "title": {
+            "ko": null,
+            "en": "menus for interactive user guidance"
+          }
+        },
+        {
+          "code": "H04M 2242/10",
+          "title": {
+            "ko": null,
+            "en": "Secret communications"
+          }
+        },
+        {
+          "code": "H04M 2242/12",
+          "title": {
+            "ko": null,
+            "en": "Language recognition, selection or translation arrangements"
+          }
+        },
+        {
+          "code": "H04M 2242/14",
+          "title": {
+            "ko": null,
+            "en": "with services dependent on location"
+          }
+        },
+        {
+          "code": "H04M 2242/15",
+          "title": {
+            "ko": null,
+            "en": "Information service where the information is dependent on the location of the subscriber"
+          }
+        },
+        {
+          "code": "H04M 2242/16",
+          "title": {
+            "ko": null,
+            "en": "with computer telephone integration"
+          }
+        },
+        {
+          "code": "H04M 2242/18",
+          "title": {
+            "ko": null,
+            "en": "Automated outdialling systems"
+          }
+        },
+        {
+          "code": "H04M 2242/20",
+          "title": {
+            "ko": null,
+            "en": "Televoting service"
+          }
+        },
+        {
+          "code": "H04M 2242/22",
+          "title": {
+            "ko": null,
+            "en": "Automatic class or number identification arrangements"
+          }
+        },
+        {
+          "code": "H04M 2242/24",
+          "title": {
+            "ko": null,
+            "en": "Detection or indication of type terminal or call, (e.g. fax, broadband)"
+          }
+        },
+        {
+          "code": "H04M 2242/26",
+          "title": {
+            "ko": null,
+            "en": "Paging systems"
+          }
+        },
+        {
+          "code": "H04M 2242/28",
+          "title": {
+            "ko": null,
+            "en": "Services making use of subscriber schedule information"
+          }
+        },
+        {
+          "code": "H04M 2242/30",
+          "title": {
+            "ko": null,
+            "en": "Determination of the location of a subscriber"
+          }
+        },
+        {
+          "code": "H04M 2242/40",
+          "title": {
+            "ko": null,
+            "en": "Data synchronization between user terminals and central server"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 2250/00",
+      "title": {
+        "ko": null,
+        "en": "Details of telephonic subscriber devices"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 2250/02",
+          "title": {
+            "ko": null,
+            "en": "including a Bluetooth® interface"
+          }
+        },
+        {
+          "code": "H04M 2250/04",
+          "title": {
+            "ko": null,
+            "en": "including near field communication means, e.g. RFID"
+          }
+        },
+        {
+          "code": "H04M 2250/06",
+          "title": {
+            "ko": null,
+            "en": "including a wireless LAN interface"
+          }
+        },
+        {
+          "code": "H04M 2250/08",
+          "title": {
+            "ko": null,
+            "en": "home cordless telephone systems using the DECT standard"
+          }
+        },
+        {
+          "code": "H04M 2250/10",
+          "title": {
+            "ko": null,
+            "en": "including a GPS signal receiver"
+          }
+        },
+        {
+          "code": "H04M 2250/12",
+          "title": {
+            "ko": null,
+            "en": "including a sensor for measuring a physical value, e.g. temperature or motion"
+          }
+        },
+        {
+          "code": "H04M 2250/14",
+          "title": {
+            "ko": null,
+            "en": "including a card reading device"
+          }
+        },
+        {
+          "code": "H04M 2250/16",
+          "title": {
+            "ko": null,
+            "en": "including more than one display unit"
+          }
+        },
+        {
+          "code": "H04M 2250/18",
+          "title": {
+            "ko": null,
+            "en": "including more than one keyboard unit"
+          }
+        },
+        {
+          "code": "H04M 2250/20",
+          "title": {
+            "ko": null,
+            "en": "including a rotatable camera"
+          }
+        },
+        {
+          "code": "H04M 2250/22",
+          "title": {
+            "ko": null,
+            "en": "including a touch pad, a touch sensor or a touch detector"
+          }
+        },
+        {
+          "code": "H04M 2250/52",
+          "title": {
+            "ko": null,
+            "en": "including functional features of a camera"
+          }
+        },
+        {
+          "code": "H04M 2250/54",
+          "title": {
+            "ko": null,
+            "en": "including functional features of a projector or beamer module assembly"
+          }
+        },
+        {
+          "code": "H04M 2250/56",
+          "title": {
+            "ko": null,
+            "en": "including a user help function"
+          }
+        },
+        {
+          "code": "H04M 2250/58",
+          "title": {
+            "ko": null,
+            "en": "including a multilanguage function"
+          }
+        },
+        {
+          "code": "H04M 2250/60",
+          "title": {
+            "ko": null,
+            "en": "logging of communication history, e.g. outgoing or incoming calls, missed calls, messages or URLs"
+          }
+        },
+        {
+          "code": "H04M 2250/62",
+          "title": {
+            "ko": null,
+            "en": "user interface aspects of conference calls"
+          }
+        },
+        {
+          "code": "H04M 2250/64",
+          "title": {
+            "ko": null,
+            "en": "file transfer between terminals"
+          }
+        },
+        {
+          "code": "H04M 2250/66",
+          "title": {
+            "ko": null,
+            "en": "user interface aspects for indicating selection options for a communication line"
+          }
+        },
+        {
+          "code": "H04M 2250/68",
+          "title": {
+            "ko": null,
+            "en": "with means for recording information, e.g. telephone number during a conversation"
+          }
+        },
+        {
+          "code": "H04M 2250/70",
+          "title": {
+            "ko": null,
+            "en": "methods for entering alphabetical characters, e.g. multi-tap or dictionary disambiguation"
+          }
+        },
+        {
+          "code": "H04M 2250/72",
+          "title": {
+            "ko": null,
+            "en": "user manuals of subscriber equipments, e.g. of mobile phones"
+          }
+        },
+        {
+          "code": "H04M 2250/74",
+          "title": {
+            "ko": null,
+            "en": "with voice recognition means"
+          }
+        }
+      ]
+    }
+  ]
+}

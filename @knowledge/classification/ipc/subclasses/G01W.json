@@ -1,0 +1,99 @@
+{
+  "subclass": "G01W",
+  "title": {
+    "ko": "기상학(레이다, 라이다(lidar), 소나(sonar) 또는 아나로그 시스템, 기상용도의 것 G01S 13/95, G01S 15/88, G01S 17/95)",
+    "en": "METEOROLOGY (radar, sonar, lidar or analogous systems, designed for meteorological use G01S0013950000, G01S0015880000, G01S0017950000)"
+  },
+  "definition": {
+    "ko": "(1) 이 서브클래스에서는 - \"기상학\"은 특정의 환경의 상태의 측정을 포함함. (2) 이 서브클래스의 타이틀(G01)에 속하는 주에 주의할 것",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01W 1/00",
+      "title": {
+        "ko": "기상학",
+        "en": "Meteorology"
+      },
+      "subgroups": [
+        {
+          "code": "G01W 1/02",
+          "title": {
+            "ko": "2 또는 그 이상의 변량, 예. 습도, 기압, 온도, 운량, 풍속의 측정에 의한 일기상황을 표시하는 계기(G01W 1/10가 우선)",
+            "en": "Instruments for indicating weather conditions by measuring two or more variables, e.g. humidity, pressure, temperature, cloud cover or wind speed (G01W0001100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01W 1/04",
+          "title": {
+            "ko": null,
+            "en": "giving only separate indications of the variables measured"
+          }
+        },
+        {
+          "code": "G01W 1/06",
+          "title": {
+            "ko": "일기상황의 전체를 지시를 하는 것(일기상황 또는 기타 인간환경을 안락하게 하는 것과 관계되는 \"냉각치\"를 측정하는 카터 온도계(catathermometers) G01W 1/17)",
+            "en": "giving a combined indication of weather conditions (catathermometers for measuring \"cooling value\" related either to weather conditions or to comfort of other human environment G01W0001170000)"
+          }
+        },
+        {
+          "code": "G01W 1/08",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of balloons, missiles, or aircraft for meteorological purposes; Radiosondes"
+          }
+        },
+        {
+          "code": "G01W 1/10",
+          "title": {
+            "ko": null,
+            "en": "Devices for predicting weather conditions"
+          }
+        },
+        {
+          "code": "G01W 1/11",
+          "title": {
+            "ko": null,
+            "en": "Devices for indicating atmospheric humidity"
+          }
+        },
+        {
+          "code": "G01W 1/12",
+          "title": {
+            "ko": null,
+            "en": "Sunshine-duration recorders"
+          }
+        },
+        {
+          "code": "G01W 1/14",
+          "title": {
+            "ko": null,
+            "en": "Rainfall or precipitation gauges"
+          }
+        },
+        {
+          "code": "G01W 1/16",
+          "title": {
+            "ko": null,
+            "en": "Measuring atmospheric potential differences, e.g. due to electrical charges in clouds"
+          }
+        },
+        {
+          "code": "G01W 1/17",
+          "title": {
+            "ko": null,
+            "en": "Catathermometers for measuring \"cooling value\" related either to weather conditions or to comfort of other human environment"
+          }
+        },
+        {
+          "code": "G01W 1/18",
+          "title": {
+            "ko": null,
+            "en": "Testing or calibrating meteorological apparatus"
+          }
+        }
+      ]
+    }
+  ]
+}

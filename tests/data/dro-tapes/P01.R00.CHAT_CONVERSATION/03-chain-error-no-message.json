@@ -1,0 +1,27 @@
+{
+ "description": "chain error(error, message 없음) → work.failed (generic 메시지).",
+ "events": [
+  {
+   "type": "error",
+   "persona": 1,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.failed"
+  ],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "work.failed": 1
+  },
+  "payload_contains": []
+ }
+}

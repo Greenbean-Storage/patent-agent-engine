@@ -1,0 +1,422 @@
+{
+  "subclass": "G07C",
+  "title": {
+    "ko": "시간 또는 출석 등록; 기계 작업 등록 또는 표시; 난수의 발생; 투표 또는 추첨장치; 다른 개소에 속하지 않는 검사를 위한 배열, 시스템(system) 또는 장치",
+    "en": "TIME OR ATTENDANCE REGISTERS; REGISTERING OR INDICATING THE WORKING OF MACHINES; GENERATING RANDOM NUMBERS; VOTING OR LOTTERY APPARATUS; ARRANGEMENTS, SYSTEMS OR APPARATUS FOR CHECKING NOT PROVIDED FOR ELSEWHERE"
+  },
+  "definition": {
+    "ko": "어떤 일이 일어난 시간 또는 경과시간의 등록 G07C1/00 기계 가동의 등록; 차량 가동의 등록; 그들의 세부 G07C3/00, G07C5/00, G07C7/00 개개의 출입 등록 G07C9/00 다른 데에 속하지 않는 검사장치 G07C11/00 투표기; 난수발생기, 추첨기 G07C13/00; 15/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G07C 1/00",
+      "title": {
+        "ko": "어떤 일이 생긴 시간이나 경과시간의 등록, 표시 또는 기록, 예. 근로자의 시간 기록기(time recorder) (기계나 차량의 가동을 등록 또는 표시 G07C 3/00, G07C 5/00)",
+        "en": "Registering, indicating, or recording the time of events or elapsed time, e.g. time-recorders for work people (registering or indicating the working of machines or vehicles G07C0003000000, G07C0005000000)"
+      },
+      "definition": {
+        "ko": "그룹 G07C1/20 ~ G07C1/32는 그룹 G07C1/02 ~ G07C1/10에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G07C 1/02",
+          "title": {
+            "ko": null,
+            "en": "not involving the registering, indicating, or recording of other data"
+          }
+        },
+        {
+          "code": "G07C 1/04",
+          "title": {
+            "ko": null,
+            "en": "wherein the time is indicated in figures"
+          }
+        },
+        {
+          "code": "G07C 1/06",
+          "title": {
+            "ko": null,
+            "en": "with apparatus adapted for use with individual cards"
+          }
+        },
+        {
+          "code": "G07C 1/08",
+          "title": {
+            "ko": null,
+            "en": "wherein the time is indicated by marking an element, e.g. a card or tape, in a position determined by the time"
+          }
+        },
+        {
+          "code": "G07C 1/10",
+          "title": {
+            "ko": null,
+            "en": "together with the recording, indicating or registering of other data, e.g. of signs of identity"
+          }
+        },
+        {
+          "code": "G07C 1/12",
+          "title": {
+            "ko": null,
+            "en": "wherein the time is indicated in figures"
+          }
+        },
+        {
+          "code": "G07C 1/14",
+          "title": {
+            "ko": null,
+            "en": "with apparatus adapted for use with individual cards"
+          }
+        },
+        {
+          "code": "G07C 1/16",
+          "title": {
+            "ko": null,
+            "en": "wherein the time is indicated by marking an element, e.g. a card or tape, in a position determined by the time"
+          }
+        },
+        {
+          "code": "G07C 1/18",
+          "title": {
+            "ko": null,
+            "en": "with apparatus adapted for use with individual cards"
+          }
+        },
+        {
+          "code": "G07C 1/20",
+          "title": {
+            "ko": null,
+            "en": "Checking timed patrols, e.g. of watchman"
+          }
+        },
+        {
+          "code": "G07C 1/22",
+          "title": {
+            "ko": null,
+            "en": "in connection with sports or games"
+          }
+        },
+        {
+          "code": "G07C 1/24",
+          "title": {
+            "ko": null,
+            "en": "Race time-recorders"
+          }
+        },
+        {
+          "code": "G07C 1/26",
+          "title": {
+            "ko": null,
+            "en": "Pigeon-timing or like equipment"
+          }
+        },
+        {
+          "code": "G07C 1/28",
+          "title": {
+            "ko": null,
+            "en": "Indicating playing time"
+          }
+        },
+        {
+          "code": "G07C 1/30",
+          "title": {
+            "ko": "주차계기(운행중인 차량이 대기시간을 등록 또는 표시하는 것 G07C 5/02; 동전 투입식 주차 계기 G07F 17/24)",
+            "en": "Parking meters (registering or indicating waiting time of vehicles by means driven by the vehicle G07C0005020000;coin-freed parking meters G07F0017240000)"
+          }
+        },
+        {
+          "code": "G07C 1/32",
+          "title": {
+            "ko": null,
+            "en": "Time-recording locks"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07C 3/00",
+      "title": {
+        "ko": null,
+        "en": "Registering or indicating the condition or the working of machines or other apparatus, other than vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "G07C 3/02",
+          "title": {
+            "ko": null,
+            "en": "Registering or indicating working or idle time only"
+          }
+        },
+        {
+          "code": "G07C 3/04",
+          "title": {
+            "ko": null,
+            "en": "using counting means or digital clocks"
+          }
+        },
+        {
+          "code": "G07C 3/06",
+          "title": {
+            "ko": null,
+            "en": "in graphical form"
+          }
+        },
+        {
+          "code": "G07C 3/08",
+          "title": {
+            "ko": null,
+            "en": "Registering or indicating the production of the machine either with or without registering working or idle time"
+          }
+        },
+        {
+          "code": "G07C 3/10",
+          "title": {
+            "ko": null,
+            "en": "using counting means"
+          }
+        },
+        {
+          "code": "G07C 3/12",
+          "title": {
+            "ko": null,
+            "en": "in graphical form"
+          }
+        },
+        {
+          "code": "G07C 3/14",
+          "title": {
+            "ko": null,
+            "en": "Quality control systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07C 5/00",
+      "title": {
+        "ko": null,
+        "en": "Registering or indicating the working of vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "G07C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Registering or indicating driving, working, idle, or waiting time only (apparatus forming part of taximeters G07B0013000000)"
+          }
+        },
+        {
+          "code": "G07C 5/04",
+          "title": {
+            "ko": null,
+            "en": "using counting means or digital clocks"
+          }
+        },
+        {
+          "code": "G07C 5/06",
+          "title": {
+            "ko": null,
+            "en": "in graphical form"
+          }
+        },
+        {
+          "code": "G07C 5/08",
+          "title": {
+            "ko": null,
+            "en": "Registering or indicating performance data other than driving, working, idle, or waiting time, with or without registering driving, working, idle, or waiting time"
+          }
+        },
+        {
+          "code": "G07C 5/10",
+          "title": {
+            "ko": null,
+            "en": "using counting means or digital clocks"
+          }
+        },
+        {
+          "code": "G07C 5/12",
+          "title": {
+            "ko": null,
+            "en": "in graphical form"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07C 7/00",
+      "title": {
+        "ko": "그룹 G07C3/00과 G07C5/00의 등록 또는 지시기기에 공통하는 부품 또는 부속품",
+        "en": "Details or accessories common to the registering or indicating apparatus of groups G07C0003000000 and G07C0005000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G07C 9/00",
+      "title": {
+        "ko": null,
+        "en": "Individual registration on entry or exit"
+      },
+      "subgroups": [
+        {
+          "code": "G07C 9/10",
+          "title": {
+            "ko": null,
+            "en": "Movable barriers with registering means"
+          }
+        },
+        {
+          "code": "G07C 9/15",
+          "title": {
+            "ko": null,
+            "en": "with arrangements to prevent the passage of more than one individual at a time"
+          }
+        },
+        {
+          "code": "G07C 9/20",
+          "title": {
+            "ko": null,
+            "en": "involving the use of a pass"
+          }
+        },
+        {
+          "code": "G07C 9/21",
+          "title": {
+            "ko": null,
+            "en": "having a variable access code"
+          }
+        },
+        {
+          "code": "G07C 9/22",
+          "title": {
+            "ko": null,
+            "en": "in combination with an identity check of the pass holder"
+          }
+        },
+        {
+          "code": "G07C 9/23",
+          "title": {
+            "ko": null,
+            "en": "by means of a password"
+          }
+        },
+        {
+          "code": "G07C 9/24",
+          "title": {
+            "ko": null,
+            "en": "by means of a handwritten signature"
+          }
+        },
+        {
+          "code": "G07C 9/25",
+          "title": {
+            "ko": null,
+            "en": "using biometric data, e.g. fingerprints, iris scans or voice recognition"
+          }
+        },
+        {
+          "code": "G07C 9/26",
+          "title": {
+            "ko": null,
+            "en": "using a biometric sensor integrated in the pass"
+          }
+        },
+        {
+          "code": "G07C 9/27",
+          "title": {
+            "ko": null,
+            "en": "with central registration"
+          }
+        },
+        {
+          "code": "G07C 9/28",
+          "title": {
+            "ko": null,
+            "en": "the pass enabling tracking or indicating presence"
+          }
+        },
+        {
+          "code": "G07C 9/29",
+          "title": {
+            "ko": null,
+            "en": "the pass containing active electronic elements, e.g. smartcards"
+          }
+        },
+        {
+          "code": "G07C 9/30",
+          "title": {
+            "ko": null,
+            "en": "not involving the use of a pass"
+          }
+        },
+        {
+          "code": "G07C 9/32",
+          "title": {
+            "ko": null,
+            "en": "in combination with an identity check"
+          }
+        },
+        {
+          "code": "G07C 9/33",
+          "title": {
+            "ko": null,
+            "en": "by means of a password"
+          }
+        },
+        {
+          "code": "G07C 9/35",
+          "title": {
+            "ko": null,
+            "en": "by means of a handwritten signature"
+          }
+        },
+        {
+          "code": "G07C 9/37",
+          "title": {
+            "ko": null,
+            "en": "using biometric data, e.g. fingerprints, iris scans or voice recognition"
+          }
+        },
+        {
+          "code": "G07C 9/38",
+          "title": {
+            "ko": null,
+            "en": "with central registration"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07C 11/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements, systems or apparatus for checking, e.g. the occurrence of a condition, not provided for elsewhere"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G07C 13/00",
+      "title": {
+        "ko": null,
+        "en": "Voting apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "G07C 13/02",
+          "title": {
+            "ko": null,
+            "en": "Ballot boxes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Generating random numbers; Lottery apparatus"
+      },
+      "subgroups": []
+    }
+  ]
+}

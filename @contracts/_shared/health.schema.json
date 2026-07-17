@@ -1,0 +1,8 @@
+{
+  "title": "HealthResponse",
+  "type": "object",
+  "required": ["status"],
+  "properties": {
+    "status": { "type": "string", "const": "healthy" }
+  }
+}

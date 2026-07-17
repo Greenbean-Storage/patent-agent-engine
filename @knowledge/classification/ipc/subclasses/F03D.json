@@ -1,0 +1,464 @@
+{
+  "subclass": "F03D",
+  "title": {
+    "ko": "풍력원동기",
+    "en": "WIND MOTORS"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스는 풍력 모터, 즉. 풍력 에너지를 유용한 기계적 동력으로 변환하고 이러한 동력을 사용 지점으로 전송하는 메커니즘을 포함한다. 2. 이 서브클래스는 풍력 발전소의 전기 발전 또는 분배 측면을 포함하지 않으며, 이는 섹션 H에서 다룬다, 예. H02J 또는 H02P. 3. 이 서브클래스에서 다음 용어 또는 표현은 지시된 의미로 사용된다. ㆍ\"로터\"는 풍력 모터의 바람과 맞닿는 부분과 이를 운반하는 회전 멤버를 의미한다. ㆍ\"회전 축\"은 로터의 회전 축을 의미한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F03D 1/00",
+      "title": {
+        "ko": "거의 풍력방향으로 회전축을 갖는 풍력원동기 (제어 F03D 7/02)",
+        "en": "Wind motors with rotation axis substantially parallel to the air flow entering the rotor (controlling thereof F03D0007020000)"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 1/02",
+          "title": {
+            "ko": null,
+            "en": "having a plurality of rotors"
+          }
+        },
+        {
+          "code": "F03D 1/04",
+          "title": {
+            "ko": "고정적 풍력전도수단을 갖는 것, 예. 측판 또는 홈을 갖는 것 (F03D 9/35 우선 )",
+            "en": "having stationary wind-guiding means, e.g. with shrouds or channels (F03D0009350000 takes precedence)"
+          }
+        },
+        {
+          "code": "F03D 1/06",
+          "title": {
+            "ko": null,
+            "en": "Rotors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F03D 3/00",
+      "title": {
+        "ko": "풍력의 방향에 거의 직각인 회전축을 가진 풍력원동기 (제어 F03D 7/00)",
+        "en": "Wind motors with rotation axis substantially perpendicular to the air flow entering the rotor (controlling thereof F03D0007060000)"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 3/02",
+          "title": {
+            "ko": null,
+            "en": "having a plurality of rotors"
+          }
+        },
+        {
+          "code": "F03D 3/04",
+          "title": {
+            "ko": "고정적 풍력전도수단을 갖는 것, 예. 측판 또는 홈을 갖는 것 (F03D 9/35 우선 )",
+            "en": "having stationary wind-guiding means, e.g. with shrouds or channels (F03D0009350000 takes precedence)"
+          }
+        },
+        {
+          "code": "F03D 3/06",
+          "title": {
+            "ko": null,
+            "en": "Rotors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F03D 5/00",
+      "title": {
+        "ko": "타의 풍력원동기(제어 7/00)",
+        "en": "Other wind motors (controlling thereof F03D0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 5/02",
+          "title": {
+            "ko": null,
+            "en": "the wind-engaging parts being attached to endless chains or the like"
+          }
+        },
+        {
+          "code": "F03D 5/04",
+          "title": {
+            "ko": null,
+            "en": "the wind-engaging parts being attached to carriages running on tracks or the like"
+          }
+        },
+        {
+          "code": "F03D 5/06",
+          "title": {
+            "ko": null,
+            "en": "the wind-engaging parts swinging to-and-fro and not rotating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F03D 7/00",
+      "title": {
+        "ko": "풍력원동기의 제어(전력급전 또는 전력배전기 공급 또는 분배 H02J, 예. 회로망내의 무효전력을 조정, 제거, 보상하기 위한 장치 H02J 3/18; 발전기의 제어 H02P, 예. 목표 출력을 얻기 위한 발전기 제어장치 H02P 9/00)",
+        "en": "Controlling wind motors (supplying or distributing electrical power H02J, e.g. arrangements for adjusting, eliminating or compensating reactive power in networks H02J0003180000;controlling electric generators H02P, e.g. arrangements for controlling electric generators for the purpose of obtaining a desired output H02P0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 7/02",
+          "title": {
+            "ko": null,
+            "en": "the wind motors having rotation axis substantially parallel to the air flow entering the rotor"
+          }
+        },
+        {
+          "code": "F03D 7/04",
+          "title": {
+            "ko": null,
+            "en": "Automatic control; Regulation"
+          }
+        },
+        {
+          "code": "F03D 7/06",
+          "title": {
+            "ko": null,
+            "en": "the wind motors having rotation axis substantially perpendicular to the air flow entering the rotor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F03D 9/00",
+      "title": {
+        "ko": "풍력 원동기의 특수 용도로의 적응; 풍력 원동기와 그것에 의해 구동되는 장치와 조합; 특정 위치에 설치하기 위해 특별히 적용되는 풍력 원동기 (전력 발생을 위한 하이브리드 풍력-태양 에너지 시스템 H02S 10/12 )",
+        "en": "Adaptations of wind motors for special use; Combinations of wind motors with apparatus driven thereby; Wind motors specially adapted for installation in particular locations (hybrid wind-photovoltaic energy systems for the generation of electric power H02S0010120000)"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 9/10",
+          "title": {
+            "ko": null,
+            "en": "Combinations of wind motors with apparatus storing energy"
+          }
+        },
+        {
+          "code": "F03D 9/11",
+          "title": {
+            "ko": null,
+            "en": "storing electrical energy"
+          }
+        },
+        {
+          "code": "F03D 9/12",
+          "title": {
+            "ko": null,
+            "en": "storing kinetic energy, e.g. using flywheels"
+          }
+        },
+        {
+          "code": "F03D 9/13",
+          "title": {
+            "ko": null,
+            "en": "storing gravitational potential energy"
+          }
+        },
+        {
+          "code": "F03D 9/14",
+          "title": {
+            "ko": null,
+            "en": "using liquids"
+          }
+        },
+        {
+          "code": "F03D 9/16",
+          "title": {
+            "ko": null,
+            "en": "using weights"
+          }
+        },
+        {
+          "code": "F03D 9/17",
+          "title": {
+            "ko": null,
+            "en": "storing energy in pressurised fluids"
+          }
+        },
+        {
+          "code": "F03D 9/18",
+          "title": {
+            "ko": null,
+            "en": "storing heat"
+          }
+        },
+        {
+          "code": "F03D 9/19",
+          "title": {
+            "ko": null,
+            "en": "storing chemical energy, e.g. using electrolysis"
+          }
+        },
+        {
+          "code": "F03D 9/20",
+          "title": {
+            "ko": "구동되는 장치에 의해서 특징지워지는 풍력 원동기 (F03D 9/10 우선 )",
+            "en": "Wind motors characterised by the driven apparatus (F03D0009100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F03D 9/22",
+          "title": {
+            "ko": null,
+            "en": "the apparatus producing heat"
+          }
+        },
+        {
+          "code": "F03D 9/25",
+          "title": {
+            "ko": "장치가 전기발전기인 것 (F03D 9/22 우선 )",
+            "en": "the apparatus being an electrical generator (F03D0009220000 takes precedence)"
+          }
+        },
+        {
+          "code": "F03D 9/28",
+          "title": {
+            "ko": null,
+            "en": "the apparatus being a pump or a compressor"
+          }
+        },
+        {
+          "code": "F03D 9/30",
+          "title": {
+            "ko": "특정 위치에 설치하기 위해 특별히 적용되는 풍력 원동기 (풍력원동기를 장착 또는 지지하기 위한 수단 F03D 13/20 )",
+            "en": "Wind motors specially adapted for installation in particular locations (means for mounting or supporting wind motors F03D0013200000)"
+          }
+        },
+        {
+          "code": "F03D 9/32",
+          "title": {
+            "ko": null,
+            "en": "on moving objects, e.g. vehicles"
+          }
+        },
+        {
+          "code": "F03D 9/34",
+          "title": {
+            "ko": null,
+            "en": "on stationary objects or on stationary man-made structures"
+          }
+        },
+        {
+          "code": "F03D 9/35",
+          "title": {
+            "ko": null,
+            "en": "within towers, e.g. using chimney effects"
+          }
+        },
+        {
+          "code": "F03D 9/37",
+          "title": {
+            "ko": null,
+            "en": "with means for enhancing the air flow within the tower, e.g. by heating"
+          }
+        },
+        {
+          "code": "F03D 9/39",
+          "title": {
+            "ko": null,
+            "en": "by circulation or vortex formation"
+          }
+        },
+        {
+          "code": "F03D 9/41",
+          "title": {
+            "ko": null,
+            "en": "by using the wind outside the tower, e.g. using ejectors"
+          }
+        },
+        {
+          "code": "F03D 9/43",
+          "title": {
+            "ko": null,
+            "en": "using infrastructure primarily used for other purposes, e.g. masts for overhead railway power lines"
+          }
+        },
+        {
+          "code": "F03D 9/45",
+          "title": {
+            "ko": null,
+            "en": "Building formations"
+          }
+        },
+        {
+          "code": "F03D 9/46",
+          "title": {
+            "ko": null,
+            "en": "Tunnels or streets"
+          }
+        },
+        {
+          "code": "F03D 9/48",
+          "title": {
+            "ko": null,
+            "en": "using landscape topography, e.g. valleys"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F03D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Assembly, mounting or commissioning of wind motors; Arrangements specially adapted for transporting wind motor components"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 13/10",
+          "title": {
+            "ko": null,
+            "en": "Assembly of wind motors; Arrangements for erecting wind motors"
+          }
+        },
+        {
+          "code": "F03D 13/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for mounting or supporting wind motors; Masts or towers for wind motors"
+          }
+        },
+        {
+          "code": "F03D 13/25",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for offshore installation"
+          }
+        },
+        {
+          "code": "F03D 13/30",
+          "title": {
+            "ko": null,
+            "en": "Commissioning, e.g. inspection, testing or final adjustment before releasing for production"
+          }
+        },
+        {
+          "code": "F03D 13/35",
+          "title": {
+            "ko": null,
+            "en": "Balancing static or dynamic imbalances"
+          }
+        },
+        {
+          "code": "F03D 13/40",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or methods specially adapted for transporting wind motor components"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F03D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Transmission of mechanical power"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 15/10",
+          "title": {
+            "ko": null,
+            "en": "using gearing not limited to rotary motion, e.g. with oscillating or reciprocating members"
+          }
+        },
+        {
+          "code": "F03D 15/20",
+          "title": {
+            "ko": null,
+            "en": "Gearless transmission, i.e. direct-drive"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F03D 17/00",
+      "title": {
+        "ko": "풍력 원동기의 가시 또는 시험, 예. 진단 (풍력 원동기의 시운전 동안의 시험 F03D 13/30 )",
+        "en": "Monitoring or testing of wind motors, e.g. diagnostics (testing during commissioning of wind motors F03D0013300000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F03D 80/00",
+      "title": {
+        "ko": "그룹 F03D 1/00-F03D17/00으로 분류되지 않는 세부, 요소 또는 부속물",
+        "en": "Details, components or accessories not provided for in groups F03D0001000000-F03D0017000000"
+      },
+      "subgroups": [
+        {
+          "code": "F03D 80/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for warning air traffic"
+          }
+        },
+        {
+          "code": "F03D 80/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for avoiding shadow flicker"
+          }
+        },
+        {
+          "code": "F03D 80/30",
+          "title": {
+            "ko": null,
+            "en": "Lightning protection"
+          }
+        },
+        {
+          "code": "F03D 80/40",
+          "title": {
+            "ko": null,
+            "en": "Ice detection; De-icing means"
+          }
+        },
+        {
+          "code": "F03D 80/50",
+          "title": {
+            "ko": "유지보수 또는 수리",
+            "en": "Maintenance or repair"
+          }
+        },
+        {
+          "code": "F03D 80/55",
+          "title": {
+            "ko": "청소(세정) (F03D 80/40 우선 )",
+            "en": "Cleaning (F03D0080400000 takes precedence)"
+          }
+        },
+        {
+          "code": "F03D 80/60",
+          "title": {
+            "ko": null,
+            "en": "Cooling or heating of wind motors"
+          }
+        },
+        {
+          "code": "F03D 80/70",
+          "title": {
+            "ko": null,
+            "en": "Bearing or lubricating arrangements"
+          }
+        },
+        {
+          "code": "F03D 80/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of components within nacelles or towers"
+          }
+        }
+      ]
+    }
+  ]
+}

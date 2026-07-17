@@ -1,0 +1,596 @@
+{
+  "subclass": "H04B",
+  "title": {
+    "ko": null,
+    "en": "TRANSMISSION"
+  },
+  "groups": [
+    {
+      "code": "H04B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details of transmission systems, not covered by a single one of groups H04B3/00 - H04B13/00; Details of transmission systems not characterised by the medium used for transmission"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 1/0003",
+          "title": {
+            "ko": null,
+            "en": "{Software-defined radio [SDR] systems, i.e. systems wherein components typically implemented in hardware, e.g. filters or modulators/demodulators, are implented using software, e.g. by involving an AD or DA conversion stage such that at least part of the signal processing is performed in the digital domain (digital baseband systems H04L25/00; digital modulation/demodulation H04L27/00; CDMA H04B1/707; TDMA H04B7/2643; image transmission H04N5/00)}"
+          }
+        },
+        {
+          "code": "H04B 1/005",
+          "title": {
+            "ko": null,
+            "en": "{adapting radio receivers, transmitters andtransceivers for operation on two or more bands, i.e. frequency ranges}"
+          }
+        },
+        {
+          "code": "H04B 1/02",
+          "title": {
+            "ko": null,
+            "en": "Transmitters"
+          }
+        },
+        {
+          "code": "H04B 1/06",
+          "title": {
+            "ko": null,
+            "en": "Receivers"
+          }
+        },
+        {
+          "code": "H04B 1/38",
+          "title": {
+            "ko": null,
+            "en": "Transceivers, i.e. devices in which transmitter and receiver form a structural unit and in which at least one part is used for functions of transmitting and receiving"
+          }
+        },
+        {
+          "code": "H04B 1/59",
+          "title": {
+            "ko": null,
+            "en": "Responders; Transponders"
+          }
+        },
+        {
+          "code": "H04B 1/60",
+          "title": {
+            "ko": null,
+            "en": "Supervising unattended repeaters"
+          }
+        },
+        {
+          "code": "H04B 1/62",
+          "title": {
+            "ko": null,
+            "en": "for providing a predistortion of the signal in the transmitter and corresponding correction in the receiver, e.g. for improving the signal/noise ratio"
+          }
+        },
+        {
+          "code": "H04B 1/66",
+          "title": {
+            "ko": null,
+            "en": "for reducing bandwidth of signals; for improving efficiency of transmission (H04B1/68 takes precedence)"
+          }
+        },
+        {
+          "code": "H04B 1/68",
+          "title": {
+            "ko": null,
+            "en": "for wholly or partially suppressing the carrier or one side band"
+          }
+        },
+        {
+          "code": "H04B 1/69",
+          "title": {
+            "ko": null,
+            "en": "Spread spectrum techniques"
+          }
+        },
+        {
+          "code": "H04B 1/72",
+          "title": {
+            "ko": null,
+            "en": "Circuits or components for simulating antennas, e.g. dummy antennas"
+          }
+        },
+        {
+          "code": "H04B 1/74",
+          "title": {
+            "ko": null,
+            "en": "for increasing reliability, e.g. using redundant or spare channels or apparatus {(replacing by standby devices for amplifiers H03F1/52, H03F1/542)}"
+          }
+        },
+        {
+          "code": "H04B 1/76",
+          "title": {
+            "ko": null,
+            "en": "Pilot transmitters or receivers for control of transmission or for equalising"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Line transmission systems (combined with near-field transmission systems H04B5/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H04B 3/50",
+          "title": {
+            "ko": null,
+            "en": "Systems for transmission between fixed stations via two-conductor transmission lines (H04B3/54 takes precedence)"
+          }
+        },
+        {
+          "code": "H04B 3/52",
+          "title": {
+            "ko": null,
+            "en": "Systems for transmission between fixed stations via waveguides"
+          }
+        },
+        {
+          "code": "H04B 3/54",
+          "title": {
+            "ko": null,
+            "en": "Systems for transmission via power distribution lines"
+          }
+        },
+        {
+          "code": "H04B 3/60",
+          "title": {
+            "ko": null,
+            "en": "Systems for communication between relatively movable stations, e.g. for communication with lift (H04B3/54 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Near-field transmission systems, e.g. inductive or capacitive transmission systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 5/20",
+          "title": {
+            "ko": null,
+            "en": "characterised by the transmission technique; characterised by the transmission medium"
+          }
+        },
+        {
+          "code": "H04B 5/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by components specially adapted for near-field transmission"
+          }
+        },
+        {
+          "code": "H04B 5/70",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for specific purposes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 7/00",
+      "title": {
+        "ko": null,
+        "en": "Radio transmission systems, i.e. using radiation field (H04B10/00, H04B15/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 7/002",
+          "title": {
+            "ko": null,
+            "en": "{Reducing depolarization effects}"
+          }
+        },
+        {
+          "code": "H04B 7/005",
+          "title": {
+            "ko": null,
+            "en": "Control of transmission; Equalising"
+          }
+        },
+        {
+          "code": "H04B 7/01",
+          "title": {
+            "ko": null,
+            "en": "Reducing phase shift"
+          }
+        },
+        {
+          "code": "H04B 7/015",
+          "title": {
+            "ko": null,
+            "en": "Reducing echo effects"
+          }
+        },
+        {
+          "code": "H04B 7/02",
+          "title": {
+            "ko": null,
+            "en": "Diversity systems; Multi-antenna system, i.e. transmission or reception using multiple antennas (RAKE receivers H04B1/7115)"
+          }
+        },
+        {
+          "code": "H04B 7/14",
+          "title": {
+            "ko": null,
+            "en": "Relay systems"
+          }
+        },
+        {
+          "code": "H04B 7/22",
+          "title": {
+            "ko": null,
+            "en": "Scatter propagation systems {, e.g. ionospheric, tropospheric or meteor scatter}"
+          }
+        },
+        {
+          "code": "H04B 7/24",
+          "title": {
+            "ko": null,
+            "en": "for communication between two or more posts (wireless communication networks H04W)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 10/00",
+      "title": {
+        "ko": null,
+        "en": "Transmission systems employing electromagnetic waves other than radio-waves, e.g. infrared, visible or ultraviolet light, or employing corpuscular radiation, e.g. quantum communication"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 10/03",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for fault recovery"
+          }
+        },
+        {
+          "code": "H04B 10/07",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for monitoring or testing transmission systems; Arrangements for fault measurement of transmission systems"
+          }
+        },
+        {
+          "code": "H04B 10/11",
+          "title": {
+            "ko": null,
+            "en": "Arrangements specific to free-space transmission, i.e. transmission through air or vacuum"
+          }
+        },
+        {
+          "code": "H04B 10/25",
+          "title": {
+            "ko": null,
+            "en": "Arrangements specific to fibre transmission"
+          }
+        },
+        {
+          "code": "H04B 10/27",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for networking"
+          }
+        },
+        {
+          "code": "H04B 10/29",
+          "title": {
+            "ko": null,
+            "en": "Repeaters"
+          }
+        },
+        {
+          "code": "H04B 10/40",
+          "title": {
+            "ko": null,
+            "en": "Transceivers"
+          }
+        },
+        {
+          "code": "H04B 10/50",
+          "title": {
+            "ko": null,
+            "en": "Transmitters"
+          }
+        },
+        {
+          "code": "H04B 10/60",
+          "title": {
+            "ko": null,
+            "en": "Receivers"
+          }
+        },
+        {
+          "code": "H04B 10/70",
+          "title": {
+            "ko": null,
+            "en": "Photonic quantum communication"
+          }
+        },
+        {
+          "code": "H04B 10/80",
+          "title": {
+            "ko": null,
+            "en": "Optical aspects relating to the use of optical transmission for specific applications, not provided for in groups H04B10/03 - H04B10/70, e.g. optical power feeding or optical transmission through water"
+          }
+        },
+        {
+          "code": "H04B 10/90",
+          "title": {
+            "ko": null,
+            "en": "Non-optical transmission systems, e.g. transmission systems employing non-photonic corpuscular radiation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 11/00",
+      "title": {
+        "ko": null,
+        "en": "Transmission systems employing ultrasonic, sonic or infrasonic waves"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Transmission systems characterised by the medium used for transmission, not provided for in groups H04B3/00 - H04B11/00"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 13/005",
+          "title": {
+            "ko": null,
+            "en": "{Transmission systems in which the medium consists of the human body}"
+          }
+        },
+        {
+          "code": "H04B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Transmission systems in which the medium consists of the earth or a large mass of water thereon, e.g. earth telegraphy"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 14/00",
+      "title": {
+        "ko": null,
+        "en": "Transmission systems not characterised by the medium used for transmission (details thereof H04B1/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 14/002",
+          "title": {
+            "ko": null,
+            "en": "{characterised by the use of a carrier modulation (using subcarrier modulation H04B14/08)}"
+          }
+        },
+        {
+          "code": "H04B 14/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of pulse modulation (in radio transmission relays H04B7/17)"
+          }
+        },
+        {
+          "code": "H04B 14/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of a sub-carrier"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Suppression or limitation of noise or interference (by means associated with receiver H04B1/10)"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 15/005",
+          "title": {
+            "ko": null,
+            "en": "{Reducing noise, e.g. humm, from the supply}"
+          }
+        },
+        {
+          "code": "H04B 15/02",
+          "title": {
+            "ko": null,
+            "en": "Reducing interference from electric apparatus by means located at or near the interfering apparatus"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Monitoring; Testing (of line transmission systems H04B3/46; arrangements for monitoring or testing transmission systems employing electromagnetic waves other than radio waves H04B10/07)"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 17/0082",
+          "title": {
+            "ko": null,
+            "en": "{using service channels; using auxiliary channels}"
+          }
+        },
+        {
+          "code": "H04B 17/10",
+          "title": {
+            "ko": null,
+            "en": "of transmitters"
+          }
+        },
+        {
+          "code": "H04B 17/20",
+          "title": {
+            "ko": null,
+            "en": "of receivers"
+          }
+        },
+        {
+          "code": "H04B 17/30",
+          "title": {
+            "ko": null,
+            "en": "of propagation channels"
+          }
+        },
+        {
+          "code": "H04B 17/40",
+          "title": {
+            "ko": null,
+            "en": "of relay systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of transmission systems not covered by a single group of H04B3/00 - H04B13/00"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 2201/69",
+          "title": {
+            "ko": null,
+            "en": "Orthogonal indexing scheme relating to spread spectrum techniques in general"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 2203/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to line transmission systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 2203/54",
+          "title": {
+            "ko": null,
+            "en": "Aspects of powerline communications not already covered by H04B3/54 and its subgroups"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 2210/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to optical transmission systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 2210/003",
+          "title": {
+            "ko": null,
+            "en": "Devices including multiple stages, e.g., multi-stage optical amplifiers or dispersion compensators"
+          }
+        },
+        {
+          "code": "H04B 2210/006",
+          "title": {
+            "ko": null,
+            "en": "Devices for generating or processing an RF signal by optical means"
+          }
+        },
+        {
+          "code": "H04B 2210/07",
+          "title": {
+            "ko": null,
+            "en": "Monitoring an optical transmission system using a supervisory signal"
+          }
+        },
+        {
+          "code": "H04B 2210/08",
+          "title": {
+            "ko": null,
+            "en": "Shut-down or eye-safety"
+          }
+        },
+        {
+          "code": "H04B 2210/25",
+          "title": {
+            "ko": null,
+            "en": "Distortion or dispersion compensation"
+          }
+        },
+        {
+          "code": "H04B 2210/516",
+          "title": {
+            "ko": null,
+            "en": "Optical conversion of optical modulation formats, e.g., from optical ASK to optical PSK"
+          }
+        },
+        {
+          "code": "H04B 2210/517",
+          "title": {
+            "ko": null,
+            "en": "Optical NRZ to RZ conversion, or vice versa"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04B 2215/00",
+      "title": {
+        "ko": null,
+        "en": "Reducing interference at the transmission system level"
+      },
+      "subgroups": [
+        {
+          "code": "H04B 2215/061",
+          "title": {
+            "ko": null,
+            "en": "Reduction of burst noise, e.g. in TDMA systems"
+          }
+        },
+        {
+          "code": "H04B 2215/064",
+          "title": {
+            "ko": null,
+            "en": "Reduction of clock or synthesizer reference frequency harmonics"
+          }
+        },
+        {
+          "code": "H04B 2215/069",
+          "title": {
+            "ko": null,
+            "en": "Reduction of switch mode power supply ripple"
+          }
+        }
+      ]
+    }
+  ]
+}

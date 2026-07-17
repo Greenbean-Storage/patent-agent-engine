@@ -1,0 +1,5910 @@
+{
+  "subclass": "H01H",
+  "title": {
+    "ko": "전기적스위치; 계전기; 셀렉터(selector); 비상보호장치(접촉케이블 H01B 7/10; H01G 9/18; H02H; 무접점 전자장치에 의한 개폐 H03K 17/00)",
+    "en": "ELECTRIC SWITCHES; RELAYS; SELECTORS; EMERGENCY PROTECTIVE DEVICES (contact cables H01B0007100000; electrolytic self-interrupters H01G0009180000; emergency protective circuit arrangements H02H; switching by electronic means without contact-making H03K0017000000)"
+  },
+  "definition": {
+    "ko": "전기 스위치 제어 원리에 의해서 특징지어지는 것 기계적인 것 직접 이동에 의한 것; 1방향; 2방향 H01H13/00, H01H15/00 각변위에 의한 것; 제한되지 않은 각도에서; 제한된 각도에서 H01H19/00, H01H21/00 끌어당기기에 의한 것; 텀블러 스위치 (tumbler switch) H01H17/00, H01H23/00 복합운동하는 것 H01H25/00 착탈부재에 의한 것 H01H27/00 물리적인 것 일반; 전계 또는 자계에 의한 것; 가열; 폭발 H01H35/00, H01H36/00, H01H37/00, H01H39/00 접점에 의해서 특징지어지는 것 액체 H01H29/00 전압 또는 강도에 의해서 특징지어지는 것 소호 수단이 없는 것; 소호 수단이 있는 것 H01H31/00, H01H33/00 시동, 지속에 의해서 특징지어지는 것; 수동; 프로그램 H01H41/00, H01H43/00 제조 H01H11/00 계전기 전자형; 동전형; 자왜형 H01H51/00, H01H53/00, H01H55/00 전왜형 또는 전압형; 정전형; 전열형 H01H57/00, H01H59/00, H01H61/00 세부 일반 : 전기기계적; 회로 H01H45/00, H01H50/00, H01H47/00 제조 H01H49/00 셀렉터(SELECTOR) 형식 H01H67/00 세부 H01H63/00 제조 H01H65/00 섹셔널라이저(SECTIONALISER) 인형 접점의 저전압 H01H21/54 고전압용 H01H31/00 퓨즈를 장착한 것 H01H85/54 보호 장치 회로차단 스위치 리셋트(resetting)기구가 있는 것, 수동; 전동기에 의한 것, 다른 작동을 요하는 것 H01H73/00, H01H75/00, H01H77/00 보호 스위치 단로의 개폐를 되풀이(반복)하는 것; 이상상태 H01H79/00, H01H81/00, H01H83/00 퓨즈; 증발장치 H01H85/00, H01H87/00 보호스위치 또는 보호계전기의 세부 H01H71/00 제조 H01H69/00 세부 H01H89/00 일반적 세부 접점 H01H1/00 기구 접점의 조작기구 일반; 속동 장치; 지연 H01H3/00, H01H5/00, H01H7/00 기타 세부 H01H9/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H01H 1/00",
+      "title": {
+        "ko": "접점(액체접점 H01H 29/04)",
+        "en": "Electric switches"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 1/00",
+      "title": {
+        "ko": "접점(액체접점 H01H 29/04)",
+        "en": "Contacts (liquid contacts H01H0029040000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 1/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material thereof"
+          }
+        },
+        {
+          "code": "H01H 1/021",
+          "title": {
+            "ko": null,
+            "en": "Composite material"
+          }
+        },
+        {
+          "code": "H01H 1/023",
+          "title": {
+            "ko": null,
+            "en": "having a noble metal as the basic material"
+          }
+        },
+        {
+          "code": "H01H 1/0233",
+          "title": {
+            "ko": null,
+            "en": "and containing carbides"
+          }
+        },
+        {
+          "code": "H01H 1/0237",
+          "title": {
+            "ko": null,
+            "en": "and containing oxides"
+          }
+        },
+        {
+          "code": "H01H 1/025",
+          "title": {
+            "ko": null,
+            "en": "having copper as the basic material"
+          }
+        },
+        {
+          "code": "H01H 1/027",
+          "title": {
+            "ko": null,
+            "en": "containing carbon particles or fibres"
+          }
+        },
+        {
+          "code": "H01H 1/029",
+          "title": {
+            "ko": null,
+            "en": "comprising conducting material dispersed in an elastic support or binding material"
+          }
+        },
+        {
+          "code": "H01H 1/04",
+          "title": {
+            "ko": null,
+            "en": "Co-operating contacts of different material"
+          }
+        },
+        {
+          "code": "H01H 1/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape or structure of the contact-making surface, e.g. grooved"
+          }
+        },
+        {
+          "code": "H01H 1/08",
+          "title": {
+            "ko": null,
+            "en": "wetted with mercury"
+          }
+        },
+        {
+          "code": "H01H 1/10",
+          "title": {
+            "ko": null,
+            "en": "Laminated contacts with divided contact surface"
+          }
+        },
+        {
+          "code": "H01H 1/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by the manner in which co-operating contacts engage"
+          }
+        },
+        {
+          "code": "H01H 1/14",
+          "title": {
+            "ko": null,
+            "en": "by abutting"
+          }
+        },
+        {
+          "code": "H01H 1/16",
+          "title": {
+            "ko": null,
+            "en": "by rolling; by wrapping; Roller or ball contacts"
+          }
+        },
+        {
+          "code": "H01H 1/18",
+          "title": {
+            "ko": null,
+            "en": "with subsequent sliding"
+          }
+        },
+        {
+          "code": "H01H 1/20",
+          "title": {
+            "ko": null,
+            "en": "Bridging contacts"
+          }
+        },
+        {
+          "code": "H01H 1/22",
+          "title": {
+            "ko": null,
+            "en": "with rigid pivoted member carrying the moving contact"
+          }
+        },
+        {
+          "code": "H01H 1/24",
+          "title": {
+            "ko": null,
+            "en": "with resilient mounting"
+          }
+        },
+        {
+          "code": "H01H 1/26",
+          "title": {
+            "ko": null,
+            "en": "with spring blade support"
+          }
+        },
+        {
+          "code": "H01H 1/28",
+          "title": {
+            "ko": null,
+            "en": "Assembly of three or more contact-supporting spring blades"
+          }
+        },
+        {
+          "code": "H01H 1/30",
+          "title": {
+            "ko": null,
+            "en": "within supporting guides"
+          }
+        },
+        {
+          "code": "H01H 1/32",
+          "title": {
+            "ko": null,
+            "en": "Self-aligning contacts"
+          }
+        },
+        {
+          "code": "H01H 1/34",
+          "title": {
+            "ko": null,
+            "en": "with provision for adjusting position of contact relative to its co-operating contact"
+          }
+        },
+        {
+          "code": "H01H 1/36",
+          "title": {
+            "ko": null,
+            "en": "by sliding"
+          }
+        },
+        {
+          "code": "H01H 1/38",
+          "title": {
+            "ko": null,
+            "en": "Plug-and-socket contacts"
+          }
+        },
+        {
+          "code": "H01H 1/40",
+          "title": {
+            "ko": null,
+            "en": "Contact mounted so that its contact-making surface is flush with adjoining insulation"
+          }
+        },
+        {
+          "code": "H01H 1/42",
+          "title": {
+            "ko": null,
+            "en": "Knife-and-clip contacts"
+          }
+        },
+        {
+          "code": "H01H 1/44",
+          "title": {
+            "ko": null,
+            "en": "with resilient mounting"
+          }
+        },
+        {
+          "code": "H01H 1/46",
+          "title": {
+            "ko": null,
+            "en": "self-aligning contacts"
+          }
+        },
+        {
+          "code": "H01H 1/48",
+          "title": {
+            "ko": null,
+            "en": "with provision for adjusting position of contact relative to its co-operating contact"
+          }
+        },
+        {
+          "code": "H01H 1/50",
+          "title": {
+            "ko": null,
+            "en": "Means for increasing contact pressure, preventing vibration of contacts, holding contacts together after engagement, or biasing contacts to the open position"
+          }
+        },
+        {
+          "code": "H01H 1/52",
+          "title": {
+            "ko": null,
+            "en": "Contacts adapted to act as latches"
+          }
+        },
+        {
+          "code": "H01H 1/54",
+          "title": {
+            "ko": null,
+            "en": "by magnetic force"
+          }
+        },
+        {
+          "code": "H01H 1/56",
+          "title": {
+            "ko": null,
+            "en": "Contact arrangements for providing make-before-break operation, e.g. for on-load tap-changing"
+          }
+        },
+        {
+          "code": "H01H 1/58",
+          "title": {
+            "ko": null,
+            "en": "Electric connections to or between contacts; Terminals"
+          }
+        },
+        {
+          "code": "H01H 1/60",
+          "title": {
+            "ko": "접속면을 청정 또는 매끄럽게 하기 위하여 스위치 와 관련한 기구상의 보조장치(접점의 상시접동에 의한 청정 H01H 1/18, H01H 1/36)",
+            "en": "Auxiliary means structurally associated with the switch for cleaning or lubricating contact-making surfaces (cleaning by normal sliding of contacts H01H0001180000, H01H0001360000)"
+          }
+        },
+        {
+          "code": "H01H 1/62",
+          "title": {
+            "ko": null,
+            "en": "Heating or cooling of contacts"
+          }
+        },
+        {
+          "code": "H01H 1/64",
+          "title": {
+            "ko": null,
+            "en": "Protective enclosures, baffle plates, or screens for contacts"
+          }
+        },
+        {
+          "code": "H01H 1/66",
+          "title": {
+            "ko": null,
+            "en": "Contacts sealed in an evacuated or gas-filled envelope, e.g. magnetic dry-reed contacts"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 3/00",
+      "title": {
+        "ko": "접점의 조작기구(열작용 또는 석방수단 H01H 37/02)",
+        "en": "Mechanisms for operating contacts (thermal actuating or release means H01H0037020000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 3/02",
+          "title": {
+            "ko": "조작부분, 특히 스위치에 대해서 기계적 외력에 의하여 구동기구를 조작하기 위한 것",
+            "en": "Operating parts, i.e. for operating driving mechanism by a mechanical force external to the switch"
+          }
+        },
+        {
+          "code": "H01H 3/04",
+          "title": {
+            "ko": "레버(텀블러(tumbler) H01H 23/14)",
+            "en": "Levers (tumblers H01H0023140000)"
+          }
+        },
+        {
+          "code": "H01H 3/06",
+          "title": {
+            "ko": null,
+            "en": "Means for securing to shaft of driving mechanism"
+          }
+        },
+        {
+          "code": "H01H 3/08",
+          "title": {
+            "ko": null,
+            "en": "Turn knobs"
+          }
+        },
+        {
+          "code": "H01H 3/10",
+          "title": {
+            "ko": null,
+            "en": "Means for securing to shaft of driving mechanism"
+          }
+        },
+        {
+          "code": "H01H 3/12",
+          "title": {
+            "ko": null,
+            "en": "Push-buttons"
+          }
+        },
+        {
+          "code": "H01H 3/14",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 3/16",
+          "title": {
+            "ko": null,
+            "en": "adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. for a door switch, a limit switch, a floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 3/18",
+          "title": {
+            "ko": null,
+            "en": "the movement in one direction being intentionally by hand, e.g. for setting automatically cancelled trafficators"
+          }
+        },
+        {
+          "code": "H01H 3/20",
+          "title": {
+            "ko": null,
+            "en": "wherein an auxiliary movement thereof, or of an attachment thereto, is necessary before the main movement is possible or effective, e.g. for unlatching, for coupling"
+          }
+        },
+        {
+          "code": "H01H 3/22",
+          "title": {
+            "ko": "구동기구를 조작하는 스위치의 내부동력장치",
+            "en": "Power arrangements internal to the switch for operating the driving mechanism"
+          }
+        },
+        {
+          "code": "H01H 3/24",
+          "title": {
+            "ko": null,
+            "en": "using pneumatic or hydraulic actuator"
+          }
+        },
+        {
+          "code": "H01H 3/26",
+          "title": {
+            "ko": "전동기를 사용하는 것(스프링 모터에 축세하는 것 H01H 3/30)",
+            "en": "using dynamo-electric motor (for storing energy in a spring motor H01H0003300000)"
+          }
+        },
+        {
+          "code": "H01H 3/28",
+          "title": {
+            "ko": "전자석을 사용하는 것(스프링 모터에 축세하는 것 H01H 3/30; 릴레이를 조작하는 것 H01H 45/00)",
+            "en": "using electromagnet (for storing energy in a spring motor H01H0003300000;for operating relays H01H0045000000)"
+          }
+        },
+        {
+          "code": "H01H 3/30",
+          "title": {
+            "ko": null,
+            "en": "using spring motor"
+          }
+        },
+        {
+          "code": "H01H 3/32",
+          "title": {
+            "ko": "구동기구 즉 접점에 대해서 구동력을 전하는 것(속동장치 H01H 5/00; 예정의 지연을 낳는 것 H01H 7/00)",
+            "en": "Driving mechanisms, i.e. for transmitting driving force to the contacts (snap-action arrangements H01H0005000000;introducing a predetermined time delay H01H0007000000)"
+          }
+        },
+        {
+          "code": "H01H 3/34",
+          "title": {
+            "ko": null,
+            "en": "using ratchet"
+          }
+        },
+        {
+          "code": "H01H 3/36",
+          "title": {
+            "ko": null,
+            "en": "using belt, chain, or cord"
+          }
+        },
+        {
+          "code": "H01H 3/38",
+          "title": {
+            "ko": null,
+            "en": "using spring or other flexible shaft coupling"
+          }
+        },
+        {
+          "code": "H01H 3/40",
+          "title": {
+            "ko": null,
+            "en": "using friction, toothed, or screw-and-nut gearing"
+          }
+        },
+        {
+          "code": "H01H 3/42",
+          "title": {
+            "ko": null,
+            "en": "using cam or eccentric"
+          }
+        },
+        {
+          "code": "H01H 3/44",
+          "title": {
+            "ko": null,
+            "en": "using Geneva movement"
+          }
+        },
+        {
+          "code": "H01H 3/46",
+          "title": {
+            "ko": null,
+            "en": "using rod or lever linkage, e.g. toggle"
+          }
+        },
+        {
+          "code": "H01H 3/48",
+          "title": {
+            "ko": null,
+            "en": "using lost-motion device"
+          }
+        },
+        {
+          "code": "H01H 3/50",
+          "title": {
+            "ko": null,
+            "en": "with indexing or locating means, e.g. indexing by ball and spring"
+          }
+        },
+        {
+          "code": "H01H 3/52",
+          "title": {
+            "ko": null,
+            "en": "with means to ensure stopping at intermediate operative positions"
+          }
+        },
+        {
+          "code": "H01H 3/54",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms for coupling or uncoupling operating parts, driving mechanisms, or contacts"
+          }
+        },
+        {
+          "code": "H01H 3/56",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic clutch"
+          }
+        },
+        {
+          "code": "H01H 3/58",
+          "title": {
+            "ko": null,
+            "en": "using friction, toothed, or other mechanical clutch"
+          }
+        },
+        {
+          "code": "H01H 3/60",
+          "title": {
+            "ko": null,
+            "en": "Mechanical arrangements for preventing or damping vibration or shock"
+          }
+        },
+        {
+          "code": "H01H 3/62",
+          "title": {
+            "ko": "스위치와 구조상 관련한 윤활장치(접촉면을 매끄럽게 하는 것 H01H 1/60)",
+            "en": "Lubricating means structurally associated with the switch (for lubricating contact-making surfaces H01H0001600000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 5/00",
+      "title": {
+        "ko": "연동장치, 즉 1회의 개방조작 또는 개합조작용 세력이 최초 축적되고 거기로부터 접합운동을 낳든가 또는 돕기 위하여 방출되는 것",
+        "en": "Snap-action arrangements, i.e. in which during a single opening operation or a single closing operation energy is first stored and then released to produce or assist the contact movement"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 5/02",
+          "title": {
+            "ko": null,
+            "en": "Energy stored by the attraction or repulsion of magnetic parts"
+          }
+        },
+        {
+          "code": "H01H 5/04",
+          "title": {
+            "ko": "탄성부재의 변형에 의해서 세력이 축적되는 것(열작동 스위치에 바이메탈(bimetal) H01H 37/54)",
+            "en": "Energy stored by deformation of elastic members (by deformation of bimetallic element in thermally-actuated switches H01H0037540000)"
+          }
+        },
+        {
+          "code": "H01H 5/06",
+          "title": {
+            "ko": null,
+            "en": "by compression or extension of coil springs"
+          }
+        },
+        {
+          "code": "H01H 5/08",
+          "title": {
+            "ko": null,
+            "en": "one end of spring transmitting movement to the contact member when the other end is moved by the operating part"
+          }
+        },
+        {
+          "code": "H01H 5/10",
+          "title": {
+            "ko": null,
+            "en": "one end of spring being fixedly connected to the stationary or movable part of the switch, and the other end reacting with a movable or stationary rigid member respectively through pins, cams, toothed, or other shaped surfaces"
+          }
+        },
+        {
+          "code": "H01H 5/12",
+          "title": {
+            "ko": null,
+            "en": "having two or more snap-action motions in succession"
+          }
+        },
+        {
+          "code": "H01H 5/14",
+          "title": {
+            "ko": null,
+            "en": "by twisting of torsion members"
+          }
+        },
+        {
+          "code": "H01H 5/16",
+          "title": {
+            "ko": null,
+            "en": "with auxiliary means for temporarily holding parts until torsion member is sufficiently strained"
+          }
+        },
+        {
+          "code": "H01H 5/18",
+          "title": {
+            "ko": null,
+            "en": "by flexing of blade springs"
+          }
+        },
+        {
+          "code": "H01H 5/20",
+          "title": {
+            "ko": null,
+            "en": "single blade moved across dead-centre position"
+          }
+        },
+        {
+          "code": "H01H 5/22",
+          "title": {
+            "ko": null,
+            "en": "blade spring with at least one snap-acting leg and at least one separate contact-carrying or contact-actuating leg"
+          }
+        },
+        {
+          "code": "H01H 5/24",
+          "title": {
+            "ko": null,
+            "en": "having three legs"
+          }
+        },
+        {
+          "code": "H01H 5/26",
+          "title": {
+            "ko": null,
+            "en": "having two or more snap-action motions in succession"
+          }
+        },
+        {
+          "code": "H01H 5/28",
+          "title": {
+            "ko": null,
+            "en": "two separate blade springs forming a toggle"
+          }
+        },
+        {
+          "code": "H01H 5/30",
+          "title": {
+            "ko": null,
+            "en": "by buckling of disc springs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 7/00",
+      "title": {
+        "ko": "스위칭 동작의 개시와 접점의 개방 또는 폐쇄 사이에 소정의 시간 지연을 도입하기 위한 장치 (시간 또는 시간 프로그램 스위치 H01H43/00)",
+        "en": "Devices for introducing a predetermined time delay between the initiation of the switching operation and the opening or closing of the contacts (time or time-programme switches H01H0043000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 7/02",
+          "title": {
+            "ko": null,
+            "en": "with fluid timing means"
+          }
+        },
+        {
+          "code": "H01H 7/03",
+          "title": {
+            "ko": null,
+            "en": "with dash-pots"
+          }
+        },
+        {
+          "code": "H01H 7/04",
+          "title": {
+            "ko": null,
+            "en": "with flies, i.e. fan governors"
+          }
+        },
+        {
+          "code": "H01H 7/06",
+          "title": {
+            "ko": null,
+            "en": "with thermal timing means"
+          }
+        },
+        {
+          "code": "H01H 7/08",
+          "title": {
+            "ko": null,
+            "en": "with timing by mechanical speed-control devices"
+          }
+        },
+        {
+          "code": "H01H 7/10",
+          "title": {
+            "ko": null,
+            "en": "by escapement"
+          }
+        },
+        {
+          "code": "H01H 7/12",
+          "title": {
+            "ko": null,
+            "en": "mechanical"
+          }
+        },
+        {
+          "code": "H01H 7/14",
+          "title": {
+            "ko": null,
+            "en": "electromagnetic"
+          }
+        },
+        {
+          "code": "H01H 7/16",
+          "title": {
+            "ko": "교류 사이클의 미리 결정된 지점에서 스위치의 작동을 보장하기 위한 장치 (회로 장치 H01H9/56)",
+            "en": "Devices for ensuring operation of the switch at a predetermined point in the AC cycle (circuit arrangements H01H0009560000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 9/00",
+      "title": {
+        "ko": "H01H1/00 - H01H7/00에 포함되지 않은 개폐장치의 세부",
+        "en": "Details of switching devices, not covered by groups H01H0001000000-H01H0007000000"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 9/02",
+          "title": {
+            "ko": "기판, 상자 또는 덮개(covers)(복수의 스위치 또는 1개의 스위치 및 다른 전기소자에 적합한 것 H02B 1/26)",
+            "en": "Bases, casings, or covers (accommodating more than one switch or a switch and another electrical component H02B0001260000)"
+          }
+        },
+        {
+          "code": "H01H 9/04",
+          "title": {
+            "ko": null,
+            "en": "Dustproof, splashproof, drip-proof, waterproof, or flameproof casings"
+          }
+        },
+        {
+          "code": "H01H 9/06",
+          "title": {
+            "ko": null,
+            "en": "Casing of switch constituted by a handle serving a purpose other than the actuation of the switch, e.g. by the handle of a vacuum cleaner"
+          }
+        },
+        {
+          "code": "H01H 9/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements to facilitate replacement of switch, e.g. cartridge housing"
+          }
+        },
+        {
+          "code": "H01H 9/10",
+          "title": {
+            "ko": "퓨즈의 짜 넣기에 적합한 것(스위치 및 퓨즈를 공통의 지지체상 또는 내부에 장착하는 것 H02B 1/18)",
+            "en": "Adaptation for built-in fuses (mounting switch and fuse separately on, or in, common support H02B0001180000)"
+          }
+        },
+        {
+          "code": "H01H 9/12",
+          "title": {
+            "ko": null,
+            "en": "Means for earthing parts of switch not normally conductively connected to the contacts"
+          }
+        },
+        {
+          "code": "H01H 9/14",
+          "title": {
+            "ko": null,
+            "en": "Adaptation for built-in safety spark gaps"
+          }
+        },
+        {
+          "code": "H01H 9/16",
+          "title": {
+            "ko": null,
+            "en": "Indicators for switching condition, e.g. \"on\" or \"off\""
+          }
+        },
+        {
+          "code": "H01H 9/18",
+          "title": {
+            "ko": null,
+            "en": "Distinguishing marks on switches, e.g. for indicating switch location in the dark; Adaptation of switches to receive distinguishing marks"
+          }
+        },
+        {
+          "code": "H01H 9/20",
+          "title": {
+            "ko": "상호쇄정 또는 봉지기구",
+            "en": "Interlocking, locking, or latching mechanisms"
+          }
+        },
+        {
+          "code": "H01H 9/22",
+          "title": {
+            "ko": null,
+            "en": "for interlocking between casing, cover, or protective shutter and mechanism for operating contacts"
+          }
+        },
+        {
+          "code": "H01H 9/24",
+          "title": {
+            "ko": null,
+            "en": "for interlocking two or more parts of the mechanism for operating contacts"
+          }
+        },
+        {
+          "code": "H01H 9/26",
+          "title": {
+            "ko": "2이상의 스위치를 상호쇄정하기 위한 것(떼어내기 가능한 부재에 의한 것 H01H 9/28)",
+            "en": "for interlocking two or more switches (by a detachable member H01H0009280000)"
+          }
+        },
+        {
+          "code": "H01H 9/28",
+          "title": {
+            "ko": "키이 또는 동등의 떼어내기에 가능한 부재에 의해서 스위치 부분을 쇄정하기 위한 것(키로 조작되는 스위치 H01H 27/00; 2개의 부재의 결합장치중 떼어 낼 수 있는 부재에 의해서 쇄정하는 것 H01R)",
+            "en": "for locking switch parts by a key or equivalent removable member (switches operated by a key H01H0027000000;locking by removable part of two-part coupling device H01R)"
+          }
+        },
+        {
+          "code": "H01H 9/30",
+          "title": {
+            "ko": "통전부분간의 소호 또는 아크(arc) 발생방지장치",
+            "en": "Means for extinguishing or preventing arc between current-carrying parts"
+          }
+        },
+        {
+          "code": "H01H 9/32",
+          "title": {
+            "ko": null,
+            "en": "Insulating body insertable between contacts"
+          }
+        },
+        {
+          "code": "H01H 9/34",
+          "title": {
+            "ko": null,
+            "en": "Stationary parts for restricting or subdividing the arc, e.g. barrier plate"
+          }
+        },
+        {
+          "code": "H01H 9/36",
+          "title": {
+            "ko": null,
+            "en": "Metal parts"
+          }
+        },
+        {
+          "code": "H01H 9/38",
+          "title": {
+            "ko": "아크 주접점에서 옮기는 보조접점(아아킹 혼 (arcing horns) H01H 9/46)",
+            "en": "Auxiliary contacts on to which the arc is transferred from the main contacts (using arcing-horns H01H0009460000)"
+          }
+        },
+        {
+          "code": "H01H 9/40",
+          "title": {
+            "ko": null,
+            "en": "Multiple main contacts for the purpose of dividing the current through, or potential drop along, the arc"
+          }
+        },
+        {
+          "code": "H01H 9/42",
+          "title": {
+            "ko": null,
+            "en": "Impedances connected with contacts"
+          }
+        },
+        {
+          "code": "H01H 9/44",
+          "title": {
+            "ko": null,
+            "en": "using blow-out magnet"
+          }
+        },
+        {
+          "code": "H01H 9/46",
+          "title": {
+            "ko": "아아킹 혼을 사용하는 것(자기취소를 사용하는 것 H01H 9/44)",
+            "en": "using arcing horns (using blow-out magnet H01H0009440000)"
+          }
+        },
+        {
+          "code": "H01H 9/48",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing discharge to non-current-carrying parts, e.g. using corona ring"
+          }
+        },
+        {
+          "code": "H01H 9/50",
+          "title": {
+            "ko": null,
+            "en": "Means for detecting the presence of an arc or discharge"
+          }
+        },
+        {
+          "code": "H01H 9/52",
+          "title": {
+            "ko": "스위치부분의 냉각(접점의 냉각 H01H 1/62)",
+            "en": "Cooling of switch parts (cooling of contacts H01H0001620000)"
+          }
+        },
+        {
+          "code": "H01H 9/54",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the switching device and for which no provision exists elsewhere"
+          }
+        },
+        {
+          "code": "H01H 9/56",
+          "title": {
+            "ko": null,
+            "en": "for ensuring operation of the switch at a predetermined point in the AC cycle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 11/00",
+      "title": {
+        "ko": "전기적 스위치의 제조에 특히 적합한 장치 또는 방법 (상이한 세트의 접점에 조합된 복수의 조작 부재를 가지고, 직선적으로 운동 가능한 스위치의 제조에 특히 적합한 공정, 예. 키보드의 제조에 특별히 적합한 공정 H01H 13/88)",
+        "en": "Apparatus or processes specially adapted for the manufacture of electric switches (processes specially adapted for manufacture of rectilinearly movable switches having a plurality of operating members associated with different sets of contacts, e.g. keyboards, H01H0013880000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 11/02",
+          "title": {
+            "ko": null,
+            "en": "for mercury switches"
+          }
+        },
+        {
+          "code": "H01H 11/04",
+          "title": {
+            "ko": null,
+            "en": "of switch contacts"
+          }
+        },
+        {
+          "code": "H01H 11/06",
+          "title": {
+            "ko": null,
+            "en": "Fixing of contacts to carrier"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 13/00",
+      "title": {
+        "ko": "1방향으로만 밀든가 끌든가 하기 위하여 사용하는 직선적 가동조작부분이 있는 스위치, 예. 누르는 버튼(push-button) 스위치(그중에서 조작부분이 가환성인 것 H01H 17/00)",
+        "en": "Switches having rectilinearly-movable operating part or parts adapted for pushing or pulling in one direction only, e.g. push-button switch (wherein the operating part is flexible H01H0017000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 13/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 13/04",
+          "title": {
+            "ko": null,
+            "en": "Cases; Covers"
+          }
+        },
+        {
+          "code": "H01H 13/06",
+          "title": {
+            "ko": null,
+            "en": "Dustproof, splashproof, drip-proof, waterproof, or flameproof casings"
+          }
+        },
+        {
+          "code": "H01H 13/08",
+          "title": {
+            "ko": null,
+            "en": "Casing of switch constituted by a handle serving a purpose other than the actuation of the switch"
+          }
+        },
+        {
+          "code": "H01H 13/10",
+          "title": {
+            "ko": null,
+            "en": "Bases; Stationary contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 13/12",
+          "title": {
+            "ko": "가동부분; 접점이 그 위에 부착되어 있는 것",
+            "en": "Movable parts; Contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 13/14",
+          "title": {
+            "ko": null,
+            "en": "Operating parts, e.g. push-button"
+          }
+        },
+        {
+          "code": "H01H 13/16",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 13/18",
+          "title": {
+            "ko": null,
+            "en": "adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. door switch, limit switch, floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 13/20",
+          "title": {
+            "ko": "구동기구",
+            "en": "Driving mechanisms"
+          }
+        },
+        {
+          "code": "H01H 13/22",
+          "title": {
+            "ko": "속동동작을 하는 것(탄성부재의 변형에 의한 것 H01H 13/26)",
+            "en": "acting with snap action (depending upon deformation of elastic members H01H0013260000)"
+          }
+        },
+        {
+          "code": "H01H 13/24",
+          "title": {
+            "ko": null,
+            "en": "with means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 13/26",
+          "title": {
+            "ko": null,
+            "en": "Snap-action arrangements depending upon deformation of elastic members"
+          }
+        },
+        {
+          "code": "H01H 13/28",
+          "title": {
+            "ko": null,
+            "en": "using compression or extension of coil springs"
+          }
+        },
+        {
+          "code": "H01H 13/30",
+          "title": {
+            "ko": null,
+            "en": "one end of spring transmitting movement to the contact member when the other end is moved by the operating part"
+          }
+        },
+        {
+          "code": "H01H 13/32",
+          "title": {
+            "ko": null,
+            "en": "one end of spring being fixedly connected to the stationary or movable part of the switch and the other end reacting with a movable or stationary rigid member respectively through pins, cams, toothed, or other shaped surfaces"
+          }
+        },
+        {
+          "code": "H01H 13/34",
+          "title": {
+            "ko": null,
+            "en": "having two or more snap-action motions in succession"
+          }
+        },
+        {
+          "code": "H01H 13/36",
+          "title": {
+            "ko": null,
+            "en": "using flexing of blade springs"
+          }
+        },
+        {
+          "code": "H01H 13/38",
+          "title": {
+            "ko": null,
+            "en": "Single blade moved across dead-centre position"
+          }
+        },
+        {
+          "code": "H01H 13/40",
+          "title": {
+            "ko": null,
+            "en": "Blade spring with at least one snap-acting leg and at least one separate contactcarrying or contact-actuating leg"
+          }
+        },
+        {
+          "code": "H01H 13/42",
+          "title": {
+            "ko": null,
+            "en": "having three legs"
+          }
+        },
+        {
+          "code": "H01H 13/44",
+          "title": {
+            "ko": null,
+            "en": "having two or more snap-action motions in succession"
+          }
+        },
+        {
+          "code": "H01H 13/46",
+          "title": {
+            "ko": null,
+            "en": "two separate blade springs forming a toggle"
+          }
+        },
+        {
+          "code": "H01H 13/48",
+          "title": {
+            "ko": null,
+            "en": "using buckling of disc springs"
+          }
+        },
+        {
+          "code": "H01H 13/50",
+          "title": {
+            "ko": "단일한 조작부재가 있는 것",
+            "en": "having a single operating member"
+          }
+        },
+        {
+          "code": "H01H 13/52",
+          "title": {
+            "ko": null,
+            "en": "the contact returning to its original state immediately upon removal of operating force, e.g. bell push switch"
+          }
+        },
+        {
+          "code": "H01H 13/54",
+          "title": {
+            "ko": null,
+            "en": "the contact returning to its original state a predetermined time interval after removal of operating force, e.g. for staircase lighting"
+          }
+        },
+        {
+          "code": "H01H 13/56",
+          "title": {
+            "ko": null,
+            "en": "the contact returning to its original state upon the next application of operating force"
+          }
+        },
+        {
+          "code": "H01H 13/58",
+          "title": {
+            "ko": null,
+            "en": "with contact-driving member rotated step-wise in one direction"
+          }
+        },
+        {
+          "code": "H01H 13/60",
+          "title": {
+            "ko": null,
+            "en": "with contact-driving member moved alternately in opposite directions"
+          }
+        },
+        {
+          "code": "H01H 13/62",
+          "title": {
+            "ko": "접점이 걸쇠(봉지)의 수동해방으로 최초의 상태로 복귀하는 것(제2의 푸쉬 버튼(push button))",
+            "en": "the contact returning to its original state upon manual release of a latch (latch released by second push-button H01H0013680000)"
+          }
+        },
+        {
+          "code": "H01H 13/64",
+          "title": {
+            "ko": null,
+            "en": "wherein the switch has more than two electrically distinguishable positions, e.g. multi-position push-button switches"
+          }
+        },
+        {
+          "code": "H01H 13/66",
+          "title": {
+            "ko": null,
+            "en": "the operating member having only two positions"
+          }
+        },
+        {
+          "code": "H01H 13/68",
+          "title": {
+            "ko": "2개의 조작부재가 있는 것으로서 동일셋트(same set)의 접점을 일방은 개방하고 타방은 폐합하는 것(단일한 조작부재가 반대단을 교대로 압압하기 위한 스위치상자의 상이한 측면으로부터 돌출되어 있는 것 H01H 15/22)",
+            "en": "having two operating members, one for opening and one for closing the same set of contacts (single operating member protruding from different sides of switch casing for alternate pushing upon opposite ends H01H0015220000)"
+          }
+        },
+        {
+          "code": "H01H 13/70",
+          "title": {
+            "ko": "상이한 세트(set) 의 접점에 조합된 복수의 가조작 부재, 예. 키보드를 가진 것(복수의 독립스위치를 같이 고정설치하는 것 H02B)",
+            "en": "having a plurality of operating members associated with different sets of contacts, e.g. keyboard (mounting together a plurality of independent switches H02B)"
+          }
+        },
+        {
+          "code": "H01H 13/702",
+          "title": {
+            "ko": "박막 스위치(membrane switches)등 다층 (multilayer)구조로 이루어진 박막에 형성된 이동접점을 가진 스위치",
+            "en": "with contacts carried by or formed from layers in a multilayer structure, e.g. membrane switches"
+          }
+        },
+        {
+          "code": "H01H 13/703",
+          "title": {
+            "ko": null,
+            "en": "characterised by spacers between contact carrying layers"
+          }
+        },
+        {
+          "code": "H01H 13/704",
+          "title": {
+            "ko": "층에 특징이 있는 것, 예.층의 재료 또는 구조 (H01H 13/703이 우선)",
+            "en": "characterised by the layers, e.g. by their material or structure (H01H0013703000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 13/705",
+          "title": {
+            "ko": null,
+            "en": "characterised by construction, mounting or arrangement of operating parts, e.g. push-buttons or keys"
+          }
+        },
+        {
+          "code": "H01H 13/7057",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of operating parts in relation to each other, e.g. pre-assembled groups of keys"
+          }
+        },
+        {
+          "code": "H01H 13/7065",
+          "title": {
+            "ko": null,
+            "en": "characterised by the mechanism between keys and layered keyboards"
+          }
+        },
+        {
+          "code": "H01H 13/7073",
+          "title": {
+            "ko": null,
+            "en": "characterised by springs, e.g. Euler springs"
+          }
+        },
+        {
+          "code": "H01H 13/708",
+          "title": {
+            "ko": null,
+            "en": "in which all fixed and movable contacts are carried by insulating members (H01H0013705000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 13/712",
+          "title": {
+            "ko": null,
+            "en": "all of the insulating members being substantially flat"
+          }
+        },
+        {
+          "code": "H01H 13/715",
+          "title": {
+            "ko": "스냅 돔(snap dome)등 지지층 파트 또는 확고 하게 고정되지 않는 접점을 포함하는 각 접점 세트(H01H 13/705가 우선)",
+            "en": "in which each contact set includes a contact which is not secured to or part of a supporting layer, e.g. a snap dome (H01H0013705000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 13/718",
+          "title": {
+            "ko": "금속판에 펀칭에 의해 형성되는 접점등, 일부 또는 모든 접점이 단일 도전 플레이트에 형성되어진 것(H01H 13/705가 우선)",
+            "en": "in which some or all of the movable contacts are formed in a single conductive plate, e.g. formed by punching sheet metal (H01H0013705000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 13/72",
+          "title": {
+            "ko": null,
+            "en": "wherein the switch has means for limiting the number of operating members that can concurrently be in the actuated position"
+          }
+        },
+        {
+          "code": "H01H 13/74",
+          "title": {
+            "ko": null,
+            "en": "each contact set returning to its original state only upon actuation of another of the operating members"
+          }
+        },
+        {
+          "code": "H01H 13/76",
+          "title": {
+            "ko": null,
+            "en": "wherein some or all of the operating members actuate different combinations of the contact sets, e.g. ten operating members actuating different combinations of four contact sets"
+          }
+        },
+        {
+          "code": "H01H 13/78",
+          "title": {
+            "ko": null,
+            "en": "characterised by the contacts or the contact sites"
+          }
+        },
+        {
+          "code": "H01H 13/785",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material of the contacts, e.g. conductive polymers"
+          }
+        },
+        {
+          "code": "H01H 13/79",
+          "title": {
+            "ko": null,
+            "en": "characterised by the form of the contacts, e.g. interspersed fingers or helical networks"
+          }
+        },
+        {
+          "code": "H01H 13/80",
+          "title": {
+            "ko": null,
+            "en": "characterised by the manner of cooperation of the contacts, e.g. with both contacts movable or with bounceless contacts"
+          }
+        },
+        {
+          "code": "H01H 13/803",
+          "title": {
+            "ko": null,
+            "en": "characterised by the switching function thereof, e.g. normally closed contacts or consecutive operation of contacts"
+          }
+        },
+        {
+          "code": "H01H 13/807",
+          "title": {
+            "ko": null,
+            "en": "characterised by the spatial arrangement of the contact sites, e.g. superimposed sites"
+          }
+        },
+        {
+          "code": "H01H 13/81",
+          "title": {
+            "ko": null,
+            "en": "characterised by electrical connections to external devices"
+          }
+        },
+        {
+          "code": "H01H 13/82",
+          "title": {
+            "ko": null,
+            "en": "characterised by contact space venting means"
+          }
+        },
+        {
+          "code": "H01H 13/83",
+          "title": {
+            "ko": null,
+            "en": "characterised by legends, e.g. Braille, liquid crystal displays, light emitting or optical elements"
+          }
+        },
+        {
+          "code": "H01H 13/84",
+          "title": {
+            "ko": "인간공학적인 기능에 특징이 있는 것, 예. 소형 키보드용의 것; 조작 감각 기능에 특징이 있는 것, 예. 소리의 피드백(표시 H01H 13/83)",
+            "en": "characterised by ergonomic functions, e.g. for miniature keyboards; characterised by operational sensory functions, e.g. sound feedback (legends H01H0013830000)"
+          }
+        },
+        {
+          "code": "H01H 13/85",
+          "title": {
+            "ko": null,
+            "en": "characterised by tactile feedback features"
+          }
+        },
+        {
+          "code": "H01H 13/86",
+          "title": {
+            "ko": null,
+            "en": "characterised by the casing, e.g. sealed casings or casings reducible in size"
+          }
+        },
+        {
+          "code": "H01H 13/88",
+          "title": {
+            "ko": null,
+            "en": "Processes specially adapted for manufacture of rectilinearly movable switches having a plurality of operating members associated with different sets of contacts, e.g. keyboards"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 15/00",
+      "title": {
+        "ko": null,
+        "en": "Switches having rectilinearly-movable operating part or parts adapted for actuation in opposite directions, e.g. slide switch"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 15/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 15/04",
+          "title": {
+            "ko": null,
+            "en": "Stationary parts; Contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 15/06",
+          "title": {
+            "ko": null,
+            "en": "Movable parts; Contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 15/08",
+          "title": {
+            "ko": null,
+            "en": "Contact arrangements for providing make-before-break operation, e.g. for on-load tap-changing"
+          }
+        },
+        {
+          "code": "H01H 15/10",
+          "title": {
+            "ko": null,
+            "en": "Operating parts"
+          }
+        },
+        {
+          "code": "H01H 15/12",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 15/14",
+          "title": {
+            "ko": null,
+            "en": "adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. door switch, limit switch, floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 15/16",
+          "title": {
+            "ko": null,
+            "en": "Driving mechanisms"
+          }
+        },
+        {
+          "code": "H01H 15/18",
+          "title": {
+            "ko": null,
+            "en": "acting with snap action"
+          }
+        },
+        {
+          "code": "H01H 15/20",
+          "title": {
+            "ko": null,
+            "en": "with means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 15/22",
+          "title": {
+            "ko": null,
+            "en": "having a single operating part protruding from different sides of switch casing for alternate actuation from opposite ends"
+          }
+        },
+        {
+          "code": "H01H 15/24",
+          "title": {
+            "ko": null,
+            "en": "having a single operating part only protruding from one side of the switch casing for alternate pushing and pulling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 17/00",
+      "title": {
+        "ko": "인장하기 위해서만 적합하는 가환조작부분. 예. 코드(cord) 체인(chain)이 있는 스위치",
+        "en": "Switches having flexible operating part adapted only for pulling, e.g. cord, chain"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 17/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 17/04",
+          "title": {
+            "ko": "고정부분(안내 H01H 17/14)",
+            "en": "Stationary parts (guides H01H0017140000)"
+          }
+        },
+        {
+          "code": "H01H 17/06",
+          "title": {
+            "ko": "가동부분(안내 H01H 17/14)",
+            "en": "Movable parts (guides H01H0017140000)"
+          }
+        },
+        {
+          "code": "H01H 17/08",
+          "title": {
+            "ko": null,
+            "en": "Operating part, e.g. cord"
+          }
+        },
+        {
+          "code": "H01H 17/10",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 17/12",
+          "title": {
+            "ko": null,
+            "en": "adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. door switch, limit switch, floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 17/14",
+          "title": {
+            "ko": null,
+            "en": "Guiding means for flexible operating part"
+          }
+        },
+        {
+          "code": "H01H 17/16",
+          "title": {
+            "ko": null,
+            "en": "having a single flexible operating part adapted for pulling at one end only"
+          }
+        },
+        {
+          "code": "H01H 17/18",
+          "title": {
+            "ko": null,
+            "en": "secured to a part of the switch driving mechanism that has only angular movement"
+          }
+        },
+        {
+          "code": "H01H 17/20",
+          "title": {
+            "ko": null,
+            "en": "the contact returning to its original state immediately upon removal of operating force"
+          }
+        },
+        {
+          "code": "H01H 17/22",
+          "title": {
+            "ko": null,
+            "en": "the contact returning to its original state upon the next application of operating force"
+          }
+        },
+        {
+          "code": "H01H 17/24",
+          "title": {
+            "ko": null,
+            "en": "secured to a part of the switch driving mechanism that has both angular and rectilinear motion"
+          }
+        },
+        {
+          "code": "H01H 17/26",
+          "title": {
+            "ko": null,
+            "en": "having two flexible operating parts; having a single operating part adapted for pulling at both ends"
+          }
+        },
+        {
+          "code": "H01H 17/28",
+          "title": {
+            "ko": null,
+            "en": "secured to a part or parts of the switch driving mechanism having only rectilinear motion"
+          }
+        },
+        {
+          "code": "H01H 17/30",
+          "title": {
+            "ko": null,
+            "en": "secured to a part or parts of the switch driving mechanism having only angular motion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 19/00",
+      "title": {
+        "ko": null,
+        "en": "Switches operated by an operating part which is rotatable about a longitudinal axis thereof and which is acted upon directly by a solid body external to the switch, e.g. by a hand"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 19/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 19/03",
+          "title": {
+            "ko": null,
+            "en": "Means for limiting the angle of rotation of the operating part"
+          }
+        },
+        {
+          "code": "H01H 19/04",
+          "title": {
+            "ko": null,
+            "en": "Cases; Covers"
+          }
+        },
+        {
+          "code": "H01H 19/06",
+          "title": {
+            "ko": null,
+            "en": "Dustproof, splashproof, drip-proof, waterproof, or flameproof casings"
+          }
+        },
+        {
+          "code": "H01H 19/08",
+          "title": {
+            "ko": null,
+            "en": "Bases; Stationary contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 19/10",
+          "title": {
+            "ko": null,
+            "en": "Movable parts; Contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 19/11",
+          "title": {
+            "ko": null,
+            "en": "with indexing means"
+          }
+        },
+        {
+          "code": "H01H 19/12",
+          "title": {
+            "ko": null,
+            "en": "Contact arrangements for providing make-before-break operation, e.g. for on-load tap-changing"
+          }
+        },
+        {
+          "code": "H01H 19/14",
+          "title": {
+            "ko": null,
+            "en": "Operating parts, e.g. turn knob"
+          }
+        },
+        {
+          "code": "H01H 19/16",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 19/18",
+          "title": {
+            "ko": null,
+            "en": "adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. door switch, limit switch, floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 19/20",
+          "title": {
+            "ko": null,
+            "en": "Driving mechanisms allowing angular displacement of the operating part to be effective in either direction"
+          }
+        },
+        {
+          "code": "H01H 19/22",
+          "title": {
+            "ko": null,
+            "en": "incorporating lost motion"
+          }
+        },
+        {
+          "code": "H01H 19/24",
+          "title": {
+            "ko": null,
+            "en": "acting with snap action"
+          }
+        },
+        {
+          "code": "H01H 19/26",
+          "title": {
+            "ko": null,
+            "en": "with means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 19/28",
+          "title": {
+            "ko": null,
+            "en": "Driving mechanisms allowing angular displacement of the operating part to be effective or possible in only one direction"
+          }
+        },
+        {
+          "code": "H01H 19/30",
+          "title": {
+            "ko": null,
+            "en": "incorporating lost motion"
+          }
+        },
+        {
+          "code": "H01H 19/32",
+          "title": {
+            "ko": null,
+            "en": "acting with snap action"
+          }
+        },
+        {
+          "code": "H01H 19/34",
+          "title": {
+            "ko": null,
+            "en": "with means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 19/36",
+          "title": {
+            "ko": null,
+            "en": "the operating part having only two operative positions, e.g. relatively displaced by 180°"
+          }
+        },
+        {
+          "code": "H01H 19/38",
+          "title": {
+            "ko": null,
+            "en": "Change-over switches"
+          }
+        },
+        {
+          "code": "H01H 19/40",
+          "title": {
+            "ko": null,
+            "en": "having only axial contact pressure"
+          }
+        },
+        {
+          "code": "H01H 19/42",
+          "title": {
+            "ko": null,
+            "en": "providing more than two electrically-different conditions, e.g. for closing either or both of two circuits"
+          }
+        },
+        {
+          "code": "H01H 19/44",
+          "title": {
+            "ko": null,
+            "en": "having only axial contact pressure"
+          }
+        },
+        {
+          "code": "H01H 19/46",
+          "title": {
+            "ko": null,
+            "en": "the operating part having three operative positions, e.g. off/star/delta"
+          }
+        },
+        {
+          "code": "H01H 19/48",
+          "title": {
+            "ko": null,
+            "en": "having only axial contact pressure"
+          }
+        },
+        {
+          "code": "H01H 19/50",
+          "title": {
+            "ko": null,
+            "en": "the operating part having four operative positions, e.g. off/two-in-series/one-only/two-in-parallel"
+          }
+        },
+        {
+          "code": "H01H 19/52",
+          "title": {
+            "ko": null,
+            "en": "having only axial contact pressure"
+          }
+        },
+        {
+          "code": "H01H 19/54",
+          "title": {
+            "ko": null,
+            "en": "the operating part having at least five or an unspecified number of operative positions"
+          }
+        },
+        {
+          "code": "H01H 19/56",
+          "title": {
+            "ko": null,
+            "en": "Angularly-movable actuating part carrying contacts, e.g. drum switch"
+          }
+        },
+        {
+          "code": "H01H 19/58",
+          "title": {
+            "ko": null,
+            "en": "having only axial contact pressure, e.g. disc switch, wafer switch"
+          }
+        },
+        {
+          "code": "H01H 19/60",
+          "title": {
+            "ko": null,
+            "en": "Angularly-movable actuating part carrying no contacts"
+          }
+        },
+        {
+          "code": "H01H 19/62",
+          "title": {
+            "ko": null,
+            "en": "Contacts actuated by radial cams"
+          }
+        },
+        {
+          "code": "H01H 19/63",
+          "title": {
+            "ko": null,
+            "en": "Contacts actuated by axial cams"
+          }
+        },
+        {
+          "code": "H01H 19/635",
+          "title": {
+            "ko": null,
+            "en": "Contacts actuated by rectilinearly-movable member linked to operating part, e.g. by pin and slot"
+          }
+        },
+        {
+          "code": "H01H 19/64",
+          "title": {
+            "ko": null,
+            "en": "Encased switches adapted for ganged operation when assembled in a line with identical switches, e.g. stacked switches"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 21/00",
+      "title": {
+        "ko": "회전 부재 형식의 조작 부분에 의해 조작되는 스위치로, 스위치 외부의 물체에 의해 직접 작동하는 것, 예. 손에 의해 직접 작동되는 것(텀블러(tumbler) 또는 로커(rocker) 스위치 H01H 23/00; 1평면 이외에서 움직일 수 있는 조작 부분을 가지는 스위치 H01H 25/04)",
+        "en": "Switches operated by an operating part in the form of a pivotable member acted upon directly by a solid body, e.g. by a hand (tumbler or rocker switches H01H0023000000;switches having an operating part movable angularly in more than one plane H01H0025040000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 21/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 21/04",
+          "title": {
+            "ko": null,
+            "en": "Cases; Covers"
+          }
+        },
+        {
+          "code": "H01H 21/06",
+          "title": {
+            "ko": null,
+            "en": "interlocked with operating mechanism"
+          }
+        },
+        {
+          "code": "H01H 21/08",
+          "title": {
+            "ko": null,
+            "en": "Dustproof, splashproof, drip-proof, waterproof, or flameproof casings"
+          }
+        },
+        {
+          "code": "H01H 21/10",
+          "title": {
+            "ko": null,
+            "en": "Casing of switch constituted by a handle serving a purpose other than the actuation of the switch"
+          }
+        },
+        {
+          "code": "H01H 21/12",
+          "title": {
+            "ko": null,
+            "en": "Bases; Stationary contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 21/14",
+          "title": {
+            "ko": null,
+            "en": "Means for increasing contact pressure"
+          }
+        },
+        {
+          "code": "H01H 21/16",
+          "title": {
+            "ko": null,
+            "en": "Adaptation for built-in fuse"
+          }
+        },
+        {
+          "code": "H01H 21/18",
+          "title": {
+            "ko": null,
+            "en": "Movable parts; Contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 21/20",
+          "title": {
+            "ko": null,
+            "en": "Contact arrangements for providing make-before-break operation, e.g. for on-load tap-changing"
+          }
+        },
+        {
+          "code": "H01H 21/22",
+          "title": {
+            "ko": null,
+            "en": "Operating parts, e.g. handle"
+          }
+        },
+        {
+          "code": "H01H 21/24",
+          "title": {
+            "ko": null,
+            "en": "biased to return to original position upon removal of operating force"
+          }
+        },
+        {
+          "code": "H01H 21/26",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 21/28",
+          "title": {
+            "ko": null,
+            "en": "adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. door switch, limit switch, floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 21/30",
+          "title": {
+            "ko": null,
+            "en": "not biased to return to original position upon removal of operating force"
+          }
+        },
+        {
+          "code": "H01H 21/32",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 21/34",
+          "title": {
+            "ko": null,
+            "en": "adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. door switch, limit switch, floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 21/36",
+          "title": {
+            "ko": null,
+            "en": "Driving mechanisms"
+          }
+        },
+        {
+          "code": "H01H 21/38",
+          "title": {
+            "ko": null,
+            "en": "incorporating lost motion"
+          }
+        },
+        {
+          "code": "H01H 21/40",
+          "title": {
+            "ko": null,
+            "en": "having snap action"
+          }
+        },
+        {
+          "code": "H01H 21/42",
+          "title": {
+            "ko": null,
+            "en": "produced by compression or extension of coil spring"
+          }
+        },
+        {
+          "code": "H01H 21/44",
+          "title": {
+            "ko": null,
+            "en": "produced by flexing blade springs"
+          }
+        },
+        {
+          "code": "H01H 21/46",
+          "title": {
+            "ko": null,
+            "en": "with two or more snap-action motions in succession"
+          }
+        },
+        {
+          "code": "H01H 21/48",
+          "title": {
+            "ko": null,
+            "en": "incorporating a ratchet mechanism"
+          }
+        },
+        {
+          "code": "H01H 21/50",
+          "title": {
+            "ko": null,
+            "en": "with indexing or latching means, e.g. indexing by ball and spring; with means to ensure stopping at intermediate operative positions"
+          }
+        },
+        {
+          "code": "H01H 21/52",
+          "title": {
+            "ko": null,
+            "en": "with means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 21/54",
+          "title": {
+            "ko": null,
+            "en": "Lever switches with blade-type contact co-operating with one or two spring-clip contacts, e.g. knife switch, sectionalisers"
+          }
+        },
+        {
+          "code": "H01H 21/56",
+          "title": {
+            "ko": null,
+            "en": "making contact in one position only"
+          }
+        },
+        {
+          "code": "H01H 21/58",
+          "title": {
+            "ko": null,
+            "en": "Change-over switches without stable intermediate position"
+          }
+        },
+        {
+          "code": "H01H 21/60",
+          "title": {
+            "ko": null,
+            "en": "Change-over switches with stable intermediate position"
+          }
+        },
+        {
+          "code": "H01H 21/86",
+          "title": {
+            "ko": null,
+            "en": "Switches with abutting contact carried by operating part, e.g. telegraph tapping key"
+          }
+        },
+        {
+          "code": "H01H 21/88",
+          "title": {
+            "ko": null,
+            "en": "with intermediate position of rest"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 23/00",
+      "title": {
+        "ko": null,
+        "en": "Tumbler or rocker switches, i.e. switches characterised by being operated by rocking an operating member in the form of a rocker button"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 23/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 23/04",
+          "title": {
+            "ko": null,
+            "en": "Cases; Covers"
+          }
+        },
+        {
+          "code": "H01H 23/06",
+          "title": {
+            "ko": null,
+            "en": "Dustproof, splashproof, drip-proof, waterproof, or flameproof casings"
+          }
+        },
+        {
+          "code": "H01H 23/08",
+          "title": {
+            "ko": null,
+            "en": "Bases; Stationary contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 23/10",
+          "title": {
+            "ko": null,
+            "en": "Adaptation for built-in fuse"
+          }
+        },
+        {
+          "code": "H01H 23/12",
+          "title": {
+            "ko": null,
+            "en": "Movable parts; Contacts mounted thereon"
+          }
+        },
+        {
+          "code": "H01H 23/14",
+          "title": {
+            "ko": null,
+            "en": "Tumblers"
+          }
+        },
+        {
+          "code": "H01H 23/16",
+          "title": {
+            "ko": null,
+            "en": "Driving mechanisms"
+          }
+        },
+        {
+          "code": "H01H 23/18",
+          "title": {
+            "ko": null,
+            "en": "incorporating lost motion"
+          }
+        },
+        {
+          "code": "H01H 23/20",
+          "title": {
+            "ko": null,
+            "en": "having snap action"
+          }
+        },
+        {
+          "code": "H01H 23/22",
+          "title": {
+            "ko": null,
+            "en": "with means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 23/24",
+          "title": {
+            "ko": null,
+            "en": "with two operating positions"
+          }
+        },
+        {
+          "code": "H01H 23/26",
+          "title": {
+            "ko": null,
+            "en": "one of which positions is unstable"
+          }
+        },
+        {
+          "code": "H01H 23/28",
+          "title": {
+            "ko": null,
+            "en": "with three operating positions"
+          }
+        },
+        {
+          "code": "H01H 23/30",
+          "title": {
+            "ko": null,
+            "en": "with stable centre position and one or both end positions unstable"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 25/00",
+      "title": {
+        "ko": null,
+        "en": "Switches with compound movement of handle or other operating part"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 25/04",
+          "title": {
+            "ko": null,
+            "en": "Operating part movable angularly in more than one plane, e.g. joystick"
+          }
+        },
+        {
+          "code": "H01H 25/06",
+          "title": {
+            "ko": null,
+            "en": "Operating part movable both angularly and rectilinearly, the rectilinear movement being along the axis of angular movement"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 27/00",
+      "title": {
+        "ko": "착탈부재에 의해서 조작되는 스위치, 예. 키(key), 플러그(plug) 또는 플레이트(plate); 각종의 가능한 정정이외의 단일의 정해진 조합에 닿는 정정부재에 의해서 조작되는 스위치(플러그소켓(plug socket) 접속기와 조합시킨 것 H01R 13/70; 통전플러그가 있는 것 H01R 31/08)",
+        "en": "Switches operated by a removable member, e.g. key, plug or plate; Switches operated by setting members according to a single predetermined combination out of several possible settings (combined with plug-and-socket connectors H01R0013700000;with current-carrying plug H01R0031080000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 27/04",
+          "title": {
+            "ko": null,
+            "en": "Insulating plug or plate inserted between normally-closed contacts"
+          }
+        },
+        {
+          "code": "H01H 27/06",
+          "title": {
+            "ko": null,
+            "en": "Key inserted and then turned to effect operation of the switch"
+          }
+        },
+        {
+          "code": "H01H 27/08",
+          "title": {
+            "ko": null,
+            "en": "wherein the key cannot be removed until the switch is returned to its original position"
+          }
+        },
+        {
+          "code": "H01H 27/10",
+          "title": {
+            "ko": null,
+            "en": "Switch operated by setting members according to a single predetermined combination out of several possible settings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 29/00",
+      "title": {
+        "ko": "적어도 하나의 액체접점이 있는 스위치(고체접점이 수은으로 습해지고 또는 침지되는 것 H01H 1/08)",
+        "en": "Switches having at least one liquid contact (solid contacts wetted or soaked with mercury H01H0001080000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 29/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 29/04",
+          "title": {
+            "ko": null,
+            "en": "Contacts; Containers for liquid contacts"
+          }
+        },
+        {
+          "code": "H01H 29/06",
+          "title": {
+            "ko": null,
+            "en": "Liquid contacts characterised by the material thereof"
+          }
+        },
+        {
+          "code": "H01H 29/08",
+          "title": {
+            "ko": null,
+            "en": "Means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 29/10",
+          "title": {
+            "ko": null,
+            "en": "by constricting the flow of the contact liquid"
+          }
+        },
+        {
+          "code": "H01H 29/12",
+          "title": {
+            "ko": null,
+            "en": "Operating mechanisms adapted for operation by a part of the human body other than the hand, e.g. by foot"
+          }
+        },
+        {
+          "code": "H01H 29/14",
+          "title": {
+            "ko": null,
+            "en": "Operating mechanisms adapted for actuation at a limit or other predetermined position in the path of a body, the relative movement of switch and body being primarily for a purpose other than the actuation of the switch, e.g. door switch, limit switch, floor-levelling switch of a lift"
+          }
+        },
+        {
+          "code": "H01H 29/16",
+          "title": {
+            "ko": null,
+            "en": "operated by dipping solid contact into stationary contact liquid"
+          }
+        },
+        {
+          "code": "H01H 29/18",
+          "title": {
+            "ko": null,
+            "en": "with level of surface of contact liquid displaced by non-electrical contact-making plunger"
+          }
+        },
+        {
+          "code": "H01H 29/20",
+          "title": {
+            "ko": null,
+            "en": "operated by tilting contact-liquid container"
+          }
+        },
+        {
+          "code": "H01H 29/22",
+          "title": {
+            "ko": null,
+            "en": "wherein contact is made and broken between liquid and solid"
+          }
+        },
+        {
+          "code": "H01H 29/24",
+          "title": {
+            "ko": null,
+            "en": "wherein contact is made and broken between liquid and liquid"
+          }
+        },
+        {
+          "code": "H01H 29/26",
+          "title": {
+            "ko": null,
+            "en": "with level of surface of contact liquid displaced by centrifugal action"
+          }
+        },
+        {
+          "code": "H01H 29/28",
+          "title": {
+            "ko": null,
+            "en": "with level of surface of contact liquid displaced by fluid pressure"
+          }
+        },
+        {
+          "code": "H01H 29/30",
+          "title": {
+            "ko": null,
+            "en": "with level of surface of contact liquid displaced by expansion or evaporation thereof"
+          }
+        },
+        {
+          "code": "H01H 29/32",
+          "title": {
+            "ko": null,
+            "en": "with contact made by a liquid jet, e.g. earthing switch with contact made by jet of water"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 31/00",
+      "title": {
+        "ko": "소호 또는 발고방지수단을 갖지 않는 고전압용 기중차단 스위치(소호 또는 발고방지수단을 갖는 고전압 또는 대전류 스위치와의 결합 H01H 33/00)",
+        "en": "Air-break switches for high tension without arc-extinguishing or arc-preventing means (in combination with high tension or heavy-current switches with arc-extinguishing or arc-preventing means H01H0033000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 31/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 31/04",
+          "title": {
+            "ko": null,
+            "en": "Interlocking mechanisms"
+          }
+        },
+        {
+          "code": "H01H 31/06",
+          "title": {
+            "ko": null,
+            "en": "for interlocking between casing, cover, or protective shutter and mechanism for operating contacts"
+          }
+        },
+        {
+          "code": "H01H 31/08",
+          "title": {
+            "ko": null,
+            "en": "for interlocking two or more parts of the mechanism for operating contacts"
+          }
+        },
+        {
+          "code": "H01H 31/10",
+          "title": {
+            "ko": null,
+            "en": "for interlocking two or more switches"
+          }
+        },
+        {
+          "code": "H01H 31/12",
+          "title": {
+            "ko": null,
+            "en": "Adaptation for built-in fuse"
+          }
+        },
+        {
+          "code": "H01H 31/14",
+          "title": {
+            "ko": null,
+            "en": "with bridging contact that is not electrically connected to either line contact in open position of switch"
+          }
+        },
+        {
+          "code": "H01H 31/16",
+          "title": {
+            "ko": null,
+            "en": "with angularly-movable bridging contact or contact-carrying member"
+          }
+        },
+        {
+          "code": "H01H 31/18",
+          "title": {
+            "ko": null,
+            "en": "actuated through the movement of one or more insulators"
+          }
+        },
+        {
+          "code": "H01H 31/20",
+          "title": {
+            "ko": null,
+            "en": "at least one insulator being rotatable about its own geometrical axis"
+          }
+        },
+        {
+          "code": "H01H 31/22",
+          "title": {
+            "ko": null,
+            "en": "wherein the contact or contacts are rectilinearly movable with respect to the carrying member"
+          }
+        },
+        {
+          "code": "H01H 31/24",
+          "title": {
+            "ko": null,
+            "en": "with rectilinearly-movable bridging contact"
+          }
+        },
+        {
+          "code": "H01H 31/26",
+          "title": {
+            "ko": null,
+            "en": "with movable contact that remains electrically connected to one line in open position of switch"
+          }
+        },
+        {
+          "code": "H01H 31/28",
+          "title": {
+            "ko": null,
+            "en": "with angularly-movable contact"
+          }
+        },
+        {
+          "code": "H01H 31/30",
+          "title": {
+            "ko": null,
+            "en": "actuated-through the movement of one or more insulators"
+          }
+        },
+        {
+          "code": "H01H 31/32",
+          "title": {
+            "ko": null,
+            "en": "with rectilinearly-movable contact"
+          }
+        },
+        {
+          "code": "H01H 31/34",
+          "title": {
+            "ko": null,
+            "en": "with movable contact adapted to engage an overhead transmission line, e.g. for branching"
+          }
+        },
+        {
+          "code": "H01H 31/36",
+          "title": {
+            "ko": null,
+            "en": "Contact moved by pantograph"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 33/00",
+      "title": {
+        "ko": "아크 소호 또는 아크방지수단이 있는 고전압 또는 대전류 스위치",
+        "en": "High-tension or heavy-current switches with arc-extinguishing or arc-preventing means"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 33/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 33/04",
+          "title": {
+            "ko": "전류유통부분간에서 소호 또는 발고를 방지하는 장치",
+            "en": "Means for extinguishing or preventing arc between current-carrying parts"
+          }
+        },
+        {
+          "code": "H01H 33/06",
+          "title": {
+            "ko": null,
+            "en": "Insulating body insertable between contacts"
+          }
+        },
+        {
+          "code": "H01H 33/08",
+          "title": {
+            "ko": null,
+            "en": "Stationary parts for restricting or subdividing the arc, e.g. barrier plate"
+          }
+        },
+        {
+          "code": "H01H 33/10",
+          "title": {
+            "ko": null,
+            "en": "Metal parts"
+          }
+        },
+        {
+          "code": "H01H 33/12",
+          "title": {
+            "ko": "아크가 주접점에서 이행되는 보조접점(아아킹 혼을 사용하는 것 H01H 33/20)",
+            "en": "Auxiliary contacts on to which the arc is transferred from the main contacts (using arcing horns H01H0033200000)"
+          }
+        },
+        {
+          "code": "H01H 33/14",
+          "title": {
+            "ko": null,
+            "en": "Multiple main contacts for the purpose of dividing the current through, or potential drop along, the arc"
+          }
+        },
+        {
+          "code": "H01H 33/16",
+          "title": {
+            "ko": null,
+            "en": "Impedances connected with contacts"
+          }
+        },
+        {
+          "code": "H01H 33/18",
+          "title": {
+            "ko": null,
+            "en": "using blow-out magnet"
+          }
+        },
+        {
+          "code": "H01H 33/20",
+          "title": {
+            "ko": "아아킹 혼을 사용하는 것(자기취소를 사용하는 것 H01H 33/18)",
+            "en": "using arcing horns (using blow-out magnet H01H0033180000)"
+          }
+        },
+        {
+          "code": "H01H 33/22",
+          "title": {
+            "ko": null,
+            "en": "Selection of fluids for arc-extinguishing"
+          }
+        },
+        {
+          "code": "H01H 33/24",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing discharge to non-current-carrying parts, e.g. using corona ring"
+          }
+        },
+        {
+          "code": "H01H 33/26",
+          "title": {
+            "ko": null,
+            "en": "Means for detecting the presence of an arc or other discharge"
+          }
+        },
+        {
+          "code": "H01H 33/28",
+          "title": {
+            "ko": null,
+            "en": "Power arrangements internal to the switch for operating the driving mechanism"
+          }
+        },
+        {
+          "code": "H01H 33/30",
+          "title": {
+            "ko": null,
+            "en": "using fluid actuator"
+          }
+        },
+        {
+          "code": "H01H 33/32",
+          "title": {
+            "ko": null,
+            "en": "pneumatic"
+          }
+        },
+        {
+          "code": "H01H 33/34",
+          "title": {
+            "ko": null,
+            "en": "hydraulic"
+          }
+        },
+        {
+          "code": "H01H 33/36",
+          "title": {
+            "ko": null,
+            "en": "using dynamo-electric motor"
+          }
+        },
+        {
+          "code": "H01H 33/38",
+          "title": {
+            "ko": null,
+            "en": "using electromagnet"
+          }
+        },
+        {
+          "code": "H01H 33/40",
+          "title": {
+            "ko": null,
+            "en": "using spring motor"
+          }
+        },
+        {
+          "code": "H01H 33/42",
+          "title": {
+            "ko": null,
+            "en": "Driving mechanisms"
+          }
+        },
+        {
+          "code": "H01H 33/44",
+          "title": {
+            "ko": "교류 사이클의 미리 결정된 지점에서 스위치의 작동을 보장하기 위한 장치 (회로 장치 H01H33/59)",
+            "en": "Devices for ensuring operation of the switch at a predetermined point in the AC cycle (circuit arrangements H01H0033590000)"
+          }
+        },
+        {
+          "code": "H01H 33/46",
+          "title": {
+            "ko": null,
+            "en": "Interlocking mechanisms"
+          }
+        },
+        {
+          "code": "H01H 33/48",
+          "title": {
+            "ko": null,
+            "en": "for interlocking between casing or cover and mechanism for operating contacts"
+          }
+        },
+        {
+          "code": "H01H 33/50",
+          "title": {
+            "ko": null,
+            "en": "for interlocking two or more parts of the mechanism for operating contacts"
+          }
+        },
+        {
+          "code": "H01H 33/52",
+          "title": {
+            "ko": null,
+            "en": "for interlocking two or more switches"
+          }
+        },
+        {
+          "code": "H01H 33/53",
+          "title": {
+            "ko": "케이스(개폐장치를 위한 것 H02B 1/26); 소호용 액체를 위한 저장기, 탱크, 배관 또는 밸브; 그것 을 위한 부속장치, 예. 안전장치, 압력제거장치",
+            "en": "Cases (for switchgear H02B0001260000); Reservoirs, tanks, piping or valves, for arc-extinguishing fluid; Accessories therefor, e.g. safety arrangements, pressure relief devices"
+          }
+        },
+        {
+          "code": "H01H 33/55",
+          "title": {
+            "ko": "기름(유) 저장기 또는 탱크; 그 강하장치(스위치의 절연을 위해 인출기구에 관련하는 것 H02B 11/08)",
+            "en": "Oil reservoirs or tanks; Lowering means therefor (associated with withdrawal mechanism for isolation of switch H02B0011080000)"
+          }
+        },
+        {
+          "code": "H01H 33/56",
+          "title": {
+            "ko": null,
+            "en": "Gas reservoirs"
+          }
+        },
+        {
+          "code": "H01H 33/57",
+          "title": {
+            "ko": null,
+            "en": "Recuperation of liquid or gas"
+          }
+        },
+        {
+          "code": "H01H 33/575",
+          "title": {
+            "ko": null,
+            "en": "Pressure relief devices for normal or emergency use"
+          }
+        },
+        {
+          "code": "H01H 33/58",
+          "title": {
+            "ko": null,
+            "en": "Silencers for suppressing noise of switch operation"
+          }
+        },
+        {
+          "code": "H01H 33/59",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the switch and not otherwise provided for, e.g. for ensuring operation of the switch at a predetermined point in the AC cycle"
+          }
+        },
+        {
+          "code": "H01H 33/60",
+          "title": {
+            "ko": "소호 또는 발고방지장치가 소호용유체의 뿜어 붙임을 얻기 위해서 또는 증가하던가 하는 별개의 장치를 포함하지 않는 스위치",
+            "en": "Switches wherein the means for extinguishing or preventing the arc do not include separate means for obtaining or increasing flow of arc-extinguishing fluid"
+          }
+        },
+        {
+          "code": "H01H 33/64",
+          "title": {
+            "ko": "개방이 가스 중인 것(대기압의 기중 H01H 33/62, 진공스위치 H01H 33/66)",
+            "en": "wherein the break is in gas (vacuum switches H01H0033660000)"
+          }
+        },
+        {
+          "code": "H01H 33/65",
+          "title": {
+            "ko": null,
+            "en": "wherein the break is in air at atmospheric pressure, e.g. in open air"
+          }
+        },
+        {
+          "code": "H01H 33/66",
+          "title": {
+            "ko": null,
+            "en": "Vacuum switches"
+          }
+        },
+        {
+          "code": "H01H 33/662",
+          "title": {
+            "ko": null,
+            "en": "Housings or protective screens"
+          }
+        },
+        {
+          "code": "H01H 33/664",
+          "title": {
+            "ko": null,
+            "en": "Contacts; Arc-extinguishing means, e.g. arcing rings"
+          }
+        },
+        {
+          "code": "H01H 33/666",
+          "title": {
+            "ko": null,
+            "en": "Operating arrangements"
+          }
+        },
+        {
+          "code": "H01H 33/668",
+          "title": {
+            "ko": null,
+            "en": "Means for obtaining or monitoring the vacuum"
+          }
+        },
+        {
+          "code": "H01H 33/68",
+          "title": {
+            "ko": null,
+            "en": "Liquid-break switches, e.g. oil-break"
+          }
+        },
+        {
+          "code": "H01H 33/70",
+          "title": {
+            "ko": "소호용액체의 불어 붙임을 방향짓기 위하여 얻기 위해 또는 증대시키기 위한 별개의 장치가 있는 스위치",
+            "en": "Switches with separate means for directing, obtaining, or increasing flow of arc-extinguishing fluid"
+          }
+        },
+        {
+          "code": "H01H 33/72",
+          "title": {
+            "ko": "소호액체의 뿜어 붙임을 방향짓는 고정부분이 있는 것, 예. 소호실(arc-extinguishing chamber)",
+            "en": "having stationary parts for directing the flow of arc-extinguishing fluid, e.g. arc-extinguishing chamber"
+          }
+        },
+        {
+          "code": "H01H 33/73",
+          "title": {
+            "ko": null,
+            "en": "wherein the break is in air at atmospheric pressure, e.g. in open air"
+          }
+        },
+        {
+          "code": "H01H 33/74",
+          "title": {
+            "ko": "개방이 가스중인 것(대기압의 공기중의 것 H01H 33/73)",
+            "en": "wherein the break is in gas (in air at atmospheric pressure H01H0033730000)"
+          }
+        },
+        {
+          "code": "H01H 33/75",
+          "title": {
+            "ko": null,
+            "en": "Liquid-break switches, e.g. oil-break"
+          }
+        },
+        {
+          "code": "H01H 33/76",
+          "title": {
+            "ko": "소호용 가스가 정지부분에서 방출되는 것; 그것을 위한 재료의 선택",
+            "en": "wherein arc-extinguishing gas is evolved from stationary parts; Selection of material therefor"
+          }
+        },
+        {
+          "code": "H01H 33/77",
+          "title": {
+            "ko": null,
+            "en": "wherein the break is in air at atmospheric pressure"
+          }
+        },
+        {
+          "code": "H01H 33/78",
+          "title": {
+            "ko": "개방이 가스중인 것(대기압의 공기중인 것 H01H 33/77)",
+            "en": "wherein the break is in gas (in air at atmospheric pressure H01H0033770000)"
+          }
+        },
+        {
+          "code": "H01H 33/80",
+          "title": {
+            "ko": "압력원으로부터의 소호유체의 뿜어 붙임이 밸브에 의해서 제어되는 것",
+            "en": "flow of arc-extinguishing fluid from a pressure source being controlled by a valve"
+          }
+        },
+        {
+          "code": "H01H 33/82",
+          "title": {
+            "ko": "유체가 공기 또는 가스인 것",
+            "en": "the fluid being air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/825",
+          "title": {
+            "ko": "공기 또는 가스의 폐회로를 갖는 것(H01H 33/825가 우선)",
+            "en": "with closed circuit of air or gas (H01H0033835000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 33/83",
+          "title": {
+            "ko": null,
+            "en": "wherein the contacts are opened by the flow of air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/835",
+          "title": {
+            "ko": null,
+            "en": "with closed circuit of air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/84",
+          "title": {
+            "ko": null,
+            "en": "the fluid being liquid, e.g. oil"
+          }
+        },
+        {
+          "code": "H01H 33/85",
+          "title": {
+            "ko": null,
+            "en": "wherein the contacts are opened by the flow of liquid"
+          }
+        },
+        {
+          "code": "H01H 33/86",
+          "title": {
+            "ko": null,
+            "en": "the flow of arc-extinguishing fluid under pressure from the contact space being controlled by a valve"
+          }
+        },
+        {
+          "code": "H01H 33/867",
+          "title": {
+            "ko": null,
+            "en": "the fluid being air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/873",
+          "title": {
+            "ko": null,
+            "en": "with closed circuit of air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/88",
+          "title": {
+            "ko": null,
+            "en": "the flow of arc-extinguishing fluid being produced or increased by movement of pistons or other pressure-producing parts"
+          }
+        },
+        {
+          "code": "H01H 33/90",
+          "title": {
+            "ko": null,
+            "en": "this movement being effected by, or in conjunction with, the contact-operating mechanism"
+          }
+        },
+        {
+          "code": "H01H 33/91",
+          "title": {
+            "ko": null,
+            "en": "the arc-extinguishing fluid being air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/915",
+          "title": {
+            "ko": null,
+            "en": "with closed circuit of air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/92",
+          "title": {
+            "ko": null,
+            "en": "the arc-extinguishing fluid being liquid, e.g. oil"
+          }
+        },
+        {
+          "code": "H01H 33/94",
+          "title": {
+            "ko": null,
+            "en": "this movement being effected solely due to the pressure caused by the arc itself or by an auxiliary arc"
+          }
+        },
+        {
+          "code": "H01H 33/95",
+          "title": {
+            "ko": null,
+            "en": "the arc-extinguishing fluid being air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/96",
+          "title": {
+            "ko": null,
+            "en": "the arc-extinguishing fluid being liquid, e.g. oil"
+          }
+        },
+        {
+          "code": "H01H 33/98",
+          "title": {
+            "ko": null,
+            "en": "the flow of arc-extinguishing fluid being initiated by an auxiliary arc or a section of the arc, without any moving parts for producing or increasing the flow"
+          }
+        },
+        {
+          "code": "H01H 33/985",
+          "title": {
+            "ko": null,
+            "en": "the fluid being air or gas"
+          }
+        },
+        {
+          "code": "H01H 33/99",
+          "title": {
+            "ko": null,
+            "en": "the fluid being liquid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 35/00",
+      "title": {
+        "ko": "물리상태의 변화에 의해서 조작되는 스위치(자계 또는 전계의 변화로 동작하는 것 H01H 36/00; 열작동 스위치 H01H 37/00)",
+        "en": "Switches operated by change of a physical condition (operated by change of magnetic or electric field H01H0036000000;thermally-actuated switches H01H0037000000)"
+      },
+      "definition": {
+        "ko": "개폐장치가 분류되는 물리적 상태는 장치에의 입력으로서 작용하는 변화의 상태이다. 예. 스위치에 작용하는 압력파를 낳는 외부폭발은 H01H 35/24, 폭발이 스위치내에서 생기는 폭발로서 열에 의해서 기폭되는 것은 H01H 37/00, 전기적인 기폭에 의한 것 H01H 39/00, 외부에서의 취부로 기폭되는 것 H01H 35/14로 각각 분류된다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H01H 35/02",
+          "title": {
+            "ko": "중력구역에 관해서 스위치 자체의 위치경사 또는 방위의 변화에 따라서 조작되는 스위치(수은용기의 경사 H01H 29/20; 액체면의 변화에 의한 위치의 변화 H01H 35/18)",
+            "en": "Switches operated by change of position, inclination, or orientation of the switch itself in relation to gravitational field (tilting mercury container H01H0029200000;change of position due to change of liquid level H01H0035180000)"
+          }
+        },
+        {
+          "code": "H01H 35/06",
+          "title": {
+            "ko": "속도의 변화에 따라서 작동되는 스위치(유체의 흐름의 변화에 따라서 조작되는 것 수은면 H01H 29/26)",
+            "en": "Switches operated by change of speed (operated by change of fluid flow H01H0035240000)"
+          }
+        },
+        {
+          "code": "H01H 35/10",
+          "title": {
+            "ko": "원심력스위치(원심력작동에 의해 전위되는 수은면 H01H 29/26)",
+            "en": "Centrifugal switches (level of mercury displaced by centrifugal action H01H0029260000)"
+          }
+        },
+        {
+          "code": "H01H 35/12",
+          "title": {
+            "ko": null,
+            "en": "operated by reversal of direction of movement"
+          }
+        },
+        {
+          "code": "H01H 35/14",
+          "title": {
+            "ko": null,
+            "en": "Switches operated by change of acceleration, e.g. by shock or vibration, inertia switch"
+          }
+        },
+        {
+          "code": "H01H 35/18",
+          "title": {
+            "ko": "액체면 또는 액체비중의 변화에 의해서 조작되는 스위치, 예. 플로트 스위치(float-switch)(부대위에 설치된 자석에 의한 것 H01H 36/02)",
+            "en": "Switches operated by change of liquid level or of liquid density, e.g. float switch (by magnet carried on a float H01H0036020000)"
+          }
+        },
+        {
+          "code": "H01H 35/24",
+          "title": {
+            "ko": "유체의 압력.유체압력액 또는 유체의 변화에 따라서 조작되는 스위치(그중에서 압력변화가 온도의 변화에 의해서 생긴 것 H01H 37/36)",
+            "en": "Switches operated by change of fluid pressure, by fluid pressure waves, or by change of fluid flow (wherein the change of pressure is caused by change of temperature H01H0037360000)"
+          }
+        },
+        {
+          "code": "H01H 35/26",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 35/28",
+          "title": {
+            "ko": null,
+            "en": "Compensation for variation of ambient pressure or temperature"
+          }
+        },
+        {
+          "code": "H01H 35/30",
+          "title": {
+            "ko": null,
+            "en": "Means for transmitting pressure to pressure-responsive operating part, e.g. by capsule and capillary tube"
+          }
+        },
+        {
+          "code": "H01H 35/32",
+          "title": {
+            "ko": null,
+            "en": "actuated by bellows"
+          }
+        },
+        {
+          "code": "H01H 35/34",
+          "title": {
+            "ko": null,
+            "en": "actuated by diaphragm"
+          }
+        },
+        {
+          "code": "H01H 35/36",
+          "title": {
+            "ko": null,
+            "en": "actuated by curled flexible tube, e.g. Bourdon tube"
+          }
+        },
+        {
+          "code": "H01H 35/38",
+          "title": {
+            "ko": null,
+            "en": "actuated by piston and cylinder"
+          }
+        },
+        {
+          "code": "H01H 35/40",
+          "title": {
+            "ko": null,
+            "en": "actuated by devices allowing continual flow of fluid, e.g. vane"
+          }
+        },
+        {
+          "code": "H01H 35/42",
+          "title": {
+            "ko": null,
+            "en": "Switches operated by change of humidity"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 36/00",
+      "title": {
+        "ko": null,
+        "en": "Switches actuated by change of magnetic field or of electric field, e.g. by change of relative position of magnet and switch, by shielding"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 36/02",
+          "title": {
+            "ko": null,
+            "en": "actuated by movement of a float carrying a magnet"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 37/00",
+      "title": {
+        "ko": "열응동스위치",
+        "en": "Thermally-actuated switches"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 37/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 37/04",
+          "title": {
+            "ko": null,
+            "en": "Bases; Housings; Mountings"
+          }
+        },
+        {
+          "code": "H01H 37/06",
+          "title": {
+            "ko": null,
+            "en": "to facilitate replacement, e.g. cartridge housing"
+          }
+        },
+        {
+          "code": "H01H 37/08",
+          "title": {
+            "ko": null,
+            "en": "Indicators; Distinguishing marks"
+          }
+        },
+        {
+          "code": "H01H 37/10",
+          "title": {
+            "ko": null,
+            "en": "Compensation for variation of ambient temperature or pressure"
+          }
+        },
+        {
+          "code": "H01H 37/12",
+          "title": {
+            "ko": null,
+            "en": "Means for adjustment of \"on\" or \"off\" operating temperature"
+          }
+        },
+        {
+          "code": "H01H 37/14",
+          "title": {
+            "ko": null,
+            "en": "by anticipatory electric heater"
+          }
+        },
+        {
+          "code": "H01H 37/16",
+          "title": {
+            "ko": null,
+            "en": "by varying the proportion of input heat received by the thermal element, e.g. by displacement of a shield"
+          }
+        },
+        {
+          "code": "H01H 37/18",
+          "title": {
+            "ko": null,
+            "en": "by varying bias on the thermal element due to a separate spring"
+          }
+        },
+        {
+          "code": "H01H 37/20",
+          "title": {
+            "ko": null,
+            "en": "by varying the position of the thermal element in relation to switch base or casing"
+          }
+        },
+        {
+          "code": "H01H 37/22",
+          "title": {
+            "ko": null,
+            "en": "by adjustment of a member transmitting motion from the thermal element to contacts or latch"
+          }
+        },
+        {
+          "code": "H01H 37/24",
+          "title": {
+            "ko": null,
+            "en": "by adjustment of position of the movable contact on its driving member"
+          }
+        },
+        {
+          "code": "H01H 37/26",
+          "title": {
+            "ko": null,
+            "en": "by adjustment of abutment for \"off\" position of the movable contact"
+          }
+        },
+        {
+          "code": "H01H 37/28",
+          "title": {
+            "ko": null,
+            "en": "by adjustment of the position of the fixed contact"
+          }
+        },
+        {
+          "code": "H01H 37/30",
+          "title": {
+            "ko": null,
+            "en": "by varying the position of the contact unit in relation to switch base or casing"
+          }
+        },
+        {
+          "code": "H01H 37/32",
+          "title": {
+            "ko": "감열부재",
+            "en": "Thermally-sensitive members"
+          }
+        },
+        {
+          "code": "H01H 37/34",
+          "title": {
+            "ko": null,
+            "en": "Means for transmitting heat thereto, e.g. capsule remote from contact member"
+          }
+        },
+        {
+          "code": "H01H 37/36",
+          "title": {
+            "ko": "증발을 수반하던가 수반하지 않는 유체의 팽창 또는 수축에 의해서 작동하는 것(스위치의 접점을 형성하는 유체 H01H 29/04, H01H 29/30)",
+            "en": "actuated due to expansion or contraction of a fluid with or without vaporisation (the fluid forming a contact of the switch H01H0029040000, H01H0029300000)"
+          }
+        },
+        {
+          "code": "H01H 37/38",
+          "title": {
+            "ko": null,
+            "en": "with bellows"
+          }
+        },
+        {
+          "code": "H01H 37/40",
+          "title": {
+            "ko": null,
+            "en": "with diaphragm"
+          }
+        },
+        {
+          "code": "H01H 37/42",
+          "title": {
+            "ko": null,
+            "en": "with curled flexible tube, e.g. Bourdon tube"
+          }
+        },
+        {
+          "code": "H01H 37/44",
+          "title": {
+            "ko": null,
+            "en": "with piston and cylinder"
+          }
+        },
+        {
+          "code": "H01H 37/46",
+          "title": {
+            "ko": "고체의 팽창 또는 수축에 의해서 작동하는 것, (바이메탈 소자의 굴절 H01H 37/52)",
+            "en": "actuated due to expansion or contraction of a solid (deflection of a bimetallic element H01H0037520000)"
+          }
+        },
+        {
+          "code": "H01H 37/48",
+          "title": {
+            "ko": null,
+            "en": "with extensible rigid rods or tubes"
+          }
+        },
+        {
+          "code": "H01H 37/50",
+          "title": {
+            "ko": null,
+            "en": "with extensible wires under tension"
+          }
+        },
+        {
+          "code": "H01H 37/52",
+          "title": {
+            "ko": null,
+            "en": "actuated due to deflection of bimetallic element"
+          }
+        },
+        {
+          "code": "H01H 37/54",
+          "title": {
+            "ko": null,
+            "en": "wherein the bimetallic element is inherently snap acting"
+          }
+        },
+        {
+          "code": "H01H 37/56",
+          "title": {
+            "ko": null,
+            "en": "having spirally wound or helically wound bimetallic element"
+          }
+        },
+        {
+          "code": "H01H 37/58",
+          "title": {
+            "ko": null,
+            "en": "actuated due to thermally controlled change of magnetic permeability"
+          }
+        },
+        {
+          "code": "H01H 37/60",
+          "title": {
+            "ko": "연동동작을 낳게 하는 수단(바이메탈소자에 특유한 것 H01H 37/54; 자석에 의해서 생기는 것 H01H 37/66)",
+            "en": "Means for producing snap action (inherent in bimetallic element H01H0037540000;caused by a magnet H01H0037660000)"
+          }
+        },
+        {
+          "code": "H01H 37/62",
+          "title": {
+            "ko": null,
+            "en": "Means other than thermal means for introducing a predetermined time delay"
+          }
+        },
+        {
+          "code": "H01H 37/64",
+          "title": {
+            "ko": null,
+            "en": "Contacts"
+          }
+        },
+        {
+          "code": "H01H 37/66",
+          "title": {
+            "ko": null,
+            "en": "Magnetic reinforcement of contact pressure; Magnet causing snap action"
+          }
+        },
+        {
+          "code": "H01H 37/68",
+          "title": {
+            "ko": null,
+            "en": "sealed in evacuated or gas-filled tube"
+          }
+        },
+        {
+          "code": "H01H 37/70",
+          "title": {
+            "ko": null,
+            "en": "Resetting means"
+          }
+        },
+        {
+          "code": "H01H 37/72",
+          "title": {
+            "ko": null,
+            "en": "Switches in which the opening movement and the closing movement of a contact are effected respectively by heating and cooling or vice versa"
+          }
+        },
+        {
+          "code": "H01H 37/74",
+          "title": {
+            "ko": null,
+            "en": "Switches in which only the opening movement or only the closing movement of a contact is effected by heating or cooling"
+          }
+        },
+        {
+          "code": "H01H 37/76",
+          "title": {
+            "ko": null,
+            "en": "Contact member actuated by melting of fusible material, actuated due to burning of combustible material or due to explosion of explosive material"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 39/00",
+      "title": {
+        "ko": null,
+        "en": "Switching devices actuated by an explosion produced within the device and initiated by an electric current"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 41/00",
+      "title": {
+        "ko": null,
+        "en": "Switches providing a selected number of consecutive operations of the contacts by a single manual actuation of the operating part"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 41/04",
+          "title": {
+            "ko": null,
+            "en": "Switches without means for setting or mechanically storing a multidigit number"
+          }
+        },
+        {
+          "code": "H01H 41/06",
+          "title": {
+            "ko": null,
+            "en": "dial or slide operated"
+          }
+        },
+        {
+          "code": "H01H 41/08",
+          "title": {
+            "ko": null,
+            "en": "keyboard operated"
+          }
+        },
+        {
+          "code": "H01H 41/10",
+          "title": {
+            "ko": null,
+            "en": "Switches with means for setting or mechanically storing a multidigit number"
+          }
+        },
+        {
+          "code": "H01H 41/12",
+          "title": {
+            "ko": null,
+            "en": "dial or slide operated"
+          }
+        },
+        {
+          "code": "H01H 41/14",
+          "title": {
+            "ko": null,
+            "en": "keyboard operated"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 43/00",
+      "title": {
+        "ko": null,
+        "en": "Time or time-programme switches providing a choice of time-intervals for executing one or more switching actions and automatically terminating their operation after the programme is completed"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 43/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 43/04",
+          "title": {
+            "ko": null,
+            "en": "Means for time setting"
+          }
+        },
+        {
+          "code": "H01H 43/06",
+          "title": {
+            "ko": null,
+            "en": "comprising separately adjustable parts for each programme step, e.g. with tappets"
+          }
+        },
+        {
+          "code": "H01H 43/08",
+          "title": {
+            "ko": null,
+            "en": "comprising an interchangeable programme part which is common for all programme steps, e.g. with a punched card"
+          }
+        },
+        {
+          "code": "H01H 43/10",
+          "title": {
+            "ko": null,
+            "en": "with timing of actuation of contacts due to a part rotating at substantially constant speed"
+          }
+        },
+        {
+          "code": "H01H 43/12",
+          "title": {
+            "ko": null,
+            "en": "stopping automatically after a single cycle of operation"
+          }
+        },
+        {
+          "code": "H01H 43/14",
+          "title": {
+            "ko": null,
+            "en": "wherein repetition of operation necessitates resetting of time intervals"
+          }
+        },
+        {
+          "code": "H01H 43/16",
+          "title": {
+            "ko": null,
+            "en": "stopping automatically after a predetermined plurality of cycles of operation"
+          }
+        },
+        {
+          "code": "H01H 43/24",
+          "title": {
+            "ko": null,
+            "en": "with timing of actuation of contacts due to a non-rotatably moving part"
+          }
+        },
+        {
+          "code": "H01H 43/26",
+          "title": {
+            "ko": null,
+            "en": "the actuation being produced by a substance flowing due to gravity, e.g. sand, water"
+          }
+        },
+        {
+          "code": "H01H 43/28",
+          "title": {
+            "ko": null,
+            "en": "the actuation being produced by a part, the speed of which is controlled by fluid-pressure means, e.g. by piston and cylinder"
+          }
+        },
+        {
+          "code": "H01H 43/30",
+          "title": {
+            "ko": null,
+            "en": "with timing of actuation of contacts due to thermal action"
+          }
+        },
+        {
+          "code": "H01H 43/32",
+          "title": {
+            "ko": null,
+            "en": "with timing of actuation of contacts due to electrolytic processes; with timing of actuation of contacts due to chemical processes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 45/00",
+      "title": {
+        "ko": "계전기의 세부(전기회로장치 H01H 47/00; 전자계전기의 세부 H01H 50/00; 전기적으로 조작되는 셀렉터(selector) 스위치의 세부 H01H 63/00)",
+        "en": "Relays"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 45/00",
+      "title": {
+        "ko": "계전기의 세부(전기회로장치 H01H 47/00; 전자계전기의 세부 H01H 50/00; 전기적으로 조작되는 셀렉터(selector) 스위치의 세부 H01H 63/00)",
+        "en": "Details of relays (electric circuit arrangements H01H0047000000;of electromagnetic relays H01H0050000000;details of electrically-operated selector switches H01H0063000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 45/02",
+          "title": {
+            "ko": "기판; 상체; 커버(2개 혹은 그 이상의 계전기를 설치하거나 한 개의 계전기와 다른 전기요소를 설치하기 위한 틀 H02B 1/01, H04Q 1/08, H05K)",
+            "en": "Bases; Casings; Covers (frames for mounting two or more relays or for mounting a relay and another electric component H02B0001010000, H04Q0001080000, H05K)"
+          }
+        },
+        {
+          "code": "H01H 45/04",
+          "title": {
+            "ko": null,
+            "en": "Mounting complete relay or separate parts of relay on a base or inside a case"
+          }
+        },
+        {
+          "code": "H01H 45/06",
+          "title": {
+            "ko": null,
+            "en": "having windows; Transparent cases or covers"
+          }
+        },
+        {
+          "code": "H01H 45/08",
+          "title": {
+            "ko": null,
+            "en": "Indicators; Distinguishing marks"
+          }
+        },
+        {
+          "code": "H01H 45/10",
+          "title": {
+            "ko": "전자 또는 정전실드(상체 H01H 45/02)",
+            "en": "Electromagnetic or electrostatic shielding (casings H01H0045020000)"
+          }
+        },
+        {
+          "code": "H01H 45/12",
+          "title": {
+            "ko": "통전; 냉각; 가열(전기적 열동계전기를 작동하기 위한 것 H01H 61/013)",
+            "en": "Ventilating; Cooling; Heating (for operating electrothermal relays H01H0061013000)"
+          }
+        },
+        {
+          "code": "H01H 45/14",
+          "title": {
+            "ko": null,
+            "en": "Terminal arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 47/00",
+      "title": {
+        "ko": "계전기의 특수한 사용에 적합하지 않은 회로장치 및 희망하는 조작특성 또는 부세전류를 공급하기 위하여 설계된 회로장치",
+        "en": "Circuit arrangements not adapted to a particular application of the relay and designed to obtain desired operating characteristics or to provide energising current"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 47/02",
+          "title": {
+            "ko": "계전기의 작용을 변경하기 위한 것",
+            "en": "for modifying the operation of the relay"
+          }
+        },
+        {
+          "code": "H01H 47/04",
+          "title": {
+            "ko": null,
+            "en": "for holding armature in attracted position, e.g. when initial energising circuit is interrupted or with reduced energising current"
+          }
+        },
+        {
+          "code": "H01H 47/06",
+          "title": {
+            "ko": null,
+            "en": "by changing number of serially-connected turns or winding"
+          }
+        },
+        {
+          "code": "H01H 47/08",
+          "title": {
+            "ko": null,
+            "en": "by changing number of parallel-connected turns or windings"
+          }
+        },
+        {
+          "code": "H01H 47/10",
+          "title": {
+            "ko": null,
+            "en": "by switching-in or -out impedance external to the relay winding"
+          }
+        },
+        {
+          "code": "H01H 47/12",
+          "title": {
+            "ko": null,
+            "en": "for biasing the electromagnet"
+          }
+        },
+        {
+          "code": "H01H 47/14",
+          "title": {
+            "ko": null,
+            "en": "for differential operation of the relay"
+          }
+        },
+        {
+          "code": "H01H 47/16",
+          "title": {
+            "ko": null,
+            "en": "for conjoint, e.g. additive, operation of the relay"
+          }
+        },
+        {
+          "code": "H01H 47/18",
+          "title": {
+            "ko": "계전기의 동작에 지연을 낳게 하기 위한 것(회로를 단락하기 위한 도전슬라이브, 도전체, 또는 도전판 H01H 50/46)",
+            "en": "for introducing delay in the operation of the relay (short-circuited conducting sleeves, bands, or discs H01H0050460000)"
+          }
+        },
+        {
+          "code": "H01H 47/20",
+          "title": {
+            "ko": null,
+            "en": "for producing frequency-selective operation of the relay"
+          }
+        },
+        {
+          "code": "H01H 47/22",
+          "title": {
+            "ko": null,
+            "en": "for supplying energising current for relay coil"
+          }
+        },
+        {
+          "code": "H01H 47/24",
+          "title": {
+            "ko": null,
+            "en": "having light-sensitive input"
+          }
+        },
+        {
+          "code": "H01H 47/26",
+          "title": {
+            "ko": null,
+            "en": "having thermo-sensitive input"
+          }
+        },
+        {
+          "code": "H01H 47/28",
+          "title": {
+            "ko": null,
+            "en": "Energising current supplied by discharge tube"
+          }
+        },
+        {
+          "code": "H01H 47/30",
+          "title": {
+            "ko": null,
+            "en": "by gas-filled discharge tube"
+          }
+        },
+        {
+          "code": "H01H 47/32",
+          "title": {
+            "ko": null,
+            "en": "Energising current supplied by semiconductor device"
+          }
+        },
+        {
+          "code": "H01H 47/34",
+          "title": {
+            "ko": null,
+            "en": "Energising current supplied by magnetic amplifier"
+          }
+        },
+        {
+          "code": "H01H 47/36",
+          "title": {
+            "ko": null,
+            "en": "Relay coil or coils forming part of a bridge circuit"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 49/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes specially adapted to the manufacture of relays or parts thereof"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 50/00",
+      "title": {
+        "ko": "전자계전기의 세부(전기회로장치 H01H 47/00; 전기적으로 조작되는 셀렉터 스위치 H01H 63/00)",
+        "en": "Details of electromagnetic relays (electric circuit arrangements H01H0047000000;details of electrically-operated selector switches H01H0063000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 50/02",
+          "title": {
+            "ko": "기판(base); 상체(casing); 커버(2개 또는 그 이상의 계전기를 설치하거나 1개의 계전기와 다른 전기요소를 설치하기 위한 틀 H02B 1/01, H04Q 1/08, H05K)",
+            "en": "Bases; Casings; Covers (frames for mounting two or more relays or for mounting a relay and another electric component H02B0001010000, H04Q0001080000, H05K)"
+          }
+        },
+        {
+          "code": "H01H 50/04",
+          "title": {
+            "ko": null,
+            "en": "Mounting complete relay or separate parts of relay on a base or inside a case"
+          }
+        },
+        {
+          "code": "H01H 50/06",
+          "title": {
+            "ko": null,
+            "en": "having windows; Transparent cases or covers"
+          }
+        },
+        {
+          "code": "H01H 50/08",
+          "title": {
+            "ko": null,
+            "en": "Indicators; Distinguishing marks"
+          }
+        },
+        {
+          "code": "H01H 50/10",
+          "title": {
+            "ko": "전자적 또는 정전적 쉴드(상체(casing) H01H 50/02)",
+            "en": "Electromagnetic or electrostatic shielding (casings H01H0050020000)"
+          }
+        },
+        {
+          "code": "H01H 50/12",
+          "title": {
+            "ko": "통풍; 냉각; 가열(전열 계전기 조작용 H01H 61/013)",
+            "en": "Ventilating; Cooling; Heating (for operating electrothermal relays H01H0061013000)"
+          }
+        },
+        {
+          "code": "H01H 50/14",
+          "title": {
+            "ko": null,
+            "en": "Terminal arrangements"
+          }
+        },
+        {
+          "code": "H01H 50/16",
+          "title": {
+            "ko": null,
+            "en": "Magnetic circuit arrangements"
+          }
+        },
+        {
+          "code": "H01H 50/18",
+          "title": {
+            "ko": null,
+            "en": "Movable parts of magnetic circuits, e.g. armature"
+          }
+        },
+        {
+          "code": "H01H 50/20",
+          "title": {
+            "ko": null,
+            "en": "movable inside coil and substantially lengthwise with respect to axis thereof; movable coaxially with respect to coil"
+          }
+        },
+        {
+          "code": "H01H 50/22",
+          "title": {
+            "ko": null,
+            "en": "wherein the magnetic circuit is substantially closed"
+          }
+        },
+        {
+          "code": "H01H 50/24",
+          "title": {
+            "ko": null,
+            "en": "Parts rotatable or rockable outside coil"
+          }
+        },
+        {
+          "code": "H01H 50/26",
+          "title": {
+            "ko": null,
+            "en": "Parts movable about a knife edge"
+          }
+        },
+        {
+          "code": "H01H 50/28",
+          "title": {
+            "ko": null,
+            "en": "Parts movable due to bending of a blade spring or reed"
+          }
+        },
+        {
+          "code": "H01H 50/30",
+          "title": {
+            "ko": null,
+            "en": "Mechanical arrangements for preventing or damping vibration or shock, e.g. by balancing of armature"
+          }
+        },
+        {
+          "code": "H01H 50/32",
+          "title": {
+            "ko": null,
+            "en": "Latching movable parts mechanically"
+          }
+        },
+        {
+          "code": "H01H 50/34",
+          "title": {
+            "ko": null,
+            "en": "Means for adjusting limits of movement; Mechanical means for adjusting returning force"
+          }
+        },
+        {
+          "code": "H01H 50/36",
+          "title": {
+            "ko": null,
+            "en": "Stationary parts of magnetic circuit, e.g. yoke"
+          }
+        },
+        {
+          "code": "H01H 50/38",
+          "title": {
+            "ko": null,
+            "en": "Part of main magnetic circuit shaped to suppress arcing between the contacts of the relay"
+          }
+        },
+        {
+          "code": "H01H 50/40",
+          "title": {
+            "ko": null,
+            "en": "Branched or multiple-limb main magnetic circuits"
+          }
+        },
+        {
+          "code": "H01H 50/42",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary magnetic circuits, e.g. for maintaining armature in, or returning armature to, position of rest, for damping or accelerating movement"
+          }
+        },
+        {
+          "code": "H01H 50/44",
+          "title": {
+            "ko": null,
+            "en": "Magnetic coils or windings"
+          }
+        },
+        {
+          "code": "H01H 50/46",
+          "title": {
+            "ko": null,
+            "en": "Short-circuited conducting sleeves, bands, or discs"
+          }
+        },
+        {
+          "code": "H01H 50/54",
+          "title": {
+            "ko": null,
+            "en": "Contact arrangements"
+          }
+        },
+        {
+          "code": "H01H 50/56",
+          "title": {
+            "ko": null,
+            "en": "Contact spring sets"
+          }
+        },
+        {
+          "code": "H01H 50/58",
+          "title": {
+            "ko": null,
+            "en": "Driving arrangements structurally associated therewith; Mounting of driving arrangement on armature"
+          }
+        },
+        {
+          "code": "H01H 50/60",
+          "title": {
+            "ko": null,
+            "en": "moving contact being rigidly combined with movable part of magnetic circuit"
+          }
+        },
+        {
+          "code": "H01H 50/62",
+          "title": {
+            "ko": null,
+            "en": "Co-operating movable contacts operated by separate electrical actuating means"
+          }
+        },
+        {
+          "code": "H01H 50/64",
+          "title": {
+            "ko": "자기회로의 가동부분과 접점간의 구동장치(구조적으로 접점과 결합한 스프링셋트 H01H 50/58)",
+            "en": "Driving arrangements between movable part of magnetic circuit and contact (structurally associated with contact spring sets H01H0050580000)"
+          }
+        },
+        {
+          "code": "H01H 50/66",
+          "title": {
+            "ko": null,
+            "en": "with lost motion"
+          }
+        },
+        {
+          "code": "H01H 50/68",
+          "title": {
+            "ko": null,
+            "en": "with snap action"
+          }
+        },
+        {
+          "code": "H01H 50/70",
+          "title": {
+            "ko": null,
+            "en": "operating contact momentarily during stroke of armature"
+          }
+        },
+        {
+          "code": "H01H 50/72",
+          "title": {
+            "ko": null,
+            "en": "for mercury contact"
+          }
+        },
+        {
+          "code": "H01H 50/74",
+          "title": {
+            "ko": null,
+            "en": "Mechanical means for producing a desired natural frequency of operation of the contacts, e.g. for self-interrupter"
+          }
+        },
+        {
+          "code": "H01H 50/76",
+          "title": {
+            "ko": null,
+            "en": "using reed or blade spring"
+          }
+        },
+        {
+          "code": "H01H 50/78",
+          "title": {
+            "ko": null,
+            "en": "using diaphragm; using stretched wire or ribbon vibrating sideways"
+          }
+        },
+        {
+          "code": "H01H 50/80",
+          "title": {
+            "ko": null,
+            "en": "using torsionally vibrating member, e.g. wire, strip"
+          }
+        },
+        {
+          "code": "H01H 50/82",
+          "title": {
+            "ko": null,
+            "en": "using spring-loaded pivoted inertia member"
+          }
+        },
+        {
+          "code": "H01H 50/84",
+          "title": {
+            "ko": null,
+            "en": "with means for adjustment of frequency or of make-to-break ratio"
+          }
+        },
+        {
+          "code": "H01H 50/86",
+          "title": {
+            "ko": "스위칭 동작의 개시와 접점의 개방 또는 폐성간에 미리 결정된 지연시간을 낳게 하기 위한 수단(지연을 생기게 하기 위한 회로장치 H01H 47/18; 회로를 단락하는 도전슬리이브, 대 또는 판 H01H 50/46)",
+            "en": "Means for introducing a predetermined time delay between the initiation of the switching operation and the opening or closing of the contacts (circuit arrangements for introducing delay H01H0047180000;short-circuited conducting sleeves, bands, or discs H01H0050460000)"
+          }
+        },
+        {
+          "code": "H01H 50/88",
+          "title": {
+            "ko": null,
+            "en": "Mechanical means, e.g. dash-pot"
+          }
+        },
+        {
+          "code": "H01H 50/90",
+          "title": {
+            "ko": null,
+            "en": "the delay being effective in both directions of operation"
+          }
+        },
+        {
+          "code": "H01H 50/92",
+          "title": {
+            "ko": "열적수단(전기적 열동계전기로 특유의 것 H01H 61/00)",
+            "en": "Thermal means (inherent in electrothermal relays H01H0061000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 51/00",
+      "title": {
+        "ko": "전자기 릴레이 (발전기 효과를 사용하는 릴레이 H01H53/00)",
+        "en": "Electromagnetic relays (relays using the dynamo-electric effect H01H0053000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 51/01",
+          "title": {
+            "ko": null,
+            "en": "Relays in which the armature is maintained in one position by a permanent magnet and freed by energisation of a coil producing an opposing magnetic field"
+          }
+        },
+        {
+          "code": "H01H 51/02",
+          "title": {
+            "ko": "극성이 없는 계전기(H01H 51/01)가 우선)",
+            "en": "Non-polarised relays (H01H0051010000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 51/04",
+          "title": {
+            "ko": null,
+            "en": "with single armature; with single set of ganged armatures"
+          }
+        },
+        {
+          "code": "H01H 51/06",
+          "title": {
+            "ko": null,
+            "en": "Armature is movable between two limit positions of rest and is moved in one direction due to energisation of an electromagnet and after the electromagnet is de-energised is returned by energy stored during the movement in the first direction, e.g. by using a spring, by using a permanent magnet, by gravity"
+          }
+        },
+        {
+          "code": "H01H 51/08",
+          "title": {
+            "ko": null,
+            "en": "Contacts alternately opened and closed by successive cycles of energisation and de-energisation of the electromagnet, e.g. by use of a ratchet"
+          }
+        },
+        {
+          "code": "H01H 51/10",
+          "title": {
+            "ko": null,
+            "en": "Contacts retained open or closed by a mechanical latch which is controlled by an electromagnet"
+          }
+        },
+        {
+          "code": "H01H 51/12",
+          "title": {
+            "ko": null,
+            "en": "Armature is movable between two limit positions of rest and is moved in both directions due to the energisation of one or the other of two electromagnets without the storage of energy to effect the return movement"
+          }
+        },
+        {
+          "code": "H01H 51/14",
+          "title": {
+            "ko": null,
+            "en": "without intermediate neutral position of rest"
+          }
+        },
+        {
+          "code": "H01H 51/16",
+          "title": {
+            "ko": null,
+            "en": "with intermediate neutral position of rest"
+          }
+        },
+        {
+          "code": "H01H 51/18",
+          "title": {
+            "ko": null,
+            "en": "Armature is rotatable through an unlimited number of revolutions"
+          }
+        },
+        {
+          "code": "H01H 51/20",
+          "title": {
+            "ko": null,
+            "en": "with two or more independent armatures"
+          }
+        },
+        {
+          "code": "H01H 51/22",
+          "title": {
+            "ko": null,
+            "en": "Polarised relays"
+          }
+        },
+        {
+          "code": "H01H 51/24",
+          "title": {
+            "ko": null,
+            "en": "without intermediate neutral position of rest"
+          }
+        },
+        {
+          "code": "H01H 51/26",
+          "title": {
+            "ko": null,
+            "en": "with intermediate neutral position of rest"
+          }
+        },
+        {
+          "code": "H01H 51/27",
+          "title": {
+            "ko": null,
+            "en": "Relays with armature having two stable magnetic states and operated by change from one state to the other"
+          }
+        },
+        {
+          "code": "H01H 51/28",
+          "title": {
+            "ko": "동작코일이 외측에 설치되어 있는 밀봉상체중에 아마츄어와 접점의 양쪽이 있는 계전기, 예. 자기엽편스프링 또는 리드에 의해서 지지되는 접점(H01H 51/27이 우선)",
+            "en": "Relays having both armature and contacts within a sealed casing outside which the operating coil is located, e.g. contact carried by a magnetic leaf spring or reed (H01H0051270000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 51/29",
+          "title": {
+            "ko": null,
+            "en": "Relays having armature, contacts, and operating coil within a sealed casing (H01H0051270000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 51/30",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for actuation by AC"
+          }
+        },
+        {
+          "code": "H01H 51/32",
+          "title": {
+            "ko": null,
+            "en": "Frequency relays; Mechanically-tuned relays"
+          }
+        },
+        {
+          "code": "H01H 51/34",
+          "title": {
+            "ko": null,
+            "en": "Self-interrupters, i.e. with periodic or other repetitive opening and closing of contacts"
+          }
+        },
+        {
+          "code": "H01H 51/36",
+          "title": {
+            "ko": null,
+            "en": "wherein the make-to-break ratio is varied by hand setting or current strength"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 53/00",
+      "title": {
+        "ko": null,
+        "en": "Relays using the dynamo-electric effect, i.e. relays in which contacts are opened or closed due to relative movement of current-carrying conductor and magnetic field caused by force of interaction between them"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 53/01",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 53/015",
+          "title": {
+            "ko": null,
+            "en": "Moving coils; Contact-driving arrangements associated therewith"
+          }
+        },
+        {
+          "code": "H01H 53/02",
+          "title": {
+            "ko": null,
+            "en": "Electrodynamic relays, i.e. relays in which the interaction is between two current-carrying conductors"
+          }
+        },
+        {
+          "code": "H01H 53/04",
+          "title": {
+            "ko": null,
+            "en": "Ferrodynamic relays, i.e. relays in which the magnetic field is concentrated in ferromagnetic parts"
+          }
+        },
+        {
+          "code": "H01H 53/06",
+          "title": {
+            "ko": null,
+            "en": "Magnetodynamic relays, i.e. relays in which the magnetic field is produced by a permanent magnet"
+          }
+        },
+        {
+          "code": "H01H 53/08",
+          "title": {
+            "ko": null,
+            "en": "wherein a mercury contact constitutes the current-carrying conductor"
+          }
+        },
+        {
+          "code": "H01H 53/10",
+          "title": {
+            "ko": null,
+            "en": "Induction relays, i.e. relays in which the interaction is between a magnetic field and current induced thereby in a conductor"
+          }
+        },
+        {
+          "code": "H01H 53/12",
+          "title": {
+            "ko": null,
+            "en": "Ferraris relays"
+          }
+        },
+        {
+          "code": "H01H 53/14",
+          "title": {
+            "ko": null,
+            "en": "Contacts actuated by an electric motor through fluid-pressure transmission, e.g. using a motor-driven pump"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 55/00",
+      "title": {
+        "ko": null,
+        "en": "Magnetostrictive relays"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 57/00",
+      "title": {
+        "ko": null,
+        "en": "Electrostrictive relays; Piezoelectric relays"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 59/00",
+      "title": {
+        "ko": null,
+        "en": "Electrostatic relays; Electro-adhesion relays"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 61/00",
+      "title": {
+        "ko": "전기적 열동계전기(전기적 입력에 의해서 조작되지 않는 열응동 스위치 전기적 입력에 있어서 동작하는 열응동 스위치 H01H 37/00; 열감지부재 H01H 37/32)",
+        "en": "Electrothermal relays (thermal switches not operated by electrical input, thermal switches with anticipating electrical input H01H0037000000;thermally-sensitive members H01H0037320000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 61/01",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 61/013",
+          "title": {
+            "ko": null,
+            "en": "Heating arrangements for operating relays"
+          }
+        },
+        {
+          "code": "H01H 61/017",
+          "title": {
+            "ko": null,
+            "en": "Heating by glow discharge or arc in confined space"
+          }
+        },
+        {
+          "code": "H01H 61/02",
+          "title": {
+            "ko": null,
+            "en": "wherein the thermally-sensitive member is heated indirectly, e.g. resistively, inductively"
+          }
+        },
+        {
+          "code": "H01H 61/04",
+          "title": {
+            "ko": null,
+            "en": "wherein the thermally-sensitive member is only heated directly"
+          }
+        },
+        {
+          "code": "H01H 61/06",
+          "title": {
+            "ko": null,
+            "en": "Self-interrupters, i.e. with periodic or other repetitive opening and closing of contacts"
+          }
+        },
+        {
+          "code": "H01H 61/08",
+          "title": {
+            "ko": null,
+            "en": "wherein the make-to-break ratio is varied by hand setting or current strength"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 63/00",
+      "title": {
+        "ko": "전기적으로 조작되는 셀렉터 스위치의 세부",
+        "en": "Selectors"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 63/00",
+      "title": {
+        "ko": "전기적으로 조작되는 셀렉터 스위치의 세부",
+        "en": "Details of electrically-operated selector switches"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 63/02",
+          "title": {
+            "ko": null,
+            "en": "Contacts; Wipers; Connections thereto"
+          }
+        },
+        {
+          "code": "H01H 63/04",
+          "title": {
+            "ko": null,
+            "en": "Contact-making or contact-breaking wipers; Position indicators therefor"
+          }
+        },
+        {
+          "code": "H01H 63/06",
+          "title": {
+            "ko": null,
+            "en": "Contact banks"
+          }
+        },
+        {
+          "code": "H01H 63/08",
+          "title": {
+            "ko": null,
+            "en": "cylindrical"
+          }
+        },
+        {
+          "code": "H01H 63/10",
+          "title": {
+            "ko": null,
+            "en": "plane"
+          }
+        },
+        {
+          "code": "H01H 63/12",
+          "title": {
+            "ko": null,
+            "en": "Multiplying connections to contact banks, e.g. using ribbon cables"
+          }
+        },
+        {
+          "code": "H01H 63/14",
+          "title": {
+            "ko": null,
+            "en": "without soldering"
+          }
+        },
+        {
+          "code": "H01H 63/16",
+          "title": {
+            "ko": null,
+            "en": "Driving arrangements for multi-position wipers"
+          }
+        },
+        {
+          "code": "H01H 63/18",
+          "title": {
+            "ko": null,
+            "en": "with step-by-step motion of wiper to a selector position"
+          }
+        },
+        {
+          "code": "H01H 63/20",
+          "title": {
+            "ko": null,
+            "en": "using stepping magnet and ratchet"
+          }
+        },
+        {
+          "code": "H01H 63/22",
+          "title": {
+            "ko": null,
+            "en": "using step-by-step electromagnetic drive without ratchet, e.g. self-interrupting driving magnet"
+          }
+        },
+        {
+          "code": "H01H 63/24",
+          "title": {
+            "ko": null,
+            "en": "with continuous motion of wiper until a selected position is reached"
+          }
+        },
+        {
+          "code": "H01H 63/26",
+          "title": {
+            "ko": null,
+            "en": "with an individual clutch-drive from a shaft common to more than one selector switch"
+          }
+        },
+        {
+          "code": "H01H 63/28",
+          "title": {
+            "ko": null,
+            "en": "with an individual motor for each selector switch"
+          }
+        },
+        {
+          "code": "H01H 63/30",
+          "title": {
+            "ko": null,
+            "en": "Pneumatic motor for moving wiper to selected position"
+          }
+        },
+        {
+          "code": "H01H 63/32",
+          "title": {
+            "ko": null,
+            "en": "Spring motor for moving wiper to selected position"
+          }
+        },
+        {
+          "code": "H01H 63/33",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of co-ordinate-type selector switches not having relays at cross-points"
+          }
+        },
+        {
+          "code": "H01H 63/34",
+          "title": {
+            "ko": "기판(base); 케이스(case); 커버(cover); 부착 (mounting)(상호간 교환장치가 있는 또는 없는 셀렉터를 부착하기 위한 가대 H04Q 1/04); 셀렉터 스위치상의 퓨즈의 부착",
+            "en": "Bases; Cases; Covers; Mountings (racks for mounting selectors with or without other exchange equipment H04Q0001040000); Mounting of fuses on selector switch"
+          }
+        },
+        {
+          "code": "H01H 63/36",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for ensuring correct or desired operation and not adapted to a particular application of the selector switch"
+          }
+        },
+        {
+          "code": "H01H 63/38",
+          "title": {
+            "ko": null,
+            "en": "for multi-position wiper switches"
+          }
+        },
+        {
+          "code": "H01H 63/40",
+          "title": {
+            "ko": null,
+            "en": "for multi-position switches without wipers"
+          }
+        },
+        {
+          "code": "H01H 63/42",
+          "title": {
+            "ko": null,
+            "en": "for co-ordinate-type selector switches not having relays at cross-points"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 65/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes specially adapted to the manufacture of selector switches or parts thereof"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 67/00",
+      "title": {
+        "ko": null,
+        "en": "Electrically-operated selector switches"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 67/02",
+          "title": {
+            "ko": null,
+            "en": "Multi-position wiper switches"
+          }
+        },
+        {
+          "code": "H01H 67/04",
+          "title": {
+            "ko": null,
+            "en": "having wipers movable only in one direction for purpose of selection"
+          }
+        },
+        {
+          "code": "H01H 67/06",
+          "title": {
+            "ko": null,
+            "en": "Rotary switches, i.e. having angularly movable wipers"
+          }
+        },
+        {
+          "code": "H01H 67/08",
+          "title": {
+            "ko": null,
+            "en": "with wiper selection"
+          }
+        },
+        {
+          "code": "H01H 67/10",
+          "title": {
+            "ko": null,
+            "en": "with coarse and fine positioning of wipers"
+          }
+        },
+        {
+          "code": "H01H 67/12",
+          "title": {
+            "ko": null,
+            "en": "Linear-motion switches"
+          }
+        },
+        {
+          "code": "H01H 67/14",
+          "title": {
+            "ko": null,
+            "en": "having wipers movable in two mutually perpendicular directions for purpose of selection"
+          }
+        },
+        {
+          "code": "H01H 67/16",
+          "title": {
+            "ko": null,
+            "en": "one motion being rotary and the other being parallel to the axis of rotation, e.g. Strowger or \"up and around\" switches"
+          }
+        },
+        {
+          "code": "H01H 67/18",
+          "title": {
+            "ko": null,
+            "en": "one motion being rotary and the other being perpendicular to the axis of rotation, e.g. \"round and in\" switches"
+          }
+        },
+        {
+          "code": "H01H 67/20",
+          "title": {
+            "ko": null,
+            "en": "both motions being linear"
+          }
+        },
+        {
+          "code": "H01H 67/22",
+          "title": {
+            "ko": null,
+            "en": "Switches without multi-position wipers"
+          }
+        },
+        {
+          "code": "H01H 67/24",
+          "title": {
+            "ko": null,
+            "en": "Co-ordinate-type relay switches having an individual electromagnet at each cross-point"
+          }
+        },
+        {
+          "code": "H01H 67/26",
+          "title": {
+            "ko": null,
+            "en": "Co-ordinate-type selector switches not having relays at cross-points but involving mechanical movement, e.g. cross-bar switch, code-bar switch"
+          }
+        },
+        {
+          "code": "H01H 67/30",
+          "title": {
+            "ko": null,
+            "en": "Co-ordinate-type selector switches with field of co-ordinate coil acting directly upon magnetic leaf spring or reed-type contact member"
+          }
+        },
+        {
+          "code": "H01H 67/32",
+          "title": {
+            "ko": null,
+            "en": "having a multiplicity of interdependent armatures operated in succession by a single coil and each controlling one contact or set of contacts, e.g. counting relay"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 69/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 69/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes for the manufacture of emergency protective devices"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 69/01",
+          "title": {
+            "ko": null,
+            "en": "for calibrating or setting of devices to function under predetermined conditions"
+          }
+        },
+        {
+          "code": "H01H 69/02",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of fuses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 71/00",
+      "title": {
+        "ko": "H01H 73/00으로부터 H01H 83/00에 포함되는 보호스위치 또는 보호계전기의 세부",
+        "en": "Details of the protective switches or relays covered by groups H01H0073000000-H01H0083000000"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 71/02",
+          "title": {
+            "ko": null,
+            "en": "Housings; Casings; Bases; Mountings"
+          }
+        },
+        {
+          "code": "H01H 71/04",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating condition of the switching device"
+          }
+        },
+        {
+          "code": "H01H 71/06",
+          "title": {
+            "ko": null,
+            "en": "Distinguishing marks, e.g. colour coding"
+          }
+        },
+        {
+          "code": "H01H 71/08",
+          "title": {
+            "ko": null,
+            "en": "Terminals; Connections"
+          }
+        },
+        {
+          "code": "H01H 71/10",
+          "title": {
+            "ko": "조작 또는 석방기구",
+            "en": "Operating or release mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/12",
+          "title": {
+            "ko": "수동석방수단이 있든가 또는 없는 자동석방기구",
+            "en": "Automatic release mechanisms with or without manual release"
+          }
+        },
+        {
+          "code": "H01H 71/14",
+          "title": {
+            "ko": null,
+            "en": "Electrothermal mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/16",
+          "title": {
+            "ko": null,
+            "en": "with bimetal element"
+          }
+        },
+        {
+          "code": "H01H 71/18",
+          "title": {
+            "ko": null,
+            "en": "with expanding rod, strip, or wire"
+          }
+        },
+        {
+          "code": "H01H 71/20",
+          "title": {
+            "ko": null,
+            "en": "with fusible mass"
+          }
+        },
+        {
+          "code": "H01H 71/22",
+          "title": {
+            "ko": null,
+            "en": "with compensation for variation of ambient temperature"
+          }
+        },
+        {
+          "code": "H01H 71/24",
+          "title": {
+            "ko": null,
+            "en": "Electromagnetic mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/26",
+          "title": {
+            "ko": null,
+            "en": "with windings acting in opposition"
+          }
+        },
+        {
+          "code": "H01H 71/28",
+          "title": {
+            "ko": null,
+            "en": "with windings acting in conjunction"
+          }
+        },
+        {
+          "code": "H01H 71/30",
+          "title": {
+            "ko": null,
+            "en": "having additional short-circuited winding"
+          }
+        },
+        {
+          "code": "H01H 71/32",
+          "title": {
+            "ko": null,
+            "en": "having permanently magnetised part"
+          }
+        },
+        {
+          "code": "H01H 71/34",
+          "title": {
+            "ko": null,
+            "en": "having two or more armatures controlled by a common winding"
+          }
+        },
+        {
+          "code": "H01H 71/36",
+          "title": {
+            "ko": null,
+            "en": "frequency selective"
+          }
+        },
+        {
+          "code": "H01H 71/38",
+          "title": {
+            "ko": null,
+            "en": "wherein the magnet coil also acts as arc blow-out device"
+          }
+        },
+        {
+          "code": "H01H 71/40",
+          "title": {
+            "ko": null,
+            "en": "Combined electrothermal and electromagnetic mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/42",
+          "title": {
+            "ko": null,
+            "en": "Induction-motor, induced-current, or electrodynamic release mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/43",
+          "title": {
+            "ko": null,
+            "en": "Electrodynamic release mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/44",
+          "title": {
+            "ko": "예정의 지연시간을 낳기 위한 수단이 있는 것(단락권선에 의한 것 H01H 71/30; 부가된 아마츄어에 의한 것 H01H 71/34)",
+            "en": "having means for introducing a predetermined time delay (by short-circuited winding H01H0071300000;by additional armature H01H0071340000)"
+          }
+        },
+        {
+          "code": "H01H 71/46",
+          "title": {
+            "ko": null,
+            "en": "having means for operating auxiliary contacts additional to the main contacts"
+          }
+        },
+        {
+          "code": "H01H 71/48",
+          "title": {
+            "ko": null,
+            "en": "with provision for short-circuiting the electrical input to the release mechanism after release of the switch, e.g. for protection of heating wire"
+          }
+        },
+        {
+          "code": "H01H 71/50",
+          "title": {
+            "ko": null,
+            "en": "Manual reset mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/52",
+          "title": {
+            "ko": null,
+            "en": "actuated by lever"
+          }
+        },
+        {
+          "code": "H01H 71/54",
+          "title": {
+            "ko": null,
+            "en": "actuated by tumbler"
+          }
+        },
+        {
+          "code": "H01H 71/56",
+          "title": {
+            "ko": null,
+            "en": "actuated by rotatable knob or wheel"
+          }
+        },
+        {
+          "code": "H01H 71/58",
+          "title": {
+            "ko": null,
+            "en": "actuated by push-button, pull-knob, or slide"
+          }
+        },
+        {
+          "code": "H01H 71/60",
+          "title": {
+            "ko": null,
+            "en": "actuated by closure of switch casing"
+          }
+        },
+        {
+          "code": "H01H 71/62",
+          "title": {
+            "ko": null,
+            "en": "with means for preventing resetting while abnormal condition persists, e.g. loose handle arrangement"
+          }
+        },
+        {
+          "code": "H01H 71/64",
+          "title": {
+            "ko": null,
+            "en": "incorporating toggle linkage"
+          }
+        },
+        {
+          "code": "H01H 71/66",
+          "title": {
+            "ko": null,
+            "en": "Power reset mechanisms"
+          }
+        },
+        {
+          "code": "H01H 71/68",
+          "title": {
+            "ko": null,
+            "en": "actuated by electromagnet"
+          }
+        },
+        {
+          "code": "H01H 71/70",
+          "title": {
+            "ko": null,
+            "en": "actuated by electric motor"
+          }
+        },
+        {
+          "code": "H01H 71/72",
+          "title": {
+            "ko": null,
+            "en": "actuated automatically a limited number of times"
+          }
+        },
+        {
+          "code": "H01H 71/74",
+          "title": {
+            "ko": null,
+            "en": "Means for adjusting the conditions under which the device will function to provide protection"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 73/00",
+      "title": {
+        "ko": "과전류에 있어서 수동리셋트 기구의 조작에 의해서 미리 축적된 세력의 자동방출에 의하여 접점을 여는 과부하보호 스위치",
+        "en": "Protective overload circuit-breaking switches in which excess current opens the contacts by automatic release of mechanical energy stored by previous operation of a hand reset mechanism"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 73/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 73/04",
+          "title": {
+            "ko": null,
+            "en": "Contacts"
+          }
+        },
+        {
+          "code": "H01H 73/06",
+          "title": {
+            "ko": null,
+            "en": "Housings; Casings; Bases; Mountings"
+          }
+        },
+        {
+          "code": "H01H 73/08",
+          "title": {
+            "ko": null,
+            "en": "Plug-in housings"
+          }
+        },
+        {
+          "code": "H01H 73/10",
+          "title": {
+            "ko": null,
+            "en": "Cartridge housings, e.g. screw-in housing"
+          }
+        },
+        {
+          "code": "H01H 73/12",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating condition of the switch"
+          }
+        },
+        {
+          "code": "H01H 73/14",
+          "title": {
+            "ko": null,
+            "en": "Indicating lamp structurally associated with the switch"
+          }
+        },
+        {
+          "code": "H01H 73/16",
+          "title": {
+            "ko": null,
+            "en": "Distinguishing marks, e.g. colour coding"
+          }
+        },
+        {
+          "code": "H01H 73/18",
+          "title": {
+            "ko": null,
+            "en": "Means for extinguishing or suppressing arc"
+          }
+        },
+        {
+          "code": "H01H 73/20",
+          "title": {
+            "ko": null,
+            "en": "Terminals; Connections"
+          }
+        },
+        {
+          "code": "H01H 73/22",
+          "title": {
+            "ko": "열전석방이 있고 기타 자동적 석방이 없는 것(카트리지형 H01H 73/62)",
+            "en": "having electrothermal release and no other automatic release (cartridge type H01H0073620000)"
+          }
+        },
+        {
+          "code": "H01H 73/24",
+          "title": {
+            "ko": null,
+            "en": "reset by lever"
+          }
+        },
+        {
+          "code": "H01H 73/26",
+          "title": {
+            "ko": null,
+            "en": "reset by tumbler"
+          }
+        },
+        {
+          "code": "H01H 73/28",
+          "title": {
+            "ko": null,
+            "en": "reset by rotatable knob or wheel"
+          }
+        },
+        {
+          "code": "H01H 73/30",
+          "title": {
+            "ko": null,
+            "en": "reset by push-button, pull-knob, or slide"
+          }
+        },
+        {
+          "code": "H01H 73/32",
+          "title": {
+            "ko": null,
+            "en": "reset by closure of switch casing"
+          }
+        },
+        {
+          "code": "H01H 73/34",
+          "title": {
+            "ko": null,
+            "en": "reset action requiring replacement or reconditioning of a fusible or explosive part"
+          }
+        },
+        {
+          "code": "H01H 73/36",
+          "title": {
+            "ko": "전자석방을 하고 기타 자동적 석방을 하지 않는 것(카트리지형 H01H 73/64)",
+            "en": "having electromagnetic release and no other automatic release (cartridge type H01H0073640000)"
+          }
+        },
+        {
+          "code": "H01H 73/38",
+          "title": {
+            "ko": null,
+            "en": "reset by lever"
+          }
+        },
+        {
+          "code": "H01H 73/40",
+          "title": {
+            "ko": null,
+            "en": "reset by tumbler"
+          }
+        },
+        {
+          "code": "H01H 73/42",
+          "title": {
+            "ko": null,
+            "en": "reset by rotatable knob or wheel"
+          }
+        },
+        {
+          "code": "H01H 73/44",
+          "title": {
+            "ko": null,
+            "en": "reset by push-button, pull-knob, or slide"
+          }
+        },
+        {
+          "code": "H01H 73/46",
+          "title": {
+            "ko": null,
+            "en": "reset by closure of switch casing"
+          }
+        },
+        {
+          "code": "H01H 73/48",
+          "title": {
+            "ko": "열전과 전자자동석방의 양쪽이 있는 것(카트리지형 H01H 73/66)",
+            "en": "having both electrothermal and electromagnetic automatic release (cartridge type H01H0073660000)"
+          }
+        },
+        {
+          "code": "H01H 73/50",
+          "title": {
+            "ko": null,
+            "en": "reset by lever"
+          }
+        },
+        {
+          "code": "H01H 73/52",
+          "title": {
+            "ko": null,
+            "en": "reset by tumbler"
+          }
+        },
+        {
+          "code": "H01H 73/54",
+          "title": {
+            "ko": null,
+            "en": "reset by rotatable knob or wheel"
+          }
+        },
+        {
+          "code": "H01H 73/56",
+          "title": {
+            "ko": null,
+            "en": "reset by push-button, pull-knob, or slide"
+          }
+        },
+        {
+          "code": "H01H 73/58",
+          "title": {
+            "ko": null,
+            "en": "reset by closure of switch casing"
+          }
+        },
+        {
+          "code": "H01H 73/60",
+          "title": {
+            "ko": null,
+            "en": "cartridge type, e.g. screw-in cartridge"
+          }
+        },
+        {
+          "code": "H01H 73/62",
+          "title": {
+            "ko": null,
+            "en": "having only electrothermal release"
+          }
+        },
+        {
+          "code": "H01H 73/64",
+          "title": {
+            "ko": null,
+            "en": "having only electromagnetic release"
+          }
+        },
+        {
+          "code": "H01H 73/66",
+          "title": {
+            "ko": null,
+            "en": "having combined electrothermal and electromagnetic release"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 75/00",
+      "title": {
+        "ko": "과전류에 있어서 동력 리셋트 기구의 조작에 의해서 미리 축적된 세력의 자동방출에 의해서 접점을 여는 과부하 보호스위치",
+        "en": "Protective overload circuit-breaking switches in which excess current opens the contacts by automatic release of mechanical energy stored by previous operation of power reset mechanism"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 75/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 75/04",
+          "title": {
+            "ko": "한정된 회수자동적으로 재폐로하기 위한 리셋트 기구(회로장치 H02H 3/06)",
+            "en": "Reset mechanisms for automatically reclosing a limited number of times (circuit arrangements H02H0003060000)"
+          }
+        },
+        {
+          "code": "H01H 75/06",
+          "title": {
+            "ko": null,
+            "en": "effecting one reclosing action only"
+          }
+        },
+        {
+          "code": "H01H 75/08",
+          "title": {
+            "ko": null,
+            "en": "having only electrothermal release"
+          }
+        },
+        {
+          "code": "H01H 75/10",
+          "title": {
+            "ko": null,
+            "en": "having only electromagnetic release"
+          }
+        },
+        {
+          "code": "H01H 75/12",
+          "title": {
+            "ko": null,
+            "en": "having combined electrothermal and electromagnetic release"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 77/00",
+      "title": {
+        "ko": "과전류에 의해서 조작되고 리세트로 단독의 작동을 필요로 하는 과부하보호스위치(H01H 73/00, H01H 75/00이 우선)",
+        "en": "Protective overload circuit-breaking switches operated by excess current and requiring separate action for resetting (H01H0073000000, H01H0075000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 77/02",
+          "title": {
+            "ko": null,
+            "en": "in which the excess current itself provides the energy for opening the contacts, and having a separate reset mechanism"
+          }
+        },
+        {
+          "code": "H01H 77/04",
+          "title": {
+            "ko": null,
+            "en": "with electrothermal opening"
+          }
+        },
+        {
+          "code": "H01H 77/06",
+          "title": {
+            "ko": null,
+            "en": "with electromagnetic opening"
+          }
+        },
+        {
+          "code": "H01H 77/08",
+          "title": {
+            "ko": null,
+            "en": "retained closed by permanent or remanent magnetism and opened by windings acting in opposition"
+          }
+        },
+        {
+          "code": "H01H 77/10",
+          "title": {
+            "ko": null,
+            "en": "with electrodynamic opening"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 79/00",
+      "title": {
+        "ko": null,
+        "en": "Protective switches in which excess current causes the closing of contacts, e.g. for short-circuiting the apparatus to be protected"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 81/00",
+      "title": {
+        "ko": null,
+        "en": "Protective switches in which contacts are normally closed but are repeatedly opened and reclosed as long as a condition causing excess current persists, e.g. for current limiting"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 81/02",
+          "title": {
+            "ko": null,
+            "en": "electrothermally-operated"
+          }
+        },
+        {
+          "code": "H01H 81/04",
+          "title": {
+            "ko": null,
+            "en": "electromagnetically-operated"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 83/00",
+      "title": {
+        "ko": "보호 스위치, 예.,과전류에 의해서만 작동되는 것이 아닌 비정상 전기적 상태에 의해 작동되는 회로 차단 스위치 또는 보호 계전기",
+        "en": "Protective switches, e.g. circuit-breaking switches, or protective relays operated by abnormal electrical conditions otherwise than solely by excess current"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 83/02",
+          "title": {
+            "ko": "지락전류에 의해서 조작되는 것(H01H 83/14가 우선)",
+            "en": "operated by earth fault currents (H01H0083140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 83/04",
+          "title": {
+            "ko": null,
+            "en": "with testing means for indicating the ability of the switch or relay to function properly"
+          }
+        },
+        {
+          "code": "H01H 83/06",
+          "title": {
+            "ko": null,
+            "en": "operated by current falling below a predetermined value"
+          }
+        },
+        {
+          "code": "H01H 83/08",
+          "title": {
+            "ko": null,
+            "en": "operated by reversal of DC"
+          }
+        },
+        {
+          "code": "H01H 83/10",
+          "title": {
+            "ko": null,
+            "en": "operated by excess voltage, e.g. for lightning protection"
+          }
+        },
+        {
+          "code": "H01H 83/12",
+          "title": {
+            "ko": null,
+            "en": "operated by voltage falling below a predetermined value, e.g. for no-volt protection"
+          }
+        },
+        {
+          "code": "H01H 83/14",
+          "title": {
+            "ko": null,
+            "en": "operated by imbalance of two or more currents or voltages, e.g. for differential protection"
+          }
+        },
+        {
+          "code": "H01H 83/16",
+          "title": {
+            "ko": null,
+            "en": "operated by abnormal ratio of voltage and current, e.g. distance relay"
+          }
+        },
+        {
+          "code": "H01H 83/18",
+          "title": {
+            "ko": null,
+            "en": "operated by abnormal product of, or abnormal phase angle between, voltage and current, e.g. directional relay"
+          }
+        },
+        {
+          "code": "H01H 83/20",
+          "title": {
+            "ko": null,
+            "en": "operated by excess current as well as by some other abnormal electrical condition"
+          }
+        },
+        {
+          "code": "H01H 83/22",
+          "title": {
+            "ko": null,
+            "en": "the other condition being imbalance of two or more currents or voltages"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 85/00",
+      "title": {
+        "ko": "가용재료의 일부를 흐르는 전류가 과대하게 되는 경우 이 가용재료의 변화에 의해 전류가 차단되는 보호장치(가용재료의 용융에 의해 작동하는 스위치 H01H 37/76; 배전반상에 있어서의 퓨즈 배열 또는 배치 H02B 1/18)",
+        "en": "Protective devices in which the current flows through a part of fusible material and this current is interrupted by displacement of the fusible material when this current becomes excessive (switches actuated by melting of fusible material H01H0037760000;disposition or arrangement of fuses on boards H02B0001180000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 85/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01H 85/04",
+          "title": {
+            "ko": "퓨즈, 즉 보호장치의 소모부분, 예. 카트리지",
+            "en": "Fuses, i.e. expendable parts of the protective device, e.g. cartridges"
+          }
+        },
+        {
+          "code": "H01H 85/041",
+          "title": {
+            "ko": "형태를 특징으로 하는 것",
+            "en": "characterised by the type"
+          }
+        },
+        {
+          "code": "H01H 85/042",
+          "title": {
+            "ko": null,
+            "en": "General constructions or structure of high voltage fuses, i.e. above 1,000 V"
+          }
+        },
+        {
+          "code": "H01H 85/044",
+          "title": {
+            "ko": "1,000 V 이상의 저압 퓨즈나 적절한 전압이 지정되지 않은 퓨즈의 일반적인 구성 또는 구조(H01H 85/046에서 H01H 85/048이 우선)",
+            "en": "General constructions or structure of low voltage fuses, i.e. below 1,000 V, or of fuses where the applicable voltage is not specified (H01H0085046000-H01H0085048000 take precedence)"
+          }
+        },
+        {
+          "code": "H01H 85/0445",
+          "title": {
+            "ko": "완급형(H01H 85/045 - H01H 85/048이 우선)",
+            "en": "fast or slow type (H01H0085045000-H01H0085048000 take precedence)"
+          }
+        },
+        {
+          "code": "H01H 85/045",
+          "title": {
+            "ko": null,
+            "en": "cartridge type"
+          }
+        },
+        {
+          "code": "H01H 85/046",
+          "title": {
+            "ko": null,
+            "en": "Fuses formed as printed circuits"
+          }
+        },
+        {
+          "code": "H01H 85/047",
+          "title": {
+            "ko": null,
+            "en": "Vacuum fuses"
+          }
+        },
+        {
+          "code": "H01H 85/048",
+          "title": {
+            "ko": null,
+            "en": "Fuse resistors"
+          }
+        },
+        {
+          "code": "H01H 85/05",
+          "title": {
+            "ko": "자체구성부분",
+            "en": "Component parts thereof"
+          }
+        },
+        {
+          "code": "H01H 85/055",
+          "title": {
+            "ko": "가용부재",
+            "en": "Fusible members"
+          }
+        },
+        {
+          "code": "H01H 85/06",
+          "title": {
+            "ko": "가용부재를 특징으로 하는 것(H01H 85/11이 우선)",
+            "en": "characterised by the fusible material (H01H0085110000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 85/08",
+          "title": {
+            "ko": "가용부재의 형을 특징으로 하는 것",
+            "en": "characterised by the shape or form of the fusible member"
+          }
+        },
+        {
+          "code": "H01H 85/10",
+          "title": {
+            "ko": "부분적인 용융을 위한 조이개가 있는 것(H01H 85/11이 우선)",
+            "en": "with constriction for localised fusing (H01H0085110000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01H 85/11",
+          "title": {
+            "ko": null,
+            "en": "with applied local area of a metal which, on melting, forms a eutectic with the main material of the fusible member, i.e. M-effect devices"
+          }
+        },
+        {
+          "code": "H01H 85/12",
+          "title": {
+            "ko": null,
+            "en": "Two or more separate fusible members in parallel"
+          }
+        },
+        {
+          "code": "H01H 85/143",
+          "title": {
+            "ko": null,
+            "en": "Electrical contacts; Fastening fusible members to such contacts"
+          }
+        },
+        {
+          "code": "H01H 85/147",
+          "title": {
+            "ko": null,
+            "en": "Parallel-side contacts"
+          }
+        },
+        {
+          "code": "H01H 85/15",
+          "title": {
+            "ko": null,
+            "en": "Screw-in contacts"
+          }
+        },
+        {
+          "code": "H01H 85/153",
+          "title": {
+            "ko": null,
+            "en": "Knife-blade-end contacts"
+          }
+        },
+        {
+          "code": "H01H 85/157",
+          "title": {
+            "ko": null,
+            "en": "Ferrule-end contacts"
+          }
+        },
+        {
+          "code": "H01H 85/165",
+          "title": {
+            "ko": null,
+            "en": "Casings"
+          }
+        },
+        {
+          "code": "H01H 85/17",
+          "title": {
+            "ko": null,
+            "en": "characterised by the casing material"
+          }
+        },
+        {
+          "code": "H01H 85/175",
+          "title": {
+            "ko": null,
+            "en": "characterised by the casing shape or form"
+          }
+        },
+        {
+          "code": "H01H 85/18",
+          "title": {
+            "ko": null,
+            "en": "Casing fillings, e.g. powder"
+          }
+        },
+        {
+          "code": "H01H 85/20",
+          "title": {
+            "ko": null,
+            "en": "Bases for supporting the fuse; Separate parts thereof"
+          }
+        },
+        {
+          "code": "H01H 85/22",
+          "title": {
+            "ko": null,
+            "en": "Intermediate or auxiliary parts for carrying, holding, or retaining fuse, co-operating with base or fixed holder, and removable therefrom for renewing the fuse"
+          }
+        },
+        {
+          "code": "H01H 85/24",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing insertion of incorrect fuse"
+          }
+        },
+        {
+          "code": "H01H 85/25",
+          "title": {
+            "ko": null,
+            "en": "Safety arrangements preventing or inhibiting contact with live parts, including operation of isolation on removal of cover"
+          }
+        },
+        {
+          "code": "H01H 85/26",
+          "title": {
+            "ko": null,
+            "en": "Magazine arrangements"
+          }
+        },
+        {
+          "code": "H01H 85/28",
+          "title": {
+            "ko": null,
+            "en": "effecting automatic replacement"
+          }
+        },
+        {
+          "code": "H01H 85/30",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating condition of fuse structurally associated with the fuse"
+          }
+        },
+        {
+          "code": "H01H 85/32",
+          "title": {
+            "ko": null,
+            "en": "Indicating lamp structurally associated with the protective device"
+          }
+        },
+        {
+          "code": "H01H 85/34",
+          "title": {
+            "ko": null,
+            "en": "Distinguishing marks, e.g. colour coding"
+          }
+        },
+        {
+          "code": "H01H 85/36",
+          "title": {
+            "ko": null,
+            "en": "Means for applying mechanical tension to fusible member"
+          }
+        },
+        {
+          "code": "H01H 85/38",
+          "title": {
+            "ko": "소호 또는 제고용의 수단(파우더 충전에 의한 것 H01H 85/18; 기계적인 장력을 가용부재에 주는 것 H01H 85/36)",
+            "en": "Means for extinguishing or suppressing arc (by powder filling H01H0085180000;by mechanical tension applied to fusible member H01H0085360000)"
+          }
+        },
+        {
+          "code": "H01H 85/40",
+          "title": {
+            "ko": "소호용에 액체를 사용하는 것(액체의 조성을 특징으로 하는 것 H01H 33/22)",
+            "en": "using an arc-extinguishing liquid (characterised by the composition of the liquid H01H0033220000)"
+          }
+        },
+        {
+          "code": "H01H 85/42",
+          "title": {
+            "ko": "소호용에 가스를 사용하는 것(가스의 조성을 특징으로 하는 것 H01H 33/22)",
+            "en": "using an arc-extinguishing gas (characterised by the composition of the gas H01H0033220000)"
+          }
+        },
+        {
+          "code": "H01H 85/43",
+          "title": {
+            "ko": null,
+            "en": "Means for exhausting or absorbing gases liberated by fusing arc, or for ventilating excess pressure generated by heating"
+          }
+        },
+        {
+          "code": "H01H 85/44",
+          "title": {
+            "ko": null,
+            "en": "Structural association with spark-gap arrester"
+          }
+        },
+        {
+          "code": "H01H 85/46",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the protective device"
+          }
+        },
+        {
+          "code": "H01H 85/47",
+          "title": {
+            "ko": null,
+            "en": "Means for cooling"
+          }
+        },
+        {
+          "code": "H01H 85/48",
+          "title": {
+            "ko": null,
+            "en": "Protective devices wherein the fuse is carried or held directly by the base"
+          }
+        },
+        {
+          "code": "H01H 85/50",
+          "title": {
+            "ko": null,
+            "en": "the fuse having contacts at opposite ends for co-operation with the base"
+          }
+        },
+        {
+          "code": "H01H 85/52",
+          "title": {
+            "ko": null,
+            "en": "the fuse being adapted for screwing into the base"
+          }
+        },
+        {
+          "code": "H01H 85/54",
+          "title": {
+            "ko": null,
+            "en": "Protective devices wherein the fuse is carried, held, or retained by an intermediate or auxiliary part removable from the base, or used as sectionalisers"
+          }
+        },
+        {
+          "code": "H01H 85/56",
+          "title": {
+            "ko": null,
+            "en": "the intermediate or auxiliary part having side contacts for plugging into the base, e.g. bridge-carrier type"
+          }
+        },
+        {
+          "code": "H01H 85/58",
+          "title": {
+            "ko": null,
+            "en": "with intermediate auxiliary part and base shaped to interfit and thereby enclose the fuse"
+          }
+        },
+        {
+          "code": "H01H 85/60",
+          "title": {
+            "ko": null,
+            "en": "the intermediate or auxiliary part having contacts at opposite ends for co-operation with the base"
+          }
+        },
+        {
+          "code": "H01H 85/62",
+          "title": {
+            "ko": null,
+            "en": "the intermediate or auxiliary part being adapted for screwing into the base"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01H 87/00",
+      "title": {
+        "ko": null,
+        "en": "Protective devices in which a current flowing through a liquid or solid is interrupted by the evaporation of the liquid or by the melting and evaporation of the solid when the current becomes excessive, the circuit continuity being reestablished on cooling"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01H 89/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of two or more different basic types of electric switches, relays, selectors and emergency protective devices, not covered by any single one of the other main groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "H01H 89/02",
+          "title": {
+            "ko": null,
+            "en": "Combination of a key operated switch with a manually operated switch, e.g. ignition and lighting switches"
+          }
+        },
+        {
+          "code": "H01H 89/04",
+          "title": {
+            "ko": null,
+            "en": "Combination of a thermally actuated switch with a manually operated switch"
+          }
+        },
+        {
+          "code": "H01H 89/06",
+          "title": {
+            "ko": null,
+            "en": "Combination of a manual reset circuit with a contactor, i.e. the same circuit controlled by both a protective and a remote control device"
+          }
+        },
+        {
+          "code": "H01H 89/08",
+          "title": {
+            "ko": null,
+            "en": "with both devices using the same contact pair"
+          }
+        },
+        {
+          "code": "H01H 89/10",
+          "title": {
+            "ko": null,
+            "en": "with each device controlling one of the two co-operating contacts"
+          }
+        }
+      ]
+    }
+  ]
+}

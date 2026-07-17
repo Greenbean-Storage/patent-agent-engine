@@ -1,0 +1,348 @@
+{
+  "subclass": "G08C",
+  "title": {
+    "ko": "측정치, 제어신호 또는 유사신호를 위한 전송방식(유체압력전송방식 F15B; 감지요소의 출력을 다른 변량으로 변환하는 기계적수단 G01D 5/00; 기계적 제어시스템 G05G)",
+    "en": "TRANSMISSION SYSTEMS FOR MEASURED VALUES, CONTROL OR SIMILAR SIGNALS (fluid pressure transmission systems F15B; mechanical means for transferring the output of a sensing member into a different variable G01D0005000000; mechanical control systems G05G)"
+  },
+  "definition": {
+    "ko": "전송계 일반 전기적; 비전기적 G08C19/00; 23/00 대상물의 위치를 전송하는 시스템 G08C21/00 전송방법에 특징이 있는 장치 다중화; 무선 전기망의 사용 G08C15/00, G08C17/00 신호의 처리 미분, 지연 G08C13/00 감시, 착오의 방지 또는 수정 G08C25/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G08C 13/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for influencing the relationship between signals at input and output, e.g. differentiating, delaying"
+      },
+      "subgroups": [
+        {
+          "code": "G08C 13/02",
+          "title": {
+            "ko": null,
+            "en": "to yield a signal which is a function of two or more signals, e.g. sum or product"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements characterised by the use of multiplexing for the transmission of a plurality of signals over a common path"
+      },
+      "subgroups": [
+        {
+          "code": "G08C 15/02",
+          "title": {
+            "ko": null,
+            "en": "simultaneously, i.e. using frequency division"
+          }
+        },
+        {
+          "code": "G08C 15/04",
+          "title": {
+            "ko": null,
+            "en": "the signals being modulated on carrier frequencies"
+          }
+        },
+        {
+          "code": "G08C 15/06",
+          "title": {
+            "ko": null,
+            "en": "successively, i.e. using time division"
+          }
+        },
+        {
+          "code": "G08C 15/08",
+          "title": {
+            "ko": null,
+            "en": "the signals being represented by amplitude of current or voltage in transmission link"
+          }
+        },
+        {
+          "code": "G08C 15/10",
+          "title": {
+            "ko": null,
+            "en": "the signals being represented by frequencies or phase of current or voltage in transmission link"
+          }
+        },
+        {
+          "code": "G08C 15/12",
+          "title": {
+            "ko": null,
+            "en": "the signals being represented by pulse characteristics in transmission link"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08C 17/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for transmitting signals characterised by the use of a wireless electrical link"
+      },
+      "subgroups": [
+        {
+          "code": "G08C 17/02",
+          "title": {
+            "ko": null,
+            "en": "using a radio link"
+          }
+        },
+        {
+          "code": "G08C 17/04",
+          "title": {
+            "ko": null,
+            "en": "using magnetically coupled devices"
+          }
+        },
+        {
+          "code": "G08C 17/06",
+          "title": {
+            "ko": null,
+            "en": "using capacity coupling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08C 19/00",
+      "title": {
+        "ko": "전기 신호 전송 시스템 (G08C17/00이 우선)",
+        "en": "Electric signal transmission systems (G08C0017000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G08C 19/02",
+          "title": {
+            "ko": "전송되는 신호가 전류 또는 전압의 크기인 것 (G08C19/69, G08C19/38이 우선)",
+            "en": "in which the signal transmitted is magnitude of current or voltage (G08C0019360000, G08C0019380000 take precedence)"
+          }
+        },
+        {
+          "code": "G08C 19/04",
+          "title": {
+            "ko": null,
+            "en": "using variable resistance"
+          }
+        },
+        {
+          "code": "G08C 19/06",
+          "title": {
+            "ko": null,
+            "en": "using variable inductance"
+          }
+        },
+        {
+          "code": "G08C 19/08",
+          "title": {
+            "ko": null,
+            "en": "differentially influencing two coils"
+          }
+        },
+        {
+          "code": "G08C 19/10",
+          "title": {
+            "ko": null,
+            "en": "using variable capacitance"
+          }
+        },
+        {
+          "code": "G08C 19/12",
+          "title": {
+            "ko": null,
+            "en": "in which the signal transmitted is frequency or phase of AC"
+          }
+        },
+        {
+          "code": "G08C 19/14",
+          "title": {
+            "ko": null,
+            "en": "using combination of fixed frequencies"
+          }
+        },
+        {
+          "code": "G08C 19/16",
+          "title": {
+            "ko": null,
+            "en": "in which transmission is by pulses"
+          }
+        },
+        {
+          "code": "G08C 19/18",
+          "title": {
+            "ko": null,
+            "en": "using a variable number of pulses in a train"
+          }
+        },
+        {
+          "code": "G08C 19/20",
+          "title": {
+            "ko": null,
+            "en": "operating on dynamo-electric devices, e.g. step motor"
+          }
+        },
+        {
+          "code": "G08C 19/22",
+          "title": {
+            "ko": null,
+            "en": "by varying the duration of individual pulses"
+          }
+        },
+        {
+          "code": "G08C 19/24",
+          "title": {
+            "ko": null,
+            "en": "using time shift of pulses"
+          }
+        },
+        {
+          "code": "G08C 19/26",
+          "title": {
+            "ko": null,
+            "en": "by varying pulse repetition frequency"
+          }
+        },
+        {
+          "code": "G08C 19/28",
+          "title": {
+            "ko": null,
+            "en": "using pulse code"
+          }
+        },
+        {
+          "code": "G08C 19/30",
+          "title": {
+            "ko": "전송이 복수의 도체 또는 채널로부터 하나 이상의 도체나 채널을 선택함으로 인하여 행하여지는 것(G08C 19/38이 우선)",
+            "en": "in which transmission is by selection of one or more conductors or channels from a plurality of conductors or channels (G08C0019380000 takes precedence)"
+          }
+        },
+        {
+          "code": "G08C 19/32",
+          "title": {
+            "ko": null,
+            "en": "of one conductor or channel"
+          }
+        },
+        {
+          "code": "G08C 19/34",
+          "title": {
+            "ko": null,
+            "en": "of a combination of conductors or channels"
+          }
+        },
+        {
+          "code": "G08C 19/36",
+          "title": {
+            "ko": null,
+            "en": "using optical means to convert the input signal"
+          }
+        },
+        {
+          "code": "G08C 19/38",
+          "title": {
+            "ko": "발전기-전기 장치를 사용하는 것 (펄스에 의해 작동되는 것 G08C19/20)",
+            "en": "using dynamo-electric devices (operated by pulses G08C0019200000)"
+          }
+        },
+        {
+          "code": "G08C 19/40",
+          "title": {
+            "ko": null,
+            "en": "of which only the rotor or the stator carries a winding to which a signal is applied, e.g. using step motor"
+          }
+        },
+        {
+          "code": "G08C 19/42",
+          "title": {
+            "ko": null,
+            "en": "having three stator poles"
+          }
+        },
+        {
+          "code": "G08C 19/44",
+          "title": {
+            "ko": null,
+            "en": "having more than three stator poles"
+          }
+        },
+        {
+          "code": "G08C 19/46",
+          "title": {
+            "ko": "회전자와 고정자 양쪽 모두 권선을 가진 것 (농형 회전자를 가진 것 G08C19/40)",
+            "en": "of which both rotor and stator carry windings (having squirrel-cage rotor G08C0019400000)"
+          }
+        },
+        {
+          "code": "G08C 19/48",
+          "title": {
+            "ko": null,
+            "en": "being of the type with a three-phase stator and a rotor fed by constant-frequency AC, e.g. selsyn, magslip"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08C 21/00",
+      "title": {
+        "ko": null,
+        "en": "Systems for transmitting the position of an object with respect to a predetermined reference system, e.g. tele-autographic system"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G08C 23/00",
+      "title": {
+        "ko": null,
+        "en": "Non-electric signal transmission systems, e.g. optical systems"
+      },
+      "subgroups": [
+        {
+          "code": "G08C 23/02",
+          "title": {
+            "ko": null,
+            "en": "using acoustic waves"
+          }
+        },
+        {
+          "code": "G08C 23/04",
+          "title": {
+            "ko": null,
+            "en": "using light waves, e.g. infrared"
+          }
+        },
+        {
+          "code": "G08C 23/06",
+          "title": {
+            "ko": null,
+            "en": "through light guides, e.g. optical fibres"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08C 25/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for preventing or correcting errors; Monitoring arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "G08C 25/02",
+          "title": {
+            "ko": null,
+            "en": "by signalling back from receiving station to transmitting station"
+          }
+        },
+        {
+          "code": "G08C 25/04",
+          "title": {
+            "ko": null,
+            "en": "by recording transmitted signals"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+ "description": "rt_result+rt_enqueued 만 → 둘 다 progress/reply 아님 → client 0 (음성검증)",
+ "events": [
+  {
+   "type": "rt_result",
+   "persona": 1,
+   "payload": {
+    "text": "先"
+   }
+  },
+  {
+   "type": "rt_enqueued",
+   "persona": 1,
+   "payload": {},
+   "step": {
+    "id": "s0",
+    "display_status": {
+     "ko": "진행 중",
+     "en": "Working"
+    }
+   }
+  }
+ ],
+ "expected": {
+  "client_events": [],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {},
+  "payload_contains": []
+ }
+}

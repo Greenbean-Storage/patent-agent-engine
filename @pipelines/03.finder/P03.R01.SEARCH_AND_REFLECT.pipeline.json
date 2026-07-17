@@ -1,0 +1,55 @@
+{
+  "description": "P03 Finder — KIPRIS 검색 사이클 (query_plan → search → reflect). reflect 가 dispatch_choice 결정: 0=자기 호출 재시도, 1=POST_REFLECT 진행.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P03.R01.SEARCH_AND_REFLECT"
+      ],
+      [
+        "P03.R02.POST_REFLECT"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "KIPRIS Plus token AND 검색에 맞게 query 분해 + 3종 (ko_short/en/ipc).",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R01/kipris.md"
+      },
+      "llm_tools": [],
+      "output_contract": "query-plan-output"
+    },
+    {
+      "description": "이전 step 의 queries list 를 받아 모든 query 에 대해 KIPRIS 검색. 도구가 list 받아 내부 처리.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "kipris.search_patents",
+      "params": {
+        "queries": "$.steps.0.queries",
+        "max_results_per_query": 10
+      },
+      "output_contract": "search-output"
+    },
+    {
+      "description": "검색 결과 커버리지 평가 + dispatch_choice 결정 (0=재시도, 1=진행).",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R01/coverage_reflect.md"
+      },
+      "llm_tools": [],
+      "output_contract": "reflect-output"
+    }
+  ]
+}

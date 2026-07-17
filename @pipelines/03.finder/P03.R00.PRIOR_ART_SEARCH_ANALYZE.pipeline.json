@@ -1,0 +1,29 @@
+{
+  "description": "P03 Finder — 발명 분석 + 청구항 element 후보 + IPC 분류 + 1차 검색 쿼리 초안. 후속 SEARCH_AND_REFLECT 사이클로 dispatch.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P03.R01.SEARCH_AND_REFLECT"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "발명 설명에서 청구항 element 후보·IPC 분류·1차 검색 쿼리 초안 추출. 후속 query_plan/search 의 모든 입력 결정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R00/analyze_and_plan.md"
+      },
+      "llm_tools": [],
+      "output_contract": "analyze-output"
+    }
+  ]
+}

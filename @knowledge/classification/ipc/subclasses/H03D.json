@@ -1,0 +1,425 @@
+{
+  "subclass": "H03D",
+  "title": {
+    "ko": "하나의 반송파로부터 타반송파에의 복조 또는 변조의 변환(메이저(masers), 레이저(laser) H01S : 변조기 및 복조기로 동작하는 회로 H03C, 예. 평형 변조기 H03C 1/54; 변조기 및 주파수변환기에의 적용 세부 H03C; 지속-변수 신호로 변조된 펄스를 복조하는 것 H03K 9/00; 펄스변조 형식의 변환 H03K 11/00; 중계 시스템, 예. 중계기 H04B 7/14; 디지털 변조전송시스템에 적합한 복조기 H04L 27/00; 컬러 텔레비전에 적합한 동기 복조기 H04N 9/66)",
+    "en": "DEMODULATION OR TRANSFERENCE OF MODULATION FROM ONE CARRIER TO ANOTHER (masers, lasers H01S;circuits capable of acting both as modulator and demodulator H03C, e.g. balanced modulators H03C0001540000;details applicable to both modulators and frequency-changers H03C;demodulating pulses which have been modulated with a continuously-variable signal H03K0009000000;transforming types of pulse modulation H03K0011000000;relay systems, e.g. repeater stations H04B0007140000;demodulators adapted for digitally modulated-carrier systems H04L0027000000;synchronous demodulators adapted for colour television H04N0009660000)"
+  },
+  "definition": {
+    "ko": "복조 진폭; 각도; 결합; 초 재생 H03D1/00; H03D3/00; H03D5/00, H03D9/00; H03D11/00 전이 H03D7/00, H03D9/00 위상 또는 주파수 비교 H03D13/00 이 서브클래스의 다른 그룹에 분류되지 않은 주제사항 H03D99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03D 1/00",
+      "title": {
+        "ko": "진폭-변조 진동의 복조 (H03D5/00, H03D9/00, H03D11/00이 우선; 디지털 변조 반송파 시스템에 적합한 진폭 복조기, 예. 온-오프 키잉, 단측파대 또는 잔류 측파대 변조 사용 H04L27/06)",
+        "en": "Demodulation of amplitude-modulated oscillations (H03D0005000000, H03D0009000000, H03D0011000000 take precedence;amplitude demodulators adapted for digitally modulated carrier systems, e.g. using on-off keying, single sideband or vestigial sideband modulation H04L0027060000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03D 1/04",
+          "title": {
+            "ko": null,
+            "en": "Modifications of demodulators to reduce interference by undesired signals"
+          }
+        },
+        {
+          "code": "H03D 1/06",
+          "title": {
+            "ko": null,
+            "en": "Modifications of demodulators to reduce distortion, e.g. by negative feedback"
+          }
+        },
+        {
+          "code": "H03D 1/08",
+          "title": {
+            "ko": "비선형 2극 소자에 의한 것 (H03D1/22, H03D1/26, H03D1/28이 우선)",
+            "en": "by means of non-linear two-pole elements (H03D0001220000, H03D0001260000, H03D0001280000 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 1/10",
+          "title": {
+            "ko": null,
+            "en": "of diodes"
+          }
+        },
+        {
+          "code": "H03D 1/12",
+          "title": {
+            "ko": null,
+            "en": "with provision for equalising AC and DC loads"
+          }
+        },
+        {
+          "code": "H03D 1/14",
+          "title": {
+            "ko": "3이상의 단자가 있는 비선형 소자에 의한 것(H03D 1/22, H03D 1/26, H03D 1/28이 우선)",
+            "en": "by means of non-linear elements having more than two poles (H03D0001220000, H03D0001260000, H03D0001280000 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 1/16",
+          "title": {
+            "ko": null,
+            "en": "of discharge tubes"
+          }
+        },
+        {
+          "code": "H03D 1/18",
+          "title": {
+            "ko": null,
+            "en": "of semiconductor devices"
+          }
+        },
+        {
+          "code": "H03D 1/20",
+          "title": {
+            "ko": null,
+            "en": "with provision for preventing undesired type of demodulation, e.g. preventing anode detection in a grid detection circuit"
+          }
+        },
+        {
+          "code": "H03D 1/22",
+          "title": {
+            "ko": null,
+            "en": "Homodyne or synchrodyne circuits"
+          }
+        },
+        {
+          "code": "H03D 1/24",
+          "title": {
+            "ko": null,
+            "en": "for demodulation of signals wherein one sideband or the carrier has been wholly or partially suppressed"
+          }
+        },
+        {
+          "code": "H03D 1/26",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tubes"
+          }
+        },
+        {
+          "code": "H03D 1/28",
+          "title": {
+            "ko": "전자관 내에 전자빔의 편향에 의한 것(H03D 1/26이 우선)",
+            "en": "by deflecting an electron beam in a discharge tube (H03D0001260000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 3/00",
+      "title": {
+        "ko": "각도 변조된 진동의 복조(H03D 5/00, H03D 9/00, H03D 11/00 우선; 디지털 변조된 전송 시스템에 적합한 주파수 복조기, 즉. 주파수 편이 방식을 사용하는 것 H04L27/14; 디지털 변조된 전송 시스템에 적합한 위상 복조기, 즉. 위상 편이 방식을 사용하는 것 H04L 27/22)",
+        "en": "Demodulation of angle-modulated oscillations (H03D0005000000, H03D0009000000, H03D0011000000 take precedence;frequency demodulators adapted for digitally modulated carrier systems, i.e. using frequency shift keying H04L0027140000;phase demodulators adapted for digitally modulated carrier systems, i.e. using phase shift keying H04L0027220000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 3/02",
+          "title": {
+            "ko": "입력 신호로부터 얻어진 2개의 신호간의 위상차의 검파에 의한 것(H03D 3/28에서 H03D 3/32 우선)",
+            "en": "by detecting phase difference between two signals obtained from input signal (H03D0003280000-H03D0003320000 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 3/04",
+          "title": {
+            "ko": null,
+            "en": "by counting or integrating cycles of oscillations"
+          }
+        },
+        {
+          "code": "H03D 3/06",
+          "title": {
+            "ko": null,
+            "en": "by combining signals additively or in product demodulators"
+          }
+        },
+        {
+          "code": "H03D 3/08",
+          "title": {
+            "ko": null,
+            "en": "by means of diodes, e.g. Foster-Seeley discriminator"
+          }
+        },
+        {
+          "code": "H03D 3/10",
+          "title": {
+            "ko": null,
+            "en": "in which the diodes are simultaneously conducting during the same half period of the signal, e.g. ratio detector"
+          }
+        },
+        {
+          "code": "H03D 3/12",
+          "title": {
+            "ko": null,
+            "en": "by means of discharge tubes having more than two electrodes"
+          }
+        },
+        {
+          "code": "H03D 3/14",
+          "title": {
+            "ko": null,
+            "en": "by means of semiconductor devices having more than two electrodes"
+          }
+        },
+        {
+          "code": "H03D 3/16",
+          "title": {
+            "ko": null,
+            "en": "by means of electromechanical resonators"
+          }
+        },
+        {
+          "code": "H03D 3/18",
+          "title": {
+            "ko": null,
+            "en": "by means of synchronous gating arrangements"
+          }
+        },
+        {
+          "code": "H03D 3/20",
+          "title": {
+            "ko": null,
+            "en": "producing pulses whose amplitude or duration depends on the phase difference"
+          }
+        },
+        {
+          "code": "H03D 3/22",
+          "title": {
+            "ko": null,
+            "en": "by means of active elements with more than two electrodes to which two signals are applied derived from the signal to be demodulated and having a phase difference related to the frequency deviation, e.g. phase detector"
+          }
+        },
+        {
+          "code": "H03D 3/24",
+          "title": {
+            "ko": null,
+            "en": "Modifications of demodulators to reject or remove amplitude variations by means of locked-in oscillator circuits"
+          }
+        },
+        {
+          "code": "H03D 3/26",
+          "title": {
+            "ko": "동조회로 또는 리액턴스 회로의 경사되는 진폭-주파수 특성에 의한 것(H03D 3/28～ H03D 3/32가 우선)",
+            "en": "by means of sloping amplitude/frequency characteristic of tuned or reactive circuit (H03D0003280000-H03D0003320000 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 3/28",
+          "title": {
+            "ko": null,
+            "en": "Modifications of demodulators to reduce effect of temperature variations"
+          }
+        },
+        {
+          "code": "H03D 3/30",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tubes"
+          }
+        },
+        {
+          "code": "H03D 3/32",
+          "title": {
+            "ko": "전자관 내의 전자빔의 편향에 의한 것(H03D 3/30이 우선)",
+            "en": "by deflecting an electron beam in a discharge tube (H03D0003300000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03D 3/34",
+          "title": {
+            "ko": "전기기계 소자에 의한 것(H03D 3/16이 우선)",
+            "en": "by means of electromechanical devices (H03D0003160000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 5/00",
+      "title": {
+        "ko": "임의로 진폭변조 또는 각도변조된 진동을 복조하기 위한 회로(H03D 9/00, H03D 11/00 우선; 진폭 및 각도 변조의 조합에 의해 특정되는 디지털 변조 전송 시스템에 적합한 복조기, 예, QAM(quadrature amplitude modulation) H04L 27/38)",
+        "en": "Circuits for demodulating amplitude-modulated or angle-modulated oscillations at will (H03D0009000000, H03D0011000000 take precedence;demodulators adapted for digitally modulated carrier systems characterised by combinations of amplitude and angle modulation, e.g. quadrature amplitude modulation H04L0027380000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03D 7/00",
+      "title": {
+        "ko": "1개의 반송파로부터 타반송파에의 변조의 변화, 예. 주파수변환(H03D 9/00, H03D 11/00이 우선; 주파수변조기로서 이용된 유전체증폭기, 자기증폭기, 파라메트릭(Parametric)",
+        "en": "Transference of modulation from one carrier to another, e.g. frequency-changing (H03D0009000000, H03D0011000000 take precedence;dielectric amplifiers, magnetic amplifiers, parametric amplifiers used as frequency-changers H03F)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 7/02",
+          "title": {
+            "ko": "다이오드에 의한 것(H03D 7/14～ H03D 7/22가 우선)",
+            "en": "by means of diodes (H03D0007140000-H03D0007220000 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 7/04",
+          "title": {
+            "ko": null,
+            "en": "having negative resistance characteristic, e.g. tunnel diode"
+          }
+        },
+        {
+          "code": "H03D 7/06",
+          "title": {
+            "ko": "3이상의 전극이 있는 전자관에 의한 것(H03D 7/14～ H03D 7/22가 우선)",
+            "en": "by means of discharge tubes having more than two electrodes (H03D0007140000-H03D0007220000 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 7/08",
+          "title": {
+            "ko": null,
+            "en": "the signals to be mixed being applied between the same two electrodes"
+          }
+        },
+        {
+          "code": "H03D 7/10",
+          "title": {
+            "ko": null,
+            "en": "the signals to be mixed being applied between different pairs of electrodes"
+          }
+        },
+        {
+          "code": "H03D 7/12",
+          "title": {
+            "ko": "3이상의 전극이 있는 반도체 장치에 의한 것(H03D 7/14～ H03D 7/22가 우선)",
+            "en": "by means of semiconductor devices having more than two electrodes (H03D0007140000-H03D0007220000 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 7/14",
+          "title": {
+            "ko": null,
+            "en": "Balanced arrangements"
+          }
+        },
+        {
+          "code": "H03D 7/16",
+          "title": {
+            "ko": "다중주파수 변환(수퍼헤테로다인 수신기 H04B 1/26)",
+            "en": "Multiple frequency-changing (superheterodyne receivers H04B0001260000)"
+          }
+        },
+        {
+          "code": "H03D 7/18",
+          "title": {
+            "ko": null,
+            "en": "Modifications of frequency-changers for eliminating image frequencies"
+          }
+        },
+        {
+          "code": "H03D 7/20",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tubes"
+          }
+        },
+        {
+          "code": "H03D 7/22",
+          "title": {
+            "ko": "전자관내의 전자빔을 편향에 의한 것(H03D 7/20이 우선)",
+            "en": "by deflecting an electron beam in a discharge tube (H03D0007200000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 9/00",
+      "title": {
+        "ko": "변조된 전자파의 복조 또는 변조의 변환(광을 복조하기 위한 부품 또는 장치, 변조된 광 또는 광주파수를 변경하기 위한 변조를 변환하는 것 G02F 2/00)",
+        "en": "Demodulation or transference of modulation of modulated electromagnetic waves (devices or arrangements for demodulating light, transferring the modulation of modulated light or for changing the frequency of light G02F0002000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Demodulation using distributed inductance and capacitance, e.g. in feeder lines"
+          }
+        },
+        {
+          "code": "H03D 9/04",
+          "title": {
+            "ko": null,
+            "en": "for angle-modulated oscillations"
+          }
+        },
+        {
+          "code": "H03D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Transference of modulation using distributed inductance and capacitance"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Super-regenerative demodulator circuits"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 11/02",
+          "title": {
+            "ko": null,
+            "en": "for amplitude-modulated oscillations"
+          }
+        },
+        {
+          "code": "H03D 11/04",
+          "title": {
+            "ko": null,
+            "en": "by means of semiconductor devices having more than two electrodes"
+          }
+        },
+        {
+          "code": "H03D 11/06",
+          "title": {
+            "ko": null,
+            "en": "for angle-modulated oscillations"
+          }
+        },
+        {
+          "code": "H03D 11/08",
+          "title": {
+            "ko": null,
+            "en": "by means of semiconductor devices having more than two electrodes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 13/00",
+      "title": {
+        "ko": "서로 독립한 두개의 진동의 위상 또는 주파수를 비교하기 위한 회로(전압 또는 전류간 또는 전압 및 전류간 위상각의 측정을 위한 배치 G01R 25/00)",
+        "en": "Circuits for comparing the phase or frequency of two mutually-independent oscillations (arrangements for measuring phase angle between a voltage and a current or between voltages or currents G01R0025000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03D 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

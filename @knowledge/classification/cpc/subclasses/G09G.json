@@ -1,0 +1,808 @@
+{
+  "subclass": "G09G",
+  "title": {
+    "ko": null,
+    "en": "ARRANGEMENTS OR CIRCUITS FOR CONTROL OF INDICATING DEVICES USING STATIC MEANS TO PRESENT VARIABLE INFORMATION (arrangements for transferring data between digital computers and displays G06F3/14; static indicating arrangements comprising an association of a number of separate sources or light control cells G09F9/00; static indicating arrangements comprising integral associations of a number of light sources H01J, H01K, H10H, H05B33/12; scanning, transmission or reproduction of documents or the like, e.g. facsimile transmission, details thereof H04N1/00)"
+  },
+  "groups": [
+    {
+      "code": "G09G 1/00",
+      "title": {
+        "ko": null,
+        "en": "Control arrangements or circuits, of interest only in connection with cathode-ray tube indicators; {General aspects or details, e.g. selection emphasis on particular characters, dashed line or dotted line generation; Preprocessing of data}(cathode-ray oscilloscopes G01R13/20; {radar display arrangements G01S7/04; display of digital non-picture data in television systems H04N7/0255})"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 1/002",
+          "title": {
+            "ko": null,
+            "en": "{Intensity circuits (G09G1/06 - G09G1/28 take precedence)}"
+          }
+        },
+        {
+          "code": "G09G 1/005",
+          "title": {
+            "ko": null,
+            "en": "{Power supply circuits}"
+          }
+        },
+        {
+          "code": "G09G 1/007",
+          "title": {
+            "ko": null,
+            "en": "{Circuits for displaying split screens}"
+          }
+        },
+        {
+          "code": "G09G 1/02",
+          "title": {
+            "ko": null,
+            "en": "Storage circuits (G09G1/06 - G09G1/28 take precedence)"
+          }
+        },
+        {
+          "code": "G09G 1/04",
+          "title": {
+            "ko": null,
+            "en": "Deflection circuits {; Constructional details not otherwise provided for (electron-optical arrangements H01J29/46, H01J37/04, H01J37/302)}"
+          }
+        },
+        {
+          "code": "G09G 1/06",
+          "title": {
+            "ko": null,
+            "en": "using single beam tubes (G09G1/26, G09G1/28 take precedence), {e.g. three-dimensional or perspective representation, rotation or translation of display pattern, hidden lines, shadows (G09G1/28 takes precedence; stereoscopic TV-systems, details thereof H04N13/00; oscilloscopes for three-dimensional representation G01R13/206; vectorscopes G01R13/208)}"
+          }
+        },
+        {
+          "code": "G09G 1/20",
+          "title": {
+            "ko": null,
+            "en": "using multi-beam tubes (G09G1/26, G09G1/28 take precedence)"
+          }
+        },
+        {
+          "code": "G09G 1/22",
+          "title": {
+            "ko": null,
+            "en": "using tubes permitting selection of a complete character from a number of characters {(tubes therefor H01J31/16)}"
+          }
+        },
+        {
+          "code": "G09G 1/24",
+          "title": {
+            "ko": null,
+            "en": "using tubes permitting selection of individual elements forming in combination a character {(see provisionally also G09G1/22)}"
+          }
+        },
+        {
+          "code": "G09G 1/26",
+          "title": {
+            "ko": null,
+            "en": "using storage tubes {(tubes therefor H01J31/58)}"
+          }
+        },
+        {
+          "code": "G09G 1/28",
+          "title": {
+            "ko": null,
+            "en": "using colour tubes {(tubes therefor H01J31/20)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 3/00",
+      "title": {
+        "ko": null,
+        "en": "Control arrangements or circuits, of interest only in connection with visual indicators other than cathode-ray tubes"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 3/001",
+          "title": {
+            "ko": null,
+            "en": "{using specific devices not provided for in groups G09G3/02 - G09G3/36, e.g. using an intermediate record carrier such as a film slide; Projection systems; Display of non-alphanumerical information, solely or in combination with alphanumerical information, e.g. digital display on projected diapositive as background (slide projectors per se G03B23/00 = 42 HP)}"
+          }
+        },
+        {
+          "code": "G09G 3/004",
+          "title": {
+            "ko": null,
+            "en": "{to give the appearance of moving signs}"
+          }
+        },
+        {
+          "code": "G09G 3/005",
+          "title": {
+            "ko": null,
+            "en": "{forming an image using a quickly moving array of imaging elements, causing the human eye to perceive an image which has a larger resolution than the array, e.g. an image on a cylinder formed by a rotating line of LEDs parallel to the axis of rotation}"
+          }
+        },
+        {
+          "code": "G09G 3/006",
+          "title": {
+            "ko": null,
+            "en": "{Electronic inspection or testing of displays and display drivers, e.g. of LED or LCD displays (testing individual LED's G01R31/2635; testing lamps G01R31/44; testing of optical features of LCD displays G02F1/1309)}"
+          }
+        },
+        {
+          "code": "G09G 3/007",
+          "title": {
+            "ko": null,
+            "en": "{Use of pixel shift techniques, e.g. by mechanical shift of the physical pixels or by optical shift of the perceived pixels}"
+          }
+        },
+        {
+          "code": "G09G 3/008",
+          "title": {
+            "ko": null,
+            "en": "{forming an image on an image carrier by relative movement of a writing unit to the image carrier, e.g. on a photoconductive rotating belt, or on an electronic blackboard}"
+          }
+        },
+        {
+          "code": "G09G 3/02",
+          "title": {
+            "ko": null,
+            "en": "by tracing or scanning a light beam on a screen"
+          }
+        },
+        {
+          "code": "G09G 3/03",
+          "title": {
+            "ko": null,
+            "en": "{specially adapted for displays having non-planar surfaces, e.g. curved displays}"
+          }
+        },
+        {
+          "code": "G09G 3/04",
+          "title": {
+            "ko": null,
+            "en": "for presentation of a single character by selection from a plurality of characters, or by composing the character by combination of individual elements, e.g. segments {using a combination of such display devices for composing words, rows or the like, in a frame with fixed character positions}"
+          }
+        },
+        {
+          "code": "G09G 3/20",
+          "title": {
+            "ko": null,
+            "en": "for presentation of an assembly of a number of characters, e.g. a page, by composing the assembly by combination of individual elements arranged in a matrix {no fixed position being assigned to or needed to be assigned to the individual characters or partial characters}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 5/00",
+      "title": {
+        "ko": null,
+        "en": "Control arrangements or circuits for visual indicators common to cathode-ray tube indicators and other visual indicators (image data processing or generation, in general G06T)"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 5/001",
+          "title": {
+            "ko": null,
+            "en": "{Arbitration of resources in a display system, e.g. control of access to frame buffer by video controller and/or main processor}"
+          }
+        },
+        {
+          "code": "G09G 5/003",
+          "title": {
+            "ko": null,
+            "en": "{Details of a display terminal, the details relating to the control arrangement of the display terminal and to the interfaces thereto (specific for a CRT G09G1/165; for a flat panel G09G3/2092)}"
+          }
+        },
+        {
+          "code": "G09G 5/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the way in which colour is displayed {(details of colour display specific for CRTs G09G1/28; specific for flat matrix panels other than liquid crystal displays G09G3/2003; specific for liquid crystal displays G09G3/3607)}"
+          }
+        },
+        {
+          "code": "G09G 5/08",
+          "title": {
+            "ko": null,
+            "en": "Cursor circuits"
+          }
+        },
+        {
+          "code": "G09G 5/10",
+          "title": {
+            "ko": null,
+            "en": "Intensity circuits"
+          }
+        },
+        {
+          "code": "G09G 5/12",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation between the display unit and other units, e.g. other display units, video-disc players"
+          }
+        },
+        {
+          "code": "G09G 5/14",
+          "title": {
+            "ko": null,
+            "en": "Display of multiple viewports"
+          }
+        },
+        {
+          "code": "G09G 5/16",
+          "title": {
+            "ko": null,
+            "en": "Display of right-to-left language"
+          }
+        },
+        {
+          "code": "G09G 5/18",
+          "title": {
+            "ko": null,
+            "en": "Timing circuits for raster scan displays (specially adapted for television H04N  {; synchronisation between the display unit and other display units, videodisc player G09G5/12})"
+          }
+        },
+        {
+          "code": "G09G 5/20",
+          "title": {
+            "ko": null,
+            "en": "Function-generator circuits, e.g. circle generators {line or curve smoothing circuits}"
+          }
+        },
+        {
+          "code": "G09G 5/22",
+          "title": {
+            "ko": null,
+            "en": "characterised by the display of characters or indicia using display control signals derived from coded signals representing the characters or indicia, e.g. with a character-code memory"
+          }
+        },
+        {
+          "code": "G09G 5/34",
+          "title": {
+            "ko": null,
+            "en": "for rolling or scrolling"
+          }
+        },
+        {
+          "code": "G09G 5/36",
+          "title": {
+            "ko": null,
+            "en": "characterised by the display of a graphic pattern, e.g. using an all-points-addressable [APA] memory"
+          }
+        },
+        {
+          "code": "G09G 5/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by the way in which both a pattern determined by character code and another pattern are displayed simultaneously, or either pattern is displayed selectively, e.g. with character code memory and APA, i.e. all-points-addressable, memory"
+          }
+        },
+        {
+          "code": "G09G 5/42",
+          "title": {
+            "ko": null,
+            "en": "characterised by the display of patterns using a display memory without fixed position correspondence between the display memory contents and the display position on the screen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2230/00",
+      "title": {
+        "ko": null,
+        "en": "Details of flat display driving waveforms"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G09G 2290/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of a display terminal"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G09G 2300/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of the constitution of display devices"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2300/02",
+          "title": {
+            "ko": null,
+            "en": "Composition of display devices"
+          }
+        },
+        {
+          "code": "G09G 2300/04",
+          "title": {
+            "ko": null,
+            "en": "Structural and physical details of display devices"
+          }
+        },
+        {
+          "code": "G09G 2300/06",
+          "title": {
+            "ko": null,
+            "en": "Passive matrix structure, i.e. with direct application of both column and row voltages to the light emitting or modulating elements, other than LCD or OLED"
+          }
+        },
+        {
+          "code": "G09G 2300/08",
+          "title": {
+            "ko": null,
+            "en": "Active matrix structure, i.e. with use of active elements, inclusive of non-linear two terminal elements, in the pixels together with light emitting or modulating elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2310/00",
+      "title": {
+        "ko": null,
+        "en": "Command of the display device"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2310/02",
+          "title": {
+            "ko": null,
+            "en": "Addressing, scanning or driving the display screen or processing steps related thereto"
+          }
+        },
+        {
+          "code": "G09G 2310/04",
+          "title": {
+            "ko": null,
+            "en": "Partial updating of the display screen"
+          }
+        },
+        {
+          "code": "G09G 2310/06",
+          "title": {
+            "ko": null,
+            "en": "Details of flat display driving waveforms"
+          }
+        },
+        {
+          "code": "G09G 2310/08",
+          "title": {
+            "ko": null,
+            "en": "Details of timing specific for flat panels, other than clock recovery"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2320/00",
+      "title": {
+        "ko": null,
+        "en": "Control of display operating conditions"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2320/02",
+          "title": {
+            "ko": null,
+            "en": "Improving the quality of display appearance"
+          }
+        },
+        {
+          "code": "G09G 2320/04",
+          "title": {
+            "ko": null,
+            "en": "Maintaining the quality of display appearance"
+          }
+        },
+        {
+          "code": "G09G 2320/06",
+          "title": {
+            "ko": null,
+            "en": "Adjustment of display parameters"
+          }
+        },
+        {
+          "code": "G09G 2320/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements within a display terminal for setting, manually or automatically, display parameters of the display terminal"
+          }
+        },
+        {
+          "code": "G09G 2320/10",
+          "title": {
+            "ko": null,
+            "en": "Special adaptations of display systems for operation with variable images"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2330/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of power supply; Aspects of display protection and defect management"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2330/02",
+          "title": {
+            "ko": null,
+            "en": "Details of power systems and of start or stop of display operation"
+          }
+        },
+        {
+          "code": "G09G 2330/04",
+          "title": {
+            "ko": null,
+            "en": "Display protection"
+          }
+        },
+        {
+          "code": "G09G 2330/06",
+          "title": {
+            "ko": null,
+            "en": "Handling electromagnetic interferences [EMI], covering emitted as well as received electromagnetic radiation"
+          }
+        },
+        {
+          "code": "G09G 2330/08",
+          "title": {
+            "ko": null,
+            "en": "Fault-tolerant or redundant circuits, or circuits in which repair of defects is prepared"
+          }
+        },
+        {
+          "code": "G09G 2330/10",
+          "title": {
+            "ko": null,
+            "en": "Dealing with defective pixels"
+          }
+        },
+        {
+          "code": "G09G 2330/12",
+          "title": {
+            "ko": null,
+            "en": "Test circuits or failure detection circuits included in a display system, as permanent part thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2340/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of display data processing"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2340/02",
+          "title": {
+            "ko": null,
+            "en": "Handling of images in compressed format, e.g. JPEG, MPEG"
+          }
+        },
+        {
+          "code": "G09G 2340/04",
+          "title": {
+            "ko": null,
+            "en": "Changes in size, position or resolution of an image"
+          }
+        },
+        {
+          "code": "G09G 2340/06",
+          "title": {
+            "ko": null,
+            "en": "Colour space transformation"
+          }
+        },
+        {
+          "code": "G09G 2340/08",
+          "title": {
+            "ko": null,
+            "en": "Monochrome to colour transformation"
+          }
+        },
+        {
+          "code": "G09G 2340/10",
+          "title": {
+            "ko": null,
+            "en": "Mixing of images, i.e. displayed pixel being the result of an operation, e.g. adding, on the corresponding input pixels"
+          }
+        },
+        {
+          "code": "G09G 2340/12",
+          "title": {
+            "ko": null,
+            "en": "Overlay of images, i.e. displayed pixel being the result of switching between the corresponding input pixels"
+          }
+        },
+        {
+          "code": "G09G 2340/14",
+          "title": {
+            "ko": null,
+            "en": "Solving problems related to the presentation of information to be displayed"
+          }
+        },
+        {
+          "code": "G09G 2340/16",
+          "title": {
+            "ko": null,
+            "en": "Determination of a pixel data signal depending on the signal applied in the previous frame"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2350/00",
+      "title": {
+        "ko": null,
+        "en": "Solving problems of bandwidth in display systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G09G 2352/00",
+      "title": {
+        "ko": null,
+        "en": "Parallel handling of streams of display data"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G09G 2354/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of interface with display user"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G09G 2356/00",
+      "title": {
+        "ko": null,
+        "en": "Detection of the display position w.r.t. other display screens"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G09G 2358/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for display data security"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G09G 2360/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of the architecture of display systems"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2360/02",
+          "title": {
+            "ko": null,
+            "en": "Graphics controller able to handle multiple formats, e.g. input or output formats"
+          }
+        },
+        {
+          "code": "G09G 2360/04",
+          "title": {
+            "ko": null,
+            "en": "Display device controller operating with a plurality of display units"
+          }
+        },
+        {
+          "code": "G09G 2360/06",
+          "title": {
+            "ko": null,
+            "en": "Use of more than one graphics processor to process data before displaying to one or more screens"
+          }
+        },
+        {
+          "code": "G09G 2360/08",
+          "title": {
+            "ko": null,
+            "en": "Power processing, i.e. workload management for processors involved in display operations, such as CPUs or GPUs"
+          }
+        },
+        {
+          "code": "G09G 2360/10",
+          "title": {
+            "ko": null,
+            "en": "Display system comprising arrangements, such as a coprocessor, specific for motion video images"
+          }
+        },
+        {
+          "code": "G09G 2360/12",
+          "title": {
+            "ko": null,
+            "en": "Frame memory handling"
+          }
+        },
+        {
+          "code": "G09G 2360/14",
+          "title": {
+            "ko": null,
+            "en": "Detecting light within display terminals, e.g. using a single or a plurality of photosensors"
+          }
+        },
+        {
+          "code": "G09G 2360/16",
+          "title": {
+            "ko": null,
+            "en": "Calculation or use of calculated indices related to luminance levels in display data"
+          }
+        },
+        {
+          "code": "G09G 2360/18",
+          "title": {
+            "ko": null,
+            "en": "Use of a frame buffer in a display terminal, inclusive of the display panel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2370/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of data communication"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2370/02",
+          "title": {
+            "ko": null,
+            "en": "Networking aspects"
+          }
+        },
+        {
+          "code": "G09G 2370/04",
+          "title": {
+            "ko": null,
+            "en": "Exchange of auxiliary data, i.e. other than image data, between monitor and graphics controller"
+          }
+        },
+        {
+          "code": "G09G 2370/06",
+          "title": {
+            "ko": null,
+            "en": "Consumer Electronics Control, i.e. control of another device by a display or vice versa"
+          }
+        },
+        {
+          "code": "G09G 2370/08",
+          "title": {
+            "ko": null,
+            "en": "Details of image data interface between the display device controller and the data line driver circuit"
+          }
+        },
+        {
+          "code": "G09G 2370/10",
+          "title": {
+            "ko": null,
+            "en": "Use of a protocol of communication by packets in interfaces along the display data pipeline"
+          }
+        },
+        {
+          "code": "G09G 2370/12",
+          "title": {
+            "ko": null,
+            "en": "Use of DVI or HDMI protocol in interfaces along the display data pipeline"
+          }
+        },
+        {
+          "code": "G09G 2370/14",
+          "title": {
+            "ko": null,
+            "en": "Use of low voltage differential signaling [LVDS] for display data communication"
+          }
+        },
+        {
+          "code": "G09G 2370/16",
+          "title": {
+            "ko": null,
+            "en": "Use of wireless transmission of display information"
+          }
+        },
+        {
+          "code": "G09G 2370/18",
+          "title": {
+            "ko": null,
+            "en": "Use of optical transmission of display information"
+          }
+        },
+        {
+          "code": "G09G 2370/20",
+          "title": {
+            "ko": null,
+            "en": "Details of the management of multiple sources of image data"
+          }
+        },
+        {
+          "code": "G09G 2370/22",
+          "title": {
+            "ko": null,
+            "en": "Detection of presence or absence of input display information or of connection or disconnection of a corresponding information source"
+          }
+        },
+        {
+          "code": "G09G 2370/24",
+          "title": {
+            "ko": null,
+            "en": "Keyboard-Video-Mouse [KVM] switch"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 2380/00",
+      "title": {
+        "ko": null,
+        "en": "Specific applications"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 2380/02",
+          "title": {
+            "ko": null,
+            "en": "Flexible displays"
+          }
+        },
+        {
+          "code": "G09G 2380/04",
+          "title": {
+            "ko": null,
+            "en": "Electronic labels"
+          }
+        },
+        {
+          "code": "G09G 2380/06",
+          "title": {
+            "ko": null,
+            "en": "Remotely controlled electronic signs other than labels"
+          }
+        },
+        {
+          "code": "G09G 2380/08",
+          "title": {
+            "ko": null,
+            "en": "Biomedical applications"
+          }
+        },
+        {
+          "code": "G09G 2380/10",
+          "title": {
+            "ko": null,
+            "en": "Automotive applications"
+          }
+        },
+        {
+          "code": "G09G 2380/12",
+          "title": {
+            "ko": null,
+            "en": "Avionics applications"
+          }
+        },
+        {
+          "code": "G09G 2380/14",
+          "title": {
+            "ko": null,
+            "en": "Electronic books and readers"
+          }
+        },
+        {
+          "code": "G09G 2380/16",
+          "title": {
+            "ko": null,
+            "en": "Digital picture frames"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "DirectorEvaluationRuntime",
+  "description": "평가 누적 (특허성·청구항 검증). sessions/{user_id}/{work_id}/runtime/02.director/evaluation.json. P02 writer (특허성 평가). P06 도면 검수는 runtime/06.inspector/evaluation.json 별개 schema. P-A minimal placeholder — 구체 schema 는 evaluation sub-plan 또는 차후 정의.",
+  "type": "object",
+  "required": [
+    "last_updated"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

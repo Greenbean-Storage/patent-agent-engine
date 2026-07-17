@@ -1,0 +1,1376 @@
+{
+  "subclass": "H02J",
+  "title": {
+    "ko": "전력망; 전력을 공급하거나 분배하기 위한 회로 구성 또는 시스템; 전기에너지를 저장하기 위한 시스템",
+    "en": "ELECTRIC POWER NETWORKS; CIRCUIT ARRANGEMENTS OR SYSTEMS FOR SUPPLYING OR DISTRIBUTING ELECTRIC POWER; SYSTEMS FOR STORING ELECTRIC ENERGY"
+  },
+  "definition": {
+    "ko": "회로 구성 배전망을 위한 것; 직류; 교류 H02J1/00; H02J3/00 결합된 것; 특정되지 않은 것 H02J4/00 베터리를 위한 것 H02J7/00 비상 또는 대기 전원 공급을 위한 것 H02J9/00 스테이션의 보조 설비에 전력 공급을 위한 것 H02J11/00 회로상태의 원격지시를 위한 것 H02J13/00 전기 에너지를 저장하는 시스템 H02J15/00 전력의 무선 공급 또는 배전을 위한 회로 구성 또는 시스템 H02J50/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H02J 1/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit arrangements for DC mains or DC distribution networks"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 1/002",
+          "title": {
+            "ko": null,
+            "en": "using intermediate DC-AC-DC conversion"
+          }
+        },
+        {
+          "code": "H02J 1/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing harmonics or ripples"
+          }
+        },
+        {
+          "code": "H02J 1/04",
+          "title": {
+            "ko": null,
+            "en": "Current-controlled supply systems, e.g. constant-current supply systems"
+          }
+        },
+        {
+          "code": "H02J 1/06",
+          "title": {
+            "ko": null,
+            "en": "Two-wire DC power distribution systems"
+          }
+        },
+        {
+          "code": "H02J 1/08",
+          "title": {
+            "ko": null,
+            "en": "Three-wire DC power distribution systems; Systems having more than three wires"
+          }
+        },
+        {
+          "code": "H02J 1/082",
+          "title": {
+            "ko": null,
+            "en": "DC supplies with two or more different DC voltage levels"
+          }
+        },
+        {
+          "code": "H02J 1/10",
+          "title": {
+            "ko": null,
+            "en": "Parallel operation of DC sources"
+          }
+        },
+        {
+          "code": "H02J 1/102",
+          "title": {
+            "ko": null,
+            "en": "being switching converters (H02J0001108000, H02J0001120000 take precedence)"
+          }
+        },
+        {
+          "code": "H02J 1/108",
+          "title": {
+            "ko": null,
+            "en": "having arrangements for blocking reverse current flow, e.g. using diodes (H02J0001120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02J 1/12",
+          "title": {
+            "ko": null,
+            "en": "Parallel operation of DC sources having power converters with further DC sources without power converters"
+          }
+        },
+        {
+          "code": "H02J 1/14",
+          "title": {
+            "ko": null,
+            "en": "Balancing load and power generation in DC networks"
+          }
+        },
+        {
+          "code": "H02J 1/15",
+          "title": {
+            "ko": null,
+            "en": "characterised by load management"
+          }
+        },
+        {
+          "code": "H02J 1/16",
+          "title": {
+            "ko": null,
+            "en": "using energy storage units, e.g. batteries or dynamo-electric machines coupled to flywheels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 3/00",
+      "title": {
+        "ko": "교류간선 또는 교류배전망을 위한 회로 구성",
+        "en": "Circuit arrangements for AC mains or AC distribution networks"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 3/001",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for handling faults or abnormalities, e.g. emergencies or contingencies"
+          }
+        },
+        {
+          "code": "H02J 3/0012",
+          "title": {
+            "ko": null,
+            "en": "characterised by the contingency detection means in AC networks, e.g. using phasor measurement units [PMU], synchrophasors or contingency analysis"
+          }
+        },
+        {
+          "code": "H02J 3/0014",
+          "title": {
+            "ko": null,
+            "en": "for preventing or reducing power oscillations in networks"
+          }
+        },
+        {
+          "code": "H02J 3/007",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for selectively connecting one or more loads to one or more power sources or power lines"
+          }
+        },
+        {
+          "code": "H02J 3/0073",
+          "title": {
+            "ko": null,
+            "en": "by providing alternative feeding paths when the main path fails"
+          }
+        },
+        {
+          "code": "H02J 3/008",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for power supply or distribution technologies responsive to energy trading"
+          }
+        },
+        {
+          "code": "H02J 3/01",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing harmonics or ripples"
+          }
+        },
+        {
+          "code": "H02J 3/02",
+          "title": {
+            "ko": null,
+            "en": "using a single network for simultaneous distribution of AC power at different frequencies"
+          }
+        },
+        {
+          "code": "H02J 3/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for connecting networks of the same frequency but supplied from different sources"
+          }
+        },
+        {
+          "code": "H02J 3/06",
+          "title": {
+            "ko": null,
+            "en": "Controlling the transfer of power between connected networks; Controlling load sharing between connected networks"
+          }
+        },
+        {
+          "code": "H02J 3/08",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation of networks"
+          }
+        },
+        {
+          "code": "H02J 3/10",
+          "title": {
+            "ko": null,
+            "en": "Current-controlled supply systems, e.g. constant-current supply systems"
+          }
+        },
+        {
+          "code": "H02J 3/11",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for adjusting frequency in AC networks, e.g. by control of active power"
+          }
+        },
+        {
+          "code": "H02J 3/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for adjusting voltage in AC networks by changing a characteristic of the network load"
+          }
+        },
+        {
+          "code": "H02J 3/14",
+          "title": {
+            "ko": null,
+            "en": "by switching loads on to, or off from, the networks, e.g. progressively balanced loading"
+          }
+        },
+        {
+          "code": "H02J 3/16",
+          "title": {
+            "ko": null,
+            "en": "by adjustment of reactive power"
+          }
+        },
+        {
+          "code": "H02J 3/17",
+          "title": {
+            "ko": null,
+            "en": "Demand-responsive operation of AC power transmission or distribution networks"
+          }
+        },
+        {
+          "code": "H02J 3/175",
+          "title": {
+            "ko": null,
+            "en": "responsive to end-user or load operations (H02J0003140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02J 3/18",
+          "title": {
+            "ko": "전력망 내 무효전력을 조정, 제거 또는 보상하기 위한 구성",
+            "en": "Arrangements for adjusting, eliminating or compensating reactive power in networks"
+          }
+        },
+        {
+          "code": "H02J 3/1807",
+          "title": {
+            "ko": null,
+            "en": "using series compensators, e.g. thyristor-controlled series capacitors [TCSC]"
+          }
+        },
+        {
+          "code": "H02J 3/1814",
+          "title": {
+            "ko": null,
+            "en": "having reactive elements actively controlled by bridge converters, e.g. unified power flow controllers [UPFC] or controlled series voltage compensators"
+          }
+        },
+        {
+          "code": "H02J 3/1821",
+          "title": {
+            "ko": null,
+            "en": "using shunt compensators"
+          }
+        },
+        {
+          "code": "H02J 3/1828",
+          "title": {
+            "ko": null,
+            "en": "with stepwise control, e.g. switched capacitor banks"
+          }
+        },
+        {
+          "code": "H02J 3/1835",
+          "title": {
+            "ko": null,
+            "en": "with stepless control"
+          }
+        },
+        {
+          "code": "H02J 3/1842",
+          "title": {
+            "ko": null,
+            "en": "having reactive elements actively controlled by bridge converters, e.g. active filters or static compensators [STATCOM]"
+          }
+        },
+        {
+          "code": "H02J 3/185",
+          "title": {
+            "ko": null,
+            "en": "the reactive elements being purely inductive, e.g. superconductive magnetic energy storage [SMES] systems"
+          }
+        },
+        {
+          "code": "H02J 3/1857",
+          "title": {
+            "ko": null,
+            "en": "the bridge converters being multilevel bridge converters or modular multilevel converters"
+          }
+        },
+        {
+          "code": "H02J 3/1864",
+          "title": {
+            "ko": null,
+            "en": "using reactive elements connected in series with semiconductor switches, e.g. static VAR compensators [SVC], thyristor-controlled reactors [TCR] or thyristor-switched capacitors [TSC]"
+          }
+        },
+        {
+          "code": "H02J 3/1878",
+          "title": {
+            "ko": null,
+            "en": "using tap changing or phase shifting transformers"
+          }
+        },
+        {
+          "code": "H02J 3/1885",
+          "title": {
+            "ko": null,
+            "en": "using rotating AC generators, e.g. synchronous generators"
+          }
+        },
+        {
+          "code": "H02J 3/1892",
+          "title": {
+            "ko": null,
+            "en": "the arrangements being an integral part of the loads or of their control circuits"
+          }
+        },
+        {
+          "code": "H02J 3/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for eliminating or reducing asymmetry in polyphase networks"
+          }
+        },
+        {
+          "code": "H02J 3/28",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for balancing of the load in networks by storage of energy"
+          }
+        },
+        {
+          "code": "H02J 3/30",
+          "title": {
+            "ko": null,
+            "en": "using dynamo-electric machines coupled to flywheels"
+          }
+        },
+        {
+          "code": "H02J 3/32",
+          "title": {
+            "ko": null,
+            "en": "using batteries or super capacitors with converting means"
+          }
+        },
+        {
+          "code": "H02J 3/34",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for transfer of electric power between networks of substantially different frequency"
+          }
+        },
+        {
+          "code": "H02J 3/36",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for transfer of electric power between AC networks via high-voltage DC [HVDC] links; Arrangements for transfer of electric power between generators and networks via HVDC links"
+          }
+        },
+        {
+          "code": "H02J 3/38",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for feeding a single network from two or more generators or sources in parallel; Arrangements for feeding already energised networks from additional generators or sources in parallel"
+          }
+        },
+        {
+          "code": "H02J 3/388",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for the handling of islanding, e.g. for disconnection or for avoiding the disconnection of power"
+          }
+        },
+        {
+          "code": "H02J 3/40",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation of generators for connection to a network or to another generator"
+          }
+        },
+        {
+          "code": "H02J 3/42",
+          "title": {
+            "ko": null,
+            "en": "with automatic parallel connection when synchronisation is achieved"
+          }
+        },
+        {
+          "code": "H02J 3/44",
+          "title": {
+            "ko": null,
+            "en": "with means for ensuring correct phase sequence"
+          }
+        },
+        {
+          "code": "H02J 3/46",
+          "title": {
+            "ko": null,
+            "en": "Controlling the sharing of generated power between the generators, sources or networks"
+          }
+        },
+        {
+          "code": "H02J 3/466",
+          "title": {
+            "ko": null,
+            "en": "Scheduling or selectively controlling the operation of the generators or sources, e.g. connecting or disconnecting generators to meet a demand"
+          }
+        },
+        {
+          "code": "H02J 3/48",
+          "title": {
+            "ko": null,
+            "en": "Controlling the sharing of active power"
+          }
+        },
+        {
+          "code": "H02J 3/50",
+          "title": {
+            "ko": null,
+            "en": "Controlling the sharing of reactive power"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 4/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit arrangements for mains or distribution networks not specified as AC or DC; Circuit arrangements for mains or distribution networks combining AC and DC sections or sub-networks (arrangements using intermediate DC-AC-DC conversion H02J0001002000;arrangements using high-voltage DC [HVDC] links H02J0003360000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 4/10",
+          "title": {
+            "ko": null,
+            "en": "using a single network for simultaneous distribution of AC and DC power"
+          }
+        },
+        {
+          "code": "H02J 4/20",
+          "title": {
+            "ko": null,
+            "en": "Networks integrating separated AC and DC power sections"
+          }
+        },
+        {
+          "code": "H02J 4/25",
+          "title": {
+            "ko": null,
+            "en": "for transfer of electric power between AC and DC networks, e.g. for supplying the DC section within a load from an AC mains system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 7/00",
+      "title": {
+        "ko": "배터리를 충전 또는 방전시키거나 배터리로부터 부하에 공급하기 위한 회로 구성",
+        "en": "Circuit arrangements for charging or discharging batteries or for supplying loads from batteries"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 7/02",
+          "title": {
+            "ko": null,
+            "en": "for charging batteries from AC mains by converters"
+          }
+        },
+        {
+          "code": "H02J 7/04",
+          "title": {
+            "ko": null,
+            "en": "Regulation of the charging current or voltage"
+          }
+        },
+        {
+          "code": "H02J 7/06",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "H02J 7/08",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02J 7/10",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02J 7/12",
+          "title": {
+            "ko": null,
+            "en": "using magnetic devices having controllable degree of saturation, i.e. transductors"
+          }
+        },
+        {
+          "code": "H02J 7/14",
+          "title": {
+            "ko": "가변속도로 구동되는 발전기에서 축전지를 충전하기 위한 것, 예. 차량용",
+            "en": "for charging batteries from dynamo-electric generators driven at varying speed, e.g. on vehicle"
+          }
+        },
+        {
+          "code": "H02J 7/16",
+          "title": {
+            "ko": "계자변화에 의한 충전전류 또는 전압의 조정",
+            "en": "Regulation of the charging current or voltage by variation of field"
+          }
+        },
+        {
+          "code": "H02J 7/18",
+          "title": {
+            "ko": null,
+            "en": "due to variation of ohmic resistance in field circuit, using resistance switching in or out of circuit step by step"
+          }
+        },
+        {
+          "code": "H02J 7/20",
+          "title": {
+            "ko": null,
+            "en": "due to variation of continuously-variable ohmic resistor"
+          }
+        },
+        {
+          "code": "H02J 7/22",
+          "title": {
+            "ko": null,
+            "en": "due to variation of make-to-break ratio of intermittently-operating contacts, e.g. using Tirrill regulator"
+          }
+        },
+        {
+          "code": "H02J 7/24",
+          "title": {
+            "ko": "방전관 또는 반도체장치를 사용하는 것(H02J 7/28이 우선)",
+            "en": "using discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "H02J 7/26",
+          "title": {
+            "ko": "포화도가 제어가능한 자기장치를 이용하는 것 (H02J 7/28이 우선)",
+            "en": "using magnetic devices with controllable degree of saturation"
+          }
+        },
+        {
+          "code": "H02J 7/28",
+          "title": {
+            "ko": null,
+            "en": "using magnetic devices with controllable degree of saturation in combination with controlled discharge tube or controlled semiconductor device"
+          }
+        },
+        {
+          "code": "H02J 7/30",
+          "title": {
+            "ko": null,
+            "en": "using armature-reaction-excited machines"
+          }
+        },
+        {
+          "code": "H02J 7/32",
+          "title": {
+            "ko": null,
+            "en": "for charging batteries from a charging set comprising a non-electric prime mover"
+          }
+        },
+        {
+          "code": "H02J 7/34",
+          "title": {
+            "ko": "저장 장치와 다른 직류원을 모두 사용하는 회로망 내에서의 병렬 운전, 예. 버퍼링을 제공하는 것 (H02J7/14가 우선)",
+            "en": "Parallel operation in networks using both storage and other DC sources, e.g. providing buffering (H02J0007140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02J 7/35",
+          "title": {
+            "ko": null,
+            "en": "with light sensitive cells"
+          }
+        },
+        {
+          "code": "H02J 7/36",
+          "title": {
+            "ko": null,
+            "en": "Arrangements using end-cell switching"
+          }
+        },
+        {
+          "code": "H02J 7/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by the exchange of charge or discharge related data"
+          }
+        },
+        {
+          "code": "H02J 7/42",
+          "title": {
+            "ko": null,
+            "en": "with electronic devices having internal batteries, e.g. mobile phones"
+          }
+        },
+        {
+          "code": "H02J 7/44",
+          "title": {
+            "ko": null,
+            "en": "between battery management systems and power sources"
+          }
+        },
+        {
+          "code": "H02J 7/45",
+          "title": {
+            "ko": null,
+            "en": "between battery management systems and external servers (batteries used in smart grids for balancing of the load H02J0003320000)"
+          }
+        },
+        {
+          "code": "H02J 7/46",
+          "title": {
+            "ko": null,
+            "en": "Leader-follower arrangements"
+          }
+        },
+        {
+          "code": "H02J 7/47",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for checking compatibility or authentication between one component, e.g. a battery or a battery charger, and another component, e.g. a power source"
+          }
+        },
+        {
+          "code": "H02J 7/50",
+          "title": {
+            "ko": null,
+            "en": "acting upon multiple batteries simultaneously or sequentially"
+          }
+        },
+        {
+          "code": "H02J 7/52",
+          "title": {
+            "ko": null,
+            "en": "for charge balancing, e.g. equalisation of charge between batteries"
+          }
+        },
+        {
+          "code": "H02J 7/54",
+          "title": {
+            "ko": null,
+            "en": "Passive balancing, e.g. using resistors or parallel MOSFETs"
+          }
+        },
+        {
+          "code": "H02J 7/56",
+          "title": {
+            "ko": null,
+            "en": "Active balancing, e.g. using capacitor-based, inductor-based or DC-DC converters"
+          }
+        },
+        {
+          "code": "H02J 7/60",
+          "title": {
+            "ko": null,
+            "en": "including safety or protection arrangements"
+          }
+        },
+        {
+          "code": "H02J 7/61",
+          "title": {
+            "ko": null,
+            "en": "against overcharge"
+          }
+        },
+        {
+          "code": "H02J 7/62",
+          "title": {
+            "ko": null,
+            "en": "against overcurrent"
+          }
+        },
+        {
+          "code": "H02J 7/63",
+          "title": {
+            "ko": null,
+            "en": "against overdischarge"
+          }
+        },
+        {
+          "code": "H02J 7/64",
+          "title": {
+            "ko": null,
+            "en": "against overvoltage"
+          }
+        },
+        {
+          "code": "H02J 7/65",
+          "title": {
+            "ko": null,
+            "en": "against overtemperature"
+          }
+        },
+        {
+          "code": "H02J 7/68",
+          "title": {
+            "ko": null,
+            "en": "using circuits for correcting or protecting against reverse-polarity"
+          }
+        },
+        {
+          "code": "H02J 7/70",
+          "title": {
+            "ko": null,
+            "en": "characterised by the mechanical construction"
+          }
+        },
+        {
+          "code": "H02J 7/80",
+          "title": {
+            "ko": null,
+            "en": "including monitoring or indicating arrangements"
+          }
+        },
+        {
+          "code": "H02J 7/82",
+          "title": {
+            "ko": null,
+            "en": "Control of state of charge [SOC]"
+          }
+        },
+        {
+          "code": "H02J 7/84",
+          "title": {
+            "ko": null,
+            "en": "Control of state of health [SOH]"
+          }
+        },
+        {
+          "code": "H02J 7/90",
+          "title": {
+            "ko": null,
+            "en": "Regulation of charging or discharging current or voltage"
+          }
+        },
+        {
+          "code": "H02J 7/92",
+          "title": {
+            "ko": null,
+            "en": "with prioritisation of loads or sources"
+          }
+        },
+        {
+          "code": "H02J 7/94",
+          "title": {
+            "ko": null,
+            "en": "in response to battery current"
+          }
+        },
+        {
+          "code": "H02J 7/96",
+          "title": {
+            "ko": null,
+            "en": "in response to battery voltage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 9/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit arrangements for emergency or stand-by power supply, e.g. for emergency lighting"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 9/02",
+          "title": {
+            "ko": null,
+            "en": "in which an auxiliary distribution system and its associated lamps are brought into service"
+          }
+        },
+        {
+          "code": "H02J 9/04",
+          "title": {
+            "ko": null,
+            "en": "in which the distribution system is disconnected from the normal source and connected to a standby source"
+          }
+        },
+        {
+          "code": "H02J 9/06",
+          "title": {
+            "ko": null,
+            "en": "with automatic change-over"
+          }
+        },
+        {
+          "code": "H02J 9/08",
+          "title": {
+            "ko": null,
+            "en": "requiring starting of a prime-mover"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 11/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit arrangements for providing service supply to auxiliaries of stations in which electric power is generated, distributed or converted"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02J 13/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit arrangements for providing remote monitoring or remote control of equipment in a power distribution network"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 13/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by displaying of information or by user interaction, e.g. supervisory control and data acquisition [SCADA] systems"
+          }
+        },
+        {
+          "code": "H02J 13/12",
+          "title": {
+            "ko": null,
+            "en": "Monitoring network conditions, e.g. electrical magnitudes or operational status"
+          }
+        },
+        {
+          "code": "H02J 13/13",
+          "title": {
+            "ko": null,
+            "en": "characterised by the transmission of data to equipment in the power network"
+          }
+        },
+        {
+          "code": "H02J 13/14",
+          "title": {
+            "ko": null,
+            "en": "the power network being locally controlled, e.g. home energy management systems [HEMS]"
+          }
+        },
+        {
+          "code": "H02J 13/16",
+          "title": {
+            "ko": null,
+            "en": "the power network being controlled at grid-level, e.g. using aggregators"
+          }
+        },
+        {
+          "code": "H02J 13/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by the remotely-controlled equipment, e.g. converters or transformers"
+          }
+        },
+        {
+          "code": "H02J 13/181",
+          "title": {
+            "ko": null,
+            "en": "the equipment comprising generators"
+          }
+        },
+        {
+          "code": "H02J 13/182",
+          "title": {
+            "ko": null,
+            "en": "the equipment comprising loads connected to the power network"
+          }
+        },
+        {
+          "code": "H02J 13/183",
+          "title": {
+            "ko": null,
+            "en": "the equipment comprising energy storage systems"
+          }
+        },
+        {
+          "code": "H02J 13/333",
+          "title": {
+            "ko": null,
+            "en": "the equipment forming part of substations"
+          }
+        },
+        {
+          "code": "H02J 13/34",
+          "title": {
+            "ko": null,
+            "en": "the equipment being switches, relays or circuit breakers"
+          }
+        },
+        {
+          "code": "H02J 13/36",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for protection systems"
+          }
+        },
+        {
+          "code": "H02J 13/38",
+          "title": {
+            "ko": null,
+            "en": "the equipment being power outlets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 15/00",
+      "title": {
+        "ko": "특히 전력망에 적합한 전기 에너지 저장을 위한 시스템",
+        "en": "Systems for storing electric energy specially adapted for power networks"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 15/10",
+          "title": {
+            "ko": null,
+            "en": "using storage of hydraulic energy"
+          }
+        },
+        {
+          "code": "H02J 15/20",
+          "title": {
+            "ko": null,
+            "en": "using storage of pneumatic energy, e.g. compressed air energy storage [CAES]"
+          }
+        },
+        {
+          "code": "H02J 15/30",
+          "title": {
+            "ko": null,
+            "en": "using storage of inertial or mechanical energy, e.g. using flywheels"
+          }
+        },
+        {
+          "code": "H02J 15/40",
+          "title": {
+            "ko": null,
+            "en": "using coils, e.g. superconductive magnetic energy storage [SMES] systems"
+          }
+        },
+        {
+          "code": "H02J 15/50",
+          "title": {
+            "ko": null,
+            "en": "using stored hydrogen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 50/00",
+      "title": {
+        "ko": "전력의 무선 공급 또는 배전를 위한 회로 구성 또는 시스템",
+        "en": "Circuit arrangements or systems for wireless supply or distribution of electric power"
+      },
+      "definition": {
+        "ko": "이 메인 그룹에서, 전력 전송에 사용되는 무선 기술의 특정 유형은 그룹 H02J 50/05-H02J 50/30에 포함되고, 그것의 회로 배치 또는 시스템은 그룹 H02J 50/40-H02J 50/90에 포함된다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H02J 50/05",
+          "title": {
+            "ko": null,
+            "en": "using capacitive coupling"
+          }
+        },
+        {
+          "code": "H02J 50/10",
+          "title": {
+            "ko": null,
+            "en": "using inductive coupling"
+          }
+        },
+        {
+          "code": "H02J 50/12",
+          "title": {
+            "ko": null,
+            "en": "of the resonant type"
+          }
+        },
+        {
+          "code": "H02J 50/15",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic waves"
+          }
+        },
+        {
+          "code": "H02J 50/20",
+          "title": {
+            "ko": null,
+            "en": "using microwaves or radio frequency waves"
+          }
+        },
+        {
+          "code": "H02J 50/23",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of transmitting antennas, e.g. directional array antennas or Yagi antennas"
+          }
+        },
+        {
+          "code": "H02J 50/27",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of receiving antennas, e.g. rectennas"
+          }
+        },
+        {
+          "code": "H02J 50/30",
+          "title": {
+            "ko": null,
+            "en": "using light, e.g. lasers"
+          }
+        },
+        {
+          "code": "H02J 50/40",
+          "title": {
+            "ko": "둘이상의 전송 또는 수신 장치를 사용하는 것 (H02J 50/50 우선)",
+            "en": "using two or more transmitting or receiving devices (H02J0050500000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02J 50/50",
+          "title": {
+            "ko": null,
+            "en": "using additional energy repeaters between transmitting devices and receiving devices"
+          }
+        },
+        {
+          "code": "H02J 50/60",
+          "title": {
+            "ko": null,
+            "en": "responsive to the presence of foreign objects, e.g. detection of living beings"
+          }
+        },
+        {
+          "code": "H02J 50/70",
+          "title": {
+            "ko": null,
+            "en": "involving the reduction of electric, magnetic or electromagnetic leakage fields"
+          }
+        },
+        {
+          "code": "H02J 50/80",
+          "title": {
+            "ko": null,
+            "en": "involving the exchange of data, concerning supply or distribution of electric power, between transmitting devices and receiving devices"
+          }
+        },
+        {
+          "code": "H02J 50/90",
+          "title": {
+            "ko": null,
+            "en": "involving detection or optimisation of position, e.g. alignment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to dispersed electric power generation"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02J 101/00",
+      "title": {
+        "ko": null,
+        "en": "Supply or distribution of decentralised, dispersed or local electric power generation"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 101/10",
+          "title": {
+            "ko": null,
+            "en": "Dispersed power generation using fossil fuels, e.g. diesel generators"
+          }
+        },
+        {
+          "code": "H02J 101/20",
+          "title": {
+            "ko": null,
+            "en": "Dispersed power generation using renewable energy sources"
+          }
+        },
+        {
+          "code": "H02J 101/22",
+          "title": {
+            "ko": null,
+            "en": "Solar energy"
+          }
+        },
+        {
+          "code": "H02J 101/24",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaics"
+          }
+        },
+        {
+          "code": "H02J 101/28",
+          "title": {
+            "ko": null,
+            "en": "Wind energy"
+          }
+        },
+        {
+          "code": "H02J 101/30",
+          "title": {
+            "ko": null,
+            "en": "Fuel cells"
+          }
+        },
+        {
+          "code": "H02J 101/35",
+          "title": {
+            "ko": null,
+            "en": "Renewable hydrocarbon sources"
+          }
+        },
+        {
+          "code": "H02J 101/40",
+          "title": {
+            "ko": null,
+            "en": "Hybrid power plants, i.e. a plurality of different generation technologies being operated at one power plant"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 103/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to circuit arrangements for AC distribution networks"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02J 103/00",
+      "title": {
+        "ko": null,
+        "en": "Details of circuit arrangements for mains or AC distribution networks"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 103/30",
+          "title": {
+            "ko": null,
+            "en": "Simulating, planning, modelling, reliability check or computer assisted design [CAD] of electric power networks"
+          }
+        },
+        {
+          "code": "H02J 103/35",
+          "title": {
+            "ko": null,
+            "en": "Grid-level management of power transmission or distribution systems, e.g. load flow analysis or active network management"
+          }
+        },
+        {
+          "code": "H02J 103/40",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements adaptive to forecasted demand"
+          }
+        },
+        {
+          "code": "H02J 103/50",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements adaptive to forecasted power generation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 105/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to spatial reach or load"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02J 105/00",
+      "title": {
+        "ko": null,
+        "en": "Networks for supplying or distributing electric power characterised by their spatial reach or by the load"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 105/10",
+          "title": {
+            "ko": null,
+            "en": "Local stationary networks having a local or delimited stationary reach"
+          }
+        },
+        {
+          "code": "H02J 105/12",
+          "title": {
+            "ko": null,
+            "en": "supplying households or buildings"
+          }
+        },
+        {
+          "code": "H02J 105/16",
+          "title": {
+            "ko": null,
+            "en": "being internal to power sources or power generation plants"
+          }
+        },
+        {
+          "code": "H02J 105/30",
+          "title": {
+            "ko": null,
+            "en": "the load networks being external to vehicles, i.e. exchanging power with vehicles"
+          }
+        },
+        {
+          "code": "H02J 105/33",
+          "title": {
+            "ko": null,
+            "en": "exchanging power with road vehicles"
+          }
+        },
+        {
+          "code": "H02J 105/37",
+          "title": {
+            "ko": null,
+            "en": "exchanging power with electric vehicles [EV] or with hybrid electric vehicles [HEV]"
+          }
+        },
+        {
+          "code": "H02J 105/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by the loads connecting to the networks or being supplied by the networks"
+          }
+        },
+        {
+          "code": "H02J 105/42",
+          "title": {
+            "ko": null,
+            "en": "Home appliances"
+          }
+        },
+        {
+          "code": "H02J 105/44",
+          "title": {
+            "ko": null,
+            "en": "Portable electronic devices"
+          }
+        },
+        {
+          "code": "H02J 105/46",
+          "title": {
+            "ko": null,
+            "en": "Medical devices, medical implants or life supporting devices"
+          }
+        },
+        {
+          "code": "H02J 105/50",
+          "title": {
+            "ko": null,
+            "en": "for selectively controlling the operation of the loads"
+          }
+        },
+        {
+          "code": "H02J 105/52",
+          "title": {
+            "ko": null,
+            "en": "for limitation of the power consumption in the networks or in one section of the networks, e.g. load shedding or peak shaving"
+          }
+        },
+        {
+          "code": "H02J 105/53",
+          "title": {
+            "ko": null,
+            "en": "for partial power limitation, e.g. entering degraded or current limitation modes"
+          }
+        },
+        {
+          "code": "H02J 105/54",
+          "title": {
+            "ko": null,
+            "en": "according to a non-electrical condition, e.g. temperature"
+          }
+        },
+        {
+          "code": "H02J 105/55",
+          "title": {
+            "ko": null,
+            "en": "according to an economic condition, e.g. tariff-based load management"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02J 107/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to circuit arrangements for communication"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02J 107/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit arrangements for communication specially adapted for monitoring, managing or controlling operation of power networks remotely"
+      },
+      "subgroups": [
+        {
+          "code": "H02J 107/10",
+          "title": {
+            "ko": null,
+            "en": "using wired networks, e.g. data transmission buses or optical fibres"
+          }
+        },
+        {
+          "code": "H02J 107/105",
+          "title": {
+            "ko": null,
+            "en": "Power line communication [PLC]"
+          }
+        },
+        {
+          "code": "H02J 107/20",
+          "title": {
+            "ko": null,
+            "en": "using wireless networks, e.g. mobile telephones"
+          }
+        },
+        {
+          "code": "H02J 107/30",
+          "title": {
+            "ko": null,
+            "en": "involving the use of Internet protocols"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "description": "rt_error → work.failed broadcast (사용자 안전 메시지, raw 예외는 log).",
+ "events": [
+  {
+   "type": "rt_enqueued",
+   "persona": 1,
+   "payload": {},
+   "step": {
+    "id": "s0",
+    "display_status": {
+     "ko": "진행 중",
+     "en": "Working"
+    }
+   }
+  },
+  {
+   "type": "rt_error",
+   "persona": 1,
+   "payload": {
+    "message": "mock tape error"
+   }
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.failed"
+  ],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "work.failed": 1
+  },
+  "payload_contains": []
+ }
+}

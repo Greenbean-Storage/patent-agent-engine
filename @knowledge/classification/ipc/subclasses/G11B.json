@@ -1,0 +1,3717 @@
+{
+  "subclass": "G11B",
+  "title": {
+    "ko": "기록매체와 변환기 사이의 상대적인 운동을 기본으로 하는 정보저장(측정치를 기록함에 있어서 변환기를 통한 재생을 필요로 하지 않는 것 G01D; 사진용을 위한 감광물 또는 감광처리 G03C; 일렉트로그래피(electrography), 일렉트로포토그래피(electrophotography), 마그네토그래피(magnetography) G03G; 기록 또는 재생장치로서 천공된 종이테이프와 같이 기계적으로 표시된 테이프를 사용하거나 또는 천공 내지 자기적으로 표시된 카드와 같이 단위 기록체를 사용하는 것, G06K; 어떤 타입의 기록매체로 부터 다른 타입의 기록매체로 데이터를 이송하는 것 G06K 1/18; 기록매체로부터 데이터를 인쇄하는 것 G06K 3/00; 출력데이터의 영구 가시적 표현을 생성하기 위한 구성 G06K 15/00; 표시장치의 제어를 위한 구성 또는 회로로서 변화하는 정보를 나타내기 위해 통계적 수단을 사용하는 것 G09G; 일반적으로 주사형 탐침기구의 세목들 G12B 21/00; 코딩, 디코딩 또는 코드변환 H03M; 재생기의 출력을 라디오 수신기에 정합하기 위한 회로 H04B 1/20; 텔레비전 신호의 기록 H04N 5/76, H04N 9/79 : 라우드스피커, 마이크로폰, 그라모폰(gramophone)픽업 또는 음향의 전기기계적 변환기 내지 이들을 위한 회로 H04R)",
+    "en": "INFORMATION STORAGE BASED ON RELATIVE MOVEMENT BETWEEN RECORD CARRIER AND TRANSDUCER (recording measured values in a way that does not require playback through a transducer G01D0009000000;recording or playback apparatus using mechanically marked tape, e.g. punched paper tape, or using unit records, e.g. punched or magnetically marked cards G06K;transferring data from one type of record carrier to another G06K0001180000; circuits for coupling output of reproducer to radio receiver H04B0001200000; gramophone pick-ups or like acoustic electromechanical transducers or circuits therefor H04R)"
+  },
+  "definition": {
+    "ko": "같은 형태의 재생수단에 관련되어 있는 기록 기계적인 형태 G11B3/00 자기적인 형태 G11B5/00 광학 형태 G11B7/00 기타 형태 G11B9/00 하나의 형식의 기록으로 다른 형태의 재생수단과 조합되는 기록 G11B11/00 다른 형태들의 동시 또는 선택적 기록; 그와 관련된 동시 또는 선택적 재생수단 G11B13/00 기록 또는 재생방법에 특징이 없는 신호처리 G11B20/00 기록매체의 형상에 의해 특징 지워지는 장치 G11B25/00 세부; 일반적인 형태 시동, 정지, 구동 G11B15/00, G11B19/00 안내 G11B17/00 헤드; 기록매체 G11B21/00; 23/00 다른 장치와 관련되는 동작 G11B31/00 편집, 색인, 동기, 모니터링 G11B27/00 제조 G11B3/70, G11B5/84, G11B7/26 다른 구조적인 부품, 세부 또는 부속품 G11B33/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G11B 3/00",
+      "title": {
+        "ko": "기계적인 커팅, 변형 또는 프레싱에 의한 기록, 예. 그루브(groove) 또는 피트(pits) 기계적 감지에 의한 재생 이것에 대한 기록매체(G11B 11/00이 우선)",
+        "en": "Recording by mechanical cutting, deforming or pressing, e.g. of grooves or pits; Reproducing by mechanical sensing; Record carriers therefor (G11B0011000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 3/02",
+          "title": {
+            "ko": "헤드의 배치",
+            "en": "Arrangements of heads"
+          }
+        },
+        {
+          "code": "G11B 3/04",
+          "title": {
+            "ko": null,
+            "en": "Multiple, convertible, or alternative transducing arrangements"
+          }
+        },
+        {
+          "code": "G11B 3/06",
+          "title": {
+            "ko": null,
+            "en": "Determining or indicating position of head"
+          }
+        },
+        {
+          "code": "G11B 3/08",
+          "title": {
+            "ko": "기록매체에 대해서 헤드를 상승, 하강, 변환이 아닌 기타 것을 위한 횡단, 구속 또는 격리 지지하는 수단",
+            "en": "Raising, lowering, traversing otherwise than for transducing, arresting, or holding-up heads against record carriers"
+          }
+        },
+        {
+          "code": "G11B 3/085",
+          "title": {
+            "ko": "자동적인 수단을 사용하는 것(3/095가 우선)",
+            "en": "using automatic means (G11B0003095000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 3/09",
+          "title": {
+            "ko": "수동적인 수단만을 사용하는 것 (G11B3/095가 우선)",
+            "en": "using manual means only (G11B0003095000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 3/095",
+          "title": {
+            "ko": null,
+            "en": "for repeating a part of the record; for beginning or stopping at a desired point of the record"
+          }
+        },
+        {
+          "code": "G11B 3/10",
+          "title": {
+            "ko": "기록매체에 대해서 헤드 또는 변환기(transducer)를 상대적으로 배치, 지지 또는 구동하기 위한 것",
+            "en": "Arranging, supporting, or driving of heads or of transducers relatively to record carriers"
+          }
+        },
+        {
+          "code": "G11B 3/12",
+          "title": {
+            "ko": "평형하게, 균형이 잡히도록 하는 또는 올려진 동작위치에서의 지지, 예. 횡단방향에 있어서의 로딩(loading)",
+            "en": "Supporting in balanced, counterbalanced, or loaded operative position, e.g. loading in direction of traverse"
+          }
+        },
+        {
+          "code": "G11B 3/14",
+          "title": {
+            "ko": "중력 또는 관성을 이용하는 것, 예. 평형추(3/28이 우선)",
+            "en": "by using effects of gravity or inertia, e.g. counterweight (G11B0003280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 3/16",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "G11B 3/18",
+          "title": {
+            "ko": null,
+            "en": "Damping by using viscosity effect"
+          }
+        },
+        {
+          "code": "G11B 3/20",
+          "title": {
+            "ko": "탄성수단에 의한 것, 예. 스프링 (G11B3/28이 우선)",
+            "en": "by elastic means, e.g. spring (G11B0003280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 3/22",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "G11B 3/24",
+          "title": {
+            "ko": null,
+            "en": "acting to decrease pressure on record"
+          }
+        },
+        {
+          "code": "G11B 3/26",
+          "title": {
+            "ko": null,
+            "en": "acting to increase pressure on record"
+          }
+        },
+        {
+          "code": "G11B 3/28",
+          "title": {
+            "ko": null,
+            "en": "providing transverse bias parallel to record"
+          }
+        },
+        {
+          "code": "G11B 3/30",
+          "title": {
+            "ko": null,
+            "en": "Supporting in inoperative position"
+          }
+        },
+        {
+          "code": "G11B 3/31",
+          "title": {
+            "ko": null,
+            "en": "Construction of arms"
+          }
+        },
+        {
+          "code": "G11B 3/32",
+          "title": {
+            "ko": null,
+            "en": "Construction or arrangement of support pillars"
+          }
+        },
+        {
+          "code": "G11B 3/34",
+          "title": {
+            "ko": null,
+            "en": "Driving or guiding during transducing operation"
+          }
+        },
+        {
+          "code": "G11B 3/36",
+          "title": {
+            "ko": null,
+            "en": "Automatic-feed mechanisms producing progressive transducing traverse across record carriers otherwise than by grooves, e.g. by lead-screw"
+          }
+        },
+        {
+          "code": "G11B 3/38",
+          "title": {
+            "ko": null,
+            "en": "Guiding, e.g. constructions or arrangements providing linear or other special tracking characteristics"
+          }
+        },
+        {
+          "code": "G11B 3/40",
+          "title": {
+            "ko": null,
+            "en": "Driving of heads relatively to stationary record carriers for transducing"
+          }
+        },
+        {
+          "code": "G11B 3/42",
+          "title": {
+            "ko": null,
+            "en": "with provision for adaptation or interchange of heads"
+          }
+        },
+        {
+          "code": "G11B 3/44",
+          "title": {
+            "ko": "스타일리(styli), 예. 사파이어, 다이아몬드",
+            "en": "Styli, e.g. sapphire, diamond"
+          }
+        },
+        {
+          "code": "G11B 3/46",
+          "title": {
+            "ko": null,
+            "en": "Constructions or forms, e.g. attachment of point to shank"
+          }
+        },
+        {
+          "code": "G11B 3/48",
+          "title": {
+            "ko": null,
+            "en": "Needles"
+          }
+        },
+        {
+          "code": "G11B 3/50",
+          "title": {
+            "ko": null,
+            "en": "Anvils or other supports opposing stylus forces"
+          }
+        },
+        {
+          "code": "G11B 3/52",
+          "title": {
+            "ko": null,
+            "en": "Arrangements permitting styli to yield under excessive pressure"
+          }
+        },
+        {
+          "code": "G11B 3/54",
+          "title": {
+            "ko": null,
+            "en": "Storing; Manipulating, e.g. feeding styli to and from heads"
+          }
+        },
+        {
+          "code": "G11B 3/56",
+          "title": {
+            "ko": "뽀족하게 하는 것(연마에 의한 것, B24B 19/26)",
+            "en": "Sharpening (by grinding B24B0019160000)"
+          }
+        },
+        {
+          "code": "G11B 3/58",
+          "title": {
+            "ko": null,
+            "en": "Cleaning record carriers or styli, e.g. removing shavings or dust"
+          }
+        },
+        {
+          "code": "G11B 3/60",
+          "title": {
+            "ko": null,
+            "en": "Turntables for record carriers"
+          }
+        },
+        {
+          "code": "G11B 3/61",
+          "title": {
+            "ko": null,
+            "en": "Damping of vibrations of record carriers on turntables"
+          }
+        },
+        {
+          "code": "G11B 3/64",
+          "title": {
+            "ko": null,
+            "en": "Re-recording, i.e. transcribing information from one grooved record carrier on to one or more similar or dissimilar record carriers"
+          }
+        },
+        {
+          "code": "G11B 3/66",
+          "title": {
+            "ko": null,
+            "en": "Erasing information, e.g. for reuse of record carrier"
+          }
+        },
+        {
+          "code": "G11B 3/68",
+          "title": {
+            "ko": null,
+            "en": "Record carriers"
+          }
+        },
+        {
+          "code": "G11B 3/70",
+          "title": {
+            "ko": null,
+            "en": "characterised by the selection of material or structure; Processes or apparatus specially adapted for manufacturing record carriers"
+          }
+        },
+        {
+          "code": "G11B 3/72",
+          "title": {
+            "ko": null,
+            "en": "Groove formations, e.g. run-in groove, run-out groove"
+          }
+        },
+        {
+          "code": "G11B 3/74",
+          "title": {
+            "ko": null,
+            "en": "Multiple output tracks, e.g. binaural stereophonic"
+          }
+        },
+        {
+          "code": "G11B 3/76",
+          "title": {
+            "ko": null,
+            "en": "forming part of cinematograph films"
+          }
+        },
+        {
+          "code": "G11B 3/78",
+          "title": {
+            "ko": null,
+            "en": "Multiple-track arrangements"
+          }
+        },
+        {
+          "code": "G11B 3/80",
+          "title": {
+            "ko": null,
+            "en": "incorporating subsidiary guide means for heads, other than modulated grooves; Part-formed unmodulated grooves for conversion into transducing grooves"
+          }
+        },
+        {
+          "code": "G11B 3/90",
+          "title": {
+            "ko": null,
+            "en": "with means indicating prior or unauthorised use"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 5/00",
+      "title": {
+        "ko": "기록매체상에 자화(magnetisation) 또는 비자화 (demagnetisation)에 의한 기록; 자기적인 수단에 의한 재생; 이것에 대한 기록매체(11/00이 우선)",
+        "en": "Recording by magnetisation or demagnetisation of a record carrier; Reproducing by magnetic means; Record carriers therefor (G11B0011000000 takes precedence)"
+      },
+      "definition": {
+        "ko": "그룹 G11B5/02 ~ G11B5/86은 그룹 G11B5/004 ~ G11B5/012에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G11B 5/004",
+          "title": {
+            "ko": "자기드럼에 기록, 또는 이것으로부터 재생 또는 소거(19/00이 우선)",
+            "en": "Recording on, or reproducing or erasing from, magnetic drums (G11B0019000000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/008",
+          "title": {
+            "ko": "자기테이프 또는 자기와이어에의 기록 또는 이것으로부터 재생 또는 소거(15/00이 우선)",
+            "en": "Recording on, or reproducing or erasing from, magnetic tapes or wires (G11B0015000000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/012",
+          "title": {
+            "ko": "자기디스크에 기록 또는 이것으로부터 재생 또는 소거 (G11B17/00, G11B19/00 이 우선)",
+            "en": "Recording on, or reproducing or erasing from, magnetic disks  (G11B0017000000, G11B0019000000 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/016",
+          "title": {
+            "ko": null,
+            "en": "using magnetic foils"
+          }
+        },
+        {
+          "code": "G11B 5/02",
+          "title": {
+            "ko": null,
+            "en": "Recording, reproducing or erasing methods; Read, write or erase circuits therefor"
+          }
+        },
+        {
+          "code": "G11B 5/024",
+          "title": {
+            "ko": null,
+            "en": "Erasing"
+          }
+        },
+        {
+          "code": "G11B 5/027",
+          "title": {
+            "ko": null,
+            "en": "Analogue recording"
+          }
+        },
+        {
+          "code": "G11B 5/03",
+          "title": {
+            "ko": null,
+            "en": "Biasing"
+          }
+        },
+        {
+          "code": "G11B 5/035",
+          "title": {
+            "ko": null,
+            "en": "Equalising"
+          }
+        },
+        {
+          "code": "G11B 5/09",
+          "title": {
+            "ko": null,
+            "en": "Digital recording"
+          }
+        },
+        {
+          "code": "G11B 5/10",
+          "title": {
+            "ko": "헤드에 대한 하우징 또는 차폐(shield) 또는 제조",
+            "en": "Structure or manufacture of housings or shields for heads"
+          }
+        },
+        {
+          "code": "G11B 5/105",
+          "title": {
+            "ko": null,
+            "en": "Mounting of head within housing"
+          }
+        },
+        {
+          "code": "G11B 5/11",
+          "title": {
+            "ko": "전계 또는 자계에 대하여 헤드를 차폐하는 것",
+            "en": "Shielding of head against electric or magnetic fields"
+          }
+        },
+        {
+          "code": "G11B 5/115",
+          "title": {
+            "ko": "헤드 또는 권선 사이에 배치된 차폐장치 (G11B5/29가 우선)",
+            "en": "Shielding device arranged between heads or windings (G11B0005290000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/127",
+          "title": {
+            "ko": "헤드의 구조 또는 제조, 예. 유도형(inductive)",
+            "en": "Structure or manufacture of heads, e.g. inductive"
+          }
+        },
+        {
+          "code": "G11B 5/133",
+          "title": {
+            "ko": null,
+            "en": "with cores composed of particles, e.g. with dust cores, with ferrite cores"
+          }
+        },
+        {
+          "code": "G11B 5/147",
+          "title": {
+            "ko": null,
+            "en": "with cores being composed of metal sheets, i.e. laminated cores"
+          }
+        },
+        {
+          "code": "G11B 5/153",
+          "title": {
+            "ko": null,
+            "en": "with tape-wound cores"
+          }
+        },
+        {
+          "code": "G11B 5/17",
+          "title": {
+            "ko": null,
+            "en": "Construction or disposition of windings"
+          }
+        },
+        {
+          "code": "G11B 5/187",
+          "title": {
+            "ko": "기록매체에 물리적으로 접촉하거나 직접 근접하는 헤드 표면의 구조 또는 제조; 폴피이스(pole piece); 갭의 형태(5/565, 5/31이 우선)",
+            "en": "Structure or manufacture of the surface of the head in physical contact with, or immediately adjacent to, the recording medium; Pole pieces; Gap features (G11B0005265000, G11B0005310000 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/193",
+          "title": {
+            "ko": null,
+            "en": "the pole pieces being ferrite"
+          }
+        },
+        {
+          "code": "G11B 5/21",
+          "title": {
+            "ko": null,
+            "en": "the pole pieces being of ferrous sheet metal"
+          }
+        },
+        {
+          "code": "G11B 5/23",
+          "title": {
+            "ko": null,
+            "en": "Gap features"
+          }
+        },
+        {
+          "code": "G11B 5/235",
+          "title": {
+            "ko": null,
+            "en": "Selection of material for gap filler"
+          }
+        },
+        {
+          "code": "G11B 5/245",
+          "title": {
+            "ko": "자기회로의 릴럭턴스(reluctance)를 제어하는 수단을 포함하고 있는 것",
+            "en": "comprising means for controlling the reluctance of the magnetic circuit (G11B0005255000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/255",
+          "title": {
+            "ko": null,
+            "en": "comprising means for protection against wear"
+          }
+        },
+        {
+          "code": "G11B 5/265",
+          "title": {
+            "ko": "동일 트랙에 대해서 소거, 기록 또는 재생하기 위한 복수개의 갭을 가지고 있는 헤드의 구조 또는 제조(5/33이 우선)",
+            "en": "Structure or manufacture of a head with more than one gap for erasing, recording or reproducing on the same track (G11B0005330000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/29",
+          "title": {
+            "ko": null,
+            "en": "Structure or manufacture of unitary devices formed of plural heads for more than one track"
+          }
+        },
+        {
+          "code": "G11B 5/31",
+          "title": {
+            "ko": "박막을 사용하는 것(5/33이 우선)",
+            "en": "using thin film (G11B0005330000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/325",
+          "title": {
+            "ko": "영구자석을 사용하는 소거헤드(이것에 대한 일반적인 세부 5/133 ～ 5/255)",
+            "en": "Erasing heads using permanent magnets (general details therefor G11B0005133000-G11B0005255000)"
+          }
+        },
+        {
+          "code": "G11B 5/33",
+          "title": {
+            "ko": "자속감지 헤드의 구조 또는 제조 (이것에 대한 일반적인 세부 G11B5/133 ～ G11B5/255)",
+            "en": "Structure or manufacture of flux-sensitive heads (general details therefor G11B0005133000-G11B0005255000)"
+          }
+        },
+        {
+          "code": "G11B 5/335",
+          "title": {
+            "ko": null,
+            "en": "with saturated jig, e.g. for detecting second harmonic, balanced-flux head"
+          }
+        },
+        {
+          "code": "G11B 5/35",
+          "title": {
+            "ko": null,
+            "en": "having vibrating elements"
+          }
+        },
+        {
+          "code": "G11B 5/37",
+          "title": {
+            "ko": "기전자기(galvano-magnetic) 장치를 사용하는 것, 예. 홀효과(hall-effect)장치(5/39가 우선)",
+            "en": "using galvano-magnetic devices, e.g. Hall-effect devices (G11B0005390000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/39",
+          "title": {
+            "ko": null,
+            "en": "using magneto-resistive devices"
+          }
+        },
+        {
+          "code": "G11B 5/40",
+          "title": {
+            "ko": "헤드에 대한 보호수단, 예. 과도한 온도에 대한 보호 (G11B5/255)",
+            "en": "Protective measures on heads, e.g. against excessive temperature (G11B0005310000 takes precedence;protection against wear G11B0005255000)"
+          }
+        },
+        {
+          "code": "G11B 5/41",
+          "title": {
+            "ko": null,
+            "en": "Cleaning of heads"
+          }
+        },
+        {
+          "code": "G11B 5/455",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for functional testing of heads; Measuring arrangements for heads"
+          }
+        },
+        {
+          "code": "G11B 5/465",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for demagnetisation of heads"
+          }
+        },
+        {
+          "code": "G11B 5/48",
+          "title": {
+            "ko": "기록매체에 대응하게 헤드를 부착 또는 배치하는 것",
+            "en": "Disposition or mounting of heads relative to record carriers"
+          }
+        },
+        {
+          "code": "G11B 5/49",
+          "title": {
+            "ko": null,
+            "en": "Fixed mountings"
+          }
+        },
+        {
+          "code": "G11B 5/50",
+          "title": {
+            "ko": null,
+            "en": "Interchangeable mountings, e.g. for replacement of head without readjustment"
+          }
+        },
+        {
+          "code": "G11B 5/52",
+          "title": {
+            "ko": "기록매체와 헤드를 동시에 움직이도록 한 것, 예. 헤드의 회전(5/58 B이 우선)",
+            "en": "with simultaneous movement of head and record carrier, e.g. rotation of head (G11B0005588000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/53",
+          "title": {
+            "ko": null,
+            "en": "Disposition or mounting of heads on rotating support"
+          }
+        },
+        {
+          "code": "G11B 5/54",
+          "title": {
+            "ko": null,
+            "en": "with provision for moving the head into, or out of, its operative position or across tracks"
+          }
+        },
+        {
+          "code": "G11B 5/55",
+          "title": {
+            "ko": null,
+            "en": "Track change, selection, or acquisition by displacement of the head"
+          }
+        },
+        {
+          "code": "G11B 5/56",
+          "title": {
+            "ko": "기록매체에 대응하여 헤드의 위치를 조정하기 위해서 헤드를 움직이는 수단을 가지고 있는 것, 예. 트랙 중심 또는 방위(azimuth) 수정을 위한 수동조정 (G11B5/54, G11B5/58이 우선)",
+            "en": "with provision for moving the head for the purpose of adjusting the position of the head relative to the record carrier, e.g. manual adjustment for azimuth correction or track centering (G11B0005540000, G11B0005580000 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/58",
+          "title": {
+            "ko": "변환동작 중에 기록매체에 대응하여 헤드의 배치 관계를 유지하기 위해서 헤드를 움직이는 수단을 가지고 있는 것, 예. 기록매체의 표면불규칙성 또는 추종을 보상하기 위한 것",
+            "en": "with provision for moving the head for the purpose of maintaining alignment of the head relative to the record carrier during transducing operation, e.g. to compensate for surface irregularities of the latter or for track following"
+          }
+        },
+        {
+          "code": "G11B 5/584",
+          "title": {
+            "ko": "테이프 상의 트랙을 추종하기 위한 것",
+            "en": "for track following on tapes"
+          }
+        },
+        {
+          "code": "G11B 5/588",
+          "title": {
+            "ko": "회전헤드의 위치제어에 의한 것 (기록매체의 속도제어에 의한 것 G11B15/467; 회전헤드의 속도제어에 의한 것 G11B15/473)",
+            "en": "by controlling the position of the rotating heads (by controlling the speed of the record carrier G11B0015467000;by controlling the speed of the rotating heads G11B0015473000)"
+          }
+        },
+        {
+          "code": "G11B 5/592",
+          "title": {
+            "ko": null,
+            "en": "using bimorph elements supporting the heads"
+          }
+        },
+        {
+          "code": "G11B 5/596",
+          "title": {
+            "ko": null,
+            "en": "for track following on disks"
+          }
+        },
+        {
+          "code": "G11B 5/60",
+          "title": {
+            "ko": null,
+            "en": "Fluid-dynamic spacing of heads from record carriers"
+          }
+        },
+        {
+          "code": "G11B 5/62",
+          "title": {
+            "ko": "재료의 선택에 특징이 있는 기록매체",
+            "en": "Record carriers characterised by the selection of the material"
+          },
+          "definition": {
+            "ko": "이 그룹은 섹션 B 또는 C의 관련 서브클래스에 포함되는, 구성, 재료 또는 공정, 그 자체를 포함하지 않는다.",
+            "en": null
+          }
+        },
+        {
+          "code": "G11B 5/627",
+          "title": {
+            "ko": null,
+            "en": "of leaders for magnetic tapes, e.g. non-magnetic strips on the tapes or for connection"
+          }
+        },
+        {
+          "code": "G11B 5/633",
+          "title": {
+            "ko": null,
+            "en": "of cinematographic films or slides with integral magnetic track"
+          }
+        },
+        {
+          "code": "G11B 5/64",
+          "title": {
+            "ko": "결합제가 없이 자성재료만은 포함하고 있는 것",
+            "en": "comprising only the magnetic material without bonding agent"
+          }
+        },
+        {
+          "code": "G11B 5/65",
+          "title": {
+            "ko": "그 구성으로 특징지어지는 것(5/66가 우선)",
+            "en": "characterised by its composition (G11B0005660000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/66",
+          "title": {
+            "ko": null,
+            "en": "the record carriers consisting of several layers"
+          }
+        },
+        {
+          "code": "G11B 5/667",
+          "title": {
+            "ko": null,
+            "en": "including a soft magnetic layer"
+          }
+        },
+        {
+          "code": "G11B 5/673",
+          "title": {
+            "ko": null,
+            "en": "comprising the repeated occurrence of two or more layers"
+          }
+        },
+        {
+          "code": "G11B 5/68",
+          "title": {
+            "ko": null,
+            "en": "comprising one or more layers of magnetisable particles homogeneously mixed with a bonding agent"
+          }
+        },
+        {
+          "code": "G11B 5/70",
+          "title": {
+            "ko": null,
+            "en": "on a base layer"
+          }
+        },
+        {
+          "code": "G11B 5/702",
+          "title": {
+            "ko": null,
+            "en": "characterised by the bonding agent"
+          }
+        },
+        {
+          "code": "G11B 5/706",
+          "title": {
+            "ko": null,
+            "en": "characterised by the composition of the magnetic material"
+          }
+        },
+        {
+          "code": "G11B 5/708",
+          "title": {
+            "ko": null,
+            "en": "characterised by the addition of non-magnetic particles to the magnetic layer"
+          }
+        },
+        {
+          "code": "G11B 5/71",
+          "title": {
+            "ko": null,
+            "en": "characterised by the lubricant"
+          }
+        },
+        {
+          "code": "G11B 5/712",
+          "title": {
+            "ko": null,
+            "en": "characterised by the surface treatment or coating of magnetic particles"
+          }
+        },
+        {
+          "code": "G11B 5/714",
+          "title": {
+            "ko": null,
+            "en": "characterised by the dimension of the magnetic particles"
+          }
+        },
+        {
+          "code": "G11B 5/716",
+          "title": {
+            "ko": null,
+            "en": "characterised by two or more magnetic layers"
+          }
+        },
+        {
+          "code": "G11B 5/718",
+          "title": {
+            "ko": null,
+            "en": "at least one on each side of the base layer"
+          }
+        },
+        {
+          "code": "G11B 5/72",
+          "title": {
+            "ko": null,
+            "en": "Protective coatings, e.g. anti-static"
+          }
+        },
+        {
+          "code": "G11B 5/725",
+          "title": {
+            "ko": null,
+            "en": "containing a lubricant"
+          }
+        },
+        {
+          "code": "G11B 5/73",
+          "title": {
+            "ko": null,
+            "en": "Base layers"
+          }
+        },
+        {
+          "code": "G11B 5/733",
+          "title": {
+            "ko": null,
+            "en": "characterised by the addition of non-magnetic particles"
+          }
+        },
+        {
+          "code": "G11B 5/735",
+          "title": {
+            "ko": null,
+            "en": "characterised by the back layer"
+          }
+        },
+        {
+          "code": "G11B 5/738",
+          "title": {
+            "ko": null,
+            "en": "characterised by the intermediate layer"
+          }
+        },
+        {
+          "code": "G11B 5/74",
+          "title": {
+            "ko": null,
+            "en": "Record carriers characterised by the form, e.g. sheet shaped to wrap around a drum"
+          }
+        },
+        {
+          "code": "G11B 5/76",
+          "title": {
+            "ko": null,
+            "en": "Drum carriers"
+          }
+        },
+        {
+          "code": "G11B 5/78",
+          "title": {
+            "ko": null,
+            "en": "Tape carriers"
+          }
+        },
+        {
+          "code": "G11B 5/80",
+          "title": {
+            "ko": null,
+            "en": "Card carriers"
+          }
+        },
+        {
+          "code": "G11B 5/82",
+          "title": {
+            "ko": null,
+            "en": "Disk carriers"
+          }
+        },
+        {
+          "code": "G11B 5/84",
+          "title": {
+            "ko": "기록매체의 제조에 특히 적용되는 방법 또는 장치",
+            "en": "Processes or apparatus specially adapted for manufacturing record carriers"
+          }
+        },
+        {
+          "code": "G11B 5/842",
+          "title": {
+            "ko": null,
+            "en": "Coating a support with a liquid magnetic dispersion"
+          }
+        },
+        {
+          "code": "G11B 5/845",
+          "title": {
+            "ko": null,
+            "en": "in a magnetic field"
+          }
+        },
+        {
+          "code": "G11B 5/848",
+          "title": {
+            "ko": null,
+            "en": "Coating a support with a magnetic layer by extrusion"
+          }
+        },
+        {
+          "code": "G11B 5/85",
+          "title": {
+            "ko": null,
+            "en": "Coating a support with a magnetic layer by vapour deposition"
+          }
+        },
+        {
+          "code": "G11B 5/851",
+          "title": {
+            "ko": null,
+            "en": "Coating a support with a magnetic layer by sputtering"
+          }
+        },
+        {
+          "code": "G11B 5/852",
+          "title": {
+            "ko": "자계내에서 있어서의 배향(orientation) (G11B5/845가 우선)",
+            "en": "Orientation in a magnetic field (G11B0005845000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/855",
+          "title": {
+            "ko": null,
+            "en": "Coating only part of a support with a magnetic layer"
+          }
+        },
+        {
+          "code": "G11B 5/858",
+          "title": {
+            "ko": null,
+            "en": "Producing a magnetic layer by electro-plating or electroless plating"
+          }
+        },
+        {
+          "code": "G11B 5/86",
+          "title": {
+            "ko": null,
+            "en": "Re-recording, i.e. transcribing information from one magnetisable record carrier on to one or more similar or dissimilar record carriers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 7/00",
+      "title": {
+        "ko": "광학적 수단에 의한 정보의 기록 또는 재생, 예. 광 조사에 수반하는 열적 빔을 이용한 기록, 저출력 광빔을 이용한 재생; 이를 위한 기록매체 (G11B11/00, G11B13/00이 우선)",
+        "en": "Recording or reproducing by optical means, e.g. recording using a thermal beam of optical radiation, reproducing using an optical beam at lower power; Record carriers therefor (G11B0011000000, G11B0013000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 7/002",
+          "title": {
+            "ko": null,
+            "en": "Recording, reproducing or erasing systems characterised by the shape of the carrier"
+          }
+        },
+        {
+          "code": "G11B 7/0025",
+          "title": {
+            "ko": null,
+            "en": "with cylinders or cylinder-like carriers, e.g. truncated cones"
+          }
+        },
+        {
+          "code": "G11B 7/003",
+          "title": {
+            "ko": null,
+            "en": "with webs, e.g. belts, spooled tapes or films of quasi-infinite extent"
+          }
+        },
+        {
+          "code": "G11B 7/0033",
+          "title": {
+            "ko": null,
+            "en": "with cards"
+          }
+        },
+        {
+          "code": "G11B 7/0037",
+          "title": {
+            "ko": null,
+            "en": "with discs"
+          }
+        },
+        {
+          "code": "G11B 7/004",
+          "title": {
+            "ko": "기록, 재생 또는 소거방법; 이를 위한 회로",
+            "en": "Recording, reproducing or erasing methods; Read, write or erase circuits therefor"
+          }
+        },
+        {
+          "code": "G11B 7/0045",
+          "title": {
+            "ko": "기록 (G11B7/006, G11B7/0065가 우선)",
+            "en": "Recording (G11B0007006000, G11B0007006500 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/005",
+          "title": {
+            "ko": "재생(7/0065가 우선)",
+            "en": "Reproducing (G11B0007006500 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/0055",
+          "title": {
+            "ko": "소거 (G11B7/006, G11B7/0065가 우선)",
+            "en": "Erasing (G11B0007006000, G11B0007006500 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/006",
+          "title": {
+            "ko": "덮어쓰기 (G11B7/0065가 우선)",
+            "en": "Overwriting (G11B0007006500 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/0065",
+          "title": {
+            "ko": null,
+            "en": "Recording, reproducing or erasing by using optical interference patterns, e.g. holograms"
+          }
+        },
+        {
+          "code": "G11B 7/007",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of the information on the record carrier, e.g. form of tracks"
+          }
+        },
+        {
+          "code": "G11B 7/013",
+          "title": {
+            "ko": null,
+            "en": "for discrete information, i.e. where each information unit is stored in a distinct location"
+          }
+        },
+        {
+          "code": "G11B 7/08",
+          "title": {
+            "ko": null,
+            "en": "Disposition or mounting of heads or light sources relatively to record carriers"
+          }
+        },
+        {
+          "code": "G11B 7/085",
+          "title": {
+            "ko": null,
+            "en": "with provision for moving the light beam into, or out of, its operative position."
+          }
+        },
+        {
+          "code": "G11B 7/09",
+          "title": {
+            "ko": null,
+            "en": "with provision for moving the light beam or focus plane for the purpose of maintaining alignment of the light beam relative to the record carrier during transducing operation, e.g. to compensate for surface irregularities of the latter or for track following"
+          }
+        },
+        {
+          "code": "G11B 7/095",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for discs, e.g. for compensation of eccentricity or wobble"
+          }
+        },
+        {
+          "code": "G11B 7/10",
+          "title": {
+            "ko": null,
+            "en": "Interchangeable mountings, e.g. for replacement of head without readjustment"
+          }
+        },
+        {
+          "code": "G11B 7/12",
+          "title": {
+            "ko": "헤드, 예. 광빔 스폿 형성 또는 광빔의 변조(변환방법과는 무관하게, 광원 또는 광빔, 검출기의 움직임을 위한 하우징 또는 설비 내의 헤드요소의 배치 또는 장착 G11B 7/08)",
+            "en": "Heads, e.g. forming of the optical beam spot or modulation of the optical beam (disposition or mounting of head elements within housing or with provision for moving of light source, optical beam or detector, irrelevant to the transducing method G11B0007080000)"
+          }
+        },
+        {
+          "code": "G11B 7/121",
+          "title": {
+            "ko": null,
+            "en": "Protecting the head, e.g. against dust or impact with the record carrier"
+          }
+        },
+        {
+          "code": "G11B 7/122",
+          "title": {
+            "ko": null,
+            "en": "Flying-type heads, e.g. analogous to Winchester type in magnetic recording"
+          }
+        },
+        {
+          "code": "G11B 7/123",
+          "title": {
+            "ko": null,
+            "en": "Integrated head arrangements, e.g. with source and detectors mounted on the same substrate"
+          }
+        },
+        {
+          "code": "G11B 7/124",
+          "title": {
+            "ko": null,
+            "en": "the integrated head arrangements including waveguides"
+          }
+        },
+        {
+          "code": "G11B 7/1245",
+          "title": {
+            "ko": null,
+            "en": "the waveguides including means for electro-optical or acousto-optical deflection"
+          }
+        },
+        {
+          "code": "G11B 7/125",
+          "title": {
+            "ko": "그의 광빔원, 예. 광 저장장치에 특히 적합한 레이저 제어 회로; 변조기, 예. 광 스폿 또는 광 추적의 크기 또는 강도를 제어하기 위한 수단",
+            "en": "Optical beam sources therefor, e.g. laser control circuitry specially adapted for optical storage devices; Modulators, e.g. means for controlling the size or intensity of optical spots or optical traces"
+          }
+        },
+        {
+          "code": "G11B 7/126",
+          "title": {
+            "ko": null,
+            "en": "Circuits, methods or arrangements for laser control or stabilisation"
+          }
+        },
+        {
+          "code": "G11B 7/1263",
+          "title": {
+            "ko": null,
+            "en": "Power control during transducing, e.g. by monitoring"
+          }
+        },
+        {
+          "code": "G11B 7/1267",
+          "title": {
+            "ko": null,
+            "en": "Power calibration"
+          }
+        },
+        {
+          "code": "G11B 7/127",
+          "title": {
+            "ko": null,
+            "en": "Lasers; Multiple laser arrays"
+          }
+        },
+        {
+          "code": "G11B 7/1275",
+          "title": {
+            "ko": null,
+            "en": "Two or more lasers having different wavelengths"
+          }
+        },
+        {
+          "code": "G11B 7/128",
+          "title": {
+            "ko": "변조기(G11B 7/1245가 우선)",
+            "en": "Modulators (G11B0007124500 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/13",
+          "title": {
+            "ko": null,
+            "en": "Optical detectors therefor"
+          }
+        },
+        {
+          "code": "G11B 7/131",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of detectors in a multiple array"
+          }
+        },
+        {
+          "code": "G11B 7/133",
+          "title": {
+            "ko": null,
+            "en": "Shape of individual detector elements"
+          }
+        },
+        {
+          "code": "G11B 7/135",
+          "title": {
+            "ko": "광원에서 기록매체로 또는 기록매체에서 검출기로의 빔을 가이드하기 위한 수단",
+            "en": "Means for guiding the beam from the source to the record carrier or from the record carrier to the detector"
+          }
+        },
+        {
+          "code": "G11B 7/1353",
+          "title": {
+            "ko": null,
+            "en": "Diffractive elements, e.g. holograms or gratings"
+          }
+        },
+        {
+          "code": "G11B 7/1356",
+          "title": {
+            "ko": null,
+            "en": "Double or multiple prisms, i.e. having two or more prisms in cooperation"
+          }
+        },
+        {
+          "code": "G11B 7/1359",
+          "title": {
+            "ko": null,
+            "en": "Single prisms"
+          }
+        },
+        {
+          "code": "G11B 7/1362",
+          "title": {
+            "ko": null,
+            "en": "Mirrors"
+          }
+        },
+        {
+          "code": "G11B 7/1365",
+          "title": {
+            "ko": null,
+            "en": "Separate or integrated refractive elements, e.g. wave plates"
+          }
+        },
+        {
+          "code": "G11B 7/1367",
+          "title": {
+            "ko": null,
+            "en": "Stepped phase plates"
+          }
+        },
+        {
+          "code": "G11B 7/1369",
+          "title": {
+            "ko": null,
+            "en": "Active plates, e.g. liquid crystal panels or electrostrictive elements"
+          }
+        },
+        {
+          "code": "G11B 7/1372",
+          "title": {
+            "ko": null,
+            "en": "Lenses"
+          }
+        },
+        {
+          "code": "G11B 7/1374",
+          "title": {
+            "ko": null,
+            "en": "Objective lenses"
+          }
+        },
+        {
+          "code": "G11B 7/1376",
+          "title": {
+            "ko": null,
+            "en": "Collimator lenses"
+          }
+        },
+        {
+          "code": "G11B 7/1378",
+          "title": {
+            "ko": null,
+            "en": "Separate aberration correction lenses; Cylindrical lenses to generate astigmatism; Beam expanders"
+          }
+        },
+        {
+          "code": "G11B 7/1381",
+          "title": {
+            "ko": "빔의 특성을 변경하기 위한 비렌즈 요소, 예. 나이프 에지, 슬릿, 필터 또는 장애물(G11B 7/1353 - G11B 7/1369가 우선)",
+            "en": "Non-lens elements for altering the properties of the beam, e.g. knife edges, slits, filters or stops (G11B0007135300-G11B0007136900 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/1384",
+          "title": {
+            "ko": null,
+            "en": "Fibre optics"
+          }
+        },
+        {
+          "code": "G11B 7/1387",
+          "title": {
+            "ko": null,
+            "en": "using the near-field effect"
+          }
+        },
+        {
+          "code": "G11B 7/139",
+          "title": {
+            "ko": null,
+            "en": "Numerical aperture control means"
+          }
+        },
+        {
+          "code": "G11B 7/1392",
+          "title": {
+            "ko": null,
+            "en": "Means for controlling the beam wavefront, e.g. for correction of aberration"
+          }
+        },
+        {
+          "code": "G11B 7/1395",
+          "title": {
+            "ko": "빔 스플리터 또는 빔 결합기(G11B 7/1353, G11B 7/1356이 우선)",
+            "en": "Beam splitters or combiners (G11B0007135300, G11B0007135600 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/1398",
+          "title": {
+            "ko": null,
+            "en": "Means for shaping the cross-section of the beam, e.g. into circular or elliptical cross-section"
+          }
+        },
+        {
+          "code": "G11B 7/14",
+          "title": {
+            "ko": null,
+            "en": "specially adapted to record on, or to reproduce from, more than one track simultaneously"
+          }
+        },
+        {
+          "code": "G11B 7/22",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or processes for the manufacture of optical heads, e.g. assembly"
+          }
+        },
+        {
+          "code": "G11B 7/24",
+          "title": {
+            "ko": "재료의 선택 또는 물리적 성질, 구조, 형태에 특정되는 기록 또는 특징지어 지는 기록매체(기록매체상에 정보의 배치에 의해서 특징되는 것 G11B 7/007)",
+            "en": "Record carriers characterised by shape, structure or physical properties, or by the selection of the material  (characterised by the arrangement of information on the carrier G11B0007007000)"
+          }
+        },
+        {
+          "code": "G11B 7/24003",
+          "title": {
+            "ko": null,
+            "en": "Shapes of record carriers other than disc shape"
+          }
+        },
+        {
+          "code": "G11B 7/24006",
+          "title": {
+            "ko": null,
+            "en": "Cylindrical or shaft-shaped"
+          }
+        },
+        {
+          "code": "G11B 7/24009",
+          "title": {
+            "ko": null,
+            "en": "Tapes, long films or long sheets"
+          }
+        },
+        {
+          "code": "G11B 7/24012",
+          "title": {
+            "ko": null,
+            "en": "Optical cards"
+          }
+        },
+        {
+          "code": "G11B 7/24015",
+          "title": {
+            "ko": null,
+            "en": "Air-sandwiched discs"
+          }
+        },
+        {
+          "code": "G11B 7/24018",
+          "title": {
+            "ko": "적층 디스크 (G11B 7/24015 우선)",
+            "en": "Laminated discs  (G11B0007240150 takes precedence)"
+          },
+          "definition": {
+            "ko": "이 그룹에 분류할 때, 적층 디스크 색인(context)에서 주제에 더 일반적으로 적용되는 경우 그룹 G11B 7/2403에 분류하도록 한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "G11B 7/24021",
+          "title": {
+            "ko": null,
+            "en": "provided with a special shape or structure for centering or eccentricity prevention, e.g. alignment"
+          }
+        },
+        {
+          "code": "G11B 7/24024",
+          "title": {
+            "ko": null,
+            "en": "Adhesion or bonding, e.g. specific adhesive layers"
+          }
+        },
+        {
+          "code": "G11B 7/24027",
+          "title": {
+            "ko": "층; 형태, 구조 또는 그 물리적 특징(G11B 7/24021, G11B 7/24024 우선)",
+            "en": "Layers; Shape, structure or physical properties thereof (G11B0007240210, G11B0007240240 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/2403",
+          "title": {
+            "ko": "층; 형태, 구조 또는 그 물리적 특징",
+            "en": "Layers; Shape, structure or physical properties thereof"
+          }
+        },
+        {
+          "code": "G11B 7/24033",
+          "title": {
+            "ko": null,
+            "en": "Electrode layers"
+          }
+        },
+        {
+          "code": "G11B 7/24035",
+          "title": {
+            "ko": "기록층(기판 또한 기록층으로 사용되는 것 G11B 7/24047)",
+            "en": "Recording layers (substrates also used as recording layers G11B0007240470)"
+          }
+        },
+        {
+          "code": "G11B 7/24038",
+          "title": {
+            "ko": null,
+            "en": "Multiple laminated recording layers"
+          }
+        },
+        {
+          "code": "G11B 7/24041",
+          "title": {
+            "ko": null,
+            "en": "with different recording characteristics"
+          }
+        },
+        {
+          "code": "G11B 7/24044",
+          "title": {
+            "ko": "광 간섭 패턴을 위한 것, 예. 홀로그램; 3차원 [3D]에서 데이터를 저장하기 위한 것, 예. 용량 저장기 (G11B7/24038 우선)",
+            "en": "for storing optical interference patterns, e.g. holograms; for storing data in three dimensions [3D], e.g. volume storage (G11B0007240380 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/24047",
+          "title": {
+            "ko": "기판",
+            "en": "Substrates"
+          }
+        },
+        {
+          "code": "G11B 7/2405",
+          "title": {
+            "ko": "미리 형성된 층의 궤도층으로 사용되는 것 (트랙 또는 피트 G11B7/2407)",
+            "en": "being also used as track layers of pre-formatted layers (tracks or pits G11B0007240700)"
+          }
+        },
+        {
+          "code": "G11B 7/24053",
+          "title": {
+            "ko": null,
+            "en": "Protective topcoat layers lying opposite to the light entrance side, e.g. layers for preventing electrostatic charging"
+          }
+        },
+        {
+          "code": "G11B 7/24056",
+          "title": {
+            "ko": null,
+            "en": "Light transmission layers lying on the light entrance side and being thinner than the substrate, e.g. specially adapted for Blu-ray® discs"
+          }
+        },
+        {
+          "code": "G11B 7/24059",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for near-field recording or reproduction"
+          }
+        },
+        {
+          "code": "G11B 7/24062",
+          "title": {
+            "ko": null,
+            "en": "Reflective layers"
+          }
+        },
+        {
+          "code": "G11B 7/24065",
+          "title": {
+            "ko": "광 확산 한계 이하로 기록 또는 재생을 보조하는 층, 예. 비선형 광학층 또는 구조 (근접 매체를 위한 보호층 G11B7/24059)",
+            "en": "Layers assisting in recording or reproduction below the optical diffraction limit, e.g. non-linear optical layers or structures (cover layers for near-field media G11B0007240590)"
+          }
+        },
+        {
+          "code": "G11B 7/24067",
+          "title": {
+            "ko": null,
+            "en": "Combinations of two or more layers with specific interrelation"
+          }
+        },
+        {
+          "code": "G11B 7/2407",
+          "title": {
+            "ko": "궤도(tracks) 또는 피트(pits); 형태, 구조 또는 그 물리적인 특성 (식별 정보로서 사용되는 궤도(tracks) 또는 피트(pits)의 배치 G11B7/007)",
+            "en": "Tracks or pits; Shape, structure or physical properties thereof (layout of tracks or pits used as the identification information G11B0007007000)"
+          }
+        },
+        {
+          "code": "G11B 7/24073",
+          "title": {
+            "ko": "궤도(tracks)",
+            "en": "Tracks"
+          }
+        },
+        {
+          "code": "G11B 7/24076",
+          "title": {
+            "ko": null,
+            "en": "Cross sectional shape in the radial direction of a disc, e.g. asymmetrical cross sectional shape"
+          }
+        },
+        {
+          "code": "G11B 7/24079",
+          "title": {
+            "ko": "너비(width) 또는 깊이(depth) (G11B7/24076 우선)",
+            "en": "Width or depth (G11B0007240760 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/24082",
+          "title": {
+            "ko": null,
+            "en": "Meandering"
+          }
+        },
+        {
+          "code": "G11B 7/24085",
+          "title": {
+            "ko": null,
+            "en": "Pits"
+          }
+        },
+        {
+          "code": "G11B 7/24088",
+          "title": {
+            "ko": null,
+            "en": "for storing more than two values, i.e. multi-valued recording for data or prepits"
+          }
+        },
+        {
+          "code": "G11B 7/24091",
+          "title": {
+            "ko": null,
+            "en": "Combinations of pits and tracks with specific interrelation"
+          }
+        },
+        {
+          "code": "G11B 7/24094",
+          "title": {
+            "ko": null,
+            "en": "Indication parts or information parts for identification"
+          }
+        },
+        {
+          "code": "G11B 7/24097",
+          "title": {
+            "ko": "검출, 제어, 기록 동작 또는 재생 동작을 위한 구조; 센터링(centering) 또는 편심 방지를 위한 특별한 형상 또는 구조 (적층 디스크에서의 것 G11B7/24021); 시험, 검사 또는 평가를 위한 장치; 콘테이너, 카트리지 또는 카세트",
+            "en": "Structures for detection, control, recording operation or replay operation; Special shapes or structures for centering or eccentricity prevention  (within laminated discs G11B0007240210); Arrangements for testing, inspecting or evaluating; Containers, cartridges or cassettes"
+          },
+          "definition": {
+            "ko": "이 그룹에서 분류할 때, 광학 기록매체의 문맥(context)에서 공개된 주제에 더 일반적으로 적용되는 경우 그룹 G11B23/00에 분류한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "G11B 7/241",
+          "title": {
+            "ko": "재료의 선택에 의해서 특정되는 기록매체",
+            "en": "Record carriers characterised by the selection of the material"
+          }
+        },
+        {
+          "code": "G11B 7/242",
+          "title": {
+            "ko": "기록층",
+            "en": "of recording layers"
+          }
+        },
+        {
+          "code": "G11B 7/243",
+          "title": {
+            "ko": "무기 재료(materrials)만으로 구성된 것, 예. 펀칭형 기록층",
+            "en": "comprising inorganic materials only, e.g. ablative layers"
+          }
+        },
+        {
+          "code": "G11B 7/2433",
+          "title": {
+            "ko": "주기율표 13족, 14족, 15족 또는 16족의 금속 또는 원소, 예. B, Si, Ge, As, Sb, Bi, Se 또는 Te",
+            "en": "Metals or elements of Groups 13, 14, 15 or 16 of the Periodic Table, e.g. B, Si, Ge, As, Sb, Bi, Se or Te"
+          }
+        },
+        {
+          "code": "G11B 7/2437",
+          "title": {
+            "ko": null,
+            "en": "Non-metallic elements"
+          }
+        },
+        {
+          "code": "G11B 7/244",
+          "title": {
+            "ko": "유기 재료(materrials)만으로 구성된 것",
+            "en": "comprising organic materials only"
+          }
+        },
+        {
+          "code": "G11B 7/245",
+          "title": {
+            "ko": null,
+            "en": "containing a polymeric component"
+          }
+        },
+        {
+          "code": "G11B 7/246",
+          "title": {
+            "ko": null,
+            "en": "containing dyes"
+          }
+        },
+        {
+          "code": "G11B 7/2463",
+          "title": {
+            "ko": null,
+            "en": "azulene"
+          }
+        },
+        {
+          "code": "G11B 7/2467",
+          "title": {
+            "ko": null,
+            "en": "azo-dyes"
+          }
+        },
+        {
+          "code": "G11B 7/247",
+          "title": {
+            "ko": null,
+            "en": "methine or polymethine dyes"
+          }
+        },
+        {
+          "code": "G11B 7/2472",
+          "title": {
+            "ko": null,
+            "en": "cyanine"
+          }
+        },
+        {
+          "code": "G11B 7/2475",
+          "title": {
+            "ko": null,
+            "en": "merocyanine"
+          }
+        },
+        {
+          "code": "G11B 7/2478",
+          "title": {
+            "ko": null,
+            "en": "oxonol"
+          }
+        },
+        {
+          "code": "G11B 7/248",
+          "title": {
+            "ko": null,
+            "en": "porphines; azaporphines, e.g. phthalocyanines"
+          }
+        },
+        {
+          "code": "G11B 7/249",
+          "title": {
+            "ko": "유기 금속 화합물(organometallic)을 포함하는 것 (G11B7/246 우선)",
+            "en": "containing organometallic compounds (G11B0007246000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 7/2492",
+          "title": {
+            "ko": null,
+            "en": "neutral compounds"
+          }
+        },
+        {
+          "code": "G11B 7/2495",
+          "title": {
+            "ko": null,
+            "en": "as anions"
+          }
+        },
+        {
+          "code": "G11B 7/2498",
+          "title": {
+            "ko": null,
+            "en": "as cations"
+          }
+        },
+        {
+          "code": "G11B 7/25",
+          "title": {
+            "ko": null,
+            "en": "containing liquid crystals"
+          }
+        },
+        {
+          "code": "G11B 7/251",
+          "title": {
+            "ko": null,
+            "en": "comprising inorganic materials dispersed in an organic matrix"
+          }
+        },
+        {
+          "code": "G11B 7/252",
+          "title": {
+            "ko": null,
+            "en": "of layers other than recording layers"
+          }
+        },
+        {
+          "code": "G11B 7/253",
+          "title": {
+            "ko": null,
+            "en": "of substrates"
+          }
+        },
+        {
+          "code": "G11B 7/2531",
+          "title": {
+            "ko": null,
+            "en": "comprising glass"
+          }
+        },
+        {
+          "code": "G11B 7/2532",
+          "title": {
+            "ko": null,
+            "en": "comprising metals"
+          }
+        },
+        {
+          "code": "G11B 7/2533",
+          "title": {
+            "ko": null,
+            "en": "comprising resins"
+          }
+        },
+        {
+          "code": "G11B 7/2534",
+          "title": {
+            "ko": null,
+            "en": "polycarbonates [PC]"
+          }
+        },
+        {
+          "code": "G11B 7/2535",
+          "title": {
+            "ko": null,
+            "en": "polyesters, e.g. PET, PETG or PEN"
+          }
+        },
+        {
+          "code": "G11B 7/2536",
+          "title": {
+            "ko": null,
+            "en": "polystyrene [PS]"
+          }
+        },
+        {
+          "code": "G11B 7/2537",
+          "title": {
+            "ko": null,
+            "en": "epoxy resins"
+          }
+        },
+        {
+          "code": "G11B 7/2538",
+          "title": {
+            "ko": null,
+            "en": "polycycloolefins [PCO]"
+          }
+        },
+        {
+          "code": "G11B 7/2539",
+          "title": {
+            "ko": null,
+            "en": "biodegradable polymers, e.g. cellulose"
+          }
+        },
+        {
+          "code": "G11B 7/254",
+          "title": {
+            "ko": null,
+            "en": "of protective topcoat layers"
+          }
+        },
+        {
+          "code": "G11B 7/2542",
+          "title": {
+            "ko": null,
+            "en": "consisting essentially of organic resins"
+          }
+        },
+        {
+          "code": "G11B 7/2545",
+          "title": {
+            "ko": null,
+            "en": "containing inorganic fillers, e.g. particles or fibres"
+          }
+        },
+        {
+          "code": "G11B 7/2548",
+          "title": {
+            "ko": null,
+            "en": "consisting essentially of inorganic materials"
+          }
+        },
+        {
+          "code": "G11B 7/256",
+          "title": {
+            "ko": null,
+            "en": "of layers improving adhesion between layers"
+          }
+        },
+        {
+          "code": "G11B 7/257",
+          "title": {
+            "ko": null,
+            "en": "of layers having properties involved in recording or reproduction, e.g. optical interference layers, sensitising layers or dielectric layers which are protecting the recording layers"
+          }
+        },
+        {
+          "code": "G11B 7/2572",
+          "title": {
+            "ko": null,
+            "en": "consisting essentially of organic materials"
+          }
+        },
+        {
+          "code": "G11B 7/2575",
+          "title": {
+            "ko": null,
+            "en": "resins"
+          }
+        },
+        {
+          "code": "G11B 7/2578",
+          "title": {
+            "ko": null,
+            "en": "consisting essentially of inorganic materials"
+          }
+        },
+        {
+          "code": "G11B 7/258",
+          "title": {
+            "ko": null,
+            "en": "of reflective layers"
+          }
+        },
+        {
+          "code": "G11B 7/2585",
+          "title": {
+            "ko": null,
+            "en": "based on aluminium"
+          }
+        },
+        {
+          "code": "G11B 7/259",
+          "title": {
+            "ko": null,
+            "en": "based on silver"
+          }
+        },
+        {
+          "code": "G11B 7/2595",
+          "title": {
+            "ko": null,
+            "en": "based on gold"
+          }
+        },
+        {
+          "code": "G11B 7/26",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or processes specially adapted for the manufacture of record carriers"
+          }
+        },
+        {
+          "code": "G11B 7/28",
+          "title": {
+            "ko": null,
+            "en": "Re-recording, i.e. transcribing information from one optical record carrier on to one or more similar or dissimilar record carriers using optical sensing means"
+          }
+        },
+        {
+          "code": "G11B 7/30",
+          "title": {
+            "ko": "재기록 가능한 기록매체(7/24가 우선)",
+            "en": "Rewritable carriers (G11B0007240000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 9/00",
+      "title": {
+        "ko": "메인그룹 3/00 ～ 7/00 포함되지 않는 방법을 이용한 기록 혹은 재생; 이를 위한 기록매체(11/00이 우선)",
+        "en": "Recording or reproducing using a method or means not covered by one of the main groups G11B0003000000-G11B0007000000; Record carriers therefor (G11B0011000000 takes precedence)"
+      },
+      "definition": {
+        "ko": "그룹 G11B9/12는 그룹 G11B9/02 ~ G11B9/10에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G11B 9/02",
+          "title": {
+            "ko": null,
+            "en": "using ferroelectric record carriers; Record carriers therefor"
+          }
+        },
+        {
+          "code": "G11B 9/04",
+          "title": {
+            "ko": null,
+            "en": "using record carriers having variable electric resistance; Record carriers therefor"
+          }
+        },
+        {
+          "code": "G11B 9/06",
+          "title": {
+            "ko": "가변적인 전기용량을 가지고 있는 기록매체를 사용하는 것; 이것에 대한 기록매체 (G11B9/02가 우선)",
+            "en": "using record carriers having variable electrical capacitance; Record carriers therefor (G11B0009020000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 9/07",
+          "title": {
+            "ko": null,
+            "en": "Heads for reproducing capacitive information"
+          }
+        },
+        {
+          "code": "G11B 9/08",
+          "title": {
+            "ko": null,
+            "en": "using electrostatic charge injection; Record carriers therefor"
+          }
+        },
+        {
+          "code": "G11B 9/10",
+          "title": {
+            "ko": "전자빔을 사용하는 것; 이것에 대한 기록매체(9/08이 우선)",
+            "en": "using electron beam; Record carriers therefor (G11B0009080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 9/12",
+          "title": {
+            "ko": null,
+            "en": "using near-field interactions; Record carriers therefor"
+          }
+        },
+        {
+          "code": "G11B 9/14",
+          "title": {
+            "ko": null,
+            "en": "using microscopic probe means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 11/00",
+      "title": {
+        "ko": "기록방법과 재생방법이, 그룹 G11B3/00부터 G11B7/00의 다른 메인그룹, 또는 그룹 G11B9/00의 다른 서브그룹에 포함된 두가지 동작으로 된 동일의 기록매체에 기록 또는 이 기록매체로부터 재생; 이것을 위한 기록매체.",
+        "en": "Recording on, or reproducing from, the same record carrier wherein for these two operations the methods or means are covered by different main groups of groups G11B0003000000-G11B0007000000 or by different subgroups of group G11B0009000000; Record carriers therefor"
+      },
+      "definition": {
+        "ko": "그룹 G11B11/24는 그룹 G11B11/03 ~ G11B11/16에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G11B 11/03",
+          "title": {
+            "ko": null,
+            "en": "using recording by deforming with non-mechanical means, e.g. laser, beam of particles"
+          }
+        },
+        {
+          "code": "G11B 11/05",
+          "title": {
+            "ko": null,
+            "en": "with reproducing by capacitive means"
+          }
+        },
+        {
+          "code": "G11B 11/06",
+          "title": {
+            "ko": null,
+            "en": "with reproducing by mechanical sensing"
+          }
+        },
+        {
+          "code": "G11B 11/08",
+          "title": {
+            "ko": null,
+            "en": "using recording by electric charge or by variation of electric resistance or capacitance"
+          }
+        },
+        {
+          "code": "G11B 11/10",
+          "title": {
+            "ko": null,
+            "en": "using recording by magnetisation or demagnetisation"
+          }
+        },
+        {
+          "code": "G11B 11/105",
+          "title": {
+            "ko": null,
+            "en": "using a beam of light or a magnetic field for recording and a beam of light for reproducing, e.g. light-induced thermomagnetic recording or Kerr effect reproducing"
+          }
+        },
+        {
+          "code": "G11B 11/11",
+          "title": {
+            "ko": null,
+            "en": "using a beam other than a beam of light for recording"
+          }
+        },
+        {
+          "code": "G11B 11/115",
+          "title": {
+            "ko": null,
+            "en": "using a beam other than a beam of light for reproducing"
+          }
+        },
+        {
+          "code": "G11B 11/12",
+          "title": {
+            "ko": "광학적 수단에 의한 기록을 사용하는 것(11/03이 우선)",
+            "en": "using recording by optical means (G11B0011030000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 11/14",
+          "title": {
+            "ko": null,
+            "en": "with reproducing by magnetic means"
+          }
+        },
+        {
+          "code": "G11B 11/16",
+          "title": {
+            "ko": null,
+            "en": "using recording by mechanical cutting, deforming or pressing"
+          }
+        },
+        {
+          "code": "G11B 11/18",
+          "title": {
+            "ko": null,
+            "en": "with reproducing by optical means"
+          }
+        },
+        {
+          "code": "G11B 11/20",
+          "title": {
+            "ko": null,
+            "en": "with reproducing by magnetic means"
+          }
+        },
+        {
+          "code": "G11B 11/22",
+          "title": {
+            "ko": null,
+            "en": "with reproducing by capacitive means"
+          }
+        },
+        {
+          "code": "G11B 11/24",
+          "title": {
+            "ko": null,
+            "en": "using recording by near-field interactions"
+          }
+        },
+        {
+          "code": "G11B 11/26",
+          "title": {
+            "ko": null,
+            "en": "using microscopic probe means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 13/00",
+      "title": {
+        "ko": "다른 메인 그룹에 함께 포함되는 방법 또는 수단에 의해서 동시에 또는 선택적으로 기록하는 것; 이를 위한 기록매체; 이것으로부터 동시에 또는 선택적으로 재생하는 것",
+        "en": "Recording simultaneously or selectively by methods or means covered by different main groups; Record carriers therefor; Reproducing simultaneously or selectively therefrom"
+      },
+      "definition": {
+        "ko": "(1) 이 그룹은 적어도 두 개의 다른 방법이나 수단 또는 두 개의 다른 물리적 속성을 포함하는 정보의 기록, 동시에 또는 선택적으로 재생되거나 만들어진 기록 이 있는 배열을 포함한다 (2) 수단의 결합은 유일한 하나의 주요 속성을 변경하는데 사용된다. 분류는 관련된 메인그룹 G11B3/00, G11B5/00, G11B7/00, G11B9/00, G11B11/00 중 하나에서만 이루어 진다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G11B 13/02",
+          "title": {
+            "ko": "자기적 및 스타일리(styli)에 의한 것(13/08이 우선)",
+            "en": "magnetically and by styli (G11B0013080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 13/04",
+          "title": {
+            "ko": "자기적 및 광학적인 것 (G11B13/08이 우선)",
+            "en": "magnetically and optically (G11B0013080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 13/06",
+          "title": {
+            "ko": "광학적 및 스타일리(styli)에 의한 것 (G11B13/08이 우선)",
+            "en": "optically and by styli (G11B0013080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 13/08",
+          "title": {
+            "ko": null,
+            "en": "using near-field interactions or transducing means and at least one other method or means for recording or reproducing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 15/00",
+      "title": {
+        "ko": "선형태 또는 띠형태의 기록매체의 구동, 시동, 정지; 이와 같은 기록매체와 헤드 모두의 구동; 이와 같은 기록매체 또는 이것에 대한 용기의 안내; 이것의 제어; 동작기능의 제어 (헤드의 구동 또는 안내 G11B3/00부터 G11B7/00, G11B21/00)",
+        "en": "Driving, starting or stopping record carriers of filamentary or web form; Driving both such record carriers and heads; Guiding such record carriers or containers therefor; Control thereof; Control of operating function (driving or guiding heads G11B0003000000-G11B0007000000, G11B0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 15/02",
+          "title": {
+            "ko": "동작기능의 제어, 예. 기록으로부터 재생으로 전환",
+            "en": "Control of operating function, e.g. switching from recording to reproducing"
+          }
+        },
+        {
+          "code": "G11B 15/03",
+          "title": {
+            "ko": null,
+            "en": "by using counters"
+          }
+        },
+        {
+          "code": "G11B 15/04",
+          "title": {
+            "ko": "불의의 소거 또는 이중기록의 방지, 금지 또는 경보 (G11B15/05가 우선)",
+            "en": "Preventing, inhibiting, or warning against accidental erasing or double recording (G11B0015050000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 15/05",
+          "title": {
+            "ko": "기록매체상에 또는 용기상에 또는 이들로부터 추출된 특징의 감지에 의한 것(15/16이 우선)",
+            "en": "by sensing features present on, or derived from, record carrier or container (G11B0015160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 15/06",
+          "title": {
+            "ko": "기록매체상의 또는 용기상의 보조적인 특징의 감지에 의한 것, 예. 테이프 끝 부분에서 기계의 정지",
+            "en": "by sensing auxiliary features on record carriers or containers, e.g. to stop machine near the end of a tape"
+          }
+        },
+        {
+          "code": "G11B 15/07",
+          "title": {
+            "ko": null,
+            "en": "on containers"
+          }
+        },
+        {
+          "code": "G11B 15/08",
+          "title": {
+            "ko": "광전전(photoelectric) 감지에 의한 것 (G11B15/07이 우선)",
+            "en": "by photoelectric sensing (G11B0015070000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 15/087",
+          "title": {
+            "ko": null,
+            "en": "by sensing recorded signals"
+          }
+        },
+        {
+          "code": "G11B 15/093",
+          "title": {
+            "ko": null,
+            "en": "by sensing driving condition of record carrier, e.g. travel, tape tension"
+          }
+        },
+        {
+          "code": "G11B 15/10",
+          "title": {
+            "ko": null,
+            "en": "Manually-operated control; Solenoid-operated control"
+          }
+        },
+        {
+          "code": "G11B 15/12",
+          "title": {
+            "ko": null,
+            "en": "Masking of heads; Selecting or switching of heads between operative and inoperative functions; Masking of beams, e.g. of light beams"
+          }
+        },
+        {
+          "code": "G11B 15/14",
+          "title": {
+            "ko": null,
+            "en": "Masking or switching periodically, e.g. of rotating heads"
+          }
+        },
+        {
+          "code": "G11B 15/16",
+          "title": {
+            "ko": null,
+            "en": "by sensing presence, absence or position of record carrier or container"
+          }
+        },
+        {
+          "code": "G11B 15/17",
+          "title": {
+            "ko": null,
+            "en": "of container"
+          }
+        },
+        {
+          "code": "G11B 15/18",
+          "title": {
+            "ko": "구동; 시동; 정지; 이것의 제어 또는 조절을 위한 배치",
+            "en": "Driving; Starting; Stopping; Arrangements for control or regulation thereof"
+          }
+        },
+        {
+          "code": "G11B 15/20",
+          "title": {
+            "ko": null,
+            "en": "Moving record carrier backwards or forwards by finite amounts, i.e. back-spacing, forward-spacing"
+          }
+        },
+        {
+          "code": "G11B 15/22",
+          "title": {
+            "ko": "정지수단 (정지수단과는 다른 수단에 의해 정지하기에 앞서 속도를 저감하는 것 G11B15/48; 정지수단 과는 다른 기계적 링크에 의해 정지하기에 앞서 속도를 저감 하는 것 G11B15/50)",
+            "en": "Stopping means (slowing-down preparatory to stopping by means which are different from the stopping means G11B0015480000;slowing-down preparatory to stopping by a mechanical linkage which is different from the stopping means G11B0015500000)"
+          }
+        },
+        {
+          "code": "G11B 15/24",
+          "title": {
+            "ko": null,
+            "en": "Drive-disengaging means"
+          }
+        },
+        {
+          "code": "G11B 15/26",
+          "title": {
+            "ko": "직접 또는 간접적으로 기록매체에 작용하는 부재에 의해 기록매체를 구동하는 것",
+            "en": "Driving record carriers by members acting directly or indirectly thereon"
+          }
+        },
+        {
+          "code": "G11B 15/28",
+          "title": {
+            "ko": "기록매체와 마찰접촉에 의해서 구동하는 롤러에 의한 것. 예. 캡스턴; 구동속도를 제어하기 위한 수단과 결합한 캡스턴 또는 드럼의 다중 배치; 역전(reversal)하기 위해서 기록매체와 교대로 계합하는 복수개의 캡스턴 시스템",
+            "en": "through rollers driving by frictional contact with the record carrier, e.g. capstan; Multiple arrangements of capstans or drums coupled to means for controlling the speed of the drive; Multiple capstan systems alternately engageable with record carrier to provide reversal"
+          }
+        },
+        {
+          "code": "G11B 15/29",
+          "title": {
+            "ko": "핀치 롤러에 의한 것 (G11B15/295가 우선)",
+            "en": "through pinch-rollers (G11B0015295000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 15/295",
+          "title": {
+            "ko": null,
+            "en": "with single capstan or drum simultaneously driving the record carrier at two separate points of an isolated part thereof, e.g. the capstan acting directly on the tape rollers"
+          }
+        },
+        {
+          "code": "G11B 15/30",
+          "title": {
+            "ko": null,
+            "en": "through the means for supporting the record carrier, e.g. mandrel, turntable"
+          }
+        },
+        {
+          "code": "G11B 15/32",
+          "title": {
+            "ko": null,
+            "en": "through the reels or cores on to which the record carrier is wound"
+          }
+        },
+        {
+          "code": "G11B 15/34",
+          "title": {
+            "ko": null,
+            "en": "through non-slip drive means, e.g. sprocket"
+          }
+        },
+        {
+          "code": "G11B 15/38",
+          "title": {
+            "ko": null,
+            "en": "Driving record carriers by pneumatic means"
+          }
+        },
+        {
+          "code": "G11B 15/40",
+          "title": {
+            "ko": null,
+            "en": "Driving record carriers otherwise than by electric motor"
+          }
+        },
+        {
+          "code": "G11B 15/42",
+          "title": {
+            "ko": null,
+            "en": "manually"
+          }
+        },
+        {
+          "code": "G11B 15/43",
+          "title": {
+            "ko": null,
+            "en": "Control or regulation of mechanical tension of record carrier, e.g. tape tension"
+          }
+        },
+        {
+          "code": "G11B 15/44",
+          "title": {
+            "ko": null,
+            "en": "Speed-changing arrangements; Reversing arrangements; Drive-transfer means therefor"
+          }
+        },
+        {
+          "code": "G11B 15/46",
+          "title": {
+            "ko": null,
+            "en": "Controlling, regulating, or indicating speed"
+          }
+        },
+        {
+          "code": "G11B 15/467",
+          "title": {
+            "ko": null,
+            "en": "in arrangements for recording or reproducing wherein both record carriers and heads are driven"
+          }
+        },
+        {
+          "code": "G11B 15/473",
+          "title": {
+            "ko": null,
+            "en": "by controlling the speed of the heads"
+          }
+        },
+        {
+          "code": "G11B 15/48",
+          "title": {
+            "ko": null,
+            "en": "Starting; Accelerating; Decelerating; Arrangements preventing malfunction during drive change"
+          }
+        },
+        {
+          "code": "G11B 15/50",
+          "title": {
+            "ko": null,
+            "en": "by mechanical linkage, e.g. clutch"
+          }
+        },
+        {
+          "code": "G11B 15/52",
+          "title": {
+            "ko": null,
+            "en": "by using signals recorded on, or derived from, record carrier"
+          }
+        },
+        {
+          "code": "G11B 15/54",
+          "title": {
+            "ko": null,
+            "en": "by stroboscope; by tachometer"
+          }
+        },
+        {
+          "code": "G11B 15/56",
+          "title": {
+            "ko": null,
+            "en": "the record carrier having reserve loop, e.g. to minimise inertia during acceleration"
+          }
+        },
+        {
+          "code": "G11B 15/58",
+          "title": {
+            "ko": null,
+            "en": "with vacuum column"
+          }
+        },
+        {
+          "code": "G11B 15/60",
+          "title": {
+            "ko": "기록매체의 안내(매거진 또는 카세트와 구조적으로 관련된 안내장치 23/04)",
+            "en": "Guiding record carriers (guiding devices structurally associated with magazines or cassettes G11B0023040000)"
+          }
+        },
+        {
+          "code": "G11B 15/61",
+          "title": {
+            "ko": null,
+            "en": "on drum, e.g. on drum containing rotating heads"
+          }
+        },
+        {
+          "code": "G11B 15/62",
+          "title": {
+            "ko": null,
+            "en": "Maintaining desired spacing between record carrier and head"
+          }
+        },
+        {
+          "code": "G11B 15/64",
+          "title": {
+            "ko": null,
+            "en": "by fluid-dynamic spacing"
+          }
+        },
+        {
+          "code": "G11B 15/66",
+          "title": {
+            "ko": null,
+            "en": "Threading; Loading; Automatic self-loading"
+          }
+        },
+        {
+          "code": "G11B 15/665",
+          "title": {
+            "ko": null,
+            "en": "by extracting loop of record carrier from container"
+          }
+        },
+        {
+          "code": "G11B 15/67",
+          "title": {
+            "ko": null,
+            "en": "by extracting end of record carrier from container or spool"
+          }
+        },
+        {
+          "code": "G11B 15/675",
+          "title": {
+            "ko": null,
+            "en": "Guiding containers"
+          }
+        },
+        {
+          "code": "G11B 15/68",
+          "title": {
+            "ko": null,
+            "en": "Automatic cassette-changing arrangements"
+          }
+        },
+        {
+          "code": "G11B 15/70",
+          "title": {
+            "ko": null,
+            "en": "the record carrier being an endless-loop record-carrier"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 17/00",
+      "title": {
+        "ko": "특히 선 또는 띠 형태에 속하지 않는 기록매체의 안내, 또는 이것에 대한 지지체를 안내하는 것(카드 또는 시트의 안내 G06K 13/00)",
+        "en": "Guiding record carriers not specifically of filamentary or web form, or of supports therefor (guiding cards or sheets G06K0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 17/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G11B 17/022",
+          "title": {
+            "ko": null,
+            "en": "Positioning or locking of single discs"
+          }
+        },
+        {
+          "code": "G11B 17/025",
+          "title": {
+            "ko": null,
+            "en": "of discs which are stationary during transducing operation"
+          }
+        },
+        {
+          "code": "G11B 17/028",
+          "title": {
+            "ko": null,
+            "en": "of discs rotating during transducing operation"
+          }
+        },
+        {
+          "code": "G11B 17/03",
+          "title": {
+            "ko": null,
+            "en": "in containers or trays"
+          }
+        },
+        {
+          "code": "G11B 17/032",
+          "title": {
+            "ko": null,
+            "en": "Positioning by moving the door or the cover"
+          }
+        },
+        {
+          "code": "G11B 17/035",
+          "title": {
+            "ko": null,
+            "en": "Positioning by moving the loading station"
+          }
+        },
+        {
+          "code": "G11B 17/038",
+          "title": {
+            "ko": null,
+            "en": "Centering or locking of a plurality of discs in a single cartridge"
+          }
+        },
+        {
+          "code": "G11B 17/04",
+          "title": {
+            "ko": null,
+            "en": "Feeding or guiding single record carrier to or from transducing unit"
+          }
+        },
+        {
+          "code": "G11B 17/041",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for discs contained within cartridges"
+          }
+        },
+        {
+          "code": "G11B 17/043",
+          "title": {
+            "ko": null,
+            "en": "Direct insertion, i.e. without external loading means"
+          }
+        },
+        {
+          "code": "G11B 17/044",
+          "title": {
+            "ko": null,
+            "en": "Indirect insertion, i.e. with external loading means"
+          }
+        },
+        {
+          "code": "G11B 17/046",
+          "title": {
+            "ko": null,
+            "en": "with pivoting loading means"
+          }
+        },
+        {
+          "code": "G11B 17/047",
+          "title": {
+            "ko": null,
+            "en": "with sliding loading means"
+          }
+        },
+        {
+          "code": "G11B 17/049",
+          "title": {
+            "ko": null,
+            "en": "Insertion of discs having to be extracted from the cartridge prior to recording or reproducing"
+          }
+        },
+        {
+          "code": "G11B 17/05",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for discs not contained within cartridges"
+          }
+        },
+        {
+          "code": "G11B 17/051",
+          "title": {
+            "ko": null,
+            "en": "Direct insertion, i.e. without external loading means"
+          }
+        },
+        {
+          "code": "G11B 17/053",
+          "title": {
+            "ko": null,
+            "en": "Indirect insertion, i.e. with external loading means"
+          }
+        },
+        {
+          "code": "G11B 17/054",
+          "title": {
+            "ko": null,
+            "en": "with pivoting loading means"
+          }
+        },
+        {
+          "code": "G11B 17/056",
+          "title": {
+            "ko": null,
+            "en": "with sliding loading means"
+          }
+        },
+        {
+          "code": "G11B 17/057",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for handling both discs contained within cartridges and discs not contained within cartridges"
+          }
+        },
+        {
+          "code": "G11B 17/08",
+          "title": {
+            "ko": null,
+            "en": "from consecutive-access magazine of disc records"
+          }
+        },
+        {
+          "code": "G11B 17/10",
+          "title": {
+            "ko": null,
+            "en": "with horizontal transfer to the turntable from a stack arranged with a vertical axis"
+          }
+        },
+        {
+          "code": "G11B 17/12",
+          "title": {
+            "ko": null,
+            "en": "with axial transfer to the turntable from a stack with a vertical axis"
+          }
+        },
+        {
+          "code": "G11B 17/14",
+          "title": {
+            "ko": null,
+            "en": "by mechanism in rotating centre post, e.g. permitting the playing of both sides of a record"
+          }
+        },
+        {
+          "code": "G11B 17/16",
+          "title": {
+            "ko": null,
+            "en": "by mechanism in stationary centre post, e.g. with stepped post, using fingers on post"
+          }
+        },
+        {
+          "code": "G11B 17/18",
+          "title": {
+            "ko": null,
+            "en": "by mechanism operating on the edge of the disc record"
+          }
+        },
+        {
+          "code": "G11B 17/20",
+          "title": {
+            "ko": null,
+            "en": "with transfer away from stack on turntable after playing"
+          }
+        },
+        {
+          "code": "G11B 17/22",
+          "title": {
+            "ko": null,
+            "en": "from random-access magazine of disc records"
+          }
+        },
+        {
+          "code": "G11B 17/24",
+          "title": {
+            "ko": null,
+            "en": "the magazine having a toroidal or part-toroidal shape"
+          }
+        },
+        {
+          "code": "G11B 17/26",
+          "title": {
+            "ko": null,
+            "en": "the magazine having a cylindrical shape with vertical axis"
+          }
+        },
+        {
+          "code": "G11B 17/28",
+          "title": {
+            "ko": null,
+            "en": "the magazine having a cylindrical shape with horizontal axis"
+          }
+        },
+        {
+          "code": "G11B 17/30",
+          "title": {
+            "ko": null,
+            "en": "wherein the playing unit is moved accordingly to the location of the selected record"
+          }
+        },
+        {
+          "code": "G11B 17/32",
+          "title": {
+            "ko": null,
+            "en": "Maintaining desired spacing between record carrier and head, e.g. by fluid-dynamic spacing"
+          }
+        },
+        {
+          "code": "G11B 17/34",
+          "title": {
+            "ko": "변환동작중에 기록매체를 안내하는 것, 예. 트랙추종(track following)에 의한 것 (G11B17/32가 우선)",
+            "en": "Guiding record carriers during transducing operation, e.g. for track following (G11B0017320000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 19/00",
+      "title": {
+        "ko": "선 형태 또는 띠 형태의 기록매체에 속하지 않는 기록매체 또는 그 지지체의 구동, 시동 또는 정지 이것에 대한 제어 이러한 기능의 제어",
+        "en": "Driving, starting, stopping record carriers not specifically of filamentary or web form, or of supports therefor; Control thereof; Control of operating function"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 19/02",
+          "title": {
+            "ko": "동작기능의 제어, 예. 기록으로부터 재생으로 전환",
+            "en": "Control of operating function, e.g. switching from recording to reproducing"
+          }
+        },
+        {
+          "code": "G11B 19/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing, inhibiting, or warning against, double recording on the same blank, or against other recording or reproducing malfunctions"
+          }
+        },
+        {
+          "code": "G11B 19/06",
+          "title": {
+            "ko": null,
+            "en": "by counting or timing of machine operations"
+          }
+        },
+        {
+          "code": "G11B 19/08",
+          "title": {
+            "ko": "구동기구의 외부 장치를 사용하는 것, 예. 코인동작(coin-freed) 스위치 (코인 동작 기구 G07F5/00)",
+            "en": "by using devices external to the driving mechanisms, e.g. coin-freed switch (coin actuated mechanisms G07F0005000000)"
+          }
+        },
+        {
+          "code": "G11B 19/10",
+          "title": {
+            "ko": null,
+            "en": "by sensing presence or absence of record in accessible stored position or on turntable"
+          }
+        },
+        {
+          "code": "G11B 19/12",
+          "title": {
+            "ko": null,
+            "en": "by sensing distinguishing features of records, e.g. diameter"
+          }
+        },
+        {
+          "code": "G11B 19/14",
+          "title": {
+            "ko": null,
+            "en": "by sensing movement or position of head, e.g. means moving in correspondence with head movements"
+          }
+        },
+        {
+          "code": "G11B 19/16",
+          "title": {
+            "ko": null,
+            "en": "Manual control"
+          }
+        },
+        {
+          "code": "G11B 19/18",
+          "title": {
+            "ko": null,
+            "en": "Manual action on one element producing control effect indirectly by consequent action of driving mechanism"
+          }
+        },
+        {
+          "code": "G11B 19/20",
+          "title": {
+            "ko": "구동; 시동; 정지; 이것에 대한 제어",
+            "en": "Driving; Starting; Stopping; Control thereof"
+          }
+        },
+        {
+          "code": "G11B 19/22",
+          "title": {
+            "ko": null,
+            "en": "Brakes other than speed-regulating brakes"
+          }
+        },
+        {
+          "code": "G11B 19/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for providing constant relative speed between record carrier and head"
+          }
+        },
+        {
+          "code": "G11B 19/247",
+          "title": {
+            "ko": null,
+            "en": "using electrical means"
+          }
+        },
+        {
+          "code": "G11B 19/253",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means"
+          }
+        },
+        {
+          "code": "G11B 19/26",
+          "title": {
+            "ko": null,
+            "en": "Speed-changing arrangements; Reversing arrangements; Drive-transfer means therefor"
+          }
+        },
+        {
+          "code": "G11B 19/265",
+          "title": {
+            "ko": null,
+            "en": "Friction wheel drive"
+          }
+        },
+        {
+          "code": "G11B 19/27",
+          "title": {
+            "ko": null,
+            "en": "Belt drive"
+          }
+        },
+        {
+          "code": "G11B 19/275",
+          "title": {
+            "ko": null,
+            "en": "Gear wheel drive"
+          }
+        },
+        {
+          "code": "G11B 19/28",
+          "title": {
+            "ko": "속도제어, 안정화 또는 표시(G11B 19/24가 우선)",
+            "en": "Speed controlling, regulating or indicating (G11B0019240000takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 20/00",
+      "title": {
+        "ko": "기록 또는 재생 방법에 특징이 없는 신호처리 이것에 대한 회로",
+        "en": "Signal processing not specific to the method of recording or reproducing; Circuits therefor"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 20/02",
+          "title": {
+            "ko": "아날로그 기록 또는 재생",
+            "en": "Analogue recording or reproducing"
+          }
+        },
+        {
+          "code": "G11B 20/04",
+          "title": {
+            "ko": null,
+            "en": "Direct recording or reproducing"
+          }
+        },
+        {
+          "code": "G11B 20/06",
+          "title": {
+            "ko": null,
+            "en": "Angle-modulation recording or reproducing"
+          }
+        },
+        {
+          "code": "G11B 20/08",
+          "title": {
+            "ko": "펄스변조 기록 또는 재생 (펄스 코드 변조 기록 G11B20/10)",
+            "en": "Pulse-modulation recording or reproducing (pulse-code-modulation recording G11B0020100000)"
+          }
+        },
+        {
+          "code": "G11B 20/10",
+          "title": {
+            "ko": null,
+            "en": "Digital recording or reproducing"
+          }
+        },
+        {
+          "code": "G11B 20/12",
+          "title": {
+            "ko": null,
+            "en": "Formatting, e.g. arrangement of data block or words on the record carriers"
+          }
+        },
+        {
+          "code": "G11B 20/14",
+          "title": {
+            "ko": null,
+            "en": "using self-clocking codes"
+          }
+        },
+        {
+          "code": "G11B 20/16",
+          "title": {
+            "ko": null,
+            "en": "using non self-clocking codes, i.e. the clock signals being either recorded in a separate clocking track or in a combination of several information tracks"
+          }
+        },
+        {
+          "code": "G11B 20/18",
+          "title": {
+            "ko": null,
+            "en": "Error detection or correction; Testing"
+          }
+        },
+        {
+          "code": "G11B 20/20",
+          "title": {
+            "ko": null,
+            "en": "for correction of skew for multitrack recording"
+          }
+        },
+        {
+          "code": "G11B 20/22",
+          "title": {
+            "ko": null,
+            "en": "for reducing distortions"
+          }
+        },
+        {
+          "code": "G11B 20/24",
+          "title": {
+            "ko": null,
+            "en": "for reducing noise"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 21/00",
+      "title": {
+        "ko": "기록방법 또는 재생방법에 특징이 없는 헤드의 기구",
+        "en": "Head arrangements not specific to the method of recording or reproducing"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 21/02",
+          "title": {
+            "ko": "헤드를 구동 또는 이동하는 것",
+            "en": "Driving or moving of heads"
+          }
+        },
+        {
+          "code": "G11B 21/03",
+          "title": {
+            "ko": null,
+            "en": "for correcting time base error"
+          }
+        },
+        {
+          "code": "G11B 21/04",
+          "title": {
+            "ko": null,
+            "en": "Automatic feed mechanism producing a transducing traverse of the head in a direction which cuts across the direction of travel of the recording medium, e.g. helical scan"
+          }
+        },
+        {
+          "code": "G11B 21/06",
+          "title": {
+            "ko": null,
+            "en": "the record carrier having means to ensure traverse movement of the head"
+          }
+        },
+        {
+          "code": "G11B 21/08",
+          "title": {
+            "ko": "트랙의 변경 또는 선택(21/12가 우선)",
+            "en": "Track changing or selecting (G11B0021120000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 21/10",
+          "title": {
+            "ko": null,
+            "en": "Track finding or aligning by moving the head"
+          }
+        },
+        {
+          "code": "G11B 21/12",
+          "title": {
+            "ko": null,
+            "en": "Raising and lowering; Back-spacing or forward-spacing along track; Returning to starting position"
+          }
+        },
+        {
+          "code": "G11B 21/14",
+          "title": {
+            "ko": null,
+            "en": "manually"
+          }
+        },
+        {
+          "code": "G11B 21/16",
+          "title": {
+            "ko": null,
+            "en": "Supporting the heads; Supporting the sockets for plug-in heads"
+          }
+        },
+        {
+          "code": "G11B 21/18",
+          "title": {
+            "ko": null,
+            "en": "while the head is moving"
+          }
+        },
+        {
+          "code": "G11B 21/20",
+          "title": {
+            "ko": null,
+            "en": "while the head is in operative position but stationary or permitting minor movements to follow irregularities in surface of record carrier"
+          }
+        },
+        {
+          "code": "G11B 21/21",
+          "title": {
+            "ko": null,
+            "en": "with provision for maintaining desired spacing of head from record carrier, e.g. fluid-dynamic spacing, slider"
+          }
+        },
+        {
+          "code": "G11B 21/22",
+          "title": {
+            "ko": null,
+            "en": "while the head is out of operative position"
+          }
+        },
+        {
+          "code": "G11B 21/24",
+          "title": {
+            "ko": null,
+            "en": "Head support adjustments"
+          }
+        },
+        {
+          "code": "G11B 21/26",
+          "title": {
+            "ko": null,
+            "en": "Means for interchange or replacement of head or head element"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 23/00",
+      "title": {
+        "ko": "기록 또는 재생방법에 특징이 없는 기록매체; 부속품, 예. 컨테이너, 기록 또는 재생장치와 상호작용을 위해서 특히 적용되는 것",
+        "en": "Record carriers not specific to the method of recording or reproducing; Accessories, e.g. containers, specially adapted for co-operation with the recording or reproducing apparatus"
+      },
+      "definition": {
+        "ko": "그룹 23/00에서 기록 또는 재생장치는 기록매체를 포함하지 않는다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G11B 23/02",
+          "title": {
+            "ko": "컨테이너; 저장수단 (캐비넷, 케이스, 스탠드, 기록매체를 저장하기 위하여 수정한 것 G11B33/04)",
+            "en": "Containers; Storing means (cabinets, cases, stands, modified to store record carriers G11B0033040000)"
+          }
+        },
+        {
+          "code": "G11B 23/023",
+          "title": {
+            "ko": null,
+            "en": "Containers for magazines or cassettes"
+          }
+        },
+        {
+          "code": "G11B 23/027",
+          "title": {
+            "ko": null,
+            "en": "Containers for single reels or spools"
+          }
+        },
+        {
+          "code": "G11B 23/03",
+          "title": {
+            "ko": null,
+            "en": "Containers for flat record carriers"
+          }
+        },
+        {
+          "code": "G11B 23/033",
+          "title": {
+            "ko": null,
+            "en": "for flexible discs"
+          }
+        },
+        {
+          "code": "G11B 23/037",
+          "title": {
+            "ko": null,
+            "en": "Single reels or spools"
+          }
+        },
+        {
+          "code": "G11B 23/04",
+          "title": {
+            "ko": "매거진; 카세트 (G11B23/12가 우선)",
+            "en": "Magazines; Cassettes (G11B0023120000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 23/06",
+          "title": {
+            "ko": null,
+            "en": "for housing endless webs or filaments"
+          }
+        },
+        {
+          "code": "G11B 23/07",
+          "title": {
+            "ko": null,
+            "en": "using a single reel or core"
+          }
+        },
+        {
+          "code": "G11B 23/08",
+          "title": {
+            "ko": null,
+            "en": "for housing webs or filaments having two distinct ends"
+          }
+        },
+        {
+          "code": "G11B 23/087",
+          "title": {
+            "ko": null,
+            "en": "using two different reels or cores"
+          }
+        },
+        {
+          "code": "G11B 23/093",
+          "title": {
+            "ko": null,
+            "en": "the reels or cores being coaxial"
+          }
+        },
+        {
+          "code": "G11B 23/107",
+          "title": {
+            "ko": null,
+            "en": "using one reel or core, one end of the record carrier coming out of the magazine or cassette"
+          }
+        },
+        {
+          "code": "G11B 23/113",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or processes specially adapted for the manufacture of magazines or cassettes"
+          }
+        },
+        {
+          "code": "G11B 23/12",
+          "title": {
+            "ko": null,
+            "en": "Bins for random storage of webs or filaments"
+          }
+        },
+        {
+          "code": "G11B 23/14",
+          "title": {
+            "ko": null,
+            "en": "providing ability to repeat location, e.g. using sprocket holes"
+          }
+        },
+        {
+          "code": "G11B 23/16",
+          "title": {
+            "ko": null,
+            "en": "Record carriers with single track for recording at spaced intervals along the track thereof, e.g. for speech or language training"
+          }
+        },
+        {
+          "code": "G11B 23/18",
+          "title": {
+            "ko": null,
+            "en": "Record carriers with multiple tracks, e.g. with complementary and partial tracks such as paired \"stereo\" tracks"
+          }
+        },
+        {
+          "code": "G11B 23/20",
+          "title": {
+            "ko": null,
+            "en": "with provision for splicing to provide permanent or temporary connections"
+          }
+        },
+        {
+          "code": "G11B 23/22",
+          "title": {
+            "ko": null,
+            "en": "of endless belts; of tapes forming Möbius loops"
+          }
+        },
+        {
+          "code": "G11B 23/24",
+          "title": {
+            "ko": null,
+            "en": "of tapes having multiple tracks parallel to edge of record carrier by offset splicing to form endless loop with one or more helical tracks"
+          }
+        },
+        {
+          "code": "G11B 23/26",
+          "title": {
+            "ko": null,
+            "en": "of leaders for loading or threading, e.g. to form a temporary connection"
+          }
+        },
+        {
+          "code": "G11B 23/28",
+          "title": {
+            "ko": null,
+            "en": "indicating prior or unauthorised use"
+          }
+        },
+        {
+          "code": "G11B 23/30",
+          "title": {
+            "ko": null,
+            "en": "with provision for auxiliary signals"
+          }
+        },
+        {
+          "code": "G11B 23/32",
+          "title": {
+            "ko": null,
+            "en": "Electrical or mechanical contacting means; Tape stop foils"
+          }
+        },
+        {
+          "code": "G11B 23/34",
+          "title": {
+            "ko": null,
+            "en": "Signal means additional to the main recording track, e.g. photoelectric sensing of sprocket holes for timing"
+          }
+        },
+        {
+          "code": "G11B 23/36",
+          "title": {
+            "ko": null,
+            "en": "Signals on record carriers or on containers and recorded by the same method as the main recording"
+          }
+        },
+        {
+          "code": "G11B 23/38",
+          "title": {
+            "ko": "기록트랙에 포함된 것 또는 스프로켓 구멍에 의해서 표시된 것 이외의 가시적 특징이 있는 것",
+            "en": "Visual features other than those contained in record tracks or represented by sprocket holes"
+          }
+        },
+        {
+          "code": "G11B 23/40",
+          "title": {
+            "ko": null,
+            "en": "Identifying or analogous means applied to, or incorporated in, the record carrier and not intended for visual display simultaneously with the playing-back of the record carrier, e.g. label, leader or photograph"
+          }
+        },
+        {
+          "code": "G11B 23/42",
+          "title": {
+            "ko": null,
+            "en": "Marks for indexing, speed-controlling, synchronising, or timing"
+          }
+        },
+        {
+          "code": "G11B 23/44",
+          "title": {
+            "ko": "기록의 재생과 동시에 디스플레이 하기 위한 정보, 예. 사진에 의한 물질 (녹음 또는 재생수단이 있는 카메라 프로젝트와의 연관동작 G03B31/00)",
+            "en": "Information for display simultaneously with playback of the record, e.g. photographic matter (associated working of cameras or projectors with sound-recording or -reproducing means G03B0031000000)"
+          }
+        },
+        {
+          "code": "G11B 23/50",
+          "title": {
+            "ko": "기록매체의 수리(reconditioning); 기록매체의 크리닝(cleaning)(3/58이 우선)",
+            "en": "Reconditioning of record carriers; Cleaning of record carriers (G11B0003580000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 25/00",
+      "title": {
+        "ko": "기록 또는 재생방법에는 특징이 없고 기록매체의 형태에 의해서 특징지워지는 장치",
+        "en": "Apparatus characterised by the shape of record carrier employed but not specific to the method of recording or reproducing"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 25/02",
+          "title": {
+            "ko": null,
+            "en": "using cylindrical record carriers"
+          }
+        },
+        {
+          "code": "G11B 25/04",
+          "title": {
+            "ko": null,
+            "en": "using flat record carriers, e.g. disc, card"
+          }
+        },
+        {
+          "code": "G11B 25/06",
+          "title": {
+            "ko": null,
+            "en": "using web-form record carriers, e.g. tape"
+          }
+        },
+        {
+          "code": "G11B 25/08",
+          "title": {
+            "ko": null,
+            "en": "using filamentary record carriers, e.g. wire"
+          }
+        },
+        {
+          "code": "G11B 25/10",
+          "title": {
+            "ko": "그룹 G11B25/02부터 G11B25/08에 두개 이상으로 정의되는 기록매체를 사용하는 장치",
+            "en": "Apparatus capable of using record carriers defined in more than one of the groups G11B0025020000-G11B0025080000"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 27/00",
+      "title": {
+        "ko": "편집; 색인; 어드레싱; 타이밍 또는 동기; 모니터링 테이프 주행 측정",
+        "en": "Editing; Indexing; Addressing; Timing or synchronising; Monitoring; Measuring tape travel"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 27/02",
+          "title": {
+            "ko": "편집, 예,기록매체를 기록된 또는 기록매체로부터 재생되는 정보신호의 순서 변경",
+            "en": "Editing, e.g. varying the order of information signals recorded on, or reproduced from, record carriers"
+          }
+        },
+        {
+          "code": "G11B 27/022",
+          "title": {
+            "ko": "아날로그 정보신호의 전자편집, 예. 오디오 또는 비디오 신호",
+            "en": "Electronic editing of analogue information signals, e.g. audio or video signals"
+          }
+        },
+        {
+          "code": "G11B 27/024",
+          "title": {
+            "ko": "테이프 상의 것 (G11B27/028, G11B27/029가 우선)",
+            "en": "on tapes (G11B0027028000, G11B0027029000 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 27/026",
+          "title": {
+            "ko": "디스크 상의 것 (G11B27/028, G11B27/029가 우선)",
+            "en": "on discs (G11B0027028000, G11B0027029000 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 27/028",
+          "title": {
+            "ko": null,
+            "en": "with computer assistance"
+          }
+        },
+        {
+          "code": "G11B 27/029",
+          "title": {
+            "ko": null,
+            "en": "Insert-editing"
+          }
+        },
+        {
+          "code": "G11B 27/031",
+          "title": {
+            "ko": "디지털화된 아날로그 정보신호의 전자편집, 예. 오디오 또는 비디오 신호",
+            "en": "Electronic editing of digitised analogue information signals, e.g. audio or video signals"
+          }
+        },
+        {
+          "code": "G11B 27/032",
+          "title": {
+            "ko": "테이프 상의 것(27/036, 27/038이 우선)",
+            "en": "on tapes (G11B0027036000, G11B0027038000 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 27/034",
+          "title": {
+            "ko": "디스크 상의 것 (G11B27/036, G11B27/038이 우선)",
+            "en": "on discs (G11B0027036000, G11B0027038000 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 27/036",
+          "title": {
+            "ko": null,
+            "en": "Insert-editing"
+          }
+        },
+        {
+          "code": "G11B 27/038",
+          "title": {
+            "ko": null,
+            "en": "Cross-faders therefor"
+          }
+        },
+        {
+          "code": "G11B 27/04",
+          "title": {
+            "ko": null,
+            "en": "using differential drive of record carrier and head"
+          }
+        },
+        {
+          "code": "G11B 27/06",
+          "title": {
+            "ko": "컷팅, 재접합; 기록 스타일리(styli) 이외의 것에 의한 노칭(notching) 또는 구멍뚫기(perforating) (스플라이싱(splicing)을 위한 기록매체 23/20)",
+            "en": "Cutting and rejoining; Notching, or perforating record carriers otherwise than by recording styli (record carriers with provision for splicing G11B0023200000)"
+          }
+        },
+        {
+          "code": "G11B 27/10",
+          "title": {
+            "ko": null,
+            "en": "Indexing; Addressing; Timing or synchronising; Measuring tape travel"
+          }
+        },
+        {
+          "code": "G11B 27/11",
+          "title": {
+            "ko": null,
+            "en": "by using information not detectable on the record carrier"
+          }
+        },
+        {
+          "code": "G11B 27/13",
+          "title": {
+            "ko": null,
+            "en": "the information being derived from movement of the record carrier, e.g. using tachometer"
+          }
+        },
+        {
+          "code": "G11B 27/15",
+          "title": {
+            "ko": null,
+            "en": "using mechanical sensing means"
+          }
+        },
+        {
+          "code": "G11B 27/17",
+          "title": {
+            "ko": null,
+            "en": "using electrical sensing means"
+          }
+        },
+        {
+          "code": "G11B 27/19",
+          "title": {
+            "ko": null,
+            "en": "by using information detectable on the record carrier"
+          }
+        },
+        {
+          "code": "G11B 27/22",
+          "title": {
+            "ko": null,
+            "en": "Means responsive to presence or absence of recorded information signals"
+          }
+        },
+        {
+          "code": "G11B 27/24",
+          "title": {
+            "ko": null,
+            "en": "by sensing features on the record carrier other than the transducing track"
+          }
+        },
+        {
+          "code": "G11B 27/26",
+          "title": {
+            "ko": null,
+            "en": "by photoelectric detection, e.g. of sprocket holes"
+          }
+        },
+        {
+          "code": "G11B 27/28",
+          "title": {
+            "ko": null,
+            "en": "by using information signals recorded by the same method as the main recording"
+          }
+        },
+        {
+          "code": "G11B 27/30",
+          "title": {
+            "ko": null,
+            "en": "on the same track as the main recording"
+          }
+        },
+        {
+          "code": "G11B 27/32",
+          "title": {
+            "ko": null,
+            "en": "on separate auxiliary tracks of the same or an auxiliary record carrier"
+          }
+        },
+        {
+          "code": "G11B 27/34",
+          "title": {
+            "ko": null,
+            "en": "Indicating arrangements"
+          }
+        },
+        {
+          "code": "G11B 27/36",
+          "title": {
+            "ko": null,
+            "en": "Monitoring, i.e. supervising the progress of recording or reproducing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 31/00",
+      "title": {
+        "ko": "관련장치를 가지고 기록재생장치와 연관된 동작을 위한 배치(카메라 또는 프로젝트를 가지고 있는 것 G03B 31/00)",
+        "en": "Arrangements for the associated working of recording or reproducing apparatus with related apparatus (with cameras or projectors G03B0031000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 31/02",
+          "title": {
+            "ko": null,
+            "en": "with automatic musical instruments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 33/00",
+      "title": {
+        "ko": null,
+        "en": "Constructional parts, details or accessories not provided for in the other groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 33/02",
+          "title": {
+            "ko": null,
+            "en": "Cabinets; Cases; Stands; Disposition of apparatus therein or thereon"
+          }
+        },
+        {
+          "code": "G11B 33/04",
+          "title": {
+            "ko": null,
+            "en": "modified to store record carriers"
+          }
+        },
+        {
+          "code": "G11B 33/06",
+          "title": {
+            "ko": null,
+            "en": "combined with other apparatus having a different main function"
+          }
+        },
+        {
+          "code": "G11B 33/08",
+          "title": {
+            "ko": null,
+            "en": "Insulation or absorption of undesired vibrations or sounds"
+          }
+        },
+        {
+          "code": "G11B 33/10",
+          "title": {
+            "ko": null,
+            "en": "Indicating arrangements; Warning arrangements"
+          }
+        },
+        {
+          "code": "G11B 33/12",
+          "title": {
+            "ko": null,
+            "en": "Disposition of constructional parts in the apparatus, e.g. of power supply, of modules"
+          }
+        },
+        {
+          "code": "G11B 33/14",
+          "title": {
+            "ko": null,
+            "en": "Reducing influence of physical parameters, e.g. temperature change, moisture, dust"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "description": "알려진 선행기술 번호로 신규성/배타성 평가. Stage 1 (분석) + 특허 직접 로드 + Stage 4-5 (Claim Chart + Synthesis).",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R99.CENTRAL_AGENT"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "발명 설명에서 핵심 기술 요소·IPC 분류·검색 쿼리 초안 추출. 후속 fetch_patents 가 prior_art_numbers 직접 로드하므로 query 는 보조용.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R11/analyze_query.md"
+      },
+      "llm_tools": [],
+      "output_contract": "analyze-output"
+    },
+    {
+      "description": "caller 가 제공한 prior_art_numbers 의 KIPRIS Plus 상세 정보를 fan_out 으로 병렬 로드. claim_chart 의 비교 대상. — fan_out → 1 step + 도구가 list 내부 처리",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "kipris.get_patent_detail",
+      "params": {
+        "application_number": "$.patent_number"
+      },
+      "output_contract": "fetch_patents-output"
+    },
+    {
+      "description": "발명의 각 기술 요소와 선행기술 상세를 1:1 매칭하여 동일/유사/상이 판정 + 차별화 포인트 도출. synthesis 의 1차 근거.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R11/match_elements.md"
+      },
+      "llm_tools": [],
+      "output_contract": "claim-chart-output"
+    },
+    {
+      "description": "신규성·진보성·배타성 3 축 평가와 청구항 전략·위험·confidence 를 종합. caller 의 최종 의사결정 base.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R11/synthesize.md"
+      },
+      "llm_tools": [],
+      "output_contract": "synthesis-output"
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "subclass": "C01D",
+  "title": {
+    "ko": "알칼리 금속의 화합물, 즉. 리튬, 나트륨, 칼륨, 루비듐, 세슘, 또는 프란슘 (금속 수소화물 C01B6/00; 할로겐의 옥시산염 C01B11/00; 과산화물, 페르옥소산염 C01B15/00; 황화물 또는 다황화물 C01B17/22; 티오황산염, 아디티온산염, 폴리티온산염 C01B17/64; 셀레륨 또는 텔루륨을 포함하는 화합물 C01B19/00; 금속을 가지는 질소의 2원 화합물 C01B21/06; 아지드화물 C01B21/08; 금속 아미드 C01B21/092; 아질산염 C01B21/50; 인화물 C01B21/08; 인의 옥시산염 C01B25/16; 카바이드 C01B32/90; 실리콘을 포함하는 화합물 C01B33/00; 붕소를 포함하는 화합물 C01B35/00; 시안화물 C01C3/08; 시안을 함유한 산염 C01C3/14; 시안아미드의 염 C01C3/16; 티오시안산 C01C3/20; ; 이산화탄소를 제외한 원소 또는 무기 물질의 제조를 위한 발효 또는 효소 이용 공정 C12P 3/00; 혼합물로 부터 얻어지는 금속 화합물, 예. 광석, 유리 금속을 얻기위한 야금 공정에서의 중간 화합물 C22B; 전기분해 또는 전기영동에 의한 비금속 원소 또는 무기 화합물의 제조 C25B)",
+    "en": "COMPOUNDS OF ALKALI METALS, i.e. LITHIUM, SODIUM, POTASSIUM, RUBIDIUM, CAESIUM, OR FRANCIUM (metal hydrides C01B0006000000; salts of oxyacids of halogens C01B0011000000; peroxides, salts of peroxyacids C01B0015000000; sulfides or polysulfides C01B0017220000; thiosulfates, dithionites, polythionates C01B0017640000; compounds containing selenium or tellurium C01B0019000000; binary compounds of nitrogen with metals C01B0021060000; azides C01B0021080000; metal amides C01B0021092000; nitrites C01B0021500000; phosphides C01B0025080000; salts of oxyacids of phosphorus C01B0025160000; carbides C01B0032900000; compounds containing silicon C01B0033000000; compounds containing boron C01B0035000000; cyanides C01C0003080000; salts of cyanic acid C01C0003140000; salts of cyanamide C01C0003160000; thiocyanates C01C0003200000; fermentation or enzyme-using processes for the preparation of elements or inorganic compounds except carbon dioxide C12P0003000000; obtaining metal compounds from mixtures, e.g. ores, which are intermediate compounds in a metallurgical process for obtaining a free metal C22B; production of non-metallic elements or inorganic compounds by electrolysis or electrophoresis C25B)"
+  },
+  "definition": {
+    "ko": "(1) 서브클래스 C01B로부터 C01G에 적용하는 라스트 플레이스 우선 룰을 규정하는 클래스 C01에 계속되는 클래스주(1)에 주의하는 것 (2) 화합물의 약학적 활성은 서브클래스 A61P 에서 더 자세히 분류됨.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "C01D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Oxides or hydroxides of sodium, potassium, or alkali metals in general"
+      },
+      "subgroups": [
+        {
+          "code": "C01D 1/02",
+          "title": {
+            "ko": null,
+            "en": "Oxides"
+          }
+        },
+        {
+          "code": "C01D 1/04",
+          "title": {
+            "ko": null,
+            "en": "Hydroxides"
+          }
+        },
+        {
+          "code": "C01D 1/20",
+          "title": {
+            "ko": null,
+            "en": "Preparation by reacting oxides or hydroxides with alkali metal salts"
+          }
+        },
+        {
+          "code": "C01D 1/22",
+          "title": {
+            "ko": null,
+            "en": "with carbonates or bicarbonates"
+          }
+        },
+        {
+          "code": "C01D 1/24",
+          "title": {
+            "ko": null,
+            "en": "from or via fluorides or silico-fluorides"
+          }
+        },
+        {
+          "code": "C01D 1/26",
+          "title": {
+            "ko": null,
+            "en": "Preparation from or via cyano compounds, e.g. cyanides, cyanamides"
+          }
+        },
+        {
+          "code": "C01D 1/28",
+          "title": {
+            "ko": null,
+            "en": "Purification; Separation"
+          }
+        },
+        {
+          "code": "C01D 1/30",
+          "title": {
+            "ko": null,
+            "en": "by crystallisation"
+          }
+        },
+        {
+          "code": "C01D 1/32",
+          "title": {
+            "ko": null,
+            "en": "by adsorption or precipitation"
+          }
+        },
+        {
+          "code": "C01D 1/34",
+          "title": {
+            "ko": null,
+            "en": "with selective solvents"
+          }
+        },
+        {
+          "code": "C01D 1/36",
+          "title": {
+            "ko": null,
+            "en": "by oxidation"
+          }
+        },
+        {
+          "code": "C01D 1/38",
+          "title": {
+            "ko": null,
+            "en": "by dialysis"
+          }
+        },
+        {
+          "code": "C01D 1/40",
+          "title": {
+            "ko": null,
+            "en": "by electrolysis"
+          }
+        },
+        {
+          "code": "C01D 1/42",
+          "title": {
+            "ko": null,
+            "en": "Concentration; Dehydration"
+          }
+        },
+        {
+          "code": "C01D 1/44",
+          "title": {
+            "ko": null,
+            "en": "Preparation in the form of granules, pieces, or other shaped products"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C01D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Halides of sodium, potassium, or alkali metals in general"
+      },
+      "subgroups": [
+        {
+          "code": "C01D 3/02",
+          "title": {
+            "ko": null,
+            "en": "Fluorides"
+          }
+        },
+        {
+          "code": "C01D 3/04",
+          "title": {
+            "ko": null,
+            "en": "Chlorides"
+          }
+        },
+        {
+          "code": "C01D 3/06",
+          "title": {
+            "ko": null,
+            "en": "Preparation by working up brines, seawater or spent lyes"
+          }
+        },
+        {
+          "code": "C01D 3/08",
+          "title": {
+            "ko": null,
+            "en": "Preparation by working up natural or industrial salt mixtures or siliceous minerals"
+          }
+        },
+        {
+          "code": "C01D 3/10",
+          "title": {
+            "ko": null,
+            "en": "Bromides"
+          }
+        },
+        {
+          "code": "C01D 3/12",
+          "title": {
+            "ko": null,
+            "en": "Iodides"
+          }
+        },
+        {
+          "code": "C01D 3/14",
+          "title": {
+            "ko": null,
+            "en": "Purification"
+          }
+        },
+        {
+          "code": "C01D 3/16",
+          "title": {
+            "ko": null,
+            "en": "by precipitation or adsorption"
+          }
+        },
+        {
+          "code": "C01D 3/18",
+          "title": {
+            "ko": null,
+            "en": "with selective solvents"
+          }
+        },
+        {
+          "code": "C01D 3/20",
+          "title": {
+            "ko": null,
+            "en": "by melting"
+          }
+        },
+        {
+          "code": "C01D 3/22",
+          "title": {
+            "ko": null,
+            "en": "Preparation in the form of granules, pieces, or other shaped products"
+          }
+        },
+        {
+          "code": "C01D 3/24",
+          "title": {
+            "ko": null,
+            "en": "Influencing the crystallisation process"
+          }
+        },
+        {
+          "code": "C01D 3/26",
+          "title": {
+            "ko": null,
+            "en": "Preventing the absorption of moisture or caking of the crystals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C01D 5/00",
+      "title": {
+        "ko": "나트륨, 칼륨 또는 다른 알칼리 금속의 황산염 또는 아황산염 일반",
+        "en": "Sulfates or sulfites of sodium, potassium, or alkali metals in general"
+      },
+      "subgroups": [
+        {
+          "code": "C01D 5/02",
+          "title": {
+            "ko": null,
+            "en": "Preparation of sulfates from alkali metal salts and sulfuric acid or bisulfates; Preparation of bisulfates"
+          }
+        },
+        {
+          "code": "C01D 5/04",
+          "title": {
+            "ko": null,
+            "en": "Preparation of sulfates with the aid of sulfurous acid or sulfites, e.g. Hargreaves process"
+          }
+        },
+        {
+          "code": "C01D 5/06",
+          "title": {
+            "ko": null,
+            "en": "Preparation of sulfates by double decomposition"
+          }
+        },
+        {
+          "code": "C01D 5/08",
+          "title": {
+            "ko": null,
+            "en": "with each other or with ammonium sulfate"
+          }
+        },
+        {
+          "code": "C01D 5/10",
+          "title": {
+            "ko": null,
+            "en": "with sulfates of magnesium, calcium, strontium, or barium"
+          }
+        },
+        {
+          "code": "C01D 5/12",
+          "title": {
+            "ko": null,
+            "en": "Preparation of double sulfates of magnesium with sodium or potassium"
+          }
+        },
+        {
+          "code": "C01D 5/14",
+          "title": {
+            "ko": "아황산염의 제조(C01D 5/04가 우선)",
+            "en": "Preparation of sulfites (C01D0005040000 takes precedence)"
+          }
+        },
+        {
+          "code": "C01D 5/16",
+          "title": {
+            "ko": null,
+            "en": "Purification"
+          }
+        },
+        {
+          "code": "C01D 5/18",
+          "title": {
+            "ko": null,
+            "en": "Dehydration"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C01D 7/00",
+      "title": {
+        "ko": "나트륨 칼륨 또는 다른 알칼리 금속의 탄산염 일반",
+        "en": "Carbonates of sodium, potassium, or alkali metals in general"
+      },
+      "subgroups": [
+        {
+          "code": "C01D 7/02",
+          "title": {
+            "ko": "복분해에 의한 제조",
+            "en": "Preparation by double decomposition"
+          }
+        },
+        {
+          "code": "C01D 7/04",
+          "title": {
+            "ko": "플루오르화물 또는 실리콘-플루오르화물과의 복분해(C01D 1/24가 우선)",
+            "en": "with a fluoride or silico-fluoride (C01D0001240000 takes precedence)"
+          }
+        },
+        {
+          "code": "C01D 7/06",
+          "title": {
+            "ko": null,
+            "en": "Preparation via sodium or potassium magnesium carbonate"
+          }
+        },
+        {
+          "code": "C01D 7/07",
+          "title": {
+            "ko": null,
+            "en": "Preparation from the hydroxides"
+          }
+        },
+        {
+          "code": "C01D 7/08",
+          "title": {
+            "ko": "나트륨 또는 칼륨의 시아노 화합물에서의 것 또는 그것을 경유하는 제조(C01D 1/26이 우선)",
+            "en": "Preparation from or via cyano compounds of sodium or potassium (C01D0001260000 takes precedence)"
+          }
+        },
+        {
+          "code": "C01D 7/10",
+          "title": {
+            "ko": "탄산염에서 중탄산염의 제조(암모니아소다법 C01D 7/18)",
+            "en": "Preparation of bicarbonates from carbonates (ammonia-soda process C01D0007180000)"
+          }
+        },
+        {
+          "code": "C01D 7/12",
+          "title": {
+            "ko": null,
+            "en": "Preparation of carbonates from bicarbonates"
+          }
+        },
+        {
+          "code": "C01D 7/14",
+          "title": {
+            "ko": null,
+            "en": "Preparation of sesquicarbonates"
+          }
+        },
+        {
+          "code": "C01D 7/16",
+          "title": {
+            "ko": null,
+            "en": "Preparation from compounds of sodium or potassium with amines and carbon dioxide"
+          }
+        },
+        {
+          "code": "C01D 7/18",
+          "title": {
+            "ko": null,
+            "en": "Preparation by the ammonia-soda process"
+          }
+        },
+        {
+          "code": "C01D 7/22",
+          "title": {
+            "ko": null,
+            "en": "Purification"
+          }
+        },
+        {
+          "code": "C01D 7/24",
+          "title": {
+            "ko": null,
+            "en": "Crystallisation"
+          }
+        },
+        {
+          "code": "C01D 7/26",
+          "title": {
+            "ko": null,
+            "en": "by precipitation or adsorption"
+          }
+        },
+        {
+          "code": "C01D 7/28",
+          "title": {
+            "ko": null,
+            "en": "with selective solvents"
+          }
+        },
+        {
+          "code": "C01D 7/30",
+          "title": {
+            "ko": null,
+            "en": "by oxidation"
+          }
+        },
+        {
+          "code": "C01D 7/32",
+          "title": {
+            "ko": null,
+            "en": "by dialysis"
+          }
+        },
+        {
+          "code": "C01D 7/34",
+          "title": {
+            "ko": null,
+            "en": "by electrolysis"
+          }
+        },
+        {
+          "code": "C01D 7/35",
+          "title": {
+            "ko": null,
+            "en": "Varying the content of water of crystallisation or the specific gravity"
+          }
+        },
+        {
+          "code": "C01D 7/37",
+          "title": {
+            "ko": null,
+            "en": "Densifying sodium carbonate"
+          }
+        },
+        {
+          "code": "C01D 7/38",
+          "title": {
+            "ko": null,
+            "en": "Preparation in the form of granules, pieces, or other shaped products"
+          }
+        },
+        {
+          "code": "C01D 7/40",
+          "title": {
+            "ko": null,
+            "en": "Influencing the crystallisation process"
+          }
+        },
+        {
+          "code": "C01D 7/42",
+          "title": {
+            "ko": null,
+            "en": "Preventing the absorption of moisture or caking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C01D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Nitrates of sodium, potassium, or alkali metals in general"
+      },
+      "subgroups": [
+        {
+          "code": "C01D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Preparation by working-up natural salt mixtures"
+          }
+        },
+        {
+          "code": "C01D 9/04",
+          "title": {
+            "ko": null,
+            "en": "Preparation with liquid nitric acid"
+          }
+        },
+        {
+          "code": "C01D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Preparation with gaseous nitric acid or nitrogen oxides"
+          }
+        },
+        {
+          "code": "C01D 9/08",
+          "title": {
+            "ko": null,
+            "en": "Preparation by double decomposition"
+          }
+        },
+        {
+          "code": "C01D 9/10",
+          "title": {
+            "ko": null,
+            "en": "with ammonium nitrate"
+          }
+        },
+        {
+          "code": "C01D 9/12",
+          "title": {
+            "ko": null,
+            "en": "with nitrates of magnesium, calcium, strontium, or barium"
+          }
+        },
+        {
+          "code": "C01D 9/14",
+          "title": {
+            "ko": null,
+            "en": "of salts of potassium with sodium nitrate"
+          }
+        },
+        {
+          "code": "C01D 9/16",
+          "title": {
+            "ko": null,
+            "en": "Purification"
+          }
+        },
+        {
+          "code": "C01D 9/18",
+          "title": {
+            "ko": null,
+            "en": "Preparation in the form of shaped products, e.g. granules"
+          }
+        },
+        {
+          "code": "C01D 9/20",
+          "title": {
+            "ko": null,
+            "en": "Preventing the absorption of moisture or caking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C01D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Compounds of sodium or potassium not provided for elsewhere"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C01D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Lithium compounds"
+      },
+      "subgroups": [
+        {
+          "code": "C01D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Oxides; Hydroxides"
+          }
+        },
+        {
+          "code": "C01D 15/04",
+          "title": {
+            "ko": null,
+            "en": "Halides"
+          }
+        },
+        {
+          "code": "C01D 15/06",
+          "title": {
+            "ko": null,
+            "en": "Sulfates; Sulfites"
+          }
+        },
+        {
+          "code": "C01D 15/08",
+          "title": {
+            "ko": null,
+            "en": "Carbonates; Bicarbonates"
+          }
+        },
+        {
+          "code": "C01D 15/10",
+          "title": {
+            "ko": null,
+            "en": "Nitrates"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C01D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Rubidium, caesium, or francium compounds"
+      },
+      "subgroups": []
+    }
+  ]
+}

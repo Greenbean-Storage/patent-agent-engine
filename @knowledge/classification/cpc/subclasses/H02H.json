@@ -1,0 +1,479 @@
+{
+  "subclass": "H02H",
+  "title": {
+    "ko": null,
+    "en": "EMERGENCY PROTECTIVE CIRCUIT ARRANGEMENTS (indicating or signalling undesired working conditions G01R, e.g. G01R31/00, G08B; locating faults along lines G01R31/08; emergency protective devices H01H)"
+  },
+  "groups": [
+    {
+      "code": "H02H 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details of emergency protective circuit arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 1/0007",
+          "title": {
+            "ko": null,
+            "en": "{concerning the detecting means (in general G01R or other subclasses of G01; reed switches H01H71/2445)}"
+          }
+        },
+        {
+          "code": "H02H 1/0038",
+          "title": {
+            "ko": null,
+            "en": "{concerning the connection of the detecting means, e.g. for reducing their number}"
+          }
+        },
+        {
+          "code": "H02H 1/0061",
+          "title": {
+            "ko": null,
+            "en": "{concerning transmission of signals (transmission of measured quantities or switching orders; sectionalised protection involving signal transmission between at least two stations H02H7/261; comparison of the voltage or current values at two spaced portions of a single system H02H3/28; transferring the output of a sensing member to another variable G01D5/00; electrical measuring arrangements using modulation of electromagnetic waves, e.g. light beams G01R15/24, G01R15/26)}"
+          }
+        },
+        {
+          "code": "H02H 1/0092",
+          "title": {
+            "ko": null,
+            "en": "{concerning the data processing means, e.g. expert systems, neural networks}"
+          }
+        },
+        {
+          "code": "H02H 1/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing response to transient abnormal conditions, e.g. to lightning {or to short duration over voltage or oscillations; Damping the influence of DC component by short circuits in AC networks}"
+          }
+        },
+        {
+          "code": "H02H 1/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supplying operative power {(power supply arrangements in general G05F, H02M)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 3/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal electric working condition with or without subsequent reconnection (specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H7/00; systems for change-over to standby supply H02J9/00 ){; integrated protection (for motors H02H7/0822)}"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 3/003",
+          "title": {
+            "ko": null,
+            "en": "{responsive to reversal of power transmission direction (reversal of direct current H02H3/18)}"
+          }
+        },
+        {
+          "code": "H02H 3/006",
+          "title": {
+            "ko": null,
+            "en": "{Calibration or setting of parameters}"
+          }
+        },
+        {
+          "code": "H02H 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H02H 3/08",
+          "title": {
+            "ko": null,
+            "en": "responsive to excess current (responsive to abnormal temperature caused by excess current H02H5/04)"
+          }
+        },
+        {
+          "code": "H02H 3/12",
+          "title": {
+            "ko": null,
+            "en": "responsive to underload or no-load {(for motors H02H7/0827)}"
+          }
+        },
+        {
+          "code": "H02H 3/14",
+          "title": {
+            "ko": null,
+            "en": "responsive to occurrence of voltage on parts normally at earth potential {(monitoring earth connection H02H5/105)}"
+          }
+        },
+        {
+          "code": "H02H 3/16",
+          "title": {
+            "ko": null,
+            "en": "responsive to fault current to earth, frame or mass (with balanced or differential arrangement H02H3/26  {; monitoring earth connection H02H5/105})"
+          }
+        },
+        {
+          "code": "H02H 3/18",
+          "title": {
+            "ko": null,
+            "en": "responsive to reversal of direct current"
+          }
+        },
+        {
+          "code": "H02H 3/20",
+          "title": {
+            "ko": null,
+            "en": "responsive to excess voltage"
+          }
+        },
+        {
+          "code": "H02H 3/24",
+          "title": {
+            "ko": null,
+            "en": "responsive to undervoltage or no-voltage {(H02H3/207 takes precedence)}"
+          }
+        },
+        {
+          "code": "H02H 3/26",
+          "title": {
+            "ko": null,
+            "en": "responsive to difference between voltages or between currents; responsive to phase angle between voltages or between currents"
+          }
+        },
+        {
+          "code": "H02H 3/38",
+          "title": {
+            "ko": null,
+            "en": "responsive to both voltage and current; responsive to phase angle between voltage and current"
+          }
+        },
+        {
+          "code": "H02H 3/40",
+          "title": {
+            "ko": null,
+            "en": "responsive to ratio of voltage and current"
+          }
+        },
+        {
+          "code": "H02H 3/42",
+          "title": {
+            "ko": null,
+            "en": "responsive to product of voltage and current"
+          }
+        },
+        {
+          "code": "H02H 3/44",
+          "title": {
+            "ko": null,
+            "en": "responsive to the rate of change of electrical quantities"
+          }
+        },
+        {
+          "code": "H02H 3/46",
+          "title": {
+            "ko": null,
+            "en": "responsive to frequency deviations"
+          }
+        },
+        {
+          "code": "H02H 3/48",
+          "title": {
+            "ko": null,
+            "en": "responsive to loss of synchronism"
+          }
+        },
+        {
+          "code": "H02H 3/50",
+          "title": {
+            "ko": null,
+            "en": "responsive to the appearance of abnormal wave forms, e.g. AC in DC installations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 5/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal non-electric working conditions with or without subsequent reconnection (using simulators of the apparatus being protected H02H6/00; specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H7/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 5/005",
+          "title": {
+            "ko": null,
+            "en": "{responsive to ionising radiation; Nuclear-radiation circumvention circuits (radiation detectors G01T; nuclear-explosion detection G21J5/00)}"
+          }
+        },
+        {
+          "code": "H02H 5/04",
+          "title": {
+            "ko": null,
+            "en": "responsive to abnormal temperature {(specially adapted for electric machines H02H7/0852)}"
+          }
+        },
+        {
+          "code": "H02H 5/08",
+          "title": {
+            "ko": null,
+            "en": "responsive to abnormal fluid pressure, liquid level or liquid displacement, e.g. Buchholz relays"
+          }
+        },
+        {
+          "code": "H02H 5/10",
+          "title": {
+            "ko": null,
+            "en": "responsive to mechanical injury, e.g. rupture of line, breakage of earth connection"
+          }
+        },
+        {
+          "code": "H02H 5/12",
+          "title": {
+            "ko": null,
+            "en": "responsive to undesired approach to, or touching of, live parts by living beings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 6/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements responsive to undesired changes from normal non-electric working conditions using simulators of the apparatus being protected, e.g. using thermal images"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 6/005",
+          "title": {
+            "ko": null,
+            "en": "{using digital thermal images}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 7/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems, and effecting automatic switching in the event of an undesired change from normal working conditions"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 7/001",
+          "title": {
+            "ko": null,
+            "en": "{for superconducting apparatus, e.g. coils, lines, machines}"
+          }
+        },
+        {
+          "code": "H02H 7/003",
+          "title": {
+            "ko": null,
+            "en": "{for electrostatic apparatus}"
+          }
+        },
+        {
+          "code": "H02H 7/005",
+          "title": {
+            "ko": null,
+            "en": "{for remote controlled apparatus; for lines connecting such apparatus}"
+          }
+        },
+        {
+          "code": "H02H 7/006",
+          "title": {
+            "ko": null,
+            "en": "{for non-insulated low-voltage distribution systems, e.g. low-voltage halogen-lamp system}"
+          }
+        },
+        {
+          "code": "H02H 7/008",
+          "title": {
+            "ko": null,
+            "en": "{for protective arrangements according to this subclass (H02H9/042, H02H9/043 take precedence; protection of spark-gaps H02H7/24)}"
+          }
+        },
+        {
+          "code": "H02H 7/04",
+          "title": {
+            "ko": null,
+            "en": "for transformers"
+          }
+        },
+        {
+          "code": "H02H 7/06",
+          "title": {
+            "ko": null,
+            "en": "for dynamo-electric generators; for synchronous capacitors"
+          }
+        },
+        {
+          "code": "H02H 7/08",
+          "title": {
+            "ko": null,
+            "en": "for dynamo-electric motors"
+          }
+        },
+        {
+          "code": "H02H 7/10",
+          "title": {
+            "ko": null,
+            "en": "for converters; for rectifiers {(forming part of the control circuit of the converter, see the relevant group in H02M)}"
+          }
+        },
+        {
+          "code": "H02H 7/16",
+          "title": {
+            "ko": null,
+            "en": "for capacitors (for synchronous capacitors H02H7/06)"
+          }
+        },
+        {
+          "code": "H02H 7/18",
+          "title": {
+            "ko": null,
+            "en": "for batteries; for accumulators"
+          }
+        },
+        {
+          "code": "H02H 7/20",
+          "title": {
+            "ko": null,
+            "en": "for electronic equipment (for converters H02H7/10; for electric measuring instruments G01R1/36; for DC voltage or current semiconductor regulators G05F1/569; for amplifiers H03F1/52; for electronic switching circuits H03K17/08)"
+          }
+        },
+        {
+          "code": "H02H 7/22",
+          "title": {
+            "ko": null,
+            "en": "for distribution gear, e.g. bus-bar systems; for switching devices {(detecting mechanical or electrical defects in gas-insulated switchgears H02B13/065)}"
+          }
+        },
+        {
+          "code": "H02H 7/24",
+          "title": {
+            "ko": null,
+            "en": "for spark-gap arresters"
+          }
+        },
+        {
+          "code": "H02H 7/26",
+          "title": {
+            "ko": null,
+            "en": "Sectionalised protection of cable or line systems, e.g. for disconnecting a section on which a short-circuit, earth fault, or arc discharge has occured (locating faults in cables G01R31/08)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 9/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements for limiting excess current or voltage without disconnection"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 9/001",
+          "title": {
+            "ko": null,
+            "en": "{limiting speed of change of electric quantities, e.g. soft switching on or off (progressive control of electronic switches for eliminating interferences H03K17/16)}"
+          }
+        },
+        {
+          "code": "H02H 9/005",
+          "title": {
+            "ko": null,
+            "en": "{avoiding undesired transient conditions}"
+          }
+        },
+        {
+          "code": "H02H 9/008",
+          "title": {
+            "ko": null,
+            "en": "{Intrinsically safe circuits}"
+          }
+        },
+        {
+          "code": "H02H 9/02",
+          "title": {
+            "ko": null,
+            "en": "responsive to excess current {(current limitation for voltage regulators G05F1/573; disconnection after limiting H02H3/025)}"
+          }
+        },
+        {
+          "code": "H02H 9/04",
+          "title": {
+            "ko": null,
+            "en": "responsive to excess voltage (lightning arrestors H01C7/12, H01C8/04, H01G9/18, H01T)"
+          }
+        },
+        {
+          "code": "H02H 9/08",
+          "title": {
+            "ko": null,
+            "en": "Limitation or suppression of earth fault currents, e.g. Petersen coil"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 11/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements for preventing the switching-on in case an undesired electric working condition might result"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 11/001",
+          "title": {
+            "ko": null,
+            "en": "{in case of incorrect or interrupted earth connection (disconnection by breaking of earth connection H02H5/105)}"
+          }
+        },
+        {
+          "code": "H02H 11/002",
+          "title": {
+            "ko": null,
+            "en": "{in case of inverted polarity or connection; with switching for obtaining correct connection}"
+          }
+        },
+        {
+          "code": "H02H 11/004",
+          "title": {
+            "ko": null,
+            "en": "{in case of incorrect phase sequence; with switching for obtaining correct phase sequence (protection of motors against wrong direction of rotation H02H7/097)}"
+          }
+        },
+        {
+          "code": "H02H 11/005",
+          "title": {
+            "ko": null,
+            "en": "{in case of too low isolation resistance, too high load, short-circuit; earth fault}"
+          }
+        },
+        {
+          "code": "H02H 11/006",
+          "title": {
+            "ko": null,
+            "en": "{in case of too high or too low voltage}"
+          }
+        },
+        {
+          "code": "H02H 11/008",
+          "title": {
+            "ko": null,
+            "en": "{preventing unsafe switching operations in substations (Schaltfehlerschutz)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

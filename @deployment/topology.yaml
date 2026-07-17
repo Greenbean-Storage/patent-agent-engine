@@ -1,0 +1,33 @@
+# DRC 컨테이너 host/port 단일 정의 (Single Source of Truth) — 순수 네트워크 주소록.
+#
+# compose.yaml / Dockerfile / DRO·CM·Actor·Nexus config.py / tests/probe·play·endpoint /
+# Makefile 이 모두 이 파일에서 derive — 같은 값이 두 곳에 나오면 안 된다.
+# persona 관련 정의는 여기 없음 — persona 의 SoT 는 @deployment/engine.config.yaml
+# (구 persona_mapping 은 unified actor 컷오버로 폐기 — DRO 는 service_url("actor") 직결).
+#
+# 로딩 흐름:
+#   - 컨테이너 안: `/etc/topology.yaml` 로 read-only mount → shared/venezia_topology 가 read
+#   - compose interpolation: `make topology` 가 export_env 로 `.env.topology` 생성 →
+#     compose 의 env_file 이 import 해 `${DRO_PORT}` 등으로 사용
+#
+# 포트 컨벤션 (59{컨테이너 번호}):
+#   - Nexus = 59100
+#   - DRO   = 59200
+#   - Actor = 59300 (unified — 단일 컨테이너, persona 별 동시성은 engine.config cap)
+#   - CM    = 59400
+#
+# host_publish_port 가 services 안에 함께 들어있는 이유 — 현재 internal listen
+# port 와 host publish port 가 동일. 향후 분리할 일 있으면 값만 다르게 두면 됨.
+
+version: 1
+
+services:
+  dro:   { host: dro,   port: 59200, host_publish_port: 59200 }
+  cm:    { host: cm,    port: 59400, host_publish_port: 59400 }
+  actor: { host: actor, port: 59300, host_publish_port: 59300 }
+  # 100.Nexus — SOLE external gateway (전 client REST + WS + JWT auth + mypage 영역). (분리 안 A)
+  nexus: { host: nexus, port: 59100, host_publish_port: 59100 }
+
+# Google OAuth redirect 경로. 외부 URL 조립 = external_url(<svc>) + <svc>_callback_path.
+# OAuth 발급 책임은 Nexus(Account) — account_callback_path 사용 (구 dro_callback_path 제거).
+account_callback_path: /auth/callback

@@ -1,0 +1,326 @@
+{
+  "subclass": "H03D",
+  "title": {
+    "ko": null,
+    "en": "DEMODULATION OR TRANSFERENCE OF MODULATION FROM ONE CARRIER TO ANOTHER (masers, lasers H01S; circuits capable of acting both as modulator and demodulator H03C; details applicable to both modulators and frequency-changers H03C; demodulating pulses H03K9/00; transforming types of pulse modulation H03K11/00; coding, decoding or code conversion, in general H03M; repeater stations H04B7/14; demodulators adapted for AC systems of digital information transmission H04L27/00; synchronous demodulators adapted for colour television H04N9/66)"
+  },
+  "groups": [
+    {
+      "code": "H03D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Demodulation of amplitude-modulated oscillations (H03D5/00, H03D9/00, H03D11/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03D 1/08",
+          "title": {
+            "ko": null,
+            "en": "by means of non-linear two-pole elements (H03D1/22, H03D1/26, H03D1/28 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 1/14",
+          "title": {
+            "ko": null,
+            "en": "by means of non-linear elements having more than two poles (H03D1/22, H03D1/26, H03D1/28 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 1/22",
+          "title": {
+            "ko": null,
+            "en": "Homodyne or synchrodyne circuits {(receiver circuits H04B1/30)}"
+          }
+        },
+        {
+          "code": "H03D 1/26",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tubes"
+          }
+        },
+        {
+          "code": "H03D 1/28",
+          "title": {
+            "ko": null,
+            "en": "by deflecting an electron beam in a discharge tube (H03D1/26 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Demodulation of angle-, {frequency- or phase-} modulated oscillations (H03D5/00, H03D9/00, H03D11/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 3/001",
+          "title": {
+            "ko": null,
+            "en": "{Details of arrangements applicable to more than one type of frequency demodulator (H03D3/28 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03D 3/006",
+          "title": {
+            "ko": null,
+            "en": "{by sampling the oscillations and further processing the samples, e.g. by computing techniques (H03D3/007 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03D 3/007",
+          "title": {
+            "ko": null,
+            "en": "{by converting the oscillations into two quadrature related signals (H03D3/245 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03D 3/02",
+          "title": {
+            "ko": null,
+            "en": "by detecting phase difference between two signals obtained from input signal (H03D3/28 - H03D3/32 take precedence; {muting in frequency-modulation receivers H03G3/28}; limiting arrangements H03G11/00)"
+          }
+        },
+        {
+          "code": "H03D 3/26",
+          "title": {
+            "ko": null,
+            "en": "by means of sloping amplitude/frequency characteristic of tuned or reactive circuit (H03D3/28 - H03D3/32 takes precedence)"
+          }
+        },
+        {
+          "code": "H03D 3/28",
+          "title": {
+            "ko": null,
+            "en": "Modifications of demodulators to reduce effects of temperature variations ({automatic frequency regulation in receivers H03J}; automatic frequency control H03L)"
+          }
+        },
+        {
+          "code": "H03D 3/30",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tubes"
+          }
+        },
+        {
+          "code": "H03D 3/32",
+          "title": {
+            "ko": null,
+            "en": "by deflecting an electron beam in a discharge tube (H03D3/30 takes precedence)"
+          }
+        },
+        {
+          "code": "H03D 3/34",
+          "title": {
+            "ko": null,
+            "en": "by means of electromechanical devices (H03D3/16 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Circuits for demodulating amplitude-modulated or angle-modulated oscillations at will (H03D9/00, H03D11/00 take precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Transference of modulation from one carrier to another, e.g. frequency-changing (H03D9/00, H03D11/00 take precedence; dielectric amplifiers, magnetic amplifiers, parametric amplifiers used as a frequency-changers H03F)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 7/005",
+          "title": {
+            "ko": null,
+            "en": "{by means of superconductive devices}"
+          }
+        },
+        {
+          "code": "H03D 7/02",
+          "title": {
+            "ko": null,
+            "en": "by means of diodes (H03D7/14 - H03D7/22 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 7/06",
+          "title": {
+            "ko": null,
+            "en": "by means of discharge tubes having more than two electrodes (H03D7/14 - H03D7/22 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 7/12",
+          "title": {
+            "ko": null,
+            "en": "by means of semiconductor devices having more than two electrodes (H03D7/14 - H03D7/22 take precedence)"
+          }
+        },
+        {
+          "code": "H03D 7/14",
+          "title": {
+            "ko": null,
+            "en": "Balanced arrangements"
+          }
+        },
+        {
+          "code": "H03D 7/16",
+          "title": {
+            "ko": null,
+            "en": "Multiple-frequency-changing"
+          }
+        },
+        {
+          "code": "H03D 7/18",
+          "title": {
+            "ko": null,
+            "en": "Modifications of frequency-changers for eliminating image frequencies {(H03D7/16 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03D 7/20",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tubes"
+          }
+        },
+        {
+          "code": "H03D 7/22",
+          "title": {
+            "ko": null,
+            "en": "by deflecting an electron beam in a discharge tube (H03D7/20 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Demodulation or transference of modulation of modulated electromagnetic waves (demodulating light, transferring modulation in light waves G02F2/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Demodulation using distributed inductance and capacitance, e.g. in feeder lines"
+          }
+        },
+        {
+          "code": "H03D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Transference of modulation using distributed inductance and capacitance"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Super-regenerative demodulator circuits {(applications in responders G01S)}"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 11/02",
+          "title": {
+            "ko": null,
+            "en": "for amplitude-modulated oscillations"
+          }
+        },
+        {
+          "code": "H03D 11/06",
+          "title": {
+            "ko": null,
+            "en": "for angle-modulated oscillations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Circuits for comparing the phase or frequency of two mutually-independent oscillations {(measuring phase G01R25/00; phase-discriminators with yes/no output G01R25/005)}"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 13/001",
+          "title": {
+            "ko": null,
+            "en": "{in which a pulse counter is used followed by a conversion into an analog signal}"
+          }
+        },
+        {
+          "code": "H03D 13/003",
+          "title": {
+            "ko": null,
+            "en": "{in which both oscillations are converted by logic means into pulses which are applied to filtering or integrating means}"
+          }
+        },
+        {
+          "code": "H03D 13/005",
+          "title": {
+            "ko": null,
+            "en": "{in which one of the oscillations is, or is converted into, a signal having a special waveform, e.g. triangular}"
+          }
+        },
+        {
+          "code": "H03D 13/007",
+          "title": {
+            "ko": null,
+            "en": "{by analog multiplication of the oscillations or by performing a similar analog operation on the oscillations}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03D 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03D 2200/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of demodulation or transference of modulation from one carrier to another covered by H03D"
+      },
+      "subgroups": [
+        {
+          "code": "H03D 2200/0001",
+          "title": {
+            "ko": null,
+            "en": "Circuit elements of demodulators"
+          }
+        },
+        {
+          "code": "H03D 2200/0041",
+          "title": {
+            "ko": null,
+            "en": "Functional aspects of demodulators"
+          }
+        }
+      ]
+    }
+  ]
+}

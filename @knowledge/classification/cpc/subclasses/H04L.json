@@ -1,0 +1,2083 @@
+{
+  "subclass": "H04L",
+  "title": {
+    "ko": null,
+    "en": "TRANSMISSION OF DIGITAL INFORMATION, e.g. TELEGRAPHIC COMMUNICATION (arrangements common to telegraphic and telephonic communication H04M)"
+  },
+  "groups": [
+    {
+      "code": "H04L 1/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for detecting or preventing errors in the information received {(correcting synchronisation H04L7/00)}"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 1/0001",
+          "title": {
+            "ko": null,
+            "en": "{Systems modifying transmission characteristics according to link quality, e.g. power backoff (adaptive data allocation for multicarrier modulation H04L5/0044; controlling transmission power for radio systems H04W52/04)}"
+          }
+        },
+        {
+          "code": "H04L 1/004",
+          "title": {
+            "ko": null,
+            "en": "{by using forward error control (H04L1/0618 takes precedence; coding, decoding or code conversion, for error detection or correction H03M13/00)}"
+          }
+        },
+        {
+          "code": "H04L 1/0078",
+          "title": {
+            "ko": null,
+            "en": "{Avoidance of errors by organising the transmitted data in a format specifically designed to deal with errors, e.g. location (forward error control, e.g. FEC, CRC H04L1/004; adaptive formatting H04L1/0006; mappings H04L27/00)}"
+          }
+        },
+        {
+          "code": "H04L 2001/0092",
+          "title": {
+            "ko": null,
+            "en": "{Error control systems characterised by the topology of the transmission link}"
+          }
+        },
+        {
+          "code": "H04L 2001/0098",
+          "title": {
+            "ko": null,
+            "en": "{Unequal error protection}"
+          }
+        },
+        {
+          "code": "H04L 1/02",
+          "title": {
+            "ko": null,
+            "en": "by diversity reception"
+          }
+        },
+        {
+          "code": "H04L 1/08",
+          "title": {
+            "ko": null,
+            "en": "by repeating transmission, e.g. Verdan system {(H04L1/1858 and H04L1/189 take precedence)}"
+          }
+        },
+        {
+          "code": "H04L 1/12",
+          "title": {
+            "ko": null,
+            "en": "by using return channel"
+          }
+        },
+        {
+          "code": "H04L 1/20",
+          "title": {
+            "ko": null,
+            "en": "using signal quality detector"
+          }
+        },
+        {
+          "code": "H04L 1/22",
+          "title": {
+            "ko": null,
+            "en": "using redundant apparatus to increase reliability"
+          }
+        },
+        {
+          "code": "H04L 1/24",
+          "title": {
+            "ko": null,
+            "en": "Testing correct operation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 5/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements affording multiple use of the transmission path"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 5/0001",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements for dividing the transmission path (two-way operation using the same type of signal, i.e. duplex H04L5/14)}"
+          }
+        },
+        {
+          "code": "H04L 5/003",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements for allocating sub-channels of the transmission path}"
+          }
+        },
+        {
+          "code": "H04L 5/0091",
+          "title": {
+            "ko": null,
+            "en": "{Signalling for the administration of the divided path, e.g. signalling of configuration information}"
+          }
+        },
+        {
+          "code": "H04L 5/02",
+          "title": {
+            "ko": null,
+            "en": "Channels characterised by the type of signal"
+          }
+        },
+        {
+          "code": "H04L 5/14",
+          "title": {
+            "ko": null,
+            "en": "Two-way operation using the same type of signal, i.e. duplex"
+          }
+        },
+        {
+          "code": "H04L 5/20",
+          "title": {
+            "ko": null,
+            "en": "using different combinations of lines, e.g. phantom working"
+          }
+        },
+        {
+          "code": "H04L 5/22",
+          "title": {
+            "ko": null,
+            "en": "using time-division multiplexing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 7/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for synchronising receiver with transmitter {(synchronisation of generators of electric oscillations or pulses H03L7/00)}"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 7/0004",
+          "title": {
+            "ko": null,
+            "en": "{Initialisation of the receiver (H04L7/0075 and H04L7/10 take precedence)}"
+          }
+        },
+        {
+          "code": "H04L 7/0008",
+          "title": {
+            "ko": null,
+            "en": "{Synchronisation information channels, e.g. clock distribution lines}"
+          }
+        },
+        {
+          "code": "H04L 7/0016",
+          "title": {
+            "ko": null,
+            "en": "{correction of synchronization errors}"
+          }
+        },
+        {
+          "code": "H04L 7/0054",
+          "title": {
+            "ko": null,
+            "en": "{Detection of the synchronisation error by features other than the received signal transition (by means of signal transition H04L7/033)}"
+          }
+        },
+        {
+          "code": "H04L 7/0075",
+          "title": {
+            "ko": null,
+            "en": "{with photonic or optical means}"
+          }
+        },
+        {
+          "code": "H04L 7/0079",
+          "title": {
+            "ko": null,
+            "en": "{Receiver details}"
+          }
+        },
+        {
+          "code": "H04L 7/0091",
+          "title": {
+            "ko": null,
+            "en": "{Transmitter details}"
+          }
+        },
+        {
+          "code": "H04L 7/0095",
+          "title": {
+            "ko": null,
+            "en": "{with mechanical means}"
+          }
+        },
+        {
+          "code": "H04L 7/02",
+          "title": {
+            "ko": null,
+            "en": "Speed or phase control by the received code signals, the signals containing no special synchronisation information {(H04L7/0075 takes precedence)}"
+          }
+        },
+        {
+          "code": "H04L 7/04",
+          "title": {
+            "ko": null,
+            "en": "Speed or phase control by synchronisation signals {(H04L7/0075 takes precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 9/00",
+      "title": {
+        "ko": null,
+        "en": "{Cryptographic mechanisms or cryptographic} arrangements for secret or secure communications; Network security protocols"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 9/001",
+          "title": {
+            "ko": null,
+            "en": "{using chaotic signals}"
+          }
+        },
+        {
+          "code": "H04L 9/002",
+          "title": {
+            "ko": null,
+            "en": "{Countermeasures against attacks on cryptographic mechanisms (network architectures or network communication protocols for protection against malicious traffic H04L63/1441)}"
+          }
+        },
+        {
+          "code": "H04L 9/006",
+          "title": {
+            "ko": null,
+            "en": "{involving public key infrastructure [PKI] trust models (network architecture or network communication protocol for supporting authentication of entities using certificates in a packet data network H04L63/0823)}"
+          }
+        },
+        {
+          "code": "H04L 9/008",
+          "title": {
+            "ko": null,
+            "en": "{involving homomorphic encryption}"
+          }
+        },
+        {
+          "code": "H04L 9/06",
+          "title": {
+            "ko": null,
+            "en": "the encryption apparatus using shift registers or memories for block-wise {or stream} coding, e.g. DES systems {or RC4; Hash functions; Pseudorandom sequence generators}"
+          }
+        },
+        {
+          "code": "H04L 9/08",
+          "title": {
+            "ko": null,
+            "en": "Key distribution {or management, e.g. generation, sharing or updating, of cryptographic keys or passwords (network architectures or network communication protocols for supporting key management in a packet data network H04L63/06)}"
+          }
+        },
+        {
+          "code": "H04L 9/10",
+          "title": {
+            "ko": null,
+            "en": "with particular housing, physical features or manual controls"
+          }
+        },
+        {
+          "code": "H04L 9/12",
+          "title": {
+            "ko": null,
+            "en": "Transmitting and receiving encryption devices synchronised or initially set up in a particular manner"
+          }
+        },
+        {
+          "code": "H04L 9/14",
+          "title": {
+            "ko": null,
+            "en": "using a plurality of keys or algorithms"
+          }
+        },
+        {
+          "code": "H04L 9/30",
+          "title": {
+            "ko": null,
+            "en": "Public key, i.e. encryption algorithm being computationally infeasible to invert or user's encryption keys not requiring secrecy"
+          }
+        },
+        {
+          "code": "H04L 9/32",
+          "title": {
+            "ko": null,
+            "en": "including means for verifying the identity or authority of a user of the system {or for message authentication, e.g. authorization, entity authentication, data integrity or data verification, non-repudiation, key authentication or verification of credentials}"
+          }
+        },
+        {
+          "code": "H04L 9/34",
+          "title": {
+            "ko": null,
+            "en": "Bits, or blocks of bits, of the telegraphic message being interchanged in time {(for speech signals H04K1/06)}"
+          }
+        },
+        {
+          "code": "H04L 9/36",
+          "title": {
+            "ko": null,
+            "en": "with means for detecting characters not meant for transmission"
+          }
+        },
+        {
+          "code": "H04L 9/38",
+          "title": {
+            "ko": null,
+            "en": "Encryption being effected by mechanical apparatus, e.g. rotating cams, switches, keytape punchers"
+          }
+        },
+        {
+          "code": "H04L 9/40",
+          "title": {
+            "ko": null,
+            "en": "Network security protocols"
+          }
+        },
+        {
+          "code": "H04L 9/50",
+          "title": {
+            "ko": null,
+            "en": "{using hash chains, e.g. blockchains or hash trees}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 12/00",
+      "title": {
+        "ko": null,
+        "en": "Data switching networks (interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units G06F13/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 12/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H04L 12/28",
+          "title": {
+            "ko": null,
+            "en": "characterised by path configuration, e.g. LAN [Local Area Networks] or WAN [Wide Area Networks] (wireless communication networks H04W {; arrangements for dividing the transmission path H04W40/00})"
+          }
+        },
+        {
+          "code": "H04L 12/50",
+          "title": {
+            "ko": null,
+            "en": "Circuit switching systems, i.e. systems in which the path is physically permanent during the communication"
+          }
+        },
+        {
+          "code": "H04L 12/54",
+          "title": {
+            "ko": null,
+            "en": "Store-and-forward switching systems  (packet switching systems H04L45/00, H04L47/00)"
+          }
+        },
+        {
+          "code": "H04L 12/64",
+          "title": {
+            "ko": null,
+            "en": "Hybrid switching systems"
+          }
+        },
+        {
+          "code": "H04L 12/66",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for connecting between networks having differing types of switching systems, e.g. gateways"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 13/00",
+      "title": {
+        "ko": null,
+        "en": "Details of the apparatus or circuits covered by groups H04L15/00 or H04L17/00"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 13/02",
+          "title": {
+            "ko": null,
+            "en": "Details not particular to receiver or transmitter"
+          }
+        },
+        {
+          "code": "H04L 13/16",
+          "title": {
+            "ko": null,
+            "en": "of transmitters, e.g. code-bars, code-discs"
+          }
+        },
+        {
+          "code": "H04L 13/18",
+          "title": {
+            "ko": null,
+            "en": "of receivers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 15/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for transmitting or receiving dot-and-dash codes, e.g. Morse code (teaching apparatus therefor G09B; telegraph tapping keys H01H21/86)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 15/03",
+          "title": {
+            "ko": null,
+            "en": "Keys structurally combined with sound generators"
+          }
+        },
+        {
+          "code": "H04L 15/04",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the transmitting end"
+          }
+        },
+        {
+          "code": "H04L 15/24",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the receiving end"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 17/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for transmitting or receiving codes wherein each character is represented by the same number of equal-length code elements, e.g. Baudot code"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 17/02",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the transmitting end"
+          }
+        },
+        {
+          "code": "H04L 17/16",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the receiving end"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 19/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for step-by-step systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04L 21/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for mosaic printer telegraph systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 21/02",
+          "title": {
+            "ko": null,
+            "en": "at the transmitting end"
+          }
+        },
+        {
+          "code": "H04L 21/04",
+          "title": {
+            "ko": null,
+            "en": "at the receiving end"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 23/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for systems other than those covered by groups H04L15/00 - H04L21/00"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 23/02",
+          "title": {
+            "ko": null,
+            "en": "adapted for orthogonal signalling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 25/00",
+      "title": {
+        "ko": null,
+        "en": "Baseband systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 25/02",
+          "title": {
+            "ko": null,
+            "en": "Details {; arrangements for supplying electrical power along data transmission lines (systems for transmitting signals via power distribution lines H04B3/54)}"
+          }
+        },
+        {
+          "code": "H04L 25/38",
+          "title": {
+            "ko": null,
+            "en": "Synchronous or start-stop systems, e.g. for Baudot code"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 27/00",
+      "title": {
+        "ko": null,
+        "en": "Modulated-carrier systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 27/0002",
+          "title": {
+            "ko": null,
+            "en": "{analog front ends; means for connecting modulators, demodulators or transceivers to a transmission line (duplex arrangements H04L5/143)}"
+          }
+        },
+        {
+          "code": "H04L 27/0004",
+          "title": {
+            "ko": null,
+            "en": "{using wavelets}"
+          }
+        },
+        {
+          "code": "H04L 27/0006",
+          "title": {
+            "ko": null,
+            "en": "{Assessment of spectral gaps suitable for allocating digitally modulated signals, e.g. for carrier allocation in cognitive radio (for spectrum sharing between different networks H04W16/14)}"
+          }
+        },
+        {
+          "code": "H04L 27/0008",
+          "title": {
+            "ko": null,
+            "en": "{arrangements for allowing a transmitter or receiver to use more than one type of modulation (negotiating modulation type for two-way transmission paths H04L5/1453)}"
+          }
+        },
+        {
+          "code": "H04L 27/001",
+          "title": {
+            "ko": null,
+            "en": "{using chaotic signals (for secret or secure communication H04L9/001)}"
+          }
+        },
+        {
+          "code": "H04L 27/0012",
+          "title": {
+            "ko": null,
+            "en": "{arrangements for identifying the type of modulation}"
+          }
+        },
+        {
+          "code": "H04L 27/0014",
+          "title": {
+            "ko": null,
+            "en": "{Carrier regulation (of chaotic carriers H04L27/001; for multicarrier receivers H04L27/2657)}"
+          }
+        },
+        {
+          "code": "H04L 27/01",
+          "title": {
+            "ko": null,
+            "en": "Equalisers {(baseband equalizers at the transmitter end H04L25/03343; in analogue transmission systems H04B3/04, H04B7/005)}"
+          }
+        },
+        {
+          "code": "H04L 27/02",
+          "title": {
+            "ko": null,
+            "en": "Amplitude-modulated carrier systems, e.g. using on-off keying; Single sideband or vestigial sideband modulation (H04L27/32 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/10",
+          "title": {
+            "ko": null,
+            "en": "Frequency-modulated carrier systems, i.e. using frequency-shift keying (H04L27/32 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/18",
+          "title": {
+            "ko": null,
+            "en": "Phase-modulated carrier systems, i.e. using phase-shift keying (H04L27/32 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/26",
+          "title": {
+            "ko": null,
+            "en": "Systems using multi-frequency codes (H04L27/32 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/32",
+          "title": {
+            "ko": null,
+            "en": "Carrier systems characterised by combinations of two or more of the types covered by groups H04L27/02, H04L27/10, H04L27/18 or H04L27/26"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 41/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for maintenance, administration or management of data switching networks, e.g. of packet switching networks"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 41/02",
+          "title": {
+            "ko": null,
+            "en": "Standardisation; Integration"
+          }
+        },
+        {
+          "code": "H04L 41/04",
+          "title": {
+            "ko": null,
+            "en": "Network management architectures or arrangements"
+          }
+        },
+        {
+          "code": "H04L 41/06",
+          "title": {
+            "ko": null,
+            "en": "Management of faults, events, alarms or notifications"
+          }
+        },
+        {
+          "code": "H04L 41/08",
+          "title": {
+            "ko": null,
+            "en": "Configuration management of networks or network elements (address allocation H04L61/50)"
+          }
+        },
+        {
+          "code": "H04L 41/12",
+          "title": {
+            "ko": null,
+            "en": "Discovery or management of network topologies"
+          }
+        },
+        {
+          "code": "H04L 41/14",
+          "title": {
+            "ko": null,
+            "en": "Network analysis or design"
+          }
+        },
+        {
+          "code": "H04L 41/16",
+          "title": {
+            "ko": null,
+            "en": "using machine learning or artificial intelligence"
+          }
+        },
+        {
+          "code": "H04L 41/18",
+          "title": {
+            "ko": null,
+            "en": "Delegation of network management function, e.g. customer network management [CNM]"
+          }
+        },
+        {
+          "code": "H04L 41/20",
+          "title": {
+            "ko": null,
+            "en": "{Network management software packages}"
+          }
+        },
+        {
+          "code": "H04L 41/22",
+          "title": {
+            "ko": null,
+            "en": "comprising specially adapted graphical user interfaces [GUI]"
+          }
+        },
+        {
+          "code": "H04L 41/24",
+          "title": {
+            "ko": null,
+            "en": "{using dedicated network management hardware}"
+          }
+        },
+        {
+          "code": "H04L 41/26",
+          "title": {
+            "ko": null,
+            "en": "{using dedicated tools for LAN [Local Area Network] management}"
+          }
+        },
+        {
+          "code": "H04L 41/28",
+          "title": {
+            "ko": null,
+            "en": "Restricting access to network management systems or functions, e.g. using authorisation function to access network configuration"
+          }
+        },
+        {
+          "code": "H04L 41/30",
+          "title": {
+            "ko": null,
+            "en": "{Decision processes by autonomous network management units using voting and bidding}"
+          }
+        },
+        {
+          "code": "H04L 41/32",
+          "title": {
+            "ko": null,
+            "en": "{Specific management aspects for broadband networks}"
+          }
+        },
+        {
+          "code": "H04L 41/34",
+          "title": {
+            "ko": null,
+            "en": "Signalling channels for network management communication"
+          }
+        },
+        {
+          "code": "H04L 41/40",
+          "title": {
+            "ko": null,
+            "en": "using virtualisation of network functions or resources, e.g. SDN or NFV entities"
+          }
+        },
+        {
+          "code": "H04L 41/50",
+          "title": {
+            "ko": null,
+            "en": "Network service management, e.g. ensuring proper service fulfilment according to agreements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 43/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for monitoring or testing data switching networks"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 43/02",
+          "title": {
+            "ko": null,
+            "en": "Capturing of monitoring data"
+          }
+        },
+        {
+          "code": "H04L 43/04",
+          "title": {
+            "ko": null,
+            "en": "Processing captured monitoring data, e.g. for logfile generation"
+          }
+        },
+        {
+          "code": "H04L 43/06",
+          "title": {
+            "ko": null,
+            "en": "Generation of reports"
+          }
+        },
+        {
+          "code": "H04L 43/08",
+          "title": {
+            "ko": null,
+            "en": "Monitoring or testing based on specific metrics, e.g. QoS, energy consumption or environmental parameters"
+          }
+        },
+        {
+          "code": "H04L 43/10",
+          "title": {
+            "ko": null,
+            "en": "Active monitoring, e.g. heartbeat, ping or trace-route"
+          }
+        },
+        {
+          "code": "H04L 43/12",
+          "title": {
+            "ko": null,
+            "en": "Network monitoring probes"
+          }
+        },
+        {
+          "code": "H04L 43/14",
+          "title": {
+            "ko": null,
+            "en": "{using software, i.e. software packages (network security related monitoring H04L63/1408)}"
+          }
+        },
+        {
+          "code": "H04L 43/16",
+          "title": {
+            "ko": null,
+            "en": "Threshold monitoring"
+          }
+        },
+        {
+          "code": "H04L 43/18",
+          "title": {
+            "ko": null,
+            "en": "Protocol analysers"
+          }
+        },
+        {
+          "code": "H04L 43/20",
+          "title": {
+            "ko": null,
+            "en": "the monitoring system or the monitored elements being virtualised, abstracted or software-defined entities, e.g. SDN or NFV"
+          }
+        },
+        {
+          "code": "H04L 43/50",
+          "title": {
+            "ko": null,
+            "en": "Testing arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 45/00",
+      "title": {
+        "ko": null,
+        "en": "Routing or path finding of packets in data switching networks (routing or path finding in wireless networks H04W40/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 45/02",
+          "title": {
+            "ko": null,
+            "en": "Topology update or discovery"
+          }
+        },
+        {
+          "code": "H04L 45/12",
+          "title": {
+            "ko": null,
+            "en": "Shortest path evaluation"
+          }
+        },
+        {
+          "code": "H04L 45/14",
+          "title": {
+            "ko": null,
+            "en": "{Routing performance; Theoretical aspects}"
+          }
+        },
+        {
+          "code": "H04L 45/16",
+          "title": {
+            "ko": null,
+            "en": "Multipoint routing"
+          }
+        },
+        {
+          "code": "H04L 45/17",
+          "title": {
+            "ko": null,
+            "en": "Shortcut routing, e.g. using next hop resolution protocol [NHRP]"
+          }
+        },
+        {
+          "code": "H04L 45/18",
+          "title": {
+            "ko": null,
+            "en": "Loop-free operations"
+          }
+        },
+        {
+          "code": "H04L 45/20",
+          "title": {
+            "ko": null,
+            "en": "{Hop count for routing purposes, e.g. TTL}"
+          }
+        },
+        {
+          "code": "H04L 45/22",
+          "title": {
+            "ko": null,
+            "en": "{Alternate routing}"
+          }
+        },
+        {
+          "code": "H04L 45/24",
+          "title": {
+            "ko": null,
+            "en": "Multipath"
+          }
+        },
+        {
+          "code": "H04L 45/26",
+          "title": {
+            "ko": null,
+            "en": "{Route discovery packet}"
+          }
+        },
+        {
+          "code": "H04L 45/28",
+          "title": {
+            "ko": null,
+            "en": "using route fault recovery"
+          }
+        },
+        {
+          "code": "H04L 45/30",
+          "title": {
+            "ko": null,
+            "en": "Routing of multiclass traffic"
+          }
+        },
+        {
+          "code": "H04L 45/302",
+          "title": {
+            "ko": null,
+            "en": "Route determination based on requested QoS"
+          }
+        },
+        {
+          "code": "H04L 45/32",
+          "title": {
+            "ko": null,
+            "en": "{Flooding (denial of service attacks H04L63/1458)}"
+          }
+        },
+        {
+          "code": "H04L 45/34",
+          "title": {
+            "ko": null,
+            "en": "{Source routing}"
+          }
+        },
+        {
+          "code": "H04L 45/36",
+          "title": {
+            "ko": null,
+            "en": "{Backward learning}"
+          }
+        },
+        {
+          "code": "H04L 45/38",
+          "title": {
+            "ko": null,
+            "en": "{Flow based routing}"
+          }
+        },
+        {
+          "code": "H04L 45/40",
+          "title": {
+            "ko": null,
+            "en": "{Wormhole routing}"
+          }
+        },
+        {
+          "code": "H04L 45/42",
+          "title": {
+            "ko": null,
+            "en": "Centralised routing"
+          }
+        },
+        {
+          "code": "H04L 45/44",
+          "title": {
+            "ko": null,
+            "en": "Distributed routing"
+          }
+        },
+        {
+          "code": "H04L 45/46",
+          "title": {
+            "ko": null,
+            "en": "{Cluster building}"
+          }
+        },
+        {
+          "code": "H04L 45/48",
+          "title": {
+            "ko": null,
+            "en": "Routing tree calculation"
+          }
+        },
+        {
+          "code": "H04L 45/50",
+          "title": {
+            "ko": null,
+            "en": "using label swapping, e.g. multi-protocol label switch [MPLS]"
+          }
+        },
+        {
+          "code": "H04L 45/52",
+          "title": {
+            "ko": null,
+            "en": "Multiprotocol routers"
+          }
+        },
+        {
+          "code": "H04L 45/54",
+          "title": {
+            "ko": null,
+            "en": "{Organization of routing tables}"
+          }
+        },
+        {
+          "code": "H04L 45/56",
+          "title": {
+            "ko": null,
+            "en": "{Routing software}"
+          }
+        },
+        {
+          "code": "H04L 45/58",
+          "title": {
+            "ko": null,
+            "en": "Association of routers"
+          }
+        },
+        {
+          "code": "H04L 45/60",
+          "title": {
+            "ko": null,
+            "en": "Router architectures"
+          }
+        },
+        {
+          "code": "H04L 45/62",
+          "title": {
+            "ko": null,
+            "en": "{Wavelength based (optical switching H04Q11/0062)}"
+          }
+        },
+        {
+          "code": "H04L 45/64",
+          "title": {
+            "ko": null,
+            "en": "using an overlay routing layer"
+          }
+        },
+        {
+          "code": "H04L 45/645",
+          "title": {
+            "ko": null,
+            "en": "Splitting route computation layer and forwarding layer, e.g. routing according to path computational element [PCE] or based on OpenFlow functionality"
+          }
+        },
+        {
+          "code": "H04L 45/66",
+          "title": {
+            "ko": null,
+            "en": "{Layer 2 routing, e.g. in Ethernet based MAN's}"
+          }
+        },
+        {
+          "code": "H04L 45/68",
+          "title": {
+            "ko": null,
+            "en": "{Pseudowire emulation, e.g. IETF WG PWE3}"
+          }
+        },
+        {
+          "code": "H04L 45/70",
+          "title": {
+            "ko": null,
+            "en": "{Routing based on monitoring results}"
+          }
+        },
+        {
+          "code": "H04L 45/72",
+          "title": {
+            "ko": null,
+            "en": "{Routing based on the source address}"
+          }
+        },
+        {
+          "code": "H04L 45/74",
+          "title": {
+            "ko": null,
+            "en": "Address processing for routing"
+          }
+        },
+        {
+          "code": "H04L 45/76",
+          "title": {
+            "ko": null,
+            "en": "Routing in software-defined topologies, e.g. routing between virtual machines"
+          }
+        },
+        {
+          "code": "H04L 45/80",
+          "title": {
+            "ko": null,
+            "en": "Ingress point selection by the source endpoint, e.g. selection of ISP or POP"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 47/00",
+      "title": {
+        "ko": null,
+        "en": "Traffic control in data switching networks (arrangements for detecting or preventing errors in the information received H04L1/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 47/10",
+          "title": {
+            "ko": null,
+            "en": "Flow control; Congestion control"
+          }
+        },
+        {
+          "code": "H04L 47/50",
+          "title": {
+            "ko": null,
+            "en": "Queue scheduling"
+          }
+        },
+        {
+          "code": "H04L 47/70",
+          "title": {
+            "ko": null,
+            "en": "Admission control; Resource allocation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 49/00",
+      "title": {
+        "ko": null,
+        "en": "Packet switching elements"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 49/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the switching fabric construction"
+          }
+        },
+        {
+          "code": "H04L 49/15",
+          "title": {
+            "ko": null,
+            "en": "Interconnection of switching modules"
+          }
+        },
+        {
+          "code": "H04L 49/20",
+          "title": {
+            "ko": null,
+            "en": "Support for services"
+          }
+        },
+        {
+          "code": "H04L 49/25",
+          "title": {
+            "ko": null,
+            "en": "Routing or path finding in a switch fabric"
+          }
+        },
+        {
+          "code": "H04L 49/30",
+          "title": {
+            "ko": null,
+            "en": "{Peripheral units, e.g. input or output ports}"
+          }
+        },
+        {
+          "code": "H04L 49/35",
+          "title": {
+            "ko": null,
+            "en": "Switches specially adapted for specific applications"
+          }
+        },
+        {
+          "code": "H04L 49/40",
+          "title": {
+            "ko": null,
+            "en": "Constructional details, e.g. power supply, mechanical construction or backplane"
+          }
+        },
+        {
+          "code": "H04L 49/45",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for providing or supporting expansion"
+          }
+        },
+        {
+          "code": "H04L 49/50",
+          "title": {
+            "ko": null,
+            "en": "Overload detection or protection within a single switching element"
+          }
+        },
+        {
+          "code": "H04L 49/55",
+          "title": {
+            "ko": null,
+            "en": "Prevention, detection or correction of errors"
+          }
+        },
+        {
+          "code": "H04L 49/60",
+          "title": {
+            "ko": null,
+            "en": "Software-defined switches"
+          }
+        },
+        {
+          "code": "H04L 49/65",
+          "title": {
+            "ko": null,
+            "en": "Re-configuration of fast packet switches"
+          }
+        },
+        {
+          "code": "H04L 49/70",
+          "title": {
+            "ko": null,
+            "en": "{Virtual switches}"
+          }
+        },
+        {
+          "code": "H04L 49/90",
+          "title": {
+            "ko": null,
+            "en": "Buffering arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 51/00",
+      "title": {
+        "ko": null,
+        "en": "User-to-user messaging in packet-switching networks, transmitted according to store-and-forward or real-time protocols, e.g. e-mail"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 51/02",
+          "title": {
+            "ko": null,
+            "en": "using automatic reactions or user delegation, e.g. automatic replies or chatbot-generated messages"
+          }
+        },
+        {
+          "code": "H04L 51/04",
+          "title": {
+            "ko": null,
+            "en": "Real-time or near real-time messaging, e.g. instant messaging [IM]"
+          }
+        },
+        {
+          "code": "H04L 51/06",
+          "title": {
+            "ko": null,
+            "en": "Message adaptation to terminal or network requirements"
+          }
+        },
+        {
+          "code": "H04L 51/07",
+          "title": {
+            "ko": null,
+            "en": "characterised by the inclusion of specific contents"
+          }
+        },
+        {
+          "code": "H04L 51/21",
+          "title": {
+            "ko": null,
+            "en": "Monitoring or handling of messages"
+          }
+        },
+        {
+          "code": "H04L 51/42",
+          "title": {
+            "ko": null,
+            "en": "Mailbox-related aspects, e.g. synchronisation of mailboxes"
+          }
+        },
+        {
+          "code": "H04L 51/48",
+          "title": {
+            "ko": null,
+            "en": "Message addressing, e.g. address format or anonymous messages, aliases"
+          }
+        },
+        {
+          "code": "H04L 51/52",
+          "title": {
+            "ko": null,
+            "en": "for supporting social networking services"
+          }
+        },
+        {
+          "code": "H04L 51/56",
+          "title": {
+            "ko": null,
+            "en": "Unified messaging, e.g. interactions between e-mail, instant messaging or converged IP messaging [CPM]"
+          }
+        },
+        {
+          "code": "H04L 51/58",
+          "title": {
+            "ko": null,
+            "en": "Message adaptation for wireless communication"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 61/00",
+      "title": {
+        "ko": null,
+        "en": "Network arrangements, protocols or services for addressing or naming"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 61/09",
+          "title": {
+            "ko": null,
+            "en": "Mapping addresses"
+          }
+        },
+        {
+          "code": "H04L 61/30",
+          "title": {
+            "ko": null,
+            "en": "Managing network names, e.g. use of aliases or nicknames (name-to-address mapping H04L61/45)"
+          }
+        },
+        {
+          "code": "H04L 61/35",
+          "title": {
+            "ko": null,
+            "en": "{involving non-standard use of addresses for implementing network functionalities, e.g. coding subscription information within the address or functional addressing, i.e. assigning an address to a function}"
+          }
+        },
+        {
+          "code": "H04L 61/45",
+          "title": {
+            "ko": null,
+            "en": "Network directories; Name-to-address mapping"
+          }
+        },
+        {
+          "code": "H04L 61/50",
+          "title": {
+            "ko": null,
+            "en": "Address allocation"
+          }
+        },
+        {
+          "code": "H04L 61/58",
+          "title": {
+            "ko": null,
+            "en": "Caching of addresses or names"
+          }
+        },
+        {
+          "code": "H04L 61/59",
+          "title": {
+            "ko": null,
+            "en": "using proxies for addressing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 63/00",
+      "title": {
+        "ko": null,
+        "en": "{Network architectures or network communication protocols for network security (cryptographic mechanisms or cryptographic arrangements for secret or secure communication H04L9/00; network architectures or network communication protocols for wireless network security H04W12/00; security arrangements for protecting computers or computer systems against unauthorised activity G06F21/00)}"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 63/02",
+          "title": {
+            "ko": null,
+            "en": "{for separating internal from external traffic, e.g. firewalls}"
+          }
+        },
+        {
+          "code": "H04L 63/04",
+          "title": {
+            "ko": null,
+            "en": "{for providing a confidential data exchange among entities communicating through data packet networks}"
+          }
+        },
+        {
+          "code": "H04L 63/06",
+          "title": {
+            "ko": null,
+            "en": "{for supporting key management in a packet data network (cryptographic mechanisms or cryptographic arrangements for key management H04L9/08)}"
+          }
+        },
+        {
+          "code": "H04L 63/08",
+          "title": {
+            "ko": null,
+            "en": "{for authentication of entities (cryptographic mechanisms or cryptographic arrangements for entity authentication H04L9/32)}"
+          }
+        },
+        {
+          "code": "H04L 63/10",
+          "title": {
+            "ko": null,
+            "en": "{for controlling access to devices or network resources}"
+          }
+        },
+        {
+          "code": "H04L 63/12",
+          "title": {
+            "ko": null,
+            "en": "{Applying verification of the received information (cryptographic mechanisms or cryptographic arrangements for data integrity or data verification H04L9/32)}"
+          }
+        },
+        {
+          "code": "H04L 63/14",
+          "title": {
+            "ko": null,
+            "en": "{for detecting or protecting against malicious traffic}"
+          }
+        },
+        {
+          "code": "H04L 63/16",
+          "title": {
+            "ko": null,
+            "en": "{Implementing security features at a particular protocol layer}"
+          }
+        },
+        {
+          "code": "H04L 63/18",
+          "title": {
+            "ko": null,
+            "en": "{using different networks or channels, e.g. using out of band channels (cryptographic mechanisms or cryptographic arrangements for key distribution involving distinctive intermediate devices or communication paths H04L9/0827; cryptographic mechanisms or cryptographic arrangements for authentication using a plurality of channels H04L9/3215)}"
+          }
+        },
+        {
+          "code": "H04L 63/20",
+          "title": {
+            "ko": null,
+            "en": "{for managing network security; network security policies in general (filtering policies H04L63/0227)}"
+          }
+        },
+        {
+          "code": "H04L 63/30",
+          "title": {
+            "ko": null,
+            "en": "{for supporting lawful interception, monitoring or retaining of communications or communication related information (circuit switched telephony call monitoring H04M3/2281)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 65/00",
+      "title": {
+        "ko": null,
+        "en": "Network arrangements, protocols or services for supporting real-time applications in data packet communication (real-time or near real-time messaging, e.g. instant messaging [IM] H04L51/04; selective video distribution H04N21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 65/10",
+          "title": {
+            "ko": null,
+            "en": "Architectures or entities"
+          }
+        },
+        {
+          "code": "H04L 65/1066",
+          "title": {
+            "ko": null,
+            "en": "Session management"
+          }
+        },
+        {
+          "code": "H04L 65/40",
+          "title": {
+            "ko": null,
+            "en": "Support for services or applications"
+          }
+        },
+        {
+          "code": "H04L 65/60",
+          "title": {
+            "ko": null,
+            "en": "Network streaming of media packets"
+          }
+        },
+        {
+          "code": "H04L 65/80",
+          "title": {
+            "ko": null,
+            "en": "Responding to QoS"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 67/00",
+      "title": {
+        "ko": null,
+        "en": "Network arrangements or protocols for supporting network services or applications (user-to-user messaging H04L51/00; network arrangements, protocols or services for supporting real-time applications in data packet communications networks H04L65/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 67/01",
+          "title": {
+            "ko": null,
+            "en": "Protocols"
+          }
+        },
+        {
+          "code": "H04L 67/14",
+          "title": {
+            "ko": null,
+            "en": "Session management (for real-time applications in data packet communications networks H04L65/1066)"
+          }
+        },
+        {
+          "code": "H04L 67/2866",
+          "title": {
+            "ko": null,
+            "en": "Architectures; Arrangements"
+          }
+        },
+        {
+          "code": "H04L 67/34",
+          "title": {
+            "ko": null,
+            "en": "{involving the movement of software or configuration parameters  (network booting or remote initial program loading [RIPL] G06F9/4416)}"
+          }
+        },
+        {
+          "code": "H04L 67/50",
+          "title": {
+            "ko": null,
+            "en": "Network services"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 69/00",
+      "title": {
+        "ko": null,
+        "en": "Network arrangements, protocols or services independent of the application payload and not provided for in the other groups of this subclass (networks security protocols H04L9/40; wireless communication networks H04W)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 69/02",
+          "title": {
+            "ko": null,
+            "en": "{Protocol performance}"
+          }
+        },
+        {
+          "code": "H04L 69/03",
+          "title": {
+            "ko": null,
+            "en": "{Protocol definition or specification  (protocol conformance testing H04L1/244)}"
+          }
+        },
+        {
+          "code": "H04L 69/04",
+          "title": {
+            "ko": null,
+            "en": "Protocols for data compression, e.g. ROHC"
+          }
+        },
+        {
+          "code": "H04L 69/06",
+          "title": {
+            "ko": null,
+            "en": "Notations for structuring of protocol data, e.g. abstract syntax notation one [ASN.1]"
+          }
+        },
+        {
+          "code": "H04L 69/08",
+          "title": {
+            "ko": null,
+            "en": "Protocols for interworking; Protocol conversion"
+          }
+        },
+        {
+          "code": "H04L 69/10",
+          "title": {
+            "ko": null,
+            "en": "Streamlined, light-weight or high-speed protocols, e.g. express transfer protocol [XTP] or byte stream"
+          }
+        },
+        {
+          "code": "H04L 69/12",
+          "title": {
+            "ko": null,
+            "en": "Protocol engines"
+          }
+        },
+        {
+          "code": "H04L 69/14",
+          "title": {
+            "ko": null,
+            "en": "Multichannel or multilink protocols"
+          }
+        },
+        {
+          "code": "H04L 69/16",
+          "title": {
+            "ko": null,
+            "en": "Implementation or adaptation of Internet protocol [IP], of transmission control protocol [TCP] or of user datagram protocol [UDP]"
+          }
+        },
+        {
+          "code": "H04L 69/18",
+          "title": {
+            "ko": null,
+            "en": "Multiprotocol handlers, e.g. single devices capable of handling multiple protocols"
+          }
+        },
+        {
+          "code": "H04L 69/22",
+          "title": {
+            "ko": null,
+            "en": "Parsing or analysis of headers"
+          }
+        },
+        {
+          "code": "H04L 69/24",
+          "title": {
+            "ko": null,
+            "en": "Negotiation of communication capabilities"
+          }
+        },
+        {
+          "code": "H04L 69/26",
+          "title": {
+            "ko": null,
+            "en": "{Special purpose or proprietary protocols or architectures (network applications for proprietary or special purpose networking environments H04L67/12)}"
+          }
+        },
+        {
+          "code": "H04L 69/28",
+          "title": {
+            "ko": null,
+            "en": "Timers or timing mechanisms used in protocols"
+          }
+        },
+        {
+          "code": "H04L 69/30",
+          "title": {
+            "ko": null,
+            "en": "Definitions, standards or architectural aspects of layered protocol stacks"
+          }
+        },
+        {
+          "code": "H04L 69/40",
+          "title": {
+            "ko": null,
+            "en": "for recovering from a failure of a protocol instance or entity, e.g. service redundancy protocols, protocol state redundancy or protocol service redirection (management of faults, events, alarms or notifications in data switching networks H04L41/06)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 2101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with group H04L61/00"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 2101/30",
+          "title": {
+            "ko": null,
+            "en": "Types of network names"
+          }
+        },
+        {
+          "code": "H04L 2101/60",
+          "title": {
+            "ko": null,
+            "en": "Types of network addresses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Algorithms used for the adjustment of time-domain equalizers"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 2201/02",
+          "title": {
+            "ko": null,
+            "en": "minimizing an error signal, e.g. least squares, minimum square error"
+          }
+        },
+        {
+          "code": "H04L 2201/04",
+          "title": {
+            "ko": null,
+            "en": "zero-forcing"
+          }
+        },
+        {
+          "code": "H04L 2201/06",
+          "title": {
+            "ko": null,
+            "en": "using the output of a maximum likelihood decoder (Viterbi detector)"
+          }
+        },
+        {
+          "code": "H04L 2201/08",
+          "title": {
+            "ko": null,
+            "en": "Algorithms not covered by groups H04L2201/02 - H04L2201/06"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 2203/00",
+      "title": {
+        "ko": null,
+        "en": "Characteristics of phase shift key signals"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 2203/02",
+          "title": {
+            "ko": null,
+            "en": "differential"
+          }
+        },
+        {
+          "code": "H04L 2203/04",
+          "title": {
+            "ko": null,
+            "en": "continuous phase"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 2209/00",
+      "title": {
+        "ko": null,
+        "en": "Additional information or applications relating to cryptographic mechanisms or cryptographic arrangements for secret or secure communication H04L9/00"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 2209/04",
+          "title": {
+            "ko": null,
+            "en": "Masking or blinding"
+          }
+        },
+        {
+          "code": "H04L 2209/08",
+          "title": {
+            "ko": null,
+            "en": "Randomization, e.g. dummy operations or using noise"
+          }
+        },
+        {
+          "code": "H04L 2209/12",
+          "title": {
+            "ko": null,
+            "en": "Details relating to cryptographic hardware or logic circuitry"
+          }
+        },
+        {
+          "code": "H04L 2209/16",
+          "title": {
+            "ko": null,
+            "en": "Obfuscation or hiding, e.g. involving white box"
+          }
+        },
+        {
+          "code": "H04L 2209/20",
+          "title": {
+            "ko": null,
+            "en": "Manipulating the length of blocks of bits, e.g. padding or block truncation"
+          }
+        },
+        {
+          "code": "H04L 2209/24",
+          "title": {
+            "ko": null,
+            "en": "Key scheduling, i.e. generating round keys or sub-keys for block encryption"
+          }
+        },
+        {
+          "code": "H04L 2209/26",
+          "title": {
+            "ko": null,
+            "en": "Testing cryptographic entity, e.g. testing integrity of encryption key or encryption algorithm"
+          }
+        },
+        {
+          "code": "H04L 2209/30",
+          "title": {
+            "ko": null,
+            "en": "Compression, e.g. Merkle-Damgard construction"
+          }
+        },
+        {
+          "code": "H04L 2209/34",
+          "title": {
+            "ko": null,
+            "en": "Encoding or coding, e.g. Huffman coding or error correction"
+          }
+        },
+        {
+          "code": "H04L 2209/42",
+          "title": {
+            "ko": null,
+            "en": "Anonymization, e.g. involving pseudonyms"
+          }
+        },
+        {
+          "code": "H04L 2209/46",
+          "title": {
+            "ko": null,
+            "en": "Secure multiparty computation, e.g. millionaire problem"
+          }
+        },
+        {
+          "code": "H04L 2209/50",
+          "title": {
+            "ko": null,
+            "en": "Oblivious transfer"
+          }
+        },
+        {
+          "code": "H04L 2209/56",
+          "title": {
+            "ko": null,
+            "en": "Financial cryptography, e.g. electronic payment or e-cash"
+          }
+        },
+        {
+          "code": "H04L 2209/60",
+          "title": {
+            "ko": null,
+            "en": "Digital content management, e.g. content distribution"
+          }
+        },
+        {
+          "code": "H04L 2209/64",
+          "title": {
+            "ko": null,
+            "en": "Self-signed certificates"
+          }
+        },
+        {
+          "code": "H04L 2209/68",
+          "title": {
+            "ko": null,
+            "en": "Special signature format, e.g. XML format"
+          }
+        },
+        {
+          "code": "H04L 2209/72",
+          "title": {
+            "ko": null,
+            "en": "Signcrypting, i.e. digital signing and encrypting simultaneously"
+          }
+        },
+        {
+          "code": "H04L 2209/76",
+          "title": {
+            "ko": null,
+            "en": "Proxy, i.e. using intermediary entity to perform cryptographic operations"
+          }
+        },
+        {
+          "code": "H04L 2209/80",
+          "title": {
+            "ko": null,
+            "en": "Wireless"
+          }
+        },
+        {
+          "code": "H04L 2209/84",
+          "title": {
+            "ko": null,
+            "en": "Vehicles"
+          }
+        },
+        {
+          "code": "H04L 2209/88",
+          "title": {
+            "ko": null,
+            "en": "Medical equipments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 2212/00",
+      "title": {
+        "ko": null,
+        "en": "Encapsulation of packets"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04L 2463/00",
+      "title": {
+        "ko": null,
+        "en": "Additional details relating to network architectures or network communication protocols for network security covered by H04L63/00"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 2463/041",
+          "title": {
+            "ko": null,
+            "en": "using an encryption or decryption engine integrated in transmitted data"
+          }
+        },
+        {
+          "code": "H04L 2463/061",
+          "title": {
+            "ko": null,
+            "en": "applying further key derivation, e.g. deriving traffic keys from a pair-wise master key"
+          }
+        },
+        {
+          "code": "H04L 2463/062",
+          "title": {
+            "ko": null,
+            "en": "applying encryption of the keys"
+          }
+        },
+        {
+          "code": "H04L 2463/081",
+          "title": {
+            "ko": null,
+            "en": "applying self-generating credentials, e.g. instead of receiving credentials from an authority or from another peer, the credentials are generated at the entity itself"
+          }
+        },
+        {
+          "code": "H04L 2463/082",
+          "title": {
+            "ko": null,
+            "en": "applying multi-factor authentication"
+          }
+        },
+        {
+          "code": "H04L 2463/101",
+          "title": {
+            "ko": null,
+            "en": "applying security measures for digital rights management"
+          }
+        },
+        {
+          "code": "H04L 2463/102",
+          "title": {
+            "ko": null,
+            "en": "applying security measure for e-commerce"
+          }
+        },
+        {
+          "code": "H04L 2463/103",
+          "title": {
+            "ko": null,
+            "en": "applying security measure for protecting copyright"
+          }
+        },
+        {
+          "code": "H04L 2463/121",
+          "title": {
+            "ko": null,
+            "en": "Timestamp"
+          }
+        },
+        {
+          "code": "H04L 2463/141",
+          "title": {
+            "ko": null,
+            "en": "Denial of service attacks against endpoints in a network"
+          }
+        },
+        {
+          "code": "H04L 2463/142",
+          "title": {
+            "ko": null,
+            "en": "Denial of service attacks against network infrastructure"
+          }
+        },
+        {
+          "code": "H04L 2463/143",
+          "title": {
+            "ko": null,
+            "en": "Denial of service attacks involving systematic or selective dropping of packets"
+          }
+        },
+        {
+          "code": "H04L 2463/144",
+          "title": {
+            "ko": null,
+            "en": "Detection or countermeasures against botnets"
+          }
+        },
+        {
+          "code": "H04L 2463/145",
+          "title": {
+            "ko": null,
+            "en": "Detection or countermeasures against cache poisoning"
+          }
+        },
+        {
+          "code": "H04L 2463/146",
+          "title": {
+            "ko": null,
+            "en": "Tracing the source of attacks"
+          }
+        }
+      ]
+    }
+  ]
+}

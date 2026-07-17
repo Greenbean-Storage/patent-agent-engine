@@ -1,0 +1,1975 @@
+{
+  "subclass": "F24F",
+  "title": {
+    "ko": "공기조화; 공기가습; 환기; 차폐를 위한 기류의 이용(발생 장소에서의 진애 또는 취기의 제거 B08B 15/00; 건물로부터 폐가스를 운반하기 위한 수직 배관 E04F 17/02; 연통을 위한 선단(terminals), 굴뚝 또는 환기축의 선단 F23L 17/02)",
+    "en": "AIR-CONDITIONING; AIR-HUMIDIFICATION; VENTILATION; USE OF AIR CURRENTS FOR SCREENING (removing dirt or fumes from areas where they are produced B08B0015000000;vertical ducts for carrying away waste gases from buildings E04F0017020000;tops for chimneys or ventilating shafts, terminals for flues F23L0017020000)"
+  },
+  "definition": {
+    "ko": "에어 컨디셔닝 룸 유닛; 중앙 시스템; 기타 시스템 또는 장치 F24F1/00, F24F3/00, F24F5/00 공기 가습 F24F6/00 환기 F24F7/00 가열, 냉각, 가습 또는 건조 이외의 치료 F24F8/00 기류에 의한 차폐 F24F9/00 제어 또는 안전 장치 F24F11/00 에너지 회수 시스템의 사용 F24F12/00 세부 F24F13/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F24F 1/00",
+      "title": {
+        "ko": "공기조화용 룸 유닛, 예. 분리되거나 독립적인 유닛 또는 중앙 통제실에서 나오는 일차 공기를 받는 유닛",
+        "en": "Room units for air-conditioning, e.g. separate or self-contained units or units receiving primary air from a central station"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 1/0003",
+          "title": {
+            "ko": null,
+            "en": "characterised by a split arrangement, wherein parts of the air-conditioning system, e.g. evaporator and condenser, are in separately located units"
+          }
+        },
+        {
+          "code": "F24F 1/0007",
+          "title": {
+            "ko": "실내 유닛, 예. 팬 코일 장치 (독립형 유닛 F24F1/02)",
+            "en": "Indoor units, e.g. fan coil units (self-contained units F24F0001020000)"
+          }
+        },
+        {
+          "code": "F24F 1/0011",
+          "title": {
+            "ko": null,
+            "en": "characterised by air outlets"
+          }
+        },
+        {
+          "code": "F24F 1/0014",
+          "title": {
+            "ko": null,
+            "en": "having two or more outlet openings"
+          }
+        },
+        {
+          "code": "F24F 1/0018",
+          "title": {
+            "ko": "팬에 특징이 있는 것 (1차 공기의 분사에 의해서 2차 공기가 유도되는 것 F24F1/01)",
+            "en": "characterised by fans (with secondary air induced by injector action of the primary air F24F0001010000)"
+          }
+        },
+        {
+          "code": "F24F 1/0022",
+          "title": {
+            "ko": null,
+            "en": "Centrifugal or radial fans"
+          }
+        },
+        {
+          "code": "F24F 1/0025",
+          "title": {
+            "ko": null,
+            "en": "Cross-flow or tangential fans"
+          }
+        },
+        {
+          "code": "F24F 1/0029",
+          "title": {
+            "ko": null,
+            "en": "Axial fans"
+          }
+        },
+        {
+          "code": "F24F 1/0033",
+          "title": {
+            "ko": null,
+            "en": "having two or more fans"
+          }
+        },
+        {
+          "code": "F24F 1/0035",
+          "title": {
+            "ko": null,
+            "en": "characterised by introduction of outside air to the room"
+          }
+        },
+        {
+          "code": "F24F 1/0038",
+          "title": {
+            "ko": null,
+            "en": "in combination with simultaneous exhaustion of inside air"
+          }
+        },
+        {
+          "code": "F24F 1/0041",
+          "title": {
+            "ko": "실내로부터의 내부 공기의 고갈을 특징으로 하는 것 (외부 공기가 동시에 도입되는 것 F24F1/0038)",
+            "en": "characterised by exhaustion of inside air from the room (in combination with simultaneous introduction of outside air F24F0001003800)"
+          }
+        },
+        {
+          "code": "F24F 1/0043",
+          "title": {
+            "ko": null,
+            "en": "characterised by mounting arrangements"
+          }
+        },
+        {
+          "code": "F24F 1/0047",
+          "title": {
+            "ko": null,
+            "en": "mounted in the ceiling or at the ceiling"
+          }
+        },
+        {
+          "code": "F24F 1/005",
+          "title": {
+            "ko": null,
+            "en": "mounted on the floor; standing on the floor"
+          }
+        },
+        {
+          "code": "F24F 1/0053",
+          "title": {
+            "ko": null,
+            "en": "mounted at least partially below the floor; with air distribution below the floor"
+          }
+        },
+        {
+          "code": "F24F 1/0057",
+          "title": {
+            "ko": null,
+            "en": "mounted in or on a wall"
+          }
+        },
+        {
+          "code": "F24F 1/0059",
+          "title": {
+            "ko": null,
+            "en": "characterised by heat exchangers"
+          }
+        },
+        {
+          "code": "F24F 1/0063",
+          "title": {
+            "ko": null,
+            "en": "by the mounting or arrangement of the heat exchangers"
+          }
+        },
+        {
+          "code": "F24F 1/0067",
+          "title": {
+            "ko": null,
+            "en": "by the shape of the heat exchangers or of parts thereof, e.g. of their fins"
+          }
+        },
+        {
+          "code": "F24F 1/0068",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of refrigerant piping outside the heat exchanger within the unit casing"
+          }
+        },
+        {
+          "code": "F24F 1/0071",
+          "title": {
+            "ko": "급기 정화 수단을 구비한 것 (향수 또는 탈취 수단 F24F1/008)",
+            "en": "with means for purifying supplied air (perfuming or deodorising means F24F0001008000)"
+          }
+        },
+        {
+          "code": "F24F 1/0073",
+          "title": {
+            "ko": null,
+            "en": "characterised by the mounting or arrangement of filters"
+          }
+        },
+        {
+          "code": "F24F 1/0076",
+          "title": {
+            "ko": null,
+            "en": "by electric means, e.g. ionisers or electrostatic separators"
+          }
+        },
+        {
+          "code": "F24F 1/008",
+          "title": {
+            "ko": null,
+            "en": "with perfuming or deodorising means"
+          }
+        },
+        {
+          "code": "F24F 1/0083",
+          "title": {
+            "ko": null,
+            "en": "with dehumidification means"
+          }
+        },
+        {
+          "code": "F24F 1/0087",
+          "title": {
+            "ko": null,
+            "en": "with humidification means"
+          }
+        },
+        {
+          "code": "F24F 1/009",
+          "title": {
+            "ko": "가열장치에 특징이 있는 것 (열교환기에 특징이 있는 것 F24F1/0059)",
+            "en": "characterised by heating arrangements (characterised by heat exchangers F24F0001005900)"
+          }
+        },
+        {
+          "code": "F24F 1/0093",
+          "title": {
+            "ko": null,
+            "en": "with additional radiant heat-discharging elements, e.g. electric heaters"
+          }
+        },
+        {
+          "code": "F24F 1/0097",
+          "title": {
+            "ko": null,
+            "en": "using thermoelectric or thermomagnetic means, e.g. Peltier elements"
+          }
+        },
+        {
+          "code": "F24F 1/01",
+          "title": {
+            "ko": null,
+            "en": "in which secondary air is induced by injector action of the primary air"
+          }
+        },
+        {
+          "code": "F24F 1/02",
+          "title": {
+            "ko": "공기조화를 위한 독립적인 룸 유닛, 즉. 공통 케이싱 내부에 처리를 위한 모든 장치가 설치된 것",
+            "en": "Self-contained room units for air-conditioning, i.e. with all apparatus for treatment installed in a common casing"
+          }
+        },
+        {
+          "code": "F24F 1/022",
+          "title": {
+            "ko": null,
+            "en": "comprising a compressor cycle"
+          }
+        },
+        {
+          "code": "F24F 1/027",
+          "title": {
+            "ko": null,
+            "en": "mounted in wall openings, e.g. in windows"
+          }
+        },
+        {
+          "code": "F24F 1/028",
+          "title": {
+            "ko": "공기 공급수단, 예. 팬 케이싱, 내부 댐퍼 또는 덕트, 에 특징이 있는 것 (1차 공기의 분출에 의해서 유도되는 2차 공기가 있는 것 F24F1/01)",
+            "en": "characterised by air supply means, e.g. fan casings, internal dampers or ducts (with secondary air induced by injector action of the primary air F24F0001010000)"
+          }
+        },
+        {
+          "code": "F24F 1/0284",
+          "title": {
+            "ko": null,
+            "en": "with horizontally arranged fan axis"
+          }
+        },
+        {
+          "code": "F24F 1/0287",
+          "title": {
+            "ko": null,
+            "en": "with vertically arranged fan axis"
+          }
+        },
+        {
+          "code": "F24F 1/029",
+          "title": {
+            "ko": null,
+            "en": "characterised by the layout or mutual arrangement of components, e.g. of compressors or fans"
+          }
+        },
+        {
+          "code": "F24F 1/03",
+          "title": {
+            "ko": null,
+            "en": "characterised by mounting arrangements"
+          }
+        },
+        {
+          "code": "F24F 1/031",
+          "title": {
+            "ko": null,
+            "en": "penetrating a wall or window"
+          }
+        },
+        {
+          "code": "F24F 1/0314",
+          "title": {
+            "ko": null,
+            "en": "mounted on a wall"
+          }
+        },
+        {
+          "code": "F24F 1/0317",
+          "title": {
+            "ko": null,
+            "en": "suspended from the ceiling"
+          }
+        },
+        {
+          "code": "F24F 1/032",
+          "title": {
+            "ko": null,
+            "en": "characterised by heat exchangers"
+          }
+        },
+        {
+          "code": "F24F 1/0323",
+          "title": {
+            "ko": null,
+            "en": "by the mounting or arrangement of the heat exchangers"
+          }
+        },
+        {
+          "code": "F24F 1/0325",
+          "title": {
+            "ko": null,
+            "en": "by the shape of the heat exchangers or of parts thereof, e.g. of their fins"
+          }
+        },
+        {
+          "code": "F24F 1/0326",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of refrigerant piping outside the heat exchanger within the unit casing"
+          }
+        },
+        {
+          "code": "F24F 1/0328",
+          "title": {
+            "ko": "급기 정화 수단을 구비한 것 (향기 또는 탈취 수단 F24F1/0355)",
+            "en": "with means for purifying supplied air (perfuming or deodorising means F24F0001035500)"
+          }
+        },
+        {
+          "code": "F24F 1/035",
+          "title": {
+            "ko": null,
+            "en": "characterised by the mounting or arrangement of filters"
+          }
+        },
+        {
+          "code": "F24F 1/0353",
+          "title": {
+            "ko": null,
+            "en": "by electric means, e.g. ionisers or electrostatic separators"
+          }
+        },
+        {
+          "code": "F24F 1/0355",
+          "title": {
+            "ko": null,
+            "en": "with perfuming or deodorising means"
+          }
+        },
+        {
+          "code": "F24F 1/0358",
+          "title": {
+            "ko": null,
+            "en": "with dehumidification means"
+          }
+        },
+        {
+          "code": "F24F 1/037",
+          "title": {
+            "ko": null,
+            "en": "with humidification means"
+          }
+        },
+        {
+          "code": "F24F 1/0373",
+          "title": {
+            "ko": "가열 장치에 특징이 있는 것 (열교환기에 특징이 있는 것 F24F1/032)",
+            "en": "characterised by heating arrangements (characterised by heat exchangers F24F0001032000)"
+          }
+        },
+        {
+          "code": "F24F 1/0375",
+          "title": {
+            "ko": null,
+            "en": "with additional radiant heat-discharging elements, e.g. electric heaters"
+          }
+        },
+        {
+          "code": "F24F 1/0378",
+          "title": {
+            "ko": null,
+            "en": "using thermoelectric or thermomagnetic means, e.g. Peltier elements"
+          }
+        },
+        {
+          "code": "F24F 1/039",
+          "title": {
+            "ko": null,
+            "en": "using water to enhance cooling, e.g. spraying onto condensers"
+          }
+        },
+        {
+          "code": "F24F 1/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for portability"
+          }
+        },
+        {
+          "code": "F24F 1/06",
+          "title": {
+            "ko": "분리된 야외 유닛, 예. 압축기와 열 교환기를 구성하는 분리된 룸유닛에 연결된 야외 유닛",
+            "en": "Separate outdoor units, e.g. outdoor unit to be linked to a separate room unit comprising a compressor and a heat exchanger"
+          },
+          "definition": {
+            "ko": "이 그룹에서는, 상반되는 지시가 없는 한, 최초개소 우선규칙이 적용되며, 즉. 각 계층적 레벨에서, 최초의 적절한 개소에 분류한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "F24F 1/08",
+          "title": {
+            "ko": null,
+            "en": "Compressors specially adapted for separate outdoor units"
+          }
+        },
+        {
+          "code": "F24F 1/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting thereof"
+          }
+        },
+        {
+          "code": "F24F 1/12",
+          "title": {
+            "ko": null,
+            "en": "Vibration or noise prevention therefor"
+          }
+        },
+        {
+          "code": "F24F 1/14",
+          "title": {
+            "ko": null,
+            "en": "Heat exchangers specially adapted for separate outdoor units"
+          }
+        },
+        {
+          "code": "F24F 1/16",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting thereof"
+          }
+        },
+        {
+          "code": "F24F 1/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by their shape"
+          }
+        },
+        {
+          "code": "F24F 1/20",
+          "title": {
+            "ko": null,
+            "en": "Electric components for separate outdoor units"
+          }
+        },
+        {
+          "code": "F24F 1/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting thereof"
+          }
+        },
+        {
+          "code": "F24F 1/24",
+          "title": {
+            "ko": null,
+            "en": "Cooling of electric components"
+          }
+        },
+        {
+          "code": "F24F 1/26",
+          "title": {
+            "ko": null,
+            "en": "Refrigerant piping"
+          }
+        },
+        {
+          "code": "F24F 1/28",
+          "title": {
+            "ko": null,
+            "en": "for connecting several separate outdoor units"
+          }
+        },
+        {
+          "code": "F24F 1/30",
+          "title": {
+            "ko": null,
+            "en": "for use inside the separate outdoor units"
+          }
+        },
+        {
+          "code": "F24F 1/32",
+          "title": {
+            "ko": null,
+            "en": "for connecting the separate outdoor unit to indoor units"
+          }
+        },
+        {
+          "code": "F24F 1/34",
+          "title": {
+            "ko": null,
+            "en": "Protection means therefor, e.g. covers for refrigerant pipes"
+          }
+        },
+        {
+          "code": "F24F 1/36",
+          "title": {
+            "ko": null,
+            "en": "Drip trays for outdoor units"
+          }
+        },
+        {
+          "code": "F24F 1/38",
+          "title": {
+            "ko": null,
+            "en": "Fan details of outdoor units, e.g. bell-mouth shaped inlets or fan mountings"
+          }
+        },
+        {
+          "code": "F24F 1/40",
+          "title": {
+            "ko": "외부 유닛에서 진동 또는 소음 방지(외부 유닛 압축기를 위해 F24F 1/12)",
+            "en": "Vibration or noise prevention at outdoor units (for outdoor unit compressors F24F0001120000)"
+          }
+        },
+        {
+          "code": "F24F 1/42",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of the condensate, e.g. for enhanced cooling"
+          }
+        },
+        {
+          "code": "F24F 1/44",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of internal combustion engines"
+          }
+        },
+        {
+          "code": "F24F 1/46",
+          "title": {
+            "ko": null,
+            "en": "Component arrangements in separate outdoor units"
+          }
+        },
+        {
+          "code": "F24F 1/48",
+          "title": {
+            "ko": null,
+            "en": "characterised by airflow, e.g. inlet or outlet airflow"
+          }
+        },
+        {
+          "code": "F24F 1/50",
+          "title": {
+            "ko": null,
+            "en": "with outlet air in upward direction"
+          }
+        },
+        {
+          "code": "F24F 1/52",
+          "title": {
+            "ko": null,
+            "en": "Inlet and outlet arranged on the same side, e.g. for mounting in a wall opening"
+          }
+        },
+        {
+          "code": "F24F 1/54",
+          "title": {
+            "ko": null,
+            "en": "Inlet and outlet arranged on opposite sides"
+          }
+        },
+        {
+          "code": "F24F 1/56",
+          "title": {
+            "ko": null,
+            "en": "Casing or covers of separate outdoor units, e.g. fan guards"
+          }
+        },
+        {
+          "code": "F24F 1/58",
+          "title": {
+            "ko": null,
+            "en": "Separate protective covers for outdoor units, e.g. solar guards, snow shields or camouflage"
+          }
+        },
+        {
+          "code": "F24F 1/60",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting of the outdoor unit"
+          }
+        },
+        {
+          "code": "F24F 1/62",
+          "title": {
+            "ko": null,
+            "en": "Wall-mounted"
+          }
+        },
+        {
+          "code": "F24F 1/64",
+          "title": {
+            "ko": null,
+            "en": "Ceiling-mounted, e.g. below a balcony"
+          }
+        },
+        {
+          "code": "F24F 1/66",
+          "title": {
+            "ko": null,
+            "en": "under the floor level"
+          }
+        },
+        {
+          "code": "F24F 1/68",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of multiple separate outdoor units"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 3/00",
+      "title": {
+        "ko": "조정된 1차공기를 1개 이상의 중앙장치로부터, 2차처리가 수행되는 방 또는 공간 내부의 분배유닛으로 공급하는 공기조화시스템; 그러한 시스템을 위해서 특별히 설계된 장치 (룸 유닛 F24F 1/00)",
+        "en": "Air-conditioning systems in which conditioned primary air is supplied from one or more central stations to distributing units in the rooms or spaces where it may receive secondary treatment; Apparatus specially designed for such systems (room units F24F0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 3/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the pressure or velocity of the primary air"
+          }
+        },
+        {
+          "code": "F24F 3/04",
+          "title": {
+            "ko": null,
+            "en": "operating with high pressure or high velocity"
+          }
+        },
+        {
+          "code": "F24F 3/044",
+          "title": {
+            "ko": "모든 처리가 중앙장치에서 주어지는 방식, 즉 전공기방식",
+            "en": "Systems in which all treatment is given in the central station, i.e. all-air systems"
+          }
+        },
+        {
+          "code": "F24F 3/048",
+          "title": {
+            "ko": null,
+            "en": "with temperature control at constant rate of air-flow"
+          }
+        },
+        {
+          "code": "F24F 3/052",
+          "title": {
+            "ko": null,
+            "en": "Multiple duct systems, e.g. systems in which hot and cold air are supplied by separate circuits from the central station to mixing chambers in the spaces to be conditioned"
+          }
+        },
+        {
+          "code": "F24F 3/056",
+          "title": {
+            "ko": "공기가 적어도 부분적으로 조명기구상을 흐르고 조명기구의 열이 소비되거나 또는 사용되는 것 (조명용구와 결합된 방 또는 공간으로 공기를 흐르게 하거나 분배하기 위한 배출구 F24F 13/078)",
+            "en": "the air at least partially flowing over lighting fixtures, the heat of which is dissipated or used (outlets for directing or distributing air into rooms or spaces combined with lighting fixtures F24F0013078000)"
+          }
+        },
+        {
+          "code": "F24F 3/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangements for the supply of heat-exchange fluid for the subsequent treatment of primary air in the room units"
+          }
+        },
+        {
+          "code": "F24F 3/08",
+          "title": {
+            "ko": null,
+            "en": "with separate supply and return lines for hot and cold heat-exchange fluids"
+          }
+        },
+        {
+          "code": "F24F 3/10",
+          "title": {
+            "ko": null,
+            "en": "with separate supply lines and common return line for hot and cold heat-exchange fluids"
+          }
+        },
+        {
+          "code": "F24F 3/12",
+          "title": {
+            "ko": "가열과 냉각을 제외한 공기의 처리에 특징이 있는 것",
+            "en": "characterised by the treatment of the air otherwise than by heating and cooling"
+          }
+        },
+        {
+          "code": "F24F 3/14",
+          "title": {
+            "ko": null,
+            "en": "by humidification; by dehumidification"
+          }
+        },
+        {
+          "code": "F24F 3/147",
+          "title": {
+            "ko": null,
+            "en": "with both heat and humidity transfer between supplied and exhausted air"
+          }
+        },
+        {
+          "code": "F24F 3/153",
+          "title": {
+            "ko": null,
+            "en": "with subsequent heating, i.e. with the air, given the required humidity in the central station, passing a heating element to achieve the required temperature"
+          }
+        },
+        {
+          "code": "F24F 3/16",
+          "title": {
+            "ko": "청정에 의한 것, 예. 여과에 의한 것; 살균에 의한 것; 오존화에 의한 것",
+            "en": "by purification, e.g. by filtering; by sterilisation; by ozonisation"
+          }
+        },
+        {
+          "code": "F24F 3/163",
+          "title": {
+            "ko": null,
+            "en": "Clean air work stations, i.e. selected areas within a space to which filtered air is passed"
+          }
+        },
+        {
+          "code": "F24F 3/167",
+          "title": {
+            "ko": "청정실, 즉 여과된 공기의 균일한 흐름이 분산되는 밀폐된 공간 (천공 벽에 의한 공기 분배 F24F7/10)",
+            "en": "Clean rooms, i.e. enclosed spaces in which a uniform flow of filtered air is distributed (air distribution by perforated walls F24F0007100000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 5/00",
+      "title": {
+        "ko": "F24F 1/00 또는 F24F 3/00에 분류되지 않는 공기조화방식 또는 공기조화장치",
+        "en": "Air-conditioning systems or apparatus not covered by group F24F0001000000 or F24F0003000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24F 6/00",
+      "title": {
+        "ko": null,
+        "en": "Air-humidification"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 6/02",
+          "title": {
+            "ko": null,
+            "en": "by evaporation of water in the air"
+          }
+        },
+        {
+          "code": "F24F 6/04",
+          "title": {
+            "ko": null,
+            "en": "using stationary unheated wet elements"
+          }
+        },
+        {
+          "code": "F24F 6/06",
+          "title": {
+            "ko": null,
+            "en": "using moving unheated wet elements"
+          }
+        },
+        {
+          "code": "F24F 6/08",
+          "title": {
+            "ko": null,
+            "en": "using heated wet elements"
+          }
+        },
+        {
+          "code": "F24F 6/10",
+          "title": {
+            "ko": null,
+            "en": "heated electrically"
+          }
+        },
+        {
+          "code": "F24F 6/12",
+          "title": {
+            "ko": null,
+            "en": "by forming water dispersions in the air"
+          }
+        },
+        {
+          "code": "F24F 6/14",
+          "title": {
+            "ko": null,
+            "en": "using nozzles"
+          }
+        },
+        {
+          "code": "F24F 6/16",
+          "title": {
+            "ko": null,
+            "en": "using rotating elements"
+          }
+        },
+        {
+          "code": "F24F 6/18",
+          "title": {
+            "ko": null,
+            "en": "by injection of steam into the air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 7/00",
+      "title": {
+        "ko": "환기",
+        "en": "Ventilation"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 7/003",
+          "title": {
+            "ko": null,
+            "en": "in combination with air cleaning"
+          }
+        },
+        {
+          "code": "F24F 7/007",
+          "title": {
+            "ko": "강제류에 의한 것(덕트장치를 사용하는 것 F24F 7/06)",
+            "en": "with forced flow (using ducting systems F24F0007060000)"
+          }
+        },
+        {
+          "code": "F24F 7/013",
+          "title": {
+            "ko": null,
+            "en": "using wall or window fans, displacing air through the wall or window"
+          }
+        },
+        {
+          "code": "F24F 7/02",
+          "title": {
+            "ko": "옥상환기 (지붕 덮개의 환기 E04D)",
+            "en": "Roof ventilation (ventilation of roof coverings E04D)"
+          }
+        },
+        {
+          "code": "F24F 7/04",
+          "title": {
+            "ko": "덕트장치를 갖는 것",
+            "en": "with ducting systems"
+          }
+        },
+        {
+          "code": "F24F 7/06",
+          "title": {
+            "ko": "강제공기순환수단을 갖는 것, 예. 팬(FAN)에 의한 것",
+            "en": "with forced air circulation, e.g. by fan"
+          }
+        },
+        {
+          "code": "F24F 7/08",
+          "title": {
+            "ko": null,
+            "en": "with separate ducts for supplied and exhausted air"
+          }
+        },
+        {
+          "code": "F24F 7/10",
+          "title": {
+            "ko": "구멍이 있는 벽, 마루 또는 천정을 통해서 급기 또는 배기되는 것(공기를 안내하거나 분배하기 위한 내부부재 F24F 13/06)",
+            "en": "with air supply, or exhaust, through perforated wall, floor or ceiling (outlet members for directing or distributing air F24F0013060000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 8/00",
+      "title": {
+        "ko": "치료, 예. 난방, 냉방, 가습 또는 건조가 아닌 사람의 생활 또는 작업 공간에 공급되는 공기의 정화",
+        "en": "Treatment, e.g. purification, of air supplied to human living or working spaces otherwise than by heating, cooling, humidifying or drying"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 8/10",
+          "title": {
+            "ko": null,
+            "en": "by separation, e.g. by filtering"
+          }
+        },
+        {
+          "code": "F24F 8/108",
+          "title": {
+            "ko": null,
+            "en": "using dry filter elements"
+          }
+        },
+        {
+          "code": "F24F 8/117",
+          "title": {
+            "ko": null,
+            "en": "using wet filtering"
+          }
+        },
+        {
+          "code": "F24F 8/125",
+          "title": {
+            "ko": null,
+            "en": "using wet filter elements"
+          }
+        },
+        {
+          "code": "F24F 8/133",
+          "title": {
+            "ko": null,
+            "en": "by direct contact with liquid, e.g. with sprayed liquid"
+          }
+        },
+        {
+          "code": "F24F 8/142",
+          "title": {
+            "ko": null,
+            "en": "Treatment of used liquid, e.g. cleaning for recycling"
+          }
+        },
+        {
+          "code": "F24F 8/15",
+          "title": {
+            "ko": null,
+            "en": "by chemical means"
+          }
+        },
+        {
+          "code": "F24F 8/158",
+          "title": {
+            "ko": null,
+            "en": "using active carbon"
+          }
+        },
+        {
+          "code": "F24F 8/167",
+          "title": {
+            "ko": null,
+            "en": "using catalytic reactions"
+          }
+        },
+        {
+          "code": "F24F 8/175",
+          "title": {
+            "ko": null,
+            "en": "using biological materials, plants or microorganisms"
+          }
+        },
+        {
+          "code": "F24F 8/183",
+          "title": {
+            "ko": null,
+            "en": "by centrifugal separation, e.g. using vortices"
+          }
+        },
+        {
+          "code": "F24F 8/192",
+          "title": {
+            "ko": null,
+            "en": "by electrical means, e.g. by applying electrostatic fields or high voltages"
+          }
+        },
+        {
+          "code": "F24F 8/20",
+          "title": {
+            "ko": null,
+            "en": "by sterilisation"
+          }
+        },
+        {
+          "code": "F24F 8/22",
+          "title": {
+            "ko": null,
+            "en": "using UV light"
+          }
+        },
+        {
+          "code": "F24F 8/24",
+          "title": {
+            "ko": null,
+            "en": "using sterilising media"
+          }
+        },
+        {
+          "code": "F24F 8/26",
+          "title": {
+            "ko": null,
+            "en": "using ozone"
+          }
+        },
+        {
+          "code": "F24F 8/28",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for combatting or avoiding Legionella bacteria"
+          }
+        },
+        {
+          "code": "F24F 8/30",
+          "title": {
+            "ko": null,
+            "en": "by ionisation"
+          }
+        },
+        {
+          "code": "F24F 8/40",
+          "title": {
+            "ko": "오존 화에 의한 것 (살균 F24F8/26)",
+            "en": "by ozonisation (for sterilisation F24F0008260000)"
+          }
+        },
+        {
+          "code": "F24F 8/50",
+          "title": {
+            "ko": null,
+            "en": "by odorisation"
+          }
+        },
+        {
+          "code": "F24F 8/60",
+          "title": {
+            "ko": null,
+            "en": "by adding oxygen"
+          }
+        },
+        {
+          "code": "F24F 8/70",
+          "title": {
+            "ko": null,
+            "en": "by removing radon"
+          }
+        },
+        {
+          "code": "F24F 8/80",
+          "title": {
+            "ko": null,
+            "en": "Self-contained air purifiers"
+          }
+        },
+        {
+          "code": "F24F 8/90",
+          "title": {
+            "ko": null,
+            "en": "Cleaning of purification apparatus"
+          }
+        },
+        {
+          "code": "F24F 8/95",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for specific purposes"
+          }
+        },
+        {
+          "code": "F24F 8/96",
+          "title": {
+            "ko": null,
+            "en": "for removing pollen"
+          }
+        },
+        {
+          "code": "F24F 8/97",
+          "title": {
+            "ko": null,
+            "en": "for removing tobacco smoke"
+          }
+        },
+        {
+          "code": "F24F 8/98",
+          "title": {
+            "ko": null,
+            "en": "for removing ozone"
+          }
+        },
+        {
+          "code": "F24F 8/99",
+          "title": {
+            "ko": null,
+            "en": "for treating air sourced from urban areas, e.g. from streets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 9/00",
+      "title": {
+        "ko": null,
+        "en": "Use of air currents for screening, e.g. air curtains"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24F 11/00",
+      "title": {
+        "ko": null,
+        "en": "Control or safety arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 11/30",
+          "title": {
+            "ko": null,
+            "en": "for purposes related to the operation of the system, e.g. for safety or monitoring"
+          }
+        },
+        {
+          "code": "F24F 11/32",
+          "title": {
+            "ko": null,
+            "en": "Responding to malfunctions or emergencies"
+          }
+        },
+        {
+          "code": "F24F 11/33",
+          "title": {
+            "ko": null,
+            "en": "to fire, excessive heat or smoke"
+          }
+        },
+        {
+          "code": "F24F 11/34",
+          "title": {
+            "ko": null,
+            "en": "by opening air passages"
+          }
+        },
+        {
+          "code": "F24F 11/35",
+          "title": {
+            "ko": null,
+            "en": "by closing air passages"
+          }
+        },
+        {
+          "code": "F24F 11/36",
+          "title": {
+            "ko": null,
+            "en": "to leakage of heat-exchange fluid"
+          }
+        },
+        {
+          "code": "F24F 11/37",
+          "title": {
+            "ko": null,
+            "en": "Resuming operation, e.g. after power outages; Emergency starting"
+          }
+        },
+        {
+          "code": "F24F 11/38",
+          "title": {
+            "ko": null,
+            "en": "Failure diagnosis"
+          }
+        },
+        {
+          "code": "F24F 11/39",
+          "title": {
+            "ko": null,
+            "en": "Monitoring filter performance"
+          }
+        },
+        {
+          "code": "F24F 11/41",
+          "title": {
+            "ko": null,
+            "en": "Defrosting; Preventing freezing"
+          }
+        },
+        {
+          "code": "F24F 11/42",
+          "title": {
+            "ko": null,
+            "en": "of outdoor units"
+          }
+        },
+        {
+          "code": "F24F 11/43",
+          "title": {
+            "ko": null,
+            "en": "of indoor units"
+          }
+        },
+        {
+          "code": "F24F 11/46",
+          "title": {
+            "ko": null,
+            "en": "Improving electric energy efficiency or saving"
+          }
+        },
+        {
+          "code": "F24F 11/47",
+          "title": {
+            "ko": null,
+            "en": "Responding to energy costs"
+          }
+        },
+        {
+          "code": "F24F 11/48",
+          "title": {
+            "ko": null,
+            "en": "prior to normal operation, e.g. pre-heating or pre-cooling"
+          }
+        },
+        {
+          "code": "F24F 11/49",
+          "title": {
+            "ko": null,
+            "en": "ensuring correct operation, e.g. by trial operation or configuration checks"
+          }
+        },
+        {
+          "code": "F24F 11/50",
+          "title": {
+            "ko": null,
+            "en": "characterised by user interfaces or communication"
+          }
+        },
+        {
+          "code": "F24F 11/52",
+          "title": {
+            "ko": null,
+            "en": "Indication arrangements, e.g. displays"
+          }
+        },
+        {
+          "code": "F24F 11/523",
+          "title": {
+            "ko": null,
+            "en": "for displaying temperature data"
+          }
+        },
+        {
+          "code": "F24F 11/526",
+          "title": {
+            "ko": null,
+            "en": "giving audible indications"
+          }
+        },
+        {
+          "code": "F24F 11/54",
+          "title": {
+            "ko": null,
+            "en": "using one central controller connected to several sub-controllers"
+          }
+        },
+        {
+          "code": "F24F 11/56",
+          "title": {
+            "ko": null,
+            "en": "Remote control"
+          }
+        },
+        {
+          "code": "F24F 11/57",
+          "title": {
+            "ko": null,
+            "en": "using telephone networks"
+          }
+        },
+        {
+          "code": "F24F 11/58",
+          "title": {
+            "ko": null,
+            "en": "using Internet communication"
+          }
+        },
+        {
+          "code": "F24F 11/59",
+          "title": {
+            "ko": null,
+            "en": "for presetting"
+          }
+        },
+        {
+          "code": "F24F 11/61",
+          "title": {
+            "ko": null,
+            "en": "using timers"
+          }
+        },
+        {
+          "code": "F24F 11/62",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of control or by internal processing, e.g. using fuzzy logic, adaptive control or estimation of values"
+          }
+        },
+        {
+          "code": "F24F 11/63",
+          "title": {
+            "ko": null,
+            "en": "Electronic processing"
+          }
+        },
+        {
+          "code": "F24F 11/64",
+          "title": {
+            "ko": null,
+            "en": "using pre-stored data"
+          }
+        },
+        {
+          "code": "F24F 11/65",
+          "title": {
+            "ko": null,
+            "en": "for selecting an operating mode"
+          }
+        },
+        {
+          "code": "F24F 11/66",
+          "title": {
+            "ko": null,
+            "en": "Sleep mode"
+          }
+        },
+        {
+          "code": "F24F 11/67",
+          "title": {
+            "ko": null,
+            "en": "Switching between heating and cooling modes"
+          }
+        },
+        {
+          "code": "F24F 11/70",
+          "title": {
+            "ko": null,
+            "en": "Control systems characterised by their outputs; Constructional details thereof"
+          }
+        },
+        {
+          "code": "F24F 11/72",
+          "title": {
+            "ko": null,
+            "en": "for controlling the supply of treated air, e.g. its pressure"
+          }
+        },
+        {
+          "code": "F24F 11/74",
+          "title": {
+            "ko": null,
+            "en": "for controlling air flow rate or air velocity"
+          }
+        },
+        {
+          "code": "F24F 11/75",
+          "title": {
+            "ko": null,
+            "en": "for maintaining constant air flow rate or air velocity"
+          }
+        },
+        {
+          "code": "F24F 11/755",
+          "title": {
+            "ko": null,
+            "en": "for cyclical variation of air flow rate or air velocity"
+          }
+        },
+        {
+          "code": "F24F 11/76",
+          "title": {
+            "ko": null,
+            "en": "by means responsive to temperature, e.g. bimetal springs"
+          }
+        },
+        {
+          "code": "F24F 11/77",
+          "title": {
+            "ko": null,
+            "en": "by controlling the speed of ventilators"
+          }
+        },
+        {
+          "code": "F24F 11/79",
+          "title": {
+            "ko": null,
+            "en": "for controlling the direction of the supplied air"
+          }
+        },
+        {
+          "code": "F24F 11/80",
+          "title": {
+            "ko": null,
+            "en": "for controlling the temperature of the supplied air"
+          }
+        },
+        {
+          "code": "F24F 11/81",
+          "title": {
+            "ko": null,
+            "en": "by controlling the air supply to heat-exchangers or bypass channels"
+          }
+        },
+        {
+          "code": "F24F 11/83",
+          "title": {
+            "ko": null,
+            "en": "by controlling the supply of heat-exchange fluids to heat-exchangers"
+          }
+        },
+        {
+          "code": "F24F 11/84",
+          "title": {
+            "ko": null,
+            "en": "using valves"
+          }
+        },
+        {
+          "code": "F24F 11/85",
+          "title": {
+            "ko": null,
+            "en": "using variable-flow pumps"
+          }
+        },
+        {
+          "code": "F24F 11/86",
+          "title": {
+            "ko": null,
+            "en": "by controlling compressors within refrigeration or heat pump circuits"
+          }
+        },
+        {
+          "code": "F24F 11/87",
+          "title": {
+            "ko": null,
+            "en": "by controlling absorption or discharge of heat in outdoor units"
+          }
+        },
+        {
+          "code": "F24F 11/871",
+          "title": {
+            "ko": null,
+            "en": "by controlling outdoor fans"
+          }
+        },
+        {
+          "code": "F24F 11/873",
+          "title": {
+            "ko": null,
+            "en": "by controlling refrigerant heaters"
+          }
+        },
+        {
+          "code": "F24F 11/875",
+          "title": {
+            "ko": null,
+            "en": "by controlling heat-storage apparatus"
+          }
+        },
+        {
+          "code": "F24F 11/88",
+          "title": {
+            "ko": null,
+            "en": "Electrical aspects, e.g. circuits"
+          }
+        },
+        {
+          "code": "F24F 11/89",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting of control or safety devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 12/00",
+      "title": {
+        "ko": "공기조화, 환기 또는 차폐에 있어서 에너지회수장치를 이용하는 것",
+        "en": "Use of energy recovery systems in air conditioning, ventilation or screening (with both heat and humidity transfer between supplied and exhausted air F24F0003147000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24F 13/00",
+      "title": {
+        "ko": "공기조화, 공기가온, 환기 및 차폐를 위한 기류의 이용에 공통의 세부",
+        "en": "Details common to, or for air-conditioning, air-humidification, ventilation or use of air currents for screening"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 13/02",
+          "title": {
+            "ko": "덕트(duct) 의 구성",
+            "en": "Ducting arrangements"
+          }
+        },
+        {
+          "code": "F24F 13/04",
+          "title": {
+            "ko": "공기조합유닛(Air-mixing units) (F24F 13/06이 우선)",
+            "en": "Air-mixing units (F24F0013060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F24F 13/06",
+          "title": {
+            "ko": "방 또는 공간에 공기를 향하게 하거나 분배하기 위한 흡출구, 예. 천장공기확산기",
+            "en": "Outlets for directing or distributing air into rooms or spaces, e.g. ceiling air diffuser"
+          }
+        },
+        {
+          "code": "F24F 13/062",
+          "title": {
+            "ko": null,
+            "en": "having one or more bowls or cones diverging in the flow direction"
+          }
+        },
+        {
+          "code": "F24F 13/065",
+          "title": {
+            "ko": null,
+            "en": "formed as cylindrical or spherical bodies which are rotatable"
+          }
+        },
+        {
+          "code": "F24F 13/068",
+          "title": {
+            "ko": "구멍이 있는 벽, 천정 또는 마루로서 형성된 것(F24F 13/078이 우선)",
+            "en": "formed as perforated walls, ceilings or floors (F24F0013078000 takes precedence)"
+          }
+        },
+        {
+          "code": "F24F 13/072",
+          "title": {
+            "ko": null,
+            "en": "of elongated shape, e.g. between ceiling panels"
+          }
+        },
+        {
+          "code": "F24F 13/075",
+          "title": {
+            "ko": "유출을 지향시키는 평행인 봉(rod) 또는 박판, 예. 독립으로 조절가능한 봉(rod) 또는 박판을 갖는 것(F24F 13/072가 우선)",
+            "en": "having parallel rods or lamellae directing the outflow, e.g. the rods or lamellae being individually adjustable (F24F0013072000 takes precedence)"
+          }
+        },
+        {
+          "code": "F24F 13/078",
+          "title": {
+            "ko": null,
+            "en": "combined with lighting fixtures"
+          }
+        },
+        {
+          "code": "F24F 13/08",
+          "title": {
+            "ko": "공기흐름 제어 부재, 예. 루버(louvers), 그릴(Grills), 플랩(flaps), 안내판 (F24F 7/013, F24F 13/06이 우선)",
+            "en": "Air-flow control members, e.g. louvres, grilles, flaps or guide plates (F24F0007013000, F24F0013060000 take precedence)"
+          }
+        },
+        {
+          "code": "F24F 13/10",
+          "title": {
+            "ko": null,
+            "en": "movable, e.g. dampers"
+          }
+        },
+        {
+          "code": "F24F 13/12",
+          "title": {
+            "ko": null,
+            "en": "built-up of sliding members"
+          }
+        },
+        {
+          "code": "F24F 13/14",
+          "title": {
+            "ko": null,
+            "en": "built-up of tilting members, e.g. louvre"
+          }
+        },
+        {
+          "code": "F24F 13/15",
+          "title": {
+            "ko": null,
+            "en": "with parallel simultaneously tiltable lamellae"
+          }
+        },
+        {
+          "code": "F24F 13/16",
+          "title": {
+            "ko": null,
+            "en": "built-up of parallelly-movable plates"
+          }
+        },
+        {
+          "code": "F24F 13/18",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for insertion in flat panels, e.g. in door or window-pane"
+          }
+        },
+        {
+          "code": "F24F 13/20",
+          "title": {
+            "ko": null,
+            "en": "Casings or covers"
+          }
+        },
+        {
+          "code": "F24F 13/22",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing condensation or evacuating condensate"
+          }
+        },
+        {
+          "code": "F24F 13/24",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing or suppressing noise"
+          }
+        },
+        {
+          "code": "F24F 13/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for air-circulation by means of induction, e.g. by fluid coupling or thermal effect"
+          }
+        },
+        {
+          "code": "F24F 13/28",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting of filters"
+          }
+        },
+        {
+          "code": "F24F 13/30",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting of heat-exchangers"
+          }
+        },
+        {
+          "code": "F24F 13/32",
+          "title": {
+            "ko": null,
+            "en": "Supports for air-conditioning, air-humidification or ventilation units"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 110/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with group F24F0011000000, relating to control inputs, e.g. measured or estimated values or parameters"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24F 110/00",
+      "title": {
+        "ko": null,
+        "en": "Control inputs relating to air properties"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 110/10",
+          "title": {
+            "ko": null,
+            "en": "Temperature"
+          }
+        },
+        {
+          "code": "F24F 110/12",
+          "title": {
+            "ko": null,
+            "en": "of the outside air"
+          }
+        },
+        {
+          "code": "F24F 110/20",
+          "title": {
+            "ko": null,
+            "en": "Humidity"
+          }
+        },
+        {
+          "code": "F24F 110/22",
+          "title": {
+            "ko": null,
+            "en": "of the outside air"
+          }
+        },
+        {
+          "code": "F24F 110/30",
+          "title": {
+            "ko": null,
+            "en": "Velocity"
+          }
+        },
+        {
+          "code": "F24F 110/32",
+          "title": {
+            "ko": null,
+            "en": "of the outside air"
+          }
+        },
+        {
+          "code": "F24F 110/40",
+          "title": {
+            "ko": null,
+            "en": "Pressure, e.g. wind pressure"
+          }
+        },
+        {
+          "code": "F24F 110/50",
+          "title": {
+            "ko": null,
+            "en": "Air quality properties"
+          }
+        },
+        {
+          "code": "F24F 110/52",
+          "title": {
+            "ko": null,
+            "en": "of the outside air"
+          }
+        },
+        {
+          "code": "F24F 110/60",
+          "title": {
+            "ko": null,
+            "en": "Odour"
+          }
+        },
+        {
+          "code": "F24F 110/62",
+          "title": {
+            "ko": null,
+            "en": "Tobacco smoke"
+          }
+        },
+        {
+          "code": "F24F 110/64",
+          "title": {
+            "ko": null,
+            "en": "Airborne particle content"
+          }
+        },
+        {
+          "code": "F24F 110/65",
+          "title": {
+            "ko": null,
+            "en": "Concentration of specific substances or contaminants"
+          }
+        },
+        {
+          "code": "F24F 110/66",
+          "title": {
+            "ko": null,
+            "en": "Volatile organic compounds [VOC]"
+          }
+        },
+        {
+          "code": "F24F 110/68",
+          "title": {
+            "ko": null,
+            "en": "Radon"
+          }
+        },
+        {
+          "code": "F24F 110/70",
+          "title": {
+            "ko": null,
+            "en": "Carbon dioxide"
+          }
+        },
+        {
+          "code": "F24F 110/72",
+          "title": {
+            "ko": null,
+            "en": "Carbon monoxide"
+          }
+        },
+        {
+          "code": "F24F 110/74",
+          "title": {
+            "ko": null,
+            "en": "Ozone"
+          }
+        },
+        {
+          "code": "F24F 110/76",
+          "title": {
+            "ko": null,
+            "en": "Oxygen"
+          }
+        },
+        {
+          "code": "F24F 110/80",
+          "title": {
+            "ko": null,
+            "en": "Electric charge"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 120/00",
+      "title": {
+        "ko": null,
+        "en": "Control inputs relating to users or occupants"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 120/10",
+          "title": {
+            "ko": null,
+            "en": "Occupancy"
+          }
+        },
+        {
+          "code": "F24F 120/12",
+          "title": {
+            "ko": null,
+            "en": "Position of occupants"
+          }
+        },
+        {
+          "code": "F24F 120/14",
+          "title": {
+            "ko": null,
+            "en": "Activity of occupants"
+          }
+        },
+        {
+          "code": "F24F 120/20",
+          "title": {
+            "ko": null,
+            "en": "Feedback from users"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 130/00",
+      "title": {
+        "ko": "그룹 F24F 110/00 에 포함되지 않는 환경 요인에 관한 제어 입력",
+        "en": "Control inputs relating to environmental factors not covered by group F24F0110000000"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 130/10",
+          "title": {
+            "ko": null,
+            "en": "Weather information or forecasts"
+          }
+        },
+        {
+          "code": "F24F 130/20",
+          "title": {
+            "ko": null,
+            "en": "Sunlight"
+          }
+        },
+        {
+          "code": "F24F 130/30",
+          "title": {
+            "ko": null,
+            "en": "Artificial light"
+          }
+        },
+        {
+          "code": "F24F 130/40",
+          "title": {
+            "ko": null,
+            "en": "Noise"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24F 140/00",
+      "title": {
+        "ko": null,
+        "en": "Control inputs relating to system states"
+      },
+      "subgroups": [
+        {
+          "code": "F24F 140/10",
+          "title": {
+            "ko": null,
+            "en": "Pressure"
+          }
+        },
+        {
+          "code": "F24F 140/12",
+          "title": {
+            "ko": null,
+            "en": "Heat-exchange fluid pressure"
+          }
+        },
+        {
+          "code": "F24F 140/20",
+          "title": {
+            "ko": null,
+            "en": "Heat-exchange fluid temperature"
+          }
+        },
+        {
+          "code": "F24F 140/30",
+          "title": {
+            "ko": null,
+            "en": "Condensation of water from cooled air"
+          }
+        },
+        {
+          "code": "F24F 140/40",
+          "title": {
+            "ko": null,
+            "en": "Damper positions, e.g. open or closed"
+          }
+        },
+        {
+          "code": "F24F 140/50",
+          "title": {
+            "ko": null,
+            "en": "Load"
+          }
+        },
+        {
+          "code": "F24F 140/60",
+          "title": {
+            "ko": null,
+            "en": "Energy consumption"
+          }
+        }
+      ]
+    }
+  ]
+}

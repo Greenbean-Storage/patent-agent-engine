@@ -1,0 +1,655 @@
+{
+  "subclass": "G06K",
+  "title": {
+    "ko": "그래픽 데이터의 판독 (이미지 또는 비디오 인식 또는 이해 G06V); 데이터의 표현; 기록 매체; 기록 매체 처리",
+    "en": "GRAPHICAL DATA READING (image or video recognition or understanding G06V); PRESENTATION OF DATA; RECORD CARRIERS; HANDLING RECORD CARRIERS"
+  },
+  "definition": {
+    "ko": "판독 그래프 G06K11/00 수동 쓰기 또는 추적 구성원의 위치를 신호로 변환하는 것 G06K11/00 출력 데이터의 영구적인 시각적 표시 G06K15/00 마킹, 인쇄 G06K1/00, G06K3/00 검증 G06K5/00 감지 G06K7/00 운반 G06K13/00 상기 그룹의 둘 이상에서 다루는 작업의 조합 G06K17/00 기록 매체, 펀치 카드 G06K19/00, G06K21/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G06K 1/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for marking the record carrier in digital fashion"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 1/02",
+          "title": {
+            "ko": null,
+            "en": "by punching"
+          }
+        },
+        {
+          "code": "G06K 1/04",
+          "title": {
+            "ko": null,
+            "en": "controlled by sensing markings on the record carrier being punched"
+          }
+        },
+        {
+          "code": "G06K 1/05",
+          "title": {
+            "ko": null,
+            "en": "High-speed punches, e.g. controlled by electric computer"
+          }
+        },
+        {
+          "code": "G06K 1/06",
+          "title": {
+            "ko": null,
+            "en": "Manually-controlled devices"
+          }
+        },
+        {
+          "code": "G06K 1/08",
+          "title": {
+            "ko": null,
+            "en": "Card punches"
+          }
+        },
+        {
+          "code": "G06K 1/10",
+          "title": {
+            "ko": null,
+            "en": "Tape punches"
+          }
+        },
+        {
+          "code": "G06K 1/12",
+          "title": {
+            "ko": null,
+            "en": "otherwise than by punching"
+          }
+        },
+        {
+          "code": "G06K 1/14",
+          "title": {
+            "ko": null,
+            "en": "by transferring data from a similar or dissimilar record carrier"
+          }
+        },
+        {
+          "code": "G06K 1/16",
+          "title": {
+            "ko": null,
+            "en": "by reproducing data from one punched card on to one or more punched cards without the code representation, i.e. duplicating"
+          }
+        },
+        {
+          "code": "G06K 1/18",
+          "title": {
+            "ko": null,
+            "en": "by transferring data from one type of record carrier on to another type of record carrier, e.g. from magnetic tape to punched card"
+          }
+        },
+        {
+          "code": "G06K 1/20",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous marking of record carrier and printing-out of data, e.g. printing-punch"
+          }
+        },
+        {
+          "code": "G06K 1/22",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous marking and printing on different record carriers, e.g. on different types of record carrier"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 3/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for printing of data in the shape of alphanumeric or other characters from a record carrier, e.g. interpreting, printing-out from a magnetic tape"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 3/02",
+          "title": {
+            "ko": null,
+            "en": "Translating markings on a record carrier into printed data on the same record carrier, i.e. interpreting"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 5/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for verifying the correctness of markings on a record carrier; Column-detection devices"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 5/02",
+          "title": {
+            "ko": null,
+            "en": "the verifying forming a part of the marking action"
+          }
+        },
+        {
+          "code": "G06K 5/04",
+          "title": {
+            "ko": null,
+            "en": "Verifying the alignment of markings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 7/00",
+      "title": {
+        "ko": "기록 매체를 감지하기 위한 방법 또는 장치 (디지털 방식으로 기록 매체를 표시하기 위한 방법 또는 장치 G06K1/00; 패턴 인식 G06F18/00; 이미지 또는 비디오 인식 또는 이해를 위한 장치 G06V10/00; 문자 인식, 디지털 잉크 인식 또는 문서 지향 이미지 기반 패턴 인식 G06V30/00)",
+        "en": "Methods or arrangements for sensing record carriers  (methods or arrangements for marking the record carrier in digital fashion G06K0001000000; pattern recognition G06F0018000000; arrangements for image or video recognition or understanding G06V0010000000; character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V0030000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 7/01",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G06K 7/015",
+          "title": {
+            "ko": null,
+            "en": "Aligning or centring of the sensing device with respect to the record carrier"
+          }
+        },
+        {
+          "code": "G06K 7/016",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation of sensing process"
+          }
+        },
+        {
+          "code": "G06K 7/02",
+          "title": {
+            "ko": null,
+            "en": "by pneumatic or hydraulic means, e.g. sensing punched holes with compressed air; by sonic means"
+          }
+        },
+        {
+          "code": "G06K 7/04",
+          "title": {
+            "ko": null,
+            "en": "by mechanical means, e.g. by pins operating electric contacts"
+          }
+        },
+        {
+          "code": "G06K 7/06",
+          "title": {
+            "ko": null,
+            "en": "by means which conduct current when a mark is sensed or absent, e.g. contact brush for a conductive mark"
+          }
+        },
+        {
+          "code": "G06K 7/08",
+          "title": {
+            "ko": null,
+            "en": "by means detecting the change of an electrostatic or magnetic field, e.g. by detecting change of capacitance between electrodes"
+          }
+        },
+        {
+          "code": "G06K 7/10",
+          "title": {
+            "ko": null,
+            "en": "by electromagnetic radiation, e.g. optical sensing; by corpuscular radiation"
+          }
+        },
+        {
+          "code": "G06K 7/12",
+          "title": {
+            "ko": null,
+            "en": "using a selected wavelength, e.g. to sense red marks and ignore blue marks"
+          }
+        },
+        {
+          "code": "G06K 7/14",
+          "title": {
+            "ko": null,
+            "en": "using light without selection of wavelength, e.g. sensing reflected white light"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 11/00",
+      "title": {
+        "ko": "그래프 판독 또는 기계적 매개변수의 패턴 변환을 위한 방법 또는 장치, 예. 힘 또는 존재, 전기 신호의 것 (패턴 인식과 결합된 것 G06F18/00; 이미지 또는 비디오 인식 또는 이해를 위한 장치 G06V10/00; 문자 인식, 디지털 잉크 인식 또는 문서 지향 이미지 기반 패턴 인식 G06V30/00)",
+        "en": "Methods or arrangements for graph-reading or for converting the pattern of mechanical parameters, e.g. force or presence, into electrical signals (combined with pattern recognition G06F0018000000;arrangements for image or video recognition or understanding G06V0010000000;character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V0030000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 11/02",
+          "title": {
+            "ko": null,
+            "en": "Automatic curve followers"
+          }
+        },
+        {
+          "code": "G06K 11/04",
+          "title": {
+            "ko": null,
+            "en": "using an auxiliary scanning pattern"
+          }
+        },
+        {
+          "code": "G06K 11/06",
+          "title": {
+            "ko": null,
+            "en": "Devices for converting the position of a manually-operated writing or tracing member into an electrical signal"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 13/00",
+      "title": {
+        "ko": "어떤 위치에서 다른 위치로 기록매체의 이송, 예. 스택에서 천공기계로의 기록매체의 이송",
+        "en": "Conveying record carriers from one station to another, e.g. from stack to punching mechanism (conveying record carriers combined with another operation, e.g. with reading G06K0017000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 13/02",
+          "title": {
+            "ko": null,
+            "en": "the record carrier having longitudinal dimension comparable with transverse dimension, e.g. punched card"
+          }
+        },
+        {
+          "code": "G06K 13/04",
+          "title": {
+            "ko": null,
+            "en": "Details, e.g. flaps in card-sorting apparatus"
+          }
+        },
+        {
+          "code": "G06K 13/05",
+          "title": {
+            "ko": null,
+            "en": "Capstans; Pinch rollers"
+          }
+        },
+        {
+          "code": "G06K 13/06",
+          "title": {
+            "ko": null,
+            "en": "Guiding cards; Checking correct operation of card-conveying mechanisms"
+          }
+        },
+        {
+          "code": "G06K 13/063",
+          "title": {
+            "ko": null,
+            "en": "Aligning cards"
+          }
+        },
+        {
+          "code": "G06K 13/067",
+          "title": {
+            "ko": null,
+            "en": "Checking presence, absence, correct position, or moving status of cards"
+          }
+        },
+        {
+          "code": "G06K 13/07",
+          "title": {
+            "ko": null,
+            "en": "Transporting of cards between stations"
+          }
+        },
+        {
+          "code": "G06K 13/073",
+          "title": {
+            "ko": null,
+            "en": "with continuous movement"
+          }
+        },
+        {
+          "code": "G06K 13/077",
+          "title": {
+            "ko": null,
+            "en": "with intermittent movement; Braking or stopping movement"
+          }
+        },
+        {
+          "code": "G06K 13/08",
+          "title": {
+            "ko": null,
+            "en": "Feeding or discharging cards"
+          }
+        },
+        {
+          "code": "G06K 13/10",
+          "title": {
+            "ko": null,
+            "en": "from magazine to conveying arrangement"
+          }
+        },
+        {
+          "code": "G06K 13/103",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means"
+          }
+        },
+        {
+          "code": "G06K 13/107",
+          "title": {
+            "ko": null,
+            "en": "using pneumatic means"
+          }
+        },
+        {
+          "code": "G06K 13/12",
+          "title": {
+            "ko": null,
+            "en": "from conveying arrangement to magazine"
+          }
+        },
+        {
+          "code": "G06K 13/14",
+          "title": {
+            "ko": null,
+            "en": "Card magazines, e.g. pocket, hopper"
+          }
+        },
+        {
+          "code": "G06K 13/16",
+          "title": {
+            "ko": null,
+            "en": "Handling flexible sheets, e.g. cheques"
+          }
+        },
+        {
+          "code": "G06K 13/18",
+          "title": {
+            "ko": null,
+            "en": "the record carrier being longitudinally extended, e.g. punched tape"
+          }
+        },
+        {
+          "code": "G06K 13/20",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G06K 13/22",
+          "title": {
+            "ko": null,
+            "en": "Capstans; Pinch rollers"
+          }
+        },
+        {
+          "code": "G06K 13/24",
+          "title": {
+            "ko": null,
+            "en": "Guiding of record carriers; Recognising end of record carrier"
+          }
+        },
+        {
+          "code": "G06K 13/26",
+          "title": {
+            "ko": null,
+            "en": "Winding-up or unwinding of record carriers; Driving of record carriers"
+          }
+        },
+        {
+          "code": "G06K 13/28",
+          "title": {
+            "ko": null,
+            "en": "continuously"
+          }
+        },
+        {
+          "code": "G06K 13/30",
+          "title": {
+            "ko": null,
+            "en": "intermittently"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 15/00",
+      "title": {
+        "ko": "출력데이터의 영구가시표시를 작성하기 위한 장치(다른 동작과 결합된 인쇄 또는 플로팅(plotting)(예. 이송을 가지는 것) G06K 17/00)",
+        "en": "Arrangements for producing a permanent visual presentation of the output data (printing or plotting combined with another operation, e.g. with conveying, G06K0017000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 15/02",
+          "title": {
+            "ko": null,
+            "en": "using printers"
+          }
+        },
+        {
+          "code": "G06K 15/04",
+          "title": {
+            "ko": null,
+            "en": "by rack-type printers"
+          }
+        },
+        {
+          "code": "G06K 15/06",
+          "title": {
+            "ko": null,
+            "en": "by type-wheel printers"
+          }
+        },
+        {
+          "code": "G06K 15/07",
+          "title": {
+            "ko": null,
+            "en": "by continuously-rotating-type-wheel printers, e.g. rotating-type-drum printers"
+          }
+        },
+        {
+          "code": "G06K 15/08",
+          "title": {
+            "ko": null,
+            "en": "by flight printing with type font moving in the direction of the printed line, e.g. chain printers"
+          }
+        },
+        {
+          "code": "G06K 15/10",
+          "title": {
+            "ko": null,
+            "en": "by matrix printers"
+          }
+        },
+        {
+          "code": "G06K 15/12",
+          "title": {
+            "ko": null,
+            "en": "by photographic printing"
+          }
+        },
+        {
+          "code": "G06K 15/14",
+          "title": {
+            "ko": null,
+            "en": "by electrographic printing, e.g. xerography; by magnetographic printing"
+          }
+        },
+        {
+          "code": "G06K 15/16",
+          "title": {
+            "ko": null,
+            "en": "Means for paper feeding or form feeding"
+          }
+        },
+        {
+          "code": "G06K 15/22",
+          "title": {
+            "ko": null,
+            "en": "using plotters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 17/00",
+      "title": {
+        "ko": "메인그룹 G06K 1/00 ～ G06K 15/00의 2개 이상의 메인 그룹에 포함 되는 장치를 공동 시키기 위한 방법 또는 장치, 예. 이송 및 읽기 동작과 공동 하는 자동 카드 파일",
+        "en": "Methods or arrangements for effecting co-operative working between equipments covered by two or more of main groups G06K0001000000-G06K0015000000, e.g. automatic card files incorporating conveying and reading operations"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06K 19/00",
+      "title": {
+        "ko": "적어도 그 일부에 디지털 마크가 기록되게끔 설계되고 또한 기계로 사용하는 기록매체",
+        "en": "Record carriers for use with machines and with at least a part designed to carry digital markings"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 19/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the selection of materials, e.g. to avoid wear during transport through the machine"
+          }
+        },
+        {
+          "code": "G06K 19/04",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape"
+          }
+        },
+        {
+          "code": "G06K 19/06",
+          "title": {
+            "ko": "디지털 마킹의 종류에 특징이 있는 것, 예. 모양, 성질, 코드",
+            "en": "characterised by the kind of the digital marking, e.g. shape, nature, code"
+          }
+        },
+        {
+          "code": "G06K 19/063",
+          "title": {
+            "ko": null,
+            "en": "the carrier being marginally punched or notched, e.g. having elongated slots"
+          }
+        },
+        {
+          "code": "G06K 19/067",
+          "title": {
+            "ko": "도전성마크, 인쇄회로 또는 반도체 회로요소를 갖는 기록매체 예, 신용 또는 ID카드(전화기로부터의 호출을 허가받기 위해 부호화된 카드를 사용하는 것 H04M1/675)",
+            "en": "Record carriers with conductive marks, printed circuits or semiconductor circuit elements, e.g. credit or identity cards (using a coded card to authorise calls from a telephone set H04M0001675000)"
+          }
+        },
+        {
+          "code": "G06K 19/07",
+          "title": {
+            "ko": "집적회로칩을 갖는 것",
+            "en": "with integrated circuit chips"
+          }
+        },
+        {
+          "code": "G06K 19/073",
+          "title": {
+            "ko": "회로용의 특별한 배치, 예. 메모리내의 식별코드를 보호하기 위한 것(컴퓨터메모리의 부정한 사용에 대한 보호 G06F 12/14)",
+            "en": "Special arrangements for circuits, e.g. for protecting identification code in memory (protection against unauthorised use of computer memory G06F0012140000)"
+          }
+        },
+        {
+          "code": "G06K 19/077",
+          "title": {
+            "ko": null,
+            "en": "Constructional details, e.g. mounting of circuits in the carrier"
+          }
+        },
+        {
+          "code": "G06K 19/08",
+          "title": {
+            "ko": "동일기록매체에서 다른 종류의 마킹을 사용하는 것 예, 하나는 광학적 수단 다른 하나는 자기적 수단에 의해 독취되는 것",
+            "en": "using markings of different kinds in the same record carrier, e.g. one marking being sensed by optical and the other by magnetic means"
+          }
+        },
+        {
+          "code": "G06K 19/10",
+          "title": {
+            "ko": "적어도 하나의 종류의 기록 마크의 확인, 예. 신용 또는 ID 카드 (그러한 것에 의하여 동작되는 기구 내에서의 부호화된 ID 신용카드의 확인 G07F17/12)",
+            "en": "at least one kind of marking being used for authentication, e.g. of credit or identity cards (verification of coded identity or credit cards in mechanisms actuated by them G07F0007120000)"
+          }
+        },
+        {
+          "code": "G06K 19/12",
+          "title": {
+            "ko": null,
+            "en": "the marking being sensed by magnetic means"
+          }
+        },
+        {
+          "code": "G06K 19/14",
+          "title": {
+            "ko": null,
+            "en": "the marking being sensed by radiation"
+          }
+        },
+        {
+          "code": "G06K 19/16",
+          "title": {
+            "ko": null,
+            "en": "the marking being a hologram or diffraction grating"
+          }
+        },
+        {
+          "code": "G06K 19/18",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 21/00",
+      "title": {
+        "ko": "수동 또는 기계로 처리할 수 있도록 설계된 천공 카드에서 정보 검색 (G06K19/00이 우선; 재스캔에 의한 오류 감지 또는 수정 G06K9/03; 카드 운반 매커니즘의 올바른 작동 확인 G06K13/06); 이러한 카드를 처리하기 위한 장치, 예. 표시 또는 수정",
+        "en": "Information retrieval from punched cards designed for manual use or handling by machine  (G06K0019000000 takes precedence; detection or correction of errors by rescanning patterns G06V0030000000; checking correct operation of card-conveying mechanisms G06K0013060000); Apparatus for handling such cards, e.g. marking or correcting"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 21/02",
+          "title": {
+            "ko": null,
+            "en": "in which coincidence of markings is sensed mechanically, e.g. by needle"
+          }
+        },
+        {
+          "code": "G06K 21/04",
+          "title": {
+            "ko": null,
+            "en": "in which coincidence of markings is sensed optically, e.g. peek-a-boo system"
+          }
+        },
+        {
+          "code": "G06K 21/06",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or tools adapted for slotting or otherwise marking information-retrieval cards"
+          }
+        },
+        {
+          "code": "G06K 21/08",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or tools for correcting punching or slotting errors"
+          }
+        }
+      ]
+    }
+  ]
+}

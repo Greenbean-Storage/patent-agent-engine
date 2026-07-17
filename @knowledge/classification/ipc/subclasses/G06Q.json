@@ -1,0 +1,904 @@
+{
+  "subclass": "G06Q",
+  "title": {
+    "ko": "관리, 상업, 재무, 관리 또는 감독 목적을 위해 특별히 적용된 정보 통신 기술 [ICT]; 달리 제공되지 않은 행정, 상업, 재무, 관리 또는 감독 목적에 특별히 적합한 시스템 또는 방법",
+    "en": "INFORMATION AND COMMUNICATION TECHNOLOGY [ICT] SPECIALLY ADAPTED FOR ADMINISTRATIVE, COMMERCIAL, FINANCIAL, MANAGERIAL OR SUPERVISORY PURPOSES; SYSTEMS OR METHODS SPECIALLY ADAPTED FOR ADMINISTRATIVE, COMMERCIAL, FINANCIAL, MANAGERIAL OR SUPERVISORY PURPOSES, NOT OTHERWISE PROVIDED FOR"
+  },
+  "definition": {
+    "ko": "1. 그룹 G06Q10/00 ~ G06Q50/00 및 G06Q99/00은 중요한 데이터 처리 작업, 즉 기술적으로 수행해야 하는 데이터 처리 작업과 관련된 시스템 또는 방법만 포함한다, 예. 컴퓨팅, 시스템 또는 장치. 2. 그룹 G06Q90/00은 다음 조건이 모두 충족되는 경우 중요한 데이터 처리를 포함하지 않는 시스템 또는 방법을 포함한다. ㆍ시스템이나 방법은 하위 클래스 제목 또는 그룹 G06Q10/00 ~ G06Q50/00에 언급된 목적에 맞게 특별히 조정되었다; 그리고 ㆍ시스템이나 방법은 가이드의 문단 96에 설명된 원칙을 적용하는 등 IPC의 다른 곳으로 분류될 수 없다.​ 그룹 G06Q90/00에서 이러한 시스템이나 방법을 분류할 때 이 분류가 검색에 관심이 있을 수 있는 시스템이나 방법의 적용에 대한 정보를 제공하는 경우 이 분류 또는 다른 하위 클래스와 가장 밀접하게 관련된 그룹에서 추가 분류가 이루어질 수 있다. 이러한 비의무적 분류는 \"추가 정보\"로 제공되어야 한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G06Q 10/00",
+      "title": {
+        "ko": "행정; 관리",
+        "en": "Administration; Management"
+      },
+      "subgroups": [
+        {
+          "code": "G06Q 10/02",
+          "title": {
+            "ko": null,
+            "en": "Reservations, e.g. for tickets, services or events"
+          }
+        },
+        {
+          "code": "G06Q 10/04",
+          "title": {
+            "ko": "관리 또는 관리 목적으로 특별히 조정 된 예측 또는 최적화, 예. 선형 프로그래밍 또는 \"절단 재고 문제\" (상업 활동에 대한 시장 예측 또는 예측 G06Q30/0202)",
+            "en": "Forecasting or optimisation specially adapted for administrative or management purposes, e.g. linear programming or \"cutting stock problem\"   (market predictions or forecasting for commercial activities G06Q0030020200)"
+          }
+        },
+        {
+          "code": "G06Q 10/047",
+          "title": {
+            "ko": null,
+            "en": "Optimisation of routes or paths, e.g. travelling salesman problem"
+          }
+        },
+        {
+          "code": "G06Q 10/06",
+          "title": {
+            "ko": null,
+            "en": "Resources, workflows, human or project management; Enterprise or organisation planning; Enterprise or organisation modelling"
+          }
+        },
+        {
+          "code": "G06Q 10/063",
+          "title": {
+            "ko": null,
+            "en": "Operations research, analysis or management"
+          }
+        },
+        {
+          "code": "G06Q 10/0631",
+          "title": {
+            "ko": null,
+            "en": "Resource planning, allocation, distributing or scheduling for enterprises or organisations"
+          }
+        },
+        {
+          "code": "G06Q 10/0633",
+          "title": {
+            "ko": null,
+            "en": "Workflow analysis"
+          }
+        },
+        {
+          "code": "G06Q 10/0635",
+          "title": {
+            "ko": null,
+            "en": "Risk analysis of enterprise or organisation activities"
+          }
+        },
+        {
+          "code": "G06Q 10/0637",
+          "title": {
+            "ko": null,
+            "en": "Strategic management or analysis, e.g. setting a goal or target of an organisation; Planning actions based on goals; Analysis or evaluation of effectiveness of goals"
+          }
+        },
+        {
+          "code": "G06Q 10/0639",
+          "title": {
+            "ko": null,
+            "en": "Performance analysis of employees; Performance analysis of enterprise or organisation operations"
+          }
+        },
+        {
+          "code": "G06Q 10/067",
+          "title": {
+            "ko": null,
+            "en": "Enterprise or organisation modelling"
+          }
+        },
+        {
+          "code": "G06Q 10/08",
+          "title": {
+            "ko": null,
+            "en": "Logistics, e.g. warehousing, loading or distribution; Inventory or stock management"
+          }
+        },
+        {
+          "code": "G06Q 10/083",
+          "title": {
+            "ko": null,
+            "en": "Shipping"
+          }
+        },
+        {
+          "code": "G06Q 10/0831",
+          "title": {
+            "ko": null,
+            "en": "Overseas transactions"
+          }
+        },
+        {
+          "code": "G06Q 10/0832",
+          "title": {
+            "ko": null,
+            "en": "Special goods or special handling procedures, e.g. handling of hazardous or fragile goods"
+          }
+        },
+        {
+          "code": "G06Q 10/0833",
+          "title": {
+            "ko": null,
+            "en": "Tracking"
+          }
+        },
+        {
+          "code": "G06Q 10/0834",
+          "title": {
+            "ko": null,
+            "en": "Choice of carriers"
+          }
+        },
+        {
+          "code": "G06Q 10/0835",
+          "title": {
+            "ko": null,
+            "en": "Relationships between shipper or supplier and carriers"
+          }
+        },
+        {
+          "code": "G06Q 10/0836",
+          "title": {
+            "ko": null,
+            "en": "Recipient pick-ups"
+          }
+        },
+        {
+          "code": "G06Q 10/0837",
+          "title": {
+            "ko": null,
+            "en": "Return transactions"
+          }
+        },
+        {
+          "code": "G06Q 10/087",
+          "title": {
+            "ko": null,
+            "en": "Inventory or stock management, e.g. order filling, procurement or balancing against orders"
+          }
+        },
+        {
+          "code": "G06Q 10/0875",
+          "title": {
+            "ko": null,
+            "en": "Itemisation or classification of parts, supplies or services, e.g. bill of materials"
+          }
+        },
+        {
+          "code": "G06Q 10/10",
+          "title": {
+            "ko": "사무 자동화; 시간 관리",
+            "en": "Office automation; Time management"
+          }
+        },
+        {
+          "code": "G06Q 10/101",
+          "title": {
+            "ko": null,
+            "en": "Collaborative creation, e.g. joint development of products or services"
+          }
+        },
+        {
+          "code": "G06Q 10/105",
+          "title": {
+            "ko": null,
+            "en": "Human resources"
+          }
+        },
+        {
+          "code": "G06Q 10/1053",
+          "title": {
+            "ko": null,
+            "en": "Employment or hiring"
+          }
+        },
+        {
+          "code": "G06Q 10/1057",
+          "title": {
+            "ko": null,
+            "en": "Benefits or employee welfare, e.g. insurance, holiday or retirement packages"
+          }
+        },
+        {
+          "code": "G06Q 10/107",
+          "title": {
+            "ko": "전자우편의 전산관리[e-mailing]",
+            "en": "Computer-aided management of electronic mailing [e-mailing]"
+          }
+        },
+        {
+          "code": "G06Q 10/109",
+          "title": {
+            "ko": null,
+            "en": "Time management, e.g. calendars, reminders, meetings or time accounting"
+          }
+        },
+        {
+          "code": "G06Q 10/1091",
+          "title": {
+            "ko": null,
+            "en": "Recording time for administrative or management purposes"
+          }
+        },
+        {
+          "code": "G06Q 10/1093",
+          "title": {
+            "ko": null,
+            "en": "Calendar-based scheduling for persons or groups"
+          }
+        },
+        {
+          "code": "G06Q 10/20",
+          "title": {
+            "ko": null,
+            "en": "Administration of product repair or maintenance"
+          }
+        },
+        {
+          "code": "G06Q 10/30",
+          "title": {
+            "ko": null,
+            "en": "Administration of product recycling or disposal"
+          }
+        },
+        {
+          "code": "G06Q 10/40",
+          "title": {
+            "ko": null,
+            "en": "Business processes related to social networking or social networking services"
+          }
+        },
+        {
+          "code": "G06Q 10/42",
+          "title": {
+            "ko": null,
+            "en": "Determination of affinities or common interests between users"
+          }
+        },
+        {
+          "code": "G06Q 10/44",
+          "title": {
+            "ko": null,
+            "en": "Identification of trends within social networks, e.g. identification of trending topics"
+          }
+        },
+        {
+          "code": "G06Q 10/46",
+          "title": {
+            "ko": null,
+            "en": "Determination of level of influence of users within social networking services"
+          }
+        },
+        {
+          "code": "G06Q 10/48",
+          "title": {
+            "ko": null,
+            "en": "using social graphs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06Q 20/00",
+      "title": {
+        "ko": "결제 아키텍처, 방식 또는 프로토콜 (결제 거래를 실행 또는 게시하기 위한 장치 G07F7/08, G07F19/00; 전자 현금 등록기 G07G1/12)",
+        "en": "Payment architectures, schemes or protocols (apparatus for performing or posting payment transactions G07F0007080000, G07F0019000000;electronic cash registers G07G0001120000)"
+      },
+      "definition": {
+        "ko": "이 그룹은 이하를 포함한다 : - 상인, 은행, 이용자 그리고 간혹 제삼자 사이에서 이루어지는 지불에 관한 처리를 포함하는 프로토콜 또는 체계; 이 처리에는 모든 당사자들의 확인 및 인증이 포함된다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G06Q 20/02",
+          "title": {
+            "ko": null,
+            "en": "involving a neutral third party, e.g. certification authority, notary or trusted third party [TTP]"
+          }
+        },
+        {
+          "code": "G06Q 20/04",
+          "title": {
+            "ko": null,
+            "en": "Payment circuits"
+          }
+        },
+        {
+          "code": "G06Q 20/06",
+          "title": {
+            "ko": null,
+            "en": "Private payment circuits, e.g. involving electronic currency used only among participants of a common payment scheme"
+          }
+        },
+        {
+          "code": "G06Q 20/08",
+          "title": {
+            "ko": null,
+            "en": "Payment architectures"
+          }
+        },
+        {
+          "code": "G06Q 20/10",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for electronic funds transfer [EFT] systems; specially adapted for home banking systems"
+          }
+        },
+        {
+          "code": "G06Q 20/12",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for electronic shopping systems"
+          }
+        },
+        {
+          "code": "G06Q 20/14",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for billing systems"
+          }
+        },
+        {
+          "code": "G06Q 20/16",
+          "title": {
+            "ko": null,
+            "en": "Payments settled via telecommunication systems"
+          }
+        },
+        {
+          "code": "G06Q 20/18",
+          "title": {
+            "ko": null,
+            "en": "involving self-service terminals [SST], vending machines, kiosks or multimedia terminals"
+          }
+        },
+        {
+          "code": "G06Q 20/20",
+          "title": {
+            "ko": null,
+            "en": "Point-of-sale [POS] network systems"
+          }
+        },
+        {
+          "code": "G06Q 20/22",
+          "title": {
+            "ko": null,
+            "en": "Payment schemes or models"
+          }
+        },
+        {
+          "code": "G06Q 20/24",
+          "title": {
+            "ko": null,
+            "en": "Credit schemes, i.e. \"pay after\""
+          }
+        },
+        {
+          "code": "G06Q 20/26",
+          "title": {
+            "ko": null,
+            "en": "Debit schemes, i.e. \"pay now\""
+          }
+        },
+        {
+          "code": "G06Q 20/28",
+          "title": {
+            "ko": null,
+            "en": "Pre-payment schemes, i.e. \"pay before\""
+          }
+        },
+        {
+          "code": "G06Q 20/30",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of specific devices"
+          }
+        },
+        {
+          "code": "G06Q 20/32",
+          "title": {
+            "ko": null,
+            "en": "using wireless devices"
+          }
+        },
+        {
+          "code": "G06Q 20/34",
+          "title": {
+            "ko": null,
+            "en": "using cards, e.g. integrated circuit [IC] cards or magnetic cards"
+          }
+        },
+        {
+          "code": "G06Q 20/36",
+          "title": {
+            "ko": null,
+            "en": "using electronic wallets or electronic money safes"
+          }
+        },
+        {
+          "code": "G06Q 20/38",
+          "title": {
+            "ko": null,
+            "en": "Payment protocols; Details thereof"
+          }
+        },
+        {
+          "code": "G06Q 20/40",
+          "title": {
+            "ko": null,
+            "en": "Authorisation, e.g. identification of payer or payee, verification of customer or shop credentials; Review and approval of payers, e.g. check of credit lines or negative lists"
+          }
+        },
+        {
+          "code": "G06Q 20/42",
+          "title": {
+            "ko": null,
+            "en": "Confirmation, e.g. check or permission by the legal debtor of payment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06Q 30/00",
+      "title": {
+        "ko": "상업",
+        "en": "Commerce"
+      },
+      "subgroups": [
+        {
+          "code": "G06Q 30/01",
+          "title": {
+            "ko": null,
+            "en": "Customer relationship services"
+          }
+        },
+        {
+          "code": "G06Q 30/012",
+          "title": {
+            "ko": null,
+            "en": "Providing warranty services"
+          }
+        },
+        {
+          "code": "G06Q 30/014",
+          "title": {
+            "ko": null,
+            "en": "Providing recall services for goods or products"
+          }
+        },
+        {
+          "code": "G06Q 30/015",
+          "title": {
+            "ko": null,
+            "en": "Providing customer assistance, e.g. assisting a customer within a business location or via helpdesk"
+          }
+        },
+        {
+          "code": "G06Q 30/016",
+          "title": {
+            "ko": null,
+            "en": "After-sales"
+          }
+        },
+        {
+          "code": "G06Q 30/018",
+          "title": {
+            "ko": null,
+            "en": "Certifying business or products"
+          }
+        },
+        {
+          "code": "G06Q 30/02",
+          "title": {
+            "ko": null,
+            "en": "Marketing; Price estimation or determination; Fundraising"
+          }
+        },
+        {
+          "code": "G06Q 30/0201",
+          "title": {
+            "ko": null,
+            "en": "Market modelling; Market analysis; Collecting market data"
+          }
+        },
+        {
+          "code": "G06Q 30/0202",
+          "title": {
+            "ko": null,
+            "en": "Market predictions or forecasting for commercial activities"
+          }
+        },
+        {
+          "code": "G06Q 30/0203",
+          "title": {
+            "ko": null,
+            "en": "Market surveys; Market polls"
+          }
+        },
+        {
+          "code": "G06Q 30/0204",
+          "title": {
+            "ko": null,
+            "en": "Market segmentation"
+          }
+        },
+        {
+          "code": "G06Q 30/0207",
+          "title": {
+            "ko": null,
+            "en": "Discounts or incentives, e.g. coupons or rebates"
+          }
+        },
+        {
+          "code": "G06Q 30/0208",
+          "title": {
+            "ko": null,
+            "en": "Trade or exchange of goods or services in exchange for incentives or rewards"
+          }
+        },
+        {
+          "code": "G06Q 30/0211",
+          "title": {
+            "ko": null,
+            "en": "Determining the effectiveness of discounts or incentives"
+          }
+        },
+        {
+          "code": "G06Q 30/0214",
+          "title": {
+            "ko": null,
+            "en": "Referral reward systems"
+          }
+        },
+        {
+          "code": "G06Q 30/0217",
+          "title": {
+            "ko": null,
+            "en": "involving input on products or services in exchange for incentives or rewards"
+          }
+        },
+        {
+          "code": "G06Q 30/0226",
+          "title": {
+            "ko": null,
+            "en": "Incentive systems for frequent usage, e.g. frequent flyer miles programs or point systems"
+          }
+        },
+        {
+          "code": "G06Q 30/0234",
+          "title": {
+            "ko": null,
+            "en": "Rebates after completed purchase"
+          }
+        },
+        {
+          "code": "G06Q 30/0235",
+          "title": {
+            "ko": null,
+            "en": "constrained by time limit or expiration date"
+          }
+        },
+        {
+          "code": "G06Q 30/0238",
+          "title": {
+            "ko": null,
+            "en": "at point-of-sale [POS]"
+          }
+        },
+        {
+          "code": "G06Q 30/0241",
+          "title": {
+            "ko": null,
+            "en": "Advertisements"
+          }
+        },
+        {
+          "code": "G06Q 30/0242",
+          "title": {
+            "ko": null,
+            "en": "Determining effectiveness of advertisements"
+          }
+        },
+        {
+          "code": "G06Q 30/0251",
+          "title": {
+            "ko": null,
+            "en": "Targeted advertisements"
+          }
+        },
+        {
+          "code": "G06Q 30/0272",
+          "title": {
+            "ko": null,
+            "en": "Period of advertisement exposure"
+          }
+        },
+        {
+          "code": "G06Q 30/0273",
+          "title": {
+            "ko": null,
+            "en": "Determination of fees for advertising"
+          }
+        },
+        {
+          "code": "G06Q 30/0279",
+          "title": {
+            "ko": null,
+            "en": "Fundraising management"
+          }
+        },
+        {
+          "code": "G06Q 30/0282",
+          "title": {
+            "ko": null,
+            "en": "Rating or review of business operators or products"
+          }
+        },
+        {
+          "code": "G06Q 30/0283",
+          "title": {
+            "ko": null,
+            "en": "Price estimation or determination"
+          }
+        },
+        {
+          "code": "G06Q 30/04",
+          "title": {
+            "ko": null,
+            "en": "Billing or invoicing"
+          }
+        },
+        {
+          "code": "G06Q 30/06",
+          "title": {
+            "ko": "구매, 판매 또는 임대 거래",
+            "en": "Buying, selling or leasing transactions"
+          }
+        },
+        {
+          "code": "G06Q 30/0601",
+          "title": {
+            "ko": "전자 쇼핑 [e-쇼핑]",
+            "en": "Electronic shopping [e-shopping]"
+          }
+        },
+        {
+          "code": "G06Q 30/0645",
+          "title": {
+            "ko": null,
+            "en": "Rental transactions; Leasing transactions"
+          }
+        },
+        {
+          "code": "G06Q 30/08",
+          "title": {
+            "ko": null,
+            "en": "Auctions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06Q 40/00",
+      "title": {
+        "ko": "금융; 보험; 세무 전략; 법인세 또는 소득세의 처리",
+        "en": "Finance; Insurance; Tax strategies; Processing of corporate or income taxes"
+      },
+      "subgroups": [
+        {
+          "code": "G06Q 40/02",
+          "title": {
+            "ko": "은행업무, 예. 이자 계산 또는 계정 유지 (신용 또는 대출 G06Q40/03)",
+            "en": "Banking, e.g. interest calculation or account maintenance (credit or loans G06Q0040030000)"
+          }
+        },
+        {
+          "code": "G06Q 40/03",
+          "title": {
+            "ko": null,
+            "en": "Credit; Loans; Processing thereof"
+          }
+        },
+        {
+          "code": "G06Q 40/04",
+          "title": {
+            "ko": null,
+            "en": "Trading;  Exchange, e.g. stocks, commodities, derivatives or currency exchange"
+          }
+        },
+        {
+          "code": "G06Q 40/06",
+          "title": {
+            "ko": null,
+            "en": "Asset management; Financial planning or analysis"
+          }
+        },
+        {
+          "code": "G06Q 40/08",
+          "title": {
+            "ko": null,
+            "en": "Insurance"
+          }
+        },
+        {
+          "code": "G06Q 40/10",
+          "title": {
+            "ko": null,
+            "en": "Tax strategies"
+          }
+        },
+        {
+          "code": "G06Q 40/12",
+          "title": {
+            "ko": null,
+            "en": "Accounting"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06Q 50/00",
+      "title": {
+        "ko": "특정 사업 섹터의 사업 프로세스 구현에 특히 적합한 정보통신기술[ICT], 예. 유틸리티 또는 관광 (의료 정보학 G16H)",
+        "en": "Information and communication technology [ICT] specially adapted for implementation of business processes of specific business sectors, e.g. utilities or tourism (healthcare informatics G16H)"
+      },
+      "subgroups": [
+        {
+          "code": "G06Q 50/02",
+          "title": {
+            "ko": null,
+            "en": "Agriculture; Fishing; Forestry; Mining"
+          }
+        },
+        {
+          "code": "G06Q 50/04",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing"
+          }
+        },
+        {
+          "code": "G06Q 50/06",
+          "title": {
+            "ko": null,
+            "en": "Energy or water supply"
+          }
+        },
+        {
+          "code": "G06Q 50/08",
+          "title": {
+            "ko": null,
+            "en": "Construction"
+          }
+        },
+        {
+          "code": "G06Q 50/10",
+          "title": {
+            "ko": "서비스 ※ 한국 세분류 50/10A0 통신망을 통한 콘텐츠 제공, 제작, 관리, 편집 50/10B0 인터넷, 웹을 통한 정보 서비스 50/10C0 게임 50/10D0 감시 제어 서비스업",
+            "en": "Services"
+          }
+        },
+        {
+          "code": "G06Q 50/12",
+          "title": {
+            "ko": null,
+            "en": "Hotels or restaurants"
+          }
+        },
+        {
+          "code": "G06Q 50/14",
+          "title": {
+            "ko": null,
+            "en": "Travel agencies"
+          }
+        },
+        {
+          "code": "G06Q 50/16",
+          "title": {
+            "ko": null,
+            "en": "Real estate"
+          }
+        },
+        {
+          "code": "G06Q 50/163",
+          "title": {
+            "ko": null,
+            "en": "Real estate management"
+          }
+        },
+        {
+          "code": "G06Q 50/18",
+          "title": {
+            "ko": null,
+            "en": "Legal services"
+          }
+        },
+        {
+          "code": "G06Q 50/20",
+          "title": {
+            "ko": null,
+            "en": "Education"
+          }
+        },
+        {
+          "code": "G06Q 50/22",
+          "title": {
+            "ko": null,
+            "en": "Social work or social welfare, e.g. community support activities or counselling services"
+          }
+        },
+        {
+          "code": "G06Q 50/26",
+          "title": {
+            "ko": "정부 또는 공공 서비스 (교통 산업과 관련된 사업 프로세스 G06Q50/40)",
+            "en": "Government or public services (business processes related to the transportation industry G06Q0050400000)"
+          }
+        },
+        {
+          "code": "G06Q 50/34",
+          "title": {
+            "ko": null,
+            "en": "Betting or bookmaking, e.g. Internet betting"
+          }
+        },
+        {
+          "code": "G06Q 50/40",
+          "title": {
+            "ko": "교통 산업 관련 사업 프로세스 (배송 G06Q10/083) ※ 한국 세분류 50/40A0 교통정보(위치 추적, 경로 제공), 대중교통(버스, 택시, 대리운전, 기차, 배, 항공, 지하철), 콜 서비스 50/40B0 차량관리/정비, 자전거 관리/거치대, 주유, 충전",
+            "en": "Business processes related to the transportation industry (shipping G06Q0010083000)"
+          }
+        },
+        {
+          "code": "G06Q 50/43",
+          "title": {
+            "ko": null,
+            "en": "Business processes related to the sharing of vehicles, e.g. car sharing"
+          }
+        },
+        {
+          "code": "G06Q 50/47",
+          "title": {
+            "ko": null,
+            "en": "Passenger ride requests, e.g. ride-hailing"
+          }
+        },
+        {
+          "code": "G06Q 50/50",
+          "title": {
+            "ko": "통신 산업과 관련된 사업 프로세스 (미터링 또는 요금 청구 장치 H04L12/14; 자동 또는 반자동 교환을 포함하는 전화 통신 H04M3/00; 미터링, 시간 제어 또는 시간 표시를 위한 장치 H04M15/00; 선불 전화 시스템 H04M17/00; 무선 통신 네트워크에 대한 회계 또는 청구 H04W4/24) ※ 한국 세분류 50/50C0 통신서비스업, 메시지, 예. 메신저 (전자우편 G06Q50/60)",
+            "en": "Business processes related to the communications industry (metering or billing arrangements H04L0012140000;telephonic communication involving automatic or semi-automatic exchanges H04M0003000000;arrangements for metering, time-control or time indication H04M0015000000;prepayment telephone systems H04M0017000000;accounting or billing for wireless communication networks H04W0004240000)"
+          }
+        },
+        {
+          "code": "G06Q 50/60",
+          "title": {
+            "ko": "우편 서비스 관련 사업 프로세스 (배송 G06Q10/083, 요금 부과 장치 G07B17/00)",
+            "en": "Business processes related to postal services (shipping G06Q0010083000;franking apparatus G07B0017000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06Q 90/00",
+      "title": {
+        "ko": null,
+        "en": "Systems or methods specially adapted for administrative, commercial, financial, managerial or supervisory purposes, not involving significant data processing"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06Q 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

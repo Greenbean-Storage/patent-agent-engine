@@ -1,0 +1,435 @@
+{
+  "subclass": "F25D",
+  "title": {
+    "ko": "냉장고; 냉각실; 아이스박스; 달리 제공되지 않는 냉각 또는 동결장치 (냉동 쇼케이스 A47F3/04; 가정용 단열용기 A47J41/00; 냉동차는 클라스 B60부터 B64의 적절한 서브클라스 참조; 단열콘테이너 일반 B65D81/38; 열전달, 열교환 또는 열저장 재료, 예. 냉매; 연소 이외의 화학 반응에 의하여 열 또는 한랭을 발생하는 물질 C09K5/00; 액화 또는 고화가스용 단열용기 F17C; 에어컨 또는 공기 가습 F24F; 냉동기계, 플랜트 및 시스템 F25B; 냉동이 없는 기기 또는 유사한 장치의 냉각 G21B)",
+    "en": "REFRIGERATORS; COLD ROOMS; ICE-BOXES; COOLING OR FREEZING APPARATUS NOT OTHERWISE PROVIDED FOR (refrigerated showcases A47F0003040000;thermally-insulated vessels for domestic use A47J0041000000;refrigerated vehicles, see the appropriate subclasses of classes B60-B64;containers with thermal insulation in general B65D0081380000;heat-transfer, heat-exchange or heat-storage materials, e.g. refrigerants, or materials for the production of heat or cold by chemical reactions other than by combustion C09K0005000000;thermally-insulated vessels for liquefied or solidified gases F17C;air-conditioning or air-humidification F24F;refrigeration machines, plants, or systems F25B;cooling of instruments or comparable apparatus without refrigeration G12B)"
+  },
+  "definition": {
+    "ko": "냉동기계와 관련되지 않는 장치 냉공기 또는 냉수를 이용하는 것; 다른 저온물질 또는 축냉재 F25D1/00; 3/00 흡열 화학반응 또는 회수하지 않는 증발을 이용하는 것 F25D5/00, F25D7/00 기타장치, 조합 F25D9/00 냉동기계와 관련한 장치; 냉동기계 내장; 가동식; 고정식; 기타 F25D11/00; 13/00; 15/00; 16/00 부력구조 및 배치, 응용일반; 일반; 제상; 피냉각물의 취급 F25D23/00; 21/00; 25/00 냉각유체 또는 기체의 순환; 조명 F25D17/00; 27/00 냉각 유닛의 배치와 장착; 제어 및 안전 장치의 배치와 장착 F25D19/00; 29/00 기타 장치 F25D31/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F25D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Devices not associated with refrigerating machinery"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Devices using naturally-cold air or water"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 1/02",
+          "title": {
+            "ko": null,
+            "en": "using naturally-cold water, e.g. household-tap water"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Devices using other cold materials; Devices using cold-storage bodies"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 3/02",
+          "title": {
+            "ko": null,
+            "en": "using ice, e.g. ice-boxes"
+          }
+        },
+        {
+          "code": "F25D 3/04",
+          "title": {
+            "ko": null,
+            "en": "Stationary cabinets"
+          }
+        },
+        {
+          "code": "F25D 3/06",
+          "title": {
+            "ko": null,
+            "en": "Movable containers"
+          }
+        },
+        {
+          "code": "F25D 3/08",
+          "title": {
+            "ko": null,
+            "en": "portable, i.e. adapted to be carried personally"
+          }
+        },
+        {
+          "code": "F25D 3/10",
+          "title": {
+            "ko": null,
+            "en": "using liquefied gases, e.g. liquid air"
+          }
+        },
+        {
+          "code": "F25D 3/11",
+          "title": {
+            "ko": null,
+            "en": "with conveyors carrying articles to be cooled through the cooling space"
+          }
+        },
+        {
+          "code": "F25D 3/12",
+          "title": {
+            "ko": null,
+            "en": "using solidified gases, e.g. carbon-dioxide snow"
+          }
+        },
+        {
+          "code": "F25D 3/14",
+          "title": {
+            "ko": null,
+            "en": "portable, i.e. adapted to be carried personally"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Devices using endothermic chemical reactions, e.g. using frigorific mixtures"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 5/02",
+          "title": {
+            "ko": null,
+            "en": "portable, i.e. adapted to be carried personally"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 7/00",
+      "title": {
+        "ko": "증기를 회수하지 않는 증발효과를 이용하는 장치 (냉각장치를 가지고 있는 버터 또는 치이즈 접시 A47G 19/26)",
+        "en": "Devices using evaporation effects without recovery of the vapour (butter or cheese dishes with cooling devices A47G0019260000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 9/00",
+      "title": {
+        "ko": "냉동기계와 관련되지 않으며 그룹 F25D 1/00에서 F25D 7/00까지에 속하지 않는 장치; 그룹 F25D 1/00에서 F25D 7/00까지의 2개 이상의 그룹에 속하는 장치의 조합",
+        "en": "Devices not associated with refrigerating machinery and not covered by groups F25D0001000000-F25D0007000000; Combinations of devices covered by two or more of the groups F25D0001000000-F25D0007000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 11/00",
+      "title": {
+        "ko": "냉동기계와 관련된 냉동기계를 내장한 가동식의 장치, 예, 가정용 냉장고",
+        "en": "Devices associated with refrigerating machinery"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 11/00",
+      "title": {
+        "ko": "냉동기계와 관련된 냉동기계를 내장한 가동식의 장치, 예, 가정용 냉장고",
+        "en": "Self-contained movable devices associated with refrigerating machinery, e.g. domestic refrigerators"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 11/02",
+          "title": {
+            "ko": null,
+            "en": "with cooling compartments at different temperatures"
+          }
+        },
+        {
+          "code": "F25D 11/04",
+          "title": {
+            "ko": "특히 냉동물의 저장용에 적합한 것",
+            "en": "specially adapted for storing deep-frozen articles (F25D0011020000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Stationary devices associated with refrigerating machinery, e.g. cold rooms"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 13/02",
+          "title": {
+            "ko": null,
+            "en": "with several cooling compartments, e.g. refrigerated locker systems"
+          }
+        },
+        {
+          "code": "F25D 13/04",
+          "title": {
+            "ko": null,
+            "en": "the compartments being at different temperatures"
+          }
+        },
+        {
+          "code": "F25D 13/06",
+          "title": {
+            "ko": null,
+            "en": "with conveyors carrying articles to be cooled through the cooling space"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 15/00",
+      "title": {
+        "ko": "냉동기계와 관련되지 않으며 그룹 F25D 11/00에서 F25D 13/00에 속하지 않는 장치, 예. 냉동기계를 내장하지 않는 가동식의 장치",
+        "en": "Devices associated with refrigerating machinery not covered by group F25D0011000000 or F25D0013000000, e.g. non-self-contained movable devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 16/00",
+      "title": {
+        "ko": null,
+        "en": "Devices using a combination of a cooling mode associated with refrigerating machinery with a cooling mode not associated with refrigerating machinery"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Details or features of the devices covered by groups F25D0001000000-F25D0016000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for circulating cooling fluids; Arrangements for circulating gas, e.g. air, within refrigerated spaces"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 17/02",
+          "title": {
+            "ko": null,
+            "en": "for circulating liquids, e.g. brine"
+          }
+        },
+        {
+          "code": "F25D 17/04",
+          "title": {
+            "ko": null,
+            "en": "for circulating gas, e.g. by natural convection"
+          }
+        },
+        {
+          "code": "F25D 17/06",
+          "title": {
+            "ko": null,
+            "en": "by forced circulation"
+          }
+        },
+        {
+          "code": "F25D 17/08",
+          "title": {
+            "ko": null,
+            "en": "using ducts"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 19/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangement or mounting of refrigeration units with respect to devices"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 19/02",
+          "title": {
+            "ko": null,
+            "en": "plug-in type"
+          }
+        },
+        {
+          "code": "F25D 19/04",
+          "title": {
+            "ko": null,
+            "en": "with more than one refrigeration unit"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 21/00",
+      "title": {
+        "ko": "제상(除霜) 착상(着霜)방지 응축수 또는 제상수 ((除霜水)의 제거(열교환기의 얼음 또는 물의 제거 일반 F28F 17/00; 투명 또는 반사하는 부분에 특히 적합한 가열장치 H05B 3/84)",
+        "en": "Defrosting; Preventing frosting; Removing condensed or defrost water (removing ice or water from heat-exchange apparatus in general F28F0017000000;heating arrangements specially adapted for transparent or reflecting areas H05B0003840000)"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 21/02",
+          "title": {
+            "ko": null,
+            "en": "Detecting the presence of frost or condensate"
+          }
+        },
+        {
+          "code": "F25D 21/04",
+          "title": {
+            "ko": null,
+            "en": "Preventing the formation of frost or condensate"
+          }
+        },
+        {
+          "code": "F25D 21/06",
+          "title": {
+            "ko": "제상(除霜)(제상(除霜)사이클 F25B 47/02)",
+            "en": "Removing frost (defrosting cycles F25B0047020000)"
+          }
+        },
+        {
+          "code": "F25D 21/08",
+          "title": {
+            "ko": null,
+            "en": "by electric heating"
+          }
+        },
+        {
+          "code": "F25D 21/10",
+          "title": {
+            "ko": null,
+            "en": "by spraying with fluid"
+          }
+        },
+        {
+          "code": "F25D 21/12",
+          "title": {
+            "ko": null,
+            "en": "by hot-fluid circulating system separate from the refrigerant system"
+          }
+        },
+        {
+          "code": "F25D 21/14",
+          "title": {
+            "ko": null,
+            "en": "Collecting or removing condensed and defrost water; Drip trays"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 23/00",
+      "title": {
+        "ko": "일반적인 구조상의 특징(F25D 21/00이 우선)",
+        "en": "General constructional features (F25D0021000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 23/02",
+          "title": {
+            "ko": "문(door) 커버(Cover)(F25D 23/08이 우선)",
+            "en": "Doors; Covers (F25D0023080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25D 23/04",
+          "title": {
+            "ko": null,
+            "en": "with special compartments, e.g. butter conditioners"
+          }
+        },
+        {
+          "code": "F25D 23/06",
+          "title": {
+            "ko": "벽(F25D 23/08이 우선; 단열효과가 있는 것 용기 B65D 81/38)",
+            "en": "Walls (F25D0023080000 takes precedence;containers with thermal insulation B65D0081380000)"
+          }
+        },
+        {
+          "code": "F25D 23/08",
+          "title": {
+            "ko": null,
+            "en": "Parts formed wholly or mainly of plastics materials"
+          }
+        },
+        {
+          "code": "F25D 23/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for mounting in particular locations, e.g. for built-in type, for corner type"
+          }
+        },
+        {
+          "code": "F25D 23/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of compartments additional to cooling compartments; Combinations of refrigerators with other equipment, e.g. stove"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 25/00",
+      "title": {
+        "ko": "충진물의 충진,지지 및 꺼내기",
+        "en": "Charging, supporting, or discharging the articles to be cooled"
+      },
+      "subgroups": [
+        {
+          "code": "F25D 25/02",
+          "title": {
+            "ko": null,
+            "en": "by shelves"
+          }
+        },
+        {
+          "code": "F25D 25/04",
+          "title": {
+            "ko": "콘베이어에 의한 것(일반 B65G)",
+            "en": "by conveyors (in general B65G)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25D 27/00",
+      "title": {
+        "ko": "조명배치(일반 F21)",
+        "en": "Lighting arrangements (in general F21)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 29/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangement or mounting of control or safety devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Other cooling or freezing apparatus"
+      },
+      "subgroups": []
+    }
+  ]
+}

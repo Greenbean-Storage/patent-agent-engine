@@ -1,0 +1,1306 @@
+{
+  "subclass": "F22B",
+  "title": {
+    "ko": "증기 발생 방법; 증기 보일러",
+    "en": "METHODS OF STEAM GENERATION; STEAM BOILERS"
+  },
+  "definition": {
+    "ko": "일반적 증기발생법 F22B1/00, F22B3/00 증기보일러 일반적 특징 드럼; 노통(FURNACE TUBE); 연관(FIRE TUBE); 연관과 수관의 결합; 화실(FIRE-BOX) F22B5/00; 7/00; 9/00; 11/00; 13/00 수관형 보조관 F22B11/00 수평위치; 수평에 가까운 경사; 수평에 가까운 경사와 수직의 결합; 수직 또는 가파른 경사 F22B15/00; 17/00; 19/00; 21/00 간격을 두고 이중으로 둘러싸인 수관군 또는 되돌리기 형의 배치; 내부에 배열된 연관을 가진 수관 F22B23/00; 25/00 특별한 특징 F22B27/00; 29/00 변경 또는 배치; 일반적인 적용의 세부 F22B31/00; 37/00 설비; 제어방식 F22B33/00; 35/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F22B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Methods of steam generation characterised by form of heating method"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 1/02",
+          "title": {
+            "ko": null,
+            "en": "by exploitation of the heat content of hot heat carriers"
+          }
+        },
+        {
+          "code": "F22B 1/04",
+          "title": {
+            "ko": null,
+            "en": "the heat carrier being hot slag, hot residues, or heated blocks, e.g. iron blocks"
+          }
+        },
+        {
+          "code": "F22B 1/06",
+          "title": {
+            "ko": null,
+            "en": "the heat carrier being molten; Use of molten metal, e.g. zinc, as heat transfer medium"
+          }
+        },
+        {
+          "code": "F22B 1/08",
+          "title": {
+            "ko": null,
+            "en": "the heat carrier being steam"
+          }
+        },
+        {
+          "code": "F22B 1/10",
+          "title": {
+            "ko": null,
+            "en": "released from heat accumulators"
+          }
+        },
+        {
+          "code": "F22B 1/12",
+          "title": {
+            "ko": null,
+            "en": "produced by an indirect cyclic process"
+          }
+        },
+        {
+          "code": "F22B 1/14",
+          "title": {
+            "ko": null,
+            "en": "coming in direct contact with water in bulk or in sprays"
+          }
+        },
+        {
+          "code": "F22B 1/16",
+          "title": {
+            "ko": null,
+            "en": "the heat carrier being hot liquid or hot vapour, e.g. waste liquid, waste vapour"
+          }
+        },
+        {
+          "code": "F22B 1/18",
+          "title": {
+            "ko": null,
+            "en": "the heat carrier being a hot gas, e.g. waste gas such as exhaust gas of internal-combustion engines"
+          }
+        },
+        {
+          "code": "F22B 1/20",
+          "title": {
+            "ko": null,
+            "en": "using heat evolved in a solution absorbing steam; Soda steam boilers"
+          }
+        },
+        {
+          "code": "F22B 1/22",
+          "title": {
+            "ko": null,
+            "en": "using combustion under pressure substantially exceeding atmospheric pressure"
+          }
+        },
+        {
+          "code": "F22B 1/24",
+          "title": {
+            "ko": null,
+            "en": "Pressure-fired steam boilers, e.g. using turbo air compressors actuated by hot gases from boiler furnace"
+          }
+        },
+        {
+          "code": "F22B 1/26",
+          "title": {
+            "ko": null,
+            "en": "Steam boilers of submerged-flame type, i.e. the flame being surrounded by, or impinging on, the water to be vaporised"
+          }
+        },
+        {
+          "code": "F22B 1/28",
+          "title": {
+            "ko": null,
+            "en": "in boilers heated electrically"
+          }
+        },
+        {
+          "code": "F22B 1/30",
+          "title": {
+            "ko": null,
+            "en": "Electrode boilers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Other methods of steam generation; Steam boilers not provided for in other groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 3/02",
+          "title": {
+            "ko": null,
+            "en": "involving the use of working media other than water"
+          }
+        },
+        {
+          "code": "F22B 3/04",
+          "title": {
+            "ko": null,
+            "en": "by drop in pressure of high-pressure hot water within pressure-reducing chambers, e.g. in accumulators"
+          }
+        },
+        {
+          "code": "F22B 3/06",
+          "title": {
+            "ko": null,
+            "en": "by transformation of mechanical, e.g. kinetic, energy into heat energy"
+          }
+        },
+        {
+          "code": "F22B 3/08",
+          "title": {
+            "ko": null,
+            "en": "at critical or supercritical pressure values"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Steam boilers of drum type, i.e. without internal furnace or fire tubes, the boiler body being contacted externally by flue gas"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 5/02",
+          "title": {
+            "ko": null,
+            "en": "with auxiliary water tubes outside the boiler body"
+          }
+        },
+        {
+          "code": "F22B 5/04",
+          "title": {
+            "ko": null,
+            "en": "Component parts thereof; Accessories therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 7/00",
+      "title": {
+        "ko": null,
+        "en": "Steam boilers of furnace-tube type, i.e. the combustion of fuel being performed inside one or more furnace tubes built-in in the boiler body"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 7/02",
+          "title": {
+            "ko": null,
+            "en": "without auxiliary water tubes"
+          }
+        },
+        {
+          "code": "F22B 7/04",
+          "title": {
+            "ko": null,
+            "en": "with auxiliary water tubes"
+          }
+        },
+        {
+          "code": "F22B 7/06",
+          "title": {
+            "ko": null,
+            "en": "inside the furnace tube in transverse arrangement"
+          }
+        },
+        {
+          "code": "F22B 7/08",
+          "title": {
+            "ko": null,
+            "en": "inside the furnace tube in longitudinal arrangement"
+          }
+        },
+        {
+          "code": "F22B 7/10",
+          "title": {
+            "ko": null,
+            "en": "outside the boiler body"
+          }
+        },
+        {
+          "code": "F22B 7/12",
+          "title": {
+            "ko": null,
+            "en": "with auxiliary fire tubes; Arrangement of header boxes providing for return diversion of flue gas flow"
+          }
+        },
+        {
+          "code": "F22B 7/14",
+          "title": {
+            "ko": null,
+            "en": "with both auxiliary water tubes and auxiliary fire tubes"
+          }
+        },
+        {
+          "code": "F22B 7/16",
+          "title": {
+            "ko": null,
+            "en": "Component parts thereof; Accessories therefor, e.g. stay-bolt connections"
+          }
+        },
+        {
+          "code": "F22B 7/18",
+          "title": {
+            "ko": null,
+            "en": "Walling of flues; Flue-gas header boxes"
+          }
+        },
+        {
+          "code": "F22B 7/20",
+          "title": {
+            "ko": null,
+            "en": "Furnace tubes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 9/00",
+      "title": {
+        "ko": null,
+        "en": "Steam boilers of fire-tube type, i.e. the flue gas from a combustion chamber outside the boiler body flowing through tubes built-in in the boiler body"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 9/02",
+          "title": {
+            "ko": null,
+            "en": "the boiler body being disposed upright, e.g. above the combustion chamber"
+          }
+        },
+        {
+          "code": "F22B 9/04",
+          "title": {
+            "ko": null,
+            "en": "the fire tubes being in upright arrangement"
+          }
+        },
+        {
+          "code": "F22B 9/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of header boxes providing for return diversion of flue gas flow"
+          }
+        },
+        {
+          "code": "F22B 9/08",
+          "title": {
+            "ko": null,
+            "en": "the fire tubes being in horizontal arrangement"
+          }
+        },
+        {
+          "code": "F22B 9/10",
+          "title": {
+            "ko": null,
+            "en": "the boiler body being disposed substantially horizontally, e.g. at the side of the combustion chamber"
+          }
+        },
+        {
+          "code": "F22B 9/12",
+          "title": {
+            "ko": null,
+            "en": "the fire tubes being in substantially-horizontal arrangement"
+          }
+        },
+        {
+          "code": "F22B 9/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of header boxes providing for return diversion of flue gas flow"
+          }
+        },
+        {
+          "code": "F22B 9/16",
+          "title": {
+            "ko": null,
+            "en": "the boiler body containing fire tubes disposed crosswise in inclined upward arrangement"
+          }
+        },
+        {
+          "code": "F22B 9/18",
+          "title": {
+            "ko": null,
+            "en": "Component parts thereof; Accessories therefor, e.g. stay-bolt connections"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 11/00",
+      "title": {
+        "ko": null,
+        "en": "Steam boilers of combined fire-tube type and water-tube type, i.e. steam boilers of fire-tube type having auxiliary water tubes"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 11/02",
+          "title": {
+            "ko": null,
+            "en": "the fire tubes being in upright arrangement"
+          }
+        },
+        {
+          "code": "F22B 11/04",
+          "title": {
+            "ko": null,
+            "en": "the fire tubes being in horizontal arrangement"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Steam boilers of fire-box type, i.e. boilers where both combustion chambers and subsequent flues or fire tubes are arranged within the boiler body"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 13/02",
+          "title": {
+            "ko": null,
+            "en": "mounted in fixed position with the boiler body disposed upright"
+          }
+        },
+        {
+          "code": "F22B 13/04",
+          "title": {
+            "ko": null,
+            "en": "mounted in fixed position with the boiler body disposed substantially horizontally"
+          }
+        },
+        {
+          "code": "F22B 13/06",
+          "title": {
+            "ko": null,
+            "en": "Locomobile, traction-engine, steam-roller, or locomotive boilers"
+          }
+        },
+        {
+          "code": "F22B 13/08",
+          "title": {
+            "ko": null,
+            "en": "without auxiliary water tubes inside the fire-box"
+          }
+        },
+        {
+          "code": "F22B 13/10",
+          "title": {
+            "ko": null,
+            "en": "with auxiliary water tubes inside the fire-box"
+          }
+        },
+        {
+          "code": "F22B 13/12",
+          "title": {
+            "ko": null,
+            "en": "the auxiliary water tubes lining the fire-box"
+          }
+        },
+        {
+          "code": "F22B 13/14",
+          "title": {
+            "ko": null,
+            "en": "Component parts thereof; Accessories therefor"
+          }
+        },
+        {
+          "code": "F22B 13/16",
+          "title": {
+            "ko": null,
+            "en": "Stay-bolt connections, e.g. rigid connections"
+          }
+        },
+        {
+          "code": "F22B 13/18",
+          "title": {
+            "ko": null,
+            "en": "Flexible connections, e.g. of ball-and-socket type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Water-tube boilers of horizontal type, i.e. the water-tube sets being arranged horizontally"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F22B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Water-tube boilers of horizontally-inclined type, i.e. the water-tube sets being inclined slightly with respect to the horizontal plane"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 17/02",
+          "title": {
+            "ko": null,
+            "en": "built-up from water-tube sets in abutting connection with two header boxes in common for all sets, e.g. with flat header boxes"
+          }
+        },
+        {
+          "code": "F22B 17/04",
+          "title": {
+            "ko": null,
+            "en": "the water-tube sets being inclined in opposite directions, e.g. crosswise"
+          }
+        },
+        {
+          "code": "F22B 17/06",
+          "title": {
+            "ko": null,
+            "en": "the water-tube sets being bent angularly"
+          }
+        },
+        {
+          "code": "F22B 17/08",
+          "title": {
+            "ko": null,
+            "en": "the water-tube sets being curved"
+          }
+        },
+        {
+          "code": "F22B 17/10",
+          "title": {
+            "ko": null,
+            "en": "built-up from water-tube sets in abutting connection with two sectional headers each for every set, i.e. with headers in a number of sections across the width or height of the boiler"
+          }
+        },
+        {
+          "code": "F22B 17/12",
+          "title": {
+            "ko": null,
+            "en": "the sectional headers being in vertical or substantially-vertical arrangement"
+          }
+        },
+        {
+          "code": "F22B 17/14",
+          "title": {
+            "ko": null,
+            "en": "the sectional headers being in horizontal or substantially-horizontal arrangement"
+          }
+        },
+        {
+          "code": "F22B 17/16",
+          "title": {
+            "ko": null,
+            "en": "Component parts thereof; Accessories therefor"
+          }
+        },
+        {
+          "code": "F22B 17/18",
+          "title": {
+            "ko": null,
+            "en": "Header boxes; Sectional headers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Water-tube boilers of combined horizontally-inclined type and vertical type, i.e. water-tube boilers of horizontally-inclined type having auxiliary water-tube sets in vertical or substantially-vertical arrangement"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F22B 21/00",
+      "title": {
+        "ko": null,
+        "en": "Water-tube boilers of vertical or steeply-inclined type, i.e. the water-tube sets being arranged vertically or substantially vertically"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 21/02",
+          "title": {
+            "ko": null,
+            "en": "built-up from substantially-straight water tubes"
+          }
+        },
+        {
+          "code": "F22B 21/04",
+          "title": {
+            "ko": null,
+            "en": "involving a single upper drum and a single lower drum, e.g. the drums being arranged transversely"
+          }
+        },
+        {
+          "code": "F22B 21/06",
+          "title": {
+            "ko": null,
+            "en": "the water tubes being arranged annularly in sets, e.g. in abutting connection with drums of annular shape"
+          }
+        },
+        {
+          "code": "F22B 21/08",
+          "title": {
+            "ko": null,
+            "en": "the water tubes being arranged sectionally in groups or in banks, e.g. bent over at their ends"
+          }
+        },
+        {
+          "code": "F22B 21/10",
+          "title": {
+            "ko": null,
+            "en": "the water tubes being arranged in staggered rows"
+          }
+        },
+        {
+          "code": "F22B 21/12",
+          "title": {
+            "ko": null,
+            "en": "involving two or more upper drums and two or more lower drums, e.g. with crosswise-arranged water-tube sets in abutting connection with drums"
+          }
+        },
+        {
+          "code": "F22B 21/14",
+          "title": {
+            "ko": null,
+            "en": "involving a single upper drum and two or more lower drums"
+          }
+        },
+        {
+          "code": "F22B 21/16",
+          "title": {
+            "ko": null,
+            "en": "the lower drums being interconnected by further water tubes"
+          }
+        },
+        {
+          "code": "F22B 21/18",
+          "title": {
+            "ko": null,
+            "en": "involving two or more upper drums and a single lower drum"
+          }
+        },
+        {
+          "code": "F22B 21/20",
+          "title": {
+            "ko": null,
+            "en": "involving sectional or subdivided headers in separate arrangement for each water-tube set"
+          }
+        },
+        {
+          "code": "F22B 21/22",
+          "title": {
+            "ko": null,
+            "en": "built-up from water tubes of form other than straight or substantially straight"
+          }
+        },
+        {
+          "code": "F22B 21/24",
+          "title": {
+            "ko": null,
+            "en": "bent in serpentine or sinuous form"
+          }
+        },
+        {
+          "code": "F22B 21/26",
+          "title": {
+            "ko": null,
+            "en": "bent helically, i.e. coiled"
+          }
+        },
+        {
+          "code": "F22B 21/28",
+          "title": {
+            "ko": null,
+            "en": "bent spirally"
+          }
+        },
+        {
+          "code": "F22B 21/30",
+          "title": {
+            "ko": null,
+            "en": "bent in U-loop form"
+          }
+        },
+        {
+          "code": "F22B 21/32",
+          "title": {
+            "ko": null,
+            "en": "disposed horizontally in abutting connection with upright headers or rising water mains"
+          }
+        },
+        {
+          "code": "F22B 21/34",
+          "title": {
+            "ko": null,
+            "en": "built-up from water tubes grouped in panel form surrounding the combustion chamber, i.e. radiation boilers"
+          }
+        },
+        {
+          "code": "F22B 21/36",
+          "title": {
+            "ko": null,
+            "en": "involving an upper drum or headers mounted at the top of the combustion chamber"
+          }
+        },
+        {
+          "code": "F22B 21/38",
+          "title": {
+            "ko": null,
+            "en": "Component parts thereof, e.g. prefabricated panels"
+          }
+        },
+        {
+          "code": "F22B 21/40",
+          "title": {
+            "ko": null,
+            "en": "built-up from water tubes arranged in a comparatively long vertical shaft, i.e. tower boilers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Water-tube boilers built-up from sets of spaced double-walled water tubes of return type in unilateral abutting connection with a boiler drum or with a header box, i.e. built-up from Field water tubes comprising an inner tube arranged within an outer unilaterally-closed tube"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 23/02",
+          "title": {
+            "ko": null,
+            "en": "the water-tube, i.e. Field-tube, sets being horizontal or substantially horizontal"
+          }
+        },
+        {
+          "code": "F22B 23/04",
+          "title": {
+            "ko": null,
+            "en": "the water-tube, i.e. Field-tube, sets being vertical or substantially vertical"
+          }
+        },
+        {
+          "code": "F22B 23/06",
+          "title": {
+            "ko": null,
+            "en": "Component parts thereof, e.g. Field water tubes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 25/00",
+      "title": {
+        "ko": null,
+        "en": "Water-tube boilers built-up from sets of water tubes with internally-arranged flue tubes, or fire tubes, extending through the water tubes"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F22B 27/00",
+      "title": {
+        "ko": "순간 또는 플래시(flash)식 증기보일러",
+        "en": "Instantaneous or flash steam boilers"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 27/02",
+          "title": {
+            "ko": null,
+            "en": "built-up from fire tubes"
+          }
+        },
+        {
+          "code": "F22B 27/04",
+          "title": {
+            "ko": "수관으로 된 것(F22B 27/12 ～ F22B 27/16이 우선)",
+            "en": "built-up from water tubes (F22B0027120000-F22B0027160000 take precedence)"
+          }
+        },
+        {
+          "code": "F22B 27/06",
+          "title": {
+            "ko": null,
+            "en": "bent in serpentine or sinuous form"
+          }
+        },
+        {
+          "code": "F22B 27/08",
+          "title": {
+            "ko": null,
+            "en": "bent helically, i.e. coiled"
+          }
+        },
+        {
+          "code": "F22B 27/10",
+          "title": {
+            "ko": null,
+            "en": "bent spirally"
+          }
+        },
+        {
+          "code": "F22B 27/12",
+          "title": {
+            "ko": null,
+            "en": "built-up from rotary heat-exchange elements, e.g. from tube assemblies"
+          }
+        },
+        {
+          "code": "F22B 27/14",
+          "title": {
+            "ko": null,
+            "en": "built-up from heat-exchange elements arranged within a confined chamber having heat-retaining walls"
+          }
+        },
+        {
+          "code": "F22B 27/16",
+          "title": {
+            "ko": null,
+            "en": "involving spray nozzles for sprinkling or injecting water particles on to or into hot heat-exchange elements, e.g. into tubes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 29/00",
+      "title": {
+        "ko": "강제유동형의 증기보일러",
+        "en": "Steam boilers of forced-flow type"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 29/02",
+          "title": {
+            "ko": null,
+            "en": "of forced-circulation type"
+          }
+        },
+        {
+          "code": "F22B 29/04",
+          "title": {
+            "ko": null,
+            "en": "of combined-circulation type, i.e. in which convection circulation due to the difference in specific gravity between cold and hot water is promoted by additional measures, e.g. by injecting pressure-water temporarily"
+          }
+        },
+        {
+          "code": "F22B 29/06",
+          "title": {
+            "ko": "일회통과 형, 즉. 한쪽 끝에서 물을 받아 다른 쪽 끝으로 과열 증기를 내보내는 튜브들로 구성된 것 (강제 순환 방식의 저압 및 고압 보일러의 조합 F22B33/16)",
+            "en": "of once-through type, i.e. built-up from tubes receiving water at one end and delivering superheated steam at the other end of the tubes  (combined low- and high-pressure boilers of forced-flow type F22B0033160000)"
+          }
+        },
+        {
+          "code": "F22B 29/08",
+          "title": {
+            "ko": null,
+            "en": "operating with fixed point of final state of complete evaporation"
+          }
+        },
+        {
+          "code": "F22B 29/10",
+          "title": {
+            "ko": null,
+            "en": "operating with sliding point of final state of complete evaporation"
+          }
+        },
+        {
+          "code": "F22B 29/12",
+          "title": {
+            "ko": null,
+            "en": "operating with superimposed recirculation during starting and low-load periods, e.g. composite boilers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 31/00",
+      "title": {
+        "ko": null,
+        "en": "Modifications of boiler construction, or of tube systems, dependent on installation of combustion apparatus; Arrangements or dispositions of combustion apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 31/02",
+          "title": {
+            "ko": null,
+            "en": "Installation of water-tube boilers in chimneys, e.g. in converter chimneys"
+          }
+        },
+        {
+          "code": "F22B 31/04",
+          "title": {
+            "ko": null,
+            "en": "Heat supply by installation of two or more combustion apparatus, e.g. of separate combustion apparatus for the boiler and the superheater respectively"
+          }
+        },
+        {
+          "code": "F22B 31/06",
+          "title": {
+            "ko": null,
+            "en": "Installation of emergency heat supply"
+          }
+        },
+        {
+          "code": "F22B 31/08",
+          "title": {
+            "ko": null,
+            "en": "Installation of heat-exchange apparatus or of means in boilers for heating air supplied for combustion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 33/00",
+      "title": {
+        "ko": null,
+        "en": "Steam-generation plants; Control systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F22B 33/00",
+      "title": {
+        "ko": null,
+        "en": "Steam-generation plants, e.g. comprising steam boilers of different types in mutual association"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 33/02",
+          "title": {
+            "ko": null,
+            "en": "Combinations of boilers having a single combustion apparatus in common"
+          }
+        },
+        {
+          "code": "F22B 33/04",
+          "title": {
+            "ko": null,
+            "en": "of boilers of furnace-tube type with boilers of water-tube type"
+          }
+        },
+        {
+          "code": "F22B 33/06",
+          "title": {
+            "ko": null,
+            "en": "of boilers of furnace-tube type with boilers of fire-tube type"
+          }
+        },
+        {
+          "code": "F22B 33/08",
+          "title": {
+            "ko": null,
+            "en": "of boilers of water-tube type with boilers of fire-tube type"
+          }
+        },
+        {
+          "code": "F22B 33/10",
+          "title": {
+            "ko": null,
+            "en": "of two or more superposed boilers with separate water volumes and operating with two or more separate water levels"
+          }
+        },
+        {
+          "code": "F22B 33/12",
+          "title": {
+            "ko": null,
+            "en": "Self-contained steam boilers, i.e. comprising as a unit the steam boiler, the combustion apparatus, the fuel storage, accessory machines, and equipment"
+          }
+        },
+        {
+          "code": "F22B 33/14",
+          "title": {
+            "ko": null,
+            "en": "Combinations of low- and high-pressure boilers"
+          }
+        },
+        {
+          "code": "F22B 33/16",
+          "title": {
+            "ko": null,
+            "en": "of forced-flow type"
+          }
+        },
+        {
+          "code": "F22B 33/18",
+          "title": {
+            "ko": null,
+            "en": "Combinations of steam boilers with other apparatus"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 35/00",
+      "title": {
+        "ko": "증기 보일러의 제어 시스템 (급수 공급 조절용 F22D5/00; 과열온도 제어용 F22G5/00)",
+        "en": "Control systems for steam boilers  (for regulating feed-water supply F22D0005000000; for controlling superheat temperature F22G0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 35/02",
+          "title": {
+            "ko": null,
+            "en": "for steam boilers with natural convection circulation"
+          }
+        },
+        {
+          "code": "F22B 35/04",
+          "title": {
+            "ko": null,
+            "en": "during starting-up periods, i.e. during the periods between the lighting of the furnaces and the attainment of the normal operating temperature of the steam boilers"
+          }
+        },
+        {
+          "code": "F22B 35/06",
+          "title": {
+            "ko": null,
+            "en": "for steam boilers of forced-flow type"
+          }
+        },
+        {
+          "code": "F22B 35/08",
+          "title": {
+            "ko": null,
+            "en": "of forced-circulation type"
+          }
+        },
+        {
+          "code": "F22B 35/10",
+          "title": {
+            "ko": null,
+            "en": "of once-through type"
+          }
+        },
+        {
+          "code": "F22B 35/12",
+          "title": {
+            "ko": null,
+            "en": "operating at critical or supercritical pressure"
+          }
+        },
+        {
+          "code": "F22B 35/14",
+          "title": {
+            "ko": null,
+            "en": "during the starting-up periods, i.e. during the periods between the lighting of the furnaces and the attainment of the normal operating temperature of the steam boilers"
+          }
+        },
+        {
+          "code": "F22B 35/16",
+          "title": {
+            "ko": null,
+            "en": "responsive to the percentage of steam in the mixture of steam and water"
+          }
+        },
+        {
+          "code": "F22B 35/18",
+          "title": {
+            "ko": null,
+            "en": "Applications of computers to steam-boiler control"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F22B 37/00",
+      "title": {
+        "ko": "증기 보일러의 구성 부품 또는 세부",
+        "en": "Component parts or details of steam boilers"
+      },
+      "subgroups": [
+        {
+          "code": "F22B 37/02",
+          "title": {
+            "ko": "하나 이상의 종류 또는 유형의 증기 보일러에 적용되는 것",
+            "en": "applicable to more than one kind or type of steam boiler"
+          }
+        },
+        {
+          "code": "F22B 37/04",
+          "title": {
+            "ko": null,
+            "en": "and characterised by material, e.g. use of special steel alloy"
+          }
+        },
+        {
+          "code": "F22B 37/06",
+          "title": {
+            "ko": null,
+            "en": "Flue or fire tubes; Accessories therefor, e.g. fire-tube inserts"
+          }
+        },
+        {
+          "code": "F22B 37/08",
+          "title": {
+            "ko": null,
+            "en": "Fittings preventing burning-off of the tube edges"
+          }
+        },
+        {
+          "code": "F22B 37/10",
+          "title": {
+            "ko": null,
+            "en": "Water tubes; Accessories therefor"
+          }
+        },
+        {
+          "code": "F22B 37/12",
+          "title": {
+            "ko": null,
+            "en": "Forms of water tubes, e.g. of varying cross-section"
+          }
+        },
+        {
+          "code": "F22B 37/14",
+          "title": {
+            "ko": null,
+            "en": "Supply mains, e.g. rising mains, down-comers, in connection with water tubes"
+          }
+        },
+        {
+          "code": "F22B 37/16",
+          "title": {
+            "ko": null,
+            "en": "Return bends"
+          }
+        },
+        {
+          "code": "F22B 37/18",
+          "title": {
+            "ko": null,
+            "en": "Inserts, e.g. for receiving deposits from water"
+          }
+        },
+        {
+          "code": "F22B 37/20",
+          "title": {
+            "ko": null,
+            "en": "Supporting arrangements, e.g. for securing water-tube sets"
+          }
+        },
+        {
+          "code": "F22B 37/22",
+          "title": {
+            "ko": null,
+            "en": "Drums; Headers; Accessories therefor"
+          }
+        },
+        {
+          "code": "F22B 37/24",
+          "title": {
+            "ko": null,
+            "en": "Supporting, suspending or setting arrangements, e.g. heat shielding"
+          }
+        },
+        {
+          "code": "F22B 37/26",
+          "title": {
+            "ko": null,
+            "en": "Steam-separating arrangements"
+          }
+        },
+        {
+          "code": "F22B 37/28",
+          "title": {
+            "ko": null,
+            "en": "involving reversal of direction of flow"
+          }
+        },
+        {
+          "code": "F22B 37/30",
+          "title": {
+            "ko": null,
+            "en": "using impingement against baffle separators"
+          }
+        },
+        {
+          "code": "F22B 37/32",
+          "title": {
+            "ko": null,
+            "en": "using centrifugal force"
+          }
+        },
+        {
+          "code": "F22B 37/34",
+          "title": {
+            "ko": "물의 순환을 증진하기 위한 보일러의 개조(물의 순환을 증진하기 위한 보조 장치 F22D 7/00)",
+            "en": "Adaptations of boilers for promoting water circulation (auxiliary devices for promoting water circulation F22D0007000000)"
+          }
+        },
+        {
+          "code": "F22B 37/36",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for sheathing or casing boilers"
+          }
+        },
+        {
+          "code": "F22B 37/38",
+          "title": {
+            "ko": null,
+            "en": "Determining or indicating operating conditions in steam boilers, e.g. monitoring direction or rate of water flow through water tubes"
+          }
+        },
+        {
+          "code": "F22B 37/40",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of partition walls in flues of steam boilers, e.g. built-up from baffles"
+          }
+        },
+        {
+          "code": "F22B 37/42",
+          "title": {
+            "ko": "경보 또는 자동 안전 장치의 적용, 배치 또는 배열 (급수 가열기용 F22D1/14)",
+            "en": "Applications, arrangements or dispositions of alarm or automatic safety devices  (for feed-water heaters F22D0001140000)"
+          }
+        },
+        {
+          "code": "F22B 37/44",
+          "title": {
+            "ko": null,
+            "en": "of safety valves"
+          }
+        },
+        {
+          "code": "F22B 37/46",
+          "title": {
+            "ko": null,
+            "en": "responsive to low or high water level, e.g. for checking, suppressing or extinguishing combustion in boilers"
+          }
+        },
+        {
+          "code": "F22B 37/47",
+          "title": {
+            "ko": null,
+            "en": "responsive to abnormal temperature, e.g. actuated by fusible plugs"
+          }
+        },
+        {
+          "code": "F22B 37/48",
+          "title": {
+            "ko": "보일러에서 물, 광물 또는 슬러지를 제거하기 위한 장치 또는 배열 (수관, 연관 또는 이와 유사한 보일러의 세척 F28G)",
+            "en": "Devices or arrangements for removing water, minerals or sludge from boilers  (cleaning water tubes, furnace tubes or the like of boilers F28G)"
+          },
+          "definition": {
+            "ko": "그룹 37/48은 보일러의 작동 중에 사용되는 시스템 또는 보일러의 작동 중에 소정위치에 남아있는 시스템, 또는 다른 어떤 유틸리티를 가지지 않는 보일러에 특히 적용되는 시스템도 포함한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "F22B 37/50",
+          "title": {
+            "ko": null,
+            "en": "for draining or expelling water"
+          }
+        },
+        {
+          "code": "F22B 37/52",
+          "title": {
+            "ko": null,
+            "en": "Washing-out devices"
+          }
+        },
+        {
+          "code": "F22B 37/54",
+          "title": {
+            "ko": null,
+            "en": "De-sludging or blow-down devices"
+          }
+        },
+        {
+          "code": "F22B 37/56",
+          "title": {
+            "ko": null,
+            "en": "Boiler-cleaning control devices, e.g. for ascertaining proper duration of boiler blow-down"
+          }
+        },
+        {
+          "code": "F22B 37/58",
+          "title": {
+            "ko": null,
+            "en": "Removing tubes from headers or drums; Extracting tools"
+          }
+        },
+        {
+          "code": "F22B 37/60",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for steam boilers of instantaneous or flash type"
+          }
+        },
+        {
+          "code": "F22B 37/62",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for steam boilers of forced-flow type"
+          }
+        },
+        {
+          "code": "F22B 37/64",
+          "title": {
+            "ko": null,
+            "en": "Mounting of, or supporting arrangements for, tube units"
+          }
+        },
+        {
+          "code": "F22B 37/66",
+          "title": {
+            "ko": null,
+            "en": "involving vertically-disposed water tubes"
+          }
+        },
+        {
+          "code": "F22B 37/68",
+          "title": {
+            "ko": null,
+            "en": "involving horizontally-disposed water tubes"
+          }
+        },
+        {
+          "code": "F22B 37/70",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for distributing water into water tubes"
+          }
+        },
+        {
+          "code": "F22B 37/72",
+          "title": {
+            "ko": null,
+            "en": "involving injection devices"
+          }
+        },
+        {
+          "code": "F22B 37/74",
+          "title": {
+            "ko": null,
+            "en": "Throttling arrangements for tubes or sets of tubes"
+          }
+        },
+        {
+          "code": "F22B 37/76",
+          "title": {
+            "ko": null,
+            "en": "Adaptations or mounting of devices for observing existence or direction of fluid flow"
+          }
+        },
+        {
+          "code": "F22B 37/78",
+          "title": {
+            "ko": null,
+            "en": "Adaptations or mounting of level indicators"
+          }
+        }
+      ]
+    }
+  ]
+}

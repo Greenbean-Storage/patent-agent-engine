@@ -1,0 +1,62 @@
+{
+  "title": "RuntimeManifest",
+  "description": "runtime/ namespace 의 인덱스. sessions/{user_id}/{work_id}/runtime/manifest.runtime.yaml. chain 들의 list. (rename ← chains/manifest.chains.yaml; chain index 의 내용은 그대로)",
+  "type": "object",
+  "required": [
+    "chains"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "session": {
+      "type": "object",
+      "description": "session metadata (user_id, work_id 등)",
+      "additionalProperties": true
+    },
+    "chains": {
+      "type": "array",
+      "description": "이 work 에 생성된 chain 인덱스. 각 chain 의 상세는 runtime/{chain_id}/manifest.json 참고.",
+      "items": {
+        "type": "object",
+        "required": [
+          "chain_id",
+          "pipeline_id",
+          "persona",
+          "status"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "chain_id": {
+            "type": "string"
+          },
+          "pipeline_id": {
+            "type": "string"
+          },
+          "persona": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "status": {
+            "type": "string"
+          },
+          "started_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "completed_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

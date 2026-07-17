@@ -1,0 +1,29 @@
+{
+  "description": "거절사유 위험 분석 (Layer 3 RAG synthesis). 입력 청구항·명세서와 사전 retrieval된 거절 사례를 LLM이 종합해 거절 위험·회피 권고 합성. finder MCP analyze_rejection_risk가 호출.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R99.CENTRAL_AGENT"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "입력 청구항·명세서와 KIPRIS 거절결정문 사례를 패턴 매칭하여 전반적 거절 위험 등급·top_risks·avoidance_recommendations 합성. cases 가 비어 있으면 일반론적 분석.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R20/analyze_risk.md"
+      },
+      "llm_tools": [],
+      "output_contract": "synthesize-risk-output"
+    }
+  ]
+}

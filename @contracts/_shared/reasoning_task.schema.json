@@ -1,0 +1,199 @@
+{
+  "title": "ReasoningTask",
+  "description": "DRC의 단위 사고. chain 안의 Actor 1회 호출 = 1 작업단위(LLM 호출 또는 tool 호출 — 모든 step 이 RT). sessions/{user_id}/{work_id}/chains/{chain_id}/rts/{rt_id}.json 에 저장. writer = DRO(생성) + 해당 persona Actor(output).",
+  "type": "object",
+  "required": [
+    "rt_id",
+    "chain_id",
+    "persona",
+    "step_id",
+    "step_type",
+    "input",
+    "state",
+    "retry_count",
+    "max_retries",
+    "created_at"
+  ],
+  "properties": {
+    "rt_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "chain_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "parent_rt_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "분기 trail 추적용. sub_pipeline expansion 또는 parallel_task children 의 부모"
+    },
+    "persona": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "1=Buddy, 2=Director, 3=Finder, 4=Thinker, 5=Crafter, 6=Inspector"
+    },
+    "step_id": {
+      "type": "string",
+      "description": "pipeline JSON 의 step id (예: validate_and_plan)"
+    },
+    "step_type": {
+      "type": "string",
+      "enum": [
+        "llm_task",
+        "tool_task"
+      ],
+      "description": "모든 step 이 RT — llm_task(Actor /dispatch SSE) · tool_task(Actor /tool sync, LLM 없음). SDK 내부 tool-use 루프(구 agentic_llm_loop)는 llm_task 안에서 진행 — 별도 step_type 아님(orchestrator 가 tool_task/llm_task 만 set)."
+    },
+    "pipeline_id": {
+      "type": "string",
+      "description": "step 가 속한 pipeline id"
+    },
+    "input": {
+      "type": "object",
+      "required": [
+        "prompt"
+      ],
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "LLM 에 전달할 최종 prompt. $.steps.X.field placeholder 를 포함할 수 있음 (Actor 호출 직전 substitute). tool_task 는 빈 문자열(vestigial — composer 미경유)."
+        },
+        "tool": {
+          "type": "string",
+          "description": "tool_task 전용 — 호출할 tool 이름 (예: maturity.compute). llm_task 엔 없음."
+        },
+        "params_spec": {
+          "type": "object",
+          "description": "tool_task 전용 — 미치환 params (placeholder 포함). dispatch 직전 context 로 substitute. 재시작 재실행의 원천."
+        },
+        "system_prompt": {
+          "type": "string"
+        },
+        "context": {
+          "type": "object",
+          "description": "step 실행 시점의 context. depends_on 결과 포함"
+        },
+        "available_tools": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Actor 가 SDK 에 등록할 tool 이름 목록 (예: kipris.search, drawing.plantuml)"
+        },
+        "media_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "multimodal 입력 참조 (예: chains/{chain_id}/inputs/media-0.jpg)"
+        }
+      }
+    },
+    "output": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Actor 가 LLM 호출 후 PATCH. 처음에는 null"
+    },
+    "sse_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "ts"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "started",
+              "progress",
+              "result",
+              "error"
+            ]
+          },
+          "ts": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "data": {
+            "type": "object"
+          }
+        }
+      },
+      "description": "Actor SSE 응답 이벤트 누적 기록 (관측·debug)"
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "in_flight",
+        "done",
+        "failed",
+        "dead"
+      ],
+      "description": "pending=큐 적재, in_flight=Actor dispatch 중, done=완료, failed=실패(재시도 가능), dead=재시도 한도 초과"
+    },
+    "retry_count": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    },
+    "max_retries": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 3
+    },
+    "error": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        },
+        "actor": {
+          "type": "string",
+          "description": "실패한 Actor container id"
+        }
+      }
+    },
+    "actor": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "현재 (또는 마지막) dispatch 받은 Actor container id"
+    },
+    "parallelizable": {
+      "type": "boolean",
+      "default": false,
+      "description": "같은 chain 안에서 동시 RT 허용 여부 (parallel_task children 은 true)"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  }
+}

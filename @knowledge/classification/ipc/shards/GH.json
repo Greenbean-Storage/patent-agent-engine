@@ -1,0 +1,1237 @@
+{
+  "version": "2026.01",
+  "shard": "GH",
+  "sections": [
+    {
+      "code": "G",
+      "title": {
+        "ko": "물리학",
+        "en": "PHYSICS"
+      },
+      "classes": [
+        {
+          "code": "G01",
+          "title": {
+            "ko": "측정; 시험",
+            "en": "MEASURING; TESTING"
+          },
+          "subclasses": [
+            {
+              "code": "G01B",
+              "title": {
+                "ko": "길이, 두께 또는 유사한 직선치의 측정; 각도의 측정; 면적의 측정; 표면 또는 윤곽의 불규칙성 측정",
+                "en": "MEASURING LENGTH, THICKNESS OR SIMILAR LINEAR DIMENSIONS; MEASURING ANGLES; MEASURING AREAS; MEASURING IRREGULARITIES OF SURFACES OR CONTOURS"
+              }
+            },
+            {
+              "code": "G01C",
+              "title": {
+                "ko": "거리, 고저 또는 방위 측정; 측량; 항법; 자이로스코프 기구; 사진측량 또는 영상측량 (액위의 측정 G01F; 무선 내비게이션, 전파효과(propagation effects)를 이용하는 거리 또는 속도 결정, 예. 도플러 효과, 전파 시간, 무선파의 것, 다른 파를 이용하는 유사한 설비 G01S)",
+                "en": "MEASURING DISTANCES, LEVELS OR BEARINGS; SURVEYING; NAVIGATION; GYROSCOPIC INSTRUMENTS; PHOTOGRAMMETRY OR VIDEOGRAMMETRY (measuring liquid level G01F; radio navigation, determining distance or velocity by use of propagation effects, e.g. Doppler effect, propagation time, of radio waves, analogous arrangements using other waves G01S)"
+              }
+            },
+            {
+              "code": "G01D",
+              "title": {
+                "ko": "특정변량을 위해서 특별히 적용되지 않는 측정; 단일의 다른 서브클래스에 속하지 않는 둘 이상의 변량을 측정하는 장치; 요금계량장치; 특정변량을 위해서 특별히 적용되지 않는 설비의 이동 또는 도입; 달리 분류되지 않는 측정 또는 시험",
+                "en": "MEASURING NOT SPECIALLY ADAPTED FOR A SPECIFIC VARIABLE; ARRANGEMENTS FOR MEASURING TWO OR MORE VARIABLES NOT COVERED BY A SINGLE OTHER SUBCLASS; TARIFF METERING APPARATUS; TRANSFERRING OR TRANSDUCING ARRANGEMENTS NOT SPECIALLY ADAPTED FOR A SPECIFIC VARIABLE; MEASURING OR TESTING NOT OTHERWISE PROVIDED FOR"
+              }
+            },
+            {
+              "code": "G01F",
+              "title": {
+                "ko": "체적. 체적유량, 질량유량 또는 액위측정; 체적에 의한 계량",
+                "en": "MEASURING VOLUME, VOLUME FLOW, MASS FLOW, OR LIQUID LEVEL; METERING BY VOLUME"
+              }
+            },
+            {
+              "code": "G01G",
+              "title": {
+                "ko": "중량 측정",
+                "en": "WEIGHING"
+              }
+            },
+            {
+              "code": "G01H",
+              "title": {
+                "ko": "기계적 진동 또는 초음파, 음파 또는 초저주파의 측정",
+                "en": "MEASUREMENT OF MECHANICAL VIBRATIONS OR ULTRASONIC, SONIC OR INFRASONIC WAVES"
+              }
+            },
+            {
+              "code": "G01J",
+              "title": {
+                "ko": "적외선, 가시광선 또는 자외선의 강도, 속도, 스펙트럼, 편광 또는 위상 또는 펄스의 측정; 색의 측정; 방사온도측정",
+                "en": "MEASUREMENT OF INTENSITY, VELOCITY, SPECTRAL CONTENT, POLARISATION, PHASE OR PULSE CHARACTERISTICS OF INFRARED, VISIBLE OR ULTRAVIOLET LIGHT; COLORIMETRY; RADIATION PYROMETRY"
+              }
+            },
+            {
+              "code": "G01K",
+              "title": {
+                "ko": "온도의 측정; 열량의 측정; 달리 속하지 않는 감온소자(방사선 고온측정법 G01J 5/00)",
+                "en": "MEASURING TEMPERATURE; MEASURING QUANTITY OF HEAT; THERMALLY-SENSITIVE ELEMENTS NOT OTHERWISE PROVIDED FOR (radiation pyrometry G01J0005000000)"
+              }
+            },
+            {
+              "code": "G01L",
+              "title": {
+                "ko": "힘, 토오크, 일, 기계적 동력, 기계적 효율 또는 유체압력의 측정 (무게측정 G01G)",
+                "en": "MEASURING FORCE, STRESS, TORQUE, WORK, MECHANICAL POWER, MECHANICAL EFFICIENCY, OR FLUID PRESSURE (weighing G01G)"
+              }
+            },
+            {
+              "code": "G01M",
+              "title": {
+                "ko": "기계 또는 구조물의 정적 또는 동적 평형시험; 달리 분류되지 않는 구조물 또는 장치의 시험",
+                "en": "TESTING STATIC OR DYNAMIC BALANCE OF MACHINES OR STRUCTURES; TESTING OF STRUCTURES OR APPARATUS, NOT OTHERWISE PROVIDED FOR"
+              }
+            },
+            {
+              "code": "G01N",
+              "title": {
+                "ko": "화학적 또는 물리적 특성 결정에 의한 재료의 조사 또는 분석 (효소 또는 미생물을 포함하는 면역분석 이외의 측정, 시험 장치 또는 공정 C12M, C12Q)",
+                "en": "INVESTIGATING OR ANALYSING MATERIALS BY DETERMINING THEIR CHEMICAL OR PHYSICAL PROPERTIES (measuring or testing apparatus or processes other than immunoassay, involving enzymes or microorganisms C12M, C12Q)"
+              }
+            },
+            {
+              "code": "G01P",
+              "title": {
+                "ko": "선형 또는 각속도, 가속, 감속 또는 충격의 측정; 운동의 존재 또는 부재 표시; 운동의 방향 표시(회전 운동 효과(gyroscopic)를 이용한 각속도 측정 G01C 19/00; 둘 이상의 운동변량을 측정하기 위한 결합된 측정 장치 G01C23/00; 음속의 측정 G01H5/00; 광속의 측정 G01J7/00; 전파 또는 기타 파동의 반사 또는 재방사 및 전파 효과, 예. 도플러효과(Doppler), 전파시간 또는 전파방향에 기초하여 고체 물체의 방향 또는 속도 결정, G01S; 핵방사선 속도 측정 G01T)",
+                "en": "MEASURING LINEAR OR ANGULAR SPEED, ACCELERATION, DECELERATION OR SHOCK; INDICATING PRESENCE OR ABSENCE OF MOVEMENT;  INDICATING DIRECTION OF MOVEMENT  (measuring angular rate using gyroscopic effects G01C0019000000;combined measuring devices for measuring two or more variables of movement G01C0023000000;measuring velocity of sound G01H0005000000;measuring velocity of light G01J0007000000;determining direction or velocity of solid objects by reflection or reradiation of radio or other waves and based on propagation effects, e.g. Doppler effect, propagation time or direction of propagation, G01S;measuring speed of nuclear radiation G01T)"
+              }
+            },
+            {
+              "code": "G01Q",
+              "title": {
+                "ko": "스캐닝 프로브 기술 혹은 장치; 스캐닝 프로브 기술의 적용 예. 스캔 프로브 현미경[SPM]",
+                "en": "SCANNING-PROBE TECHNIQUES OR APPARATUS; APPLICATIONS OF SCANNING-PROBE TECHNIQUES, e.g. SCANNING-PROBE MICROSCOPY [SPM]"
+              }
+            },
+            {
+              "code": "G01R",
+              "title": {
+                "ko": "전기변량의 측정; 자기변량의 측정(공진회로의 바른 동조의 지시 H03J 3/12)",
+                "en": "MEASURING ELECTRIC VARIABLES; MEASURING MAGNETIC VARIABLES (indicating correct tuning of resonant circuits H03J0003120000)"
+              }
+            },
+            {
+              "code": "G01S",
+              "title": {
+                "ko": "무선에 의한 방위결정; 무선항행; 무선전파의 사용에 의한 거리 또는 속도의 결정; 무선전파의 반사 또는 재방사의 사용에 의한 위치 또는 유무의 탐지; 기타의 파류를 사용하는 유사한 방식",
+                "en": "RADIO DIRECTION-FINDING; RADIO NAVIGATION; DETERMINING DISTANCE OR VELOCITY BY USE OF RADIO WAVES; LOCATING OR PRESENCE-DETECTING BY USE OF THE REFLECTION OR RERADIATION OF RADIO WAVES; ANALOGOUS ARRANGEMENTS USING OTHER WAVES"
+              }
+            },
+            {
+              "code": "G01T",
+              "title": {
+                "ko": "원자핵 방사선 또는 X선의 측정(물질의 방사선 분석, 질량분석기 G01N 23/00; 방사선 또는 입자의 존재, 세기, 밀도 또는 에너지를 결정하기 위한 튜브 H01J 47/00)",
+                "en": "MEASUREMENT OF NUCLEAR OR X-RADIATION (radiation analysis of materials, mass spectrometry G01N0023000000;tubes for determining the presence, intensity, density or energy of radiation or particles  H01J0047000000)"
+              }
+            },
+            {
+              "code": "G01V",
+              "title": {
+                "ko": "지구물리; 중력측정; 질량 또는 대상물의 검출; 태그(TAGS) (돌발적으로 매몰된, 예. 눈(雪)에 매몰된, 사람의 위치를 지시하는 수단 A63B29/02)",
+                "en": "GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS (means for indicating the location of accidentally buried, e.g. snow-buried, persons A63B0029020000)"
+              }
+            },
+            {
+              "code": "G01W",
+              "title": {
+                "ko": "기상학(레이다, 라이다(lidar), 소나(sonar) 또는 아나로그 시스템, 기상용도의 것 G01S 13/95, G01S 15/88, G01S 17/95)",
+                "en": "METEOROLOGY (radar, sonar, lidar or analogous systems, designed for meteorological use G01S0013950000, G01S0015880000, G01S0017950000)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G02",
+          "title": {
+            "ko": "광학",
+            "en": "OPTICS"
+          },
+          "subclasses": [
+            {
+              "code": "G02B",
+              "title": {
+                "ko": "광학 요소, 시스템 또는 장치",
+                "en": "OPTICAL ELEMENTS, SYSTEMS OR APPARATUS"
+              }
+            },
+            {
+              "code": "G02C",
+              "title": {
+                "ko": "안경; 선글래스 또는 안경과 같은 성질을 가진 보호안경; 콘택트 렌즈",
+                "en": "SPECTACLES; SUNGLASSES OR GOGGLES INSOFAR AS THEY HAVE THE SAME FEATURES AS SPECTACLES; CONTACT LENSES"
+              }
+            },
+            {
+              "code": "G02F",
+              "title": {
+                "ko": "관련된 요소 매체의 광학적 특성을 수정하여 빛을 제어하기 위한 광학 장치 또는 배열; 비선형 광학; 광의 주파수 변화; 광학 논리 요소; 광학 아날로그/디지털 컨버터",
+                "en": "OPTICAL DEVICES OR ARRANGEMENTS FOR THE CONTROL OF LIGHT BY MODIFICATION OF THE OPTICAL PROPERTIES OF THE MEDIA OF THE ELEMENTS INVOLVED THEREIN; NON-LINEAR OPTICS; FREQUENCY-CHANGING OF LIGHT; OPTICAL LOGIC ELEMENTS; OPTICAL ANALOGUE/DIGITAL CONVERTERS"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G03",
+          "title": {
+            "ko": "전자사진; 광파 이외의 파를 사용하는 유사기술; 영화; 사진; 홀로그래피(Holography)",
+            "en": "PHOTOGRAPHY; CINEMATOGRAPHY; ANALOGOUS TECHNIQUES USING WAVES OTHER THAN OPTICAL WAVES; ELECTROGRAPHY; HOLOGRAPHY"
+          },
+          "subclasses": [
+            {
+              "code": "G03B",
+              "title": {
+                "ko": "사진을 촬영하기 위하여 또는 사진을 투영하여 직시하기 위한 장치 또는 배치; 광파 이외의 파를 사용하는 유사기술을 사용하는 장치 또는 배치; 그것을 위한 부속물(그런 장치의 광학적 부분 G02B; 광사진용 광감지 재료 또는 과정 G03C; 광사진 물질을 노출하기 위한 과정을 위한 장치 G03D)",
+                "en": "APPARATUS OR ARRANGEMENTS FOR TAKING PHOTOGRAPHS OR FOR PROJECTING OR VIEWING THEM; APPARATUS OR ARRANGEMENTS EMPLOYING ANALOGOUS TECHNIQUES USING WAVES OTHER THAN OPTICAL WAVES; ACCESSORIES THEREFOR (optical parts of such apparatus G02B;photosensitive materials or processes for photographic purposes G03C;apparatus for processing exposed photographic materials G03D)"
+              }
+            },
+            {
+              "code": "G03C",
+              "title": {
+                "ko": "사진용 감광재료; 사진법, 예. 영화, X선, 칼라 또는 입체사진법; 사진의 보조 처리법(서브클래스의 G03B에 분류되는 장치의 사용 또는 조작을 특징으로 하는 사진법 그 자체는 G03B를 참조)",
+                "en": "PHOTOSENSITIVE MATERIALS FOR PHOTOGRAPHIC PURPOSES; PHOTOGRAPHIC PROCESSES, e.g. CINE, X-RAY, COLOUR OR STEREO-PHOTOGRAPHIC PROCESSES; AUXILIARY PROCESSES IN PHOTOGRAPHY (photographic processes characterised by the use or manipulation of apparatus classifiable per se in subclass G03B, seeG03B)"
+              }
+            },
+            {
+              "code": "G03D",
+              "title": {
+                "ko": "노광필 사진재료의 처리장치, 그 용구",
+                "en": "APPARATUS FOR PROCESSING EXPOSED PHOTOGRAPHIC MATERIALS; ACCESSORIES THEREFOR"
+              }
+            },
+            {
+              "code": "G03F",
+              "title": {
+                "ko": "사진제판법에 의한 요철화 또는 패턴화 표면의 제조, 예. 인쇄용, 반도체장치의 제조법용; 그것을 위한 재료; 그것을 위한 원료; 그것을 위한 특별히 적합한 장치 (사진식자기 B41B, 사진용 감광재료 또는 처리는 G03C, 엘렉트로그라피, 그것을 위한 감광층 또는 처리는 G03G)",
+                "en": "PHOTOMECHANICAL PRODUCTION OF TEXTURED OR PATTERNED SURFACES, e.g. FOR PRINTING, FOR PROCESSING OF SEMICONDUCTOR DEVICES; MATERIALS THEREFOR; ORIGINALS THEREFOR; APPARATUS SPECIALLY ADAPTED THEREFOR (phototypographic composing devices B41B;photosensitive materials or processes for photographic purposes G03C;electrography, sensitive layers or processes G03G)"
+              }
+            },
+            {
+              "code": "G03G",
+              "title": {
+                "ko": "전자기록법; 전기사진법; 자기기록법",
+                "en": "ELECTROGRAPHY; ELECTROPHOTOGRAPHY; MAGNETOGRAPHY"
+              }
+            },
+            {
+              "code": "G03H",
+              "title": {
+                "ko": "홀로그래픽 처리 또는 장치(통상의 광학적 소자로서 사용되는 홀로그램, 예. 점홀로그램 G02B 5/32; 광학소자를 이용하여 계산 동작을 하는 아날로그컴퓨터 G06E 3/00; 홀로그래피적 디지털 기록 G11B 7/0065, G11C 13/04)",
+                "en": "HOLOGRAPHIC PROCESSES OR APPARATUS (holograms, e.g. point holograms, used as ordinary optical elements G02B0005320000;analogue computers performing mathematical operations with the aid of optical elements G06E0003000000;holographic storage G11B0007006500, G11C0013040000)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G04",
+          "title": {
+            "ko": "시계 제작",
+            "en": "HOROLOGY"
+          },
+          "subclasses": [
+            {
+              "code": "G04B",
+              "title": {
+                "ko": "기계적 구동의 시계 또는 휴대시계; 시계 또는 휴대시계의 기계적 부분일반; 태양, 달 또는 별의 위치를 이용한 시계 (용수철이나 중력에 의해 움직여지는 기구일반 F03G; 전기기계시계 또는 휴대전기기계시계 G04C; 미리 선정된 시각 또는 미리 정해진 시간간격 후에 임의의 장치를 조작하는 부속수단 또는 조립수단을 가진 전기기계시계 G04C23/00; 정지장치가 있는 시계 또는 휴대시계 G04F7/08; 움직이는 부분이 없는 전자시계에 특히 적합한 구조상 세부, 또는 하우징 G04G17/00)",
+                "en": "MECHANICALLY-DRIVEN CLOCKS OR WATCHES; MECHANICAL PARTS OF CLOCKS OR WATCHES IN GENERAL; TIME-PIECES USING THE POSITION OF THE SUN, MOON, OR STARS (spring- or weight-driven mechanisms in general F03G;electromechanical clocks or watches G04C;electromechanical clocks with attached or built-in means operating any device at preselected times or after predetermined time intervals G04C0023000000;clocks or watches with stop devices G04F0007080000;structural details or housings specially adapted for electronic time-pieces with no moving parts G04G0017000000)"
+              }
+            },
+            {
+              "code": "G04C",
+              "title": {
+                "ko": "전자기계식 시계 또는 휴대 시계",
+                "en": "ELECTROMECHANICAL CLOCKS OR WATCHES"
+              }
+            },
+            {
+              "code": "G04D",
+              "title": {
+                "ko": null,
+                "en": "APPARATUS OR TOOLS SPECIALLY DESIGNED FOR MAKING OR MAINTAINING CLOCKS OR WATCHES"
+              }
+            },
+            {
+              "code": "G04F",
+              "title": {
+                "ko": "시간 간격 측정 (펄스 특성을 측정하는 것 G01R, 예. G01R29/02; 레이더 또는 유사한 시스템에서의 것 G01S)",
+                "en": "TIME-INTERVAL MEASURING (measuring pulse characteristics G01R, e.g. G01R0029020000;in radar or like systems G01S)"
+              }
+            },
+            {
+              "code": "G04G",
+              "title": {
+                "ko": "전자시계",
+                "en": "ELECTRONIC TIME-PIECES"
+              }
+            },
+            {
+              "code": "G04R",
+              "title": {
+                "ko": null,
+                "en": "RADIO-CONTROLLED TIME-PIECES"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G05",
+          "title": {
+            "ko": "제어; 조정",
+            "en": "CONTROLLING; REGULATING"
+          },
+          "subclasses": [
+            {
+              "code": "G05B",
+              "title": {
+                "ko": "제어 시스템 또는 조정 시스템 일반; 이와 같은 시스템의 기능요소; 이와 같은 시스템 또는 요소의 감시 또는 시험장치(비전기적 변수를 제어하거나 조절하는 시스템 G05D; 전기적 또는 자기적 변수를 조절하는 시스템 G05F; 기계적 특성만을 특징으로 하는 제어 장치 또는 시스템 G05G)",
+                "en": "CONTROL OR REGULATING SYSTEMS IN GENERAL; FUNCTIONAL ELEMENTS OF SUCH SYSTEMS; MONITORING OR TESTING ARRANGEMENTS FOR SUCH SYSTEMS OR ELEMENTS   (systems for controlling or regulating non-electric variables G05D;  systems for regulating electric or magnetic variables G05F;  control devices or systems insofar as characterised by mechanical features only G05G)"
+              }
+            },
+            {
+              "code": "G05D",
+              "title": {
+                "ko": "비전기적 변수를 제어하거나 조절하기 위한 시스템",
+                "en": "SYSTEMS FOR CONTROLLING OR REGULATING NON-ELECTRIC VARIABLES"
+              }
+            },
+            {
+              "code": "G05F",
+              "title": {
+                "ko": "전기 또는 자기 변수 조절 시스템",
+                "en": "SYSTEMS FOR REGULATING ELECTRIC OR MAGNETIC VARIABLES"
+              }
+            },
+            {
+              "code": "G05G",
+              "title": {
+                "ko": "기계적 구성에만 특징이 있는 제어장치 제어계(보우덴(Bowden) 또는 유사한 기구; 이 목적에 특유하지 않는 전동장치 기구; 회전운동 전달용 변속 또는 역전 전동장치를 위한 것)",
+                "en": "CONTROL DEVICES OR SYSTEMS INSOFAR AS CHARACTERISED BY MECHANICAL FEATURES ONLY (\"Bowden\" or like mechanisms F16C0001100000;gearings or mechanisms not peculiar to this purpose F16H;speed changing or reversing mechanisms for gearings conveying rotary motion F16H0059000000-F16H0063000000)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G06",
+          "title": {
+            "ko": "연산 또는 계산; 계수",
+            "en": "COMPUTING OR CALCULATING;  COUNTING"
+          },
+          "subclasses": [
+            {
+              "code": "G06C",
+              "title": {
+                "ko": "모든 계산이 기계적으로 이루어지는 디지털 컴퓨터 (카드 게임용 득점 컴퓨터 A63F1/18)",
+                "en": "DIGITAL COMPUTERS IN WHICH ALL THE COMPUTATION IS EFFECTED MECHANICALLY (score computers for card games A63F0001180000)"
+              }
+            },
+            {
+              "code": "G06D",
+              "title": {
+                "ko": "디지털 유체압 계산장치",
+                "en": "DIGITAL FLUID-PRESSURE COMPUTING DEVICES"
+              }
+            },
+            {
+              "code": "G06E",
+              "title": {
+                "ko": "광학 계산 장치 (광학 논리소자 그 자체 G02F3/00; 광학 소자를 사용한 디지털기억 G11C13/04)",
+                "en": "OPTICAL COMPUTING DEVICES (digital storage using optical elements G11C0013040000)"
+              }
+            },
+            {
+              "code": "G06F",
+              "title": {
+                "ko": "전기에 의한 디지털 데이터처리 (특정계산모델방식의 컴퓨터시스템 G06N)",
+                "en": "ELECTRIC DIGITAL DATA PROCESSING (computer systems based on specific computational models G06N)"
+              }
+            },
+            {
+              "code": "G06G",
+              "title": {
+                "ko": "아날로그 컴퓨터 (광학적 아날로그 계산장치 G06E3/00)",
+                "en": "ANALOGUE COMPUTERS (analogue optical computing devices G06E0003000000)"
+              }
+            },
+            {
+              "code": "G06J",
+              "title": {
+                "ko": "하이브리드 컴퓨터 (광학적 하이브리드 컴퓨터 G06E3/00)",
+                "en": "HYBRID COMPUTING ARRANGEMENTS (optical hybrid computing devices G06E0003000000)"
+              }
+            },
+            {
+              "code": "G06K",
+              "title": {
+                "ko": "그래픽 데이터의 판독 (이미지 또는 비디오 인식 또는 이해 G06V); 데이터의 표현; 기록 매체; 기록 매체 처리",
+                "en": "GRAPHICAL DATA READING (image or video recognition or understanding G06V); PRESENTATION OF DATA; RECORD CARRIERS; HANDLING RECORD CARRIERS"
+              }
+            },
+            {
+              "code": "G06M",
+              "title": {
+                "ko": "계수 메커니즘; 달리 분류되지 않는 객체 계산",
+                "en": "COUNTING MECHANISMS; COUNTING OF OBJECTS NOT OTHERWISE PROVIDED FOR"
+              }
+            },
+            {
+              "code": "G06N",
+              "title": {
+                "ko": "특정 컴퓨터 모델에 기반한 컴퓨팅 장치",
+                "en": "COMPUTING ARRANGEMENTS BASED ON SPECIFIC COMPUTATIONAL MODELS"
+              }
+            },
+            {
+              "code": "G06Q",
+              "title": {
+                "ko": "관리, 상업, 재무, 관리 또는 감독 목적을 위해 특별히 적용된 정보 통신 기술 [ICT]; 달리 제공되지 않은 행정, 상업, 재무, 관리 또는 감독 목적에 특별히 적합한 시스템 또는 방법",
+                "en": "INFORMATION AND COMMUNICATION TECHNOLOGY [ICT] SPECIALLY ADAPTED FOR ADMINISTRATIVE, COMMERCIAL, FINANCIAL, MANAGERIAL OR SUPERVISORY PURPOSES; SYSTEMS OR METHODS SPECIALLY ADAPTED FOR ADMINISTRATIVE, COMMERCIAL, FINANCIAL, MANAGERIAL OR SUPERVISORY PURPOSES, NOT OTHERWISE PROVIDED FOR"
+              }
+            },
+            {
+              "code": "G06T",
+              "title": {
+                "ko": "이미지 데이터 처리 또는 발생, 일반",
+                "en": "IMAGE DATA PROCESSING OR GENERATION, IN GENERAL"
+              }
+            },
+            {
+              "code": "G06V",
+              "title": {
+                "ko": "이미지 또는 비디오 인식 또는 이해",
+                "en": "IMAGE OR VIDEO RECOGNITION OR UNDERSTANDING"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G07",
+          "title": {
+            "ko": "검사장치",
+            "en": "CHECKING-DEVICES"
+          },
+          "subclasses": [
+            {
+              "code": "G07B",
+              "title": {
+                "ko": "표 발매 기기; 택시미터; 하나 이상의 제어점에서 요금, 통행료 또는 입장요금 징수를 위한 장치; 우편요금기기",
+                "en": "TICKET-ISSUING APPARATUS; TAXIMETERS; ARRANGEMENTS OR APPARATUS FOR COLLECTING FARES, TOLLS OR ENTRANCE FEES AT ONE OR MORE CONTROL POINTS;  FRANKING APPARATUS"
+              }
+            },
+            {
+              "code": "G07C",
+              "title": {
+                "ko": "시간 또는 출석 등록; 기계 작업 등록 또는 표시; 난수의 발생; 투표 또는 추첨장치; 다른 개소에 속하지 않는 검사를 위한 배열, 시스템(system) 또는 장치",
+                "en": "TIME OR ATTENDANCE REGISTERS; REGISTERING OR INDICATING THE WORKING OF MACHINES; GENERATING RANDOM NUMBERS; VOTING OR LOTTERY APPARATUS; ARRANGEMENTS, SYSTEMS OR APPARATUS FOR CHECKING NOT PROVIDED FOR ELSEWHERE"
+              }
+            },
+            {
+              "code": "G07D",
+              "title": {
+                "ko": "동전이나 지폐의 취급, 예. 검사, 금액에 의한 분류, 계수, 분배, 환전 또는 수납",
+                "en": "HANDLING OF COINS OR OF VALUABLE PAPERS, e.g. TESTING, SORTING BY DENOMINATIONS, COUNTING, DISPENSING, CHANGING OR DEPOSITING"
+              }
+            },
+            {
+              "code": "G07F",
+              "title": {
+                "ko": "동전투입식 작동장치 및 유사장치(동전의 분류 G07D 3/00; 동전의 검사 G07D 5/00)",
+                "en": "COIN-FREED OR LIKE APPARATUS (coin sorting G07D0003000000;coin testing G07D0005000000)"
+              }
+            },
+            {
+              "code": "G07G",
+              "title": {
+                "ko": "현금, 귀중품 또는 토큰의 영수증 등록",
+                "en": "REGISTERING THE RECEIPT OF CASH, VALUABLES, OR TOKENS"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G08",
+          "title": {
+            "ko": "신호",
+            "en": "SIGNALLING"
+          },
+          "subclasses": [
+            {
+              "code": "G08B",
+              "title": {
+                "ko": "신호 시스템, 예. 개인 호출 시스템; 주문 전신; 경보 시스템",
+                "en": "SIGNALLING SYSTEMS, e.g. PERSONAL CALLING SYSTEMS; ORDER TELEGRAPHS; ALARM SYSTEMS"
+              }
+            },
+            {
+              "code": "G08C",
+              "title": {
+                "ko": "측정치, 제어신호 또는 유사신호를 위한 전송방식(유체압력전송방식 F15B; 감지요소의 출력을 다른 변량으로 변환하는 기계적수단 G01D 5/00; 기계적 제어시스템 G05G)",
+                "en": "TRANSMISSION SYSTEMS FOR MEASURED VALUES, CONTROL OR SIMILAR SIGNALS (fluid pressure transmission systems F15B; mechanical means for transferring the output of a sensing member into a different variable G01D0005000000; mechanical control systems G05G)"
+              }
+            },
+            {
+              "code": "G08G",
+              "title": {
+                "ko": "교통제어시스템(철도교통의 안내, 철도교통의 안전확보 B61L; 교통제어용 레이더(radar) 및 유사 시스템, 소나시스템 또는 라이더(lidar)시스템 G01S 13/91, G01S 15/88, G01S 17/88; 충돌방지용 레이더 및 유사 시스템, 소나시스템 또는 라이더시스템 G01S 13/93, G01S 15/93, G01S 17/93; 교통 환경에 특정되지 않는 육상, 수상, 항공, 우주 선체의 위치, 경로, 고도 또는 자세의 제어 G05D 1/00)",
+                "en": "TRAFFIC CONTROL SYSTEMS (guiding railway traffic, ensuring the safety of railway traffic B61L;radar or analogous systems, sonar systems or lidar systems specially adapted for traffic control G01S0013910000, G01S0015880000, G01S0017880000;radar or analogous systems, sonar systems or lidar systems specially adapted for anti-collision purposes G01S0013930000, G01S0015930000, G01S0017930000;control of position, course, altitude or attitude of land, water, air or space vehicles, not being specific to a traffic environment G05D0001000000)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G09",
+          "title": {
+            "ko": "교육; 암호방법; 전시; 광고; 봉인",
+            "en": "EDUCATING; CRYPTOGRAPHY; DISPLAY; ADVERTISING; SEALS"
+          },
+          "subclasses": [
+            {
+              "code": "G09B",
+              "title": {
+                "ko": "교육용 또는 교시용의 기구; 맹인 또는 농아자와의 의사를 소통하기 위한 교습용기구; 모형; 유성의; 지구의; 지도; 도표",
+                "en": "EDUCATIONAL OR DEMONSTRATION APPLIANCES; APPLIANCES FOR TEACHING, OR COMMUNICATING WITH, THE BLIND, DEAF OR MUTE; MODELS; PLANETARIA; GLOBES; MAPS; DIAGRAMS"
+              }
+            },
+            {
+              "code": "G09C",
+              "title": {
+                "ko": "암호 또는 비밀의 필요성을 포함하는 다른 목적을 위한 암호화 또는 암호해독장치",
+                "en": "CIPHERING OR DECIPHERING APPARATUS FOR CRYPTOGRAPHIC OR OTHER PURPOSES INVOLVING THE NEED FOR SECRECY"
+              }
+            },
+            {
+              "code": "G09D",
+              "title": {
+                "ko": "철도 또는 이에 유사한 것의 시각표 또는 요금표; 만년캘린더 (calendar)",
+                "en": "RAILWAY OR LIKE TIME OR FARE TABLES; PERPETUAL CALENDARS"
+              }
+            },
+            {
+              "code": "G09F",
+              "title": {
+                "ko": "표시; 광고; 사인; 라벨 또는 명찰; 시일",
+                "en": "DISPLAYING; ADVERTISING; SIGNS; LABELS OR NAME-PLATES; SEALS"
+              }
+            },
+            {
+              "code": "G09G",
+              "title": {
+                "ko": "가변 정보를 제공하기 위해 정적 수단을 사용하는 표시 장치의 제어를 위한 장치 또는 회로 (디지털 컴퓨터 및 디스플레이 간 데이터를 전송하기 위한 장치 G06F3/14; 여러 개의 개별 소스 또는 광 제어 셀의 조합으로 구성된 정적 표시 장치 G09F9/00; 여러 개의 광원의 통합 결합으로 구성된 정적 표시 장치 H01J, H01K, H05B33/12, H10H; 문서 또는 그와 유사한 것의 스캔, 전송 또는 복제, 예. 팩스 전송, 이의 세부 H04N1/00)",
+                "en": "ARRANGEMENTS OR CIRCUITS FOR CONTROL OF INDICATING DEVICES USING STATIC MEANS TO PRESENT VARIABLE INFORMATION  (arrangements for transferring data between digital computers and displays G06F0003140000; static indicating arrangements comprising an association of a number of separate sources or light control cells G09F0009000000; static indicating arrangements comprising integral associations of a number of light sources H01J, H01K, H05B0033120000, H10H; scanning, transmission or reproduction of documents or the like, e.g. facsimile transmission, details thereof H04N0001000000)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G10",
+          "title": {
+            "ko": "악기; 음향",
+            "en": "MUSICAL INSTRUMENTS; ACOUSTICS"
+          },
+          "subclasses": [
+            {
+              "code": "G10B",
+              "title": {
+                "ko": "오르간, 풍금(Harmonium) 또는 관련된 송풍 기구를 갖는 유사한 기명악기 (아코디언, 콘서티나 또는 그와 유사한 것 또는 그의 키보드 G10D11/00; 자동기명 악기 G10F1/12)",
+                "en": "ORGANS, HARMONIUMS OR SIMILAR WIND MUSICAL INSTRUMENTS WITH ASSOCIATED BLOWING APPARATUS (accordions, concertinas or the like or keyboards therefor G10D0011000000; automatic wind instruments G10F0001120000)"
+              }
+            },
+            {
+              "code": "G10C",
+              "title": {
+                "ko": "피아노, 하프시코드(harpsichord), 소형 피아노(spinets) 또는 하나 이상의 건반을 가지는 유사한 현악기(자동 악기 G10F)",
+                "en": "PIANOS, HARPSICHORDS, SPINETS OR SIMILAR STRINGED MUSICAL INSTRUMENTS WITH ONE OR MORE KEYBOARDS (automatic musical instruments G10F)"
+              }
+            },
+            {
+              "code": "G10D",
+              "title": {
+                "ko": "현악기; 기명악기; 아코디언 또는 콘서티나(concertina); 타악기; 에올리언 하프; 노래 불꽃 악기; 달리 분류되지 않는 악기(오르간, 하모늄 또는 기명(blowing) 기구와 유사한 것 G10B; 피아노, 하프시코드, 스피넷 또는 하나 이상의 키보드를 갖는 유사 현이 있는 악기 G10C; 자동악기 G10F; 전자 기계적 수단에 의해 톤을 발생하는 전기 발성 악기 G10H)",
+                "en": "STRINGED MUSICAL INSTRUMENTS; WIND MUSICAL INSTRUMENTS; ACCORDIONS OR CONCERTINAS; PERCUSSION MUSICAL INSTRUMENTS; AEOLIAN HARPS;  SINGING-FLAME MUSICAL INSTRUMENTS; MUSICAL INSTRUMENTS NOT OTHERWISE PROVIDED FOR (organs, harmoniums or similar wind musical instruments with associated blowing apparatus G10B; pianos, harpsichords, spinets or similar stringed musical instruments with one or more keyboards G10C; automatic musical instruments G10F; electrophonic musical instruments in which tones are generated by electromechanical means G10H)"
+              }
+            },
+            {
+              "code": "G10F",
+              "title": {
+                "ko": "자동악기 (음악 완구의 비음악적 특색이 있는 것 A63H5/00; 자동 악기를 갖는 녹음 또는 재생 장치의 관련된 동작을 위한 방식 G11B31/02)",
+                "en": "AUTOMATIC MUSICAL INSTRUMENTS (non-musical aspects of musical toy instruments A63H0005000000;arrangements for the associated working of recording or reproducing apparatus with automatic musical instruments G11B0031020000)"
+              }
+            },
+            {
+              "code": "G10G",
+              "title": {
+                "ko": "음악 표현; 악보 형식으로 음악 녹음 달리 제공되지 않는 음악 또는 음악 악기 용 액세서리,예. 지원 (악보대 A47B, 장난감 악기의 비 음악적 측면 A63H5/00, 메트로놈 G04F5/02, 음악 교육 G09B15/00)",
+                "en": "REPRESENTATION OF MUSIC; RECORDING MUSIC IN NOTATION FORM; ACCESSORIES FOR MUSIC OR MUSICAL INSTRUMENTS NOT OTHERWISE PROVIDED FOR, e.g. SUPPORTS (music stands A47B;non-musical aspects of musical toy instruments A63H0005000000;metronomes G04F0005020000;teaching music G09B0015000000)"
+              }
+            },
+            {
+              "code": "G10H",
+              "title": {
+                "ko": "전기악기; 전기기계적 수단 또는 전기적 발생기에 의해 생성된 음 또는 데이터저장체로부터 합성된 음의 악기",
+                "en": "ELECTROPHONIC MUSICAL INSTRUMENTS; INSTRUMENTS IN WHICH THE TONES ARE GENERATED BY ELECTROMECHANICAL MEANS OR ELECTRONIC GENERATORS, OR IN WHICH THE TONES ARE SYNTHESISED FROM A DATA STORE"
+              }
+            },
+            {
+              "code": "G10K",
+              "title": {
+                "ko": "음을 발생하는 장치; 소음 또는 기타 음향파를 방호하거나 감쇠시키는 방법 또는 장치 일반; 달리 분류되지 않는 음향",
+                "en": "SOUND-PRODUCING DEVICES; METHODS OR DEVICES FOR PROTECTING AGAINST, OR FOR DAMPING, NOISE OR OTHER ACOUSTIC WAVES IN GENERAL; ACOUSTICS NOT OTHERWISE PROVIDED FOR"
+              }
+            },
+            {
+              "code": "G10L",
+              "title": {
+                "ko": "음성분석 또는 합성; 음성 인식; 음성(speech) 또는 음성(voice) 처리; 음성(speech) 또는 오디오(audio) 부호화 또는 복호화",
+                "en": "SPEECH ANALYSIS TECHNIQUES OR SPEECH SYNTHESIS; SPEECH RECOGNITION; SPEECH OR VOICE PROCESSING TECHNIQUES; SPEECH OR AUDIO CODING OR DECODING"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G11",
+          "title": {
+            "ko": "정보저장",
+            "en": "INFORMATION STORAGE"
+          },
+          "subclasses": [
+            {
+              "code": "G11B",
+              "title": {
+                "ko": "기록매체와 변환기 사이의 상대적인 운동을 기본으로 하는 정보저장(측정치를 기록함에 있어서 변환기를 통한 재생을 필요로 하지 않는 것 G01D; 사진용을 위한 감광물 또는 감광처리 G03C; 일렉트로그래피(electrography), 일렉트로포토그래피(electrophotography), 마그네토그래피(magnetography) G03G; 기록 또는 재생장치로서 천공된 종이테이프와 같이 기계적으로 표시된 테이프를 사용하거나 또는 천공 내지 자기적으로 표시된 카드와 같이 단위 기록체를 사용하는 것, G06K; 어떤 타입의 기록매체로 부터 다른 타입의 기록매체로 데이터를 이송하는 것 G06K 1/18; 기록매체로부터 데이터를 인쇄하는 것 G06K 3/00; 출력데이터의 영구 가시적 표현을 생성하기 위한 구성 G06K 15/00; 표시장치의 제어를 위한 구성 또는 회로로서 변화하는 정보를 나타내기 위해 통계적 수단을 사용하는 것 G09G; 일반적으로 주사형 탐침기구의 세목들 G12B 21/00; 코딩, 디코딩 또는 코드변환 H03M; 재생기의 출력을 라디오 수신기에 정합하기 위한 회로 H04B 1/20; 텔레비전 신호의 기록 H04N 5/76, H04N 9/79 : 라우드스피커, 마이크로폰, 그라모폰(gramophone)픽업 또는 음향의 전기기계적 변환기 내지 이들을 위한 회로 H04R)",
+                "en": "INFORMATION STORAGE BASED ON RELATIVE MOVEMENT BETWEEN RECORD CARRIER AND TRANSDUCER (recording measured values in a way that does not require playback through a transducer G01D0009000000;recording or playback apparatus using mechanically marked tape, e.g. punched paper tape, or using unit records, e.g. punched or magnetically marked cards G06K;transferring data from one type of record carrier to another G06K0001180000; circuits for coupling output of reproducer to radio receiver H04B0001200000; gramophone pick-ups or like acoustic electromechanical transducers or circuits therefor H04R)"
+              }
+            },
+            {
+              "code": "G11C",
+              "title": {
+                "ko": "정적 저장 (반도체 메모리 소자 H10B)",
+                "en": "STATIC STORES (semiconductor memory devices H10B)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G12",
+          "title": {
+            "ko": "기계의 세부",
+            "en": "INSTRUMENT DETAILS"
+          },
+          "subclasses": [
+            {
+              "code": "G12B",
+              "title": {
+                "ko": "달리 분류되지 않는 기계의 구성적 세부 또는 기타의 장치에 유사한 세부",
+                "en": "CONSTRUCTIONAL DETAILS OF INSTRUMENTS, OR COMPARABLE DETAILS OF OTHER APPARATUS, NOT OTHERWISE PROVIDED FOR"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G16",
+          "title": {
+            "ko": "특정의 용도 분야에 특히 적합한 정보통신기술 [ICT]",
+            "en": "INFORMATION AND COMMUNICATION TECHNOLOGY [ICT] SPECIALLY ADAPTED FOR SPECIFIC APPLICATION FIELDS"
+          },
+          "subclasses": [
+            {
+              "code": "G16B",
+              "title": {
+                "ko": null,
+                "en": "BIOINFORMATICS, i.e. INFORMATION AND COMMUNICATION TECHNOLOGY [ICT] SPECIALLY ADAPTED FOR GENETIC OR PROTEIN-RELATED DATA PROCESSING IN COMPUTATIONAL MOLECULAR BIOLOGY"
+              }
+            },
+            {
+              "code": "G16C",
+              "title": {
+                "ko": null,
+                "en": "COMPUTATIONAL CHEMISTRY; CHEMOINFORMATICS; COMPUTATIONAL MATERIALS SCIENCE"
+              }
+            },
+            {
+              "code": "G16H",
+              "title": {
+                "ko": "건강 정보학, 즉. 의료 또는 건강 관리 데이터의 취급 또는 처리에 특히 적합한 정보통신 기술 [ICT]",
+                "en": "HEALTHCARE INFORMATICS, i.e. INFORMATION AND COMMUNICATION TECHNOLOGY [ICT] SPECIALLY ADAPTED FOR THE HANDLING OR PROCESSING OF MEDICAL OR HEALTHCARE DATA"
+              }
+            },
+            {
+              "code": "G16Y",
+              "title": {
+                "ko": null,
+                "en": "INFORMATION AND COMMUNICATION TECHNOLOGY SPECIALLY ADAPTED FOR THE INTERNET OF THINGS [IoT]"
+              }
+            },
+            {
+              "code": "G16Z",
+              "title": {
+                "ko": null,
+                "en": "INFORMATION AND COMMUNICATION TECHNOLOGY [ICT] SPECIALLY ADAPTED FOR SPECIFIC APPLICATION FIELDS, NOT OTHERWISE PROVIDED FOR"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G21",
+          "title": {
+            "ko": "핵공학",
+            "en": "NUCLEAR PHYSICS; NUCLEAR ENGINEERING"
+          },
+          "subclasses": [
+            {
+              "code": "G21B",
+              "title": {
+                "ko": "핵융합로 (제어되지 않는 융합, 그것의 응용 G21J)",
+                "en": "FUSION REACTORS (uncontrolled fusion, applications thereof G21J)"
+              }
+            },
+            {
+              "code": "G21C",
+              "title": {
+                "ko": "원자로(핵융합로, 핵융합-분열노 G21B; 핵폭발 G21J)",
+                "en": "NUCLEAR REACTORS (fusion reactors, hybrid fission-fusion reactors G21B;nuclear explosives G21J)"
+              }
+            },
+            {
+              "code": "G21D",
+              "title": {
+                "ko": "원자력 발전소",
+                "en": "NUCLEAR POWER PLANT"
+              }
+            },
+            {
+              "code": "G21F",
+              "title": {
+                "ko": "X선, 감마(gamma)선, 미립자선 또는 입자충격에 대한 보호; 방사능 오염물질의 처리; 오염제거장치 (약물수단에 의한 방사선보호 A61K 8/00, A61Q 17/04; 우주선내의 것 B64G 1/54; 원자로와 결합한 것 G21C 11/00; X선관과 결합된 것 H01J 35/16; X선 장치와 결합된 것 H05G 1/02)",
+                "en": "PROTECTION AGAINST X-RADIATION, GAMMA RADIATION, CORPUSCULAR RADIATION OR PARTICLE BOMBARDMENT; TREATING RADIOACTIVELY CONTAMINATED MATERIAL; DECONTAMINATION ARRANGEMENTS THEREFOR (radiation protection by pharmaceutical means A61K0008000000, A61Q0017040000;in cosmonautic vehicles B64G0001540000;combined with a reactor G21C0011000000;combined with X-ray tubes H01J0035160000;combined with X-ray apparatus H05G0001020000)"
+              }
+            },
+            {
+              "code": "G21G",
+              "title": {
+                "ko": "화학원소의 변환; 방사선원",
+                "en": "CONVERSION OF CHEMICAL ELEMENTS; RADIOACTIVE SOURCES"
+              }
+            },
+            {
+              "code": "G21H",
+              "title": {
+                "ko": "방사선원으로부터의 에너지 취득; 방사성원으로부터의 방사선의 응용; 해당되는 게 없는 경우 ; 우주방사선의 이용 (핵방사선 또는 X-방사선의 측정 G01T ; 핵융합로 G21B; 원자로 G21C ; 기체가 충전된 램프는 외부입자방사선에 의해서 또는 램프에 구조적으로 연관된 방사물질에 의해 발광에 자극을 받는 경우 )",
+                "en": "OBTAINING ENERGY FROM RADIOACTIVE SOURCES; APPLICATIONS OF RADIATION FROM RADIOACTIVE SOURCES, NOT OTHERWISE PROVIDED FOR; UTILISING COSMIC RADIATION (measurement of nuclear or X-radiation G01T;fusion reactors G21B;nuclear reactors G21C;lamps in which a gas filling is excited to luminescence by external corpuscular radiation or by radioactive material structurally associated with the lamp H01J0065040000, H01J0065060000)"
+              }
+            },
+            {
+              "code": "G21J",
+              "title": {
+                "ko": null,
+                "en": "NUCLEAR EXPLOSIVES; APPLICATIONS THEREOF"
+              }
+            },
+            {
+              "code": "G21K",
+              "title": {
+                "ko": "달리 분류되지 않는 입자 또는 이온화 방사선 취급 기술; 조사장치; 감마선 또는 X선 현미경",
+                "en": "HANDLING OF PARTICLES OR IONISING RADIATION NOT OTHERWISE PROVIDED FOR; IRRADIATION DEVICES; GAMMA RAY OR X-RAY MICROSCOPES"
+              }
+            }
+          ]
+        },
+        {
+          "code": "G99",
+          "title": {
+            "ko": null,
+            "en": "SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION"
+          },
+          "subclasses": [
+            {
+              "code": "G99Z",
+              "title": {
+                "ko": null,
+                "en": "SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "title": {
+        "ko": "전기",
+        "en": "ELECTRICITY"
+      },
+      "classes": [
+        {
+          "code": "H01",
+          "title": {
+            "ko": "기본적 전기소자",
+            "en": "ELECTRIC ELEMENTS"
+          },
+          "subclasses": [
+            {
+              "code": "H01B",
+              "title": {
+                "ko": "케이블; 도체; 절연체; 도전성, 절연성 또는 유전성 특성에 대한 재료의 선택(자기특성에 대한 선택 H01F 1/00; 도파관 H01P)",
+                "en": "CABLES; CONDUCTORS; INSULATORS; SELECTION OF MATERIALS FOR THEIR CONDUCTIVE, INSULATING OR DIELECTRIC PROPERTIES (selection for magnetic properties H01F0001000000;waveguides H01P)"
+              }
+            },
+            {
+              "code": "H01C",
+              "title": {
+                "ko": "저항기",
+                "en": "RESISTORS"
+              }
+            },
+            {
+              "code": "H01F",
+              "title": {
+                "ko": "자석; 인덕턴스(Inductance); 변성기; 자기특성을 위한 재료의 선택",
+                "en": "MAGNETS; INDUCTANCES; TRANSFORMERS; SELECTION OF MATERIALS FOR THEIR MAGNETIC PROPERTIES"
+              }
+            },
+            {
+              "code": "H01G",
+              "title": {
+                "ko": "캐패시터; 전해형 캐패시터, 정류기, 검출기, 스위칭 장치, 광 감응 또는 온도 감응 장치 (유전체로서 특정 재료의 선택 H01B3/00; 전위 장벽이 있는 캐패시터 H10D1/62, H10K10/10)",
+                "en": "CAPACITORS; CAPACITORS, RECTIFIERS, DETECTORS, SWITCHING DEVICES, LIGHT-SENSITIVE OR TEMPERATURE-SENSITIVE DEVICES OF THE ELECTROLYTIC TYPE  (selection of specified materials as dielectric H01B0003000000; capacitors having potential barriers H10D0001620000, H10K0010100000)"
+              }
+            },
+            {
+              "code": "H01H",
+              "title": {
+                "ko": "전기적스위치; 계전기; 셀렉터(selector); 비상보호장치(접촉케이블 H01B 7/10; H01G 9/18; H02H; 무접점 전자장치에 의한 개폐 H03K 17/00)",
+                "en": "ELECTRIC SWITCHES; RELAYS; SELECTORS; EMERGENCY PROTECTIVE DEVICES (contact cables H01B0007100000; electrolytic self-interrupters H01G0009180000; emergency protective circuit arrangements H02H; switching by electronic means without contact-making H03K0017000000)"
+              }
+            },
+            {
+              "code": "H01J",
+              "title": {
+                "ko": "전자관 또는 방전 램프 (스파크-갭 H01T; 전기 아크 램프 H05B31/00; 입자가속기 H05H)",
+                "en": "ELECTRIC DISCHARGE TUBES OR DISCHARGE LAMPS (spark-gaps H01T;electric arc lamps H05B0031000000;particle accelerators H05H)"
+              }
+            },
+            {
+              "code": "H01K",
+              "title": {
+                "ko": "백열램프 (방전장치와 백열램프의 양쪽에 사용되는 세부 또는 제조장치 또는 제조방법 H01J; 백열발광체와 기타 발광체를 조합한 광원 H01J61/96, H05B35/00)",
+                "en": "ELECTRIC INCANDESCENT LAMPS (details, apparatus or processes for manufacture applicable to both discharge devices and incandescent lamps H01J; light sources using a combination of incandescent and other types of light generation H01J0061960000, H05B0035000000)"
+              }
+            },
+            {
+              "code": "H01M",
+              "title": {
+                "ko": "화학에너지를 전기에너지로 직접 변환하기 위한 방법 또는 수단, 예. 배터리",
+                "en": "PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY"
+              }
+            },
+            {
+              "code": "H01P",
+              "title": {
+                "ko": "도파관; 도파관형의 공진기, 선로 또는 기타장치 (광주파수로 동작하는 것 G02B)",
+                "en": "WAVEGUIDES; RESONATORS, LINES OR OTHER DEVICES OF THE WAVEGUIDE TYPE (operating at optical frequencies G02B)"
+              }
+            },
+            {
+              "code": "H01Q",
+              "title": {
+                "ko": "안테나, 즉. 라디오 공중선(마이크로파 가열 용 라디에이터 또는 안테나 H05B 6/72)",
+                "en": "ANTENNAS, i.e. RADIO AERIALS (radiators or antennas for microwave heating H05B0006720000)"
+              }
+            },
+            {
+              "code": "H01R",
+              "title": {
+                "ko": "도전접속; 복수의 다중-절연된 전기접속부의 구조적 결합; 결합장치; 집전장치",
+                "en": "ELECTRICALLY-CONDUCTIVE CONNECTIONS; STRUCTURAL ASSOCIATIONS OF A PLURALITY OF MUTUALLY-INSULATED ELECTRICAL CONNECTING ELEMENTS; COUPLING DEVICES; CURRENT COLLECTORS"
+              }
+            },
+            {
+              "code": "H01S",
+              "title": {
+                "ko": "광을 증폭 또는 생성하기 위해 복사의 유도 방출[레이저]에 의한 광 증폭 프로세스를 이용한 장치; 광학 이외의 파동 범위에서 전자기 방사의 유도 방출을 이용한 장치",
+                "en": "DEVICES USING THE PROCESS OF LIGHT AMPLIFICATION BY STIMULATED EMISSION OF RADIATION [LASER] TO AMPLIFY OR GENERATE LIGHT; DEVICES USING STIMULATED EMISSION OF ELECTROMAGNETIC RADIATION IN WAVE RANGES OTHER THAN OPTICAL"
+              }
+            },
+            {
+              "code": "H01T",
+              "title": {
+                "ko": "스파크 갭; 스파크 갭을 사용하는 과전압 피뢰기; 스파크 플러그; 코로나 장치; 비밀폐 가스로 유입되기 위한 이온 발생(과전합 보호회로 H02H )",
+                "en": "SPARK GAPS; OVERVOLTAGE ARRESTERS USING SPARK GAPS; SPARKING PLUGS; CORONA DEVICES; GENERATING IONS TO BE INTRODUCED INTO NON-ENCLOSED GASES (overvoltage protection circuits H02H)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "H02",
+          "title": {
+            "ko": "전력의 발전, 변환, 배전",
+            "en": "GENERATION, CONVERSION, OR DISTRIBUTION OF ELECTRIC POWER"
+          },
+          "subclasses": [
+            {
+              "code": "H02B",
+              "title": {
+                "ko": "전력의 공급 또는 배전을 위한 판(보드), 변전소 또는 개폐장치",
+                "en": "BOARDS, SUBSTATIONS OR SWITCHING ARRANGEMENTS FOR THE SUPPLY OR DISTRIBUTION OF ELECTRIC POWER"
+              }
+            },
+            {
+              "code": "H02G",
+              "title": {
+                "ko": "전기 케이블 또는 라인, 또는 광케이블 및 전기 케이블 또는 라인의 조합 설치",
+                "en": "INSTALLATION OF ELECTRIC CABLES OR LINES, OR OF COMBINED OPTICAL AND ELECTRIC CABLES OR LINES"
+              }
+            },
+            {
+              "code": "H02H",
+              "title": {
+                "ko": "비상보호회로장치(정상이 아닌 동작상태의 지시 또는 경보 G01R, 예. F01R 31/00, G08B; 선로에 따라서 고장점측정 G01R 31/08; 비상보호장치 H01H)",
+                "en": "EMERGENCY PROTECTIVE CIRCUIT ARRANGEMENTS (indicating or signalling undesired working conditions G01R, e.g. G01R0031000000, G08B;locating faults along lines G01R0031080000;emergency protective devices H01H)"
+              }
+            },
+            {
+              "code": "H02J",
+              "title": {
+                "ko": "전력망; 전력을 공급하거나 분배하기 위한 회로 구성 또는 시스템; 전기에너지를 저장하기 위한 시스템",
+                "en": "ELECTRIC POWER NETWORKS; CIRCUIT ARRANGEMENTS OR SYSTEMS FOR SUPPLYING OR DISTRIBUTING ELECTRIC POWER; SYSTEMS FOR STORING ELECTRIC ENERGY"
+              }
+            },
+            {
+              "code": "H02K",
+              "title": {
+                "ko": "회전-전기 기계 (회전-전기 계전기 H01H 53/00; 직류 또는 교류입력을 서지 출력으로 변환하는 것 H02M 9/00)",
+                "en": "DYNAMO-ELECTRIC MACHINES (dynamo-electric relays H01H0053000000;conversion of DC or AC input power into surge output power H02M0009000000)"
+              }
+            },
+            {
+              "code": "H02M",
+              "title": {
+                "ko": "교류-교류, 교류-직류 또는 직류-직류 변환장치 및 주전원 또는 유사한 전력 공급 시스템과 함께 사용하기 위한 장치; 직류 또는 교류입력의 서지 출력변환; 그것을 제어 또는 조정 (변압기 H01F, 회전 변환기 H02K 47/00; 변압기, 원자로 또는 초크 코일 제어, 전기 모터, 발전기 또는 발전기-전기 변환기의 제어 또는 조절 H02P)",
+                "en": "APPARATUS FOR CONVERSION BETWEEN AC AND AC, BETWEEN AC AND DC, OR BETWEEN DC AND DC, AND FOR USE WITH MAINS OR SIMILAR POWER SUPPLY SYSTEMS; CONVERSION OF DC OR AC INPUT POWER INTO SURGE OUTPUT POWER; CONTROL OR REGULATION THEREOF  (transformers H01F; dynamo-electric converters H02K0047000000; controlling transformers, reactors or choke coils, control or regulation of electric motors, generators or dynamo-electric converters H02P)"
+              }
+            },
+            {
+              "code": "H02N",
+              "title": {
+                "ko": "달리 분류되지 않는 전기 기계",
+                "en": "ELECTRIC MACHINES NOT OTHERWISE PROVIDED FOR"
+              }
+            },
+            {
+              "code": "H02P",
+              "title": {
+                "ko": "전동기, 전기 발전기 또는 다이나모일렉트릭(역학적 에너지와 전기적 에너지를 서로 변환하는, Dynamo-electric) 변환기 ; 변압기를 제어하는 것, 원자로 또는 초크 코일(choke coil)의 제어 또는 규제",
+                "en": "CONTROL OR REGULATION OF ELECTRIC MOTORS, ELECTRIC GENERATORS OR DYNAMO-ELECTRIC CONVERTERS; CONTROLLING TRANSFORMERS, REACTORS OR CHOKE COILS"
+              }
+            },
+            {
+              "code": "H02S",
+              "title": {
+                "ko": "적외선, 가시광선 또는 자외선의 변환에 의한 전력의 발생, 예. 광전지 [PV] 모듈을 이용하는 것 (방사원으로부터 전기 에너지를 획득하는 것 G21H1/12; 감광성 무기 반도체 장치 H10F; 감광성 유기 반도체 장치 H10K30/00; 열전 장치 H10N10/00; 초전 장치 H10N15/00)",
+                "en": "GENERATION OF ELECTRIC POWER BY CONVERSION OF INFRARED RADIATION, VISIBLE LIGHT OR ULTRAVIOLET LIGHT, e.g. USING PHOTOVOLTAIC [PV] MODULES   (obtaining electrical energy from radioactive sources G21H0001120000;  light sensitive inorganic semiconductor devices H10F; light sensitive organic semiconductor devices H10K0030000000;thermoelectric devices H10N0010000000;  pyroelectric devices H10N0015000000)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "H03",
+          "title": {
+            "ko": "전자회로",
+            "en": "ELECTRONIC CIRCUITRY"
+          },
+          "subclasses": [
+            {
+              "code": "H03B",
+              "title": {
+                "ko": "진동의 발생, 직접 또는 주파수 변조에 의한 진동의 발생, 스위칭 동작을 하지 않는 능동소자를 사용한 회로에 의한 진동의 발생; 이와 같은 회로에 의한 잡음의 발생 (전기 발성 악기에 특히 적합한 발생기 G10H; 메이저(maser), 레이저(Laser) H01S; 플라즈마에서 진동의 발생 H05H)",
+                "en": "GENERATION OF OSCILLATIONS, DIRECTLY OR BY FREQUENCY-CHANGING, BY CIRCUITS EMPLOYING ACTIVE ELEMENTS WHICH OPERATE IN A NON-SWITCHING MANNER; GENERATION OF NOISE BY SUCH CIRCUITS (generators specially adapted for electrophonic musical instruments G10H;masers or lasers H01S; generation of oscillations in plasma H05H)"
+              }
+            },
+            {
+              "code": "H03C",
+              "title": {
+                "ko": "변조 (메이저(masers), 레이저(lasers) H01S; 부호화, 복호화 혹은 부호변환 H03M)",
+                "en": "MODULATION (masers or lasers H01S;coding, decoding or code conversion H03M)"
+              }
+            },
+            {
+              "code": "H03D",
+              "title": {
+                "ko": "하나의 반송파로부터 타반송파에의 복조 또는 변조의 변환(메이저(masers), 레이저(laser) H01S : 변조기 및 복조기로 동작하는 회로 H03C, 예. 평형 변조기 H03C 1/54; 변조기 및 주파수변환기에의 적용 세부 H03C; 지속-변수 신호로 변조된 펄스를 복조하는 것 H03K 9/00; 펄스변조 형식의 변환 H03K 11/00; 중계 시스템, 예. 중계기 H04B 7/14; 디지털 변조전송시스템에 적합한 복조기 H04L 27/00; 컬러 텔레비전에 적합한 동기 복조기 H04N 9/66)",
+                "en": "DEMODULATION OR TRANSFERENCE OF MODULATION FROM ONE CARRIER TO ANOTHER (masers, lasers H01S;circuits capable of acting both as modulator and demodulator H03C, e.g. balanced modulators H03C0001540000;details applicable to both modulators and frequency-changers H03C;demodulating pulses which have been modulated with a continuously-variable signal H03K0009000000;transforming types of pulse modulation H03K0011000000;relay systems, e.g. repeater stations H04B0007140000;demodulators adapted for digitally modulated-carrier systems H04L0027000000;synchronous demodulators adapted for colour television H04N0009660000)"
+              }
+            },
+            {
+              "code": "H03F",
+              "title": {
+                "ko": "증폭기",
+                "en": "AMPLIFIERS"
+              }
+            },
+            {
+              "code": "H03G",
+              "title": {
+                "ko": "증폭 제어",
+                "en": "CONTROL OF AMPLIFICATION"
+              }
+            },
+            {
+              "code": "H03H",
+              "title": {
+                "ko": "임피던스 네트워크, 예. 공진 회로; 공진기 (도파관, 공진기, 선 또는 도파관 유형의 다른 장치 H01P)",
+                "en": "IMPEDANCE NETWORKS, e.g. RESONANT CIRCUITS; RESONATORS   (waveguides, resonators, lines or other devices of the waveguide type H01P)"
+              }
+            },
+            {
+              "code": "H03J",
+              "title": {
+                "ko": "동조공진회로; 공진회로선택",
+                "en": "TUNING RESONANT CIRCUITS; SELECTING RESONANT CIRCUITS"
+              }
+            },
+            {
+              "code": "H03K",
+              "title": {
+                "ko": "펄스(PULSE)기술(펄스특성의 측정 G01R; 펄스를 갖는 정현파진동의 변조 H03C; 디지털 정보의 전송 H04L; 진동 주기의 계수 또는 적산에 의해 두 신호간 위상차를 검출하는 회로 H03D 3/04; 발생기의 형에 관계없는 또는 특정되어 있지 않은 전자진동 또는 펄스 발생기의 발생기의 자동제어, 시동, 동기화 또는 안정화 H03L; 부호화, 복호화 또는 부호변환 일반 H03M)",
+                "en": "PULSE TECHNIQUE (measuring pulse characteristics G01R;modulating sinusoidal oscillations with pulses H03C; transmission of digital information H04L;discriminator circuits detecting phase difference between two signals by counting or integrating cycles of oscillation H03D0003040000;automatic control, starting, synchronisation or stabilisation of generators of electronic oscillations or pulses where the type of generator is irrelevant or unspecified H03L;coding, decoding or code conversion, in general H03M)"
+              }
+            },
+            {
+              "code": "H03L",
+              "title": {
+                "ko": "전자식 진동 또는 펄스의 발생기의 자동 제어, 시작, 동기화 또는 안정화 (진동의 발생 H03B)",
+                "en": "AUTOMATIC CONTROL, STARTING, SYNCHRONISATION OR STABILISATION OF GENERATORS OF ELECTRONIC OSCILLATIONS OR PULSES (generation of oscillations H03B)"
+              }
+            },
+            {
+              "code": "H03M",
+              "title": {
+                "ko": "복호화 또는 부호변환 일반(유체적 방법을 사용하는 것 F15C 4/00; 광학적 아날로그/디지털 변환기 G02F 7/00; 특수한 용도에 특히 적합한 부호화, 복호화 또는 부호변환은 관련 서브클라스 즉, GO1D, G01R, G06F, G06T, G09G, G10L, G11B, G11C, H04L, H04M, H04N을 참조:암호 또는 비밀의 필요성이 있는 기타 목적을 위한 암호화 또는 해독화 G09C)",
+                "en": "CODING, DECODING OR CODE CONVERSION, IN GENERAL (using fluidic means F15C0004000000;optical analogue/digital converters G02F0007000000;coding, decoding or code conversion, specially adapted for particular applications, see the relevant subclasses, e.g. G01D, G01R, G06F, G06T, G09G, G10L, G11B, G11C, H04B, H04L, H04M, H04N;ciphering or deciphering for cryptography or other purposes involving the need for secrecy G09C)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "H04",
+          "title": {
+            "ko": "전기통신기술",
+            "en": "ELECTRIC COMMUNICATION TECHNIQUE"
+          },
+          "subclasses": [
+            {
+              "code": "H04B",
+              "title": {
+                "ko": "전송",
+                "en": "TRANSMISSION"
+              }
+            },
+            {
+              "code": "H04H",
+              "title": {
+                "ko": "방송통신(전송일반 H04B; 다중화통신 H04J)",
+                "en": "BROADCAST COMMUNICATION (multiplex communication H04J;pictorial communication aspects of broadcast systems H04N)"
+              }
+            },
+            {
+              "code": "H04J",
+              "title": {
+                "ko": "다중통신(디지털정보 전송에 대한 특유한 것 H04L 5/00; 하나 이상의 텔레비젼신호를 동시 또는 순차로 전송하기 위한 시스템 H04N 7/08; 교환기에 있어서의 것 H04Q 11/00)",
+                "en": "MULTIPLEX COMMUNICATION (peculiar to transmission of digital information H04L0005000000;systems for the simultaneous or sequential transmission of more than one television signal H04N0007080000;in exchanges H04Q0011000000)"
+              }
+            },
+            {
+              "code": "H04K",
+              "title": {
+                "ko": null,
+                "en": "SECRET COMMUNICATION; JAMMING OF COMMUNICATION"
+              }
+            },
+            {
+              "code": "H04L",
+              "title": {
+                "ko": "디지털 정보의 전송, 예. 전신통신(전신(telegraphic) 및 전화통신의 공통장치 H04M)",
+                "en": "TRANSMISSION OF DIGITAL INFORMATION, e.g. TELEGRAPHIC COMMUNICATION (arrangements common to telegraphic and telephonic communication H04M)"
+              }
+            },
+            {
+              "code": "H04M",
+              "title": {
+                "ko": "전화통신(전화교환장치를 제외하고, 전화선로를 통해서 다른 장치를 제어하는 회로 G08)",
+                "en": "TELEPHONIC COMMUNICATION (circuits for controlling other apparatus via a telephone cable and not involving telephone switching apparatus G08)"
+              }
+            },
+            {
+              "code": "H04N",
+              "title": {
+                "ko": "화상통신, 예. 텔레비젼",
+                "en": "PICTORIAL COMMUNICATION, e.g. TELEVISION"
+              }
+            },
+            {
+              "code": "H04Q",
+              "title": {
+                "ko": "선택(스위치, 계전기, 셀렉터 H01H; 무선통신망 H04W)",
+                "en": "SELECTING (switches, relays, selectors H01H; wireless communication networks H04W)"
+              }
+            },
+            {
+              "code": "H04R",
+              "title": {
+                "ko": "확성기, 마이크, 축음기 픽업 또는 이와 유사한 음향 전기기계 변환기; 전기 보청기; 확성 시스템 (공급 주파수에 의해 결정되지 않는 주파수를 갖는 소리의 생성 G10K)",
+                "en": "LOUDSPEAKERS, MICROPHONES, GRAMOPHONE PICK-UPS OR LIKE ACOUSTIC ELECTROMECHANICAL TRANSDUCERS; ELECTRIC HEARING AIDS; PUBLIC ADDRESS SYSTEMS  (producing sounds with frequency not determined by supply frequency G10K)"
+              }
+            },
+            {
+              "code": "H04S",
+              "title": {
+                "ko": "입체음향 시스템",
+                "en": "STEREOPHONIC SYSTEMS"
+              }
+            },
+            {
+              "code": "H04W",
+              "title": {
+                "ko": "무선 통신 네트워크 (방송 통신 H04H; 비선택적 통신을 위한 무선 링크를 사용하는 통신 시스템, 예. 무선 증설 H04M 1/72)",
+                "en": "WIRELESS COMMUNICATION NETWORKS (broadcast communication H04H;communication systems using wireless links for non-selective communication, e.g. wireless extensions H04M0001720000)"
+              }
+            }
+          ]
+        },
+        {
+          "code": "H05",
+          "title": {
+            "ko": "달리 분류되지 않는 전기기술",
+            "en": "ELECTRIC TECHNIQUES NOT OTHERWISE PROVIDED FOR"
+          },
+          "subclasses": [
+            {
+              "code": "H05B",
+              "title": {
+                "ko": "전기 가열; 달리 제공되지 않는 전기 광원; 일반적인 전기 광원을 위한 회로 장치",
+                "en": "ELECTRIC HEATING;  ELECTRIC LIGHT SOURCES NOT OTHERWISE PROVIDED FOR; CIRCUIT ARRANGEMENTS FOR ELECTRIC LIGHT SOURCES, IN GENERAL"
+              }
+            },
+            {
+              "code": "H05C",
+              "title": {
+                "ko": "생물을 살해, 기절, 포위, 또는 유도하기 위하여 사용되는 장치에 특별히 설계된 전기회로 또는 전기장치(전기적 수단에 의하여 곤충을 포획 또는 살제하기 위한 정치식 장치 A01M 1/22; 곤충 외의 유해동물을 전기적으로 퇴치하기 위한 장치 A01M 19/00; 동물의 전기적 포획 A01M 23/38; 전류에 의한 도살 또는 기절 A22B 3/06)",
+                "en": "ELECTRIC CIRCUITS OR APPARATUS SPECIALLY DESIGNED FOR USE IN EQUIPMENT FOR KILLING, STUNNING, ENCLOSING OR GUIDING LIVING BEINGS (stationary means for catching or killing insects by electric means A01M0001220000;apparatus for the destruction of noxious animals, other than insects, by electricity A01M0019000000;electric traps for animals A01M0023380000;slaughtering or stunning by electric current A22B0003060000)"
+              }
+            },
+            {
+              "code": "H05F",
+              "title": {
+                "ko": "정전기; 자연적으로 발생하는 전기",
+                "en": "STATIC ELECTRICITY; NATURALLY-OCCURRING ELECTRICITY"
+              }
+            },
+            {
+              "code": "H05G",
+              "title": {
+                "ko": "X선 기술 (X선을 이용한 재료 조사 또는 분석 G01N23/00; X선 촬영 장치 G03B42/02; X선관 H01J35/00; X선 입력이 있는 TV 시스템 H04N5/321)",
+                "en": "X-RAY TECHNIQUE (investigating or analysing materials by the use of X-rays G01N0023000000;apparatus for X-ray photography G03B0042020000;X-ray tubes H01J0035000000;TV systems having X-ray input H04N0005321000)"
+              }
+            },
+            {
+              "code": "H05H",
+              "title": {
+                "ko": "플라스마 기술 (엑스선 생성에 특히 적합한 장치 또는 공정 H05G2/00); 가속된 전하 입자 또는 중성자의 생성; 중성자 또는 원자빔의 생성 또는 가속",
+                "en": "PLASMA TECHNIQUE  (apparatus or processes specially adapted for producing X-rays H05G0002000000); PRODUCTION OF ACCELERATED ELECTRICALLY-CHARGED PARTICLES OR OF NEUTRONS; PRODUCTION OR ACCELERATION OF NEUTRAL MOLECULAR OR ATOMIC BEAMS"
+              }
+            },
+            {
+              "code": "H05K",
+              "title": {
+                "ko": "인쇄 회로; 전기 장치의 케이싱 또는 구조적 세부; 전기 부품 조립체의 제조",
+                "en": "PRINTED CIRCUITS; CASINGS OR CONSTRUCTIONAL DETAILS OF ELECTRIC APPARATUS; MANUFACTURE OF ASSEMBLAGES OF ELECTRICAL COMPONENTS"
+              }
+            }
+          ]
+        },
+        {
+          "code": "H10",
+          "title": {
+            "ko": "반도체 장치; 달리 제공되지 않는 전기 고체 상태 장치",
+            "en": "SEMICONDUCTOR DEVICES; ELECTRIC SOLID-STATE DEVICES NOT OTHERWISE PROVIDED FOR"
+          },
+          "subclasses": [
+            {
+              "code": "H10B",
+              "title": {
+                "ko": "전자 메모리 소자",
+                "en": "ELECTRONIC MEMORY DEVICES"
+              }
+            },
+            {
+              "code": "H10D",
+              "title": {
+                "ko": "무기 전기 반도체 소자",
+                "en": "INORGANIC ELECTRIC SEMICONDUCTOR DEVICES"
+              }
+            },
+            {
+              "code": "H10F",
+              "title": {
+                "ko": "적외선, 빛, 단파장의 전자기파 또는 입자 방사선에 감응하는 무기 반도체 소자",
+                "en": "INORGANIC SEMICONDUCTOR DEVICES SENSITIVE TO INFRARED RADIATION, LIGHT, ELECTROMAGNETIC RADIATION OF SHORTER WAVELENGTH OR CORPUSCULAR RADIATION"
+              }
+            },
+            {
+              "code": "H10H",
+              "title": {
+                "ko": "전위 장벽을 갖는 무기 발광 반도체 소자",
+                "en": "INORGANIC LIGHT-EMITTING SEMICONDUCTOR DEVICES HAVING POTENTIAL BARRIERS"
+              }
+            },
+            {
+              "code": "H10K",
+              "title": {
+                "ko": "유기 전기 고체 상태 장치",
+                "en": "ORGANIC ELECTRIC SOLID-STATE DEVICES"
+              }
+            },
+            {
+              "code": "H10N",
+              "title": {
+                "ko": "달리 제공되지 않는 전기 고체상태 장치",
+                "en": "ELECTRIC SOLID-STATE DEVICES NOT OTHERWISE PROVIDED FOR"
+              }
+            },
+            {
+              "code": "H10P",
+              "title": {
+                "ko": null,
+                "en": "GENERIC PROCESSES OR APPARATUS FOR THE MANUFACTURE OR TREATMENT OF DEVICES COVERED BY CLASS H10"
+              }
+            },
+            {
+              "code": "H10W",
+              "title": {
+                "ko": null,
+                "en": "GENERIC PACKAGES, INTERCONNECTIONS, CONNECTORS OR OTHER CONSTRUCTIONAL DETAILS OF DEVICES COVERED BY CLASS H10"
+              }
+            }
+          ]
+        },
+        {
+          "code": "H99",
+          "title": {
+            "ko": null,
+            "en": "SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION"
+          },
+          "subclasses": [
+            {
+              "code": "H99Z",
+              "title": {
+                "ko": null,
+                "en": "SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

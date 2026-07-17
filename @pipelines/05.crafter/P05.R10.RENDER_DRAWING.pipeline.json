@@ -1,0 +1,27 @@
+{
+  "description": "P05 Crafter — DL 코드를 실제 이미지(SVG/PNG)로 렌더링. LLM 없음, DRO tool step (drawing.render) 으로 PlantUML CLI / OpenSCAD CLI / SchemDraw 라이브러리 호출. base64 image 반환.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [["P06.R00.REVIEW_DRAWING"]]
+  },
+  "steps": [
+    {
+      "description": "DSL 코드 + chosen_tool 받아 도구별 렌더러로 이미지 생성, base64 + mime_type 반환.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "drawing.render",
+      "params": {
+        "dl_code": "$.parent_outputs.1.dl_code",
+        "chosen_tool": "$.parent_outputs.0.chosen_tool",
+        "figure_format": "$.parent_outputs.0.figure_format"
+      },
+      "output_contract": "render-drawing-output"
+    }
+  ]
+}

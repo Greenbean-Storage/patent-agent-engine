@@ -1,0 +1,847 @@
+{
+  "subclass": "F15B",
+  "title": {
+    "ko": "유체수단에 의하여 작동하는 계 일반; 유체압 액튜에이터, 예. 서보모터; 달리 분류되지 않는 유체압계의 세부(모터, 터빈, 압축기, 송풍기, 펌프 F01 ～ F04; 유체동력학 F15D , 작유체클러치 또는 유체브레이크 F16D; 유체스프링; F16F; 유체전동장치 F16H; 피스톤, 실린더, 패킹 F16J; 밸브, 마개, 콕, 조작용의 플로트 F16K; 주밸브 보조유동에 의하여 작동되는 안전밸브 F16K 17/10; 밸브의 유체작동장치 F16K 31/12; 관, 관이음 F16L; 윤활 F16N)",
+    "en": "SYSTEMS ACTING BY MEANS OF FLUIDS IN GENERAL; FLUID-PRESSURE ACTUATORS, e.g. SERVOMOTORS; DETAILS OF FLUID-PRESSURE SYSTEMS, NOT OTHERWISE PROVIDED FOR"
+  },
+  "definition": {
+    "ko": "압축 유체를 공급하는 것 F15B1/00 증압기 또는 유체압 전환기 F15B3/00; F15B5/00 유체압 액튜에이터 시스템 텔레모터 또는 펌프의 출력과 관련된 시스템 F15B7/00 서보모터 F15B9/00, F15B11/00, F15B13/00 부재를 이동시키기 위한 장치 F15B15/00 텔레모터와 서보모터의 조합; 기타 시스템; 세부 F15B17/00; F15B18/00; F15B21/00 시험; 안전 F15B19/00; F15B20/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F15B 1/00",
+      "title": {
+        "ko": "어큐뮬레이터에 의한 시스템 또는 장치 공급조 또는 배액탱크장치(sump assemblies)",
+        "en": "Installations or systems with accumulators; Supply reservoir or sump assemblies"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 1/02",
+          "title": {
+            "ko": "어큐뮬레이터에 의한 시스템 또는 장치",
+            "en": "Installations or systems with accumulators"
+          }
+        },
+        {
+          "code": "F15B 1/027",
+          "title": {
+            "ko": null,
+            "en": "having accumulator charging devices"
+          }
+        },
+        {
+          "code": "F15B 1/033",
+          "title": {
+            "ko": null,
+            "en": "with electrical control means"
+          }
+        },
+        {
+          "code": "F15B 1/04",
+          "title": {
+            "ko": "어큐뮬레이터",
+            "en": "Accumulators"
+          }
+        },
+        {
+          "code": "F15B 1/08",
+          "title": {
+            "ko": "가스쿠션을 이용하는 것; 가스충전장치; 그것의 부구(float) 또는 계기",
+            "en": "using a gas cushion; Gas charging devices; Indicators or floats therefor"
+          }
+        },
+        {
+          "code": "F15B 1/10",
+          "title": {
+            "ko": "유동분리수단을 갖는 것",
+            "en": "with flexible separating means"
+          }
+        },
+        {
+          "code": "F15B 1/12",
+          "title": {
+            "ko": "그 주위에 부착되는 것",
+            "en": "attached at their periphery  (flexible separating means in the form of a tube F15B0001160000)"
+          }
+        },
+        {
+          "code": "F15B 1/14",
+          "title": {
+            "ko": null,
+            "en": "by means of a rigid annular supporting member"
+          }
+        },
+        {
+          "code": "F15B 1/16",
+          "title": {
+            "ko": null,
+            "en": "in the form of a tube"
+          }
+        },
+        {
+          "code": "F15B 1/18",
+          "title": {
+            "ko": null,
+            "en": "Anti-extrusion means"
+          }
+        },
+        {
+          "code": "F15B 1/20",
+          "title": {
+            "ko": null,
+            "en": "fixed to the separating means"
+          }
+        },
+        {
+          "code": "F15B 1/22",
+          "title": {
+            "ko": null,
+            "en": "Liquid port constructions"
+          }
+        },
+        {
+          "code": "F15B 1/24",
+          "title": {
+            "ko": null,
+            "en": "with rigid separating means, e.g. pistons"
+          }
+        },
+        {
+          "code": "F15B 1/26",
+          "title": {
+            "ko": null,
+            "en": "Supply reservoir or sump assemblies"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Intensifiers or fluid-pressure converters, e.g. pressure exchangers; Conveying pressure from one fluid system to another, without contact between the fluids"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15B 5/00",
+      "title": {
+        "ko": "물리량의 변화를 변환하는 변환기, 예. 부재의 위치의 변화에 의하여 표현되는 것을 유체압의 변화로 또는 그의 역으로 변환하는 것; 유체압을 다수의 유체압의 변화 또는 다른 양의 변화 함수로 변화시키는 것(F15B9/00이 우선)",
+        "en": "Transducers converting variations of physical quantities, e.g. expressed by variations in positions of members, into fluid-pressure variations or vice versa; Varying fluid pressure as a function of variations of a plurality of fluid pressures or variations of other quantities (F15B0009000000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15B 7/00",
+      "title": {
+        "ko": "발생되는 동작이 용적형펌프의 출력에 명확히 관련된 유체압 작동 시스템; 텔레모터",
+        "en": "Fluid-pressure actuator systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15B 7/00",
+      "title": {
+        "ko": "발생되는 동작이 용적형펌프의 출력에 명확히 관련된 유체압 작동 시스템; 텔레모터",
+        "en": "Fluid-pressure actuator systems in which the movement produced is definitely related to the output of a volumetric pump; Telemotors"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 7/02",
+          "title": {
+            "ko": null,
+            "en": "Systems with continuously-operating input and output apparatus"
+          }
+        },
+        {
+          "code": "F15B 7/04",
+          "title": {
+            "ko": null,
+            "en": "in which the ratio between pump stroke and motor stroke varies with the resistance against the motor"
+          }
+        },
+        {
+          "code": "F15B 7/06",
+          "title": {
+            "ko": "세부(F15B 15/00이 우선)",
+            "en": "Details (F15B0015000000 takes precedence)"
+          }
+        },
+        {
+          "code": "F15B 7/08",
+          "title": {
+            "ko": null,
+            "en": "Input units; Master units"
+          }
+        },
+        {
+          "code": "F15B 7/10",
+          "title": {
+            "ko": "원예용 절취용구; 입목의 전정(가지치기 장치 A01G23/095)",
+            "en": "Compensation of the liquid content in a system  (F15B0007080000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15B 9/00",
+      "title": {
+        "ko": "추종동작을 하는 서보모터, 즉 그의 피동작부재의 위치가 제어부재의 위치에 따르는 것",
+        "en": "Servomotors with follow-up action, i.e. in which the position of the actuated member conforms with that of the controlling member"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 9/02",
+          "title": {
+            "ko": "왕복운동형 또는 요동형(oscillatable type)의 서보모터를 갖는 것",
+            "en": "with servomotors of the reciprocatable or oscillatable type"
+          }
+        },
+        {
+          "code": "F15B 9/03",
+          "title": {
+            "ko": null,
+            "en": "with electrical control means"
+          }
+        },
+        {
+          "code": "F15B 9/04",
+          "title": {
+            "ko": null,
+            "en": "controlled by varying the output of a pump with variable capacity"
+          }
+        },
+        {
+          "code": "F15B 9/06",
+          "title": {
+            "ko": null,
+            "en": "controlled by means using a fluid jet"
+          }
+        },
+        {
+          "code": "F15B 9/07",
+          "title": {
+            "ko": null,
+            "en": "with electrical control means"
+          }
+        },
+        {
+          "code": "F15B 9/08",
+          "title": {
+            "ko": "서보모터의 유체공급량 또는 유체유출량에 영향을 주는 밸브에 의하여 제어되는 것(F15B 9/06이 우선)",
+            "en": "controlled by valves affecting the fluid feed or the fluid outlet of the servomotor (F15B0009060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F15B 9/09",
+          "title": {
+            "ko": null,
+            "en": "with electrical control means"
+          }
+        },
+        {
+          "code": "F15B 9/10",
+          "title": {
+            "ko": null,
+            "en": "in which the controlling element and the servomotor each controls a separate member, these members influencing different fluid passages or the same passage"
+          }
+        },
+        {
+          "code": "F15B 9/12",
+          "title": {
+            "ko": null,
+            "en": "in which both the controlling element and the servomotor control the same member influencing a fluid passage and are connected to that member by means of a differential gearing"
+          }
+        },
+        {
+          "code": "F15B 9/14",
+          "title": {
+            "ko": null,
+            "en": "with rotary servomotors"
+          }
+        },
+        {
+          "code": "F15B 9/16",
+          "title": {
+            "ko": null,
+            "en": "Systems essentially having two or more interacting servomotors"
+          }
+        },
+        {
+          "code": "F15B 9/17",
+          "title": {
+            "ko": null,
+            "en": "with electrical control means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15B 11/00",
+      "title": {
+        "ko": "추종동작을 하지 않는 서보모터 시스템(F15B 3/00이 우선)",
+        "en": "Servomotor systems without provision for follow-up action (F15B0003000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 11/02",
+          "title": {
+            "ko": "출력부재의 속도 또는 작동력 또는 속도를 제어하기 위한 특이 요소를 기본적으로 포함하는 시스템",
+            "en": "Systems essentially incorporating special features for controlling the speed or the actuating force or speed of an output member"
+          }
+        },
+        {
+          "code": "F15B 11/024",
+          "title": {
+            "ko": null,
+            "en": "by means of differential connection of the servomotor lines, e.g. regenerative circuits"
+          }
+        },
+        {
+          "code": "F15B 11/028",
+          "title": {
+            "ko": "작동력의 제어를 위한 것(F15B 11/024가 우선)",
+            "en": "for controlling the actuating force (F15B0011024000 takes precedence)"
+          }
+        },
+        {
+          "code": "F15B 11/032",
+          "title": {
+            "ko": null,
+            "en": "by means of fluid-pressure converters"
+          }
+        },
+        {
+          "code": "F15B 11/036",
+          "title": {
+            "ko": null,
+            "en": "by means of servomotors having a plurality of working chambers"
+          }
+        },
+        {
+          "code": "F15B 11/04",
+          "title": {
+            "ko": "속도제어를 목적으로 하는 것(F15B 11/024가 우선)",
+            "en": "for controlling the speed (F15B0011024000 takes precedence)"
+          }
+        },
+        {
+          "code": "F15B 11/042",
+          "title": {
+            "ko": "공급선로 수단에 의한 것 (F15B 11/046, F15B 11/05 우선)",
+            "en": "by means in the feed line (F15B0011046000, F15B0011050000 take precedence)"
+          }
+        },
+        {
+          "code": "F15B 11/044",
+          "title": {
+            "ko": "귀환선로 수단에 의한 것 (F15B 11/046, F15B 11/05 우선)",
+            "en": "by means in the return line (F15B0011046000, F15B0011050000 take precedence)"
+          }
+        },
+        {
+          "code": "F15B 11/046",
+          "title": {
+            "ko": null,
+            "en": "depending on the position of the working member"
+          }
+        },
+        {
+          "code": "F15B 11/048",
+          "title": {
+            "ko": null,
+            "en": "with deceleration control"
+          }
+        },
+        {
+          "code": "F15B 11/05",
+          "title": {
+            "ko": null,
+            "en": "specially adapted to maintain constant speed, e.g. pressure-compensated, load-responsive"
+          }
+        },
+        {
+          "code": "F15B 11/06",
+          "title": {
+            "ko": null,
+            "en": "involving features specific to the use of a compressible medium, e.g. air, steam"
+          }
+        },
+        {
+          "code": "F15B 11/064",
+          "title": {
+            "ko": null,
+            "en": "with devices for saving the compressible medium"
+          }
+        },
+        {
+          "code": "F15B 11/068",
+          "title": {
+            "ko": null,
+            "en": "with valves for gradually putting pneumatic systems under pressure"
+          }
+        },
+        {
+          "code": "F15B 11/072",
+          "title": {
+            "ko": null,
+            "en": "Combined pneumatic-hydraulic systems"
+          }
+        },
+        {
+          "code": "F15B 11/076",
+          "title": {
+            "ko": null,
+            "en": "with pneumatic drive or displacement and speed control or stopping by hydraulic braking"
+          }
+        },
+        {
+          "code": "F15B 11/08",
+          "title": {
+            "ko": null,
+            "en": "with only one servomotor"
+          }
+        },
+        {
+          "code": "F15B 11/10",
+          "title": {
+            "ko": null,
+            "en": "in which the servomotor position is a function of the pressure"
+          }
+        },
+        {
+          "code": "F15B 11/12",
+          "title": {
+            "ko": null,
+            "en": "providing distinct intermediate positions; with step-by-step action"
+          }
+        },
+        {
+          "code": "F15B 11/13",
+          "title": {
+            "ko": null,
+            "en": "using chambers of predetermined volume"
+          }
+        },
+        {
+          "code": "F15B 11/15",
+          "title": {
+            "ko": null,
+            "en": "with special provision for automatic return"
+          }
+        },
+        {
+          "code": "F15B 11/16",
+          "title": {
+            "ko": null,
+            "en": "with two or more servomotors"
+          }
+        },
+        {
+          "code": "F15B 11/17",
+          "title": {
+            "ko": null,
+            "en": "using two or more pumps"
+          }
+        },
+        {
+          "code": "F15B 11/18",
+          "title": {
+            "ko": null,
+            "en": "used in combination for obtaining stepwise operation of a single controlled member"
+          }
+        },
+        {
+          "code": "F15B 11/20",
+          "title": {
+            "ko": null,
+            "en": "controlling several interacting or sequentially-operating members"
+          }
+        },
+        {
+          "code": "F15B 11/22",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation of the movement of two or more servomotors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15B 13/00",
+      "title": {
+        "ko": "서보모터계의 세부 사항(F15B 15/00이 우선)",
+        "en": "Details of servomotor systems (F15B0015000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 13/01",
+          "title": {
+            "ko": null,
+            "en": "Locking-valves or other detent devices"
+          }
+        },
+        {
+          "code": "F15B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Fluid distribution or supply devices characterised by their adaptation to the control of servomotors"
+          }
+        },
+        {
+          "code": "F15B 13/04",
+          "title": {
+            "ko": null,
+            "en": "for use with a single servomotor"
+          }
+        },
+        {
+          "code": "F15B 13/042",
+          "title": {
+            "ko": null,
+            "en": "operated by fluid pressure"
+          }
+        },
+        {
+          "code": "F15B 13/043",
+          "title": {
+            "ko": null,
+            "en": "with electrically-controlled pilot valves"
+          }
+        },
+        {
+          "code": "F15B 13/044",
+          "title": {
+            "ko": null,
+            "en": "operated by electrically-controlled means, e.g. solenoids, torque-motors"
+          }
+        },
+        {
+          "code": "F15B 13/06",
+          "title": {
+            "ko": null,
+            "en": "for use with two or more servomotors"
+          }
+        },
+        {
+          "code": "F15B 13/07",
+          "title": {
+            "ko": null,
+            "en": "in distinct sequence"
+          }
+        },
+        {
+          "code": "F15B 13/08",
+          "title": {
+            "ko": null,
+            "en": "Assemblies of units, each for the control of a single servomotor only"
+          }
+        },
+        {
+          "code": "F15B 13/10",
+          "title": {
+            "ko": null,
+            "en": "Special arrangements for operating the actuated device without using fluid pressure, e.g. for emergency use"
+          }
+        },
+        {
+          "code": "F15B 13/12",
+          "title": {
+            "ko": null,
+            "en": "Special measures for increasing the sensitivity of the system"
+          }
+        },
+        {
+          "code": "F15B 13/14",
+          "title": {
+            "ko": null,
+            "en": "Special measures for giving the operator by sense of touch the immediate response of the actuated device"
+          }
+        },
+        {
+          "code": "F15B 13/16",
+          "title": {
+            "ko": null,
+            "en": "Special measures for feedback"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Fluid-actuated devices for displacing a member from one position to another; Gearing associated therewith"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 15/02",
+          "title": {
+            "ko": null,
+            "en": "Mechanical layout characterised by the means for converting the movement of the fluid-actuated element into movement of the finally-operated member"
+          }
+        },
+        {
+          "code": "F15B 15/04",
+          "title": {
+            "ko": null,
+            "en": "with oscillating cylinder"
+          }
+        },
+        {
+          "code": "F15B 15/06",
+          "title": {
+            "ko": null,
+            "en": "for mechanically converting rectilinear movement into non-rectilinear movement"
+          }
+        },
+        {
+          "code": "F15B 15/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by the construction of the motor unit"
+          }
+        },
+        {
+          "code": "F15B 15/10",
+          "title": {
+            "ko": null,
+            "en": "the motor being of diaphragm type"
+          }
+        },
+        {
+          "code": "F15B 15/12",
+          "title": {
+            "ko": null,
+            "en": "of the oscillating-vane or curved-cylinder type"
+          }
+        },
+        {
+          "code": "F15B 15/14",
+          "title": {
+            "ko": null,
+            "en": "of the straight-cylinder type"
+          }
+        },
+        {
+          "code": "F15B 15/16",
+          "title": {
+            "ko": null,
+            "en": "of the telescopic type"
+          }
+        },
+        {
+          "code": "F15B 15/17",
+          "title": {
+            "ko": null,
+            "en": "of differential-piston type"
+          }
+        },
+        {
+          "code": "F15B 15/18",
+          "title": {
+            "ko": null,
+            "en": "Combined units comprising both motor and pump"
+          }
+        },
+        {
+          "code": "F15B 15/19",
+          "title": {
+            "ko": null,
+            "en": "Pyrotechnical actuators"
+          }
+        },
+        {
+          "code": "F15B 15/20",
+          "title": {
+            "ko": null,
+            "en": "Other details"
+          }
+        },
+        {
+          "code": "F15B 15/22",
+          "title": {
+            "ko": null,
+            "en": "for accelerating or decelerating the stroke"
+          }
+        },
+        {
+          "code": "F15B 15/24",
+          "title": {
+            "ko": null,
+            "en": "for restricting the stroke"
+          }
+        },
+        {
+          "code": "F15B 15/26",
+          "title": {
+            "ko": null,
+            "en": "Locking mechanisms"
+          }
+        },
+        {
+          "code": "F15B 15/28",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating the position, e.g. end of stroke"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of telemotor and servomotor systems"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 17/02",
+          "title": {
+            "ko": null,
+            "en": "in which a telemotor operates the control member of a servomotor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15B 18/00",
+      "title": {
+        "ko": null,
+        "en": "Parallel arrangements of independent servomotor systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Testing fluid-pressure actuator systems or apparatus, so far as not provided for elsewhere"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15B 20/00",
+      "title": {
+        "ko": null,
+        "en": "Safety arrangements for fluid actuator systems; Applications of safety devices in fluid actuator systems; Emergency measures for fluid actuator systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15B 21/00",
+      "title": {
+        "ko": "유체 작동 시스템의 일반적 특징; 이 서브클래스의 다른 어느 그룹에도 포함 되지 않는 유체압 작동 시스템의 세부",
+        "en": "Common features of fluid actuator systems; Fluid-pressure actuator systems or details thereof, not covered by any other group of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "F15B 21/02",
+          "title": {
+            "ko": null,
+            "en": "Servomotor systems with program control derived from a store or timing device; Control devices therefor"
+          }
+        },
+        {
+          "code": "F15B 21/04",
+          "title": {
+            "ko": null,
+            "en": "Special measures taken in connection with the properties of the fluid"
+          }
+        },
+        {
+          "code": "F15B 21/041",
+          "title": {
+            "ko": null,
+            "en": "Removal or measurement of solid or liquid contamination, e.g. filtering"
+          }
+        },
+        {
+          "code": "F15B 21/042",
+          "title": {
+            "ko": null,
+            "en": "Controlling the temperature of the fluid"
+          }
+        },
+        {
+          "code": "F15B 21/0423",
+          "title": {
+            "ko": null,
+            "en": "Cooling"
+          }
+        },
+        {
+          "code": "F15B 21/0427",
+          "title": {
+            "ko": null,
+            "en": "Heating"
+          }
+        },
+        {
+          "code": "F15B 21/044",
+          "title": {
+            "ko": null,
+            "en": "Removal or measurement of undissolved gas, e.g. de-aeration, venting or bleeding"
+          }
+        },
+        {
+          "code": "F15B 21/045",
+          "title": {
+            "ko": null,
+            "en": "Compensating for variations in viscosity or temperature"
+          }
+        },
+        {
+          "code": "F15B 21/047",
+          "title": {
+            "ko": null,
+            "en": "Preventing foaming, churning or cavitation"
+          }
+        },
+        {
+          "code": "F15B 21/048",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for compressed air preparation, e.g. comprising air driers, air condensers, filters, lubricators or pressure regulators"
+          }
+        },
+        {
+          "code": "F15B 21/06",
+          "title": {
+            "ko": null,
+            "en": "Use of special fluids, e.g. liquid metal; Special adaptations of fluid-pressure systems, or control of elements therefor, to the use of such fluids"
+          }
+        },
+        {
+          "code": "F15B 21/08",
+          "title": {
+            "ko": "전기적으로 작동하는 제어수단을 포함하는 서보모터시스템(F15B 21/02가 우선)",
+            "en": "Servomotor systems incorporating electrically- operated control means (F15B0021020000 takes precedence)"
+          }
+        },
+        {
+          "code": "F15B 21/10",
+          "title": {
+            "ko": null,
+            "en": "Delay devices or arrangements"
+          }
+        },
+        {
+          "code": "F15B 21/12",
+          "title": {
+            "ko": null,
+            "en": "Fluid oscillators or pulse generators"
+          }
+        },
+        {
+          "code": "F15B 21/14",
+          "title": {
+            "ko": null,
+            "en": "Energy-recuperation means"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "subclass": "G04G",
+  "title": {
+    "ko": "전자시계",
+    "en": "ELECTRONIC TIME-PIECES"
+  },
+  "definition": {
+    "ko": "타이밍 펄스의 발생 G04G3/00 시각 설정; 동기조정 G04G5/00; 7/00 시간 또는 일자 표시 시각적; 광학적 신호; 음향적 신호 G04G9/00; 11/00; 13/00 미리 선정된 시각에 장치를 조작하는 것 G04G15/00 구조적 세부; 하우징(HOUSING) G04G17/00 전기 파워 회로 G04G19/00 시계에 포함된 입출력 장치 G04G21/00 기타 주제 G04G99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G04G 3/00",
+      "title": {
+        "ko": "타이밍펄스의 발생 (스텝모터의 구동회로 G04C3/14; 시간표준으로서 사용되는 미리 선정된 시간간격의 발생 G04F5/00; 펄스기술 일반 H03K; 발생기의 제어, 동기 또는 안정화 일반 H03L)",
+        "en": "Producing timing pulses (driving circuits for stepping motors G04C0003140000;producing preselected time intervals for use as timing standards G04F0005000000;pulse technique in general H03K;control, synchronisation, or stabilisation of generators in general H03L)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 3/02",
+          "title": {
+            "ko": "고주파 펄스에서 저주파 타이밍 펄스를 도출하는 회로 (펄스주파수 분할기는 일반적으로 H03K 23/00- H03K 29/00)",
+            "en": "Circuits for deriving low frequency timing pulses from pulses of higher frequency (pulse frequency dividers in general H03K0023000000-H03K0029000000)"
+          }
+        },
+        {
+          "code": "G04G 3/04",
+          "title": {
+            "ko": null,
+            "en": "Temperature-compensating arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 5/00",
+      "title": {
+        "ko": "표시시각의 설정, 즉 수정 또는 변경 (무선 제어 시계 G04R)",
+        "en": "Setting, i.e. correcting or changing, the time-indication (radio-controlled time-pieces G04R)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 5/02",
+          "title": {
+            "ko": null,
+            "en": "by temporarily changing the number of pulses per unit time, e.g. quick-feed method"
+          }
+        },
+        {
+          "code": "G04G 5/04",
+          "title": {
+            "ko": null,
+            "en": "by setting each of the displayed values, e.g. date, hour, independently"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 7/00",
+      "title": {
+        "ko": "동기화 (무선 제어 시계 G04R)",
+        "en": "Synchronisation (radio-controlled time-pieces G04R)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04G 9/00",
+      "title": {
+        "ko": null,
+        "en": "Visual time or date indication means"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 9/02",
+          "title": {
+            "ko": null,
+            "en": "by selecting desired characters out of a number of characters or by selecting indicating elements the position of which represent the time, e.g. by using multiplexing techniques"
+          }
+        },
+        {
+          "code": "G04G 9/04",
+          "title": {
+            "ko": null,
+            "en": "by controlling light sources, e.g. electroluminescent diodes"
+          }
+        },
+        {
+          "code": "G04G 9/06",
+          "title": {
+            "ko": null,
+            "en": "using light valves, e.g. liquid crystals"
+          }
+        },
+        {
+          "code": "G04G 9/08",
+          "title": {
+            "ko": null,
+            "en": "by building-up characters using a combination of indicating elements, e.g. by using multiplexing techniques"
+          }
+        },
+        {
+          "code": "G04G 9/10",
+          "title": {
+            "ko": null,
+            "en": "by controlling light sources, e.g. electroluminescent diodes"
+          }
+        },
+        {
+          "code": "G04G 9/12",
+          "title": {
+            "ko": null,
+            "en": "using light valves, e.g. liquid crystals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 11/00",
+      "title": {
+        "ko": null,
+        "en": "Producing optical signals at preselected times"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04G 13/00",
+      "title": {
+        "ko": null,
+        "en": "Producing acoustic time signals"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 13/02",
+          "title": {
+            "ko": null,
+            "en": "at preselected times, e.g. alarm clocks"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 15/00",
+      "title": {
+        "ko": "미리 선정된 시각에 또는 미리 선정된 시간간격의 뒤에 조작되는 수단으로부터 되는 시계 (G04G11/00, G04G13/00이 우선; 펄스 지연회로 H03K5/13; 전자적 시간지연스위치 H03K17/28; 프로그램 완료 후에 자동적으로 그 조작을 종료하는 전자적 시한 프로그램 스위치 H03K17/296; 텔레비젼 신호기록을 위한 시간 프로그래밍H04N 5/761)",
+        "en": "Time-pieces comprising means to be operated at preselected times or after preselected time intervals (G04G0011000000, G04G0013000000 take precedence;pulse delay circuits H03K0005130000;electronic time-delay switches H03K0017280000;electronic time-programme switches which automatically terminate their operation after the programme is completed H03K0017296000;time programming for television signal recording H04N0005761000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04G 17/00",
+      "title": {
+        "ko": "구조적 세부; 하우징(Housing)(무선 제어 시계의 세부, 예. 안테나 G04R 60/00)",
+        "en": "Structural details; Housings (constructional details of radio-controlled time-pieces, e.g. antennas G04R0060000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 17/02",
+          "title": {
+            "ko": null,
+            "en": "Component assemblies"
+          }
+        },
+        {
+          "code": "G04G 17/04",
+          "title": {
+            "ko": null,
+            "en": "Mounting of electronic components"
+          }
+        },
+        {
+          "code": "G04G 17/06",
+          "title": {
+            "ko": null,
+            "en": "Electric connectors, e.g. conductive elastomers"
+          }
+        },
+        {
+          "code": "G04G 17/08",
+          "title": {
+            "ko": null,
+            "en": "Housings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 19/00",
+      "title": {
+        "ko": null,
+        "en": "Electric power supply circuits specially adapted for use in electronic time-pieces"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 19/02",
+          "title": {
+            "ko": null,
+            "en": "Conversion or regulation of current or voltage"
+          }
+        },
+        {
+          "code": "G04G 19/04",
+          "title": {
+            "ko": null,
+            "en": "Capacitive voltage division or multiplication"
+          }
+        },
+        {
+          "code": "G04G 19/06",
+          "title": {
+            "ko": null,
+            "en": "Regulation"
+          }
+        },
+        {
+          "code": "G04G 19/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing voltage drop due to overloading the power supply"
+          }
+        },
+        {
+          "code": "G04G 19/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supplying back-up power"
+          }
+        },
+        {
+          "code": "G04G 19/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing power consumption during storage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 21/00",
+      "title": {
+        "ko": "시계에 포함된 입출력 장치",
+        "en": "Input or output devices integrated in time-pieces"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 21/02",
+          "title": {
+            "ko": null,
+            "en": "Detectors of external physical values, e.g. temperature"
+          }
+        },
+        {
+          "code": "G04G 21/04",
+          "title": {
+            "ko": "무선을 이용한 것(무선 제어 시계 G04R)",
+            "en": "using radio waves (radio-controlled time-pieces G04R)"
+          }
+        },
+        {
+          "code": "G04G 21/06",
+          "title": {
+            "ko": null,
+            "en": "using voice"
+          }
+        },
+        {
+          "code": "G04G 21/08",
+          "title": {
+            "ko": null,
+            "en": "Touch switches specially adapted for time-pieces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

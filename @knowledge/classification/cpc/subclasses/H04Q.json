@@ -1,0 +1,3511 @@
+{
+  "subclass": "H04Q",
+  "title": {
+    "ko": null,
+    "en": "SELECTING (switches, relays, selectors H01H; wireless communication networks H04W)"
+  },
+  "groups": [
+    {
+      "code": "H04Q 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details of selecting apparatus or arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 1/02",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "H04Q 1/18",
+          "title": {
+            "ko": null,
+            "en": "Electrical details"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 3/00",
+      "title": {
+        "ko": null,
+        "en": "Selecting arrangements (H04Q5/00 - H04Q11/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 3/0004",
+          "title": {
+            "ko": null,
+            "en": "{using crossbar selectors in the switching stages}"
+          }
+        },
+        {
+          "code": "H04Q 3/0008",
+          "title": {
+            "ko": null,
+            "en": "{using relay selectors in the switching stages}"
+          }
+        },
+        {
+          "code": "H04Q 3/0016",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements providing connection between exchanges}"
+          }
+        },
+        {
+          "code": "H04Q 3/02",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for selectors responsive to a permutation code"
+          }
+        },
+        {
+          "code": "H04Q 3/04",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for receivers of routing digits"
+          }
+        },
+        {
+          "code": "H04Q 3/18",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for first stage of hunting switching"
+          }
+        },
+        {
+          "code": "H04Q 3/32",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for second or subsequent stages of hunting switching"
+          }
+        },
+        {
+          "code": "H04Q 3/42",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for indirect selecting controlled by common circuits, e.g. register controller, marker"
+          }
+        },
+        {
+          "code": "H04Q 3/58",
+          "title": {
+            "ko": null,
+            "en": "Arrangements providing connection between main exchange and sub-exchange or satellite"
+          }
+        },
+        {
+          "code": "H04Q 3/64",
+          "title": {
+            "ko": null,
+            "en": "Distributing or queueing"
+          }
+        },
+        {
+          "code": "H04Q 3/70",
+          "title": {
+            "ko": null,
+            "en": "Identification of class of calling subscriber"
+          }
+        },
+        {
+          "code": "H04Q 3/72",
+          "title": {
+            "ko": null,
+            "en": "Finding out and indicating number of calling subscriber"
+          }
+        },
+        {
+          "code": "H04Q 3/76",
+          "title": {
+            "ko": null,
+            "en": "Translation from the called subscriber's number to the outgoing or incoming control information"
+          }
+        },
+        {
+          "code": "H04Q 3/78",
+          "title": {
+            "ko": null,
+            "en": "Temporary storage of information of calling or called subscriber (intermediate storage means for telegraphic communication H04L13/08)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 5/00",
+      "title": {
+        "ko": null,
+        "en": "Selecting arrangements wherein two or more subscriber stations are connected by the same line to the exchange"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 5/02",
+          "title": {
+            "ko": null,
+            "en": "with direct connection for all subscribers, i.e. party-line systems (H04Q5/24 takes precedence)"
+          }
+        },
+        {
+          "code": "H04Q 5/18",
+          "title": {
+            "ko": null,
+            "en": "with indirect connection, i.e. through subordinate switching centre"
+          }
+        },
+        {
+          "code": "H04Q 5/24",
+          "title": {
+            "ko": null,
+            "en": "for two-party-line systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 9/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements in telecontrol or telemetry systems for selectively calling a substation from a main station, in which substation desired apparatus is selected for applying a control signal thereto or for obtaining measured values therefrom"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 9/02",
+          "title": {
+            "ko": null,
+            "en": "Automatically-operated arrangements"
+          }
+        },
+        {
+          "code": "H04Q 9/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for synchronous operation"
+          }
+        },
+        {
+          "code": "H04Q 9/06",
+          "title": {
+            "ko": null,
+            "en": "Calling by using amplitude or polarity of DC"
+          }
+        },
+        {
+          "code": "H04Q 9/08",
+          "title": {
+            "ko": null,
+            "en": "Calling by using continuous AC"
+          }
+        },
+        {
+          "code": "H04Q 9/14",
+          "title": {
+            "ko": null,
+            "en": "Calling by using pulses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 11/00",
+      "title": {
+        "ko": null,
+        "en": "Selecting arrangements for multiplex systems (multiplex systems H04J)"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 11/0001",
+          "title": {
+            "ko": null,
+            "en": "{using optical switching}"
+          }
+        },
+        {
+          "code": "H04Q 11/02",
+          "title": {
+            "ko": null,
+            "en": "for frequency-division multiplexing {(H04Q11/0001 takes precedence)}"
+          }
+        },
+        {
+          "code": "H04Q 11/04",
+          "title": {
+            "ko": null,
+            "en": "for time-division multiplexing {(H04Q11/0001 takes precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Constructional details of selecting arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 2201/02",
+          "title": {
+            "ko": null,
+            "en": "Details of frames"
+          }
+        },
+        {
+          "code": "H04Q 2201/04",
+          "title": {
+            "ko": null,
+            "en": "Modular construction"
+          }
+        },
+        {
+          "code": "H04Q 2201/06",
+          "title": {
+            "ko": null,
+            "en": "Cooling arrangements"
+          }
+        },
+        {
+          "code": "H04Q 2201/08",
+          "title": {
+            "ko": null,
+            "en": "Pivotable parts"
+          }
+        },
+        {
+          "code": "H04Q 2201/10",
+          "title": {
+            "ko": null,
+            "en": "Housing details"
+          }
+        },
+        {
+          "code": "H04Q 2201/12",
+          "title": {
+            "ko": null,
+            "en": "Printed circuits"
+          }
+        },
+        {
+          "code": "H04Q 2201/14",
+          "title": {
+            "ko": null,
+            "en": "Screening, grounding or crosstalk reduction details"
+          }
+        },
+        {
+          "code": "H04Q 2201/16",
+          "title": {
+            "ko": null,
+            "en": "Coaxial cable connectors"
+          }
+        },
+        {
+          "code": "H04Q 2201/18",
+          "title": {
+            "ko": null,
+            "en": "Rails"
+          }
+        },
+        {
+          "code": "H04Q 2201/80",
+          "title": {
+            "ko": null,
+            "en": "in specific systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 2209/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements in telecontrol or telemetry systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 2209/10",
+          "title": {
+            "ko": null,
+            "en": "using a centralized architecture"
+          }
+        },
+        {
+          "code": "H04Q 2209/20",
+          "title": {
+            "ko": null,
+            "en": "using a distributed architecture"
+          }
+        },
+        {
+          "code": "H04Q 2209/30",
+          "title": {
+            "ko": null,
+            "en": "using a wired architecture"
+          }
+        },
+        {
+          "code": "H04Q 2209/40",
+          "title": {
+            "ko": null,
+            "en": "using a wireless architecture"
+          }
+        },
+        {
+          "code": "H04Q 2209/50",
+          "title": {
+            "ko": null,
+            "en": "using a mobile data collecting device, e.g. walk by or drive by"
+          }
+        },
+        {
+          "code": "H04Q 2209/60",
+          "title": {
+            "ko": null,
+            "en": "for transmitting utility meters data, i.e. transmission of data from the reader of the utility meter"
+          }
+        },
+        {
+          "code": "H04Q 2209/70",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in the main station, i.e. central controller"
+          }
+        },
+        {
+          "code": "H04Q 2209/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in the sub-station, i.e. sensing device"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 2213/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to selecting arrangements in general and for multiplex systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 2213/001",
+          "title": {
+            "ko": null,
+            "en": "Motorselectors"
+          }
+        },
+        {
+          "code": "H04Q 2213/002",
+          "title": {
+            "ko": null,
+            "en": "Graphical representation"
+          }
+        },
+        {
+          "code": "H04Q 2213/003",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "H04Q 2213/011",
+          "title": {
+            "ko": null,
+            "en": "Periodic optical structures, e.g. gratings, holograms"
+          }
+        },
+        {
+          "code": "H04Q 2213/012",
+          "title": {
+            "ko": null,
+            "en": "Tunable opticalo systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/013",
+          "title": {
+            "ko": null,
+            "en": "Optical shutters, e.g. LCD arrays"
+          }
+        },
+        {
+          "code": "H04Q 2213/014",
+          "title": {
+            "ko": null,
+            "en": "Optical storage, not delay lines"
+          }
+        },
+        {
+          "code": "H04Q 2213/015",
+          "title": {
+            "ko": null,
+            "en": "3D-optical arrangement"
+          }
+        },
+        {
+          "code": "H04Q 2213/016",
+          "title": {
+            "ko": null,
+            "en": "Optical subcarrier modulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/017",
+          "title": {
+            "ko": null,
+            "en": "Optical polarisation"
+          }
+        },
+        {
+          "code": "H04Q 2213/02",
+          "title": {
+            "ko": null,
+            "en": "Relay switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/03",
+          "title": {
+            "ko": null,
+            "en": "PAM"
+          }
+        },
+        {
+          "code": "H04Q 2213/031",
+          "title": {
+            "ko": null,
+            "en": "PCM"
+          }
+        },
+        {
+          "code": "H04Q 2213/032",
+          "title": {
+            "ko": null,
+            "en": "Delta modulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/033",
+          "title": {
+            "ko": null,
+            "en": "Other modulation methods"
+          }
+        },
+        {
+          "code": "H04Q 2213/034",
+          "title": {
+            "ko": null,
+            "en": "Codec; PCM compression"
+          }
+        },
+        {
+          "code": "H04Q 2213/036",
+          "title": {
+            "ko": null,
+            "en": "Series parallel conversion; Parallel bit transmission"
+          }
+        },
+        {
+          "code": "H04Q 2213/037",
+          "title": {
+            "ko": null,
+            "en": "Resonant transfer; Sample and hold"
+          }
+        },
+        {
+          "code": "H04Q 2213/038",
+          "title": {
+            "ko": null,
+            "en": "Optical modulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/04",
+          "title": {
+            "ko": null,
+            "en": "Coordinate switches; Crossbar switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/042",
+          "title": {
+            "ko": null,
+            "en": "Elements placed in matrix relation, not serving as connection switch"
+          }
+        },
+        {
+          "code": "H04Q 2213/046",
+          "title": {
+            "ko": null,
+            "en": "Binary switch (Beta element)"
+          }
+        },
+        {
+          "code": "H04Q 2213/05",
+          "title": {
+            "ko": null,
+            "en": "Software aspects"
+          }
+        },
+        {
+          "code": "H04Q 2213/052",
+          "title": {
+            "ko": null,
+            "en": "Multi-tasking"
+          }
+        },
+        {
+          "code": "H04Q 2213/053",
+          "title": {
+            "ko": null,
+            "en": "Priority levels"
+          }
+        },
+        {
+          "code": "H04Q 2213/054",
+          "title": {
+            "ko": null,
+            "en": "Expert systems, e.g. neural networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/055",
+          "title": {
+            "ko": null,
+            "en": "Linked lists"
+          }
+        },
+        {
+          "code": "H04Q 2213/056",
+          "title": {
+            "ko": null,
+            "en": "Software routines, e.g. finite state machines"
+          }
+        },
+        {
+          "code": "H04Q 2213/058",
+          "title": {
+            "ko": null,
+            "en": "IRQ"
+          }
+        },
+        {
+          "code": "H04Q 2213/061",
+          "title": {
+            "ko": null,
+            "en": "Preselector; Second line switch"
+          }
+        },
+        {
+          "code": "H04Q 2213/062",
+          "title": {
+            "ko": null,
+            "en": "Finder switch (e.g. line finder, call finder)"
+          }
+        },
+        {
+          "code": "H04Q 2213/063",
+          "title": {
+            "ko": null,
+            "en": "Strowger-switch as finder switch"
+          }
+        },
+        {
+          "code": "H04Q 2213/064",
+          "title": {
+            "ko": null,
+            "en": "Cascaded finder or preselector switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/065",
+          "title": {
+            "ko": null,
+            "en": "Group selector"
+          }
+        },
+        {
+          "code": "H04Q 2213/066",
+          "title": {
+            "ko": null,
+            "en": "Switch with two or more wipersets"
+          }
+        },
+        {
+          "code": "H04Q 2213/067",
+          "title": {
+            "ko": null,
+            "en": "Finder switch serving as final selector"
+          }
+        },
+        {
+          "code": "H04Q 2213/068",
+          "title": {
+            "ko": null,
+            "en": "Final selector"
+          }
+        },
+        {
+          "code": "H04Q 2213/069",
+          "title": {
+            "ko": null,
+            "en": "Panel switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/07",
+          "title": {
+            "ko": null,
+            "en": "Call distribution; Call detection; Call signalling by common apparatus"
+          }
+        },
+        {
+          "code": "H04Q 2213/072",
+          "title": {
+            "ko": null,
+            "en": "Sequence circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/076",
+          "title": {
+            "ko": null,
+            "en": "Distributing frame; Cross connect"
+          }
+        },
+        {
+          "code": "H04Q 2213/08",
+          "title": {
+            "ko": null,
+            "en": "Power supply"
+          }
+        },
+        {
+          "code": "H04Q 2213/082",
+          "title": {
+            "ko": null,
+            "en": "Phantom circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/09",
+          "title": {
+            "ko": null,
+            "en": "Subscriber related equipment; Analog terminal"
+          }
+        },
+        {
+          "code": "H04Q 2213/091",
+          "title": {
+            "ko": null,
+            "en": "Indication of kind/number of subscriber"
+          }
+        },
+        {
+          "code": "H04Q 2213/092",
+          "title": {
+            "ko": null,
+            "en": "Scanning of (subscriber) lines, registers, translators"
+          }
+        },
+        {
+          "code": "H04Q 2213/093",
+          "title": {
+            "ko": null,
+            "en": "Personal computer"
+          }
+        },
+        {
+          "code": "H04Q 2213/094",
+          "title": {
+            "ko": null,
+            "en": "Range extender"
+          }
+        },
+        {
+          "code": "H04Q 2213/095",
+          "title": {
+            "ko": null,
+            "en": "User access; PIN code"
+          }
+        },
+        {
+          "code": "H04Q 2213/096",
+          "title": {
+            "ko": null,
+            "en": "Digital subscriber terminal"
+          }
+        },
+        {
+          "code": "H04Q 2213/097",
+          "title": {
+            "ko": null,
+            "en": "Numbering"
+          }
+        },
+        {
+          "code": "H04Q 2213/098",
+          "title": {
+            "ko": null,
+            "en": "Mobile subscriber"
+          }
+        },
+        {
+          "code": "H04Q 2213/099",
+          "title": {
+            "ko": null,
+            "en": "Loop multiplexer (not ISDN BRI/PRI; not 381), e.g. loop splitter"
+          }
+        },
+        {
+          "code": "H04Q 2213/10",
+          "title": {
+            "ko": null,
+            "en": "Register"
+          }
+        },
+        {
+          "code": "H04Q 2213/101",
+          "title": {
+            "ko": null,
+            "en": "Discriminating selectors"
+          }
+        },
+        {
+          "code": "H04Q 2213/102",
+          "title": {
+            "ko": null,
+            "en": "Common translator"
+          }
+        },
+        {
+          "code": "H04Q 2213/103",
+          "title": {
+            "ko": null,
+            "en": "Memories"
+          }
+        },
+        {
+          "code": "H04Q 2213/104",
+          "title": {
+            "ko": null,
+            "en": "Central control; Computer control"
+          }
+        },
+        {
+          "code": "H04Q 2213/106",
+          "title": {
+            "ko": null,
+            "en": "Microcomputer; Microprocessor"
+          }
+        },
+        {
+          "code": "H04Q 2213/107",
+          "title": {
+            "ko": null,
+            "en": "Control equipment for part of the connection"
+          }
+        },
+        {
+          "code": "H04Q 2213/109",
+          "title": {
+            "ko": null,
+            "en": "Initialising; Downloading of parameters or program routines"
+          }
+        },
+        {
+          "code": "H04Q 2213/11",
+          "title": {
+            "ko": null,
+            "en": "Sequence switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/12",
+          "title": {
+            "ko": null,
+            "en": "Call indicator, e.g. number indicator"
+          }
+        },
+        {
+          "code": "H04Q 2213/121",
+          "title": {
+            "ko": null,
+            "en": "Marker"
+          }
+        },
+        {
+          "code": "H04Q 2213/124",
+          "title": {
+            "ko": null,
+            "en": "Pulse distributor"
+          }
+        },
+        {
+          "code": "H04Q 2213/13",
+          "title": {
+            "ko": null,
+            "en": "Charging"
+          }
+        },
+        {
+          "code": "H04Q 2213/13001",
+          "title": {
+            "ko": null,
+            "en": "Step by step switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/13003",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of switching devices"
+          }
+        },
+        {
+          "code": "H04Q 2213/1301",
+          "title": {
+            "ko": null,
+            "en": "Optical transmission, optical switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/13012",
+          "title": {
+            "ko": null,
+            "en": "Hybrid fiber coax, HFC"
+          }
+        },
+        {
+          "code": "H04Q 2213/13016",
+          "title": {
+            "ko": null,
+            "en": "Optical subcarrier modulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/1302",
+          "title": {
+            "ko": null,
+            "en": "Relay switches"
+          }
+        },
+        {
+          "code": "H04Q 2213/1303",
+          "title": {
+            "ko": null,
+            "en": "Pulse amplitude modulation, PAM"
+          }
+        },
+        {
+          "code": "H04Q 2213/13031",
+          "title": {
+            "ko": null,
+            "en": "Pulse code modulation, PCM"
+          }
+        },
+        {
+          "code": "H04Q 2213/13034",
+          "title": {
+            "ko": null,
+            "en": "A/D conversion, code compression/expansion"
+          }
+        },
+        {
+          "code": "H04Q 2213/13036",
+          "title": {
+            "ko": null,
+            "en": "Serial/parallel conversion, parallel bit transmission"
+          }
+        },
+        {
+          "code": "H04Q 2213/13038",
+          "title": {
+            "ko": null,
+            "en": "Optical modulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13039",
+          "title": {
+            "ko": null,
+            "en": "Asymmetrical two-way transmission, e.g. ADSL, HDSL"
+          }
+        },
+        {
+          "code": "H04Q 2213/1304",
+          "title": {
+            "ko": null,
+            "en": "Coordinate switches, crossbar, 4/2 with relays, coupling field"
+          }
+        },
+        {
+          "code": "H04Q 2213/13046",
+          "title": {
+            "ko": null,
+            "en": "Binary switch, β-element"
+          }
+        },
+        {
+          "code": "H04Q 2213/1305",
+          "title": {
+            "ko": null,
+            "en": "Software aspects"
+          }
+        },
+        {
+          "code": "H04Q 2213/13051",
+          "title": {
+            "ko": null,
+            "en": "Software generation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13052",
+          "title": {
+            "ko": null,
+            "en": "Multitasking"
+          }
+        },
+        {
+          "code": "H04Q 2213/13053",
+          "title": {
+            "ko": null,
+            "en": "Priority levels"
+          }
+        },
+        {
+          "code": "H04Q 2213/13054",
+          "title": {
+            "ko": null,
+            "en": "Expert system"
+          }
+        },
+        {
+          "code": "H04Q 2213/13056",
+          "title": {
+            "ko": null,
+            "en": "Routines, finite state machines"
+          }
+        },
+        {
+          "code": "H04Q 2213/13057",
+          "title": {
+            "ko": null,
+            "en": "Object-oriented software"
+          }
+        },
+        {
+          "code": "H04Q 2213/13058",
+          "title": {
+            "ko": null,
+            "en": "Interrupt request"
+          }
+        },
+        {
+          "code": "H04Q 2213/1307",
+          "title": {
+            "ko": null,
+            "en": "Call setup"
+          }
+        },
+        {
+          "code": "H04Q 2213/13072",
+          "title": {
+            "ko": null,
+            "en": "Sequence circuits for call signaling, ACD systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13076",
+          "title": {
+            "ko": null,
+            "en": "Distributing frame, MDF, cross-connect switch"
+          }
+        },
+        {
+          "code": "H04Q 2213/1308",
+          "title": {
+            "ko": null,
+            "en": "Power supply"
+          }
+        },
+        {
+          "code": "H04Q 2213/13082",
+          "title": {
+            "ko": null,
+            "en": "Power supply via phantom line"
+          }
+        },
+        {
+          "code": "H04Q 2213/1309",
+          "title": {
+            "ko": null,
+            "en": "Apparatus individually associated with a subscriber line, line circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/13091",
+          "title": {
+            "ko": null,
+            "en": "CLI, identification of calling line"
+          }
+        },
+        {
+          "code": "H04Q 2213/13092",
+          "title": {
+            "ko": null,
+            "en": "Scanning of subscriber lines, monitoring"
+          }
+        },
+        {
+          "code": "H04Q 2213/13093",
+          "title": {
+            "ko": null,
+            "en": "Personal computer, PC"
+          }
+        },
+        {
+          "code": "H04Q 2213/13094",
+          "title": {
+            "ko": null,
+            "en": "Range extender"
+          }
+        },
+        {
+          "code": "H04Q 2213/13095",
+          "title": {
+            "ko": null,
+            "en": "PIN / Access code, authentication"
+          }
+        },
+        {
+          "code": "H04Q 2213/13096",
+          "title": {
+            "ko": null,
+            "en": "Digital apparatus individually associated with a subscriber line, digital line circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/13097",
+          "title": {
+            "ko": null,
+            "en": "Numbering, addressing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13098",
+          "title": {
+            "ko": null,
+            "en": "Mobile subscriber"
+          }
+        },
+        {
+          "code": "H04Q 2213/13099",
+          "title": {
+            "ko": null,
+            "en": "Loop multiplexer"
+          }
+        },
+        {
+          "code": "H04Q 2213/131",
+          "title": {
+            "ko": null,
+            "en": "Register"
+          }
+        },
+        {
+          "code": "H04Q 2213/13102",
+          "title": {
+            "ko": null,
+            "en": "Common translator"
+          }
+        },
+        {
+          "code": "H04Q 2213/13103",
+          "title": {
+            "ko": null,
+            "en": "Memory"
+          }
+        },
+        {
+          "code": "H04Q 2213/13104",
+          "title": {
+            "ko": null,
+            "en": "Central control, computer control"
+          }
+        },
+        {
+          "code": "H04Q 2213/13106",
+          "title": {
+            "ko": null,
+            "en": "Microprocessor, CPU"
+          }
+        },
+        {
+          "code": "H04Q 2213/13107",
+          "title": {
+            "ko": null,
+            "en": "Control equipment for a part of the connection, distributed control, co-processing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13109",
+          "title": {
+            "ko": null,
+            "en": "Initializing, personal profile"
+          }
+        },
+        {
+          "code": "H04Q 2213/13121",
+          "title": {
+            "ko": null,
+            "en": "Marker"
+          }
+        },
+        {
+          "code": "H04Q 2213/13124",
+          "title": {
+            "ko": null,
+            "en": "Pulse distributor"
+          }
+        },
+        {
+          "code": "H04Q 2213/1313",
+          "title": {
+            "ko": null,
+            "en": "Metering, billing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13134",
+          "title": {
+            "ko": null,
+            "en": "Coin boxes, payphone, prepaid"
+          }
+        },
+        {
+          "code": "H04Q 2213/13136",
+          "title": {
+            "ko": null,
+            "en": "Collect call"
+          }
+        },
+        {
+          "code": "H04Q 2213/13138",
+          "title": {
+            "ko": null,
+            "en": "Least cost routing, LCR"
+          }
+        },
+        {
+          "code": "H04Q 2213/13139",
+          "title": {
+            "ko": null,
+            "en": "Fraud detection/prevention"
+          }
+        },
+        {
+          "code": "H04Q 2213/13141",
+          "title": {
+            "ko": null,
+            "en": "Hunting for free outlet, circuit or channel"
+          }
+        },
+        {
+          "code": "H04Q 2213/13144",
+          "title": {
+            "ko": null,
+            "en": "Searching path through number of switching stages or nodes, e.g. revertive blocking"
+          }
+        },
+        {
+          "code": "H04Q 2213/13145",
+          "title": {
+            "ko": null,
+            "en": "Rerouting upon failure"
+          }
+        },
+        {
+          "code": "H04Q 2213/13146",
+          "title": {
+            "ko": null,
+            "en": "Rerouting upon blocking/overload, rearrangement"
+          }
+        },
+        {
+          "code": "H04Q 2213/13148",
+          "title": {
+            "ko": null,
+            "en": "Maximum profit routing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13149",
+          "title": {
+            "ko": null,
+            "en": "Change of provider, e.g. network or service"
+          }
+        },
+        {
+          "code": "H04Q 2213/1315",
+          "title": {
+            "ko": null,
+            "en": "Call waiting"
+          }
+        },
+        {
+          "code": "H04Q 2213/13152",
+          "title": {
+            "ko": null,
+            "en": "Callback"
+          }
+        },
+        {
+          "code": "H04Q 2213/13156",
+          "title": {
+            "ko": null,
+            "en": "Automatic digit redialling, automatic call retry"
+          }
+        },
+        {
+          "code": "H04Q 2213/1316",
+          "title": {
+            "ko": null,
+            "en": "Service observation, testing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13162",
+          "title": {
+            "ko": null,
+            "en": "Fault indication and localisation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13163",
+          "title": {
+            "ko": null,
+            "en": "Fault alarm"
+          }
+        },
+        {
+          "code": "H04Q 2213/13164",
+          "title": {
+            "ko": null,
+            "en": "Traffic (registration, measurement,...)"
+          }
+        },
+        {
+          "code": "H04Q 2213/13166",
+          "title": {
+            "ko": null,
+            "en": "Fault prevention"
+          }
+        },
+        {
+          "code": "H04Q 2213/13167",
+          "title": {
+            "ko": null,
+            "en": "Redundant apparatus"
+          }
+        },
+        {
+          "code": "H04Q 2213/13168",
+          "title": {
+            "ko": null,
+            "en": "Error Correction"
+          }
+        },
+        {
+          "code": "H04Q 2213/13172",
+          "title": {
+            "ko": null,
+            "en": "Supervisory signals"
+          }
+        },
+        {
+          "code": "H04Q 2213/13173",
+          "title": {
+            "ko": null,
+            "en": "Busy signals"
+          }
+        },
+        {
+          "code": "H04Q 2213/13174",
+          "title": {
+            "ko": null,
+            "en": "Data transmission, file transfer"
+          }
+        },
+        {
+          "code": "H04Q 2213/13175",
+          "title": {
+            "ko": null,
+            "en": "Graphical user interface [GUI], WWW interface, visual indication"
+          }
+        },
+        {
+          "code": "H04Q 2213/13176",
+          "title": {
+            "ko": null,
+            "en": "Common channel signaling, CCS7"
+          }
+        },
+        {
+          "code": "H04Q 2213/13178",
+          "title": {
+            "ko": null,
+            "en": "Control signals"
+          }
+        },
+        {
+          "code": "H04Q 2213/13179",
+          "title": {
+            "ko": null,
+            "en": "Fax, still picture"
+          }
+        },
+        {
+          "code": "H04Q 2213/1318",
+          "title": {
+            "ko": null,
+            "en": "Ringing"
+          }
+        },
+        {
+          "code": "H04Q 2213/1319",
+          "title": {
+            "ko": null,
+            "en": "Amplifier, attenuation circuit, echo suppressor"
+          }
+        },
+        {
+          "code": "H04Q 2213/13191",
+          "title": {
+            "ko": null,
+            "en": "Repeater"
+          }
+        },
+        {
+          "code": "H04Q 2213/13194",
+          "title": {
+            "ko": null,
+            "en": "Four wire connection, transmission"
+          }
+        },
+        {
+          "code": "H04Q 2213/13196",
+          "title": {
+            "ko": null,
+            "en": "Connection circuit/link/trunk/junction, bridge, router, gateway"
+          }
+        },
+        {
+          "code": "H04Q 2213/13199",
+          "title": {
+            "ko": null,
+            "en": "Modem, modulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/132",
+          "title": {
+            "ko": null,
+            "en": "Multiple-zone-metering"
+          }
+        },
+        {
+          "code": "H04Q 2213/13201",
+          "title": {
+            "ko": null,
+            "en": "Change-over of service during connection"
+          }
+        },
+        {
+          "code": "H04Q 2213/13202",
+          "title": {
+            "ko": null,
+            "en": "Network termination [NT]"
+          }
+        },
+        {
+          "code": "H04Q 2213/13203",
+          "title": {
+            "ko": null,
+            "en": "Exchange termination [ET]"
+          }
+        },
+        {
+          "code": "H04Q 2213/13204",
+          "title": {
+            "ko": null,
+            "en": "Protocols"
+          }
+        },
+        {
+          "code": "H04Q 2213/13205",
+          "title": {
+            "ko": null,
+            "en": "Primary rate access, PRI"
+          }
+        },
+        {
+          "code": "H04Q 2213/13206",
+          "title": {
+            "ko": null,
+            "en": "User-to-user signaling, UUS"
+          }
+        },
+        {
+          "code": "H04Q 2213/13208",
+          "title": {
+            "ko": null,
+            "en": "Inverse multiplexing, channel bonding, e.g. TSSI aspects"
+          }
+        },
+        {
+          "code": "H04Q 2213/13209",
+          "title": {
+            "ko": null,
+            "en": "ISDN"
+          }
+        },
+        {
+          "code": "H04Q 2213/13213",
+          "title": {
+            "ko": null,
+            "en": "Counting, timing circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/13214",
+          "title": {
+            "ko": null,
+            "en": "Clock signals"
+          }
+        },
+        {
+          "code": "H04Q 2213/13215",
+          "title": {
+            "ko": null,
+            "en": "Code checking, CRC"
+          }
+        },
+        {
+          "code": "H04Q 2213/13216",
+          "title": {
+            "ko": null,
+            "en": "Code signals, frame structure"
+          }
+        },
+        {
+          "code": "H04Q 2213/13217",
+          "title": {
+            "ko": null,
+            "en": "Cranckback in routing, trombone connection, loopback circuit"
+          }
+        },
+        {
+          "code": "H04Q 2213/1322",
+          "title": {
+            "ko": null,
+            "en": "PBX"
+          }
+        },
+        {
+          "code": "H04Q 2213/13222",
+          "title": {
+            "ko": null,
+            "en": "PBX circuits in public exchange, centrex"
+          }
+        },
+        {
+          "code": "H04Q 2213/13224",
+          "title": {
+            "ko": null,
+            "en": "Off-net subscriber, dial in to/out from network, teleworking"
+          }
+        },
+        {
+          "code": "H04Q 2213/1323",
+          "title": {
+            "ko": null,
+            "en": "Party line"
+          }
+        },
+        {
+          "code": "H04Q 2213/1324",
+          "title": {
+            "ko": null,
+            "en": "Conference call"
+          }
+        },
+        {
+          "code": "H04Q 2213/13242",
+          "title": {
+            "ko": null,
+            "en": "Broadcast, diffusion, multicast, point-to-multipoint (1 : N)"
+          }
+        },
+        {
+          "code": "H04Q 2213/13246",
+          "title": {
+            "ko": null,
+            "en": "Instant speaker's algorithm [ISA]"
+          }
+        },
+        {
+          "code": "H04Q 2213/13248",
+          "title": {
+            "ko": null,
+            "en": "Multimedia"
+          }
+        },
+        {
+          "code": "H04Q 2213/1325",
+          "title": {
+            "ko": null,
+            "en": "Priority service"
+          }
+        },
+        {
+          "code": "H04Q 2213/13251",
+          "title": {
+            "ko": null,
+            "en": "Restricted service, class of service"
+          }
+        },
+        {
+          "code": "H04Q 2213/13256",
+          "title": {
+            "ko": null,
+            "en": "Call screening"
+          }
+        },
+        {
+          "code": "H04Q 2213/1326",
+          "title": {
+            "ko": null,
+            "en": "Consultation call, broker's call, call hold, toggling"
+          }
+        },
+        {
+          "code": "H04Q 2213/1327",
+          "title": {
+            "ko": null,
+            "en": "Release and resetting of connection"
+          }
+        },
+        {
+          "code": "H04Q 2213/13271",
+          "title": {
+            "ko": null,
+            "en": "Forced release"
+          }
+        },
+        {
+          "code": "H04Q 2213/13272",
+          "title": {
+            "ko": null,
+            "en": "Premature release"
+          }
+        },
+        {
+          "code": "H04Q 2213/13274",
+          "title": {
+            "ko": null,
+            "en": "Call rejection, call barring"
+          }
+        },
+        {
+          "code": "H04Q 2213/1328",
+          "title": {
+            "ko": null,
+            "en": "Call transfer, e.g. in PBX"
+          }
+        },
+        {
+          "code": "H04Q 2213/13281",
+          "title": {
+            "ko": null,
+            "en": "Call transfer/forward at night"
+          }
+        },
+        {
+          "code": "H04Q 2213/13282",
+          "title": {
+            "ko": null,
+            "en": "Call forward, follow-me, call diversion"
+          }
+        },
+        {
+          "code": "H04Q 2213/13284",
+          "title": {
+            "ko": null,
+            "en": "Call tracing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13286",
+          "title": {
+            "ko": null,
+            "en": "Direct in-dialling in PBX, DDI"
+          }
+        },
+        {
+          "code": "H04Q 2213/13287",
+          "title": {
+            "ko": null,
+            "en": "Wake-up call service"
+          }
+        },
+        {
+          "code": "H04Q 2213/13288",
+          "title": {
+            "ko": null,
+            "en": "Closed user groups, CUG"
+          }
+        },
+        {
+          "code": "H04Q 2213/1329",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous transfer mode, ATM"
+          }
+        },
+        {
+          "code": "H04Q 2213/13291",
+          "title": {
+            "ko": null,
+            "en": "Frequency division multiplexing, FDM"
+          }
+        },
+        {
+          "code": "H04Q 2213/13292",
+          "title": {
+            "ko": null,
+            "en": "Time division multiplexing, TDM"
+          }
+        },
+        {
+          "code": "H04Q 2213/13293",
+          "title": {
+            "ko": null,
+            "en": "TASI, irregular time division, burst switching"
+          }
+        },
+        {
+          "code": "H04Q 2213/13294",
+          "title": {
+            "ko": null,
+            "en": "CDMA, code division multiplexing, i.e. combinations of H04Q2213/13291 and/or H04Q2213/13292 with space division"
+          }
+        },
+        {
+          "code": "H04Q 2213/13295",
+          "title": {
+            "ko": null,
+            "en": "Wavelength multiplexing, WDM"
+          }
+        },
+        {
+          "code": "H04Q 2213/13296",
+          "title": {
+            "ko": null,
+            "en": "Packet switching, X.25, frame relay"
+          }
+        },
+        {
+          "code": "H04Q 2213/13297",
+          "title": {
+            "ko": null,
+            "en": "Coupling different rates in TDM systems, data rate adaptation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13298",
+          "title": {
+            "ko": null,
+            "en": "Local loop systems, access network"
+          }
+        },
+        {
+          "code": "H04Q 2213/13299",
+          "title": {
+            "ko": null,
+            "en": "Bus"
+          }
+        },
+        {
+          "code": "H04Q 2213/133",
+          "title": {
+            "ko": null,
+            "en": "Multiple-time-metering"
+          }
+        },
+        {
+          "code": "H04Q 2213/13302",
+          "title": {
+            "ko": null,
+            "en": "Magnetic elements"
+          }
+        },
+        {
+          "code": "H04Q 2213/13305",
+          "title": {
+            "ko": null,
+            "en": "Transistors, semiconductors in general"
+          }
+        },
+        {
+          "code": "H04Q 2213/13306",
+          "title": {
+            "ko": null,
+            "en": "Ferro-electric elements"
+          }
+        },
+        {
+          "code": "H04Q 2213/1331",
+          "title": {
+            "ko": null,
+            "en": "Delay elements, shift registers"
+          }
+        },
+        {
+          "code": "H04Q 2213/1332",
+          "title": {
+            "ko": null,
+            "en": "Logic circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/13322",
+          "title": {
+            "ko": null,
+            "en": "Integrated circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/1333",
+          "title": {
+            "ko": null,
+            "en": "Random systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13331",
+          "title": {
+            "ko": null,
+            "en": "Abbreviated dialling"
+          }
+        },
+        {
+          "code": "H04Q 2213/13332",
+          "title": {
+            "ko": null,
+            "en": "Broadband, CATV, dynamic bandwidth allocation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13333",
+          "title": {
+            "ko": null,
+            "en": "Earth satellites"
+          }
+        },
+        {
+          "code": "H04Q 2213/13334",
+          "title": {
+            "ko": null,
+            "en": "Key telephone systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13335",
+          "title": {
+            "ko": null,
+            "en": "Simulation, emulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13336",
+          "title": {
+            "ko": null,
+            "en": "Store & forward, messaging systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13337",
+          "title": {
+            "ko": null,
+            "en": "Picturephone, videotelephony"
+          }
+        },
+        {
+          "code": "H04Q 2213/13338",
+          "title": {
+            "ko": null,
+            "en": "Do-not-disturb"
+          }
+        },
+        {
+          "code": "H04Q 2213/13339",
+          "title": {
+            "ko": null,
+            "en": "Ciphering, encryption, security"
+          }
+        },
+        {
+          "code": "H04Q 2213/1334",
+          "title": {
+            "ko": null,
+            "en": "Configuration within the switch"
+          }
+        },
+        {
+          "code": "H04Q 2213/13341",
+          "title": {
+            "ko": null,
+            "en": "Connections within the switch"
+          }
+        },
+        {
+          "code": "H04Q 2213/13342",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of switches in the network"
+          }
+        },
+        {
+          "code": "H04Q 2213/13343",
+          "title": {
+            "ko": null,
+            "en": "Neural networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/13344",
+          "title": {
+            "ko": null,
+            "en": "Overflow"
+          }
+        },
+        {
+          "code": "H04Q 2213/13345",
+          "title": {
+            "ko": null,
+            "en": "Intelligent networks, SCP"
+          }
+        },
+        {
+          "code": "H04Q 2213/13348",
+          "title": {
+            "ko": null,
+            "en": "Channel/line reservation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13349",
+          "title": {
+            "ko": null,
+            "en": "Network management"
+          }
+        },
+        {
+          "code": "H04Q 2213/13352",
+          "title": {
+            "ko": null,
+            "en": "Self-routing networks, real-time routing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13353",
+          "title": {
+            "ko": null,
+            "en": "Routing table, map memory"
+          }
+        },
+        {
+          "code": "H04Q 2213/1336",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13361",
+          "title": {
+            "ko": null,
+            "en": "Synchronous systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13362",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13363",
+          "title": {
+            "ko": null,
+            "en": "Pulse stuffing, bit stuffing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13367",
+          "title": {
+            "ko": null,
+            "en": "Hierarchical multiplexing, add-drop multiplexing"
+          }
+        },
+        {
+          "code": "H04Q 2213/1337",
+          "title": {
+            "ko": null,
+            "en": "Operator, emergency services"
+          }
+        },
+        {
+          "code": "H04Q 2213/13372",
+          "title": {
+            "ko": null,
+            "en": "Intercepting operator"
+          }
+        },
+        {
+          "code": "H04Q 2213/13374",
+          "title": {
+            "ko": null,
+            "en": "Paging"
+          }
+        },
+        {
+          "code": "H04Q 2213/13375",
+          "title": {
+            "ko": null,
+            "en": "Electronic mail"
+          }
+        },
+        {
+          "code": "H04Q 2213/13376",
+          "title": {
+            "ko": null,
+            "en": "Information service, downloading of information, 0800/0900 services"
+          }
+        },
+        {
+          "code": "H04Q 2213/13377",
+          "title": {
+            "ko": null,
+            "en": "Recorded announcement"
+          }
+        },
+        {
+          "code": "H04Q 2213/13378",
+          "title": {
+            "ko": null,
+            "en": "Speech recognition, speech analysis"
+          }
+        },
+        {
+          "code": "H04Q 2213/1338",
+          "title": {
+            "ko": null,
+            "en": "Inter-exchange connection"
+          }
+        },
+        {
+          "code": "H04Q 2213/13381",
+          "title": {
+            "ko": null,
+            "en": "Pair-gain system, digital loop carriers"
+          }
+        },
+        {
+          "code": "H04Q 2213/13383",
+          "title": {
+            "ko": null,
+            "en": "Hierarchy of switches, main and subexchange, e.g. satellite exchange"
+          }
+        },
+        {
+          "code": "H04Q 2213/13384",
+          "title": {
+            "ko": null,
+            "en": "Inter-PBX traffic, PBX networks, e.g. corporate networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/13385",
+          "title": {
+            "ko": null,
+            "en": "Off-net subscriber"
+          }
+        },
+        {
+          "code": "H04Q 2213/13386",
+          "title": {
+            "ko": null,
+            "en": "Line concentrator"
+          }
+        },
+        {
+          "code": "H04Q 2213/13387",
+          "title": {
+            "ko": null,
+            "en": "Call gapping"
+          }
+        },
+        {
+          "code": "H04Q 2213/13388",
+          "title": {
+            "ko": null,
+            "en": "Saturation signaling systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13389",
+          "title": {
+            "ko": null,
+            "en": "LAN, internet"
+          }
+        },
+        {
+          "code": "H04Q 2213/1339",
+          "title": {
+            "ko": null,
+            "en": "Fixed association of channels"
+          }
+        },
+        {
+          "code": "H04Q 2213/13391",
+          "title": {
+            "ko": null,
+            "en": "Channel assigned to connections"
+          }
+        },
+        {
+          "code": "H04Q 2213/13392",
+          "title": {
+            "ko": null,
+            "en": "Channels assigned according to rules"
+          }
+        },
+        {
+          "code": "H04Q 2213/13393",
+          "title": {
+            "ko": null,
+            "en": "Time slot switching, T-stage, time slot interchanging, TSI"
+          }
+        },
+        {
+          "code": "H04Q 2213/13395",
+          "title": {
+            "ko": null,
+            "en": "Permanent channel, leased line"
+          }
+        },
+        {
+          "code": "H04Q 2213/13396",
+          "title": {
+            "ko": null,
+            "en": "Signaling in general, in-band signalling"
+          }
+        },
+        {
+          "code": "H04Q 2213/13399",
+          "title": {
+            "ko": null,
+            "en": "Virtual channel/circuits"
+          }
+        },
+        {
+          "code": "H04Q 2213/134",
+          "title": {
+            "ko": null,
+            "en": "Coin box"
+          }
+        },
+        {
+          "code": "H04Q 2213/13402",
+          "title": {
+            "ko": null,
+            "en": "Data transmission out of voice frequency band"
+          }
+        },
+        {
+          "code": "H04Q 2213/13405",
+          "title": {
+            "ko": null,
+            "en": "Dual frequency signaling, DTMF"
+          }
+        },
+        {
+          "code": "H04Q 2213/13407",
+          "title": {
+            "ko": null,
+            "en": "Detection of data transmission mode"
+          }
+        },
+        {
+          "code": "H04Q 2213/135",
+          "title": {
+            "ko": null,
+            "en": "Service creation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13501",
+          "title": {
+            "ko": null,
+            "en": "Feature interactions"
+          }
+        },
+        {
+          "code": "H04Q 2213/13502",
+          "title": {
+            "ko": null,
+            "en": "primitives - inc. service-independent building blocks [SIBBs]"
+          }
+        },
+        {
+          "code": "H04Q 2213/13503",
+          "title": {
+            "ko": null,
+            "en": "object-oriented systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/13504",
+          "title": {
+            "ko": null,
+            "en": "client/server architectures"
+          }
+        },
+        {
+          "code": "H04Q 2213/13505",
+          "title": {
+            "ko": null,
+            "en": "management information base [MIB]"
+          }
+        },
+        {
+          "code": "H04Q 2213/13511",
+          "title": {
+            "ko": null,
+            "en": "reservation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13512",
+          "title": {
+            "ko": null,
+            "en": "800 - freefone"
+          }
+        },
+        {
+          "code": "H04Q 2213/13513",
+          "title": {
+            "ko": null,
+            "en": "UPT - personal as opposed to terminal mobility, inc. number portability"
+          }
+        },
+        {
+          "code": "H04Q 2213/13514",
+          "title": {
+            "ko": null,
+            "en": "quality of service - inc. grade of service"
+          }
+        },
+        {
+          "code": "H04Q 2213/13515",
+          "title": {
+            "ko": null,
+            "en": "authentication, authorisation - fraud prevention"
+          }
+        },
+        {
+          "code": "H04Q 2213/13516",
+          "title": {
+            "ko": null,
+            "en": "agents or brokers - user, terminal etc., also OSI agent/managers"
+          }
+        },
+        {
+          "code": "H04Q 2213/13517",
+          "title": {
+            "ko": null,
+            "en": "SLEE - service logic execution"
+          }
+        },
+        {
+          "code": "H04Q 2213/13521",
+          "title": {
+            "ko": null,
+            "en": "fault management"
+          }
+        },
+        {
+          "code": "H04Q 2213/13522",
+          "title": {
+            "ko": null,
+            "en": "traffic management"
+          }
+        },
+        {
+          "code": "H04Q 2213/13523",
+          "title": {
+            "ko": null,
+            "en": "bandwidth management, e.g. capacity management"
+          }
+        },
+        {
+          "code": "H04Q 2213/13524",
+          "title": {
+            "ko": null,
+            "en": "cost management"
+          }
+        },
+        {
+          "code": "H04Q 2213/13525",
+          "title": {
+            "ko": null,
+            "en": "GUI - graphical user interface, inc. for service creation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13526",
+          "title": {
+            "ko": null,
+            "en": "resource management"
+          }
+        },
+        {
+          "code": "H04Q 2213/13527",
+          "title": {
+            "ko": null,
+            "en": "protocols - X.25, TCAP etc."
+          }
+        },
+        {
+          "code": "H04Q 2213/13528",
+          "title": {
+            "ko": null,
+            "en": "SCP architecture"
+          }
+        },
+        {
+          "code": "H04Q 2213/13531",
+          "title": {
+            "ko": null,
+            "en": "virtual networks - inc. PVN"
+          }
+        },
+        {
+          "code": "H04Q 2213/13532",
+          "title": {
+            "ko": null,
+            "en": "mobile networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/13533",
+          "title": {
+            "ko": null,
+            "en": "multivendor and hybrid, e.g. public/private, networks, inc. international"
+          }
+        },
+        {
+          "code": "H04Q 2213/13534",
+          "title": {
+            "ko": null,
+            "en": "Internet - WWW, HTML, browsers etc."
+          }
+        },
+        {
+          "code": "H04Q 2213/13535",
+          "title": {
+            "ko": null,
+            "en": "distributed systems - also domains in service creation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13541",
+          "title": {
+            "ko": null,
+            "en": "routing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13542",
+          "title": {
+            "ko": null,
+            "en": "numbering plans, e.g. number re-allocation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13543",
+          "title": {
+            "ko": null,
+            "en": "network planning, configuration management, e.g. for growth"
+          }
+        },
+        {
+          "code": "H04Q 2213/13544",
+          "title": {
+            "ko": null,
+            "en": "modeling or simulation, particularly of networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/13545",
+          "title": {
+            "ko": null,
+            "en": "monitoring of signaling messages, intelligent network"
+          }
+        },
+        {
+          "code": "H04Q 2213/13546",
+          "title": {
+            "ko": null,
+            "en": "Intelligent Peripheral"
+          }
+        },
+        {
+          "code": "H04Q 2213/13547",
+          "title": {
+            "ko": null,
+            "en": "subscriber, e.g. profile, database, database access"
+          }
+        },
+        {
+          "code": "H04Q 2213/13548",
+          "title": {
+            "ko": null,
+            "en": "call modeling, e.g. Basic Call State Model"
+          }
+        },
+        {
+          "code": "H04Q 2213/13561",
+          "title": {
+            "ko": null,
+            "en": "congestion - inc. overflow"
+          }
+        },
+        {
+          "code": "H04Q 2213/13562",
+          "title": {
+            "ko": null,
+            "en": "blocking"
+          }
+        },
+        {
+          "code": "H04Q 2213/13563",
+          "title": {
+            "ko": null,
+            "en": "call gapping, e.g. to prevent congestion"
+          }
+        },
+        {
+          "code": "H04Q 2213/13564",
+          "title": {
+            "ko": null,
+            "en": "load balancing"
+          }
+        },
+        {
+          "code": "H04Q 2213/13565",
+          "title": {
+            "ko": null,
+            "en": "restoration, e.g. disaster recovery, self-healing networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/13566",
+          "title": {
+            "ko": null,
+            "en": "mediation"
+          }
+        },
+        {
+          "code": "H04Q 2213/13567",
+          "title": {
+            "ko": null,
+            "en": "negotiation, management policy, goals"
+          }
+        },
+        {
+          "code": "H04Q 2213/136",
+          "title": {
+            "ko": null,
+            "en": "Collect call, e.g. 800 service"
+          }
+        },
+        {
+          "code": "H04Q 2213/138",
+          "title": {
+            "ko": null,
+            "en": "Least cost routing"
+          }
+        },
+        {
+          "code": "H04Q 2213/14",
+          "title": {
+            "ko": null,
+            "en": "Busy test, e.g. marking busy"
+          }
+        },
+        {
+          "code": "H04Q 2213/141",
+          "title": {
+            "ko": null,
+            "en": "Hunting for free outlet, circuit, channel"
+          }
+        },
+        {
+          "code": "H04Q 2213/144",
+          "title": {
+            "ko": null,
+            "en": "Searching a free path through cascaded switching stages"
+          }
+        },
+        {
+          "code": "H04Q 2213/145",
+          "title": {
+            "ko": null,
+            "en": "Rerouting, e.g. on failure"
+          }
+        },
+        {
+          "code": "H04Q 2213/146",
+          "title": {
+            "ko": null,
+            "en": "Rearrangement"
+          }
+        },
+        {
+          "code": "H04Q 2213/15",
+          "title": {
+            "ko": null,
+            "en": "Waiting"
+          }
+        },
+        {
+          "code": "H04Q 2213/152",
+          "title": {
+            "ko": null,
+            "en": "Automatic call retry"
+          }
+        },
+        {
+          "code": "H04Q 2213/156",
+          "title": {
+            "ko": null,
+            "en": "Automatic redialling"
+          }
+        },
+        {
+          "code": "H04Q 2213/16",
+          "title": {
+            "ko": null,
+            "en": "Service observation; Fault circuit; Testing"
+          }
+        },
+        {
+          "code": "H04Q 2213/161",
+          "title": {
+            "ko": null,
+            "en": "Blocking or cutoff of faulty apparatus, e.g. timed out"
+          }
+        },
+        {
+          "code": "H04Q 2213/162",
+          "title": {
+            "ko": null,
+            "en": "Fault indication, e.g. localisation"
+          }
+        },
+        {
+          "code": "H04Q 2213/163",
+          "title": {
+            "ko": null,
+            "en": "Fault alarm"
+          }
+        },
+        {
+          "code": "H04Q 2213/164",
+          "title": {
+            "ko": null,
+            "en": "Traffic registration; Adaptation of traffic possibilities"
+          }
+        },
+        {
+          "code": "H04Q 2213/166",
+          "title": {
+            "ko": null,
+            "en": "Prevention of faults"
+          }
+        },
+        {
+          "code": "H04Q 2213/167",
+          "title": {
+            "ko": null,
+            "en": "Redundancy"
+          }
+        },
+        {
+          "code": "H04Q 2213/171",
+          "title": {
+            "ko": null,
+            "en": "Number indicating signals (no dial signals)"
+          }
+        },
+        {
+          "code": "H04Q 2213/172",
+          "title": {
+            "ko": null,
+            "en": "Supervisory signals"
+          }
+        },
+        {
+          "code": "H04Q 2213/173",
+          "title": {
+            "ko": null,
+            "en": "Busy signal"
+          }
+        },
+        {
+          "code": "H04Q 2213/174",
+          "title": {
+            "ko": null,
+            "en": "Data transmission"
+          }
+        },
+        {
+          "code": "H04Q 2213/175",
+          "title": {
+            "ko": null,
+            "en": "Other signals"
+          }
+        },
+        {
+          "code": "H04Q 2213/176",
+          "title": {
+            "ko": null,
+            "en": "Common channel signalling"
+          }
+        },
+        {
+          "code": "H04Q 2213/177",
+          "title": {
+            "ko": null,
+            "en": "Number sending signals, e.g. dialling tone, proceed to send"
+          }
+        },
+        {
+          "code": "H04Q 2213/178",
+          "title": {
+            "ko": null,
+            "en": "Control signals, e.g. also service connection"
+          }
+        },
+        {
+          "code": "H04Q 2213/179",
+          "title": {
+            "ko": null,
+            "en": "Facsimile; Fax, e.g. still picture"
+          }
+        },
+        {
+          "code": "H04Q 2213/18",
+          "title": {
+            "ko": null,
+            "en": "Ringing"
+          }
+        },
+        {
+          "code": "H04Q 2213/182",
+          "title": {
+            "ko": null,
+            "en": "Ring trip"
+          }
+        },
+        {
+          "code": "H04Q 2213/19",
+          "title": {
+            "ko": null,
+            "en": "Echo-cancelling; Hybrid; Amplifier; Attenuator"
+          }
+        },
+        {
+          "code": "H04Q 2213/191",
+          "title": {
+            "ko": null,
+            "en": "Repeater"
+          }
+        },
+        {
+          "code": "H04Q 2213/192",
+          "title": {
+            "ko": null,
+            "en": "Common amplifier for bidirectional traffic"
+          }
+        },
+        {
+          "code": "H04Q 2213/194",
+          "title": {
+            "ko": null,
+            "en": "Four-wire connection or transmission"
+          }
+        },
+        {
+          "code": "H04Q 2213/196",
+          "title": {
+            "ko": null,
+            "en": "Connection-circuit; Trunk; Junction circuit"
+          }
+        },
+        {
+          "code": "H04Q 2213/197",
+          "title": {
+            "ko": null,
+            "en": "Ping-pong transmission"
+          }
+        },
+        {
+          "code": "H04Q 2213/198",
+          "title": {
+            "ko": null,
+            "en": "Temporary associated devices; Pooled adapters"
+          }
+        },
+        {
+          "code": "H04Q 2213/199",
+          "title": {
+            "ko": null,
+            "en": "Modem"
+          }
+        },
+        {
+          "code": "H04Q 2213/20",
+          "title": {
+            "ko": null,
+            "en": "ISDN"
+          }
+        },
+        {
+          "code": "H04Q 2213/201",
+          "title": {
+            "ko": null,
+            "en": "Change-over service"
+          }
+        },
+        {
+          "code": "H04Q 2213/202",
+          "title": {
+            "ko": null,
+            "en": "Network termination [NT]"
+          }
+        },
+        {
+          "code": "H04Q 2213/203",
+          "title": {
+            "ko": null,
+            "en": "Exchange termination [ET]"
+          }
+        },
+        {
+          "code": "H04Q 2213/204",
+          "title": {
+            "ko": null,
+            "en": "ISDN protocol; ISO 7"
+          }
+        },
+        {
+          "code": "H04Q 2213/205",
+          "title": {
+            "ko": null,
+            "en": "Primary rate access"
+          }
+        },
+        {
+          "code": "H04Q 2213/206",
+          "title": {
+            "ko": null,
+            "en": "User-to-user signalling"
+          }
+        },
+        {
+          "code": "H04Q 2213/208",
+          "title": {
+            "ko": null,
+            "en": "Inverse multiplexing; Time slot sequence integrity [TSSI] aspects"
+          }
+        },
+        {
+          "code": "H04Q 2213/21",
+          "title": {
+            "ko": null,
+            "en": "Impulse transmission"
+          }
+        },
+        {
+          "code": "H04Q 2213/211",
+          "title": {
+            "ko": null,
+            "en": "Impulse correction or reshaping"
+          }
+        },
+        {
+          "code": "H04Q 2213/212",
+          "title": {
+            "ko": null,
+            "en": "Absorbing of digits"
+          }
+        },
+        {
+          "code": "H04Q 2213/214",
+          "title": {
+            "ko": null,
+            "en": "Phase shifted impulses; Clock signals; Timing"
+          }
+        },
+        {
+          "code": "H04Q 2213/215",
+          "title": {
+            "ko": null,
+            "en": "Code checking"
+          }
+        },
+        {
+          "code": "H04Q 2213/216",
+          "title": {
+            "ko": null,
+            "en": "Code signals; Framing (not synchronizing)"
+          }
+        },
+        {
+          "code": "H04Q 2213/217",
+          "title": {
+            "ko": null,
+            "en": "Setting of switch by means of pulses"
+          }
+        },
+        {
+          "code": "H04Q 2213/218",
+          "title": {
+            "ko": null,
+            "en": "Bistable relays, e.g. Ferreed"
+          }
+        },
+        {
+          "code": "H04Q 2213/22",
+          "title": {
+            "ko": null,
+            "en": "PBX"
+          }
+        },
+        {
+          "code": "H04Q 2213/222",
+          "title": {
+            "ko": null,
+            "en": "PBX circuits in public exchange (Centrex)"
+          }
+        },
+        {
+          "code": "H04Q 2213/23",
+          "title": {
+            "ko": null,
+            "en": "Partyline"
+          }
+        },
+        {
+          "code": "H04Q 2213/24",
+          "title": {
+            "ko": null,
+            "en": "Conference circuit"
+          }
+        },
+        {
+          "code": "H04Q 2213/242",
+          "title": {
+            "ko": null,
+            "en": "Broadcast and multicast (1:N)"
+          }
+        },
+        {
+          "code": "H04Q 2213/243",
+          "title": {
+            "ko": null,
+            "en": "Con-cast, e.g. multipoint-point (N:1)"
+          }
+        },
+        {
+          "code": "H04Q 2213/246",
+          "title": {
+            "ko": null,
+            "en": "Instant speaker's algorithm [ISA]"
+          }
+        },
+        {
+          "code": "H04Q 2213/25",
+          "title": {
+            "ko": null,
+            "en": "Preferential service"
+          }
+        },
+        {
+          "code": "H04Q 2213/251",
+          "title": {
+            "ko": null,
+            "en": "Restricted service"
+          }
+        },
+        {
+          "code": "H04Q 2213/252",
+          "title": {
+            "ko": null,
+            "en": "Breaking-in on existing connection"
+          }
+        },
+        {
+          "code": "H04Q 2213/256",
+          "title": {
+            "ko": null,
+            "en": "Call screening"
+          }
+        },
+        {
+          "code": "H04Q 2213/26",
+          "title": {
+            "ko": null,
+            "en": "Call-back"
+          }
+        },
+        {
+          "code": "H04Q 2213/27",
+          "title": {
+            "ko": null,
+            "en": "Release"
+          }
+        },
+        {
+          "code": "H04Q 2213/271",
+          "title": {
+            "ko": null,
+            "en": "Forced release"
+          }
+        },
+        {
+          "code": "H04Q 2213/272",
+          "title": {
+            "ko": null,
+            "en": "Premature release"
+          }
+        },
+        {
+          "code": "H04Q 2213/274",
+          "title": {
+            "ko": null,
+            "en": "Call rejection"
+          }
+        },
+        {
+          "code": "H04Q 2213/28",
+          "title": {
+            "ko": null,
+            "en": "Call transfer"
+          }
+        },
+        {
+          "code": "H04Q 2213/281",
+          "title": {
+            "ko": null,
+            "en": "Prepared call transfer, e.g. night service, intercepting service"
+          }
+        },
+        {
+          "code": "H04Q 2213/282",
+          "title": {
+            "ko": null,
+            "en": "Call forwarding"
+          }
+        },
+        {
+          "code": "H04Q 2213/284",
+          "title": {
+            "ko": null,
+            "en": "Call tracing"
+          }
+        },
+        {
+          "code": "H04Q 2213/286",
+          "title": {
+            "ko": null,
+            "en": "Direct inward dialling [PBX]"
+          }
+        },
+        {
+          "code": "H04Q 2213/287",
+          "title": {
+            "ko": null,
+            "en": "Call service, e.g. morning call service"
+          }
+        },
+        {
+          "code": "H04Q 2213/29",
+          "title": {
+            "ko": null,
+            "en": "ATM"
+          }
+        },
+        {
+          "code": "H04Q 2213/291",
+          "title": {
+            "ko": null,
+            "en": "Frequency division multiplex"
+          }
+        },
+        {
+          "code": "H04Q 2213/292",
+          "title": {
+            "ko": null,
+            "en": "Time (de)multiplexing"
+          }
+        },
+        {
+          "code": "H04Q 2213/293",
+          "title": {
+            "ko": null,
+            "en": "Irregular time switching, e.g. TASI; Burst switching"
+          }
+        },
+        {
+          "code": "H04Q 2213/294",
+          "title": {
+            "ko": null,
+            "en": "Other multiplexing systems, e.g. codemultiplex, TDM, FDM, FDM and Space division, TDM and Space division"
+          }
+        },
+        {
+          "code": "H04Q 2213/295",
+          "title": {
+            "ko": null,
+            "en": "Wavelength division multiplex"
+          }
+        },
+        {
+          "code": "H04Q 2213/296",
+          "title": {
+            "ko": null,
+            "en": "Packet switching"
+          }
+        },
+        {
+          "code": "H04Q 2213/297",
+          "title": {
+            "ko": null,
+            "en": "Coupling circuits between different (rate) TDM systems"
+          }
+        },
+        {
+          "code": "H04Q 2213/298",
+          "title": {
+            "ko": null,
+            "en": "Loop or ring system"
+          }
+        },
+        {
+          "code": "H04Q 2213/299",
+          "title": {
+            "ko": null,
+            "en": "Bus"
+          }
+        },
+        {
+          "code": "H04Q 2213/301",
+          "title": {
+            "ko": null,
+            "en": "Tubes and other non-linear elements with 2 electrodes, e.g. diodes"
+          }
+        },
+        {
+          "code": "H04Q 2213/302",
+          "title": {
+            "ko": null,
+            "en": "Magnetic elements"
+          }
+        },
+        {
+          "code": "H04Q 2213/303",
+          "title": {
+            "ko": null,
+            "en": "Tubes and other non-linear elements with more than two electrodes"
+          }
+        },
+        {
+          "code": "H04Q 2213/304",
+          "title": {
+            "ko": null,
+            "en": "Superconductors; Thermistors; Varistors"
+          }
+        },
+        {
+          "code": "H04Q 2213/305",
+          "title": {
+            "ko": null,
+            "en": "Transistors"
+          }
+        },
+        {
+          "code": "H04Q 2213/306",
+          "title": {
+            "ko": null,
+            "en": "Ferro-electric elements"
+          }
+        },
+        {
+          "code": "H04Q 2213/307",
+          "title": {
+            "ko": null,
+            "en": "Hall elements"
+          }
+        },
+        {
+          "code": "H04Q 2213/308",
+          "title": {
+            "ko": null,
+            "en": "Photo conductors; Photo elements"
+          }
+        },
+        {
+          "code": "H04Q 2213/31",
+          "title": {
+            "ko": null,
+            "en": "Delay devices; Circuits, e.g. shift memories"
+          }
+        },
+        {
+          "code": "H04Q 2213/32",
+          "title": {
+            "ko": null,
+            "en": "Logic elements"
+          }
+        },
+        {
+          "code": "H04Q 2213/322",
+          "title": {
+            "ko": null,
+            "en": "Integrated circuit"
+          }
+        },
+        {
+          "code": "H04Q 2213/33",
+          "title": {
+            "ko": null,
+            "en": "Special systems; Special service"
+          }
+        },
+        {
+          "code": "H04Q 2213/331",
+          "title": {
+            "ko": null,
+            "en": "Abbreviated dialing"
+          }
+        },
+        {
+          "code": "H04Q 2213/332",
+          "title": {
+            "ko": null,
+            "en": "Broadband system"
+          }
+        },
+        {
+          "code": "H04Q 2213/333",
+          "title": {
+            "ko": null,
+            "en": "Systems with earth-satellites"
+          }
+        },
+        {
+          "code": "H04Q 2213/334",
+          "title": {
+            "ko": null,
+            "en": "Key telephone system"
+          }
+        },
+        {
+          "code": "H04Q 2213/335",
+          "title": {
+            "ko": null,
+            "en": "Simulation"
+          }
+        },
+        {
+          "code": "H04Q 2213/336",
+          "title": {
+            "ko": null,
+            "en": "Store and forward, e.g. message switching"
+          }
+        },
+        {
+          "code": "H04Q 2213/337",
+          "title": {
+            "ko": null,
+            "en": "Picturephone"
+          }
+        },
+        {
+          "code": "H04Q 2213/338",
+          "title": {
+            "ko": null,
+            "en": "Do not disturb"
+          }
+        },
+        {
+          "code": "H04Q 2213/339",
+          "title": {
+            "ko": null,
+            "en": "Ciphering/encryption"
+          }
+        },
+        {
+          "code": "H04Q 2213/34",
+          "title": {
+            "ko": null,
+            "en": "General scheme; Position of components in an exchange"
+          }
+        },
+        {
+          "code": "H04Q 2213/341",
+          "title": {
+            "ko": null,
+            "en": "Contactbank connections"
+          }
+        },
+        {
+          "code": "H04Q 2213/342",
+          "title": {
+            "ko": null,
+            "en": "General scheme; Position of exchanges"
+          }
+        },
+        {
+          "code": "H04Q 2213/343",
+          "title": {
+            "ko": null,
+            "en": "Neural network"
+          }
+        },
+        {
+          "code": "H04Q 2213/344",
+          "title": {
+            "ko": null,
+            "en": "Overflow"
+          }
+        },
+        {
+          "code": "H04Q 2213/345",
+          "title": {
+            "ko": null,
+            "en": "Intelligent network"
+          }
+        },
+        {
+          "code": "H04Q 2213/346",
+          "title": {
+            "ko": null,
+            "en": "Switch with inverted grouping"
+          }
+        },
+        {
+          "code": "H04Q 2213/347",
+          "title": {
+            "ko": null,
+            "en": "Nodal network"
+          }
+        },
+        {
+          "code": "H04Q 2213/348",
+          "title": {
+            "ko": null,
+            "en": "Reservation of lines/channels"
+          }
+        },
+        {
+          "code": "H04Q 2213/349",
+          "title": {
+            "ko": null,
+            "en": "Network management; Expert system"
+          }
+        },
+        {
+          "code": "H04Q 2213/35",
+          "title": {
+            "ko": null,
+            "en": "Separate control and speech paths, e.g. route-searching planes"
+          }
+        },
+        {
+          "code": "H04Q 2213/352",
+          "title": {
+            "ko": null,
+            "en": "Self-routing switch"
+          }
+        },
+        {
+          "code": "H04Q 2213/353",
+          "title": {
+            "ko": null,
+            "en": "Map memory"
+          }
+        },
+        {
+          "code": "H04Q 2213/36",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation"
+          }
+        },
+        {
+          "code": "H04Q 2213/361",
+          "title": {
+            "ko": null,
+            "en": "Synchronous system"
+          }
+        },
+        {
+          "code": "H04Q 2213/362",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous system"
+          }
+        },
+        {
+          "code": "H04Q 2213/363",
+          "title": {
+            "ko": null,
+            "en": "Bit or pulse stuffing"
+          }
+        },
+        {
+          "code": "H04Q 2213/366",
+          "title": {
+            "ko": null,
+            "en": "Integrated systems, e.g. transparency"
+          }
+        },
+        {
+          "code": "H04Q 2213/367",
+          "title": {
+            "ko": null,
+            "en": "Multiple multiplexing; Hierarchical multiplexing"
+          }
+        },
+        {
+          "code": "H04Q 2213/37",
+          "title": {
+            "ko": null,
+            "en": "Operator"
+          }
+        },
+        {
+          "code": "H04Q 2213/372",
+          "title": {
+            "ko": null,
+            "en": "Intervention by operator; Intercepting operator"
+          }
+        },
+        {
+          "code": "H04Q 2213/374",
+          "title": {
+            "ko": null,
+            "en": "Paging"
+          }
+        },
+        {
+          "code": "H04Q 2213/375",
+          "title": {
+            "ko": null,
+            "en": "Electronic mail"
+          }
+        },
+        {
+          "code": "H04Q 2213/376",
+          "title": {
+            "ko": null,
+            "en": "Information service"
+          }
+        },
+        {
+          "code": "H04Q 2213/377",
+          "title": {
+            "ko": null,
+            "en": "Recorded announcement"
+          }
+        },
+        {
+          "code": "H04Q 2213/378",
+          "title": {
+            "ko": null,
+            "en": "Speech recognition; Speech analysis"
+          }
+        },
+        {
+          "code": "H04Q 2213/38",
+          "title": {
+            "ko": null,
+            "en": "Interexchange connections, e.g. connections of different kinds of networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/381",
+          "title": {
+            "ko": null,
+            "en": "Pair gain system"
+          }
+        },
+        {
+          "code": "H04Q 2213/382",
+          "title": {
+            "ko": null,
+            "en": "Provisions for interexchange traffic in the local exchange"
+          }
+        },
+        {
+          "code": "H04Q 2213/383",
+          "title": {
+            "ko": null,
+            "en": "Main and subexchange, e.g. satellite exchanges"
+          }
+        },
+        {
+          "code": "H04Q 2213/384",
+          "title": {
+            "ko": null,
+            "en": "Inter-PBX traffic; PBX networks"
+          }
+        },
+        {
+          "code": "H04Q 2213/385",
+          "title": {
+            "ko": null,
+            "en": "Traffic in PBX to and from public exchange"
+          }
+        },
+        {
+          "code": "H04Q 2213/386",
+          "title": {
+            "ko": null,
+            "en": "Line concentrator"
+          }
+        },
+        {
+          "code": "H04Q 2213/388",
+          "title": {
+            "ko": null,
+            "en": "Saturation signalling system"
+          }
+        },
+        {
+          "code": "H04Q 2213/39",
+          "title": {
+            "ko": null,
+            "en": "Channels assigned to subscribers"
+          }
+        },
+        {
+          "code": "H04Q 2213/391",
+          "title": {
+            "ko": null,
+            "en": "Channel allocation to connections"
+          }
+        },
+        {
+          "code": "H04Q 2213/392",
+          "title": {
+            "ko": null,
+            "en": "Channel allocation - special rules"
+          }
+        },
+        {
+          "code": "H04Q 2213/393",
+          "title": {
+            "ko": null,
+            "en": "Channel interchanging, e.g. time slot switching"
+          }
+        },
+        {
+          "code": "H04Q 2213/394",
+          "title": {
+            "ko": null,
+            "en": "Channel assignment without time slot switching"
+          }
+        },
+        {
+          "code": "H04Q 2213/395",
+          "title": {
+            "ko": null,
+            "en": "(Semi)permanent channels, e.g. leased lines"
+          }
+        },
+        {
+          "code": "H04Q 2213/396",
+          "title": {
+            "ko": null,
+            "en": "Signalling in general; Special register channel"
+          }
+        },
+        {
+          "code": "H04Q 2213/399",
+          "title": {
+            "ko": null,
+            "en": "Virtual channel allocation"
+          }
+        },
+        {
+          "code": "H04Q 2213/401",
+          "title": {
+            "ko": null,
+            "en": "DC and voltages of different kinds or values"
+          }
+        },
+        {
+          "code": "H04Q 2213/402",
+          "title": {
+            "ko": null,
+            "en": "AC outside voice band"
+          }
+        },
+        {
+          "code": "H04Q 2213/403",
+          "title": {
+            "ko": null,
+            "en": "Voice frequency"
+          }
+        },
+        {
+          "code": "H04Q 2213/405",
+          "title": {
+            "ko": null,
+            "en": "Voice frequency current used for digit selection"
+          }
+        },
+        {
+          "code": "H04Q 2213/407",
+          "title": {
+            "ko": null,
+            "en": "Push-button dialling"
+          }
+        }
+      ]
+    }
+  ]
+}

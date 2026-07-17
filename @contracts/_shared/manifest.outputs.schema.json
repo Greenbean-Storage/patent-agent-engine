@@ -1,0 +1,42 @@
+{
+  "title": "OutputsManifest",
+  "description": "outputs/ namespace 의 인덱스. sessions/{user_id}/{work_id}/outputs/manifest.outputs.yaml. P-A minimal — 생성된 산출물 list. (rename ← documents/)",
+  "type": "object",
+  "required": [
+    "outputs",
+    "last_updated"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "outputs": {
+      "type": "array",
+      "description": "생성된 산출물 list (docx 등).",
+      "items": {
+        "type": "object",
+        "required": [
+          "filename"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "filename": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "generator": {
+            "type": "string"
+          },
+          "mime_type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

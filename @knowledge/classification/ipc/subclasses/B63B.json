@@ -1,0 +1,2840 @@
+{
+  "subclass": "B63B",
+  "title": {
+    "ko": "선박 또는 그 밖의 물에 뜨는 구조물; 선적을 위한 장치(선박의 환기장치, 난방장치, 냉방장치 또는 공기조화 장치 B63J2/00; 준설선 또는 토양 이동 기계의 지지로서 부유성 하부구조 E02F9/06)",
+    "en": "SHIPS OR OTHER WATERBORNE VESSELS; EQUIPMENT FOR SHIPPING (arrangements of vessel ventilation, heating, cooling, or air-conditioning B63J0002000000;floating substructures as supports of dredgers or soil-shifting machines E02F0009060000)"
+  },
+  "definition": {
+    "ko": "선체 유체 역학 또는 유체 정역학 기능 B63B1/00 구조 또는 구성 부품; 조정 가능한 키일(keels); 보호 B63B3/00; B63B41/00; B63B59/00 특정 유형 B63B5/00, B63B7/00 재분; 탱크 청소 B63B11/00; B63B57/00 제조업; 선체 또는 상부구조 개구 B63B15/00; B63B19/00 비움, 밸러스팅; 안정; 안전 B63B13/00, B63B29/16; B63B39/00; B63B43/00 계류, 시프팅; 구명정 B63B21/00; B63B23/00 화물 또는 개인을위한 숙박 시설 B63B25/00, B63B27/00, B63B29/00 신호 또는 조명 장치 또는 해상기구의 배열 또는 조정 B63B45/00, B63B49/00 선박 세부 정보 및 액세서리 B63B17/00 선박 설계 또는 예측 수행 B63B71/00 빌딩 또는 조립 B63B73/00 모니터 속성 또는 작동 매개 변수 B63B79/00 수리 또는 유지 B63B81/00 재건축 또는 보강 B63B83/00 해체 또는 폐기 B63B85/00 부유성 해양 구조물 건물 또는 조립 B63B75/00 부력을 사용하여 현장에서 설치 또는 이송 B63B77/00 수상 스포츠 보드; 그를 위한 부속품 B63B32/00 수상 스포츠 또는 레저에 적합한 선박; 수상 스포츠 또는 레저에 적합한 신체지지 장치 B63B34/00 특정 목적을 위해 적용된 선박 또는 유사한 플로팅 구조물; 그리고 달리 분류되지 않는 것 B63B35/00 부이; 마킹 탐색 경로 B63B22/00; B63B51/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B63B 1/00",
+      "title": {
+        "ko": "선체 또는 수중익(水中翼)의 유체역학적 또는 유체정력학적 특징(잠수함 특유의 선체 B63B 3/13; 키일 B63B 3/38)",
+        "en": "Hydrodynamic or hydrostatic features of hulls or of hydrofoils (hulls peculiar to submarines B63B0003130000;keels B63B0003380000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 1/02",
+          "title": {
+            "ko": "주로 수위의 변화에 의하여 양력이 유기되는 것(B63B 1/16이 우선)",
+            "en": "deriving lift mainly from water displacement (B63B0001160000 takes precedence)"
+          }
+        },
+        {
+          "code": "B63B 1/04",
+          "title": {
+            "ko": null,
+            "en": "with single hull"
+          }
+        },
+        {
+          "code": "B63B 1/06",
+          "title": {
+            "ko": null,
+            "en": "Shape of fore part"
+          }
+        },
+        {
+          "code": "B63B 1/08",
+          "title": {
+            "ko": null,
+            "en": "Shape of aft part"
+          }
+        },
+        {
+          "code": "B63B 1/10",
+          "title": {
+            "ko": null,
+            "en": "with multiple hulls"
+          }
+        },
+        {
+          "code": "B63B 1/12",
+          "title": {
+            "ko": null,
+            "en": "the hulls being interconnected rigidly"
+          }
+        },
+        {
+          "code": "B63B 1/14",
+          "title": {
+            "ko": null,
+            "en": "the hulls being interconnected resiliently"
+          }
+        },
+        {
+          "code": "B63B 1/16",
+          "title": {
+            "ko": "유체역학적 힘에 의하여 부가 양력이 유기되는 것",
+            "en": "deriving additional lift from hydrodynamic forces"
+          }
+        },
+        {
+          "code": "B63B 1/18",
+          "title": {
+            "ko": "수상 활주형의 것",
+            "en": "of hydroplane type"
+          }
+        },
+        {
+          "code": "B63B 1/20",
+          "title": {
+            "ko": "일개소 이상의 활주면을 갖는 것(B63B 1/22가 우선)",
+            "en": "having more than one planing surface (B63B0001220000 takes precedence)"
+          }
+        },
+        {
+          "code": "B63B 1/22",
+          "title": {
+            "ko": null,
+            "en": "with adjustable planing surfaces"
+          }
+        },
+        {
+          "code": "B63B 1/24",
+          "title": {
+            "ko": "수중익선 유형의 것(수상 스포츠 보드용 수중익선 B63B32/60; 다른 수상 스포츠 신체 지지 장치용 수중익선 B63B34/40)",
+            "en": "of hydrofoil type   (hydrofoils for water sports boards B63B0032600000;  hydrofoils for other water sports body supporting devices B63B0034400000)"
+          }
+        },
+        {
+          "code": "B63B 1/26",
+          "title": {
+            "ko": "1개 이상의 수중익을 갖는 것(B63B 1/28가 우선)",
+            "en": "having more than one hydrofoil (B63B0001280000 takes precedence)"
+          }
+        },
+        {
+          "code": "B63B 1/28",
+          "title": {
+            "ko": null,
+            "en": "with movable hydrofoils"
+          }
+        },
+        {
+          "code": "B63B 1/30",
+          "title": {
+            "ko": null,
+            "en": "retracting or folding"
+          }
+        },
+        {
+          "code": "B63B 1/32",
+          "title": {
+            "ko": null,
+            "en": "Other means for varying the inherent hydrodynamic characteristics of hulls"
+          }
+        },
+        {
+          "code": "B63B 1/34",
+          "title": {
+            "ko": null,
+            "en": "by reducing surface friction"
+          }
+        },
+        {
+          "code": "B63B 1/36",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means"
+          }
+        },
+        {
+          "code": "B63B 1/38",
+          "title": {
+            "ko": null,
+            "en": "using air bubbles or air layers"
+          }
+        },
+        {
+          "code": "B63B 1/40",
+          "title": {
+            "ko": null,
+            "en": "by diminishing wave resistance"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 3/00",
+      "title": {
+        "ko": "구조 또는 구성 요소에 특징이 있는 선체(비금속제의 선체 B63B5/00; 설계,빌딩,보수 또는 수리 방법 B63B71/00~B63B83/00)",
+        "en": "Hulls characterised by their structure or component parts (non-metallic hulls B63B0005000000; designing, building, maintaining or repairing methods B63B0071000000-B63B0083000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 3/02",
+          "title": {
+            "ko": null,
+            "en": "Hulls assembled from prefabricated sub-units"
+          }
+        },
+        {
+          "code": "B63B 3/04",
+          "title": {
+            "ko": null,
+            "en": "with permanently-connected sub-units"
+          }
+        },
+        {
+          "code": "B63B 3/06",
+          "title": {
+            "ko": null,
+            "en": "the sub-units being substantially identical"
+          }
+        },
+        {
+          "code": "B63B 3/08",
+          "title": {
+            "ko": null,
+            "en": "with detachably-connected sub-units"
+          }
+        },
+        {
+          "code": "B63B 3/09",
+          "title": {
+            "ko": null,
+            "en": "Hulls constructed of non-magnetic metal"
+          }
+        },
+        {
+          "code": "B63B 3/10",
+          "title": {
+            "ko": null,
+            "en": "Armoured hulls"
+          }
+        },
+        {
+          "code": "B63B 3/12",
+          "title": {
+            "ko": null,
+            "en": "Frameless hulls"
+          }
+        },
+        {
+          "code": "B63B 3/13",
+          "title": {
+            "ko": null,
+            "en": "Hulls built to withstand hydrostatic pressure when fully submerged, e.g. submarine hulls"
+          }
+        },
+        {
+          "code": "B63B 3/14",
+          "title": {
+            "ko": "선체의 부분(장갑선체 B63B 3/10)",
+            "en": "Hull parts (hull armour B63B0003100000)"
+          }
+        },
+        {
+          "code": "B63B 3/16",
+          "title": {
+            "ko": "외판(재화문 \"port\" 또는 그것의 폐쇄 B63B 19/00 )",
+            "en": "Shells (ports or closures therefor B63B0019000000)"
+          }
+        },
+        {
+          "code": "B63B 3/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by being formed predominantly of parts that may be developed into plane surfaces"
+          }
+        },
+        {
+          "code": "B63B 3/20",
+          "title": {
+            "ko": null,
+            "en": "of double type"
+          }
+        },
+        {
+          "code": "B63B 3/22",
+          "title": {
+            "ko": null,
+            "en": "with corrugations"
+          }
+        },
+        {
+          "code": "B63B 3/24",
+          "title": {
+            "ko": null,
+            "en": "Means for diminishing external ridges or protrusions"
+          }
+        },
+        {
+          "code": "B63B 3/26",
+          "title": {
+            "ko": null,
+            "en": "Frames"
+          }
+        },
+        {
+          "code": "B63B 3/28",
+          "title": {
+            "ko": null,
+            "en": "of transverse type; Stringers"
+          }
+        },
+        {
+          "code": "B63B 3/30",
+          "title": {
+            "ko": null,
+            "en": "Bilge knees; Beam knees"
+          }
+        },
+        {
+          "code": "B63B 3/32",
+          "title": {
+            "ko": null,
+            "en": "Web frames; Web beams"
+          }
+        },
+        {
+          "code": "B63B 3/34",
+          "title": {
+            "ko": null,
+            "en": "of longitudinal type; Bulkhead connections"
+          }
+        },
+        {
+          "code": "B63B 3/36",
+          "title": {
+            "ko": null,
+            "en": "Combined frame systems"
+          }
+        },
+        {
+          "code": "B63B 3/38",
+          "title": {
+            "ko": "키일 “Keel\"(가동형 키일 B63B 41/00 )",
+            "en": "Keels (movable keels B63B0041000000)"
+          }
+        },
+        {
+          "code": "B63B 3/40",
+          "title": {
+            "ko": null,
+            "en": "Stern posts; Stern frames"
+          }
+        },
+        {
+          "code": "B63B 3/42",
+          "title": {
+            "ko": null,
+            "en": "Shaft brackets"
+          }
+        },
+        {
+          "code": "B63B 3/44",
+          "title": {
+            "ko": "빌지키일 \"Bilge Keel\"(안전익 B63B 39/06)",
+            "en": "Bilge keels (stabilising aspect B63B0039060000)"
+          }
+        },
+        {
+          "code": "B63B 3/46",
+          "title": {
+            "ko": null,
+            "en": "Stems"
+          }
+        },
+        {
+          "code": "B63B 3/48",
+          "title": {
+            "ko": "갑판(판자 대기 B63B 5/06)",
+            "en": "Decks (planking B63B0005060000)"
+          }
+        },
+        {
+          "code": "B63B 3/50",
+          "title": {
+            "ko": null,
+            "en": "of vaulted type"
+          }
+        },
+        {
+          "code": "B63B 3/52",
+          "title": {
+            "ko": null,
+            "en": "Pillars; Deck girders"
+          }
+        },
+        {
+          "code": "B63B 3/54",
+          "title": {
+            "ko": null,
+            "en": "Hatch openings"
+          }
+        },
+        {
+          "code": "B63B 3/56",
+          "title": {
+            "ko": "격벽 격벽 보강재(수밀도어의 사용 B63B 43/24)",
+            "en": "Bulkheads; Bulkhead reinforcements (arrangements of watertight doors B63B0043240000)"
+          }
+        },
+        {
+          "code": "B63B 3/58",
+          "title": {
+            "ko": null,
+            "en": "with flat plating"
+          }
+        },
+        {
+          "code": "B63B 3/60",
+          "title": {
+            "ko": null,
+            "en": "with curved or corrugated plating"
+          }
+        },
+        {
+          "code": "B63B 3/62",
+          "title": {
+            "ko": null,
+            "en": "Double bottoms; Tank tops"
+          }
+        },
+        {
+          "code": "B63B 3/64",
+          "title": {
+            "ko": null,
+            "en": "Keelsons"
+          }
+        },
+        {
+          "code": "B63B 3/66",
+          "title": {
+            "ko": null,
+            "en": "Gratings"
+          }
+        },
+        {
+          "code": "B63B 3/68",
+          "title": {
+            "ko": null,
+            "en": "Panellings; Linings, e.g. for insulating purposes"
+          }
+        },
+        {
+          "code": "B63B 3/70",
+          "title": {
+            "ko": null,
+            "en": "Reinforcements for carrying localised loads, e.g. propulsion plant, guns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Hulls characterised by their construction of non-metallic material"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 5/02",
+          "title": {
+            "ko": null,
+            "en": "made predominantly of wood"
+          }
+        },
+        {
+          "code": "B63B 5/04",
+          "title": {
+            "ko": null,
+            "en": "Carcasses"
+          }
+        },
+        {
+          "code": "B63B 5/06",
+          "title": {
+            "ko": null,
+            "en": "Decks; Shells"
+          }
+        },
+        {
+          "code": "B63B 5/08",
+          "title": {
+            "ko": null,
+            "en": "with single-layer planking"
+          }
+        },
+        {
+          "code": "B63B 5/10",
+          "title": {
+            "ko": null,
+            "en": "with multiple-layer planking"
+          }
+        },
+        {
+          "code": "B63B 5/12",
+          "title": {
+            "ko": null,
+            "en": "made predominantly of wood with metal reinforcement, i.e. composite construction"
+          }
+        },
+        {
+          "code": "B63B 5/14",
+          "title": {
+            "ko": null,
+            "en": "made predominantly of concrete, e.g. reinforced"
+          }
+        },
+        {
+          "code": "B63B 5/16",
+          "title": {
+            "ko": null,
+            "en": "monolithic"
+          }
+        },
+        {
+          "code": "B63B 5/18",
+          "title": {
+            "ko": null,
+            "en": "built-up from elements"
+          }
+        },
+        {
+          "code": "B63B 5/20",
+          "title": {
+            "ko": null,
+            "en": "in combination with elements of other materials"
+          }
+        },
+        {
+          "code": "B63B 5/22",
+          "title": {
+            "ko": null,
+            "en": "with reinforcing members external to shell"
+          }
+        },
+        {
+          "code": "B63B 5/24",
+          "title": {
+            "ko": null,
+            "en": "made predominantly of plastics"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 7/00",
+      "title": {
+        "ko": "접이식, 절첩식, 팽창식 또는 이와 유사한 선박(접이식, 절첩식 또는 팽창식 수상 스포츠 보드 B63B32/53; 접이식, 절첩식 또는 팽창식 카누, 카약 등 B63B34/23; 절첩식 부선 B63B35/36)",
+        "en": "Collapsible, foldable, inflatable or like vessels (collapsible, foldable or inflatable water sports boards B63B0032530000;  collapsible, foldable or inflatable canoes, kayaks or the like B63B0034230000;  foldable pontoons B63B0035360000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 7/02",
+          "title": {
+            "ko": "강성 부분만으로 되어 있는 것",
+            "en": "comprising only rigid parts"
+          }
+        },
+        {
+          "code": "B63B 7/04",
+          "title": {
+            "ko": "구분된 것(분할된 수상 스포츠 보드 B63B32/53; 분할된 카누, 카약 등 B63B34/23)",
+            "en": "sectionalised   (sectionalised water sports boards B63B0032530000;  sectionalised canoes, kayaks or the like B63B0034230000)"
+          }
+        },
+        {
+          "code": "B63B 7/06",
+          "title": {
+            "ko": "강성이 없는 재료로 되어 있는 부분을 갖는 것",
+            "en": "having parts of non-rigid material"
+          }
+        },
+        {
+          "code": "B63B 7/08",
+          "title": {
+            "ko": "팽창 가능한 것 (팽창 가능한 수상 스포츠 보드 B63B32/51; 카누, 카약 등 팽창식 또는 일부분 팽창이 가능한 것 B63B34/22)",
+            "en": "Inflatable   (inflatable water sports boards B63B0032510000; canoes, kayaks or the like being inflatable or having inflatable parts B63B0034220000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 11/00",
+      "title": {
+        "ko": "선체의 내부 구획(격벽부의 구조 B63B 3/56)",
+        "en": "Interior subdivision of hulls (bulkhead space construction B63B0003560000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 11/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of bulkheads, e.g. defining cargo spaces"
+          }
+        },
+        {
+          "code": "B63B 11/04",
+          "title": {
+            "ko": "연료고 또는 발라스트 탱크의 구조적 특징, 예. 탄성벽을 갖는 것",
+            "en": "Constructional features of bunkers or ballast tanks, e.g. with elastic walls"
+          }
+        },
+        {
+          "code": "B63B 11/06",
+          "title": {
+            "ko": null,
+            "en": "Propeller-shaft tunnels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Conduits for emptying or ballasting; Self-bailing equipment; Scuppers"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Ports for passing water through vessels' sides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Superstructures; Arrangements or adaptations of masts"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 15/02",
+          "title": {
+            "ko": null,
+            "en": "Staying of masts or of other superstructures"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Vessels parts, details, or accessories, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 17/02",
+          "title": {
+            "ko": null,
+            "en": "Awnings"
+          }
+        },
+        {
+          "code": "B63B 17/04",
+          "title": {
+            "ko": null,
+            "en": "Stanchions; Guard-rails"
+          }
+        },
+        {
+          "code": "B63B 17/06",
+          "title": {
+            "ko": null,
+            "en": "Refuse discharge, e.g. for ash"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 19/00",
+      "title": {
+        "ko": "문, 창, 현창 또는 다른 개구 또는 뚜껑의 장치 또는 설비(배수구 B63B 13/00; 격벽용의 수밀문 장치 B63B 43/24)",
+        "en": "Arrangements or adaptations of ports, doors, windows, port-holes, or other openings or covers (scuppers B63B0013000000;arrangements of watertight doors in bulkheads B63B0043240000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 19/02",
+          "title": {
+            "ko": null,
+            "en": "Windows specially adapted for ships or other waterborne vessels, e.g. clear-view screens or portholes"
+          }
+        },
+        {
+          "code": "B63B 19/04",
+          "title": {
+            "ko": null,
+            "en": "Air-catching equipment related to windows or port-holes"
+          }
+        },
+        {
+          "code": "B63B 19/06",
+          "title": {
+            "ko": null,
+            "en": "readily detachable"
+          }
+        },
+        {
+          "code": "B63B 19/08",
+          "title": {
+            "ko": "선박의 현측(舷側)의 재화문 또는 그것에 유사한 개구(선박의 현측(舷側)에 따른 유수를 위한 성문(城門))",
+            "en": "Ports or like openings in vessels' sides (ports for passing water through vessels' sides B63B0013020000)"
+          }
+        },
+        {
+          "code": "B63B 19/10",
+          "title": {
+            "ko": null,
+            "en": "Coal ports"
+          }
+        },
+        {
+          "code": "B63B 19/12",
+          "title": {
+            "ko": "해치 장치 해치(해치 코오밍 B63B 3/54)",
+            "en": "Hatches; Hatchways (hatch coamings B63B0003540000)"
+          }
+        },
+        {
+          "code": "B63B 19/14",
+          "title": {
+            "ko": null,
+            "en": "Hatch covers"
+          }
+        },
+        {
+          "code": "B63B 19/16",
+          "title": {
+            "ko": null,
+            "en": "with detachable boards"
+          }
+        },
+        {
+          "code": "B63B 19/18",
+          "title": {
+            "ko": null,
+            "en": "slidable"
+          }
+        },
+        {
+          "code": "B63B 19/19",
+          "title": {
+            "ko": null,
+            "en": "foldable"
+          }
+        },
+        {
+          "code": "B63B 19/197",
+          "title": {
+            "ko": null,
+            "en": "actuated by fluid pressure"
+          }
+        },
+        {
+          "code": "B63B 19/203",
+          "title": {
+            "ko": null,
+            "en": "actuated by cables or the like"
+          }
+        },
+        {
+          "code": "B63B 19/21",
+          "title": {
+            "ko": null,
+            "en": "of roll-up type"
+          }
+        },
+        {
+          "code": "B63B 19/22",
+          "title": {
+            "ko": null,
+            "en": "Hatch beams"
+          }
+        },
+        {
+          "code": "B63B 19/24",
+          "title": {
+            "ko": null,
+            "en": "Hatch fastenings, e.g. cleats"
+          }
+        },
+        {
+          "code": "B63B 19/26",
+          "title": {
+            "ko": null,
+            "en": "Gaskets; Draining means"
+          }
+        },
+        {
+          "code": "B63B 19/28",
+          "title": {
+            "ko": null,
+            "en": "Other safety devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 21/00",
+      "title": {
+        "ko": "계선, 이동, 예선 또는 압선용 장치; 정박(Anchoring) (동적 정박 B63H25/00; 해안, 항구 또는 다른 고정된 해양 구조물에 선적하기 위한 장비, 예. 랜딩(landing) 목적용의 것, E02B)",
+        "en": "Tying-up; Shifting, towing, or pushing equipment; Anchoring (dynamic anchoring B63H0025000000;equipment for shipping on coasts, in harbours or on other fixed marine structures, e.g. for landing purposes, E02B)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 21/02",
+          "title": {
+            "ko": null,
+            "en": "Magnetic mooring equipment"
+          }
+        },
+        {
+          "code": "B63B 21/04",
+          "title": {
+            "ko": null,
+            "en": "Fastening or guiding equipment for chains, ropes, hawsers, or the like"
+          }
+        },
+        {
+          "code": "B63B 21/06",
+          "title": {
+            "ko": null,
+            "en": "Bollards"
+          }
+        },
+        {
+          "code": "B63B 21/08",
+          "title": {
+            "ko": null,
+            "en": "Clamping devices"
+          }
+        },
+        {
+          "code": "B63B 21/10",
+          "title": {
+            "ko": null,
+            "en": "Fairleads"
+          }
+        },
+        {
+          "code": "B63B 21/12",
+          "title": {
+            "ko": null,
+            "en": "Rat guards"
+          }
+        },
+        {
+          "code": "B63B 21/14",
+          "title": {
+            "ko": null,
+            "en": "Hawse-holes; Hawse-pipes; Hawse-hole closures"
+          }
+        },
+        {
+          "code": "B63B 21/16",
+          "title": {
+            "ko": null,
+            "en": "using winches"
+          }
+        },
+        {
+          "code": "B63B 21/18",
+          "title": {
+            "ko": null,
+            "en": "Stoppers for anchor chains"
+          }
+        },
+        {
+          "code": "B63B 21/20",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of chains, ropes, hawsers, or the like, or of parts thereof"
+          }
+        },
+        {
+          "code": "B63B 21/22",
+          "title": {
+            "ko": null,
+            "en": "Handling or lashing anchors"
+          }
+        },
+        {
+          "code": "B63B 21/24",
+          "title": {
+            "ko": null,
+            "en": "Anchors"
+          }
+        },
+        {
+          "code": "B63B 21/26",
+          "title": {
+            "ko": null,
+            "en": "securing to bed"
+          }
+        },
+        {
+          "code": "B63B 21/27",
+          "title": {
+            "ko": null,
+            "en": "by suction"
+          }
+        },
+        {
+          "code": "B63B 21/28",
+          "title": {
+            "ko": null,
+            "en": "driven-in by explosive charge"
+          }
+        },
+        {
+          "code": "B63B 21/29",
+          "title": {
+            "ko": null,
+            "en": "by weight, e.g. flukeless weight anchors"
+          }
+        },
+        {
+          "code": "B63B 21/30",
+          "title": {
+            "ko": null,
+            "en": "rigid when in use"
+          }
+        },
+        {
+          "code": "B63B 21/32",
+          "title": {
+            "ko": null,
+            "en": "with one fluke"
+          }
+        },
+        {
+          "code": "B63B 21/34",
+          "title": {
+            "ko": null,
+            "en": "with two or more flukes"
+          }
+        },
+        {
+          "code": "B63B 21/36",
+          "title": {
+            "ko": null,
+            "en": "foldable"
+          }
+        },
+        {
+          "code": "B63B 21/38",
+          "title": {
+            "ko": null,
+            "en": "pivoting when in use"
+          }
+        },
+        {
+          "code": "B63B 21/40",
+          "title": {
+            "ko": null,
+            "en": "with one fluke"
+          }
+        },
+        {
+          "code": "B63B 21/42",
+          "title": {
+            "ko": null,
+            "en": "of ploughshare type"
+          }
+        },
+        {
+          "code": "B63B 21/44",
+          "title": {
+            "ko": null,
+            "en": "with two or more flukes"
+          }
+        },
+        {
+          "code": "B63B 21/46",
+          "title": {
+            "ko": null,
+            "en": "with variable, e.g. sliding, connection to chain"
+          }
+        },
+        {
+          "code": "B63B 21/48",
+          "title": {
+            "ko": null,
+            "en": "Sea-anchors; Drogues"
+          }
+        },
+        {
+          "code": "B63B 21/50",
+          "title": {
+            "ko": null,
+            "en": "Anchoring arrangements for special vessels, e.g. for floating drilling platforms or dredgers"
+          }
+        },
+        {
+          "code": "B63B 21/54",
+          "title": {
+            "ko": null,
+            "en": "Boat-hooks or the like"
+          }
+        },
+        {
+          "code": "B63B 21/56",
+          "title": {
+            "ko": "예항 또는 압항의 장치(예선 B63B35/66; 수상 스포츠용 견인 장치 B63B34/60)",
+            "en": "Towing or pushing equipment (tugs B63B0035660000;towing arrangements for water sports use B63B0034600000)"
+          }
+        },
+        {
+          "code": "B63B 21/58",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of hooks for towing; Towing-hook mountings"
+          }
+        },
+        {
+          "code": "B63B 21/60",
+          "title": {
+            "ko": null,
+            "en": "Quick releases"
+          }
+        },
+        {
+          "code": "B63B 21/62",
+          "title": {
+            "ko": null,
+            "en": "characterised by moving of more than one vessel"
+          }
+        },
+        {
+          "code": "B63B 21/64",
+          "title": {
+            "ko": "수로를 따라서 지상의 통로상을 전진 이동하는 차량 또는 동물에 의해서 선박을 끌거나 밀기위한 장치(보트 후크 또는 그것에 유사한 것 B63B 21/54)",
+            "en": "Equipment for towing or pushing vessels by vehicles or beings moving forward on ground-based paths along water-way (boat-hooks or the like B63B0021540000)"
+          }
+        },
+        {
+          "code": "B63B 21/66",
+          "title": {
+            "ko": null,
+            "en": "Equipment specially adapted for towing underwater objects or vessels, e.g. fairings for tow-cables"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 22/00",
+      "title": {
+        "ko": "부이(부표, Buoys) (수중물 위치를 지시하는 장치는 B63C 7/26; 구명부이(부표, Buoys), 예. 부환 B63C 9/08)",
+        "en": "Buoys (means for indicating the location of underwater objects B63C0007260000;life-buoys, e.g. rings, B63C0009080000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 22/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for mooring a vessel"
+          }
+        },
+        {
+          "code": "B63B 22/04",
+          "title": {
+            "ko": null,
+            "en": "Anchoring arrangements"
+          }
+        },
+        {
+          "code": "B63B 22/06",
+          "title": {
+            "ko": null,
+            "en": "with means to cause the buoy to surface in response to a transmitted signal"
+          }
+        },
+        {
+          "code": "B63B 22/08",
+          "title": {
+            "ko": null,
+            "en": "having means to release or urge to the surface a buoy on submergence thereof, e.g. to mark location of a sunken object"
+          }
+        },
+        {
+          "code": "B63B 22/10",
+          "title": {
+            "ko": null,
+            "en": "Water soluble or water weakened means, i.e. buoy released by buoy-to-object securing means being destroyed on contact with water"
+          }
+        },
+        {
+          "code": "B63B 22/12",
+          "title": {
+            "ko": null,
+            "en": "the surfacing of the buoy being assisted by a gas released or generated on submergence of the buoy"
+          }
+        },
+        {
+          "code": "B63B 22/14",
+          "title": {
+            "ko": null,
+            "en": "Buoy-to-object securing means responsive to hydrostatic pressure"
+          }
+        },
+        {
+          "code": "B63B 22/16",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for marking a navigational route"
+          }
+        },
+        {
+          "code": "B63B 22/18",
+          "title": {
+            "ko": null,
+            "en": "having means to control attitude or position, e.g. reaction surfaces or tether"
+          }
+        },
+        {
+          "code": "B63B 22/20",
+          "title": {
+            "ko": null,
+            "en": "Ballast means"
+          }
+        },
+        {
+          "code": "B63B 22/22",
+          "title": {
+            "ko": "가스 발생 수단을 갖는 팽창 가능한 부이 (B63B 22/12가 우선)",
+            "en": "Inflatable buoys with gas generating means (B63B0022120000 takes precedence)"
+          }
+        },
+        {
+          "code": "B63B 22/24",
+          "title": {
+            "ko": null,
+            "en": "container type, i.e. having provision for the storage of material"
+          }
+        },
+        {
+          "code": "B63B 22/26",
+          "title": {
+            "ko": null,
+            "en": "having means to selectively release contents, e.g. swivel couplings"
+          }
+        },
+        {
+          "code": "B63B 22/28",
+          "title": {
+            "ko": null,
+            "en": "submerged when not in use"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 23/00",
+      "title": {
+        "ko": "구명정 또는 그것에 유사한 것의 조작장치",
+        "en": "Equipment for handling lifeboats or the like"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 23/02",
+          "title": {
+            "ko": null,
+            "en": "Davits, i.e. devices having arms for lowering boats by cables or the like"
+          }
+        },
+        {
+          "code": "B63B 23/04",
+          "title": {
+            "ko": null,
+            "en": "with arms pivoting on substantially-horizontal axes, e.g. gravity type"
+          }
+        },
+        {
+          "code": "B63B 23/06",
+          "title": {
+            "ko": null,
+            "en": "with actual pivots"
+          }
+        },
+        {
+          "code": "B63B 23/08",
+          "title": {
+            "ko": null,
+            "en": "the arms being articulated"
+          }
+        },
+        {
+          "code": "B63B 23/10",
+          "title": {
+            "ko": null,
+            "en": "with positive drive of the arms"
+          }
+        },
+        {
+          "code": "B63B 23/12",
+          "title": {
+            "ko": null,
+            "en": "with simulated pivots"
+          }
+        },
+        {
+          "code": "B63B 23/14",
+          "title": {
+            "ko": null,
+            "en": "using linkages"
+          }
+        },
+        {
+          "code": "B63B 23/16",
+          "title": {
+            "ko": null,
+            "en": "using guide tracks"
+          }
+        },
+        {
+          "code": "B63B 23/18",
+          "title": {
+            "ko": null,
+            "en": "with arms pivoting on substantially-vertical axes"
+          }
+        },
+        {
+          "code": "B63B 23/20",
+          "title": {
+            "ko": null,
+            "en": "Davits with single arms"
+          }
+        },
+        {
+          "code": "B63B 23/22",
+          "title": {
+            "ko": null,
+            "en": "Slings or the like therefor"
+          }
+        },
+        {
+          "code": "B63B 23/24",
+          "title": {
+            "ko": null,
+            "en": "Slewing equipment therefor"
+          }
+        },
+        {
+          "code": "B63B 23/26",
+          "title": {
+            "ko": null,
+            "en": "with rectilinear translation of boat before lowering"
+          }
+        },
+        {
+          "code": "B63B 23/28",
+          "title": {
+            "ko": null,
+            "en": "Devices for projecting or releasing boats for free fall"
+          }
+        },
+        {
+          "code": "B63B 23/30",
+          "title": {
+            "ko": null,
+            "en": "Devices for guiding boats to water surface"
+          }
+        },
+        {
+          "code": "B63B 23/32",
+          "title": {
+            "ko": null,
+            "en": "Rigid guides, e.g. having arms pivoted near waterline"
+          }
+        },
+        {
+          "code": "B63B 23/34",
+          "title": {
+            "ko": null,
+            "en": "Guiding means for lowering by cables, e.g. for listing ships"
+          }
+        },
+        {
+          "code": "B63B 23/36",
+          "title": {
+            "ko": null,
+            "en": "Skid fenders"
+          }
+        },
+        {
+          "code": "B63B 23/38",
+          "title": {
+            "ko": null,
+            "en": "Transport of boats to davits or the like"
+          }
+        },
+        {
+          "code": "B63B 23/40",
+          "title": {
+            "ko": "양강 장치의 사용",
+            "en": "Use of lowering or hoisting gear"
+          }
+        },
+        {
+          "code": "B63B 23/42",
+          "title": {
+            "ko": null,
+            "en": "with braking equipment"
+          }
+        },
+        {
+          "code": "B63B 23/44",
+          "title": {
+            "ko": null,
+            "en": "on the ship"
+          }
+        },
+        {
+          "code": "B63B 23/46",
+          "title": {
+            "ko": null,
+            "en": "in the boat"
+          }
+        },
+        {
+          "code": "B63B 23/48",
+          "title": {
+            "ko": "보트를 취급하는 윈치를 사용한 것",
+            "en": "using winches for boat handling"
+          }
+        },
+        {
+          "code": "B63B 23/50",
+          "title": {
+            "ko": null,
+            "en": "with tensioning gear"
+          }
+        },
+        {
+          "code": "B63B 23/52",
+          "title": {
+            "ko": null,
+            "en": "with control of winches from boat"
+          }
+        },
+        {
+          "code": "B63B 23/54",
+          "title": {
+            "ko": null,
+            "en": "with trimming equipment"
+          }
+        },
+        {
+          "code": "B63B 23/56",
+          "title": {
+            "ko": null,
+            "en": "controlled from boat"
+          }
+        },
+        {
+          "code": "B63B 23/58",
+          "title": {
+            "ko": null,
+            "en": "with tackle-engaging or release gear"
+          }
+        },
+        {
+          "code": "B63B 23/60",
+          "title": {
+            "ko": null,
+            "en": "Additional connections between boat and davit"
+          }
+        },
+        {
+          "code": "B63B 23/62",
+          "title": {
+            "ko": null,
+            "en": "Fastening or storing of boats on deck"
+          }
+        },
+        {
+          "code": "B63B 23/64",
+          "title": {
+            "ko": null,
+            "en": "Lashings; Covers"
+          }
+        },
+        {
+          "code": "B63B 23/66",
+          "title": {
+            "ko": null,
+            "en": "Blocks; Chocks"
+          }
+        },
+        {
+          "code": "B63B 23/68",
+          "title": {
+            "ko": null,
+            "en": "for stacking boats"
+          }
+        },
+        {
+          "code": "B63B 23/70",
+          "title": {
+            "ko": null,
+            "en": "Condition-responsive handling equipment, e.g. automatic release of boat from lowering tackle upon contact with water"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 25/00",
+      "title": {
+        "ko": "화물 수용 장치, 예. 쌓아붙임 또는 적하 배열; 그를 특징으로 하는 선박(낚시 선박 어항 B63B 19/12; 하물을 고르개 나누는 것 이외의 다른 조정, 예; 발라스트의 사용에 의한 것 B63B 43/06, 43/08)",
+        "en": "Load-accommodating arrangements, e.g. stowing or trimming; Vessels characterised thereby (fishing vessel fish holds B63B0035240000;trimming otherwise than by cargo division. e.g. by use of ballast, B63B0043060000, B63B0043080000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 25/02",
+          "title": {
+            "ko": null,
+            "en": "for bulk goods"
+          }
+        },
+        {
+          "code": "B63B 25/04",
+          "title": {
+            "ko": null,
+            "en": "solid"
+          }
+        },
+        {
+          "code": "B63B 25/06",
+          "title": {
+            "ko": null,
+            "en": "for cereals"
+          }
+        },
+        {
+          "code": "B63B 25/08",
+          "title": {
+            "ko": null,
+            "en": "fluid"
+          }
+        },
+        {
+          "code": "B63B 25/10",
+          "title": {
+            "ko": null,
+            "en": "open to ambient air"
+          }
+        },
+        {
+          "code": "B63B 25/12",
+          "title": {
+            "ko": null,
+            "en": "closed"
+          }
+        },
+        {
+          "code": "B63B 25/14",
+          "title": {
+            "ko": null,
+            "en": "pressurised"
+          }
+        },
+        {
+          "code": "B63B 25/16",
+          "title": {
+            "ko": null,
+            "en": "heat-insulated"
+          }
+        },
+        {
+          "code": "B63B 25/18",
+          "title": {
+            "ko": null,
+            "en": "Detachable decks"
+          }
+        },
+        {
+          "code": "B63B 25/20",
+          "title": {
+            "ko": null,
+            "en": "for motor vehicles or the like"
+          }
+        },
+        {
+          "code": "B63B 25/22",
+          "title": {
+            "ko": null,
+            "en": "for palletised articles"
+          }
+        },
+        {
+          "code": "B63B 25/24",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing unwanted cargo movement, e.g. dunnage"
+          }
+        },
+        {
+          "code": "B63B 25/26",
+          "title": {
+            "ko": null,
+            "en": "for frozen goods"
+          }
+        },
+        {
+          "code": "B63B 25/28",
+          "title": {
+            "ko": null,
+            "en": "for deck loads"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 27/00",
+      "title": {
+        "ko": "승객 또는 화물의 선적 또는 하역을 위한 선체 장치의 배치, 부착(자동 하역 바지선 또는 거룻배 B65G 35/30; 떠있는 크레인 B66C 23/52)",
+        "en": "Arrangement of ship-based loading or unloading equipment for cargo or passengers (self-discharging barges or lighters B63B0035300000;floating cranes B66C0023520000)"
+      },
+      "definition": {
+        "ko": "그룹 B63B27/30 ~ B63B27/36은 그룹 B63B27/04 ~ B63B27/28에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "B63B 27/04",
+          "title": {
+            "ko": null,
+            "en": "of derricks"
+          }
+        },
+        {
+          "code": "B63B 27/08",
+          "title": {
+            "ko": null,
+            "en": "of winches"
+          }
+        },
+        {
+          "code": "B63B 27/10",
+          "title": {
+            "ko": null,
+            "en": "of cranes"
+          }
+        },
+        {
+          "code": "B63B 27/12",
+          "title": {
+            "ko": null,
+            "en": "of gantry type"
+          }
+        },
+        {
+          "code": "B63B 27/14",
+          "title": {
+            "ko": null,
+            "en": "of ramps, gangways or outboard ladders"
+          }
+        },
+        {
+          "code": "B63B 27/16",
+          "title": {
+            "ko": null,
+            "en": "of lifts or hoists"
+          }
+        },
+        {
+          "code": "B63B 27/18",
+          "title": {
+            "ko": null,
+            "en": "of cableways, e.g. with breeches-buoys"
+          }
+        },
+        {
+          "code": "B63B 27/22",
+          "title": {
+            "ko": null,
+            "en": "of conveyors, e.g. of endless-belt or screw-type"
+          }
+        },
+        {
+          "code": "B63B 27/24",
+          "title": {
+            "ko": null,
+            "en": "of pipe-lines"
+          }
+        },
+        {
+          "code": "B63B 27/25",
+          "title": {
+            "ko": null,
+            "en": "for fluidised bulk material"
+          }
+        },
+        {
+          "code": "B63B 27/26",
+          "title": {
+            "ko": null,
+            "en": "of devices with throwing action"
+          }
+        },
+        {
+          "code": "B63B 27/28",
+          "title": {
+            "ko": null,
+            "en": "of chutes"
+          }
+        },
+        {
+          "code": "B63B 27/30",
+          "title": {
+            "ko": null,
+            "en": "for transfer at sea between ships or between ships and off-shore structures"
+          }
+        },
+        {
+          "code": "B63B 27/32",
+          "title": {
+            "ko": null,
+            "en": "using cableways"
+          }
+        },
+        {
+          "code": "B63B 27/34",
+          "title": {
+            "ko": null,
+            "en": "using pipe-lines"
+          }
+        },
+        {
+          "code": "B63B 27/36",
+          "title": {
+            "ko": null,
+            "en": "for floating cargo"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 29/00",
+      "title": {
+        "ko": "달리 분류되어 있지 않는 승무원 또는 승객의 거주설비",
+        "en": "Accommodation for crew or passengers not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 29/02",
+          "title": {
+            "ko": null,
+            "en": "Cabins or other living spaces; Construction or arrangement thereof"
+          }
+        },
+        {
+          "code": "B63B 29/04",
+          "title": {
+            "ko": null,
+            "en": "Furniture specially adapted for vessels"
+          }
+        },
+        {
+          "code": "B63B 29/06",
+          "title": {
+            "ko": null,
+            "en": "Fastening to floors"
+          }
+        },
+        {
+          "code": "B63B 29/08",
+          "title": {
+            "ko": null,
+            "en": "Storm guards on tables, e.g. fiddles"
+          }
+        },
+        {
+          "code": "B63B 29/10",
+          "title": {
+            "ko": null,
+            "en": "Berths; Mounting ladders therefor"
+          }
+        },
+        {
+          "code": "B63B 29/12",
+          "title": {
+            "ko": null,
+            "en": "Self-levelling mountings"
+          }
+        },
+        {
+          "code": "B63B 29/14",
+          "title": {
+            "ko": null,
+            "en": "Closet or like flushing arrangements; Washing or bathing facilities peculiar to ships"
+          }
+        },
+        {
+          "code": "B63B 29/16",
+          "title": {
+            "ko": null,
+            "en": "Soil-water discharges"
+          }
+        },
+        {
+          "code": "B63B 29/18",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or adaptations of swimming pools"
+          }
+        },
+        {
+          "code": "B63B 29/20",
+          "title": {
+            "ko": "사다리의 장치 또는 설비(침대에 취부된 사다리 B63B 29/10)",
+            "en": "Arrangements or adaptations of ladders (mounting ladders for berths B63B0029100000)"
+          }
+        },
+        {
+          "code": "B63B 29/22",
+          "title": {
+            "ko": null,
+            "en": "Galleys"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 32/00",
+      "title": {
+        "ko": "수상 스포츠 보드; 그를 위한 부속품",
+        "en": "Water sports boards; Accessories therefor"
+      },
+      "definition": {
+        "ko": "이 그룹은 폭에 대하여 얇은 몸체를 갖는 부유 구조물을 다루며, 일반적으로 수상 스포츠 또는 레저에 적합, 예. 서프보드, 윈드서핑 보드, 웨이크보드, 스탠드업 패들[SUP] 보드 또는 수상스키; 그러한 구조의 부속품.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "B63B 32/10",
+          "title": {
+            "ko": "모터 추진 수상 스포츠 보드(동력으로 구동하는 수상 모터사이클 B63B34/10)",
+            "en": "Motor-propelled water sports boards  (power-driven personal watercraft B63B0034100000)"
+          }
+        },
+        {
+          "code": "B63B 32/20",
+          "title": {
+            "ko": "엎드린 자세로 사용하는데 적합한 보드(견인 수상 썰매 B63B34/54)",
+            "en": "Boards specially adapted for use in a prone position, e.g. wild-water sledges  (towed water sledges B63B0034540000)"
+          }
+        },
+        {
+          "code": "B63B 32/22",
+          "title": {
+            "ko": null,
+            "en": "Bodyboards for surfing; Accessories specially adapted therefor"
+          }
+        },
+        {
+          "code": "B63B 32/30",
+          "title": {
+            "ko": null,
+            "en": "Water skis fastened to the user’s feet; Accessories specially adapted therefor"
+          }
+        },
+        {
+          "code": "B63B 32/40",
+          "title": {
+            "ko": null,
+            "en": "Twintip boards; Wakeboards; Surfboards; Windsurfing boards; Paddle boards, e.g. SUP boards; Accessories specially adapted therefor"
+          }
+        },
+        {
+          "code": "B63B 32/50",
+          "title": {
+            "ko": null,
+            "en": "Boards characterised by their constructional features"
+          }
+        },
+        {
+          "code": "B63B 32/51",
+          "title": {
+            "ko": null,
+            "en": "Inflatable boards, e.g. drop-stitch inflatable boards"
+          }
+        },
+        {
+          "code": "B63B 32/53",
+          "title": {
+            "ko": null,
+            "en": "Sectionalised boards, e.g. modular, dismountable or foldable boards"
+          }
+        },
+        {
+          "code": "B63B 32/55",
+          "title": {
+            "ko": null,
+            "en": "Multihull boards, e.g. of catamaran type"
+          }
+        },
+        {
+          "code": "B63B 32/56",
+          "title": {
+            "ko": null,
+            "en": "Boards convertible into vessels or other types of water sports boards, e.g. into sailboats, canoes or water-cycles"
+          }
+        },
+        {
+          "code": "B63B 32/57",
+          "title": {
+            "ko": null,
+            "en": "Boards characterised by the material, e.g. laminated materials"
+          }
+        },
+        {
+          "code": "B63B 32/59",
+          "title": {
+            "ko": "제조 공정에 특징이 있는 보드, 예. 모듈 또는 3차원 [3D] 프린트",
+            "en": "Boards characterised by their manufacturing process, e.g. moulding or three-dimensional [3D] printing"
+          }
+        },
+        {
+          "code": "B63B 32/60",
+          "title": {
+            "ko": null,
+            "en": "Board appendages, e.g. fins, hydrofoils or centre boards"
+          }
+        },
+        {
+          "code": "B63B 32/62",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material, e.g. laminated materials; characterised by their manufacturing process"
+          }
+        },
+        {
+          "code": "B63B 32/64",
+          "title": {
+            "ko": null,
+            "en": "Adjustable, e.g. by adding sections, by removing sections or by changing orientation or profile"
+          }
+        },
+        {
+          "code": "B63B 32/66",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for fixation to the board, e.g. fin boxes or foil boxes"
+          }
+        },
+        {
+          "code": "B63B 32/68",
+          "title": {
+            "ko": null,
+            "en": "Mast foot attachments, e.g. mast foot rails"
+          }
+        },
+        {
+          "code": "B63B 32/70",
+          "title": {
+            "ko": null,
+            "en": "Accessories not specially adapted for a particular type of board, e.g. paddings or buoyancy elements"
+          }
+        },
+        {
+          "code": "B63B 32/73",
+          "title": {
+            "ko": null,
+            "en": "for tethering users or objects to the board, e.g. leashes"
+          }
+        },
+        {
+          "code": "B63B 32/77",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for fixation of accessories to the board, e.g. inserts or rails"
+          }
+        },
+        {
+          "code": "B63B 32/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangements specially adapted for stowing or transporting water sports boards"
+          }
+        },
+        {
+          "code": "B63B 32/83",
+          "title": {
+            "ko": null,
+            "en": "for stowing, e.g. racks or straps"
+          }
+        },
+        {
+          "code": "B63B 32/87",
+          "title": {
+            "ko": null,
+            "en": "for carrying, e.g. board bags"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 34/00",
+      "title": {
+        "ko": "수상 스포츠 또는 레저에 적합한 선박; 수상 스포츠 또는 레저에 적합한 신체지지 장치(수상 스포츠 보드 B63B32/00; 수영용 장치(framework) A63B35/00; 인력에 의해 작동되는 추진장치 B63H16/00)",
+        "en": "Vessels specially adapted for water sports or leisure; Body-supporting devices specially adapted for water sports or leisure (water sports boards B63B0032000000;swimming frameworks A63B0035000000;propulsion arrangements actuated by muscle power B63H0016000000)"
+      },
+      "definition": {
+        "ko": "이 그룹은 사용자의 신체를 지지하고 수면에서 움직이는 부유 구조물을 다루며, 수상 스포츠 또는 레저에 적합",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "B63B 34/10",
+          "title": {
+            "ko": "동력 구동하는 수상 모터사이클, 예. 수상 스쿠터 (제트 추진 B63H11/00; 제트에 의한 조타 B63H25/46); 그러한 부속품",
+            "en": "Power-driven personal watercraft, e.g. water scooters   (water jet propulsion B63H0011000000; jet steering B63H0025460000); Accessories therefor"
+          }
+        },
+        {
+          "code": "B63B 34/15",
+          "title": {
+            "ko": null,
+            "en": "for hydroflight sports"
+          }
+        },
+        {
+          "code": "B63B 34/20",
+          "title": {
+            "ko": null,
+            "en": "Canoes, kayaks or the like"
+          }
+        },
+        {
+          "code": "B63B 34/21",
+          "title": {
+            "ko": null,
+            "en": "characterised by constructional features"
+          }
+        },
+        {
+          "code": "B63B 34/22",
+          "title": {
+            "ko": null,
+            "en": "Inflatable; having inflatable parts"
+          }
+        },
+        {
+          "code": "B63B 34/23",
+          "title": {
+            "ko": null,
+            "en": "Sectionalised, e.g. modular, collapsible or foldable"
+          }
+        },
+        {
+          "code": "B63B 34/26",
+          "title": {
+            "ko": "카누, 카약 등을 위한 부속품(인력에 의한 추진 B63H16/00; 선외 추진 장치 B63H20/00)",
+            "en": "Accessories for canoes, kayaks or the like (effecting propulsion by muscle power B63H0016000000;outboard propulsion units B63H0020000000)"
+          }
+        },
+        {
+          "code": "B63B 34/30",
+          "title": {
+            "ko": "경주용으로 적합한 조정보트; 그러한 부속품(조정(rowing)에 의해 추진되는 것 B63H16/00)",
+            "en": "Rowing boats specially adapted for racing; Accessories therefor (effecting propulsion by rowing B63H0016000000)"
+          }
+        },
+        {
+          "code": "B63B 34/40",
+          "title": {
+            "ko": null,
+            "en": "Body-supporting structures dynamically supported by foils under water"
+          }
+        },
+        {
+          "code": "B63B 34/45",
+          "title": {
+            "ko": null,
+            "en": "Accessories therefor"
+          }
+        },
+        {
+          "code": "B63B 34/50",
+          "title": {
+            "ko": "신체지지 부력 장치, 예. 수영 보트 또는 수상 자전거 (수영 보조구 A63B31/00)",
+            "en": "Body-supporting buoyant devices, e.g. bathing boats or water cycles (swimming aids A63B0031000000)"
+          }
+        },
+        {
+          "code": "B63B 34/52",
+          "title": {
+            "ko": null,
+            "en": "Inflatable or partly inflatable"
+          }
+        },
+        {
+          "code": "B63B 34/54",
+          "title": {
+            "ko": "견인에 특히 적합한 것, 예. 바나나보트 , 수상썰매 또는 부표견인(견인을 위한 배치 B63B34/60)",
+            "en": "specially adapted for being towed, e.g. banana boats, water sledges or towed buoys  (arrangements for towing B63B0034600000)"
+          }
+        },
+        {
+          "code": "B63B 34/56",
+          "title": {
+            "ko": null,
+            "en": "for use in a standing position, e.g. water shoes, water walking devices or buoyant skis"
+          }
+        },
+        {
+          "code": "B63B 34/565",
+          "title": {
+            "ko": null,
+            "en": "Accessories, e.g. sticks for water walking"
+          }
+        },
+        {
+          "code": "B63B 34/60",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for towing, e.g. for use with water-skis or wakeboards"
+          }
+        },
+        {
+          "code": "B63B 34/63",
+          "title": {
+            "ko": null,
+            "en": "Holding means for the user, e.g. handle bars or harnesses"
+          }
+        },
+        {
+          "code": "B63B 34/67",
+          "title": {
+            "ko": null,
+            "en": "Connection means on the towing watercraft, e.g. pylons, side poles or winches"
+          }
+        },
+        {
+          "code": "B63B 34/70",
+          "title": {
+            "ko": null,
+            "en": "Arrangements on vessels specially adapted for generating waves for surfing, wakeboarding or the like, e.g. ballast tanks"
+          }
+        },
+        {
+          "code": "B63B 34/75",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of wake plates"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 35/00",
+      "title": {
+        "ko": "특정 목적을 위해 적용되는 선박 또는 이것에 유사한 부양 구조물",
+        "en": "Vessels or similar floating structures specially adapted for specific purposes and not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 35/03",
+          "title": {
+            "ko": null,
+            "en": "Pipe-laying vessels"
+          }
+        },
+        {
+          "code": "B63B 35/04",
+          "title": {
+            "ko": null,
+            "en": "Cable-laying vessels"
+          }
+        },
+        {
+          "code": "B63B 35/06",
+          "title": {
+            "ko": null,
+            "en": "for moving cable-ends from ship to shore"
+          }
+        },
+        {
+          "code": "B63B 35/08",
+          "title": {
+            "ko": null,
+            "en": "Ice-breakers"
+          }
+        },
+        {
+          "code": "B63B 35/10",
+          "title": {
+            "ko": null,
+            "en": "having forced pitching or rolling equipment"
+          }
+        },
+        {
+          "code": "B63B 35/12",
+          "title": {
+            "ko": null,
+            "en": "having ice-cutters"
+          }
+        },
+        {
+          "code": "B63B 35/14",
+          "title": {
+            "ko": null,
+            "en": "Fishing vessels"
+          }
+        },
+        {
+          "code": "B63B 35/16",
+          "title": {
+            "ko": null,
+            "en": "Trawlers"
+          }
+        },
+        {
+          "code": "B63B 35/18",
+          "title": {
+            "ko": null,
+            "en": "adapted to dragging nets aboard"
+          }
+        },
+        {
+          "code": "B63B 35/20",
+          "title": {
+            "ko": null,
+            "en": "adapted to hoisting nets aboard"
+          }
+        },
+        {
+          "code": "B63B 35/22",
+          "title": {
+            "ko": null,
+            "en": "Whale catchers; Whale factory vessels"
+          }
+        },
+        {
+          "code": "B63B 35/24",
+          "title": {
+            "ko": null,
+            "en": "Fish holds"
+          }
+        },
+        {
+          "code": "B63B 35/26",
+          "title": {
+            "ko": null,
+            "en": "for live fish"
+          }
+        },
+        {
+          "code": "B63B 35/28",
+          "title": {
+            "ko": null,
+            "en": "Barges or lighters"
+          }
+        },
+        {
+          "code": "B63B 35/30",
+          "title": {
+            "ko": null,
+            "en": "self-discharging"
+          }
+        },
+        {
+          "code": "B63B 35/32",
+          "title": {
+            "ko": null,
+            "en": "for collecting pollution from open water"
+          }
+        },
+        {
+          "code": "B63B 35/34",
+          "title": {
+            "ko": null,
+            "en": "Pontoons"
+          }
+        },
+        {
+          "code": "B63B 35/36",
+          "title": {
+            "ko": null,
+            "en": "foldable"
+          }
+        },
+        {
+          "code": "B63B 35/38",
+          "title": {
+            "ko": null,
+            "en": "Rigidly-interconnected pontoons"
+          }
+        },
+        {
+          "code": "B63B 35/40",
+          "title": {
+            "ko": null,
+            "en": "for transporting marine vessels"
+          }
+        },
+        {
+          "code": "B63B 35/42",
+          "title": {
+            "ko": null,
+            "en": "with adjustable draught"
+          }
+        },
+        {
+          "code": "B63B 35/44",
+          "title": {
+            "ko": null,
+            "en": "Floating buildings, stores, drilling platforms, or workshops, e.g. carrying water-oil separating devices"
+          }
+        },
+        {
+          "code": "B63B 35/50",
+          "title": {
+            "ko": "항공기용의 선박 또는 부양 구조물(항공모함 B63G 11/00)",
+            "en": "Vessels or floating structures for aircraft (aircraft carriers B63G0011000000)"
+          }
+        },
+        {
+          "code": "B63B 35/52",
+          "title": {
+            "ko": null,
+            "en": "Nets, slipways or the like, for recovering aircraft from the water"
+          }
+        },
+        {
+          "code": "B63B 35/53",
+          "title": {
+            "ko": null,
+            "en": "Floating runways"
+          }
+        },
+        {
+          "code": "B63B 35/54",
+          "title": {
+            "ko": null,
+            "en": "Ferries"
+          }
+        },
+        {
+          "code": "B63B 35/56",
+          "title": {
+            "ko": "등선(정박된 등선을 갖는 항로의 표시 B63B 51/02)",
+            "en": "Lightships (marking of navigational route with anchored lightships B63B0051020000)"
+          }
+        },
+        {
+          "code": "B63B 35/58",
+          "title": {
+            "ko": "뗏목, 즉. 흘수선이 앝고, 건현이 없든지 거의 없으며, 사용자를 지지하기 위한 플랫폼 또는 바닥을 갖는 자유롭게 물에 뜨는 구조체(구명 뗏목 또는 유사물 B63C 9/02)",
+            "en": "Rafts, i.e. free floating waterborne vessels, of shallow draft, with little or no freeboard, and having a platform or floor for supporting a user (life-rafts or the like B63C0009020000)"
+          }
+        },
+        {
+          "code": "B63B 35/607",
+          "title": {
+            "ko": null,
+            "en": "having a platform or floor below the level of the buoyancy means, e.g. suspended basket type"
+          }
+        },
+        {
+          "code": "B63B 35/613",
+          "title": {
+            "ko": null,
+            "en": "with tubular shaped flotation members"
+          }
+        },
+        {
+          "code": "B63B 35/62",
+          "title": {
+            "ko": null,
+            "en": "formed from logs or the like"
+          }
+        },
+        {
+          "code": "B63B 35/66",
+          "title": {
+            "ko": null,
+            "en": "Tugs"
+          }
+        },
+        {
+          "code": "B63B 35/68",
+          "title": {
+            "ko": null,
+            "en": "for towing"
+          }
+        },
+        {
+          "code": "B63B 35/70",
+          "title": {
+            "ko": null,
+            "en": "for pushing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 39/00",
+      "title": {
+        "ko": "종요(pitching), 횡요(Rolling) 또는 그것에 유사한 바람직하지 않은 선박의 동요 경감 장치 선박의 자세지시장치",
+        "en": "Equipment to decrease pitch, roll, or like unwanted vessel movements; Apparatus for indicating vessel attitude"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 39/02",
+          "title": {
+            "ko": null,
+            "en": "to decrease vessel movements by displacement of masses"
+          }
+        },
+        {
+          "code": "B63B 39/03",
+          "title": {
+            "ko": null,
+            "en": "by transferring liquids"
+          }
+        },
+        {
+          "code": "B63B 39/04",
+          "title": {
+            "ko": null,
+            "en": "to decrease vessel movements by using gyroscopes directly"
+          }
+        },
+        {
+          "code": "B63B 39/06",
+          "title": {
+            "ko": "수중에서 작동하는 날개를 사용하여 선박의 동요를 경감하는 것(빌지킬의 구조적측면 B63B3/44)",
+            "en": "to decrease vessel movements by using foils acting on ambient water (constructional aspects of bilge keels B63B0003440000)"
+          }
+        },
+        {
+          "code": "B63B 39/08",
+          "title": {
+            "ko": "보조 제트 또는 프로펠러를 작동시켜 선박의 동요를 경감시키는 것(조타 또는 동적정류를 위하여 보조 제트 또는 프로펠러를 사용하는 것 B63H 25/00 )",
+            "en": "to decrease vessel movements by using auxiliary jets or propellers (using auxiliary jets or propellers for steering or dynamic anchoring B63H0025000000)"
+          }
+        },
+        {
+          "code": "B63B 39/10",
+          "title": {
+            "ko": null,
+            "en": "to decrease vessel movements by damping the waves, e.g. by pouring oil on water"
+          }
+        },
+        {
+          "code": "B63B 39/12",
+          "title": {
+            "ko": null,
+            "en": "for indicating draught or load"
+          }
+        },
+        {
+          "code": "B63B 39/14",
+          "title": {
+            "ko": null,
+            "en": "for indicating inclination or duration of roll"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 41/00",
+      "title": {
+        "ko": null,
+        "en": "Drop keels, e.g. centre boards or side boards"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B63B 43/00",
+      "title": {
+        "ko": "선박의 안전성을 개선하는 것, 예. 손상 제어로서 달리 분류되지 않는 것",
+        "en": "Improving safety of vessels, e.g. damage control, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 43/02",
+          "title": {
+            "ko": "전복 또는 침몰의 위험성을 경감시키는 것(격벽의 수밀문 장치에 의한 것 B63B 43/24)",
+            "en": "reducing risk of capsizing or sinking (by means of watertight doors in bulkheads B63B0043240000)"
+          }
+        },
+        {
+          "code": "B63B 43/04",
+          "title": {
+            "ko": null,
+            "en": "by improving stability"
+          }
+        },
+        {
+          "code": "B63B 43/06",
+          "title": {
+            "ko": null,
+            "en": "using ballast tanks"
+          }
+        },
+        {
+          "code": "B63B 43/08",
+          "title": {
+            "ko": null,
+            "en": "by transfer of solid ballast"
+          }
+        },
+        {
+          "code": "B63B 43/10",
+          "title": {
+            "ko": null,
+            "en": "by improving buoyancy"
+          }
+        },
+        {
+          "code": "B63B 43/12",
+          "title": {
+            "ko": null,
+            "en": "using inboard air containers"
+          }
+        },
+        {
+          "code": "B63B 43/14",
+          "title": {
+            "ko": null,
+            "en": "using outboard floating members"
+          }
+        },
+        {
+          "code": "B63B 43/16",
+          "title": {
+            "ko": null,
+            "en": "Temporary equipment for stopping leaks, e.g. collision mats"
+          }
+        },
+        {
+          "code": "B63B 43/18",
+          "title": {
+            "ko": null,
+            "en": "preventing collision; reducing collision damage"
+          }
+        },
+        {
+          "code": "B63B 43/20",
+          "title": {
+            "ko": null,
+            "en": "Feelers"
+          }
+        },
+        {
+          "code": "B63B 43/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of watertight doors in bulkheads"
+          }
+        },
+        {
+          "code": "B63B 43/26",
+          "title": {
+            "ko": null,
+            "en": "of sliding type"
+          }
+        },
+        {
+          "code": "B63B 43/28",
+          "title": {
+            "ko": null,
+            "en": "with mechanical drive"
+          }
+        },
+        {
+          "code": "B63B 43/30",
+          "title": {
+            "ko": null,
+            "en": "with fluid drive"
+          }
+        },
+        {
+          "code": "B63B 43/32",
+          "title": {
+            "ko": null,
+            "en": "of non-sliding type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 45/00",
+      "title": {
+        "ko": "신호, 조명 기구의 배치 또는 적용(구명부이, 구명벨트, 구명자켓, 구명복 또는 그와 유사한 것, 신호발생 수단에 특징이 있는 것 B63C 9/20)",
+        "en": "Arrangements or adaptations of signalling or lighting devices (life-buoys, life-belts, life-jackets, life-suits or the like, characterised by signalling means B63C0009200000)"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 45/02",
+          "title": {
+            "ko": null,
+            "en": "the devices being intended to illuminate the way ahead or other areas of environments"
+          }
+        },
+        {
+          "code": "B63B 45/04",
+          "title": {
+            "ko": null,
+            "en": "the devices being intended to indicate the vessel or parts thereof"
+          }
+        },
+        {
+          "code": "B63B 45/06",
+          "title": {
+            "ko": null,
+            "en": "the devices being intended to illuminate vessels' decks or interior"
+          }
+        },
+        {
+          "code": "B63B 45/08",
+          "title": {
+            "ko": null,
+            "en": "the devices being acoustic"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 49/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements of nautical instruments or navigational aids"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B63B 51/00",
+      "title": {
+        "ko": null,
+        "en": "Marking of navigational routes otherwise than with buoys"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 51/02",
+          "title": {
+            "ko": null,
+            "en": "with anchored lightships; by use of lighthouses"
+          }
+        },
+        {
+          "code": "B63B 51/04",
+          "title": {
+            "ko": null,
+            "en": "with free-floating flares"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 57/00",
+      "title": {
+        "ko": null,
+        "en": "Tank cleaning specially adapted for vessels"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 57/02",
+          "title": {
+            "ko": null,
+            "en": "by washing"
+          }
+        },
+        {
+          "code": "B63B 57/04",
+          "title": {
+            "ko": null,
+            "en": "by ventilating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 59/00",
+      "title": {
+        "ko": "선박에 특히 적합한 선체의 보호; 선박에 특히 적합한 청소 장치",
+        "en": "Hull protection specially adapted for vessels; Cleaning devices specially adapted for vessels"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 59/02",
+          "title": {
+            "ko": "선박에 내장된 또는 그에 특히 적합한 방현재; 마찰용 외판(구명보트용 활주 방현재 E02B 3/26)",
+            "en": "Fenders integral with waterborne vessels or specially adapted therefor; Rubbing-strakes (skid fenders for lifeboats B63B0023360000)"
+          }
+        },
+        {
+          "code": "B63B 59/04",
+          "title": {
+            "ko": null,
+            "en": "Preventing hull fouling"
+          }
+        },
+        {
+          "code": "B63B 59/06",
+          "title": {
+            "ko": "선체의 청소 장치",
+            "en": "Cleaning devices for hulls"
+          }
+        },
+        {
+          "code": "B63B 59/08",
+          "title": {
+            "ko": "해상에서의 침수선체면의 청소 장치(B63B 59/10이 우선)",
+            "en": "of underwater surfaces while afloat (B63B0059100000 takes precedence)"
+          }
+        },
+        {
+          "code": "B63B 59/10",
+          "title": {
+            "ko": null,
+            "en": "using trolleys or the like driven along the surface"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 69/00",
+      "title": {
+        "ko": null,
+        "en": "Equipment for shipping not otherwise provided for"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B63B 71/00",
+      "title": {
+        "ko": null,
+        "en": "Designing vessels; Predicting their performance"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 71/10",
+          "title": {
+            "ko": null,
+            "en": "using computer simulation, e.g. finite element method [FEM] or computational fluid dynamics [CFD]"
+          }
+        },
+        {
+          "code": "B63B 71/20",
+          "title": {
+            "ko": null,
+            "en": "using towing tanks or model basins for designing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 73/00",
+      "title": {
+        "ko": null,
+        "en": "Building or assembling vessels or marine structures, e.g. hulls or offshore platforms"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 73/10",
+          "title": {
+            "ko": null,
+            "en": "Building or assembling vessels from prefabricated hull blocks, i.e. complete hull cross-sections"
+          }
+        },
+        {
+          "code": "B63B 73/20",
+          "title": {
+            "ko": null,
+            "en": "Building or assembling prefabricated vessel modules or parts other than hull blocks, e.g. engine rooms, rudders, propellers, superstructures, berths, holds or tanks"
+          }
+        },
+        {
+          "code": "B63B 73/30",
+          "title": {
+            "ko": null,
+            "en": "Moving or transporting modules or hull blocks to assembly sites, e.g. by rolling, lifting or floating"
+          }
+        },
+        {
+          "code": "B63B 73/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by joining methods"
+          }
+        },
+        {
+          "code": "B63B 73/43",
+          "title": {
+            "ko": null,
+            "en": "Welding, e.g. laser welding"
+          }
+        },
+        {
+          "code": "B63B 73/46",
+          "title": {
+            "ko": null,
+            "en": "Gluing; Taping; Cold-bonding"
+          }
+        },
+        {
+          "code": "B63B 73/50",
+          "title": {
+            "ko": null,
+            "en": "characterised by forming methods, e.g. manufacturing of curved blocks"
+          }
+        },
+        {
+          "code": "B63B 73/60",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of specific tools or equipment; characterised by automation, e.g. use of robots"
+          }
+        },
+        {
+          "code": "B63B 73/70",
+          "title": {
+            "ko": null,
+            "en": "characterised by using moulds; Moulds or plugs therefor"
+          }
+        },
+        {
+          "code": "B63B 73/72",
+          "title": {
+            "ko": null,
+            "en": "characterised by plastic moulding, e.g. injection moulding, extrusion moulding or blow moulding"
+          }
+        },
+        {
+          "code": "B63B 73/74",
+          "title": {
+            "ko": null,
+            "en": "characterised by lamination of materials"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 75/00",
+      "title": {
+        "ko": null,
+        "en": "Building or assembling floating offshore structures, e.g. semi-submersible platforms, SPAR platforms or wind turbine platforms"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B63B 77/00",
+      "title": {
+        "ko": null,
+        "en": "Transporting or installing offshore structures on site using buoyancy forces, e.g. using semi-submersible barges, ballasting the structure or transporting of oil-and-gas platforms"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 77/10",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for electric power plants, e.g. wind turbines or tidal turbine generators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 79/00",
+      "title": {
+        "ko": null,
+        "en": "Monitoring properties or operating parameters of vessels in operation"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 79/10",
+          "title": {
+            "ko": null,
+            "en": "using sensors, e.g. pressure sensors, strain gauges or accelerometers"
+          }
+        },
+        {
+          "code": "B63B 79/15",
+          "title": {
+            "ko": null,
+            "en": "for monitoring environmental variables, e.g. wave height or weather data"
+          }
+        },
+        {
+          "code": "B63B 79/20",
+          "title": {
+            "ko": null,
+            "en": "using models or simulation, e.g. statistical models or stochastic models"
+          }
+        },
+        {
+          "code": "B63B 79/30",
+          "title": {
+            "ko": null,
+            "en": "for diagnosing, testing or predicting the integrity or performance of vessels"
+          }
+        },
+        {
+          "code": "B63B 79/40",
+          "title": {
+            "ko": null,
+            "en": "for controlling the operation of vessels, e.g. monitoring their speed, routing or maintenance schedules"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 81/00",
+      "title": {
+        "ko": null,
+        "en": "Repairing or maintaining vessels"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B63B 83/00",
+      "title": {
+        "ko": null,
+        "en": "Rebuilding or retrofitting vessels, e.g. retrofitting ballast water treatment systems"
+      },
+      "subgroups": [
+        {
+          "code": "B63B 83/10",
+          "title": {
+            "ko": null,
+            "en": "for increasing cargo capacity"
+          }
+        },
+        {
+          "code": "B63B 83/20",
+          "title": {
+            "ko": null,
+            "en": "for conversion to a different use, e.g. for converting tankers into a FPSO-FLNG units"
+          }
+        },
+        {
+          "code": "B63B 83/30",
+          "title": {
+            "ko": null,
+            "en": "for improving energy efficiency, e.g. by improving hydrodynamics or by upgrading the power plant"
+          }
+        },
+        {
+          "code": "B63B 83/40",
+          "title": {
+            "ko": null,
+            "en": "for reducing risks of pollution or contamination; for improving safety"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B63B 85/00",
+      "title": {
+        "ko": null,
+        "en": "Dismantling or scrapping vessels"
+      },
+      "subgroups": []
+    }
+  ]
+}

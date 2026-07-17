@@ -1,0 +1,37 @@
+{
+  "title": "ModelsManifest",
+  "description": "models/ namespace 의 인덱스. sessions/{user_id}/{work_id}/models/manifest.models.yaml. P-A 에서 minimal — 등록 모델 list 만. 깊은 구조는 차후.",
+  "type": "object",
+  "required": [
+    "models",
+    "last_updated"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "models": {
+      "type": "array",
+      "description": "등록된 모델 list. P-A: invention-object-model / concept-maturity-model / user-roadmap.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "scaffolding.yaml.namespaces.models.files 의 key 또는 파일명 (확장자 제외)"
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "subclass": "H03M",
+  "title": {
+    "ko": "복호화 또는 부호변환 일반(유체적 방법을 사용하는 것 F15C 4/00; 광학적 아날로그/디지털 변환기 G02F 7/00; 특수한 용도에 특히 적합한 부호화, 복호화 또는 부호변환은 관련 서브클라스 즉, GO1D, G01R, G06F, G06T, G09G, G10L, G11B, G11C, H04L, H04M, H04N을 참조:암호 또는 비밀의 필요성이 있는 기타 목적을 위한 암호화 또는 해독화 G09C)",
+    "en": "CODING, DECODING OR CODE CONVERSION, IN GENERAL (using fluidic means F15C0004000000;optical analogue/digital converters G02F0007000000;coding, decoding or code conversion, specially adapted for particular applications, see the relevant subclasses, e.g. G01D, G01R, G06F, G06T, G09G, G10L, G11B, G11C, H04B, H04L, H04M, H04N;ciphering or deciphering for cryptography or other purposes involving the need for secrecy G09C)"
+  },
+  "definition": {
+    "ko": "부호화, 복호화 일반 H03M1/00 차동 변조 H03M3/00 Keyboard와 연결 H03M11/00 변환 개개 digit의 형식 H03M5/00 digit 의 순서 H03M7/00 병렬/직렬 또는 그 역 H03M9/00 에러 검출 또는 정정 H03M13/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제사항 H03M99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03M 1/00",
+      "title": {
+        "ko": "아날로그/디지털변환; 디지털/아날로그변환 (아날로그 값으로부터 차동변조에로 또는 차동변조로부터 아날로그 값으로의 변환 H03M 3/00)",
+        "en": "Analogue/digital conversion; Digital/analogue conversion (conversion of analogue values to or from differential modulation H03M0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 1/02",
+          "title": {
+            "ko": null,
+            "en": "Reversible analogue/digital converters"
+          }
+        },
+        {
+          "code": "H03M 1/04",
+          "title": {
+            "ko": null,
+            "en": "using stochastic techniques"
+          }
+        },
+        {
+          "code": "H03M 1/06",
+          "title": {
+            "ko": "물리적 파라미터에 의한 바람직하지 못한 영향의 연속적인 보상, 또는 방지(주기적인 것은 1/10)",
+            "en": "Continuously compensating for, or preventing, undesired influence of physical parameters (periodically H03M0001100000)"
+          }
+        },
+        {
+          "code": "H03M 1/08",
+          "title": {
+            "ko": null,
+            "en": "of noise"
+          }
+        },
+        {
+          "code": "H03M 1/10",
+          "title": {
+            "ko": null,
+            "en": "Calibration or testing"
+          }
+        },
+        {
+          "code": "H03M 1/12",
+          "title": {
+            "ko": "아날로그/디지털 변환기(H03M 1/02～ H03M 1/10이 우선)",
+            "en": "Analogue/digital converters (H03M0001020000-H03M0001100000 take precedence)"
+          }
+        },
+        {
+          "code": "H03M 1/14",
+          "title": {
+            "ko": null,
+            "en": "Conversion in steps with each step involving the same or a different conversion means and delivering more than one bit"
+          }
+        },
+        {
+          "code": "H03M 1/16",
+          "title": {
+            "ko": null,
+            "en": "with scale factor modification, i.e. by changing the amplification between the steps"
+          }
+        },
+        {
+          "code": "H03M 1/18",
+          "title": {
+            "ko": null,
+            "en": "Automatic control for modifying the range of signals the converter can handle, e.g. gain ranging"
+          }
+        },
+        {
+          "code": "H03M 1/20",
+          "title": {
+            "ko": null,
+            "en": "Increasing resolution using an n bit system to obtain n + m bits, e.g. by dithering"
+          }
+        },
+        {
+          "code": "H03M 1/22",
+          "title": {
+            "ko": null,
+            "en": "pattern-reading type"
+          }
+        },
+        {
+          "code": "H03M 1/24",
+          "title": {
+            "ko": null,
+            "en": "using relatively movable reader and disc or strip"
+          }
+        },
+        {
+          "code": "H03M 1/26",
+          "title": {
+            "ko": null,
+            "en": "with weighted coding, i.e. the weight given to a digit depends on the position of the digit within the block or code word, e.g. there is a given radix and the weights are powers of this radix"
+          }
+        },
+        {
+          "code": "H03M 1/28",
+          "title": {
+            "ko": null,
+            "en": "with non-weighted coding"
+          }
+        },
+        {
+          "code": "H03M 1/30",
+          "title": {
+            "ko": null,
+            "en": "incremental"
+          }
+        },
+        {
+          "code": "H03M 1/32",
+          "title": {
+            "ko": null,
+            "en": "using cathode-ray tubes"
+          }
+        },
+        {
+          "code": "H03M 1/34",
+          "title": {
+            "ko": "아날로그 값이 기준치와 비교되는 것(H03M 1/48이 우선)",
+            "en": "Analogue value compared with reference values (H03M0001480000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 1/36",
+          "title": {
+            "ko": null,
+            "en": "simultaneously only, i.e. parallel type"
+          }
+        },
+        {
+          "code": "H03M 1/38",
+          "title": {
+            "ko": "순차적으로만 행하는 것, 즉successive approximation형(스텝마다 1bit 이상 변화 H03M 1/14)",
+            "en": "sequentially only, e.g. successive approximation type (converting more than one bit per step H03M0001140000)"
+          }
+        },
+        {
+          "code": "H03M 1/40",
+          "title": {
+            "ko": null,
+            "en": "recirculation type"
+          }
+        },
+        {
+          "code": "H03M 1/42",
+          "title": {
+            "ko": null,
+            "en": "Sequential comparisons in series-connected stages with no change in value of analogue signal"
+          }
+        },
+        {
+          "code": "H03M 1/44",
+          "title": {
+            "ko": null,
+            "en": "Sequential comparisons in series-connected stages with change in value of analogue signal"
+          }
+        },
+        {
+          "code": "H03M 1/46",
+          "title": {
+            "ko": "변환기에 기준치를 제공하기 위한 D/A 변환기가 있는 것",
+            "en": "with digital/analogue converter for supplying reference values to converter"
+          }
+        },
+        {
+          "code": "H03M 1/48",
+          "title": {
+            "ko": null,
+            "en": "Servo-type converters"
+          }
+        },
+        {
+          "code": "H03M 1/50",
+          "title": {
+            "ko": "시간간격에로의 중간변환을 행하는 것(H03M 1/64가 우선)",
+            "en": "with intermediate conversion to time interval (H03M0001640000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 1/52",
+          "title": {
+            "ko": null,
+            "en": "Input signal integrated with linear return to datum"
+          }
+        },
+        {
+          "code": "H03M 1/54",
+          "title": {
+            "ko": "입력신호가datum까지 선형 return으로 S/H (sampling hold)되는 것",
+            "en": "Input signal sampled and held with linear return to datum"
+          }
+        },
+        {
+          "code": "H03M 1/56",
+          "title": {
+            "ko": null,
+            "en": "Input signal compared with linear ramp"
+          }
+        },
+        {
+          "code": "H03M 1/58",
+          "title": {
+            "ko": null,
+            "en": "Non-linear conversion"
+          }
+        },
+        {
+          "code": "H03M 1/60",
+          "title": {
+            "ko": null,
+            "en": "with intermediate conversion to frequency of pulses"
+          }
+        },
+        {
+          "code": "H03M 1/62",
+          "title": {
+            "ko": null,
+            "en": "Non-linear conversion"
+          }
+        },
+        {
+          "code": "H03M 1/64",
+          "title": {
+            "ko": null,
+            "en": "with intermediate conversion to phase of sinusoidal signals"
+          }
+        },
+        {
+          "code": "H03M 1/66",
+          "title": {
+            "ko": "D/A 변환기(H03M 1/02～ H03M 1/10이 우선)",
+            "en": "Digital/analogue converters (H03M0001020000-H03M0001100000 take precedence)"
+          }
+        },
+        {
+          "code": "H03M 1/68",
+          "title": {
+            "ko": null,
+            "en": "with conversions of different sensitivity, i.e. one conversion relating to the more significant digital bits and another conversion to the less significant bits"
+          }
+        },
+        {
+          "code": "H03M 1/70",
+          "title": {
+            "ko": null,
+            "en": "Automatic control for modifying converter range"
+          }
+        },
+        {
+          "code": "H03M 1/72",
+          "title": {
+            "ko": "직열연결된 단에서 순차변환을 하는 것(H03M 1/68이 우선)",
+            "en": "Sequential conversion in series-connected stages (H03M0001680000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 1/74",
+          "title": {
+            "ko": "동시 변화",
+            "en": "Simultaneous conversion"
+          }
+        },
+        {
+          "code": "H03M 1/76",
+          "title": {
+            "ko": null,
+            "en": "using switching tree"
+          }
+        },
+        {
+          "code": "H03M 1/78",
+          "title": {
+            "ko": null,
+            "en": "using ladder network"
+          }
+        },
+        {
+          "code": "H03M 1/80",
+          "title": {
+            "ko": "가중된 임피던스(weighted impedance) 을 이용하는 것(H03M 1/76이 우선)",
+            "en": "using weighted impedances (H03M0001760000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 1/82",
+          "title": {
+            "ko": null,
+            "en": "with intermediate conversion to time interval"
+          }
+        },
+        {
+          "code": "H03M 1/84",
+          "title": {
+            "ko": null,
+            "en": "Non-linear conversion"
+          }
+        },
+        {
+          "code": "H03M 1/86",
+          "title": {
+            "ko": null,
+            "en": "with intermediate conversion to frequency of pulses"
+          }
+        },
+        {
+          "code": "H03M 1/88",
+          "title": {
+            "ko": null,
+            "en": "Non-linear conversion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 3/00",
+      "title": {
+        "ko": null,
+        "en": "Conversion of analogue values to or from differential modulation"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 3/02",
+          "title": {
+            "ko": null,
+            "en": "Delta modulation, i.e. one-bit differential modulation"
+          }
+        },
+        {
+          "code": "H03M 3/04",
+          "title": {
+            "ko": null,
+            "en": "Differential modulation with several bits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 5/00",
+      "title": {
+        "ko": null,
+        "en": "Conversion of the form of the representation of individual digits"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 5/02",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from representation by pulses"
+          }
+        },
+        {
+          "code": "H03M 5/04",
+          "title": {
+            "ko": null,
+            "en": "the pulses having two levels"
+          }
+        },
+        {
+          "code": "H03M 5/06",
+          "title": {
+            "ko": null,
+            "en": "Code representation, e.g. transition, for a given bit cell depending only on the information in that bit cell"
+          }
+        },
+        {
+          "code": "H03M 5/08",
+          "title": {
+            "ko": null,
+            "en": "Code representation by pulse width"
+          }
+        },
+        {
+          "code": "H03M 5/10",
+          "title": {
+            "ko": null,
+            "en": "Code representation by pulse frequency"
+          }
+        },
+        {
+          "code": "H03M 5/12",
+          "title": {
+            "ko": null,
+            "en": "Biphase level code, e.g. split phase code, Manchester code; Biphase space or mark code, e.g. double frequency code"
+          }
+        },
+        {
+          "code": "H03M 5/14",
+          "title": {
+            "ko": null,
+            "en": "Code representation, e.g. transition, for a given bit cell depending on the information in one or more adjacent bit cells, e.g. delay modulation code, double density code"
+          }
+        },
+        {
+          "code": "H03M 5/16",
+          "title": {
+            "ko": null,
+            "en": "the pulses having three levels"
+          }
+        },
+        {
+          "code": "H03M 5/18",
+          "title": {
+            "ko": null,
+            "en": "two levels being symmetrical with respect to the third level, i.e. balanced bipolar ternary code"
+          }
+        },
+        {
+          "code": "H03M 5/20",
+          "title": {
+            "ko": null,
+            "en": "the pulses having more than three levels"
+          }
+        },
+        {
+          "code": "H03M 5/22",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from representation by sinusoidal signals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 7/00",
+      "title": {
+        "ko": "정보가digit의 소정 순서 또는 수에 의하여 표현되는 부호로부터 동일한 정보를 digit의 다른 순서나 수에 의해 표현되는 부호로의 변환",
+        "en": "Conversion of a code where information is represented by a given sequence or number of digits to a code where the same information is represented by a different sequence or number of digits"
+      },
+      "definition": {
+        "ko": "그룹 H03M7/02 ~ H03M7/30에서, 최후개소 우선 규칙이 적용됩니다. 즉. 각 계층 레벨에서 반대의 표시가 없는 경우 마지막 적절한 개소에 분류됩니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H03M 7/02",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from weighted codes, i.e. the weight given to a digit depending on the position of the digit within the block or code word"
+          }
+        },
+        {
+          "code": "H03M 7/04",
+          "title": {
+            "ko": null,
+            "en": "the radix thereof being two"
+          }
+        },
+        {
+          "code": "H03M 7/06",
+          "title": {
+            "ko": null,
+            "en": "the radix thereof being a positive integer different from two"
+          }
+        },
+        {
+          "code": "H03M 7/08",
+          "title": {
+            "ko": null,
+            "en": "the radix being ten, i.e. pure decimal code"
+          }
+        },
+        {
+          "code": "H03M 7/10",
+          "title": {
+            "ko": null,
+            "en": "the radix thereof being negative"
+          }
+        },
+        {
+          "code": "H03M 7/12",
+          "title": {
+            "ko": null,
+            "en": "having two radices, e.g. binary-coded-decimal code"
+          }
+        },
+        {
+          "code": "H03M 7/14",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from non-weighted codes"
+          }
+        },
+        {
+          "code": "H03M 7/16",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from unit-distance codes, e.g. Gray code, reflected binary code"
+          }
+        },
+        {
+          "code": "H03M 7/18",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from residue codes"
+          }
+        },
+        {
+          "code": "H03M 7/20",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from n-out-of-m codes"
+          }
+        },
+        {
+          "code": "H03M 7/22",
+          "title": {
+            "ko": null,
+            "en": "to or from one-out-of-m codes"
+          }
+        },
+        {
+          "code": "H03M 7/24",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from floating-point codes"
+          }
+        },
+        {
+          "code": "H03M 7/26",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from stochastic codes"
+          }
+        },
+        {
+          "code": "H03M 7/28",
+          "title": {
+            "ko": null,
+            "en": "Programmable structures, i.e. where the code converter contains apparatus which is operator-changeable to modify the conversion process"
+          }
+        },
+        {
+          "code": "H03M 7/30",
+          "title": {
+            "ko": "압축(영상 통신 H04N; 잉여 감축을 위한 스피치의 분석 및 합성 G10L 19/00); 신장.불필요한 데이터의 억압, 예; redundancy 감소",
+            "en": "Compression (speech analysis-synthesis for redundancy reduction G10L0019000000;for image communication H04N); Expansion; Suppression of unnecessary data, e.g. redundancy reduction"
+          }
+        },
+        {
+          "code": "H03M 7/32",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from delta modulation, i.e. one-bit differential modulation"
+          }
+        },
+        {
+          "code": "H03M 7/34",
+          "title": {
+            "ko": null,
+            "en": "adaptive"
+          }
+        },
+        {
+          "code": "H03M 7/36",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from differential modulation with several bits, i.e. the difference between successive samples being coded by more than one bit"
+          }
+        },
+        {
+          "code": "H03M 7/38",
+          "title": {
+            "ko": null,
+            "en": "adaptive"
+          }
+        },
+        {
+          "code": "H03M 7/40",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from variable length codes, e.g. Shannon-Fano code, Huffman code, Morse code"
+          }
+        },
+        {
+          "code": "H03M 7/42",
+          "title": {
+            "ko": null,
+            "en": "using table look-up for the coding or decoding process, e.g. using read-only memory"
+          }
+        },
+        {
+          "code": "H03M 7/44",
+          "title": {
+            "ko": null,
+            "en": "Suppression of irrelevant zeroes"
+          }
+        },
+        {
+          "code": "H03M 7/46",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from run-length codes, i.e. by representing the number of consecutive digits, or groups of digits, of the same kind by a code word and a digit indicative of that kind"
+          }
+        },
+        {
+          "code": "H03M 7/48",
+          "title": {
+            "ko": null,
+            "en": "alternating with other codes during the code conversion process, e.g. run-length coding being performed only as long as sufficiently long runs of digits of the same kind are present"
+          }
+        },
+        {
+          "code": "H03M 7/50",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from non-linear codes, e.g. companding"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 9/00",
+      "title": {
+        "ko": "병렬/직렬 변환 또는 그 역의 변환(정보가 스텝형식으로 이동하는 디지털 기억장치 G11C 19/00)",
+        "en": "Parallel/series conversion or vice versa (digital stores in which the information is moved stepwise G11C0019000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03M 11/00",
+      "title": {
+        "ko": "keyboard 또는 이와 유사한 장치와 관련한 부호화(keyboard 스위치장치, 부호기와 Keyboard의 구조적인 결합 H01H 13/70, H03K 17/94)",
+        "en": "Coding in connection with keyboards or like devices, i.e. coding of the position of operated keys (keyboard switch arrangements, structural association of coders and keyboards H01H0013700000, H03K0017940000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 11/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03M 11/04",
+          "title": {
+            "ko": null,
+            "en": "Coding of multifunction keys"
+          }
+        },
+        {
+          "code": "H03M 11/06",
+          "title": {
+            "ko": null,
+            "en": "by operating the multifunction key itself in different ways"
+          }
+        },
+        {
+          "code": "H03M 11/08",
+          "title": {
+            "ko": null,
+            "en": "by operating selected combinations of multifunction keys"
+          }
+        },
+        {
+          "code": "H03M 11/10",
+          "title": {
+            "ko": null,
+            "en": "by methods based on duration or pressure detection of keystrokes"
+          }
+        },
+        {
+          "code": "H03M 11/12",
+          "title": {
+            "ko": null,
+            "en": "by operating a key a selected number of consecutive times whereafter a separate enter key is used which marks the end of the series"
+          }
+        },
+        {
+          "code": "H03M 11/14",
+          "title": {
+            "ko": null,
+            "en": "by using additional keys, e.g. shift keys, which determine the function performed by the multifunction key"
+          }
+        },
+        {
+          "code": "H03M 11/16",
+          "title": {
+            "ko": null,
+            "en": "wherein the shift keys are operated after the operation of the multifunction keys"
+          }
+        },
+        {
+          "code": "H03M 11/18",
+          "title": {
+            "ko": null,
+            "en": "wherein the shift keys are operated before the operation of the multifunction keys"
+          }
+        },
+        {
+          "code": "H03M 11/20",
+          "title": {
+            "ko": "동적 부호화, 즉 키스캐닝에 의한 것(11/26이 우선)",
+            "en": "Dynamic coding, i.e. by key scanning (H03M0011260000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 11/22",
+          "title": {
+            "ko": "정적부호화(H03M 11/26이 우선)",
+            "en": "Static coding (H03M0011260000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 11/24",
+          "title": {
+            "ko": null,
+            "en": "using analogue means"
+          }
+        },
+        {
+          "code": "H03M 11/26",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 13/00",
+      "title": {
+        "ko": "오류 검출 또는 정정을 위한 부호화, 디코딩 또는 부호 변환; 부호화 이론의 기본 가정; 부호화 범위; 오류 확률 평가 수단 ; 채널 모델; 부호의 시험 또는 시뮬레이션 (아날로그/디지털, 디지털/아날로그 또는 코드 변환을 위한 오류 검출이나 오류 정정 H03M 1/00 ~ H03M 11/00 : 디지털 컴퓨터에 특히 적합한 것 G06F 11/08; 기록 매체와 변환기사이의 상대운동에 기반한 정보 저장을 위한 것 G11B, 예. G11B 20/18; 정적 저장을 위한 것 G11C)",
+        "en": "Coding, decoding or code conversion, for error detection or error correction; Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes (error detection or error correction for analogue/digital, digital/analogue or code conversion H03M0001000000-H03M0011000000; specially adapted for digital computers G06F0011080000; for information storage based on relative movement between record carrier and transducer G11B, e.g. G11B0020180000; for static stores G11C)"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 13/01",
+          "title": {
+            "ko": null,
+            "en": "Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes"
+          }
+        },
+        {
+          "code": "H03M 13/03",
+          "title": {
+            "ko": "데이터 표현 내 잉여에 의한 정방향 에러정정 또는 에러 탐지, 예를 들면, 소스 언어보다 더 디지트를 포함하는 코드 언어",
+            "en": "Error detection or forward error correction by redundancy in data representation, i.e. code words containing more digits than the source words"
+          }
+        },
+        {
+          "code": "H03M 13/05",
+          "title": {
+            "ko": "블럭 코드를 이용한 것, 예를 들면, 정보 비트의 사전 결정된 수와 연결된 체크 비트의 사전 예정된 수",
+            "en": "using block codes, i.e. a predetermined number of check bits joined to a predetermined number of information bits"
+          }
+        },
+        {
+          "code": "H03M 13/07",
+          "title": {
+            "ko": null,
+            "en": "Arithmetic codes"
+          }
+        },
+        {
+          "code": "H03M 13/09",
+          "title": {
+            "ko": null,
+            "en": "Error detection only, e.g. using cyclic redundancy check [CRC] codes or single parity bit"
+          }
+        },
+        {
+          "code": "H03M 13/11",
+          "title": {
+            "ko": null,
+            "en": "using multiple parity bits"
+          }
+        },
+        {
+          "code": "H03M 13/13",
+          "title": {
+            "ko": "선형 코드",
+            "en": "Linear codes"
+          }
+        },
+        {
+          "code": "H03M 13/15",
+          "title": {
+            "ko": "순환 부호, 즉, 코드워드의 순환이동이 다른 코드워드를 산출하는 것, 예를 들면, 생성다항식에 의해 정의되는 코드, Bose-Chaudhuri-Hocquenghem [BCH] 코드 (H03M 13/17가 우선)",
+            "en": "Cyclic codes, i.e. cyclic shifts of codewords produce other codewords, e.g. codes defined by a generator polynomial, Bose-Chaudhuri-Hocquenghem [BCH] codes (H03M0013170000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 13/17",
+          "title": {
+            "ko": null,
+            "en": "Burst error correction, e.g. error trapping, Fire codes"
+          }
+        },
+        {
+          "code": "H03M 13/19",
+          "title": {
+            "ko": null,
+            "en": "Single error correction without using particular properties of the cyclic codes, e.g. Hamming codes, extended or generalised Hamming codes"
+          }
+        },
+        {
+          "code": "H03M 13/21",
+          "title": {
+            "ko": null,
+            "en": "Non-linear codes, e.g. m-bit data word to n-bit code word [mBnB] conversion with error detection or error correction"
+          }
+        },
+        {
+          "code": "H03M 13/23",
+          "title": {
+            "ko": null,
+            "en": "using convolutional codes, e.g. unit memory codes"
+          }
+        },
+        {
+          "code": "H03M 13/25",
+          "title": {
+            "ko": null,
+            "en": "Error detection or forward error correction by signal space coding, i.e. adding redundancy in the signal constellation, e.g. Trellis Coded Modulation [TCM]"
+          }
+        },
+        {
+          "code": "H03M 13/27",
+          "title": {
+            "ko": null,
+            "en": "using interleaving techniques"
+          }
+        },
+        {
+          "code": "H03M 13/29",
+          "title": {
+            "ko": null,
+            "en": "combining two or more codes or code structures, e.g. product codes, generalised product codes, concatenated codes, inner and outer codes"
+          }
+        },
+        {
+          "code": "H03M 13/31",
+          "title": {
+            "ko": "에러 탐지 또는 정정을 위한 코딩과 스펙트럼의 효율적 사용을 결합하는 것(에러 탐지나 에러 정정이 없는 경우 H03M 5/14)",
+            "en": "combining coding for error detection or correction and efficient use of the spectrum (without error detection or correction H03M0005140000)"
+          }
+        },
+        {
+          "code": "H03M 13/33",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation based on error coding or decoding"
+          }
+        },
+        {
+          "code": "H03M 13/35",
+          "title": {
+            "ko": null,
+            "en": "Unequal or adaptive error protection, e.g. by providing a different level of protection according to significance of source information or by adapting the coding according to the change of transmission channel characteristics"
+          }
+        },
+        {
+          "code": "H03M 13/37",
+          "title": {
+            "ko": "H03M 13/03 ~ H03M 13/35내로 주어지는 코딩의 특정한 유형과는 무관한 디코딩 방법 또는 기술",
+            "en": "Decoding methods or techniques, not specific to the particular type of coding provided for in groups H03M0013030000-H03M0013350000"
+          }
+        },
+        {
+          "code": "H03M 13/39",
+          "title": {
+            "ko": null,
+            "en": "Sequence estimation, i.e using statistical methods for the reconstruction of the original codes"
+          }
+        },
+        {
+          "code": "H03M 13/41",
+          "title": {
+            "ko": null,
+            "en": "using the Viterbi algorithm or Viterbi processors"
+          }
+        },
+        {
+          "code": "H03M 13/43",
+          "title": {
+            "ko": null,
+            "en": "Majority logic or threshold decoding"
+          }
+        },
+        {
+          "code": "H03M 13/45",
+          "title": {
+            "ko": "소프트 디코딩. 다시말해서, 심볼 신뢰 정보를 사용하는 것(H03M 13/41이 우선한다)",
+            "en": "Soft decoding, i.e. using symbol reliability information (H03M0013410000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 13/47",
+          "title": {
+            "ko": "H03M 13/01부터 H03M 13/37내에서 주어지지 않는 정방향의 에러 보호 또는 에러 정정, 에러 탐지",
+            "en": "Error detection, forward error correction or error protection, not provided for in groups H03M0013010000-H03M0013370000"
+          }
+        },
+        {
+          "code": "H03M 13/49",
+          "title": {
+            "ko": null,
+            "en": "Unidirectional error detection or correction"
+          }
+        },
+        {
+          "code": "H03M 13/51",
+          "title": {
+            "ko": null,
+            "en": "Constant weight codes; n-out-of-m codes; Berger codes"
+          }
+        },
+        {
+          "code": "H03M 13/53",
+          "title": {
+            "ko": null,
+            "en": "Codes using Fibonacci numbers series"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

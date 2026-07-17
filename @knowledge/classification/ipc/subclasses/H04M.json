@@ -1,0 +1,1664 @@
+{
+  "subclass": "H04M",
+  "title": {
+    "ko": "전화통신(전화교환장치를 제외하고, 전화선로를 통해서 다른 장치를 제어하는 회로 G08)",
+    "en": "TELEPHONIC COMMUNICATION (circuits for controlling other apparatus via a telephone cable and not involving telephone switching apparatus G08)"
+  },
+  "definition": {
+    "ko": "전화시스템 기타 전기시스템과 결합; 공동선시스템; 요금 선납시스템 H04M11/00; 13/00; 17/00 장치 및 구조 장치 H04M1/00 교환장치 : 자동; 수동 H04M3/00; 5/00 상호접속구조 : 중앙집중식; 비중앙집중식 H04M7/00; 9/00 감시 및 제어; 전원공급 H04M15/00; 19/00 이 서브클래스의 다른 그룹으로 분류되지 않는 주제사항 H04M99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04M 1/00",
+      "title": {
+        "ko": "서브스테이션 장치, 예 : 가입자에 의해 사용되는 것.(교환국에 의해 제공되는 가입자장치의 서비스나 기능 H04M 3/00; 선납식 공중전화기 H04M 17/00; 전류공급장치 H04M 19/08)",
+        "en": "Substation equipment, e.g. for use by subscribers (subscriber services or facilities provided at exchanges H04M0003000000;prepayment telephone coin boxes H04M0017000000;current supply arrangements H04M0019080000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 1/02",
+          "title": {
+            "ko": "전화기의 구조적 특징",
+            "en": "Constructional features of telephone sets"
+          }
+        },
+        {
+          "code": "H04M 1/03",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of telephone transmitters or receivers, e.g. telephone hand-sets"
+          }
+        },
+        {
+          "code": "H04M 1/04",
+          "title": {
+            "ko": null,
+            "en": "Supports for telephone transmitters or receivers"
+          }
+        },
+        {
+          "code": "H04M 1/05",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for use on head, throat or breast"
+          }
+        },
+        {
+          "code": "H04M 1/06",
+          "title": {
+            "ko": null,
+            "en": "Hooks; Cradles"
+          }
+        },
+        {
+          "code": "H04M 1/08",
+          "title": {
+            "ko": null,
+            "en": "associated with switches operated by the weight of the receiver or hand-set"
+          }
+        },
+        {
+          "code": "H04M 1/10",
+          "title": {
+            "ko": null,
+            "en": "associated with switches operated by magnetic effect due to proximity of receiver or hand-set"
+          }
+        },
+        {
+          "code": "H04M 1/11",
+          "title": {
+            "ko": null,
+            "en": "Supports for sets, e.g. incorporating armrests"
+          }
+        },
+        {
+          "code": "H04M 1/12",
+          "title": {
+            "ko": null,
+            "en": "Adjustable supports, e.g. extensible"
+          }
+        },
+        {
+          "code": "H04M 1/13",
+          "title": {
+            "ko": null,
+            "en": "pantographic"
+          }
+        },
+        {
+          "code": "H04M 1/14",
+          "title": {
+            "ko": null,
+            "en": "with resilient means to eliminate extraneous vibrations"
+          }
+        },
+        {
+          "code": "H04M 1/15",
+          "title": {
+            "ko": null,
+            "en": "Protecting or guiding telephone cords"
+          }
+        },
+        {
+          "code": "H04M 1/17",
+          "title": {
+            "ko": "전화기의 청정 또는 위생장치(송화기구 또는 수화기구를 위한 것 H04R 1/12)",
+            "en": "Hygienic or sanitary devices on telephone equipment (for mouthpieces or earpieces H04R0001120000)"
+          }
+        },
+        {
+          "code": "H04M 1/18",
+          "title": {
+            "ko": "선박, 광산 등 특수환경하에서 사용하기에 특히 적합한 전화기(H04M 1/19가 우선)",
+            "en": "Telephone sets specially adapted for use in ships, mines, or other places exposed to adverse environment (H04M0001190000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/19",
+          "title": {
+            "ko": "도청방지, 국부잡음 감쇄, 불필요한 송화 방지를 위한 송화기, 수화기, 또는 전화기셋의 장치; 이를 위해 특히 적합한 송화기 또는 수화기(도청방지를 위한 회로 H04M 1/68; 전화박스 E04H 1/14)",
+            "en": "Arrangements of transmitters, receivers, or complete sets to prevent eavesdropping, to attenuate local noise or to prevent undesired transmission; Mouthpieces or receivers specially adapted therefor (circuit arrangements for preventing eavesdropping H04M0001680000;telephone cabinets E04H0001140000)"
+          }
+        },
+        {
+          "code": "H04M 1/20",
+          "title": {
+            "ko": "음성의 궤환(Feedback)을 방지하기 위한 것(H04M 1/62가 우선)",
+            "en": "Arrangements for preventing acoustic feedback (H04M0001620000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/21",
+          "title": {
+            "ko": null,
+            "en": "Combinations with auxiliary equipment, e.g. with clocks or memoranda pads"
+          }
+        },
+        {
+          "code": "H04M 1/215",
+          "title": {
+            "ko": null,
+            "en": "by non-intrusive coupling means, e.g. acoustic couplers"
+          }
+        },
+        {
+          "code": "H04M 1/22",
+          "title": {
+            "ko": null,
+            "en": "Illumination; Arrangements for improving the visibility of characters on dials"
+          }
+        },
+        {
+          "code": "H04M 1/23",
+          "title": {
+            "ko": "다이얼 또는 그와 같은 장치의 조립 또는 결합; 그 사용을 용이하게 하기 위한 수단(보기 쉽게 하는 것 H04M 1/22)",
+            "en": "Construction or mounting of dials or of equivalent devices; Means for facilitating the use thereof (by improving visibility H04M0001220000)"
+          }
+        },
+        {
+          "code": "H04M 1/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for testing"
+          }
+        },
+        {
+          "code": "H04M 1/247",
+          "title": {
+            "ko": "사용을 편리하게 하기위한 사용자 안내 또는 기능 선택 수단을 가진 전화기 셋 (유선 또는 모바일 전화기에 특별히 적합한 사용자 인터페이스 H04M 1/724)",
+            "en": "Telephone sets including user guidance or feature selection means facilitating their use   (user interfaces specially adapted for cordless or mobile telephones H04M0001724000)"
+          }
+        },
+        {
+          "code": "H04M 1/253",
+          "title": {
+            "ko": null,
+            "en": "Telephone sets using digital voice transmission"
+          }
+        },
+        {
+          "code": "H04M 1/26",
+          "title": {
+            "ko": "가입자를 호출하기 위한 장치 (H04M1/66이 우선)",
+            "en": "Devices for calling a subscriber (H04M0001660000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/27",
+          "title": {
+            "ko": "복수의 신호가 동시에 저장될 수 있는 장치",
+            "en": "Devices whereby a plurality of signals may be stored simultaneously"
+          }
+        },
+        {
+          "code": "H04M 1/272",
+          "title": {
+            "ko": null,
+            "en": "with provision for storing only one subscriber number at a time, e.g. by keyboard or dial"
+          }
+        },
+        {
+          "code": "H04M 1/274",
+          "title": {
+            "ko": "한번에 하나이상의 가입자 번호를 저장하는 구성이 있는 것",
+            "en": "with provision for storing more than one subscriber number at a time"
+          }
+        },
+        {
+          "code": "H04M 1/2745",
+          "title": {
+            "ko": "정적 전자 메모리를 이용한 것. 예. 칩(chip)",
+            "en": "using static electronic memories, e.g. chips"
+          }
+        },
+        {
+          "code": "H04M 1/27453",
+          "title": {
+            "ko": null,
+            "en": "Directories allowing storage of additional subscriber data, e.g. metadata"
+          }
+        },
+        {
+          "code": "H04M 1/27457",
+          "title": {
+            "ko": null,
+            "en": "Management thereof, e.g. manual editing of data"
+          }
+        },
+        {
+          "code": "H04M 1/2746",
+          "title": {
+            "ko": null,
+            "en": "Sorting, e.g. according to history or frequency of use"
+          }
+        },
+        {
+          "code": "H04M 1/27467",
+          "title": {
+            "ko": null,
+            "en": "Methods of retrieving data"
+          }
+        },
+        {
+          "code": "H04M 1/2747",
+          "title": {
+            "ko": null,
+            "en": "Scrolling on a display"
+          }
+        },
+        {
+          "code": "H04M 1/27475",
+          "title": {
+            "ko": null,
+            "en": "using interactive graphical means or pictorial representations"
+          }
+        },
+        {
+          "code": "H04M 1/2748",
+          "title": {
+            "ko": null,
+            "en": "by matching character strings"
+          }
+        },
+        {
+          "code": "H04M 1/27485",
+          "title": {
+            "ko": null,
+            "en": "Appending a prefix to or inserting a pause into a dialling sequence"
+          }
+        },
+        {
+          "code": "H04M 1/2749",
+          "title": {
+            "ko": null,
+            "en": "Automatic dialling or redialling systems, e.g. on off-hook or redial on busy"
+          }
+        },
+        {
+          "code": "H04M 1/27495",
+          "title": {
+            "ko": "개별 전자 부품을 통해 수행되는 것, 즉. 프로그램 가능하지도 마이크로 프로세서 제어되지도 않는 것 (H04M1/27457 ~ H04M1/2749 가 우선)",
+            "en": "implemented by means of discrete electronic components, i.e. neither programmable nor microprocessor-controlled (H04M0001274570-H04M0001274900 take precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/275",
+          "title": {
+            "ko": null,
+            "en": "implemented by means of portable electronic directories"
+          }
+        },
+        {
+          "code": "H04M 1/2753",
+          "title": {
+            "ko": null,
+            "en": "providing data content"
+          }
+        },
+        {
+          "code": "H04M 1/2755",
+          "title": {
+            "ko": null,
+            "en": "by optical scanning"
+          }
+        },
+        {
+          "code": "H04M 1/2757",
+          "title": {
+            "ko": null,
+            "en": "by data transmission, e.g. downloading"
+          }
+        },
+        {
+          "code": "H04M 1/276",
+          "title": {
+            "ko": null,
+            "en": "using magnetic recording, e.g. on tape"
+          }
+        },
+        {
+          "code": "H04M 1/278",
+          "title": {
+            "ko": null,
+            "en": "using punched cards or tapes"
+          }
+        },
+        {
+          "code": "H04M 1/30",
+          "title": {
+            "ko": "일시에 한 숫자만을 설정해서 송출할 수 있는 장치",
+            "en": "Devices which can set up and transmit only one digit at a time"
+          }
+        },
+        {
+          "code": "H04M 1/31",
+          "title": {
+            "ko": "펄스열을 발생하기 위하여 전류를 단속하는 것에 의한 것; 펄스열을 발생하기 위하여 접점을 주기적으로 개폐하는 것",
+            "en": "by interrupting current to generate trains of pulses; by periodically opening and closing contacts to generate trains of pulses"
+          }
+        },
+        {
+          "code": "H04M 1/315",
+          "title": {
+            "ko": "클러치; 스프링 어셈블리; 속도 조절기, 예. 원심 브레이크 (H04M 1/32-H04M 1/40이 우선)",
+            "en": "Clutches; Spring assemblies; Speed regulators, e.g. centrifugal brakes (H04M0001320000-H04M0001400000 take precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/32",
+          "title": {
+            "ko": null,
+            "en": "Locking setting devices during transmission to prevent interference by user"
+          }
+        },
+        {
+          "code": "H04M 1/34",
+          "title": {
+            "ko": null,
+            "en": "Lost-motion or other arrangements for ensuring a pause between successive digit transmissions"
+          }
+        },
+        {
+          "code": "H04M 1/38",
+          "title": {
+            "ko": null,
+            "en": "Pulses transmitted by a movement variably limited by the setting of a stop"
+          }
+        },
+        {
+          "code": "H04M 1/40",
+          "title": {
+            "ko": null,
+            "en": "wherein the setting-operation short-circuits or open-circuits the transmitting mechanism during a variable part of a cycle"
+          }
+        },
+        {
+          "code": "H04M 1/50",
+          "title": {
+            "ko": null,
+            "en": "by generating or selecting currents of predetermined frequencies or combinations of frequencies"
+          }
+        },
+        {
+          "code": "H04M 1/515",
+          "title": {
+            "ko": null,
+            "en": "by generating or selecting signals other than trains of pulses of similar shape, or signals other than currents of one or more different frequencies, e.g. generation of DC signals of alternating polarity, coded pulses or impedance dialling"
+          }
+        },
+        {
+          "code": "H04M 1/52",
+          "title": {
+            "ko": null,
+            "en": "Arrangements wherein a dial or the like is mechanically coupled to a line selector"
+          }
+        },
+        {
+          "code": "H04M 1/53",
+          "title": {
+            "ko": null,
+            "en": "Generation of additional signals, e.g. additional pulses"
+          }
+        },
+        {
+          "code": "H04M 1/54",
+          "title": {
+            "ko": null,
+            "en": "Arrangements wherein a dial or the like generates identifying signals, e.g. in party-line systems"
+          }
+        },
+        {
+          "code": "H04M 1/56",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating or recording the called number at the calling subscriber's set"
+          }
+        },
+        {
+          "code": "H04M 1/57",
+          "title": {
+            "ko": "피호가입자 장치에 있어서 발호가입자 번호를 표시 또는 기록하기 위한 배치(수동교환기에서의 취급자 장치에 있어서의 것 H04M 5/20)",
+            "en": "Arrangements for indicating or recording the number of the calling subscriber at the called subscriber's set (at the operator set in a manual exchange H04M0005200000)"
+          }
+        },
+        {
+          "code": "H04M 1/58",
+          "title": {
+            "ko": null,
+            "en": "Anti-side-tone circuits"
+          }
+        },
+        {
+          "code": "H04M 1/60",
+          "title": {
+            "ko": null,
+            "en": "including speech amplifiers"
+          }
+        },
+        {
+          "code": "H04M 1/62",
+          "title": {
+            "ko": null,
+            "en": "Constructional arrangements"
+          }
+        },
+        {
+          "code": "H04M 1/64",
+          "title": {
+            "ko": "호출에 대한 자동응답장치; 부재가입자를 위한 자동응답장치: 통화를 녹음하기 위한 장치(중앙집중 받아쓰기 시스템 H04M 11/10)",
+            "en": "Automatic arrangements for answering calls; Automatic arrangements for recording messages for absent subscribers; Arrangements for recording conversations (centralised dictation systems H04M0011100000)"
+          }
+        },
+        {
+          "code": "H04M 1/65",
+          "title": {
+            "ko": "녹음장치",
+            "en": "Recording arrangements"
+          }
+        },
+        {
+          "code": "H04M 1/652",
+          "title": {
+            "ko": "전화선을 통한 리모트 콘트롤로써 녹음된 메시지를 플레이 백하기 위한 수단(H04M 1/658 이 우선한다)",
+            "en": "Means for playing back the recorded messages by remote control over a telephone line (H04M0001658000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/654",
+          "title": {
+            "ko": null,
+            "en": "Telephone line monitoring circuits therefor, e.g. ring detectors"
+          }
+        },
+        {
+          "code": "H04M 1/656",
+          "title": {
+            "ko": null,
+            "en": "for recording conversations"
+          }
+        },
+        {
+          "code": "H04M 1/658",
+          "title": {
+            "ko": null,
+            "en": "Means for redirecting recorded messages to other extensions or equipment"
+          }
+        },
+        {
+          "code": "H04M 1/66",
+          "title": {
+            "ko": "부당(fraudulent)한 호출이나 비인가 호출을 방지하기 위한 수단을 가지는 것(비밀 또는 보안 디지털 통신에서 사용자의 식별이나 권한을 확인하기 위한 것은 H04L 9/32)",
+            "en": "with means for preventing unauthorised or fraudulent calling (verifying user identity or authority in secret or secure digital communications H04L0009320000)"
+          }
+        },
+        {
+          "code": "H04M 1/663",
+          "title": {
+            "ko": null,
+            "en": "Preventing unauthorised calls to a telephone set"
+          }
+        },
+        {
+          "code": "H04M 1/665",
+          "title": {
+            "ko": null,
+            "en": "by checking the validity of a code"
+          }
+        },
+        {
+          "code": "H04M 1/667",
+          "title": {
+            "ko": "전화장치로부터의 비인가자의 호출을 방지하는 것 (H04M 1/677 이 우선)",
+            "en": "Preventing unauthorised calls from a telephone set (H04M0001677000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/67",
+          "title": {
+            "ko": null,
+            "en": "by electronic means"
+          }
+        },
+        {
+          "code": "H04M 1/673",
+          "title": {
+            "ko": null,
+            "en": "the user being required to key in a code"
+          }
+        },
+        {
+          "code": "H04M 1/675",
+          "title": {
+            "ko": null,
+            "en": "the user being required to insert a coded card, e.g. a smart card carrying an integrated circuit chip"
+          }
+        },
+        {
+          "code": "H04M 1/677",
+          "title": {
+            "ko": null,
+            "en": "Preventing the dialling or sending of predetermined telephone numbers or selected types of telephone numbers, e.g. long distance numbers"
+          }
+        },
+        {
+          "code": "H04M 1/68",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for preventing eavesdropping"
+          }
+        },
+        {
+          "code": "H04M 1/70",
+          "title": {
+            "ko": null,
+            "en": "Lock-out or secrecy arrangements in party-line systems"
+          }
+        },
+        {
+          "code": "H04M 1/71",
+          "title": {
+            "ko": "변전소 확장 장치",
+            "en": "Substation extension arrangements"
+          }
+        },
+        {
+          "code": "H04M 1/715",
+          "title": {
+            "ko": "회선 당 2개 이상의 내선 사용 (코드리스(cordless) 전화기 H04M 1/725)",
+            "en": "using two or more extensions per line (cordless telephones H04M0001725000)"
+          }
+        },
+        {
+          "code": "H04M 1/72",
+          "title": {
+            "ko": "모바일 전화기; 코드리스(Cordless) 전화기, 즉. 경로의 선택없이 기지국에 무선 링크를 설정하기 위한 장치",
+            "en": "Mobile telephones; Cordless telephones, i.e. devices for establishing wireless links to base stations without route selection"
+          }
+        },
+        {
+          "code": "H04M 1/724",
+          "title": {
+            "ko": "코드리스(cordless) 또는 모바일 폰에 특히 적합한 사용자 인터페이스",
+            "en": "User interfaces specially adapted for cordless or mobile telephones"
+          }
+        },
+        {
+          "code": "H04M 1/72403",
+          "title": {
+            "ko": "기능을 증가시키는 애플리케이션의 로컬 지원 수단",
+            "en": "with means for local support of applications that increase the functionality"
+          }
+        },
+        {
+          "code": "H04M 1/72406",
+          "title": {
+            "ko": null,
+            "en": "by software upgrading or downloading"
+          }
+        },
+        {
+          "code": "H04M 1/72409",
+          "title": {
+            "ko": "외부 액세서리와의 인터페이싱에 의한 것 (핸즈프리 H04M 1/60)",
+            "en": "by interfacing with external accessories (hands-free H04M0001600000)"
+          }
+        },
+        {
+          "code": "H04M 1/72412",
+          "title": {
+            "ko": null,
+            "en": "using two-way short-range wireless interfaces"
+          }
+        },
+        {
+          "code": "H04M 1/72415",
+          "title": {
+            "ko": null,
+            "en": "for remote control of appliances"
+          }
+        },
+        {
+          "code": "H04M 1/72418",
+          "title": {
+            "ko": null,
+            "en": "for supporting emergency services"
+          }
+        },
+        {
+          "code": "H04M 1/72421",
+          "title": {
+            "ko": null,
+            "en": "with automatic activation of emergency service functions, e.g. upon sensing an alarm"
+          }
+        },
+        {
+          "code": "H04M 1/72424",
+          "title": {
+            "ko": null,
+            "en": "with manual activation of emergency-service functions"
+          }
+        },
+        {
+          "code": "H04M 1/72427",
+          "title": {
+            "ko": null,
+            "en": "for supporting games or graphical animations"
+          }
+        },
+        {
+          "code": "H04M 1/7243",
+          "title": {
+            "ko": "메시지의 내부 관리를 위한 대화형 수단",
+            "en": "with interactive means for internal management of messages"
+          }
+        },
+        {
+          "code": "H04M 1/72433",
+          "title": {
+            "ko": "음성 메시지를 위한 것, 예. 딕터폰 (수신 전화를 받기 위한 것 H04M 1/64)",
+            "en": "for voice messaging, e.g. dictaphones (for answering incoming calls H04M0001640000)"
+          }
+        },
+        {
+          "code": "H04M 1/72436",
+          "title": {
+            "ko": "문자 메시지를 위한 것, 예. 단문 메시지 서비스 [SMS] 또는 이메일",
+            "en": "for text messaging, e.g. short messaging services [SMS] or e-mails"
+          }
+        },
+        {
+          "code": "H04M 1/72439",
+          "title": {
+            "ko": null,
+            "en": "for image or video messaging"
+          }
+        },
+        {
+          "code": "H04M 1/72442",
+          "title": {
+            "ko": null,
+            "en": "for playing music files"
+          }
+        },
+        {
+          "code": "H04M 1/72445",
+          "title": {
+            "ko": null,
+            "en": "for supporting Internet browser applications"
+          }
+        },
+        {
+          "code": "H04M 1/72448",
+          "title": {
+            "ko": null,
+            "en": "with means for adapting the functionality of the device according to specific conditions"
+          }
+        },
+        {
+          "code": "H04M 1/72451",
+          "title": {
+            "ko": null,
+            "en": "according to schedules, e.g. using calendar applications"
+          }
+        },
+        {
+          "code": "H04M 1/72454",
+          "title": {
+            "ko": null,
+            "en": "according to context-related or environment-related conditions"
+          }
+        },
+        {
+          "code": "H04M 1/72457",
+          "title": {
+            "ko": null,
+            "en": "according to geographic location"
+          }
+        },
+        {
+          "code": "H04M 1/7246",
+          "title": {
+            "ko": null,
+            "en": "by connection of exchangeable housing parts"
+          }
+        },
+        {
+          "code": "H04M 1/72463",
+          "title": {
+            "ko": null,
+            "en": "to restrict the functionality of the device"
+          }
+        },
+        {
+          "code": "H04M 1/72466",
+          "title": {
+            "ko": null,
+            "en": "with selection means, e.g. keys, having functions defined by the mode or the status of the device"
+          }
+        },
+        {
+          "code": "H04M 1/72469",
+          "title": {
+            "ko": null,
+            "en": "for operating the device by selecting functions from two or more displayed items, e.g. menus or icons"
+          }
+        },
+        {
+          "code": "H04M 1/72472",
+          "title": {
+            "ko": null,
+            "en": "wherein the items are sorted according to specific criteria, e.g. frequency of use"
+          }
+        },
+        {
+          "code": "H04M 1/72475",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for disabled users"
+          }
+        },
+        {
+          "code": "H04M 1/72478",
+          "title": {
+            "ko": null,
+            "en": "for hearing-impaired users"
+          }
+        },
+        {
+          "code": "H04M 1/72481",
+          "title": {
+            "ko": null,
+            "en": "for visually impaired users"
+          }
+        },
+        {
+          "code": "H04M 1/72484",
+          "title": {
+            "ko": null,
+            "en": "wherein functions are triggered by incoming communication events"
+          }
+        },
+        {
+          "code": "H04M 1/725",
+          "title": {
+            "ko": "코드리스(Cordless) 전화기 (그것에 특히 적합한 사용자 인터페이스 H04M 1/724)",
+            "en": "Cordless telephones   (user interfaces specially adapted therefor H04M0001724000)"
+          }
+        },
+        {
+          "code": "H04M 1/72502",
+          "title": {
+            "ko": null,
+            "en": "with one base station connected to a single line"
+          }
+        },
+        {
+          "code": "H04M 1/72505",
+          "title": {
+            "ko": null,
+            "en": "Radio link set-up procedures"
+          }
+        },
+        {
+          "code": "H04M 1/72508",
+          "title": {
+            "ko": null,
+            "en": "using a control channel"
+          }
+        },
+        {
+          "code": "H04M 1/72511",
+          "title": {
+            "ko": null,
+            "en": "Searching for available channels"
+          }
+        },
+        {
+          "code": "H04M 1/72513",
+          "title": {
+            "ko": null,
+            "en": "On-hold, intercom or transfer communication modes"
+          }
+        },
+        {
+          "code": "H04M 1/72516",
+          "title": {
+            "ko": null,
+            "en": "with means for out-of-range alerting"
+          }
+        },
+        {
+          "code": "H04M 1/727",
+          "title": {
+            "ko": null,
+            "en": "Identification code transfer arrangements"
+          }
+        },
+        {
+          "code": "H04M 1/73",
+          "title": {
+            "ko": null,
+            "en": "Battery saving arrangements"
+          }
+        },
+        {
+          "code": "H04M 1/733",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of base stations connected to a plurality of lines"
+          }
+        },
+        {
+          "code": "H04M 1/737",
+          "title": {
+            "ko": null,
+            "en": "characterised by transmission of electromagnetic waves other than radio waves, e.g. infrared waves"
+          }
+        },
+        {
+          "code": "H04M 1/738",
+          "title": {
+            "ko": "외부 전화라인에 서브스테이션을 결합하기 위한 인터페이스회로(H04M 1/78이 우선)",
+            "en": "Interface circuits for coupling substations to external telephone lines (H04M0001780000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04M 1/74",
+          "title": {
+            "ko": null,
+            "en": "with means for reducing interference; with means for reducing effects due to line faults"
+          }
+        },
+        {
+          "code": "H04M 1/76",
+          "title": {
+            "ko": null,
+            "en": "Compensating for differences in line impedance"
+          }
+        },
+        {
+          "code": "H04M 1/78",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements in which low-frequency speech signals proceed in one direction on the line, while speech signals proceeding in the other direction on the line are modulated on a high-frequency carrier signal"
+          }
+        },
+        {
+          "code": "H04M 1/80",
+          "title": {
+            "ko": null,
+            "en": "Telephone line holding circuits"
+          }
+        },
+        {
+          "code": "H04M 1/82",
+          "title": {
+            "ko": null,
+            "en": "Line monitoring circuits for call progress or status discrimination"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 3/00",
+      "title": {
+        "ko": "자동 또는 반자동 교환",
+        "en": "Automatic or semi-automatic exchanges"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 3/02",
+          "title": {
+            "ko": "서브스테이션(substation)을 호출하는 것, 예. 링에 의한 것(선택호출 H04Q)",
+            "en": "Calling substations, e.g. by ringing (selective calling H04Q)"
+          }
+        },
+        {
+          "code": "H04M 3/04",
+          "title": {
+            "ko": null,
+            "en": "the calling signal being supplied from the final selector"
+          }
+        },
+        {
+          "code": "H04M 3/06",
+          "title": {
+            "ko": null,
+            "en": "the calling signal being supplied from the subscriber's line circuit"
+          }
+        },
+        {
+          "code": "H04M 3/08",
+          "title": {
+            "ko": null,
+            "en": "Indicating faults in circuits or apparatus"
+          }
+        },
+        {
+          "code": "H04M 3/10",
+          "title": {
+            "ko": null,
+            "en": "Providing fault- or trouble-signals"
+          }
+        },
+        {
+          "code": "H04M 3/12",
+          "title": {
+            "ko": null,
+            "en": "Marking faulty circuits \"busy\"; Enabling equipment to disengage itself from faulty circuits"
+          }
+        },
+        {
+          "code": "H04M 3/14",
+          "title": {
+            "ko": null,
+            "en": "Signalling existence of persistent \"off-hook\" condition"
+          }
+        },
+        {
+          "code": "H04M 3/16",
+          "title": {
+            "ko": null,
+            "en": "with lock-out or secrecy provision in party-line systems"
+          }
+        },
+        {
+          "code": "H04M 3/18",
+          "title": {
+            "ko": null,
+            "en": "with means for reducing interference; with means for reducing effects due to line faults"
+          }
+        },
+        {
+          "code": "H04M 3/20",
+          "title": {
+            "ko": null,
+            "en": "with means for interrupting existing connections; with means for breaking-in on conversations"
+          }
+        },
+        {
+          "code": "H04M 3/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supervision, monitoring or testing"
+          }
+        },
+        {
+          "code": "H04M 3/24",
+          "title": {
+            "ko": null,
+            "en": "with provision for checking the normal operation"
+          }
+        },
+        {
+          "code": "H04M 3/26",
+          "title": {
+            "ko": null,
+            "en": "with means for applying test signals"
+          }
+        },
+        {
+          "code": "H04M 3/28",
+          "title": {
+            "ko": null,
+            "en": "Automatic routine testing"
+          }
+        },
+        {
+          "code": "H04M 3/30",
+          "title": {
+            "ko": null,
+            "en": "for subscribers' lines"
+          }
+        },
+        {
+          "code": "H04M 3/32",
+          "title": {
+            "ko": null,
+            "en": "for lines between exchanges"
+          }
+        },
+        {
+          "code": "H04M 3/34",
+          "title": {
+            "ko": null,
+            "en": "Testing for cross-talk"
+          }
+        },
+        {
+          "code": "H04M 3/36",
+          "title": {
+            "ko": null,
+            "en": "Statistical metering, e.g. recording occasions when traffic exceeds capacity of trunks"
+          }
+        },
+        {
+          "code": "H04M 3/38",
+          "title": {
+            "ko": "차등 서비스(graded-service) 배치, 즉 특정 가입자군의 특정 접속을 방지하는 것 (출선 배치(queuing arrangements H04Q 3/64)",
+            "en": "Graded-service arrangements, i.e. some subscribers prevented from establishing certain connections (queuing arrangements H04Q0003640000)"
+          }
+        },
+        {
+          "code": "H04M 3/40",
+          "title": {
+            "ko": null,
+            "en": "Applications of speech amplifiers"
+          }
+        },
+        {
+          "code": "H04M 3/42",
+          "title": {
+            "ko": "가입자에 대하여 특수한 서비스 및 편의를 제공하는 시스템(무선통신네트워크에 특히 적합한 것 H04W 4/00)",
+            "en": "Systems providing special services or facilities to subscribers (specially adapted for wireless communication networks H04W0004000000)"
+          }
+        },
+        {
+          "code": "H04M 3/424",
+          "title": {
+            "ko": "자동으로 재다이얼 하기 위한 배치(가입자 장치에서의 서비스 제공에 해당하는 경우 H04M 1/27)",
+            "en": "Arrangements for automatic redialling (at the subscriber's set H04M0001270000)"
+          }
+        },
+        {
+          "code": "H04M 3/428",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for placing incoming calls on hold"
+          }
+        },
+        {
+          "code": "H04M 3/432",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for calling a subscriber at a specific time, e.g. morning call service"
+          }
+        },
+        {
+          "code": "H04M 3/436",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for screening incoming calls"
+          }
+        },
+        {
+          "code": "H04M 3/44",
+          "title": {
+            "ko": "빈번하게 호출되는 가입자에 대한 접속, 예 단축다이얼링(가입자 장치에서는 H04M 1/27 ; 자동 재다이얼링 H04M 3/424)",
+            "en": "Additional connecting arrangements for providing access to frequently-wanted subscribers, e.g. abbreviated dialling (at the subscriber's set H04M0001270000;automatic redialling H04M0003424000)"
+          }
+        },
+        {
+          "code": "H04M 3/46",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for calling a number of substations in a predetermined sequence until an answer is obtained"
+          }
+        },
+        {
+          "code": "H04M 3/48",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for recalling a calling subscriber when the wanted subscriber ceases to be busy"
+          }
+        },
+        {
+          "code": "H04M 3/487",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for providing information services, e.g. recorded voice services or time announcements"
+          }
+        },
+        {
+          "code": "H04M 3/493",
+          "title": {
+            "ko": null,
+            "en": "Interactive information services, e.g. directory enquiries"
+          }
+        },
+        {
+          "code": "H04M 3/50",
+          "title": {
+            "ko": "호출에 응답하기 위한 중앙집중배치; 부재가입자에 대한 메세지를 기록하기 위한 중앙집중배치(H04M 3/487 이 우선 한다. : 중앙집중 받아쓰기 시스템 H04M 11/10)",
+            "en": "Centralised arrangements for answering calls; Centralised arrangements for recording messages for absent or busy subscribers (H04M0003487000 takes precedence;centralised dictation systems H04M0011100000)"
+          }
+        },
+        {
+          "code": "H04M 3/51",
+          "title": {
+            "ko": null,
+            "en": "Centralised call answering arrangements requiring operator intervention"
+          }
+        },
+        {
+          "code": "H04M 3/52",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for routing dead number calls to operators"
+          }
+        },
+        {
+          "code": "H04M 3/523",
+          "title": {
+            "ko": null,
+            "en": "with call distribution or queuing"
+          }
+        },
+        {
+          "code": "H04M 3/527",
+          "title": {
+            "ko": null,
+            "en": "Centralised call answering arrangements not requiring operator intervention"
+          }
+        },
+        {
+          "code": "H04M 3/53",
+          "title": {
+            "ko": null,
+            "en": "Centralised arrangements for recording incoming messages"
+          }
+        },
+        {
+          "code": "H04M 3/533",
+          "title": {
+            "ko": null,
+            "en": "Voice mail systems"
+          }
+        },
+        {
+          "code": "H04M 3/537",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating the presence of a recorded message"
+          }
+        },
+        {
+          "code": "H04M 3/54",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for diverting calls for one subscriber to another predetermined subscriber"
+          }
+        },
+        {
+          "code": "H04M 3/56",
+          "title": {
+            "ko": "몇 사람의 가입자를 1개의 공통회로에 접속하기 위한 배치, 즉 회의를 위한 것(비디오 회의 시스템은 H04N 7/15)",
+            "en": "Arrangements for connecting several subscribers to a common circuit, i.e. affording conference facilities (video conference systems H04N0007150000)"
+          }
+        },
+        {
+          "code": "H04M 3/58",
+          "title": {
+            "ko": "받은 호출을 하나의 가입자로부터 다른 가입자에게 전송하기 위한 배치; 발호자와 피호자의 어느 쪽인가의 제3자간의 중간 통화를 가능케하기 위한 배치(서브스테이션 라인 홀딩회로 H04M 1/80)",
+            "en": "Arrangements for transferring received calls from one subscriber to another; Arrangements affording interim conversations between either the calling or the called party and a third party (substation line holding circuits H04M0001800000)"
+          }
+        },
+        {
+          "code": "H04M 3/60",
+          "title": {
+            "ko": "반자동시스템, 즉 출선(outgoing line)의 숫자선택 이 오퍼레이터의 제어하에 있는 시스템",
+            "en": "Semi-automatic systems, i.e. systems in which the numerical selection of the outgoing line is under the control of an operator"
+          }
+        },
+        {
+          "code": "H04M 3/62",
+          "title": {
+            "ko": null,
+            "en": "Keyboard equipment"
+          }
+        },
+        {
+          "code": "H04M 3/64",
+          "title": {
+            "ko": "발호선의 번호 또는 클래스를 운영자(operator)에게 통지하기 위한 배치(상호 교환동작에 있어서 운영자간의 통지는 H04M 5/18)",
+            "en": "Arrangements for signalling the number or class of the calling line to the operator (between operators in inter-exchange working H04M0005180000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 5/00",
+      "title": {
+        "ko": "수동 교환기(서브스테이션 일반 H04M 1/00)",
+        "en": "Manual exchanges (substation equipment in general H04M0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 5/02",
+          "title": {
+            "ko": "구조상의 세부 (잭(jack), 잭-플러그(jackplug) H01R 24/58)",
+            "en": "Constructional details (jacks, jack-plugs H01R0024580000)"
+          }
+        },
+        {
+          "code": "H04M 5/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating calls or supervising connections for calling or clearing"
+          }
+        },
+        {
+          "code": "H04M 5/06",
+          "title": {
+            "ko": null,
+            "en": "affording automatic call distribution"
+          }
+        },
+        {
+          "code": "H04M 5/08",
+          "title": {
+            "ko": null,
+            "en": "using connecting means other than cords"
+          }
+        },
+        {
+          "code": "H04M 5/10",
+          "title": {
+            "ko": null,
+            "en": "using separate plug for each subscriber"
+          }
+        },
+        {
+          "code": "H04M 5/12",
+          "title": {
+            "ko": null,
+            "en": "Calling substations, e.g. by ringing"
+          }
+        },
+        {
+          "code": "H04M 5/14",
+          "title": {
+            "ko": null,
+            "en": "Applications of speech amplifiers"
+          }
+        },
+        {
+          "code": "H04M 5/16",
+          "title": {
+            "ko": null,
+            "en": "with means for reducing interference; with means for reducing effects due to line faults"
+          }
+        },
+        {
+          "code": "H04M 5/18",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for signalling the class or number of called or calling line from one exchange to another"
+          }
+        },
+        {
+          "code": "H04M 5/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating the numbers of the incoming lines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 7/00",
+      "title": {
+        "ko": "스위칭센터(Switching Centre)간의 상호접속 장치",
+        "en": "Arrangements for interconnection between switching centres"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 7/02",
+          "title": {
+            "ko": null,
+            "en": "for compensating differences of ground potential"
+          }
+        },
+        {
+          "code": "H04M 7/04",
+          "title": {
+            "ko": null,
+            "en": "for compensating differences of line impedance"
+          }
+        },
+        {
+          "code": "H04M 7/06",
+          "title": {
+            "ko": null,
+            "en": "using auxiliary connections for control or supervision"
+          }
+        },
+        {
+          "code": "H04M 7/08",
+          "title": {
+            "ko": null,
+            "en": "for phantom working"
+          }
+        },
+        {
+          "code": "H04M 7/10",
+          "title": {
+            "ko": null,
+            "en": "for two-way working, i.e. calls may be set-up in either direction over the same connection"
+          }
+        },
+        {
+          "code": "H04M 7/12",
+          "title": {
+            "ko": null,
+            "en": "for working between exchanges having different types of switching equipment, e.g. power-driven and step by step or decimal and non-decimal"
+          }
+        },
+        {
+          "code": "H04M 7/14",
+          "title": {
+            "ko": "주 또는 종 스위칭 센터를 포함하는 시스템에 있어서의 것(주 스위칭 센터로부터 충전되는 종 스위칭 센터의 전류공급원 H04M 19/06)",
+            "en": "in systems involving main and subordinate switching centres (current supply source at subordinate switching centre charged from main exchange H04M0019060000)"
+          }
+        },
+        {
+          "code": "H04M 7/16",
+          "title": {
+            "ko": null,
+            "en": "in systems employing carrier frequencies"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 9/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for interconnection not involving centralised switching"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 9/02",
+          "title": {
+            "ko": null,
+            "en": "involving a common line for all parties"
+          }
+        },
+        {
+          "code": "H04M 9/04",
+          "title": {
+            "ko": null,
+            "en": "involving a separate line for each pair of parties"
+          }
+        },
+        {
+          "code": "H04M 9/06",
+          "title": {
+            "ko": null,
+            "en": "involving combinations of interconnecting lines"
+          }
+        },
+        {
+          "code": "H04M 9/08",
+          "title": {
+            "ko": null,
+            "en": "Two-way loud-speaking telephone systems with means for conditioning the signal, e.g.  for suppressing echoes for one or both directions of traffic"
+          }
+        },
+        {
+          "code": "H04M 9/10",
+          "title": {
+            "ko": null,
+            "en": "with switching of direction of transmission by voice frequency"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 11/00",
+      "title": {
+        "ko": null,
+        "en": "Telephonic communication systems specially adapted for combination with other electrical systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 11/02",
+          "title": {
+            "ko": null,
+            "en": "with bell or annunciator systems"
+          }
+        },
+        {
+          "code": "H04M 11/04",
+          "title": {
+            "ko": null,
+            "en": "with alarm systems, e.g. fire, police or burglar alarm systems"
+          }
+        },
+        {
+          "code": "H04M 11/06",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous speech and data transmission, e.g. telegraphic transmission over the same conductors"
+          }
+        },
+        {
+          "code": "H04M 11/08",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for optional reception of entertainment or informative matter"
+          }
+        },
+        {
+          "code": "H04M 11/10",
+          "title": {
+            "ko": null,
+            "en": "with dictation recording and playback systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 13/00",
+      "title": {
+        "ko": "공동선 시스템(서브스테이션설비 H04M 1/00; 교환설비 H04M 31/00, H04M 5/00; 산정(算定)배치 H04M 15/36)",
+        "en": "Party-line systems (substation equipment H04M0001000000;exchange equipment H04M0003000000, H04M0005000000;metering arrangements H04M0015360000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04M 15/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for metering, time-control or time-indication"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 15/02",
+          "title": {
+            "ko": null,
+            "en": "Severing connection after a predetermined time"
+          }
+        },
+        {
+          "code": "H04M 15/04",
+          "title": {
+            "ko": null,
+            "en": "Recording calls in printed, perforated, or other permanent form"
+          }
+        },
+        {
+          "code": "H04M 15/06",
+          "title": {
+            "ko": null,
+            "en": "Recording class or number of calling party or called party"
+          }
+        },
+        {
+          "code": "H04M 15/08",
+          "title": {
+            "ko": null,
+            "en": "Metering calls to called party"
+          }
+        },
+        {
+          "code": "H04M 15/10",
+          "title": {
+            "ko": null,
+            "en": "Metering calls from calling party"
+          }
+        },
+        {
+          "code": "H04M 15/12",
+          "title": {
+            "ko": null,
+            "en": "Discriminative metering"
+          }
+        },
+        {
+          "code": "H04M 15/14",
+          "title": {
+            "ko": null,
+            "en": "according to class of calling party"
+          }
+        },
+        {
+          "code": "H04M 15/16",
+          "title": {
+            "ko": null,
+            "en": "according to connection obtained"
+          }
+        },
+        {
+          "code": "H04M 15/18",
+          "title": {
+            "ko": null,
+            "en": "according to duration of call"
+          }
+        },
+        {
+          "code": "H04M 15/20",
+          "title": {
+            "ko": null,
+            "en": "Operator's time recording or indicating arrangements"
+          }
+        },
+        {
+          "code": "H04M 15/22",
+          "title": {
+            "ko": null,
+            "en": "according to time of day"
+          }
+        },
+        {
+          "code": "H04M 15/24",
+          "title": {
+            "ko": null,
+            "en": "preventing metering of tax-free calls to certain lines, e.g. to fire or ambulance stations"
+          }
+        },
+        {
+          "code": "H04M 15/26",
+          "title": {
+            "ko": null,
+            "en": "with a meter at the exchange controlled by an operator"
+          }
+        },
+        {
+          "code": "H04M 15/28",
+          "title": {
+            "ko": null,
+            "en": "with meter at substation"
+          }
+        },
+        {
+          "code": "H04M 15/30",
+          "title": {
+            "ko": null,
+            "en": "the meter not being controlled from an exchange"
+          }
+        },
+        {
+          "code": "H04M 15/32",
+          "title": {
+            "ko": null,
+            "en": "Metering arrangements for satellites or concentrators which connect one or more exchange lines with a group of local lines"
+          }
+        },
+        {
+          "code": "H04M 15/34",
+          "title": {
+            "ko": null,
+            "en": "Metering arrangements for private branch exchanges"
+          }
+        },
+        {
+          "code": "H04M 15/36",
+          "title": {
+            "ko": null,
+            "en": "Metering arrangements for party-lines"
+          }
+        },
+        {
+          "code": "H04M 15/38",
+          "title": {
+            "ko": null,
+            "en": "Metering by apparatus other than mechanical step-by-step counter type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 17/00",
+      "title": {
+        "ko": "선불 전화 시스템 (전화 세트로부터의 호출을 승인하기 위해 코드화된 카드를 사용하는 것 H04M1/675)",
+        "en": "Prepayment telephone systems (using a coded card to authorise calls from a telephone set H04M0001675000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 17/02",
+          "title": {
+            "ko": null,
+            "en": "Coin-freed or check-freed systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 19/00",
+      "title": {
+        "ko": "전화시스템을 위한 전류공급배치(선택장치를 위한 것 H04Q 1/28)",
+        "en": "Current supply arrangements for telephone systems (for selecting equipment H04Q0001280000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04M 19/02",
+          "title": {
+            "ko": null,
+            "en": "providing ringing current or supervisory tones, e.g. dialling tone or busy tone"
+          }
+        },
+        {
+          "code": "H04M 19/04",
+          "title": {
+            "ko": null,
+            "en": "the ringing-current being generated at the substations"
+          }
+        },
+        {
+          "code": "H04M 19/06",
+          "title": {
+            "ko": null,
+            "en": "in which current supply sources at subordinate switching centres are charged from the main exchange"
+          }
+        },
+        {
+          "code": "H04M 19/08",
+          "title": {
+            "ko": "서브스테이션에서 전류공급원를 가진 것(신호 전류 발생 H04M 19/04)",
+            "en": "with current supply sources at the substations (generating ringing current H04M0019040000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04M 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

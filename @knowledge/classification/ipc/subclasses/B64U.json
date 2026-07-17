@@ -1,0 +1,1138 @@
+{
+  "subclass": "B64U",
+  "title": {
+    "ko": "무인 항공기; 그를 위한 장비",
+    "en": "UNMANNED AERIAL VEHICLES [UAV]; EQUIPMENT THEREFOR"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스는 무인 항공 용도와 그 장비에 특히 적합한 탑승장치를 포함합니다. 2. 이 서브클래스는 다음을 포함하지 않습니다: ㆍ그룹 G05D1/00에 포함되는 위치, 경로, 고도 또는 자세 제어를 위한 컴퓨터 제어 시스템; ㆍ그룹 G08G5/00에 포함되는 UAV의 트래픽 제어. 3. 유인 및 무인 사용에 모두 적용 가능한 항공기 또는 장비는 이 서브클래스와 유인 사용에 적합한 클래스 B64에 분류되어야 합니다. 4. 이 서브클래스에 포함되지 않는 UAV 및 그 장비의 세부사항 또는 기능은 클래스 B64의 관련 서브클래스로 분류되어야 합니다. 5. 이 서브클래스에서는 UAV의 특정 용도 또는 애플리케이션을 다루는 그룹 B64U101/00의 인덱싱 코드를 추가하는 것이 바람직합니다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B64U 10/00",
+      "title": {
+        "ko": "UAV의 종류",
+        "en": "Type of UAV"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 10/10",
+          "title": {
+            "ko": "회전익 항공기",
+            "en": "Rotorcrafts"
+          }
+        },
+        {
+          "code": "B64U 10/11",
+          "title": {
+            "ko": null,
+            "en": "Autogyros"
+          }
+        },
+        {
+          "code": "B64U 10/13",
+          "title": {
+            "ko": null,
+            "en": "Flying platforms"
+          }
+        },
+        {
+          "code": "B64U 10/14",
+          "title": {
+            "ko": null,
+            "en": "with four distinct rotor axes, e.g. quadcopters"
+          }
+        },
+        {
+          "code": "B64U 10/16",
+          "title": {
+            "ko": null,
+            "en": "with five or more distinct rotor axes, e.g. octocopters"
+          }
+        },
+        {
+          "code": "B64U 10/17",
+          "title": {
+            "ko": "헬리콥터 (비행 플랫폼 B64U10/13)",
+            "en": "Helicopters (flying platforms B64U0010130000)"
+          }
+        },
+        {
+          "code": "B64U 10/20",
+          "title": {
+            "ko": "수직 이착륙 [VTOL] 항공기 (비행 플랫폼 B64U10/13; 헬리콥터 B64U10/17)",
+            "en": "Vertical take-off and landing [VTOL] aircraft (flying platforms B64U0010130000;helicopters B64U0010170000)"
+          }
+        },
+        {
+          "code": "B64U 10/25",
+          "title": {
+            "ko": "고정익기 (VTOL 항공기 B64U10/20)",
+            "en": "Fixed-wing aircraft (VTOL aircraft B64U0010200000)"
+          }
+        },
+        {
+          "code": "B64U 10/30",
+          "title": {
+            "ko": null,
+            "en": "Lighter-than-air aircraft, e.g. aerostatic aircraft"
+          }
+        },
+        {
+          "code": "B64U 10/40",
+          "title": {
+            "ko": null,
+            "en": "Ornithopters"
+          }
+        },
+        {
+          "code": "B64U 10/50",
+          "title": {
+            "ko": "글라이더 타입 UAV, 예. 낙하산, 패러세일 또는 연 포함 (착륙용 B64U70/83)",
+            "en": "Glider-type UAVs, e.g. with parachute, parasail or kite (for landing B64U0070830000)"
+          }
+        },
+        {
+          "code": "B64U 10/60",
+          "title": {
+            "ko": null,
+            "en": "Tethered aircraft"
+          }
+        },
+        {
+          "code": "B64U 10/70",
+          "title": {
+            "ko": null,
+            "en": "Convertible aircraft, e.g. convertible into land vehicles"
+          }
+        },
+        {
+          "code": "B64U 10/80",
+          "title": {
+            "ko": null,
+            "en": "UAVs characterised by their small size, e.g. micro air vehicles [MAV]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 20/00",
+      "title": {
+        "ko": "UAV의 구조적 측면 (양력 생성 수단 B64U30/00)",
+        "en": "Constructional aspects of UAVs (of lift-producing means B64U0030000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 20/10",
+          "title": {
+            "ko": null,
+            "en": "for stealth, e.g. reduction of cross-section detectable by radars"
+          }
+        },
+        {
+          "code": "B64U 20/20",
+          "title": {
+            "ko": null,
+            "en": "for noise reduction"
+          }
+        },
+        {
+          "code": "B64U 20/30",
+          "title": {
+            "ko": "안전을 위한 것, 예. 깨지기 쉬운 부품을 포함 (로터 가드 B64U30/299)",
+            "en": "for safety, e.g. with frangible components (rotor guards B64U0030299000)"
+          }
+        },
+        {
+          "code": "B64U 20/40",
+          "title": {
+            "ko": null,
+            "en": "Modular UAVs"
+          }
+        },
+        {
+          "code": "B64U 20/50",
+          "title": {
+            "ko": "접을 수 있는 UAV (취약한 구성 요소를 포함하는 것 B64U20/30)",
+            "en": "Foldable or collapsible UAVs (with frangible components B64U0020300000)"
+          }
+        },
+        {
+          "code": "B64U 20/60",
+          "title": {
+            "ko": null,
+            "en": "UAVs characterised by the material"
+          }
+        },
+        {
+          "code": "B64U 20/65",
+          "title": {
+            "ko": null,
+            "en": "Composite materials"
+          }
+        },
+        {
+          "code": "B64U 20/70",
+          "title": {
+            "ko": null,
+            "en": "Constructional aspects of the UAV body"
+          }
+        },
+        {
+          "code": "B64U 20/73",
+          "title": {
+            "ko": null,
+            "en": "Monocoque body"
+          }
+        },
+        {
+          "code": "B64U 20/75",
+          "title": {
+            "ko": null,
+            "en": "the body formed by joined shells or by a shell overlaying a chassis"
+          }
+        },
+        {
+          "code": "B64U 20/77",
+          "title": {
+            "ko": null,
+            "en": "the body being formed integrally with wings or rotor supports"
+          }
+        },
+        {
+          "code": "B64U 20/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of on-board electronics, e.g. avionics systems or wiring"
+          }
+        },
+        {
+          "code": "B64U 20/83",
+          "title": {
+            "ko": null,
+            "en": "Electronic components structurally integrated with aircraft elements, e.g. circuit boards carrying loads"
+          }
+        },
+        {
+          "code": "B64U 20/87",
+          "title": {
+            "ko": null,
+            "en": "Mounting of imaging devices, e.g. mounting of gimbals"
+          }
+        },
+        {
+          "code": "B64U 20/90",
+          "title": {
+            "ko": null,
+            "en": "Cooling"
+          }
+        },
+        {
+          "code": "B64U 20/92",
+          "title": {
+            "ko": null,
+            "en": "of avionics"
+          }
+        },
+        {
+          "code": "B64U 20/94",
+          "title": {
+            "ko": null,
+            "en": "of rotors or rotor motors"
+          }
+        },
+        {
+          "code": "B64U 20/96",
+          "title": {
+            "ko": null,
+            "en": "using air"
+          }
+        },
+        {
+          "code": "B64U 20/98",
+          "title": {
+            "ko": null,
+            "en": "using liquid, e.g. using lubrication oil"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 30/00",
+      "title": {
+        "ko": "양력 생성 수단; 꼬리날개; 그것들의 배치",
+        "en": "Means for producing lift; Empennages; Arrangements thereof"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 30/10",
+          "title": {
+            "ko": null,
+            "en": "Wings"
+          }
+        },
+        {
+          "code": "B64U 30/12",
+          "title": {
+            "ko": null,
+            "en": "Variable or detachable wings, e.g. wings with adjustable sweep"
+          }
+        },
+        {
+          "code": "B64U 30/14",
+          "title": {
+            "ko": null,
+            "en": "detachable"
+          }
+        },
+        {
+          "code": "B64U 30/16",
+          "title": {
+            "ko": null,
+            "en": "movable along the UAV body"
+          }
+        },
+        {
+          "code": "B64U 30/20",
+          "title": {
+            "ko": "로터, 로터 지지대",
+            "en": "Rotors; Rotor supports"
+          }
+        },
+        {
+          "code": "B64U 30/21",
+          "title": {
+            "ko": null,
+            "en": "Rotary wings"
+          }
+        },
+        {
+          "code": "B64U 30/24",
+          "title": {
+            "ko": null,
+            "en": "Coaxial rotors"
+          }
+        },
+        {
+          "code": "B64U 30/26",
+          "title": {
+            "ko": null,
+            "en": "Ducted or shrouded rotors"
+          }
+        },
+        {
+          "code": "B64U 30/27",
+          "title": {
+            "ko": null,
+            "en": "Rim-driven rotors"
+          }
+        },
+        {
+          "code": "B64U 30/29",
+          "title": {
+            "ko": "로터 또는 로터 지지대의 구조적 측면; 그 배치",
+            "en": "Constructional aspects of rotors or rotor supports; Arrangements thereof"
+          }
+        },
+        {
+          "code": "B64U 30/291",
+          "title": {
+            "ko": null,
+            "en": "Detachable rotors or rotor supports"
+          }
+        },
+        {
+          "code": "B64U 30/292",
+          "title": {
+            "ko": null,
+            "en": "Rotors or rotor supports specially adapted for quick release"
+          }
+        },
+        {
+          "code": "B64U 30/293",
+          "title": {
+            "ko": null,
+            "en": "Foldable or collapsible rotors or rotor supports"
+          }
+        },
+        {
+          "code": "B64U 30/294",
+          "title": {
+            "ko": null,
+            "en": "Rotors arranged in the UAV body"
+          }
+        },
+        {
+          "code": "B64U 30/295",
+          "title": {
+            "ko": null,
+            "en": "Rotors arranged in the wings"
+          }
+        },
+        {
+          "code": "B64U 30/296",
+          "title": {
+            "ko": "UAV 본체를 기준하여 공간 위치가 가변적인 로터 (접을 수 있는 로터 B64U30/293)",
+            "en": "Rotors with variable spatial positions relative to the UAV body (foldable or collapsible rotors B64U0030293000)"
+          }
+        },
+        {
+          "code": "B64U 30/297",
+          "title": {
+            "ko": null,
+            "en": "Tilting rotors"
+          }
+        },
+        {
+          "code": "B64U 30/298",
+          "title": {
+            "ko": null,
+            "en": "Helicopter flybars"
+          }
+        },
+        {
+          "code": "B64U 30/299",
+          "title": {
+            "ko": "로터 가드 (덕트 또는 슈라우드 로터 B64U30/26; 지면 추진으로 사용되는 가드 B64U60/60)",
+            "en": "Rotor guards (ducted or shrouded rotors B64U0030260000;guards used as ground propulsion B64U0060600000)"
+          }
+        },
+        {
+          "code": "B64U 30/30",
+          "title": {
+            "ko": null,
+            "en": "Lift-producing means using radial airflow"
+          }
+        },
+        {
+          "code": "B64U 30/40",
+          "title": {
+            "ko": null,
+            "en": "Empennages, e.g. V-tails  (foldable or collapsible UAVs B64U0020500000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 40/00",
+      "title": {
+        "ko": "제어 표면 또는 회전자를 조정하기 위한 온보드 기계 장치; 기본 구성의 비행 중 조정을 위한 온보드 기계 장치 (항공 또는 우주선의 위치, 경로, 고도 또는 자세 제어, 예. 오토 파일럿, G05D1/00)",
+        "en": "On-board mechanical arrangements for adjusting control surfaces or rotors; On-board mechanical arrangements for in-flight adjustment of the base configuration (control of position, course, altitude or attitude of air or space vehicles, e.g. automatic pilot, G05D0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 40/10",
+          "title": {
+            "ko": null,
+            "en": "for adjusting control surfaces or rotors"
+          }
+        },
+        {
+          "code": "B64U 40/20",
+          "title": {
+            "ko": null,
+            "en": "for in-flight adjustment of the base configuration"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 50/00",
+      "title": {
+        "ko": "추진; 동력 공급",
+        "en": "Propulsion; Power supply"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 50/10",
+          "title": {
+            "ko": "추진 (로터크래프트 또는 VTOL에 특히 적합한 로터 B64U30/20)",
+            "en": "Propulsion (rotors specially adapted for rotorcraft or VTOL B64U0030200000)"
+          }
+        },
+        {
+          "code": "B64U 50/11",
+          "title": {
+            "ko": null,
+            "en": "using internal combustion piston engines"
+          }
+        },
+        {
+          "code": "B64U 50/12",
+          "title": {
+            "ko": null,
+            "en": "using turbine engines, e.g. turbojets or turbofans"
+          }
+        },
+        {
+          "code": "B64U 50/13",
+          "title": {
+            "ko": null,
+            "en": "using external fans or propellers"
+          }
+        },
+        {
+          "code": "B64U 50/14",
+          "title": {
+            "ko": null,
+            "en": "ducted or shrouded"
+          }
+        },
+        {
+          "code": "B64U 50/15",
+          "title": {
+            "ko": null,
+            "en": "using combustion exhausts other than turbojets or turbofans, e.g. using rockets, ramjets, scramjets or pulse-reactors"
+          }
+        },
+        {
+          "code": "B64U 50/16",
+          "title": {
+            "ko": null,
+            "en": "using means other than air displacement or combustion exhaust, e.g. water or magnetic levitation"
+          }
+        },
+        {
+          "code": "B64U 50/18",
+          "title": {
+            "ko": null,
+            "en": "Thrust vectoring"
+          }
+        },
+        {
+          "code": "B64U 50/19",
+          "title": {
+            "ko": null,
+            "en": "using electrically powered motors"
+          }
+        },
+        {
+          "code": "B64U 50/20",
+          "title": {
+            "ko": null,
+            "en": "Transmission of mechanical power to rotors or propellers"
+          }
+        },
+        {
+          "code": "B64U 50/23",
+          "title": {
+            "ko": null,
+            "en": "with each propulsion means having an individual motor"
+          }
+        },
+        {
+          "code": "B64U 50/27",
+          "title": {
+            "ko": null,
+            "en": "with a single motor serving two or more rotors or propellers"
+          }
+        },
+        {
+          "code": "B64U 50/30",
+          "title": {
+            "ko": "전력의 공급 또는 분배",
+            "en": "Supply or distribution of electrical power"
+          }
+        },
+        {
+          "code": "B64U 50/31",
+          "title": {
+            "ko": null,
+            "en": "generated by photovoltaics"
+          }
+        },
+        {
+          "code": "B64U 50/32",
+          "title": {
+            "ko": null,
+            "en": "generated by fuel cells"
+          }
+        },
+        {
+          "code": "B64U 50/33",
+          "title": {
+            "ko": null,
+            "en": "generated by combustion engines"
+          }
+        },
+        {
+          "code": "B64U 50/34",
+          "title": {
+            "ko": "비행중 충전 (태양광 발전 B64U50/31)",
+            "en": "In-flight charging (photovoltaics B64U0050310000)"
+          }
+        },
+        {
+          "code": "B64U 50/35",
+          "title": {
+            "ko": null,
+            "en": "by wireless transmission, e.g. by induction"
+          }
+        },
+        {
+          "code": "B64U 50/36",
+          "title": {
+            "ko": null,
+            "en": "by wind turbines, e.g. ram air turbines [RAT]"
+          }
+        },
+        {
+          "code": "B64U 50/37",
+          "title": {
+            "ko": null,
+            "en": "Charging when not in flight"
+          }
+        },
+        {
+          "code": "B64U 50/38",
+          "title": {
+            "ko": null,
+            "en": "by wireless transmission"
+          }
+        },
+        {
+          "code": "B64U 50/39",
+          "title": {
+            "ko": null,
+            "en": "Battery swapping"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 60/00",
+      "title": {
+        "ko": null,
+        "en": "Undercarriages"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 60/10",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for use on water"
+          }
+        },
+        {
+          "code": "B64U 60/20",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for uneven terrain"
+          }
+        },
+        {
+          "code": "B64U 60/30",
+          "title": {
+            "ko": null,
+            "en": "detachable from the body"
+          }
+        },
+        {
+          "code": "B64U 60/40",
+          "title": {
+            "ko": null,
+            "en": "foldable or retractable"
+          }
+        },
+        {
+          "code": "B64U 60/50",
+          "title": {
+            "ko": null,
+            "en": "with landing legs"
+          }
+        },
+        {
+          "code": "B64U 60/55",
+          "title": {
+            "ko": null,
+            "en": "the legs being also used as ground propulsion"
+          }
+        },
+        {
+          "code": "B64U 60/60",
+          "title": {
+            "ko": null,
+            "en": "with rolling cages"
+          }
+        },
+        {
+          "code": "B64U 60/70",
+          "title": {
+            "ko": null,
+            "en": "Movable wings, rotor supports or shrouds acting as ground-engaging elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 70/00",
+      "title": {
+        "ko": "발사, 이륙 또는 착륙 장치",
+        "en": "Launching, take-off or landing arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 70/10",
+          "title": {
+            "ko": null,
+            "en": "for releasing or capturing UAVs by hand"
+          }
+        },
+        {
+          "code": "B64U 70/20",
+          "title": {
+            "ko": null,
+            "en": "for releasing or capturing UAVs in flight by another aircraft"
+          }
+        },
+        {
+          "code": "B64U 70/30",
+          "title": {
+            "ko": null,
+            "en": "for capturing UAVs in flight by ground or sea-based arresting gear, e.g. by a cable or a net"
+          }
+        },
+        {
+          "code": "B64U 70/40",
+          "title": {
+            "ko": null,
+            "en": "Landing characterised by flight manoeuvres, e.g. deep stall"
+          }
+        },
+        {
+          "code": "B64U 70/50",
+          "title": {
+            "ko": null,
+            "en": "Launching from storage containers, e.g. from submarine missile tubes"
+          }
+        },
+        {
+          "code": "B64U 70/60",
+          "title": {
+            "ko": null,
+            "en": "Take-off or landing of UAVs from a runway using their own power"
+          }
+        },
+        {
+          "code": "B64U 70/70",
+          "title": {
+            "ko": "발사기(catapults), 트랙 또는 레일을 사용한 발사 또는 착륙 (저장 컨테이너로부터 발사 B64C70/50)",
+            "en": "Launching or landing using catapults, tracks or rails (launching from storage containers B64U0070500000)"
+          }
+        },
+        {
+          "code": "B64U 70/80",
+          "title": {
+            "ko": "수직 이륙 또는 착륙, 예. 로켓을 사용한것 (회전익 항공기 B64U10/10; 수직이착륙(VTOL) 항공기 B64U10/20)",
+            "en": "Vertical take-off or landing, e.g. using rockets (rotorcrafts B64U0010100000;VTOL aircraft B64U0010200000)"
+          }
+        },
+        {
+          "code": "B64U 70/83",
+          "title": {
+            "ko": null,
+            "en": "using parachutes, balloons or the like"
+          }
+        },
+        {
+          "code": "B64U 70/87",
+          "title": {
+            "ko": null,
+            "en": "using inflatable cushions"
+          }
+        },
+        {
+          "code": "B64U 70/90",
+          "title": {
+            "ko": null,
+            "en": "Launching from or landing on platforms"
+          }
+        },
+        {
+          "code": "B64U 70/92",
+          "title": {
+            "ko": null,
+            "en": "Portable platforms"
+          }
+        },
+        {
+          "code": "B64U 70/93",
+          "title": {
+            "ko": null,
+            "en": "for use on a land or nautical vehicle"
+          }
+        },
+        {
+          "code": "B64U 70/95",
+          "title": {
+            "ko": null,
+            "en": "Means for guiding the landing UAV towards the platform, e.g. lighting means"
+          }
+        },
+        {
+          "code": "B64U 70/97",
+          "title": {
+            "ko": null,
+            "en": "Means for guiding the UAV to a specific location on the platform, e.g. platform structures preventing landing off-centre"
+          }
+        },
+        {
+          "code": "B64U 70/99",
+          "title": {
+            "ko": null,
+            "en": "Means for retaining the UAV on the platform, e.g. dogs or magnets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 80/00",
+      "title": {
+        "ko": "UAV에 특히 적합한 운송 또는 보관",
+        "en": "Transport or storage specially adapted for UAVs"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 80/10",
+          "title": {
+            "ko": null,
+            "en": "with means for moving the UAV to a supply or launch location, e.g. robotic arms or carousels"
+          }
+        },
+        {
+          "code": "B64U 80/20",
+          "title": {
+            "ko": null,
+            "en": "with arrangements for servicing the UAV"
+          }
+        },
+        {
+          "code": "B64U 80/25",
+          "title": {
+            "ko": null,
+            "en": "for recharging batteries; for refuelling"
+          }
+        },
+        {
+          "code": "B64U 80/30",
+          "title": {
+            "ko": null,
+            "en": "with arrangements for data transmission"
+          }
+        },
+        {
+          "code": "B64U 80/40",
+          "title": {
+            "ko": null,
+            "en": "for two or more UAVs"
+          }
+        },
+        {
+          "code": "B64U 80/50",
+          "title": {
+            "ko": null,
+            "en": "the UAVs being disassembled"
+          }
+        },
+        {
+          "code": "B64U 80/60",
+          "title": {
+            "ko": null,
+            "en": "by wearable objects, e.g. garments or helmets"
+          }
+        },
+        {
+          "code": "B64U 80/70",
+          "title": {
+            "ko": "컨테이너 (B64U80/60 우선)",
+            "en": "in containers (B64U0080600000 takes precedence)"
+          }
+        },
+        {
+          "code": "B64U 80/80",
+          "title": {
+            "ko": null,
+            "en": "by vehicles"
+          }
+        },
+        {
+          "code": "B64U 80/82",
+          "title": {
+            "ko": null,
+            "en": "Airborne vehicles"
+          }
+        },
+        {
+          "code": "B64U 80/84",
+          "title": {
+            "ko": null,
+            "en": "Waterborne vehicles"
+          }
+        },
+        {
+          "code": "B64U 80/86",
+          "title": {
+            "ko": null,
+            "en": "Land vehicles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B64U 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with groups B64U0010000000-B64U0080000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B64U 101/00",
+      "title": {
+        "ko": null,
+        "en": "UAVs specially adapted for particular uses or applications"
+      },
+      "subgroups": [
+        {
+          "code": "B64U 101/05",
+          "title": {
+            "ko": null,
+            "en": "for sports or gaming, e.g. drone racing"
+          }
+        },
+        {
+          "code": "B64U 101/10",
+          "title": {
+            "ko": null,
+            "en": "for generating power to be supplied to a remote station, e.g. UAVs with solar panels"
+          }
+        },
+        {
+          "code": "B64U 101/15",
+          "title": {
+            "ko": null,
+            "en": "for conventional or electronic warfare"
+          }
+        },
+        {
+          "code": "B64U 101/16",
+          "title": {
+            "ko": null,
+            "en": "for controlling, capturing or immobilising other vehicles"
+          }
+        },
+        {
+          "code": "B64U 101/17",
+          "title": {
+            "ko": null,
+            "en": "for detecting, disrupting or countering communications"
+          }
+        },
+        {
+          "code": "B64U 101/18",
+          "title": {
+            "ko": null,
+            "en": "for dropping bombs; for firing ammunition"
+          }
+        },
+        {
+          "code": "B64U 101/19",
+          "title": {
+            "ko": null,
+            "en": "for use as targets or decoys"
+          }
+        },
+        {
+          "code": "B64U 101/20",
+          "title": {
+            "ko": null,
+            "en": "for use as communications relays, e.g. high altitude platforms"
+          }
+        },
+        {
+          "code": "B64U 101/21",
+          "title": {
+            "ko": null,
+            "en": "for providing Internet access"
+          }
+        },
+        {
+          "code": "B64U 101/23",
+          "title": {
+            "ko": null,
+            "en": "for providing telephone services"
+          }
+        },
+        {
+          "code": "B64U 101/24",
+          "title": {
+            "ko": null,
+            "en": "for use as flying displays, e.g. advertising or billboards"
+          }
+        },
+        {
+          "code": "B64U 101/25",
+          "title": {
+            "ko": null,
+            "en": "for manufacturing or servicing"
+          }
+        },
+        {
+          "code": "B64U 101/26",
+          "title": {
+            "ko": null,
+            "en": "for manufacturing, inspections or repairs"
+          }
+        },
+        {
+          "code": "B64U 101/28",
+          "title": {
+            "ko": null,
+            "en": "for painting or marking"
+          }
+        },
+        {
+          "code": "B64U 101/29",
+          "title": {
+            "ko": null,
+            "en": "for cleaning"
+          }
+        },
+        {
+          "code": "B64U 101/30",
+          "title": {
+            "ko": null,
+            "en": "for imaging, photography or videography"
+          }
+        },
+        {
+          "code": "B64U 101/31",
+          "title": {
+            "ko": null,
+            "en": "for surveillance"
+          }
+        },
+        {
+          "code": "B64U 101/32",
+          "title": {
+            "ko": null,
+            "en": "for cartography or topography"
+          }
+        },
+        {
+          "code": "B64U 101/35",
+          "title": {
+            "ko": null,
+            "en": "for science, e.g. meteorology"
+          }
+        },
+        {
+          "code": "B64U 101/40",
+          "title": {
+            "ko": null,
+            "en": "for agriculture or forestry operations"
+          }
+        },
+        {
+          "code": "B64U 101/45",
+          "title": {
+            "ko": null,
+            "en": "for releasing liquids or powders in-flight, e.g. crop-dusting"
+          }
+        },
+        {
+          "code": "B64U 101/47",
+          "title": {
+            "ko": null,
+            "en": "for fire fighting"
+          }
+        },
+        {
+          "code": "B64U 101/55",
+          "title": {
+            "ko": null,
+            "en": "for life-saving or rescue operations; for medical use"
+          }
+        },
+        {
+          "code": "B64U 101/56",
+          "title": {
+            "ko": null,
+            "en": "for locating missing persons or animals"
+          }
+        },
+        {
+          "code": "B64U 101/57",
+          "title": {
+            "ko": null,
+            "en": "for bringing emergency supplies to persons or animals in danger, e.g. ropes or life vests"
+          }
+        },
+        {
+          "code": "B64U 101/58",
+          "title": {
+            "ko": null,
+            "en": "for medical evacuation, i.e. the transportation of persons or animals to a place where they can receive medical care"
+          }
+        },
+        {
+          "code": "B64U 101/60",
+          "title": {
+            "ko": null,
+            "en": "for transporting passengers; for transporting goods other than weapons"
+          }
+        },
+        {
+          "code": "B64U 101/61",
+          "title": {
+            "ko": null,
+            "en": "for transporting passengers"
+          }
+        },
+        {
+          "code": "B64U 101/64",
+          "title": {
+            "ko": null,
+            "en": "for parcel delivery or retrieval"
+          }
+        },
+        {
+          "code": "B64U 101/66",
+          "title": {
+            "ko": null,
+            "en": "for retrieving parcels"
+          }
+        },
+        {
+          "code": "B64U 101/67",
+          "title": {
+            "ko": null,
+            "en": "the UAVs comprising tethers for lowering the goods"
+          }
+        },
+        {
+          "code": "B64U 101/69",
+          "title": {
+            "ko": null,
+            "en": "the UAVs provided with means for airdropping goods, e.g. deploying a parachute during descent"
+          }
+        },
+        {
+          "code": "B64U 101/70",
+          "title": {
+            "ko": null,
+            "en": "for use inside enclosed spaces, e.g. in buildings or in vehicles"
+          }
+        },
+        {
+          "code": "B64U 101/75",
+          "title": {
+            "ko": null,
+            "en": "for extra-terrestrial use, e.g. on the Moon or Mars"
+          }
+        }
+      ]
+    }
+  ]
+}

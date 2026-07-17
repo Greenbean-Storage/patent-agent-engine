@@ -1,0 +1,968 @@
+{
+  "subclass": "B61L",
+  "title": {
+    "ko": "철도 교통의 안내; 철도 교통의 보안(제동 장치 또는 보조 장치 B61H, B61K; 전철기 또는 철우(points)의 구성 E01B)",
+    "en": "GUIDING RAILWAY TRAFFIC; ENSURING THE SAFETY OF RAILWAY TRAFFIC (brakes or auxiliary equipment B61H, B61K;point or crossing construction E01B)"
+  },
+  "definition": {
+    "ko": "열차가 주행하는 경로를 따라 또는 열차가 운행하는 장치 B61L1/00, B61L3/00 철도 신호, 전환, 블로킹 및 인터로킹 신호 그 자체, 로컬 운영 메커니즘; 원격 제어; 차량 통행 제어 B61L5/00; B61L7/00; B61L13/00 전철기(Points) 로컬 운영 메커니즘; 원격 제어; 차량 통행에 의한 제어 B61L5/00; B61L7/00; B61L11/00 철도 조차장용 전환 시스템 B61L17/00 단일 장치에 의해 맞물리게 하는 포인트 및 신호 B61L19/00 차량 멈춤 장치(Scotch-blocks): 로컬 운영 메커니즘; 원격 제어 B61L5/00; B61L7/00 역사 차단 B61L21/00 교통 중앙 제어 시스템; 교통 데이터를 기록 및 표시하는 단계; 자기 신호 B61L27/00; B61L25/00; B61L15/00 안전: 철도 교통 수단에 관한 수단; 도로 교차로 보호 B61L23/00; B61L29/00 포인트, 형성신호 및 게이트의 조명 B61L9/00 이 서브클래스의 다른 그룹에 제공되지 않는 주제사항 B61L99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B61L 1/00",
+      "title": {
+        "ko": "차량 또는 열차와의 상호 작용에 의해 제어되는 경로상의 장치(기폭장치 B61L5/20; 차량 통과에 의한 지점 또는 신호 작동 B61L11/00, B61L13/00; 접근하는 차량에 의한 게이트 또는 게이트 및 신호 작동 B61L29/18)",
+        "en": "Devices along the route controlled by interaction with the vehicle or train (detonators B61L0005200000;operation of points or signals by passage of the vehicle B61L0011000000, B61L0013000000;operation of gates, or gates and signals, by approaching vehicle B61L0029180000)"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 1/02",
+          "title": {
+            "ko": null,
+            "en": "Electric devices associated with track"
+          }
+        },
+        {
+          "code": "B61L 1/04",
+          "title": {
+            "ko": null,
+            "en": "mechanically actuated by a part of the vehicle"
+          }
+        },
+        {
+          "code": "B61L 1/06",
+          "title": {
+            "ko": null,
+            "en": "actuated by deformation of rail; actuated by vibration in rail"
+          }
+        },
+        {
+          "code": "B61L 1/08",
+          "title": {
+            "ko": null,
+            "en": "magnetically actuated; electrostatically actuated"
+          }
+        },
+        {
+          "code": "B61L 1/10",
+          "title": {
+            "ko": null,
+            "en": "actuated by electromagnetic radiation; actuated by particle radiation"
+          }
+        },
+        {
+          "code": "B61L 1/12",
+          "title": {
+            "ko": null,
+            "en": "Electric devices associated with overhead trolley wires"
+          }
+        },
+        {
+          "code": "B61L 1/14",
+          "title": {
+            "ko": null,
+            "en": "Devices for indicating the passing of the end of the vehicle or train"
+          }
+        },
+        {
+          "code": "B61L 1/16",
+          "title": {
+            "ko": null,
+            "en": "Devices for counting axles; Devices for counting vehicles"
+          }
+        },
+        {
+          "code": "B61L 1/18",
+          "title": {
+            "ko": "궤도 회로(레일 이음매 E01B 11/00, 예 절연 레일 이음매 E01B 11/54)",
+            "en": "Railway track circuits (rail joints E01B0011000000, e.g. insulated rail joints E01B0011540000)"
+          }
+        },
+        {
+          "code": "B61L 1/20",
+          "title": {
+            "ko": null,
+            "en": "Safety arrangements for preventing or indicating malfunction of the device, e.g. by leakage current, by lightning"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 3/00",
+      "title": {
+        "ko": null,
+        "en": "Devices along the route for controlling devices on the vehicle or train, e.g. to release brake or to operate a warning signal"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 3/02",
+          "title": {
+            "ko": null,
+            "en": "at selected places along the route, e.g. intermittent control"
+          }
+        },
+        {
+          "code": "B61L 3/04",
+          "title": {
+            "ko": null,
+            "en": "controlling mechanically"
+          }
+        },
+        {
+          "code": "B61L 3/06",
+          "title": {
+            "ko": null,
+            "en": "controlling by electromagnetic or particle radiation, e.g. by light beam"
+          }
+        },
+        {
+          "code": "B61L 3/08",
+          "title": {
+            "ko": null,
+            "en": "controlling electrically"
+          }
+        },
+        {
+          "code": "B61L 3/10",
+          "title": {
+            "ko": null,
+            "en": "using current passing between devices along the route and devices on the vehicle or train"
+          }
+        },
+        {
+          "code": "B61L 3/12",
+          "title": {
+            "ko": null,
+            "en": "using magnetic or electrostatic induction; using radio waves"
+          }
+        },
+        {
+          "code": "B61L 3/14",
+          "title": {
+            "ko": null,
+            "en": "to cut-off the power supply to traction motors of electrically-propelled vehicles"
+          }
+        },
+        {
+          "code": "B61L 3/16",
+          "title": {
+            "ko": null,
+            "en": "Continuous control along the route"
+          }
+        },
+        {
+          "code": "B61L 3/18",
+          "title": {
+            "ko": null,
+            "en": "using electric current passing between devices along the route and devices on the vehicle or train"
+          }
+        },
+        {
+          "code": "B61L 3/20",
+          "title": {
+            "ko": null,
+            "en": "employing different frequencies or coded pulse groups"
+          }
+        },
+        {
+          "code": "B61L 3/22",
+          "title": {
+            "ko": null,
+            "en": "using magnetic or electrostatic induction; using electromagnetic radiation"
+          }
+        },
+        {
+          "code": "B61L 3/24",
+          "title": {
+            "ko": null,
+            "en": "employing different frequencies or coded pulse groups"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 5/00",
+      "title": {
+        "ko": "차철기 또는 궤도 설치 차량 멈추개 블록(scotch-blocks)용의 구간조작 기구; 가시식 또는 청식 신호기; 이것들을 위한 구간 제어 조작 기구(B61L 11/00이 우선)",
+        "en": "Local operating mechanisms for points or track-mounted scotch-blocks; Visible or audible signals; Local operating mechanisms for visible or audible signals (B61L0011000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 5/02",
+          "title": {
+            "ko": null,
+            "en": "Mechanical devices for operating points or scotch-blocks"
+          }
+        },
+        {
+          "code": "B61L 5/04",
+          "title": {
+            "ko": null,
+            "en": "Fluid-pressure devices for operating points or scotch-blocks"
+          }
+        },
+        {
+          "code": "B61L 5/06",
+          "title": {
+            "ko": null,
+            "en": "Electric devices for operating points or scotch-blocks"
+          }
+        },
+        {
+          "code": "B61L 5/08",
+          "title": {
+            "ko": null,
+            "en": "Underground actuating arrangements, e.g. for tramways"
+          }
+        },
+        {
+          "code": "B61L 5/10",
+          "title": {
+            "ko": null,
+            "en": "Locking mechanisms for points; Means for indicating the setting of points"
+          }
+        },
+        {
+          "code": "B61L 5/12",
+          "title": {
+            "ko": null,
+            "en": "Visible signals"
+          }
+        },
+        {
+          "code": "B61L 5/14",
+          "title": {
+            "ko": null,
+            "en": "Form signals, e.g. semaphore arms"
+          }
+        },
+        {
+          "code": "B61L 5/16",
+          "title": {
+            "ko": null,
+            "en": "Local operating mechanisms for form signals"
+          }
+        },
+        {
+          "code": "B61L 5/18",
+          "title": {
+            "ko": null,
+            "en": "Light signals; Mechanisms associated therewith, e.g. blinders"
+          }
+        },
+        {
+          "code": "B61L 5/20",
+          "title": {
+            "ko": null,
+            "en": "Audible signals, e.g. detonator"
+          }
+        },
+        {
+          "code": "B61L 5/22",
+          "title": {
+            "ko": null,
+            "en": "Devices for initiating the release of detonators in a certain position of a signal"
+          }
+        },
+        {
+          "code": "B61L 5/24",
+          "title": {
+            "ko": null,
+            "en": "Replacement of detonators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 7/00",
+      "title": {
+        "ko": "전철기, 신호기 또는 궤도 설치의 차륜 멈추개 블록용 구간 조작 장치의 원격 제어(B61L 11/00, B61L 13/00이 우선; 연동 장치 19/00)",
+        "en": "Remote control of local operating means for points, signals, or track-mounted scotch-blocks (B61L0011000000, B61L0013000000 take precedence;interlocking arrangements B61L0019000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 7/02",
+          "title": {
+            "ko": null,
+            "en": "using mechanical transmission, e.g. wire, lever"
+          }
+        },
+        {
+          "code": "B61L 7/04",
+          "title": {
+            "ko": null,
+            "en": "using fluid-pressure transmission"
+          }
+        },
+        {
+          "code": "B61L 7/06",
+          "title": {
+            "ko": null,
+            "en": "using electrical transmission"
+          }
+        },
+        {
+          "code": "B61L 7/08",
+          "title": {
+            "ko": null,
+            "en": "Circuitry"
+          }
+        },
+        {
+          "code": "B61L 7/10",
+          "title": {
+            "ko": null,
+            "en": "for light signals, e.g. for supervision, back- signalling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 9/00",
+      "title": {
+        "ko": null,
+        "en": "Illumination specially adapted for points, form signals, or gates"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 9/02",
+          "title": {
+            "ko": null,
+            "en": "non-electric"
+          }
+        },
+        {
+          "code": "B61L 9/04",
+          "title": {
+            "ko": null,
+            "en": "electric"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 11/00",
+      "title": {
+        "ko": null,
+        "en": "Operation of points from the vehicle or by the passage of the vehicle"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 11/02",
+          "title": {
+            "ko": null,
+            "en": "using mechanical interaction between vehicle and track"
+          }
+        },
+        {
+          "code": "B61L 11/04",
+          "title": {
+            "ko": null,
+            "en": "Trailable point locks"
+          }
+        },
+        {
+          "code": "B61L 11/06",
+          "title": {
+            "ko": null,
+            "en": "with fluid-pressure transmission"
+          }
+        },
+        {
+          "code": "B61L 11/08",
+          "title": {
+            "ko": null,
+            "en": "using electrical or magnetic interaction between vehicle and track"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 13/00",
+      "title": {
+        "ko": null,
+        "en": "Operation of signals from the vehicle or by the passage of the vehicle"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 13/02",
+          "title": {
+            "ko": null,
+            "en": "using mechanical interaction between vehicle and track"
+          }
+        },
+        {
+          "code": "B61L 13/04",
+          "title": {
+            "ko": null,
+            "en": "using electrical or magnetic interaction between vehicle and track"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 15/00",
+      "title": {
+        "ko": null,
+        "en": "Indicators provided on the vehicle or train for signalling purposes"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 15/02",
+          "title": {
+            "ko": null,
+            "en": "Head or tail indicators, e.g. light"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 17/00",
+      "title": {
+        "ko": null,
+        "en": "Switching systems for classification yards"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 17/02",
+          "title": {
+            "ko": null,
+            "en": "Details, e.g. indicating degree of track filling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 19/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for interlocking between points and signals by means of a single interlocking device"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 19/02",
+          "title": {
+            "ko": null,
+            "en": "Interlocking devices having mechanical or fluid-pressure operation"
+          }
+        },
+        {
+          "code": "B61L 19/04",
+          "title": {
+            "ko": null,
+            "en": "Details, e.g. hand lever, back-signalling device"
+          }
+        },
+        {
+          "code": "B61L 19/06",
+          "title": {
+            "ko": null,
+            "en": "Interlocking devices having electrical operation"
+          }
+        },
+        {
+          "code": "B61L 19/08",
+          "title": {
+            "ko": null,
+            "en": "Special arrangements for power supply for interlocking devices"
+          }
+        },
+        {
+          "code": "B61L 19/10",
+          "title": {
+            "ko": null,
+            "en": "with mechanical locks"
+          }
+        },
+        {
+          "code": "B61L 19/12",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "B61L 19/14",
+          "title": {
+            "ko": null,
+            "en": "with electrical locks"
+          }
+        },
+        {
+          "code": "B61L 19/16",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 21/00",
+      "title": {
+        "ko": null,
+        "en": "Station blocking between signal boxes in one yard"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 21/02",
+          "title": {
+            "ko": null,
+            "en": "Mechanical locking and release of the route; Repeat locks; Coupling of semaphores"
+          }
+        },
+        {
+          "code": "B61L 21/04",
+          "title": {
+            "ko": null,
+            "en": "Electrical locking and release of the route; Electrical repeat locks"
+          }
+        },
+        {
+          "code": "B61L 21/06",
+          "title": {
+            "ko": null,
+            "en": "Vehicle-on-line indication; Monitoring locking and release of the route"
+          }
+        },
+        {
+          "code": "B61L 21/08",
+          "title": {
+            "ko": null,
+            "en": "Order transmission and reception arrangements for giving or withholding permission"
+          }
+        },
+        {
+          "code": "B61L 21/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for trains which are closely following one another"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 23/00",
+      "title": {
+        "ko": null,
+        "en": "Control, warning or like safety means along the route or between vehicles or trains"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 23/02",
+          "title": {
+            "ko": null,
+            "en": "for indicating along the route the failure of brakes"
+          }
+        },
+        {
+          "code": "B61L 23/04",
+          "title": {
+            "ko": null,
+            "en": "for monitoring the mechanical state of the route"
+          }
+        },
+        {
+          "code": "B61L 23/06",
+          "title": {
+            "ko": null,
+            "en": "for warning men working on the route"
+          }
+        },
+        {
+          "code": "B61L 23/08",
+          "title": {
+            "ko": null,
+            "en": "for controlling traffic in one direction only"
+          }
+        },
+        {
+          "code": "B61L 23/10",
+          "title": {
+            "ko": null,
+            "en": "manually operated"
+          }
+        },
+        {
+          "code": "B61L 23/12",
+          "title": {
+            "ko": null,
+            "en": "partly operated by train"
+          }
+        },
+        {
+          "code": "B61L 23/14",
+          "title": {
+            "ko": null,
+            "en": "automatically operated"
+          }
+        },
+        {
+          "code": "B61L 23/16",
+          "title": {
+            "ko": null,
+            "en": "Track circuits specially adapted for section blocking"
+          }
+        },
+        {
+          "code": "B61L 23/18",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for maintaining a safe distance between vehicles or trains depending upon speed and traffic density"
+          }
+        },
+        {
+          "code": "B61L 23/20",
+          "title": {
+            "ko": null,
+            "en": "with transmission of instructions to stations along the route"
+          }
+        },
+        {
+          "code": "B61L 23/22",
+          "title": {
+            "ko": null,
+            "en": "for controlling traffic in two directions over the same pair of rails"
+          }
+        },
+        {
+          "code": "B61L 23/24",
+          "title": {
+            "ko": null,
+            "en": "using token systems, e.g. train staffs, tablets"
+          }
+        },
+        {
+          "code": "B61L 23/26",
+          "title": {
+            "ko": null,
+            "en": "with means for actuating signals from the vehicle or by passage of the vehicle"
+          }
+        },
+        {
+          "code": "B61L 23/28",
+          "title": {
+            "ko": null,
+            "en": "using non-automatic blocking from a place along the route"
+          }
+        },
+        {
+          "code": "B61L 23/30",
+          "title": {
+            "ko": null,
+            "en": "using automatic section blocking"
+          }
+        },
+        {
+          "code": "B61L 23/32",
+          "title": {
+            "ko": null,
+            "en": "with provision for the blocking of passing sidings"
+          }
+        },
+        {
+          "code": "B61L 23/34",
+          "title": {
+            "ko": null,
+            "en": "for indicating the distance between vehicles or trains by the transmission of signals therebetween"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 25/00",
+      "title": {
+        "ko": null,
+        "en": "Recording or indicating positions or identities of vehicles or trains or setting of track apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 25/02",
+          "title": {
+            "ko": null,
+            "en": "Indicating or recording positions or identities of vehicles or trains"
+          }
+        },
+        {
+          "code": "B61L 25/04",
+          "title": {
+            "ko": null,
+            "en": "Indicating or recording train identities"
+          }
+        },
+        {
+          "code": "B61L 25/06",
+          "title": {
+            "ko": null,
+            "en": "Indicating or recording the setting of track apparatus, e.g. of points, of signals"
+          }
+        },
+        {
+          "code": "B61L 25/08",
+          "title": {
+            "ko": null,
+            "en": "Diagrammatic displays"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 27/00",
+      "title": {
+        "ko": null,
+        "en": "Central railway traffic control systems; Trackside control; Communication systems specially adapted therefor"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 27/02",
+          "title": {
+            "ko": null,
+            "en": "Manual systems"
+          }
+        },
+        {
+          "code": "B61L 27/04",
+          "title": {
+            "ko": null,
+            "en": "Automatic systems, e.g. controlled by train; Change-over to manual control"
+          }
+        },
+        {
+          "code": "B61L 27/10",
+          "title": {
+            "ko": null,
+            "en": "Operations, e.g. scheduling or time tables"
+          }
+        },
+        {
+          "code": "B61L 27/12",
+          "title": {
+            "ko": null,
+            "en": "Preparing schedules"
+          }
+        },
+        {
+          "code": "B61L 27/14",
+          "title": {
+            "ko": null,
+            "en": "Following schedules"
+          }
+        },
+        {
+          "code": "B61L 27/16",
+          "title": {
+            "ko": null,
+            "en": "Trackside optimisation of vehicle or train operation"
+          }
+        },
+        {
+          "code": "B61L 27/18",
+          "title": {
+            "ko": null,
+            "en": "Crew rosters; Itineraries"
+          }
+        },
+        {
+          "code": "B61L 27/20",
+          "title": {
+            "ko": null,
+            "en": "Trackside control of safe travel of vehicle or train, e.g. braking curve calculation"
+          }
+        },
+        {
+          "code": "B61L 27/30",
+          "title": {
+            "ko": null,
+            "en": "Trackside multiple control systems, e.g. switch-over between different systems"
+          }
+        },
+        {
+          "code": "B61L 27/33",
+          "title": {
+            "ko": null,
+            "en": "Backup systems, e.g. switching when failures occur"
+          }
+        },
+        {
+          "code": "B61L 27/37",
+          "title": {
+            "ko": null,
+            "en": "Migration, e.g. parallel installations running simultaneously"
+          }
+        },
+        {
+          "code": "B61L 27/40",
+          "title": {
+            "ko": null,
+            "en": "Handling position reports or trackside vehicle data"
+          }
+        },
+        {
+          "code": "B61L 27/50",
+          "title": {
+            "ko": null,
+            "en": "Trackside diagnosis or maintenance, e.g. software upgrades"
+          }
+        },
+        {
+          "code": "B61L 27/53",
+          "title": {
+            "ko": null,
+            "en": "for trackside elements or systems, e.g. trackside supervision of trackside control system conditions"
+          }
+        },
+        {
+          "code": "B61L 27/57",
+          "title": {
+            "ko": null,
+            "en": "for vehicles or trains, e.g. trackside supervision of train conditions"
+          }
+        },
+        {
+          "code": "B61L 27/60",
+          "title": {
+            "ko": null,
+            "en": "Testing or simulation"
+          }
+        },
+        {
+          "code": "B61L 27/70",
+          "title": {
+            "ko": null,
+            "en": "Details of trackside communication"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 29/00",
+      "title": {
+        "ko": "건널목의 보안 및 신호 장치",
+        "en": "Safety means for rail/road crossing traffic"
+      },
+      "subgroups": [
+        {
+          "code": "B61L 29/02",
+          "title": {
+            "ko": "루트 접근을 막기 위한 가드 또는 장애물(영구 루트에 연결된 가축 가드 E01B17/00)",
+            "en": "Guards or obstacles for preventing access to the route (cattle guards connected to the permanent way E01B0017000000)"
+          }
+        },
+        {
+          "code": "B61L 29/04",
+          "title": {
+            "ko": null,
+            "en": "Gates for level crossings"
+          }
+        },
+        {
+          "code": "B61L 29/06",
+          "title": {
+            "ko": null,
+            "en": "yielding to vehicles in one direction but operated in a different direction"
+          }
+        },
+        {
+          "code": "B61L 29/08",
+          "title": {
+            "ko": null,
+            "en": "Operation of gates; Combined operation of gates and signals"
+          }
+        },
+        {
+          "code": "B61L 29/10",
+          "title": {
+            "ko": null,
+            "en": "Means for securing gates in their desired position"
+          }
+        },
+        {
+          "code": "B61L 29/12",
+          "title": {
+            "ko": null,
+            "en": "Manual operation"
+          }
+        },
+        {
+          "code": "B61L 29/14",
+          "title": {
+            "ko": null,
+            "en": "mechanically"
+          }
+        },
+        {
+          "code": "B61L 29/16",
+          "title": {
+            "ko": null,
+            "en": "electrically"
+          }
+        },
+        {
+          "code": "B61L 29/18",
+          "title": {
+            "ko": null,
+            "en": "Operation by approaching rail vehicle or train"
+          }
+        },
+        {
+          "code": "B61L 29/20",
+          "title": {
+            "ko": null,
+            "en": "mechanically"
+          }
+        },
+        {
+          "code": "B61L 29/22",
+          "title": {
+            "ko": null,
+            "en": "electrically"
+          }
+        },
+        {
+          "code": "B61L 29/24",
+          "title": {
+            "ko": null,
+            "en": "Means for warning road traffic that a gate is closed or closing, or that rail traffic is approaching, e.g. for visible or audible warning"
+          }
+        },
+        {
+          "code": "B61L 29/26",
+          "title": {
+            "ko": null,
+            "en": "mechanically operated"
+          }
+        },
+        {
+          "code": "B61L 29/28",
+          "title": {
+            "ko": null,
+            "en": "electrically operated"
+          }
+        },
+        {
+          "code": "B61L 29/30",
+          "title": {
+            "ko": null,
+            "en": "Supervision, e.g. monitoring arrangements"
+          }
+        },
+        {
+          "code": "B61L 29/32",
+          "title": {
+            "ko": null,
+            "en": "Timing, e.g. advance warning of approaching train"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61L 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

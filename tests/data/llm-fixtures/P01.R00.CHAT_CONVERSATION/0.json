@@ -1,0 +1,16 @@
+{
+  "internal_analysis": "사용자가 '안녕' 한 마디 발화로 대화를 시작. media 첨부 없음. 최근 conversation 비어있어 신규 세션. IOM 도 비어있어 발명 정보 0. 사용자 의도는 명백한 인사 — invention 관련 정보 없음. 가드레일 트리거 단서 없음 (욕설/창작/법률/시스템 침입 등 단서 X). 다음 응답은 친근한 인사 1~2 문장 + 발명 대화로 자연스러운 안내. iom_completeness 가 0 이므로 첫 미션은 발명 개요 듣기 — 강요 톤 회피, 사용자 부담 없이 '어떤 발명에 대해 이야기 나누고 싶으신가요?' 같은 개방형 질문 권장.",
+  "intent_label": "greeting",
+  "iom_completeness": {
+    "score": 0.0,
+    "missing_aspects": ["발명 개요", "핵심 구성요소"]
+  },
+  "special_case": "none",
+  "guidelines": {
+    "tone": "친근",
+    "target_length_chars": 80,
+    "must_include": ["인사 응답", "발명 대화 자연 안내"],
+    "must_avoid": ["전문 용어", "강요 톤", "체크리스트 톤"],
+    "follow_up_hint": "발명 개요 묻기"
+  }
+}

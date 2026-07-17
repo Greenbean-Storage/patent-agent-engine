@@ -1,0 +1,4283 @@
+{
+  "subclass": "G01N",
+  "title": {
+    "ko": "화학적 또는 물리적 특성 결정에 의한 재료의 조사 또는 분석 (효소 또는 미생물을 포함하는 면역분석 이외의 측정, 시험 장치 또는 공정 C12M, C12Q)",
+    "en": "INVESTIGATING OR ANALYSING MATERIALS BY DETERMINING THEIR CHEMICAL OR PHYSICAL PROPERTIES (measuring or testing apparatus or processes other than immunoassay, involving enzymes or microorganisms C12M, C12Q)"
+  },
+  "definition": {
+    "ko": "샘플링, 조제 G01N1/00 조사 대상의 성질에 의해 특징이 있는 조사 또는 분석 기계적 강도; 밀도; 유동 G01N3/00; G01N9/00; G01N11/00 표면 또는 경계효과; 입자의 특성, 침투력; 마찰, 점착력 G01N13/00; G01N15/00; G01N19/00 주위환경의 작용에 대한 저항력 G01N17/00 사용하는 방법에 의해 특징 지워지는 조사 또는 분석 중량측정; 기체의 압력 또는 체적의 측정; 기계적 G01N5/00; G01N7/00; G01N19/00 광학적; 마이크로파에 의한 것; 방사선에 의한 것 G01N21/00; G01N22/00; G01N23/00 자기공명 또는 다른 스핀효과 G01N24/00 열적; 전기적, 전기화학적, 자기적; 음향적 G01N25/00; G01N27/00; G01N29/00 성분분리에 의한 것; 화학적 방법의 이용에 의한 것 G01N30/00; G01N31/00 조사되는 재료에 특징이 있는 기타 조사 또는 분석 G01N33/00 면역 분석 G01N33/53 자동 분석 G01N35/00 이전 그룹에 포함되지 않는 세부 G01N37/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01N 1/00",
+      "title": {
+        "ko": "샘플링; 조사용 표본의 조제(자동분석을 위한 재료의 취급(handling) G01N 35/00)",
+        "en": "Sampling; Preparing specimens for investigation (handling materials for automatic analysis G01N0035000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 1/02",
+          "title": {
+            "ko": "시료를 꺼내기 위한 장치",
+            "en": "Devices for withdrawing samples"
+          }
+        },
+        {
+          "code": "G01N 1/04",
+          "title": {
+            "ko": null,
+            "en": "in the solid state, e.g. by cutting"
+          }
+        },
+        {
+          "code": "G01N 1/06",
+          "title": {
+            "ko": null,
+            "en": "providing a thin slice, e.g. microtome"
+          }
+        },
+        {
+          "code": "G01N 1/08",
+          "title": {
+            "ko": null,
+            "en": "involving an extracting tool, e.g. core bit"
+          }
+        },
+        {
+          "code": "G01N 1/10",
+          "title": {
+            "ko": "액체 또는 유동상의 것",
+            "en": "in the liquid or fluent state"
+          }
+        },
+        {
+          "code": "G01N 1/12",
+          "title": {
+            "ko": null,
+            "en": "Dippers; Dredgers"
+          }
+        },
+        {
+          "code": "G01N 1/14",
+          "title": {
+            "ko": null,
+            "en": "Suction devices, e.g. pumps; Ejector devices"
+          }
+        },
+        {
+          "code": "G01N 1/16",
+          "title": {
+            "ko": "다수의 레벨로 취급 가능한 것(G01N 1/12, G01N 1/14가 우선)",
+            "en": "with provision for intake at several levels (G01N0001120000, G01N0001140000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 1/18",
+          "title": {
+            "ko": "시료를 분할할 수 있는 것(G01N 1/12, G01N 1/14가 우선; 크로마토그래프용 프랙션-포집(fraction-collection)제직 B01D 15/08)",
+            "en": "with provision for splitting samples into portions (G01N0001120000, G01N0001140000 take precedence;fraction-collection apparatus for chromatography B01D0015080000)"
+          }
+        },
+        {
+          "code": "G01N 1/20",
+          "title": {
+            "ko": "유동하는 또는 낙하하는 재료를 위한 것(G01N 1/12, G01N 1/14가 우선)",
+            "en": "for flowing or falling materials (G01N0001120000, G01N0001140000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 1/22",
+          "title": {
+            "ko": null,
+            "en": "in the gaseous state"
+          }
+        },
+        {
+          "code": "G01N 1/24",
+          "title": {
+            "ko": null,
+            "en": "Suction devices"
+          }
+        },
+        {
+          "code": "G01N 1/26",
+          "title": {
+            "ko": null,
+            "en": "with provision for intake from several spaces"
+          }
+        },
+        {
+          "code": "G01N 1/28",
+          "title": {
+            "ko": "조사용 표본의 조제(현미경의 슬라이드에의 표본의 부착 G02B 21/34; 전자현미경에서 분석해야 할 물체 또는 시료를 지지하기 위한 수단 H01J 37/20)",
+            "en": "Preparing specimens for investigation (mounting specimens on microscopic slides G02B0021340000;means for supporting the objects or the materials to be analysed in electron microscopes H01J0037200000)"
+          }
+        },
+        {
+          "code": "G01N 1/30",
+          "title": {
+            "ko": null,
+            "en": "Staining; Impregnating"
+          }
+        },
+        {
+          "code": "G01N 1/31",
+          "title": {
+            "ko": null,
+            "en": "Apparatus therefor"
+          }
+        },
+        {
+          "code": "G01N 1/32",
+          "title": {
+            "ko": null,
+            "en": "Polishing; Etching"
+          }
+        },
+        {
+          "code": "G01N 1/34",
+          "title": {
+            "ko": null,
+            "en": "Purifying; Cleaning"
+          }
+        },
+        {
+          "code": "G01N 1/36",
+          "title": {
+            "ko": null,
+            "en": "Embedding or analogous mounting of samples"
+          }
+        },
+        {
+          "code": "G01N 1/38",
+          "title": {
+            "ko": null,
+            "en": "Diluting, dispersing or mixing samples"
+          }
+        },
+        {
+          "code": "G01N 1/40",
+          "title": {
+            "ko": null,
+            "en": "Concentrating samples"
+          }
+        },
+        {
+          "code": "G01N 1/42",
+          "title": {
+            "ko": null,
+            "en": "Low-temperature sample treatment, e.g. cryofixation"
+          }
+        },
+        {
+          "code": "G01N 1/44",
+          "title": {
+            "ko": null,
+            "en": "Sample treatment involving radiation, e.g. heat"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 3/00",
+      "title": {
+        "ko": "기계적 응력 인가에 의한 고체재료의 강도의 조사",
+        "en": "Investigating strength properties of solid materials by application of mechanical stress"
+      },
+      "definition": {
+        "ko": "이 그룹은 재료의 응력의 부가가 탄성한계 이하의 경우 뿐만 아니라, 탄성한계를 넘는 경우, 예. 파괴할 때, 까지도 포함한다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01N 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01N 3/04",
+          "title": {
+            "ko": null,
+            "en": "Chucks"
+          }
+        },
+        {
+          "code": "G01N 3/06",
+          "title": {
+            "ko": null,
+            "en": "Special adaptations of indicating or recording means"
+          }
+        },
+        {
+          "code": "G01N 3/08",
+          "title": {
+            "ko": "안정된 장력 또는 압축력에 의한 것(G01N 3/28이 우선)",
+            "en": "by applying steady tensile or compressive forces (G01N0003280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/10",
+          "title": {
+            "ko": "공기압 또는 유압에 의한 것(G01N 3/18이 우선)",
+            "en": "generated by pneumatic or hydraulic pressure (G01N0003180000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/12",
+          "title": {
+            "ko": null,
+            "en": "Pressure-testing"
+          }
+        },
+        {
+          "code": "G01N 3/14",
+          "title": {
+            "ko": "무거운 것에 의해 생기는 것, 예. 진자; 용수철의 신장력에 의한 것(G01N 3/18이 우선)",
+            "en": "generated by dead weight, e.g. pendulum; generated by spring tension (G01N0003180000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/16",
+          "title": {
+            "ko": "톱니바퀴 장치를 통해 적용되는 것(G01N 3/18이 우선)",
+            "en": "applied through gearing (G01N0003180000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/18",
+          "title": {
+            "ko": null,
+            "en": "Performing tests at high or low temperatures"
+          }
+        },
+        {
+          "code": "G01N 3/20",
+          "title": {
+            "ko": "일정한 절곡력(bending force)의 적용에 의한 것(G01N 3/26, G01N 3/28이 우선)",
+            "en": "by applying steady bending forces (G01N0003260000, G01N0003280000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/22",
+          "title": {
+            "ko": "일정한 비트는 힘의 적용에 의한 것(G01N 3/26, G01N 3/28이 우선)",
+            "en": "by applying steady torsional forces (G01N0003260000, G01N0003280000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/24",
+          "title": {
+            "ko": "일정한 전단력 적용에 의한 것(G01N 3/26, G01N 3/28이 우선)",
+            "en": "by applying steady shearing forces (G01N0003260000, G01N0003280000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/26",
+          "title": {
+            "ko": null,
+            "en": "Investigating twisting or coiling properties"
+          }
+        },
+        {
+          "code": "G01N 3/28",
+          "title": {
+            "ko": null,
+            "en": "Investigating ductility, e.g. suitability of sheet metal for deep-drawing or spinning"
+          }
+        },
+        {
+          "code": "G01N 3/30",
+          "title": {
+            "ko": "단충격력의 적용에 의한 것(충격하중하의 자국의 조사 G01N 3/48)",
+            "en": "by applying a single impulsive force (investigating hardness by performing impressions under impulsive load G01N0003480000)"
+          }
+        },
+        {
+          "code": "G01N 3/303",
+          "title": {
+            "ko": null,
+            "en": "generated only by free-falling weight"
+          }
+        },
+        {
+          "code": "G01N 3/307",
+          "title": {
+            "ko": null,
+            "en": "generated by a compressed or tensile-stressed spring; generated by pneumatic or hydraulic means"
+          }
+        },
+        {
+          "code": "G01N 3/31",
+          "title": {
+            "ko": null,
+            "en": "generated by a rotating fly-wheel"
+          }
+        },
+        {
+          "code": "G01N 3/313",
+          "title": {
+            "ko": null,
+            "en": "generated by explosives"
+          }
+        },
+        {
+          "code": "G01N 3/317",
+          "title": {
+            "ko": null,
+            "en": "generated by electromagnetic means"
+          }
+        },
+        {
+          "code": "G01N 3/32",
+          "title": {
+            "ko": null,
+            "en": "by applying repeated or pulsating forces"
+          }
+        },
+        {
+          "code": "G01N 3/34",
+          "title": {
+            "ko": null,
+            "en": "generated by mechanical means, e.g. hammer blows"
+          }
+        },
+        {
+          "code": "G01N 3/36",
+          "title": {
+            "ko": null,
+            "en": "generated by pneumatic or hydraulic means"
+          }
+        },
+        {
+          "code": "G01N 3/38",
+          "title": {
+            "ko": null,
+            "en": "generated by electromagnetic means"
+          }
+        },
+        {
+          "code": "G01N 3/40",
+          "title": {
+            "ko": "경도 또는 반발경도의 조사",
+            "en": "Investigating hardness or rebound hardness"
+          }
+        },
+        {
+          "code": "G01N 3/42",
+          "title": {
+            "ko": "안정된 하중하에서의 압자(indentor) , 예. 구, 피라미드가 형성하는 압흔에 의한 것(G01N 3/54가 우선)",
+            "en": "by performing impressions under a steady load by indentors, e.g. sphere, pyramid (G01N0003540000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/44",
+          "title": {
+            "ko": null,
+            "en": "the indentors being put under a minor load and a subsequent major load, i.e. Rockwell system"
+          }
+        },
+        {
+          "code": "G01N 3/46",
+          "title": {
+            "ko": null,
+            "en": "the indentors performing a scratching movement"
+          }
+        },
+        {
+          "code": "G01N 3/48",
+          "title": {
+            "ko": "충격하중의 것으로서 압자(indentor), 예. 낙하구, 에 의한 충격하중으로 압역을 형성하는 것(G01N 3/54가 우선)",
+            "en": "by performing impressions under impulsive load by indentors, e.g. falling ball (G01N0003540000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/50",
+          "title": {
+            "ko": "구름(rolling) 마찰의 측정에 의한 것, 예. 요동 진자에 의한 것(G01N 3/54가 우선)",
+            "en": "by measuring rolling friction, e.g. by rocking pendulum (G01N0003540000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/52",
+          "title": {
+            "ko": "충격체의 튀어 오르는 양의 측정에 의한 것(G01N 3/54가 우선)",
+            "en": "by measuring extent of rebound of a striking body (G01N0003540000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 3/54",
+          "title": {
+            "ko": null,
+            "en": "Performing tests at high or low temperatures"
+          }
+        },
+        {
+          "code": "G01N 3/56",
+          "title": {
+            "ko": null,
+            "en": "Investigating resistance to wear or abrasion"
+          }
+        },
+        {
+          "code": "G01N 3/58",
+          "title": {
+            "ko": null,
+            "en": "Investigating machinability by cutting tools; Investigating the cutting ability of tools"
+          }
+        },
+        {
+          "code": "G01N 3/60",
+          "title": {
+            "ko": null,
+            "en": "Investigating resistance of materials, e.g. refractory materials, to rapid heat changes"
+          }
+        },
+        {
+          "code": "G01N 3/62",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing, calibrating, or repairing devices used in investigations covered by the preceding subgroups"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 5/00",
+      "title": {
+        "ko": "중량측정에 의한 재료분석, 예. 기체 또는 액체에서 분리된 소립자의 중량측정에 의한 것(G01N 9/00이 우선)",
+        "en": "Analysing materials by weighing, e.g. weighing small particles separated from a gas or liquid (G01N0009000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 5/02",
+          "title": {
+            "ko": null,
+            "en": "by absorbing or adsorbing components of a material and determining change of weight of the adsorbent, e.g. determining moisture content"
+          }
+        },
+        {
+          "code": "G01N 5/04",
+          "title": {
+            "ko": null,
+            "en": "by removing a component, e.g. by evaporation, and weighing the remainder"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 7/00",
+      "title": {
+        "ko": null,
+        "en": "Analysing materials by measuring the pressure or volume of a gas or vapour"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 7/02",
+          "title": {
+            "ko": null,
+            "en": "by absorption, adsorption, or combustion of components and measurement of the change in pressure or volume of the remainder"
+          }
+        },
+        {
+          "code": "G01N 7/04",
+          "title": {
+            "ko": null,
+            "en": "by absorption or adsorption alone"
+          }
+        },
+        {
+          "code": "G01N 7/06",
+          "title": {
+            "ko": null,
+            "en": "by combustion alone"
+          }
+        },
+        {
+          "code": "G01N 7/08",
+          "title": {
+            "ko": null,
+            "en": "by combustion followed by absorption or adsorption of the combustion products"
+          }
+        },
+        {
+          "code": "G01N 7/10",
+          "title": {
+            "ko": null,
+            "en": "by allowing diffusion of components through a porous wall and measuring a pressure or volume difference"
+          }
+        },
+        {
+          "code": "G01N 7/12",
+          "title": {
+            "ko": null,
+            "en": "the diffusion being followed by combustion or catalytic oxidation"
+          }
+        },
+        {
+          "code": "G01N 7/14",
+          "title": {
+            "ko": null,
+            "en": "by allowing the material to emit a gas or vapour, e.g. water vapour, and measuring a pressure or volume difference"
+          }
+        },
+        {
+          "code": "G01N 7/16",
+          "title": {
+            "ko": null,
+            "en": "by heating the material"
+          }
+        },
+        {
+          "code": "G01N 7/18",
+          "title": {
+            "ko": null,
+            "en": "by allowing the material to react"
+          }
+        },
+        {
+          "code": "G01N 7/20",
+          "title": {
+            "ko": null,
+            "en": "the reaction being fermentation"
+          }
+        },
+        {
+          "code": "G01N 7/22",
+          "title": {
+            "ko": null,
+            "en": "of dough"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 9/00",
+      "title": {
+        "ko": "재료의 비중 또는 밀도의 조사 비중 또는 밀도의 측정에 의한 재료분석",
+        "en": "Investigating density or specific gravity of materials; Analysing materials by determining density or specific gravity"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 9/02",
+          "title": {
+            "ko": null,
+            "en": "by measuring weight of a known volume"
+          }
+        },
+        {
+          "code": "G01N 9/04",
+          "title": {
+            "ko": null,
+            "en": "of fluids"
+          }
+        },
+        {
+          "code": "G01N 9/06",
+          "title": {
+            "ko": null,
+            "en": "with continuous circulation through a pivotally-supported member"
+          }
+        },
+        {
+          "code": "G01N 9/08",
+          "title": {
+            "ko": null,
+            "en": "by measuring buoyant force of solid materials by weighing both in air and in a liquid"
+          }
+        },
+        {
+          "code": "G01N 9/10",
+          "title": {
+            "ko": null,
+            "en": "by observing bodies wholly or partially immersed in fluid materials"
+          }
+        },
+        {
+          "code": "G01N 9/12",
+          "title": {
+            "ko": null,
+            "en": "by observing the depth of immersion of the bodies, e.g. hydrometers"
+          }
+        },
+        {
+          "code": "G01N 9/14",
+          "title": {
+            "ko": null,
+            "en": "the body being built into a container"
+          }
+        },
+        {
+          "code": "G01N 9/16",
+          "title": {
+            "ko": null,
+            "en": "the body being pivoted"
+          }
+        },
+        {
+          "code": "G01N 9/18",
+          "title": {
+            "ko": null,
+            "en": "Special adaptations for indicating, recording, or control"
+          }
+        },
+        {
+          "code": "G01N 9/20",
+          "title": {
+            "ko": null,
+            "en": "by balancing the weight of the bodies"
+          }
+        },
+        {
+          "code": "G01N 9/22",
+          "title": {
+            "ko": null,
+            "en": "with continuous circulation of the fluid"
+          }
+        },
+        {
+          "code": "G01N 9/24",
+          "title": {
+            "ko": null,
+            "en": "by observing the transmission of wave or particle radiation through the material"
+          }
+        },
+        {
+          "code": "G01N 9/26",
+          "title": {
+            "ko": null,
+            "en": "by measuring pressure differences"
+          }
+        },
+        {
+          "code": "G01N 9/28",
+          "title": {
+            "ko": null,
+            "en": "by measuring the blowing pressure of gas bubbles escaping from nozzles at different depths in a liquid"
+          }
+        },
+        {
+          "code": "G01N 9/30",
+          "title": {
+            "ko": null,
+            "en": "by using centrifugal effects"
+          }
+        },
+        {
+          "code": "G01N 9/32",
+          "title": {
+            "ko": null,
+            "en": "by using flow properties of fluids, e.g. flow through tubes or apertures"
+          }
+        },
+        {
+          "code": "G01N 9/34",
+          "title": {
+            "ko": null,
+            "en": "by using elements moving through the fluid, e.g. vane"
+          }
+        },
+        {
+          "code": "G01N 9/36",
+          "title": {
+            "ko": "비중 또는 밀도의 측정에 의한 재료의 분석, 예. 수분의 측정(측정 방법 G01N 9/02에서 G01N 9/32)",
+            "en": "Analysing materials by measuring the density or specific gravity, e.g. determining quantity of moisture (methods of measurement G01N0009020000-G01N0009320000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 11/00",
+      "title": {
+        "ko": "재료의 유동성 조사, 예. 점도 또는 가소성; 유동성 측정에 의한 재료 분석",
+        "en": "Investigating flow properties of materials, e.g. viscosity or plasticity; Analysing materials by determining flow properties"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 11/02",
+          "title": {
+            "ko": null,
+            "en": "by measuring flow of the material"
+          }
+        },
+        {
+          "code": "G01N 11/04",
+          "title": {
+            "ko": null,
+            "en": "through a restricted passage, e.g. tube, aperture"
+          }
+        },
+        {
+          "code": "G01N 11/06",
+          "title": {
+            "ko": null,
+            "en": "by timing the outflow of a known quantity"
+          }
+        },
+        {
+          "code": "G01N 11/08",
+          "title": {
+            "ko": null,
+            "en": "by measuring pressure required to produce a known flow"
+          }
+        },
+        {
+          "code": "G01N 11/10",
+          "title": {
+            "ko": "재료 내에서 물체를 작동시키는 것",
+            "en": "by moving a body within the material"
+          }
+        },
+        {
+          "code": "G01N 11/12",
+          "title": {
+            "ko": "물체의 상승 또는 낙하속도의 측정에 의한 것; 쐐기형의 게이지를 끼워 넣은 측정에 의한 것(G01N 11/16이 우선)",
+            "en": "by measuring rising or falling speed of the body; by measuring penetration of wedged gauges (G01N0011160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 11/14",
+          "title": {
+            "ko": "회전체, 예. 날개, 의 이용에 의한 것(G01N 11/16이 우선)",
+            "en": "by using rotary bodies, e.g. vane (G01N0011160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 11/16",
+          "title": {
+            "ko": null,
+            "en": "by measuring damping effect upon oscillatory body"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 13/00",
+      "title": {
+        "ko": "표면 또는 경계효과, 예. 습윤력 등의 조사; 확산효과의 조사; 표면, 경계 또는 확산효과의 측정에 의한 재료의 분석(스캐닝 프로브 기술 또는 장치 G01Q)",
+        "en": "Investigating surface or boundary effects, e.g. wetting power; Investigating diffusion effects; Analysing materials by determining surface, boundary, or diffusion effects (scanning-probe techniques or apparatus G01Q)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 13/02",
+          "title": {
+            "ko": null,
+            "en": "Investigating surface tension of liquids"
+          }
+        },
+        {
+          "code": "G01N 13/04",
+          "title": {
+            "ko": null,
+            "en": "Investigating osmotic effects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 15/00",
+      "title": {
+        "ko": "입자의 특성 조사; 다공성 물질의 투과성, 기공 부피 또는 표면적 조사",
+        "en": "Investigating characteristics of particles; Investigating permeability, pore-volume or surface-area of porous materials"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 15/01",
+          "title": {
+            "ko": "생물적 세포에 특히 적합한 것, 예. 혈액 세포 (혈액 내 입자 현탁액의 침강 조사 G01N15/05)",
+            "en": "specially adapted for biological cells, e.g. blood cells (investigating sedimentation of particle suspensions in blood G01N0015050000)"
+          }
+        },
+        {
+          "code": "G01N 15/02",
+          "title": {
+            "ko": "입자 크기 또는 크기 분포 조사(삼투압 측정 G01N7/10; 입자 현탁액의 침강 조사 G01N15/04; 개별 입자 조사 G01N15/10)",
+            "en": "Investigating particle size or size distribution  (by measuring osmotic pressure G01N0007100000; investigating sedimentation of particle suspensions G01N0015040000; investigating individual particles G01N0015100000)"
+          }
+        },
+        {
+          "code": "G01N 15/0205",
+          "title": {
+            "ko": null,
+            "en": "by optical means"
+          }
+        },
+        {
+          "code": "G01N 15/0227",
+          "title": {
+            "ko": null,
+            "en": "using imaging; using holography"
+          }
+        },
+        {
+          "code": "G01N 15/04",
+          "title": {
+            "ko": null,
+            "en": "Investigating sedimentation of particle suspensions"
+          }
+        },
+        {
+          "code": "G01N 15/05",
+          "title": {
+            "ko": null,
+            "en": "in blood"
+          }
+        },
+        {
+          "code": "G01N 15/06",
+          "title": {
+            "ko": "입자 현탁액의 농도 조사(G01N5/00 계량; 입자 현탁액 침강 조사 G01N15/04; 개별 입자 조사 G01N15/10)",
+            "en": "Investigating concentration of particle suspensions  (by weighing G01N0005000000; investigating sedimentation of particle suspensions G01N0015040000;investigating individual particles G01N0015100000)"
+          }
+        },
+        {
+          "code": "G01N 15/075",
+          "title": {
+            "ko": null,
+            "en": "by optical means"
+          }
+        },
+        {
+          "code": "G01N 15/08",
+          "title": {
+            "ko": null,
+            "en": "Investigating permeability, pore volume, or surface area of porous materials"
+          }
+        },
+        {
+          "code": "G01N 15/10",
+          "title": {
+            "ko": null,
+            "en": "Investigating individual particles"
+          }
+        },
+        {
+          "code": "G01N 15/1031",
+          "title": {
+            "ko": null,
+            "en": "by measuring electrical or magnetic effects"
+          }
+        },
+        {
+          "code": "G01N 15/12",
+          "title": {
+            "ko": null,
+            "en": "by observing changes in resistance or impedance across apertures when traversed by individual particles, e.g. by using the Coulter principle"
+          }
+        },
+        {
+          "code": "G01N 15/13",
+          "title": {
+            "ko": null,
+            "en": "Details pertaining to apertures"
+          }
+        },
+        {
+          "code": "G01N 15/14",
+          "title": {
+            "ko": null,
+            "en": "Optical investigation techniques, e.g. flow cytometry"
+          }
+        },
+        {
+          "code": "G01N 15/1404",
+          "title": {
+            "ko": null,
+            "en": "Handling flow, e.g. hydrodynamic focusing"
+          }
+        },
+        {
+          "code": "G01N 15/1409",
+          "title": {
+            "ko": null,
+            "en": "Handling samples, e.g. injecting samples"
+          }
+        },
+        {
+          "code": "G01N 15/1429",
+          "title": {
+            "ko": null,
+            "en": "Signal processing"
+          }
+        },
+        {
+          "code": "G01N 15/1433",
+          "title": {
+            "ko": null,
+            "en": "using image recognition"
+          }
+        },
+        {
+          "code": "G01N 15/1434",
+          "title": {
+            "ko": null,
+            "en": "Optical arrangements"
+          }
+        },
+        {
+          "code": "G01N 15/149",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for sorting particles, e.g. by their size or optical properties"
+          }
+        },
+        {
+          "code": "G01N 15/1492",
+          "title": {
+            "ko": null,
+            "en": "within droplets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 17/00",
+      "title": {
+        "ko": "기후, 부식 또는 광에 대한 재료의 내구성 조사",
+        "en": "Investigating resistance of materials to the weather, to corrosion or to light"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 17/02",
+          "title": {
+            "ko": "풍화, 부식 또는 부식 방지 측정을 위한 전기화학적 측정 시스템 (G01N17/04가 우선)",
+            "en": "Electrochemical measuring systems for weathering, corrosion or corrosion-protection measurement (G01N0017040000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 17/04",
+          "title": {
+            "ko": null,
+            "en": "Corrosion probes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 19/00",
+      "title": {
+        "ko": "기계적 방법에 의한 재료조사(G01N 3/00 ～ G01N 17/00이 우선)",
+        "en": "Investigating materials by mechanical methods (G01N0003000000-G01N0017000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 19/02",
+          "title": {
+            "ko": null,
+            "en": "Measuring coefficient of friction between materials"
+          }
+        },
+        {
+          "code": "G01N 19/04",
+          "title": {
+            "ko": null,
+            "en": "Measuring adhesive force between materials, e.g. of sealing tape, of coating"
+          }
+        },
+        {
+          "code": "G01N 19/06",
+          "title": {
+            "ko": null,
+            "en": "Investigating by removing material, e.g. spark-testing"
+          }
+        },
+        {
+          "code": "G01N 19/08",
+          "title": {
+            "ko": null,
+            "en": "Detecting presence of flaws or irregularities"
+          }
+        },
+        {
+          "code": "G01N 19/10",
+          "title": {
+            "ko": null,
+            "en": "Measuring moisture content, e.g. by measuring change in length of hygroscopic filament; Hygrometers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 21/00",
+      "title": {
+        "ko": "광학적 수단, 즉 서브밀리미터파, 가시광선, 또는 자외선을 이용하여 재료의 조사 또는 분석 (G01N 3/00 - G01N 19/00이 우선)",
+        "en": "Investigating or analysing materials by the use of optical means, i.e. using sub-millimetre waves, infrared, visible or ultraviolet light  (G01N0003000000-G01N0019000000 take precedence)"
+      },
+      "definition": {
+        "ko": "이 그룹은 빛 그 자체의 분광특성의 조사 또는 광과의 간섭이 알려진 또는 중요하지 않은 분광특성이 검출되는 재료의 특성 측정을 포함하지 않는다. 이 주제는 G01J3/00에 포함된다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01N 21/01",
+          "title": {
+            "ko": "광학적 조사를 쉽게 하기 위한 배치 또는 장치",
+            "en": "Arrangements or apparatus for facilitating the optical investigation"
+          }
+        },
+        {
+          "code": "G01N 21/03",
+          "title": {
+            "ko": "큐벳(Cuvette) 구조",
+            "en": "Cuvette constructions"
+          }
+        },
+        {
+          "code": "G01N 21/05",
+          "title": {
+            "ko": "큐벳을 통한 흐름(G01N 21/09 우선)",
+            "en": "Flow-through cuvettes (G01N0021090000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/07",
+          "title": {
+            "ko": "원심분리형 큐벳(G01N 21/09 우선)",
+            "en": "Centrifugal type cuvettes (G01N0021090000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/09",
+          "title": {
+            "ko": null,
+            "en": "adapted to resist hostile environments or corrosive or abrasive materials"
+          }
+        },
+        {
+          "code": "G01N 21/11",
+          "title": {
+            "ko": null,
+            "en": "Filling or emptying of cuvettes"
+          }
+        },
+        {
+          "code": "G01N 21/13",
+          "title": {
+            "ko": null,
+            "en": "Moving of cuvettes or solid samples to or from the investigating station"
+          }
+        },
+        {
+          "code": "G01N 21/15",
+          "title": {
+            "ko": null,
+            "en": "Preventing contamination of the components of the optical system or obstruction of the light path"
+          }
+        },
+        {
+          "code": "G01N 21/17",
+          "title": {
+            "ko": "조사될 재료의 특성에 따라 입사광이 변조되는 시스템(조사되는 재료가 광학적으로 여기되어 입사광의 파장에 변화를 일으키는 시스템 G01N 21/63)",
+            "en": "Systems in which incident light is modified in accordance with the properties of the material investigated (where the material investigated is optically excited causing a change in wavelength of the incident light G01N0021630000)"
+          }
+        },
+        {
+          "code": "G01N 21/19",
+          "title": {
+            "ko": null,
+            "en": "Dichroism"
+          }
+        },
+        {
+          "code": "G01N 21/21",
+          "title": {
+            "ko": "편광에 영향을 미치는 특성(G01N 21/19가 우선)",
+            "en": "Polarisation-affecting properties (G01N0021190000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/23",
+          "title": {
+            "ko": null,
+            "en": "Bi-refringence"
+          }
+        },
+        {
+          "code": "G01N 21/25",
+          "title": {
+            "ko": "색; 스펙트럼특성, 즉 둘 또는 그이상의 파장 혹은 파장대에 있어서 재료가 빛에 주는 효과의 비교",
+            "en": "Colour; Spectral properties, i.e. comparison of effect of material on the light at two or more different wavelengths or wavelength bands"
+          }
+        },
+        {
+          "code": "G01N 21/27",
+          "title": {
+            "ko": "광전검출기의 이용(G01N 21/31이 우선)",
+            "en": "using photo-electric detection (G01N0021310000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/29",
+          "title": {
+            "ko": "시각검지의 이용(G01N 21/31이 우선)",
+            "en": "using visual detection (G01N0021310000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/31",
+          "title": {
+            "ko": "특정한 원소 또는 분자에 대한 파장특성에 있어서의 재료의 상대적 효과 조사, 예. 원자흡광분광",
+            "en": "Investigating relative effect of material at wavelengths characteristic of specific elements or molecules, e.g. atomic absorption spectrometry"
+          }
+        },
+        {
+          "code": "G01N 21/33",
+          "title": {
+            "ko": "자외선을 이용하는 것(G01N 21/39가 우선)",
+            "en": "using ultraviolet light (G01N0021390000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/35",
+          "title": {
+            "ko": "적외선을 이용하는 것 (G01N 21/39가 우선)",
+            "en": "using infrared light (G01N0021390000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/3504",
+          "title": {
+            "ko": null,
+            "en": "for analysing gases, e.g. multi-gas analysis"
+          }
+        },
+        {
+          "code": "G01N 21/3518",
+          "title": {
+            "ko": null,
+            "en": "Devices using gas filter correlation techniques; Devices using gas pressure modulation techniques"
+          }
+        },
+        {
+          "code": "G01N 21/3554",
+          "title": {
+            "ko": null,
+            "en": "for determining moisture content"
+          }
+        },
+        {
+          "code": "G01N 21/3559",
+          "title": {
+            "ko": null,
+            "en": "in sheets, e.g. in paper"
+          }
+        },
+        {
+          "code": "G01N 21/3563",
+          "title": {
+            "ko": null,
+            "en": "for analysing solids; Preparation of samples therefor"
+          }
+        },
+        {
+          "code": "G01N 21/3577",
+          "title": {
+            "ko": null,
+            "en": "for analysing liquids, e.g. polluted water"
+          }
+        },
+        {
+          "code": "G01N 21/3581",
+          "title": {
+            "ko": null,
+            "en": "using far infrared light; using Terahertz radiation"
+          }
+        },
+        {
+          "code": "G01N 21/3586",
+          "title": {
+            "ko": null,
+            "en": "by Terahertz time domain spectroscopy [THz-TDS]"
+          }
+        },
+        {
+          "code": "G01N 21/359",
+          "title": {
+            "ko": null,
+            "en": "using near infrared light"
+          }
+        },
+        {
+          "code": "G01N 21/37",
+          "title": {
+            "ko": null,
+            "en": "using pneumatic detection"
+          }
+        },
+        {
+          "code": "G01N 21/39",
+          "title": {
+            "ko": null,
+            "en": "using tunable lasers"
+          }
+        },
+        {
+          "code": "G01N 21/41",
+          "title": {
+            "ko": "굴절률; 위상에 영향을 주는 성질, 예. 광로의 길이(G01N 21/21이 우선)",
+            "en": "Refractivity; Phase-affecting properties, e.g. optical path length (G01N0021210000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/43",
+          "title": {
+            "ko": null,
+            "en": "by measuring critical angle"
+          }
+        },
+        {
+          "code": "G01N 21/45",
+          "title": {
+            "ko": null,
+            "en": "using interferometric methods; using Schlieren methods"
+          }
+        },
+        {
+          "code": "G01N 21/47",
+          "title": {
+            "ko": "산란, 즉 확산 반사(G01N 21/25, G01N 21/41이 우선)",
+            "en": "Scattering, i.e. diffuse reflection (G01N0021250000, G01N0021410000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/49",
+          "title": {
+            "ko": "물체내부 또는 유체내부에서",
+            "en": "within a body or fluid"
+          }
+        },
+        {
+          "code": "G01N 21/51",
+          "title": {
+            "ko": "용기의 내부, 예. 앰풀(ampoule)내(G01N 21/53 우선)",
+            "en": "inside a container, e.g. in an ampoule (G01N0021530000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/53",
+          "title": {
+            "ko": null,
+            "en": "within a flowing fluid, e.g. smoke"
+          }
+        },
+        {
+          "code": "G01N 21/55",
+          "title": {
+            "ko": null,
+            "en": "Specular reflectivity"
+          }
+        },
+        {
+          "code": "G01N 21/552",
+          "title": {
+            "ko": null,
+            "en": "Attenuated total reflection"
+          }
+        },
+        {
+          "code": "G01N 21/57",
+          "title": {
+            "ko": null,
+            "en": "Measuring gloss"
+          }
+        },
+        {
+          "code": "G01N 21/59",
+          "title": {
+            "ko": "투과율(21/25가 우선)",
+            "en": "Transmissivity (G01N0021250000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/61",
+          "title": {
+            "ko": null,
+            "en": "Non-dispersive gas analysers"
+          }
+        },
+        {
+          "code": "G01N 21/62",
+          "title": {
+            "ko": null,
+            "en": "Systems in which the material investigated is excited whereby it emits light or causes a change in wavelength of the incident light"
+          }
+        },
+        {
+          "code": "G01N 21/63",
+          "title": {
+            "ko": null,
+            "en": "optically excited"
+          }
+        },
+        {
+          "code": "G01N 21/64",
+          "title": {
+            "ko": null,
+            "en": "Fluorescence; Phosphorescence"
+          }
+        },
+        {
+          "code": "G01N 21/65",
+          "title": {
+            "ko": null,
+            "en": "Raman scattering"
+          }
+        },
+        {
+          "code": "G01N 21/66",
+          "title": {
+            "ko": null,
+            "en": "electrically excited, e.g. electroluminescence"
+          }
+        },
+        {
+          "code": "G01N 21/67",
+          "title": {
+            "ko": null,
+            "en": "using electric arcs or discharges"
+          }
+        },
+        {
+          "code": "G01N 21/68",
+          "title": {
+            "ko": null,
+            "en": "using high frequency electric fields"
+          }
+        },
+        {
+          "code": "G01N 21/69",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for fluids"
+          }
+        },
+        {
+          "code": "G01N 21/70",
+          "title": {
+            "ko": null,
+            "en": "mechanically excited, e.g. triboluminescence"
+          }
+        },
+        {
+          "code": "G01N 21/71",
+          "title": {
+            "ko": null,
+            "en": "thermally excited"
+          }
+        },
+        {
+          "code": "G01N 21/72",
+          "title": {
+            "ko": null,
+            "en": "using flame burners"
+          }
+        },
+        {
+          "code": "G01N 21/73",
+          "title": {
+            "ko": null,
+            "en": "using plasma burners or torches"
+          }
+        },
+        {
+          "code": "G01N 21/74",
+          "title": {
+            "ko": null,
+            "en": "using flameless atomising, e.g. graphite furnaces"
+          }
+        },
+        {
+          "code": "G01N 21/75",
+          "title": {
+            "ko": "재료가 화학반응을 받고 그 반응의 진행 또는 결과가 조사되는 시스템(재료가 불꽃 또는 플라즈마 중에서 연소되는 시스템 G01N 21/72, G01N 21/73)",
+            "en": "Systems in which material is subjected to a chemical reaction, the progress or the result of the reaction being investigated (systems in which material is burnt in a flame or plasma G01N0021720000, G01N0021730000)"
+          }
+        },
+        {
+          "code": "G01N 21/76",
+          "title": {
+            "ko": null,
+            "en": "Chemiluminescence; Bioluminescence"
+          }
+        },
+        {
+          "code": "G01N 21/77",
+          "title": {
+            "ko": null,
+            "en": "by observing the effect on a chemical indicator"
+          }
+        },
+        {
+          "code": "G01N 21/78",
+          "title": {
+            "ko": null,
+            "en": "producing a change of colour"
+          }
+        },
+        {
+          "code": "G01N 21/79",
+          "title": {
+            "ko": null,
+            "en": "Photometric titration"
+          }
+        },
+        {
+          "code": "G01N 21/80",
+          "title": {
+            "ko": null,
+            "en": "Indicating pH value"
+          }
+        },
+        {
+          "code": "G01N 21/81",
+          "title": {
+            "ko": null,
+            "en": "Indicating humidity"
+          }
+        },
+        {
+          "code": "G01N 21/82",
+          "title": {
+            "ko": null,
+            "en": "producing a precipitate or turbidity"
+          }
+        },
+        {
+          "code": "G01N 21/83",
+          "title": {
+            "ko": null,
+            "en": "Turbidimetric titration"
+          }
+        },
+        {
+          "code": "G01N 21/84",
+          "title": {
+            "ko": "특수한 적용에 특히 적합한 시스템",
+            "en": "Systems specially adapted for particular applications"
+          }
+        },
+        {
+          "code": "G01N 21/85",
+          "title": {
+            "ko": null,
+            "en": "Investigating moving fluids or granular solids"
+          }
+        },
+        {
+          "code": "G01N 21/86",
+          "title": {
+            "ko": "움직이고 있는 시이트의 조사(G01N 21/89가 우선)",
+            "en": "Investigating moving sheets (G01N0021890000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/87",
+          "title": {
+            "ko": "보석의 조사(G01N 21/88이 우선)",
+            "en": "Investigating jewels (G01N0021880000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/88",
+          "title": {
+            "ko": "결함, 상처 또는 오염의 존재조사",
+            "en": "Investigating the presence of flaws, defects or contamination"
+          }
+        },
+        {
+          "code": "G01N 21/89",
+          "title": {
+            "ko": "움직이고 있는 재료 중에서, 예. 종이, 직물(G01N 21/90, G01N 21/91, G01N 21/94 이 우선)",
+            "en": "in moving material, e.g. paper, textiles (G01N0021900000, G01N0021910000, G01N0021940000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/892",
+          "title": {
+            "ko": null,
+            "en": "characterised by the flaw, defect or object feature examined"
+          }
+        },
+        {
+          "code": "G01N 21/894",
+          "title": {
+            "ko": null,
+            "en": "Pinholes"
+          }
+        },
+        {
+          "code": "G01N 21/896",
+          "title": {
+            "ko": null,
+            "en": "Optical defects in or on transparent materials, e.g. distortion, surface flaws"
+          }
+        },
+        {
+          "code": "G01N 21/898",
+          "title": {
+            "ko": null,
+            "en": "Irregularities in textured or patterned surfaces, e.g. textiles, wood"
+          }
+        },
+        {
+          "code": "G01N 21/90",
+          "title": {
+            "ko": "용기 또는 그 내용물 중에서(G01N 21/91이 우선)",
+            "en": "in a container or its contents (G01N0021910000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/91",
+          "title": {
+            "ko": null,
+            "en": "using penetration of dyes, e.g. fluorescent ink"
+          }
+        },
+        {
+          "code": "G01N 21/93",
+          "title": {
+            "ko": null,
+            "en": "Detection standards; Calibrating"
+          }
+        },
+        {
+          "code": "G01N 21/94",
+          "title": {
+            "ko": "먼지 등의 오염 조사(G01N 21/85 우선)",
+            "en": "Investigating contamination, e.g. dust (G01N0021850000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/95",
+          "title": {
+            "ko": "조사되는 물체의 재질 또는 형상에 특징이 있는 것(G01N 21/89 ～ G01N 21/91, G01N 21/94 우선)",
+            "en": "characterised by the material or shape of the object to be examined (G01N0021890000-G01N0021910000, G01N0021940000 take precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/952",
+          "title": {
+            "ko": null,
+            "en": "Inspecting the exterior surface of cylindrical bodies or wires (G01N0021956000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 21/954",
+          "title": {
+            "ko": null,
+            "en": "Inspecting the inner surface of hollow bodies, e.g. bores"
+          }
+        },
+        {
+          "code": "G01N 21/956",
+          "title": {
+            "ko": null,
+            "en": "Inspecting patterns on the surface of objects"
+          }
+        },
+        {
+          "code": "G01N 21/958",
+          "title": {
+            "ko": null,
+            "en": "Inspecting transparent materials"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 22/00",
+      "title": {
+        "ko": "마이크로 파의 이용에 의한 재료의 조사 또는 분석(G01N 3/00 ～ G01N 17/00, G01N 24/00이 우선)",
+        "en": "Investigating or analysing materials by the use of microwaves or radio waves, i.e. electromagnetic waves with a wavelength of one millimetre or more (G01N0003000000-G01N0017000000, G01N0024000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 22/02",
+          "title": {
+            "ko": null,
+            "en": "Investigating the presence of flaws"
+          }
+        },
+        {
+          "code": "G01N 22/04",
+          "title": {
+            "ko": null,
+            "en": "Investigating moisture content"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 23/00",
+      "title": {
+        "ko": "그룹 G01N 3/00-G01N 17/00, G01N 21/00 또는 G01N 22/00에 포함되지 않는 파동 또는 입자성 방사선, 예. X-레이 또는 중성자선,의 사용에 의한 재료조사 또는 분석",
+        "en": "Investigating or analysing materials by the use of wave or particle radiation, e.g. X-rays or neutrons, not covered by groups G01N0003000000-G01N0017000000, G01N0021000000 or G01N0022000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 23/02",
+          "title": {
+            "ko": null,
+            "en": "by transmitting the radiation through the material"
+          }
+        },
+        {
+          "code": "G01N 23/04",
+          "title": {
+            "ko": null,
+            "en": "and forming images of the material"
+          }
+        },
+        {
+          "code": "G01N 23/041",
+          "title": {
+            "ko": null,
+            "en": "Phase-contrast imaging, e.g. using grating interferometers"
+          }
+        },
+        {
+          "code": "G01N 23/044",
+          "title": {
+            "ko": null,
+            "en": "using laminography or tomosynthesis"
+          }
+        },
+        {
+          "code": "G01N 23/046",
+          "title": {
+            "ko": null,
+            "en": "using tomography, e.g. computed tomography [CT]"
+          }
+        },
+        {
+          "code": "G01N 23/05",
+          "title": {
+            "ko": null,
+            "en": "using neutrons"
+          }
+        },
+        {
+          "code": "G01N 23/06",
+          "title": {
+            "ko": null,
+            "en": "and measuring the absorption"
+          }
+        },
+        {
+          "code": "G01N 23/083",
+          "title": {
+            "ko": null,
+            "en": "the radiation being X-rays"
+          }
+        },
+        {
+          "code": "G01N 23/085",
+          "title": {
+            "ko": null,
+            "en": "X-ray absorption fine structure [XAFS], e.g. extended XAFS [EXAFS]"
+          }
+        },
+        {
+          "code": "G01N 23/087",
+          "title": {
+            "ko": null,
+            "en": "using polyenergetic X-rays"
+          }
+        },
+        {
+          "code": "G01N 23/09",
+          "title": {
+            "ko": null,
+            "en": "the radiation being neutrons"
+          }
+        },
+        {
+          "code": "G01N 23/095",
+          "title": {
+            "ko": null,
+            "en": "Gamma-ray resonance absorption, e.g. using the Mössbauer effect"
+          }
+        },
+        {
+          "code": "G01N 23/10",
+          "title": {
+            "ko": null,
+            "en": "the material being confined in a container, e.g. in luggage X-ray scanners"
+          }
+        },
+        {
+          "code": "G01N 23/12",
+          "title": {
+            "ko": null,
+            "en": "the material being a flowing fluid or a flowing granular solid"
+          }
+        },
+        {
+          "code": "G01N 23/16",
+          "title": {
+            "ko": null,
+            "en": "the material being a moving sheet or film"
+          }
+        },
+        {
+          "code": "G01N 23/18",
+          "title": {
+            "ko": null,
+            "en": "Investigating the presence of defects or foreign matter"
+          }
+        },
+        {
+          "code": "G01N 23/20",
+          "title": {
+            "ko": "재료에 의한 방사선의 회절 이용에 의한 것, 예. 결정 구조의 조사를위한 것; 재료에 의한 방사선의 산란 이용에 의한 것, 예. 비결정 구조의 조사를위한 것; 재료에 의한 방사선의 반사 이용에 의한 것",
+            "en": "by using diffraction of the radiation by the materials, e.g. for investigating crystal structure; by using scattering of the radiation by the materials, e.g. for investigating non-crystalline materials; by using reflection of the radiation by the materials"
+          }
+        },
+        {
+          "code": "G01N 23/20008",
+          "title": {
+            "ko": "분석기의 구조적 세부, 예. X선원, 검출기 또는 광학 시스템; 그것을 위한 부속품; 그것을 위한 시료 준비 (크리스탈을 이용하는 X선을 위한 모노크로메이터(monochromators) G21K 1/06)",
+            "en": "Constructional details of analysers, e.g. characterised by X-ray source, detector or optical system; Accessories therefor; Preparing specimens therefor  (monochromators for X-rays using crystals G21K0001060000)"
+          }
+        },
+        {
+          "code": "G01N 23/20016",
+          "title": {
+            "ko": null,
+            "en": "Goniometers"
+          }
+        },
+        {
+          "code": "G01N 23/20025",
+          "title": {
+            "ko": null,
+            "en": "Sample holders or supports therefor"
+          }
+        },
+        {
+          "code": "G01N 23/20033",
+          "title": {
+            "ko": null,
+            "en": "provided with temperature control or heating means"
+          }
+        },
+        {
+          "code": "G01N 23/20041",
+          "title": {
+            "ko": null,
+            "en": "for high pressure testing, e.g. anvil cells"
+          }
+        },
+        {
+          "code": "G01N 23/2005",
+          "title": {
+            "ko": null,
+            "en": "Preparation of powder samples therefor"
+          }
+        },
+        {
+          "code": "G01N 23/20058",
+          "title": {
+            "ko": null,
+            "en": "Measuring diffraction of electrons, e.g. low energy electron diffraction [LEED] method or reflection high energy electron diffraction [RHEED] method"
+          }
+        },
+        {
+          "code": "G01N 23/20066",
+          "title": {
+            "ko": null,
+            "en": "Measuring inelastic scattering of gamma rays, e.g. Compton effect"
+          }
+        },
+        {
+          "code": "G01N 23/20091",
+          "title": {
+            "ko": null,
+            "en": "Measuring the energy-dispersion spectrum [EDS] of diffracted radiation"
+          }
+        },
+        {
+          "code": "G01N 23/201",
+          "title": {
+            "ko": null,
+            "en": "Measuring small-angle scattering, e.g. small angle X-ray scattering [SAXS]"
+          }
+        },
+        {
+          "code": "G01N 23/202",
+          "title": {
+            "ko": null,
+            "en": "using neutrons"
+          }
+        },
+        {
+          "code": "G01N 23/203",
+          "title": {
+            "ko": null,
+            "en": "Measuring back scattering"
+          }
+        },
+        {
+          "code": "G01N 23/204",
+          "title": {
+            "ko": null,
+            "en": "using neutrons"
+          }
+        },
+        {
+          "code": "G01N 23/205",
+          "title": {
+            "ko": null,
+            "en": "using diffraction cameras"
+          }
+        },
+        {
+          "code": "G01N 23/2055",
+          "title": {
+            "ko": null,
+            "en": "Analysing diffraction patterns"
+          }
+        },
+        {
+          "code": "G01N 23/207",
+          "title": {
+            "ko": null,
+            "en": "Diffractometry, e.g. using a probe in a central position and one or more displaceable detectors in circumferential positions"
+          }
+        },
+        {
+          "code": "G01N 23/22",
+          "title": {
+            "ko": "재료로 부터의 이차 방사 측정에 의한 것",
+            "en": "by measuring secondary emission from the material"
+          }
+        },
+        {
+          "code": "G01N 23/2202",
+          "title": {
+            "ko": null,
+            "en": "Preparing specimens therefor"
+          }
+        },
+        {
+          "code": "G01N 23/2204",
+          "title": {
+            "ko": null,
+            "en": "Specimen supports therefor; Sample conveying means therefor"
+          }
+        },
+        {
+          "code": "G01N 23/2206",
+          "title": {
+            "ko": null,
+            "en": "Combination of two or more measurements, at least one measurement being that of secondary emission, e.g. combination of secondary electron [SE] measurement and back-scattered electron [BSE] measurement"
+          }
+        },
+        {
+          "code": "G01N 23/2208",
+          "title": {
+            "ko": null,
+            "en": "all measurements being of secondary emission, e.g. combination of SE measurement and characteristic X-ray measurement"
+          }
+        },
+        {
+          "code": "G01N 23/2209",
+          "title": {
+            "ko": null,
+            "en": "using wavelength dispersive spectroscopy [WDS]"
+          }
+        },
+        {
+          "code": "G01N 23/221",
+          "title": {
+            "ko": null,
+            "en": "by activation analysis"
+          }
+        },
+        {
+          "code": "G01N 23/222",
+          "title": {
+            "ko": null,
+            "en": "using neutron activation analysis [NAA]"
+          }
+        },
+        {
+          "code": "G01N 23/223",
+          "title": {
+            "ko": null,
+            "en": "by irradiating the sample with X-rays or gamma-rays and by measuring X-ray fluorescence"
+          }
+        },
+        {
+          "code": "G01N 23/225",
+          "title": {
+            "ko": "전자 또는 이온 마이크로 프로브를 이용하는 것",
+            "en": "using electron or ion microprobes"
+          }
+        },
+        {
+          "code": "G01N 23/2251",
+          "title": {
+            "ko": null,
+            "en": "using incident electron beams, e.g. scanning electron microscopy [SEM]"
+          }
+        },
+        {
+          "code": "G01N 23/2252",
+          "title": {
+            "ko": null,
+            "en": "Measuring emitted X-rays, e.g. electron probe microanalysis [EPMA]"
+          }
+        },
+        {
+          "code": "G01N 23/2254",
+          "title": {
+            "ko": null,
+            "en": "Measuring cathodoluminescence"
+          }
+        },
+        {
+          "code": "G01N 23/2255",
+          "title": {
+            "ko": "입사 이온빔, 예. 양자빔을 이용하는 것",
+            "en": "using incident ion beams, e.g. proton beams"
+          }
+        },
+        {
+          "code": "G01N 23/2257",
+          "title": {
+            "ko": null,
+            "en": "Measuring excited X-rays, i.e. particle-induced X-ray emission [PIXE]"
+          }
+        },
+        {
+          "code": "G01N 23/2258",
+          "title": {
+            "ko": "이차 이온빔 측정, 예. 이차 이온 질량 분광법 [SIMS] (재료 분석을 위한 SIMS의 질량 대 전하 비율 분석 측면 G01N 27/62)",
+            "en": "Measuring secondary ion emission, e.g. secondary ion mass spectrometry [SIMS]   (mass-to-charge ratio analysis aspects of SIMS for material analysis G01N0027620000)"
+          }
+        },
+        {
+          "code": "G01N 23/227",
+          "title": {
+            "ko": null,
+            "en": "Measuring photoelectric effect , e.g. photoelectron emission microscopy [PEEM]"
+          }
+        },
+        {
+          "code": "G01N 23/2273",
+          "title": {
+            "ko": null,
+            "en": "Measuring photoelectron spectra, e.g. electron spectroscopy for chemical analysis [ESCA] or X-ray photoelectron spectroscopy [XPS]"
+          }
+        },
+        {
+          "code": "G01N 23/2276",
+          "title": {
+            "ko": null,
+            "en": "using the Auger effect, e.g. Auger electron spectroscopy [AES]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 24/00",
+      "title": {
+        "ko": "핵자기 공명, 전자 상자기 공명 또는 기타 스핀효과의 이용에 의한 재료의 조사 또는 분석",
+        "en": "Investigating or analysing materials by the use of nuclear magnetic resonance, electron paramagnetic resonance or other spin effects"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 24/08",
+          "title": {
+            "ko": "핵자기 공명을 사용하는 것에 의한 것(G01N 24/12가 우선)",
+            "en": "by using nuclear magnetic resonance (G01N0024120000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 24/10",
+          "title": {
+            "ko": null,
+            "en": "by using electron paramagnetic resonance (G01N0024120000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 24/12",
+          "title": {
+            "ko": null,
+            "en": "by using double resonance"
+          }
+        },
+        {
+          "code": "G01N 24/14",
+          "title": {
+            "ko": null,
+            "en": "by using cyclotron resonance"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 25/00",
+      "title": {
+        "ko": "열적수단의 이용에 의한 재료의 조사 또는 분석(G01N 3/00 ～ G01N 23/00이 우선)",
+        "en": "Investigating or analysing materials by the use of thermal means (G01N0003000000-G01N0023000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 25/02",
+          "title": {
+            "ko": null,
+            "en": "by investigating changes of state or changes of phase; by investigating sintering"
+          }
+        },
+        {
+          "code": "G01N 25/04",
+          "title": {
+            "ko": null,
+            "en": "of melting point; of freezing point; of softening point"
+          }
+        },
+        {
+          "code": "G01N 25/06",
+          "title": {
+            "ko": null,
+            "en": "Analysis by measuring change of freezing point"
+          }
+        },
+        {
+          "code": "G01N 25/08",
+          "title": {
+            "ko": null,
+            "en": "of boiling point"
+          }
+        },
+        {
+          "code": "G01N 25/10",
+          "title": {
+            "ko": null,
+            "en": "Analysis by measuring change of boiling point"
+          }
+        },
+        {
+          "code": "G01N 25/12",
+          "title": {
+            "ko": null,
+            "en": "of critical point; of other phase change"
+          }
+        },
+        {
+          "code": "G01N 25/14",
+          "title": {
+            "ko": "증류, 압출, 승화, 응축, 응고, 결정화의 이용에 의한 것(G01N 25/02가 우선)",
+            "en": "by using distillation, extraction, sublimation, condensation, freezing, or crystallisation (G01N0025020000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 25/16",
+          "title": {
+            "ko": null,
+            "en": "by investigating thermal coefficient of expansion"
+          }
+        },
+        {
+          "code": "G01N 25/18",
+          "title": {
+            "ko": "열전도도의 조사에 의한 것(열량계에 의한 것, G01N 25/20; 전기적으로 가열된 물체의 저항 변화의 측정에 의한 것 G01N 27/18)",
+            "en": "by investigating thermal conductivity (by calorimetry G01N0025200000;by measuring change of resistance of an electrically-heated body G01N0027180000)"
+          }
+        },
+        {
+          "code": "G01N 25/20",
+          "title": {
+            "ko": null,
+            "en": "by investigating the development of heat, i.e. calorimetry, e.g. by measuring specific heat, by measuring thermal conductivity"
+          }
+        },
+        {
+          "code": "G01N 25/22",
+          "title": {
+            "ko": null,
+            "en": "on combustion or catalytic oxidation, e.g. of components of gas mixtures"
+          }
+        },
+        {
+          "code": "G01N 25/24",
+          "title": {
+            "ko": null,
+            "en": "using combustion tubes, e.g. for microanalysis"
+          }
+        },
+        {
+          "code": "G01N 25/26",
+          "title": {
+            "ko": null,
+            "en": "using combustion with oxygen under pressure, e.g. in bomb calorimeter"
+          }
+        },
+        {
+          "code": "G01N 25/28",
+          "title": {
+            "ko": null,
+            "en": "the rise in temperature of the gases resulting from combustion being measured directly"
+          }
+        },
+        {
+          "code": "G01N 25/30",
+          "title": {
+            "ko": null,
+            "en": "using electric temperature-responsive elements"
+          }
+        },
+        {
+          "code": "G01N 25/32",
+          "title": {
+            "ko": null,
+            "en": "using thermoelectric elements"
+          }
+        },
+        {
+          "code": "G01N 25/34",
+          "title": {
+            "ko": null,
+            "en": "using mechanical temperature-responsive elements, e.g. bimetallic"
+          }
+        },
+        {
+          "code": "G01N 25/36",
+          "title": {
+            "ko": null,
+            "en": "for investigating the composition of gas mixtures"
+          }
+        },
+        {
+          "code": "G01N 25/38",
+          "title": {
+            "ko": null,
+            "en": "using the melting or combustion of a solid"
+          }
+        },
+        {
+          "code": "G01N 25/40",
+          "title": {
+            "ko": null,
+            "en": "the heat developed being transferred to a flowing fluid"
+          }
+        },
+        {
+          "code": "G01N 25/42",
+          "title": {
+            "ko": null,
+            "en": "continuously"
+          }
+        },
+        {
+          "code": "G01N 25/44",
+          "title": {
+            "ko": null,
+            "en": "the heat developed being transferred to a fixed quantity of fluid"
+          }
+        },
+        {
+          "code": "G01N 25/46",
+          "title": {
+            "ko": null,
+            "en": "for investigating the composition of gas mixtures"
+          }
+        },
+        {
+          "code": "G01N 25/48",
+          "title": {
+            "ko": null,
+            "en": "on solution, sorption, or a chemical reaction not involving combustion or catalytic oxidation"
+          }
+        },
+        {
+          "code": "G01N 25/50",
+          "title": {
+            "ko": null,
+            "en": "by investigating flash-point; by investigating explosibility"
+          }
+        },
+        {
+          "code": "G01N 25/52",
+          "title": {
+            "ko": null,
+            "en": "by determining flash-point of liquids"
+          }
+        },
+        {
+          "code": "G01N 25/54",
+          "title": {
+            "ko": null,
+            "en": "by determining explosibility"
+          }
+        },
+        {
+          "code": "G01N 25/56",
+          "title": {
+            "ko": null,
+            "en": "by investigating moisture content"
+          }
+        },
+        {
+          "code": "G01N 25/58",
+          "title": {
+            "ko": null,
+            "en": "by measuring changes of properties of the material due to heat, cold, or expansion"
+          }
+        },
+        {
+          "code": "G01N 25/60",
+          "title": {
+            "ko": null,
+            "en": "for determining the wetness of steam"
+          }
+        },
+        {
+          "code": "G01N 25/62",
+          "title": {
+            "ko": null,
+            "en": "by psychrometric means, e.g. wet-and-dry-bulb thermometers"
+          }
+        },
+        {
+          "code": "G01N 25/64",
+          "title": {
+            "ko": null,
+            "en": "using electric temperature-responsive elements"
+          }
+        },
+        {
+          "code": "G01N 25/66",
+          "title": {
+            "ko": null,
+            "en": "by investigating dew-point"
+          }
+        },
+        {
+          "code": "G01N 25/68",
+          "title": {
+            "ko": null,
+            "en": "by varying the temperature of a condensing surface"
+          }
+        },
+        {
+          "code": "G01N 25/70",
+          "title": {
+            "ko": null,
+            "en": "by varying the temperature of the material, e.g. by compression, by expansion"
+          }
+        },
+        {
+          "code": "G01N 25/72",
+          "title": {
+            "ko": null,
+            "en": "Investigating presence of flaws"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 27/00",
+      "title": {
+        "ko": "전기적, 전기화학적 또는 자기적 수단의 이용에 의한 재료의 조사 또는 분석(G01N 3/00 ～ G01N 25/00이 우선; 재료의 전기적 혹은 자기적 특성 또는 그것들의 변화량의 측정 또는 시험 G01R)",
+        "en": "Investigating or analysing materials by the use of electric, electrochemical, or magnetic means  (G01N0003000000-G01N0025000000 take precedence; measurement or testing of electric or magnetic variables or of electric or magnetic properties of materials G01R)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 27/02",
+          "title": {
+            "ko": "임피던스의 조사에 의한 것",
+            "en": "by investigating impedance"
+          }
+        },
+        {
+          "code": "G01N 27/04",
+          "title": {
+            "ko": "저항의 조사에 의한 것",
+            "en": "by investigating resistance"
+          }
+        },
+        {
+          "code": "G01N 27/06",
+          "title": {
+            "ko": "액체의 (전기분해 포함 G01N 27/26)",
+            "en": "of a liquid (involving electrolysis G01N0027260000)"
+          }
+        },
+        {
+          "code": "G01N 27/07",
+          "title": {
+            "ko": null,
+            "en": "Construction of measuring vessels; Electrodes therefor"
+          }
+        },
+        {
+          "code": "G01N 27/08",
+          "title": {
+            "ko": null,
+            "en": "which is flowing continuously"
+          }
+        },
+        {
+          "code": "G01N 27/10",
+          "title": {
+            "ko": null,
+            "en": "Investigation or analysis specially adapted for controlling or monitoring operations or for signalling"
+          }
+        },
+        {
+          "code": "G01N 27/12",
+          "title": {
+            "ko": null,
+            "en": "of a solid body in dependence upon absorption of a fluid; of a solid body in dependence upon reaction with a fluid"
+          }
+        },
+        {
+          "code": "G01N 27/14",
+          "title": {
+            "ko": "온도변화에 의해 전기적으로 가열된 물체의",
+            "en": "of an electrically-heated body in dependence upon change of temperature"
+          }
+        },
+        {
+          "code": "G01N 27/16",
+          "title": {
+            "ko": null,
+            "en": "caused by burning or catalytic oxidation of surrounding material to be tested, e.g. of gas"
+          }
+        },
+        {
+          "code": "G01N 27/18",
+          "title": {
+            "ko": "시료 주변물질의 열전도도의 변화에 의한 것(G01N 27/20이 우선)",
+            "en": "caused by changes in the thermal conductivity of a surrounding material to be tested (G01N0027200000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 27/20",
+          "title": {
+            "ko": null,
+            "en": "Investigating the presence of flaws"
+          }
+        },
+        {
+          "code": "G01N 27/22",
+          "title": {
+            "ko": null,
+            "en": "by investigating capacitance"
+          }
+        },
+        {
+          "code": "G01N 27/24",
+          "title": {
+            "ko": null,
+            "en": "Investigating the presence of flaws"
+          }
+        },
+        {
+          "code": "G01N 27/26",
+          "title": {
+            "ko": "전기화학적 변량의 조사에 의한 것; 전기분해 또는 전기 영동의 이용에 의한 것",
+            "en": "by investigating electrochemical variables; by using electrolysis or electrophoresis"
+          }
+        },
+        {
+          "code": "G01N 27/27",
+          "title": {
+            "ko": null,
+            "en": "Association of two or more measuring systems or cells, each measuring a different parameter, where the measurement results may be either used independently, the systems or cells being physically associated, or combined to produce a value for a further parameter"
+          }
+        },
+        {
+          "code": "G01N 27/28",
+          "title": {
+            "ko": "전해 셀 성분",
+            "en": "Electrolytic cell components"
+          }
+        },
+        {
+          "code": "G01N 27/30",
+          "title": {
+            "ko": "측정; 시험",
+            "en": "Electrodes, e.g. test electrodes; Half-cells (G01N0027414000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 27/31",
+          "title": {
+            "ko": null,
+            "en": "Half-cells with permeable membranes, e.g. semi-porous or perm-selective membranes"
+          }
+        },
+        {
+          "code": "G01N 27/32",
+          "title": {
+            "ko": null,
+            "en": "Calomel electrodes"
+          }
+        },
+        {
+          "code": "G01N 27/327",
+          "title": {
+            "ko": null,
+            "en": "Biochemical electrodes"
+          }
+        },
+        {
+          "code": "G01N 27/333",
+          "title": {
+            "ko": "이온선택전극 또는 막(유리전극 G01N 27/36)",
+            "en": "Ion-selective electrodes or membranes (glass electrodes G01N0027360000)"
+          }
+        },
+        {
+          "code": "G01N 27/34",
+          "title": {
+            "ko": null,
+            "en": "Dropping-mercury electrodes"
+          }
+        },
+        {
+          "code": "G01N 27/36",
+          "title": {
+            "ko": null,
+            "en": "Glass electrodes"
+          }
+        },
+        {
+          "code": "G01N 27/38",
+          "title": {
+            "ko": null,
+            "en": "Cleaning of electrodes"
+          }
+        },
+        {
+          "code": "G01N 27/40",
+          "title": {
+            "ko": null,
+            "en": "Semi-permeable membranes or partitions"
+          }
+        },
+        {
+          "code": "G01N 27/401",
+          "title": {
+            "ko": null,
+            "en": "Salt-bridge leaks; Liquid junctions"
+          }
+        },
+        {
+          "code": "G01N 27/403",
+          "title": {
+            "ko": null,
+            "en": "Cells and electrode assemblies"
+          }
+        },
+        {
+          "code": "G01N 27/404",
+          "title": {
+            "ko": null,
+            "en": "Cells with anode, cathode and cell electrolyte on the same side of a permeable membrane which separates them from the sample fluid"
+          }
+        },
+        {
+          "code": "G01N 27/406",
+          "title": {
+            "ko": null,
+            "en": "Cells and probes with solid electrolytes"
+          }
+        },
+        {
+          "code": "G01N 27/407",
+          "title": {
+            "ko": null,
+            "en": "for investigating or analysing gases"
+          }
+        },
+        {
+          "code": "G01N 27/409",
+          "title": {
+            "ko": null,
+            "en": "Oxygen concentration cells"
+          }
+        },
+        {
+          "code": "G01N 27/41",
+          "title": {
+            "ko": null,
+            "en": "Oxygen pumping cells"
+          }
+        },
+        {
+          "code": "G01N 27/411",
+          "title": {
+            "ko": null,
+            "en": "for investigating or analysing of liquid metals"
+          }
+        },
+        {
+          "code": "G01N 27/413",
+          "title": {
+            "ko": null,
+            "en": "Concentration cells using liquid electrolytes"
+          }
+        },
+        {
+          "code": "G01N 27/414",
+          "title": {
+            "ko": null,
+            "en": "Ion-sensitive or chemical field-effect transistors, i.e. ISFETS or CHEMFETS"
+          }
+        },
+        {
+          "code": "G01N 27/416",
+          "title": {
+            "ko": "시스템(G01N 27/27이 우선)",
+            "en": "Systems (G01N0027270000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 27/417",
+          "title": {
+            "ko": null,
+            "en": "using cells and probes with solid electrolytes"
+          }
+        },
+        {
+          "code": "G01N 27/419",
+          "title": {
+            "ko": null,
+            "en": "Measuring voltages or currents with a combination of oxygen pumping cells and oxygen concentration cells"
+          }
+        },
+        {
+          "code": "G01N 27/42",
+          "title": {
+            "ko": null,
+            "en": "Measuring deposition or liberation of materials from an electrolyte; Coulometry, i.e. measuring coulomb-equivalent of material in an electrolyte"
+          }
+        },
+        {
+          "code": "G01N 27/44",
+          "title": {
+            "ko": null,
+            "en": "using electrolysis to generate a reagent, e.g. for titration"
+          }
+        },
+        {
+          "code": "G01N 27/447",
+          "title": {
+            "ko": null,
+            "en": "using electrophoresis"
+          }
+        },
+        {
+          "code": "G01N 27/453",
+          "title": {
+            "ko": null,
+            "en": "Cells therefor"
+          }
+        },
+        {
+          "code": "G01N 27/48",
+          "title": {
+            "ko": null,
+            "en": "using polarography, i.e. measuring changes in current under a slowly-varying voltage"
+          }
+        },
+        {
+          "code": "G01N 27/49",
+          "title": {
+            "ko": null,
+            "en": "Systems involving the determination of the current at a single specific value, or small range of values, of applied voltage for producing selective measurement of one or more particular ionic species"
+          }
+        },
+        {
+          "code": "G01N 27/60",
+          "title": {
+            "ko": null,
+            "en": "by investigating electrostatic variables"
+          }
+        },
+        {
+          "code": "G01N 27/61",
+          "title": {
+            "ko": null,
+            "en": "Investigating the presence of flaws"
+          }
+        },
+        {
+          "code": "G01N 27/62",
+          "title": {
+            "ko": null,
+            "en": "by investigating the ionisation of gases, e.g. aerosols; by investigating electric discharges, e.g. emission of cathode"
+          }
+        },
+        {
+          "code": "G01N 27/622",
+          "title": {
+            "ko": null,
+            "en": "Ion mobility spectrometry"
+          }
+        },
+        {
+          "code": "G01N 27/623",
+          "title": {
+            "ko": null,
+            "en": "combined with mass spectrometry"
+          }
+        },
+        {
+          "code": "G01N 27/624",
+          "title": {
+            "ko": null,
+            "en": "Differential mobility spectrometry [DMS]; Field asymmetric-waveform ion mobility spectrometry [FAIMS]"
+          }
+        },
+        {
+          "code": "G01N 27/626",
+          "title": {
+            "ko": null,
+            "en": "using heat to ionise a gas"
+          }
+        },
+        {
+          "code": "G01N 27/64",
+          "title": {
+            "ko": null,
+            "en": "using wave or particle radiation to ionise a gas, e.g. in an ionisation chamber"
+          }
+        },
+        {
+          "code": "G01N 27/66",
+          "title": {
+            "ko": null,
+            "en": "and measuring current or voltage"
+          }
+        },
+        {
+          "code": "G01N 27/68",
+          "title": {
+            "ko": null,
+            "en": "using electric discharge to ionise a gas"
+          }
+        },
+        {
+          "code": "G01N 27/70",
+          "title": {
+            "ko": null,
+            "en": "and measuring current or voltage"
+          }
+        },
+        {
+          "code": "G01N 27/72",
+          "title": {
+            "ko": "자기변화량의 조사에 의한 것",
+            "en": "by investigating magnetic variables"
+          }
+        },
+        {
+          "code": "G01N 27/74",
+          "title": {
+            "ko": "유체의(G01N 24/00가 우선)",
+            "en": "of fluids (G01N0024000000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 27/76",
+          "title": {
+            "ko": null,
+            "en": "by investigating susceptibility"
+          }
+        },
+        {
+          "code": "G01N 27/80",
+          "title": {
+            "ko": null,
+            "en": "for investigating mechanical hardness, e.g. by investigating saturation or remanence of ferromagnetic material"
+          }
+        },
+        {
+          "code": "G01N 27/82",
+          "title": {
+            "ko": null,
+            "en": "for investigating the presence of flaws"
+          }
+        },
+        {
+          "code": "G01N 27/83",
+          "title": {
+            "ko": null,
+            "en": "by investigating stray magnetic fields"
+          }
+        },
+        {
+          "code": "G01N 27/84",
+          "title": {
+            "ko": null,
+            "en": "by applying magnetic powder or magnetic ink"
+          }
+        },
+        {
+          "code": "G01N 27/85",
+          "title": {
+            "ko": null,
+            "en": "using magnetographic methods"
+          }
+        },
+        {
+          "code": "G01N 27/87",
+          "title": {
+            "ko": null,
+            "en": "using probes"
+          }
+        },
+        {
+          "code": "G01N 27/90",
+          "title": {
+            "ko": null,
+            "en": "using eddy currents"
+          }
+        },
+        {
+          "code": "G01N 27/9013",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for scanning"
+          }
+        },
+        {
+          "code": "G01N 27/904",
+          "title": {
+            "ko": null,
+            "en": "with two or more sensors"
+          }
+        },
+        {
+          "code": "G01N 27/9093",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supporting the sensor; Combinations of eddy-current sensors and auxiliary arrangements for marking or for rejecting"
+          }
+        },
+        {
+          "code": "G01N 27/92",
+          "title": {
+            "ko": "항복전압(breakdown voltage)의 조사에 의한 것(G01N 27/60, G01N 27/62 우선)",
+            "en": "by investigating breakdown voltage (G01N0027600000, G01N0027620000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 29/00",
+      "title": {
+        "ko": "초음파, 음파 또는 초저주파를 사용한 물체의 조사 또는 분석; 초음파, 음파를 물체에 투과시켜 물체 내부를 시각화하는 것 (G01N3/00 ~ G01N27/00이 우선)",
+        "en": "Investigating or analysing materials by the use of ultrasonic, sonic or infrasonic waves; Visualisation of the interior of objects by transmitting ultrasonic or sonic waves through the object (G01N0003000000-G01N0027000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 29/02",
+          "title": {
+            "ko": "유체의 분석(음향 방출법을 사용하는 것 G01N 29/14)",
+            "en": "Analysing fluids (using acoustic emission techniques G01N0029140000)"
+          }
+        },
+        {
+          "code": "G01N 29/024",
+          "title": {
+            "ko": null,
+            "en": "by measuring propagation velocity or propagation time of acoustic waves"
+          }
+        },
+        {
+          "code": "G01N 29/028",
+          "title": {
+            "ko": null,
+            "en": "by measuring mechanical or acoustic impedance"
+          }
+        },
+        {
+          "code": "G01N 29/032",
+          "title": {
+            "ko": null,
+            "en": "by measuring attenuation of acoustic waves"
+          }
+        },
+        {
+          "code": "G01N 29/036",
+          "title": {
+            "ko": null,
+            "en": "by measuring frequency or resonance of acoustic waves"
+          }
+        },
+        {
+          "code": "G01N 29/04",
+          "title": {
+            "ko": "고체의 분석(acoustic emission법을 사용하는 것 G01N 29/14)",
+            "en": "Analysing solids (using acoustic emission techniques G01N0029140000)"
+          }
+        },
+        {
+          "code": "G01N 29/06",
+          "title": {
+            "ko": null,
+            "en": "Visualisation of the interior, e.g. acoustic microscopy"
+          }
+        },
+        {
+          "code": "G01N 29/07",
+          "title": {
+            "ko": null,
+            "en": "by measuring propagation velocity or propagation time of acoustic waves"
+          }
+        },
+        {
+          "code": "G01N 29/09",
+          "title": {
+            "ko": null,
+            "en": "by measuring mechanical or acoustic impedance"
+          }
+        },
+        {
+          "code": "G01N 29/11",
+          "title": {
+            "ko": null,
+            "en": "by measuring attenuation of acoustic waves"
+          }
+        },
+        {
+          "code": "G01N 29/12",
+          "title": {
+            "ko": null,
+            "en": "by measuring frequency or resonance of acoustic waves"
+          }
+        },
+        {
+          "code": "G01N 29/14",
+          "title": {
+            "ko": null,
+            "en": "using acoustic emission techniques"
+          }
+        },
+        {
+          "code": "G01N 29/22",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01N 29/24",
+          "title": {
+            "ko": null,
+            "en": "Probes"
+          }
+        },
+        {
+          "code": "G01N 29/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for orientation or scanning"
+          }
+        },
+        {
+          "code": "G01N 29/265",
+          "title": {
+            "ko": null,
+            "en": "by moving the sensor relative to a stationary material"
+          }
+        },
+        {
+          "code": "G01N 29/27",
+          "title": {
+            "ko": null,
+            "en": "by moving the material relative to a stationary sensor"
+          }
+        },
+        {
+          "code": "G01N 29/275",
+          "title": {
+            "ko": null,
+            "en": "by moving both the sensor and the material"
+          }
+        },
+        {
+          "code": "G01N 29/28",
+          "title": {
+            "ko": null,
+            "en": "providing acoustic coupling"
+          }
+        },
+        {
+          "code": "G01N 29/30",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for calibrating or comparing, e.g. with standard objects"
+          }
+        },
+        {
+          "code": "G01N 29/32",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for suppressing undesired influences, e.g. temperature or pressure variations"
+          }
+        },
+        {
+          "code": "G01N 29/34",
+          "title": {
+            "ko": null,
+            "en": "Generating the ultrasonic, sonic or infrasonic waves"
+          }
+        },
+        {
+          "code": "G01N 29/36",
+          "title": {
+            "ko": null,
+            "en": "Detecting the response signal"
+          }
+        },
+        {
+          "code": "G01N 29/38",
+          "title": {
+            "ko": null,
+            "en": "by time filtering, e.g. using time gates"
+          }
+        },
+        {
+          "code": "G01N 29/40",
+          "title": {
+            "ko": null,
+            "en": "by amplitude filtering, e.g. by applying a threshold"
+          }
+        },
+        {
+          "code": "G01N 29/42",
+          "title": {
+            "ko": null,
+            "en": "by frequency filtering"
+          }
+        },
+        {
+          "code": "G01N 29/44",
+          "title": {
+            "ko": null,
+            "en": "Processing the detected response signal"
+          }
+        },
+        {
+          "code": "G01N 29/46",
+          "title": {
+            "ko": null,
+            "en": "by spectral analysis, e.g. Fourier analysis"
+          }
+        },
+        {
+          "code": "G01N 29/48",
+          "title": {
+            "ko": null,
+            "en": "by amplitude comparison"
+          }
+        },
+        {
+          "code": "G01N 29/50",
+          "title": {
+            "ko": null,
+            "en": "using auto-correlation techniques or cross-correlation techniques"
+          }
+        },
+        {
+          "code": "G01N 29/52",
+          "title": {
+            "ko": null,
+            "en": "using inversion methods other than spectral analysis, e.g. conjugated gradient inversion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 30/00",
+      "title": {
+        "ko": "흡착, 흡수, 또는 유사현상 또는 이온교환을 이용한 성분 분리에 의한 재료의 조사 또는 분석, 예. 크로마토그래피(G01N 3/00에서 G01N 29/00 우선)",
+        "en": "Investigating or analysing materials by separation into components using adsorption, absorption or similar phenomena or using ion-exchange, e.g. chromatography (G01N0003000000-G01N0029000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 30/02",
+          "title": {
+            "ko": "컬럼 크로마토그래피(Column Chromatography)",
+            "en": "Column chromatography"
+          },
+          "definition": {
+            "ko": "이 그룹에서 다음 용어는 표시된 의미로 사용됩니다. ㆍ \"조절 (conditioning)\"은 환경 변수(예. 온도 또는 압력)의 조정 또는 제어를 의미합니다.",
+            "en": null
+          }
+        },
+        {
+          "code": "G01N 30/04",
+          "title": {
+            "ko": "분석시료의 준비 또는 주입",
+            "en": "Preparation or injection of sample to be analysed"
+          }
+        },
+        {
+          "code": "G01N 30/06",
+          "title": {
+            "ko": null,
+            "en": "Preparation"
+          }
+        },
+        {
+          "code": "G01N 30/08",
+          "title": {
+            "ko": null,
+            "en": "using an enricher"
+          }
+        },
+        {
+          "code": "G01N 30/10",
+          "title": {
+            "ko": null,
+            "en": "using a splitter"
+          }
+        },
+        {
+          "code": "G01N 30/12",
+          "title": {
+            "ko": null,
+            "en": "by evaporation"
+          }
+        },
+        {
+          "code": "G01N 30/14",
+          "title": {
+            "ko": null,
+            "en": "by elimination of some components"
+          }
+        },
+        {
+          "code": "G01N 30/16",
+          "title": {
+            "ko": "주입(30/24가 우선)",
+            "en": "Injection (G01N0030240000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 30/18",
+          "title": {
+            "ko": null,
+            "en": "using a septum or microsyringe"
+          }
+        },
+        {
+          "code": "G01N 30/20",
+          "title": {
+            "ko": null,
+            "en": "using a sampling valve"
+          }
+        },
+        {
+          "code": "G01N 30/22",
+          "title": {
+            "ko": null,
+            "en": "in high pressure liquid systems"
+          }
+        },
+        {
+          "code": "G01N 30/24",
+          "title": {
+            "ko": null,
+            "en": "Automatic injection systems"
+          }
+        },
+        {
+          "code": "G01N 30/26",
+          "title": {
+            "ko": "유체 캐리어(carrier)의 조절 흐름형태",
+            "en": "Conditioning of the fluid carrier; Flow patterns"
+          }
+        },
+        {
+          "code": "G01N 30/28",
+          "title": {
+            "ko": "유체 캐리어의 물리적 파라미터의 제어",
+            "en": "Control of physical parameters of the fluid carrier"
+          }
+        },
+        {
+          "code": "G01N 30/30",
+          "title": {
+            "ko": null,
+            "en": "of temperature"
+          }
+        },
+        {
+          "code": "G01N 30/32",
+          "title": {
+            "ko": "압력 또는 유속의 제어(30/36이 우선)",
+            "en": "of pressure or speed (G01N0030360000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 30/34",
+          "title": {
+            "ko": "유체 조성의 제어, 예. 구배(gradient)(30/36이 우선)",
+            "en": "of fluid composition, e.g. gradient (G01N0030360000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 30/36",
+          "title": {
+            "ko": null,
+            "en": "in high pressure liquid systems"
+          }
+        },
+        {
+          "code": "G01N 30/38",
+          "title": {
+            "ko": null,
+            "en": "Flow patterns"
+          }
+        },
+        {
+          "code": "G01N 30/40",
+          "title": {
+            "ko": null,
+            "en": "using back flushing"
+          }
+        },
+        {
+          "code": "G01N 30/42",
+          "title": {
+            "ko": null,
+            "en": "using counter-current"
+          }
+        },
+        {
+          "code": "G01N 30/44",
+          "title": {
+            "ko": null,
+            "en": "using recycling of the fraction to be distributed"
+          }
+        },
+        {
+          "code": "G01N 30/46",
+          "title": {
+            "ko": null,
+            "en": "using more than one column"
+          }
+        },
+        {
+          "code": "G01N 30/50",
+          "title": {
+            "ko": null,
+            "en": "Conditioning of the sorbent material or stationary liquid"
+          }
+        },
+        {
+          "code": "G01N 30/52",
+          "title": {
+            "ko": null,
+            "en": "Physical parameters"
+          }
+        },
+        {
+          "code": "G01N 30/54",
+          "title": {
+            "ko": null,
+            "en": "Temperature"
+          }
+        },
+        {
+          "code": "G01N 30/56",
+          "title": {
+            "ko": null,
+            "en": "Packing methods or coating methods"
+          }
+        },
+        {
+          "code": "G01N 30/58",
+          "title": {
+            "ko": null,
+            "en": "the sorbent moving as a whole"
+          }
+        },
+        {
+          "code": "G01N 30/60",
+          "title": {
+            "ko": null,
+            "en": "Construction of the column"
+          }
+        },
+        {
+          "code": "G01N 30/62",
+          "title": {
+            "ko": "컬럼 크로마토그래피에 특히 사용되는 검출기",
+            "en": "Detectors specially adapted therefor"
+          }
+        },
+        {
+          "code": "G01N 30/64",
+          "title": {
+            "ko": "전기적 검출기",
+            "en": "Electrical detectors"
+          }
+        },
+        {
+          "code": "G01N 30/66",
+          "title": {
+            "ko": null,
+            "en": "Thermal conductivity detectors"
+          }
+        },
+        {
+          "code": "G01N 30/68",
+          "title": {
+            "ko": null,
+            "en": "Flame ionisation detectors"
+          }
+        },
+        {
+          "code": "G01N 30/70",
+          "title": {
+            "ko": "전자 포획 검출기(30/68이 우선)",
+            "en": "Electron capture detectors (G01N0030680000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 30/72",
+          "title": {
+            "ko": null,
+            "en": "Mass spectrometers"
+          }
+        },
+        {
+          "code": "G01N 30/74",
+          "title": {
+            "ko": null,
+            "en": "Optical detectors"
+          }
+        },
+        {
+          "code": "G01N 30/76",
+          "title": {
+            "ko": null,
+            "en": "Acoustical detectors"
+          }
+        },
+        {
+          "code": "G01N 30/78",
+          "title": {
+            "ko": null,
+            "en": "using more than one detector"
+          }
+        },
+        {
+          "code": "G01N 30/80",
+          "title": {
+            "ko": null,
+            "en": "Fraction collectors"
+          }
+        },
+        {
+          "code": "G01N 30/82",
+          "title": {
+            "ko": null,
+            "en": "Automatic means therefor"
+          }
+        },
+        {
+          "code": "G01N 30/84",
+          "title": {
+            "ko": null,
+            "en": "Preparation of the fraction to be distributed"
+          }
+        },
+        {
+          "code": "G01N 30/86",
+          "title": {
+            "ko": null,
+            "en": "Signal analysis"
+          }
+        },
+        {
+          "code": "G01N 30/88",
+          "title": {
+            "ko": "그룹 G01N 30/04에서 G01N 30/86 중 단일의 그룹에 포함되지 않고, 컬럼 크로마토그래피(column chromatograpy)에 특히 적용되는 종합적 분석 시스템",
+            "en": "Integrated analysis systems specially adapted therefor, not covered by a single one of groups G01N0030040000-G01N0030860000"
+          }
+        },
+        {
+          "code": "G01N 30/89",
+          "title": {
+            "ko": null,
+            "en": "Inverse chromatography, i.e. with the analyte in stationary phase"
+          }
+        },
+        {
+          "code": "G01N 30/90",
+          "title": {
+            "ko": null,
+            "en": "Plate chromatography, e.g. thin layer or paper chromatography"
+          }
+        },
+        {
+          "code": "G01N 30/91",
+          "title": {
+            "ko": null,
+            "en": "Application of the sample"
+          }
+        },
+        {
+          "code": "G01N 30/92",
+          "title": {
+            "ko": null,
+            "en": "Construction of the plate"
+          }
+        },
+        {
+          "code": "G01N 30/93",
+          "title": {
+            "ko": null,
+            "en": "Application of the sorbent layer"
+          }
+        },
+        {
+          "code": "G01N 30/94",
+          "title": {
+            "ko": null,
+            "en": "Development"
+          }
+        },
+        {
+          "code": "G01N 30/95",
+          "title": {
+            "ko": null,
+            "en": "Detectors specially adapted therefor; Signal analysis"
+          }
+        },
+        {
+          "code": "G01N 30/96",
+          "title": {
+            "ko": "이온 교환의 이용(30/02, 30/90이 우선)",
+            "en": "using ion-exchange (G01N0030020000, G01N0030900000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 31/00",
+      "title": {
+        "ko": "서브그룹에 규정된 화학적 방법을 이용한 비생물학적 재료의 조사 또는 분석; 그러한 방법에 특히 적합한 장치",
+        "en": "Investigating or analysing non-biological materials by the use of the chemical methods specified in the subgroups; Apparatus specially adapted for such methods"
+      },
+      "definition": {
+        "ko": "그룹 G01N 3/00에서 G01N 29/00에 규정된 어느 방법에 의한 것으로써, 그룹 G01N 31/02에서 G01N 31/22에 포함된 반응방법을 고려할 때, G01N 3/00에서 G01N 29/00에 더 적합한 경우에는 해당 분류로 분류한다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01N 31/02",
+          "title": {
+            "ko": null,
+            "en": "using precipitation"
+          }
+        },
+        {
+          "code": "G01N 31/10",
+          "title": {
+            "ko": null,
+            "en": "using catalysis"
+          }
+        },
+        {
+          "code": "G01N 31/12",
+          "title": {
+            "ko": "연소의 이용(25/20이 우선)",
+            "en": "using combustion (G01N0025200000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 31/16",
+          "title": {
+            "ko": null,
+            "en": "using titration"
+          }
+        },
+        {
+          "code": "G01N 31/18",
+          "title": {
+            "ko": null,
+            "en": "Burettes specially adapted for titration"
+          }
+        },
+        {
+          "code": "G01N 31/20",
+          "title": {
+            "ko": null,
+            "en": "using microanalysis, e.g. drop reaction"
+          }
+        },
+        {
+          "code": "G01N 31/22",
+          "title": {
+            "ko": "화학적 지시약 이용(31/02가 우선)",
+            "en": "using chemical indicators (G01N0031020000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 33/00",
+      "title": {
+        "ko": "그룹 1/00 ～ 31/00에 포함 되지 않는 특유의 방법에 의한 재료의 조사 또는 분석",
+        "en": "Investigating or analysing materials by specific methods not covered by groups G01N0001000000-G01N0031000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 33/02",
+          "title": {
+            "ko": null,
+            "en": "Food"
+          }
+        },
+        {
+          "code": "G01N 33/03",
+          "title": {
+            "ko": null,
+            "en": "Edible oils or edible fats"
+          }
+        },
+        {
+          "code": "G01N 33/04",
+          "title": {
+            "ko": null,
+            "en": "Dairy products"
+          }
+        },
+        {
+          "code": "G01N 33/06",
+          "title": {
+            "ko": null,
+            "en": "Determining fat content, e.g. by butyrometer"
+          }
+        },
+        {
+          "code": "G01N 33/08",
+          "title": {
+            "ko": null,
+            "en": "Eggs, e.g. by candling"
+          }
+        },
+        {
+          "code": "G01N 33/10",
+          "title": {
+            "ko": null,
+            "en": "Starch-containing substances, e.g. dough"
+          }
+        },
+        {
+          "code": "G01N 33/12",
+          "title": {
+            "ko": null,
+            "en": "Meat; Fish"
+          }
+        },
+        {
+          "code": "G01N 33/14",
+          "title": {
+            "ko": null,
+            "en": "Beverages"
+          }
+        },
+        {
+          "code": "G01N 33/15",
+          "title": {
+            "ko": null,
+            "en": "Medicinal preparations"
+          }
+        },
+        {
+          "code": "G01N 33/18",
+          "title": {
+            "ko": null,
+            "en": "Water"
+          }
+        },
+        {
+          "code": "G01N 33/20",
+          "title": {
+            "ko": null,
+            "en": "Metals"
+          }
+        },
+        {
+          "code": "G01N 33/202",
+          "title": {
+            "ko": null,
+            "en": "Constituents thereof"
+          }
+        },
+        {
+          "code": "G01N 33/2022",
+          "title": {
+            "ko": null,
+            "en": "Non-metallic constituents"
+          }
+        },
+        {
+          "code": "G01N 33/2025",
+          "title": {
+            "ko": null,
+            "en": "Gaseous constituents"
+          }
+        },
+        {
+          "code": "G01N 33/2028",
+          "title": {
+            "ko": null,
+            "en": "Metallic constituents"
+          }
+        },
+        {
+          "code": "G01N 33/204",
+          "title": {
+            "ko": null,
+            "en": "Structure thereof, e.g. crystal structure"
+          }
+        },
+        {
+          "code": "G01N 33/2045",
+          "title": {
+            "ko": null,
+            "en": "Defects"
+          }
+        },
+        {
+          "code": "G01N 33/205",
+          "title": {
+            "ko": null,
+            "en": "in liquid state, e.g. molten metals"
+          }
+        },
+        {
+          "code": "G01N 33/207",
+          "title": {
+            "ko": null,
+            "en": "Welded or soldered joints; Solderability"
+          }
+        },
+        {
+          "code": "G01N 33/208",
+          "title": {
+            "ko": null,
+            "en": "Coatings, e.g. platings"
+          }
+        },
+        {
+          "code": "G01N 33/22",
+          "title": {
+            "ko": null,
+            "en": "Fuels; Explosives"
+          }
+        },
+        {
+          "code": "G01N 33/24",
+          "title": {
+            "ko": "지각 구성재료(G01N 33/42가 우선)",
+            "en": "Earth materials (G01N0033420000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 33/26",
+          "title": {
+            "ko": "유류; 점성액체; 도료; 잉크(G01N33/22가 우선)",
+            "en": "Oils; Viscous liquids; Paints; Inks  (G01N0033220000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 33/28",
+          "title": {
+            "ko": "유류(식용유 또는 식용지방은 G01N 33/03)",
+            "en": "Oils (edible oils or edible fats G01N0033030000)"
+          }
+        },
+        {
+          "code": "G01N 33/30",
+          "title": {
+            "ko": null,
+            "en": "for lubricating properties"
+          }
+        },
+        {
+          "code": "G01N 33/32",
+          "title": {
+            "ko": null,
+            "en": "Paints; Inks"
+          }
+        },
+        {
+          "code": "G01N 33/34",
+          "title": {
+            "ko": null,
+            "en": "Paper"
+          }
+        },
+        {
+          "code": "G01N 33/36",
+          "title": {
+            "ko": null,
+            "en": "Textiles"
+          }
+        },
+        {
+          "code": "G01N 33/38",
+          "title": {
+            "ko": null,
+            "en": "Concrete; Lime; Mortar; Gypsum; Bricks; Ceramics; Glass"
+          }
+        },
+        {
+          "code": "G01N 33/40",
+          "title": {
+            "ko": null,
+            "en": "Grinding-materials"
+          }
+        },
+        {
+          "code": "G01N 33/42",
+          "title": {
+            "ko": "포장재료(33/38이 우선)",
+            "en": "Road-making materials (G01N0033380000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 33/44",
+          "title": {
+            "ko": null,
+            "en": "Resins; Plastics; Rubber; Leather"
+          }
+        },
+        {
+          "code": "G01N 33/46",
+          "title": {
+            "ko": null,
+            "en": "Wood"
+          }
+        },
+        {
+          "code": "G01N 33/48",
+          "title": {
+            "ko": "생물학적재료, 예. 혈액, 소변(G01N 33/02, 33/26, 33/44, 33/46 우선) 혈구계[표면 스캐닝에 의해 표면에 분산된 혈액입자 카운팅 G06M 11/02]",
+            "en": "Biological material, e.g. blood, urine (G01N0033020000, G01N0033260000, G01N0033440000, G01N0033460000 take precedence); Haemocytometers (counting blood corpuscules distributed over a surface by scanning the surface G06M0011020000)"
+          }
+        },
+        {
+          "code": "G01N 33/483",
+          "title": {
+            "ko": null,
+            "en": "Physical analysis of biological material"
+          }
+        },
+        {
+          "code": "G01N 33/487",
+          "title": {
+            "ko": null,
+            "en": "of liquid biological material"
+          }
+        },
+        {
+          "code": "G01N 33/49",
+          "title": {
+            "ko": null,
+            "en": "blood"
+          }
+        },
+        {
+          "code": "G01N 33/493",
+          "title": {
+            "ko": null,
+            "en": "urine"
+          }
+        },
+        {
+          "code": "G01N 33/497",
+          "title": {
+            "ko": null,
+            "en": "of gaseous biological material, e.g. breath"
+          }
+        },
+        {
+          "code": "G01N 33/50",
+          "title": {
+            "ko": "생물학 물질의 화학적 분석, 예. 혈액, 소변; 생물특정 리간드 결합법을 수반하는 실험; 면역 실험(효소 또는 미생물을 포함한 면역학적인 것 이외의 측정 또는 시험방법, 그를 위한 조성물 또는 시험지; 그와 같은 조성물의 제조방법, 미생물학적 또는 효소학적 방법에 있어서의 조건 감응 제어 C12Q)",
+            "en": "Chemical analysis of biological material, e.g. blood, urine; Testing involving biospecific ligand binding methods; Immunological testing  (measuring or testing processes other than immunological involving enzymes or microorganisms, compositions or test papers therefor, processes of forming such compositions, condition responsive control in microbiological or enzymological processes C12Q)"
+          },
+          "definition": {
+            "ko": "그룹 G01N 33/52-G01N 33/98 내에서, 상반되는 지시가 없는 한, 최후개소 우선규칙이 적용되며, 즉. 각 계층적 레벨에서, 최후의 적절한 개소에 분류한다",
+            "en": null
+          }
+        },
+        {
+          "code": "G01N 33/52",
+          "title": {
+            "ko": null,
+            "en": "Use of compounds or compositions for colorimetric, spectrophotometric or fluorometric investigation, e.g. use of reagent paper"
+          }
+        },
+        {
+          "code": "G01N 33/53",
+          "title": {
+            "ko": null,
+            "en": "Immunoassay; Biospecific binding assay; Materials therefor"
+          }
+        },
+        {
+          "code": "G01N 33/531",
+          "title": {
+            "ko": null,
+            "en": "Production of immunochemical test materials"
+          }
+        },
+        {
+          "code": "G01N 33/532",
+          "title": {
+            "ko": null,
+            "en": "Production of labelled immunochemicals"
+          }
+        },
+        {
+          "code": "G01N 33/533",
+          "title": {
+            "ko": null,
+            "en": "with fluorescent label"
+          }
+        },
+        {
+          "code": "G01N 33/534",
+          "title": {
+            "ko": null,
+            "en": "with radioactive label"
+          }
+        },
+        {
+          "code": "G01N 33/535",
+          "title": {
+            "ko": null,
+            "en": "with enzyme label"
+          }
+        },
+        {
+          "code": "G01N 33/536",
+          "title": {
+            "ko": null,
+            "en": "with immune complex formed in liquid phase"
+          }
+        },
+        {
+          "code": "G01N 33/537",
+          "title": {
+            "ko": null,
+            "en": "with separation of immune complex from unbound antigen or antibody"
+          }
+        },
+        {
+          "code": "G01N 33/538",
+          "title": {
+            "ko": null,
+            "en": "by sorbent column, particles or resin strip"
+          }
+        },
+        {
+          "code": "G01N 33/539",
+          "title": {
+            "ko": null,
+            "en": "involving precipitating reagent"
+          }
+        },
+        {
+          "code": "G01N 33/541",
+          "title": {
+            "ko": null,
+            "en": "Double or second antibody"
+          }
+        },
+        {
+          "code": "G01N 33/542",
+          "title": {
+            "ko": null,
+            "en": "with steric inhibition or signal modification, e.g. fluorescent quenching"
+          }
+        },
+        {
+          "code": "G01N 33/543",
+          "title": {
+            "ko": null,
+            "en": "with an insoluble carrier for immobilising immunochemicals"
+          }
+        },
+        {
+          "code": "G01N 33/544",
+          "title": {
+            "ko": null,
+            "en": "the carrier being organic"
+          }
+        },
+        {
+          "code": "G01N 33/545",
+          "title": {
+            "ko": null,
+            "en": "Synthetic resin"
+          }
+        },
+        {
+          "code": "G01N 33/546",
+          "title": {
+            "ko": null,
+            "en": "as water suspendable particles"
+          }
+        },
+        {
+          "code": "G01N 33/547",
+          "title": {
+            "ko": null,
+            "en": "with antigen or antibody attached to the carrier via a bridging agent"
+          }
+        },
+        {
+          "code": "G01N 33/548",
+          "title": {
+            "ko": null,
+            "en": "Carbohydrates, e.g. dextran"
+          }
+        },
+        {
+          "code": "G01N 33/549",
+          "title": {
+            "ko": null,
+            "en": "with antigen or antibody entrapped within the carrier"
+          }
+        },
+        {
+          "code": "G01N 33/551",
+          "title": {
+            "ko": null,
+            "en": "the carrier being inorganic"
+          }
+        },
+        {
+          "code": "G01N 33/552",
+          "title": {
+            "ko": null,
+            "en": "Glass or silica"
+          }
+        },
+        {
+          "code": "G01N 33/553",
+          "title": {
+            "ko": null,
+            "en": "Metal or metal coated"
+          }
+        },
+        {
+          "code": "G01N 33/554",
+          "title": {
+            "ko": null,
+            "en": "the carrier being a biological cell or cell fragment, e.g. bacteria, yeast cells"
+          }
+        },
+        {
+          "code": "G01N 33/555",
+          "title": {
+            "ko": null,
+            "en": "Red blood cell"
+          }
+        },
+        {
+          "code": "G01N 33/556",
+          "title": {
+            "ko": null,
+            "en": "Fixed or stabilised red blood cell"
+          }
+        },
+        {
+          "code": "G01N 33/557",
+          "title": {
+            "ko": null,
+            "en": "using kinetic measurement, i.e. time rate of progress of an antigen-antibody interaction"
+          }
+        },
+        {
+          "code": "G01N 33/558",
+          "title": {
+            "ko": null,
+            "en": "using diffusion or migration of antigen or antibody"
+          }
+        },
+        {
+          "code": "G01N 33/559",
+          "title": {
+            "ko": null,
+            "en": "through a gel, e.g. Ouchterlony technique"
+          }
+        },
+        {
+          "code": "G01N 33/561",
+          "title": {
+            "ko": null,
+            "en": "Immunoelectrophoresis"
+          }
+        },
+        {
+          "code": "G01N 33/563",
+          "title": {
+            "ko": null,
+            "en": "involving antibody fragments"
+          }
+        },
+        {
+          "code": "G01N 33/564",
+          "title": {
+            "ko": null,
+            "en": "for pre-existing immune complex or autoimmune disease"
+          }
+        },
+        {
+          "code": "G01N 33/566",
+          "title": {
+            "ko": null,
+            "en": "using specific carrier or receptor proteins as ligand binding reagent"
+          }
+        },
+        {
+          "code": "G01N 33/567",
+          "title": {
+            "ko": null,
+            "en": "utilising isolate of tissue or organ as binding agent"
+          }
+        },
+        {
+          "code": "G01N 33/569",
+          "title": {
+            "ko": null,
+            "en": "for microorganisms, e.g. protozoa, bacteria, viruses"
+          }
+        },
+        {
+          "code": "G01N 33/571",
+          "title": {
+            "ko": null,
+            "en": "for venereal disease, e.g. syphilis, gonorrhoea, herpes"
+          }
+        },
+        {
+          "code": "G01N 33/573",
+          "title": {
+            "ko": null,
+            "en": "for enzymes or isoenzymes"
+          }
+        },
+        {
+          "code": "G01N 33/575",
+          "title": {
+            "ko": null,
+            "en": "for cancer"
+          }
+        },
+        {
+          "code": "G01N 33/57505",
+          "title": {
+            "ko": null,
+            "en": "of the blood, e.g. leukaemia"
+          }
+        },
+        {
+          "code": "G01N 33/5751",
+          "title": {
+            "ko": null,
+            "en": "of the skin, e.g. melanoma"
+          }
+        },
+        {
+          "code": "G01N 33/57515",
+          "title": {
+            "ko": null,
+            "en": "of the breast"
+          }
+        },
+        {
+          "code": "G01N 33/5752",
+          "title": {
+            "ko": null,
+            "en": "of the lungs"
+          }
+        },
+        {
+          "code": "G01N 33/57525",
+          "title": {
+            "ko": null,
+            "en": "of the liver or pancreas"
+          }
+        },
+        {
+          "code": "G01N 33/5753",
+          "title": {
+            "ko": null,
+            "en": "of the stomach or small intestine"
+          }
+        },
+        {
+          "code": "G01N 33/57535",
+          "title": {
+            "ko": null,
+            "en": "of the large intestine, e.g. colon, rectum or anus"
+          }
+        },
+        {
+          "code": "G01N 33/5754",
+          "title": {
+            "ko": null,
+            "en": "of the renal system, e.g. kidneys or ureters"
+          }
+        },
+        {
+          "code": "G01N 33/57545",
+          "title": {
+            "ko": null,
+            "en": "of the ovaries"
+          }
+        },
+        {
+          "code": "G01N 33/5755",
+          "title": {
+            "ko": null,
+            "en": "of the uterine cervix, uterine corpus or endometrium"
+          }
+        },
+        {
+          "code": "G01N 33/57555",
+          "title": {
+            "ko": null,
+            "en": "of the prostate"
+          }
+        },
+        {
+          "code": "G01N 33/576",
+          "title": {
+            "ko": null,
+            "en": "for hepatitis"
+          }
+        },
+        {
+          "code": "G01N 33/577",
+          "title": {
+            "ko": null,
+            "en": "involving monoclonal antibodies"
+          }
+        },
+        {
+          "code": "G01N 33/579",
+          "title": {
+            "ko": null,
+            "en": "involving limulus lysate"
+          }
+        },
+        {
+          "code": "G01N 33/58",
+          "title": {
+            "ko": "표식물질을 함유하는 것(G01N 33/53 우선)",
+            "en": "involving labelled substances (G01N0033530000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01N 33/60",
+          "title": {
+            "ko": null,
+            "en": "involving radioactive labelled substances"
+          }
+        },
+        {
+          "code": "G01N 33/62",
+          "title": {
+            "ko": null,
+            "en": "involving urea"
+          }
+        },
+        {
+          "code": "G01N 33/64",
+          "title": {
+            "ko": null,
+            "en": "involving ketones"
+          }
+        },
+        {
+          "code": "G01N 33/66",
+          "title": {
+            "ko": null,
+            "en": "involving blood sugars, e.g. galactose"
+          }
+        },
+        {
+          "code": "G01N 33/68",
+          "title": {
+            "ko": null,
+            "en": "involving proteins, peptides or amino acids"
+          }
+        },
+        {
+          "code": "G01N 33/70",
+          "title": {
+            "ko": null,
+            "en": "involving creatine or creatinine"
+          }
+        },
+        {
+          "code": "G01N 33/72",
+          "title": {
+            "ko": null,
+            "en": "involving blood pigments, e.g. hemoglobin, bilirubin"
+          }
+        },
+        {
+          "code": "G01N 33/74",
+          "title": {
+            "ko": null,
+            "en": "involving hormones"
+          }
+        },
+        {
+          "code": "G01N 33/76",
+          "title": {
+            "ko": null,
+            "en": "Human chorionic gonadotropin"
+          }
+        },
+        {
+          "code": "G01N 33/78",
+          "title": {
+            "ko": null,
+            "en": "Thyroid gland hormones"
+          }
+        },
+        {
+          "code": "G01N 33/80",
+          "title": {
+            "ko": null,
+            "en": "involving blood groups or blood types"
+          }
+        },
+        {
+          "code": "G01N 33/82",
+          "title": {
+            "ko": null,
+            "en": "involving vitamins"
+          }
+        },
+        {
+          "code": "G01N 33/84",
+          "title": {
+            "ko": null,
+            "en": "involving inorganic compounds or pH"
+          }
+        },
+        {
+          "code": "G01N 33/86",
+          "title": {
+            "ko": null,
+            "en": "involving blood coagulating time"
+          }
+        },
+        {
+          "code": "G01N 33/88",
+          "title": {
+            "ko": null,
+            "en": "involving prostaglandins"
+          }
+        },
+        {
+          "code": "G01N 33/90",
+          "title": {
+            "ko": null,
+            "en": "involving iron binding capacity of blood"
+          }
+        },
+        {
+          "code": "G01N 33/92",
+          "title": {
+            "ko": null,
+            "en": "involving lipids, e.g. cholesterol"
+          }
+        },
+        {
+          "code": "G01N 33/94",
+          "title": {
+            "ko": null,
+            "en": "involving narcotics"
+          }
+        },
+        {
+          "code": "G01N 33/96",
+          "title": {
+            "ko": null,
+            "en": "involving blood or serum control standard"
+          }
+        },
+        {
+          "code": "G01N 33/98",
+          "title": {
+            "ko": null,
+            "en": "involving alcohol, e.g. ethanol in breath"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 35/00",
+      "title": {
+        "ko": "그룹 1/00 ～ 33/00의 어느 1개로 분류되는 방법 또는 재료로 한정되지 않는 자동 분석; 그것을 위한 재료 취급",
+        "en": "Automatic analysis not limited to methods or materials provided for in any single one of groups G01N0001000000-G01N0033000000; Handling materials therefor"
+      },
+      "subgroups": [
+        {
+          "code": "G01N 35/02",
+          "title": {
+            "ko": null,
+            "en": "using a plurality of sample containers moved by a conveyor system past one or more treatment or analysis stations"
+          }
+        },
+        {
+          "code": "G01N 35/04",
+          "title": {
+            "ko": null,
+            "en": "Details of the conveyor system"
+          }
+        },
+        {
+          "code": "G01N 35/08",
+          "title": {
+            "ko": null,
+            "en": "using a stream of discrete samples flowing along a tube system, e.g. flow injection analysis"
+          }
+        },
+        {
+          "code": "G01N 35/10",
+          "title": {
+            "ko": null,
+            "en": "Devices for transferring samples to, in, or from, the analysis apparatus, e.g. suction devices, injection devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01N 37/00",
+      "title": {
+        "ko": null,
+        "en": "Details not covered by any other group of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

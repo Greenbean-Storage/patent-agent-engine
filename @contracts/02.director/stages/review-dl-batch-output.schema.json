@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "drawings_with_dl": {
+      "type": "array"
+    },
+    "checks": {
+      "type": "string"
+    },
+    "needs_revision": {
+      "type": "boolean"
+    },
+    "revision_comment": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "drawings_with_dl",
+    "checks",
+    "needs_revision",
+    "revision_comment"
+  ]
+}

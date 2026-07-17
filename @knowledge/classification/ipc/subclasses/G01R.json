@@ -1,0 +1,2824 @@
+{
+  "subclass": "G01R",
+  "title": {
+    "ko": "전기변량의 측정; 자기변량의 측정(공진회로의 바른 동조의 지시 H03J 3/12)",
+    "en": "MEASURING ELECTRIC VARIABLES; MEASURING MAGNETIC VARIABLES (indicating correct tuning of resonant circuits H03J0003120000)"
+  },
+  "definition": {
+    "ko": "전기측정기 일반 G01R5/00, G01R7/00, G01R9/00 세부 G01R1/00 제조; 교정, 시험 G01R3/00; G01R35/00 전력 또는 전류의 시간적분의 전기 기계적 측정 G01R11/00 전기적 변량측정 측정장치 세부 G01R11/02, G01R15/00 표시장치 G01R13/00 참조치와의 비교를 포함한 측정 G01R17/00 전류 또는 전압; 전력, 역률; 전력 또는 전류의 시간적분; 주파수; 저항 리액턴스, 임피던스 측정 G01R19/00, G01R21/00, G01R22/00, G01R23/00, G01R27/00 기타 변량 G01R25/00, G01R29/00 전기적 성질 또는 고장의 측정 G01R31/00 자기량의 측정 G01R33/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01R 1/00",
+      "title": {
+        "ko": "G01R 5/00에서 G01R 13/00 또는 G01R 31/00 그룹에 의해 커버되는 형태의 기기 또는 장치의 세부(전기적 소비의 측정을 위한 전기 기계에 관한 배치에 특정되는 세부 구조 G01R 11/02)",
+        "en": "Details of instruments or arrangements of the types covered by groups G01R0005000000-G01R0013000000 or G01R0031000000 (constructional details particular to electromechanical arrangements for measuring the electric consumption G01R0011020000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 1/02",
+          "title": {
+            "ko": "일반적인 구조의 세부",
+            "en": "General constructional details"
+          }
+        },
+        {
+          "code": "G01R 1/04",
+          "title": {
+            "ko": null,
+            "en": "Housings; Supporting members; Arrangements of terminals"
+          }
+        },
+        {
+          "code": "G01R 1/06",
+          "title": {
+            "ko": "측정용 도선; 측정용 탐침(G01R 19/145, G01R 19/165 우선)",
+            "en": "Measuring leads; Measuring probes (G01R0019145000, G01R0019165000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 1/067",
+          "title": {
+            "ko": null,
+            "en": "Measuring probes"
+          }
+        },
+        {
+          "code": "G01R 1/07",
+          "title": {
+            "ko": null,
+            "en": "Non contact-making probes"
+          }
+        },
+        {
+          "code": "G01R 1/073",
+          "title": {
+            "ko": null,
+            "en": "Multiple probes"
+          }
+        },
+        {
+          "code": "G01R 1/08",
+          "title": {
+            "ko": null,
+            "en": "Pointers; Scales;  Scale illumination"
+          }
+        },
+        {
+          "code": "G01R 1/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of bearings"
+          }
+        },
+        {
+          "code": "G01R 1/12",
+          "title": {
+            "ko": null,
+            "en": "of strip or wire bearings"
+          }
+        },
+        {
+          "code": "G01R 1/14",
+          "title": {
+            "ko": null,
+            "en": "Braking arrangements; Damping arrangements"
+          }
+        },
+        {
+          "code": "G01R 1/16",
+          "title": {
+            "ko": null,
+            "en": "Magnets"
+          }
+        },
+        {
+          "code": "G01R 1/18",
+          "title": {
+            "ko": null,
+            "en": "Screening arrangements against electric or magnetic fields, e.g. against earth's field"
+          }
+        },
+        {
+          "code": "G01R 1/20",
+          "title": {
+            "ko": null,
+            "en": "Modifications of basic electric elements for use in electric measuring instruments; Structural combinations of such elements with such instruments"
+          }
+        },
+        {
+          "code": "G01R 1/22",
+          "title": {
+            "ko": null,
+            "en": "Tong testers acting as secondary windings of current transformers"
+          }
+        },
+        {
+          "code": "G01R 1/24",
+          "title": {
+            "ko": null,
+            "en": "Transmission-line, e.g. waveguide, measuring sections, e.g. slotted section"
+          }
+        },
+        {
+          "code": "G01R 1/26",
+          "title": {
+            "ko": null,
+            "en": "with linear movement of probe"
+          }
+        },
+        {
+          "code": "G01R 1/28",
+          "title": {
+            "ko": null,
+            "en": "Provision in measuring instruments for reference values, e.g. standard voltage, standard waveform"
+          }
+        },
+        {
+          "code": "G01R 1/30",
+          "title": {
+            "ko": null,
+            "en": "Structural combination of electric measuring instruments with basic electronic circuits, e.g. with amplifier"
+          }
+        },
+        {
+          "code": "G01R 1/36",
+          "title": {
+            "ko": null,
+            "en": "Overload-protection arrangements or circuits for electric measuring instruments"
+          }
+        },
+        {
+          "code": "G01R 1/38",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for altering the indicating characteristic, e.g. by modifying the air gap"
+          }
+        },
+        {
+          "code": "G01R 1/40",
+          "title": {
+            "ko": null,
+            "en": "Modifications of instruments to indicate the maximum or the minimum value reached in a time interval, e.g. by maximum indicator pointer"
+          }
+        },
+        {
+          "code": "G01R 1/42",
+          "title": {
+            "ko": null,
+            "en": "thermally operated"
+          }
+        },
+        {
+          "code": "G01R 1/44",
+          "title": {
+            "ko": null,
+            "en": "Modifications of instruments for temperature compensation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 3/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes specially adapted for the manufacture of measuring instruments"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01R 5/00",
+      "title": {
+        "ko": null,
+        "en": "Instruments for converting a single current or a single voltage into a mechanical displacement"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 5/02",
+          "title": {
+            "ko": null,
+            "en": "Moving-coil instruments"
+          }
+        },
+        {
+          "code": "G01R 5/04",
+          "title": {
+            "ko": null,
+            "en": "with magnet external to the coil"
+          }
+        },
+        {
+          "code": "G01R 5/06",
+          "title": {
+            "ko": null,
+            "en": "with core magnet"
+          }
+        },
+        {
+          "code": "G01R 5/08",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for wide angle deflection; with eccentrically-pivoted moving coil"
+          }
+        },
+        {
+          "code": "G01R 5/10",
+          "title": {
+            "ko": null,
+            "en": "String galvanometers"
+          }
+        },
+        {
+          "code": "G01R 5/12",
+          "title": {
+            "ko": null,
+            "en": "Loop galvanometers"
+          }
+        },
+        {
+          "code": "G01R 5/14",
+          "title": {
+            "ko": null,
+            "en": "Moving-iron instruments"
+          }
+        },
+        {
+          "code": "G01R 5/16",
+          "title": {
+            "ko": null,
+            "en": "with pivoting magnet"
+          }
+        },
+        {
+          "code": "G01R 5/18",
+          "title": {
+            "ko": null,
+            "en": "with pivoting soft iron, e.g. needle galvanometer"
+          }
+        },
+        {
+          "code": "G01R 5/20",
+          "title": {
+            "ko": null,
+            "en": "Induction instruments e.g. Ferraris instruments"
+          }
+        },
+        {
+          "code": "G01R 5/22",
+          "title": {
+            "ko": null,
+            "en": "Thermoelectric instruments"
+          }
+        },
+        {
+          "code": "G01R 5/24",
+          "title": {
+            "ko": null,
+            "en": "operated by elongation of a strip or wire or by expansion of a gas or fluid"
+          }
+        },
+        {
+          "code": "G01R 5/26",
+          "title": {
+            "ko": null,
+            "en": "operated by deformation of a bimetallic element"
+          }
+        },
+        {
+          "code": "G01R 5/28",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic instruments"
+          }
+        },
+        {
+          "code": "G01R 5/30",
+          "title": {
+            "ko": null,
+            "en": "Leaf electrometers"
+          }
+        },
+        {
+          "code": "G01R 5/32",
+          "title": {
+            "ko": null,
+            "en": "Wire electrometers; Needle electrometers"
+          }
+        },
+        {
+          "code": "G01R 5/34",
+          "title": {
+            "ko": null,
+            "en": "Quadrant electrometers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 7/00",
+      "title": {
+        "ko": "2 또는 그 이상의 전류 또는 전압을 단일의 기계적 변위로 변환할 수 있는 계기(G01R 9/00이 우선)",
+        "en": "Instruments capable of converting two or more currents or voltages into a single mechanical displacement (G01R0009000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 7/02",
+          "title": {
+            "ko": null,
+            "en": "for forming a sum or a difference"
+          }
+        },
+        {
+          "code": "G01R 7/04",
+          "title": {
+            "ko": "상을 형성하기 위한 것(저항측정 G01R 27/08)",
+            "en": "for forming a quotient (for measuring resistance G01R0027080000)"
+          }
+        },
+        {
+          "code": "G01R 7/06",
+          "title": {
+            "ko": null,
+            "en": "moving-iron type"
+          }
+        },
+        {
+          "code": "G01R 7/08",
+          "title": {
+            "ko": null,
+            "en": "moving-coil type, e.g. crossed-coil type"
+          }
+        },
+        {
+          "code": "G01R 7/10",
+          "title": {
+            "ko": null,
+            "en": "having more than two moving coils"
+          }
+        },
+        {
+          "code": "G01R 7/12",
+          "title": {
+            "ko": null,
+            "en": "for forming product"
+          }
+        },
+        {
+          "code": "G01R 7/14",
+          "title": {
+            "ko": null,
+            "en": "moving-iron type"
+          }
+        },
+        {
+          "code": "G01R 7/16",
+          "title": {
+            "ko": null,
+            "en": "having both fixed and moving coils, i.e. dynamometers"
+          }
+        },
+        {
+          "code": "G01R 7/18",
+          "title": {
+            "ko": null,
+            "en": "with iron core magnetically coupling fixed and moving coils"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 9/00",
+      "title": {
+        "ko": null,
+        "en": "Instruments employing mechanical resonance"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 9/02",
+          "title": {
+            "ko": null,
+            "en": "Vibration galvanometers, e.g. for measuring current"
+          }
+        },
+        {
+          "code": "G01R 9/04",
+          "title": {
+            "ko": null,
+            "en": "using vibrating reeds, e.g. for measuring frequency"
+          }
+        },
+        {
+          "code": "G01R 9/06",
+          "title": {
+            "ko": null,
+            "en": "magnetically driven"
+          }
+        },
+        {
+          "code": "G01R 9/08",
+          "title": {
+            "ko": null,
+            "en": "piezoelectrically driven"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 11/00",
+      "title": {
+        "ko": "전력 또는 전류의 시간적분 예. 소비, 을 측정하는 전기기계적 장치(전기적 추진차량의 전기적 소비의 감시 B60L 3/00)",
+        "en": "Electromechanical arrangements for measuring time integral of electric power or current, e.g. of consumption (monitoring electric consumption of electrically-propelled vehicles B60L0003000000)"
+      },
+      "definition": {
+        "ko": "그룹 G01R 11/30부터 G01R 11/46보다 그룹 G01R 11/48부터 G01R 11/66이 우선한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01R 11/02",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "G01R 11/04",
+          "title": {
+            "ko": null,
+            "en": "Housings; Supporting racks; Arrangements of terminals"
+          }
+        },
+        {
+          "code": "G01R 11/06",
+          "title": {
+            "ko": null,
+            "en": "Magnetic circuits of induction meters"
+          }
+        },
+        {
+          "code": "G01R 11/067",
+          "title": {
+            "ko": null,
+            "en": "Coils therefor"
+          }
+        },
+        {
+          "code": "G01R 11/073",
+          "title": {
+            "ko": null,
+            "en": "Armatures therefor"
+          }
+        },
+        {
+          "code": "G01R 11/09",
+          "title": {
+            "ko": null,
+            "en": "Disc armatures"
+          }
+        },
+        {
+          "code": "G01R 11/10",
+          "title": {
+            "ko": null,
+            "en": "Braking magnets; Damping arrangements"
+          }
+        },
+        {
+          "code": "G01R 11/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of bearings"
+          }
+        },
+        {
+          "code": "G01R 11/14",
+          "title": {
+            "ko": null,
+            "en": "with magnetic relief"
+          }
+        },
+        {
+          "code": "G01R 11/16",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of counters to electricity meters"
+          }
+        },
+        {
+          "code": "G01R 11/17",
+          "title": {
+            "ko": null,
+            "en": "Compensating for errors; Adjusting or regulating means therefor"
+          }
+        },
+        {
+          "code": "G01R 11/18",
+          "title": {
+            "ko": null,
+            "en": "Compensating for variations in ambient conditions"
+          }
+        },
+        {
+          "code": "G01R 11/185",
+          "title": {
+            "ko": null,
+            "en": "Temperature compensation"
+          }
+        },
+        {
+          "code": "G01R 11/19",
+          "title": {
+            "ko": null,
+            "en": "Compensating for errors caused by disturbing torque, e.g. rotating-field errors of polyphase meters"
+          }
+        },
+        {
+          "code": "G01R 11/20",
+          "title": {
+            "ko": null,
+            "en": "Compensating for phase errors in induction meters"
+          }
+        },
+        {
+          "code": "G01R 11/21",
+          "title": {
+            "ko": null,
+            "en": "Compensating for errors caused by damping effects of the current, e.g. adjustment in the overload range"
+          }
+        },
+        {
+          "code": "G01R 11/22",
+          "title": {
+            "ko": null,
+            "en": "Adjusting torque, e.g. adjusting starting torque, adjusting of polyphase meters for obtaining equal torques"
+          }
+        },
+        {
+          "code": "G01R 11/23",
+          "title": {
+            "ko": null,
+            "en": "Compensating for errors caused by friction, e.g. adjustment in the light-load range"
+          }
+        },
+        {
+          "code": "G01R 11/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for avoiding or indicating fraudulent use"
+          }
+        },
+        {
+          "code": "G01R 11/25",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for indicating or signalling faults"
+          }
+        },
+        {
+          "code": "G01R 11/30",
+          "title": {
+            "ko": null,
+            "en": "Dynamo-electric motor meters"
+          }
+        },
+        {
+          "code": "G01R 11/32",
+          "title": {
+            "ko": null,
+            "en": "Watt-hour meters"
+          }
+        },
+        {
+          "code": "G01R 11/34",
+          "title": {
+            "ko": null,
+            "en": "Ampère-hour meters"
+          }
+        },
+        {
+          "code": "G01R 11/36",
+          "title": {
+            "ko": null,
+            "en": "Induction meters, e.g. Ferraris meters"
+          }
+        },
+        {
+          "code": "G01R 11/38",
+          "title": {
+            "ko": null,
+            "en": "for single-phase operation"
+          }
+        },
+        {
+          "code": "G01R 11/40",
+          "title": {
+            "ko": null,
+            "en": "for polyphase operation"
+          }
+        },
+        {
+          "code": "G01R 11/42",
+          "title": {
+            "ko": null,
+            "en": "Circuitry therefor"
+          }
+        },
+        {
+          "code": "G01R 11/46",
+          "title": {
+            "ko": null,
+            "en": "Electrically-operated clockwork meters; Oscillatory meters; Pendulum meters"
+          }
+        },
+        {
+          "code": "G01R 11/48",
+          "title": {
+            "ko": null,
+            "en": "Meters specially adapted for measuring real or reactive components; Meters specially adapted for measuring apparent energy"
+          }
+        },
+        {
+          "code": "G01R 11/50",
+          "title": {
+            "ko": null,
+            "en": "for measuring real component"
+          }
+        },
+        {
+          "code": "G01R 11/52",
+          "title": {
+            "ko": null,
+            "en": "for measuring reactive component"
+          }
+        },
+        {
+          "code": "G01R 11/54",
+          "title": {
+            "ko": null,
+            "en": "for measuring simultaneously at least two of the following three variables: real component, reactive component, apparent energy"
+          }
+        },
+        {
+          "code": "G01R 11/56",
+          "title": {
+            "ko": "특수요금 계기",
+            "en": "Special tariff meters"
+          }
+        },
+        {
+          "code": "G01R 11/57",
+          "title": {
+            "ko": "다중요금계기(G01R 11/63이 우선)",
+            "en": "Multi-rate meters (G01R0011630000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 11/58",
+          "title": {
+            "ko": null,
+            "en": "Tariff-switching devices therefor"
+          }
+        },
+        {
+          "code": "G01R 11/60",
+          "title": {
+            "ko": null,
+            "en": "Subtraction meters; Meters measuring maximum or minimum-load hours"
+          }
+        },
+        {
+          "code": "G01R 11/63",
+          "title": {
+            "ko": null,
+            "en": "Over-consumption meters, e.g. measuring consumption while a predetermined level of power is exceeded"
+          }
+        },
+        {
+          "code": "G01R 11/64",
+          "title": {
+            "ko": null,
+            "en": "Maximum meters, e.g. tariff for a period is based on maximum demand within that period"
+          }
+        },
+        {
+          "code": "G01R 11/66",
+          "title": {
+            "ko": null,
+            "en": "Circuitry"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 13/00",
+      "title": {
+        "ko": "전기적 변량 또는 파형의 표시장치",
+        "en": "Arrangements for displaying electric variables or waveforms"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 13/02",
+          "title": {
+            "ko": null,
+            "en": "for displaying measured electric variables in digital form"
+          }
+        },
+        {
+          "code": "G01R 13/04",
+          "title": {
+            "ko": "영구적으로 기록하는 장치",
+            "en": "for producing permanent records"
+          }
+        },
+        {
+          "code": "G01R 13/06",
+          "title": {
+            "ko": null,
+            "en": "Modifications for recording transient disturbances, e.g. by starting or accelerating a recording medium"
+          }
+        },
+        {
+          "code": "G01R 13/08",
+          "title": {
+            "ko": null,
+            "en": "Electromechanical recording system using a mechanical direct-writing method"
+          }
+        },
+        {
+          "code": "G01R 13/10",
+          "title": {
+            "ko": null,
+            "en": "with intermittent recording by representing the variable by the length of a stroke or by the position of a dot"
+          }
+        },
+        {
+          "code": "G01R 13/12",
+          "title": {
+            "ko": "화학적 기록 예. 클라이도노그래프(G01R 13/14가 우선)",
+            "en": "Chemical recording, e.g. clydonographs (G01R0013140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 13/14",
+          "title": {
+            "ko": null,
+            "en": "Recording on a light-sensitive material"
+          }
+        },
+        {
+          "code": "G01R 13/16",
+          "title": {
+            "ko": null,
+            "en": "Recording on a magnetic medium"
+          }
+        },
+        {
+          "code": "G01R 13/18",
+          "title": {
+            "ko": null,
+            "en": "using boundary displacement"
+          }
+        },
+        {
+          "code": "G01R 13/20",
+          "title": {
+            "ko": null,
+            "en": "Cathode-ray oscilloscopes"
+          }
+        },
+        {
+          "code": "G01R 13/22",
+          "title": {
+            "ko": null,
+            "en": "Circuits therefor"
+          }
+        },
+        {
+          "code": "G01R 13/24",
+          "title": {
+            "ko": null,
+            "en": "Time-base deflection circuits"
+          }
+        },
+        {
+          "code": "G01R 13/26",
+          "title": {
+            "ko": null,
+            "en": "Circuits for controlling the intensity of the electron beam"
+          }
+        },
+        {
+          "code": "G01R 13/28",
+          "title": {
+            "ko": null,
+            "en": "Circuits for simultaneous or sequential presentation of more than one variable"
+          }
+        },
+        {
+          "code": "G01R 13/30",
+          "title": {
+            "ko": null,
+            "en": "Circuits for inserting reference markers, e.g. for timing, for calibrating, for frequency marking"
+          }
+        },
+        {
+          "code": "G01R 13/32",
+          "title": {
+            "ko": null,
+            "en": "Circuits for displaying non-recurrent functions such as transients; Circuits for triggering; Circuits for synchronisation; Circuits for time-base expansion"
+          }
+        },
+        {
+          "code": "G01R 13/34",
+          "title": {
+            "ko": null,
+            "en": "Circuits for representing a single waveform by sampling, e.g. for very high frequencies"
+          }
+        },
+        {
+          "code": "G01R 13/36",
+          "title": {
+            "ko": null,
+            "en": "using length of glow discharge, e.g. glowlight oscilloscopes"
+          }
+        },
+        {
+          "code": "G01R 13/38",
+          "title": {
+            "ko": null,
+            "en": "using the steady or oscillatory displacement of a light beam by an electromechanical measuring system"
+          }
+        },
+        {
+          "code": "G01R 13/40",
+          "title": {
+            "ko": null,
+            "en": "using modulation of a light beam otherwise than by mechanical displacement, e.g. by Kerr effect"
+          }
+        },
+        {
+          "code": "G01R 13/42",
+          "title": {
+            "ko": null,
+            "en": "Instruments using length of spark discharge, e.g. by measuring maximum separation of electrodes to produce spark"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 15/00",
+      "title": {
+        "ko": "그룹 17/00에서 29/00, 33/00에서 33/26 또는 35/00에 정한 형식의 측정 장치의 세부",
+        "en": "Details of measuring arrangements of the types provided for in groups G01R0017000000-G01R0029000000, G01R0033000000-G01R0033260000 or G01R0035000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 15/04",
+          "title": {
+            "ko": null,
+            "en": "Voltage dividers"
+          }
+        },
+        {
+          "code": "G01R 15/06",
+          "title": {
+            "ko": null,
+            "en": "having reactive components, e.g. capacitive transformer"
+          }
+        },
+        {
+          "code": "G01R 15/08",
+          "title": {
+            "ko": null,
+            "en": "Circuits for altering the measuring range"
+          }
+        },
+        {
+          "code": "G01R 15/09",
+          "title": {
+            "ko": null,
+            "en": "Autoranging circuits"
+          }
+        },
+        {
+          "code": "G01R 15/12",
+          "title": {
+            "ko": null,
+            "en": "Circuits for multi-testers, e.g. for measuring voltage, current, or impedance at will"
+          }
+        },
+        {
+          "code": "G01R 15/14",
+          "title": {
+            "ko": null,
+            "en": "Adaptations providing voltage or current isolation, e.g. for high-voltage or high-current networks"
+          }
+        },
+        {
+          "code": "G01R 15/16",
+          "title": {
+            "ko": null,
+            "en": "using capacitive devices"
+          }
+        },
+        {
+          "code": "G01R 15/18",
+          "title": {
+            "ko": null,
+            "en": "using inductive devices, e.g. transformers"
+          }
+        },
+        {
+          "code": "G01R 15/20",
+          "title": {
+            "ko": null,
+            "en": "using galvano-magnetic devices, e.g. Hall-effect devices"
+          }
+        },
+        {
+          "code": "G01R 15/22",
+          "title": {
+            "ko": null,
+            "en": "using light-emitting devices, e.g. LED, optocouplers"
+          }
+        },
+        {
+          "code": "G01R 15/24",
+          "title": {
+            "ko": null,
+            "en": "using light-modulating devices"
+          }
+        },
+        {
+          "code": "G01R 15/26",
+          "title": {
+            "ko": null,
+            "en": "using modulation of waves other than light, e.g. radio or acoustic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 17/00",
+      "title": {
+        "ko": "참조치로 비교하는 측정장치. 예, 브릿지",
+        "en": "Measuring arrangements involving comparison with a reference value, e.g. bridge"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 17/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in which the value to be measured is automatically compared with a reference value"
+          }
+        },
+        {
+          "code": "G01R 17/04",
+          "title": {
+            "ko": null,
+            "en": "in which the reference value is continuously or periodically swept over the range of values to be measured"
+          }
+        },
+        {
+          "code": "G01R 17/06",
+          "title": {
+            "ko": null,
+            "en": "Automatic balancing arrangements"
+          }
+        },
+        {
+          "code": "G01R 17/08",
+          "title": {
+            "ko": null,
+            "en": "in which a force or torque representing the measured value is balanced by a force or torque representing the reference value"
+          }
+        },
+        {
+          "code": "G01R 17/10",
+          "title": {
+            "ko": "교류 도는 직류측정 브릿지",
+            "en": "AC or DC measuring bridges"
+          }
+        },
+        {
+          "code": "G01R 17/12",
+          "title": {
+            "ko": null,
+            "en": "using comparison of currents, e.g. bridges with differential current output"
+          }
+        },
+        {
+          "code": "G01R 17/14",
+          "title": {
+            "ko": "교정눈금 영지시계에 의해 측정치를 지시하는 것 예. 백분률 브리지, 허용차 브리지(G01R 17/12, G01R 17/16이 우선)",
+            "en": "with indication of measured value by calibrated null indicator, e.g. percent bridge, tolerance bridge (G01R0017120000, G01R0017160000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 17/16",
+          "title": {
+            "ko": null,
+            "en": "with discharge tubes or semiconductor devices in one or more arms of the bridge, e.g. voltmeter using a difference amplifier"
+          }
+        },
+        {
+          "code": "G01R 17/18",
+          "title": {
+            "ko": null,
+            "en": "with more than four branches"
+          }
+        },
+        {
+          "code": "G01R 17/20",
+          "title": {
+            "ko": null,
+            "en": "AC or DC potentiometric measuring arrangements"
+          }
+        },
+        {
+          "code": "G01R 17/22",
+          "title": {
+            "ko": null,
+            "en": "with indication of measured value by calibrated null indicator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 19/00",
+      "title": {
+        "ko": "전류 또는 전압을 측정하고 또는 그것들의 부호 또는 존재를 지시하기 위한 장치 (G01R5/00이 우선; 생체의 전류 또는 전압을 측정하기 위한 것 A61B5/24)",
+        "en": "Arrangements for measuring currents or voltages or for indicating presence or sign thereof (G01R0005000000 takes precedence;for measuring bioelectric currents or voltages A61B0005240000)"
+      },
+      "definition": {
+        "ko": "그룹 G01R19/02 ~ G01R19/32 내에서, 그룹 G01R19/28이 우선함. 그룹 G01R19/18 ~ G01R19/25는 G01R19/02 ~ G01R19/165 및 G01R19/30에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01R 19/02",
+          "title": {
+            "ko": null,
+            "en": "Measuring effective values, i.e. root-mean-square values"
+          }
+        },
+        {
+          "code": "G01R 19/03",
+          "title": {
+            "ko": null,
+            "en": "using thermoconverters"
+          }
+        },
+        {
+          "code": "G01R 19/04",
+          "title": {
+            "ko": null,
+            "en": "Measuring peak values of AC or of pulses"
+          }
+        },
+        {
+          "code": "G01R 19/06",
+          "title": {
+            "ko": null,
+            "en": "Measuring real component; Measuring reactive component"
+          }
+        },
+        {
+          "code": "G01R 19/08",
+          "title": {
+            "ko": null,
+            "en": "Measuring current density"
+          }
+        },
+        {
+          "code": "G01R 19/10",
+          "title": {
+            "ko": null,
+            "en": "Measuring sum, difference, or ratio"
+          }
+        },
+        {
+          "code": "G01R 19/12",
+          "title": {
+            "ko": null,
+            "en": "Measuring rate of change"
+          }
+        },
+        {
+          "code": "G01R 19/14",
+          "title": {
+            "ko": null,
+            "en": "Indicating direction of current; Indicating polarity of voltage"
+          }
+        },
+        {
+          "code": "G01R 19/145",
+          "title": {
+            "ko": null,
+            "en": "Indicating the presence of current or voltage"
+          }
+        },
+        {
+          "code": "G01R 19/15",
+          "title": {
+            "ko": null,
+            "en": "Indicating the presence of current"
+          }
+        },
+        {
+          "code": "G01R 19/155",
+          "title": {
+            "ko": null,
+            "en": "Indicating the presence of voltage"
+          }
+        },
+        {
+          "code": "G01R 19/165",
+          "title": {
+            "ko": null,
+            "en": "Indicating that current or voltage is either above or below a predetermined value or within or outside a predetermined range of values"
+          }
+        },
+        {
+          "code": "G01R 19/17",
+          "title": {
+            "ko": null,
+            "en": "giving an indication of the number of times this occurs"
+          }
+        },
+        {
+          "code": "G01R 19/175",
+          "title": {
+            "ko": null,
+            "en": "Indicating the instants of passage of current or voltage through a given value, e.g. passage through zero"
+          }
+        },
+        {
+          "code": "G01R 19/18",
+          "title": {
+            "ko": null,
+            "en": "using conversion of DC into AC, e.g. with choppers"
+          }
+        },
+        {
+          "code": "G01R 19/20",
+          "title": {
+            "ko": null,
+            "en": "using transductors"
+          }
+        },
+        {
+          "code": "G01R 19/22",
+          "title": {
+            "ko": null,
+            "en": "using conversion of AC into DC"
+          }
+        },
+        {
+          "code": "G01R 19/25",
+          "title": {
+            "ko": null,
+            "en": "using digital measurement techniques"
+          }
+        },
+        {
+          "code": "G01R 19/252",
+          "title": {
+            "ko": null,
+            "en": "using analogue/digital converters of the type with conversion of voltage or current into frequency and measuring of this frequency"
+          }
+        },
+        {
+          "code": "G01R 19/255",
+          "title": {
+            "ko": null,
+            "en": "using analogue/digital converters of the type with counting of pulses during a period of time proportional to voltage or current, delivered by a pulse generator with fixed frequency"
+          }
+        },
+        {
+          "code": "G01R 19/257",
+          "title": {
+            "ko": null,
+            "en": "using analogue/digital converters of the type with comparison of different reference values with the value of voltage or current, e.g. using step-by-step method"
+          }
+        },
+        {
+          "code": "G01R 19/28",
+          "title": {
+            "ko": null,
+            "en": "adapted for measuring in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 19/30",
+          "title": {
+            "ko": "어떤 시간간격으로 도달한 전류 또는 전압의 최대치 또는 최소치의 측정(G01R 19/04 우선)",
+            "en": "Measuring the maximum or the minimum value of current or voltage reached in a time interval (G01R0019040000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 19/32",
+          "title": {
+            "ko": null,
+            "en": "Compensating for temperature change"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 21/00",
+      "title": {
+        "ko": "전력 또는 역률의 측정장치(G01R 7/12가 우선)",
+        "en": "Arrangements for measuring electric power or power factor (G01R0007120000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 21/01",
+          "title": {
+            "ko": "분포정수회로에 있어서의 것(G01R 21/04, G01R 21/07, G01R 21/09, G01R 21/12가 우선)",
+            "en": "in circuits having distributed constants (G01R0021040000, G01R0021070000, G01R0021090000, G01R0021120000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 21/02",
+          "title": {
+            "ko": null,
+            "en": "by thermal methods"
+          }
+        },
+        {
+          "code": "G01R 21/04",
+          "title": {
+            "ko": null,
+            "en": "in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 21/06",
+          "title": {
+            "ko": "전류 및 전압의 측정에 의한 것(G01R 21/08 ～ G01R 21/133이 우선)",
+            "en": "by measuring current and voltage (G01R0021080000-G01R0021133000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 21/07",
+          "title": {
+            "ko": "분포정수회로에 있어서의 것(G01R 21/09가 우선)",
+            "en": "in circuits having distributed constants (G01R0021090000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 21/08",
+          "title": {
+            "ko": null,
+            "en": "by using galvanomagnetic-effect devices, e.g. Hall-effect devices"
+          }
+        },
+        {
+          "code": "G01R 21/09",
+          "title": {
+            "ko": null,
+            "en": "in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 21/10",
+          "title": {
+            "ko": "알고있는 임피이던스 부하에 의하여 흡수되는 전력을 측정하기 위한 회로소자, 예. 디이오우드, 의 자승특성을 사용하는 것(G01R 21/02가 우선)",
+            "en": "by using square-law characteristics of circuit elements, e.g. diodes, to measure power absorbed by loads of known impedance (G01R0021020000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 21/12",
+          "title": {
+            "ko": null,
+            "en": "in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 21/127",
+          "title": {
+            "ko": "펄스변조를 사용하는 것(G01R 21/133이 우선)",
+            "en": "by using pulse modulation (G01R0021133000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 21/133",
+          "title": {
+            "ko": null,
+            "en": "by using digital technique"
+          }
+        },
+        {
+          "code": "G01R 21/14",
+          "title": {
+            "ko": null,
+            "en": "Compensating for temperature change"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 22/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for measuring time integral of electric power or current, e.g. electricity meters"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 22/02",
+          "title": {
+            "ko": null,
+            "en": "by electrolytic methods"
+          }
+        },
+        {
+          "code": "G01R 22/04",
+          "title": {
+            "ko": null,
+            "en": "by calorimetric methods"
+          }
+        },
+        {
+          "code": "G01R 22/06",
+          "title": {
+            "ko": null,
+            "en": "by electronic methods"
+          }
+        },
+        {
+          "code": "G01R 22/08",
+          "title": {
+            "ko": null,
+            "en": "using analogue techniques"
+          }
+        },
+        {
+          "code": "G01R 22/10",
+          "title": {
+            "ko": null,
+            "en": "using digital techniques"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 23/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for measuring frequencies; Arrangements for analysing frequency spectra"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 23/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for measuring frequency, e.g. pulse repetition rate; Arrangements for measuring period of current or voltage"
+          }
+        },
+        {
+          "code": "G01R 23/04",
+          "title": {
+            "ko": null,
+            "en": "adapted for measuring in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 23/06",
+          "title": {
+            "ko": null,
+            "en": "by converting frequency into an amplitude of current or voltage"
+          }
+        },
+        {
+          "code": "G01R 23/07",
+          "title": {
+            "ko": null,
+            "en": "using response of circuits tuned on resonance, e.g. grid-drip meter"
+          }
+        },
+        {
+          "code": "G01R 23/08",
+          "title": {
+            "ko": null,
+            "en": "using response of circuits tuned off resonance"
+          }
+        },
+        {
+          "code": "G01R 23/09",
+          "title": {
+            "ko": null,
+            "en": "using analogue integrators, e.g. capacitors establishing a mean value by balance of input signals and defined discharge signals or leakage"
+          }
+        },
+        {
+          "code": "G01R 23/10",
+          "title": {
+            "ko": null,
+            "en": "by converting frequency into a train of pulses, which are then counted"
+          }
+        },
+        {
+          "code": "G01R 23/12",
+          "title": {
+            "ko": null,
+            "en": "by converting frequency into phase shift"
+          }
+        },
+        {
+          "code": "G01R 23/14",
+          "title": {
+            "ko": null,
+            "en": "by heterodyning; by beat-frequency comparison"
+          }
+        },
+        {
+          "code": "G01R 23/15",
+          "title": {
+            "ko": null,
+            "en": "Indicating that frequency of pulses is either above or below a predetermined value or within or outside a predetermined range of values, by making use of non-linear or digital elements"
+          }
+        },
+        {
+          "code": "G01R 23/16",
+          "title": {
+            "ko": null,
+            "en": "Spectrum analysis; Fourier analysis"
+          }
+        },
+        {
+          "code": "G01R 23/163",
+          "title": {
+            "ko": null,
+            "en": "adapted for measuring in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 23/165",
+          "title": {
+            "ko": null,
+            "en": "using filters"
+          }
+        },
+        {
+          "code": "G01R 23/167",
+          "title": {
+            "ko": null,
+            "en": "with digital filters"
+          }
+        },
+        {
+          "code": "G01R 23/17",
+          "title": {
+            "ko": null,
+            "en": "with optical auxiliary devices"
+          }
+        },
+        {
+          "code": "G01R 23/173",
+          "title": {
+            "ko": null,
+            "en": "Wobbulating devices similar to swept panoramic receivers"
+          }
+        },
+        {
+          "code": "G01R 23/175",
+          "title": {
+            "ko": null,
+            "en": "by delay means, e.g. tapped delay lines"
+          }
+        },
+        {
+          "code": "G01R 23/177",
+          "title": {
+            "ko": null,
+            "en": "Analysis of very low frequencies"
+          }
+        },
+        {
+          "code": "G01R 23/18",
+          "title": {
+            "ko": null,
+            "en": "with provision for recording frequency spectrum"
+          }
+        },
+        {
+          "code": "G01R 23/20",
+          "title": {
+            "ko": null,
+            "en": "Measurement of non-linear distortion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 25/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for measuring phase angle between a voltage and a current or between voltages or currents"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 25/02",
+          "title": {
+            "ko": null,
+            "en": "in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 25/04",
+          "title": {
+            "ko": null,
+            "en": "involving adjustment of a phase shifter to produce a predetermined phase difference, e.g. zero difference"
+          }
+        },
+        {
+          "code": "G01R 25/06",
+          "title": {
+            "ko": null,
+            "en": "employing quotient instrument"
+          }
+        },
+        {
+          "code": "G01R 25/08",
+          "title": {
+            "ko": null,
+            "en": "by counting of standard pulses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 27/00",
+      "title": {
+        "ko": "저항, 리액턴스, 임피던스 또는 그것으로부터 파생되는 전기적 특성을 측정하는 장치",
+        "en": "Arrangements for measuring resistance, reactance, impedance, or electric characteristics derived therefrom"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 27/02",
+          "title": {
+            "ko": "실수 또는 복소저항, 리액턴스, 임피던스 또는 그것으로부터 유도되는 이단자 특성, 예. 시정수,을 측정하는 것(위상각만의 측정에 의한 것 G01R 25/00)",
+            "en": "Measuring real or complex resistance, reactance, impedance, or other two-pole characteristics derived therefrom, e.g. time constant (by measuring phase angle only G01R0025000000)"
+          }
+        },
+        {
+          "code": "G01R 27/04",
+          "title": {
+            "ko": null,
+            "en": "in circuits having distributed constants"
+          }
+        },
+        {
+          "code": "G01R 27/06",
+          "title": {
+            "ko": null,
+            "en": "Measuring reflection coefficients; Measuring standing-wave ratio"
+          }
+        },
+        {
+          "code": "G01R 27/08",
+          "title": {
+            "ko": null,
+            "en": "Measuring resistance by measuring both voltage and current"
+          }
+        },
+        {
+          "code": "G01R 27/10",
+          "title": {
+            "ko": null,
+            "en": "using two-coil or crossed-coil instruments forming quotient"
+          }
+        },
+        {
+          "code": "G01R 27/12",
+          "title": {
+            "ko": null,
+            "en": "using hand generators, e.g. meggers"
+          }
+        },
+        {
+          "code": "G01R 27/14",
+          "title": {
+            "ko": "참조전원에서 얻어진 전류 또는 전압의 측정에 의한 저항의 측정(G01R 27/16, G01R 27/20, G01R 27/22가 우선)",
+            "en": "Measuring resistance by measuring current or voltage obtained from a reference source (G01R0027160000, G01R0027200000, G01R0027220000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 27/16",
+          "title": {
+            "ko": null,
+            "en": "Measuring impedance of element or network through which a current is passing from another source, e.g. cable, power line"
+          }
+        },
+        {
+          "code": "G01R 27/18",
+          "title": {
+            "ko": null,
+            "en": "Measuring resistance to earth"
+          }
+        },
+        {
+          "code": "G01R 27/20",
+          "title": {
+            "ko": null,
+            "en": "Measuring earth resistance; Measuring contact resistance of earth connections, e.g. plates"
+          }
+        },
+        {
+          "code": "G01R 27/22",
+          "title": {
+            "ko": null,
+            "en": "Measuring resistance of fluids"
+          }
+        },
+        {
+          "code": "G01R 27/26",
+          "title": {
+            "ko": null,
+            "en": "Measuring inductance or capacitance; Measuring quality factor, e.g. by using the resonance method; Measuring loss factor; Measuring dielectric constants"
+          }
+        },
+        {
+          "code": "G01R 27/28",
+          "title": {
+            "ko": "감쇠, 이득, 이상 또는 4단자 회로망(four-pole network) 즉 2단자쌍 회로망(two-port network) 으로부터 파생되는 특성의 측정; 과도응답의 측정(유선전송시스템에 있어서의 것 H04B 3/46)",
+            "en": "Measuring attenuation, gain, phase shift, or derived characteristics of electric four-pole networks, i.e. two-port networks; Measuring transient response (in line transmission systems H04B0003460000)"
+          }
+        },
+        {
+          "code": "G01R 27/30",
+          "title": {
+            "ko": null,
+            "en": "with provision for recording characteristics, e.g. by plotting Nyquist diagram"
+          }
+        },
+        {
+          "code": "G01R 27/32",
+          "title": {
+            "ko": null,
+            "en": "in circuits having distributed constants"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 29/00",
+      "title": {
+        "ko": "19/00 ～ 27/00까지의 그룹에 포함되지 않는 전기량을 지시하고 또는 측정하는 장치",
+        "en": "Arrangements for measuring or indicating electric quantities not covered by groups G01R0019000000-G01R0027000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 29/02",
+          "title": {
+            "ko": null,
+            "en": "Measuring characteristics of individual pulses, e.g. deviation from pulse flatness, rise time or duration"
+          }
+        },
+        {
+          "code": "G01R 29/027",
+          "title": {
+            "ko": null,
+            "en": "Indicating that a pulse characteristic is either above or below a predetermined value or within or beyond a predetermined range of values"
+          }
+        },
+        {
+          "code": "G01R 29/033",
+          "title": {
+            "ko": null,
+            "en": "giving an indication of the number of times this occurs"
+          }
+        },
+        {
+          "code": "G01R 29/04",
+          "title": {
+            "ko": null,
+            "en": "Measuring form factor, i.e. quotient of root-mean-square value and arithmetic mean of instantaneous value; Measuring peak factor, i.e. quotient of maximum value and root-mean-square value"
+          }
+        },
+        {
+          "code": "G01R 29/06",
+          "title": {
+            "ko": null,
+            "en": "Measuring depth of modulation"
+          }
+        },
+        {
+          "code": "G01R 29/08",
+          "title": {
+            "ko": null,
+            "en": "Measuring electromagnetic field characteristics"
+          }
+        },
+        {
+          "code": "G01R 29/10",
+          "title": {
+            "ko": null,
+            "en": "Radiation diagrams of antennas"
+          }
+        },
+        {
+          "code": "G01R 29/12",
+          "title": {
+            "ko": null,
+            "en": "Measuring electrostatic fields"
+          }
+        },
+        {
+          "code": "G01R 29/14",
+          "title": {
+            "ko": null,
+            "en": "Measuring field distribution"
+          }
+        },
+        {
+          "code": "G01R 29/16",
+          "title": {
+            "ko": null,
+            "en": "Measuring asymmetry of polyphase networks"
+          }
+        },
+        {
+          "code": "G01R 29/18",
+          "title": {
+            "ko": null,
+            "en": "Indicating phase sequence; Indicating synchronism"
+          }
+        },
+        {
+          "code": "G01R 29/20",
+          "title": {
+            "ko": null,
+            "en": "Measuring number of turns; Measuring transformation ratio or coupling factor of windings"
+          }
+        },
+        {
+          "code": "G01R 29/22",
+          "title": {
+            "ko": null,
+            "en": "Measuring piezoelectric properties"
+          }
+        },
+        {
+          "code": "G01R 29/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for measuring quantities of charge"
+          }
+        },
+        {
+          "code": "G01R 29/26",
+          "title": {
+            "ko": null,
+            "en": "Measuring noise figure; Measuring signal-to-noise ratio"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 31/00",
+      "title": {
+        "ko": "전기적 특성을 시험하기 위한 장치; 전기적 결함을 찾기 위한 장치; 달리 분류 되지 않는 시험 대상에 특징이 있는 전기적 시험을 위한 장치 (제조중의 반도체나 고체소자의 시험 또는 측정 H01L21/66; 유선 전송시스템의 시험 H04B3/46)",
+        "en": "Arrangements for testing electric properties; Arrangements for locating electric faults; Arrangements for electrical testing characterised by what is being tested not provided for elsewhere  (testing or measuring semiconductors or solid state devices during manufacture H10P0074000000; testing line transmission systems H04B0003460000)"
+      },
+      "definition": {
+        "ko": "그룹 G01R31/08, G01R31/12, G01R31/24, G01R31/26, G01R31/327, G01R31/34, G01R31/36, G01R31/40, G01R31/44가 그룹 G01R31/50보다 우선한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01R 31/01",
+          "title": {
+            "ko": "유사 물품을 순차로 시험하는 것, 예. 대량 생산에 있어서의 합격 및 불합격(go/no-go) 시험; 물건이 시험장소를 통과할 때 각 지점에서의 물건에 대한 시험 (시험 장치를 연속적으로 통과하는 케이블 시험 G01R31/59; 절연 강도 또는 항복 전압 시험 G01R31/12)",
+            "en": "Subjecting similar articles in turn to test, e.g. \"go/no-go\" tests in mass production; Testing objects at points as they pass through a testing station   (testing of cables continuously passing the testing apparatus G01R0031590000;testing dielectric strength or breakdown voltage G01R0031120000)"
+          }
+        },
+        {
+          "code": "G01R 31/08",
+          "title": {
+            "ko": null,
+            "en": "Locating faults in cables, transmission lines, or networks"
+          }
+        },
+        {
+          "code": "G01R 31/10",
+          "title": {
+            "ko": null,
+            "en": "by increasing destruction at fault, e.g. burning-in by using a pulse generator operating a special programme"
+          }
+        },
+        {
+          "code": "G01R 31/11",
+          "title": {
+            "ko": null,
+            "en": "using pulse-reflection methods"
+          }
+        },
+        {
+          "code": "G01R 31/12",
+          "title": {
+            "ko": null,
+            "en": "Testing dielectric strength or breakdown voltage"
+          }
+        },
+        {
+          "code": "G01R 31/14",
+          "title": {
+            "ko": null,
+            "en": "Circuits therefor"
+          }
+        },
+        {
+          "code": "G01R 31/16",
+          "title": {
+            "ko": null,
+            "en": "Construction of testing vessels; Electrodes therefor"
+          }
+        },
+        {
+          "code": "G01R 31/18",
+          "title": {
+            "ko": null,
+            "en": "Subjecting similar articles in turn to test, e.g. \"go/no-go\" tests in mass production"
+          }
+        },
+        {
+          "code": "G01R 31/20",
+          "title": {
+            "ko": null,
+            "en": "Preparation of articles or specimens to facilitate testing"
+          }
+        },
+        {
+          "code": "G01R 31/24",
+          "title": {
+            "ko": "방전관의 시험(제조중인 것 H01J9/42)",
+            "en": "Testing of discharge tubes (during manufacture H01J0009420000)"
+          }
+        },
+        {
+          "code": "G01R 31/25",
+          "title": {
+            "ko": null,
+            "en": "Testing of vacuum tubes"
+          }
+        },
+        {
+          "code": "G01R 31/26",
+          "title": {
+            "ko": "개별 반도체 소자의 시험 (제조 또는 처리 동안의 시험 또는 측정 H10P74/00; 태양광 장치의 시험 H02S50/10)",
+            "en": "Testing of individual semiconductor devices  (testing or measuring during manufacture or treatment H10P0074000000; testing of photovoltaic devices H02S0050100000)"
+          }
+        },
+        {
+          "code": "G01R 31/265",
+          "title": {
+            "ko": null,
+            "en": "Contactless testing"
+          }
+        },
+        {
+          "code": "G01R 31/27",
+          "title": {
+            "ko": null,
+            "en": "Testing of devices without physical removal from the circuit of which they form part, e.g. compensating for effects due to surrounding elements"
+          }
+        },
+        {
+          "code": "G01R 31/28",
+          "title": {
+            "ko": "전자회로의 시험, 예. 신호추적기에 의한 것(가동되지 않는 시간 또는 대기 동작중의 컴퓨터 시험 G06F 11/22)",
+            "en": "Testing of electronic circuits, e.g. by signal tracer (testing computers during standby operation or idle time G06F0011220000)"
+          }
+        },
+        {
+          "code": "G01R 31/30",
+          "title": {
+            "ko": "한계시험, 예. 공급전압을 변경함에 의한 것(가동되지 않는 시간 또는 대기 동작중의 컴퓨터 시험 G06F 11/22)",
+            "en": "Marginal testing, e.g. by varying supply voltage (testing computers during standby operation or idle time G06F0011220000)"
+          }
+        },
+        {
+          "code": "G01R 31/302",
+          "title": {
+            "ko": "비접촉 시험",
+            "en": "Contactless testing"
+          }
+        },
+        {
+          "code": "G01R 31/303",
+          "title": {
+            "ko": "집적회로에 관한 것(G01R 31/305 ～ G01R 31/315가 우선)",
+            "en": "of integrated circuits (G01R0031305000-G01R0031315000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 31/304",
+          "title": {
+            "ko": "인쇄회로 혹은 하이브리드회로에 관한 것(G01R 31/305 ～ G01R 31/315가 우선)",
+            "en": "of printed or hybrid circuits (G01R0031305000-G01R0031315000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 31/305",
+          "title": {
+            "ko": null,
+            "en": "using electron beams"
+          }
+        },
+        {
+          "code": "G01R 31/306",
+          "title": {
+            "ko": null,
+            "en": "of printed or hybrid circuits"
+          }
+        },
+        {
+          "code": "G01R 31/307",
+          "title": {
+            "ko": null,
+            "en": "of integrated circuits"
+          }
+        },
+        {
+          "code": "G01R 31/308",
+          "title": {
+            "ko": null,
+            "en": "using non-ionising electromagnetic radiation, e.g. optical radiation"
+          }
+        },
+        {
+          "code": "G01R 31/309",
+          "title": {
+            "ko": null,
+            "en": "of printed or hybrid circuits"
+          }
+        },
+        {
+          "code": "G01R 31/311",
+          "title": {
+            "ko": null,
+            "en": "of integrated circuits"
+          }
+        },
+        {
+          "code": "G01R 31/312",
+          "title": {
+            "ko": null,
+            "en": "by capacitive methods"
+          }
+        },
+        {
+          "code": "G01R 31/315",
+          "title": {
+            "ko": null,
+            "en": "by inductive methods"
+          }
+        },
+        {
+          "code": "G01R 31/316",
+          "title": {
+            "ko": null,
+            "en": "Testing of analog circuits"
+          }
+        },
+        {
+          "code": "G01R 31/3161",
+          "title": {
+            "ko": null,
+            "en": "Marginal testing"
+          }
+        },
+        {
+          "code": "G01R 31/3163",
+          "title": {
+            "ko": null,
+            "en": "Functional testing"
+          }
+        },
+        {
+          "code": "G01R 31/3167",
+          "title": {
+            "ko": null,
+            "en": "Testing of combined analog and digital circuits"
+          }
+        },
+        {
+          "code": "G01R 31/317",
+          "title": {
+            "ko": "디지탈 회로의 시험",
+            "en": "Testing of digital circuits"
+          }
+        },
+        {
+          "code": "G01R 31/3173",
+          "title": {
+            "ko": null,
+            "en": "Marginal testing"
+          }
+        },
+        {
+          "code": "G01R 31/3177",
+          "title": {
+            "ko": null,
+            "en": "Testing of logic operation, e.g. by logic analysers"
+          }
+        },
+        {
+          "code": "G01R 31/3181",
+          "title": {
+            "ko": "기능시험(G01R31/3177이 우선)",
+            "en": "Functional testing (G01R0031317700 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 31/3183",
+          "title": {
+            "ko": null,
+            "en": "Generation of test inputs, e.g. test vectors, patterns or sequences"
+          }
+        },
+        {
+          "code": "G01R 31/3185",
+          "title": {
+            "ko": null,
+            "en": "Reconfiguring for testing, e.g. LSSD, partitioning"
+          }
+        },
+        {
+          "code": "G01R 31/3187",
+          "title": {
+            "ko": null,
+            "en": "Built-in tests"
+          }
+        },
+        {
+          "code": "G01R 31/319",
+          "title": {
+            "ko": null,
+            "en": "Tester hardware, i.e. output processing circuits"
+          }
+        },
+        {
+          "code": "G01R 31/3193",
+          "title": {
+            "ko": null,
+            "en": "with comparison between actual response and known fault-free response"
+          }
+        },
+        {
+          "code": "G01R 31/327",
+          "title": {
+            "ko": null,
+            "en": "Testing of circuit interrupters, switches or circuit-breakers"
+          }
+        },
+        {
+          "code": "G01R 31/333",
+          "title": {
+            "ko": null,
+            "en": "Testing of the switching capacity of high-voltage circuit-breakers"
+          }
+        },
+        {
+          "code": "G01R 31/34",
+          "title": {
+            "ko": null,
+            "en": "Testing dynamo-electric machines"
+          }
+        },
+        {
+          "code": "G01R 31/36",
+          "title": {
+            "ko": "축전지 또는 전기 배터리의 전기적 상태를 시험, 측정 또는 모니터링하는 장치, 예. 용량 또는 충전상태[SoC]",
+            "en": "Arrangements for testing, measuring or monitoring the electrical condition of accumulators or electric batteries, e.g. capacity or state of charge [SoC]"
+          }
+        },
+        {
+          "code": "G01R 31/364",
+          "title": {
+            "ko": null,
+            "en": "Battery terminal connectors with integrated measuring arrangements"
+          }
+        },
+        {
+          "code": "G01R 31/367",
+          "title": {
+            "ko": null,
+            "en": "Software therefor, e.g. for battery testing using modelling or look-up tables"
+          }
+        },
+        {
+          "code": "G01R 31/371",
+          "title": {
+            "ko": null,
+            "en": "with remote indication, e.g. on external chargers"
+          }
+        },
+        {
+          "code": "G01R 31/374",
+          "title": {
+            "ko": null,
+            "en": "with means for correcting the measurement for temperature or ageing"
+          }
+        },
+        {
+          "code": "G01R 31/378",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for the type of battery or accumulator"
+          }
+        },
+        {
+          "code": "G01R 31/379",
+          "title": {
+            "ko": null,
+            "en": "for lead-acid batteries"
+          }
+        },
+        {
+          "code": "G01R 31/382",
+          "title": {
+            "ko": "배터리 또는 축전지 변수를 모니터링하기 위한 장치, 예. SoC",
+            "en": "Arrangements for monitoring battery or accumulator variables, e.g. SoC"
+          }
+        },
+        {
+          "code": "G01R 31/3828",
+          "title": {
+            "ko": null,
+            "en": "using current integration"
+          }
+        },
+        {
+          "code": "G01R 31/3832",
+          "title": {
+            "ko": null,
+            "en": "without measurement of battery voltage"
+          }
+        },
+        {
+          "code": "G01R 31/3835",
+          "title": {
+            "ko": null,
+            "en": "involving only voltage measurements"
+          }
+        },
+        {
+          "code": "G01R 31/3842",
+          "title": {
+            "ko": "전압과 전류 측정의 결합",
+            "en": "combining voltage and current measurements"
+          }
+        },
+        {
+          "code": "G01R 31/385",
+          "title": {
+            "ko": "배터리 또는 축전지 변수 측정을 위한 장치(모니터링을 위한 것 G01R31/382)",
+            "en": "Arrangements for measuring battery or accumulator variables  (for monitoring G01R0031382000)"
+          }
+        },
+        {
+          "code": "G01R 31/387",
+          "title": {
+            "ko": null,
+            "en": "Determining ampere-hour charge capacity or SoC"
+          }
+        },
+        {
+          "code": "G01R 31/388",
+          "title": {
+            "ko": null,
+            "en": "involving voltage measurements"
+          }
+        },
+        {
+          "code": "G01R 31/389",
+          "title": {
+            "ko": null,
+            "en": "Measuring internal impedance, internal conductance or related variables"
+          }
+        },
+        {
+          "code": "G01R 31/392",
+          "title": {
+            "ko": null,
+            "en": "Determining battery ageing or deterioration, e.g. state of health"
+          }
+        },
+        {
+          "code": "G01R 31/396",
+          "title": {
+            "ko": null,
+            "en": "Acquisition or processing of data for testing or for monitoring individual cells or groups of cells within a battery"
+          }
+        },
+        {
+          "code": "G01R 31/40",
+          "title": {
+            "ko": "전원공급기의 시험 (태양광 장치의 시험 H02S50/10)",
+            "en": "Testing power supplies (testing photovoltaic devices H02S0050100000)"
+          }
+        },
+        {
+          "code": "G01R 31/42",
+          "title": {
+            "ko": null,
+            "en": "AC power supplies"
+          }
+        },
+        {
+          "code": "G01R 31/44",
+          "title": {
+            "ko": null,
+            "en": "Testing lamps"
+          }
+        },
+        {
+          "code": "G01R 31/50",
+          "title": {
+            "ko": "단락, 연속성, 누설 전류 또는 잘못된 라인 연결에 대한 전기 장치, 라인, 케이블 또는 구성 요소의 시험 (스파킹 플러그(점화 플러그)의 시험 H01T13/58)",
+            "en": "Testing of electric apparatus, lines, cables or components for short-circuits, continuity, leakage current or incorrect line connections (testing of sparking plugs H01T0013580000)"
+          }
+        },
+        {
+          "code": "G01R 31/52",
+          "title": {
+            "ko": null,
+            "en": "Testing for short-circuits, leakage current or ground faults"
+          }
+        },
+        {
+          "code": "G01R 31/54",
+          "title": {
+            "ko": null,
+            "en": "Testing for continuity"
+          }
+        },
+        {
+          "code": "G01R 31/55",
+          "title": {
+            "ko": null,
+            "en": "Testing for incorrect line connections"
+          }
+        },
+        {
+          "code": "G01R 31/56",
+          "title": {
+            "ko": "전기 장치 시험 (변압기 시험 G01R31/62; 연결 시험 G01R31/66)",
+            "en": "Testing of electric apparatus (testing of transformers G01R0031620000;testing of connections G01R0031660000)"
+          }
+        },
+        {
+          "code": "G01R 31/58",
+          "title": {
+            "ko": "라인, 케이블 또는 도체 시험 (전기 권선 시험 G01R31/72)",
+            "en": "Testing of lines, cables or conductors (testing of electric windings G01R0031720000)"
+          }
+        },
+        {
+          "code": "G01R 31/59",
+          "title": {
+            "ko": null,
+            "en": "while the cable continuously passes the testing apparatus, e.g. during manufacture"
+          }
+        },
+        {
+          "code": "G01R 31/60",
+          "title": {
+            "ko": null,
+            "en": "Identification of wires in a multicore cable"
+          }
+        },
+        {
+          "code": "G01R 31/62",
+          "title": {
+            "ko": null,
+            "en": "Testing of transformers"
+          }
+        },
+        {
+          "code": "G01R 31/64",
+          "title": {
+            "ko": null,
+            "en": "Testing of capacitors"
+          }
+        },
+        {
+          "code": "G01R 31/66",
+          "title": {
+            "ko": "연결 시험. 예. 플러그 또는 분리할 수 없는 조인트 (잘못된 라인 연결 시험 G01R31/55)",
+            "en": "Testing of connections, e.g. of plugs or non-disconnectable joints  (testing for incorrect line connections G01R0031550000)"
+          }
+        },
+        {
+          "code": "G01R 31/67",
+          "title": {
+            "ko": null,
+            "en": "Testing the correctness of wire connections in electric apparatus or circuits"
+          }
+        },
+        {
+          "code": "G01R 31/68",
+          "title": {
+            "ko": null,
+            "en": "Testing of releasable connections, e.g. of terminals mounted on a printed circuit board"
+          }
+        },
+        {
+          "code": "G01R 31/69",
+          "title": {
+            "ko": null,
+            "en": "of terminals at the end of a cable or a wire harness; of plugs; of sockets, e.g. wall sockets or power sockets in appliances"
+          }
+        },
+        {
+          "code": "G01R 31/70",
+          "title": {
+            "ko": "구성부품과 인쇄 회로 기판 사이의 연결 시험 (G01R31/68이 우선)",
+            "en": "Testing of connections between components and printed circuit boards (G01R0031680000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 31/71",
+          "title": {
+            "ko": null,
+            "en": "Testing of solder joints"
+          }
+        },
+        {
+          "code": "G01R 31/72",
+          "title": {
+            "ko": "전기 권선 시험 (변압기 시험 G01R31/62)",
+            "en": "Testing of electric windings  (testing of transformers G01R0031620000)"
+          }
+        },
+        {
+          "code": "G01R 31/74",
+          "title": {
+            "ko": null,
+            "en": "Testing of fuses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 33/00",
+      "title": {
+        "ko": "자기 변량을 측정하는 장치 또는 기기",
+        "en": "Arrangements or instruments for measuring magnetic variables"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 33/02",
+          "title": {
+            "ko": "자계 또는 자속의 방향 또는 크기의 측정(G01R 33/20 우선)",
+            "en": "Measuring direction or magnitude of magnetic fields or magnetic flux (G01R0033200000 takes precedence)"
+          },
+          "definition": {
+            "ko": "그룹 G01R33/022 또는 G01R33/10은 그룹 G01R33/025 ~ G01R33/06에 우선함",
+            "en": null
+          }
+        },
+        {
+          "code": "G01R 33/022",
+          "title": {
+            "ko": null,
+            "en": "Measuring gradient"
+          }
+        },
+        {
+          "code": "G01R 33/025",
+          "title": {
+            "ko": null,
+            "en": "Compensating stray fields"
+          }
+        },
+        {
+          "code": "G01R 33/028",
+          "title": {
+            "ko": null,
+            "en": "Electrodynamic magnetometers"
+          }
+        },
+        {
+          "code": "G01R 33/032",
+          "title": {
+            "ko": null,
+            "en": "using magneto-optic devices, e.g. Faraday"
+          }
+        },
+        {
+          "code": "G01R 33/035",
+          "title": {
+            "ko": null,
+            "en": "using superconductive devices"
+          }
+        },
+        {
+          "code": "G01R 33/038",
+          "title": {
+            "ko": null,
+            "en": "using permanent magnets, e.g. balances, torsion devices"
+          }
+        },
+        {
+          "code": "G01R 33/04",
+          "title": {
+            "ko": null,
+            "en": "using the flux-gate principle"
+          }
+        },
+        {
+          "code": "G01R 33/05",
+          "title": {
+            "ko": null,
+            "en": "in thin-film element"
+          }
+        },
+        {
+          "code": "G01R 33/06",
+          "title": {
+            "ko": null,
+            "en": "using galvano-magnetic devices"
+          }
+        },
+        {
+          "code": "G01R 33/07",
+          "title": {
+            "ko": null,
+            "en": "Hall-effect devices"
+          }
+        },
+        {
+          "code": "G01R 33/09",
+          "title": {
+            "ko": null,
+            "en": "Magneto-resistive devices"
+          }
+        },
+        {
+          "code": "G01R 33/10",
+          "title": {
+            "ko": null,
+            "en": "Plotting field distribution"
+          }
+        },
+        {
+          "code": "G01R 33/12",
+          "title": {
+            "ko": "고체 또는 유체의 물품 또는 시료의 자기적 특성 측정 (자기공명을 포함하는 것 G01R33/20)",
+            "en": "Measuring magnetic properties of articles or specimens of solids or fluids (involving magnetic resonance G01R0033200000)"
+          }
+        },
+        {
+          "code": "G01R 33/14",
+          "title": {
+            "ko": null,
+            "en": "Measuring or plotting hysteresis curves"
+          }
+        },
+        {
+          "code": "G01R 33/16",
+          "title": {
+            "ko": null,
+            "en": "Measuring susceptibility"
+          }
+        },
+        {
+          "code": "G01R 33/18",
+          "title": {
+            "ko": null,
+            "en": "Measuring magnetostrictive properties"
+          }
+        },
+        {
+          "code": "G01R 33/20",
+          "title": {
+            "ko": "자기공명을 포함하는 것(의학적인 면에 특징이 있는 것 A61B 5/055; 자기공명 자이로미터 G01C 19/60)",
+            "en": "involving magnetic resonance (medical aspects A61B0005055000;magnetic resonance gyrometers G01C0019600000)"
+          }
+        },
+        {
+          "code": "G01R 33/24",
+          "title": {
+            "ko": null,
+            "en": "for measuring direction or magnitude of magnetic fields or magnetic flux"
+          }
+        },
+        {
+          "code": "G01R 33/26",
+          "title": {
+            "ko": null,
+            "en": "using optical pumping"
+          }
+        },
+        {
+          "code": "G01R 33/28",
+          "title": {
+            "ko": "그룹 33/44 ～ 33/04에 적용된 장치의 세부",
+            "en": "Details of apparatus provided for in groups G01R0033440000-G01R0033640000"
+          }
+        },
+        {
+          "code": "G01R 33/30",
+          "title": {
+            "ko": null,
+            "en": "Sample handling arrangements, e.g. sample cells, spinning mechanisms"
+          }
+        },
+        {
+          "code": "G01R 33/31",
+          "title": {
+            "ko": null,
+            "en": "Temperature control thereof"
+          }
+        },
+        {
+          "code": "G01R 33/32",
+          "title": {
+            "ko": "여기 또는 검출 장치, 예. 고주파신호를 이용하는 것",
+            "en": "Excitation or detection systems, e.g. using radiofrequency signals"
+          }
+        },
+        {
+          "code": "G01R 33/34",
+          "title": {
+            "ko": "구조적 세부, 예. 공진기",
+            "en": "Constructional details, e.g. resonators"
+          }
+        },
+        {
+          "code": "G01R 33/341",
+          "title": {
+            "ko": null,
+            "en": "comprising surface coils"
+          }
+        },
+        {
+          "code": "G01R 33/3415",
+          "title": {
+            "ko": null,
+            "en": "comprising arrays of sub-coils"
+          }
+        },
+        {
+          "code": "G01R 33/343",
+          "title": {
+            "ko": null,
+            "en": "of slotted-tube or loop-gap type"
+          }
+        },
+        {
+          "code": "G01R 33/345",
+          "title": {
+            "ko": "도파관 형태의 것(33/343이 우선)",
+            "en": "of waveguide type (G01R0033343000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 33/36",
+          "title": {
+            "ko": null,
+            "en": "Electrical details, e.g. matching or coupling of the coil to the receiver"
+          }
+        },
+        {
+          "code": "G01R 33/38",
+          "title": {
+            "ko": null,
+            "en": "Systems for generation, homogenisation or stabilisation of the main or gradient magnetic field"
+          }
+        },
+        {
+          "code": "G01R 33/381",
+          "title": {
+            "ko": null,
+            "en": "using electromagnets"
+          }
+        },
+        {
+          "code": "G01R 33/3815",
+          "title": {
+            "ko": null,
+            "en": "with superconducting coils, e.g. power supply therefor"
+          }
+        },
+        {
+          "code": "G01R 33/383",
+          "title": {
+            "ko": null,
+            "en": "using permanent magnets"
+          }
+        },
+        {
+          "code": "G01R 33/385",
+          "title": {
+            "ko": null,
+            "en": "using gradient magnetic field coils"
+          }
+        },
+        {
+          "code": "G01R 33/387",
+          "title": {
+            "ko": null,
+            "en": "Compensation of inhomogeneities"
+          }
+        },
+        {
+          "code": "G01R 33/3873",
+          "title": {
+            "ko": null,
+            "en": "using ferromagnetic bodies"
+          }
+        },
+        {
+          "code": "G01R 33/3875",
+          "title": {
+            "ko": null,
+            "en": "using correction coil assemblies, e.g. active shimming"
+          }
+        },
+        {
+          "code": "G01R 33/389",
+          "title": {
+            "ko": null,
+            "en": "Field stabilisation"
+          }
+        },
+        {
+          "code": "G01R 33/42",
+          "title": {
+            "ko": null,
+            "en": "Screening"
+          }
+        },
+        {
+          "code": "G01R 33/421",
+          "title": {
+            "ko": null,
+            "en": "of main or gradient magnetic field"
+          }
+        },
+        {
+          "code": "G01R 33/422",
+          "title": {
+            "ko": null,
+            "en": "of the radiofrequency field"
+          }
+        },
+        {
+          "code": "G01R 33/44",
+          "title": {
+            "ko": "핵자기공명 [NMR]을 이용하는 것 (G01R 33/24, G01R 33/62 우선)",
+            "en": "using nuclear magnetic resonance [NMR] (G01R0033240000, G01R0033620000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 33/46",
+          "title": {
+            "ko": null,
+            "en": "NMR spectroscopy"
+          }
+        },
+        {
+          "code": "G01R 33/465",
+          "title": {
+            "ko": null,
+            "en": "applied to biological material, e.g. in vitro testing"
+          }
+        },
+        {
+          "code": "G01R 33/48",
+          "title": {
+            "ko": null,
+            "en": "NMR imaging systems"
+          }
+        },
+        {
+          "code": "G01R 33/483",
+          "title": {
+            "ko": null,
+            "en": "with selection of signal or spectra from particular regions of the volume, e.g. in vivo spectroscopy"
+          }
+        },
+        {
+          "code": "G01R 33/485",
+          "title": {
+            "ko": null,
+            "en": "based on chemical shift information"
+          }
+        },
+        {
+          "code": "G01R 33/50",
+          "title": {
+            "ko": null,
+            "en": "based on the determination of relaxation times"
+          }
+        },
+        {
+          "code": "G01R 33/54",
+          "title": {
+            "ko": null,
+            "en": "Signal processing systems, e.g. using pulse sequences"
+          }
+        },
+        {
+          "code": "G01R 33/56",
+          "title": {
+            "ko": null,
+            "en": "Image enhancement or correction, e.g. subtraction or averaging techniques"
+          }
+        },
+        {
+          "code": "G01R 33/561",
+          "title": {
+            "ko": null,
+            "en": "by reduction of the scanning time, i.e. fast acquiring systems, e.g. using echo-planar pulse sequences"
+          }
+        },
+        {
+          "code": "G01R 33/563",
+          "title": {
+            "ko": null,
+            "en": "of moving material, e.g. flow-contrast angiography"
+          }
+        },
+        {
+          "code": "G01R 33/565",
+          "title": {
+            "ko": null,
+            "en": "Correction of image distortions, e.g. due to magnetic field inhomogeneities"
+          }
+        },
+        {
+          "code": "G01R 33/567",
+          "title": {
+            "ko": null,
+            "en": "gated by physiological signals"
+          }
+        },
+        {
+          "code": "G01R 33/58",
+          "title": {
+            "ko": null,
+            "en": "Calibration of imaging systems, e.g. using test probes"
+          }
+        },
+        {
+          "code": "G01R 33/60",
+          "title": {
+            "ko": "전자 상자성 공명을 사용한 것(33/24, 33/62가 우선)",
+            "en": "using electron paramagnetic resonance (G01R0033240000, G01R0033620000 take precedence)"
+          }
+        },
+        {
+          "code": "G01R 33/62",
+          "title": {
+            "ko": "2중공명을 사용한 것(G01R 33/24가 우선)",
+            "en": "using double resonance (G01R0033240000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01R 33/64",
+          "title": {
+            "ko": "사이클로트론 공명을 사용한 것(G01R 33/24가 우선)",
+            "en": "using cyclotron resonance (G01R0033240000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01R 35/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating of apparatus covered by the other groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "G01R 35/02",
+          "title": {
+            "ko": null,
+            "en": "of auxiliary devices, e.g. of instrument transformers according to prescribed transformation ratio, phase angle, or wattage rating"
+          }
+        },
+        {
+          "code": "G01R 35/04",
+          "title": {
+            "ko": null,
+            "en": "of instruments for measuring time integral of power or current"
+          }
+        },
+        {
+          "code": "G01R 35/06",
+          "title": {
+            "ko": null,
+            "en": "by stroboscopic methods"
+          }
+        }
+      ]
+    }
+  ]
+}

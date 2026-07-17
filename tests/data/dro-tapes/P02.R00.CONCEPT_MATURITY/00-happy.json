@@ -1,0 +1,97 @@
+{
+ "description": "P02 정적 병렬 채점 (step 2/3/4 동시, D-6) → progress.channel=analysis 3건. 모델 신호(maturity/roadmap)는 dro:fake CM 빈값이라 미발생 — #12 model.* 매핑은 invoke 가 커버",
+ "events": [
+  {
+   "type": "rt_started",
+   "persona": 2,
+   "payload": {},
+   "step": {
+    "id": "2",
+    "display_status": {
+     "ko": "명확성을 살펴보고 있어요",
+     "en": "Checking clarity…"
+    }
+   }
+  },
+  {
+   "type": "rt_started",
+   "persona": 2,
+   "payload": {},
+   "step": {
+    "id": "3",
+    "display_status": {
+     "ko": "완성도를 살펴보고 있어요",
+     "en": "Checking completeness…"
+    }
+   }
+  },
+  {
+   "type": "rt_started",
+   "persona": 2,
+   "payload": {},
+   "step": {
+    "id": "4",
+    "display_status": {
+     "ko": "잠재력을 살펴보고 있어요",
+     "en": "Checking potential…"
+    }
+   }
+  },
+  {
+   "type": "rt_result",
+   "persona": 2,
+   "payload": {
+    "text": "성숙도 갱신"
+   }
+  },
+  {
+   "type": "chain_completed",
+   "persona": 2,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.progress"
+  ],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed"
+  ],
+  "thinking_channels": [
+   "analysis"
+  ],
+  "client_event_counts": {
+   "work.progress": 3
+  },
+  "payload_contains": [
+   {
+    "type": "work.progress",
+    "data": {
+     "display_status": {
+      "ko": "명확성을 살펴보고 있어요"
+     }
+    }
+   },
+   {
+    "type": "work.progress",
+    "data": {
+     "display_status": {
+      "ko": "완성도를 살펴보고 있어요"
+     }
+    }
+   },
+   {
+    "type": "work.progress",
+    "data": {
+     "display_status": {
+      "ko": "잠재력을 살펴보고 있어요"
+     }
+    }
+   }
+  ]
+ }
+}

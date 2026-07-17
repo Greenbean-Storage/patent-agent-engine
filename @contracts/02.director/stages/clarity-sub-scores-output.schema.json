@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "description": "P02.R00.CONCEPT_MATURITY step 2 (score_clarity) LLM output. 2 sub-score (purpose / components) + rationale.",
+  "required": ["purpose", "components", "rationale"],
+  "properties": {
+    "purpose":    { "type": "number", "minimum": 0, "maximum": 1, "multipleOf": 0.01 },
+    "components": { "type": "number", "minimum": 0, "maximum": 1, "multipleOf": 0.01 },
+    "rationale":  { "type": "string", "minLength": 20 }
+  }
+}

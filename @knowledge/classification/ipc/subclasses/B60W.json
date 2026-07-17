@@ -1,0 +1,777 @@
+{
+  "subclass": "B60W",
+  "title": {
+    "ko": "다른 종류 또는 다른 기능의 차량용 부품의 관련 제어； 하이브리드 차량에 특별히 적합한 제어 시스템； 특정의 단일의 부품의 제어에 관한 것은 아닌, 특정의 목적을 위한 도로상의 차량의 운전 제어 시스템",
+    "en": "CONJOINT CONTROL OF VEHICLE SUB-UNITS OF DIFFERENT TYPE OR DIFFERENT FUNCTION; CONTROL SYSTEMS SPECIALLY ADAPTED FOR HYBRID VEHICLES; ROAD VEHICLE DRIVE CONTROL SYSTEMS FOR PURPOSES NOT RELATED TO THE CONTROL OF A PARTICULAR SUB-UNIT"
+  },
+  "definition": {
+    "ko": "1. 메인 그룹 B60W10/00, B60W30/00 - B60W60/00은 단일의 부품의 제어는 포함 하지 않는다. 단일의 부품의 제어는 그 부품의 관련 개소로 분류한다. 예. F02D, F16H. 단일의 부품이 다른 부품으로부터의 신호 또는 지시에 의해 제어되는 경우에 이 부품의 제어는 이 부품의 관련 개소로 분류한다. 예를 들면, 기관 또는 가속 장치로부터의 신호에 의한 가변속 전동장치의 제어는 전동장치의 서브클래스 F16H로 분류한다. 2. 동력전달부(예. 기관)와 가변비율 전동장치의 결합제어는 비율 쉬프트 동안에만 순간적으로 일어나고 전동장치의 제어에 의해 특징지워지는 것이며, 이것은 전동장치의 서브클래스 F16H에도 분류한다. 3. 그룹 B60W10/00으로 분류하는 경우, 제어의 목적 또는 용도를 특정하기 위해서 그룹 B60W20/00 ~ B60W56/00에도 분류해야한다. 4. 이 서브클래스에 있어서는, 아래와 같은 용어는 이하에 나타내는 의미로 사용용된다： . \"관련 제어\"란, 상이한 종류 또는 상이한 기능의 차량 서브유닛의 제어 논리를 구현화하는, 차량 보드상에 프로그램 되거나 조건에 응해 작동하는 자동 제어기가 2이상의 차량 서브유닛의 액츄에이터에 제어 신호를 보내는 것에 의해 그 서브유닛이 특정의 문제를 해결하기 위해서 또는 특정의 운전 조건에 응해 함께 작동하는 것을 의미한다. . \"운전 제어 시스템\"이란, 도로상의 차량에 특정의 동작을 실시하게 하기 위해서 그 차량의 움직임을 자동적으로 제어하는 차재의 전자적인 시스템을 의미한다. . \"도로상의 차량\"이란, 도로상을 이동하는 차량이며, 통상, 사람이 운전하는 것을 의미한다. 예. 자동차, 트럭, 버스 . \"자율주행차\"란 의사결정 과정을 실시간으로 실행하기 위해 온보드 컴퓨터 하드웨어 및 소프트웨어를 사용하여 다양한 주행 시나리오에서 사람의 개입없이 모든 동적 주행 작업을 제어 할 수있는 주행차량을 의미한다. . \"부품(sub-unit)\"이란, 이하의 차량 장치 중 하나를 의미한다：추진 장치, 클러치, 변속 전동장치, 전후축 사이의 구동 토크 분배 장치, 차축차동장치, 제동 장치, 조향장치, 현가장치, 에너지 축적 수단, 연료 전지 또는 부속 장치.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B60W 10/00",
+      "title": {
+        "ko": "다른 종류 또는 다른 기능의 차량용 부품 관련 제어 (차량의 내부에 동력 공급원을 가지는, 순수하게 전기적으로 추진되는 차량의 추진을 위한 것 B60L11/00)",
+        "en": "Conjoint control of vehicle sub-units of different type or different function (for propulsion of purely electrically-propelled vehicles with power supplied within the vehicle B60L0050000000-B60L0058000000)"
+      },
+      "definition": {
+        "ko": "이 그룹으로 분류할 때, 제어되는 각 부품은, 이 그룹의 관련 개소에 분류함에 의해, 개개에 특정되어야 한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "B60W 10/02",
+          "title": {
+            "ko": null,
+            "en": "including control of driveline clutches"
+          }
+        },
+        {
+          "code": "B60W 10/04",
+          "title": {
+            "ko": null,
+            "en": "including control of propulsion units"
+          }
+        },
+        {
+          "code": "B60W 10/06",
+          "title": {
+            "ko": null,
+            "en": "including control of combustion engines"
+          }
+        },
+        {
+          "code": "B60W 10/08",
+          "title": {
+            "ko": null,
+            "en": "including control of electric propulsion units, e.g. motors or generators"
+          }
+        },
+        {
+          "code": "B60W 10/10",
+          "title": {
+            "ko": null,
+            "en": "including control of change-speed gearings"
+          }
+        },
+        {
+          "code": "B60W 10/101",
+          "title": {
+            "ko": null,
+            "en": "Infinitely variable gearings"
+          }
+        },
+        {
+          "code": "B60W 10/103",
+          "title": {
+            "ko": null,
+            "en": "of fluid type"
+          }
+        },
+        {
+          "code": "B60W 10/105",
+          "title": {
+            "ko": null,
+            "en": "of electric type"
+          }
+        },
+        {
+          "code": "B60W 10/107",
+          "title": {
+            "ko": null,
+            "en": "with endless flexible members"
+          }
+        },
+        {
+          "code": "B60W 10/108",
+          "title": {
+            "ko": null,
+            "en": "Friction gearings"
+          }
+        },
+        {
+          "code": "B60W 10/109",
+          "title": {
+            "ko": null,
+            "en": "of toroid type"
+          }
+        },
+        {
+          "code": "B60W 10/11",
+          "title": {
+            "ko": null,
+            "en": "Stepped gearings"
+          }
+        },
+        {
+          "code": "B60W 10/111",
+          "title": {
+            "ko": null,
+            "en": "with separate change-speed gear trains arranged in series"
+          }
+        },
+        {
+          "code": "B60W 10/113",
+          "title": {
+            "ko": null,
+            "en": "with two input flow paths, e.g. double clutch transmission selection of one of the torque flow paths by the corresponding input clutch"
+          }
+        },
+        {
+          "code": "B60W 10/115",
+          "title": {
+            "ko": null,
+            "en": "with planetary gears"
+          }
+        },
+        {
+          "code": "B60W 10/119",
+          "title": {
+            "ko": "올-휠-동력전달 수단의 제어를 포함하는 것, 예. 전후 차축 사이에 토크를 나누기 위한 전동장치 또는 클러치 이동(B60W 10/14 우선)",
+            "en": "including control of all-wheel-driveline-means, e.g. transfer gears or clutches for dividing torque between front and rear axles (B60W0010140000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60W 10/12",
+          "title": {
+            "ko": null,
+            "en": "including control of differentials"
+          }
+        },
+        {
+          "code": "B60W 10/14",
+          "title": {
+            "ko": null,
+            "en": "Central differentials for dividing torque between front and rear axles"
+          }
+        },
+        {
+          "code": "B60W 10/16",
+          "title": {
+            "ko": null,
+            "en": "Axle differentials, e.g. for dividing torque between the left and right wheels"
+          }
+        },
+        {
+          "code": "B60W 10/18",
+          "title": {
+            "ko": null,
+            "en": "including control of braking systems"
+          }
+        },
+        {
+          "code": "B60W 10/184",
+          "title": {
+            "ko": null,
+            "en": "with wheel brakes"
+          }
+        },
+        {
+          "code": "B60W 10/188",
+          "title": {
+            "ko": null,
+            "en": "hydraulic brakes"
+          }
+        },
+        {
+          "code": "B60W 10/192",
+          "title": {
+            "ko": null,
+            "en": "electric brakes"
+          }
+        },
+        {
+          "code": "B60W 10/196",
+          "title": {
+            "ko": null,
+            "en": "acting within the driveline, e.g. retarders"
+          }
+        },
+        {
+          "code": "B60W 10/198",
+          "title": {
+            "ko": null,
+            "en": "with exhaust brakes"
+          }
+        },
+        {
+          "code": "B60W 10/20",
+          "title": {
+            "ko": null,
+            "en": "including control of steering systems"
+          }
+        },
+        {
+          "code": "B60W 10/22",
+          "title": {
+            "ko": null,
+            "en": "including control of suspension systems"
+          }
+        },
+        {
+          "code": "B60W 10/24",
+          "title": {
+            "ko": null,
+            "en": "including control of energy storage means"
+          }
+        },
+        {
+          "code": "B60W 10/26",
+          "title": {
+            "ko": null,
+            "en": "for electrical energy, e.g. batteries or capacitors"
+          }
+        },
+        {
+          "code": "B60W 10/28",
+          "title": {
+            "ko": null,
+            "en": "including control of fuel cells"
+          }
+        },
+        {
+          "code": "B60W 10/30",
+          "title": {
+            "ko": null,
+            "en": "including control of auxiliary equipment, e.g. air-conditioning compressors or oil pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 20/00",
+      "title": {
+        "ko": null,
+        "en": "Control systems specially adapted for hybrid vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 20/10",
+          "title": {
+            "ko": null,
+            "en": "Controlling the power contribution of each of the prime movers to meet required power demand"
+          }
+        },
+        {
+          "code": "B60W 20/11",
+          "title": {
+            "ko": null,
+            "en": "using model predictive control [MPC] strategies, i.e. control methods based on models predicting performance"
+          }
+        },
+        {
+          "code": "B60W 20/12",
+          "title": {
+            "ko": null,
+            "en": "using control strategies taking into account route information"
+          }
+        },
+        {
+          "code": "B60W 20/13",
+          "title": {
+            "ko": null,
+            "en": "in order to stay within battery power input or output limits; in order to prevent overcharging or battery depletion"
+          }
+        },
+        {
+          "code": "B60W 20/14",
+          "title": {
+            "ko": null,
+            "en": "in conjunction with braking regeneration"
+          }
+        },
+        {
+          "code": "B60W 20/15",
+          "title": {
+            "ko": null,
+            "en": "Control strategies specially adapted for achieving a particular effect"
+          }
+        },
+        {
+          "code": "B60W 20/16",
+          "title": {
+            "ko": null,
+            "en": "for reducing engine exhaust emissions"
+          }
+        },
+        {
+          "code": "B60W 20/17",
+          "title": {
+            "ko": null,
+            "en": "for noise reduction"
+          }
+        },
+        {
+          "code": "B60W 20/18",
+          "title": {
+            "ko": null,
+            "en": "for avoiding ageing of fuel"
+          }
+        },
+        {
+          "code": "B60W 20/19",
+          "title": {
+            "ko": null,
+            "en": "for achieving enhanced acceleration"
+          }
+        },
+        {
+          "code": "B60W 20/20",
+          "title": {
+            "ko": null,
+            "en": "Control strategies involving selection of hybrid configuration, e.g. selection between series or parallel configuration"
+          }
+        },
+        {
+          "code": "B60W 20/30",
+          "title": {
+            "ko": null,
+            "en": "Control strategies involving selection of transmission gear ratio"
+          }
+        },
+        {
+          "code": "B60W 20/40",
+          "title": {
+            "ko": null,
+            "en": "Controlling the engagement or disengagement of prime movers, e.g. for transition between prime movers"
+          }
+        },
+        {
+          "code": "B60W 20/50",
+          "title": {
+            "ko": null,
+            "en": "Control strategies for responding to system failures, e.g. for fault diagnosis, failsafe operation or limp mode"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 30/00",
+      "title": {
+        "ko": null,
+        "en": "Purposes of road vehicle drive control systems not related to the control of a particular sub-unit, e.g. of systems using conjoint control of vehicle sub-units"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 30/02",
+          "title": {
+            "ko": null,
+            "en": "Control of vehicle driving stability"
+          }
+        },
+        {
+          "code": "B60W 30/04",
+          "title": {
+            "ko": null,
+            "en": "related to roll-over prevention"
+          }
+        },
+        {
+          "code": "B60W 30/045",
+          "title": {
+            "ko": null,
+            "en": "Improving turning performance"
+          }
+        },
+        {
+          "code": "B60W 30/06",
+          "title": {
+            "ko": null,
+            "en": "Automatic manoeuvring for parking"
+          }
+        },
+        {
+          "code": "B60W 30/08",
+          "title": {
+            "ko": null,
+            "en": "Predicting or avoiding probable or impending collision"
+          }
+        },
+        {
+          "code": "B60W 30/085",
+          "title": {
+            "ko": null,
+            "en": "Taking automatic action to adjust vehicle attitude in preparation for collision, e.g. braking for nose dropping"
+          }
+        },
+        {
+          "code": "B60W 30/09",
+          "title": {
+            "ko": null,
+            "en": "Taking automatic action to avoid collision, e.g. braking and steering"
+          }
+        },
+        {
+          "code": "B60W 30/095",
+          "title": {
+            "ko": null,
+            "en": "Predicting travel path or likelihood of collision"
+          }
+        },
+        {
+          "code": "B60W 30/10",
+          "title": {
+            "ko": null,
+            "en": "Path keeping"
+          }
+        },
+        {
+          "code": "B60W 30/12",
+          "title": {
+            "ko": null,
+            "en": "Lane keeping"
+          }
+        },
+        {
+          "code": "B60W 30/14",
+          "title": {
+            "ko": null,
+            "en": "Cruise control"
+          }
+        },
+        {
+          "code": "B60W 30/16",
+          "title": {
+            "ko": null,
+            "en": "Control of distance between vehicles, e.g. keeping a distance to preceding vehicle"
+          }
+        },
+        {
+          "code": "B60W 30/165",
+          "title": {
+            "ko": null,
+            "en": "automatically following the path of a preceding lead vehicle, e.g. \"electronic tow-bar\""
+          }
+        },
+        {
+          "code": "B60W 30/17",
+          "title": {
+            "ko": null,
+            "en": "with provision for special action when the preceding vehicle comes to a halt, e.g. stop and go"
+          }
+        },
+        {
+          "code": "B60W 30/18",
+          "title": {
+            "ko": null,
+            "en": "Propelling the vehicle"
+          }
+        },
+        {
+          "code": "B60W 30/182",
+          "title": {
+            "ko": null,
+            "en": "Selecting between different operative modes, e.g. comfort and performance modes"
+          }
+        },
+        {
+          "code": "B60W 30/184",
+          "title": {
+            "ko": null,
+            "en": "Preventing damage resulting from overload or excessive wear of the driveline"
+          }
+        },
+        {
+          "code": "B60W 30/186",
+          "title": {
+            "ko": null,
+            "en": "excessive wear or burn out of friction elements, e.g. clutches"
+          }
+        },
+        {
+          "code": "B60W 30/188",
+          "title": {
+            "ko": null,
+            "en": "Controlling power parameters of the driveline, e.g. determining the required power"
+          }
+        },
+        {
+          "code": "B60W 30/19",
+          "title": {
+            "ko": null,
+            "en": "Improvement of gear change, e.g. by synchronisation or smoothing gear shift"
+          }
+        },
+        {
+          "code": "B60W 30/192",
+          "title": {
+            "ko": null,
+            "en": "Mitigating problems related to power-up or power-down of the driveline, e.g. start-up of a cold engine"
+          }
+        },
+        {
+          "code": "B60W 30/194",
+          "title": {
+            "ko": null,
+            "en": "related to low temperature conditions, e.g. high viscosity of hydraulic fluid"
+          }
+        },
+        {
+          "code": "B60W 30/20",
+          "title": {
+            "ko": null,
+            "en": "Reducing vibrations in the driveline"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 40/00",
+      "title": {
+        "ko": null,
+        "en": "Estimation or calculation of driving parameters for road vehicle drive control systems not related to the control of a particular sub-unit"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 40/02",
+          "title": {
+            "ko": null,
+            "en": "related to ambient conditions"
+          }
+        },
+        {
+          "code": "B60W 40/04",
+          "title": {
+            "ko": null,
+            "en": "Traffic conditions"
+          }
+        },
+        {
+          "code": "B60W 40/06",
+          "title": {
+            "ko": null,
+            "en": "Road conditions"
+          }
+        },
+        {
+          "code": "B60W 40/064",
+          "title": {
+            "ko": null,
+            "en": "Degree of grip"
+          }
+        },
+        {
+          "code": "B60W 40/068",
+          "title": {
+            "ko": null,
+            "en": "Road friction coefficient"
+          }
+        },
+        {
+          "code": "B60W 40/072",
+          "title": {
+            "ko": null,
+            "en": "Curvature of the road"
+          }
+        },
+        {
+          "code": "B60W 40/076",
+          "title": {
+            "ko": null,
+            "en": "Slope angle of the road"
+          }
+        },
+        {
+          "code": "B60W 40/08",
+          "title": {
+            "ko": null,
+            "en": "related to drivers or passengers"
+          }
+        },
+        {
+          "code": "B60W 40/09",
+          "title": {
+            "ko": null,
+            "en": "Driving style or behaviour"
+          }
+        },
+        {
+          "code": "B60W 40/10",
+          "title": {
+            "ko": null,
+            "en": "related to vehicle motion"
+          }
+        },
+        {
+          "code": "B60W 40/101",
+          "title": {
+            "ko": null,
+            "en": "Side slip angle of tyre"
+          }
+        },
+        {
+          "code": "B60W 40/103",
+          "title": {
+            "ko": null,
+            "en": "Side slip angle of vehicle body"
+          }
+        },
+        {
+          "code": "B60W 40/105",
+          "title": {
+            "ko": null,
+            "en": "Speed"
+          }
+        },
+        {
+          "code": "B60W 40/107",
+          "title": {
+            "ko": null,
+            "en": "Longitudinal acceleration"
+          }
+        },
+        {
+          "code": "B60W 40/109",
+          "title": {
+            "ko": null,
+            "en": "Lateral acceleration"
+          }
+        },
+        {
+          "code": "B60W 40/11",
+          "title": {
+            "ko": null,
+            "en": "Pitch movement"
+          }
+        },
+        {
+          "code": "B60W 40/112",
+          "title": {
+            "ko": null,
+            "en": "Roll movement"
+          }
+        },
+        {
+          "code": "B60W 40/114",
+          "title": {
+            "ko": null,
+            "en": "Yaw movement"
+          }
+        },
+        {
+          "code": "B60W 40/12",
+          "title": {
+            "ko": null,
+            "en": "related to parameters of the vehicle itself"
+          }
+        },
+        {
+          "code": "B60W 40/13",
+          "title": {
+            "ko": null,
+            "en": "Load or weight"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 50/00",
+      "title": {
+        "ko": null,
+        "en": "Details of control systems for road vehicle drive control not related to the control of a particular sub-unit"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 50/02",
+          "title": {
+            "ko": null,
+            "en": "Ensuring safety in case of control system failures, e.g. by diagnosing, circumventing or fixing failures"
+          }
+        },
+        {
+          "code": "B60W 50/023",
+          "title": {
+            "ko": null,
+            "en": "Avoiding failures by using redundant parts"
+          }
+        },
+        {
+          "code": "B60W 50/029",
+          "title": {
+            "ko": null,
+            "en": "Adapting to failures or work around with other constraints, e.g. circumvention by avoiding use of failed parts"
+          }
+        },
+        {
+          "code": "B60W 50/032",
+          "title": {
+            "ko": null,
+            "en": "Fixing failures by repairing failed parts, e.g. loosening a sticking valve"
+          }
+        },
+        {
+          "code": "B60W 50/035",
+          "title": {
+            "ko": null,
+            "en": "Bringing the control units into a predefined state, e.g. giving priority to particular actuators"
+          }
+        },
+        {
+          "code": "B60W 50/038",
+          "title": {
+            "ko": null,
+            "en": "Limiting the input power, torque or speed"
+          }
+        },
+        {
+          "code": "B60W 50/04",
+          "title": {
+            "ko": null,
+            "en": "Monitoring the functioning of the control system"
+          }
+        },
+        {
+          "code": "B60W 50/06",
+          "title": {
+            "ko": null,
+            "en": "Improving the dynamic response of the control system, e.g. improving the speed of regulation or avoiding hunting or overshoot"
+          }
+        },
+        {
+          "code": "B60W 50/08",
+          "title": {
+            "ko": null,
+            "en": "Interaction between the driver and the control system"
+          }
+        },
+        {
+          "code": "B60W 50/10",
+          "title": {
+            "ko": null,
+            "en": "Interpretation of driver requests or demands"
+          }
+        },
+        {
+          "code": "B60W 50/12",
+          "title": {
+            "ko": null,
+            "en": "Limiting control by the driver depending on vehicle state, e.g. interlocking means for the control input for preventing unsafe operation"
+          }
+        },
+        {
+          "code": "B60W 50/14",
+          "title": {
+            "ko": null,
+            "en": "Means for informing the driver, warning the driver or prompting a driver intervention"
+          }
+        },
+        {
+          "code": "B60W 50/16",
+          "title": {
+            "ko": null,
+            "en": "Tactile feedback to the driver, e.g. vibration or force feedback to the driver on the steering wheel or the accelerator pedal"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 60/00",
+      "title": {
+        "ko": null,
+        "en": "Drive control systems specially adapted for autonomous road vehicles"
+      },
+      "subgroups": []
+    }
+  ]
+}

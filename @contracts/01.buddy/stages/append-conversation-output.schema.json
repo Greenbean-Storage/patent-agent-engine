@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "description": "P01 의 마지막 tool step (cm.append_conversation) 출력 — assistant turn 누적 결과.",
+  "properties": {
+    "appended": { "type": "boolean" },
+    "role": { "type": "string", "enum": ["user", "assistant"] },
+    "content_chars": { "type": "integer", "minimum": 0 }
+  },
+  "required": ["appended", "role"]
+}

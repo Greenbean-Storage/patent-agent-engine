@@ -1,0 +1,414 @@
+{
+  "subclass": "F23C",
+  "title": {
+    "ko": "유체 연료(FLUID FUEL) 또는 공기중에 현탁된 고체 연료를 이용한 연소 방법 또는 장치(버너 F23D]",
+    "en": "METHODS OR APPARATUS FOR COMBUSTION USING FLUID FUEL OR SOLID FUEL SUSPENDED IN AIR (burners F23D)"
+  },
+  "definition": {
+    "ko": "2 또는 그 이상의 타입의 연료의 연소에 특히 적합한 연소 장치 F23C1/00 2 또는 그 이상의 연소실의 조합 F23C6/00 기능 타입의 연소 장치 유동층 연소 F23C10/00 촉매 연소 F23C13/00 공명 연소 F23C15/00 서브 시스템에 의해 특징 지어지는 연소 장치 연소 장치 F23C3/00 버너의 배치 또는 설치 F23C5/00 공기 공급 F23C7/00 연소 가스 또는 연소 생성물을 되돌리는 장치 F23C9/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제 사항 F23C99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F23C 1/00",
+      "title": {
+        "ko": "둘 이상 종류의 연료를 동시에 또는 교대로 연소하는 것에 특별히 적합한 연소 장치이며, 그 연료의 적어도 하나의 종류는 유체 연료 또는 공기중에 현탁된 고체 연료인 것(둘 이상의 연소실의 조합에 특징이 있는 연소 장치 F23C 6/00; 불씨; 점화기(pilot flame igniters) F23Q 9/00)",
+        "en": "Combustion apparatus specially adapted for combustion of two or more kinds of fuel simultaneously or alternately, at least one kind of fuel being either a fluid fuel or a solid fuel suspended in air (combustion apparatus characterised by the combination of two or more combustion chambers F23C0006000000;pilot flame igniters F23Q0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F23C 1/02",
+          "title": {
+            "ko": null,
+            "en": "lump and liquid fuel"
+          }
+        },
+        {
+          "code": "F23C 1/04",
+          "title": {
+            "ko": null,
+            "en": "lump and gaseous fuel"
+          }
+        },
+        {
+          "code": "F23C 1/06",
+          "title": {
+            "ko": null,
+            "en": "lump and pulverulent fuel"
+          }
+        },
+        {
+          "code": "F23C 1/08",
+          "title": {
+            "ko": null,
+            "en": "liquid and gaseous fuel"
+          }
+        },
+        {
+          "code": "F23C 1/10",
+          "title": {
+            "ko": null,
+            "en": "liquid and pulverulent fuel"
+          }
+        },
+        {
+          "code": "F23C 1/12",
+          "title": {
+            "ko": null,
+            "en": "gaseous and pulverulent fuel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23C 3/00",
+      "title": {
+        "ko": "연소실의 형상에 특징이 있는 연소 장치(F23C 15/00가 우선)",
+        "en": "Combustion apparatus characterised by the shape of the combustion chamber (F23C0015000000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23C 5/00",
+      "title": {
+        "ko": "버너의 배치 및 설치에 특징이 있는 연소 장치",
+        "en": "Combustion apparatus characterised by the arrangement or mounting of burners"
+      },
+      "subgroups": [
+        {
+          "code": "F23C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Structural details of mounting"
+          }
+        },
+        {
+          "code": "F23C 5/06",
+          "title": {
+            "ko": null,
+            "en": "Provision for adjustment of burner position during operation"
+          }
+        },
+        {
+          "code": "F23C 5/08",
+          "title": {
+            "ko": "버너의 배치(Disposition)",
+            "en": "Disposition of burners"
+          }
+        },
+        {
+          "code": "F23C 5/14",
+          "title": {
+            "ko": "집중 또는 실질상 평면형의 단일화염, 예. 연필형 또는 시트형 화염을 얻기 위한 것(F23C 5/32가 우선)",
+            "en": "to obtain a single flame of concentrated or substantially planar form, e.g. pencil or sheet flame (F23C0005320000 takes precedence)"
+          }
+        },
+        {
+          "code": "F23C 5/24",
+          "title": {
+            "ko": null,
+            "en": "to obtain a loop flame"
+          }
+        },
+        {
+          "code": "F23C 5/28",
+          "title": {
+            "ko": null,
+            "en": "to obtain flames in opposing directions, e.g. impacting flames"
+          }
+        },
+        {
+          "code": "F23C 5/32",
+          "title": {
+            "ko": null,
+            "en": "to obtain rotating flames, i.e. flames moving helically or spirally"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23C 6/00",
+      "title": {
+        "ko": null,
+        "en": "Combustion apparatus characterised by the combination of two or more combustion chambers"
+      },
+      "subgroups": [
+        {
+          "code": "F23C 6/02",
+          "title": {
+            "ko": null,
+            "en": "in parallel arrangement"
+          }
+        },
+        {
+          "code": "F23C 6/04",
+          "title": {
+            "ko": null,
+            "en": "in series connection"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23C 7/00",
+      "title": {
+        "ko": "공기 공급 장치에 특징이 있는 연소 장치(유동화를 실시하는 공기의 입구 F23C 10/20)",
+        "en": "Combustion apparatus characterised by arrangements for air supply (inlets for fluidisation air F23C0010200000;baffles or shields with air supply passages F23M0009040000)"
+      },
+      "subgroups": [
+        {
+          "code": "F23C 7/02",
+          "title": {
+            "ko": "버너를 통과하지 않는 공기공급장치의 배치",
+            "en": "Disposition of air supply not passing through burner"
+          }
+        },
+        {
+          "code": "F23C 7/04",
+          "title": {
+            "ko": null,
+            "en": "to obtain maximum heat transfer to wall of combustion chamber"
+          }
+        },
+        {
+          "code": "F23C 7/06",
+          "title": {
+            "ko": "급기가열용(재생식열교환기(regenerator) 또는 복열식열교환기(recuperator)의 배치 F23L 15/00)",
+            "en": "for heating the incoming air (arrangements of regenerators or recuperators F23L0015000000)"
+          }
+        },
+        {
+          "code": "F23C 7/08",
+          "title": {
+            "ko": null,
+            "en": "indirectly by a secondary fluid other than the combustion products"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23C 9/00",
+      "title": {
+        "ko": "연소 생성물 또는 연소 가스를 연소실에 되돌리는 장치에 특징이 있는 연소 장치(층으로부터 부유 한 입자를 재순환시키기 위한 수단을 가지는 유동층 연소 장치 F23C 10/02; 층으로부터 물질을 제거 및 부분적으로 재도입하는 장치를 가지는 유체층 연소 장치 F23C 10/26)",
+        "en": "Combustion apparatus characterised by arrangements for returning combustion products or flue gases to the combustion chamber (fluidised bed combustion apparatus with means for recirculation of particles entrained from the bed F23C0010020000;fluidised bed combustion apparatus with devices for removal and partial reintroduction of material from the bed F23C0010260000)"
+      },
+      "subgroups": [
+        {
+          "code": "F23C 9/06",
+          "title": {
+            "ko": null,
+            "en": "for completing combustion"
+          }
+        },
+        {
+          "code": "F23C 9/08",
+          "title": {
+            "ko": null,
+            "en": "for reducing temperature in combustion chamber, e.g. for protecting walls of combustion chamber"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23C 10/00",
+      "title": {
+        "ko": "연소가 연료 또는 다른 입자의 유동층에서 발생하는 장치",
+        "en": "Apparatus in which combustion takes place in a fluidised bed of fuel or other particles"
+      },
+      "definition": {
+        "ko": "이 그룹은 인덱싱 코드 F23C 101/00을 부여하는 것이 바람직하다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F23C 10/01",
+          "title": {
+            "ko": null,
+            "en": "in a fluidised bed of catalytic particles"
+          }
+        },
+        {
+          "code": "F23C 10/02",
+          "title": {
+            "ko": null,
+            "en": "with means specially adapted for achieving or promoting a circulating movement of particles within the bed or for a recirculation of particles entrained from the bed"
+          }
+        },
+        {
+          "code": "F23C 10/04",
+          "title": {
+            "ko": null,
+            "en": "the particles being circulated to a section, e.g. a heat-exchange section or a return duct, at least partially shielded from the combustion zone, before being reintroduced into the combustion zone"
+          }
+        },
+        {
+          "code": "F23C 10/06",
+          "title": {
+            "ko": null,
+            "en": "the circulating movement being promoted by inducing differing degrees of fluidisation in different parts of the bed"
+          }
+        },
+        {
+          "code": "F23C 10/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of separation apparatus, e.g. cyclones, for separating particles from the flue gases"
+          }
+        },
+        {
+          "code": "F23C 10/10",
+          "title": {
+            "ko": null,
+            "en": "the separation apparatus being located outside the combustion chamber"
+          }
+        },
+        {
+          "code": "F23C 10/12",
+          "title": {
+            "ko": null,
+            "en": "the particles being circulated exclusively within the combustion zone"
+          }
+        },
+        {
+          "code": "F23C 10/14",
+          "title": {
+            "ko": null,
+            "en": "the circulating movement being promoted by inducing differing degrees of fluidisation in different parts of the bed"
+          }
+        },
+        {
+          "code": "F23C 10/16",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for operation at superatmospheric pressures, e.g. by the arrangement of the combustion chamber and its auxiliary systems inside a pressure vessel"
+          }
+        },
+        {
+          "code": "F23C 10/18",
+          "title": {
+            "ko": "세부; 부속물",
+            "en": "Details; Accessories"
+          }
+        },
+        {
+          "code": "F23C 10/20",
+          "title": {
+            "ko": null,
+            "en": "Inlets for fluidisation air, e.g. grids; Bottoms"
+          }
+        },
+        {
+          "code": "F23C 10/22",
+          "title": {
+            "ko": "유동상(fluidised bed) 연소장치에 특별히 적합한 연료 공급기(F23C 10/26 우선)",
+            "en": "Fuel feeders specially adapted for fluidised bed combustion apparatus (F23C0010260000 takes precedence)"
+          }
+        },
+        {
+          "code": "F23C 10/24",
+          "title": {
+            "ko": "상(bed)에서 물질을 제거하기 위한 장치(상의 높이나 상의 물질의 양을 조절하기 위한 장치 F23C 10/30)",
+            "en": "Devices for removal of material from the bed (devices for controlling the level of the bed or the amount of material in the bed F23C0010300000)"
+          }
+        },
+        {
+          "code": "F23C 10/26",
+          "title": {
+            "ko": null,
+            "en": "combined with devices for partial reintroduction of material into the bed, e.g. after separation of agglomerated parts"
+          }
+        },
+        {
+          "code": "F23C 10/28",
+          "title": {
+            "ko": null,
+            "en": "Control devices specially adapted for fluidised bed combustion apparatus"
+          }
+        },
+        {
+          "code": "F23C 10/30",
+          "title": {
+            "ko": null,
+            "en": "for controlling the level of the bed or the amount of material in the bed"
+          }
+        },
+        {
+          "code": "F23C 10/32",
+          "title": {
+            "ko": null,
+            "en": "by controlling the rate of recirculation of particles separated from the flue gases"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23C 13/00",
+      "title": {
+        "ko": "연소가 촉매 내에서 발생하는 장치(촉매 입자의 유동층에 있는 것 F23C 10/01；무염 연소를 위한 촉매를 이용하는 복사 가스 버너 F23D14/18)",
+        "en": "Apparatus in which combustion takes place in the presence of catalytic material (in a fluidised bed of catalytic particles F23C0010010000;radiant gas burners using catalysis for flameless combustion F23D0014180000)"
+      },
+      "subgroups": [
+        {
+          "code": "F23C 13/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by arrangements for starting the operation, e.g. for heating the catalytic material to operating temperature"
+          }
+        },
+        {
+          "code": "F23C 13/04",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of two or more catalytic elements in series connection"
+          }
+        },
+        {
+          "code": "F23C 13/06",
+          "title": {
+            "ko": null,
+            "en": "in which non-catalytic combustion takes place in addition to catalytic combustion, e.g. downstream of a catalytic element"
+          }
+        },
+        {
+          "code": "F23C 13/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by the catalytic material"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus in which combustion takes place in pulses influenced by acoustic resonance in a gas mass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23C 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with group F23C0010000000, relating to combustion in entrained fluidised beds."
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23C 101/00",
+      "title": {
+        "ko": null,
+        "en": "Combustion in entrained fluidised beds, i.e. fluidised beds which have no distinct upper surface"
+      },
+      "subgroups": []
+    }
+  ]
+}

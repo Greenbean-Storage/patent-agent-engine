@@ -1,0 +1,318 @@
+{
+  "subclass": "C40B",
+  "title": {
+    "ko": "조합된 화학；라이브러리, 예.화학 라이브러리 (핵산, 단백질 또는 펩타이드의 가상실험 조합 라이브러리 G16B 35/00; 가상실험 조합 화학 G16C 20/60)",
+    "en": "COMBINATORIAL CHEMISTRY; LIBRARIES, e.g. CHEMICAL LIBRARIES   (in silico combinatorial libraries of nucleic acids, proteins or peptides G16B0035000000;in silico combinatorial chemistry G16C0020600000)"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스에서는 최초개소 우선규칙이 적용된다. 즉. 각 계층 수준에서 서로 상반되는 지시가 없는 한 적절한 최초 개소로 분류된다. 2. 이 서브클래스로 분류할 때, 라이브러리 멤버는 \"마쿠쉬\"-형 공식과 관련된 확립된 절차에 따라 IPC의 다른 적절한 개소 (예. 섹션 C 내)에도 분류된다. (가이드의 제100항 및 제101항 참조)",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "C40B 10/00",
+      "title": {
+        "ko": null,
+        "en": "Directed molecular evolution of macromolecules, e.g. RNA, DNA or proteins"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C40B 20/00",
+      "title": {
+        "ko": null,
+        "en": "Methods specially adapted for identifying library members"
+      },
+      "subgroups": [
+        {
+          "code": "C40B 20/02",
+          "title": {
+            "ko": null,
+            "en": "Identifying library members by their fixed physical location on a support or substrate"
+          }
+        },
+        {
+          "code": "C40B 20/04",
+          "title": {
+            "ko": null,
+            "en": "Identifying library members by means of a tag, label, or other readable or detectable entity associated with the library members, e.g. decoding processes"
+          }
+        },
+        {
+          "code": "C40B 20/06",
+          "title": {
+            "ko": null,
+            "en": "using iterative deconvolution techniques"
+          }
+        },
+        {
+          "code": "C40B 20/08",
+          "title": {
+            "ko": null,
+            "en": "Direct analysis of the library members per se by physical methods, e.g. spectroscopy"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C40B 30/00",
+      "title": {
+        "ko": null,
+        "en": "Methods of screening libraries"
+      },
+      "subgroups": [
+        {
+          "code": "C40B 30/04",
+          "title": {
+            "ko": null,
+            "en": "by measuring the ability to specifically bind a target molecule, e.g. antibody-antigen binding, receptor-ligand binding"
+          }
+        },
+        {
+          "code": "C40B 30/06",
+          "title": {
+            "ko": null,
+            "en": "by measuring effects on living organisms, tissues or cells"
+          }
+        },
+        {
+          "code": "C40B 30/08",
+          "title": {
+            "ko": null,
+            "en": "by measuring catalytic activity"
+          }
+        },
+        {
+          "code": "C40B 30/10",
+          "title": {
+            "ko": null,
+            "en": "by measuring physical properties, e.g. mass"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C40B 40/00",
+      "title": {
+        "ko": "라이브러리 그 자체, 예.어레이, 혼합물",
+        "en": "Libraries per se, e.g. arrays, mixtures"
+      },
+      "subgroups": [
+        {
+          "code": "C40B 40/02",
+          "title": {
+            "ko": null,
+            "en": "Libraries contained in or displayed by microorganisms, e.g. bacteria or animal cells; Libraries contained in or displayed by vectors, e.g. plasmids; Libraries containing only microorganisms or vectors"
+          }
+        },
+        {
+          "code": "C40B 40/04",
+          "title": {
+            "ko": "유기 화합물만을 포함 하는 라이브러리",
+            "en": "Libraries containing only organic compounds"
+          },
+          "definition": {
+            "ko": "유기 화합물의 염을 함유하는 라이브러리는 모 화합물을 함유하는 라이브러리에 대한 그룹으로 분류된다.",
+            "en": null
+          }
+        },
+        {
+          "code": "C40B 40/06",
+          "title": {
+            "ko": null,
+            "en": "Libraries containing nucleotides or polynucleotides, or derivatives thereof"
+          }
+        },
+        {
+          "code": "C40B 40/08",
+          "title": {
+            "ko": null,
+            "en": "Libraries containing RNA or DNA which encodes proteins, e.g. gene libraries"
+          }
+        },
+        {
+          "code": "C40B 40/10",
+          "title": {
+            "ko": null,
+            "en": "Libraries containing peptides or polypeptides, or derivatives thereof"
+          }
+        },
+        {
+          "code": "C40B 40/12",
+          "title": {
+            "ko": null,
+            "en": "Libraries containing saccharides or polysaccharides, or derivatives thereof"
+          }
+        },
+        {
+          "code": "C40B 40/14",
+          "title": {
+            "ko": "고분자 화합물을 포함 하지만, 그룹C40B 40/06 - C40B 40/12에 포함 되지 않는 라이브러리",
+            "en": "Libraries containing macromolecular compounds and not covered by groups C40B0040060000-C40B0040120000"
+          }
+        },
+        {
+          "code": "C40B 40/16",
+          "title": {
+            "ko": null,
+            "en": "Libraries containing metal-containing organic compounds"
+          }
+        },
+        {
+          "code": "C40B 40/18",
+          "title": {
+            "ko": null,
+            "en": "Libraries containing only inorganic compounds or inorganic materials"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C40B 50/00",
+      "title": {
+        "ko": null,
+        "en": "Methods of creating libraries, e.g. combinatorial synthesis"
+      },
+      "subgroups": [
+        {
+          "code": "C40B 50/04",
+          "title": {
+            "ko": null,
+            "en": "using dynamic combinatorial chemistry techniques"
+          }
+        },
+        {
+          "code": "C40B 50/06",
+          "title": {
+            "ko": null,
+            "en": "Biochemical methods, e.g. using enzymes or whole viable microorganisms"
+          }
+        },
+        {
+          "code": "C40B 50/08",
+          "title": {
+            "ko": null,
+            "en": "Liquid phase synthesis, i.e. wherein all library building blocks are in liquid phase or in solution during library creation; Particular methods of cleavage from the liquid support"
+          }
+        },
+        {
+          "code": "C40B 50/10",
+          "title": {
+            "ko": null,
+            "en": "involving encoding steps"
+          }
+        },
+        {
+          "code": "C40B 50/12",
+          "title": {
+            "ko": null,
+            "en": "using a particular method of attachment to the liquid support"
+          }
+        },
+        {
+          "code": "C40B 50/14",
+          "title": {
+            "ko": null,
+            "en": "Solid phase synthesis, i.e. wherein one or more library building blocks are bound to a solid support during library creation; Particular methods of cleavage from the solid support"
+          }
+        },
+        {
+          "code": "C40B 50/16",
+          "title": {
+            "ko": null,
+            "en": "involving encoding steps"
+          }
+        },
+        {
+          "code": "C40B 50/18",
+          "title": {
+            "ko": null,
+            "en": "using a particular method of attachment to the solid support"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C40B 60/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus specially adapted for use in combinatorial chemistry or with libraries"
+      },
+      "subgroups": [
+        {
+          "code": "C40B 60/02",
+          "title": {
+            "ko": null,
+            "en": "Integrated apparatus specially adapted for creating libraries, screening libraries and for identifying library members"
+          }
+        },
+        {
+          "code": "C40B 60/04",
+          "title": {
+            "ko": null,
+            "en": "Integrated apparatus specially adapted for both screening libraries and identifying library members"
+          }
+        },
+        {
+          "code": "C40B 60/06",
+          "title": {
+            "ko": null,
+            "en": "Integrated apparatus specially adapted for both creating libraries and identifying library members"
+          }
+        },
+        {
+          "code": "C40B 60/08",
+          "title": {
+            "ko": null,
+            "en": "Integrated apparatus specially adapted for both creating and screening libraries"
+          }
+        },
+        {
+          "code": "C40B 60/10",
+          "title": {
+            "ko": null,
+            "en": "for identifying library members"
+          }
+        },
+        {
+          "code": "C40B 60/12",
+          "title": {
+            "ko": null,
+            "en": "for screening libraries"
+          }
+        },
+        {
+          "code": "C40B 60/14",
+          "title": {
+            "ko": null,
+            "en": "for creating libraries"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C40B 70/00",
+      "title": {
+        "ko": null,
+        "en": "Tags or labels specially adapted for combinatorial chemistry or libraries, e.g. fluorescent tags or barcodes"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C40B 80/00",
+      "title": {
+        "ko": null,
+        "en": "Linkers or spacers specially adapted for combinatorial chemistry or libraries, e.g. traceless linkers or safety-catch linkers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C40B 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+ "description": "rt_result 빈 payload 미노출 — reply 1만",
+ "events": [
+  {
+   "type": "rt_result",
+   "persona": 1,
+   "payload": {}
+  },
+  {
+   "type": "chain_completed",
+   "persona": 1,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "message.reply"
+  ],
+  "forbidden": [
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "message.reply": 1
+  },
+  "payload_contains": [
+   {
+    "type": "message.reply",
+    "data": {
+     "text": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "description": "P02.R00.CONCEPT_MATURITY step 0 (extract_to_stack) LLM output. ConceptDiscoveryStack 의 7 정보 필드 — last_updated 는 step 1 tool 이 추가 후 CM PUT.",
+  "required": [
+    "purpose",
+    "components",
+    "operation_sequence",
+    "causality",
+    "embodiments",
+    "differentiation",
+    "effects"
+  ],
+  "properties": {
+    "purpose":            { "type": "string" },
+    "components":         { "type": "array", "items": { "type": "string" } },
+    "operation_sequence": { "type": "array", "items": { "type": "string" } },
+    "causality":          { "type": "array", "items": { "type": "string" } },
+    "embodiments":        { "type": "array", "items": { "type": "string" } },
+    "differentiation":    { "type": "string" },
+    "effects":            { "type": "array", "items": { "type": "string" } }
+  }
+}

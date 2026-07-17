@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "checks": {
+      "type": "string"
+    },
+    "failing_drawings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "needs_revision": {
+      "type": "boolean"
+    },
+    "dl_revision_comment": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "checks",
+    "failing_drawings",
+    "needs_revision",
+    "dl_revision_comment"
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "subclass": "G03F",
+  "title": {
+    "ko": "사진제판법에 의한 요철화 또는 패턴화 표면의 제조, 예. 인쇄용, 반도체장치의 제조법용; 그것을 위한 재료; 그것을 위한 원료; 그것을 위한 특별히 적합한 장치 (사진식자기 B41B, 사진용 감광재료 또는 처리는 G03C, 엘렉트로그라피, 그것을 위한 감광층 또는 처리는 G03G)",
+    "en": "PHOTOMECHANICAL PRODUCTION OF TEXTURED OR PATTERNED SURFACES, e.g. FOR PRINTING, FOR PROCESSING OF SEMICONDUCTOR DEVICES; MATERIALS THEREFOR; ORIGINALS THEREFOR; APPARATUS SPECIALLY ADAPTED THEREFOR (phototypographic composing devices B41B;photosensitive materials or processes for photographic purposes G03C;electrography, sensitive layers or processes G03G)"
+  },
+  "definition": {
+    "ko": "이 서브클래스에서는 아래의 용어는 이하에 표시한 의미로 사용된다. - \"감광성\"은 전자파에 대한 감광성 뿐만 아니라 입자선에 대한 감광성도 의미한다. - “감광성 조성”은 감광성 성분을 포함한다, 예. 퀴논디아지드, 적용가능하다면 바인더나 첨가제 - “감광성 물질”은 감광성 조성을 포함한다, 예. 포토레지스트, 그것을 기초로 한것, 적용가능하다면 보조층",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G03F 1/00",
+      "title": {
+        "ko": "질감이 있거나 무늬가 있는 표면의 사진제판법 제품을 위한 원화, 예. 마스크, 포토-마스크 또는 레티클(reticle); 마스크 블랭크(mask blank) 또는 그 투과필름(pellicle); 그를 위해 특히 적용된 용기; 그 준비과정",
+        "en": "Originals for photomechanical production of textured or patterned surfaces, e.g. masks, photo-masks or reticles; Mask blanks or pellicles therefor; Containers specially adapted therefor; Preparation thereof"
+      },
+      "definition": {
+        "ko": "이 그룹에서는, 상반되는 지시가 없는 한, 최초개소 우선규칙이 적용되며, 즉. 각 계층적 레벨에서, 최초의 적절한 개소에 분류한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G03F 1/20",
+          "title": {
+            "ko": null,
+            "en": "Masks or mask blanks for imaging by charged particle beam [CPB] radiation, e.g. by electron beam; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/22",
+          "title": {
+            "ko": null,
+            "en": "Masks or mask blanks for imaging by radiation of 100 nm or shorter wavelength, e.g. X-ray masks, extreme ultraviolet [EUV] masks; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/24",
+          "title": {
+            "ko": null,
+            "en": "Reflection masks; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/26",
+          "title": {
+            "ko": null,
+            "en": "Phase shift masks [PSM]; PSM blanks; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/28",
+          "title": {
+            "ko": null,
+            "en": "with three or more diverse phases on the same PSM; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/29",
+          "title": {
+            "ko": null,
+            "en": "Rim PSM or outrigger PSM; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/30",
+          "title": {
+            "ko": null,
+            "en": "Alternating PSM, e.g. Levenson-Shibuya PSM; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/32",
+          "title": {
+            "ko": null,
+            "en": "Attenuating PSM [att-PSM], e.g. halftone PSM or PSM having semi-transparent phase shift portion; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/34",
+          "title": {
+            "ko": null,
+            "en": "Phase-edge PSM, e.g. chromeless PSM; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/36",
+          "title": {
+            "ko": null,
+            "en": "Masks having proximity correction features; Preparation thereof, e.g. optical proximity correction [OPC] design processes"
+          }
+        },
+        {
+          "code": "G03F 1/38",
+          "title": {
+            "ko": null,
+            "en": "Masks having auxiliary features, e.g. special coatings or marks for alignment or testing; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/40",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic discharge [ESD] related features, e.g. antistatic coatings or a conductive metal layer around the periphery of the mask substrate"
+          }
+        },
+        {
+          "code": "G03F 1/42",
+          "title": {
+            "ko": null,
+            "en": "Alignment or registration features, e.g. alignment marks on the mask substrates"
+          }
+        },
+        {
+          "code": "G03F 1/44",
+          "title": {
+            "ko": null,
+            "en": "Testing or measuring features, e.g. grid patterns, focus monitors, sawtooth scales or notched scales"
+          }
+        },
+        {
+          "code": "G03F 1/46",
+          "title": {
+            "ko": null,
+            "en": "Antireflective coatings"
+          }
+        },
+        {
+          "code": "G03F 1/48",
+          "title": {
+            "ko": null,
+            "en": "Protective coatings"
+          }
+        },
+        {
+          "code": "G03F 1/50",
+          "title": {
+            "ko": "G03F1/20 ~ G03F1/26의 그룹에 포함되지 않는 마스크 블랭크; 그 준비과정",
+            "en": "Mask blanks not covered by groups G03F0001200000-G03F0001260000; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/52",
+          "title": {
+            "ko": null,
+            "en": "Reflectors"
+          }
+        },
+        {
+          "code": "G03F 1/54",
+          "title": {
+            "ko": null,
+            "en": "Absorbers, e.g. opaque materials"
+          }
+        },
+        {
+          "code": "G03F 1/56",
+          "title": {
+            "ko": null,
+            "en": "Organic absorbers, e.g. photo-resists"
+          }
+        },
+        {
+          "code": "G03F 1/58",
+          "title": {
+            "ko": null,
+            "en": "having two or more different absorber layers, e.g. stacked multilayer absorbers"
+          }
+        },
+        {
+          "code": "G03F 1/60",
+          "title": {
+            "ko": null,
+            "en": "Substrates"
+          }
+        },
+        {
+          "code": "G03F 1/62",
+          "title": {
+            "ko": null,
+            "en": "Pellicles or pellicle assemblies, e.g. having membrane on support frame; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/64",
+          "title": {
+            "ko": null,
+            "en": "characterised by the frames, e.g. structure or material thereof"
+          }
+        },
+        {
+          "code": "G03F 1/66",
+          "title": {
+            "ko": null,
+            "en": "Containers specially adapted for masks, mask blanks or pellicles; Preparation thereof"
+          }
+        },
+        {
+          "code": "G03F 1/68",
+          "title": {
+            "ko": "G03F 1/20 ~ G03F 1/50에 포함되지 않는 준비과정 절차",
+            "en": "Preparation processes not covered by groups G03F0001200000-G03F0001500000"
+          }
+        },
+        {
+          "code": "G03F 1/70",
+          "title": {
+            "ko": null,
+            "en": "Adapting basic layout or design of masks to lithographic process requirements, e.g. second iteration correction of mask patterns for imaging"
+          }
+        },
+        {
+          "code": "G03F 1/72",
+          "title": {
+            "ko": null,
+            "en": "Repair or correction of mask defects"
+          }
+        },
+        {
+          "code": "G03F 1/74",
+          "title": {
+            "ko": null,
+            "en": "by charged particle beam [CPB], e.g. focused ion beam"
+          }
+        },
+        {
+          "code": "G03F 1/76",
+          "title": {
+            "ko": null,
+            "en": "Patterning of masks by imaging"
+          }
+        },
+        {
+          "code": "G03F 1/78",
+          "title": {
+            "ko": null,
+            "en": "by charged particle beam [CPB], e.g. electron beam"
+          }
+        },
+        {
+          "code": "G03F 1/80",
+          "title": {
+            "ko": null,
+            "en": "Etching"
+          }
+        },
+        {
+          "code": "G03F 1/82",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary processes, e.g. cleaning"
+          }
+        },
+        {
+          "code": "G03F 1/84",
+          "title": {
+            "ko": null,
+            "en": "Inspecting"
+          }
+        },
+        {
+          "code": "G03F 1/86",
+          "title": {
+            "ko": null,
+            "en": "by charged particle beam [CPB]"
+          }
+        },
+        {
+          "code": "G03F 1/88",
+          "title": {
+            "ko": null,
+            "en": "prepared by photographic processes for producing originals simulating relief"
+          }
+        },
+        {
+          "code": "G03F 1/90",
+          "title": {
+            "ko": null,
+            "en": "prepared by montage processes"
+          }
+        },
+        {
+          "code": "G03F 1/92",
+          "title": {
+            "ko": null,
+            "en": "prepared from printing surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03F 3/00",
+      "title": {
+        "ko": "색분해; 색조의 수정(사진적 복사장치 일반 G03B)",
+        "en": "Colour separation; Correction of tonal value (photographic copying apparatus in general G03B)"
+      },
+      "subgroups": [
+        {
+          "code": "G03F 3/02",
+          "title": {
+            "ko": null,
+            "en": "by retouching"
+          }
+        },
+        {
+          "code": "G03F 3/04",
+          "title": {
+            "ko": null,
+            "en": "by photographic means"
+          }
+        },
+        {
+          "code": "G03F 3/06",
+          "title": {
+            "ko": null,
+            "en": "by masking"
+          }
+        },
+        {
+          "code": "G03F 3/08",
+          "title": {
+            "ko": null,
+            "en": "by photoelectric means"
+          }
+        },
+        {
+          "code": "G03F 3/10",
+          "title": {
+            "ko": null,
+            "en": "Checking the colour or tonal value of separation negatives or positives"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03F 5/00",
+      "title": {
+        "ko": "스크린법; 그것을 위한 스크린",
+        "en": "Screening processes; Screens therefor"
+      },
+      "subgroups": [
+        {
+          "code": "G03F 5/02",
+          "title": {
+            "ko": "투영방법에 의한 것(카메라 G03B)",
+            "en": "by projecting methods (cameras G03B)"
+          }
+        },
+        {
+          "code": "G03F 5/04",
+          "title": {
+            "ko": null,
+            "en": "changing the screen effect"
+          }
+        },
+        {
+          "code": "G03F 5/06",
+          "title": {
+            "ko": null,
+            "en": "changing the diaphragm effect"
+          }
+        },
+        {
+          "code": "G03F 5/08",
+          "title": {
+            "ko": null,
+            "en": "using line screens"
+          }
+        },
+        {
+          "code": "G03F 5/10",
+          "title": {
+            "ko": null,
+            "en": "using cross-line screens"
+          }
+        },
+        {
+          "code": "G03F 5/12",
+          "title": {
+            "ko": null,
+            "en": "using other screens, e.g. granulated screen"
+          }
+        },
+        {
+          "code": "G03F 5/14",
+          "title": {
+            "ko": null,
+            "en": "by contact methods"
+          }
+        },
+        {
+          "code": "G03F 5/16",
+          "title": {
+            "ko": null,
+            "en": "using grey half-tone screens"
+          }
+        },
+        {
+          "code": "G03F 5/18",
+          "title": {
+            "ko": null,
+            "en": "using colour half-tone screens"
+          }
+        },
+        {
+          "code": "G03F 5/20",
+          "title": {
+            "ko": null,
+            "en": "using screens for gravure printing"
+          }
+        },
+        {
+          "code": "G03F 5/22",
+          "title": {
+            "ko": null,
+            "en": "combining several screens; Elimination of moire"
+          }
+        },
+        {
+          "code": "G03F 5/24",
+          "title": {
+            "ko": null,
+            "en": "by multiple exposure, e.g. combined processes for line photo and screen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03F 7/00",
+      "title": {
+        "ko": "광기계식, 예. 사진석판법 방식에 의해 요철화 또는 패턴화된 표면의 생산, 예. 인쇄 표면; 그것을 위한 재료, 예. 포토레지스트를 포함하는 재료; 그것을 위해 특히 적합한 장치 (포토레지스트 구조를 특후한 제조 공정에 사용하는 경우에는 관련 기술분야를 참조, 예. B44C, H10P76/00, H05K)",
+        "en": "Photomechanical, e.g. photolithographic, production of textured or patterned surfaces, e.g. printed surfaces; Materials therefor, e.g. comprising photoresists; Apparatus specially adapted therefor   (using photoresist structures for special production processes, see the relevant places, e.g. B44C, H10P0076000000, H05K)"
+      },
+      "subgroups": [
+        {
+          "code": "G03F 7/004",
+          "title": {
+            "ko": "감광재료(G03F7/12, G03F7/14 가 우선)",
+            "en": "Photosensitive materials (G03F0007120000, G03F0007140000 take precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/008",
+          "title": {
+            "ko": "아지드(G03F7/075 가 우선)",
+            "en": "Azides (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/012",
+          "title": {
+            "ko": null,
+            "en": "Macromolecular azides; Macromolecular additives, e.g. binders"
+          }
+        },
+        {
+          "code": "G03F 7/016",
+          "title": {
+            "ko": "디아조늄염 또는 화합물(7/075가 우선)",
+            "en": "Diazonium salts or compounds (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/021",
+          "title": {
+            "ko": null,
+            "en": "Macromolecular diazonium compounds; Macromolecular additives, e.g. binders"
+          }
+        },
+        {
+          "code": "G03F 7/022",
+          "title": {
+            "ko": "퀴논디아지드(7/075가 우선)",
+            "en": "Quinonediazides (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/023",
+          "title": {
+            "ko": null,
+            "en": "Macromolecular quinonediazides; Macromolecular additives, e.g. binders"
+          }
+        },
+        {
+          "code": "G03F 7/025",
+          "title": {
+            "ko": "탄소-탄소 3중결합을 갖는 비고분자 광중합성 화합물, 예 아세틸렌형 화합물(7/075가 우선)",
+            "en": "Non-macromolecular photopolymerisable compounds having carbon-to-carbon triple bonds, e.g. acetylenic compounds (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/027",
+          "title": {
+            "ko": "탄소-탄소 2중결합을 갖는 비고분자 광중합성 화합물, 예. 에틸렌형 화합물(7/075 우선)",
+            "en": "Non-macromolecular photopolymerisable compounds having carbon-to-carbon double bonds, e.g. ethylenic compounds (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/028",
+          "title": {
+            "ko": "증감물질을 갖는 것, 예. 광중합개시제",
+            "en": "with photosensitivity-increasing substances, e.g. photoinitiators"
+          }
+        },
+        {
+          "code": "G03F 7/029",
+          "title": {
+            "ko": null,
+            "en": "Inorganic compounds; Onium compounds; Organic compounds having hetero atoms other than oxygen, nitrogen or sulfur"
+          }
+        },
+        {
+          "code": "G03F 7/031",
+          "title": {
+            "ko": "그룹 G03F7/029에 포함되지 않는 유기화합물",
+            "en": "Organic compounds not covered by group G03F0007029000"
+          }
+        },
+        {
+          "code": "G03F 7/032",
+          "title": {
+            "ko": null,
+            "en": "with binders"
+          }
+        },
+        {
+          "code": "G03F 7/033",
+          "title": {
+            "ko": null,
+            "en": "the binders being polymers obtained by reactions only involving carbon-to-carbon unsaturated bonds, e.g. vinyl polymers"
+          }
+        },
+        {
+          "code": "G03F 7/035",
+          "title": {
+            "ko": null,
+            "en": "the binders being polyurethanes"
+          }
+        },
+        {
+          "code": "G03F 7/037",
+          "title": {
+            "ko": null,
+            "en": "the binders being polyamides or polyimides"
+          }
+        },
+        {
+          "code": "G03F 7/038",
+          "title": {
+            "ko": "불용성 또는 특이적으로 친수성으로 된 고분자화합물 (G03F7/075가 우선; 고분자 아미드 G03F7/012; 고분자 디아조늄 화합물은 G03F7/021)",
+            "en": "Macromolecular compounds which are rendered insoluble or differentially wettable (G03F0007075000 takes precedence;macromolecular azides G03F0007012000;macromolecular diazonium compounds G03F0007021000)"
+          }
+        },
+        {
+          "code": "G03F 7/039",
+          "title": {
+            "ko": "광축퇴 가능한 고분자화합물 예. 양화형 전자 레지스트(47/075 우선; 고분자 퀴논디아지드 7/023)",
+            "en": "Macromolecular compounds which are photodegradable, e.g. positive electron resists (G03F0007075000 takes precedence;macromolecular quinonediazides G03F0007023000)"
+          }
+        },
+        {
+          "code": "G03F 7/04",
+          "title": {
+            "ko": "크롬산염(7/075가 우선)",
+            "en": "Chromates (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/06",
+          "title": {
+            "ko": "은염(7/075가 우선)",
+            "en": "Silver salts (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/07",
+          "title": {
+            "ko": null,
+            "en": "used for diffusion transfer"
+          }
+        },
+        {
+          "code": "G03F 7/075",
+          "title": {
+            "ko": null,
+            "en": "Silicon-containing compounds"
+          }
+        },
+        {
+          "code": "G03F 7/085",
+          "title": {
+            "ko": "접착촉진 비고분자첨가제에 특징이 있는 감광조성물 (7/075가 우선)",
+            "en": "Photosensitive compositions characterised by adhesion-promoting non-macromolecular additives (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/09",
+          "title": {
+            "ko": "구조적 세부, 예 지지체, 보조층, 에 특징이 있는 것 (인쇄판용 지지체 일반 B41N)",
+            "en": "characterised by structural details, e.g. supports, auxiliary layers (supports for printing plates in general B41N)"
+          }
+        },
+        {
+          "code": "G03F 7/095",
+          "title": {
+            "ko": "2개 이상의 감광층을 갖는 것 (G03F7/075가 우선)",
+            "en": "having more than one photosensitive layer (G03F0007075000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/105",
+          "title": {
+            "ko": null,
+            "en": "having substances, e.g. indicators, for forming visible images"
+          }
+        },
+        {
+          "code": "G03F 7/11",
+          "title": {
+            "ko": null,
+            "en": "having cover layers or intermediate layers, e.g. subbing layers"
+          }
+        },
+        {
+          "code": "G03F 7/115",
+          "title": {
+            "ko": null,
+            "en": "having supports or layers with means for obtaining a screen effect or for obtaining better contact in vacuum printing"
+          }
+        },
+        {
+          "code": "G03F 7/12",
+          "title": {
+            "ko": null,
+            "en": "Production of screen printing forms or similar printing forms, e.g. stencils"
+          }
+        },
+        {
+          "code": "G03F 7/14",
+          "title": {
+            "ko": null,
+            "en": "Production of collotype printing forms"
+          }
+        },
+        {
+          "code": "G03F 7/16",
+          "title": {
+            "ko": "도포법; 그것을 위한 장치(지지체 재료에 도포 일반은 B05; 사진목적용 지지체에 감광 조성물의 도포는 G03C 1/74)",
+            "en": "Coating processes; Apparatus therefor (applying coatings to base materials in general B05;applying photosensitive compositions to the base for photographic purposes G03C0001740000)"
+          }
+        },
+        {
+          "code": "G03F 7/18",
+          "title": {
+            "ko": null,
+            "en": "Coating curved surfaces"
+          }
+        },
+        {
+          "code": "G03F 7/20",
+          "title": {
+            "ko": "노광; 그것을 위한 장치 (복제용 사진인화장치는 G03B 27/00)",
+            "en": "Exposure; Apparatus therefor (photographic printing apparatus for making copies G03B0027000000)"
+          }
+        },
+        {
+          "code": "G03F 7/207",
+          "title": {
+            "ko": "초점 조절수단, 예 자동초점 조절수단 (위치 맞춤과 초점조절과의 조합 G03F9/02; 초점조절신호의 자동발생을 위한 시스템 일반 G02B7/28; 투영인화장치의 자동초점 조절수단 G03B27/34)",
+            "en": "Means for focusing, e.g. automatically (combination of positioning and focusing G03F0009020000;systems for automatic generation of focusing signals in general G02B0007280000;means for automatic focusing of projection printing apparatus G03B0027340000)"
+          }
+        },
+        {
+          "code": "G03F 7/213",
+          "title": {
+            "ko": "표면의 다른 위치를 동일패턴으로 동시에 노광하는 것(7/027 우선)",
+            "en": "Exposing with the same light pattern different positions of the same surface at the same time (G03F0007207000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/22",
+          "title": {
+            "ko": "표면의 다른 위치를 동일패턴으로 수차 노광하는 것 (G03F7/207 우선)",
+            "en": "Exposing sequentially with the same light pattern different positions of the same surface (G03F0007207000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/23",
+          "title": {
+            "ko": null,
+            "en": "Automatic means therefor"
+          }
+        },
+        {
+          "code": "G03F 7/24",
+          "title": {
+            "ko": null,
+            "en": "Curved surfaces"
+          }
+        },
+        {
+          "code": "G03F 7/26",
+          "title": {
+            "ko": "감광재료의 처리; 그것을 위한 장치 (G03F7/12 ～ G03F7/24가 우선)",
+            "en": "Processing photosensitive materials; Apparatus therefor (G03F0007120000-G03F0007240000 take precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/28",
+          "title": {
+            "ko": "분말 화상을 얻기 위한 것 (G03F3/10이 우선)",
+            "en": "for obtaining powder images (G03F0003100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03F 7/30",
+          "title": {
+            "ko": null,
+            "en": "Imagewise removal using liquid means"
+          }
+        },
+        {
+          "code": "G03F 7/32",
+          "title": {
+            "ko": null,
+            "en": "Liquid compositions therefor, e.g. developers"
+          }
+        },
+        {
+          "code": "G03F 7/34",
+          "title": {
+            "ko": null,
+            "en": "Imagewise removal by selective transfer, e.g. peeling away"
+          }
+        },
+        {
+          "code": "G03F 7/36",
+          "title": {
+            "ko": "그룹 G03F7/30 ～ G03F7/34에 포함되지 않는 화상제거, 예. 가스유를 사용하는 것, 플라즈마를 사용하는 것",
+            "en": "Imagewise removal not covered by groups G03F0007300000-G03F0007340000, e.g. using gas streams, using plasma"
+          }
+        },
+        {
+          "code": "G03F 7/38",
+          "title": {
+            "ko": null,
+            "en": "Treatment before imagewise removal, e.g. prebaking"
+          }
+        },
+        {
+          "code": "G03F 7/40",
+          "title": {
+            "ko": null,
+            "en": "Treatment after imagewise removal, e.g. baking"
+          }
+        },
+        {
+          "code": "G03F 7/42",
+          "title": {
+            "ko": null,
+            "en": "Stripping or agents therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03F 9/00",
+      "title": {
+        "ko": "원고, 마스크, 프레임, 사진시트, 표면구조 또는 모양이 작성된 표면의 위치결정 또는 위치 맞춤, 예. 자동적인 것 (G03F7/22 가 우선; 사진마스크의 제조 G03F1/00; 복제용 사진인화장치 G03B27/00)",
+        "en": "Registration or positioning of originals, masks, frames, photographic sheets or textured or patterned surfaces, e.g. automatically (G03F0007220000 takes precedence;preparation of photographic masks G03F0001000000;within photographic printing apparatus for making copies G03B0027000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G03F 9/02",
+          "title": {
+            "ko": "자동초점조절의 수단과 조합시킨 것 (자동초점조절 일반 G02B7/09, 초점조절 신호의 자동발생을 위한 시스템 G02B7/28)",
+            "en": "combined with means for automatic focusing (automatic focusing in general G02B0007090000;systems for automatic generation of focusing signals G02B0007280000)"
+          }
+        }
+      ]
+    }
+  ]
+}

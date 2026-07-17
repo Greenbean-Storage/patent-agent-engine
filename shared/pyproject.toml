@@ -1,0 +1,33 @@
+[project]
+name = "venezia-shared"
+version = "0.1.0"
+description = "Shared logging / secrets / contracts for all DRC containers"
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.37.0",
+    "structlog>=24.0.0",
+    "httpx>=0.28.0",
+    "jsonschema>=4.23.0",
+    "pyyaml>=6.0",
+    "pydantic>=2.0",
+]
+
+# venezia_agent / venezia_pipeline 은 폐기 — DRC 에서 venezia_agent 는 300.Actor/src/llm/ 으로
+# 이동, venezia_pipeline 은 dead code 로 삭제.
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["venezia_logging", "venezia_secrets", "venezia_contracts", "venezia_pipeline_runtime", "venezia_topology", "venezia_memory", "venezia_deployment", "venezia_cm_client", "venezia_media_config"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"venezia_memory/scaffolding.yaml" = "venezia_memory/scaffolding.yaml"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

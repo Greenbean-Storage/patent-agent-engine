@@ -1,0 +1,1203 @@
+{
+  "subclass": "B62D",
+  "title": {
+    "ko": null,
+    "en": "MOTOR VEHICLES; TRAILERS (steering, or guiding on a desired track, of agricultural machines or implements A01B69/00; wheels, castors, axles, increasing wheel adhesion B60B; vehicle tyres, tyre inflation or tyre changing B60C; connections between vehicles of a train or the like B60D; vehicles for use on rail and road, amphibious or convertible vehicles B60F; suspension arrangements B60G; heating, cooling, ventilating or other air treating devices B60H; windows, windscreens, non-fixed roofs, doors or similar devices, protective coverings for vehicles not in use B60J; propulsion plant arrangements, auxiliary drives, transmissions, controls, instrumentation or dashboards B60K; electric equipment or propulsion of electrically-propelled vehicles B60L; power supply for electrically-propelled vehicles B60M; passenger accommodation not otherwise provided for B60N; adaptations for load transportation or to carry special loads or objects B60P; arrangement of signalling or lighting devices, the mounting or supporting thereof or circuits therefor, for vehicles in general B60Q; vehicles, vehicle fittings or vehicle parts not otherwise provided for B60R; servicing, cleaning, repairing, supporting, lifting, or manoeuvring, not otherwise provided for, B60S; brake arrangements, brake control systems or parts thereof B60T; air-cushion vehicles B60V; motor-cycles, accessories therefor B62J, B62K; testing of vehicles G01M)"
+  },
+  "groups": [
+    {
+      "code": "B62D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Steering controls, i.e. means for initiating a change of direction of the vehicle"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 1/02",
+          "title": {
+            "ko": null,
+            "en": "vehicle-mounted"
+          }
+        },
+        {
+          "code": "B62D 1/24",
+          "title": {
+            "ko": null,
+            "en": "not vehicle-mounted"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Steering gears (power assisted or power driven B62D5/00; steering linkages B62D7/00; for non-deflectable wheels B62D11/00; gearing in general F16H)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 3/02",
+          "title": {
+            "ko": null,
+            "en": "mechanical"
+          }
+        },
+        {
+          "code": "B62D 3/14",
+          "title": {
+            "ko": null,
+            "en": "hydraulic"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Power-assisted or power-driven steering (for non-deflectable wheels B62D11/00; fluid-pressure servomotors in general F15B)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 5/001",
+          "title": {
+            "ko": null,
+            "en": "{Mechanical components or aspects of steer-by-wire systems, not otherwise provided for in this maingroup}"
+          }
+        },
+        {
+          "code": "B62D 5/008",
+          "title": {
+            "ko": null,
+            "en": "{Changing the transfer ratio between the steering wheel and the steering gear by variable supply of energy, e.g. by using a superposition gear}"
+          }
+        },
+        {
+          "code": "B62D 5/02",
+          "title": {
+            "ko": null,
+            "en": "mechanical, e.g. using a power-take-off mechanism for taking power from a rotating shaft of the vehicle and applying it to the steering gear"
+          }
+        },
+        {
+          "code": "B62D 5/04",
+          "title": {
+            "ko": null,
+            "en": "electrical, e.g. using an electric servo-motor connected to, or forming part of, the steering gear"
+          }
+        },
+        {
+          "code": "B62D 5/06",
+          "title": {
+            "ko": null,
+            "en": "fluid, i.e. using a pressurised fluid for most or all the force required for steering a vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 6/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for automatically controlling steering depending on driving conditions sensed and responded to, e.g. control circuits (means for initiating a change in direction B62D1/00; steering valves B62D5/06; combined with means for inclining the vehicle body or wheels on bends B62D9/00)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 6/001",
+          "title": {
+            "ko": null,
+            "en": "{the torque NOT being among the input parameters}"
+          }
+        },
+        {
+          "code": "B62D 6/002",
+          "title": {
+            "ko": null,
+            "en": "{computing target steering angles for front or rear wheels (B62D7/159 takes precedence)}"
+          }
+        },
+        {
+          "code": "B62D 6/007",
+          "title": {
+            "ko": null,
+            "en": "{adjustable by the driver, e.g. sport mode}"
+          }
+        },
+        {
+          "code": "B62D 6/008",
+          "title": {
+            "ko": null,
+            "en": "{Control of feed-back to the steering input member, e.g. simulating road feel in steer-by-wire applications}"
+          }
+        },
+        {
+          "code": "B62D 6/02",
+          "title": {
+            "ko": null,
+            "en": "responsive only to vehicle speed"
+          }
+        },
+        {
+          "code": "B62D 6/04",
+          "title": {
+            "ko": null,
+            "en": "responsive only to forces disturbing the intended course of the vehicle, e.g. forces acting transversely to the direction of vehicle travel"
+          }
+        },
+        {
+          "code": "B62D 6/06",
+          "title": {
+            "ko": null,
+            "en": "responsive only to vehicle vibration dampening arrangements (steering dampers for cycles B62K21/08)"
+          }
+        },
+        {
+          "code": "B62D 6/08",
+          "title": {
+            "ko": null,
+            "en": "responsive only to {driver} input torque"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Steering linkage; Stub axles or their mountings (B62D13/00 takes precedence; power-assisted or power-driven steering B62D5/00)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 7/02",
+          "title": {
+            "ko": null,
+            "en": "for pivoted bogies"
+          }
+        },
+        {
+          "code": "B62D 7/06",
+          "title": {
+            "ko": null,
+            "en": "for individually-pivoted wheels, e.g. on king-pins"
+          }
+        },
+        {
+          "code": "B62D 7/16",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of linkage connections (pivots per se F16C)"
+          }
+        },
+        {
+          "code": "B62D 7/18",
+          "title": {
+            "ko": null,
+            "en": "Steering knuckles; King pins"
+          }
+        },
+        {
+          "code": "B62D 7/20",
+          "title": {
+            "ko": null,
+            "en": "Links, e.g. track rods (means for adjusting camber, castor, or toe-in B62D17/00)"
+          }
+        },
+        {
+          "code": "B62D 7/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing or eliminating reaction, e.g. vibration, from parts, e.g. wheels, of the steering system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Steering deflectable wheels not otherwise provided for (steering positon indicators B62D15/02)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 9/002",
+          "title": {
+            "ko": null,
+            "en": "{combined with means for differentially distributing power on the deflectable wheels during cornering}"
+          }
+        },
+        {
+          "code": "B62D 9/005",
+          "title": {
+            "ko": null,
+            "en": "{Emergency systems using brakes for steering}"
+          }
+        },
+        {
+          "code": "B62D 9/007",
+          "title": {
+            "ko": null,
+            "en": "{Emergency systems using the steering system for braking}"
+          }
+        },
+        {
+          "code": "B62D 9/02",
+          "title": {
+            "ko": null,
+            "en": "combined with means for inwardly inclining vehicle body on bends"
+          }
+        },
+        {
+          "code": "B62D 9/04",
+          "title": {
+            "ko": null,
+            "en": "combined with means for {inwardly} inclining wheels on bends (B62D9/02 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Steering non-deflectable wheels; Steering endless tracks or the like"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 11/001",
+          "title": {
+            "ko": null,
+            "en": "{control systems (B62D11/183 takes precedence)}"
+          }
+        },
+        {
+          "code": "B62D 11/02",
+          "title": {
+            "ko": null,
+            "en": "by differentially driving ground-engaging elements on opposite vehicle sides"
+          }
+        },
+        {
+          "code": "B62D 11/20",
+          "title": {
+            "ko": null,
+            "en": "Endless-track steering having pivoted bogie carrying track (B62D11/02 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 11/22",
+          "title": {
+            "ko": null,
+            "en": "Endless track steering being effected by deflecting endless track rollers or the like"
+          }
+        },
+        {
+          "code": "B62D 11/24",
+          "title": {
+            "ko": null,
+            "en": "Endless track steering specially adapted for vehicles having both steerable wheels and endless track"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 12/00",
+      "title": {
+        "ko": null,
+        "en": "Steering specially adapted for vehicles operating in tandem or having pivotally connected frames (steering endless tracks or the like B62D11/00; steering specially adapted for trailers B62D13/00)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 12/02",
+          "title": {
+            "ko": null,
+            "en": "for vehicles operating in tandem"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Steering specially adapted for trailers (combined traction and steering hitches B60D)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 13/005",
+          "title": {
+            "ko": null,
+            "en": "{operated from tractor steering system}"
+          }
+        },
+        {
+          "code": "B62D 13/02",
+          "title": {
+            "ko": null,
+            "en": "for centrally-pivoted axles"
+          }
+        },
+        {
+          "code": "B62D 13/04",
+          "title": {
+            "ko": null,
+            "en": "for individually-pivoted wheels"
+          }
+        },
+        {
+          "code": "B62D 13/06",
+          "title": {
+            "ko": null,
+            "en": "for backing a normally drawn trailer"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Steering not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Steering position indicators {; Steering position determination; Steering aids}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Means on vehicles for adjusting camber, castor, or toe-in"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 19/00",
+      "title": {
+        "ko": null,
+        "en": "Radius rods, i.e. distance members"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Understructures, i.e. chassis frame on which a vehicle body may be mounted (combined frame and vehicle body B62D23/00  {; characterised by the material thereof B62D29/00})"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 21/02",
+          "title": {
+            "ko": null,
+            "en": "comprising longitudinally or transversely arranged frame members"
+          }
+        },
+        {
+          "code": "B62D 21/06",
+          "title": {
+            "ko": null,
+            "en": "of X-shaped or fork-shaped construction, i.e. having members which form an X or fork as the frame is seen in plan view"
+          }
+        },
+        {
+          "code": "B62D 21/07",
+          "title": {
+            "ko": null,
+            "en": "wide-hipped frame type, i.e. a wide box-shaped mid portion with narrower sections extending from said mid portion in both fore and aft directions"
+          }
+        },
+        {
+          "code": "B62D 21/08",
+          "title": {
+            "ko": null,
+            "en": "built up with interlaced cross members"
+          }
+        },
+        {
+          "code": "B62D 21/09",
+          "title": {
+            "ko": null,
+            "en": "Means for mounting load bearing surfaces"
+          }
+        },
+        {
+          "code": "B62D 21/10",
+          "title": {
+            "ko": null,
+            "en": "in which the main member is plate-like"
+          }
+        },
+        {
+          "code": "B62D 21/11",
+          "title": {
+            "ko": null,
+            "en": "with resilient means for suspension {, e.g. of wheels or engine; sub-frames for mounting engine or suspensions}"
+          }
+        },
+        {
+          "code": "B62D 21/12",
+          "title": {
+            "ko": null,
+            "en": "assembled from readily detachable parts"
+          }
+        },
+        {
+          "code": "B62D 21/14",
+          "title": {
+            "ko": null,
+            "en": "of adjustable length or width"
+          }
+        },
+        {
+          "code": "B62D 21/15",
+          "title": {
+            "ko": null,
+            "en": "having impact absorbing means, e.g. a frame designed to permanently or temporarily change shape or dimension upon impact with another body (bumpers B60R19/02; shock absorbers in general F16F)"
+          }
+        },
+        {
+          "code": "B62D 21/16",
+          "title": {
+            "ko": null,
+            "en": "having fluid storage compartment"
+          }
+        },
+        {
+          "code": "B62D 21/17",
+          "title": {
+            "ko": null,
+            "en": "forming fluid or electrical conduit means or having other means to accommodate the transmission of a force or signal"
+          }
+        },
+        {
+          "code": "B62D 21/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by the vehicle type and not provided for in groups B62D21/02 - B62D21/17"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 23/00",
+      "title": {
+        "ko": null,
+        "en": "Combined superstructure and frame, i.e. monocoque constructions ({having impact absorbing means B62D21/15; } superstructure {or monocoque structure} sub-units {or parts or details thereof} B62D25/00  {; characterised by the material thereof B62D29/00})"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 23/005",
+          "title": {
+            "ko": null,
+            "en": "{with integrated chassis in the whole shell, e.g. meshwork, tubes, or the like (B62D33/044 takes precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 24/00",
+      "title": {
+        "ko": null,
+        "en": "Connections between vehicle body and vehicle frame (B62D23/00, B62D33/077 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 24/02",
+          "title": {
+            "ko": null,
+            "en": "Vehicle body, not intended to move relatively to the vehicle frame, and mounted on vibration absorbing mountings, e.g. rubber pads"
+          }
+        },
+        {
+          "code": "B62D 24/04",
+          "title": {
+            "ko": null,
+            "en": "Vehicle body mounted on resilient suspension for movement relative to the vehicle frame"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 25/00",
+      "title": {
+        "ko": null,
+        "en": "Superstructure {or monocoque structure} sub-units; Parts or details thereof not otherwise provided for {(having impact absorbing means B62D21/15; running-boards, steps, or the like as superstructure sub-unit B60R3/00)}"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 25/02",
+          "title": {
+            "ko": null,
+            "en": "Side panels {(B62D33/046 takes precedence; sideboards for open load compartments B62D33/023)}"
+          }
+        },
+        {
+          "code": "B62D 25/04",
+          "title": {
+            "ko": null,
+            "en": "Door pillars {; windshield pillars}"
+          }
+        },
+        {
+          "code": "B62D 25/06",
+          "title": {
+            "ko": null,
+            "en": "Fixed roofs (non-fixed roofs or like shelters B60J7/00; roof liners B60R13/02; insulating elements B60R13/08)"
+          }
+        },
+        {
+          "code": "B62D 25/08",
+          "title": {
+            "ko": null,
+            "en": "Front or rear portions {(sub-frames for mounting engine or suspensions B62D21/11)}"
+          }
+        },
+        {
+          "code": "B62D 25/20",
+          "title": {
+            "ko": null,
+            "en": "Floors or bottom sub-units {(sub-frames for mounting engine or suspensions B62D21/11; drip trays F16N31/006)}"
+          }
+        },
+        {
+          "code": "B62D 25/24",
+          "title": {
+            "ko": null,
+            "en": "Superstructure sub-units with access {or drainage} openings having movable or removable closures; {Sealing means therefor}(inlet covers for vehicle fuel tanks B60K15/05)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Connections between superstructure {or understructure} sub-units {(B62D33/0207, B62D33/044 take precedence; between sub-units predominently made of synthetic material B62D29/048)}"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 27/02",
+          "title": {
+            "ko": null,
+            "en": "rigid"
+          }
+        },
+        {
+          "code": "B62D 27/04",
+          "title": {
+            "ko": null,
+            "en": "resilient"
+          }
+        },
+        {
+          "code": "B62D 27/06",
+          "title": {
+            "ko": null,
+            "en": "readily releasable"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 29/00",
+      "title": {
+        "ko": null,
+        "en": "Superstructures, {understructures, or sub-units thereof,} characterised by the material thereof {(B62D33/044, B62D33/048 take precedence)}"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 29/001",
+          "title": {
+            "ko": null,
+            "en": "{characterised by combining metal and synthetic material}"
+          }
+        },
+        {
+          "code": "B62D 29/007",
+          "title": {
+            "ko": null,
+            "en": "{predominantly of special steel or specially treated steel, e.g. stainless steel or locally surface hardened steel}"
+          }
+        },
+        {
+          "code": "B62D 29/008",
+          "title": {
+            "ko": null,
+            "en": "{predominantly of light alloys, e.g. extruded}"
+          }
+        },
+        {
+          "code": "B62D 29/02",
+          "title": {
+            "ko": null,
+            "en": "predominantly of wood"
+          }
+        },
+        {
+          "code": "B62D 29/04",
+          "title": {
+            "ko": null,
+            "en": "predominantly of synthetic material (working of plastics or substances in a plastic state B29)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Superstructures for passenger vehicles (passenger vehicles specially adapted to co-operate with aircraft or terminal buildings B64F1/31)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 31/003",
+          "title": {
+            "ko": null,
+            "en": "{compact cars, e.g. city cars}"
+          }
+        },
+        {
+          "code": "B62D 31/02",
+          "title": {
+            "ko": null,
+            "en": "for carrying large numbers of passengers, e.g. omnibus"
+          }
+        },
+        {
+          "code": "B62D 31/04",
+          "title": {
+            "ko": null,
+            "en": "with more than one deck"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 33/00",
+      "title": {
+        "ko": null,
+        "en": "Superstructures for load-carrying vehicles ({having impact absorbing means B62D21/15; } in which a load-carrying element is movable B60P; liners B60R13/00  {; joining sheets or plates to one another or to strips or bars parallel to them F16B5/00})"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 33/02",
+          "title": {
+            "ko": null,
+            "en": "Platforms; Open load compartments {(flat wagons including posts or standards B61D3/08)}"
+          }
+        },
+        {
+          "code": "B62D 33/04",
+          "title": {
+            "ko": null,
+            "en": "Enclosed load compartments {; Frameworks for movable panels, tarpaulins or side curtains (side curtains per se B60J5/065; tarpaulins per se B60J7/00, B60P7/04)}"
+          }
+        },
+        {
+          "code": "B62D 33/06",
+          "title": {
+            "ko": null,
+            "en": "Drivers' cabs {(overhead guards, e.g. against loads falling down B60R21/11; roll-over protection B60R21/13)}"
+          }
+        },
+        {
+          "code": "B62D 33/077",
+          "title": {
+            "ko": null,
+            "en": "characterised by the connection of the superstructure to the vehicle frame {(B62D33/06 takes precedence)}"
+          }
+        },
+        {
+          "code": "B62D 33/08",
+          "title": {
+            "ko": null,
+            "en": "comprising adjustable means (B62D33/10 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 35/00",
+      "title": {
+        "ko": null,
+        "en": "Vehicle bodies characterised by streamlining"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 35/001",
+          "title": {
+            "ko": null,
+            "en": "{For commercial vehicles or tractor-trailer combinations, e.g. caravans}"
+          }
+        },
+        {
+          "code": "B62D 35/005",
+          "title": {
+            "ko": null,
+            "en": "{Front spoilers (B62D35/001 takes precedence)}"
+          }
+        },
+        {
+          "code": "B62D 35/007",
+          "title": {
+            "ko": null,
+            "en": "{Rear spoilers (B62D35/001 takes precedence)}"
+          }
+        },
+        {
+          "code": "B62D 35/008",
+          "title": {
+            "ko": null,
+            "en": "{Side spoilers (B62D35/001 takes precedence)}"
+          }
+        },
+        {
+          "code": "B62D 35/02",
+          "title": {
+            "ko": null,
+            "en": "Streamlining the undersurfaces {(B62D35/005, B62D35/007, B62D35/008 take precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 37/00",
+      "title": {
+        "ko": null,
+        "en": "Stabilising vehicle bodies without controlling suspension arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 37/02",
+          "title": {
+            "ko": null,
+            "en": "by aerodynamic means"
+          }
+        },
+        {
+          "code": "B62D 37/04",
+          "title": {
+            "ko": null,
+            "en": "by means of movable masses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 39/00",
+      "title": {
+        "ko": null,
+        "en": "Vehicle bodies not otherwise provided for {, e.g. safety vehicles (safety equipment B60R21/00)}"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 41/00",
+      "title": {
+        "ko": null,
+        "en": "Fittings for identifying vehicles in case of collision; Fittings for marking or recording collision areas"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 43/00",
+      "title": {
+        "ko": null,
+        "en": "Spare wheel stowing, holding, or mounting arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 43/002",
+          "title": {
+            "ko": null,
+            "en": "{Handling devices, mainly for heavy wheels (via cables and chains B62D43/045)}"
+          }
+        },
+        {
+          "code": "B62D 43/005",
+          "title": {
+            "ko": null,
+            "en": "{Protective coverings for spare wheels}"
+          }
+        },
+        {
+          "code": "B62D 43/007",
+          "title": {
+            "ko": null,
+            "en": "{Anti-theft devices for spare wheels}"
+          }
+        },
+        {
+          "code": "B62D 43/02",
+          "title": {
+            "ko": null,
+            "en": "external to the vehicle body"
+          }
+        },
+        {
+          "code": "B62D 43/06",
+          "title": {
+            "ko": null,
+            "en": "within the vehicle body"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 47/00",
+      "title": {
+        "ko": null,
+        "en": "Motor vehicles or trailers predominantly for carrying passengers (superstructures B62D31/00)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 47/003",
+          "title": {
+            "ko": null,
+            "en": "{convertible in order to modify the number of seats (foldable compact cars B62D31/006; convertible from one use to a different one B60P3/42)}"
+          }
+        },
+        {
+          "code": "B62D 47/006",
+          "title": {
+            "ko": null,
+            "en": "{Vehicles which can be divided in sub-vehicles; nestable vehicles}"
+          }
+        },
+        {
+          "code": "B62D 47/02",
+          "title": {
+            "ko": null,
+            "en": "for large numbers of passengers, e.g. omnibus"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 49/00",
+      "title": {
+        "ko": null,
+        "en": "Tractors (of walk type B62D51/04; endless- track features B62D55/00 {; transport specially adapted for underground galleries E21F13/02})"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 49/002",
+          "title": {
+            "ko": null,
+            "en": "{characterised by being of the low ground pressure type}"
+          }
+        },
+        {
+          "code": "B62D 49/005",
+          "title": {
+            "ko": null,
+            "en": "{Tractors for semi-trailers (combinations of tractor plus semi- trailer B62D53/06)}"
+          }
+        },
+        {
+          "code": "B62D 49/02",
+          "title": {
+            "ko": null,
+            "en": "modified to take lifting devices"
+          }
+        },
+        {
+          "code": "B62D 49/04",
+          "title": {
+            "ko": null,
+            "en": "modified to take pushing devices"
+          }
+        },
+        {
+          "code": "B62D 49/06",
+          "title": {
+            "ko": null,
+            "en": "adapted for multi-purpose use"
+          }
+        },
+        {
+          "code": "B62D 49/08",
+          "title": {
+            "ko": null,
+            "en": "having means for preventing overturning or tipping (safety devices for propulsion-unit control, specially adapted for, or arranged in, vehicles B60K28/00)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 51/00",
+      "title": {
+        "ko": null,
+        "en": "Motor vehicles characterised by the driver not being seated {(wheeled carriers for golf bags A63B55/60)}"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 51/001",
+          "title": {
+            "ko": null,
+            "en": "{characterised by the vehicle control device (mechanical features of control devices in general G05G; arrangements of vehicle control devices in general B60K20/00, B60K23/00, B60K26/00)}"
+          }
+        },
+        {
+          "code": "B62D 51/004",
+          "title": {
+            "ko": null,
+            "en": "{characterised by the transmission (arrangements or mounting of transmissions in vehicles B60K17/00; gearing in general F16H)}"
+          }
+        },
+        {
+          "code": "B62D 51/005",
+          "title": {
+            "ko": null,
+            "en": "{Vehicular characteristics of load handling vehicles, e.g. pedestrian trucks (fork-lift trucks B66F9/06)}"
+          }
+        },
+        {
+          "code": "B62D 51/007",
+          "title": {
+            "ko": null,
+            "en": "{the vehicle being of the endless track type (endless track vehicles in general B62D55/00)}"
+          }
+        },
+        {
+          "code": "B62D 51/008",
+          "title": {
+            "ko": null,
+            "en": "{characterised by the vehicle being formed by articulated or separable units (road trains B62D53/00)}"
+          }
+        },
+        {
+          "code": "B62D 51/02",
+          "title": {
+            "ko": null,
+            "en": "the driver standing in the vehicle"
+          }
+        },
+        {
+          "code": "B62D 51/04",
+          "title": {
+            "ko": null,
+            "en": "the driver walking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 53/00",
+      "title": {
+        "ko": null,
+        "en": "Tractor-trailer combinations; Road trains (traction couplings other than fifth wheel coupling B60D {; tracked vehicles comprising at least two articulated parts B62D55/0655})"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 53/005",
+          "title": {
+            "ko": null,
+            "en": "{Combinations with at least three axles and comprising two or more articulated parts (articulated buses B62D47/025)}"
+          }
+        },
+        {
+          "code": "B62D 53/02",
+          "title": {
+            "ko": null,
+            "en": "comprising a uniaxle tractor unit and a uniaxle trailer unit {(see B60B11/00 - B60B11/08)}"
+          }
+        },
+        {
+          "code": "B62D 53/04",
+          "title": {
+            "ko": null,
+            "en": "comprising a vehicle carrying an essential part of the other vehicle's load by having supporting means for the front or rear part of the other vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 55/00",
+      "title": {
+        "ko": null,
+        "en": "Endless track vehicles (steering aspects B62D11/00; {characterised by the driver not being seated B62D51/007})"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 55/02",
+          "title": {
+            "ko": null,
+            "en": "with tracks and additional ground wheels {(for multi-purpose tractors B62D49/0635)}"
+          }
+        },
+        {
+          "code": "B62D 55/04",
+          "title": {
+            "ko": null,
+            "en": "with tracks and alternative ground wheels, e.g. changeable from endless track vehicle into wheeled vehicle and vice versa {(for multi-purpose tractors B62D49/0635)}"
+          }
+        },
+        {
+          "code": "B62D 55/06",
+          "title": {
+            "ko": null,
+            "en": "with tracks without ground wheels"
+          }
+        },
+        {
+          "code": "B62D 55/08",
+          "title": {
+            "ko": null,
+            "en": "Endless track units; Parts thereof"
+          }
+        },
+        {
+          "code": "B62D 55/32",
+          "title": {
+            "ko": null,
+            "en": "Assembly, disassembly, repair or servicing of endless-track systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 57/00",
+      "title": {
+        "ko": null,
+        "en": "Vehicles characterised by having other propulsion or other ground- engaging means than wheels or endless track, alone or in addition to wheels or endless track (sledges B62B; motor sledges B62M)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 57/02",
+          "title": {
+            "ko": null,
+            "en": "with ground-engaging propulsion means, e.g. walking members"
+          }
+        },
+        {
+          "code": "B62D 57/04",
+          "title": {
+            "ko": null,
+            "en": "having other than ground-engaging propulsion means, e.g. having propellers (arrangement of jet-propulsion units B60K)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 59/00",
+      "title": {
+        "ko": null,
+        "en": "Trailers with driven ground wheels or the like"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 59/02",
+          "title": {
+            "ko": null,
+            "en": "driven from external propulsion unit"
+          }
+        },
+        {
+          "code": "B62D 59/04",
+          "title": {
+            "ko": null,
+            "en": "driven from propulsion unit on trailer"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 61/00",
+      "title": {
+        "ko": null,
+        "en": "Motor vehicles or trailers, characterised by the arrangement or number of wheels, not otherwise provided for, e.g. four wheels in diamond pattern"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 61/02",
+          "title": {
+            "ko": null,
+            "en": "with two road wheels in tandem on the longitudinal centre line of the vehicle"
+          }
+        },
+        {
+          "code": "B62D 61/06",
+          "title": {
+            "ko": null,
+            "en": "with only three wheels"
+          }
+        },
+        {
+          "code": "B62D 61/10",
+          "title": {
+            "ko": null,
+            "en": "with more than four wheels {(tractors of the low ground pressure type B62D49/002)}"
+          }
+        },
+        {
+          "code": "B62D 61/12",
+          "title": {
+            "ko": null,
+            "en": "with variable number of ground engaging wheels, e.g. with some wheels arranged higher than others, or with retractable wheels (for manoeuvring purposes only B60S)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 63/00",
+      "title": {
+        "ko": null,
+        "en": "Motor vehicles or trailers not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 63/02",
+          "title": {
+            "ko": null,
+            "en": "Motor vehicles"
+          }
+        },
+        {
+          "code": "B62D 63/06",
+          "title": {
+            "ko": null,
+            "en": "Trailers (vehicles comprising living accommodation for people, e.g. caravans, camping or like vehicles B60P3/32)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 65/00",
+      "title": {
+        "ko": null,
+        "en": "Designing, manufacturing, e.g. assembling, facilitating disassembly, or structurally modifying motor vehicles or trailers, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 65/005",
+          "title": {
+            "ko": null,
+            "en": "{Inspection and final control devices}"
+          }
+        },
+        {
+          "code": "B62D 65/02",
+          "title": {
+            "ko": null,
+            "en": "Joining sub-units or components to, or positioning sub-units or components with respect to, body shell or other sub-units or components"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 67/00",
+      "title": {
+        "ko": null,
+        "en": "Systematic disassembly of vehicles for recovery of salvageable components, e.g. for recycling (for disposal of vehicles by destroying or transformation B09B3/00, B09B5/00 {; general arrangement of separating plants B03B9/00; recovery of plastics B29B17/00})"
+      },
+      "subgroups": []
+    }
+  ]
+}

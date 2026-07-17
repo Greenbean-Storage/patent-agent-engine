@@ -1,0 +1,1062 @@
+{
+  "subclass": "H04H",
+  "title": {
+    "ko": "방송통신(전송일반 H04B; 다중화통신 H04J)",
+    "en": "BROADCAST COMMUNICATION (multiplex communication H04J;pictorial communication aspects of broadcast systems H04N)"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스에서, 아래 용어 또는 표현은 지시된 의미로 사용된다:[2008.01] •“방송”은 복수의 수신처에 동일한 신호를 동시에 분배하는 것이다. “방송”이라는 용어는 수신처의 요청 또는 응답에 의하여 제어되는 수신처로의 신호 분배를 포함하지는 않는다; •“방송정보”는 방송시스템에 의하여 분배되는 모든 종류의 정보를 포함한다; •“방송관련정보”는 방송시스템을 통하여 제공되는 서비스 에 의하여 요청된, 방송정보를 제외한 비방송정보이다; •“방송시간”은 특정 방송 정보가 존재하는 시간과 이용가능한 시간이다; •“방송채널”은 방송정보가 분배되는 통로이다, 예. 반송파(搬送波), 시간대, 케이블, 무선방송 서비스 지역; •“방송공간”은 특정 방송정보가 존재하며 이용가능한 방송채널 세트 또는 방송채널 세트에 의하여 결정되는 지리적 영역이다; •“방송시공간”은 특정 방송이 존재하며 이용가능한 방송공간과 방송시간에 의하여 결정되는 시공간이다; •“방송시스템”은 방송용 송신기, 응답기 그리고 수신기로 구성된다; •“방송관련시스템”은 방송정보의 제작, 방송, 수신 또는 사용에 의하여 직접적으로 영향을 받는 시스템이다; •“방송서비스”는 방송시스템에 의하여 제공되는 서비스이다, 예. 방송정보의 분배 서비스; •“방송관련서비스”는 방송관련시스템에 의하여 제공되는 서비스이다. •“B에 직접 연결된 A\"는 A가 B에 직접적으로 영향을 주거나 A가 B로부터 직접적으로 영향을 받음을 의미한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04H 20/00",
+      "title": {
+        "ko": "방송용 설비 또는 방송과 결합된 분배용 설비",
+        "en": "Arrangements for broadcast or for distribution combined with broadcast"
+      },
+      "subgroups": [
+        {
+          "code": "H04H 20/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for relaying broadcast information"
+          }
+        },
+        {
+          "code": "H04H 20/04",
+          "title": {
+            "ko": null,
+            "en": "from field pickup units [FPU]"
+          }
+        },
+        {
+          "code": "H04H 20/06",
+          "title": {
+            "ko": null,
+            "en": "among broadcast stations"
+          }
+        },
+        {
+          "code": "H04H 20/08",
+          "title": {
+            "ko": null,
+            "en": "among terminal devices"
+          }
+        },
+        {
+          "code": "H04H 20/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for replacing or switching information during the broadcast or during the distribution"
+          }
+        },
+        {
+          "code": "H04H 20/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for monitoring, testing or troubleshooting"
+          }
+        },
+        {
+          "code": "H04H 20/14",
+          "title": {
+            "ko": null,
+            "en": "for monitoring programmes"
+          }
+        },
+        {
+          "code": "H04H 20/16",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for broadcast or distribution of identical information repeatedly"
+          }
+        },
+        {
+          "code": "H04H 20/18",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for synchronising broadcast or distribution via plural systems"
+          }
+        },
+        {
+          "code": "H04H 20/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for broadcast or distribution of identical information via plural systems"
+          }
+        },
+        {
+          "code": "H04H 20/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for broadcast of identical information via plural broadcast systems"
+          }
+        },
+        {
+          "code": "H04H 20/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for distribution of identical information via broadcast system and non-broadcast system"
+          }
+        },
+        {
+          "code": "H04H 20/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for switching distribution systems"
+          }
+        },
+        {
+          "code": "H04H 20/28",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for simultaneous broadcast of plural pieces of information"
+          }
+        },
+        {
+          "code": "H04H 20/30",
+          "title": {
+            "ko": null,
+            "en": "by a single channel"
+          }
+        },
+        {
+          "code": "H04H 20/31",
+          "title": {
+            "ko": null,
+            "en": "using in-band signals, e.g. subsonic or cue signal"
+          }
+        },
+        {
+          "code": "H04H 20/33",
+          "title": {
+            "ko": null,
+            "en": "by plural channels"
+          }
+        },
+        {
+          "code": "H04H 20/34",
+          "title": {
+            "ko": null,
+            "en": "using an out-of-band subcarrier signal"
+          }
+        },
+        {
+          "code": "H04H 20/36",
+          "title": {
+            "ko": null,
+            "en": "for AM broadcasts"
+          }
+        },
+        {
+          "code": "H04H 20/38",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for distribution where lower stations, e.g. receivers, interact with the broadcast"
+          }
+        },
+        {
+          "code": "H04H 20/40",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for broadcast specially adapted for accumulation-type receivers"
+          }
+        },
+        {
+          "code": "H04H 20/42",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for resource management"
+          }
+        },
+        {
+          "code": "H04H 20/44",
+          "title": {
+            "ko": "방송에 특별히 적용되는 회로 또는 소자에 특징이 있는 설비",
+            "en": "Arrangements characterised by circuits or components specially adapted for broadcast"
+          }
+        },
+        {
+          "code": "H04H 20/46",
+          "title": {
+            "ko": "H04H 20/53 ~ H04H 20/86에 해당되는 방송시스템에 특히 적합한 것",
+            "en": "specially adapted for broadcast systems covered by groups H04H0020530000-H04H0020860000"
+          }
+        },
+        {
+          "code": "H04H 20/47",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for stereophonic broadcast systems"
+          }
+        },
+        {
+          "code": "H04H 20/48",
+          "title": {
+            "ko": null,
+            "en": "for FM stereophonic broadcast systems"
+          }
+        },
+        {
+          "code": "H04H 20/49",
+          "title": {
+            "ko": null,
+            "en": "for AM stereophonic broadcast systems"
+          }
+        },
+        {
+          "code": "H04H 20/51",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for satellite broadcast systems"
+          }
+        },
+        {
+          "code": "H04H 20/53",
+          "title": {
+            "ko": null,
+            "en": "Arrangements specially adapted for specific applications, e.g. for traffic information or for mobile receivers"
+          }
+        },
+        {
+          "code": "H04H 20/55",
+          "title": {
+            "ko": null,
+            "en": "for traffic information"
+          }
+        },
+        {
+          "code": "H04H 20/57",
+          "title": {
+            "ko": null,
+            "en": "for mobile receivers"
+          }
+        },
+        {
+          "code": "H04H 20/59",
+          "title": {
+            "ko": null,
+            "en": "for emergency or urgency"
+          }
+        },
+        {
+          "code": "H04H 20/61",
+          "title": {
+            "ko": null,
+            "en": "for local area broadcast, e.g. instore broadcast"
+          }
+        },
+        {
+          "code": "H04H 20/62",
+          "title": {
+            "ko": null,
+            "en": "for transportation systems, e.g. in vehicles"
+          }
+        },
+        {
+          "code": "H04H 20/63",
+          "title": {
+            "ko": null,
+            "en": "to plural spots in a confined site, e.g. MATV [Master Antenna Television]"
+          }
+        },
+        {
+          "code": "H04H 20/65",
+          "title": {
+            "ko": null,
+            "en": "Arrangements characterised by transmission systems for broadcast"
+          }
+        },
+        {
+          "code": "H04H 20/67",
+          "title": {
+            "ko": null,
+            "en": "Common-wave systems, i.e. using separate transmitters operating on substantially the same frequency"
+          }
+        },
+        {
+          "code": "H04H 20/69",
+          "title": {
+            "ko": null,
+            "en": "Optical systems"
+          }
+        },
+        {
+          "code": "H04H 20/71",
+          "title": {
+            "ko": null,
+            "en": "Wireless systems"
+          }
+        },
+        {
+          "code": "H04H 20/72",
+          "title": {
+            "ko": null,
+            "en": "of terrestrial networks"
+          }
+        },
+        {
+          "code": "H04H 20/74",
+          "title": {
+            "ko": null,
+            "en": "of satellite networks"
+          }
+        },
+        {
+          "code": "H04H 20/76",
+          "title": {
+            "ko": null,
+            "en": "Wired systems"
+          }
+        },
+        {
+          "code": "H04H 20/77",
+          "title": {
+            "ko": null,
+            "en": "using carrier waves"
+          }
+        },
+        {
+          "code": "H04H 20/78",
+          "title": {
+            "ko": null,
+            "en": "CATV [Community Antenna Television] systems"
+          }
+        },
+        {
+          "code": "H04H 20/79",
+          "title": {
+            "ko": null,
+            "en": "using downlink of the CATV systems, e.g. audio broadcast via CATV network"
+          }
+        },
+        {
+          "code": "H04H 20/80",
+          "title": {
+            "ko": null,
+            "en": "having frequencies in two or more frequency bands, e.g. medium wave and VHF"
+          }
+        },
+        {
+          "code": "H04H 20/81",
+          "title": {
+            "ko": null,
+            "en": "combined with telephone network over which the broadcast is continuously available"
+          }
+        },
+        {
+          "code": "H04H 20/82",
+          "title": {
+            "ko": null,
+            "en": "using signals not modulated onto a carrier"
+          }
+        },
+        {
+          "code": "H04H 20/83",
+          "title": {
+            "ko": null,
+            "en": "not sharing the network with any other service"
+          }
+        },
+        {
+          "code": "H04H 20/84",
+          "title": {
+            "ko": null,
+            "en": "combined with power distribution network"
+          }
+        },
+        {
+          "code": "H04H 20/86",
+          "title": {
+            "ko": null,
+            "en": "Arrangements characterised by special technical features of the broadcast information, e.g. signal form or information format"
+          }
+        },
+        {
+          "code": "H04H 20/88",
+          "title": {
+            "ko": null,
+            "en": "Stereophonic broadcast systems"
+          }
+        },
+        {
+          "code": "H04H 20/89",
+          "title": {
+            "ko": null,
+            "en": "using three or more audio channels, e.g. triphonic or quadraphonic"
+          }
+        },
+        {
+          "code": "H04H 20/91",
+          "title": {
+            "ko": null,
+            "en": "broadcasting computer programmes"
+          }
+        },
+        {
+          "code": "H04H 20/93",
+          "title": {
+            "ko": null,
+            "en": "which locates resources of other pieces of information, e.g. URL [Uniform Resource Locator]"
+          }
+        },
+        {
+          "code": "H04H 20/95",
+          "title": {
+            "ko": null,
+            "en": "characterised by a specific format, e.g. an encoded audio stream"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04H 40/00",
+      "title": {
+        "ko": "방송정보 수신에 특별히 적합한 설비",
+        "en": "Arrangements specially adapted for receiving broadcast information"
+      },
+      "subgroups": [
+        {
+          "code": "H04H 40/09",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for receiving desired information automatically according to timetables"
+          }
+        },
+        {
+          "code": "H04H 40/18",
+          "title": {
+            "ko": "수신에 특히 적합한 회로 또는 소자에 특징이 있는 설비",
+            "en": "Arrangements characterised by circuits or components specially adapted for receiving"
+          }
+        },
+        {
+          "code": "H04H 40/27",
+          "title": {
+            "ko": "H04H 20/53 ~ H04H 20/86에 해당되는 방송시스템에 특히 적합한 것",
+            "en": "specially adapted for broadcast systems covered by groups H04H0020530000-H04H0020860000"
+          }
+        },
+        {
+          "code": "H04H 40/36",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for stereophonic broadcast receiving"
+          }
+        },
+        {
+          "code": "H04H 40/45",
+          "title": {
+            "ko": null,
+            "en": "for FM stereophonic broadcast receiving"
+          }
+        },
+        {
+          "code": "H04H 40/54",
+          "title": {
+            "ko": null,
+            "en": "generating subcarriers"
+          }
+        },
+        {
+          "code": "H04H 40/63",
+          "title": {
+            "ko": null,
+            "en": "for separation improvements or adjustments"
+          }
+        },
+        {
+          "code": "H04H 40/72",
+          "title": {
+            "ko": null,
+            "en": "for noise suppression"
+          }
+        },
+        {
+          "code": "H04H 40/81",
+          "title": {
+            "ko": null,
+            "en": "for stereo-monaural switching"
+          }
+        },
+        {
+          "code": "H04H 40/90",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for satellite broadcast receiving"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04H 60/00",
+      "title": {
+        "ko": "방송정보 또는 방송시공간에 직접 연결된 방송 응용 설비; 방송관련시스템",
+        "en": "Arrangements for broadcast applications with a direct linkage to broadcast information or to broadcast space-time; Broadcast-related systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04H 60/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for generating broadcast information; Arrangements for generating broadcast-related information with a direct linkage to broadcast information or to broadcast space-time; Arrangements for simultaneous generation of broadcast information and broadcast-related information"
+          }
+        },
+        {
+          "code": "H04H 60/04",
+          "title": {
+            "ko": null,
+            "en": "Studio equipment; Interconnection of studios"
+          }
+        },
+        {
+          "code": "H04H 60/05",
+          "title": {
+            "ko": null,
+            "en": "Mobile studios"
+          }
+        },
+        {
+          "code": "H04H 60/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for scheduling broadcast services or broadcast-related services"
+          }
+        },
+        {
+          "code": "H04H 60/07",
+          "title": {
+            "ko": null,
+            "en": "characterised by processes or methods for the generation"
+          }
+        },
+        {
+          "code": "H04H 60/09",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for device control with a direct linkage to broadcast information or to broadcast space-time; Arrangements for control of broadcast-related services"
+          }
+        },
+        {
+          "code": "H04H 60/11",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for counter-measures when a portion of broadcast information is unavailable"
+          }
+        },
+        {
+          "code": "H04H 60/12",
+          "title": {
+            "ko": null,
+            "en": "wherein another information is substituted for the portion of broadcast information"
+          }
+        },
+        {
+          "code": "H04H 60/13",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for device control affected by the broadcast information"
+          }
+        },
+        {
+          "code": "H04H 60/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for conditional access to broadcast information or to broadcast-related services"
+          }
+        },
+        {
+          "code": "H04H 60/15",
+          "title": {
+            "ko": null,
+            "en": "on receiving information"
+          }
+        },
+        {
+          "code": "H04H 60/16",
+          "title": {
+            "ko": null,
+            "en": "on playing information"
+          }
+        },
+        {
+          "code": "H04H 60/17",
+          "title": {
+            "ko": null,
+            "en": "on recording information"
+          }
+        },
+        {
+          "code": "H04H 60/18",
+          "title": {
+            "ko": null,
+            "en": "on copying information"
+          }
+        },
+        {
+          "code": "H04H 60/19",
+          "title": {
+            "ko": null,
+            "en": "on transmission of information"
+          }
+        },
+        {
+          "code": "H04H 60/20",
+          "title": {
+            "ko": null,
+            "en": "on secondary editing information"
+          }
+        },
+        {
+          "code": "H04H 60/21",
+          "title": {
+            "ko": null,
+            "en": "Billing for the use of broadcast information or broadcast-related information"
+          }
+        },
+        {
+          "code": "H04H 60/22",
+          "title": {
+            "ko": null,
+            "en": "per use"
+          }
+        },
+        {
+          "code": "H04H 60/23",
+          "title": {
+            "ko": null,
+            "en": "using cryptography, e.g. encryption, authentication or key distribution"
+          }
+        },
+        {
+          "code": "H04H 60/25",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for updating broadcast information or broadcast-related information"
+          }
+        },
+        {
+          "code": "H04H 60/27",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for recording or accumulating broadcast information or broadcast-related information"
+          }
+        },
+        {
+          "code": "H04H 60/29",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for monitoring broadcast services or broadcast-related services"
+          }
+        },
+        {
+          "code": "H04H 60/31",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for monitoring the use made of the broadcast services"
+          }
+        },
+        {
+          "code": "H04H 60/32",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for monitoring conditions of receiving stations, e.g. malfunction or breakdown of receiving stations"
+          }
+        },
+        {
+          "code": "H04H 60/33",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for monitoring the users' behaviour or opinions"
+          }
+        },
+        {
+          "code": "H04H 60/35",
+          "title": {
+            "ko": "방송정보 또는 방송시공간에 직접 연결된 특징을 확인하거나 파악하기 위한 설비, 예. 방송국의 확인 또는 사용자의 확인",
+            "en": "Arrangements for identifying or recognising characteristics with a direct linkage to broadcast information or to broadcast space-time, e.g. for identifying broadcast stations or for identifying users"
+          }
+        },
+        {
+          "code": "H04H 60/37",
+          "title": {
+            "ko": null,
+            "en": "for identifying segments of broadcast information, e.g. scenes or extracting programme ID"
+          }
+        },
+        {
+          "code": "H04H 60/38",
+          "title": {
+            "ko": "방송시간 또는 방송공간을 확인하기 위한 설비",
+            "en": "for identifying broadcast time or space"
+          }
+        },
+        {
+          "code": "H04H 60/39",
+          "title": {
+            "ko": "방송시공간을 확인하기 위한 설비 [EPG(Electronic Programme Guides, 전자 프로그램 가이드) 이용은 H04H 60/72]",
+            "en": "for identifying broadcast space-time (use of Electronic Programme Guides H04H0060720000)"
+          }
+        },
+        {
+          "code": "H04H 60/40",
+          "title": {
+            "ko": null,
+            "en": "for identifying broadcast time"
+          }
+        },
+        {
+          "code": "H04H 60/41",
+          "title": {
+            "ko": null,
+            "en": "for identifying broadcast space, i.e. broadcast channels, broadcast stations or broadcast areas"
+          }
+        },
+        {
+          "code": "H04H 60/42",
+          "title": {
+            "ko": null,
+            "en": "for identifying broadcast areas"
+          }
+        },
+        {
+          "code": "H04H 60/43",
+          "title": {
+            "ko": null,
+            "en": "for identifying broadcast channels"
+          }
+        },
+        {
+          "code": "H04H 60/44",
+          "title": {
+            "ko": null,
+            "en": "for identifying broadcast stations"
+          }
+        },
+        {
+          "code": "H04H 60/45",
+          "title": {
+            "ko": null,
+            "en": "for identifying users"
+          }
+        },
+        {
+          "code": "H04H 60/46",
+          "title": {
+            "ko": null,
+            "en": "for recognising users' preferences"
+          }
+        },
+        {
+          "code": "H04H 60/47",
+          "title": {
+            "ko": null,
+            "en": "for recognising genres"
+          }
+        },
+        {
+          "code": "H04H 60/48",
+          "title": {
+            "ko": null,
+            "en": "for recognising items expressed in broadcast information"
+          }
+        },
+        {
+          "code": "H04H 60/49",
+          "title": {
+            "ko": null,
+            "en": "for identifying locations"
+          }
+        },
+        {
+          "code": "H04H 60/50",
+          "title": {
+            "ko": null,
+            "en": "of broadcast or relay stations"
+          }
+        },
+        {
+          "code": "H04H 60/51",
+          "title": {
+            "ko": null,
+            "en": "of receiving stations"
+          }
+        },
+        {
+          "code": "H04H 60/52",
+          "title": {
+            "ko": null,
+            "en": "of users"
+          }
+        },
+        {
+          "code": "H04H 60/53",
+          "title": {
+            "ko": null,
+            "en": "of destinations"
+          }
+        },
+        {
+          "code": "H04H 60/54",
+          "title": {
+            "ko": null,
+            "en": "where broadcast information is generated"
+          }
+        },
+        {
+          "code": "H04H 60/56",
+          "title": {
+            "ko": "H04H 60/29 또는 H04H 60/35에 해당되는 모니터링, 확인 또는 파악에 특히 적합한 대상에 특징이 있는 설비",
+            "en": "Arrangements characterised by components specially adapted for monitoring, identification or recognition covered by groups H04H0060290000 or H04H0060350000"
+          }
+        },
+        {
+          "code": "H04H 60/58",
+          "title": {
+            "ko": null,
+            "en": "of audio"
+          }
+        },
+        {
+          "code": "H04H 60/59",
+          "title": {
+            "ko": null,
+            "en": "of video"
+          }
+        },
+        {
+          "code": "H04H 60/61",
+          "title": {
+            "ko": "H04H 60/29 또는 H04H 60/35에 해당되는 모니터링, 확인 또는 파악 결과를 이용하는 서비스용 설비",
+            "en": "Arrangements for services using the result of monitoring, identification or recognition covered by groups H04H0060290000 or H04H0060350000"
+          }
+        },
+        {
+          "code": "H04H 60/63",
+          "title": {
+            "ko": null,
+            "en": "for services of sales"
+          }
+        },
+        {
+          "code": "H04H 60/64",
+          "title": {
+            "ko": null,
+            "en": "for providing detail information"
+          }
+        },
+        {
+          "code": "H04H 60/65",
+          "title": {
+            "ko": null,
+            "en": "for using the result on users' side"
+          }
+        },
+        {
+          "code": "H04H 60/66",
+          "title": {
+            "ko": null,
+            "en": "for using the result on distributors' side"
+          }
+        },
+        {
+          "code": "H04H 60/68",
+          "title": {
+            "ko": "특정 정보를 이용하는데 특히 적합한 시스템, 예. 지리정보 또는 기상정보",
+            "en": "Systems specially adapted for using specific information, e.g. geographical or meteorological information"
+          }
+        },
+        {
+          "code": "H04H 60/70",
+          "title": {
+            "ko": null,
+            "en": "using geographical information, e.g. maps, charts or atlases"
+          }
+        },
+        {
+          "code": "H04H 60/71",
+          "title": {
+            "ko": null,
+            "en": "using meteorological information"
+          }
+        },
+        {
+          "code": "H04H 60/72",
+          "title": {
+            "ko": "전자 프로그램 가이드 [EPG]의 이용(방송시공간의 확인은 H04H 60/39)",
+            "en": "using electronic programme guides [EPG] (focusing on identifying broadcast space time H04H0060390000)"
+          }
+        },
+        {
+          "code": "H04H 60/73",
+          "title": {
+            "ko": null,
+            "en": "using meta-information"
+          }
+        },
+        {
+          "code": "H04H 60/74",
+          "title": {
+            "ko": null,
+            "en": "using programme related information, e.g. title, composer or interpreter"
+          }
+        },
+        {
+          "code": "H04H 60/76",
+          "title": {
+            "ko": "방송용 이외의 전송시스템 용도에 특징이 있는 설비, 예. 인터넷",
+            "en": "Arrangements characterised by transmission systems other than for broadcast, e.g. the Internet"
+          }
+        },
+        {
+          "code": "H04H 60/78",
+          "title": {
+            "ko": null,
+            "en": "characterised by source locations or destination locations"
+          }
+        },
+        {
+          "code": "H04H 60/79",
+          "title": {
+            "ko": null,
+            "en": "characterised by transmission among broadcast stations"
+          }
+        },
+        {
+          "code": "H04H 60/80",
+          "title": {
+            "ko": null,
+            "en": "characterised by transmission among terminal devices"
+          }
+        },
+        {
+          "code": "H04H 60/81",
+          "title": {
+            "ko": "전송시스템 자체에 특징이 있는 것",
+            "en": "characterised by the transmission system itself"
+          }
+        },
+        {
+          "code": "H04H 60/82",
+          "title": {
+            "ko": null,
+            "en": "the transmission system being the Internet"
+          }
+        },
+        {
+          "code": "H04H 60/83",
+          "title": {
+            "ko": null,
+            "en": "accessed over telephonic networks"
+          }
+        },
+        {
+          "code": "H04H 60/84",
+          "title": {
+            "ko": null,
+            "en": "which are fixed telephone networks"
+          }
+        },
+        {
+          "code": "H04H 60/85",
+          "title": {
+            "ko": null,
+            "en": "which are mobile communication networks"
+          }
+        },
+        {
+          "code": "H04H 60/86",
+          "title": {
+            "ko": null,
+            "en": "accessed over CATV networks"
+          }
+        },
+        {
+          "code": "H04H 60/87",
+          "title": {
+            "ko": null,
+            "en": "accessed over computer networks"
+          }
+        },
+        {
+          "code": "H04H 60/88",
+          "title": {
+            "ko": null,
+            "en": "which are wireless networks"
+          }
+        },
+        {
+          "code": "H04H 60/89",
+          "title": {
+            "ko": null,
+            "en": "which are wired networks"
+          }
+        },
+        {
+          "code": "H04H 60/90",
+          "title": {
+            "ko": "무선 전송 시스템",
+            "en": "Wireless transmission systems"
+          }
+        },
+        {
+          "code": "H04H 60/91",
+          "title": {
+            "ko": "이동통신 네트워크 (인터넷 접근용 H04H 60/85)",
+            "en": "Mobile communication networks (for accessing the Internet H04H0060850000)"
+          }
+        },
+        {
+          "code": "H04H 60/92",
+          "title": {
+            "ko": null,
+            "en": "for local area"
+          }
+        },
+        {
+          "code": "H04H 60/93",
+          "title": {
+            "ko": "유선 전송 시스템",
+            "en": "Wired transmission systems"
+          }
+        },
+        {
+          "code": "H04H 60/94",
+          "title": {
+            "ko": "전화 네트워크 (인터넷 접근용 H04H 60/84)",
+            "en": "Telephonic networks (for accessing the Internet H04H0060840000)"
+          }
+        },
+        {
+          "code": "H04H 60/95",
+          "title": {
+            "ko": null,
+            "en": "for local area"
+          }
+        },
+        {
+          "code": "H04H 60/96",
+          "title": {
+            "ko": "공동안테나TV(CATV) 시스템 (인터넷 접근용 H04H 60/86)",
+            "en": "CATV systems (for accessing the Internet H04H0060860000)"
+          }
+        },
+        {
+          "code": "H04H 60/97",
+          "title": {
+            "ko": null,
+            "en": "using uplink of the CATV systems"
+          }
+        },
+        {
+          "code": "H04H 60/98",
+          "title": {
+            "ko": null,
+            "en": "Physical distribution of media, e.g. postcards, CDs or DVDs"
+          }
+        }
+      ]
+    }
+  ]
+}

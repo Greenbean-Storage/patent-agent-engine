@@ -1,0 +1,1148 @@
+{
+  "subclass": "G01D",
+  "title": {
+    "ko": "특정변량을 위해서 특별히 적용되지 않는 측정; 단일의 다른 서브클래스에 속하지 않는 둘 이상의 변량을 측정하는 장치; 요금계량장치; 특정변량을 위해서 특별히 적용되지 않는 설비의 이동 또는 도입; 달리 분류되지 않는 측정 또는 시험",
+    "en": "MEASURING NOT SPECIALLY ADAPTED FOR A SPECIFIC VARIABLE; ARRANGEMENTS FOR MEASURING TWO OR MORE VARIABLES NOT COVERED BY A SINGLE OTHER SUBCLASS; TARIFF METERING APPARATUS; TRANSFERRING OR TRANSDUCING ARRANGEMENTS NOT SPECIALLY ADAPTED FOR A SPECIFIC VARIABLE; MEASURING OR TESTING NOT OTHERWISE PROVIDED FOR"
+  },
+  "definition": {
+    "ko": "측정 장치 일반 순시치 이외의 데이터 회복 G01D1/00 특별한 목적을 위한 준비를 가지는 것 G01D3/00 특정 변량을 위해 특히 적합한 설비를 이동 또는 도입 G01D5/00 구성요소 G01D11/00 지시; 지시기 부품 G01D7/00, G01D13/00 기록; 기록기의 부품 G01D9/00, G01D15/00 시험 또는 교정 G01D18/00 달리 분류되지 않는 측정 또는 시험 G01D21/00 요금의 계량 G01D4/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01D 1/00",
+      "title": {
+        "ko": "변량의 순간값이 아닌 일반적 적용의 결과값을 주는 측정장치(3/00이 우선; 요금계량장치 4/00; 특정변량을 위해서 특별히 적용되는 것이 아닌 변환기 5/00)",
+        "en": "Measuring arrangements giving results other than momentary value of variable, of general application (G01D0003000000 takes precedence;in tariff metering apparatus G01D0004000000;transducers not specially adapted for a specific variable G01D0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 1/02",
+          "title": {
+            "ko": "평균값, 예. 자승평균의 평균값의 지시(전류 또는 전압의 자승평균의 평균값의 측정 G01R 19/02)",
+            "en": "giving mean values, e.g. root mean square values (measuring root mean square values of currents or voltages G01R0019020000)"
+          }
+        },
+        {
+          "code": "G01D 1/04",
+          "title": {
+            "ko": "적분값의 지시(평균값의 지시 G01D 1/02)",
+            "en": "giving integrated values (giving mean values G01D0001020000)"
+          }
+        },
+        {
+          "code": "G01D 1/06",
+          "title": {
+            "ko": null,
+            "en": "by intermittent summation"
+          }
+        },
+        {
+          "code": "G01D 1/08",
+          "title": {
+            "ko": null,
+            "en": "over fixed periods of time"
+          }
+        },
+        {
+          "code": "G01D 1/10",
+          "title": {
+            "ko": null,
+            "en": "giving differentiated values"
+          }
+        },
+        {
+          "code": "G01D 1/12",
+          "title": {
+            "ko": null,
+            "en": "giving a maximum or minimum of a value"
+          }
+        },
+        {
+          "code": "G01D 1/14",
+          "title": {
+            "ko": null,
+            "en": "giving a distribution function of a value, i.e. number of times the value comes within specified ranges of amplitude"
+          }
+        },
+        {
+          "code": "G01D 1/16",
+          "title": {
+            "ko": null,
+            "en": "giving a value which is a function of two or more values, e.g. product or ratio"
+          }
+        },
+        {
+          "code": "G01D 1/18",
+          "title": {
+            "ko": "불특정의 파라미터가 미리 결정된 값을 초과한 것을 신호하는 장치를 갖는 것(G01D 1/14가 우선)",
+            "en": "with arrangements for signalling that a predetermined value of an unspecified parameter has been exceeded (G01D0001140000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements with provision for the special purposes referred to in the subgroups of this group"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 3/02",
+          "title": {
+            "ko": null,
+            "en": "with provision for altering or correcting the transfer function"
+          }
+        },
+        {
+          "code": "G01D 3/024",
+          "title": {
+            "ko": null,
+            "en": "for range change; Arrangements for substituting one sensing member by another"
+          }
+        },
+        {
+          "code": "G01D 3/028",
+          "title": {
+            "ko": null,
+            "en": "mitigating undesired influences, e.g. temperature, pressure"
+          }
+        },
+        {
+          "code": "G01D 3/032",
+          "title": {
+            "ko": null,
+            "en": "affecting incoming signal, e.g. by averaging; gating undesired signals"
+          }
+        },
+        {
+          "code": "G01D 3/036",
+          "title": {
+            "ko": null,
+            "en": "on measuring arrangements themselves"
+          }
+        },
+        {
+          "code": "G01D 3/06",
+          "title": {
+            "ko": null,
+            "en": "with provision for operation by a null method"
+          }
+        },
+        {
+          "code": "G01D 3/08",
+          "title": {
+            "ko": null,
+            "en": "with provision for safeguarding the apparatus, e.g. against abnormal operation, against breakdown"
+          }
+        },
+        {
+          "code": "G01D 3/10",
+          "title": {
+            "ko": null,
+            "en": "with provision for switching-in of additional or auxiliary indicators or recorders"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 4/00",
+      "title": {
+        "ko": "요금계량장치(택시미터에 관한 것 G07B 13/00; 액체, 가스 또는 전기를 계량 제어 분배하는 코인, 카드 또는 그와 유사한 것에 의해 구동되는 장치G07F 15/00)",
+        "en": "Tariff metering apparatus (in taximeters G07B0013000000;apparatus actuated by coins, cards or the like with meter-controlled dispensing of liquid, gas, or electricity G07F0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 4/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01D 4/04",
+          "title": {
+            "ko": null,
+            "en": "Resetting-mechanisms, e.g. for indicating members"
+          }
+        },
+        {
+          "code": "G01D 4/06",
+          "title": {
+            "ko": "구동부재, 지시 부재간의 클러치기구, 예, 히스테리 시스 클러치(G01D 4/04가 우선)",
+            "en": "Arrangement of clutches between driving and indicating member, e.g. of hysteresis clutch (G01D0004040000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 4/08",
+          "title": {
+            "ko": null,
+            "en": "Transfer of indication from a counter into a summing counter"
+          }
+        },
+        {
+          "code": "G01D 4/10",
+          "title": {
+            "ko": null,
+            "en": "Maximum indicating or recording apparatus, i.e. where the tariff for a period is based on a maximum demand within that period"
+          }
+        },
+        {
+          "code": "G01D 4/12",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for indicating or recording progressive maximum"
+          }
+        },
+        {
+          "code": "G01D 4/14",
+          "title": {
+            "ko": null,
+            "en": "Fixed-demand indicating or recording apparatus, i.e. where indication is made when a predetermined quantity has been consumed during a time interval greater or less than a predetermined time interval"
+          }
+        },
+        {
+          "code": "G01D 4/16",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for indicating or recording maximum or minimum load hours"
+          }
+        },
+        {
+          "code": "G01D 4/18",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for indicating or recording overconsumption with opposing torque which comes into effect when a predetermined level is exceeded, e.g. subtraction meters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 5/00",
+      "title": {
+        "ko": "감지 부재의 출력을 전달하기 위한 기계적 수단; 감지 부재의 형태 또는 특성이 변환 수단을 제한하지 않는 다른 변수로 감지 부재의 출력을 변환하기 위한 수단; 특정 변수에 특히 적합하지 않은 변환기 (G01D3/00이 우선; 변수의 순간값 이외의 결과를 주는 장치에 특히 적합한 것 G01D1/00)",
+        "en": "Mechanical means for transferring the output of a sensing member; Means for converting the output of a sensing member to another variable where the form or nature of the sensing member does not constrain the means for converting; Transducers not specially adapted for a specific variable (G01D0003000000 takes precedence;specially adapted for apparatus giving results other than momentary value of variable G01D0001000000)"
+      },
+      "definition": {
+        "ko": "그룹 G01D5/02 ~ G01D5/54는 주요한 수단으로 구분됩니다. 따라서, 최종 표시를 위한 다른 수단의 단순한 적용은 분류에 영향을 주지 않습니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01D 5/02",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means"
+          }
+        },
+        {
+          "code": "G01D 5/04",
+          "title": {
+            "ko": null,
+            "en": "using levers; using cams; using gearing"
+          }
+        },
+        {
+          "code": "G01D 5/06",
+          "title": {
+            "ko": null,
+            "en": "acting through a wall or enclosure, e.g. by bellows, by magnetic coupling"
+          }
+        },
+        {
+          "code": "G01D 5/08",
+          "title": {
+            "ko": null,
+            "en": "Reducing the effects of friction, e.g. by applying vibrations"
+          }
+        },
+        {
+          "code": "G01D 5/10",
+          "title": {
+            "ko": null,
+            "en": "Applying external forces to increase force available for operation of indicating or recording part"
+          }
+        },
+        {
+          "code": "G01D 5/12",
+          "title": {
+            "ko": "전기적 또는 자기적 수단을 이용하는 것 (G01D5/06이 우선)",
+            "en": "using electric or magnetic means (G01D0005060000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 5/14",
+          "title": {
+            "ko": null,
+            "en": "influencing the magnitude of a current or voltage"
+          }
+        },
+        {
+          "code": "G01D 5/16",
+          "title": {
+            "ko": null,
+            "en": "by varying resistance"
+          }
+        },
+        {
+          "code": "G01D 5/165",
+          "title": {
+            "ko": null,
+            "en": "by relative movement of a point of contact and a resistive track"
+          }
+        },
+        {
+          "code": "G01D 5/18",
+          "title": {
+            "ko": null,
+            "en": "by varying effective impedance of discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "G01D 5/20",
+          "title": {
+            "ko": null,
+            "en": "by varying inductance, e.g. by a movable armature"
+          }
+        },
+        {
+          "code": "G01D 5/22",
+          "title": {
+            "ko": null,
+            "en": "differentially influencing two coils"
+          }
+        },
+        {
+          "code": "G01D 5/24",
+          "title": {
+            "ko": null,
+            "en": "by varying capacitance"
+          }
+        },
+        {
+          "code": "G01D 5/241",
+          "title": {
+            "ko": null,
+            "en": "by relative movement of capacitor electrodes"
+          }
+        },
+        {
+          "code": "G01D 5/242",
+          "title": {
+            "ko": null,
+            "en": "by varying output of an electrodynamic device, e.g. of a tachodynamo"
+          }
+        },
+        {
+          "code": "G01D 5/243",
+          "title": {
+            "ko": null,
+            "en": "influencing the phase or frequency of AC"
+          }
+        },
+        {
+          "code": "G01D 5/244",
+          "title": {
+            "ko": null,
+            "en": "influencing characteristics of pulses or pulse trains; generating pulses or pulse trains"
+          }
+        },
+        {
+          "code": "G01D 5/245",
+          "title": {
+            "ko": null,
+            "en": "using a variable number of pulses in a train"
+          }
+        },
+        {
+          "code": "G01D 5/246",
+          "title": {
+            "ko": null,
+            "en": "by varying the duration of individual pulses"
+          }
+        },
+        {
+          "code": "G01D 5/247",
+          "title": {
+            "ko": null,
+            "en": "using time shifts of pulses"
+          }
+        },
+        {
+          "code": "G01D 5/248",
+          "title": {
+            "ko": null,
+            "en": "by varying pulse repetition frequency"
+          }
+        },
+        {
+          "code": "G01D 5/249",
+          "title": {
+            "ko": null,
+            "en": "using pulse code"
+          }
+        },
+        {
+          "code": "G01D 5/25",
+          "title": {
+            "ko": null,
+            "en": "Selecting one or more conductors or channels from a plurality of conductors or channels, e.g. by closing contacts"
+          }
+        },
+        {
+          "code": "G01D 5/251",
+          "title": {
+            "ko": null,
+            "en": "one conductor or channel"
+          }
+        },
+        {
+          "code": "G01D 5/252",
+          "title": {
+            "ko": null,
+            "en": "a combination of conductors or channels"
+          }
+        },
+        {
+          "code": "G01D 5/26",
+          "title": {
+            "ko": "광학적 수단을 사용한 것, 즉 적외선, 가시광선 또는 자외선을 사용하는 것",
+            "en": "using optical means, i.e. using infrared, visible or ultraviolet light"
+          }
+        },
+        {
+          "code": "G01D 5/28",
+          "title": {
+            "ko": "광 빔의 편향을 가지는 것. 예. 직접적인 광학적 지시용(G01D 5/40이 우선)",
+            "en": "with deflection of beams of light, e.g. for direct optical indication (G01D0005400000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 5/30",
+          "title": {
+            "ko": null,
+            "en": "the beams of light being detected by photocells"
+          }
+        },
+        {
+          "code": "G01D 5/32",
+          "title": {
+            "ko": "광 빔의 전부 또는 일부를 차폐하는 것 또는 감쇠에 의한 것(G01D 5/40이 우선)",
+            "en": "with attenuation or whole or partial obturation of beams of light (G01D0005400000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 5/34",
+          "title": {
+            "ko": null,
+            "en": "the beams of light being detected by photocells"
+          }
+        },
+        {
+          "code": "G01D 5/347",
+          "title": {
+            "ko": null,
+            "en": "using displacement encoding scales"
+          }
+        },
+        {
+          "code": "G01D 5/353",
+          "title": {
+            "ko": null,
+            "en": "influencing the transmission properties of an optical fibre"
+          }
+        },
+        {
+          "code": "G01D 5/36",
+          "title": {
+            "ko": null,
+            "en": "Forming the light into pulses"
+          }
+        },
+        {
+          "code": "G01D 5/38",
+          "title": {
+            "ko": null,
+            "en": "by diffraction gratings"
+          }
+        },
+        {
+          "code": "G01D 5/39",
+          "title": {
+            "ko": null,
+            "en": "Scanning a visible indication of the measured value and reproducing this indication at a remote place, e.g. on the screen of a cathode-ray tube"
+          }
+        },
+        {
+          "code": "G01D 5/40",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for use with infrared light"
+          }
+        },
+        {
+          "code": "G01D 5/42",
+          "title": {
+            "ko": null,
+            "en": "using fluid means"
+          }
+        },
+        {
+          "code": "G01D 5/44",
+          "title": {
+            "ko": null,
+            "en": "using jets of fluid"
+          }
+        },
+        {
+          "code": "G01D 5/46",
+          "title": {
+            "ko": null,
+            "en": "by deflecting or throttling the flow"
+          }
+        },
+        {
+          "code": "G01D 5/48",
+          "title": {
+            "ko": "파 또는 입자방사에 의한 수단을 사용하는 것(5/26이 우선)",
+            "en": "using wave or particle radiation means (G01D0005260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 5/50",
+          "title": {
+            "ko": null,
+            "en": "derived from a radioactive source"
+          }
+        },
+        {
+          "code": "G01D 5/52",
+          "title": {
+            "ko": null,
+            "en": "detected by a counter tube"
+          }
+        },
+        {
+          "code": "G01D 5/54",
+          "title": {
+            "ko": "그룹 G01D 5/02, G01D 5/12, G01D 5/26, G01D 5/42 및 G01D 5/48 중 2이상에 속하는 수단을 사용하는 것",
+            "en": "using means specified in two or more of groups G01D0005020000, G01D0005120000, G01D0005260000, G01D0005420000, and G01D0005480000"
+          },
+          "definition": {
+            "ko": "두 개 이상의 특정 수단이 조합된 경우에는 서브그룹 G01D5/56 ~ G01D5/62 중 적용가능한 최초의 것이 그 외의 그룹에 우선함.",
+            "en": null
+          }
+        },
+        {
+          "code": "G01D 5/56",
+          "title": {
+            "ko": null,
+            "en": "using electric or magnetic means"
+          }
+        },
+        {
+          "code": "G01D 5/58",
+          "title": {
+            "ko": null,
+            "en": "using optical means, i.e. using infrared, visible or ultraviolet light"
+          }
+        },
+        {
+          "code": "G01D 5/60",
+          "title": {
+            "ko": null,
+            "en": "using fluid means"
+          }
+        },
+        {
+          "code": "G01D 5/62",
+          "title": {
+            "ko": null,
+            "en": "using wave or particle radiation means not covered by group G01D0005580000"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Indicating measured values"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 7/02",
+          "title": {
+            "ko": null,
+            "en": "Indicating value of two or more variables simultaneously"
+          }
+        },
+        {
+          "code": "G01D 7/04",
+          "title": {
+            "ko": null,
+            "en": "using a separate indicating element for each variable"
+          }
+        },
+        {
+          "code": "G01D 7/06",
+          "title": {
+            "ko": null,
+            "en": "Luminous indications projected on a common screen"
+          }
+        },
+        {
+          "code": "G01D 7/08",
+          "title": {
+            "ko": null,
+            "en": "using a common indicating element for two or more variables"
+          }
+        },
+        {
+          "code": "G01D 7/10",
+          "title": {
+            "ko": null,
+            "en": "giving indication in co-ordinate form"
+          }
+        },
+        {
+          "code": "G01D 7/12",
+          "title": {
+            "ko": null,
+            "en": "Audible indication of meter readings, e.g. for the blind"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 9/00",
+      "title": {
+        "ko": "측정치의 기록",
+        "en": "Recording measured values"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Producing one or more recordings of the values of a single variable"
+          }
+        },
+        {
+          "code": "G01D 9/04",
+          "title": {
+            "ko": null,
+            "en": "with provision for multiple or alternative recording"
+          }
+        },
+        {
+          "code": "G01D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Multiple recording, e.g. duplicating"
+          }
+        },
+        {
+          "code": "G01D 9/08",
+          "title": {
+            "ko": null,
+            "en": "giving both graphical and numerical recording"
+          }
+        },
+        {
+          "code": "G01D 9/10",
+          "title": {
+            "ko": null,
+            "en": "the recording element, e.g. stylus, being controlled in accordance with the variable, and the recording medium, e.g. paper roll, being controlled in accordance with time"
+          }
+        },
+        {
+          "code": "G01D 9/12",
+          "title": {
+            "ko": null,
+            "en": "recording occurring continuously"
+          }
+        },
+        {
+          "code": "G01D 9/14",
+          "title": {
+            "ko": null,
+            "en": "with provision for altering speed of recording medium in accordance with the magnitude of the variable to be recorded"
+          }
+        },
+        {
+          "code": "G01D 9/16",
+          "title": {
+            "ko": null,
+            "en": "recording occurring at separated intervals, e.g. by chopper bar"
+          }
+        },
+        {
+          "code": "G01D 9/18",
+          "title": {
+            "ko": null,
+            "en": "recording element actuated only upon change in value of variable"
+          }
+        },
+        {
+          "code": "G01D 9/20",
+          "title": {
+            "ko": null,
+            "en": "the recording element, e.g. stylus, being controlled in accordance with time and the recording medium, e.g. paper roll, being controlled in accordance with the variable"
+          }
+        },
+        {
+          "code": "G01D 9/22",
+          "title": {
+            "ko": null,
+            "en": "recording occurring continuously"
+          }
+        },
+        {
+          "code": "G01D 9/24",
+          "title": {
+            "ko": null,
+            "en": "recording occurring at separated intervals, e.g. by chopper bar"
+          }
+        },
+        {
+          "code": "G01D 9/26",
+          "title": {
+            "ko": null,
+            "en": "either the recording element, e.g. stylus, or the recording medium, e.g. paper roll, being controlled in accordance with both time and the variable"
+          }
+        },
+        {
+          "code": "G01D 9/28",
+          "title": {
+            "ko": "각각 두 개 이상의 변수값으로 이루어진 하나 이상의 기록을 생산하는 것 (G01D9/38, G01D9/40이 우선)",
+            "en": "Producing one or more recordings, each recording being of the values of two or more different variables (G01D0009380000, G01D0009400000 take precedence)"
+          }
+        },
+        {
+          "code": "G01D 9/30",
+          "title": {
+            "ko": null,
+            "en": "there being a separate recording element for each variable, e.g. multiple-pen recorder"
+          }
+        },
+        {
+          "code": "G01D 9/32",
+          "title": {
+            "ko": null,
+            "en": "there being a common recording element for two or more variables"
+          }
+        },
+        {
+          "code": "G01D 9/34",
+          "title": {
+            "ko": null,
+            "en": "the variables being recorded in predetermined sequence"
+          }
+        },
+        {
+          "code": "G01D 9/36",
+          "title": {
+            "ko": null,
+            "en": "in separate columns"
+          }
+        },
+        {
+          "code": "G01D 9/38",
+          "title": {
+            "ko": null,
+            "en": "Producing one or more recordings, each recording being produced by controlling the recording element, e.g. stylus, in accordance with one variable and controlling the recording medium, e.g. paper roll, in accordance with another variable"
+          }
+        },
+        {
+          "code": "G01D 9/40",
+          "title": {
+            "ko": null,
+            "en": "Producing one or more recordings, each recording being produced by controlling either the recording element, e.g. stylus, or the recording medium, e.g. paper roll, in accordance with two or more variables"
+          }
+        },
+        {
+          "code": "G01D 9/42",
+          "title": {
+            "ko": null,
+            "en": "Recording indications of measuring instruments by photographic means, e.g. of counters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 11/00",
+      "title": {
+        "ko": "특수한 변량에 특별히 적용되어지는 것이 아닌 특정장치의 구성부품(G01D 13/00, G01D 15/00 우선)",
+        "en": "Component parts of measuring arrangements not specially adapted for a specific variable (G01D0013000000, G01D0015000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 11/02",
+          "title": {
+            "ko": null,
+            "en": "Bearings or suspensions for moving parts"
+          }
+        },
+        {
+          "code": "G01D 11/04",
+          "title": {
+            "ko": null,
+            "en": "Knive-edge bearings"
+          }
+        },
+        {
+          "code": "G01D 11/06",
+          "title": {
+            "ko": null,
+            "en": "Strip or thread suspensions, e.g. in tension"
+          }
+        },
+        {
+          "code": "G01D 11/08",
+          "title": {
+            "ko": null,
+            "en": "Elements for balancing moving parts"
+          }
+        },
+        {
+          "code": "G01D 11/10",
+          "title": {
+            "ko": null,
+            "en": "Elements for damping the movement of parts"
+          }
+        },
+        {
+          "code": "G01D 11/12",
+          "title": {
+            "ko": null,
+            "en": "using fluid damping"
+          }
+        },
+        {
+          "code": "G01D 11/14",
+          "title": {
+            "ko": null,
+            "en": "using magnetic induction damping"
+          }
+        },
+        {
+          "code": "G01D 11/16",
+          "title": {
+            "ko": "부품의 운동을 제지 또는 방해하기 위한 소자, 예. 지침에 영위 되돌리기용(불사용시에 있어서 가동부의 쇄정(鎖錠) G01D 11/20)",
+            "en": "Elements for restraining or preventing the movement of parts, e.g. for zeroising (caging of moving parts when not in use G01D0011200000)"
+          }
+        },
+        {
+          "code": "G01D 11/18",
+          "title": {
+            "ko": "스프링(G01D 11/06이 우선)",
+            "en": "Springs (G01D0011060000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 11/20",
+          "title": {
+            "ko": null,
+            "en": "Caging devices for moving parts when not in use"
+          }
+        },
+        {
+          "code": "G01D 11/22",
+          "title": {
+            "ko": null,
+            "en": "automatically actuated"
+          }
+        },
+        {
+          "code": "G01D 11/24",
+          "title": {
+            "ko": null,
+            "en": "Housings"
+          }
+        },
+        {
+          "code": "G01D 11/26",
+          "title": {
+            "ko": null,
+            "en": "Windows; Cover glasses; Sealings therefor"
+          }
+        },
+        {
+          "code": "G01D 11/28",
+          "title": {
+            "ko": null,
+            "en": "Structurally-combined illuminating devices"
+          }
+        },
+        {
+          "code": "G01D 11/30",
+          "title": {
+            "ko": null,
+            "en": "Supports specially adapted for an instrument; Supports specially adapted for a set of instruments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 13/00",
+      "title": {
+        "ko": "특수한 변량에 특별히 적용되어지는 것이 아닌 특정장치의 표시기 구성부품",
+        "en": "Component parts of indicators for measuring arrangements not specially adapted for a specific variable"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 13/02",
+          "title": {
+            "ko": "눈금판; 다이얼",
+            "en": "Scales; Dials"
+          }
+        },
+        {
+          "code": "G01D 13/04",
+          "title": {
+            "ko": "구조",
+            "en": "Construction"
+          }
+        },
+        {
+          "code": "G01D 13/06",
+          "title": {
+            "ko": "가동대(G01D 13/10이 우선)",
+            "en": "Moving bands (G01D0013100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 13/08",
+          "title": {
+            "ko": "회전통(G01D 13/10이 우선)",
+            "en": "Rotating drums (G01D0013100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 13/10",
+          "title": {
+            "ko": null,
+            "en": "with adjustable scales; with auxiliary scales, e.g. vernier"
+          }
+        },
+        {
+          "code": "G01D 13/12",
+          "title": {
+            "ko": null,
+            "en": "Graduation"
+          }
+        },
+        {
+          "code": "G01D 13/14",
+          "title": {
+            "ko": null,
+            "en": "for rotations of more than 360°"
+          }
+        },
+        {
+          "code": "G01D 13/16",
+          "title": {
+            "ko": null,
+            "en": "with staggered markings"
+          }
+        },
+        {
+          "code": "G01D 13/18",
+          "title": {
+            "ko": null,
+            "en": "with raised or recessed markings"
+          }
+        },
+        {
+          "code": "G01D 13/20",
+          "title": {
+            "ko": null,
+            "en": "with luminescent markings"
+          }
+        },
+        {
+          "code": "G01D 13/22",
+          "title": {
+            "ko": null,
+            "en": "Pointers, e.g. settable pointer"
+          }
+        },
+        {
+          "code": "G01D 13/24",
+          "title": {
+            "ko": null,
+            "en": "for indicating a maximum or minimum"
+          }
+        },
+        {
+          "code": "G01D 13/26",
+          "title": {
+            "ko": null,
+            "en": "adapted to perform a further operation, e.g. making electrical contact"
+          }
+        },
+        {
+          "code": "G01D 13/28",
+          "title": {
+            "ko": null,
+            "en": "with luminescent markings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 15/00",
+      "title": {
+        "ko": "특수한 변량에 특별히 적용되어 지는 것이 아닌 측정장치의 기록부의 구성부품",
+        "en": "Component parts of recorders for measuring arrangements not specially adapted for a specific variable"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 15/02",
+          "title": {
+            "ko": "기록체 표면을 기계적으로 변화시키거나 또는 기록체 표면에 구멍을 뚫는 스타일러스 또는 다른 기록소자 (프린팅기록소자 G01D 15/20)",
+            "en": "Styli or other recording elements acting to mechanically deform or perforate the recording surface (printing recording elements G01D0015200000)"
+          }
+        },
+        {
+          "code": "G01D 15/04",
+          "title": {
+            "ko": null,
+            "en": "acting to punch holes in the recording surface"
+          }
+        },
+        {
+          "code": "G01D 15/06",
+          "title": {
+            "ko": null,
+            "en": "Electric recording elements, e.g. electrolytic"
+          }
+        },
+        {
+          "code": "G01D 15/08",
+          "title": {
+            "ko": null,
+            "en": "for spark erosion"
+          }
+        },
+        {
+          "code": "G01D 15/10",
+          "title": {
+            "ko": null,
+            "en": "Heated recording elements acting on heat-sensitive layers"
+          }
+        },
+        {
+          "code": "G01D 15/12",
+          "title": {
+            "ko": null,
+            "en": "Magnetic recording elements"
+          }
+        },
+        {
+          "code": "G01D 15/14",
+          "title": {
+            "ko": null,
+            "en": "Optical recording elements; Recording elements using X- or nuclear radiation"
+          }
+        },
+        {
+          "code": "G01D 15/16",
+          "title": {
+            "ko": "기록체 표면에 기록제, 예. 잉크를 옮기는 기록소자(프린팅 기록소자 G01D 15/20)",
+            "en": "Recording elements transferring recording material, e.g. ink, to the recording surface (printing recording elements G01D0015200000)"
+          }
+        },
+        {
+          "code": "G01D 15/18",
+          "title": {
+            "ko": null,
+            "en": "Nozzles emitting recording material"
+          }
+        },
+        {
+          "code": "G01D 15/20",
+          "title": {
+            "ko": null,
+            "en": "Recording elements for printing with ink or for printing by deformation or perforation of the recording surface, e.g. embossing"
+          }
+        },
+        {
+          "code": "G01D 15/22",
+          "title": {
+            "ko": null,
+            "en": "Chopper bars for bringing recording element into contact with recording surface"
+          }
+        },
+        {
+          "code": "G01D 15/24",
+          "title": {
+            "ko": null,
+            "en": "Drives for recording elements or surfaces, not covered by group G01D0005000000"
+          }
+        },
+        {
+          "code": "G01D 15/26",
+          "title": {
+            "ko": null,
+            "en": "operating by clockwork"
+          }
+        },
+        {
+          "code": "G01D 15/28",
+          "title": {
+            "ko": null,
+            "en": "Holding means for recording surfaces; Guiding means for recording surfaces; Exchanging means for recording surfaces"
+          }
+        },
+        {
+          "code": "G01D 15/30",
+          "title": {
+            "ko": null,
+            "en": "for foldable strip charts"
+          }
+        },
+        {
+          "code": "G01D 15/32",
+          "title": {
+            "ko": null,
+            "en": "for circular charts"
+          }
+        },
+        {
+          "code": "G01D 15/34",
+          "title": {
+            "ko": null,
+            "en": "Recording surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 18/00",
+      "title": {
+        "ko": "그룹 G01D 1/00 - G01D 15/00에 제공된 장치 또는 설비의 시험 또는 측정",
+        "en": "Testing or calibrating apparatus or arrangements provided for in groups G01D0001000000-G01D0015000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring or testing not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 21/02",
+          "title": {
+            "ko": null,
+            "en": "Measuring two or more variables by means not covered by a single other subclass"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "FinderRejectionCasesRuntime",
+  "description": "거절사유 사례 캐시. sessions/{user_id}/{work_id}/runtime/03.finder/rejection-cases.json. director(02)가 분류 정해진 후 finder.search_rejection_cases MCP 호출 결과를 저장하고, director·thinker가 GET으로 활용. 청구항·분류 변경 시 director가 재호출해 보강.",
+  "type": "object",
+  "required": [
+    "last_updated"
+  ],
+  "properties": {
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "fetches": {
+      "type": "array",
+      "description": "검색 호출 이력 — 각 호출의 입력·출력. 최신이 마지막.",
+      "items": {
+        "type": "object",
+        "required": [
+          "fetched_at",
+          "query",
+          "cases"
+        ],
+        "properties": {
+          "fetched_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "query": {
+            "type": "string",
+            "description": "검색 쿼리 (청구항·발명 요약)"
+          },
+          "ipc_filter": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "trigger": {
+            "type": "string",
+            "description": "이 fetch가 호출된 이유 — 'classification_decided' / 'claim_changed' / 'specification_updated' / 'manual_request' 등"
+          },
+          "cases": {
+            "type": "array",
+            "description": "search_rejection_cases 응답의 cases[] (rejection-cases-search-output schema의 RejectionCase 형태)",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          },
+          "case_count": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "latest_risk_analysis": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "가장 최근의 analyze_rejection_risk 결과 (있는 경우). rejection-cases-risk-analysis-output schema 참조.",
+      "additionalProperties": true
+    }
+  }
+}

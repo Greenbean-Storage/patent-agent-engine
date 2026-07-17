@@ -1,0 +1,283 @@
+{
+  "subclass": "H02S",
+  "title": {
+    "ko": "적외선, 가시광선 또는 자외선의 변환에 의한 전력의 발생, 예. 광전지 [PV] 모듈을 이용하는 것 (방사원으로부터 전기 에너지를 획득하는 것 G21H1/12; 감광성 무기 반도체 장치 H10F; 감광성 유기 반도체 장치 H10K30/00; 열전 장치 H10N10/00; 초전 장치 H10N15/00)",
+    "en": "GENERATION OF ELECTRIC POWER BY CONVERSION OF INFRARED RADIATION, VISIBLE LIGHT OR ULTRAVIOLET LIGHT, e.g. USING PHOTOVOLTAIC [PV] MODULES   (obtaining electrical energy from radioactive sources G21H0001120000;  light sensitive inorganic semiconductor devices H10F; light sensitive organic semiconductor devices H10K0030000000;thermoelectric devices H10N0010000000;  pyroelectric devices H10N0015000000)"
+  },
+  "groups": [
+    {
+      "code": "H02S 10/00",
+      "title": {
+        "ko": "PV 동력장치; PV 에너지 시스템과 전력 발생을 위한 기타 시스템의 조합",
+        "en": "PV power plants; Combinations of PV energy systems with other systems for the generation of electric power"
+      },
+      "subgroups": [
+        {
+          "code": "H02S 10/10",
+          "title": {
+            "ko": "전력 보충원을 포함하는 것, 예. 하이브리드 디젤-PV 에너지 시스템 (가스터빈 장치와의 조합 F02C 6/00)",
+            "en": "including a supplementary source of electric power, e.g. hybrid diesel-PV energy systems (combinations with gas-turbine plants F02C0006000000)"
+          }
+        },
+        {
+          "code": "H02S 10/12",
+          "title": {
+            "ko": null,
+            "en": "Hybrid wind-PV energy systems"
+          }
+        },
+        {
+          "code": "H02S 10/20",
+          "title": {
+            "ko": "그들의 에너지 저장 수단에 특징이 있는 시스템 (H02S 40/38이 우선)",
+            "en": "Systems characterised by their energy storage means (H02S0040380000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02S 10/30",
+          "title": {
+            "ko": "열광전지 시스템 (적외선 [IR] 방사의 변환 또는 감지에 특히 적합한 광전지 H10F10/00; 열전 소자 H10N10/00)",
+            "en": "Thermophotovoltaic systems  (photovoltaic cells specially adapted for conversion or sensing of infrared [IR] radiation H10F0010000000; thermoelectric devices H10N0010000000)"
+          }
+        },
+        {
+          "code": "H02S 10/40",
+          "title": {
+            "ko": null,
+            "en": "Mobile PV generator systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02S 20/00",
+      "title": {
+        "ko": "PV 모듈을 위한 지지구조",
+        "en": "Supporting structures for PV modules"
+      },
+      "definition": {
+        "ko": "태양열 집전장치와의 사용을 의도한 지지 구조물은 그룹 F24S 25/00-F24S 30/00 또는 F24S 50/20에 분류되어야 함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H02S 20/10",
+          "title": {
+            "ko": "바닥에 직접적으로 고정된 지지 구조 (H02S 20/30이 우선)",
+            "en": "Supporting structures directly fixed to the ground (H02S0020300000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02S 20/20",
+          "title": {
+            "ko": "이동 불가한 객체에 직접적으로 고정된 지지 구조물 (H02S 20/30이 우선)",
+            "en": "Supporting structures directly fixed to an immovable object (H02S0020300000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02S 20/21",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for motorways, e.g. integrated with sound barriers"
+          }
+        },
+        {
+          "code": "H02S 20/22",
+          "title": {
+            "ko": "건물에 특히 적합한 것",
+            "en": "specially adapted for buildings"
+          }
+        },
+        {
+          "code": "H02S 20/23",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for roof structures"
+          }
+        },
+        {
+          "code": "H02S 20/24",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for flat roofs"
+          }
+        },
+        {
+          "code": "H02S 20/25",
+          "title": {
+            "ko": null,
+            "en": "Roof tile elements"
+          }
+        },
+        {
+          "code": "H02S 20/26",
+          "title": {
+            "ko": "· PV 모듈과 통합된 건축 재료, 예. 외관 요소 (H02S 20/25가 우선)",
+            "en": "Building materials integrated with PV modules, e.g. façade elements (H02S0020250000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02S 20/30",
+          "title": {
+            "ko": null,
+            "en": "Supporting structures being movable or adjustable, e.g. for angle adjustment"
+          }
+        },
+        {
+          "code": "H02S 20/32",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for solar tracking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02S 30/00",
+      "title": {
+        "ko": "광전환에 관련된 것을 제외한 PV 모듈의 구조적 세부 (전해 광감응 소자 모듈의 반도체 소자 측면 H01G9/20, 무기 PV 모듈의 것 H10F10/00, H10F19/00, 유기 PV 모듈의 것 H10K30/00)",
+        "en": "Structural details of PV modules other than those related to light conversion  (semiconductor device aspects of modules of electrolytic light sensitive devices H01G0009200000, of inorganic PV modules H10F0010000000, H10F0019000000, of organic PV modules H10K0030000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02S 30/10",
+          "title": {
+            "ko": null,
+            "en": "Frame structures"
+          }
+        },
+        {
+          "code": "H02S 30/20",
+          "title": {
+            "ko": null,
+            "en": "Collapsible or foldable PV modules"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02S 40/00",
+      "title": {
+        "ko": "그룹 H02S 10/00-H02S 30/00에 포함되지 않는 PV 모듈과 결합하는 구성부품 또는 부속품",
+        "en": "Components or accessories in combination with PV modules, not provided for in groups H02S0010000000-H02S0030000000"
+      },
+      "subgroups": [
+        {
+          "code": "H02S 40/10",
+          "title": {
+            "ko": null,
+            "en": "Cleaning arrangements"
+          }
+        },
+        {
+          "code": "H02S 40/12",
+          "title": {
+            "ko": null,
+            "en": "Means for removing snow"
+          }
+        },
+        {
+          "code": "H02S 40/20",
+          "title": {
+            "ko": "광학적 부품",
+            "en": "Optical components"
+          }
+        },
+        {
+          "code": "H02S 40/22",
+          "title": {
+            "ko": "광반사 또는 광집속 수단 (PV 셀과 직접적으로 관련되거나 PV 셀과 통합된 것 H10F77/42)",
+            "en": "Light-reflecting or light-concentrating means   (directly associated with the PV cell or integrated with the PV cell H10F0077420000)"
+          }
+        },
+        {
+          "code": "H02S 40/30",
+          "title": {
+            "ko": null,
+            "en": "Electrical components"
+          }
+        },
+        {
+          "code": "H02S 40/32",
+          "title": {
+            "ko": null,
+            "en": "comprising DC/AC inverter means associated with the PV module itself, e.g. AC modules"
+          }
+        },
+        {
+          "code": "H02S 40/34",
+          "title": {
+            "ko": null,
+            "en": "comprising specially adapted electrical connection means to be structurally associated with the PV module, e.g. junction boxes"
+          }
+        },
+        {
+          "code": "H02S 40/36",
+          "title": {
+            "ko": null,
+            "en": "characterised by special electrical interconnection means between two or more PV modules, e.g. electrical module-to-module connection"
+          }
+        },
+        {
+          "code": "H02S 40/38",
+          "title": {
+            "ko": null,
+            "en": "Energy storage means, e.g. batteries, structurally associated with PV modules"
+          }
+        },
+        {
+          "code": "H02S 40/40",
+          "title": {
+            "ko": "열 구성부품 (H02S 10/30이 우선)",
+            "en": "Thermal components (H02S0010300000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02S 40/42",
+          "title": {
+            "ko": null,
+            "en": "Cooling means"
+          }
+        },
+        {
+          "code": "H02S 40/44",
+          "title": {
+            "ko": "열에너지 활용을 위한 수단, 예. 따뜻한 물과 전기를 동시에 생성하는 하이브리드 시스템 (PV 셀과 직접 연결되거나 PV 셀과 통합된 것 H10F77/67)",
+            "en": "Means to utilise heat energy, e.g. hybrid systems producing warm water and electricity at the same time  (directly associated with the PV cell or integrated with the PV cell H10F0077670000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02S 50/00",
+      "title": {
+        "ko": "PV 시스템의 감시 또는 시험, 예. 부하 균형 또는 고장 식별",
+        "en": "Monitoring or testing of PV systems, e.g. load balancing or fault identification"
+      },
+      "subgroups": [
+        {
+          "code": "H02S 50/10",
+          "title": {
+            "ko": "PV 장치의 시험, 예. PV 모듈 또는 단일 PV 전지의 것 (제조 중 반도체 소자의 시험 H10P74/00)",
+            "en": "Testing of PV devices, e.g. of PV modules or single PV cells  (testing of semiconductor devices during manufacturing H10P0074000000)"
+          }
+        },
+        {
+          "code": "H02S 50/15",
+          "title": {
+            "ko": null,
+            "en": "using optical means, e.g. using electroluminescence"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02S 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

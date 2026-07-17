@@ -1,0 +1,992 @@
+{
+  "subclass": "F26B",
+  "title": {
+    "ko": "고체원료 또는 고형물에서 액체를 제거하는 것에 의한 건조(컴바인용 건조장치 A01D 41/133; 과일 또는 야채의 건조선반 A01F 25/12; 식품의 건조 A23; 두발의 건조 A45D 20/00; 신체의 건조용구 A47K 10/00; 가정용구의 건조 A47L; 가스 또는 증기의 건조 B01D; 고체로부터 탈수 또는 액체를 유사하게 분리하기 위한 화학적 혹은 물리적 프로세스 B01D 43/00; 원심분리장치 B04; 세라믹스의 건조 C04B 33/30; 다른 처리와 관련한 직사 또는 직물의 건조 D06C; 가열 또는 강제공기순환이 없는 세탁물의 건조, 가정용 세탁물 건조기 또는 원심탈수기, 세탁물의 착수 또는 열프레스 D06F; 노, 킬른, 오븐 F27)",
+    "en": "DRYING SOLID MATERIALS OR OBJECTS BY REMOVING LIQUID THEREFROM (drying devices for combines A01D0041133000;racks for drying fruit or vegetables A01F0025120000;drying foodstuffs A23;drying hair A45D0020000000;body-drying implements A47K0010000000;drying household articles A47L;drying gases or vapours B01D;chemical or physical processes for dewatering or like separating liquids from solids B01D0043000000;centrifugal apparatus B04;drying ceramics C04B0033300000;drying yarns or fabrics in association with some other form of treatment D06C;drying frames for laundry without heating or positive air circulation, domestic laundry-or spin-driers, wringing or hot pressing laundry D06F;furnaces, kilns, ovens F27)"
+  },
+  "definition": {
+    "ko": "건조공정 예비처리 F26B1/00 공정: 가열공정; 비가열공정; 두 유형을 조합에 의한 것 F26B3/00; F26B5/00; F26B7/00 건조기계 및 장치 정지 또는 부분적으로 교반하여 건조하는 기구가 있는 것, 가정용 공기건조장치 F26B9/00 점진적인 운동을 하지 않는 것 F26B11/00 점진적인 운동을 하는 것: 직물 및 직사에 적합한 것; 물품 및 한 덩어리의 재료에 적합한 것; 한 덩어리로 되어있지 않은 재료에 적합한 것 F26B13/00; F26B15/00; F26B17/00 기타의 것 F26B19/00 상기 중 두 가지 이상의 유형을 사용하는 조합 F26B20/00 일반에 응용되는 장치 또는 세부 건조용 공기 또는 가스 장치; 가열 F26B21/00; F26B23/00 기타 세부 F26B25/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F26B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Processes for drying"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F26B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Preliminary treatment of solid materials or objects to facilitate drying"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F26B 3/00",
+      "title": {
+        "ko": "가열을 수반하는 공정에 의한 고체재료 또는 물체의 건조(특정의 기계 또는 장치에 있어서의 것 F26B 9/00 ～ 19/00)",
+        "en": "Drying solid materials or objects by processes involving the application of heat (in specific machines or apparatus F26B0009000000-F26B0019000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 3/02",
+          "title": {
+            "ko": "대류에 의한 것, 즉 가스 또는 증기 즉 공기에 의해 피건조재료 또는 물체가 건조되게 하기 위하여 열원으로부터 열이 전달됨",
+            "en": "by convection, i.e. heat being conveyed from a heat source to the materials or objects to be dried by a gas or vapour, e.g. air"
+          }
+        },
+        {
+          "code": "F26B 3/04",
+          "title": {
+            "ko": "피건조재료 또는 물체의 주변에 순환되도록 가스 또는 증기를 대류시키는 것(F26B 3/14가 우선)",
+            "en": "the gas or vapour circulating over, or surrounding, the materials or objects to be dried (F26B0003140000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 3/06",
+          "title": {
+            "ko": "피건조재료 또는 물체를 통과하도록 가스 또는 증기를 유통시키는 것(F26B 3/14가 우 선)",
+            "en": "the gas or vapour flowing through the materials or objects to be dried (F26B0003140000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 3/08",
+          "title": {
+            "ko": null,
+            "en": "so as to loosen them, e.g. to form a fluidised bed"
+          }
+        },
+        {
+          "code": "F26B 3/084",
+          "title": {
+            "ko": null,
+            "en": "with heat exchange taking place in the fluidised bed"
+          }
+        },
+        {
+          "code": "F26B 3/088",
+          "title": {
+            "ko": null,
+            "en": "using inert thermally-stabilised particles"
+          }
+        },
+        {
+          "code": "F26B 3/092",
+          "title": {
+            "ko": null,
+            "en": "agitating the fluidised bed, e.g. by vibrating or pulsating"
+          }
+        },
+        {
+          "code": "F26B 3/097",
+          "title": {
+            "ko": null,
+            "en": "using a magnetic field to stabilise the fluidised bed"
+          }
+        },
+        {
+          "code": "F26B 3/10",
+          "title": {
+            "ko": null,
+            "en": "the gas or vapour carrying the materials or objects to be dried with it"
+          }
+        },
+        {
+          "code": "F26B 3/12",
+          "title": {
+            "ko": null,
+            "en": "in the form of a spray"
+          }
+        },
+        {
+          "code": "F26B 3/14",
+          "title": {
+            "ko": null,
+            "en": "the materials or objects to be dried being moved by gravity"
+          }
+        },
+        {
+          "code": "F26B 3/16",
+          "title": {
+            "ko": null,
+            "en": "in a counter-flow of the gas or vapour"
+          }
+        },
+        {
+          "code": "F26B 3/18",
+          "title": {
+            "ko": "전도에 의한 것 예. 열원 즉 가스염으로부터 직접 접촉에 의해서 피건조재료 또는 물체에 운반되는 열에 의한 것",
+            "en": "by conduction, i.e. the heat is conveyed from the heat source, e.g. gas flame, to the materials or objects to be dried by direct contact"
+          }
+        },
+        {
+          "code": "F26B 3/20",
+          "title": {
+            "ko": "열원이 가열된 면에 있는 것(F26B 3/22가 우선)",
+            "en": "the heat source being a heated surface (F26B0003220000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 3/22",
+          "title": {
+            "ko": null,
+            "en": "the heat source and the materials or objects to be dried being in relative motion, e.g. of vibration"
+          }
+        },
+        {
+          "code": "F26B 3/24",
+          "title": {
+            "ko": null,
+            "en": "the movement being rotation"
+          }
+        },
+        {
+          "code": "F26B 3/26",
+          "title": {
+            "ko": null,
+            "en": "the movement being performed by gravity"
+          }
+        },
+        {
+          "code": "F26B 3/28",
+          "title": {
+            "ko": null,
+            "en": "by radiation, e.g. from the sun"
+          }
+        },
+        {
+          "code": "F26B 3/30",
+          "title": {
+            "ko": null,
+            "en": "from infrared-emitting elements"
+          }
+        },
+        {
+          "code": "F26B 3/32",
+          "title": {
+            "ko": "피건조재료 또는 물체의 내부에 열의 개발에 의한 것",
+            "en": "by development of heat within the materials or objects to be dried"
+          }
+        },
+        {
+          "code": "F26B 3/34",
+          "title": {
+            "ko": null,
+            "en": "by using electrical effects"
+          }
+        },
+        {
+          "code": "F26B 3/347",
+          "title": {
+            "ko": null,
+            "en": "Electromagnetic heating, e.g. induction heating or heating using microwave energy"
+          }
+        },
+        {
+          "code": "F26B 3/353",
+          "title": {
+            "ko": null,
+            "en": "Resistance heating"
+          }
+        },
+        {
+          "code": "F26B 3/36",
+          "title": {
+            "ko": "기계적 효과를 이용하는 것, 예. 마찰에 의한 것(초음파진동을 이용하는 것 F26B 5/02)",
+            "en": "by using mechanical effects, e.g. by friction (by using ultrasonic vibration F26B0005020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 5/00",
+      "title": {
+        "ko": "열을 적용하지 않는 공정에 의한 고체재료 또는 물체의 건조(여과에 의해서 고체로부터 액체를 분리하는 일 B01D; 다른 액체에 의해서 습해진 고체중의 액체를 치환시키는 일, 예. 알콜에 의한 물의 치환, B01D 12/00; 전기영동에 의한 건조, B01J)",
+        "en": "Drying solid materials or objects by processes not involving the application of heat (separating liquids from solids by straining B01D;replacing liquids in wet solids by other liquids, e.g. water by spirit, B01D0012000000;drying by electrophoresis B01J)"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 5/02",
+          "title": {
+            "ko": null,
+            "en": "by using ultrasonic vibrations"
+          }
+        },
+        {
+          "code": "F26B 5/04",
+          "title": {
+            "ko": null,
+            "en": "by evaporation or sublimation of moisture under reduced pressure, e.g. in a vacuum"
+          }
+        },
+        {
+          "code": "F26B 5/06",
+          "title": {
+            "ko": null,
+            "en": "the process involving freezing"
+          }
+        },
+        {
+          "code": "F26B 5/08",
+          "title": {
+            "ko": null,
+            "en": "by centrifugal treatment"
+          }
+        },
+        {
+          "code": "F26B 5/10",
+          "title": {
+            "ko": null,
+            "en": "the process involving freezing"
+          }
+        },
+        {
+          "code": "F26B 5/12",
+          "title": {
+            "ko": null,
+            "en": "by suction"
+          }
+        },
+        {
+          "code": "F26B 5/14",
+          "title": {
+            "ko": null,
+            "en": "by applying pressure, e.g. wringing; by brushing; by wiping"
+          }
+        },
+        {
+          "code": "F26B 5/16",
+          "title": {
+            "ko": null,
+            "en": "by contact with sorbent bodies, e.g. absorbent mould; by admixture with sorbent materials"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 7/00",
+      "title": {
+        "ko": "그룹 3/00 또는 5/00의 것만으로는 포함되지 아니하는 공정에 의한 고체재료 또는 조합에 의한 고체재료 또는 물체의 건조",
+        "en": "Drying solid materials or objects by processes using a combination of processes not covered by a single one of groups F26B0003000000 or F26B0005000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F26B 9/00",
+      "title": {
+        "ko": "정지 또는 부분적 교반만으로 고체재료 또는 물체를 건조하는 기계 및 장치 가정용 건조기",
+        "en": "Machines or apparatus for drying"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F26B 9/00",
+      "title": {
+        "ko": "정지 또는 부분적 교반만으로 고체재료 또는 물체를 건조하는 기계 및 장치 가정용 건조기",
+        "en": "Machines or apparatus for drying solid materials or objects at rest or with only local agitation; Domestic airing cupboards"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 9/02",
+          "title": {
+            "ko": "건조용의 건물(특수한 형의 건물 E04H)",
+            "en": "in buildings (special types of buildings E04H)"
+          }
+        },
+        {
+          "code": "F26B 9/04",
+          "title": {
+            "ko": null,
+            "en": "in presses or clamping devices"
+          }
+        },
+        {
+          "code": "F26B 9/06",
+          "title": {
+            "ko": null,
+            "en": "in stationary drums or chambers"
+          }
+        },
+        {
+          "code": "F26B 9/08",
+          "title": {
+            "ko": null,
+            "en": "including agitating devices"
+          }
+        },
+        {
+          "code": "F26B 9/10",
+          "title": {
+            "ko": null,
+            "en": "in the open air; in pans or tables in rooms; Drying stacks of loose material"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 11/00",
+      "title": {
+        "ko": "비전송운동으로 고체재료 또는 물체를 건조하는 기계 및 장치",
+        "en": "Machines or apparatus for drying solid materials or objects with movement which is non-progressive"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 11/02",
+          "title": {
+            "ko": "가동 드럼 또는 기타의 밀폐된 용기에 의한 것(F26B 11/18이 우선)",
+            "en": "in moving drums or other mainly-closed receptacles (F26B0011180000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 11/04",
+          "title": {
+            "ko": null,
+            "en": "rotating about a horizontal or slightly-inclined axis"
+          }
+        },
+        {
+          "code": "F26B 11/06",
+          "title": {
+            "ko": null,
+            "en": "with stirring devices which are held stationary"
+          }
+        },
+        {
+          "code": "F26B 11/08",
+          "title": {
+            "ko": null,
+            "en": "rotating about a vertical or steeply-inclined axis"
+          }
+        },
+        {
+          "code": "F26B 11/10",
+          "title": {
+            "ko": null,
+            "en": "with stirring devices which are held stationary"
+          }
+        },
+        {
+          "code": "F26B 11/12",
+          "title": {
+            "ko": "운동하는 교반장치를 갖는 고정된 드럼 또는 거의 폐쇄된 용기가 있는 것(F26B 11/22가 우선)",
+            "en": "in stationary drums or other mainly-closed receptacles with moving stirring devices (F26B0011220000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 11/14",
+          "title": {
+            "ko": null,
+            "en": "the stirring device moving in a horizontal or slightly-inclined plane"
+          }
+        },
+        {
+          "code": "F26B 11/16",
+          "title": {
+            "ko": null,
+            "en": "the stirring device moving in a vertical or steeply-inclined plane"
+          }
+        },
+        {
+          "code": "F26B 11/18",
+          "title": {
+            "ko": null,
+            "en": "on or in moving dishes, trays, pans, or other mainly-open receptacles"
+          }
+        },
+        {
+          "code": "F26B 11/20",
+          "title": {
+            "ko": null,
+            "en": "with stirring devices which are held stationary"
+          }
+        },
+        {
+          "code": "F26B 11/22",
+          "title": {
+            "ko": null,
+            "en": "on or in stationary dishes, trays, pans, or other mainly-open receptacles, with moving stirring devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 13/00",
+      "title": {
+        "ko": "전송하는 운동을 수반하는 직물, 섬유, 직사 및 기타의 장척(長尺)재료를 건조하는 기계 또는 장치",
+        "en": "Machines or apparatus for drying fabrics, fibres, yarns, or other materials in long lengths, with progressive movement"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 13/02",
+          "title": {
+            "ko": null,
+            "en": "with movement in a straight line"
+          }
+        },
+        {
+          "code": "F26B 13/04",
+          "title": {
+            "ko": null,
+            "en": "using rollers"
+          }
+        },
+        {
+          "code": "F26B 13/06",
+          "title": {
+            "ko": null,
+            "en": "with movement in a sinuous or zig-zag path"
+          }
+        },
+        {
+          "code": "F26B 13/08",
+          "title": {
+            "ko": null,
+            "en": "using rollers"
+          }
+        },
+        {
+          "code": "F26B 13/10",
+          "title": {
+            "ko": "재료를 이송, 가열 또는 지지하는 장치; 재료의 운동, 장력 또는 위치의 제어(가열공정 F26B 3/00) )",
+            "en": "Arrangements for feeding, heating or supporting materials; Controlling movement, tension or position of materials (heating processes F26B0003000000)"
+          }
+        },
+        {
+          "code": "F26B 13/12",
+          "title": {
+            "ko": null,
+            "en": "Controlling movement, tension or position of material"
+          }
+        },
+        {
+          "code": "F26B 13/14",
+          "title": {
+            "ko": "롤러(흡수성표면 F26B 13/26)",
+            "en": "Rollers (sorbent surfaces F26B0013260000)"
+          }
+        },
+        {
+          "code": "F26B 13/16",
+          "title": {
+            "ko": "구멍뚫기의 것(F26B 13/18이 우선; 흡입에 사용하는 것 F26B 13/30)",
+            "en": "perforated (F26B0013180000 takes precedence;for applying suction F26B0013300000)"
+          }
+        },
+        {
+          "code": "F26B 13/18",
+          "title": {
+            "ko": null,
+            "en": "heated; cooled"
+          }
+        },
+        {
+          "code": "F26B 13/20",
+          "title": {
+            "ko": null,
+            "en": "Supporting materials by fluid jets, e.g. air"
+          }
+        },
+        {
+          "code": "F26B 13/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of gas flames"
+          }
+        },
+        {
+          "code": "F26B 13/24",
+          "title": {
+            "ko": "가열을 수반하지 않는 건조과정을 이용하는 장치의 구성(그러한 과정 그 자체 F26B 5/00)",
+            "en": "Arrangements of devices using drying processes not involving heating (such processes per seF26B0005000000)"
+          }
+        },
+        {
+          "code": "F26B 13/26",
+          "title": {
+            "ko": null,
+            "en": "using sorbent surfaces, e.g. bands or coverings on rollers"
+          }
+        },
+        {
+          "code": "F26B 13/28",
+          "title": {
+            "ko": null,
+            "en": "for applying pressure; for brushing; for wiping"
+          }
+        },
+        {
+          "code": "F26B 13/30",
+          "title": {
+            "ko": null,
+            "en": "for applying suction, e.g. through perforated rollers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 15/00",
+      "title": {
+        "ko": "전송운동으로 물체를 건조하는 기계 및 장치; 전송운동으로 재료군(材料群)을 건조하는 기계 및 장치(F26B 13/00, 17/00이 우선; 콘베이어일반 B65G)",
+        "en": "Machines or apparatus for drying objects with progressive movement; Machines or apparatus with progressive movement for drying batches of material in compact form (F26B0013000000, F26B0017000000 take precedence;conveyors in general B65G)"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 15/02",
+          "title": {
+            "ko": null,
+            "en": "with movement in the whole or part of a circle"
+          }
+        },
+        {
+          "code": "F26B 15/04",
+          "title": {
+            "ko": null,
+            "en": "in a horizontal plane"
+          }
+        },
+        {
+          "code": "F26B 15/06",
+          "title": {
+            "ko": null,
+            "en": "involving several planes, one above the other"
+          }
+        },
+        {
+          "code": "F26B 15/08",
+          "title": {
+            "ko": null,
+            "en": "in a vertical plane"
+          }
+        },
+        {
+          "code": "F26B 15/10",
+          "title": {
+            "ko": null,
+            "en": "with movement in a path composed of one or more straight lines, e.g. compound"
+          }
+        },
+        {
+          "code": "F26B 15/12",
+          "title": {
+            "ko": null,
+            "en": "the lines being all horizontal or slightly inclined"
+          }
+        },
+        {
+          "code": "F26B 15/14",
+          "title": {
+            "ko": null,
+            "en": "the objects or batches of materials being carried by trays or racks"
+          }
+        },
+        {
+          "code": "F26B 15/16",
+          "title": {
+            "ko": null,
+            "en": "the objects or batches of materials being carried by wheeled trucks"
+          }
+        },
+        {
+          "code": "F26B 15/18",
+          "title": {
+            "ko": null,
+            "en": "the objects or batches of materials being carried by endless belts"
+          }
+        },
+        {
+          "code": "F26B 15/20",
+          "title": {
+            "ko": null,
+            "en": "the lines being all vertical or steeply inclined"
+          }
+        },
+        {
+          "code": "F26B 15/22",
+          "title": {
+            "ko": null,
+            "en": "the objects or batches of materials being carried by endless belts"
+          }
+        },
+        {
+          "code": "F26B 15/24",
+          "title": {
+            "ko": null,
+            "en": "in a zig-zag path"
+          }
+        },
+        {
+          "code": "F26B 15/26",
+          "title": {
+            "ko": null,
+            "en": "with movement in a helical path"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 17/00",
+      "title": {
+        "ko": "전송운동을 수반하는, 흩어지는 재료, 합성수지 또는 유동화된 형태, 예. 작은알갱이, 원료 섬유, 를 건조하는 기계 및 장치(F26B 13/00이 우선)",
+        "en": "Machines or apparatus for drying materials in loose, plastic, or fluidised form, e.g. granules, staple fibres, with progressive movement (F26B0013000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 17/02",
+          "title": {
+            "ko": "재료를 반송벨트에 의해서 이송하는 것, 정치평면 상의 재료를 추진벨트에 의해서 되는 운동을 수반하는 것",
+            "en": "with movement performed by belts carrying the materials; with movement performed by belts propelling the materials over stationary surfaces"
+          }
+        },
+        {
+          "code": "F26B 17/04",
+          "title": {
+            "ko": "수평이든가 약간 경사되고 있는 벨트에 의한 것(F26B 17/18이 우선)",
+            "en": "the belts being all horizontal or slightly inclined (F26B0017080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 17/06",
+          "title": {
+            "ko": "모두 수직이든가 또는 급경사되고 있는 벨트에 의한 것(F26B 17/08이 우선)",
+            "en": "the belts being all vertical or steeply inclined (F26B0017080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 17/08",
+          "title": {
+            "ko": null,
+            "en": "the belts being arranged in a sinuous or zig-zag path"
+          }
+        },
+        {
+          "code": "F26B 17/10",
+          "title": {
+            "ko": "유체의 흐름, 예. 노즐로부터의 분출에 의한 운동을 수반하는 것(F26B 3/08가 우선)",
+            "en": "with movement performed by fluid currents, e.g. issuing from a nozzle (F26B0003080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 17/12",
+          "title": {
+            "ko": null,
+            "en": "with movement performed solely by gravity"
+          }
+        },
+        {
+          "code": "F26B 17/14",
+          "title": {
+            "ko": null,
+            "en": "the materials moving through a counter-current of gas"
+          }
+        },
+        {
+          "code": "F26B 17/16",
+          "title": {
+            "ko": null,
+            "en": "the materials passing down a heated surface"
+          }
+        },
+        {
+          "code": "F26B 17/18",
+          "title": {
+            "ko": null,
+            "en": "with movement performed by rotating helical blades or other rotary conveyors moving materials in stationary chambers"
+          }
+        },
+        {
+          "code": "F26B 17/20",
+          "title": {
+            "ko": null,
+            "en": "the axis of rotation being horizontal or slightly inclined"
+          }
+        },
+        {
+          "code": "F26B 17/22",
+          "title": {
+            "ko": null,
+            "en": "the axis of rotation being vertical or steeply inclined"
+          }
+        },
+        {
+          "code": "F26B 17/24",
+          "title": {
+            "ko": null,
+            "en": "with movement performed by shooting or throwing the materials"
+          }
+        },
+        {
+          "code": "F26B 17/26",
+          "title": {
+            "ko": null,
+            "en": "with movement performed by reciprocating or oscillating conveyors propelling materials over stationary surfaces; with movement performed by reciprocating or oscillating shelves, sieves or trays"
+          }
+        },
+        {
+          "code": "F26B 17/28",
+          "title": {
+            "ko": null,
+            "en": "with movement performed by rollers or discs with material passing over or between them, e.g. suction drum, sieve"
+          }
+        },
+        {
+          "code": "F26B 17/30",
+          "title": {
+            "ko": null,
+            "en": "with movement performed by rotary or oscillating containers; with movement performed by rotary floors"
+          }
+        },
+        {
+          "code": "F26B 17/32",
+          "title": {
+            "ko": null,
+            "en": "the movement being in a horizontal or slightly-inclined plane"
+          }
+        },
+        {
+          "code": "F26B 17/34",
+          "title": {
+            "ko": null,
+            "en": "the movement being in a vertical or steeply-inclined plane"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 19/00",
+      "title": {
+        "ko": "9/00에서 17/00까지의 그룹에 속하지 않는 고체재료 또는 물체의 건조기계 및 장치",
+        "en": "Machines or apparatus for drying solid materials or objects not covered by groups F26B0009000000-F26B0017000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F26B 20/00",
+      "title": {
+        "ko": "9/00에서 19/00까지의 그룹의 2이상에 속하는 기계 및 장치의 결합",
+        "en": "Combinations of machines or apparatus covered by two or more of groups F26B0009000000-F26B0019000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F26B 21/00",
+      "title": {
+        "ko": "고체재료 또는 물체를 건조하기 위해 공기 및 기타 가스를 공급하거나 제어하는 장치",
+        "en": "Details of general application"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F26B 21/00",
+      "title": {
+        "ko": "고체재료 또는 물체를 건조하기 위해 공기 및 기타 가스를 공급하거나 제어하는 장치",
+        "en": "Arrangements for supplying or controlling air or other gases for drying solid materials or objects"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 21/20",
+          "title": {
+            "ko": null,
+            "en": "Circulating air or gases in closed cycles, e.g. wholly within the drying enclosure"
+          }
+        },
+        {
+          "code": "F26B 21/25",
+          "title": {
+            "ko": null,
+            "en": "partly outside the drying enclosure"
+          }
+        },
+        {
+          "code": "F26B 21/30",
+          "title": {
+            "ko": null,
+            "en": "Controlling, e.g. regulating, parameters of gas supply"
+          }
+        },
+        {
+          "code": "F26B 21/33",
+          "title": {
+            "ko": null,
+            "en": "Humidity"
+          }
+        },
+        {
+          "code": "F26B 21/35",
+          "title": {
+            "ko": null,
+            "en": "Temperature;  Pressure"
+          }
+        },
+        {
+          "code": "F26B 21/37",
+          "title": {
+            "ko": null,
+            "en": "Velocity of flow;  Quantity of flow"
+          }
+        },
+        {
+          "code": "F26B 21/40",
+          "title": {
+            "ko": null,
+            "en": "using gases other than air"
+          }
+        },
+        {
+          "code": "F26B 21/45",
+          "title": {
+            "ko": null,
+            "en": "using steam"
+          }
+        },
+        {
+          "code": "F26B 21/50",
+          "title": {
+            "ko": null,
+            "en": "Ducting arrangements from the source of air or other gases to the materials or objects being dried"
+          }
+        },
+        {
+          "code": "F26B 21/55",
+          "title": {
+            "ko": null,
+            "en": "Outlets for directing or distributing the air or other gases"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 23/00",
+      "title": {
+        "ko": "난방 장치 (가열공기 및 기타 가스를 이용하는 것 F26B21/00)",
+        "en": "Heating arrangements  (using heated air or other gases F26B0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 23/02",
+          "title": {
+            "ko": "연소가열을 이용하는 것(F26B 23/10이 우선)",
+            "en": "using combustion heating (F26B0023100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 23/04",
+          "title": {
+            "ko": "전기가열을 이용하는 것(F26B 23/10이 우선)",
+            "en": "using electric heating (F26B0023100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 23/06",
+          "title": {
+            "ko": null,
+            "en": "resistance heating"
+          }
+        },
+        {
+          "code": "F26B 23/08",
+          "title": {
+            "ko": null,
+            "en": "inductive heating; capacitative heating; microwave heating"
+          }
+        },
+        {
+          "code": "F26B 23/10",
+          "title": {
+            "ko": null,
+            "en": "using tubes or passages containing heated fluids"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F26B 25/00",
+      "title": {
+        "ko": "그룹 21/00 또는 23/00에 속하지 않는 일반적으로 적용되는 세부(적하(積荷)반송 및 싣고 내리기 일반 B65G)",
+        "en": "Details of general application not covered by group F26B0021000000 or F26B0023000000 (loading, conveying, or unloading in general B65G)"
+      },
+      "subgroups": [
+        {
+          "code": "F26B 25/02",
+          "title": {
+            "ko": null,
+            "en": "Applications of driving mechanisms, not covered by another subclass"
+          }
+        },
+        {
+          "code": "F26B 25/04",
+          "title": {
+            "ko": null,
+            "en": "Agitating, stirring, or scraping devices"
+          }
+        },
+        {
+          "code": "F26B 25/06",
+          "title": {
+            "ko": null,
+            "en": "Chambers, containers, or receptacles"
+          }
+        },
+        {
+          "code": "F26B 25/08",
+          "title": {
+            "ko": null,
+            "en": "Parts thereof"
+          }
+        },
+        {
+          "code": "F26B 25/10",
+          "title": {
+            "ko": null,
+            "en": "Floors, roofs, or bottoms; False bottoms"
+          }
+        },
+        {
+          "code": "F26B 25/12",
+          "title": {
+            "ko": null,
+            "en": "Walls or sides; Doors"
+          }
+        },
+        {
+          "code": "F26B 25/14",
+          "title": {
+            "ko": null,
+            "en": "Chambers, containers, receptacles of simple construction"
+          }
+        },
+        {
+          "code": "F26B 25/16",
+          "title": {
+            "ko": null,
+            "en": "mainly closed, e.g. drum"
+          }
+        },
+        {
+          "code": "F26B 25/18",
+          "title": {
+            "ko": null,
+            "en": "mainly open, e.g. dish, tray, pan"
+          }
+        },
+        {
+          "code": "F26B 25/20",
+          "title": {
+            "ko": "롤러(F26B 25/06이 우선)",
+            "en": "Rollers (F26B0025060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F26B 25/22",
+          "title": {
+            "ko": null,
+            "en": "Controlling the drying process in dependence on liquid content of solid materials or objects"
+          }
+        }
+      ]
+    }
+  ]
+}

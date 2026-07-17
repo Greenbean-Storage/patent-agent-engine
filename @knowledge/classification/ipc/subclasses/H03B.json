@@ -1,0 +1,532 @@
+{
+  "subclass": "H03B",
+  "title": {
+    "ko": "진동의 발생, 직접 또는 주파수 변조에 의한 진동의 발생, 스위칭 동작을 하지 않는 능동소자를 사용한 회로에 의한 진동의 발생; 이와 같은 회로에 의한 잡음의 발생 (전기 발성 악기에 특히 적합한 발생기 G10H; 메이저(maser), 레이저(Laser) H01S; 플라즈마에서 진동의 발생 H05H)",
+    "en": "GENERATION OF OSCILLATIONS, DIRECTLY OR BY FREQUENCY-CHANGING, BY CIRCUITS EMPLOYING ACTIVE ELEMENTS WHICH OPERATE IN A NON-SWITCHING MANNER; GENERATION OF NOISE BY SUCH CIRCUITS (generators specially adapted for electrophonic musical instruments G10H;masers or lasers H01S; generation of oscillations in plasma H05H)"
+  },
+  "definition": {
+    "ko": "주파수 변환에 의하지 않는 발생 증폭에 귀환에 의한 수단; 부성저항 H03B5/00; 7/00 주행시간형 전자관에 의한 수단; 전자 빔 관 H03B9/00; 13/00 충격진동에 의한 것; 홀(Hall) 효과; 방사원과 검출기의 조합 H03B11/00; 15/00; 17/00 주파수 변환에 의한 발생 신호의 체배 또는 체강(Division)에 의 한 것 H03B19/00 비변조 신호의 결합에 의한 것 H03B21/00 발생한 진동의 특수성 소인(swept-over)되는 주파수 범위; 다중 주파수; 다중 위상; 잡음 H03B23/00; 25/00; 27/00; 29/00 기타 방법 H03B28/00 세부 H03B1/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03B 1/00",
+      "title": {
+        "ko": "세부",
+        "en": "Details"
+      },
+      "subgroups": [
+        {
+          "code": "H03B 1/02",
+          "title": {
+            "ko": "전력발진기의 세부 구조, 예. 가열을 위한 것 (전자기장에 의한 가열을 위한 발생기 H05B 6/00)",
+            "en": "Structural details of power oscillators, e.g. for heating (generators for heating by electromagnetic fields H05B0006000000)"
+          }
+        },
+        {
+          "code": "H03B 1/04",
+          "title": {
+            "ko": null,
+            "en": "Reducing undesired oscillations, e.g. harmonics"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03B 5/00",
+      "title": {
+        "ko": "출력에서 입력에의 재생귀환에 의한 증폭기를 이용한 진동의 발생(H03B 9/00, H03B 15/00이 우선)",
+        "en": "Generation of oscillations using amplifier with regenerative feedback from output to input (H03B0009000000, H03B0015000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03B 5/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03B 5/04",
+          "title": {
+            "ko": null,
+            "en": "Modifications of generator to compensate for variations in physical values, e.g. power supply, load, temperature"
+          }
+        },
+        {
+          "code": "H03B 5/06",
+          "title": {
+            "ko": "발진의 기동을 확실히 하기 위한 발전기의 변형 (발전기의 기동 H03L 3/00)",
+            "en": "Modifications of generator to ensure starting of oscillations (starting of generators H03L0003000000)"
+          }
+        },
+        {
+          "code": "H03B 5/08",
+          "title": {
+            "ko": "집중정수 인덕턴스와 집중정수 캐패시턴스로 이루어진 주파수 결정소자를 가지는 것",
+            "en": "with frequency-determining element comprising lumped inductance and capacitance"
+          }
+        },
+        {
+          "code": "H03B 5/10",
+          "title": {
+            "ko": "증폭기의 능동소자가 진공관인 것(H03B 5/14가 우선)",
+            "en": "active element in amplifier being vacuum tube (H03B0005140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03B 5/12",
+          "title": {
+            "ko": "증폭기의 능동소자가 반도체장치인 것(H03B 5/14, H03B 7/06이 우선)",
+            "en": "active element in amplifier being semiconductor device (H03B0005140000, H03B0007060000 take precedence)"
+          }
+        },
+        {
+          "code": "H03B 5/14",
+          "title": {
+            "ko": null,
+            "en": "the frequency-determining element being connected via a bridge circuit to a closed loop in which the signal is transmitted"
+          }
+        },
+        {
+          "code": "H03B 5/16",
+          "title": {
+            "ko": null,
+            "en": "active element in amplifier being vacuum tube"
+          }
+        },
+        {
+          "code": "H03B 5/18",
+          "title": {
+            "ko": null,
+            "en": "with frequency-determining element comprising distributed inductance and capacitance"
+          }
+        },
+        {
+          "code": "H03B 5/20",
+          "title": {
+            "ko": "주파수결정소자가 저항과 캐패시턴스 또는 인덕턴스 중 어느 하나로서 되는 것, 예. 위상 발진기",
+            "en": "with frequency-determining element comprising resistance and either capacitance or inductance, e.g. phase-shift oscillator"
+          }
+        },
+        {
+          "code": "H03B 5/22",
+          "title": {
+            "ko": "증폭기의 능동소자가 진공관인 것(H03B 5/26이 우선)",
+            "en": "active element in amplifier being vacuum tube (H03B0005260000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03B 5/24",
+          "title": {
+            "ko": "증폭기의 능동소자가 반도체장치인 것(H03B 5/26이 우선)",
+            "en": "active element in amplifier being semiconductor device (H03B0005260000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03B 5/26",
+          "title": {
+            "ko": null,
+            "en": "the frequency-determining element being part of a bridge circuit in a closed loop in which the signal is transmitted; the frequency-determining element being connected via a bridge circuit to such a closed loop, e.g. Wien-Bridge oscillator, parallel-T oscillator"
+          }
+        },
+        {
+          "code": "H03B 5/28",
+          "title": {
+            "ko": null,
+            "en": "active element in amplifier being vacuum tube"
+          }
+        },
+        {
+          "code": "H03B 5/30",
+          "title": {
+            "ko": "주파수 결정소자가 전기기계적인 진동자인 것",
+            "en": "with frequency-determining element being electromechanical resonator"
+          }
+        },
+        {
+          "code": "H03B 5/32",
+          "title": {
+            "ko": "압전기 진동자인 것",
+            "en": "being a piezoelectric resonator"
+          }
+        },
+        {
+          "code": "H03B 5/34",
+          "title": {
+            "ko": "증폭기의 능동소자가 진공관인 것(H03B 5/38이 우선)",
+            "en": "active element in amplifier being vacuum tube (H03B0005380000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03B 5/36",
+          "title": {
+            "ko": "증폭기의 능동소자가 반도체장치인 것(H03B 5/38이 우선)",
+            "en": "active element in amplifier being semiconductor device (H03B0005380000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03B 5/38",
+          "title": {
+            "ko": null,
+            "en": "the frequency-determining element being connected via a bridge circuit to a closed loop in which the signal is transmitted"
+          }
+        },
+        {
+          "code": "H03B 5/40",
+          "title": {
+            "ko": "자왜진동자인 것 (H03B 5/42가 우선)",
+            "en": "being a magnetostrictive resonator (H03B0005420000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03B 5/42",
+          "title": {
+            "ko": null,
+            "en": "the frequency-determining element being connected via a bridge circuit to a closed loop in which the signal is transmitted"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03B 7/00",
+      "title": {
+        "ko": "2개의 전극간의 부성저항이 있는 능동소자를 이용한 진동의 발생(H03B 9/00이 우선)",
+        "en": "Generation of oscillations using active element having a negative resistance between two of its electrodes (H03B0009000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03B 7/02",
+          "title": {
+            "ko": null,
+            "en": "with frequency-determining element comprising lumped inductance and capacitance"
+          }
+        },
+        {
+          "code": "H03B 7/04",
+          "title": {
+            "ko": null,
+            "en": "active element being vacuum tube"
+          }
+        },
+        {
+          "code": "H03B 7/06",
+          "title": {
+            "ko": null,
+            "en": "active element being semiconductor device"
+          }
+        },
+        {
+          "code": "H03B 7/08",
+          "title": {
+            "ko": null,
+            "en": "being a tunnel diode"
+          }
+        },
+        {
+          "code": "H03B 7/10",
+          "title": {
+            "ko": null,
+            "en": "active element being gas-discharge or arc-discharge tube"
+          }
+        },
+        {
+          "code": "H03B 7/12",
+          "title": {
+            "ko": null,
+            "en": "with frequency-determining element comprising distributed inductance and capacitance"
+          }
+        },
+        {
+          "code": "H03B 7/14",
+          "title": {
+            "ko": null,
+            "en": "active element being semiconductor device"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03B 9/00",
+      "title": {
+        "ko": "주행시간효과를 이용한 진동의 발생",
+        "en": "Generation of oscillations using transit-time effects"
+      },
+      "subgroups": [
+        {
+          "code": "H03B 9/01",
+          "title": {
+            "ko": "전력관을 이용하는 것",
+            "en": "using discharge tubes"
+          }
+        },
+        {
+          "code": "H03B 9/02",
+          "title": {
+            "ko": "지연전자계 전자관을 이용하는 것 (속도변조관(klystron) 을 이용하는 것 H03B 9/04)",
+            "en": "using a retarding-field tube (using klystrons H03B0009040000)"
+          }
+        },
+        {
+          "code": "H03B 9/04",
+          "title": {
+            "ko": null,
+            "en": "using a klystron"
+          }
+        },
+        {
+          "code": "H03B 9/06",
+          "title": {
+            "ko": null,
+            "en": "using a reflex klystron"
+          }
+        },
+        {
+          "code": "H03B 9/08",
+          "title": {
+            "ko": null,
+            "en": "using a travelling-wave tube"
+          }
+        },
+        {
+          "code": "H03B 9/10",
+          "title": {
+            "ko": null,
+            "en": "using a magnetron"
+          }
+        },
+        {
+          "code": "H03B 9/12",
+          "title": {
+            "ko": null,
+            "en": "using solid state devices, e.g. Gunn-effect devices"
+          }
+        },
+        {
+          "code": "H03B 9/14",
+          "title": {
+            "ko": null,
+            "en": "and elements comprising distributed inductance and capacitance"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03B 11/00",
+      "title": {
+        "ko": "충동려진 동조회로를 이용한 진동자의 발생(귀환이 있는 것 H03B 5/00)",
+        "en": "Generation of oscillations using a shock-excited tuned circuit (with feedback H03B0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03B 11/02",
+          "title": {
+            "ko": null,
+            "en": "excited by spark"
+          }
+        },
+        {
+          "code": "H03B 11/04",
+          "title": {
+            "ko": null,
+            "en": "excited by interrupter"
+          }
+        },
+        {
+          "code": "H03B 11/06",
+          "title": {
+            "ko": null,
+            "en": "by mechanical interrupter"
+          }
+        },
+        {
+          "code": "H03B 11/08",
+          "title": {
+            "ko": null,
+            "en": "interrupter being discharge tube"
+          }
+        },
+        {
+          "code": "H03B 11/10",
+          "title": {
+            "ko": null,
+            "en": "interrupter being semiconductor device"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Generation of oscillations using deflection of electron beam in a cathode-ray tube"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Generation of oscillations using galvano-magnetic devices, e.g. Hall-effect devices, devices using spin transfer effects, devices using giant magnetoresistance, or using super-conductivity effects"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Generation of oscillations using a radiation source and a detector"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Generation of oscillations by non-regenerative frequency multiplication or division of a signal from a separate source"
+      },
+      "subgroups": [
+        {
+          "code": "H03B 19/03",
+          "title": {
+            "ko": null,
+            "en": "using non-linear inductance"
+          }
+        },
+        {
+          "code": "H03B 19/05",
+          "title": {
+            "ko": null,
+            "en": "using non-linear capacitance, e.g. varactor diodes"
+          }
+        },
+        {
+          "code": "H03B 19/06",
+          "title": {
+            "ko": null,
+            "en": "by means of discharge device or semiconductor device with more than two electrodes"
+          }
+        },
+        {
+          "code": "H03B 19/08",
+          "title": {
+            "ko": null,
+            "en": "by means of a discharge device"
+          }
+        },
+        {
+          "code": "H03B 19/10",
+          "title": {
+            "ko": null,
+            "en": "using multiplication only"
+          }
+        },
+        {
+          "code": "H03B 19/12",
+          "title": {
+            "ko": null,
+            "en": "using division only"
+          }
+        },
+        {
+          "code": "H03B 19/14",
+          "title": {
+            "ko": null,
+            "en": "by means of a semiconductor device"
+          }
+        },
+        {
+          "code": "H03B 19/16",
+          "title": {
+            "ko": null,
+            "en": "using uncontrolled rectifying devices, e.g. rectifying diodes or Schottky diodes"
+          }
+        },
+        {
+          "code": "H03B 19/18",
+          "title": {
+            "ko": null,
+            "en": "and elements comprising distributed inductance and capacitance"
+          }
+        },
+        {
+          "code": "H03B 19/20",
+          "title": {
+            "ko": null,
+            "en": "being diodes exhibiting charge storage or enhancement effects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03B 21/00",
+      "title": {
+        "ko": "상이한 주파수의 비변조 신호를 결합하는 것에 의한 진동의 발생 (H03B 19/00이 우선)",
+        "en": "Generation of oscillations by combining unmodulated signals of different frequencies (H03B0019000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03B 21/01",
+          "title": {
+            "ko": null,
+            "en": "by beating unmodulated signals of different frequencies"
+          }
+        },
+        {
+          "code": "H03B 21/02",
+          "title": {
+            "ko": null,
+            "en": "by plural beating, i.e. for frequency synthesis"
+          }
+        },
+        {
+          "code": "H03B 21/04",
+          "title": {
+            "ko": null,
+            "en": "using several similar stages"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Generation of oscillations periodically swept over a predetermined frequency range"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03B 25/00",
+      "title": {
+        "ko": null,
+        "en": "Simultaneous generation by a free-running oscillator of oscillations having different frequencies"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03B 27/00",
+      "title": {
+        "ko": null,
+        "en": "Generation of oscillations providing a plurality of outputs of the same frequency but differing in phase, other than merely two anti-phase outputs"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03B 28/00",
+      "title": {
+        "ko": "그룹 H03B5/00 ~ H03B27/00에 포함되지 않는 방법에 의한 진동의 발생, 정현파 진동을 생성하기 위한 파형의 수정을 포함하는 것 (계산 동작을 수행하기 위한 아날로그 함수 발생기 G06G7/26)",
+        "en": "Generation of oscillations by methods not covered by groups H03B0005000000-H03B0027000000, including modification of the waveform to produce sinusoidal oscillations (analogue function generators for performing computing operations G06G0007260000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03B 29/00",
+      "title": {
+        "ko": "잡음전류 및 잡음전압의 발생 (잡음 발생기로 특히 적합한 고체 음극(cathodes)이 있는 가스입 방전관 H01J 17/00)",
+        "en": "Generation of noise currents and voltages (gas-filled discharge tubes with solid cathode specially adapted as noise generators H01J0017000000)"
+      },
+      "subgroups": []
+    }
+  ]
+}

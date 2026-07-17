@@ -1,0 +1,15 @@
+{
+  "title": "InspectorEvaluationRuntime",
+  "description": "P06 Inspector 의 도면 검수 평가 누적. sessions/{user_id}/{work_id}/runtime/06.inspector/evaluation.json. writer: P06 (Inspector). P02.director/evaluation.json (특허성 평가) 과 의미 다름 — 각자 자체 schema.",
+  "type": "object",
+  "required": [
+    "last_updated"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

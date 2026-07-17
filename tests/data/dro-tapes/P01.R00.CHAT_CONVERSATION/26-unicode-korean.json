@@ -1,0 +1,41 @@
+{
+ "description": "유니코드/한국어 result 미노출 — reply 1",
+ "events": [
+  {
+   "type": "rt_result",
+   "persona": 1,
+   "payload": {
+    "text": "한국어 텍스트 ✓ → ① ⚠ 特許"
+   }
+  },
+  {
+   "type": "chain_completed",
+   "persona": 1,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "message.reply"
+  ],
+  "forbidden": [
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "message.reply": 1
+  },
+  "payload_contains": [
+   {
+    "type": "message.reply",
+    "data": {
+     "text": null
+    }
+   }
+  ]
+ }
+}

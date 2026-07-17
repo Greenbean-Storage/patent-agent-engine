@@ -1,0 +1,1316 @@
+{
+  "subclass": "F16B",
+  "title": {
+    "ko": "구조부재 또는 기계부품끼리를 죄거나 고정하기 위한 장치, 예. 못, 볼트, 써클립(circlip), 클램프, 클립, 쐐기; 이음(JOINT) 또는 접속(JOINTING) (회전 전달을 위한 커플링 F16D)",
+    "en": "DEVICES FOR FASTENING OR SECURING CONSTRUCTIONAL ELEMENTS OR MACHINE PARTS TOGETHER, e.g. NAILS, BOLTS, CIRCLIPS, CLAMPS, CLIPS OR WEDGES; JOINTS OR JOINTING (couplings for transmitting rotation F16D)"
+  },
+  "definition": {
+    "ko": "체결(FASTENING)의 형 클램프; 쐐기에 의한것 F16B2/00; 3/00 수축(SHRINKING)이나 억지끼움에 의한 것; 붙이거나 눌러서 결합하는 것; 일부재의 구멍에 관통하여 삽입하는 것 F16B4/00; 11/00; 17/00 판, 스트립, 봉 또는 관을 함께 또는 평평한 면에 죄는 것 F16B5/00, F16B7/00, F16B9/00 특수한 응용을 위한 것 가구(FURNITURE)를 위한 것 F16B12/00 벽에 고정시키기 위한 것 F16B13/00 인장하중을 고려해서 수정한 나사산(SCREW-THREAD)에 의한 것 F16B31/00 체결수단 일반 클램프; 클립; 쐐기, 키이 F16B2/00; 3/00 은못(DOWEL) F16B13/00 다른 체결(FASTENING)수단 F16B1/00, F16B45/00, F16B47/00 나사산(SCREW-THREAD)을 갖지 않는 것 못, 스테이플(STAPLE); 볼트, 핀 또는 리벳 F16B15/00; 19/00 스터드(STUD) 와 소켓(SOCKET)체결에 의한 축방향의 움직임에 대한 풀림방지 F16B21/00 나사산(SCREW-THREAD)을 갖는 것 나사; 볼트, 안전볼트, 너트, F16B25/00, F16B15/06, F16B27/00; 27/00, F16B31/00, F16B35/00, F16B37/00 볼트 및 나사의 형상일반 F16B23/00, F16B27/00, F16B33/00 체결하는 동안에 너트 또는 이와 유사한 것에 변형이 생기는 나사결합; 나사, 볼트 또는 너트의 풀림방지 F16B29/00, F16B39/00 체결수단의 부속물 F16B41/00, F16B43/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F16B 1/00",
+      "title": {
+        "ko": "구조 부재간 또는 기계 부품간 서로 고정 또는 상대적으로 움직이는 것을 방지하기 위한 장치",
+        "en": "Devices for securing together, or preventing relative movement between, constructional elements or machine parts"
+      },
+      "definition": {
+        "ko": "그룹 F16B2/00 ~ F16B47/00은 그룹 F16B1/00에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F16B 1/02",
+          "title": {
+            "ko": "조작 후 기계의 요소를 고정하기 위한 수단(부재를 정지시키기 위한 수단 F16D)",
+            "en": "Means for securing elements of mechanisms after operation (means for bringing members to rest F16D)"
+          }
+        },
+        {
+          "code": "F16B 1/04",
+          "title": {
+            "ko": "요소의 작용부재의 움직임에 의한 착탈(disengage) (액츄에이터의 록킹 G05G, 예. G05G 5/00)",
+            "en": "disengaged by movement of the actuating member of the element (locking of actuators G05G, e.g. G05G0005000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 2/00",
+      "title": {
+        "ko": "마찰그립에 의한 착탈가능한 체결구(케이블 또는 로프, 예. 클릿(cleat) F16G 11/00; 파이프, 케이블 또는 보호 관(protective tubing)을 위한 지지체 F16L 3/00)",
+        "en": "Fastenings for constructional elements or machine parts in general"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 2/00",
+      "title": {
+        "ko": "마찰그립에 의한 착탈가능한 체결구(케이블 또는 로프, 예. 클릿(cleat) F16G 11/00; 파이프, 케이블 또는 보호 관(protective tubing)을 위한 지지체 F16L 3/00)",
+        "en": "Friction-grip releasable fastenings (for cables or ropes, e.g. cleats, F16G0011000000;supports for pipes, cables or protective tubing F16L0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 2/02",
+          "title": {
+            "ko": "클램프, 즉 고정부재의 변형에 따른 고유의 저항과는 다른 강제적인 수단에 의하여 그립 동작을 갖는 것",
+            "en": "Clamps, i.e. with gripping action effected by positive means other than the inherent resistance to deformation of the material of the fastening"
+          }
+        },
+        {
+          "code": "F16B 2/04",
+          "title": {
+            "ko": "내부의, 즉 확장동작을 갖는 것(2/14 ～ 2/18이 우선)",
+            "en": "internal, i.e. with spreading action (F16B0002140000-F16B0002180000 take precedence)"
+          }
+        },
+        {
+          "code": "F16B 2/06",
+          "title": {
+            "ko": "외부의, 즉 긴축동작을 갖는 것(2/14 ～ 2/18이 우선)",
+            "en": "external, i.e. with contracting action (F16B0002140000-F16B0002180000 take precedence)"
+          }
+        },
+        {
+          "code": "F16B 2/08",
+          "title": {
+            "ko": null,
+            "en": "using bands (clips for connecting hoses to rigid members F16L0033020000)"
+          }
+        },
+        {
+          "code": "F16B 2/10",
+          "title": {
+            "ko": null,
+            "en": "using pivoting jaws"
+          }
+        },
+        {
+          "code": "F16B 2/12",
+          "title": {
+            "ko": null,
+            "en": "using sliding jaws"
+          }
+        },
+        {
+          "code": "F16B 2/14",
+          "title": {
+            "ko": null,
+            "en": "using wedges"
+          }
+        },
+        {
+          "code": "F16B 2/16",
+          "title": {
+            "ko": null,
+            "en": "using rollers or balls"
+          }
+        },
+        {
+          "code": "F16B 2/18",
+          "title": {
+            "ko": null,
+            "en": "using cams, levers, eccentrics, or toggles"
+          }
+        },
+        {
+          "code": "F16B 2/20",
+          "title": {
+            "ko": null,
+            "en": "Clips, i.e. with gripping action effected solely by the inherent resistance to deformation of the material of the fastening"
+          }
+        },
+        {
+          "code": "F16B 2/22",
+          "title": {
+            "ko": null,
+            "en": "of resilient material, e.g. rubbery material"
+          }
+        },
+        {
+          "code": "F16B 2/24",
+          "title": {
+            "ko": null,
+            "en": "of metal"
+          }
+        },
+        {
+          "code": "F16B 2/26",
+          "title": {
+            "ko": null,
+            "en": "of pliable non-resilient material, e.g. plant tie"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 3/00",
+      "title": {
+        "ko": "키이형 결합; 키이(2/00이 우선; 상호간에 봉 또는 관을 위한 7/00)",
+        "en": "Key-type connections; Keys (F16B0002000000 takes precedence;for rods or tubes mutually F16B0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 3/04",
+          "title": {
+            "ko": null,
+            "en": "using keys formed of wire or other flexible material, to be inserted through an opening giving access to grooves in the adjacent surfaces of the parts to be connected"
+          }
+        },
+        {
+          "code": "F16B 3/06",
+          "title": {
+            "ko": null,
+            "en": "using taper sleeves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 4/00",
+      "title": {
+        "ko": "수축에 의한 결합, 예. 서로 다른 온도에서의 부품의 조립; 억지 끼워 맞춤(금속재 부품 또는 목적물에 한정된 것 B23P 9/02); 착탈할 수 없는 마찰그립에 의한 조임(2/00이 우선)",
+        "en": "Shrinkage connection, e.g. assembled with the parts at different temperature; Force fits (restricted to metal parts or objects B23P0011020000); Non-releasable friction-grip fastenings (F16B0002000000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 5/00",
+      "title": {
+        "ko": "박판 또는 후판 상호간의 또는 이들에 평행한 스트립 또는 봉의 접합(서로 붙임에 의한 것 11/00; 다월결합 (dowel connection) 13/00; 변형될 수 있는 요소를 포함하는 핀 19/00; 벽의 피복 E04F 13/00; 지지구 조물용의 접속기호, 판, 패널 또는 보드, 접속용의 간단히 분리할 수 있는 요소, 예. 기호용 문자, 판, 패널, 보드, G09F 7/00)",
+        "en": "Joining sheets or plates to one another or to strips or bars parallel to them (by sticking together F16B0011000000;dowel connections F16B0013000000;pins, including deformable elements F16B0019000000;covering of walls E04F0013000000;fastening signs, plates, panels, or boards to a supporting structure, fastening readily-detachable elements, e.g. letters, to signs, plates, panels, or boards, G09F0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 5/01",
+          "title": {
+            "ko": null,
+            "en": "by means of fastening elements specially adapted for honeycomb panels"
+          }
+        },
+        {
+          "code": "F16B 5/02",
+          "title": {
+            "ko": "나사산을 사용한 체결 부재에 의한 것(나사산 결합의 구조 25/00 ～ 39/00)",
+            "en": "by means of fastening members using screw-thread (construction of screw-threaded connections F16B0025000000-F16B0039000000)"
+          }
+        },
+        {
+          "code": "F16B 5/04",
+          "title": {
+            "ko": "리벳 체결에 의한 것(리벳 F16B 19/04)",
+            "en": "by means of riveting (rivets F16B0019040000)"
+          }
+        },
+        {
+          "code": "F16B 5/06",
+          "title": {
+            "ko": "클램프 또는 클립에 의한 것(마찰그립에 의한 착탈가능한 체결 일반 2/00)",
+            "en": "by means of clamps or clips (friction-grip releasable fastenings in general F16B0002000000)"
+          }
+        },
+        {
+          "code": "F16B 5/07",
+          "title": {
+            "ko": null,
+            "en": "by means of multiple interengaging protrusions on the surfaces, e.g. hooks, coils"
+          }
+        },
+        {
+          "code": "F16B 5/08",
+          "title": {
+            "ko": "용접 또는 유사한 수단에 의한 것(용접 B23K)",
+            "en": "by means of welds or the like (welding B23K)"
+          }
+        },
+        {
+          "code": "F16B 5/10",
+          "title": {
+            "ko": "찔러 넣기 결합(bayonet connection)에 의한 것(회전 록킹 체결장치 21/02)",
+            "en": "by means of bayonet connections (fastening devices locking by rotation F16B0021020000)"
+          }
+        },
+        {
+          "code": "F16B 5/12",
+          "title": {
+            "ko": "시트 또는 플레이트, 예, 고무스트립, 차량용 장식스트립, 에 클립에 의한 스트립 또는 봉재를 체결하는 것(마찰그립에 의한 착탈가능한 체결 일반 2/00; 평평한 면에 어느 각도를 이루고 봉 또는 관상부재를 체결 9/00; 강성 부재에 관의 결합 F16L 33/02)",
+            "en": "Fastening strips or bars to sheets or plates, e.g. rubber strips, decorative strips for motor vehicles, by means of clips (friction-grip releasable fastenings in general F16B0002000000;fastening rods or tubular parts to flat surfaces at an angle F16B0009000000;clips for connecting hoses to rigid members F16L0033020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 7/00",
+      "title": {
+        "ko": "봉 또는 관체, 예. 비원형단면 의 상호간의 탄성에 의한 결합도 포함(우산의 프레임 A45B 25/02, 용접 또는 납땜에 의한 결합 B23K; 차량연결 일반 B60D; 궤도의 이음 B61G; 자전거 프레임 B62K, 회전전달을 위한 커플링축이음 F16D; 유체이송용 관이음 F16L) 7/02 ․ 원추형 부분을 갖는 것",
+        "en": "Connections of rods or tubes, e.g. of non-circular section, mutually, including resilient connections (umbrella frames A45B0025020000;welding or soldering of connections B23K;vehicle connections in general B60D;railway couplings B61G;bicycle frames B62K;couplings for transmitting rotation F16D;couplings for tubes conveying fluid F16L)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 7/02",
+          "title": {
+            "ko": null,
+            "en": "with conical parts"
+          }
+        },
+        {
+          "code": "F16B 7/04",
+          "title": {
+            "ko": "클램프 또는 클립 결합(마찰그립에 의한 착탈가능한 체결 일반 2/00)",
+            "en": "Clamping or clipping connections (friction-grip releasable fastenings in general F16B0002000000)"
+          }
+        },
+        {
+          "code": "F16B 7/06",
+          "title": {
+            "ko": "턴 버클(Turn buckle)(케이블, 로프 또는 와이어용의 것 F16G 11/12)",
+            "en": "Turnbuckles (for cables, ropes, or wire F16G0011120000)"
+          }
+        },
+        {
+          "code": "F16B 7/08",
+          "title": {
+            "ko": "관받침대(pipe saddle)(마찰그립에 의한 착탈가능한 체결 일반 2/00)",
+            "en": "Pipe saddles (friction-grip releasable fastenings in general F16B0002000000)"
+          }
+        },
+        {
+          "code": "F16B 7/10",
+          "title": {
+            "ko": "텔레스코핑(Telescoping) 시스템(비계(scaffolding) 용 E04G 25/04; 광산용 버팀목 (telescope prop) E21D 15/14 ~ 15/46; 그 위에 기구 또는 물품을 얹기 위한 스탠드나 버팀대 F16M 11/00)",
+            "en": "Telescoping systems (for scaffolding E04G0025040000;telescope props for mining E21D0015140000-E21D0015460000;stands or trestles as supports for apparatus or articles placed thereon F16M0011000000)"
+          }
+        },
+        {
+          "code": "F16B 7/12",
+          "title": {
+            "ko": null,
+            "en": "locking only in extreme extended position"
+          }
+        },
+        {
+          "code": "F16B 7/14",
+          "title": {
+            "ko": null,
+            "en": "locking in intermediate positions"
+          }
+        },
+        {
+          "code": "F16B 7/16",
+          "title": {
+            "ko": null,
+            "en": "locking only against movement in one direction"
+          }
+        },
+        {
+          "code": "F16B 7/18",
+          "title": {
+            "ko": null,
+            "en": "using screw-thread elements"
+          }
+        },
+        {
+          "code": "F16B 7/20",
+          "title": {
+            "ko": null,
+            "en": "using bayonet connections"
+          }
+        },
+        {
+          "code": "F16B 7/22",
+          "title": {
+            "ko": null,
+            "en": "using hooks or like elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 9/00",
+      "title": {
+        "ko": "봉 또는 관상부재를 평평한 면에 각도를 가지고 결합(마찰그립에 의한 착탈가능한 체결 일반 2/00; 프레스 끼움 결합 B23P 11/00, 19/00; 수조, 시트 또는 이것과 같은 것을 위한 파이프 유체의 누설 막기 결합 F16L , 예. 벽에 관을 연결 F16L 41/00; 파이프, 케이블, 보호관을 위한 지지체 F16L 3/00)",
+        "en": "Connections of rods or tubular parts to flat surfaces at an angle (friction-grip releasable fastenings in general F16B0002000000;making press-fit connections B23P0011000000, B23P0019000000;fluid-tight connecting of pipes to reservoirs, sheets, or the like F16L, e.g. joining pipes to walls F16L0041000000;supports for pipes, cables or protective tubing F16L0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 9/02",
+          "title": {
+            "ko": null,
+            "en": "Detachable connections"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 11/00",
+      "title": {
+        "ko": "서로 붙이거나(sticking) 또는 압축하는 것에 의한 구조부재 또는 기계부품의 결합, 예. 냉간압접 (비전기적 용접일반 B23K; 접합된 표면의 모양에 관계없이 접착제를 사용하는 방법 C09J 5/00)",
+        "en": "Connecting constructional elements or machine parts by sticking or pressing them together, e.g. cold pressure welding (non-electric welding in general B23K;methods of using adhesives independently of the form of the surfaces joined C09J0005000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 12/00",
+      "title": {
+        "ko": "가구 또는 이것과 같은 것의 접속, 예. 외면으로부터 가리워진 것(2/00 ～ 11/00이 우선; 조임수단 그 자체 13/00 ～ 47/00; 목공 작업 B27)",
+        "en": "Jointing of furniture or the like, e.g. hidden from exterior (F16B0002000000-F16B0011000000 take precedence;fastening means per seF16B0013000000-F16B0047000000;wood-working B27)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 12/02",
+          "title": {
+            "ko": null,
+            "en": "Joints between panels and corner posts"
+          }
+        },
+        {
+          "code": "F16B 12/04",
+          "title": {
+            "ko": null,
+            "en": "Non-loosenable joints for non-metal furniture parts, e.g. glued"
+          }
+        },
+        {
+          "code": "F16B 12/06",
+          "title": {
+            "ko": null,
+            "en": "Non-loosenable joints for metal furniture parts"
+          }
+        },
+        {
+          "code": "F16B 12/08",
+          "title": {
+            "ko": null,
+            "en": "without use of separate connecting elements"
+          }
+        },
+        {
+          "code": "F16B 12/10",
+          "title": {
+            "ko": "패그(peg), 볼트, 장부(tenon), 클램프, 클립 또는 이것과 같은 것을 사용하는 것(접착 12/04; 체결 수단 그 자체 1500 ～ 47/00)",
+            "en": "using pegs, bolts, tenons, clamps, clips, or the like (glued F16B0012040000;fastening means per seF16B0015000000-F16B0047000000)"
+          }
+        },
+        {
+          "code": "F16B 12/12",
+          "title": {
+            "ko": null,
+            "en": "for non-metal furniture parts, e.g. made of wood, of plastics"
+          }
+        },
+        {
+          "code": "F16B 12/14",
+          "title": {
+            "ko": null,
+            "en": "using threaded bolts or screws"
+          }
+        },
+        {
+          "code": "F16B 12/16",
+          "title": {
+            "ko": null,
+            "en": "using self-tapping screws"
+          }
+        },
+        {
+          "code": "F16B 12/18",
+          "title": {
+            "ko": null,
+            "en": "using drawing bars"
+          }
+        },
+        {
+          "code": "F16B 12/20",
+          "title": {
+            "ko": null,
+            "en": "using clamps, clips, wedges, sliding bolts, or the like"
+          }
+        },
+        {
+          "code": "F16B 12/22",
+          "title": {
+            "ko": null,
+            "en": "using keyhole-shaped slots and pins"
+          }
+        },
+        {
+          "code": "F16B 12/24",
+          "title": {
+            "ko": null,
+            "en": "using separate pins, dowels, or the like"
+          }
+        },
+        {
+          "code": "F16B 12/26",
+          "title": {
+            "ko": null,
+            "en": "using snap-action elements"
+          }
+        },
+        {
+          "code": "F16B 12/28",
+          "title": {
+            "ko": null,
+            "en": "for metal furniture parts"
+          }
+        },
+        {
+          "code": "F16B 12/30",
+          "title": {
+            "ko": null,
+            "en": "using threaded bolts"
+          }
+        },
+        {
+          "code": "F16B 12/32",
+          "title": {
+            "ko": null,
+            "en": "using clamps, clips, wedges, sliding bolts, or the like"
+          }
+        },
+        {
+          "code": "F16B 12/34",
+          "title": {
+            "ko": null,
+            "en": "using keyhole-shaped slots and pins"
+          }
+        },
+        {
+          "code": "F16B 12/36",
+          "title": {
+            "ko": null,
+            "en": "using separate pins, dowels, or the like"
+          }
+        },
+        {
+          "code": "F16B 12/38",
+          "title": {
+            "ko": null,
+            "en": "using snap-action elements"
+          }
+        },
+        {
+          "code": "F16B 12/40",
+          "title": {
+            "ko": null,
+            "en": "Joints for furniture tubing"
+          }
+        },
+        {
+          "code": "F16B 12/42",
+          "title": {
+            "ko": null,
+            "en": "connecting furniture tubing to non-tubular parts"
+          }
+        },
+        {
+          "code": "F16B 12/44",
+          "title": {
+            "ko": "다리 이음(leg joint) 모서리 이음(corner joint)",
+            "en": "Leg joints; Corner joints"
+          }
+        },
+        {
+          "code": "F16B 12/46",
+          "title": {
+            "ko": null,
+            "en": "Non-metal corner connections"
+          }
+        },
+        {
+          "code": "F16B 12/48",
+          "title": {
+            "ko": "비금속제 다리의 결합(12/46이 우선)",
+            "en": "Non-metal leg connections (F16B0012460000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 12/50",
+          "title": {
+            "ko": null,
+            "en": "Metal corner connections"
+          }
+        },
+        {
+          "code": "F16B 12/52",
+          "title": {
+            "ko": "금속제 다리의 결합(12/05이 우선)",
+            "en": "Metal leg connections (F16B0012500000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 12/54",
+          "title": {
+            "ko": null,
+            "en": "Fittings for bedsteads or the like"
+          }
+        },
+        {
+          "code": "F16B 12/56",
+          "title": {
+            "ko": null,
+            "en": "Brackets for bedsteads; Coupling joints consisting of bolts or the like; Latches therefor"
+          }
+        },
+        {
+          "code": "F16B 12/58",
+          "title": {
+            "ko": null,
+            "en": "Tapered connectors for bed rails"
+          }
+        },
+        {
+          "code": "F16B 12/60",
+          "title": {
+            "ko": null,
+            "en": "Fittings for detachable side panels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 13/00",
+      "title": {
+        "ko": "다월(dowel) 또는 고착하기 위하여 벽 또는 그와 유사한 것에 설치된 구멍에 삽입되어서 그들에 부착되는 그밖의 장치(못 15/00; 자결 핀(self-locking pin) 또는 볼트 일반, 분해할 수 있는 스터드-소켓 체결(stud-and-socket releasable fastening) 21/00; 레일 침목용의 도웰 또는 볼트 E01B 9/00; 특히 기초 공사에 적합한 구조부재 또는 격벽 고정용 수단 E02D 5/74; 벽돌 쌓기 또는 콘크리트 주입과 동시에 사용하는 볼트 또는 다월 E04B 1/38; 축, 터널, 또는 갱도에서의 앵커볼트 위치 E21D 21/00)",
+        "en": "Dowels or other devices fastened in walls or the like by inserting them in holes made therein for that purpose (nails F16B0015000000;self-locking pins or bolts in general, stud-and-socket releasable fastenings F16B0021000000;dowels or bolts for railroad sleepers E01B0009000000;means for anchoring structural elements or bulkheads specially adapted to foundation engineering E02D0005740000;bolts or dowels used while laying bricks or casting concrete E04B0001380000;setting anchoring bolts in shafts, tunnels or galleries E21D0020000000;anchoring bolts for shafts, tunnels or galleries E21D0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 13/02",
+          "title": {
+            "ko": null,
+            "en": "in one piece with protrusions or ridges on the shaft"
+          }
+        },
+        {
+          "code": "F16B 13/04",
+          "title": {
+            "ko": "전방으로부터 삽입된 후 벽의 반대쪽 또는 구멍에 체결부를 갖는 것(마찰그립에 의한 착탈가능한 체결 일반 2/00)",
+            "en": "with parts gripping in the hole or behind the reverse side of the wall after inserting from the front (friction-grip releasable fastenings in general F16B0002000000)"
+          }
+        },
+        {
+          "code": "F16B 13/06",
+          "title": {
+            "ko": null,
+            "en": "combined with expanding sleeve"
+          }
+        },
+        {
+          "code": "F16B 13/08",
+          "title": {
+            "ko": null,
+            "en": "with separate gripping parts moved into their final position in relation to the body of the device without further manual operation"
+          }
+        },
+        {
+          "code": "F16B 13/10",
+          "title": {
+            "ko": "분리조작에 의해, 장치의 본체에 관하여 그들의 끝 방향으로 움직이는 분리된 잡는 부분을 갖는 것(13/06이 우선)",
+            "en": "with separate gripping parts moved into their final position in relation to the body of the device by a separate operation (F16B0013060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 13/12",
+          "title": {
+            "ko": null,
+            "en": "Separate metal dowel sleeves fastened by inserting the screw, nail, or the like"
+          }
+        },
+        {
+          "code": "F16B 13/13",
+          "title": {
+            "ko": null,
+            "en": "self-cutting"
+          }
+        },
+        {
+          "code": "F16B 13/14",
+          "title": {
+            "ko": null,
+            "en": "Non-metallic plugs or sleeves; Use of liquid, loose solid or kneadable material therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 15/00",
+      "title": {
+        "ko": "못 ; 스테이플(수술용 스테이플 A61B 17/064; 못이나 스테이플의 제조 B21G; 철도용 못 E01B 9/06)",
+        "en": "Fastening means without screw-thread"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 15/00",
+      "title": {
+        "ko": "못 ; 스테이플(수술용 스테이플 A61B 17/064; 못이나 스테이플의 제조 B21G; 철도용 못 E01B 9/06)",
+        "en": "Nails; Staples (surgical staples A61B0017064000;manufacture of nails or staples B21G;railway spikes E01B0009060000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 15/02",
+          "title": {
+            "ko": "특수한 모양의 헤드를 갖는 것, 예. 확장된 표면을 갖는 것(가구용 장식을 위한 것 A47B 95/04; 못(nail)용의 제거할 수 있는 장식용 헤드 A47G 3/00)",
+            "en": "with specially shaped heads, e.g. with enlarged surfaces (ornaments for furniture A47B0095040000;removable ornamental heads for nails A47G0003000000)"
+          }
+        },
+        {
+          "code": "F16B 15/04",
+          "title": {
+            "ko": null,
+            "en": "with spreading shaft"
+          }
+        },
+        {
+          "code": "F16B 15/06",
+          "title": {
+            "ko": null,
+            "en": "with barbs, e.g. for metal parts; Drive screws"
+          }
+        },
+        {
+          "code": "F16B 15/08",
+          "title": {
+            "ko": null,
+            "en": "formed in integral series but easily separable"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 17/00",
+      "title": {
+        "ko": "부재의 일부 또는 일부재를 다른 부재의 구멍에 삽입함에 의해 구조 부재 또는 기계부재의 결합을 위한 나사산을 사용하지 않는 조임수단 (볼트, 핀 또는 리벳의 구조 19/00; 리벳조임 19/04; 핀, 마개 또는 이것과 같은 것의 그들의 조작위치로부터 빠져나가는 것을 방지하기 위한 수단, 스터드-소켓 체결 21/00)",
+        "en": "Fastening means without screw-thread for connecting constructional elements or machine parts by a part of or on one member entering a hole in the other (construction of bolts, pins, or rivets F16B0019000000;riveting F16B0019040000;means for preventing withdrawal of a pin, spigot, or the like from its operative position, stud-and-socket releasable fastenings F16B0021000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 19/00",
+      "title": {
+        "ko": "나사산을 갖지 않는 볼트; 변형할 수 있는 요소를 포함하는 핀(나사 결합 29/00); 리벳(빠져나가는 것을 방지하기 위한 수단 21/00)",
+        "en": "Bolts without screw-thread; Pins, including deformable elements (in screwed connections F16B0029000000); Rivets (means for preventing withdrawal F16B0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 19/02",
+          "title": {
+            "ko": null,
+            "en": "Bolts or sleeves for positioning of machine parts, e.g. notched taper pins, fitting pins, sleeves, eccentric positioning rings"
+          }
+        },
+        {
+          "code": "F16B 19/04",
+          "title": {
+            "ko": "리벳; 플러그 또는 리벳팅(riveting)에 의해 체결되는 마개(spigot)(납실(blead seal) G09F 3/00)",
+            "en": "Rivets; Spigots or the like fastened by riveting (lead seals G09F0003000000)"
+          }
+        },
+        {
+          "code": "F16B 19/05",
+          "title": {
+            "ko": "끼워져서 고정되는 플랜지(flange)에 의한 볼트 체결(19/08이 우선)",
+            "en": "Bolts fastening by swaged-on collars (F16B0019080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 19/06",
+          "title": {
+            "ko": null,
+            "en": "Solid rivets made in one piece"
+          }
+        },
+        {
+          "code": "F16B 19/08",
+          "title": {
+            "ko": "중공리벳; 다부재로 되어 있는 리벳",
+            "en": "Hollow rivets; Multi-part rivets"
+          }
+        },
+        {
+          "code": "F16B 19/10",
+          "title": {
+            "ko": null,
+            "en": "fastened by expanding mechanically"
+          }
+        },
+        {
+          "code": "F16B 19/12",
+          "title": {
+            "ko": "유체압에 의한 죄어 붙임, 폭발에 의한 것을 포함한다.(콘크리트 구조물, 금속벽 또는 이와 같은 것에, 폭발조작에 의한 못질공구에 의하여 때려 넣어지는 볼트 19/14)",
+            "en": "fastened by fluid pressure, including by explosion (bolts shot by means of detonation-operated nailing tools into concrete constructions, metal walls, or the like F16B0019140000)"
+          }
+        },
+        {
+          "code": "F16B 19/14",
+          "title": {
+            "ko": "콘크리트 구조물, 금속벽 또는 동양의 것에, 폭발조작에 의하여 못질공구에 의해서 때려 넣어지는 볼트 또는 동양의 것(그들을 위한 공구 B25C , 예. 약포와 못 유닛 B25C 1/16)",
+            "en": "Bolts or the like for shooting into concrete constructions, metal walls, or the like by means of detonation-operated nailing tools (tools therefor B25C, B27F)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 21/00",
+      "title": {
+        "ko": "핀, 플러그, 축 또는 이것과 같은 것과 그 주위의 부재의 축방향의 상대방인 움직임을 방지하는 수단으로 나사산을 이용하지 않는 수단(리벳 체결 또는 변형할 수 있는 플러그 19/04; 피스톤핀용의 것 F16J 1/18); 나사산을 사용하지 않는 스터드 볼트 및 소켓에 의한 끼워 빼기 할 수 있는 체결",
+        "en": "Means without screw-thread for preventing relative axial movement of a pin, spigot, shaft, or the like and a member surrounding it (riveted or deformable spigots F16B0019040000;for gudgeon pins F16J0001180000); Stud-and-socket releasable fastenings without screw-thread"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 21/02",
+          "title": {
+            "ko": "회전에 대한 록킹 작용을 하는 끼워 빼기가 가능한 체결(스냅동작을 갖는 것 21/06; 심음 핀 또는 연결핀으로써 탄성돌출부를 가지는 것 21/08)",
+            "en": "Releasable fastening devices locking by rotation (with snap action F16B0021060000;studs or coupling-pins with resilient protrusions F16B0021080000)"
+          }
+        },
+        {
+          "code": "F16B 21/04",
+          "title": {
+            "ko": null,
+            "en": "with bayonet catch"
+          }
+        },
+        {
+          "code": "F16B 21/06",
+          "title": {
+            "ko": "스냅동작을 갖는 끼워 빼기 할 수 있는 체결",
+            "en": "Releasable fastening devices with snap action"
+          }
+        },
+        {
+          "code": "F16B 21/07",
+          "title": {
+            "ko": null,
+            "en": "in which the socket has a resilient part"
+          }
+        },
+        {
+          "code": "F16B 21/08",
+          "title": {
+            "ko": "스터드, 핀 또는 플러그(spigot)가 탄성을 갖는 것(벽용 도웰 B100)",
+            "en": "in which the stud, pin, or spigot has a resilient part (wall-dowels F16B0013000000)"
+          }
+        },
+        {
+          "code": "F16B 21/09",
+          "title": {
+            "ko": null,
+            "en": "Releasable fastening devices with a stud engaging a keyhole slot"
+          }
+        },
+        {
+          "code": "F16B 21/10",
+          "title": {
+            "ko": "분리한 부품에 의한 것(키이 접속 3/00; 그와 같은 수단에 의한 나사 및 너트의 회전에 대한 풀림 방지 39/04)",
+            "en": "by separate parts (key-type connection F16B0003000000;locking screws or nuts against rotation by such means F16B0039040000)"
+          }
+        },
+        {
+          "code": "F16B 21/12",
+          "title": {
+            "ko": null,
+            "en": "with locking-pins or split-pins thrust into holes"
+          }
+        },
+        {
+          "code": "F16B 21/14",
+          "title": {
+            "ko": null,
+            "en": "Details of locking-pins or split-pins"
+          }
+        },
+        {
+          "code": "F16B 21/16",
+          "title": {
+            "ko": "핀 또는 축에 홈 또는 노치(nortch)를 갖는 것",
+            "en": "with grooves or notches in the pin or shaft"
+          }
+        },
+        {
+          "code": "F16B 21/18",
+          "title": {
+            "ko": "써클립 또는 탄성유지장치를 갖는 것 세부(록킹너트용 스프링와셔 39/24; 조정링 43/00)",
+            "en": "with circlips or like resilient retaining devices; Details (spring-washers for locking nuts F16B0039240000;adjusting-rings F16B0043000000)"
+          }
+        },
+        {
+          "code": "F16B 21/20",
+          "title": {
+            "ko": null,
+            "en": "for bolts or shafts without holes, grooves, or notches for locking members"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Fastening means using screw-thread"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Specially-shaped heads of bolts or screws for rotations by a tool"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 25/00",
+      "title": {
+        "ko": "나사 박아지는 몸체에 나사산을 형성하는 나사, 예. 나무나사, 태핑나사",
+        "en": "Screws that form threads in the body into which they are screwed, e.g. wood screws, self-tapping screws"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 25/02",
+          "title": {
+            "ko": null,
+            "en": "by a cutting and material removing action, e.g. fluted self-tapping screws"
+          }
+        },
+        {
+          "code": "F16B 25/04",
+          "title": {
+            "ko": null,
+            "en": "by a slicing and material displacing action, e.g. wood screws with sharp thread crests"
+          }
+        },
+        {
+          "code": "F16B 25/06",
+          "title": {
+            "ko": null,
+            "en": "by swaging, i.e. material deforming action"
+          }
+        },
+        {
+          "code": "F16B 25/08",
+          "title": {
+            "ko": "그룹 25/02부터 25/06에 분류되는 작용중 2 또는 전부의 조합에 의한 것",
+            "en": "by a combination of any two or all of the actions provided for in groups F16B0025020000-F16B0025060000"
+          }
+        },
+        {
+          "code": "F16B 25/10",
+          "title": {
+            "ko": null,
+            "en": "Screws performing an additional function to thread-forming, e.g. drill screws"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 27/00",
+      "title": {
+        "ko": null,
+        "en": "Bolts, screws, or nuts formed in integral series but easily separable, particularly for use in automatic machines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 29/00",
+      "title": {
+        "ko": "체결 동안에 너트 또는 보조부재의 변형이 생기는 나사 결합(벽 도웰 F16B 13/00; 나사, 볼트 또는 너트를 접합하기 위하여 변형되는 부재 F16B 39/22)",
+        "en": "Screwed connection with deformation of nut or auxiliary member while fastening (wall-dowels F16B0013000000;members deformed for locking screws, bolts or nuts F16B0039220000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 31/00",
+      "title": {
+        "ko": "인장하중을 고려하여 특별히 수정한 나사 결합 안전볼트(break-bolt)(나사의 형상 33/04)",
+        "en": "Screwed connections specially modified in view of tensile load; Break-bolts (shape of thread F16B0033040000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 31/02",
+          "title": {
+            "ko": null,
+            "en": "for indicating or limiting tensile load"
+          }
+        },
+        {
+          "code": "F16B 31/04",
+          "title": {
+            "ko": null,
+            "en": "for maintaining constant tensile load"
+          }
+        },
+        {
+          "code": "F16B 31/06",
+          "title": {
+            "ko": null,
+            "en": "having regard to possibility of fatigue rupture"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 33/00",
+      "title": {
+        "ko": "볼트와 너트에 공통된 특징(벽 도웰 F16B 33/00)",
+        "en": "Features common to bolt and nut (wall-dowels F16B0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 33/02",
+          "title": {
+            "ko": "나사산의 형상; 특수한 나사산의 형상(나사 록킹장치로 사용되는 것 39/30)",
+            "en": "Shape of thread; Special thread-forms (used as screw-locking device F16B0039300000)"
+          }
+        },
+        {
+          "code": "F16B 33/04",
+          "title": {
+            "ko": null,
+            "en": "in view of tensile load"
+          }
+        },
+        {
+          "code": "F16B 33/06",
+          "title": {
+            "ko": null,
+            "en": "Surface treatment of parts furnished with screw-thread, e.g. for preventing seizure"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 35/00",
+      "title": {
+        "ko": "볼트; 스테이 볼트; 스터트 볼트; 나사; 멈춤나사 (벽용 도웰 13/00; 나사산 만들기 나사 25/00)",
+        "en": "Screw-bolts; Stay bolts; Screw-threaded studs; Screws; Set screws (wall-dowels F16B0013000000;thread-cutting screws F16B0025000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 35/02",
+          "title": {
+            "ko": null,
+            "en": "divided longitudinally"
+          }
+        },
+        {
+          "code": "F16B 35/04",
+          "title": {
+            "ko": "대상물의 위 또는 속에 볼트를 고정하는 특수한 모양의 헤드 또는 축을 갖는 것(부속물을 사용함 으로써 대상물의 회전에 대한 볼트의 풀림 방지 39/00)",
+            "en": "with specially-shaped head or shaft in order to fix the bolt on or in an object (locking the bolt against turning in the object by the use of accessory parts F16B0039000000)"
+          }
+        },
+        {
+          "code": "F16B 35/06",
+          "title": {
+            "ko": "특수한 모양을 가진 헤드(볼트를 돌리기 위한 특수한 모양 23/00)",
+            "en": "Specially-shaped heads (special shape in order to rotate the bolt F16B0023000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 37/00",
+      "title": {
+        "ko": "너트 또는 유사한 나사 결합 부재(벽 도웰 F16B 13/00)",
+        "en": "Nuts or like thread-engaging members (wall-dowels F16B0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 37/02",
+          "title": {
+            "ko": "박판 재료로 만들어진 것(표면에서의 체결 37/04)",
+            "en": "made of thin sheet material (fastening to surfaces F16B0037040000)"
+          }
+        },
+        {
+          "code": "F16B 37/04",
+          "title": {
+            "ko": null,
+            "en": "Devices for fastening nuts to surfaces, e.g. sheets, plates"
+          }
+        },
+        {
+          "code": "F16B 37/06",
+          "title": {
+            "ko": null,
+            "en": "by means of welding or riveting"
+          }
+        },
+        {
+          "code": "F16B 37/08",
+          "title": {
+            "ko": null,
+            "en": "Quickly-detachable nuts, e.g. consisting of two or more parts; Nuts movable along the bolt after tilting the nut"
+          }
+        },
+        {
+          "code": "F16B 37/10",
+          "title": {
+            "ko": null,
+            "en": "divided parallel or about parallel to the bolt axis"
+          }
+        },
+        {
+          "code": "F16B 37/12",
+          "title": {
+            "ko": null,
+            "en": "with thread-engaging surfaces formed by inserted coil-springs, discs, or the like; Independent pieces of wound wire used as nuts; Threaded inserts for holes"
+          }
+        },
+        {
+          "code": "F16B 37/14",
+          "title": {
+            "ko": null,
+            "en": "Cap nuts; Nut caps or bolt caps"
+          }
+        },
+        {
+          "code": "F16B 37/16",
+          "title": {
+            "ko": "윙 너트 (37/14이 우선)",
+            "en": "Wing nuts (F16B0037140000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 39/00",
+      "title": {
+        "ko": "나사, 볼트, 또는 너트의 풀림방지(벽 도웰 F16B 13/00; 병에 쓰이는 닫힘 뚜껑의 풀림방지 B65D; 궤도용 레일 고정볼트의 영구 풀림방지 E01B 9/12; 레일의 이음 덮개판 고정 장치의 풀림 방지 E01B 11/38; 밸브 또는 콕(cock)의 록킹 장치 F16K)",
+        "en": "Locking of screws, bolts, or nuts (wall-dowels F16B0013000000;locking of bottle closures B65D;locking of rail-fastening bolts for permanent ways E01B0009120000;locking of fastening means for railway fishplates E01B0011380000;locking devices for valves or cocks F16K)"
+      },
+      "definition": {
+        "ko": "이 그룹에 있어서는, 나사 또는 볼트의 헤드는 풀림방지에 적합한 한 너트와 동등하다; 나사 깎여진 나사를 나사 박는 대상물은 너트와 동등하다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F16B 39/01",
+          "title": {
+            "ko": null,
+            "en": "specially adapted to prevent loosening at extreme temperatures"
+          }
+        },
+        {
+          "code": "F16B 39/02",
+          "title": {
+            "ko": "나사로 조인 다음에 풀림 방지되는 것(39/01이 우선; 상대적인 축방향의 움직임만을 방지하기 위한 분할 핀, 서클립 또는 이것과 같은 것 21/10; 용접 또는 리벳에 의한 너트의 체결 37/06)",
+            "en": "in which the locking takes place after screwing down (F16B0039010000 takes precedence;split-pins, circlips, or the like for preventing relative axial movement only F16B0021100000;fastening nuts by welding or riveting F16B0037060000)"
+          }
+        },
+        {
+          "code": "F16B 39/04",
+          "title": {
+            "ko": null,
+            "en": "with a member penetrating the screw-threaded surface of at least one part, e.g. a pin, wedge, cotter-pin, screw"
+          }
+        },
+        {
+          "code": "F16B 39/06",
+          "title": {
+            "ko": null,
+            "en": "with a pin or staple parallel to the bolt axis"
+          }
+        },
+        {
+          "code": "F16B 39/08",
+          "title": {
+            "ko": null,
+            "en": "with a cap interacting with the nut, connected to the bolt by a pin or cotter-pin"
+          }
+        },
+        {
+          "code": "F16B 39/10",
+          "title": {
+            "ko": "볼트 또는 대상물에 대해 부동(immovable)의 판 또는 링(ring)에 의한 것 (39/08이 우선)",
+            "en": "by a plate or ring immovable with regard to the bolt or object (F16B0039080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 39/12",
+          "title": {
+            "ko": "로크너트에 의한 것",
+            "en": "by means of locknuts"
+          }
+        },
+        {
+          "code": "F16B 39/14",
+          "title": {
+            "ko": "박판 재료로 만들어진 것 또는 스프링 와셔로 형성된 것(박판 재료와 같은 것으로 만들어진 로크너트 자체 37/02)",
+            "en": "made of thin sheet material or formed as spring washers (locknuts per se made of thin sheet material F16B0037020000)"
+          }
+        },
+        {
+          "code": "F16B 39/16",
+          "title": {
+            "ko": null,
+            "en": "in which the screw-thread of the locknut differs from that of the nut"
+          }
+        },
+        {
+          "code": "F16B 39/18",
+          "title": {
+            "ko": null,
+            "en": "in which the locknut grips with screw-thread in the nuts as well as on the bolt"
+          }
+        },
+        {
+          "code": "F16B 39/20",
+          "title": {
+            "ko": "강선 또는 이것과 같은 것에 의하는 것(39/10이 우선)",
+            "en": "by means of steel wire or the like (F16B0039100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 39/22",
+          "title": {
+            "ko": "나사체결 또는 체결하는 동안에 풀림방지가 생기는 것(39/01이 우선)",
+            "en": "in which the locking takes place during screwing down or tightening (F16B0039010000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 39/24",
+          "title": {
+            "ko": "와셔 스프링 와셔 또는 대상물에 대하여 록킹하는 탄성을 갖는 판에 의한 것(나사헤드에 록킹 39/14; 39/36)",
+            "en": "by means of washers, spring washers, or resilient plates that lock against the object (locking to the screw-thread F16B0039140000, F16B0039360000)"
+          }
+        },
+        {
+          "code": "F16B 39/26",
+          "title": {
+            "ko": null,
+            "en": "with spring washers fastened to the nut or bolt-head"
+          }
+        },
+        {
+          "code": "F16B 39/28",
+          "title": {
+            "ko": "너트 또는 볼트의 특별한 부재 또는 모양에 의한 것(39/26이 우선; 로크너트 39/12)",
+            "en": "by special members on, or shape of, the nut or bolt (F16B0039260000 takes precedence;locknuts F16B0039120000)"
+          }
+        },
+        {
+          "code": "F16B 39/282",
+          "title": {
+            "ko": null,
+            "en": "Locking by means of special shape of work-engaging surfaces, e.g. notched or toothed nuts"
+          }
+        },
+        {
+          "code": "F16B 39/284",
+          "title": {
+            "ko": "탄성변형에 의한 풀림방지(39/38이 우선)",
+            "en": "Locking by means of elastic deformation (F16B0039380000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16B 39/286",
+          "title": {
+            "ko": null,
+            "en": "caused by saw cuts"
+          }
+        },
+        {
+          "code": "F16B 39/30",
+          "title": {
+            "ko": null,
+            "en": "Locking exclusively by special shape of the screw-thread"
+          }
+        },
+        {
+          "code": "F16B 39/32",
+          "title": {
+            "ko": null,
+            "en": "Locking by means of a pawl or pawl-like tongue"
+          }
+        },
+        {
+          "code": "F16B 39/34",
+          "title": {
+            "ko": null,
+            "en": "Locking by deformable inserts or like parts"
+          }
+        },
+        {
+          "code": "F16B 39/36",
+          "title": {
+            "ko": null,
+            "en": "with conical locking parts, which may be split, including use of separate rings co-operating therewith"
+          }
+        },
+        {
+          "code": "F16B 39/38",
+          "title": {
+            "ko": "탄성적으로 부착된 나사산을 갖는 제2의 부품을 갖는 것(39/30이 우선)",
+            "en": "with a second part of the screw-thread which may be resiliently mounted (F16B0039300000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 41/00",
+      "title": {
+        "ko": "볼트, 너트 또는 핀의 분실에 대한 조치; 볼트, 너트 핀의 잘못된 조작에 대한 조치 (밀봉 G09F3/00)",
+        "en": "Measures against loss of bolts, nuts, or pins; Measures against unauthorised operation of bolts, nuts, or pins (seals G09F0003000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16B 43/00",
+      "title": {
+        "ko": "와셔 또는 이것과 같은 장치; 볼트의 헤드 또는 너트를 지지하기 위한 그 밖의 장치(써클립 21/18; 볼트 또는 너트를 풀림방지하는 특별한 수단을 갖는 것 39/10, 39/24)",
+        "en": "Washers or equivalent devices; Other devices for supporting bolt-heads or nuts (circlips F16B0021180000;with special means for locking bolts or nuts F16B0039100000, F16B0039240000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 43/02",
+          "title": {
+            "ko": null,
+            "en": "with special provisions for engaging surfaces which are not perpendicular to a bolt axis or do not surround the bolt"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 45/00",
+      "title": {
+        "ko": "훅(hook); 고리쇠(Eyes)(만약 부착 부품 또는 수단이 관계한다면 그룹 13/00, 15/00, 19/00, 25/00, 35/00, 47/00이 우선; 그림 또는 이것과 같은 것의 매달기 A47G 1/16; 예항용 훅 B63B 21/58; 감아 올리기 또는 잡아 당김을 목적으로 하는 것 B66C; 임의의 지점에서 케이블 또는 로프에 빠른 부착이 가능하도록 고안된 필수 부품을 가진 훅 또는 고리쇠 F16G 11/14)",
+        "en": "Hooks; Eyes (if the attaching parts or means are concerned, groups F16B0013000000, F16B0015000000, F16B0019000000, F16B0025000000, F16B0035000000, F16B0047000000 take precedence;for hanging pictures or the like A47G0001160000;towing hooks for ships B63B0021580000;for hoisting or hauling purposes B66C;hooks or eyes with integral parts designed to facilitate quick attachment to cables or ropes at any point F16G0011140000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16B 45/02",
+          "title": {
+            "ko": null,
+            "en": "Hooks with pivoting closing member"
+          }
+        },
+        {
+          "code": "F16B 45/04",
+          "title": {
+            "ko": null,
+            "en": "Hooks with sliding closing member"
+          }
+        },
+        {
+          "code": "F16B 45/06",
+          "title": {
+            "ko": null,
+            "en": "Hooks with two symmetrically-pivoting hook parts"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16B 47/00",
+      "title": {
+        "ko": null,
+        "en": "Suction cups for attaching purposes; Equivalent means using adhesives"
+      },
+      "subgroups": []
+    }
+  ]
+}

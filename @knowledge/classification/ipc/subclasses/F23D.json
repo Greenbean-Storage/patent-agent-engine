@@ -1,0 +1,793 @@
+{
+  "subclass": "F23D",
+  "title": {
+    "ko": "버너",
+    "en": "BURNERS"
+  },
+  "definition": {
+    "ko": "분말 연료 연소용의 버너 F23D1/00 액체 연소용 버너 모세관현상을 이용하는 것 F23D3/00 연료 증발을 이용하는 것; 직접적 분무를 이용하는 것 F23D5/00; 11/00 표면에서의 연료의 충돌을 이용하는 것 F23D7/00; 9/00 가스 연소용 버너 F23D14/00 가스상, 액체 또는 분상연료의 연소용 버너 F23D17/00 2개 또는 그 이상의 버너의 조합 F23D23/00 기타 버너 F23D99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F23D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Burners for combustion of pulverulent fuel"
+      },
+      "subgroups": [
+        {
+          "code": "F23D 1/02",
+          "title": {
+            "ko": null,
+            "en": "Vortex burners, e.g. for cyclone-type combustion apparatus"
+          }
+        },
+        {
+          "code": "F23D 1/04",
+          "title": {
+            "ko": null,
+            "en": "Burners producing cylindrical flames without centrifugal action"
+          }
+        },
+        {
+          "code": "F23D 1/06",
+          "title": {
+            "ko": null,
+            "en": "Burners producing sheet flames"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23D 3/00",
+      "title": {
+        "ko": "모세관현상을 사용하는 버너",
+        "en": "Combustion of a liquid"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23D 3/00",
+      "title": {
+        "ko": "모세관현상을 사용하는 버너",
+        "en": "Burners using capillary action"
+      },
+      "subgroups": [
+        {
+          "code": "F23D 3/02",
+          "title": {
+            "ko": "등심식 버너",
+            "en": "Wick burners"
+          }
+        },
+        {
+          "code": "F23D 3/04",
+          "title": {
+            "ko": "화염 스프레더(Flame spreaders)를 가진 것(F23D 3/12이 우선)",
+            "en": "with flame spreaders (F23D0003120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F23D 3/06",
+          "title": {
+            "ko": null,
+            "en": "Inverted wick burners, e.g. for illumination"
+          }
+        },
+        {
+          "code": "F23D 3/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by shape, construction, or material, of wick"
+          }
+        },
+        {
+          "code": "F23D 3/10",
+          "title": {
+            "ko": null,
+            "en": "Blue-flame burners"
+          }
+        },
+        {
+          "code": "F23D 3/12",
+          "title": {
+            "ko": null,
+            "en": "with flame spreaders"
+          }
+        },
+        {
+          "code": "F23D 3/14",
+          "title": {
+            "ko": null,
+            "en": "with mixing of air and fuel vapour in a chamber before the flame"
+          }
+        },
+        {
+          "code": "F23D 3/16",
+          "title": {
+            "ko": null,
+            "en": "using candles"
+          }
+        },
+        {
+          "code": "F23D 3/18",
+          "title": {
+            "ko": null,
+            "en": "Details of wick burners"
+          }
+        },
+        {
+          "code": "F23D 3/20",
+          "title": {
+            "ko": null,
+            "en": "Flame spreaders"
+          }
+        },
+        {
+          "code": "F23D 3/22",
+          "title": {
+            "ko": null,
+            "en": "Devices for mixing evaporated fuel with air"
+          }
+        },
+        {
+          "code": "F23D 3/24",
+          "title": {
+            "ko": null,
+            "en": "Carriers for wicks"
+          }
+        },
+        {
+          "code": "F23D 3/26",
+          "title": {
+            "ko": null,
+            "en": "Safety devices thereon"
+          }
+        },
+        {
+          "code": "F23D 3/28",
+          "title": {
+            "ko": null,
+            "en": "Wick-adjusting devices"
+          }
+        },
+        {
+          "code": "F23D 3/30",
+          "title": {
+            "ko": null,
+            "en": "directly engaging with the wick"
+          }
+        },
+        {
+          "code": "F23D 3/32",
+          "title": {
+            "ko": null,
+            "en": "engaging with a tube carrying the wick"
+          }
+        },
+        {
+          "code": "F23D 3/34",
+          "title": {
+            "ko": null,
+            "en": "Wick stop devices; Wick-fixing devices"
+          }
+        },
+        {
+          "code": "F23D 3/36",
+          "title": {
+            "ko": null,
+            "en": "Devices for trimming wicks"
+          }
+        },
+        {
+          "code": "F23D 3/38",
+          "title": {
+            "ko": null,
+            "en": "Devices for replacement of wicks"
+          }
+        },
+        {
+          "code": "F23D 3/40",
+          "title": {
+            "ko": null,
+            "en": "the capillary action taking place in one or more rigid porous bodies"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Burners in which liquid fuel evaporates in the combustion space, with or without chemical conversion of evaporated fuel"
+      },
+      "subgroups": [
+        {
+          "code": "F23D 5/02",
+          "title": {
+            "ko": null,
+            "en": "the liquid forming a pool, e.g. bowl-type evaporators, dish-type evaporators"
+          }
+        },
+        {
+          "code": "F23D 5/04",
+          "title": {
+            "ko": null,
+            "en": "Pot-type evaporators, i.e. using a partially-enclosed combustion space"
+          }
+        },
+        {
+          "code": "F23D 5/06",
+          "title": {
+            "ko": null,
+            "en": "the liquid forming a film on one or more plane or convex surfaces"
+          }
+        },
+        {
+          "code": "F23D 5/08",
+          "title": {
+            "ko": null,
+            "en": "on cascaded surfaces"
+          }
+        },
+        {
+          "code": "F23D 5/10",
+          "title": {
+            "ko": null,
+            "en": "on grids"
+          }
+        },
+        {
+          "code": "F23D 5/12",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "F23D 5/14",
+          "title": {
+            "ko": null,
+            "en": "Maintaining predetermined amount of fuel in evaporator"
+          }
+        },
+        {
+          "code": "F23D 5/16",
+          "title": {
+            "ko": null,
+            "en": "Safety devices"
+          }
+        },
+        {
+          "code": "F23D 5/18",
+          "title": {
+            "ko": null,
+            "en": "Preheating devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Burners in which drops of liquid fuel impinge on a surface"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Burners in which a stream of liquid fuel impinges intermittently on a hot surface"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23D 11/00",
+      "title": {
+        "ko": "연소공간에서 액적 또는 기화한 액체로 직접 분무하는 작용을 이용한 버너",
+        "en": "Burners using a direct spraying action of liquid droplets or vaporised liquid into the combustion space"
+      },
+      "subgroups": [
+        {
+          "code": "F23D 11/02",
+          "title": {
+            "ko": null,
+            "en": "the combustion space being a chamber substantially at atmospheric pressure"
+          }
+        },
+        {
+          "code": "F23D 11/04",
+          "title": {
+            "ko": null,
+            "en": "the spraying action being obtained by centrifugal action"
+          }
+        },
+        {
+          "code": "F23D 11/06",
+          "title": {
+            "ko": null,
+            "en": "using a horizontal shaft"
+          }
+        },
+        {
+          "code": "F23D 11/08",
+          "title": {
+            "ko": null,
+            "en": "using a vertical shaft"
+          }
+        },
+        {
+          "code": "F23D 11/10",
+          "title": {
+            "ko": null,
+            "en": "the spraying being induced by a gaseous medium, e.g. water vapour"
+          }
+        },
+        {
+          "code": "F23D 11/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape or arrangement of the outlets from the nozzle"
+          }
+        },
+        {
+          "code": "F23D 11/14",
+          "title": {
+            "ko": null,
+            "en": "with a single outlet, e.g. slit"
+          }
+        },
+        {
+          "code": "F23D 11/16",
+          "title": {
+            "ko": null,
+            "en": "in which an emulsion of water and fuel is sprayed"
+          }
+        },
+        {
+          "code": "F23D 11/18",
+          "title": {
+            "ko": null,
+            "en": "the gaseous medium being water vapour generated at the nozzle"
+          }
+        },
+        {
+          "code": "F23D 11/20",
+          "title": {
+            "ko": null,
+            "en": "the water vapour being superheated"
+          }
+        },
+        {
+          "code": "F23D 11/22",
+          "title": {
+            "ko": null,
+            "en": "the gaseous medium being vaporised fuel, e.g. for a soldering lamp"
+          }
+        },
+        {
+          "code": "F23D 11/24",
+          "title": {
+            "ko": null,
+            "en": "by pressurisation of the fuel before a nozzle through which it is sprayed by a substantial pressure reduction into a space"
+          }
+        },
+        {
+          "code": "F23D 11/26",
+          "title": {
+            "ko": null,
+            "en": "with provision for varying the rate at which the fuel is sprayed"
+          }
+        },
+        {
+          "code": "F23D 11/28",
+          "title": {
+            "ko": null,
+            "en": "with flow-back of fuel at the burner, e.g. using by-pass"
+          }
+        },
+        {
+          "code": "F23D 11/30",
+          "title": {
+            "ko": null,
+            "en": "with return feed of uncombusted sprayed fuel to reservoir"
+          }
+        },
+        {
+          "code": "F23D 11/32",
+          "title": {
+            "ko": null,
+            "en": "by electrostatic means"
+          }
+        },
+        {
+          "code": "F23D 11/34",
+          "title": {
+            "ko": null,
+            "en": "by ultrasonic means"
+          }
+        },
+        {
+          "code": "F23D 11/36",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "F23D 11/38",
+          "title": {
+            "ko": null,
+            "en": "Nozzles; Cleaning devices therefor"
+          }
+        },
+        {
+          "code": "F23D 11/40",
+          "title": {
+            "ko": null,
+            "en": "Mixing tubes; Burner heads"
+          }
+        },
+        {
+          "code": "F23D 11/42",
+          "title": {
+            "ko": "시동장치(점화 F23Q)",
+            "en": "Starting devices (igniting F23Q)"
+          }
+        },
+        {
+          "code": "F23D 11/44",
+          "title": {
+            "ko": null,
+            "en": "Preheating devices; Vaporising devices"
+          }
+        },
+        {
+          "code": "F23D 11/46",
+          "title": {
+            "ko": null,
+            "en": "Devices on the vaporiser for controlling the feeding of the fuel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23D 14/00",
+      "title": {
+        "ko": "가스(예. 가압하에 액체로 저장되는 가스) 연소용 버너",
+        "en": "Burners for combustion of a gas, e.g. of a gas stored under pressure as a liquid"
+      },
+      "subgroups": [
+        {
+          "code": "F23D 14/02",
+          "title": {
+            "ko": null,
+            "en": "Premix gas burners, i.e. in which gaseous fuel is mixed with combustion air upstream of the combustion zone"
+          }
+        },
+        {
+          "code": "F23D 14/04",
+          "title": {
+            "ko": null,
+            "en": "induction type, e.g. Bunsen burner"
+          }
+        },
+        {
+          "code": "F23D 14/06",
+          "title": {
+            "ko": null,
+            "en": "with radial outlets at the burner head"
+          }
+        },
+        {
+          "code": "F23D 14/08",
+          "title": {
+            "ko": null,
+            "en": "with axial outlets at the burner head"
+          }
+        },
+        {
+          "code": "F23D 14/10",
+          "title": {
+            "ko": null,
+            "en": "with elongated tubular burner head"
+          }
+        },
+        {
+          "code": "F23D 14/12",
+          "title": {
+            "ko": null,
+            "en": "Radiant burners"
+          }
+        },
+        {
+          "code": "F23D 14/14",
+          "title": {
+            "ko": null,
+            "en": "using screens or perforated plates"
+          }
+        },
+        {
+          "code": "F23D 14/16",
+          "title": {
+            "ko": null,
+            "en": "using permeable blocks"
+          }
+        },
+        {
+          "code": "F23D 14/18",
+          "title": {
+            "ko": null,
+            "en": "using catalysis for flameless combustion"
+          }
+        },
+        {
+          "code": "F23D 14/20",
+          "title": {
+            "ko": "비예혼합가스 버너, 즉. 가스상 연료가 연소 영역에 도달시 연소 공기와 혼합되는 것(F23D 14/38 우선)",
+            "en": "Non-premix gas burners, i.e. in which gaseous fuel is mixed with combustion air on arrival at the combustion zone (F23D0014380000 takes precedence)"
+          }
+        },
+        {
+          "code": "F23D 14/22",
+          "title": {
+            "ko": null,
+            "en": "with separate air and gas feed ducts, e.g. with ducts running parallel or crossing each other"
+          }
+        },
+        {
+          "code": "F23D 14/24",
+          "title": {
+            "ko": null,
+            "en": "at least one of the fluids being submitted to a swirling motion"
+          }
+        },
+        {
+          "code": "F23D 14/26",
+          "title": {
+            "ko": "화염을 유지(retention)하기 위한 장비를 갖는 것(파일럿화염점화기 F23Q 9/00)",
+            "en": "with provision for a retention flame (pilot flame igniters F23Q0009000000)"
+          }
+        },
+        {
+          "code": "F23D 14/28",
+          "title": {
+            "ko": null,
+            "en": "in association with a gaseous fuel source, e.g. acetylene generator, or a container for liquefied gas"
+          }
+        },
+        {
+          "code": "F23D 14/30",
+          "title": {
+            "ko": null,
+            "en": "Inverted burners, e.g. for illumination"
+          }
+        },
+        {
+          "code": "F23D 14/32",
+          "title": {
+            "ko": "가스상연료와 순산소 또는 산소강화-공기와의 혼합물을 사용하는 것(F23D 14/38이 우선)",
+            "en": "using a mixture of gaseous fuel and pure oxygen or oxygen-enriched air (F23D0014380000 takes precedence)"
+          }
+        },
+        {
+          "code": "F23D 14/34",
+          "title": {
+            "ko": null,
+            "en": "Burners specially adapted for use with means for pressurising the gaseous fuel or the combustion air"
+          }
+        },
+        {
+          "code": "F23D 14/36",
+          "title": {
+            "ko": null,
+            "en": "in which the compressor and burner form a single unit"
+          }
+        },
+        {
+          "code": "F23D 14/38",
+          "title": {
+            "ko": "토치, 예. 납땜 또는 가열용(노즐 F23D 14/48)",
+            "en": "Torches, e.g. for brazing or heating (nozzles F23D0014480000)"
+          }
+        },
+        {
+          "code": "F23D 14/40",
+          "title": {
+            "ko": "용접용(F23D 14/44가 우선)",
+            "en": "for welding (F23D0014440000 takes precedence)"
+          }
+        },
+        {
+          "code": "F23D 14/42",
+          "title": {
+            "ko": "절단용(F23D 14/44가 우선)",
+            "en": "for cutting (F23D0014440000 takes precedence)"
+          }
+        },
+        {
+          "code": "F23D 14/44",
+          "title": {
+            "ko": null,
+            "en": "for use under water"
+          }
+        },
+        {
+          "code": "F23D 14/46",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "F23D 14/48",
+          "title": {
+            "ko": null,
+            "en": "Nozzles"
+          }
+        },
+        {
+          "code": "F23D 14/50",
+          "title": {
+            "ko": null,
+            "en": "Cleaning devices therefor"
+          }
+        },
+        {
+          "code": "F23D 14/52",
+          "title": {
+            "ko": null,
+            "en": "for torches; for blow-pipes"
+          }
+        },
+        {
+          "code": "F23D 14/54",
+          "title": {
+            "ko": null,
+            "en": "for cutting or welding metal"
+          }
+        },
+        {
+          "code": "F23D 14/56",
+          "title": {
+            "ko": null,
+            "en": "for spreading the flame over an area, e.g. for desurfacing of solid material, for surface hardening or for heating workpieces"
+          }
+        },
+        {
+          "code": "F23D 14/58",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape or arrangement of the outlet or outlets from the nozzle, e.g. of annular configuration"
+          }
+        },
+        {
+          "code": "F23D 14/60",
+          "title": {
+            "ko": null,
+            "en": "Devices for simultaneous control of gas and combustion air"
+          }
+        },
+        {
+          "code": "F23D 14/62",
+          "title": {
+            "ko": null,
+            "en": "Mixing devices; Mixing tubes"
+          }
+        },
+        {
+          "code": "F23D 14/64",
+          "title": {
+            "ko": null,
+            "en": "with injectors"
+          }
+        },
+        {
+          "code": "F23D 14/66",
+          "title": {
+            "ko": null,
+            "en": "Preheating the combustion air or gas"
+          }
+        },
+        {
+          "code": "F23D 14/68",
+          "title": {
+            "ko": null,
+            "en": "Treating the combustion air or gas, e.g. by filtering or moistening"
+          }
+        },
+        {
+          "code": "F23D 14/70",
+          "title": {
+            "ko": null,
+            "en": "Baffles or like flow-disturbing devices"
+          }
+        },
+        {
+          "code": "F23D 14/72",
+          "title": {
+            "ko": null,
+            "en": "Safety devices, e.g. operative in case of failure of gas supply"
+          }
+        },
+        {
+          "code": "F23D 14/74",
+          "title": {
+            "ko": null,
+            "en": "Preventing flame lift-off"
+          }
+        },
+        {
+          "code": "F23D 14/76",
+          "title": {
+            "ko": null,
+            "en": "Protecting flame and burner parts"
+          }
+        },
+        {
+          "code": "F23D 14/78",
+          "title": {
+            "ko": null,
+            "en": "Cooling burner parts"
+          }
+        },
+        {
+          "code": "F23D 14/80",
+          "title": {
+            "ko": null,
+            "en": "Selection of a non-toxic gas"
+          }
+        },
+        {
+          "code": "F23D 14/82",
+          "title": {
+            "ko": null,
+            "en": "Preventing flashback or blowback"
+          }
+        },
+        {
+          "code": "F23D 14/84",
+          "title": {
+            "ko": "화염의 확산(spreading) 또는 그 이외의 형태(shaping)(F23D 14/70이 우선)",
+            "en": "Flame spreading or otherwise shaping (F23D0014700000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F23D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Other burners"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Burners for combustion simultaneously or alternately of gaseous or liquid or pulverulent fuel"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23D 23/00",
+      "title": {
+        "ko": "둘 이상의 버너의 조합(불길을 보관 유지하기 위한 장비를 가지는 가스 버너 F23D 14/26)",
+        "en": "Assemblies of two or more burners (gas burners with provision for a retention flame F23D0014260000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F23D 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "subclass": "B66F",
+  "title": {
+    "ko": "달리 분류되지 않는 감아올리기, 들어올리기 또는 견인 또는 압진, 예. 하물의 표면에 직접 접하여 들어올리기 또는 압진에 적용되는 장치 (파일 또는 유사한 지지물상의 인공섬의 부착 E02B 17/00 ; 들어올리기 장치에 조합된 비계(scaffolding) E04G 1/22,3/28 ; 가동형틀을 위한 리프트장치 E04G 11/24 ; 건축물용 리프트 E04G 23/06 ; 지주 또는 기둥 E04G 25/00 ; 사다리에 부착된 승강장치 또는 기타의 감아올리기 장치 E06C 7/12 ; 광산용 지주 E21D 15/00)",
+    "en": "HOISTING, LIFTING, HAULING, OR PUSHING, NOT OTHERWISE PROVIDED FOR, e.g. DEVICES WHICH APPLY A LIFTING OR PUSHING FORCE DIRECTLY TO THE SURFACE OF A LOAD (mounting artificial islands on piles or like supports E02B0017000000;scaffolds combined with lifting devices E04G0001220000, E04G0003280000;lifting devices for sliding forms E04G0011240000;lifting of buildings E04G0023060000;shores or struts E04G0025000000;lifts or other hoisting devices on ladders E06C0007120000;props for mining E21D0015000000)"
+  },
+  "definition": {
+    "ko": "잭(JACKS)또는 유사물 B66F1/00, B66F3/00, B66F5/00 들어올림 틀 B66F7/00 특수용도를 위한 장치 B66F5/00, B66F9/00, B66F11/00 지주가 있는 리프트식(LIFT)하태 또는 포크리프트(FORK - LIFT) 트럭 B66F9/06 공통의 특징 또는 부속품 B66F13/00 크로우바(CROWBARS)또는 레버 B66F15/00 안전장치 B66F17/00 달리 분류되지 않는 감아 올리기, 견인 또는 밀기 B66F19/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B66F 1/00",
+      "title": {
+        "ko": null,
+        "en": "Devices, e.g. jacks, for lifting loads in predetermined steps"
+      },
+      "subgroups": [
+        {
+          "code": "B66F 1/02",
+          "title": {
+            "ko": null,
+            "en": "with locking elements, e.g. washers, co-operating with posts"
+          }
+        },
+        {
+          "code": "B66F 1/04",
+          "title": {
+            "ko": null,
+            "en": "the posts being toothed"
+          }
+        },
+        {
+          "code": "B66F 1/06",
+          "title": {
+            "ko": null,
+            "en": "and the devices being actuated mechanically"
+          }
+        },
+        {
+          "code": "B66F 1/08",
+          "title": {
+            "ko": null,
+            "en": "and the devices being operated by fluid pressure"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66F 3/00",
+      "title": {
+        "ko": "하물을 연속적으로 들어올리기에 적합한 장치, 예. 잭(개리지(garage)형의 이동잭B66F5/00)",
+        "en": "Devices, e.g. jacks, adapted for uninterrupted lifting of loads (mobile jacks of the garage type B66F0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B66F 3/02",
+          "title": {
+            "ko": null,
+            "en": "with racks actuated by pinions"
+          }
+        },
+        {
+          "code": "B66F 3/04",
+          "title": {
+            "ko": null,
+            "en": "with several racks"
+          }
+        },
+        {
+          "code": "B66F 3/06",
+          "title": {
+            "ko": null,
+            "en": "with racks comprising pivotable toothed sections or segments, e.g. arranged in pairs"
+          }
+        },
+        {
+          "code": "B66F 3/08",
+          "title": {
+            "ko": "나사로 조작하는 것(B66F 3/44 우선; 전동장치 F16H)",
+            "en": "screw-operated (B66F0003440000 takes precedence;gearings F16H)"
+          }
+        },
+        {
+          "code": "B66F 3/10",
+          "title": {
+            "ko": null,
+            "en": "with telescopic sleeves"
+          }
+        },
+        {
+          "code": "B66F 3/12",
+          "title": {
+            "ko": "토글(toggle)레버로 된 것(레이지통(lazy - tong)",
+            "en": "comprising toggle levers (lazy-tongs mechanisms B66F0003220000)"
+          }
+        },
+        {
+          "code": "B66F 3/14",
+          "title": {
+            "ko": null,
+            "en": "actuated through pawl-and-ratchet mechanisms"
+          }
+        },
+        {
+          "code": "B66F 3/16",
+          "title": {
+            "ko": null,
+            "en": "actuated through bevel-wheel gearings"
+          }
+        },
+        {
+          "code": "B66F 3/18",
+          "title": {
+            "ko": null,
+            "en": "actuated through worm gearings"
+          }
+        },
+        {
+          "code": "B66F 3/20",
+          "title": {
+            "ko": null,
+            "en": "actuated through multiple or change-speed gearings"
+          }
+        },
+        {
+          "code": "B66F 3/22",
+          "title": {
+            "ko": null,
+            "en": "Lazy-tongs mechanisms"
+          }
+        },
+        {
+          "code": "B66F 3/24",
+          "title": {
+            "ko": "유체 압력으로 조작되는 것(수압 기계 F03B; 유체압 서보 모터 F15B, 예. 폭발식 액추 에이터 F15B 15/19; 유체 전동 장치 F16H; 실린더, 피스톤 F16J)",
+            "en": "fluid-pressure operated (water-pressure machines F03B;fluid-pressure servomotors F15B, e.g. pyrotechnical actuators F15B0015190000;hydraulic gearings F16H;cylinders, pistons F16J)"
+          }
+        },
+        {
+          "code": "B66F 3/25",
+          "title": {
+            "ko": "구조상의 특징",
+            "en": "Constructional features"
+          }
+        },
+        {
+          "code": "B66F 3/26",
+          "title": {
+            "ko": null,
+            "en": "Adaptations or arrangements of pistons"
+          }
+        },
+        {
+          "code": "B66F 3/28",
+          "title": {
+            "ko": null,
+            "en": "telescopic"
+          }
+        },
+        {
+          "code": "B66F 3/30",
+          "title": {
+            "ko": null,
+            "en": "Positive brakes or locks"
+          }
+        },
+        {
+          "code": "B66F 3/32",
+          "title": {
+            "ko": null,
+            "en": "Means for avoiding excessive shocks on completion movements"
+          }
+        },
+        {
+          "code": "B66F 3/35",
+          "title": {
+            "ko": "팽장되는 유연한 요소, 예. 벨로우즈(팽장되는 하물계합요소 B66F 3/40; 팽장가능한 탄성체에의 밸브의 부착 B60C 29/00)",
+            "en": "Inflatable flexible elements, e.g. bellows (inflatable load-engaging elements B66F0003400000;connection of valves to inflatable elastic bodies B60C0029000000)"
+          }
+        },
+        {
+          "code": "B66F 3/36",
+          "title": {
+            "ko": "하물 계합(load - engaging)요소",
+            "en": "Load-engaging elements"
+          }
+        },
+        {
+          "code": "B66F 3/38",
+          "title": {
+            "ko": null,
+            "en": "adjustable relative to piston"
+          }
+        },
+        {
+          "code": "B66F 3/40",
+          "title": {
+            "ko": "팽창할 수 있는 것(팽창 가능한 탄성체에의 밸브의 부착 B60C 29/00)",
+            "en": "inflatable (connection of valves to inflatable elastic bodies B60C0029000000)"
+          }
+        },
+        {
+          "code": "B66F 3/42",
+          "title": {
+            "ko": null,
+            "en": "with self-contained pumps, e.g. actuated by hand"
+          }
+        },
+        {
+          "code": "B66F 3/43",
+          "title": {
+            "ko": null,
+            "en": "Pyrotechnical jacks"
+          }
+        },
+        {
+          "code": "B66F 3/44",
+          "title": {
+            "ko": null,
+            "en": "with self-contained electric driving motors"
+          }
+        },
+        {
+          "code": "B66F 3/46",
+          "title": {
+            "ko": null,
+            "en": "Combinations of several jacks with means for interrelating lifting or lowering movements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66F 5/00",
+      "title": {
+        "ko": null,
+        "en": "Mobile jacks of the garage type mounted on wheels or rollers"
+      },
+      "subgroups": [
+        {
+          "code": "B66F 5/02",
+          "title": {
+            "ko": null,
+            "en": "with mechanical lifting gear"
+          }
+        },
+        {
+          "code": "B66F 5/04",
+          "title": {
+            "ko": null,
+            "en": "with fluid-pressure-operated lifting gear"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66F 7/00",
+      "title": {
+        "ko": "들어올리는 틀, 예. 차량을 들어올리는 것 플랫폼리프트(리프트 플랫폼트럭 B66F 9/06)",
+        "en": "Lifting frames, e.g. for lifting vehicles; Platform lifts (for lift-truck platforms B66F0009060000)"
+      },
+      "subgroups": [
+        {
+          "code": "B66F 7/02",
+          "title": {
+            "ko": null,
+            "en": "with platforms suspended from ropes, cables, or chains"
+          }
+        },
+        {
+          "code": "B66F 7/04",
+          "title": {
+            "ko": null,
+            "en": "hydraulically or pneumatically operated"
+          }
+        },
+        {
+          "code": "B66F 7/06",
+          "title": {
+            "ko": null,
+            "en": "with platforms supported by levers for vertical movement"
+          }
+        },
+        {
+          "code": "B66F 7/08",
+          "title": {
+            "ko": null,
+            "en": "hydraulically or pneumatically operated"
+          }
+        },
+        {
+          "code": "B66F 7/10",
+          "title": {
+            "ko": null,
+            "en": "with platforms supported directly by jacks"
+          }
+        },
+        {
+          "code": "B66F 7/12",
+          "title": {
+            "ko": null,
+            "en": "by mechanical jacks"
+          }
+        },
+        {
+          "code": "B66F 7/14",
+          "title": {
+            "ko": null,
+            "en": "screw-operated"
+          }
+        },
+        {
+          "code": "B66F 7/16",
+          "title": {
+            "ko": null,
+            "en": "by one or more hydraulic or pneumatic jacks"
+          }
+        },
+        {
+          "code": "B66F 7/18",
+          "title": {
+            "ko": null,
+            "en": "by a single central jack"
+          }
+        },
+        {
+          "code": "B66F 7/20",
+          "title": {
+            "ko": null,
+            "en": "by several jacks with means for maintaining the platforms horizontal during movement"
+          }
+        },
+        {
+          "code": "B66F 7/22",
+          "title": {
+            "ko": "기울일 수 있는 플랫폼이 있는 것(짐을 내리기 위하여 차량을 기울리는 것 B65G 67/34)",
+            "en": "with tiltable platforms (tilting vehicles for unloading B65G0067340000)"
+          }
+        },
+        {
+          "code": "B66F 7/24",
+          "title": {
+            "ko": null,
+            "en": "for raising or lowering vehicles by their own power"
+          }
+        },
+        {
+          "code": "B66F 7/26",
+          "title": {
+            "ko": "차량의 부분을 선택해서 들어올리는 것(이동용 개리지 잭 B66F 5/00)",
+            "en": "for selective lifting of parts of vehicles (mobile garage jacks B66F0005000000)"
+          }
+        },
+        {
+          "code": "B66F 7/28",
+          "title": {
+            "ko": null,
+            "en": "Constructional details, e.g. end stops, pivoting supporting members, sliding runners adjustable to load dimensions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66F 9/00",
+      "title": {
+        "ko": "짐쌓기 또는 짐풀기 목적으로 부피가 큰 또는 무거운 물건을 들어올리거나 내리는 장치(건물 또는 다른 구조물의 한 부분에서 다른 건물 또는 구조물의 부분으로 이동되기 위하여 특별히 적용되는 건물내 또는 건물과 관련된 이동 또는 운송 리프트 B66B 9/16; 크레인 B66C)",
+        "en": "Devices for lifting or lowering bulky or heavy goods for loading or unloading purposes (mobile or transportable lifts in, or associated with, buildings and specially adapted to be shifted from one part of a building or other structure to another part or to another building or structure B66B0009160000;cranes B66C)"
+      },
+      "subgroups": [
+        {
+          "code": "B66F 9/02",
+          "title": {
+            "ko": null,
+            "en": "Stationary loaders or unloaders, e.g. for sacks"
+          }
+        },
+        {
+          "code": "B66F 9/04",
+          "title": {
+            "ko": null,
+            "en": "hydraulically actuated or controlled"
+          }
+        },
+        {
+          "code": "B66F 9/06",
+          "title": {
+            "ko": "차륜 또는 그와 유사한 것에 의하여 하물과 함께 이동 가능한 것, 예. 포크 리프트 트럭(차량의 형상 44 B60～ B62; 주로 하물을 운송하기 위한 차량 및 짐 싣기 또는 짐 풀기를 용이하게 하기 위한 것 B60P 1/00; 하물을 운송하기 위한 로우-리프트 핸드 트럭 B62B 3/06)",
+            "en": "movable, with their loads, on wheels or the like, e.g. fork-lift trucks (vehicle aspects B60-B62;vehicles predominantly for transporting loads and modified to facilitate loading or unloading B60P0001000000;low-lift hand trucks for transporting goods B62B0003060000)"
+          }
+        },
+        {
+          "code": "B66F 9/065",
+          "title": {
+            "ko": "지주를 가지지 아니한 것(차륜 또는 롤러에 가설된 개리지(garage)형의 이동잭5/00)",
+            "en": "non-masted (mobile jacks of the garage type mounted on wheels or rollers B66F0005000000)"
+          }
+        },
+        {
+          "code": "B66F 9/07",
+          "title": {
+            "ko": null,
+            "en": "Floor-to-roof stacking devices, e.g. stacker cranes, retrievers"
+          }
+        },
+        {
+          "code": "B66F 9/075",
+          "title": {
+            "ko": "구조상의 특징 및 세부",
+            "en": "Constructional features or details"
+          }
+        },
+        {
+          "code": "B66F 9/08",
+          "title": {
+            "ko": null,
+            "en": "Masts; Guides; Chains"
+          }
+        },
+        {
+          "code": "B66F 9/10",
+          "title": {
+            "ko": null,
+            "en": "movable in a horizontal direction relative to truck"
+          }
+        },
+        {
+          "code": "B66F 9/12",
+          "title": {
+            "ko": null,
+            "en": "Platforms; Forks; Other load-supporting or load-gripping members"
+          }
+        },
+        {
+          "code": "B66F 9/14",
+          "title": {
+            "ko": null,
+            "en": "laterally movable, e.g. swingable, for slewing or transverse movements"
+          }
+        },
+        {
+          "code": "B66F 9/16",
+          "title": {
+            "ko": null,
+            "en": "inclinable relative to mast"
+          }
+        },
+        {
+          "code": "B66F 9/18",
+          "title": {
+            "ko": null,
+            "en": "Load gripping or retaining means"
+          }
+        },
+        {
+          "code": "B66F 9/19",
+          "title": {
+            "ko": null,
+            "en": "Additional means for facilitating unloading"
+          }
+        },
+        {
+          "code": "B66F 9/20",
+          "title": {
+            "ko": "지주, 플랫폼 또는 포크를 작동 또는 조절하기 위한 장치(차량 추진 계통과 결합된 동력 전달 장치로부터의 동력 꺼내기 B60K)",
+            "en": "Means for actuating or controlling masts, platforms, or forks (power take-off from vehicle transmissions, combined with vehicle propulsion systems B60K)"
+          }
+        },
+        {
+          "code": "B66F 9/22",
+          "title": {
+            "ko": null,
+            "en": "Hydraulic devices or systems"
+          }
+        },
+        {
+          "code": "B66F 9/24",
+          "title": {
+            "ko": null,
+            "en": "Electrical devices or systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66F 11/00",
+      "title": {
+        "ko": "달리 분류되지 않는 특수한 용도에 특히 적합한 리프팅 장치(차량를 지지, 들어올림 또는 이동하기 위하여 지면에 놓여지는 차량 부속품 B60S 9/00)",
+        "en": "Lifting devices specially adapted for particular uses not otherwise provided for (ground-engaging vehicle fittings for supporting, lifting or manoeuvring the vehicle B60S0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B66F 11/04",
+          "title": {
+            "ko": "소망의 조작을 수행하기 위해 운전자 자신을 희망 장소에 위치시킬 수 있는 이동 플랫폼 또는 이동 운전실, 예. 차량상의 것, 차량을 위한 것(창 청소용 플랫폼A47L 3/02; 건물에서 사람을 구조하는 장치 A62B 1/02; 업무용 차량의 형상 B60P 3/14; 교량을 위한 유지주행태 E01D 19/10; 신장 가능한 가설 구조물상의 비계 E04G 1/22; 사다리상에서 사용하는 승강태 E06C 7/16)",
+            "en": "for movable platforms or cabins, e.g. on vehicles, permitting workmen to place themselves in any desired position for carrying out required operations (platforms for cleaning windows A47L0003020000;devices for rescuing persons from buildings A62B0001020000;vehicle aspects of service vehicles B60P0003140000;maintenance travellers for bridges E01D0019100000;scaffolds on an extensible substructure E04G0001220000;liftable or lowerable platforms for use on ladders E06C0007160000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66F 13/00",
+      "title": {
+        "ko": null,
+        "en": "Common constructional features or accessories"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66F 15/00",
+      "title": {
+        "ko": null,
+        "en": "Crowbars or levers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66F 17/00",
+      "title": {
+        "ko": null,
+        "en": "Safety devices, e.g. for limiting or indicating lifting force"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66F 19/00",
+      "title": {
+        "ko": "달리 분류되지 않는 감아 올리기, 들어 올리기, 견인 또는 밀기",
+        "en": "Hoisting, lifting, hauling, or pushing, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B66F 19/02",
+          "title": {
+            "ko": "고정구를 이용하는 인상; 그것을 위한 고정구(선박 닻 B63B 21/24; 항공기를 고정하기 위한 것 B64F 1/12; 기초공사에 특히 적합한 구조 요소를 고정하기 위한 수단 E02D 5/74)",
+            "en": "Hauling using anchors; Anchors therefor (marine anchors B63B0021240000;anchoring aircraft B64F0001120000;means for anchoring structural elements specially adapted to foundation engineering E02D0005740000)"
+          }
+        }
+      ]
+    }
+  ]
+}

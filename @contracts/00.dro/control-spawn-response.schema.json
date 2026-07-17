@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "control-spawn-response",
+  "title": "DRO Control Spawn Response (internal — DRO→Nexus)",
+  "description": "POST /control/spawn 응답 (202 Accepted). run_chain 이 RT 를 persona 큐에 enqueue 하고 (session,persona) worker 를 깨운 뒤 즉시 반환 — chain 구동은 worker 가 비동기 수행. 진행상황은 별도 SSE 채널 (raw-sse-event). chain_id 는 요청에서 받은 값 echo (Nexus 발급).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["chain_id"],
+  "properties": {
+    "chain_id": {
+      "type": "string",
+      "description": "실행 시작된 chain_id (요청값 echo)."
+    }
+  }
+}

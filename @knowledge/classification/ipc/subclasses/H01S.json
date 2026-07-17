@@ -1,0 +1,1221 @@
+{
+  "subclass": "H01S",
+  "title": {
+    "ko": "광을 증폭 또는 생성하기 위해 복사의 유도 방출[레이저]에 의한 광 증폭 프로세스를 이용한 장치; 광학 이외의 파동 범위에서 전자기 방사의 유도 방출을 이용한 장치",
+    "en": "DEVICES USING THE PROCESS OF LIGHT AMPLIFICATION BY STIMULATED EMISSION OF RADIATION [LASER] TO AMPLIFY OR GENERATE LIGHT; DEVICES USING STIMULATED EMISSION OF ELECTROMAGNETIC RADIATION IN WAVE RANGES OTHER THAN OPTICAL"
+  },
+  "definition": {
+    "ko": "메이저 H01S1/00 반도체 레이저 H01S5/00 반도체 레이저 이외의 레이저 H01S3/00 유도 방출을 이용한 그 외의 장치 H01S4/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H01S 1/00",
+      "title": {
+        "ko": null,
+        "en": "Masers, i.e. devices using stimulated emission of electromagnetic radiation in the microwave range"
+      },
+      "subgroups": [
+        {
+          "code": "H01S 1/02",
+          "title": {
+            "ko": null,
+            "en": "solid"
+          }
+        },
+        {
+          "code": "H01S 1/04",
+          "title": {
+            "ko": null,
+            "en": "liquid"
+          }
+        },
+        {
+          "code": "H01S 1/06",
+          "title": {
+            "ko": null,
+            "en": "gaseous"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01S 3/00",
+      "title": {
+        "ko": "레이저, 즉. 적외선, 가시광 또는 자외선 파장 범위에서 전자기 방사의 유도방출을 이용하는 장치 (반도체 레이저 H01S5/00)",
+        "en": "Lasers, i.e. devices using stimulated emission of electromagnetic radiation in the infrared, visible or ultraviolet wave range (semiconductors lasers H01S0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01S 3/02",
+          "title": {
+            "ko": "구조적인 세부",
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "H01S 3/03",
+          "title": {
+            "ko": "가스레이저 방전관",
+            "en": "of gas laser discharge tubes"
+          }
+        },
+        {
+          "code": "H01S 3/032",
+          "title": {
+            "ko": null,
+            "en": "for confinement of the discharge, e.g. by special features of the discharge constricting tube"
+          }
+        },
+        {
+          "code": "H01S 3/034",
+          "title": {
+            "ko": "관내 또는 관의 일부를 형성하는 광학장치, 예. 창, 거울 (공진기를 초기조정하기 위한 여러가지 성질 또는 위치를 갖는 반사체 H01S 3/086)",
+            "en": "Optical devices within, or forming part of, the tube, e.g. windows, mirrors (reflectors having variable properties or positions for initial adjustment of the resonator H01S0003086000)"
+          }
+        },
+        {
+          "code": "H01S 3/036",
+          "title": {
+            "ko": null,
+            "en": "Means for obtaining or maintaining the desired gas pressure within the tube, e.g. by gettering or replenishing; Means for circulating the gas, e.g. for equalising the pressure within the tube"
+          }
+        },
+        {
+          "code": "H01S 3/038",
+          "title": {
+            "ko": null,
+            "en": "Electrodes, e.g. special shape, configuration or composition"
+          }
+        },
+        {
+          "code": "H01S 3/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for thermal management"
+          }
+        },
+        {
+          "code": "H01S 3/041",
+          "title": {
+            "ko": null,
+            "en": "for gas lasers"
+          }
+        },
+        {
+          "code": "H01S 3/042",
+          "title": {
+            "ko": null,
+            "en": "for solid state lasers"
+          }
+        },
+        {
+          "code": "H01S 3/05",
+          "title": {
+            "ko": "광학적 공진기의 구조 또는 형상; 활성매체의 조정; 활성매체의 형상",
+            "en": "Construction or shape of optical resonators; Accommodation of active medium therein; Shape of active medium"
+          }
+        },
+        {
+          "code": "H01S 3/06",
+          "title": {
+            "ko": "활성매체의 구조 또는 형상",
+            "en": "Construction or shape of active medium"
+          }
+        },
+        {
+          "code": "H01S 3/063",
+          "title": {
+            "ko": null,
+            "en": "Waveguide lasers, e.g. laser amplifiers"
+          }
+        },
+        {
+          "code": "H01S 3/067",
+          "title": {
+            "ko": null,
+            "en": "Fibre lasers"
+          }
+        },
+        {
+          "code": "H01S 3/07",
+          "title": {
+            "ko": "복수개의 부분으로 구성하는 것, 예. 세그맨트 (H01S 3/067이 우선)",
+            "en": "consisting of a plurality of parts, e.g. segments (H01S0003067000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 3/08",
+          "title": {
+            "ko": "광학적 공진기 또는 그 부분의 구조 또는 형상",
+            "en": "Construction or shape of optical resonators or components thereof"
+          }
+        },
+        {
+          "code": "H01S 3/08018",
+          "title": {
+            "ko": "모드 억제",
+            "en": "Mode suppression"
+          }
+        },
+        {
+          "code": "H01S 3/08022",
+          "title": {
+            "ko": "세로 모드 (복수개 공진기를 사용하는 모드 억제 H01S3/082)",
+            "en": "Longitudinal modes (mode suppression using a plurality of resonators H01S0003082000)"
+          }
+        },
+        {
+          "code": "H01S 3/08031",
+          "title": {
+            "ko": null,
+            "en": "Single-mode emission"
+          }
+        },
+        {
+          "code": "H01S 3/08036",
+          "title": {
+            "ko": null,
+            "en": "using intracavity dispersive, polarising or birefringent elements"
+          }
+        },
+        {
+          "code": "H01S 3/0804",
+          "title": {
+            "ko": null,
+            "en": "Transverse or lateral modes"
+          }
+        },
+        {
+          "code": "H01S 3/08045",
+          "title": {
+            "ko": null,
+            "en": "Single-mode emission"
+          }
+        },
+        {
+          "code": "H01S 3/0805",
+          "title": {
+            "ko": null,
+            "en": "by apertures, e.g. pin-holes or knife-edges"
+          }
+        },
+        {
+          "code": "H01S 3/081",
+          "title": {
+            "ko": null,
+            "en": "comprising three or more reflectors"
+          }
+        },
+        {
+          "code": "H01S 3/082",
+          "title": {
+            "ko": null,
+            "en": "defining a plurality of resonators, e.g. for mode selection or suppression"
+          }
+        },
+        {
+          "code": "H01S 3/083",
+          "title": {
+            "ko": null,
+            "en": "Ring lasers"
+          }
+        },
+        {
+          "code": "H01S 3/086",
+          "title": {
+            "ko": "공진기를 초기조정하기 위한 여러가지 성질 또는 위치를 갖는 1개이상의 반사체 (동작중의 레이저출력 인자(파라미터)를 변화시키는 것 (H01S 3/10, 레이저출력의 안정화 H01S 3/13))",
+            "en": "One or more reflectors having variable properties or positions for initial adjustment of the resonator (varying a parameter of the laser output during operation H01S0003100000;stabilisation of the laser output H01S0003130000)"
+          }
+        },
+        {
+          "code": "H01S 3/09",
+          "title": {
+            "ko": "여기방법 또는 그 장치, 예. 펌핑(pumping)",
+            "en": "Processes or apparatus for excitation, e.g. pumping"
+          }
+        },
+        {
+          "code": "H01S 3/091",
+          "title": {
+            "ko": "광학적 펌핑을 이용하는 것",
+            "en": "using optical pumping"
+          }
+        },
+        {
+          "code": "H01S 3/0915",
+          "title": {
+            "ko": "비간섭성의 광(incoherent light)에 의한 것",
+            "en": "by incoherent light"
+          }
+        },
+        {
+          "code": "H01S 3/092",
+          "title": {
+            "ko": "섬광램프의 것(H01S 3/0937이 우선)",
+            "en": "of flash lamp (H01S0003093700 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 3/093",
+          "title": {
+            "ko": null,
+            "en": "focusing or directing the excitation energy into the active medium"
+          }
+        },
+        {
+          "code": "H01S 3/0933",
+          "title": {
+            "ko": null,
+            "en": "of a semiconductor, e.g. light emitting diode"
+          }
+        },
+        {
+          "code": "H01S 3/0937",
+          "title": {
+            "ko": null,
+            "en": "produced by exploding or combustible material"
+          }
+        },
+        {
+          "code": "H01S 3/094",
+          "title": {
+            "ko": null,
+            "en": "by coherent light"
+          }
+        },
+        {
+          "code": "H01S 3/0941",
+          "title": {
+            "ko": null,
+            "en": "of a semiconductor laser, e.g. of a laser diode"
+          }
+        },
+        {
+          "code": "H01S 3/0943",
+          "title": {
+            "ko": null,
+            "en": "of a gas laser"
+          }
+        },
+        {
+          "code": "H01S 3/0947",
+          "title": {
+            "ko": null,
+            "en": "of an organic dye laser"
+          }
+        },
+        {
+          "code": "H01S 3/095",
+          "title": {
+            "ko": null,
+            "en": "using chemical or thermal pumping"
+          }
+        },
+        {
+          "code": "H01S 3/0951",
+          "title": {
+            "ko": null,
+            "en": "by increasing the pressure in the laser gas medium"
+          }
+        },
+        {
+          "code": "H01S 3/0953",
+          "title": {
+            "ko": null,
+            "en": "Gas dynamic lasers, i.e. with expansion of the laser gas medium to supersonic flow speeds"
+          }
+        },
+        {
+          "code": "H01S 3/0955",
+          "title": {
+            "ko": null,
+            "en": "using pumping by high energy particles"
+          }
+        },
+        {
+          "code": "H01S 3/0957",
+          "title": {
+            "ko": null,
+            "en": "by high energy nuclear particles"
+          }
+        },
+        {
+          "code": "H01S 3/0959",
+          "title": {
+            "ko": null,
+            "en": "by an electron beam"
+          }
+        },
+        {
+          "code": "H01S 3/097",
+          "title": {
+            "ko": "가스레이저의 가스 방전에 의한 것",
+            "en": "by gas discharge of a gas laser"
+          }
+        },
+        {
+          "code": "H01S 3/0971",
+          "title": {
+            "ko": "횡단하여 여기되는 것(H01S 3/0975가 우선)",
+            "en": "transversely excited (H01S0003097500 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 3/0973",
+          "title": {
+            "ko": null,
+            "en": "having a travelling wave passing through the active medium"
+          }
+        },
+        {
+          "code": "H01S 3/0975",
+          "title": {
+            "ko": null,
+            "en": "using inductive or capacitive excitation"
+          }
+        },
+        {
+          "code": "H01S 3/0977",
+          "title": {
+            "ko": null,
+            "en": "having auxiliary ionisation means"
+          }
+        },
+        {
+          "code": "H01S 3/0979",
+          "title": {
+            "ko": null,
+            "en": "Gas dynamic lasers, i.e. with expansion of the laser gas medium to supersonic flow speeds"
+          }
+        },
+        {
+          "code": "H01S 3/10",
+          "title": {
+            "ko": "방출된 방사선의 강도, 주파수, 위상, 편광 또는 방향의 제어, 예. 스위칭, 게이팅, 변조 또는 복조",
+            "en": "Controlling the intensity, frequency, phase, polarisation or direction of the emitted radiation, e.g. switching, gating, modulating or demodulating"
+          }
+        },
+        {
+          "code": "H01S 3/101",
+          "title": {
+            "ko": null,
+            "en": "Lasers provided with means to change the location from which, or the direction in which, laser radiation is emitted"
+          }
+        },
+        {
+          "code": "H01S 3/102",
+          "title": {
+            "ko": "활성매질을 제어하는 것에 의한 것, 예. 여기방법 또는 여기장치를 제어하는 것에 의한 것 (H01S 3/13이 우선)",
+            "en": "by controlling the active medium, e.g. by controlling the processes or apparatus for excitation (H01S0003130000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 3/104",
+          "title": {
+            "ko": null,
+            "en": "in gas lasers"
+          }
+        },
+        {
+          "code": "H01S 3/105",
+          "title": {
+            "ko": "공진기의 반사체의 상대위치 또는 반사특성을 제어하는 것에 의한 것 (H01S 3/13이 우선)",
+            "en": "by controlling the mutual position or the reflecting properties of the reflectors of the cavity (H01S0003130000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 3/1055",
+          "title": {
+            "ko": null,
+            "en": "one of the reflectors being constituted by a diffraction grating"
+          }
+        },
+        {
+          "code": "H01S 3/106",
+          "title": {
+            "ko": "공진기내에 배치된 소자들의 제어에 의한 것 (H01S 3/13이 우선)",
+            "en": "by controlling devices placed within the cavity  (H01S0003130000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 3/107",
+          "title": {
+            "ko": null,
+            "en": "using electro-optic devices, e.g. exhibiting Pockels or Kerr effect"
+          }
+        },
+        {
+          "code": "H01S 3/108",
+          "title": {
+            "ko": null,
+            "en": "using non-linear optical devices, e.g. exhibiting Brillouin or Raman scattering"
+          }
+        },
+        {
+          "code": "H01S 3/109",
+          "title": {
+            "ko": null,
+            "en": "Frequency multiplication, e.g. harmonic generation"
+          }
+        },
+        {
+          "code": "H01S 3/11",
+          "title": {
+            "ko": null,
+            "en": "Mode locking; Q-switching; Other giant-pulse techniques, e.g. cavity dumping"
+          }
+        },
+        {
+          "code": "H01S 3/1106",
+          "title": {
+            "ko": null,
+            "en": "Mode locking"
+          }
+        },
+        {
+          "code": "H01S 3/1109",
+          "title": {
+            "ko": null,
+            "en": "Active mode locking"
+          }
+        },
+        {
+          "code": "H01S 3/1112",
+          "title": {
+            "ko": null,
+            "en": "Passive mode locking"
+          }
+        },
+        {
+          "code": "H01S 3/1115",
+          "title": {
+            "ko": null,
+            "en": "using intracavity saturable absorbers"
+          }
+        },
+        {
+          "code": "H01S 3/1118",
+          "title": {
+            "ko": null,
+            "en": "Semiconductor saturable absorbers, e.g. semiconductor saturable absorber mirrors [SESAMs]; Solid-state saturable absorbers, e.g. carbon nanotube [CNT] based"
+          }
+        },
+        {
+          "code": "H01S 3/1123",
+          "title": {
+            "ko": null,
+            "en": "Q-switching"
+          }
+        },
+        {
+          "code": "H01S 3/113",
+          "title": {
+            "ko": null,
+            "en": "using intracavity saturable absorbers"
+          }
+        },
+        {
+          "code": "H01S 3/115",
+          "title": {
+            "ko": null,
+            "en": "using intracavity electro-optic devices"
+          }
+        },
+        {
+          "code": "H01S 3/117",
+          "title": {
+            "ko": null,
+            "en": "using intracavity acousto-optic devices"
+          }
+        },
+        {
+          "code": "H01S 3/121",
+          "title": {
+            "ko": null,
+            "en": "using intracavity mechanical devices"
+          }
+        },
+        {
+          "code": "H01S 3/123",
+          "title": {
+            "ko": null,
+            "en": "using rotating mirrors"
+          }
+        },
+        {
+          "code": "H01S 3/125",
+          "title": {
+            "ko": null,
+            "en": "using rotating prisms"
+          }
+        },
+        {
+          "code": "H01S 3/127",
+          "title": {
+            "ko": null,
+            "en": "Plural Q-switches"
+          }
+        },
+        {
+          "code": "H01S 3/13",
+          "title": {
+            "ko": null,
+            "en": "Stabilisation of laser output parameters, e.g. frequency or amplitude"
+          }
+        },
+        {
+          "code": "H01S 3/131",
+          "title": {
+            "ko": null,
+            "en": "by controlling the active medium, e.g. by controlling the processes or apparatus for excitation"
+          }
+        },
+        {
+          "code": "H01S 3/134",
+          "title": {
+            "ko": null,
+            "en": "in gas lasers"
+          }
+        },
+        {
+          "code": "H01S 3/136",
+          "title": {
+            "ko": null,
+            "en": "by controlling devices placed within the cavity"
+          }
+        },
+        {
+          "code": "H01S 3/137",
+          "title": {
+            "ko": null,
+            "en": "for stabilising of frequency"
+          }
+        },
+        {
+          "code": "H01S 3/139",
+          "title": {
+            "ko": null,
+            "en": "by controlling the mutual position or the reflecting properties of the reflectors of the cavity"
+          }
+        },
+        {
+          "code": "H01S 3/14",
+          "title": {
+            "ko": "활성매질로서 사용하는 물질에 특징이 있는 것",
+            "en": "characterised by the material used as the active medium"
+          }
+        },
+        {
+          "code": "H01S 3/16",
+          "title": {
+            "ko": null,
+            "en": "Solid materials"
+          }
+        },
+        {
+          "code": "H01S 3/17",
+          "title": {
+            "ko": null,
+            "en": "amorphous, e.g. glass"
+          }
+        },
+        {
+          "code": "H01S 3/20",
+          "title": {
+            "ko": null,
+            "en": "Liquids"
+          }
+        },
+        {
+          "code": "H01S 3/207",
+          "title": {
+            "ko": null,
+            "en": "including a chelate"
+          }
+        },
+        {
+          "code": "H01S 3/213",
+          "title": {
+            "ko": null,
+            "en": "including an organic dye"
+          }
+        },
+        {
+          "code": "H01S 3/22",
+          "title": {
+            "ko": "가스",
+            "en": "Gases"
+          }
+        },
+        {
+          "code": "H01S 3/223",
+          "title": {
+            "ko": "활성가스가 다원자, 즉 2개이상의 원자를 포함한 것 (H01S 3/227이 우선)",
+            "en": "the active gas being polyatomic, i.e. containing two or more atoms  (H01S0003227000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 3/225",
+          "title": {
+            "ko": null,
+            "en": "comprising an excimer or exciplex"
+          }
+        },
+        {
+          "code": "H01S 3/227",
+          "title": {
+            "ko": null,
+            "en": "Metal vapour"
+          }
+        },
+        {
+          "code": "H01S 3/23",
+          "title": {
+            "ko": "3/02에서 3/14로 분류되지 않는 2개 이상의 레이저의 배열, 예. 분리된 활성 매질의 직렬 배열(반도체 레이저만을 포함하는 것 5/40)",
+            "en": "Arrangement of two or more lasers not provided for in groups H01S0003020000-H01S0003140000, e.g. tandem arrangement of separate active media (involving only semiconductor lasers H01S0005400000)"
+          }
+        },
+        {
+          "code": "H01S 3/30",
+          "title": {
+            "ko": null,
+            "en": "using scattering effects, e.g. stimulated Brillouin or Raman effects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01S 4/00",
+      "title": {
+        "ko": "H01S1/00, H01S3/00 또는 H01S5/00 에 포함되는 것 이외의 파동 범위에서 전자기 방사의 유도방출을 이용하는 장치, 예. 포논 메이저(phonon maser), X-선 레이저 또는 감마선 레이저",
+        "en": "Devices using stimulated emission of electromagnetic radiation in wave ranges other than those covered by groups H01S0001000000, H01S0003000000 or H01S0005000000, e.g. phonon masers, X-ray lasers or gamma-ray lasers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01S 5/00",
+      "title": {
+        "ko": "반도체 레이저 (초발광 다이오드 H10H20/00)",
+        "en": "Semiconductor lasers  (superluminescent diodes H10H0020000000)"
+      },
+      "definition": {
+        "ko": "섹션 C의 제목 뒤에 IPC가 언급하는 화학 원소 주기율표의 버전을 나타내는 노트 (3)에 주의한다. 이 그룹에서 사용되는 시스템은 아래 주기율표에서 로마 숫자로 표시된 8족 시스템이다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H01S 5/02",
+          "title": {
+            "ko": "레이저 동작에 필수적이지 않은 구조적인 세부 또는 부품",
+            "en": "Structural details or components not essential to laser action"
+          }
+        },
+        {
+          "code": "H01S 5/022",
+          "title": {
+            "ko": null,
+            "en": "Mountings; Housings"
+          }
+        },
+        {
+          "code": "H01S 5/02208",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape of the housings"
+          }
+        },
+        {
+          "code": "H01S 5/02212",
+          "title": {
+            "ko": null,
+            "en": "Can-type, e.g. TO-CAN housings with emission along or parallel to symmetry axis"
+          }
+        },
+        {
+          "code": "H01S 5/02216",
+          "title": {
+            "ko": null,
+            "en": "Butterfly-type, i.e. with electrode pins extending horizontally from the housings"
+          }
+        },
+        {
+          "code": "H01S 5/02218",
+          "title": {
+            "ko": null,
+            "en": "Material of the housings; Filling of the housings"
+          }
+        },
+        {
+          "code": "H01S 5/0222",
+          "title": {
+            "ko": null,
+            "en": "Gas-filled housings"
+          }
+        },
+        {
+          "code": "H01S 5/02224",
+          "title": {
+            "ko": null,
+            "en": "the gas comprising oxygen, e.g. for avoiding contamination of the light emitting facets"
+          }
+        },
+        {
+          "code": "H01S 5/02232",
+          "title": {
+            "ko": null,
+            "en": "Liquid-filled housings"
+          }
+        },
+        {
+          "code": "H01S 5/02234",
+          "title": {
+            "ko": null,
+            "en": "Resin-filled housings; the housings being made of resin"
+          }
+        },
+        {
+          "code": "H01S 5/02235",
+          "title": {
+            "ko": null,
+            "en": "Getter material for absorbing contamination"
+          }
+        },
+        {
+          "code": "H01S 5/0225",
+          "title": {
+            "ko": null,
+            "en": "Out-coupling of light"
+          }
+        },
+        {
+          "code": "H01S 5/02251",
+          "title": {
+            "ko": null,
+            "en": "using optical fibres"
+          }
+        },
+        {
+          "code": "H01S 5/02253",
+          "title": {
+            "ko": null,
+            "en": "using lenses"
+          }
+        },
+        {
+          "code": "H01S 5/02255",
+          "title": {
+            "ko": null,
+            "en": "using beam deflecting elements"
+          }
+        },
+        {
+          "code": "H01S 5/02257",
+          "title": {
+            "ko": null,
+            "en": "using windows, e.g. specially adapted for back-reflecting light to a detector inside the housing"
+          }
+        },
+        {
+          "code": "H01S 5/023",
+          "title": {
+            "ko": null,
+            "en": "Mount members, e.g. sub-mount members"
+          }
+        },
+        {
+          "code": "H01S 5/0231",
+          "title": {
+            "ko": null,
+            "en": "Stems"
+          }
+        },
+        {
+          "code": "H01S 5/02315",
+          "title": {
+            "ko": null,
+            "en": "Support members, e.g. bases or carriers"
+          }
+        },
+        {
+          "code": "H01S 5/0232",
+          "title": {
+            "ko": null,
+            "en": "Lead-frames"
+          }
+        },
+        {
+          "code": "H01S 5/02325",
+          "title": {
+            "ko": null,
+            "en": "Mechanically integrated components on mount members or optical micro-benches"
+          }
+        },
+        {
+          "code": "H01S 5/02326",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for relative positioning of laser diodes and optical components, e.g. grooves in the mount to fix optical fibres or lenses"
+          }
+        },
+        {
+          "code": "H01S 5/0233",
+          "title": {
+            "ko": null,
+            "en": "Mounting configuration of laser chips"
+          }
+        },
+        {
+          "code": "H01S 5/02335",
+          "title": {
+            "ko": null,
+            "en": "Up-side up mountings, e.g. epi-side up mountings or junction up mountings"
+          }
+        },
+        {
+          "code": "H01S 5/0234",
+          "title": {
+            "ko": null,
+            "en": "Up-side down mountings, e.g. Flip-chip, epi-side down mountings or junction down mountings"
+          }
+        },
+        {
+          "code": "H01S 5/02345",
+          "title": {
+            "ko": null,
+            "en": "Wire-bonding"
+          }
+        },
+        {
+          "code": "H01S 5/0235",
+          "title": {
+            "ko": null,
+            "en": "Method for mounting laser chips"
+          }
+        },
+        {
+          "code": "H01S 5/02355",
+          "title": {
+            "ko": null,
+            "en": "Fixing laser chips on mounts"
+          }
+        },
+        {
+          "code": "H01S 5/0236",
+          "title": {
+            "ko": null,
+            "en": "using an adhesive"
+          }
+        },
+        {
+          "code": "H01S 5/02365",
+          "title": {
+            "ko": null,
+            "en": "by clamping"
+          }
+        },
+        {
+          "code": "H01S 5/0237",
+          "title": {
+            "ko": null,
+            "en": "by soldering"
+          }
+        },
+        {
+          "code": "H01S 5/02375",
+          "title": {
+            "ko": null,
+            "en": "Positioning of the laser chips"
+          }
+        },
+        {
+          "code": "H01S 5/0238",
+          "title": {
+            "ko": null,
+            "en": "using marks"
+          }
+        },
+        {
+          "code": "H01S 5/02385",
+          "title": {
+            "ko": null,
+            "en": "using laser light as reference"
+          }
+        },
+        {
+          "code": "H01S 5/0239",
+          "title": {
+            "ko": null,
+            "en": "Combinations of electrical or optical elements"
+          }
+        },
+        {
+          "code": "H01S 5/024",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for thermal management"
+          }
+        },
+        {
+          "code": "H01S 5/026",
+          "title": {
+            "ko": "모노리식에 집적된 복수의 구성, 예. 도파관, 감시 포토디텍터 또는 구동기(출력의 안정화 H01S 5/06)",
+            "en": "Monolithically integrated components, e.g. waveguides, monitoring photo-detectors or drivers (stabilisation of output H01S0005060000)"
+          }
+        },
+        {
+          "code": "H01S 5/028",
+          "title": {
+            "ko": null,
+            "en": "Coatings"
+          }
+        },
+        {
+          "code": "H01S 5/04",
+          "title": {
+            "ko": "여기방법 또는 그 장치, 예. 펌핑 (H01S 5/06이 우선)",
+            "en": "Processes or apparatus for excitation, e.g. pumping (H01S0005060000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/042",
+          "title": {
+            "ko": null,
+            "en": "Electrical excitation"
+          }
+        },
+        {
+          "code": "H01S 5/06",
+          "title": {
+            "ko": "레이저 출력인자를 제어하기 위한 장치, 활성매질 을 조작하는 것에 의한 것",
+            "en": "Arrangements for controlling the laser output parameters, e.g. by operating on the active medium"
+          }
+        },
+        {
+          "code": "H01S 5/062",
+          "title": {
+            "ko": "전극전위를 변화시키는 것에 의한 것 (H01S 5/065 우선)",
+            "en": "by varying the potential of the electrodes (H01S0005065000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/0625",
+          "title": {
+            "ko": null,
+            "en": "in multi-section lasers"
+          }
+        },
+        {
+          "code": "H01S 5/065",
+          "title": {
+            "ko": null,
+            "en": "Mode locking; Mode suppression; Mode selection"
+          }
+        },
+        {
+          "code": "H01S 5/068",
+          "title": {
+            "ko": "레이저 출력인자의 안정화 (H01S 5/0625가 우선)",
+            "en": "Stabilisation of laser output parameters (H01S0005062500 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/0683",
+          "title": {
+            "ko": null,
+            "en": "by monitoring the optical output parameters"
+          }
+        },
+        {
+          "code": "H01S 5/0687",
+          "title": {
+            "ko": null,
+            "en": "Stabilising the frequency of the laser"
+          }
+        },
+        {
+          "code": "H01S 5/10",
+          "title": {
+            "ko": "광학 공진기의 구조 또는 형상",
+            "en": "Construction or shape of the optical resonator"
+          }
+        },
+        {
+          "code": "H01S 5/11",
+          "title": {
+            "ko": null,
+            "en": "Comprising a photonic bandgap structure"
+          }
+        },
+        {
+          "code": "H01S 5/12",
+          "title": {
+            "ko": "주기적 구조를 갖는 공명기, 예. 분산 피드백 [DFB] 레이저 (광자 밴드갭 구조를 포함하는 것 H01S 5/11; 면발광 레이저 H01S 5/18)",
+            "en": "the resonator having a periodic structure, e.g. in distributed feedback [DFB] lasers  (comprising a photonic bandgap structure H01S0005110000; surface-emitting lasers H01S0005180000)"
+          }
+        },
+        {
+          "code": "H01S 5/125",
+          "title": {
+            "ko": null,
+            "en": "Distributed Bragg reflector [DBR] lasers"
+          }
+        },
+        {
+          "code": "H01S 5/14",
+          "title": {
+            "ko": "여기공진 레이저 (H01S 5/18이 우선; 모드잠금 H01S 5/065가 우선)",
+            "en": "External cavity lasers (H01S0005180000 takes precedence;mode locking H01S0005065000)"
+          }
+        },
+        {
+          "code": "H01S 5/16",
+          "title": {
+            "ko": "창형 레이저, 즉. 활성영역과 반사표면 사이에 비흡수물질의 영역을 갖는 것 (H01S 5/14 우선)",
+            "en": "Window-type lasers, i.e. with a region of non-absorbing material between the active region and the reflecting surface (H01S0005140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/18",
+          "title": {
+            "ko": "면발광 [SE] 레이저, 예. 수평 및 수직 공동이있는 것",
+            "en": "Surface-emitting [SE] lasers, e.g. having both horizontal and vertical cavities"
+          }
+        },
+        {
+          "code": "H01S 5/183",
+          "title": {
+            "ko": null,
+            "en": "having only vertical cavities, e.g. vertical cavity surface-emitting lasers [VCSEL]"
+          }
+        },
+        {
+          "code": "H01S 5/185",
+          "title": {
+            "ko": "수평 캐비티 만있는 것, 예. 수평 공동 면발광 레이저 [HCSEL] (광자 밴드갭 구조로 구성되는 것 H01S 5/11)",
+            "en": "having only horizontal cavities, e.g. horizontal cavity surface-emitting lasers [HCSEL]  (comprising a photonic bandgap structure H01S0005110000)"
+          }
+        },
+        {
+          "code": "H01S 5/187",
+          "title": {
+            "ko": null,
+            "en": "using Bragg reflection"
+          }
+        },
+        {
+          "code": "H01S 5/20",
+          "title": {
+            "ko": "광파를 가이드하는 반도체 본체의 구조 또는 형상",
+            "en": "Structure or shape of the semiconductor body to guide the optical wave"
+          }
+        },
+        {
+          "code": "H01S 5/22",
+          "title": {
+            "ko": "리지(ridge) 또는 스트라이프(stripe)구조를 갖는 것",
+            "en": "having a ridge or a stripe structure"
+          }
+        },
+        {
+          "code": "H01S 5/223",
+          "title": {
+            "ko": "매립 스트라이프구조(H01S 5/227이 우선)",
+            "en": "Buried stripe structure (H01S0005227000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/227",
+          "title": {
+            "ko": null,
+            "en": "Buried mesa structure"
+          }
+        },
+        {
+          "code": "H01S 5/24",
+          "title": {
+            "ko": null,
+            "en": "having a grooved structure, e.g. V-grooved"
+          }
+        },
+        {
+          "code": "H01S 5/30",
+          "title": {
+            "ko": "활성 영역의 구조 또는 형상; 활성 영역에 이용되는 재료",
+            "en": "Structure or shape of the active region; Materials used for the active region"
+          }
+        },
+        {
+          "code": "H01S 5/32",
+          "title": {
+            "ko": "PN접합으로부터 되는 것, 예. 헤테로 또는 이중 헤테로 구조(5/34, 5/36가 우선)",
+            "en": "comprising PN junctions, e.g. hetero- or double- hetero-structures (H01S0005340000, H01S0005360000 take precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/323",
+          "title": {
+            "ko": "Ⅲ-Ⅴ족 화합물로 조성하는 것, 예. AlGaAs- 레이저",
+            "en": "in AIIIBV compounds, e.g. AlGaAs-laser"
+          }
+        },
+        {
+          "code": "H01S 5/327",
+          "title": {
+            "ko": "Ⅱ-Ⅵ족 화합물로 조성하는 것, 예. ZnCdSe- 레이저",
+            "en": "in AIIBVI compounds, e.g. ZnCdSe-laser"
+          }
+        },
+        {
+          "code": "H01S 5/34",
+          "title": {
+            "ko": "양자 우물 또는 초격자 구조를 포함하는 것, 예. 단일 양자 우물형 [SQW] 레이저, 다중 양자 우물형 [MQW] 레이저 또는 집속형 분리 제한 헤테로구조 [GRINSCH] 레이저 (H01S 5/36 우선)",
+            "en": "comprising quantum well or superlattice structures, e.g. single quantum well [SQW] lasers, multiple quantum well [MQW] lasers or graded index separate confinement heterostructure [GRINSCH] lasers (H01S0005360000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/343",
+          "title": {
+            "ko": "Ⅲ-Ⅴ족 화합물로 조성하는 것, 예. AlGaAs- 레이저",
+            "en": "in AIIIBV compounds, e.g. AlGaAs-laser"
+          }
+        },
+        {
+          "code": "H01S 5/347",
+          "title": {
+            "ko": "Ⅱ-Ⅵ족 화합물로 조성하는 것, 예. ZnCdSe- 레이저",
+            "en": "in AIIBVI compounds, e.g. ZnCdSe-laser"
+          }
+        },
+        {
+          "code": "H01S 5/36",
+          "title": {
+            "ko": null,
+            "en": "comprising organic materials"
+          }
+        },
+        {
+          "code": "H01S 5/40",
+          "title": {
+            "ko": "둘 이상의 반도체 레이저 배열, H01S 5/02 - H01S 5/30분류에 해당되지 않는 것(H01S 5/50이 우선)",
+            "en": "Arrangement of two or more semiconductor lasers, not provided for in groups H01S0005020000-H01S0005300000 (H01S0005500000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01S 5/42",
+          "title": {
+            "ko": null,
+            "en": "Arrays of surface emitting lasers"
+          }
+        },
+        {
+          "code": "H01S 5/50",
+          "title": {
+            "ko": "H01S 5/02 - H01S 5/30분류에 해당되지 않는 증폭기 구조",
+            "en": "Amplifier structures not provided for in groups H01S0005020000-H01S0005300000"
+          }
+        }
+      ]
+    }
+  ]
+}

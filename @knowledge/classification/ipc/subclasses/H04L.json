@@ -1,0 +1,5329 @@
+{
+  "subclass": "H04L",
+  "title": {
+    "ko": "디지털 정보의 전송, 예. 전신통신(전신(telegraphic) 및 전화통신의 공통장치 H04M)",
+    "en": "TRANSMISSION OF DIGITAL INFORMATION, e.g. TELEGRAPHIC COMMUNICATION (arrangements common to telegraphic and telephonic communication H04M)"
+  },
+  "definition": {
+    "ko": "다음에 의해서 특징지어지는 것 사용되는 부호: 모스(Morse) 부호; 보우드(Baudot) 부호; 세부 H04L15/00; H04L17/00; H04L13/00 그 외: 스텝 바이 스텝; 모자이크 인쇄기; 그 외 시스템 H04L19/00; H04L21/00; H04L23/00 기저대역(baseband) 시스템 H04L25/00 변조전송 시스템 H04L27/00 데이터 스위칭 네트워크 H04L12/00 일반적 응용 장치 암호화; 보안, 오류; 네트워크 보안 H04L1/00; H04L9/00 다중통신; 동기화 H04L5/00; H04L7/00 데이터 교환 네트워크의 유지, 관리 또는 운영을 위한 장치 H04L41/00 데이터 교환 네트워크 모니터링 또는 테스트를 위한 장치 H04L43/00 데이터 교환 네트워크에서 패킷의 라우팅 또는 경로 탐색 H04L45/00 데이터 교환 네트워크의 트래픽 제어 H04L47/00 패킷 스위칭 요소 H04L49/00 패킷-스위칭 네트워크의 사용자 간(user-to-user) 메시징, 저장 후 전달(store-and-forward) 또는 실시간 프로토콜에 따라 전송되는 것 H04L51/00 어드레싱 또는 네이밍을 위한 네트워크 장치, 프로토콜 또는 서비스 H04L61/00 데이터 패킷 통신에서 실시간 애플리케이션을 지원하기 위한 네트워크 장치, 프로토콜 또는 서비스 H04L65/00 네트워크 서비스 또는 애플리케이션을 지원하기 위한 네트워크 장치 또는 프로토콜 H04L67/00 기타 장치, 기구 또는 시스템 H04L69/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04L 1/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for detecting or preventing errors in the information received"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 1/02",
+          "title": {
+            "ko": null,
+            "en": "by diversity reception"
+          }
+        },
+        {
+          "code": "H04L 1/04",
+          "title": {
+            "ko": null,
+            "en": "using frequency diversity"
+          }
+        },
+        {
+          "code": "H04L 1/06",
+          "title": {
+            "ko": null,
+            "en": "using space diversity"
+          }
+        },
+        {
+          "code": "H04L 1/08",
+          "title": {
+            "ko": null,
+            "en": "by repeating transmission, e.g. Verdan system"
+          }
+        },
+        {
+          "code": "H04L 1/12",
+          "title": {
+            "ko": null,
+            "en": "by using return channel"
+          }
+        },
+        {
+          "code": "H04L 1/14",
+          "title": {
+            "ko": null,
+            "en": "in which the signals are sent back to the transmitter to be checked"
+          }
+        },
+        {
+          "code": "H04L 1/16",
+          "title": {
+            "ko": null,
+            "en": "in which the return channel carries supervisory signals, e.g. repetition request signals"
+          }
+        },
+        {
+          "code": "H04L 1/1607",
+          "title": {
+            "ko": null,
+            "en": "Details of the supervisory signal"
+          }
+        },
+        {
+          "code": "H04L 1/18",
+          "title": {
+            "ko": null,
+            "en": "Automatic repetition systems, e.g. Van Duuren systems"
+          }
+        },
+        {
+          "code": "H04L 1/1803",
+          "title": {
+            "ko": null,
+            "en": "Stop-and-wait protocols"
+          }
+        },
+        {
+          "code": "H04L 1/1806",
+          "title": {
+            "ko": null,
+            "en": "Go-back-N protocols"
+          }
+        },
+        {
+          "code": "H04L 1/1809",
+          "title": {
+            "ko": null,
+            "en": "Selective-repeat protocols"
+          }
+        },
+        {
+          "code": "H04L 1/1812",
+          "title": {
+            "ko": null,
+            "en": "Hybrid protocols; Hybrid automatic repeat request [HARQ]"
+          }
+        },
+        {
+          "code": "H04L 1/1822",
+          "title": {
+            "ko": null,
+            "en": "involving configuration of automatic repeat request [ARQ] with parallel processes"
+          }
+        },
+        {
+          "code": "H04L 1/1825",
+          "title": {
+            "ko": null,
+            "en": "Adaptation of specific ARQ protocol parameters according to transmission conditions"
+          }
+        },
+        {
+          "code": "H04L 1/1829",
+          "title": {
+            "ko": null,
+            "en": "Arrangements specially adapted for the receiver end"
+          }
+        },
+        {
+          "code": "H04L 1/1867",
+          "title": {
+            "ko": null,
+            "en": "Arrangements specially adapted for the transmitter end"
+          }
+        },
+        {
+          "code": "H04L 1/20",
+          "title": {
+            "ko": null,
+            "en": "using signal-quality detector"
+          }
+        },
+        {
+          "code": "H04L 1/22",
+          "title": {
+            "ko": null,
+            "en": "using redundant apparatus to increase reliability"
+          }
+        },
+        {
+          "code": "H04L 1/24",
+          "title": {
+            "ko": null,
+            "en": "Testing correct operation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 5/00",
+      "title": {
+        "ko": "전송경로의 다중사용을 가능하게 하기 위한 배치",
+        "en": "Arrangements affording multiple use of the transmission path"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 5/02",
+          "title": {
+            "ko": "채널특성이 신호의 형식에 의한 것",
+            "en": "Channels characterised by the type of signal"
+          }
+        },
+        {
+          "code": "H04L 5/04",
+          "title": {
+            "ko": null,
+            "en": "the signals being represented by different amplitudes or polarities, e.g. quadriplex"
+          }
+        },
+        {
+          "code": "H04L 5/06",
+          "title": {
+            "ko": "각 신호가 상이한 주파수에 의하여 표시되는 것 (시분할 다중시스템과 결합한 것 H04L 5/26)",
+            "en": "the signals being represented by different frequencies (combined with time-division multiplexing H04L0005260000)"
+          }
+        },
+        {
+          "code": "H04L 5/08",
+          "title": {
+            "ko": null,
+            "en": "each combination of signals in different channels being represented by a fixed frequency"
+          }
+        },
+        {
+          "code": "H04L 5/10",
+          "title": {
+            "ko": null,
+            "en": "with dynamo-electric generation of carriers; with mechanical filters or demodulators"
+          }
+        },
+        {
+          "code": "H04L 5/12",
+          "title": {
+            "ko": null,
+            "en": "the signals being represented by different phase modulations of a single carrier"
+          }
+        },
+        {
+          "code": "H04L 5/14",
+          "title": {
+            "ko": null,
+            "en": "Two-way operation using the same type of signal, i.e. duplex"
+          }
+        },
+        {
+          "code": "H04L 5/16",
+          "title": {
+            "ko": null,
+            "en": "Half-duplex systems; Simplex/duplex switching; Transmission of break signals"
+          }
+        },
+        {
+          "code": "H04L 5/18",
+          "title": {
+            "ko": null,
+            "en": "Automatic changing of the traffic direction"
+          }
+        },
+        {
+          "code": "H04L 5/20",
+          "title": {
+            "ko": null,
+            "en": "using different combinations of lines, e.g. phantom working"
+          }
+        },
+        {
+          "code": "H04L 5/22",
+          "title": {
+            "ko": null,
+            "en": "using time-division multiplexing"
+          }
+        },
+        {
+          "code": "H04L 5/24",
+          "title": {
+            "ko": null,
+            "en": "with start-stop synchronous converters"
+          }
+        },
+        {
+          "code": "H04L 5/26",
+          "title": {
+            "ko": null,
+            "en": "combined with the use of different frequencies"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 7/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for synchronising receiver with transmitter"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 7/02",
+          "title": {
+            "ko": null,
+            "en": "Speed or phase control by the received code signals, the signals containing no special synchronisation information"
+          }
+        },
+        {
+          "code": "H04L 7/027",
+          "title": {
+            "ko": null,
+            "en": "extracting the synchronising or clock signal from the received signal spectrum, e.g. by using a resonant or bandpass circuit"
+          }
+        },
+        {
+          "code": "H04L 7/033",
+          "title": {
+            "ko": null,
+            "en": "using the transitions of the received signal to control the phase of the synchronising-signal- generating means, e.g. using a phase-locked loop"
+          }
+        },
+        {
+          "code": "H04L 7/04",
+          "title": {
+            "ko": null,
+            "en": "Speed or phase control by synchronisation signals"
+          }
+        },
+        {
+          "code": "H04L 7/06",
+          "title": {
+            "ko": null,
+            "en": "the synchronisation signals differing from the information signals in amplitude, polarity, or frequency"
+          }
+        },
+        {
+          "code": "H04L 7/08",
+          "title": {
+            "ko": null,
+            "en": "the synchronisation signals recurring cyclically"
+          }
+        },
+        {
+          "code": "H04L 7/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for initial synchronisation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 9/00",
+      "title": {
+        "ko": "비밀 또는 보안 통신을 위한 장치; 네트워크 보안 프로토콜",
+        "en": "Arrangements for secret or secure communications; Network security protocols"
+      },
+      "definition": {
+        "ko": "그룹 H04L9/06 ~ H04L9/32에서, 최후개소 우선 규칙이 적용됩니다. 즉. 각 계층 레벨에서 반대의 표시가 없는 경우 마지막 적절한 개소에 분류됩니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H04L 9/06",
+          "title": {
+            "ko": "블럭적 부호화(blockwise coding)를 위한 시프트레지스터 또는 메모리를 사용하는 암호화 장치, 예. D. E. S 시스템",
+            "en": "the encryption apparatus using shift registers or memories for blockwise coding, e.g. D.E.S. systems"
+          }
+        },
+        {
+          "code": "H04L 9/08",
+          "title": {
+            "ko": null,
+            "en": "Key distribution"
+          }
+        },
+        {
+          "code": "H04L 9/10",
+          "title": {
+            "ko": null,
+            "en": "with particular housing, physical features or manual controls"
+          }
+        },
+        {
+          "code": "H04L 9/12",
+          "title": {
+            "ko": null,
+            "en": "Transmitting and receiving encryption devices synchronised or initially set up in a particular manner"
+          }
+        },
+        {
+          "code": "H04L 9/14",
+          "title": {
+            "ko": null,
+            "en": "using a plurality of keys or algorithms"
+          }
+        },
+        {
+          "code": "H04L 9/16",
+          "title": {
+            "ko": null,
+            "en": "the keys or algorithms being changed during operation"
+          }
+        },
+        {
+          "code": "H04L 9/18",
+          "title": {
+            "ko": null,
+            "en": "Encryption by serially and continuously modifying data stream elements, e.g. stream cipher systems"
+          }
+        },
+        {
+          "code": "H04L 9/20",
+          "title": {
+            "ko": null,
+            "en": "Pseudorandom key sequence combined element-for-element with data sequence"
+          }
+        },
+        {
+          "code": "H04L 9/22",
+          "title": {
+            "ko": null,
+            "en": "with particular pseudorandom sequence generator"
+          }
+        },
+        {
+          "code": "H04L 9/24",
+          "title": {
+            "ko": null,
+            "en": "sequence produced by more than one generator"
+          }
+        },
+        {
+          "code": "H04L 9/26",
+          "title": {
+            "ko": null,
+            "en": "producing a nonlinear pseudorandom sequence"
+          }
+        },
+        {
+          "code": "H04L 9/28",
+          "title": {
+            "ko": null,
+            "en": "using particular encryption algorithm"
+          }
+        },
+        {
+          "code": "H04L 9/30",
+          "title": {
+            "ko": null,
+            "en": "Public key, i.e. encryption algorithm being computationally infeasible to invert and users' encryption keys not requiring secrecy"
+          }
+        },
+        {
+          "code": "H04L 9/32",
+          "title": {
+            "ko": null,
+            "en": "including means for verifying the identity or authority of a user of the system"
+          }
+        },
+        {
+          "code": "H04L 9/34",
+          "title": {
+            "ko": null,
+            "en": "Bits, or blocks of bits, of the telegraphic message being interchanged in time"
+          }
+        },
+        {
+          "code": "H04L 9/36",
+          "title": {
+            "ko": null,
+            "en": "with means for detecting characters not meant for transmission"
+          }
+        },
+        {
+          "code": "H04L 9/38",
+          "title": {
+            "ko": null,
+            "en": "Encryption being effected by mechanical apparatus, e.g. rotating cams, switches, keytape punchers"
+          }
+        },
+        {
+          "code": "H04L 9/40",
+          "title": {
+            "ko": null,
+            "en": "Network security protocols"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 12/00",
+      "title": {
+        "ko": "데이터 스위칭 네트웍(기억장치들, 입출력장치, 중앙처리장치사이의 정보 혹은 다른 신호의 상호연결 혹은 전송 G06F 13/00)",
+        "en": "Data switching networks (interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units G06F0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 12/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H04L 12/04",
+          "title": {
+            "ko": null,
+            "en": "Switchboards"
+          }
+        },
+        {
+          "code": "H04L 12/06",
+          "title": {
+            "ko": null,
+            "en": "Answer-back mechanisms or circuits"
+          }
+        },
+        {
+          "code": "H04L 12/08",
+          "title": {
+            "ko": null,
+            "en": "Allotting numbers to messages; Counting characters, words or messages"
+          }
+        },
+        {
+          "code": "H04L 12/10",
+          "title": {
+            "ko": null,
+            "en": "Current supply arrangements"
+          }
+        },
+        {
+          "code": "H04L 12/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for remote connection or disconnection of substations or of equipment thereof"
+          }
+        },
+        {
+          "code": "H04L 12/14",
+          "title": {
+            "ko": null,
+            "en": "Charging, metering or billing arrangements specially adapted for data communications, e.g. authentication, authorisation and accounting [AAA] framework"
+          }
+        },
+        {
+          "code": "H04L 12/16",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for providing special services to substations"
+          }
+        },
+        {
+          "code": "H04L 12/18",
+          "title": {
+            "ko": null,
+            "en": "for broadcast or conference"
+          }
+        },
+        {
+          "code": "H04L 12/20",
+          "title": {
+            "ko": null,
+            "en": "for converting transmission speed from the inherent speed of a substation to the inherent speed of other substations"
+          }
+        },
+        {
+          "code": "H04L 12/22",
+          "title": {
+            "ko": "허가 없이 데이터 전송 채널로부터 데이터를 빼앗는 것을 방지하기 위한 장치 (보안 또는 비밀 통신 시스템의 사용자의 신원 또는 권한을 확인하기 위한 수단 H04L9/32)",
+            "en": "Arrangements for preventing the taking of data from a data transmission channel without authorisation (means for verifying the identity or the authority of a user of a secure or secret communication system H04L0009320000)"
+          }
+        },
+        {
+          "code": "H04L 12/28",
+          "title": {
+            "ko": "경로구성을 특징으로 하는 것, 예. LAN[Local Area Network] 또는 WAN[Wide Area Network] (무선통신네트워크 H04W)",
+            "en": "characterised by path configuration, e.g. LAN [Local Area Networks] or WAN [Wide Area Networks] (wireless communication networks H04W)"
+          }
+        },
+        {
+          "code": "H04L 12/40",
+          "title": {
+            "ko": null,
+            "en": "Bus networks"
+          }
+        },
+        {
+          "code": "H04L 12/403",
+          "title": {
+            "ko": null,
+            "en": "with centralised control, e.g. polling"
+          }
+        },
+        {
+          "code": "H04L 12/407",
+          "title": {
+            "ko": null,
+            "en": "with decentralised control"
+          }
+        },
+        {
+          "code": "H04L 12/413",
+          "title": {
+            "ko": null,
+            "en": "with random access, e.g. carrier-sense multiple-access with collision detection [CSMA-CD]"
+          }
+        },
+        {
+          "code": "H04L 12/417",
+          "title": {
+            "ko": null,
+            "en": "with deterministic access, e.g. token passing"
+          }
+        },
+        {
+          "code": "H04L 12/42",
+          "title": {
+            "ko": null,
+            "en": "Loop networks"
+          }
+        },
+        {
+          "code": "H04L 12/423",
+          "title": {
+            "ko": null,
+            "en": "with centralised control, e.g. polling"
+          }
+        },
+        {
+          "code": "H04L 12/427",
+          "title": {
+            "ko": null,
+            "en": "with decentralised control"
+          }
+        },
+        {
+          "code": "H04L 12/43",
+          "title": {
+            "ko": null,
+            "en": "with synchronous transmission, e.g. time division multiplex [TDM], slotted rings"
+          }
+        },
+        {
+          "code": "H04L 12/433",
+          "title": {
+            "ko": null,
+            "en": "with asynchronous transmission, e.g. token ring, register insertion"
+          }
+        },
+        {
+          "code": "H04L 12/437",
+          "title": {
+            "ko": null,
+            "en": "Ring fault isolation or reconfiguration"
+          }
+        },
+        {
+          "code": "H04L 12/44",
+          "title": {
+            "ko": null,
+            "en": "Star or tree networks"
+          }
+        },
+        {
+          "code": "H04L 12/46",
+          "title": {
+            "ko": null,
+            "en": "Interconnection of networks"
+          }
+        },
+        {
+          "code": "H04L 12/50",
+          "title": {
+            "ko": "서킷(Circuit) 스위칭 시스템, 예, 통신중에 경로가 물리적으로 고정된 시스템",
+            "en": "Circuit switching systems, i.e. systems in which the path is physically permanent during the communication"
+          }
+        },
+        {
+          "code": "H04L 12/52",
+          "title": {
+            "ko": "시분할기술을 사용하는 것(디지털 전송 시스템에서 H04L 5/22)",
+            "en": "using time division techniques (in digital transmission systems H04L0005220000)"
+          }
+        },
+        {
+          "code": "H04L 12/54",
+          "title": {
+            "ko": "축적 전송 스위칭 시스템 [store-and-forward switching system] (패킷 스위칭 시스템 H04L45/00, H04L47/00)",
+            "en": "Store-and-forward switching systems (packet switching systems H04L0045000000, H04L0047000000)"
+          }
+        },
+        {
+          "code": "H04L 12/64",
+          "title": {
+            "ko": null,
+            "en": "Hybrid switching systems"
+          }
+        },
+        {
+          "code": "H04L 12/66",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for connecting between networks having differing types of switching systems, e.g. gateways"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 13/00",
+      "title": {
+        "ko": "그룹 15/00 또는 17/00에 포함되는 장치 또는 회로의 세부",
+        "en": "Details of the apparatus or circuits covered by groups H04L0015000000 or H04L0017000000"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 13/02",
+          "title": {
+            "ko": null,
+            "en": "Details not particular to receiver or transmitter"
+          }
+        },
+        {
+          "code": "H04L 13/04",
+          "title": {
+            "ko": null,
+            "en": "Driving mechanisms; Clutches"
+          }
+        },
+        {
+          "code": "H04L 13/06",
+          "title": {
+            "ko": null,
+            "en": "Tape or page guiding or feeding devices"
+          }
+        },
+        {
+          "code": "H04L 13/08",
+          "title": {
+            "ko": null,
+            "en": "Intermediate storage means"
+          }
+        },
+        {
+          "code": "H04L 13/10",
+          "title": {
+            "ko": null,
+            "en": "Distributors"
+          }
+        },
+        {
+          "code": "H04L 13/12",
+          "title": {
+            "ko": null,
+            "en": "Non-mechanical distributors, e.g. relay distributors"
+          }
+        },
+        {
+          "code": "H04L 13/14",
+          "title": {
+            "ko": null,
+            "en": "Electronic distributors"
+          }
+        },
+        {
+          "code": "H04L 13/16",
+          "title": {
+            "ko": null,
+            "en": "of transmitters, e.g. code-bars, code-discs"
+          }
+        },
+        {
+          "code": "H04L 13/18",
+          "title": {
+            "ko": null,
+            "en": "of receivers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 15/00",
+      "title": {
+        "ko": "도트 대시(dot and dash) 코드를 송신 또는 수신하기 위한 장치 또는 국부회로 예. 모르스 코드(morse code)(그를 위한 교습장치 G09B; 전신용 태핑 키(tapping key) H01H 21/86)",
+        "en": "Apparatus or local circuits for transmitting or receiving dot-and-dash codes, e.g. Morse code (teaching apparatus therefor G09B;telegraph tapping keys H01H0021860000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 15/03",
+          "title": {
+            "ko": null,
+            "en": "Keys structurally combined with sound generators"
+          }
+        },
+        {
+          "code": "H04L 15/04",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the transmitting end"
+          }
+        },
+        {
+          "code": "H04L 15/06",
+          "title": {
+            "ko": null,
+            "en": "with a restricted number of keys, e.g. separate key for each type of code element"
+          }
+        },
+        {
+          "code": "H04L 15/08",
+          "title": {
+            "ko": null,
+            "en": "with a single key which transmits dots in one position and dashes in a second position"
+          }
+        },
+        {
+          "code": "H04L 15/10",
+          "title": {
+            "ko": null,
+            "en": "combined with perforating apparatus"
+          }
+        },
+        {
+          "code": "H04L 15/12",
+          "title": {
+            "ko": null,
+            "en": "with keyboard co-operating with code-bars"
+          }
+        },
+        {
+          "code": "H04L 15/14",
+          "title": {
+            "ko": null,
+            "en": "combined with perforating apparatus"
+          }
+        },
+        {
+          "code": "H04L 15/16",
+          "title": {
+            "ko": null,
+            "en": "with keyboard co-operating with code discs"
+          }
+        },
+        {
+          "code": "H04L 15/18",
+          "title": {
+            "ko": null,
+            "en": "Automatic transmitters, e.g. controlled by perforated tape"
+          }
+        },
+        {
+          "code": "H04L 15/20",
+          "title": {
+            "ko": null,
+            "en": "with optical sensing means"
+          }
+        },
+        {
+          "code": "H04L 15/22",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits for sending one or a restricted number of signals, e.g. distress signals"
+          }
+        },
+        {
+          "code": "H04L 15/24",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the receiving end"
+          }
+        },
+        {
+          "code": "H04L 15/26",
+          "title": {
+            "ko": null,
+            "en": "operating only on reception of predetermined code signals, e.g. distress signals, party-line call signals"
+          }
+        },
+        {
+          "code": "H04L 15/28",
+          "title": {
+            "ko": null,
+            "en": "Code reproducing apparatus"
+          }
+        },
+        {
+          "code": "H04L 15/30",
+          "title": {
+            "ko": null,
+            "en": "Writing recorders"
+          }
+        },
+        {
+          "code": "H04L 15/32",
+          "title": {
+            "ko": null,
+            "en": "Perforating recorders"
+          }
+        },
+        {
+          "code": "H04L 15/34",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for recording received coded signals after translation, e.g. as type-characters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 17/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for transmitting or receiving codes wherein each character is represented by the same number of equal-length code elements, e.g. Baudot code"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 17/02",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the transmitting end"
+          }
+        },
+        {
+          "code": "H04L 17/04",
+          "title": {
+            "ko": null,
+            "en": "with keyboard co-operating with code-bars"
+          }
+        },
+        {
+          "code": "H04L 17/06",
+          "title": {
+            "ko": null,
+            "en": "Contact operating means"
+          }
+        },
+        {
+          "code": "H04L 17/08",
+          "title": {
+            "ko": null,
+            "en": "combined with perforating apparatus"
+          }
+        },
+        {
+          "code": "H04L 17/10",
+          "title": {
+            "ko": null,
+            "en": "with keyboard co-operating with code-discs"
+          }
+        },
+        {
+          "code": "H04L 17/12",
+          "title": {
+            "ko": null,
+            "en": "Automatic transmitters, e.g. controlled by perforated tape"
+          }
+        },
+        {
+          "code": "H04L 17/14",
+          "title": {
+            "ko": null,
+            "en": "with optical sensing means"
+          }
+        },
+        {
+          "code": "H04L 17/16",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or circuits at the receiving end"
+          }
+        },
+        {
+          "code": "H04L 17/18",
+          "title": {
+            "ko": null,
+            "en": "Code selection mechanisms"
+          }
+        },
+        {
+          "code": "H04L 17/20",
+          "title": {
+            "ko": null,
+            "en": "using perforating recorders"
+          }
+        },
+        {
+          "code": "H04L 17/22",
+          "title": {
+            "ko": null,
+            "en": "using mechanical translation and type-bar printing"
+          }
+        },
+        {
+          "code": "H04L 17/24",
+          "title": {
+            "ko": null,
+            "en": "using mechanical translation and type-head printing, e.g. type-wheel, type-cylinder"
+          }
+        },
+        {
+          "code": "H04L 17/26",
+          "title": {
+            "ko": null,
+            "en": "using aggregate motion translation"
+          }
+        },
+        {
+          "code": "H04L 17/28",
+          "title": {
+            "ko": null,
+            "en": "using pneumatic or hydraulic translation"
+          }
+        },
+        {
+          "code": "H04L 17/30",
+          "title": {
+            "ko": null,
+            "en": "using electric or electronic translation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 19/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for step-by-step systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04L 21/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or local circuits for mosaic printer telegraph systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 21/02",
+          "title": {
+            "ko": null,
+            "en": "at the transmitting end"
+          }
+        },
+        {
+          "code": "H04L 21/04",
+          "title": {
+            "ko": null,
+            "en": "at the receiving end"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 23/00",
+      "title": {
+        "ko": "그룹 H04L 15/00내지 H04L 21/00에 포함되는 시스템이외의 시스템을 위한 장치 또는 국부회로",
+        "en": "Apparatus or local circuits for telegraphic systems other than those covered by groups H04L0015000000-H04L0021000000"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 23/02",
+          "title": {
+            "ko": null,
+            "en": "adapted for orthogonal signalling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 25/00",
+      "title": {
+        "ko": "기저대역 시스템",
+        "en": "Baseband systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 25/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H04L 25/03",
+          "title": {
+            "ko": null,
+            "en": "Shaping networks in transmitter or receiver, e.g. adaptive shaping networks"
+          }
+        },
+        {
+          "code": "H04L 25/04",
+          "title": {
+            "ko": null,
+            "en": "Passive shaping networks"
+          }
+        },
+        {
+          "code": "H04L 25/05",
+          "title": {
+            "ko": null,
+            "en": "Electric or magnetic storage of signals before transmitting or retransmitting for changing the transmission rate"
+          }
+        },
+        {
+          "code": "H04L 25/06",
+          "title": {
+            "ko": null,
+            "en": "DC level restoring means; Bias distortion correction"
+          }
+        },
+        {
+          "code": "H04L 25/08",
+          "title": {
+            "ko": null,
+            "en": "Modifications for reducing interference; Modifications for reducing effects due to line faults"
+          }
+        },
+        {
+          "code": "H04L 25/10",
+          "title": {
+            "ko": null,
+            "en": "Compensating for variations in line balance"
+          }
+        },
+        {
+          "code": "H04L 25/12",
+          "title": {
+            "ko": null,
+            "en": "Compensating for variations in line impedance"
+          }
+        },
+        {
+          "code": "H04L 25/14",
+          "title": {
+            "ko": null,
+            "en": "Channel dividing arrangements"
+          }
+        },
+        {
+          "code": "H04L 25/17",
+          "title": {
+            "ko": null,
+            "en": "Interpolating arrangements"
+          }
+        },
+        {
+          "code": "H04L 25/18",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for inductively generating telegraphic signals"
+          }
+        },
+        {
+          "code": "H04L 25/20",
+          "title": {
+            "ko": null,
+            "en": "Repeater circuits; Relay circuits"
+          }
+        },
+        {
+          "code": "H04L 25/22",
+          "title": {
+            "ko": null,
+            "en": "Repeaters for converting two wires to four wires; Repeaters for converting single current to double current"
+          }
+        },
+        {
+          "code": "H04L 25/24",
+          "title": {
+            "ko": null,
+            "en": "Relay circuits using discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "H04L 25/26",
+          "title": {
+            "ko": null,
+            "en": "Circuits with optical sensing means"
+          }
+        },
+        {
+          "code": "H04L 25/28",
+          "title": {
+            "ko": null,
+            "en": "Repeaters using modulation and subsequent demodulation"
+          }
+        },
+        {
+          "code": "H04L 25/30",
+          "title": {
+            "ko": null,
+            "en": "Non-synchronous systems"
+          }
+        },
+        {
+          "code": "H04L 25/32",
+          "title": {
+            "ko": null,
+            "en": "characterised by the code employed"
+          }
+        },
+        {
+          "code": "H04L 25/34",
+          "title": {
+            "ko": null,
+            "en": "using three or more different amplitudes, e.g. cable code"
+          }
+        },
+        {
+          "code": "H04L 25/38",
+          "title": {
+            "ko": "동기 또는 시작 정지시스템, 예. 보우드(baudot) 코드",
+            "en": "Synchronous or start-stop systems, e.g. for Baudot code"
+          }
+        },
+        {
+          "code": "H04L 25/40",
+          "title": {
+            "ko": "송신회로; 수신회로",
+            "en": "Transmitting circuits; Receiving circuits"
+          }
+        },
+        {
+          "code": "H04L 25/42",
+          "title": {
+            "ko": null,
+            "en": "using mechanical distributors"
+          }
+        },
+        {
+          "code": "H04L 25/44",
+          "title": {
+            "ko": null,
+            "en": "using relay distributors"
+          }
+        },
+        {
+          "code": "H04L 25/45",
+          "title": {
+            "ko": null,
+            "en": "using electronic distributors"
+          }
+        },
+        {
+          "code": "H04L 25/46",
+          "title": {
+            "ko": null,
+            "en": "using tuning forks or vibrating reeds"
+          }
+        },
+        {
+          "code": "H04L 25/48",
+          "title": {
+            "ko": "사용되는 부호에 의해서 특징지어지는 것(H04L 25/49가 우선)",
+            "en": "characterised by the code employed (H04L0025490000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 25/49",
+          "title": {
+            "ko": null,
+            "en": "using code conversion at the transmitter; using predistortion; using insertion of idle bits for obtaining a desired frequency spectrum; using three or more amplitude levels"
+          }
+        },
+        {
+          "code": "H04L 25/493",
+          "title": {
+            "ko": null,
+            "en": "by transition coding, i.e. the time-position or direction of a transition being encoded before transmission"
+          }
+        },
+        {
+          "code": "H04L 25/497",
+          "title": {
+            "ko": null,
+            "en": "by correlative coding, e.g. partial response coding or echo modulation coding"
+          }
+        },
+        {
+          "code": "H04L 25/52",
+          "title": {
+            "ko": null,
+            "en": "Repeater circuits; Relay circuits"
+          }
+        },
+        {
+          "code": "H04L 25/54",
+          "title": {
+            "ko": null,
+            "en": "using mechanical distributors"
+          }
+        },
+        {
+          "code": "H04L 25/56",
+          "title": {
+            "ko": null,
+            "en": "Non-electrical regenerative repeaters"
+          }
+        },
+        {
+          "code": "H04L 25/58",
+          "title": {
+            "ko": null,
+            "en": "using relay distributors"
+          }
+        },
+        {
+          "code": "H04L 25/60",
+          "title": {
+            "ko": null,
+            "en": "Regenerative repeaters with electromagnetic switches"
+          }
+        },
+        {
+          "code": "H04L 25/62",
+          "title": {
+            "ko": null,
+            "en": "using tuning forks or vibrating reeds"
+          }
+        },
+        {
+          "code": "H04L 25/64",
+          "title": {
+            "ko": null,
+            "en": "Start-stop regenerative repeaters using discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "H04L 25/66",
+          "title": {
+            "ko": null,
+            "en": "Synchronous repeaters using discharge tubes or semiconductor devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 27/00",
+      "title": {
+        "ko": "변조 전송시스템",
+        "en": "Modulated-carrier systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 27/01",
+          "title": {
+            "ko": null,
+            "en": "Equalisers"
+          }
+        },
+        {
+          "code": "H04L 27/02",
+          "title": {
+            "ko": "진폭-변조 반송파 시스템, 예. 온-오프 키잉을 사용하는 것; 단측파대 또는 잔류측파대 변조 (H04L27/32가 우선)",
+            "en": "Amplitude-modulated carrier systems, e.g. using on/off keying; Single sideband or vestigial sideband modulation (H04L0027320000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/04",
+          "title": {
+            "ko": null,
+            "en": "Modulator circuits; Transmitter circuits"
+          }
+        },
+        {
+          "code": "H04L 27/06",
+          "title": {
+            "ko": null,
+            "en": "Demodulator circuits; Receiver circuits"
+          }
+        },
+        {
+          "code": "H04L 27/08",
+          "title": {
+            "ko": null,
+            "en": "Amplitude regulation arrangements"
+          }
+        },
+        {
+          "code": "H04L 27/10",
+          "title": {
+            "ko": "주파수-변조 반송파 시스템, 즉. 주파수-시프트 키잉을 사용하는 것 (H04L27/32가 우선)",
+            "en": "Frequency-modulated carrier systems, i.e. using frequency-shift keying (H04L0027320000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/12",
+          "title": {
+            "ko": null,
+            "en": "Modulator circuits; Transmitter circuits"
+          }
+        },
+        {
+          "code": "H04L 27/14",
+          "title": {
+            "ko": null,
+            "en": "Demodulator circuits; Receiver circuits"
+          }
+        },
+        {
+          "code": "H04L 27/144",
+          "title": {
+            "ko": null,
+            "en": "with demodulation using spectral properties of the received signal, e.g. by using frequency selective- or frequency sensitive elements"
+          }
+        },
+        {
+          "code": "H04L 27/148",
+          "title": {
+            "ko": null,
+            "en": "using filters, including PLL-type filters"
+          }
+        },
+        {
+          "code": "H04L 27/152",
+          "title": {
+            "ko": null,
+            "en": "using controlled oscillators, e.g. PLL arrangements"
+          }
+        },
+        {
+          "code": "H04L 27/156",
+          "title": {
+            "ko": null,
+            "en": "with demodulation using temporal properties of the received signal, e.g. detecting pulse width"
+          }
+        },
+        {
+          "code": "H04L 27/16",
+          "title": {
+            "ko": null,
+            "en": "Frequency regulation arrangements"
+          }
+        },
+        {
+          "code": "H04L 27/18",
+          "title": {
+            "ko": "위상-변조 반송파 시스템, 즉. 위상-편이 키잉을 사용하는 것 (H04L27/32가 우선)",
+            "en": "Phase-modulated carrier systems, i.e. using phase-shift keying (H04L0027320000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/20",
+          "title": {
+            "ko": null,
+            "en": "Modulator circuits; Transmitter circuits"
+          }
+        },
+        {
+          "code": "H04L 27/22",
+          "title": {
+            "ko": null,
+            "en": "Demodulator circuits; Receiver circuits"
+          }
+        },
+        {
+          "code": "H04L 27/227",
+          "title": {
+            "ko": null,
+            "en": "using coherent demodulation"
+          }
+        },
+        {
+          "code": "H04L 27/233",
+          "title": {
+            "ko": null,
+            "en": "using non-coherent demodulation"
+          }
+        },
+        {
+          "code": "H04L 27/24",
+          "title": {
+            "ko": null,
+            "en": "Half-wave signalling systems"
+          }
+        },
+        {
+          "code": "H04L 27/26",
+          "title": {
+            "ko": "다주파부호를 이용하는 시스템(H04L 27/32가 우선)",
+            "en": "Systems using multi-frequency codes (H04L0027320000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 27/28",
+          "title": {
+            "ko": null,
+            "en": "with simultaneous transmission of different frequencies each representing one code element"
+          }
+        },
+        {
+          "code": "H04L 27/30",
+          "title": {
+            "ko": null,
+            "en": "wherein each code element is represented by a combination of frequencies"
+          }
+        },
+        {
+          "code": "H04L 27/32",
+          "title": {
+            "ko": "그룹 H04L 27/02, H04L 27/10, H04L 27/18 또는 H04L 27/26에 포함되는 두개 이상의 결합에 의하여 특징지어지는 반송시스템",
+            "en": "Carrier systems characterised by combinations of two or more of the types covered by groups H04L0027020000, H04L0027100000, H04L0027180000, or H04L0027260000"
+          }
+        },
+        {
+          "code": "H04L 27/34",
+          "title": {
+            "ko": null,
+            "en": "Amplitude- and phase-modulated carrier systems, e.g. quadrature-amplitude modulated carrier systems"
+          }
+        },
+        {
+          "code": "H04L 27/36",
+          "title": {
+            "ko": null,
+            "en": "Modulator circuits; Transmitter circuits"
+          }
+        },
+        {
+          "code": "H04L 27/38",
+          "title": {
+            "ko": null,
+            "en": "Demodulator circuits; Receiver circuits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 41/00",
+      "title": {
+        "ko": "데이터 스위칭 네트워크의 유지 또는 관리를 위한 장치, 예. 패킷 스위칭 네트워크",
+        "en": "Arrangements for maintenance, administration or management of data switching networks, e.g. of packet switching networks"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 41/02",
+          "title": {
+            "ko": "표준화; 통합",
+            "en": "Standardisation; Integration"
+          }
+        },
+        {
+          "code": "H04L 41/0213",
+          "title": {
+            "ko": null,
+            "en": "Standardised network management protocols, e.g. simple network management protocol [SNMP]"
+          }
+        },
+        {
+          "code": "H04L 41/022",
+          "title": {
+            "ko": null,
+            "en": "Multivendor or multi-standard integration"
+          }
+        },
+        {
+          "code": "H04L 41/0226",
+          "title": {
+            "ko": null,
+            "en": "Mapping or translating multiple network management protocols"
+          }
+        },
+        {
+          "code": "H04L 41/0233",
+          "title": {
+            "ko": null,
+            "en": "Object-oriented techniques, for representation of network management data, e.g. common object request broker architecture [CORBA]"
+          }
+        },
+        {
+          "code": "H04L 41/0246",
+          "title": {
+            "ko": "인터넷을 사용한 네트워크 관리 정보 교환 또는 전송; 네트워크 관리 웹서버를 내장한 네트워크 요소; 웹서비스 기반 프로토콜",
+            "en": "Exchanging or transporting network management information using the Internet; Embedding network management web servers in network elements; Web-services-based protocols"
+          }
+        },
+        {
+          "code": "H04L 41/0253",
+          "title": {
+            "ko": null,
+            "en": "using browsers or web-pages for accessing management information"
+          }
+        },
+        {
+          "code": "H04L 41/026",
+          "title": {
+            "ko": "관리 정보 전송을 위해 전자 메세징을 포함하는 것, 예. 이메일, 인스턴트 메세징 또는 채팅",
+            "en": "using e-messaging for transporting management information, e.g. email, instant messaging or chat"
+          }
+        },
+        {
+          "code": "H04L 41/0266",
+          "title": {
+            "ko": null,
+            "en": "using meta-data, objects or commands for formatting management information, e.g. using eXtensible markup language [XML]"
+          }
+        },
+        {
+          "code": "H04L 41/0273",
+          "title": {
+            "ko": null,
+            "en": "using web services for network management, e.g. simple object access protocol [SOAP]"
+          }
+        },
+        {
+          "code": "H04L 41/04",
+          "title": {
+            "ko": null,
+            "en": "Network management architectures or arrangements"
+          }
+        },
+        {
+          "code": "H04L 41/042",
+          "title": {
+            "ko": null,
+            "en": "comprising distributed management centres cooperatively managing the network"
+          }
+        },
+        {
+          "code": "H04L 41/044",
+          "title": {
+            "ko": null,
+            "en": "comprising hierarchical management structures"
+          }
+        },
+        {
+          "code": "H04L 41/045",
+          "title": {
+            "ko": null,
+            "en": "comprising client-server management architectures"
+          }
+        },
+        {
+          "code": "H04L 41/046",
+          "title": {
+            "ko": null,
+            "en": "comprising network management agents or mobile agents therefor"
+          }
+        },
+        {
+          "code": "H04L 41/052",
+          "title": {
+            "ko": null,
+            "en": "using standardised network management architectures, e.g. telecommunication management network [TMN] or unified network management architecture [UNMA]"
+          }
+        },
+        {
+          "code": "H04L 41/06",
+          "title": {
+            "ko": "장애, 이벤트, 알람 또는 알림의 관리",
+            "en": "Management of faults, events, alarms or notifications"
+          }
+        },
+        {
+          "code": "H04L 41/0604",
+          "title": {
+            "ko": null,
+            "en": "using filtering, e.g. reduction of information by using priority, element types, position or time"
+          }
+        },
+        {
+          "code": "H04L 41/0631",
+          "title": {
+            "ko": null,
+            "en": "using root cause analysis; using analysis of correlation between notifications, alarms or events based on decision criteria, e.g. hierarchy, tree or time analysis"
+          }
+        },
+        {
+          "code": "H04L 41/0654",
+          "title": {
+            "ko": "네트워크 장애 복구를 사용 (네트워크 관리 시스템의 복구 액션 없이 링 오류 격리 또는 루프 네트워크 재설정 H04L12/437)",
+            "en": "using network fault recovery (ring fault isolation or reconfiguration in loop networks without recovery actions by a network management system H04L0012437000)"
+          }
+        },
+        {
+          "code": "H04L 41/0659",
+          "title": {
+            "ko": null,
+            "en": "by isolating or reconfiguring faulty entities"
+          }
+        },
+        {
+          "code": "H04L 41/0663",
+          "title": {
+            "ko": null,
+            "en": "Performing the actions predefined by failover planning, e.g. switching to standby network elements"
+          }
+        },
+        {
+          "code": "H04L 41/0668",
+          "title": {
+            "ko": null,
+            "en": "by dynamic selection of recovery network elements, e.g. replacement by the most appropriate element after failure"
+          }
+        },
+        {
+          "code": "H04L 41/0677",
+          "title": {
+            "ko": null,
+            "en": "Localisation of faults"
+          }
+        },
+        {
+          "code": "H04L 41/0681",
+          "title": {
+            "ko": null,
+            "en": "Configuration of triggering conditions"
+          }
+        },
+        {
+          "code": "H04L 41/0686",
+          "title": {
+            "ko": null,
+            "en": "Additional information in the notification, e.g. enhancement of specific meta-data"
+          }
+        },
+        {
+          "code": "H04L 41/069",
+          "title": {
+            "ko": null,
+            "en": "using logs of notifications; Post-processing of notifications"
+          }
+        },
+        {
+          "code": "H04L 41/0695",
+          "title": {
+            "ko": null,
+            "en": "the faulty arrangement being the maintenance, administration or management system"
+          }
+        },
+        {
+          "code": "H04L 41/08",
+          "title": {
+            "ko": "네트워크 또는 네트워크 요소의 설정 관리 (어드레스 할당 H04L61/50)",
+            "en": "Configuration management of networks or network elements (address allocation H04L0061500000)"
+          }
+        },
+        {
+          "code": "H04L 41/0803",
+          "title": {
+            "ko": "구성 설정 [Configuration setting]",
+            "en": "Configuration setting"
+          }
+        },
+        {
+          "code": "H04L 41/0806",
+          "title": {
+            "ko": null,
+            "en": "for initial configuration or provisioning, e.g. plug-and-play"
+          }
+        },
+        {
+          "code": "H04L 41/0813",
+          "title": {
+            "ko": null,
+            "en": "characterised by the conditions triggering a change of settings"
+          }
+        },
+        {
+          "code": "H04L 41/0816",
+          "title": {
+            "ko": null,
+            "en": "the condition being an adaptation, e.g. in response to network events"
+          }
+        },
+        {
+          "code": "H04L 41/082",
+          "title": {
+            "ko": null,
+            "en": "the condition being updates or upgrades of network functionality"
+          }
+        },
+        {
+          "code": "H04L 41/0823",
+          "title": {
+            "ko": "설정 변경의 목적을 특징으로 하는 것, 예. 신뢰성 향상을 위한 설정 최적화 (무선 네트워크의 동작 설정 최적화를 위한 것 H04W24/02)",
+            "en": "characterised by the purposes of a change of settings, e.g. optimising configuration for enhancing reliability (for optimising operational conditions of wireless networks H04W0024020000)"
+          }
+        },
+        {
+          "code": "H04L 41/0826",
+          "title": {
+            "ko": "네트워크 비용 감소를 위한 (H04L41/0833이 우선)",
+            "en": "for reduction of network costs (H04L0041083300 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 41/083",
+          "title": {
+            "ko": null,
+            "en": "for increasing network speed"
+          }
+        },
+        {
+          "code": "H04L 41/0833",
+          "title": {
+            "ko": null,
+            "en": "for reduction of network energy consumption"
+          }
+        },
+        {
+          "code": "H04L 41/084",
+          "title": {
+            "ko": null,
+            "en": "Configuration by using pre-existing information, e.g. using templates or copying from other elements"
+          }
+        },
+        {
+          "code": "H04L 41/085",
+          "title": {
+            "ko": null,
+            "en": "Retrieval of network configuration; Tracking network configuration history"
+          }
+        },
+        {
+          "code": "H04L 41/0853",
+          "title": {
+            "ko": null,
+            "en": "by actively collecting configuration information or by backing up configuration information"
+          }
+        },
+        {
+          "code": "H04L 41/0859",
+          "title": {
+            "ko": null,
+            "en": "by keeping history of different configuration generations or by rolling back to previous configuration versions"
+          }
+        },
+        {
+          "code": "H04L 41/0866",
+          "title": {
+            "ko": null,
+            "en": "Checking the configuration"
+          }
+        },
+        {
+          "code": "H04L 41/0869",
+          "title": {
+            "ko": null,
+            "en": "Validating the configuration within one network element"
+          }
+        },
+        {
+          "code": "H04L 41/0873",
+          "title": {
+            "ko": null,
+            "en": "Checking configuration conflicts between network elements"
+          }
+        },
+        {
+          "code": "H04L 41/0893",
+          "title": {
+            "ko": null,
+            "en": "Assignment of logical groups to network elements"
+          }
+        },
+        {
+          "code": "H04L 41/0894",
+          "title": {
+            "ko": null,
+            "en": "Policy-based network configuration management"
+          }
+        },
+        {
+          "code": "H04L 41/0895",
+          "title": {
+            "ko": null,
+            "en": "Configuration of virtualised networks or elements, e.g. virtualised network function or OpenFlow elements"
+          }
+        },
+        {
+          "code": "H04L 41/0896",
+          "title": {
+            "ko": "대역폭 또는 용량 관리, 즉. 용량의 자동 증가 또는 감소 (동적 자원 할당을 사용한 흐름 또는 혼잡 제어, 예. 통화 중 재협상, H04L47/76)",
+            "en": "Bandwidth or capacity management, i.e. automatically increasing or decreasing capacities   (flow or congestion control using dynamic resource allocation, e.g. in-call renegotiation, H04L0047760000)"
+          }
+        },
+        {
+          "code": "H04L 41/0897",
+          "title": {
+            "ko": null,
+            "en": "by horizontal or vertical scaling of resources, or by migrating entities, e.g. virtual resources or entities"
+          }
+        },
+        {
+          "code": "H04L 41/12",
+          "title": {
+            "ko": null,
+            "en": "Discovery or management of network topologies"
+          }
+        },
+        {
+          "code": "H04L 41/122",
+          "title": {
+            "ko": null,
+            "en": "of virtualised topologies e.g. software-defined networks [SDN] or network function virtualisation [NFV]"
+          }
+        },
+        {
+          "code": "H04L 41/14",
+          "title": {
+            "ko": null,
+            "en": "Network analysis or design"
+          }
+        },
+        {
+          "code": "H04L 41/142",
+          "title": {
+            "ko": null,
+            "en": "using statistical or mathematical methods"
+          }
+        },
+        {
+          "code": "H04L 41/147",
+          "title": {
+            "ko": null,
+            "en": "for predicting network behaviour"
+          }
+        },
+        {
+          "code": "H04L 41/149",
+          "title": {
+            "ko": null,
+            "en": "for prediction of maintenance"
+          }
+        },
+        {
+          "code": "H04L 41/16",
+          "title": {
+            "ko": null,
+            "en": "using machine learning or artificial intelligence"
+          }
+        },
+        {
+          "code": "H04L 41/18",
+          "title": {
+            "ko": null,
+            "en": "Delegation of network management function, e.g. customer network management [CNM]"
+          }
+        },
+        {
+          "code": "H04L 41/22",
+          "title": {
+            "ko": null,
+            "en": "comprising specially adapted graphical user interfaces [GUI]"
+          }
+        },
+        {
+          "code": "H04L 41/28",
+          "title": {
+            "ko": null,
+            "en": "Restricting access to network management systems or functions, e.g. using authorisation function to access network configuration"
+          }
+        },
+        {
+          "code": "H04L 41/34",
+          "title": {
+            "ko": null,
+            "en": "Signalling channels for network management communication"
+          }
+        },
+        {
+          "code": "H04L 41/342",
+          "title": {
+            "ko": null,
+            "en": "between virtual entities, e.g. orchestrators, SDN or NFV entities"
+          }
+        },
+        {
+          "code": "H04L 41/344",
+          "title": {
+            "ko": null,
+            "en": "Out-of-band transfers"
+          }
+        },
+        {
+          "code": "H04L 41/40",
+          "title": {
+            "ko": null,
+            "en": "using virtualisation of network functions or resources, e.g. SDN or NFV entities"
+          }
+        },
+        {
+          "code": "H04L 41/50",
+          "title": {
+            "ko": null,
+            "en": "Network service management, e.g. ensuring proper service fulfilment according to agreements"
+          }
+        },
+        {
+          "code": "H04L 41/5003",
+          "title": {
+            "ko": null,
+            "en": "Managing SLA; Interaction between SLA and QoS"
+          }
+        },
+        {
+          "code": "H04L 41/5006",
+          "title": {
+            "ko": null,
+            "en": "Creating or negotiating SLA contracts, guarantees or penalties"
+          }
+        },
+        {
+          "code": "H04L 41/5009",
+          "title": {
+            "ko": null,
+            "en": "Determining service level performance parameters or violations of service level contracts, e.g. violations of agreed response time or mean time between failures [MTBF]"
+          }
+        },
+        {
+          "code": "H04L 41/5019",
+          "title": {
+            "ko": null,
+            "en": "Ensuring fulfilment of SLA"
+          }
+        },
+        {
+          "code": "H04L 41/5022",
+          "title": {
+            "ko": null,
+            "en": "by giving priorities, e.g. assigning classes of service"
+          }
+        },
+        {
+          "code": "H04L 41/5025",
+          "title": {
+            "ko": null,
+            "en": "by proactively reacting to service quality change, e.g. by reconfiguration after service quality degradation or upgrade"
+          }
+        },
+        {
+          "code": "H04L 41/5041",
+          "title": {
+            "ko": null,
+            "en": "characterised by the time relationship between creation and deployment of a service"
+          }
+        },
+        {
+          "code": "H04L 41/5051",
+          "title": {
+            "ko": null,
+            "en": "Service on demand, e.g. definition and deployment of services in real time"
+          }
+        },
+        {
+          "code": "H04L 41/5054",
+          "title": {
+            "ko": null,
+            "en": "Automatic deployment of services triggered by the service manager, e.g. service implementation by automatic configuration of network components"
+          }
+        },
+        {
+          "code": "H04L 41/5061",
+          "title": {
+            "ko": null,
+            "en": "characterised by the interaction between service providers and their network customers, e.g. customer relationship management"
+          }
+        },
+        {
+          "code": "H04L 41/5067",
+          "title": {
+            "ko": null,
+            "en": "Customer-centric QoS measurements"
+          }
+        },
+        {
+          "code": "H04L 41/507",
+          "title": {
+            "ko": null,
+            "en": "Filtering out customers affected by service problems"
+          }
+        },
+        {
+          "code": "H04L 41/5074",
+          "title": {
+            "ko": null,
+            "en": "Handling of user complaints or trouble tickets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 43/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for monitoring or testing data switching networks"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 43/02",
+          "title": {
+            "ko": null,
+            "en": "Capturing of monitoring data"
+          }
+        },
+        {
+          "code": "H04L 43/022",
+          "title": {
+            "ko": null,
+            "en": "by sampling"
+          }
+        },
+        {
+          "code": "H04L 43/024",
+          "title": {
+            "ko": null,
+            "en": "by adaptive sampling"
+          }
+        },
+        {
+          "code": "H04L 43/026",
+          "title": {
+            "ko": null,
+            "en": "using flow identification"
+          }
+        },
+        {
+          "code": "H04L 43/028",
+          "title": {
+            "ko": null,
+            "en": "by filtering"
+          }
+        },
+        {
+          "code": "H04L 43/04",
+          "title": {
+            "ko": null,
+            "en": "Processing captured monitoring data, e.g. for logfile generation"
+          }
+        },
+        {
+          "code": "H04L 43/045",
+          "title": {
+            "ko": null,
+            "en": "for graphical visualisation of monitoring data"
+          }
+        },
+        {
+          "code": "H04L 43/06",
+          "title": {
+            "ko": null,
+            "en": "Generation of reports"
+          }
+        },
+        {
+          "code": "H04L 43/062",
+          "title": {
+            "ko": null,
+            "en": "related to network traffic"
+          }
+        },
+        {
+          "code": "H04L 43/065",
+          "title": {
+            "ko": null,
+            "en": "related to network devices"
+          }
+        },
+        {
+          "code": "H04L 43/067",
+          "title": {
+            "ko": null,
+            "en": "using time frame reporting"
+          }
+        },
+        {
+          "code": "H04L 43/08",
+          "title": {
+            "ko": null,
+            "en": "Monitoring or testing based on specific metrics, e.g. QoS, energy consumption or environmental parameters"
+          }
+        },
+        {
+          "code": "H04L 43/0805",
+          "title": {
+            "ko": null,
+            "en": "by checking availability"
+          }
+        },
+        {
+          "code": "H04L 43/0811",
+          "title": {
+            "ko": null,
+            "en": "by checking connectivity"
+          }
+        },
+        {
+          "code": "H04L 43/0817",
+          "title": {
+            "ko": null,
+            "en": "by checking functioning"
+          }
+        },
+        {
+          "code": "H04L 43/0823",
+          "title": {
+            "ko": null,
+            "en": "Errors, e.g. transmission errors"
+          }
+        },
+        {
+          "code": "H04L 43/0829",
+          "title": {
+            "ko": null,
+            "en": "Packet loss"
+          }
+        },
+        {
+          "code": "H04L 43/0852",
+          "title": {
+            "ko": null,
+            "en": "Delays"
+          }
+        },
+        {
+          "code": "H04L 43/0864",
+          "title": {
+            "ko": null,
+            "en": "Round trip delays"
+          }
+        },
+        {
+          "code": "H04L 43/087",
+          "title": {
+            "ko": null,
+            "en": "Jitter"
+          }
+        },
+        {
+          "code": "H04L 43/0876",
+          "title": {
+            "ko": null,
+            "en": "Network utilisation, e.g. volume of load or congestion level"
+          }
+        },
+        {
+          "code": "H04L 43/0882",
+          "title": {
+            "ko": null,
+            "en": "Utilisation of link capacity"
+          }
+        },
+        {
+          "code": "H04L 43/0888",
+          "title": {
+            "ko": null,
+            "en": "Throughput"
+          }
+        },
+        {
+          "code": "H04L 43/0894",
+          "title": {
+            "ko": null,
+            "en": "Packet rate"
+          }
+        },
+        {
+          "code": "H04L 43/091",
+          "title": {
+            "ko": null,
+            "en": "Measuring contribution of individual network components to actual service level"
+          }
+        },
+        {
+          "code": "H04L 43/10",
+          "title": {
+            "ko": null,
+            "en": "Active monitoring, e.g. heartbeat, ping or trace-route"
+          }
+        },
+        {
+          "code": "H04L 43/103",
+          "title": {
+            "ko": null,
+            "en": "with adaptive polling, i.e. dynamically adapting the polling rate"
+          }
+        },
+        {
+          "code": "H04L 43/106",
+          "title": {
+            "ko": null,
+            "en": "using time related information in packets, e.g. by adding timestamps"
+          }
+        },
+        {
+          "code": "H04L 43/12",
+          "title": {
+            "ko": null,
+            "en": "Network monitoring probes"
+          }
+        },
+        {
+          "code": "H04L 43/16",
+          "title": {
+            "ko": null,
+            "en": "Threshold monitoring"
+          }
+        },
+        {
+          "code": "H04L 43/18",
+          "title": {
+            "ko": null,
+            "en": "Protocol analysers"
+          }
+        },
+        {
+          "code": "H04L 43/20",
+          "title": {
+            "ko": null,
+            "en": "the monitoring system or the monitored elements being virtualised, abstracted or software-defined entities, e.g. SDN or NFV"
+          }
+        },
+        {
+          "code": "H04L 43/50",
+          "title": {
+            "ko": null,
+            "en": "Testing arrangements"
+          }
+        },
+        {
+          "code": "H04L 43/55",
+          "title": {
+            "ko": null,
+            "en": "Testing of service level quality, e.g. simulating service usage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 45/00",
+      "title": {
+        "ko": "데이터 스위칭 네트워크에서 패킷의 라우팅 또는 경로 찾기(무선 네트워크에서 라우팅 또는 경로 찾기 H04W40/00)",
+        "en": "Routing or path finding of packets in data switching networks (routing or path finding in wireless networks H04W0040000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 45/02",
+          "title": {
+            "ko": null,
+            "en": "Topology update or discovery"
+          }
+        },
+        {
+          "code": "H04L 45/021",
+          "title": {
+            "ko": null,
+            "en": "Ensuring consistency of routing table updates, e.g. by using epoch numbers"
+          }
+        },
+        {
+          "code": "H04L 45/023",
+          "title": {
+            "ko": null,
+            "en": "Delayed use of routing table updates"
+          }
+        },
+        {
+          "code": "H04L 45/028",
+          "title": {
+            "ko": null,
+            "en": "Dynamic adaptation of the update intervals, e.g. event-triggered updates"
+          }
+        },
+        {
+          "code": "H04L 45/03",
+          "title": {
+            "ko": null,
+            "en": "by updating link state protocols"
+          }
+        },
+        {
+          "code": "H04L 45/033",
+          "title": {
+            "ko": null,
+            "en": "by updating distance vector protocols"
+          }
+        },
+        {
+          "code": "H04L 45/036",
+          "title": {
+            "ko": null,
+            "en": "Updating the topology between route computation elements, e.g. between OpenFlow controllers"
+          }
+        },
+        {
+          "code": "H04L 45/037",
+          "title": {
+            "ko": null,
+            "en": "Routes obligatorily traversing service-related nodes"
+          }
+        },
+        {
+          "code": "H04L 45/0377",
+          "title": {
+            "ko": null,
+            "en": "for service chaining"
+          }
+        },
+        {
+          "code": "H04L 45/12",
+          "title": {
+            "ko": null,
+            "en": "Shortest path evaluation"
+          }
+        },
+        {
+          "code": "H04L 45/121",
+          "title": {
+            "ko": null,
+            "en": "by minimising delays"
+          }
+        },
+        {
+          "code": "H04L 45/122",
+          "title": {
+            "ko": null,
+            "en": "by minimising distances, e.g. by selecting a route with minimum of number of hops"
+          }
+        },
+        {
+          "code": "H04L 45/125",
+          "title": {
+            "ko": null,
+            "en": "based on throughput or bandwidth"
+          }
+        },
+        {
+          "code": "H04L 45/128",
+          "title": {
+            "ko": null,
+            "en": "for finding disjoint paths"
+          }
+        },
+        {
+          "code": "H04L 45/16",
+          "title": {
+            "ko": null,
+            "en": "Multipoint routing"
+          }
+        },
+        {
+          "code": "H04L 45/17",
+          "title": {
+            "ko": null,
+            "en": "Shortcut routing, e.g. using next hop resolution protocol [NHRP]"
+          }
+        },
+        {
+          "code": "H04L 45/18",
+          "title": {
+            "ko": null,
+            "en": "Loop-free operations"
+          }
+        },
+        {
+          "code": "H04L 45/24",
+          "title": {
+            "ko": null,
+            "en": "Multipath"
+          }
+        },
+        {
+          "code": "H04L 45/243",
+          "title": {
+            "ko": null,
+            "en": "using M+N parallel active paths"
+          }
+        },
+        {
+          "code": "H04L 45/247",
+          "title": {
+            "ko": null,
+            "en": "using M:N active or standby paths"
+          }
+        },
+        {
+          "code": "H04L 45/28",
+          "title": {
+            "ko": null,
+            "en": "using route fault recovery"
+          }
+        },
+        {
+          "code": "H04L 45/30",
+          "title": {
+            "ko": null,
+            "en": "Routing of multiclass traffic"
+          }
+        },
+        {
+          "code": "H04L 45/302",
+          "title": {
+            "ko": null,
+            "en": "Route determination based on requested QoS"
+          }
+        },
+        {
+          "code": "H04L 45/42",
+          "title": {
+            "ko": null,
+            "en": "Centralised routing"
+          }
+        },
+        {
+          "code": "H04L 45/44",
+          "title": {
+            "ko": null,
+            "en": "Distributed routing"
+          }
+        },
+        {
+          "code": "H04L 45/48",
+          "title": {
+            "ko": null,
+            "en": "Routing tree calculation"
+          }
+        },
+        {
+          "code": "H04L 45/484",
+          "title": {
+            "ko": null,
+            "en": "using multiple routing trees"
+          }
+        },
+        {
+          "code": "H04L 45/488",
+          "title": {
+            "ko": null,
+            "en": "using root node determination"
+          }
+        },
+        {
+          "code": "H04L 45/50",
+          "title": {
+            "ko": null,
+            "en": "using label swapping, e.g. multi-protocol label switch [MPLS]"
+          }
+        },
+        {
+          "code": "H04L 45/52",
+          "title": {
+            "ko": null,
+            "en": "Multiprotocol routers"
+          }
+        },
+        {
+          "code": "H04L 45/58",
+          "title": {
+            "ko": null,
+            "en": "Association of routers"
+          }
+        },
+        {
+          "code": "H04L 45/586",
+          "title": {
+            "ko": null,
+            "en": "of virtual routers"
+          }
+        },
+        {
+          "code": "H04L 45/60",
+          "title": {
+            "ko": null,
+            "en": "Router architectures"
+          }
+        },
+        {
+          "code": "H04L 45/64",
+          "title": {
+            "ko": null,
+            "en": "using an overlay routing layer"
+          }
+        },
+        {
+          "code": "H04L 45/645",
+          "title": {
+            "ko": null,
+            "en": "Splitting route computation layer and forwarding layer, e.g. routing according to path computational element [PCE] or based on OpenFlow functionality"
+          }
+        },
+        {
+          "code": "H04L 45/655",
+          "title": {
+            "ko": null,
+            "en": "Interaction between route computation entities and forwarding entities, e.g. for route determination or for flow table update"
+          }
+        },
+        {
+          "code": "H04L 45/74",
+          "title": {
+            "ko": "라우팅을 위한 주소 처리",
+            "en": "Address processing for routing"
+          }
+        },
+        {
+          "code": "H04L 45/741",
+          "title": {
+            "ko": null,
+            "en": "Routing in networks with a plurality of addressing schemes, e.g. with both IPv4 and IPv6"
+          }
+        },
+        {
+          "code": "H04L 45/745",
+          "title": {
+            "ko": "주소 테이블 조회; 주소 필터링",
+            "en": "Address table lookup; Address filtering"
+          }
+        },
+        {
+          "code": "H04L 45/7452",
+          "title": {
+            "ko": "다중 병렬 또는 연속 조회 작업(블룸 필터 관련 조회 작업 H04L45/7459)",
+            "en": "Multiple parallel or consecutive lookup operations (lookup operation involving Bloom filters H04L0045745900)"
+          }
+        },
+        {
+          "code": "H04L 45/7453",
+          "title": {
+            "ko": null,
+            "en": "using hashing"
+          }
+        },
+        {
+          "code": "H04L 45/7459",
+          "title": {
+            "ko": null,
+            "en": "using Bloom filters"
+          }
+        },
+        {
+          "code": "H04L 45/748",
+          "title": {
+            "ko": null,
+            "en": "using longest matching prefix"
+          }
+        },
+        {
+          "code": "H04L 45/76",
+          "title": {
+            "ko": null,
+            "en": "Routing in software-defined topologies, e.g. routing between virtual machines"
+          }
+        },
+        {
+          "code": "H04L 45/80",
+          "title": {
+            "ko": null,
+            "en": "Ingress point selection by the source endpoint, e.g. selection of ISP or POP"
+          }
+        },
+        {
+          "code": "H04L 45/85",
+          "title": {
+            "ko": null,
+            "en": "Selection among different networks"
+          }
+        },
+        {
+          "code": "H04L 45/851",
+          "title": {
+            "ko": null,
+            "en": "Dynamic network selection or re-selection, e.g. after degradation of quality"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 47/00",
+      "title": {
+        "ko": "데이터 교환 네트워크에서의 트래픽 제어 (수신된 정보의 오류를 탐지 또는 방지하기 위한 장치 H04L1/00)",
+        "en": "Traffic control in data switching networks  (arrangements for detecting or preventing errors in the information received H04L0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 47/10",
+          "title": {
+            "ko": "플로우(flow) 제어; 혼잡 제어",
+            "en": "Flow control; Congestion control"
+          }
+        },
+        {
+          "code": "H04L 47/11",
+          "title": {
+            "ko": null,
+            "en": "Identifying congestion"
+          }
+        },
+        {
+          "code": "H04L 47/12",
+          "title": {
+            "ko": null,
+            "en": "Avoiding congestion; Recovering from congestion"
+          }
+        },
+        {
+          "code": "H04L 47/122",
+          "title": {
+            "ko": null,
+            "en": "by diverting traffic away from congested entities"
+          }
+        },
+        {
+          "code": "H04L 47/125",
+          "title": {
+            "ko": null,
+            "en": "by balancing the load, e.g. traffic engineering"
+          }
+        },
+        {
+          "code": "H04L 47/127",
+          "title": {
+            "ko": null,
+            "en": "by using congestion prediction"
+          }
+        },
+        {
+          "code": "H04L 47/129",
+          "title": {
+            "ko": null,
+            "en": "at the destination endpoint, e.g. reservation of terminal resources or buffer space"
+          }
+        },
+        {
+          "code": "H04L 47/17",
+          "title": {
+            "ko": null,
+            "en": "Interaction among intermediate nodes, e.g. hop by hop"
+          }
+        },
+        {
+          "code": "H04L 47/19",
+          "title": {
+            "ko": "네트워크 계층 위의 계층에서 (어플리케이션 요청 서비스를 예약하거나 구성하기 위한 네트워크 어플리케이션에 대한 네트워크 배치 H04L67/60)",
+            "en": "at layers above the network layer (network arrangements for networked applications for scheduling or organising the servicing of application requests H04L0067600000)"
+          }
+        },
+        {
+          "code": "H04L 47/193",
+          "title": {
+            "ko": null,
+            "en": "at the transport layer, e.g. TCP related"
+          }
+        },
+        {
+          "code": "H04L 47/20",
+          "title": {
+            "ko": null,
+            "en": "Traffic policing"
+          }
+        },
+        {
+          "code": "H04L 47/21",
+          "title": {
+            "ko": null,
+            "en": "using leaky-bucket"
+          }
+        },
+        {
+          "code": "H04L 47/215",
+          "title": {
+            "ko": null,
+            "en": "using token-bucket"
+          }
+        },
+        {
+          "code": "H04L 47/22",
+          "title": {
+            "ko": null,
+            "en": "Traffic shaping"
+          }
+        },
+        {
+          "code": "H04L 47/24",
+          "title": {
+            "ko": null,
+            "en": "Traffic characterised by specific attributes, e.g. priority or QoS"
+          }
+        },
+        {
+          "code": "H04L 47/2408",
+          "title": {
+            "ko": null,
+            "en": "for supporting different services, e.g. a differentiated services [DiffServ] type of service"
+          }
+        },
+        {
+          "code": "H04L 47/2416",
+          "title": {
+            "ko": null,
+            "en": "Real-time traffic"
+          }
+        },
+        {
+          "code": "H04L 47/2425",
+          "title": {
+            "ko": null,
+            "en": "for supporting services specification, e.g. SLA"
+          }
+        },
+        {
+          "code": "H04L 47/2441",
+          "title": {
+            "ko": null,
+            "en": "relying on flow classification, e.g. using integrated services [IntServ]"
+          }
+        },
+        {
+          "code": "H04L 47/2466",
+          "title": {
+            "ko": null,
+            "en": "using signalling traffic"
+          }
+        },
+        {
+          "code": "H04L 47/2475",
+          "title": {
+            "ko": null,
+            "en": "for supporting traffic characterised by the type of applications"
+          }
+        },
+        {
+          "code": "H04L 47/2483",
+          "title": {
+            "ko": null,
+            "en": "involving identification of individual flows"
+          }
+        },
+        {
+          "code": "H04L 47/2491",
+          "title": {
+            "ko": null,
+            "en": "Mapping quality of service [QoS] requirements between different networks"
+          }
+        },
+        {
+          "code": "H04L 47/25",
+          "title": {
+            "ko": null,
+            "en": "with rate being modified by the source upon detecting a change of network conditions"
+          }
+        },
+        {
+          "code": "H04L 47/26",
+          "title": {
+            "ko": "소스에서의 명시적 피드백 사용, 예. 초크 패킷",
+            "en": "using explicit feedback to the source, e.g. choke packets"
+          }
+        },
+        {
+          "code": "H04L 47/263",
+          "title": {
+            "ko": null,
+            "en": "Rate modification at the source after receiving feedback"
+          }
+        },
+        {
+          "code": "H04L 47/265",
+          "title": {
+            "ko": null,
+            "en": "sent by intermediate network nodes"
+          }
+        },
+        {
+          "code": "H04L 47/267",
+          "title": {
+            "ko": "목적지 엔드포인트에서 전송 (목적지에 의한 소스 제어를 가지는 미디어 패킷의 네트워크 스트리밍 H04L65/613)",
+            "en": "sent by the destination endpoint (network streaming of media packets with control of the source by the destination H04L0065613000)"
+          }
+        },
+        {
+          "code": "H04L 47/27",
+          "title": {
+            "ko": null,
+            "en": "Evaluation or update of window size, e.g. using information derived from acknowledged [ACK] packets"
+          }
+        },
+        {
+          "code": "H04L 47/28",
+          "title": {
+            "ko": null,
+            "en": "in relation to timing considerations"
+          }
+        },
+        {
+          "code": "H04L 47/283",
+          "title": {
+            "ko": null,
+            "en": "in response to processing delays, e.g. caused by jitter or round trip time [RTT]"
+          }
+        },
+        {
+          "code": "H04L 47/30",
+          "title": {
+            "ko": null,
+            "en": "in combination with information about buffer occupancy at either end or at transit nodes"
+          }
+        },
+        {
+          "code": "H04L 47/31",
+          "title": {
+            "ko": null,
+            "en": "by tagging of packets, e.g. using discard eligibility [DE] bits"
+          }
+        },
+        {
+          "code": "H04L 47/32",
+          "title": {
+            "ko": null,
+            "en": "by discarding or delaying data units, e.g. packets or frames"
+          }
+        },
+        {
+          "code": "H04L 47/33",
+          "title": {
+            "ko": null,
+            "en": "using forward notification"
+          }
+        },
+        {
+          "code": "H04L 47/34",
+          "title": {
+            "ko": null,
+            "en": "ensuring sequence integrity, e.g. using sequence numbers"
+          }
+        },
+        {
+          "code": "H04L 47/35",
+          "title": {
+            "ko": null,
+            "en": "by embedding flow control information in regular packets, e.g. piggybacking"
+          }
+        },
+        {
+          "code": "H04L 47/36",
+          "title": {
+            "ko": null,
+            "en": "by determining packet size, e.g. maximum transfer unit [MTU]"
+          }
+        },
+        {
+          "code": "H04L 47/38",
+          "title": {
+            "ko": null,
+            "en": "by adapting coding or compression rate"
+          }
+        },
+        {
+          "code": "H04L 47/40",
+          "title": {
+            "ko": null,
+            "en": "using split connections"
+          }
+        },
+        {
+          "code": "H04L 47/41",
+          "title": {
+            "ko": null,
+            "en": "by acting on aggregated flows or links"
+          }
+        },
+        {
+          "code": "H04L 47/43",
+          "title": {
+            "ko": null,
+            "en": "Assembling or disassembling of packets, e.g. segmentation and reassembly [SAR]"
+          }
+        },
+        {
+          "code": "H04L 47/431",
+          "title": {
+            "ko": null,
+            "en": "using padding or de-padding"
+          }
+        },
+        {
+          "code": "H04L 47/50",
+          "title": {
+            "ko": null,
+            "en": "Queue scheduling"
+          }
+        },
+        {
+          "code": "H04L 47/52",
+          "title": {
+            "ko": null,
+            "en": "by attributing bandwidth to queues"
+          }
+        },
+        {
+          "code": "H04L 47/525",
+          "title": {
+            "ko": null,
+            "en": "by redistribution of residual bandwidth"
+          }
+        },
+        {
+          "code": "H04L 47/56",
+          "title": {
+            "ko": null,
+            "en": "implementing delay-aware scheduling"
+          }
+        },
+        {
+          "code": "H04L 47/60",
+          "title": {
+            "ko": null,
+            "en": "implementing hierarchical scheduling"
+          }
+        },
+        {
+          "code": "H04L 47/62",
+          "title": {
+            "ko": null,
+            "en": "characterised by scheduling criteria"
+          }
+        },
+        {
+          "code": "H04L 47/625",
+          "title": {
+            "ko": null,
+            "en": "for service slots or service orders"
+          }
+        },
+        {
+          "code": "H04L 47/6275",
+          "title": {
+            "ko": null,
+            "en": "based on priority"
+          }
+        },
+        {
+          "code": "H04L 47/628",
+          "title": {
+            "ko": null,
+            "en": "based on packet size, e.g. shortest packet first"
+          }
+        },
+        {
+          "code": "H04L 47/629",
+          "title": {
+            "ko": null,
+            "en": "Ensuring fair share of resources, e.g. weighted fair queuing [WFQ]"
+          }
+        },
+        {
+          "code": "H04L 47/6295",
+          "title": {
+            "ko": null,
+            "en": "using multiple queues, one for each individual QoS, connection, flow or priority"
+          }
+        },
+        {
+          "code": "H04L 47/70",
+          "title": {
+            "ko": "수락 제어; 자원 할당",
+            "en": "Admission control; Resource allocation"
+          }
+        },
+        {
+          "code": "H04L 47/72",
+          "title": {
+            "ko": "연결 설정 중 예약 작업을 사용하는",
+            "en": "using reservation actions during connection setup"
+          }
+        },
+        {
+          "code": "H04L 47/722",
+          "title": {
+            "ko": null,
+            "en": "at the destination endpoint, e.g. reservation of terminal resources or buffer space"
+          }
+        },
+        {
+          "code": "H04L 47/724",
+          "title": {
+            "ko": null,
+            "en": "at intermediate nodes, e.g. resource reservation protocol [RSVP]"
+          }
+        },
+        {
+          "code": "H04L 47/726",
+          "title": {
+            "ko": "동시에 사용할 다수의 경로의 자원 예약 (로드 밸런싱에 의한 것 H04L47/125)",
+            "en": "Reserving resources in multiple paths to be used simultaneously (by balancing the load H04L0047125000)"
+          }
+        },
+        {
+          "code": "H04L 47/74",
+          "title": {
+            "ko": null,
+            "en": "measures in reaction to resource unavailability"
+          }
+        },
+        {
+          "code": "H04L 47/76",
+          "title": {
+            "ko": null,
+            "en": "using dynamic resource allocation, e.g. in-call renegotiation requested by the user or requested by the network in response to changing network conditions"
+          }
+        },
+        {
+          "code": "H04L 47/762",
+          "title": {
+            "ko": null,
+            "en": "triggered by the network"
+          }
+        },
+        {
+          "code": "H04L 47/765",
+          "title": {
+            "ko": null,
+            "en": "triggered by the end-points"
+          }
+        },
+        {
+          "code": "H04L 47/78",
+          "title": {
+            "ko": null,
+            "en": "Architectures of resource allocation"
+          }
+        },
+        {
+          "code": "H04L 47/783",
+          "title": {
+            "ko": null,
+            "en": "Distributed allocation of resources, e.g. bandwidth brokers"
+          }
+        },
+        {
+          "code": "H04L 47/785",
+          "title": {
+            "ko": null,
+            "en": "among multiple network domains, e.g. multilateral agreements"
+          }
+        },
+        {
+          "code": "H04L 47/80",
+          "title": {
+            "ko": null,
+            "en": "Actions related to the user profile or the type of traffic"
+          }
+        },
+        {
+          "code": "H04L 47/83",
+          "title": {
+            "ko": null,
+            "en": "based on usage prediction"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 49/00",
+      "title": {
+        "ko": null,
+        "en": "Packet switching elements"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 49/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the switching fabric construction"
+          }
+        },
+        {
+          "code": "H04L 49/101",
+          "title": {
+            "ko": null,
+            "en": "using crossbar or matrix"
+          }
+        },
+        {
+          "code": "H04L 49/102",
+          "title": {
+            "ko": null,
+            "en": "using shared medium, e.g. bus or ring"
+          }
+        },
+        {
+          "code": "H04L 49/103",
+          "title": {
+            "ko": null,
+            "en": "using a shared central buffer; using a shared memory"
+          }
+        },
+        {
+          "code": "H04L 49/104",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous transfer mode [ATM] switching fabrics"
+          }
+        },
+        {
+          "code": "H04L 49/109",
+          "title": {
+            "ko": null,
+            "en": "Integrated on microchip, e.g. switch-on-chip"
+          }
+        },
+        {
+          "code": "H04L 49/111",
+          "title": {
+            "ko": null,
+            "en": "Switch interfaces, e.g. port details"
+          }
+        },
+        {
+          "code": "H04L 49/112",
+          "title": {
+            "ko": null,
+            "en": "Switch control, e.g. arbitration"
+          }
+        },
+        {
+          "code": "H04L 49/113",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for redundant switching, e.g. using parallel planes"
+          }
+        },
+        {
+          "code": "H04L 49/115",
+          "title": {
+            "ko": null,
+            "en": "Transferring a complete packet or cell through each plane"
+          }
+        },
+        {
+          "code": "H04L 49/116",
+          "title": {
+            "ko": null,
+            "en": "Transferring a part of the packet through each plane, e.g. by bit-slicing"
+          }
+        },
+        {
+          "code": "H04L 49/118",
+          "title": {
+            "ko": null,
+            "en": "Address processing within a device, e.g. using internal ID or tags for routing within a switch"
+          }
+        },
+        {
+          "code": "H04L 49/15",
+          "title": {
+            "ko": null,
+            "en": "Interconnection of switching modules"
+          }
+        },
+        {
+          "code": "H04L 49/1515",
+          "title": {
+            "ko": null,
+            "en": "Non-blocking multistage, e.g. Clos"
+          }
+        },
+        {
+          "code": "H04L 49/1546",
+          "title": {
+            "ko": null,
+            "en": "using pipelined operation"
+          }
+        },
+        {
+          "code": "H04L 49/20",
+          "title": {
+            "ko": null,
+            "en": "Support for services"
+          }
+        },
+        {
+          "code": "H04L 49/201",
+          "title": {
+            "ko": null,
+            "en": "Multicast operation; Broadcast operation"
+          }
+        },
+        {
+          "code": "H04L 49/25",
+          "title": {
+            "ko": null,
+            "en": "Routing or path finding in a switch fabric"
+          }
+        },
+        {
+          "code": "H04L 49/253",
+          "title": {
+            "ko": null,
+            "en": "using establishment or release of connections between ports"
+          }
+        },
+        {
+          "code": "H04L 49/35",
+          "title": {
+            "ko": null,
+            "en": "Switches specially adapted for specific applications"
+          }
+        },
+        {
+          "code": "H04L 49/351",
+          "title": {
+            "ko": null,
+            "en": "for local area network [LAN], e.g. Ethernet switches"
+          }
+        },
+        {
+          "code": "H04L 49/354",
+          "title": {
+            "ko": null,
+            "en": "for supporting virtual local area networks [VLAN]"
+          }
+        },
+        {
+          "code": "H04L 49/356",
+          "title": {
+            "ko": null,
+            "en": "for storage area networks"
+          }
+        },
+        {
+          "code": "H04L 49/40",
+          "title": {
+            "ko": null,
+            "en": "Constructional details, e.g. power supply, mechanical construction or backplane"
+          }
+        },
+        {
+          "code": "H04L 49/45",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for providing or supporting expansion"
+          }
+        },
+        {
+          "code": "H04L 49/50",
+          "title": {
+            "ko": null,
+            "en": "Overload detection or protection within a single switching element"
+          }
+        },
+        {
+          "code": "H04L 49/505",
+          "title": {
+            "ko": null,
+            "en": "Corrective measures"
+          }
+        },
+        {
+          "code": "H04L 49/506",
+          "title": {
+            "ko": null,
+            "en": "Backpressure"
+          }
+        },
+        {
+          "code": "H04L 49/55",
+          "title": {
+            "ko": null,
+            "en": "Prevention, detection or correction of errors"
+          }
+        },
+        {
+          "code": "H04L 49/552",
+          "title": {
+            "ko": null,
+            "en": "by ensuring the integrity of packets received through redundant connections"
+          }
+        },
+        {
+          "code": "H04L 49/60",
+          "title": {
+            "ko": null,
+            "en": "Software-defined switches"
+          }
+        },
+        {
+          "code": "H04L 49/65",
+          "title": {
+            "ko": null,
+            "en": "Re-configuration of fast packet switches"
+          }
+        },
+        {
+          "code": "H04L 49/90",
+          "title": {
+            "ko": null,
+            "en": "Buffering arrangements"
+          }
+        },
+        {
+          "code": "H04L 49/9005",
+          "title": {
+            "ko": null,
+            "en": "using dynamic buffer space allocation"
+          }
+        },
+        {
+          "code": "H04L 49/901",
+          "title": {
+            "ko": null,
+            "en": "using storage descriptor, e.g. read or write pointers"
+          }
+        },
+        {
+          "code": "H04L 49/9015",
+          "title": {
+            "ko": null,
+            "en": "for supporting a linked list"
+          }
+        },
+        {
+          "code": "H04L 49/9023",
+          "title": {
+            "ko": null,
+            "en": "for implementing a jitter-buffer"
+          }
+        },
+        {
+          "code": "H04L 49/9047",
+          "title": {
+            "ko": null,
+            "en": "including multiple buffers, e.g. buffer pools"
+          }
+        },
+        {
+          "code": "H04L 49/9057",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supporting packet reassembly or resequencing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 51/00",
+      "title": {
+        "ko": "저장-후-전달 또는 실시간 프로토콜에 따라 전송되는 패킷 스위칭 네트워크에서 사용자간 메시지, 예. e-mail",
+        "en": "User-to-user messaging in packet-switching networks, transmitted according to store-and-forward or real-time protocols, e.g. e-mail"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 51/02",
+          "title": {
+            "ko": null,
+            "en": "using automatic reactions or user delegation, e.g. automatic replies or chatbot-generated messages"
+          }
+        },
+        {
+          "code": "H04L 51/04",
+          "title": {
+            "ko": null,
+            "en": "Real-time or near real-time messaging, e.g. instant messaging [IM]"
+          }
+        },
+        {
+          "code": "H04L 51/043",
+          "title": {
+            "ko": null,
+            "en": "using or handling presence information"
+          }
+        },
+        {
+          "code": "H04L 51/046",
+          "title": {
+            "ko": null,
+            "en": "Interoperability with other network applications or services"
+          }
+        },
+        {
+          "code": "H04L 51/06",
+          "title": {
+            "ko": null,
+            "en": "Message adaptation to terminal or network requirements"
+          }
+        },
+        {
+          "code": "H04L 51/063",
+          "title": {
+            "ko": null,
+            "en": "Content adaptation, e.g. replacement of unsuitable content"
+          }
+        },
+        {
+          "code": "H04L 51/066",
+          "title": {
+            "ko": null,
+            "en": "Format adaptation, e.g. format conversion or compression"
+          }
+        },
+        {
+          "code": "H04L 51/07",
+          "title": {
+            "ko": null,
+            "en": "characterised by the inclusion of specific contents"
+          }
+        },
+        {
+          "code": "H04L 51/08",
+          "title": {
+            "ko": null,
+            "en": "Annexed information, e.g. attachments"
+          }
+        },
+        {
+          "code": "H04L 51/10",
+          "title": {
+            "ko": null,
+            "en": "Multimedia information"
+          }
+        },
+        {
+          "code": "H04L 51/18",
+          "title": {
+            "ko": null,
+            "en": "Commands or executable codes"
+          }
+        },
+        {
+          "code": "H04L 51/21",
+          "title": {
+            "ko": null,
+            "en": "Monitoring or handling of messages"
+          }
+        },
+        {
+          "code": "H04L 51/212",
+          "title": {
+            "ko": null,
+            "en": "using filtering or selective blocking"
+          }
+        },
+        {
+          "code": "H04L 51/214",
+          "title": {
+            "ko": null,
+            "en": "using selective forwarding"
+          }
+        },
+        {
+          "code": "H04L 51/216",
+          "title": {
+            "ko": null,
+            "en": "Handling conversation history, e.g. grouping of messages in sessions or threads"
+          }
+        },
+        {
+          "code": "H04L 51/222",
+          "title": {
+            "ko": null,
+            "en": "using geographical location information, e.g. messages transmitted or received in proximity of a certain spot or area"
+          }
+        },
+        {
+          "code": "H04L 51/224",
+          "title": {
+            "ko": null,
+            "en": "providing notification on incoming messages, e.g. pushed notifications of received messages"
+          }
+        },
+        {
+          "code": "H04L 51/226",
+          "title": {
+            "ko": null,
+            "en": "Delivery according to priorities"
+          }
+        },
+        {
+          "code": "H04L 51/23",
+          "title": {
+            "ko": null,
+            "en": "Reliability checks, e.g. acknowledgments or fault reporting"
+          }
+        },
+        {
+          "code": "H04L 51/234",
+          "title": {
+            "ko": null,
+            "en": "for tracking messages"
+          }
+        },
+        {
+          "code": "H04L 51/42",
+          "title": {
+            "ko": null,
+            "en": "Mailbox-related aspects, e.g. synchronisation of mailboxes"
+          }
+        },
+        {
+          "code": "H04L 51/48",
+          "title": {
+            "ko": null,
+            "en": "Message addressing, e.g. address format or anonymous messages, aliases"
+          }
+        },
+        {
+          "code": "H04L 51/52",
+          "title": {
+            "ko": null,
+            "en": "for supporting social networking services"
+          }
+        },
+        {
+          "code": "H04L 51/56",
+          "title": {
+            "ko": "통합 메시징, 예. 전자 메일, 인스턴트 메시징 또는 통합형 IP 메시징간의 상호 작용 [CPM]",
+            "en": "Unified messaging, e.g. interactions between e-mail, instant messaging or converged IP messaging [CPM]"
+          }
+        },
+        {
+          "code": "H04L 51/58",
+          "title": {
+            "ko": null,
+            "en": "Message adaptation for wireless communication"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 61/00",
+      "title": {
+        "ko": "어드레싱 또는 네이밍을 위한 네트워크 장치, 프로토콜 또는 서비스",
+        "en": "Network arrangements, protocols or services for addressing or naming"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 61/09",
+          "title": {
+            "ko": null,
+            "en": "Mapping addresses"
+          }
+        },
+        {
+          "code": "H04L 61/10",
+          "title": {
+            "ko": null,
+            "en": "of different types"
+          }
+        },
+        {
+          "code": "H04L 61/103",
+          "title": {
+            "ko": null,
+            "en": "across network layers, e.g. resolution of network layer into physical layer addresses or address resolution protocol [ARP]"
+          }
+        },
+        {
+          "code": "H04L 61/106",
+          "title": {
+            "ko": null,
+            "en": "across networks, e.g. mapping telephone numbers to data network addresses"
+          }
+        },
+        {
+          "code": "H04L 61/25",
+          "title": {
+            "ko": null,
+            "en": "of the same type"
+          }
+        },
+        {
+          "code": "H04L 61/2503",
+          "title": {
+            "ko": null,
+            "en": "Translation of Internet protocol [IP] addresses"
+          }
+        },
+        {
+          "code": "H04L 61/251",
+          "title": {
+            "ko": null,
+            "en": "between different IP versions"
+          }
+        },
+        {
+          "code": "H04L 61/2514",
+          "title": {
+            "ko": null,
+            "en": "between local and global IP addresses"
+          }
+        },
+        {
+          "code": "H04L 61/2517",
+          "title": {
+            "ko": null,
+            "en": "using port numbers"
+          }
+        },
+        {
+          "code": "H04L 61/2521",
+          "title": {
+            "ko": null,
+            "en": "Translation architectures other than single NAT servers"
+          }
+        },
+        {
+          "code": "H04L 61/2539",
+          "title": {
+            "ko": null,
+            "en": "Hiding addresses; Keeping addresses anonymous"
+          }
+        },
+        {
+          "code": "H04L 61/2546",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for avoiding unnecessary translation"
+          }
+        },
+        {
+          "code": "H04L 61/255",
+          "title": {
+            "ko": null,
+            "en": "Maintenance or indexing of mapping tables"
+          }
+        },
+        {
+          "code": "H04L 61/2553",
+          "title": {
+            "ko": null,
+            "en": "Binding renewal aspects, e.g. using keep-alive messages"
+          }
+        },
+        {
+          "code": "H04L 61/2557",
+          "title": {
+            "ko": null,
+            "en": "Translation policies or rules"
+          }
+        },
+        {
+          "code": "H04L 61/256",
+          "title": {
+            "ko": null,
+            "en": "NAT traversal"
+          }
+        },
+        {
+          "code": "H04L 61/2567",
+          "title": {
+            "ko": null,
+            "en": "for reachability, e.g. inquiring the address of a correspondent behind a NAT server"
+          }
+        },
+        {
+          "code": "H04L 61/2575",
+          "title": {
+            "ko": null,
+            "en": "using address mapping retrieval, e.g. simple traversal of user datagram protocol through session traversal utilities for NAT [STUN]"
+          }
+        },
+        {
+          "code": "H04L 61/2578",
+          "title": {
+            "ko": null,
+            "en": "without involvement of the NAT server"
+          }
+        },
+        {
+          "code": "H04L 61/2582",
+          "title": {
+            "ko": null,
+            "en": "through control of the NAT server, e.g. using universal plug and play [UPnP]"
+          }
+        },
+        {
+          "code": "H04L 61/2585",
+          "title": {
+            "ko": null,
+            "en": "through application level gateway [ALG]"
+          }
+        },
+        {
+          "code": "H04L 61/2589",
+          "title": {
+            "ko": null,
+            "en": "over a relay server, e.g. traversal using relay for network address translation [TURN]"
+          }
+        },
+        {
+          "code": "H04L 61/2592",
+          "title": {
+            "ko": null,
+            "en": "using tunnelling or encapsulation"
+          }
+        },
+        {
+          "code": "H04L 61/2596",
+          "title": {
+            "ko": null,
+            "en": "Translation of addresses of the same type other than IP, e.g. translation from MAC to MAC addresses"
+          }
+        },
+        {
+          "code": "H04L 61/30",
+          "title": {
+            "ko": "네트워크 이름 관리, 예. 별칭 또는 별명의 사용 (이름 대 어드레스 매핑 H04L61/45)",
+            "en": "Managing network names, e.g. use of aliases or nicknames (name-to-address mapping H04L0061450000)"
+          }
+        },
+        {
+          "code": "H04L 61/301",
+          "title": {
+            "ko": null,
+            "en": "Name conversion"
+          }
+        },
+        {
+          "code": "H04L 61/3015",
+          "title": {
+            "ko": null,
+            "en": "Name registration, generation or assignment"
+          }
+        },
+        {
+          "code": "H04L 61/45",
+          "title": {
+            "ko": "네트워크 디렉토리; 이름 - 주소 매핑",
+            "en": "Network directories; Name-to-address mapping"
+          }
+        },
+        {
+          "code": "H04L 61/4505",
+          "title": {
+            "ko": null,
+            "en": "using standardised directories; using standardised directory access protocols"
+          }
+        },
+        {
+          "code": "H04L 61/4511",
+          "title": {
+            "ko": null,
+            "en": "using domain name system [DNS]"
+          }
+        },
+        {
+          "code": "H04L 61/4517",
+          "title": {
+            "ko": null,
+            "en": "using open systems interconnection [OSI] directories, e.g. X.500"
+          }
+        },
+        {
+          "code": "H04L 61/4523",
+          "title": {
+            "ko": null,
+            "en": "using lightweight directory access protocol [LDAP]"
+          }
+        },
+        {
+          "code": "H04L 61/4535",
+          "title": {
+            "ko": "두 노드간의 세션을 설정하는 주소 교환 플랫폼을 사용하는, 예. \"만남\"(rendezvous) 서버, 세션 개시 프로토콜 [SIP] 등록 기관 또는 H.323 게이트 키퍼",
+            "en": "using an address exchange platform which sets up a session between two nodes, e.g. rendezvous servers, session initiation protocols [SIP] registrars or H.323 gatekeepers"
+          }
+        },
+        {
+          "code": "H04L 61/4541",
+          "title": {
+            "ko": null,
+            "en": "Directories for service discovery"
+          }
+        },
+        {
+          "code": "H04L 61/4552",
+          "title": {
+            "ko": null,
+            "en": "Lookup mechanisms between a plurality of directories; Synchronisation of directories, e.g. metadirectories"
+          }
+        },
+        {
+          "code": "H04L 61/4557",
+          "title": {
+            "ko": null,
+            "en": "Directories for hybrid networks, e.g. including telephone numbers"
+          }
+        },
+        {
+          "code": "H04L 61/4588",
+          "title": {
+            "ko": null,
+            "en": "containing mobile subscriber information, e.g. home subscriber server [HSS]"
+          }
+        },
+        {
+          "code": "H04L 61/4594",
+          "title": {
+            "ko": "주소록, 즉. 상대에 대한 연락처 정보가 포함된 디렉토리 (사용자 장치의 전화 디렉토리 H04M1/27453)",
+            "en": "Address books, i.e. directories containing contact information about correspondents (telephone directories in user terminals H04M0001274530)"
+          }
+        },
+        {
+          "code": "H04L 61/50",
+          "title": {
+            "ko": "주소 할당",
+            "en": "Address allocation"
+          }
+        },
+        {
+          "code": "H04L 61/5007",
+          "title": {
+            "ko": null,
+            "en": "Internet protocol [IP] addresses"
+          }
+        },
+        {
+          "code": "H04L 61/5014",
+          "title": {
+            "ko": null,
+            "en": "using dynamic host configuration protocol [DHCP] or bootstrap protocol [BOOTP]"
+          }
+        },
+        {
+          "code": "H04L 61/503",
+          "title": {
+            "ko": null,
+            "en": "using an authentication, authorisation and accounting [AAA] protocol, e.g. remote authentication dial-in user service [RADIUS] or Diameter"
+          }
+        },
+        {
+          "code": "H04L 61/5038",
+          "title": {
+            "ko": null,
+            "en": "for local use, e.g. in LAN or USB networks, or in a controller area network [CAN]"
+          }
+        },
+        {
+          "code": "H04L 61/5046",
+          "title": {
+            "ko": "주소 할당 충돌 해결; 주소 테스트 (자체 할당 주소 테스트 h04l61/5092)",
+            "en": "Resolving address allocation conflicts; Testing of addresses (testing when self-assigning an address H04L0061509200)"
+          }
+        },
+        {
+          "code": "H04L 61/5053",
+          "title": {
+            "ko": null,
+            "en": "Lease time; Renewal aspects"
+          }
+        },
+        {
+          "code": "H04L 61/5061",
+          "title": {
+            "ko": null,
+            "en": "Pools of addresses"
+          }
+        },
+        {
+          "code": "H04L 61/5069",
+          "title": {
+            "ko": null,
+            "en": "for group communication, multicast communication or broadcast communication"
+          }
+        },
+        {
+          "code": "H04L 61/5076",
+          "title": {
+            "ko": null,
+            "en": "Update or notification mechanisms, e.g. DynDNS"
+          }
+        },
+        {
+          "code": "H04L 61/5084",
+          "title": {
+            "ko": "장치 이동성 제공 (무선 네트워크에서 이동성 지원을위한 네트워크 주소 지정 또는 번호 부여 H04W8/26, 모바일IP H04W80/04)",
+            "en": "Providing for device mobility (network addressing or numbering for mobility support in wireless networks H04W0008260000;mobile IP H04W0080040000)"
+          }
+        },
+        {
+          "code": "H04L 61/5092",
+          "title": {
+            "ko": null,
+            "en": "by self-assignment, e.g. picking addresses at random and testing if they are already in use"
+          }
+        },
+        {
+          "code": "H04L 61/58",
+          "title": {
+            "ko": null,
+            "en": "Caching of addresses or names"
+          }
+        },
+        {
+          "code": "H04L 61/59",
+          "title": {
+            "ko": null,
+            "en": "using proxies for addressing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 65/00",
+      "title": {
+        "ko": "데이터 패킷 통신에서 실시간 응용 프로그램을 지원하기 위한 네트워크 장치, 프로토콜 또는 서비스 (실시간 또는 실시간에 가까운 메시징, 예. 인스턴트 메시징 [IM] H04L51/04, 선택적 비디오 배포 H04N21/00)",
+        "en": "Network arrangements, protocols or services for supporting real-time applications in data packet communication (real-time or near real-time messaging, e.g. instant messaging [IM] H04L0051040000;selective video distribution H04N0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 65/10",
+          "title": {
+            "ko": "아키텍처 또는 엔티티",
+            "en": "Architectures or entities"
+          }
+        },
+        {
+          "code": "H04L 65/1016",
+          "title": {
+            "ko": null,
+            "en": "IP multimedia subsystem [IMS]"
+          }
+        },
+        {
+          "code": "H04L 65/102",
+          "title": {
+            "ko": "게이트웨이 (다른 유형의 스위칭 시스템을 가지는 네트워크간에 연결을 위한 장치, 예. 게이트웨이 H04L12/66)",
+            "en": "Gateways (arrangements for connecting between networks having differing types of switching systems, e.g. gateways, H04L0012660000)"
+          }
+        },
+        {
+          "code": "H04L 65/1023",
+          "title": {
+            "ko": null,
+            "en": "Media gateways"
+          }
+        },
+        {
+          "code": "H04L 65/1033",
+          "title": {
+            "ko": null,
+            "en": "Signalling gateways"
+          }
+        },
+        {
+          "code": "H04L 65/1043",
+          "title": {
+            "ko": null,
+            "en": "Gateway controllers, e.g. media gateway control protocol [MGCP] controllers"
+          }
+        },
+        {
+          "code": "H04L 65/1045",
+          "title": {
+            "ko": null,
+            "en": "Proxies, e.g. for session initiation protocol [SIP]"
+          }
+        },
+        {
+          "code": "H04L 65/1046",
+          "title": {
+            "ko": null,
+            "en": "Call controllers; Call servers"
+          }
+        },
+        {
+          "code": "H04L 65/1053",
+          "title": {
+            "ko": "IP 사설 교환기 [PBX] 기능 엔티티 또는 배치 (회로 스위치 PBXS H04M3/00)",
+            "en": "IP private branch exchange [PBX] functionality entities or arrangements (circuit switched PBXs H04M0003000000)"
+          }
+        },
+        {
+          "code": "H04L 65/1055",
+          "title": {
+            "ko": null,
+            "en": "Single-site"
+          }
+        },
+        {
+          "code": "H04L 65/1056",
+          "title": {
+            "ko": null,
+            "en": "Multi-site"
+          }
+        },
+        {
+          "code": "H04L 65/1059",
+          "title": {
+            "ko": null,
+            "en": "End-user terminal functionalities specially adapted for real-time communication"
+          }
+        },
+        {
+          "code": "H04L 65/1063",
+          "title": {
+            "ko": "네트워크 서비스를 제공하는 응용 프로그램 서버 (H04M3/42에 특별 서비스를 제공하는 시스템)",
+            "en": "Application servers providing network services (systems providing special services to telephonic subscribers H04M0003420000)"
+          }
+        },
+        {
+          "code": "H04L 65/1066",
+          "title": {
+            "ko": "세션 관리",
+            "en": "Session management"
+          }
+        },
+        {
+          "code": "H04L 65/1069",
+          "title": {
+            "ko": null,
+            "en": "Session establishment or de-establishment"
+          }
+        },
+        {
+          "code": "H04L 65/1073",
+          "title": {
+            "ko": null,
+            "en": "Registration or de-registration"
+          }
+        },
+        {
+          "code": "H04L 65/1076",
+          "title": {
+            "ko": null,
+            "en": "Screening of IP real time communications, e.g. spam over Internet telephony [SPIT]"
+          }
+        },
+        {
+          "code": "H04L 65/1083",
+          "title": {
+            "ko": null,
+            "en": "In-session procedures"
+          }
+        },
+        {
+          "code": "H04L 65/1089",
+          "title": {
+            "ko": null,
+            "en": "by adding media; by removing media"
+          }
+        },
+        {
+          "code": "H04L 65/1093",
+          "title": {
+            "ko": null,
+            "en": "by adding participants; by removing participants"
+          }
+        },
+        {
+          "code": "H04L 65/1094",
+          "title": {
+            "ko": null,
+            "en": "Inter-user-equipment sessions transfer or sharing"
+          }
+        },
+        {
+          "code": "H04L 65/1095",
+          "title": {
+            "ko": null,
+            "en": "Inter-network session transfer or sharing"
+          }
+        },
+        {
+          "code": "H04L 65/1096",
+          "title": {
+            "ko": "보충 기능, 예. 착신 전환 또는 통화 대기 (전화 가입자에게 특별 서비스 또는 시설을 제공하는 시스템 H04M3/42)",
+            "en": "Supplementary features, e.g. call forwarding or call holding (systems providing special services or facilities to telephony subscribers H04M0003420000)"
+          }
+        },
+        {
+          "code": "H04L 65/1101",
+          "title": {
+            "ko": "세션 프로토콜",
+            "en": "Session protocols"
+          }
+        },
+        {
+          "code": "H04L 65/1104",
+          "title": {
+            "ko": null,
+            "en": "Session initiation protocol [SIP]"
+          }
+        },
+        {
+          "code": "H04L 65/1106",
+          "title": {
+            "ko": "통화 시그널링 프로토콜; H.323 및 관련",
+            "en": "Call signalling protocols; H.323 and related"
+          }
+        },
+        {
+          "code": "H04L 65/1108",
+          "title": {
+            "ko": null,
+            "en": "Web based protocols, e.g. webRTC"
+          }
+        },
+        {
+          "code": "H04L 65/40",
+          "title": {
+            "ko": "서비스 또는 응용 프로그램 지원",
+            "en": "Support for services or applications"
+          }
+        },
+        {
+          "code": "H04L 65/401",
+          "title": {
+            "ko": null,
+            "en": "wherein the services involve a main real-time session and one or more additional parallel real-time or time sensitive sessions, e.g. white board sharing or spawning of a subconference"
+          }
+        },
+        {
+          "code": "H04L 65/402",
+          "title": {
+            "ko": null,
+            "en": "wherein the services involve a main real-time session and one or more additional parallel non-real time sessions, e.g. downloading a file in a parallel FTP session, initiating an email or combinational services"
+          }
+        },
+        {
+          "code": "H04L 65/403",
+          "title": {
+            "ko": "다자간 통신을 위한 장치, 예. 회의용 (회의용 데이터 스위칭 시스템 H04L12/18; 여러 가입자가 공통회로에 연결하는 장치, 즉 회의 시설을 제공 H04M3/56, 텔레비젼 회의 시스템 H04N7/15)",
+            "en": "Arrangements for multi-party communication, e.g. for conferences  (data switching systems for conference H04L0012180000; arrangements for connecting several subscribers to a common circuit, i.e. affording conference facilities H04M0003560000; television conferencing systems H04N0007150000)"
+          }
+        },
+        {
+          "code": "H04L 65/4038",
+          "title": {
+            "ko": null,
+            "en": "with floor control"
+          }
+        },
+        {
+          "code": "H04L 65/4053",
+          "title": {
+            "ko": null,
+            "en": "without floor control"
+          }
+        },
+        {
+          "code": "H04L 65/4061",
+          "title": {
+            "ko": null,
+            "en": "Push-to services, e.g. push-to-talk or push-to-video"
+          }
+        },
+        {
+          "code": "H04L 65/60",
+          "title": {
+            "ko": "미디어 패킷의 네트워크 스트리밍",
+            "en": "Network streaming of media packets"
+          }
+        },
+        {
+          "code": "H04L 65/61",
+          "title": {
+            "ko": "단방향 스트리밍 서비스를 지원하기 위한, 예. 인터넷 라디오",
+            "en": "for supporting one-way streaming services, e.g. Internet radio"
+          }
+        },
+        {
+          "code": "H04L 65/611",
+          "title": {
+            "ko": "멀티 캐스트 또는 브로드 캐스트를 위한 (방송과 결합 된 방송 또는 배포 장치 H04H20/00 ; 방송 정보 또는 방송 시간-공간을 통한 직접 연결을 가진 방송 응용 프로그램을 위한 장치 H04H60/00 ; 방송 또는 회의 시스템 H04L12/18 시스템; 선택적 배포, 예.멀티미디어 방송 멀티 캐스트 서비스 [MBMS], H04W4/06)",
+            "en": "for multicast or broadcast  (arrangements for broadcast or distribution combined with broadcast H04H0020000000; arrangements for broadcast applications with a direct linkage to broadcast information or to broadcast space-time H04H0060000000; systems for broadcast or conference H04L0012180000;selective distribution of broadcast services, e.g. multimedia broadcast multicast service [MBMS], H04W0004060000)"
+          }
+        },
+        {
+          "code": "H04L 65/612",
+          "title": {
+            "ko": null,
+            "en": "for unicast"
+          }
+        },
+        {
+          "code": "H04L 65/613",
+          "title": {
+            "ko": "목적지에 의한 소스 제어를 위한(클라이언트가 서버 또는 네트워크 구성 요소로 전송한 선택적 컨텐트 배포에 특별히 적응된 제어 신호 H04N21/637)",
+            "en": "for the control of the source by the destination (control signals issued by the client directed to the server or network components specially adapted for selective content distribution H04N0021637000)"
+          }
+        },
+        {
+          "code": "H04L 65/65",
+          "title": {
+            "ko": null,
+            "en": "Network streaming protocols, e.g. real-time transport protocol [RTP] or real-time control protocol [RTCP]"
+          }
+        },
+        {
+          "code": "H04L 65/70",
+          "title": {
+            "ko": null,
+            "en": "Media network packetisation"
+          }
+        },
+        {
+          "code": "H04L 65/75",
+          "title": {
+            "ko": null,
+            "en": "Media network packet handling"
+          }
+        },
+        {
+          "code": "H04L 65/752",
+          "title": {
+            "ko": null,
+            "en": "adapting media to network capabilities"
+          }
+        },
+        {
+          "code": "H04L 65/756",
+          "title": {
+            "ko": null,
+            "en": "adapting media to device capabilities"
+          }
+        },
+        {
+          "code": "H04L 65/80",
+          "title": {
+            "ko": null,
+            "en": "Responding to QoS"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 67/00",
+      "title": {
+        "ko": "네트워크 서비스 또는 응용 프로그램을 지원하기 위한 네트워크 배치 또는 프로토콜 (사용자 간 메시징 H04L51/00; 데이터 패킷 통신 네트워크에서 실시간 애플리케이션을 지원하기위한 네트워크 장치, 프로토콜 또는 서비스 H04L65/00)",
+        "en": "Network arrangements or protocols for supporting network services or applications  (user-to-user messaging H04L0051000000; network arrangements, protocols or services for supporting real-time applications in data packet communications networks H04L0065000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 67/01",
+          "title": {
+            "ko": "프로토콜",
+            "en": "Protocols"
+          }
+        },
+        {
+          "code": "H04L 67/02",
+          "title": {
+            "ko": null,
+            "en": "based on web technology, e.g. hypertext transfer protocol [HTTP]"
+          }
+        },
+        {
+          "code": "H04L 67/025",
+          "title": {
+            "ko": null,
+            "en": "for remote control or remote monitoring of applications"
+          }
+        },
+        {
+          "code": "H04L 67/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for terminals or networks with limited capabilities; specially adapted for terminal portability"
+          }
+        },
+        {
+          "code": "H04L 67/06",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for file transfer, e.g. file transfer protocol [FTP]"
+          }
+        },
+        {
+          "code": "H04L 67/08",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for terminal emulation, e.g. Telnet"
+          }
+        },
+        {
+          "code": "H04L 67/10",
+          "title": {
+            "ko": "응용 프로그램이 네트워크의 노드에 걸쳐 배포되는 (다중프로그래밍 장치 G06F9/46, 소프트웨어 배포 G06F8/60)",
+            "en": "in which an application is distributed across nodes in the network (multiprogramming arrangements G06F0009460000;software deployment G06F0008600000)"
+          }
+        },
+        {
+          "code": "H04L 67/1001",
+          "title": {
+            "ko": "복수의 복제된 서버 중 하나에 액세스하기 위한",
+            "en": "for accessing one among a plurality of replicated servers"
+          }
+        },
+        {
+          "code": "H04L 67/1004",
+          "title": {
+            "ko": "로드 밸런싱을 위한 서버 선택",
+            "en": "Server selection for load balancing"
+          }
+        },
+        {
+          "code": "H04L 67/1006",
+          "title": {
+            "ko": null,
+            "en": "with static server selection, e.g. the same server being selected for a specific client"
+          }
+        },
+        {
+          "code": "H04L 67/1008",
+          "title": {
+            "ko": "서버의 파라미터에 기반한, 예. 사용가능한 메모리 또는 워크로드 (컴퓨터 활동 모니터링 G06F11/30)",
+            "en": "based on parameters of servers, e.g. available memory or workload (monitoring of computer activity G06F0011300000)"
+          }
+        },
+        {
+          "code": "H04L 67/101",
+          "title": {
+            "ko": null,
+            "en": "based on network conditions"
+          }
+        },
+        {
+          "code": "H04L 67/1012",
+          "title": {
+            "ko": null,
+            "en": "based on compliance of requirements or conditions with available server resources"
+          }
+        },
+        {
+          "code": "H04L 67/1014",
+          "title": {
+            "ko": null,
+            "en": "based on the content of a request"
+          }
+        },
+        {
+          "code": "H04L 67/1017",
+          "title": {
+            "ko": null,
+            "en": "based on a round robin mechanism"
+          }
+        },
+        {
+          "code": "H04L 67/1019",
+          "title": {
+            "ko": null,
+            "en": "Random or heuristic server selection"
+          }
+        },
+        {
+          "code": "H04L 67/1021",
+          "title": {
+            "ko": null,
+            "en": "based on client or server locations"
+          }
+        },
+        {
+          "code": "H04L 67/1023",
+          "title": {
+            "ko": null,
+            "en": "based on a hash applied to IP addresses or costs"
+          }
+        },
+        {
+          "code": "H04L 67/1025",
+          "title": {
+            "ko": null,
+            "en": "Dynamic adaptation of the criteria on which the server selection is based"
+          }
+        },
+        {
+          "code": "H04L 67/1027",
+          "title": {
+            "ko": null,
+            "en": "Persistence of sessions during load balancing"
+          }
+        },
+        {
+          "code": "H04L 67/1029",
+          "title": {
+            "ko": null,
+            "en": "using data related to the state of servers by a load balancer"
+          }
+        },
+        {
+          "code": "H04L 67/1031",
+          "title": {
+            "ko": null,
+            "en": "Controlling of the operation of servers by a load balancer, e.g. adding or removing servers that serve requests"
+          }
+        },
+        {
+          "code": "H04L 67/1034",
+          "title": {
+            "ko": null,
+            "en": "Reaction to server failures by a load balancer"
+          }
+        },
+        {
+          "code": "H04L 67/1036",
+          "title": {
+            "ko": null,
+            "en": "Load balancing of requests to servers for services different from user content provisioning, e.g. load balancing across domain name servers"
+          }
+        },
+        {
+          "code": "H04L 67/1038",
+          "title": {
+            "ko": null,
+            "en": "Load balancing arrangements to avoid a single path through a load balancer"
+          }
+        },
+        {
+          "code": "H04L 67/104",
+          "title": {
+            "ko": "피어 투 피어 [P2P] 네트워크",
+            "en": "Peer-to-peer [P2P] networks"
+          }
+        },
+        {
+          "code": "H04L 67/1042",
+          "title": {
+            "ko": null,
+            "en": "using topology management mechanisms"
+          }
+        },
+        {
+          "code": "H04L 67/1061",
+          "title": {
+            "ko": "노드 기반 피어 검색 메커니즘을 사용하는 (복제된 서버에 대한 정적 액세스 H04L67/1006, 서비스 검색 H04L67/51)",
+            "en": "using node-based peer discovery mechanisms (static access to replicated servers H04L0067100600;service discovery H04L0067510000)"
+          }
+        },
+        {
+          "code": "H04L 67/1074",
+          "title": {
+            "ko": "데이터 블록 전송 메커니즘을 지원하기 위한 (파일 전송 H04L67/06)",
+            "en": "for supporting data block transmission mechanisms (file transfer H04L0067060000)"
+          }
+        },
+        {
+          "code": "H04L 67/1087",
+          "title": {
+            "ko": null,
+            "en": "using cross-functional networking aspects"
+          }
+        },
+        {
+          "code": "H04L 67/1095",
+          "title": {
+            "ko": null,
+            "en": "Replication or mirroring of data, e.g. scheduling or transport for data synchronisation between network nodes"
+          }
+        },
+        {
+          "code": "H04L 67/1097",
+          "title": {
+            "ko": null,
+            "en": "for distributed storage of data in networks, e.g. transport arrangements for network file system [NFS], storage area networks [SAN] or network attached storage [NAS]"
+          }
+        },
+        {
+          "code": "H04L 67/12",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for proprietary or special-purpose networking environments, e.g. medical networks, sensor networks, networks in vehicles or remote metering networks"
+          }
+        },
+        {
+          "code": "H04L 67/125",
+          "title": {
+            "ko": null,
+            "en": "involving control of end-device applications over a network"
+          }
+        },
+        {
+          "code": "H04L 67/131",
+          "title": {
+            "ko": null,
+            "en": "Protocols for games, networked simulations or virtual reality"
+          }
+        },
+        {
+          "code": "H04L 67/133",
+          "title": {
+            "ko": null,
+            "en": "Protocols for remote procedure calls [RPC]"
+          }
+        },
+        {
+          "code": "H04L 67/1396",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for monitoring users’ activity"
+          }
+        },
+        {
+          "code": "H04L 67/14",
+          "title": {
+            "ko": "세션 관리 (데이터 패킷 통신 네트워크의 실시간 애플리케이션의 경우 H04L65/1066)",
+            "en": "Session management (for real-time applications in data packet communications networks H04L0065106600)"
+          }
+        },
+        {
+          "code": "H04L 67/141",
+          "title": {
+            "ko": "어플리케이션 세션 설정 (데이터 스위칭 네트워크에서 수락 제어 또는 자원 할당 H04L47/70)",
+            "en": "Setup of application sessions (admission control or resource allocation in data switching networks H04L0047700000)"
+          }
+        },
+        {
+          "code": "H04L 67/142",
+          "title": {
+            "ko": null,
+            "en": "Managing session states for stateless protocols; Signalling session states; State transitions; Keeping-state mechanisms"
+          }
+        },
+        {
+          "code": "H04L 67/143",
+          "title": {
+            "ko": null,
+            "en": "Termination or inactivation of sessions, e.g. event-controlled end of session"
+          }
+        },
+        {
+          "code": "H04L 67/145",
+          "title": {
+            "ko": null,
+            "en": "avoiding end of session, e.g. keep-alive, heartbeats, resumption message or wake-up for inactive or interrupted session"
+          }
+        },
+        {
+          "code": "H04L 67/146",
+          "title": {
+            "ko": null,
+            "en": "Markers for unambiguous identification of a particular session, e.g. session cookie or URL-encoding"
+          }
+        },
+        {
+          "code": "H04L 67/147",
+          "title": {
+            "ko": null,
+            "en": "Signalling methods or messages providing extensions to protocols defined by standardisation"
+          }
+        },
+        {
+          "code": "H04L 67/148",
+          "title": {
+            "ko": null,
+            "en": "Migration or transfer of sessions"
+          }
+        },
+        {
+          "code": "H04L 67/2866",
+          "title": {
+            "ko": null,
+            "en": "Architectures; Arrangements"
+          }
+        },
+        {
+          "code": "H04L 67/2869",
+          "title": {
+            "ko": null,
+            "en": "Terminals specially adapted for communication"
+          }
+        },
+        {
+          "code": "H04L 67/2871",
+          "title": {
+            "ko": null,
+            "en": "Implementation details of single intermediate entities"
+          }
+        },
+        {
+          "code": "H04L 67/2876",
+          "title": {
+            "ko": null,
+            "en": "Pairs of inter-processing entities at each side of the network, e.g. split proxies"
+          }
+        },
+        {
+          "code": "H04L 67/288",
+          "title": {
+            "ko": null,
+            "en": "Distributed intermediate devices, i.e. intermediate devices for interaction with other intermediate devices on the same level"
+          }
+        },
+        {
+          "code": "H04L 67/2885",
+          "title": {
+            "ko": null,
+            "en": "Hierarchically arranged intermediate devices, e.g. for hierarchical caching"
+          }
+        },
+        {
+          "code": "H04L 67/289",
+          "title": {
+            "ko": null,
+            "en": "Intermediate processing functionally located close to the data consumer application, e.g. in same machine, in same home or in same sub-network"
+          }
+        },
+        {
+          "code": "H04L 67/2895",
+          "title": {
+            "ko": null,
+            "en": "Intermediate processing functionally located close to the data provider application, e.g. reverse proxies"
+          }
+        },
+        {
+          "code": "H04L 67/30",
+          "title": {
+            "ko": null,
+            "en": "Profiles"
+          }
+        },
+        {
+          "code": "H04L 67/303",
+          "title": {
+            "ko": null,
+            "en": "Terminal profiles"
+          }
+        },
+        {
+          "code": "H04L 67/306",
+          "title": {
+            "ko": null,
+            "en": "User profiles"
+          }
+        },
+        {
+          "code": "H04L 67/50",
+          "title": {
+            "ko": "네트워크 서비스",
+            "en": "Network services"
+          }
+        },
+        {
+          "code": "H04L 67/51",
+          "title": {
+            "ko": null,
+            "en": "Discovery or management thereof, e.g. service location protocol [SLP] or web services"
+          }
+        },
+        {
+          "code": "H04L 67/52",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for the location of the user terminal"
+          }
+        },
+        {
+          "code": "H04L 67/53",
+          "title": {
+            "ko": null,
+            "en": "using third party service providers"
+          }
+        },
+        {
+          "code": "H04L 67/54",
+          "title": {
+            "ko": null,
+            "en": "Presence management, e.g. monitoring or registration for receipt of user log-on information, or the connection status of the users"
+          }
+        },
+        {
+          "code": "H04L 67/55",
+          "title": {
+            "ko": null,
+            "en": "Push-based network services"
+          }
+        },
+        {
+          "code": "H04L 67/56",
+          "title": {
+            "ko": "프록시 서비스의 프로비저닝 (데이터 스위칭 네트워크의 스토어 앤 포워드(store-and-forward) 스위칭 시스템 H04L12/54)",
+            "en": "Provisioning of proxy services (store-and-forward switching systems in data switching networks H04L0012540000)"
+          }
+        },
+        {
+          "code": "H04L 67/561",
+          "title": {
+            "ko": null,
+            "en": "Adding application-functional data or data for application control, e.g. adding metadata"
+          }
+        },
+        {
+          "code": "H04L 67/562",
+          "title": {
+            "ko": null,
+            "en": "Brokering proxy services"
+          }
+        },
+        {
+          "code": "H04L 67/563",
+          "title": {
+            "ko": null,
+            "en": "Data redirection of data network streams"
+          }
+        },
+        {
+          "code": "H04L 67/564",
+          "title": {
+            "ko": null,
+            "en": "Enhancement of application control based on intercepted application data"
+          }
+        },
+        {
+          "code": "H04L 67/565",
+          "title": {
+            "ko": "어플리케이션 형식 또는 콘텐츠의 변환 또는 적응 (어플리케이션 제어 또는 어플리케이션 기능 데이터 추가 H04L67/561)",
+            "en": "Conversion or adaptation of application format or content  (adding application control or application functional data H04L0067561000)"
+          }
+        },
+        {
+          "code": "H04L 67/5651",
+          "title": {
+            "ko": null,
+            "en": "Reducing the amount or size of exchanged application data"
+          }
+        },
+        {
+          "code": "H04L 67/566",
+          "title": {
+            "ko": null,
+            "en": "Grouping or aggregating service requests, e.g. for unified processing"
+          }
+        },
+        {
+          "code": "H04L 67/567",
+          "title": {
+            "ko": null,
+            "en": "Integrating service provisioning from a plurality of service providers"
+          }
+        },
+        {
+          "code": "H04L 67/568",
+          "title": {
+            "ko": null,
+            "en": "Storing data temporarily at an intermediate stage, e.g. caching"
+          }
+        },
+        {
+          "code": "H04L 67/5681",
+          "title": {
+            "ko": null,
+            "en": "Pre-fetching or pre-delivering data based on network characteristics"
+          }
+        },
+        {
+          "code": "H04L 67/5682",
+          "title": {
+            "ko": null,
+            "en": "Policies or rules for updating, deleting or replacing the stored data"
+          }
+        },
+        {
+          "code": "H04L 67/5683",
+          "title": {
+            "ko": null,
+            "en": "Storage of data provided by user terminals, i.e. reverse caching"
+          }
+        },
+        {
+          "code": "H04L 67/59",
+          "title": {
+            "ko": null,
+            "en": "Providing operational support to end devices by off-loading in the network or by emulation, e.g. when they are unavailable"
+          }
+        },
+        {
+          "code": "H04L 67/60",
+          "title": {
+            "ko": "어플리케이션 요청의 서비스 스케줄링 또는 구성, 예. 필요한 네트워크 리소스의 분석 및 최적화를 사용하여 어플리케이션 데이터 전송 요청 (수락 제어 또는 자원 할당 H04L47/70)",
+            "en": "Scheduling or organising the servicing of application requests, e.g. requests for application data transmissions using the analysis and optimisation of the required network resources (admission control or resource allocation H04L0047700000)"
+          }
+        },
+        {
+          "code": "H04L 67/61",
+          "title": {
+            "ko": null,
+            "en": "taking into account QoS or priority requirements"
+          }
+        },
+        {
+          "code": "H04L 67/62",
+          "title": {
+            "ko": null,
+            "en": "Establishing a time schedule for servicing the requests"
+          }
+        },
+        {
+          "code": "H04L 67/63",
+          "title": {
+            "ko": null,
+            "en": "Routing a service request depending on the request content or context"
+          }
+        },
+        {
+          "code": "H04L 67/75",
+          "title": {
+            "ko": null,
+            "en": "Indicating network or usage conditions on the user display"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 69/00",
+      "title": {
+        "ko": "어플리케이션 페이로드와 독립적이고, 이 서브클래스의 다른 그룹이 제공하지 않는 네트워크 장치, 프로토콜 또는 서비스 (네트워크 보안 프로토콜 H04L9/40, 무선 통신 네트워크 H04W)",
+        "en": "Network arrangements, protocols or services independent of the application payload and not provided for in the other groups of this subclass (networks security protocols H04L0009400000;wireless communication networks H04W)"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 69/04",
+          "title": {
+            "ko": null,
+            "en": "Protocols for data compression, e.g. ROHC"
+          }
+        },
+        {
+          "code": "H04L 69/06",
+          "title": {
+            "ko": null,
+            "en": "Notations for structuring of protocol data, e.g. abstract syntax notation one [ASN.1]"
+          }
+        },
+        {
+          "code": "H04L 69/08",
+          "title": {
+            "ko": null,
+            "en": "Protocols for interworking; Protocol conversion"
+          }
+        },
+        {
+          "code": "H04L 69/085",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for interworking of IP-based networks with other networks"
+          }
+        },
+        {
+          "code": "H04L 69/10",
+          "title": {
+            "ko": null,
+            "en": "Streamlined, light-weight or high-speed protocols, e.g. express transfer protocol [XTP] or byte stream"
+          }
+        },
+        {
+          "code": "H04L 69/12",
+          "title": {
+            "ko": null,
+            "en": "Protocol engines"
+          }
+        },
+        {
+          "code": "H04L 69/14",
+          "title": {
+            "ko": null,
+            "en": "Multichannel or multilink protocols"
+          }
+        },
+        {
+          "code": "H04L 69/16",
+          "title": {
+            "ko": "전송 제어 프로토콜 [TCP] 또는 사용자 데이터그램 프로토콜 [UDP]의 인터넷 프로토콜 [IP]의 구현 또는 적응",
+            "en": "Implementation or adaptation of Internet protocol [IP], of transmission control protocol [TCP] or of user datagram protocol [UDP]"
+          }
+        },
+        {
+          "code": "H04L 69/163",
+          "title": {
+            "ko": null,
+            "en": "In-band adaptation of TCP data exchange; In-band control procedures"
+          }
+        },
+        {
+          "code": "H04L 69/164",
+          "title": {
+            "ko": null,
+            "en": "Adaptation or special uses of UDP protocol"
+          }
+        },
+        {
+          "code": "H04L 69/165",
+          "title": {
+            "ko": null,
+            "en": "Combined use of TCP and UDP protocols; selection criteria therefor"
+          }
+        },
+        {
+          "code": "H04L 69/166",
+          "title": {
+            "ko": null,
+            "en": "IP fragmentation; TCP segmentation"
+          }
+        },
+        {
+          "code": "H04L 69/167",
+          "title": {
+            "ko": "두 개의 IP 버전 간의 전환을 위한 적응, 예. IPv4와 IPv6 사이 (인터넷 프로토콜 [IP] 주소 변환 H04L61/2503)",
+            "en": "Adaptation for transition between two IP versions, e.g. between IPv4 and IPv6 (translation of Internet protocol [IP] addresses H04L0061250300)"
+          }
+        },
+        {
+          "code": "H04L 69/168",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for link layer protocols, e.g. asynchronous transfer mode [ATM], synchronous optical network [SONET] or point-to-point protocol [PPP]"
+          }
+        },
+        {
+          "code": "H04L 69/18",
+          "title": {
+            "ko": null,
+            "en": "Multiprotocol handlers, e.g. single devices capable of handling multiple protocols"
+          }
+        },
+        {
+          "code": "H04L 69/22",
+          "title": {
+            "ko": null,
+            "en": "Parsing or analysis of headers"
+          }
+        },
+        {
+          "code": "H04L 69/24",
+          "title": {
+            "ko": null,
+            "en": "Negotiation of communication capabilities"
+          }
+        },
+        {
+          "code": "H04L 69/28",
+          "title": {
+            "ko": null,
+            "en": "Timers or timing mechanisms used in protocols"
+          }
+        },
+        {
+          "code": "H04L 69/30",
+          "title": {
+            "ko": "계층화된 프로토콜 스택의 정의, 표준 또는 아키텍처 측면",
+            "en": "Definitions, standards or architectural aspects of layered protocol stacks"
+          }
+        },
+        {
+          "code": "H04L 69/32",
+          "title": {
+            "ko": "개방형 시스템 상호 연결 [OSI] 7 계층 프로토콜 스택, 예. 데이터 링크 레벨과 물리 레벨간의 인터페이스",
+            "en": "Architecture of open systems interconnection [OSI] 7-layer type protocol stacks, e.g. the interfaces between the data link level and the physical level"
+          }
+        },
+        {
+          "code": "H04L 69/321",
+          "title": {
+            "ko": null,
+            "en": "Interlayer communication protocols or service data unit [SDU] definitions; Interfaces between layers"
+          }
+        },
+        {
+          "code": "H04L 69/322",
+          "title": {
+            "ko": "피어 엔티티 또는 프로토콜 데이터 유닛 [PDU] 정의 중의 인트라-계층 (intra layer)통신 프로토콜 측면",
+            "en": "Intralayer communication protocols among peer entities or protocol data unit [PDU] definitions"
+          }
+        },
+        {
+          "code": "H04L 69/323",
+          "title": {
+            "ko": null,
+            "en": "in the physical layer [OSI layer 1]"
+          }
+        },
+        {
+          "code": "H04L 69/324",
+          "title": {
+            "ko": null,
+            "en": "in the data link layer [OSI layer 2], e.g. HDLC"
+          }
+        },
+        {
+          "code": "H04L 69/325",
+          "title": {
+            "ko": "네트워크 계층 [OSI계층 3]에서, 예. X.25 (H04L69/16가 우선)",
+            "en": "in the network layer [OSI layer 3], e.g. X.25 (H04L0069160000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 69/326",
+          "title": {
+            "ko": "전송층 [OSI계층 4] (H04L69/16가 우선)",
+            "en": "in the transport layer [OSI layer 4] (H04L0069160000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04L 69/327",
+          "title": {
+            "ko": null,
+            "en": "in the session layer [OSI layer 5]"
+          }
+        },
+        {
+          "code": "H04L 69/328",
+          "title": {
+            "ko": null,
+            "en": "in the presentation layer [OSI layer 6]"
+          }
+        },
+        {
+          "code": "H04L 69/329",
+          "title": {
+            "ko": null,
+            "en": "in the application layer [OSI layer 7]"
+          }
+        },
+        {
+          "code": "H04L 69/40",
+          "title": {
+            "ko": "프로토콜 인스턴스 또는 엔티티의 실패로 부터 복구하기 위한 것, 예. 서비스 중복 프로토콜, 프로토콜 상태 중복 또는 프로토콜 서비스 리디렉션 (데이터 전환 네트워크의 오류, 이벤트, 경보 또는 알림 관리 H04L41/06)",
+            "en": "for recovering from a failure of a protocol instance or entity, e.g. service redundancy protocols, protocol state redundancy or protocol service redirection (management of faults, events, alarms or notifications in data switching networks H04L0041060000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04L 101/00",
+      "title": {
+        "ko": "그룹 H04L61/00에 관련된 인덱싱 체계",
+        "en": "Indexing scheme associated with group H04L0061000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04L 101/00",
+      "title": {
+        "ko": "그룹 H04L61/00에 관련된 인덱싱 체계",
+        "en": "Indexing scheme associated with group H04L0061000000"
+      },
+      "subgroups": [
+        {
+          "code": "H04L 101/30",
+          "title": {
+            "ko": "네트워크 이름의 유형",
+            "en": "Types of network names"
+          }
+        },
+        {
+          "code": "H04L 101/32",
+          "title": {
+            "ko": null,
+            "en": "containing non-Latin characters, e.g. Chinese domain names"
+          }
+        },
+        {
+          "code": "H04L 101/33",
+          "title": {
+            "ko": null,
+            "en": "containing protocol addresses or telephone numbers"
+          }
+        },
+        {
+          "code": "H04L 101/345",
+          "title": {
+            "ko": null,
+            "en": "containing wildcard characters"
+          }
+        },
+        {
+          "code": "H04L 101/35",
+          "title": {
+            "ko": null,
+            "en": "containing special prefixes"
+          }
+        },
+        {
+          "code": "H04L 101/355",
+          "title": {
+            "ko": null,
+            "en": "containing special suffixes"
+          }
+        },
+        {
+          "code": "H04L 101/365",
+          "title": {
+            "ko": null,
+            "en": "Application layer names, e.g. buddy names, unstructured names chosen by a user or home appliance name"
+          }
+        },
+        {
+          "code": "H04L 101/37",
+          "title": {
+            "ko": "이메일 어드레스",
+            "en": "E-mail addresses"
+          }
+        },
+        {
+          "code": "H04L 101/375",
+          "title": {
+            "ko": null,
+            "en": "Access point names [APN]"
+          }
+        },
+        {
+          "code": "H04L 101/38",
+          "title": {
+            "ko": null,
+            "en": "Telephone uniform resource identifier [URI]"
+          }
+        },
+        {
+          "code": "H04L 101/385",
+          "title": {
+            "ko": null,
+            "en": "Uniform resource identifier for session initiation protocol [SIP URI]"
+          }
+        },
+        {
+          "code": "H04L 101/39",
+          "title": {
+            "ko": null,
+            "en": "Globally routable user-agent uniform resource identifier [GRUU] for the session initiation protocol [SIP]"
+          }
+        },
+        {
+          "code": "H04L 101/395",
+          "title": {
+            "ko": null,
+            "en": "Internet protocol multimedia private identity [IMPI]; Internet protocol multimedia public identity [IMPU]"
+          }
+        },
+        {
+          "code": "H04L 101/60",
+          "title": {
+            "ko": null,
+            "en": "Types of network addresses"
+          }
+        },
+        {
+          "code": "H04L 101/604",
+          "title": {
+            "ko": null,
+            "en": "Address structures or formats"
+          }
+        },
+        {
+          "code": "H04L 101/618",
+          "title": {
+            "ko": null,
+            "en": "Details of network addresses"
+          }
+        },
+        {
+          "code": "H04L 101/622",
+          "title": {
+            "ko": null,
+            "en": "Layer-2 addresses, e.g. medium access control [MAC] addresses"
+          }
+        },
+        {
+          "code": "H04L 101/627",
+          "title": {
+            "ko": null,
+            "en": "Controller area network [CAN] identifiers"
+          }
+        },
+        {
+          "code": "H04L 101/631",
+          "title": {
+            "ko": null,
+            "en": "Small computer system interface [SCSI] addresses"
+          }
+        },
+        {
+          "code": "H04L 101/636",
+          "title": {
+            "ko": null,
+            "en": "IEEE1394 identification numbers"
+          }
+        },
+        {
+          "code": "H04L 101/64",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous transfer mode [ATM] addresses"
+          }
+        },
+        {
+          "code": "H04L 101/645",
+          "title": {
+            "ko": null,
+            "en": "Fibre channel identifiers"
+          }
+        },
+        {
+          "code": "H04L 101/65",
+          "title": {
+            "ko": null,
+            "en": "Telephone numbers"
+          }
+        },
+        {
+          "code": "H04L 101/654",
+          "title": {
+            "ko": null,
+            "en": "International mobile subscriber identity [IMSI] numbers"
+          }
+        },
+        {
+          "code": "H04L 101/659",
+          "title": {
+            "ko": null,
+            "en": "Internet protocol version 6 [IPv6] addresses"
+          }
+        },
+        {
+          "code": "H04L 101/663",
+          "title": {
+            "ko": null,
+            "en": "Transport layer addresses, e.g. aspects of transmission control protocol [TCP] or user datagram protocol [UDP] ports"
+          }
+        },
+        {
+          "code": "H04L 101/668",
+          "title": {
+            "ko": null,
+            "en": "Internet protocol [IP] address subnets"
+          }
+        },
+        {
+          "code": "H04L 101/672",
+          "title": {
+            "ko": null,
+            "en": "Short addresses"
+          }
+        },
+        {
+          "code": "H04L 101/677",
+          "title": {
+            "ko": null,
+            "en": "Multiple interfaces, e.g. multihomed nodes"
+          }
+        },
+        {
+          "code": "H04L 101/681",
+          "title": {
+            "ko": null,
+            "en": "using addresses for wireless personal area networks or wireless sensor networks, e.g. Zigbee addresses"
+          }
+        },
+        {
+          "code": "H04L 101/686",
+          "title": {
+            "ko": null,
+            "en": "using dual-stack hosts, e.g. in Internet protocol version 4 [IPv4]/Internet protocol version 6 [IPv6] networks"
+          }
+        },
+        {
+          "code": "H04L 101/69",
+          "title": {
+            "ko": null,
+            "en": "using geographic information, e.g. room number"
+          }
+        },
+        {
+          "code": "H04L 101/695",
+          "title": {
+            "ko": null,
+            "en": "using masks or ranges of addresses"
+          }
+        }
+      ]
+    }
+  ]
+}

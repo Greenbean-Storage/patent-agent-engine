@@ -1,0 +1,34 @@
+{
+ "description": "chain_completed(p1) 단독 → reply 1",
+ "events": [
+  {
+   "type": "chain_completed",
+   "persona": 1,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "message.reply"
+  ],
+  "forbidden": [
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "message.reply": 1
+  },
+  "payload_contains": [
+   {
+    "type": "message.reply",
+    "data": {
+     "text": null
+    }
+   }
+  ]
+ }
+}

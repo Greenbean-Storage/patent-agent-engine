@@ -1,0 +1,29 @@
+{
+  "description": "발명 분석 및 검색 계획 수립 (Stage 1만 실행). search_prior_art 전체 파이프라인 없이 빠르게 분석 플랜만 반환.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P03.R11.EVALUATE_NOVELTY"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "발명 설명에서 핵심 기술 요소·IPC 분류·1차 검색 쿼리 초안을 추출하는 분석·계획 step. 단일 step 파이프라인 — search_prior_art 의 Stage 1 만 분리.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R10/analyze_and_plan.md"
+      },
+      "llm_tools": [],
+      "output_contract": "analyze-output"
+    }
+  ]
+}

@@ -1,0 +1,1023 @@
+{
+  "subclass": "G06V",
+  "title": {
+    "ko": "이미지 또는 비디오 인식 또는 이해",
+    "en": "IMAGE OR VIDEO RECOGNITION OR UNDERSTANDING"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스가 포함하는 것: ㆍ이미지 또는 비디오에 특히 적합한 패턴 인식 또는 기계 학습을 위한 방법 또는 장치. 2. 이 서브클래스에서, 다음 용어 또는 표현이 표시된 의미로 사용된다: ㆍ\"패턴 인식\"이란 이미지나 비디오에서 설명 목적 또는 특정 의미를 도출하기 위해 패턴을 감지, 분류, 인증 및 식별하는 것을 의미하며, 이는 고유 특징을 획득, 전처리 또는 추출하고 이러한 특징 또는 그 표현을 매칭, 클러스터링 또는 분류하는 것을 의미한다; ㆍ\"특징 추출\"이란 이미지 또는 비디오에서 서술적 또는 정량적 측정을 도출하는 것을 의미한다; ㆍ\"클러스터링\"이란 패턴을 비유사성 또는 근접성에 따라 그룹화하거나 분리하는 것을 의미한다; ㆍ\"분류\"란 객체/특징을 특정 클래스에 속하는 것으로 식별하고, 그에 따라 라벨을 지정하는 것을 의미한다. 3. 이 서브클래스에서, 인식이 획득 또는 전처리 단계에서 특정 처리에 기반하는 경우, 그룹 G06V20/00 ~ G06V40/00에 분류된 주제는 그룹 G06V10/10 또는 G06V10/20으로도 각각 분류된다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G06V 10/00",
+      "title": {
+        "ko": "이미지 또는 비디오 인식 또는 이해를 위한 장치 (이미지 또는 비디오에서 문자 인식 G06V30/10)",
+        "en": "Arrangements for image or video recognition or understanding  (character recognition in images or video G06V0030100000)"
+      },
+      "subgroups": [
+        {
+          "code": "G06V 10/10",
+          "title": {
+            "ko": "이미지 획득 (문서 이미지 스캔 및 전송 H04N1/00; 디지털 카메라 제어 H04N23/60)",
+            "en": "Image acquisition (document image scanning and transmission H04N0001000000;control of digital cameras H04N0023600000)"
+          }
+        },
+        {
+          "code": "G06V 10/12",
+          "title": {
+            "ko": "취득 방식의 세부사항; 그것의 구조적 세부사항",
+            "en": "Details of acquisition arrangements; Constructional details thereof"
+          }
+        },
+        {
+          "code": "G06V 10/14",
+          "title": {
+            "ko": "획득을 수행하는 장치 또는 조명 장치의 광학적 특성",
+            "en": "Optical characteristics of the device performing the acquisition or on the illumination arrangements"
+          }
+        },
+        {
+          "code": "G06V 10/141",
+          "title": {
+            "ko": null,
+            "en": "Control of illumination"
+          }
+        },
+        {
+          "code": "G06V 10/143",
+          "title": {
+            "ko": null,
+            "en": "Sensing or illuminating at different wavelengths"
+          }
+        },
+        {
+          "code": "G06V 10/145",
+          "title": {
+            "ko": null,
+            "en": "Illumination specially adapted for pattern recognition, e.g. using gratings"
+          }
+        },
+        {
+          "code": "G06V 10/147",
+          "title": {
+            "ko": "센서의 세부, 예. 센서 렌즈 (지문 또는 장문 센서 G06V40/13; 혈관 센서 G06V40/145; 눈 센서 G06V40/19)",
+            "en": "Details of sensors, e.g. sensor lenses (fingerprint or palmprint sensors G06V0040130000;vascular sensors G06V0040145000;eye sensors G06V0040190000)"
+          }
+        },
+        {
+          "code": "G06V 10/20",
+          "title": {
+            "ko": null,
+            "en": "Image preprocessing"
+          }
+        },
+        {
+          "code": "G06V 10/22",
+          "title": {
+            "ko": null,
+            "en": "by selection of a specific region containing or referencing a pattern; Locating or processing of specific regions to guide the detection or recognition"
+          }
+        },
+        {
+          "code": "G06V 10/24",
+          "title": {
+            "ko": null,
+            "en": "Aligning, centring, orientation detection or correction of the image"
+          }
+        },
+        {
+          "code": "G06V 10/25",
+          "title": {
+            "ko": null,
+            "en": "Determination of region of interest [ROI] or a volume of interest [VOI]"
+          }
+        },
+        {
+          "code": "G06V 10/26",
+          "title": {
+            "ko": null,
+            "en": "Segmentation of patterns in the image field; Cutting or merging of image elements to establish the pattern region, e.g. clustering-based techniques; Detection of occlusion"
+          }
+        },
+        {
+          "code": "G06V 10/28",
+          "title": {
+            "ko": null,
+            "en": "Quantising the image, e.g. histogram thresholding for discrimination between background and foreground patterns"
+          }
+        },
+        {
+          "code": "G06V 10/30",
+          "title": {
+            "ko": null,
+            "en": "Noise filtering"
+          }
+        },
+        {
+          "code": "G06V 10/32",
+          "title": {
+            "ko": null,
+            "en": "Normalisation of the pattern dimensions"
+          }
+        },
+        {
+          "code": "G06V 10/34",
+          "title": {
+            "ko": null,
+            "en": "Smoothing or thinning of the pattern; Morphological operations; Skeletonisation"
+          }
+        },
+        {
+          "code": "G06V 10/36",
+          "title": {
+            "ko": null,
+            "en": "Applying a local operator, i.e. means to operate on image points situated in the vicinity of a given point; Non-linear local filtering operations, e.g. median filtering"
+          }
+        },
+        {
+          "code": "G06V 10/40",
+          "title": {
+            "ko": "이미지 또는 비디오 특성 추출",
+            "en": "Extraction of image or video features"
+          }
+        },
+        {
+          "code": "G06V 10/42",
+          "title": {
+            "ko": null,
+            "en": "Global feature extraction by analysis of the whole pattern, e.g. using frequency domain transformations or autocorrelation"
+          }
+        },
+        {
+          "code": "G06V 10/422",
+          "title": {
+            "ko": null,
+            "en": "for representing the structure of the pattern or shape of an object therefor"
+          }
+        },
+        {
+          "code": "G06V 10/424",
+          "title": {
+            "ko": null,
+            "en": "Syntactic representation, e.g. by using alphabets or grammars"
+          }
+        },
+        {
+          "code": "G06V 10/426",
+          "title": {
+            "ko": null,
+            "en": "Graphical representations"
+          }
+        },
+        {
+          "code": "G06V 10/44",
+          "title": {
+            "ko": null,
+            "en": "Local feature extraction by analysis of parts of the pattern, e.g. by detecting edges, contours, loops, corners, strokes or intersections; Connectivity analysis, e.g. of connected components"
+          }
+        },
+        {
+          "code": "G06V 10/46",
+          "title": {
+            "ko": "형태, 윤곽 또는 점-관련 서술자를 위한 서술자, 예. 스케일 불변 특성 변환 [SIFT] 또는 단어 모음 [BoW]; 주요 영역 특성 (색상 특성 추출 G06V10/56)",
+            "en": "Descriptors for shape, contour or point-related descriptors, e.g. scale invariant feature transform [SIFT] or bags of words [BoW]; Salient regional features (colour feature extraction G06V0010560000)"
+          }
+        },
+        {
+          "code": "G06V 10/48",
+          "title": {
+            "ko": null,
+            "en": "by mapping characteristic values of the pattern into a parameter space, e.g. Hough transformation"
+          }
+        },
+        {
+          "code": "G06V 10/50",
+          "title": {
+            "ko": null,
+            "en": "by performing operations within image blocks; by using histograms, e.g. histogram of oriented gradients [HoG]; by summing image-intensity values; Projection analysis"
+          }
+        },
+        {
+          "code": "G06V 10/52",
+          "title": {
+            "ko": "스케일-공간 분석, 예. 웨이블릿 분석 (멀티-스케일 경계 표현 G06V10/42)",
+            "en": "Scale-space analysis, e.g. wavelet analysis (multi-scale boundary representations G06V0010420000)"
+          }
+        },
+        {
+          "code": "G06V 10/54",
+          "title": {
+            "ko": null,
+            "en": "relating to texture"
+          }
+        },
+        {
+          "code": "G06V 10/56",
+          "title": {
+            "ko": null,
+            "en": "relating to colour"
+          }
+        },
+        {
+          "code": "G06V 10/58",
+          "title": {
+            "ko": null,
+            "en": "relating to hyperspectral data"
+          }
+        },
+        {
+          "code": "G06V 10/60",
+          "title": {
+            "ko": null,
+            "en": "relating to illumination properties, e.g. using a reflectance or lighting model"
+          }
+        },
+        {
+          "code": "G06V 10/62",
+          "title": {
+            "ko": null,
+            "en": "relating to a temporal dimension, e.g. time-based feature extraction; Pattern tracking"
+          }
+        },
+        {
+          "code": "G06V 10/70",
+          "title": {
+            "ko": "패턴 인식 또는 기계 학습을 이용 (광학 패턴 인식 또는 그것을 위한 전자 계산 G06V10/88)",
+            "en": "using pattern recognition or machine learning (optical pattern recognition or electronic computations therefor G06V0010880000)"
+          }
+        },
+        {
+          "code": "G06V 10/72",
+          "title": {
+            "ko": null,
+            "en": "Data preparation, e.g. statistical preprocessing of image or video features"
+          }
+        },
+        {
+          "code": "G06V 10/74",
+          "title": {
+            "ko": null,
+            "en": "Image or video pattern matching; Proximity measures in feature spaces"
+          }
+        },
+        {
+          "code": "G06V 10/75",
+          "title": {
+            "ko": null,
+            "en": "Organisation of the matching processes, e.g. simultaneous or sequential comparisons of image or video features; Coarse-fine approaches, e.g. multi-scale approaches; using context analysis; Selection of dictionaries"
+          }
+        },
+        {
+          "code": "G06V 10/762",
+          "title": {
+            "ko": null,
+            "en": "using clustering, e.g. of similar faces in social networks"
+          }
+        },
+        {
+          "code": "G06V 10/764",
+          "title": {
+            "ko": null,
+            "en": "using classification, e.g. of video objects"
+          }
+        },
+        {
+          "code": "G06V 10/766",
+          "title": {
+            "ko": null,
+            "en": "using regression, e.g. by projecting features on hyperplanes"
+          }
+        },
+        {
+          "code": "G06V 10/77",
+          "title": {
+            "ko": "특정 공간에서 이미지 또는 비디오 특성을 처리하는 것; 데이터 통합 또는 데이터 축소를 사용하는 것, 예. 주요 구성요소 분석 [PCA] 또는 독립 구성요소 분석 [ICA] 또는 자체-조직화 지도 [SOM]; 블라인드 소스 분리",
+            "en": "Processing image or video features in feature spaces; using data integration or data reduction, e.g. principal component analysis [PCA] or independent component analysis [ICA] or self-organising maps [SOM]; Blind source separation"
+          }
+        },
+        {
+          "code": "G06V 10/771",
+          "title": {
+            "ko": null,
+            "en": "Feature selection, e.g. selecting representative features from a multi-dimensional feature space"
+          }
+        },
+        {
+          "code": "G06V 10/772",
+          "title": {
+            "ko": null,
+            "en": "Determining representative reference patterns, e.g. averaging or distorting patterns; Generating dictionaries"
+          }
+        },
+        {
+          "code": "G06V 10/774",
+          "title": {
+            "ko": null,
+            "en": "Generating sets of training patterns; Bootstrap methods, e.g. bagging or boosting"
+          }
+        },
+        {
+          "code": "G06V 10/776",
+          "title": {
+            "ko": null,
+            "en": "Validation; Performance evaluation"
+          }
+        },
+        {
+          "code": "G06V 10/778",
+          "title": {
+            "ko": null,
+            "en": "Active pattern-learning, e.g. online learning of image or video features"
+          }
+        },
+        {
+          "code": "G06V 10/80",
+          "title": {
+            "ko": "결합, 즉. 센서 레벨, 전처리 레벨, 특성 추출 레벨 또는 분류 레벨에서 다양한 소스의 데이터를 결합하는 것 (다중모달 화자 식별 또는 검증 G10L17/10)",
+            "en": "Fusion, i.e. combining data from various sources at the sensor level, preprocessing level, feature extraction level or classification level (multimodal speaker identification or verification G10L0017100000)"
+          }
+        },
+        {
+          "code": "G06V 10/82",
+          "title": {
+            "ko": null,
+            "en": "using neural networks"
+          }
+        },
+        {
+          "code": "G06V 10/84",
+          "title": {
+            "ko": null,
+            "en": "using probabilistic graphical models from image or video features, e.g. Markov models or Bayesian networks"
+          }
+        },
+        {
+          "code": "G06V 10/86",
+          "title": {
+            "ko": null,
+            "en": "using syntactic or structural representations of the image or video pattern, e.g. symbolic string recognition; using graph matching"
+          }
+        },
+        {
+          "code": "G06V 10/88",
+          "title": {
+            "ko": null,
+            "en": "Image or video recognition using optical means, e.g. reference filters, holographic masks, frequency domain filters or spatial domain filters"
+          }
+        },
+        {
+          "code": "G06V 10/94",
+          "title": {
+            "ko": null,
+            "en": "Hardware or software architectures specially adapted for image or video understanding"
+          }
+        },
+        {
+          "code": "G06V 10/96",
+          "title": {
+            "ko": null,
+            "en": "Management of image or video recognition tasks"
+          }
+        },
+        {
+          "code": "G06V 10/98",
+          "title": {
+            "ko": null,
+            "en": "Detection or correction of errors, e.g. by rescanning the pattern or by human intervention; Evaluation of the quality of the acquired patterns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06V 20/00",
+      "title": {
+        "ko": "장면; 장면별 요소 (디지털 카메라의 제어 H04N23/60)",
+        "en": "Scenes; Scene-specific elements (control of digital cameras H04N0023600000)"
+      },
+      "definition": {
+        "ko": "이 그룹에서 다음 용어는 기재된 의미로 사용된다: ㆍ\"장면\"은 센서에 의해 포착되거나 컴퓨터에 의해 생성된, 그 세계(권역) 또는 그 일부 요소의 시각적 표현이다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G06V 20/05",
+          "title": {
+            "ko": null,
+            "en": "Underwater scenes"
+          }
+        },
+        {
+          "code": "G06V 20/10",
+          "title": {
+            "ko": "지상 장면 (고정 카메라로 감시 중인 장면 G06V20/52; 차량 외부에서 감지되는 장면 G06V20/56; 차량 내부에서 감지되는 장면 G06V20/59)",
+            "en": "Terrestrial scenes (scenes under surveillance with static cameras G06V0020520000;scenes perceived from the exterior of a vehicle G06V0020560000;scenes perceived from the interior of a vehicle G06V0020590000)"
+          }
+        },
+        {
+          "code": "G06V 20/13",
+          "title": {
+            "ko": null,
+            "en": "Satellite images"
+          }
+        },
+        {
+          "code": "G06V 20/17",
+          "title": {
+            "ko": null,
+            "en": "taken from planes or by drones"
+          }
+        },
+        {
+          "code": "G06V 20/20",
+          "title": {
+            "ko": null,
+            "en": "in augmented reality scenes"
+          }
+        },
+        {
+          "code": "G06V 20/30",
+          "title": {
+            "ko": null,
+            "en": "in albums, collections or shared content, e.g. social network photos or video"
+          }
+        },
+        {
+          "code": "G06V 20/40",
+          "title": {
+            "ko": "비디오 컨텐츠에서 (오버레이 텍스트를 추출하는 것 G06V20/62; 비디오 검색 G06F16/70; 비디어 서버에서 비디오 기본 스트림을 처리하는 것 H04N21/234; 비디오 클라이언트에서 비디오 기본 스트림을 처리하는 것 H04N21/44)",
+            "en": "in video content (extracting overlay text G06V0020620000;video retrieval G06F0016700000;processing of video elementary streams in video servers H04N0021234000;processing of video elementary streams in video clients H04N0021440000)"
+          }
+        },
+        {
+          "code": "G06V 20/50",
+          "title": {
+            "ko": "이미지의 컨텍스트 또는 환경",
+            "en": "Context or environment of the image"
+          }
+        },
+        {
+          "code": "G06V 20/52",
+          "title": {
+            "ko": "활동의 감시 또는 모니터링, 예. 수상한 물체를 인식하기 위한 (미세한 물체를 인식하는 것 G06V20/69)",
+            "en": "Surveillance or monitoring of activities, e.g. for recognising suspicious objects (recognising microscopic objects G06V0020690000)"
+          }
+        },
+        {
+          "code": "G06V 20/54",
+          "title": {
+            "ko": null,
+            "en": "of traffic, e.g. cars on the road, trains or boats"
+          }
+        },
+        {
+          "code": "G06V 20/56",
+          "title": {
+            "ko": null,
+            "en": "exterior to a vehicle by using sensors mounted on the vehicle"
+          }
+        },
+        {
+          "code": "G06V 20/58",
+          "title": {
+            "ko": null,
+            "en": "Recognition of moving objects or obstacles, e.g. vehicles or pedestrians; Recognition of traffic objects, e.g. traffic signs, traffic lights or roads"
+          }
+        },
+        {
+          "code": "G06V 20/59",
+          "title": {
+            "ko": null,
+            "en": "inside of a vehicle, e.g. relating to seat occupancy, driver state or inner lighting conditions"
+          }
+        },
+        {
+          "code": "G06V 20/60",
+          "title": {
+            "ko": "물체의 유형",
+            "en": "Type of objects"
+          }
+        },
+        {
+          "code": "G06V 20/62",
+          "title": {
+            "ko": null,
+            "en": "Text, e.g. of license plates, overlay texts or captions on TV images"
+          }
+        },
+        {
+          "code": "G06V 20/64",
+          "title": {
+            "ko": null,
+            "en": "Three-dimensional [3D] objects"
+          }
+        },
+        {
+          "code": "G06V 20/66",
+          "title": {
+            "ko": "장신구, 예. 셔츠 단추 또는 보석류 (미세한 물체를 인식하는 것 G06V20/69)",
+            "en": "Trinkets, e.g. shirt buttons or jewellery items (recognising microscopic objects G06V0020690000)"
+          }
+        },
+        {
+          "code": "G06V 20/68",
+          "title": {
+            "ko": null,
+            "en": "Food, e.g. fruit or vegetables"
+          }
+        },
+        {
+          "code": "G06V 20/69",
+          "title": {
+            "ko": null,
+            "en": "Microscopic objects, e.g. biological cells or cellular parts"
+          }
+        },
+        {
+          "code": "G06V 20/70",
+          "title": {
+            "ko": null,
+            "en": "Labelling scene content, e.g. deriving syntactic or semantic representations"
+          }
+        },
+        {
+          "code": "G06V 20/80",
+          "title": {
+            "ko": null,
+            "en": "Recognising image objects characterised by unique random patterns"
+          }
+        },
+        {
+          "code": "G06V 20/90",
+          "title": {
+            "ko": null,
+            "en": "Identifying an image sensor based on its output data"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06V 30/00",
+      "title": {
+        "ko": "문자 인식; 디지털 잉크를 인식하는 것; 문서-중심 이미지-기반 패턴 인식 (문서 또는 유사한 것의 스캔, 전송 또는 복제 H04N1/00)",
+        "en": "Character recognition; Recognising digital ink; Document-oriented image-based pattern recognition (scanning, transmission or reproduction of documents or the like H04N0001000000)"
+      },
+      "definition": {
+        "ko": "이 그룹은 문자 또는 디지털 잉크의 인식을 다루며, 여기서 문자 또는 디지털 잉크는 3차원 [3D] 표현을 포함할 수 있다, 예. 공중에서 제스처를 수행하여 작성된 것",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G06V 30/10",
+          "title": {
+            "ko": "문자 인식",
+            "en": "Character recognition"
+          }
+        },
+        {
+          "code": "G06V 30/12",
+          "title": {
+            "ko": null,
+            "en": "Detection or correction of errors, e.g. by rescanning the pattern"
+          }
+        },
+        {
+          "code": "G06V 30/14",
+          "title": {
+            "ko": null,
+            "en": "Image acquisition"
+          }
+        },
+        {
+          "code": "G06V 30/142",
+          "title": {
+            "ko": null,
+            "en": "using hand-held instruments; Constructional details of the instruments"
+          }
+        },
+        {
+          "code": "G06V 30/144",
+          "title": {
+            "ko": null,
+            "en": "using a slot moved over the image; using discrete sensing elements at predetermined points; using automatic curve following means"
+          }
+        },
+        {
+          "code": "G06V 30/146",
+          "title": {
+            "ko": null,
+            "en": "Aligning or centering of the image pick-up or image-field"
+          }
+        },
+        {
+          "code": "G06V 30/148",
+          "title": {
+            "ko": null,
+            "en": "Segmentation of character regions"
+          }
+        },
+        {
+          "code": "G06V 30/16",
+          "title": {
+            "ko": null,
+            "en": "Image preprocessing"
+          }
+        },
+        {
+          "code": "G06V 30/162",
+          "title": {
+            "ko": null,
+            "en": "Quantising the image signal"
+          }
+        },
+        {
+          "code": "G06V 30/164",
+          "title": {
+            "ko": null,
+            "en": "Noise filtering"
+          }
+        },
+        {
+          "code": "G06V 30/166",
+          "title": {
+            "ko": null,
+            "en": "Normalisation of pattern dimensions"
+          }
+        },
+        {
+          "code": "G06V 30/168",
+          "title": {
+            "ko": null,
+            "en": "Smoothing or thinning of the pattern; Skeletonisation"
+          }
+        },
+        {
+          "code": "G06V 30/18",
+          "title": {
+            "ko": null,
+            "en": "Extraction of features or characteristics of the image"
+          }
+        },
+        {
+          "code": "G06V 30/182",
+          "title": {
+            "ko": null,
+            "en": "by coding the contour of the pattern"
+          }
+        },
+        {
+          "code": "G06V 30/184",
+          "title": {
+            "ko": null,
+            "en": "by analysing segments intersecting the pattern"
+          }
+        },
+        {
+          "code": "G06V 30/186",
+          "title": {
+            "ko": null,
+            "en": "by deriving mathematical or geometrical properties from the whole image"
+          }
+        },
+        {
+          "code": "G06V 30/19",
+          "title": {
+            "ko": null,
+            "en": "Recognition using electronic means"
+          }
+        },
+        {
+          "code": "G06V 30/192",
+          "title": {
+            "ko": null,
+            "en": "using simultaneous comparisons or correlations of the image signals with a plurality of references"
+          }
+        },
+        {
+          "code": "G06V 30/194",
+          "title": {
+            "ko": null,
+            "en": "References adjustable by an adaptive method, e.g. learning"
+          }
+        },
+        {
+          "code": "G06V 30/196",
+          "title": {
+            "ko": null,
+            "en": "using sequential comparisons of the image signals with a plurality of references"
+          }
+        },
+        {
+          "code": "G06V 30/198",
+          "title": {
+            "ko": null,
+            "en": "the selection of the next reference depending on the result of the preceding comparison"
+          }
+        },
+        {
+          "code": "G06V 30/199",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for recognition using optical reference masks, e.g. holographic masks"
+          }
+        },
+        {
+          "code": "G06V 30/20",
+          "title": {
+            "ko": null,
+            "en": "Combination of acquisition, preprocessing or recognition functions"
+          }
+        },
+        {
+          "code": "G06V 30/22",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of writing"
+          }
+        },
+        {
+          "code": "G06V 30/222",
+          "title": {
+            "ko": null,
+            "en": "of characters separated by spaces"
+          }
+        },
+        {
+          "code": "G06V 30/224",
+          "title": {
+            "ko": null,
+            "en": "of printed characters having additional code marks or containing code marks"
+          }
+        },
+        {
+          "code": "G06V 30/226",
+          "title": {
+            "ko": null,
+            "en": "of cursive writing"
+          }
+        },
+        {
+          "code": "G06V 30/228",
+          "title": {
+            "ko": null,
+            "en": "of three-dimensional [3D] handwriting, e.g. writing in the air"
+          }
+        },
+        {
+          "code": "G06V 30/24",
+          "title": {
+            "ko": "처리 또는 인식 방법을 특징으로 하는 것 (문자 영역의 분할 G06V30/148)",
+            "en": "characterised by the processing or recognition method (segmentation of character regions G06V0030148000)"
+          }
+        },
+        {
+          "code": "G06V 30/242",
+          "title": {
+            "ko": null,
+            "en": "Division of the character sequences into groups prior to recognition; Selection of dictionaries"
+          }
+        },
+        {
+          "code": "G06V 30/244",
+          "title": {
+            "ko": null,
+            "en": "using graphical properties, e.g. alphabet type or font"
+          }
+        },
+        {
+          "code": "G06V 30/246",
+          "title": {
+            "ko": null,
+            "en": "using linguistic properties, e.g. specific for English or German language"
+          }
+        },
+        {
+          "code": "G06V 30/26",
+          "title": {
+            "ko": null,
+            "en": "Techniques for post-processing, e.g. correcting the recognition result"
+          }
+        },
+        {
+          "code": "G06V 30/262",
+          "title": {
+            "ko": null,
+            "en": "using context analysis, e.g. lexical, syntactic or semantic context"
+          }
+        },
+        {
+          "code": "G06V 30/28",
+          "title": {
+            "ko": null,
+            "en": "specially adapted to the type of the alphabet, e.g. Latin alphabet"
+          }
+        },
+        {
+          "code": "G06V 30/30",
+          "title": {
+            "ko": null,
+            "en": "based on the type of data"
+          }
+        },
+        {
+          "code": "G06V 30/302",
+          "title": {
+            "ko": null,
+            "en": "Images containing characters for discriminating human versus automated computer access"
+          }
+        },
+        {
+          "code": "G06V 30/304",
+          "title": {
+            "ko": null,
+            "en": "Music notations"
+          }
+        },
+        {
+          "code": "G06V 30/32",
+          "title": {
+            "ko": null,
+            "en": "Digital ink"
+          }
+        },
+        {
+          "code": "G06V 30/40",
+          "title": {
+            "ko": "문서-중심 이미지-기반 패턴 인식",
+            "en": "Document-oriented image-based pattern recognition"
+          }
+        },
+        {
+          "code": "G06V 30/41",
+          "title": {
+            "ko": "문서 컨텐츠의 분석 (코드 마크에 따른 인쇄 문자의 인식 G06V30/224)",
+            "en": "Analysis of document content (recognition of printed characters based on code marks G06V0030224000)"
+          }
+        },
+        {
+          "code": "G06V 30/412",
+          "title": {
+            "ko": null,
+            "en": "Layout analysis of documents structured with printed lines or input boxes, e.g. business forms or tables"
+          }
+        },
+        {
+          "code": "G06V 30/413",
+          "title": {
+            "ko": null,
+            "en": "Classification of content, e.g. text, photographs or tables"
+          }
+        },
+        {
+          "code": "G06V 30/414",
+          "title": {
+            "ko": null,
+            "en": "Extracting the geometrical structure, e.g. layout tree; Block segmentation, e.g. bounding boxes for graphics or text"
+          }
+        },
+        {
+          "code": "G06V 30/416",
+          "title": {
+            "ko": null,
+            "en": "Extracting the logical structure, e.g. chapters, sections or page numbers; Identifying elements of the document, e.g. authors"
+          }
+        },
+        {
+          "code": "G06V 30/418",
+          "title": {
+            "ko": null,
+            "en": "Document matching, e.g. of document images"
+          }
+        },
+        {
+          "code": "G06V 30/42",
+          "title": {
+            "ko": null,
+            "en": "based on the type of document"
+          }
+        },
+        {
+          "code": "G06V 30/422",
+          "title": {
+            "ko": null,
+            "en": "Technical drawings; Geographical maps"
+          }
+        },
+        {
+          "code": "G06V 30/424",
+          "title": {
+            "ko": null,
+            "en": "Postal images, e.g. labels or addresses on parcels or postal envelopes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06V 40/00",
+      "title": {
+        "ko": "이미지 또는 비디오 데이터에서 생체, 인간-관련 또는 동물-관련 패턴의 인식",
+        "en": "Recognition of biometric, human-related or animal-related patterns in image or video data"
+      },
+      "subgroups": [
+        {
+          "code": "G06V 40/10",
+          "title": {
+            "ko": null,
+            "en": "Human or animal bodies, e.g. vehicle occupants or pedestrians; Body parts, e.g. hands"
+          }
+        },
+        {
+          "code": "G06V 40/12",
+          "title": {
+            "ko": null,
+            "en": "Fingerprints or palmprints"
+          }
+        },
+        {
+          "code": "G06V 40/13",
+          "title": {
+            "ko": null,
+            "en": "Sensors therefor"
+          }
+        },
+        {
+          "code": "G06V 40/14",
+          "title": {
+            "ko": null,
+            "en": "Vascular patterns"
+          }
+        },
+        {
+          "code": "G06V 40/145",
+          "title": {
+            "ko": null,
+            "en": "Sensors therefor"
+          }
+        },
+        {
+          "code": "G06V 40/16",
+          "title": {
+            "ko": null,
+            "en": "Human faces, e.g. facial parts, sketches or expressions"
+          }
+        },
+        {
+          "code": "G06V 40/18",
+          "title": {
+            "ko": null,
+            "en": "Eye characteristics, e.g. of the iris"
+          }
+        },
+        {
+          "code": "G06V 40/19",
+          "title": {
+            "ko": null,
+            "en": "Sensors therefor"
+          }
+        },
+        {
+          "code": "G06V 40/20",
+          "title": {
+            "ko": "움직임 또는 행동, 예. 제스처 인식 (표정의 인식 G06V40/16)",
+            "en": "Movements or behaviour, e.g. gesture recognition (recognition of facial expressions G06V0040160000)"
+          }
+        },
+        {
+          "code": "G06V 40/30",
+          "title": {
+            "ko": null,
+            "en": "Writer recognition; Reading and verifying signatures"
+          }
+        },
+        {
+          "code": "G06V 40/40",
+          "title": {
+            "ko": null,
+            "en": "Spoof detection, e.g. liveness detection"
+          }
+        },
+        {
+          "code": "G06V 40/50",
+          "title": {
+            "ko": null,
+            "en": "Maintenance of biometric data or enrolment thereof"
+          }
+        },
+        {
+          "code": "G06V 40/60",
+          "title": {
+            "ko": null,
+            "en": "Static or dynamic means for assisting the user to position a body part for biometric acquisition"
+          }
+        },
+        {
+          "code": "G06V 40/70",
+          "title": {
+            "ko": null,
+            "en": "Multimodal biometrics, e.g. combining information from different biometric modalities"
+          }
+        }
+      ]
+    }
+  ]
+}

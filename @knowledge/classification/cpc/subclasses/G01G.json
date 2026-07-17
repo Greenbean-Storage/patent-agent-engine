@@ -1,0 +1,558 @@
+{
+  "subclass": "G01G",
+  "title": {
+    "ko": null,
+    "en": "WEIGHING (sorting by weighing B07C5/16)"
+  },
+  "groups": [
+    {
+      "code": "G01G 1/00",
+      "title": {
+        "ko": null,
+        "en": "Weighing apparatus involving the use of a counterweight or other counterbalancing mass"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 1/02",
+          "title": {
+            "ko": null,
+            "en": "Pendulum-weight apparatus"
+          }
+        },
+        {
+          "code": "G01G 1/18",
+          "title": {
+            "ko": null,
+            "en": "Balances involving the use of a pivoted beam, i.e. beam balances"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 3/00",
+      "title": {
+        "ko": null,
+        "en": "Weighing apparatus characterised by the use of elastically-deformable members, e.g. spring balances"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 3/02",
+          "title": {
+            "ko": null,
+            "en": "wherein the weighing element is in the form of a helical spring"
+          }
+        },
+        {
+          "code": "G01G 3/06",
+          "title": {
+            "ko": null,
+            "en": "wherein the weighing element is in the form of a spiral spring"
+          }
+        },
+        {
+          "code": "G01G 3/08",
+          "title": {
+            "ko": null,
+            "en": "wherein the weighing element is in the form of a leaf spring"
+          }
+        },
+        {
+          "code": "G01G 3/10",
+          "title": {
+            "ko": null,
+            "en": "wherein the torsional deformation of a weighing element is measured"
+          }
+        },
+        {
+          "code": "G01G 3/12",
+          "title": {
+            "ko": null,
+            "en": "wherein the weighing element is in the form of a solid body stressed by pressure or tension during weighing"
+          }
+        },
+        {
+          "code": "G01G 3/18",
+          "title": {
+            "ko": null,
+            "en": "Temperature-compensating arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 5/00",
+      "title": {
+        "ko": null,
+        "en": "Weighing apparatus wherein the balancing is effected by fluid action"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 5/003",
+          "title": {
+            "ko": null,
+            "en": "{load-cell construction or mountings}"
+          }
+        },
+        {
+          "code": "G01G 5/006",
+          "title": {
+            "ko": null,
+            "en": "{with pneumatic means}"
+          }
+        },
+        {
+          "code": "G01G 5/02",
+          "title": {
+            "ko": null,
+            "en": "with a float or other member variably immersed in liquid"
+          }
+        },
+        {
+          "code": "G01G 5/04",
+          "title": {
+            "ko": null,
+            "en": "with means for measuring the pressure imposed by the load on a liquid (pressure gauges per se G01L)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 7/00",
+      "title": {
+        "ko": null,
+        "en": "Weighing apparatus wherein the balancing is effected by magnetic, electromagnetic, or electrostatic action, or by means not provided for in the preceding groups"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 7/02",
+          "title": {
+            "ko": null,
+            "en": "by electromagnetic action"
+          }
+        },
+        {
+          "code": "G01G 7/06",
+          "title": {
+            "ko": null,
+            "en": "by electrostatic action"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 9/00",
+      "title": {
+        "ko": null,
+        "en": "Methods of, or apparatus for, the determination of weight, not provided for in groups G01G1/00 - G01G7/00"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 9/005",
+          "title": {
+            "ko": null,
+            "en": "{using radiations, e.g. radioactive (analysing materials by the use of wave or particle radiation G01N23/00)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 11/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for weighing a continuous stream of material during flow; Conveyor belt weighers"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 11/003",
+          "title": {
+            "ko": null,
+            "en": "{Details; specially adapted accessories (details of weighing apparatus in general G01G21/00; auxiliary devices for weighing apparatus in general G01G23/00)}"
+          }
+        },
+        {
+          "code": "G01G 11/006",
+          "title": {
+            "ko": null,
+            "en": "{Special taring or checking devices therefor (devices for determining tare weight in general G01G23/14)}"
+          }
+        },
+        {
+          "code": "G01G 11/02",
+          "title": {
+            "ko": null,
+            "en": "having mechanical weight-sensitive devices"
+          }
+        },
+        {
+          "code": "G01G 11/04",
+          "title": {
+            "ko": null,
+            "en": "having electrical weight-sensitive devices"
+          }
+        },
+        {
+          "code": "G01G 11/06",
+          "title": {
+            "ko": null,
+            "en": "having fluid weight-sensitive devices"
+          }
+        },
+        {
+          "code": "G01G 11/08",
+          "title": {
+            "ko": null,
+            "en": "having means for controlling the rate of feed or discharge (regulation of flow of fluent material G05D)"
+          }
+        },
+        {
+          "code": "G01G 11/14",
+          "title": {
+            "ko": null,
+            "en": "using totalising or integrating devices ({G01G11/025, G01G11/043, G01G11/046 and G01G11/065 take precedence} totalising or integrating devices per se G06)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 13/00",
+      "title": {
+        "ko": null,
+        "en": "Weighing apparatus with automatic feed or discharge for weighing-out batches of material (for weighing a continuous stream G01G11/00; check-weighing G01G15/00; for fluids G01G17/04; apportioning by weight materials to be mixed G01G19/22; combinatorial weighing G01G19/387)"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 13/003",
+          "title": {
+            "ko": null,
+            "en": "{Details; specially adapted accessories (details of weighing apparatus in general G01G21/00; auxiliary devices for weighing apparatus in general G01G23/00)}"
+          }
+        },
+        {
+          "code": "G01G 13/02",
+          "title": {
+            "ko": null,
+            "en": "Means for automatically loading weigh pans or other receptacles, e.g. disposable containers, under control of the weighing mechanism"
+          }
+        },
+        {
+          "code": "G01G 13/16",
+          "title": {
+            "ko": null,
+            "en": "Means for automatically discharging weigh receptacles under control of the weighing mechanism"
+          }
+        },
+        {
+          "code": "G01G 13/24",
+          "title": {
+            "ko": null,
+            "en": "Weighing mechanism control arrangements for automatic feed or discharge"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 15/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for check-weighing of materials dispensed into removable containers (packaging aspects B65B; {electric measuring arrangements involving comparison with a reference value G01R17/00})"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 15/001",
+          "title": {
+            "ko": null,
+            "en": "{Volumetric pre-dispensing to an estimated weight; Gravimetric make-up device for target device}"
+          }
+        },
+        {
+          "code": "G01G 15/006",
+          "title": {
+            "ko": null,
+            "en": "{using electrical, electromechanical, or electronic means not covered by G01G15/001, G01G15/02, G01G15/04}"
+          }
+        },
+        {
+          "code": "G01G 15/02",
+          "title": {
+            "ko": null,
+            "en": "with provision for adding or removing a make-up quantity of material to obtain the desired net weight (dribble-feed means for automatic batch-weighers G01G13/04)"
+          }
+        },
+        {
+          "code": "G01G 15/04",
+          "title": {
+            "ko": null,
+            "en": "with provision for adding or removing a make-up quantity of material to obtain the desired gross weight (dribble-feed means for automatic batch-weighers G01G13/04)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 17/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for or methods of weighing material of special form or property (determining weight by measuring volume G01F)"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 17/02",
+          "title": {
+            "ko": null,
+            "en": "for weighing material of filamentary or sheet form"
+          }
+        },
+        {
+          "code": "G01G 17/04",
+          "title": {
+            "ko": null,
+            "en": "for weighing fluids, e.g. gases, pastes"
+          }
+        },
+        {
+          "code": "G01G 17/08",
+          "title": {
+            "ko": null,
+            "en": "for weighing livestock"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 19/00",
+      "title": {
+        "ko": null,
+        "en": "Weighing apparatus or methods adapted for special purposes not provided for in the preceding groups {(electric measuring arrangements involving comparison with a reference value G01R17/00)}"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 19/002",
+          "title": {
+            "ko": null,
+            "en": "{for postal parcels and letters}"
+          }
+        },
+        {
+          "code": "G01G 19/007",
+          "title": {
+            "ko": null,
+            "en": "{fractioning a determined weight of material in several equal parts}"
+          }
+        },
+        {
+          "code": "G01G 19/02",
+          "title": {
+            "ko": null,
+            "en": "for weighing wheeled or rolling bodies, e.g. vehicles"
+          }
+        },
+        {
+          "code": "G01G 19/08",
+          "title": {
+            "ko": null,
+            "en": "for incorporation in vehicles"
+          }
+        },
+        {
+          "code": "G01G 19/14",
+          "title": {
+            "ko": null,
+            "en": "for weighing suspended loads (G01G3/00 takes precedence; incorporation of weighing devices in cranes B66C1/40, B66C13/16)"
+          }
+        },
+        {
+          "code": "G01G 19/22",
+          "title": {
+            "ko": null,
+            "en": "for apportioning materials by weighing prior to mixing them (ratio regulation G05D11/00)"
+          }
+        },
+        {
+          "code": "G01G 19/387",
+          "title": {
+            "ko": null,
+            "en": "for combinatorial weighing, i.e. selecting a combination of articles whose total weight or number is closest to a desired value"
+          }
+        },
+        {
+          "code": "G01G 19/40",
+          "title": {
+            "ko": null,
+            "en": "with provisions for indicating, recording, or computing price or other quantities dependent on the weight (indicating means for weighing apparatus G01G23/18; recording means for weighing apparatus G01G23/18; computers in general G06)"
+          }
+        },
+        {
+          "code": "G01G 19/44",
+          "title": {
+            "ko": null,
+            "en": "for weighing persons"
+          }
+        },
+        {
+          "code": "G01G 19/52",
+          "title": {
+            "ko": null,
+            "en": "Weighing apparatus combined with other objects, e.g. furniture (with walking sticks A45B3/08)"
+          }
+        },
+        {
+          "code": "G01G 19/62",
+          "title": {
+            "ko": null,
+            "en": "Over or under weighing apparatus"
+          }
+        },
+        {
+          "code": "G01G 19/64",
+          "title": {
+            "ko": null,
+            "en": "Percentage-indicating weighing apparatus, i.e. for expressing the weight as a percentage of a predetermined or initial weight"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 21/00",
+      "title": {
+        "ko": null,
+        "en": "Details of weighing apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 21/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of bearings (bearings per se F16C)"
+          }
+        },
+        {
+          "code": "G01G 21/14",
+          "title": {
+            "ko": null,
+            "en": "Beams"
+          }
+        },
+        {
+          "code": "G01G 21/18",
+          "title": {
+            "ko": null,
+            "en": "Link connections between the beam and the weigh pan"
+          }
+        },
+        {
+          "code": "G01G 21/22",
+          "title": {
+            "ko": null,
+            "en": "Weigh pans or other weighing receptacles; Weighing platforms"
+          }
+        },
+        {
+          "code": "G01G 21/23",
+          "title": {
+            "ko": null,
+            "en": "Support or suspension of weighing platforms (G01G21/24 takes precedence)"
+          }
+        },
+        {
+          "code": "G01G 21/24",
+          "title": {
+            "ko": null,
+            "en": "Guides or linkages for ensuring parallel motion of the weigh-pans"
+          }
+        },
+        {
+          "code": "G01G 21/26",
+          "title": {
+            "ko": null,
+            "en": "Counterweights; Poise-weights; Sets of weights; Holders for the reception of weights"
+          }
+        },
+        {
+          "code": "G01G 21/28",
+          "title": {
+            "ko": null,
+            "en": "Frames, Housings"
+          }
+        },
+        {
+          "code": "G01G 21/30",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing contamination by dust"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01G 23/00",
+      "title": {
+        "ko": null,
+        "en": "Auxiliary devices for weighing apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "G01G 23/002",
+          "title": {
+            "ko": null,
+            "en": "{Means for correcting for obliquity of mounting (for pendulum-weight apparatus G01G1/16)}"
+          }
+        },
+        {
+          "code": "G01G 23/005",
+          "title": {
+            "ko": null,
+            "en": "{Means for preventing overload}"
+          }
+        },
+        {
+          "code": "G01G 23/007",
+          "title": {
+            "ko": null,
+            "en": "{Integrated arrangements for generating electrical power, e.g. solar cells}"
+          }
+        },
+        {
+          "code": "G01G 23/01",
+          "title": {
+            "ko": null,
+            "en": "Testing or calibrating of weighing apparatus"
+          }
+        },
+        {
+          "code": "G01G 23/02",
+          "title": {
+            "ko": null,
+            "en": "Relieving mechanisms; Arrestment mechanisms"
+          }
+        },
+        {
+          "code": "G01G 23/06",
+          "title": {
+            "ko": null,
+            "en": "Means for damping oscillations, e.g. of weigh beams"
+          }
+        },
+        {
+          "code": "G01G 23/14",
+          "title": {
+            "ko": null,
+            "en": "Devices for determining tare weight or for cancelling out the tare by zeroising, e.g. mechanically operated (in connection with automatic loading G01G13/14)"
+          }
+        },
+        {
+          "code": "G01G 23/18",
+          "title": {
+            "ko": null,
+            "en": "Indicating devices, e.g. for remote indication; Recording devices; Scales, e.g. graduated"
+          }
+        },
+        {
+          "code": "G01G 23/48",
+          "title": {
+            "ko": null,
+            "en": "Temperature-compensating arrangements (G01G1/14, G01G1/42, G01G3/18 take precedence)"
+          }
+        }
+      ]
+    }
+  ]
+}

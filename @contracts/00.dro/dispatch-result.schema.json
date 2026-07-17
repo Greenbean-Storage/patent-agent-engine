@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dispatch-result",
+  "title": "Actor /dispatch SSE result (= 완료된 RT 의 output)",
+  "description": "Actor 가 POST /dispatch SSE 의 `result` 이벤트로 반환하고 DRO orchestrator 가 RT.output 으로 PATCH 하는 값. 전 구현체 동일 shape — 실 ActorSession(actor_session.py)·FixtureSession(llm/fixture.py)·mock-actor(mocks/actor_app/app.py). reasoning_task.schema 의 output 은 mid-flight null 을 허용하므로 별도 계약 — 이 스키마는 **완료된 RT 의 output** 전용. 소비자 = play 트랙의 raw_asserts (5-1·5-2: run 중 모든 mock 출력(RAW SSE + dispatch result) 스키마 검사 — drift guard).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["text", "structured"],
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "LLM 응답 텍스트. FIXTURE 는 '(fixture {pipeline_id}/{step_id})'."
+    },
+    "structured": {
+      "type": ["object", "array", "null"],
+      "description": "response_schema 기반 구조화 출력. fixture 파일 내용 그대로 (dict 또는 top-level array — 예: P02 step 6 roadmap). 미산출 시 null."
+    }
+  }
+}

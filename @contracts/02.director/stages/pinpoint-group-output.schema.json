@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "ipc_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cpc_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ipc_codes",
+    "cpc_codes",
+    "rationale"
+  ]
+}

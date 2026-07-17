@@ -1,0 +1,2683 @@
+{
+  "subclass": "B01F",
+  "title": {
+    "ko": "혼합, 예. 용해, 유화, 분산 (페인트의 혼합 B44D3/06)",
+    "en": "MIXING, e.g. DISSOLVING, EMULSIFYING OR DISPERSING  (mixing paints B44D0003060000)"
+  },
+  "definition": {
+    "ko": "용해 B01F21/00 혼합, 분산, 유화 공정 B01F23/00 장치 플로우 믹서(FLOW MIXERS) B01F25/00 회전운동이 있는 B01F27/00, B01F29/00 기타 혼합기 B01F31/00, B01F33/00 부속장치 B01F35/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B01F 21/00",
+      "title": {
+        "ko": "용해 (용해에 의한 분리 B01D; 냉각에 효과를 주기 위한 용해 F25D5/00)",
+        "en": "Dissolving (separating by dissolving B01D;dissolving to effect cooling F25D0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 21/10",
+          "title": {
+            "ko": null,
+            "en": "using driven stirrers"
+          }
+        },
+        {
+          "code": "B01F 21/20",
+          "title": {
+            "ko": null,
+            "en": "using flow mixing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 23/00",
+      "title": {
+        "ko": "혼합될 상에 따른 혼합, 예. 분산 또는 유화",
+        "en": "Mixing according to the phases to be mixed, e.g. dispersing or emulsifying"
+      },
+      "definition": {
+        "ko": "이 그룹에서 다음의 용어는 지시된 의미로 사용된다 : ㆍ\"기체\"는 증기를 또한 포함한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "B01F 23/10",
+          "title": {
+            "ko": null,
+            "en": "Mixing gases with gases"
+          }
+        },
+        {
+          "code": "B01F 23/20",
+          "title": {
+            "ko": "기체와 액체의 혼합",
+            "en": "Mixing gases with liquids"
+          }
+        },
+        {
+          "code": "B01F 23/21",
+          "title": {
+            "ko": null,
+            "en": "by introducing liquids into gaseous media"
+          }
+        },
+        {
+          "code": "B01F 23/213",
+          "title": {
+            "ko": null,
+            "en": "by spraying or atomising of the liquids"
+          }
+        },
+        {
+          "code": "B01F 23/23",
+          "title": {
+            "ko": "액체 매체로 기체의 도입에 의한, 예. 공기 첨가 액체 생산을 위한 것",
+            "en": "by introducing gases into liquid media, e.g. for producing aerated liquids"
+          }
+        },
+        {
+          "code": "B01F 23/231",
+          "title": {
+            "ko": "발포에 의한 (기체 또는 액체 교반을 갖는 혼합기, 예. 공기 공급관을 갖는 것 B01F33/40)",
+            "en": "by bubbling (mixers with gas or liquid agitation, e.g. with air supply tubes B01F0033400000)"
+          }
+        },
+        {
+          "code": "B01F 23/232",
+          "title": {
+            "ko": null,
+            "en": "using flow-mixing means for introducing the gases, e.g. baffles"
+          }
+        },
+        {
+          "code": "B01F 23/2326",
+          "title": {
+            "ko": null,
+            "en": "adding the flowing main component by suction means, e.g. using an ejector"
+          }
+        },
+        {
+          "code": "B01F 23/233",
+          "title": {
+            "ko": null,
+            "en": "using driven stirrers with completely immersed stirring elements"
+          }
+        },
+        {
+          "code": "B01F 23/234",
+          "title": {
+            "ko": null,
+            "en": "Surface aerating"
+          }
+        },
+        {
+          "code": "B01F 23/235",
+          "title": {
+            "ko": null,
+            "en": "for making foam"
+          }
+        },
+        {
+          "code": "B01F 23/236",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for aerating or carbonating beverages"
+          }
+        },
+        {
+          "code": "B01F 23/2361",
+          "title": {
+            "ko": null,
+            "en": "within small containers, e.g. within bottles"
+          }
+        },
+        {
+          "code": "B01F 23/237",
+          "title": {
+            "ko": null,
+            "en": "characterised by the physical or chemical properties of gases or vapours introduced in the liquid media"
+          }
+        },
+        {
+          "code": "B01F 23/2373",
+          "title": {
+            "ko": null,
+            "en": "for obtaining fine bubbles, i.e. bubbles with a size below 100 µm"
+          }
+        },
+        {
+          "code": "B01F 23/2375",
+          "title": {
+            "ko": null,
+            "en": "for obtaining bubbles with a size below 1 µm"
+          }
+        },
+        {
+          "code": "B01F 23/30",
+          "title": {
+            "ko": null,
+            "en": "Mixing gases with solids"
+          }
+        },
+        {
+          "code": "B01F 23/40",
+          "title": {
+            "ko": null,
+            "en": "Mixing liquids with liquids; Emulsifying"
+          }
+        },
+        {
+          "code": "B01F 23/41",
+          "title": {
+            "ko": null,
+            "en": "Emulsifying"
+          }
+        },
+        {
+          "code": "B01F 23/411",
+          "title": {
+            "ko": null,
+            "en": "using electrical or magnetic fields, heat or vibrations"
+          }
+        },
+        {
+          "code": "B01F 23/43",
+          "title": {
+            "ko": null,
+            "en": "using driven stirrers"
+          }
+        },
+        {
+          "code": "B01F 23/45",
+          "title": {
+            "ko": null,
+            "en": "using flow mixing"
+          }
+        },
+        {
+          "code": "B01F 23/451",
+          "title": {
+            "ko": null,
+            "en": "by injecting one liquid into another"
+          }
+        },
+        {
+          "code": "B01F 23/454",
+          "title": {
+            "ko": null,
+            "en": "by injecting a mixture of liquid and gas"
+          }
+        },
+        {
+          "code": "B01F 23/47",
+          "title": {
+            "ko": null,
+            "en": "involving high-viscosity liquids, e.g. asphalt"
+          }
+        },
+        {
+          "code": "B01F 23/50",
+          "title": {
+            "ko": "액체와 고체의 혼합 (액체내 분산된 고형분 분산액에서 액체를 다른 액체로 변위 B01D12/00)",
+            "en": "Mixing liquids with solids (displacing one liquid by another in dispersions of solids in liquids B01D0012000000)"
+          }
+        },
+        {
+          "code": "B01F 23/53",
+          "title": {
+            "ko": null,
+            "en": "using driven stirrers"
+          }
+        },
+        {
+          "code": "B01F 23/57",
+          "title": {
+            "ko": null,
+            "en": "Mixing high-viscosity liquids with solids"
+          }
+        },
+        {
+          "code": "B01F 23/60",
+          "title": {
+            "ko": null,
+            "en": "Mixing solids with solids"
+          }
+        },
+        {
+          "code": "B01F 23/62",
+          "title": {
+            "ko": null,
+            "en": "using a receptacle with a bottom discharge with oscillating or vibrating opening and closing elements; using a receptacle with a bottom discharge with elements fitted on moving chains"
+          }
+        },
+        {
+          "code": "B01F 23/64",
+          "title": {
+            "ko": null,
+            "en": "using rotatable mixing elements at the lower end of discharge hoppers"
+          }
+        },
+        {
+          "code": "B01F 23/70",
+          "title": {
+            "ko": null,
+            "en": "Pre-treatment of the materials to be mixed"
+          }
+        },
+        {
+          "code": "B01F 23/80",
+          "title": {
+            "ko": null,
+            "en": "After-treatment of the mixture"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 25/00",
+      "title": {
+        "ko": "흐름 혼합기; 낙하 물질의 혼합기, 예. 고형 입자 (원심혼합기 B04)",
+        "en": "Mixers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B01F 25/00",
+      "title": {
+        "ko": "흐름 혼합기; 낙하 물질의 혼합기, 예. 고형 입자 (원심혼합기 B04)",
+        "en": "Flow mixers; Mixers for falling materials, e.g. solid particles (centrifugal mixers B04)"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 25/10",
+          "title": {
+            "ko": null,
+            "en": "Mixing by creating a vortex flow, e.g. by tangential introduction of flow components"
+          }
+        },
+        {
+          "code": "B01F 25/20",
+          "title": {
+            "ko": "제트 믹서, 즉. 고속 유체 흐름을 사용하는 믹서 (소용돌이 흐름을 생성하기 위해 제트를 사용하는 것 B01F25/10)",
+            "en": "Jet mixers, i.e. mixers using high-speed fluid streams (using jets to create vortex flow B01F0025100000)"
+          }
+        },
+        {
+          "code": "B01F 25/21",
+          "title": {
+            "ko": null,
+            "en": "with submerged injectors, e.g. nozzles, for injecting high-pressure jets into a large volume or into mixing chambers"
+          }
+        },
+        {
+          "code": "B01F 25/23",
+          "title": {
+            "ko": null,
+            "en": "Mixing by intersecting jets"
+          }
+        },
+        {
+          "code": "B01F 25/25",
+          "title": {
+            "ko": null,
+            "en": "Mixing by jets impinging against collision plates"
+          }
+        },
+        {
+          "code": "B01F 25/27",
+          "title": {
+            "ko": null,
+            "en": "Mixing by jetting components into a conduit for agitating its contents"
+          }
+        },
+        {
+          "code": "B01F 25/30",
+          "title": {
+            "ko": "인젝터 혼합기 (소용돌이 흐름의 생성에 의한 혼합 B01F25/10)",
+            "en": "Injector mixers (mixing by creating vortex flow B01F0025100000)"
+          }
+        },
+        {
+          "code": "B01F 25/31",
+          "title": {
+            "ko": "주 구성성분이 흐르는 곳을 통한 도관 또는 튜브 안에서",
+            "en": "in conduits or tubes through which the main component flows"
+          }
+        },
+        {
+          "code": "B01F 25/312",
+          "title": {
+            "ko": null,
+            "en": "with Venturi elements; Details thereof"
+          }
+        },
+        {
+          "code": "B01F 25/313",
+          "title": {
+            "ko": null,
+            "en": "wherein additional components are introduced in the centre of the conduit"
+          }
+        },
+        {
+          "code": "B01F 25/314",
+          "title": {
+            "ko": null,
+            "en": "wherein additional components are introduced at the circumference of the conduit"
+          }
+        },
+        {
+          "code": "B01F 25/315",
+          "title": {
+            "ko": "도관의 다른 지점에서의 압력의 차이가 추가적인 구성성분의 주 구성성분으로의 도입을 유발하는 것 (B01F25/316이 우선)",
+            "en": "wherein a difference of pressure at different points of the conduit causes introduction of the additional component into the main component (B01F0025316000 takes precedence)"
+          }
+        },
+        {
+          "code": "B01F 25/316",
+          "title": {
+            "ko": null,
+            "en": "with containers for additional components fixed to the conduit"
+          }
+        },
+        {
+          "code": "B01F 25/32",
+          "title": {
+            "ko": null,
+            "en": "wherein the additional components are added in a by-pass of the main flow"
+          }
+        },
+        {
+          "code": "B01F 25/40",
+          "title": {
+            "ko": "정적 혼합기 (콜로이드 밀 B02C; 혼합기 밸브 F16K11/00)",
+            "en": "Static mixers (colloid-mills B02C;mixing valves F16K0011000000)"
+          }
+        },
+        {
+          "code": "B01F 25/41",
+          "title": {
+            "ko": null,
+            "en": "Mixers of the fractal type"
+          }
+        },
+        {
+          "code": "B01F 25/42",
+          "title": {
+            "ko": "혼합이 변화하는 방향으로 구성 요소를 함께 이동하는 것에 의해 영향을 받는 것, 예. 배플 또는 장애물이 있는 튜브에서",
+            "en": "in which the mixing is affected by moving the components jointly in changing directions, e.g. in tubes provided with baffles or obstructions"
+          }
+        },
+        {
+          "code": "B01F 25/421",
+          "title": {
+            "ko": "복잡하거나 미로 같은 경로에서 구성요소를 이동하는 것에 의한 것 (B01F25/433이 우선)",
+            "en": "by moving the components in a convoluted or labyrinthine path (B01F0025433000 takes precedence)"
+          }
+        },
+        {
+          "code": "B01F 25/422",
+          "title": {
+            "ko": null,
+            "en": "between stacked plates, e.g. grooved or perforated plates"
+          }
+        },
+        {
+          "code": "B01F 25/43",
+          "title": {
+            "ko": null,
+            "en": "Mixing tubes, e.g. wherein the material is moved in a radial or partly reversed direction"
+          }
+        },
+        {
+          "code": "B01F 25/431",
+          "title": {
+            "ko": null,
+            "en": "Straight mixing tubes with baffles or obstructions that do not cause substantial pressure drop; Baffles therefor"
+          }
+        },
+        {
+          "code": "B01F 25/4314",
+          "title": {
+            "ko": null,
+            "en": "with helical baffles"
+          }
+        },
+        {
+          "code": "B01F 25/432",
+          "title": {
+            "ko": null,
+            "en": "with means for dividing the material flow into separate sub-flows and for repositioning and recombining these sub-flows; Cross-mixing, e.g. conducting the outer layer of the material nearer to the axis of the tube or vice-versa"
+          }
+        },
+        {
+          "code": "B01F 25/433",
+          "title": {
+            "ko": null,
+            "en": "Mixing tubes wherein the shape of the tube influences the mixing, e.g. mixing tubes with varying cross-section or provided with inwardly extending profiles"
+          }
+        },
+        {
+          "code": "B01F 25/434",
+          "title": {
+            "ko": null,
+            "en": "Mixing tubes comprising cylindrical or conical inserts provided with grooves or protrusions"
+          }
+        },
+        {
+          "code": "B01F 25/435",
+          "title": {
+            "ko": null,
+            "en": "Mixing tubes composed of concentric tubular members"
+          }
+        },
+        {
+          "code": "B01F 25/44",
+          "title": {
+            "ko": null,
+            "en": "Mixers in which the components are pressed through slits"
+          }
+        },
+        {
+          "code": "B01F 25/441",
+          "title": {
+            "ko": null,
+            "en": "characterised by the configuration of the surfaces forming the slits"
+          }
+        },
+        {
+          "code": "B01F 25/442",
+          "title": {
+            "ko": null,
+            "en": "characterised by the relative position of the surfaces during operation"
+          }
+        },
+        {
+          "code": "B01F 25/45",
+          "title": {
+            "ko": "혼합되는 재료가 오리피스 또는 틈새 공간을 통해 서로 가압되는 혼합기 (B01F25/44가 우선)",
+            "en": "Mixers in which the materials to be mixed are pressed together through orifices or interstitial spaces, e.g. between beads (B01F0025440000 takes precedence)"
+          }
+        },
+        {
+          "code": "B01F 25/451",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for moving the materials to be mixed or the mixture"
+          }
+        },
+        {
+          "code": "B01F 25/452",
+          "title": {
+            "ko": null,
+            "en": "characterised by elements provided with orifices or interstitial spaces"
+          }
+        },
+        {
+          "code": "B01F 25/46",
+          "title": {
+            "ko": null,
+            "en": "Homogenising or emulsifying nozzles"
+          }
+        },
+        {
+          "code": "B01F 25/50",
+          "title": {
+            "ko": null,
+            "en": "Circulation mixers, e.g. wherein at least part of the mixture is discharged from and reintroduced into a receptacle"
+          }
+        },
+        {
+          "code": "B01F 25/51",
+          "title": {
+            "ko": null,
+            "en": "in which the mixture is circulated through a set of tubes, e.g. with gradual introduction of a component into the circulating flow"
+          }
+        },
+        {
+          "code": "B01F 25/52",
+          "title": {
+            "ko": null,
+            "en": "with a rotary stirrer in the recirculation tube"
+          }
+        },
+        {
+          "code": "B01F 25/53",
+          "title": {
+            "ko": null,
+            "en": "in which the mixture is discharged from and reintroduced into a receptacle through a recirculation tube, into which an additional component is introduced"
+          }
+        },
+        {
+          "code": "B01F 25/54",
+          "title": {
+            "ko": null,
+            "en": "provided with a pump inside the receptacle to recirculate the material within the receptacle"
+          }
+        },
+        {
+          "code": "B01F 25/60",
+          "title": {
+            "ko": null,
+            "en": "Pump mixers, i.e. mixing within a pump"
+          }
+        },
+        {
+          "code": "B01F 25/62",
+          "title": {
+            "ko": null,
+            "en": "of the gear type"
+          }
+        },
+        {
+          "code": "B01F 25/64",
+          "title": {
+            "ko": null,
+            "en": "of the centrifugal-pump type, i.e. turbo-mixers"
+          }
+        },
+        {
+          "code": "B01F 25/70",
+          "title": {
+            "ko": null,
+            "en": "Spray-mixers, e.g. for mixing intersecting sheets of material"
+          }
+        },
+        {
+          "code": "B01F 25/72",
+          "title": {
+            "ko": null,
+            "en": "with nozzles"
+          }
+        },
+        {
+          "code": "B01F 25/721",
+          "title": {
+            "ko": null,
+            "en": "for spraying a fluid on falling particles or on a liquid curtain"
+          }
+        },
+        {
+          "code": "B01F 25/74",
+          "title": {
+            "ko": null,
+            "en": "with rotating parts, e.g. discs"
+          }
+        },
+        {
+          "code": "B01F 25/80",
+          "title": {
+            "ko": null,
+            "en": "Falling particle mixers, e.g. with repeated agitation along a vertical axis"
+          }
+        },
+        {
+          "code": "B01F 25/82",
+          "title": {
+            "ko": null,
+            "en": "uniting flows of material taken from different parts of a receptacle or from a set of different receptacles"
+          }
+        },
+        {
+          "code": "B01F 25/83",
+          "title": {
+            "ko": null,
+            "en": "with receptacles provided with fixed guiding elements therein, e.g. baffles; Cross-mixers comprising crossing channels for guiding the falling particles"
+          }
+        },
+        {
+          "code": "B01F 25/85",
+          "title": {
+            "ko": null,
+            "en": "wherein the particles fall onto a film that flows along the inner wall of a mixer"
+          }
+        },
+        {
+          "code": "B01F 25/90",
+          "title": {
+            "ko": null,
+            "en": "with moving or vibrating means, e.g. stirrers, for enhancing the mixing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 27/00",
+      "title": {
+        "ko": "고정된 용기 내에 회전하는 교반장치가 있는 혼합기 (자기 혼합기 B01F33/45) ; 반죽기",
+        "en": "Mixers with rotary stirring devices in fixed receptacles (magnetic mixers B01F0033450000); Kneaders"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 27/05",
+          "title": {
+            "ko": null,
+            "en": "Stirrers"
+          }
+        },
+        {
+          "code": "B01F 27/051",
+          "title": {
+            "ko": null,
+            "en": "characterised by their elements, materials or mechanical properties"
+          }
+        },
+        {
+          "code": "B01F 27/052",
+          "title": {
+            "ko": null,
+            "en": "Stirrers with replaceable wearing elements; Wearing elements therefor"
+          }
+        },
+        {
+          "code": "B01F 27/053",
+          "title": {
+            "ko": null,
+            "en": "characterised by their materials"
+          }
+        },
+        {
+          "code": "B01F 27/054",
+          "title": {
+            "ko": null,
+            "en": "Deformable stirrers, e.g. deformed by a centrifugal force applied during operation"
+          }
+        },
+        {
+          "code": "B01F 27/07",
+          "title": {
+            "ko": null,
+            "en": "characterised by their mounting on the shaft"
+          }
+        },
+        {
+          "code": "B01F 27/072",
+          "title": {
+            "ko": null,
+            "en": "characterised by the disposition of the stirrers with respect to the rotating axis"
+          }
+        },
+        {
+          "code": "B01F 27/09",
+          "title": {
+            "ko": null,
+            "en": "characterised by the mounting of the stirrers with respect to the receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/091",
+          "title": {
+            "ko": null,
+            "en": "with elements co-operating with receptacle wall or bottom, e.g. for scraping the receptacle wall"
+          }
+        },
+        {
+          "code": "B01F 27/093",
+          "title": {
+            "ko": null,
+            "en": "eccentrically arranged"
+          }
+        },
+        {
+          "code": "B01F 27/11",
+          "title": {
+            "ko": null,
+            "en": "characterised by the configuration of the stirrers"
+          }
+        },
+        {
+          "code": "B01F 27/111",
+          "title": {
+            "ko": null,
+            "en": "Centrifugal stirrers, i.e. stirrers with radial outlets; Stirrers of the turbine type, e.g. with means to guide the flow"
+          }
+        },
+        {
+          "code": "B01F 27/1111",
+          "title": {
+            "ko": null,
+            "en": "with a flat disc or with a disc-like element equipped with blades, e.g. Rushton turbine"
+          }
+        },
+        {
+          "code": "B01F 27/112",
+          "title": {
+            "ko": null,
+            "en": "with arms, paddles, vanes or blades"
+          }
+        },
+        {
+          "code": "B01F 27/1121",
+          "title": {
+            "ko": null,
+            "en": "pin-shaped"
+          }
+        },
+        {
+          "code": "B01F 27/1122",
+          "title": {
+            "ko": null,
+            "en": "anchor-shaped"
+          }
+        },
+        {
+          "code": "B01F 27/1123",
+          "title": {
+            "ko": null,
+            "en": "sickle-shaped, i.e. curved in at least one direction"
+          }
+        },
+        {
+          "code": "B01F 27/1124",
+          "title": {
+            "ko": null,
+            "en": "rake-shaped or grid-shaped"
+          }
+        },
+        {
+          "code": "B01F 27/1125",
+          "title": {
+            "ko": null,
+            "en": "with vanes or blades extending parallel or oblique to the stirrer axis"
+          }
+        },
+        {
+          "code": "B01F 27/1126",
+          "title": {
+            "ko": null,
+            "en": "the stirrer being a bent rod supported at one end only"
+          }
+        },
+        {
+          "code": "B01F 27/1127",
+          "title": {
+            "ko": null,
+            "en": "spoon-shaped"
+          }
+        },
+        {
+          "code": "B01F 27/113",
+          "title": {
+            "ko": null,
+            "en": "Propeller-shaped stirrers for producing an axial flow, e.g. shaped like a ship or aircraft propeller"
+          }
+        },
+        {
+          "code": "B01F 27/1131",
+          "title": {
+            "ko": null,
+            "en": "with holes in the propeller blade surface"
+          }
+        },
+        {
+          "code": "B01F 27/1132",
+          "title": {
+            "ko": null,
+            "en": "with guiding tubes or tubular segments fixed to and surrounding the tips of the propeller blades, e.g. for supplementary mixing"
+          }
+        },
+        {
+          "code": "B01F 27/114",
+          "title": {
+            "ko": null,
+            "en": "Helically shaped stirrers, i.e. stirrers comprising a helically shaped band or helically shaped band sections"
+          }
+        },
+        {
+          "code": "B01F 27/1142",
+          "title": {
+            "ko": null,
+            "en": "of the corkscrew type"
+          }
+        },
+        {
+          "code": "B01F 27/1143",
+          "title": {
+            "ko": null,
+            "en": "screw-shaped, e.g. worms"
+          }
+        },
+        {
+          "code": "B01F 27/1144",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of blades following a helical path on a shaft or a blade support"
+          }
+        },
+        {
+          "code": "B01F 27/1145",
+          "title": {
+            "ko": null,
+            "en": "ribbon shaped with an open space between the helical ribbon flight and the rotating axis"
+          }
+        },
+        {
+          "code": "B01F 27/115",
+          "title": {
+            "ko": null,
+            "en": "comprising discs or disc-like elements essentially perpendicular to the stirrer shaft axis"
+          }
+        },
+        {
+          "code": "B01F 27/1151",
+          "title": {
+            "ko": null,
+            "en": "with holes on the surface"
+          }
+        },
+        {
+          "code": "B01F 27/1152",
+          "title": {
+            "ko": null,
+            "en": "with separate elements other than discs fixed on the discs, e.g. vanes fixed on the discs"
+          }
+        },
+        {
+          "code": "B01F 27/116",
+          "title": {
+            "ko": null,
+            "en": "Stirrers shaped as cylinders, balls or rollers"
+          }
+        },
+        {
+          "code": "B01F 27/117",
+          "title": {
+            "ko": null,
+            "en": "Stirrers provided with conical-shaped elements, e.g. funnel-shaped"
+          }
+        },
+        {
+          "code": "B01F 27/118",
+          "title": {
+            "ko": null,
+            "en": "Stirrers in the form of brushes, sieves, grids, chains or springs"
+          }
+        },
+        {
+          "code": "B01F 27/119",
+          "title": {
+            "ko": null,
+            "en": "Stirrers with rigid wires or flexible rods"
+          }
+        },
+        {
+          "code": "B01F 27/13",
+          "title": {
+            "ko": null,
+            "en": "Openwork frame or cage stirrers not provided for in other groups of this subclass"
+          }
+        },
+        {
+          "code": "B01F 27/15",
+          "title": {
+            "ko": null,
+            "en": "Stirrers with tubes for guiding the material"
+          }
+        },
+        {
+          "code": "B01F 27/17",
+          "title": {
+            "ko": null,
+            "en": "Stirrers with additional elements mounted on the stirrer, for purposes other than mixing"
+          }
+        },
+        {
+          "code": "B01F 27/171",
+          "title": {
+            "ko": null,
+            "en": "for disintegrating, e.g. for milling"
+          }
+        },
+        {
+          "code": "B01F 27/172",
+          "title": {
+            "ko": null,
+            "en": "for cutting, e.g. with knives"
+          }
+        },
+        {
+          "code": "B01F 27/19",
+          "title": {
+            "ko": null,
+            "en": "Stirrers with two or more mixing elements mounted in sequence on the same axis"
+          }
+        },
+        {
+          "code": "B01F 27/191",
+          "title": {
+            "ko": null,
+            "en": "with similar elements"
+          }
+        },
+        {
+          "code": "B01F 27/192",
+          "title": {
+            "ko": null,
+            "en": "with dissimilar elements"
+          }
+        },
+        {
+          "code": "B01F 27/21",
+          "title": {
+            "ko": null,
+            "en": "characterised by their rotating shafts"
+          }
+        },
+        {
+          "code": "B01F 27/211",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material of the shaft"
+          }
+        },
+        {
+          "code": "B01F 27/2111",
+          "title": {
+            "ko": null,
+            "en": "Flexible shafts"
+          }
+        },
+        {
+          "code": "B01F 27/2121",
+          "title": {
+            "ko": null,
+            "en": "composed of interconnected parts"
+          }
+        },
+        {
+          "code": "B01F 27/2122",
+          "title": {
+            "ko": null,
+            "en": "Hollow shafts"
+          }
+        },
+        {
+          "code": "B01F 27/2123",
+          "title": {
+            "ko": null,
+            "en": "Shafts with both stirring means and feeding or discharging means"
+          }
+        },
+        {
+          "code": "B01F 27/2124",
+          "title": {
+            "ko": null,
+            "en": "Shafts with adjustable length, e.g. telescopic shafts"
+          }
+        },
+        {
+          "code": "B01F 27/213",
+          "title": {
+            "ko": null,
+            "en": "characterised by the connection with the drive"
+          }
+        },
+        {
+          "code": "B01F 27/23",
+          "title": {
+            "ko": null,
+            "en": "characterised by the orientation or disposition of the rotor axis"
+          }
+        },
+        {
+          "code": "B01F 27/231",
+          "title": {
+            "ko": null,
+            "en": "with a variable orientation during mixing operation, e.g. with tiltable rotor axis"
+          }
+        },
+        {
+          "code": "B01F 27/232",
+          "title": {
+            "ko": null,
+            "en": "with two or more rotation axes"
+          }
+        },
+        {
+          "code": "B01F 27/2322",
+          "title": {
+            "ko": null,
+            "en": "with parallel axes"
+          }
+        },
+        {
+          "code": "B01F 27/2323",
+          "title": {
+            "ko": null,
+            "en": "with perpendicular axes"
+          }
+        },
+        {
+          "code": "B01F 27/25",
+          "title": {
+            "ko": null,
+            "en": "Mixers with both stirrer and drive unit submerged in the material being mixed"
+          }
+        },
+        {
+          "code": "B01F 27/27",
+          "title": {
+            "ko": "고정자-회전자 시스템을 갖는 혼합기, 예. 맞물리는 톱니 또는 실린더가 있거나 오리피스를 갖는 것 (중심축 방향 유입 및 실질적으로 방사상 유출을 갖는 교반기 B01F27/81)",
+            "en": "Mixers with stator-rotor systems, e.g. with intermeshing teeth or cylinders or having orifices (the stirrers having a central axial inflow and a substantially radial outflow B01F0027810000)"
+          }
+        },
+        {
+          "code": "B01F 27/271",
+          "title": {
+            "ko": null,
+            "en": "with means for moving the materials to be mixed radially between the surfaces of the rotor and the stator"
+          }
+        },
+        {
+          "code": "B01F 27/272",
+          "title": {
+            "ko": null,
+            "en": "with means for moving the materials to be mixed axially between the surfaces of the rotor and the stator, e.g. the stator rotor system formed by conical or cylindrical surfaces"
+          }
+        },
+        {
+          "code": "B01F 27/40",
+          "title": {
+            "ko": null,
+            "en": "Mixers with rotor-rotor system, e.g. with intermeshing teeth"
+          }
+        },
+        {
+          "code": "B01F 27/41",
+          "title": {
+            "ko": null,
+            "en": "with the mutually rotating surfaces facing each other"
+          }
+        },
+        {
+          "code": "B01F 27/42",
+          "title": {
+            "ko": null,
+            "en": "with rotating surfaces next to each other, i.e. on substantially parallel axes"
+          }
+        },
+        {
+          "code": "B01F 27/50",
+          "title": {
+            "ko": null,
+            "en": "Pipe mixers, i.e. mixers wherein the materials to be mixed flow continuously through pipes, e.g. column mixers"
+          }
+        },
+        {
+          "code": "B01F 27/55",
+          "title": {
+            "ko": null,
+            "en": "with stirrers driven by the moving material"
+          }
+        },
+        {
+          "code": "B01F 27/60",
+          "title": {
+            "ko": "수평 또는 경사 축을 중심으로 회전하는 교반기로",
+            "en": "with stirrers rotating about a horizontal or inclined axis"
+          }
+        },
+        {
+          "code": "B01F 27/61",
+          "title": {
+            "ko": null,
+            "en": "about an inclined axis"
+          }
+        },
+        {
+          "code": "B01F 27/63",
+          "title": {
+            "ko": null,
+            "en": "co-operating with deflectors or baffles fixed to the receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/65",
+          "title": {
+            "ko": null,
+            "en": "with buckets"
+          }
+        },
+        {
+          "code": "B01F 27/70",
+          "title": {
+            "ko": "패들, 블레이드 또는 암으로",
+            "en": "with paddles, blades or arms"
+          }
+        },
+        {
+          "code": "B01F 27/701",
+          "title": {
+            "ko": "2개 이상의 샤프트를 포함하는 것, 예. 연속 혼합 챔버 내부",
+            "en": "comprising two or more shafts, e.g. in consecutive mixing chambers"
+          }
+        },
+        {
+          "code": "B01F 27/702",
+          "title": {
+            "ko": null,
+            "en": "with intermeshing paddles"
+          }
+        },
+        {
+          "code": "B01F 27/703",
+          "title": {
+            "ko": null,
+            "en": "with stirrers rotating at different speeds"
+          }
+        },
+        {
+          "code": "B01F 27/704",
+          "title": {
+            "ko": null,
+            "en": "with stirrers facing each other, i.e. supported by opposite walls of the receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/705",
+          "title": {
+            "ko": null,
+            "en": "with stirrers rotating in opposite directions about the same axis, e.g. with a first stirrer surrounded by a tube inside a second stirrer"
+          }
+        },
+        {
+          "code": "B01F 27/706",
+          "title": {
+            "ko": "동일한 용기에 있는 모든 샤프트와 함께",
+            "en": "with all the shafts in the same receptacle (B01F0027702000-B01F0027705000 take precedence)"
+          }
+        },
+        {
+          "code": "B01F 27/707",
+          "title": {
+            "ko": null,
+            "en": "the paddles co-operating, e.g. intermeshing, with elements on the receptacle wall"
+          }
+        },
+        {
+          "code": "B01F 27/708",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape of the stirrer as a whole, i.e. of Z- or S-shape"
+          }
+        },
+        {
+          "code": "B01F 27/71",
+          "title": {
+            "ko": null,
+            "en": "with propellers"
+          }
+        },
+        {
+          "code": "B01F 27/72",
+          "title": {
+            "ko": null,
+            "en": "with helices or sections of helices"
+          }
+        },
+        {
+          "code": "B01F 27/721",
+          "title": {
+            "ko": null,
+            "en": "with two or more helices in the same receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/722",
+          "title": {
+            "ko": null,
+            "en": "the helices closely surrounded by a casing"
+          }
+        },
+        {
+          "code": "B01F 27/723",
+          "title": {
+            "ko": null,
+            "en": "the helices intermeshing to knead the mixture"
+          }
+        },
+        {
+          "code": "B01F 27/724",
+          "title": {
+            "ko": null,
+            "en": "with a single helix closely surrounded by a casing"
+          }
+        },
+        {
+          "code": "B01F 27/726",
+          "title": {
+            "ko": null,
+            "en": "with two helices with opposite pitch on the same shaft; with two helices on the same axis, driven in opposite directions or at different speeds"
+          }
+        },
+        {
+          "code": "B01F 27/73",
+          "title": {
+            "ko": null,
+            "en": "with rotary discs"
+          }
+        },
+        {
+          "code": "B01F 27/74",
+          "title": {
+            "ko": null,
+            "en": "with rotary cylinders"
+          }
+        },
+        {
+          "code": "B01F 27/75",
+          "title": {
+            "ko": null,
+            "en": "with stirrers having planetary motion, i.e. rotating about their own axis and about a sun axis"
+          }
+        },
+        {
+          "code": "B01F 27/80",
+          "title": {
+            "ko": "실질적으로 수직 축을 중심으로 회전하는 교반기로",
+            "en": "with stirrers rotating about a substantially vertical axis"
+          }
+        },
+        {
+          "code": "B01F 27/805",
+          "title": {
+            "ko": null,
+            "en": "wherein the stirrers or the receptacles are moved in order to bring them into operative position; Means for fixing the receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/806",
+          "title": {
+            "ko": null,
+            "en": "with vertical displacement of the stirrer, e.g. in combination with means for pivoting the stirrer about a vertical axis in order to co-operate with different receptacles"
+          }
+        },
+        {
+          "code": "B01F 27/807",
+          "title": {
+            "ko": null,
+            "en": "with the stirrer-head pivoting about a horizontal axis to bring it in and out of operative position, e.g. with receptacles pivoting about a horizontal axis for emptying"
+          }
+        },
+        {
+          "code": "B01F 27/808",
+          "title": {
+            "ko": null,
+            "en": "with stirrers driven from the bottom of the receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/81",
+          "title": {
+            "ko": null,
+            "en": "the stirrers having central axial inflow and substantially radial outflow"
+          }
+        },
+        {
+          "code": "B01F 27/82",
+          "title": {
+            "ko": "팬(pan)형 믹서, 즉. 교반 요소가 팬 모양 용기의 바닥을 따라 움직이는 믹서 (용기의 벽이나 바닥을 따라 이동하는 교반 요소를 갖는 것 B01F27/091)",
+            "en": "Pan-type mixers, i.e. mixers in which the stirring elements move along the bottom of a pan-shaped receptacle (with stirring elements moving along the wall or bottom of the receptacle B01F0027091000)"
+          }
+        },
+        {
+          "code": "B01F 27/83",
+          "title": {
+            "ko": null,
+            "en": "the stirrers being additionally moved radially, or oscillating about an axis perpendicular to the stirrer axis"
+          }
+        },
+        {
+          "code": "B01F 27/84",
+          "title": {
+            "ko": null,
+            "en": "with two or more stirrers rotating at different speeds or in opposite directions about the same axis"
+          }
+        },
+        {
+          "code": "B01F 27/85",
+          "title": {
+            "ko": null,
+            "en": "with two or more stirrers on separate shafts"
+          }
+        },
+        {
+          "code": "B01F 27/86",
+          "title": {
+            "ko": null,
+            "en": "co-operating with deflectors or baffles fixed to the receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/87",
+          "title": {
+            "ko": null,
+            "en": "the receptacle being divided into superimposed compartments"
+          }
+        },
+        {
+          "code": "B01F 27/88",
+          "title": {
+            "ko": null,
+            "en": "with a separate receptacle-stirrer unit that is adapted to be coupled to a drive mechanism"
+          }
+        },
+        {
+          "code": "B01F 27/90",
+          "title": {
+            "ko": null,
+            "en": "with paddles or arms"
+          }
+        },
+        {
+          "code": "B01F 27/902",
+          "title": {
+            "ko": null,
+            "en": "cooperating with intermeshing elements fixed on the receptacle walls"
+          }
+        },
+        {
+          "code": "B01F 27/906",
+          "title": {
+            "ko": null,
+            "en": "with fixed axis"
+          }
+        },
+        {
+          "code": "B01F 27/91",
+          "title": {
+            "ko": null,
+            "en": "with propellers"
+          }
+        },
+        {
+          "code": "B01F 27/92",
+          "title": {
+            "ko": null,
+            "en": "with helices or screws"
+          }
+        },
+        {
+          "code": "B01F 27/921",
+          "title": {
+            "ko": null,
+            "en": "with helices centrally mounted in the receptacle"
+          }
+        },
+        {
+          "code": "B01F 27/9212",
+          "title": {
+            "ko": null,
+            "en": "with conical helices"
+          }
+        },
+        {
+          "code": "B01F 27/922",
+          "title": {
+            "ko": null,
+            "en": "with two or more helices, e.g. with intermeshing helices"
+          }
+        },
+        {
+          "code": "B01F 27/93",
+          "title": {
+            "ko": null,
+            "en": "with rotary discs"
+          }
+        },
+        {
+          "code": "B01F 27/94",
+          "title": {
+            "ko": null,
+            "en": "with rotary cylinders or cones"
+          }
+        },
+        {
+          "code": "B01F 27/95",
+          "title": {
+            "ko": null,
+            "en": "with stirrers having planetary motion, i.e. rotating about their own axis and about a sun axis"
+          }
+        },
+        {
+          "code": "B01F 27/952",
+          "title": {
+            "ko": null,
+            "en": "the stirrers being cylinders with their circumference in contact with the bottom of the receptacle and rotating about an axis at an angle to the sun axis, e.g. mixers of the Muller type"
+          }
+        },
+        {
+          "code": "B01F 27/96",
+          "title": {
+            "ko": null,
+            "en": "with openwork frames or cages"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 29/00",
+      "title": {
+        "ko": "회전 용기가 있는 믹서",
+        "en": "Mixers with rotating receptacles"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 29/10",
+          "title": {
+            "ko": null,
+            "en": "with receptacles rotated about two different axes, e.g. receptacles having planetary motion"
+          }
+        },
+        {
+          "code": "B01F 29/15",
+          "title": {
+            "ko": null,
+            "en": "Use of centrifuges for mixing"
+          }
+        },
+        {
+          "code": "B01F 29/20",
+          "title": {
+            "ko": "축을 중심으로 길이 방향 축에 대해 비스듬히 회전하는 용기 포함(B01F29/62가 우선)",
+            "en": "with receptacles rotating about an axis at an angle to their longitudinal axis (B01F0029620000 takes precedence)"
+          }
+        },
+        {
+          "code": "B01F 29/25",
+          "title": {
+            "ko": null,
+            "en": "with material flowing continuously through the receptacles from inlet to discharge"
+          }
+        },
+        {
+          "code": "B01F 29/30",
+          "title": {
+            "ko": null,
+            "en": "Mixing the contents of individual packages or containers, e.g. by rotating tins or bottles"
+          }
+        },
+        {
+          "code": "B01F 29/31",
+          "title": {
+            "ko": null,
+            "en": "the containers being supported by driving means, e.g. by rotating rollers"
+          }
+        },
+        {
+          "code": "B01F 29/32",
+          "title": {
+            "ko": null,
+            "en": "Containers specially adapted for coupling to rotating frames or the like; Coupling means therefor"
+          }
+        },
+        {
+          "code": "B01F 29/321",
+          "title": {
+            "ko": null,
+            "en": "of test-tubes or the like"
+          }
+        },
+        {
+          "code": "B01F 29/322",
+          "title": {
+            "ko": null,
+            "en": "of two or more containers supported for simultaneous mixing, e.g. for bottles in crates"
+          }
+        },
+        {
+          "code": "B01F 29/33",
+          "title": {
+            "ko": null,
+            "en": "by imparting a combination of movements to two or more containers"
+          }
+        },
+        {
+          "code": "B01F 29/34",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of holders for the individual packages or containers"
+          }
+        },
+        {
+          "code": "B01F 29/60",
+          "title": {
+            "ko": null,
+            "en": "rotating about a horizontal or inclined axis, e.g. drum mixers"
+          }
+        },
+        {
+          "code": "B01F 29/62",
+          "title": {
+            "ko": null,
+            "en": "without bars, i.e. without mixing elements; characterised by the shape or cross section of the receptacle, e.g. of Y-, Z-, S- or X- shape; with cylindrical receptacles rotating about an axis at an angle to their longitudinal axis"
+          }
+        },
+        {
+          "code": "B01F 29/63",
+          "title": {
+            "ko": null,
+            "en": "with fixed bars, i.e. stationary, or fixed on the receptacle"
+          }
+        },
+        {
+          "code": "B01F 29/64",
+          "title": {
+            "ko": null,
+            "en": "with stirring devices moving in relation to the receptacle, e.g. rotating"
+          }
+        },
+        {
+          "code": "B01F 29/80",
+          "title": {
+            "ko": null,
+            "en": "rotating about a substantially vertical axis"
+          }
+        },
+        {
+          "code": "B01F 29/81",
+          "title": {
+            "ko": null,
+            "en": "with stationary mixing elements"
+          }
+        },
+        {
+          "code": "B01F 29/83",
+          "title": {
+            "ko": null,
+            "en": "with rotary paddles or arms, e.g. movable out of the receptacle"
+          }
+        },
+        {
+          "code": "B01F 29/84",
+          "title": {
+            "ko": null,
+            "en": "with propellers"
+          }
+        },
+        {
+          "code": "B01F 29/85",
+          "title": {
+            "ko": null,
+            "en": "with helices, e.g. rotating about an inclined axis"
+          }
+        },
+        {
+          "code": "B01F 29/86",
+          "title": {
+            "ko": null,
+            "en": "with rotary discs"
+          }
+        },
+        {
+          "code": "B01F 29/87",
+          "title": {
+            "ko": null,
+            "en": "with rotary cylinders"
+          }
+        },
+        {
+          "code": "B01F 29/90",
+          "title": {
+            "ko": null,
+            "en": "with stirrers having planetary motion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 31/00",
+      "title": {
+        "ko": "흔들림(shaking), 진동(oscillating), 또는 진동(vibrating)이 있는 믹서",
+        "en": "Mixers with shaking, oscillating, or vibrating mechanisms"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 31/10",
+          "title": {
+            "ko": null,
+            "en": "with a mixing receptacle rotating alternately in opposite directions"
+          }
+        },
+        {
+          "code": "B01F 31/20",
+          "title": {
+            "ko": "독립 용기의 내용물 혼합, 예. 시험관",
+            "en": "Mixing the contents of independent containers, e.g. test tubes"
+          }
+        },
+        {
+          "code": "B01F 31/22",
+          "title": {
+            "ko": null,
+            "en": "with supporting means moving in a horizontal plane, e.g. describing an orbital path for moving the containers about an axis which intersects the receptacle axis at an angle"
+          }
+        },
+        {
+          "code": "B01F 31/23",
+          "title": {
+            "ko": null,
+            "en": "by pivoting the containers about an axis"
+          }
+        },
+        {
+          "code": "B01F 31/24",
+          "title": {
+            "ko": null,
+            "en": "the containers being submitted to a rectilinear movement"
+          }
+        },
+        {
+          "code": "B01F 31/25",
+          "title": {
+            "ko": "수평면이 아닌 다른 움직임의 조합으로 컨테이너를 제출하는 경우, 예. 직선 및 회전운동(움직임의 조합이 제출된 리젭터클과 함께하는 것, 즉. 진동 또는 진동하는 하나 이상의 움직임 B01F31/50)",
+            "en": "the containers being submitted to a combination of movements other than within a horizontal plane, e.g. rectilinear and pivoting movement (with a receptacle submitted to a combination of movements, i.e. at least one movement being vibratory or oscillatory B01F0031500000)"
+          }
+        },
+        {
+          "code": "B01F 31/29",
+          "title": {
+            "ko": null,
+            "en": "Mixing by periodically deforming flexible tubular members through which the material is flowing"
+          }
+        },
+        {
+          "code": "B01F 31/30",
+          "title": {
+            "ko": null,
+            "en": "comprising a receptacle to only a part of which the shaking, oscillating, or vibrating movement is imparted"
+          }
+        },
+        {
+          "code": "B01F 31/31",
+          "title": {
+            "ko": null,
+            "en": "using receptacles with deformable parts, e.g. membranes, to which a motion is imparted"
+          }
+        },
+        {
+          "code": "B01F 31/40",
+          "title": {
+            "ko": null,
+            "en": "with an axially oscillating rotary stirrer"
+          }
+        },
+        {
+          "code": "B01F 31/42",
+          "title": {
+            "ko": null,
+            "en": "with pendulum stirrers, i.e. with stirrers suspended so as to oscillate about fixed points or axes"
+          }
+        },
+        {
+          "code": "B01F 31/44",
+          "title": {
+            "ko": "흔들림(shaking), 진동(oscillating), 또는 진동(vibrating) 운동을 수행하는 교반기 포함(B01F31/40, B01F31/42가 우선)",
+            "en": "with stirrers performing an oscillatory, vibratory or shaking movement (B01F0031400000, B01F0031420000 take precedence)"
+          }
+        },
+        {
+          "code": "B01F 31/441",
+          "title": {
+            "ko": null,
+            "en": "performing a rectilinear reciprocating movement"
+          }
+        },
+        {
+          "code": "B01F 31/445",
+          "title": {
+            "ko": null,
+            "en": "performing an oscillatory movement about an axis"
+          }
+        },
+        {
+          "code": "B01F 31/46",
+          "title": {
+            "ko": null,
+            "en": "with an annular vibrating trough"
+          }
+        },
+        {
+          "code": "B01F 31/50",
+          "title": {
+            "ko": null,
+            "en": "with a receptacle submitted to a combination of movements, i.e. at least one vibratory or oscillatory movement"
+          }
+        },
+        {
+          "code": "B01F 31/55",
+          "title": {
+            "ko": null,
+            "en": "the materials to be mixed being contained in a flexible bag submitted to periodical deformation"
+          }
+        },
+        {
+          "code": "B01F 31/60",
+          "title": {
+            "ko": "진동 용기로(B01F31/10, B01F31/20, B01F31/50이 우선)",
+            "en": "with a vibrating receptacle (B01F0031100000, B01F0031200000, B01F0031500000 take precedence)"
+          }
+        },
+        {
+          "code": "B01F 31/65",
+          "title": {
+            "ko": null,
+            "en": "the materials to be mixed being directly submitted to a pulsating movement, e.g. by means of an oscillating piston or air column"
+          }
+        },
+        {
+          "code": "B01F 31/80",
+          "title": {
+            "ko": null,
+            "en": "Mixing by means of high-frequency vibrations above one kHz, e.g. ultrasonic vibrations"
+          }
+        },
+        {
+          "code": "B01F 31/81",
+          "title": {
+            "ko": null,
+            "en": "by vibrations generated inside a mixing device not coming from an external drive, e.g. by the flow of material causing a knife to vibrate or by vibrating nozzles"
+          }
+        },
+        {
+          "code": "B01F 31/85",
+          "title": {
+            "ko": null,
+            "en": "with a vibrating element inside the receptacle"
+          }
+        },
+        {
+          "code": "B01F 31/86",
+          "title": {
+            "ko": null,
+            "en": "with vibration of the receptacle or part of it"
+          }
+        },
+        {
+          "code": "B01F 31/87",
+          "title": {
+            "ko": null,
+            "en": "transmitting the vibratory energy by means of a fluid, e.g. by means of air shock waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 33/00",
+      "title": {
+        "ko": "기타 믹서; 혼합 플랜트; 믹서의 조합",
+        "en": "Other mixers; Mixing plants; Combinations of mixers"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 33/05",
+          "title": {
+            "ko": "방사선을 사용하는 믹서, 예. 재료를 혼합하기 위한 자기장 또는 마이크로파(B01F33/3031, B01F33/3032가 우선)",
+            "en": "Mixers using radiation, e.g. magnetic fields or microwaves to mix the material (B01F0033303100, B01F0033303200 take precedence)"
+          }
+        },
+        {
+          "code": "B01F 33/12",
+          "title": {
+            "ko": null,
+            "en": "Mixers in which the mixing of the components is achieved by natural convection"
+          }
+        },
+        {
+          "code": "B01F 33/25",
+          "title": {
+            "ko": null,
+            "en": "Mixers with loose mixing elements, e.g. loose balls in a receptacle"
+          }
+        },
+        {
+          "code": "B01F 33/30",
+          "title": {
+            "ko": null,
+            "en": "Micromixers"
+          }
+        },
+        {
+          "code": "B01F 33/301",
+          "title": {
+            "ko": null,
+            "en": "using specific means for arranging the streams to be mixed, e.g. channel geometries or dispositions"
+          }
+        },
+        {
+          "code": "B01F 33/3011",
+          "title": {
+            "ko": null,
+            "en": "using a sheathing stream of a fluid surrounding a central stream of a different fluid, e.g. for reducing the cross-section of the central stream or to produce droplets from the central stream"
+          }
+        },
+        {
+          "code": "B01F 33/3012",
+          "title": {
+            "ko": null,
+            "en": "Interdigital streams, e.g. lamellae"
+          }
+        },
+        {
+          "code": "B01F 33/302",
+          "title": {
+            "ko": null,
+            "en": "the materials to be mixed flowing in the form of droplets"
+          }
+        },
+        {
+          "code": "B01F 33/3031",
+          "title": {
+            "ko": null,
+            "en": "using electro-hydrodynamic [EHD] or electro-kinetic [EKI] phenomena to mix or move the fluids"
+          }
+        },
+        {
+          "code": "B01F 33/3032",
+          "title": {
+            "ko": null,
+            "en": "using magneto-hydrodynamic [MHD] phenomena to mix or move the fluids"
+          }
+        },
+        {
+          "code": "B01F 33/3033",
+          "title": {
+            "ko": null,
+            "en": "using heat to mix or move the fluids"
+          }
+        },
+        {
+          "code": "B01F 33/3039",
+          "title": {
+            "ko": null,
+            "en": "with mixing achieved by diffusion between layers"
+          }
+        },
+        {
+          "code": "B01F 33/35",
+          "title": {
+            "ko": null,
+            "en": "Mixing after turning the mixing vessel upside down"
+          }
+        },
+        {
+          "code": "B01F 33/40",
+          "title": {
+            "ko": null,
+            "en": "Mixers using gas or liquid agitation, e.g. with air supply tubes"
+          }
+        },
+        {
+          "code": "B01F 33/45",
+          "title": {
+            "ko": null,
+            "en": "Magnetic mixers; Mixers with magnetically driven stirrers"
+          }
+        },
+        {
+          "code": "B01F 33/451",
+          "title": {
+            "ko": null,
+            "en": "wherein the mixture is directly exposed to an electromagnetic field without use of a stirrer, e.g. for material comprising ferromagnetic particles or for molten metal"
+          }
+        },
+        {
+          "code": "B01F 33/452",
+          "title": {
+            "ko": null,
+            "en": "using independent floating stirring elements"
+          }
+        },
+        {
+          "code": "B01F 33/453",
+          "title": {
+            "ko": null,
+            "en": "using supported or suspended stirring elements"
+          }
+        },
+        {
+          "code": "B01F 33/50",
+          "title": {
+            "ko": null,
+            "en": "Movable or transportable mixing devices or plants"
+          }
+        },
+        {
+          "code": "B01F 33/501",
+          "title": {
+            "ko": null,
+            "en": "Movable mixing devices, i.e. readily shifted or displaced from one place to another, e.g. portable during use"
+          }
+        },
+        {
+          "code": "B01F 33/502",
+          "title": {
+            "ko": null,
+            "en": "Vehicle-mounted mixing devices"
+          }
+        },
+        {
+          "code": "B01F 33/503",
+          "title": {
+            "ko": null,
+            "en": "Floating mixing devices"
+          }
+        },
+        {
+          "code": "B01F 33/70",
+          "title": {
+            "ko": null,
+            "en": "Mixers specially adapted for working at sub- or super-atmospheric pressure, e.g. combined with de-foaming"
+          }
+        },
+        {
+          "code": "B01F 33/71",
+          "title": {
+            "ko": null,
+            "en": "working at super-atmospheric pressure, e.g. in pressurised vessels"
+          }
+        },
+        {
+          "code": "B01F 33/80",
+          "title": {
+            "ko": null,
+            "en": "Mixing plants; Combinations of mixers"
+          }
+        },
+        {
+          "code": "B01F 33/81",
+          "title": {
+            "ko": null,
+            "en": "Combinations of similar mixers, e.g. with rotary stirring devices in two or more receptacles"
+          }
+        },
+        {
+          "code": "B01F 33/82",
+          "title": {
+            "ko": null,
+            "en": "Combinations of dissimilar mixers"
+          }
+        },
+        {
+          "code": "B01F 33/83",
+          "title": {
+            "ko": null,
+            "en": "Mixing plants specially adapted for mixing in combination with disintegrating operations"
+          }
+        },
+        {
+          "code": "B01F 33/84",
+          "title": {
+            "ko": null,
+            "en": "Mixing plants with mixing receptacles receiving material dispensed from several component receptacles, e.g. paint tins"
+          }
+        },
+        {
+          "code": "B01F 33/841",
+          "title": {
+            "ko": null,
+            "en": "with component receptacles fixed in a circular configuration on a horizontal table, e.g. the table being able to be indexed about a vertical axis"
+          }
+        },
+        {
+          "code": "B01F 33/85",
+          "title": {
+            "ko": null,
+            "en": "Mixing plants with mixing receptacles or mixing tools that can be indexed into different working positions"
+          }
+        },
+        {
+          "code": "B01F 33/87",
+          "title": {
+            "ko": null,
+            "en": "Roll-type mixers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 35/00",
+      "title": {
+        "ko": "믹서용 액세서리; 보조 작업 또는 보조 장치; 일반적 응용 부품의 또는 세부사항",
+        "en": "Accessories for mixers; Auxiliary operations or auxiliary devices; Parts or details of general application"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 35/10",
+          "title": {
+            "ko": null,
+            "en": "Maintenance of mixers"
+          }
+        },
+        {
+          "code": "B01F 35/11",
+          "title": {
+            "ko": null,
+            "en": "using fluids"
+          }
+        },
+        {
+          "code": "B01F 35/12",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means"
+          }
+        },
+        {
+          "code": "B01F 35/13",
+          "title": {
+            "ko": null,
+            "en": "using one or more of the components of the mixture to wash-out the mixer"
+          }
+        },
+        {
+          "code": "B01F 35/20",
+          "title": {
+            "ko": null,
+            "en": "Measuring; Control or regulation"
+          }
+        },
+        {
+          "code": "B01F 35/21",
+          "title": {
+            "ko": null,
+            "en": "Measuring"
+          }
+        },
+        {
+          "code": "B01F 35/212",
+          "title": {
+            "ko": null,
+            "en": "of the driving system data, e.g. torque, speed or power data"
+          }
+        },
+        {
+          "code": "B01F 35/213",
+          "title": {
+            "ko": null,
+            "en": "of the properties of the mixtures, e.g. temperature, density or colour"
+          }
+        },
+        {
+          "code": "B01F 35/214",
+          "title": {
+            "ko": null,
+            "en": "characterised by the means for measuring"
+          }
+        },
+        {
+          "code": "B01F 35/22",
+          "title": {
+            "ko": null,
+            "en": "Control or regulation"
+          }
+        },
+        {
+          "code": "B01F 35/221",
+          "title": {
+            "ko": null,
+            "en": "of operational parameters, e.g. level of material in the mixer, temperature or pressure"
+          }
+        },
+        {
+          "code": "B01F 35/222",
+          "title": {
+            "ko": null,
+            "en": "of the operation of the driving system, e.g. torque, speed or power of motors; of the position of mixing devices or elements"
+          }
+        },
+        {
+          "code": "B01F 35/30",
+          "title": {
+            "ko": null,
+            "en": "Driving arrangements; Transmissions; Couplings; Brakes"
+          }
+        },
+        {
+          "code": "B01F 35/31",
+          "title": {
+            "ko": null,
+            "en": "Couplings"
+          }
+        },
+        {
+          "code": "B01F 35/32",
+          "title": {
+            "ko": null,
+            "en": "Driving arrangements"
+          }
+        },
+        {
+          "code": "B01F 35/33",
+          "title": {
+            "ko": null,
+            "en": "Transmissions; Means for modifying the speed or direction of rotation"
+          }
+        },
+        {
+          "code": "B01F 35/40",
+          "title": {
+            "ko": null,
+            "en": "Mounting or supporting mixing devices or receptacles; Clamping or holding arrangements therefor"
+          }
+        },
+        {
+          "code": "B01F 35/41",
+          "title": {
+            "ko": null,
+            "en": "Mounting or supporting stirrer shafts or stirrer units on receptacles"
+          }
+        },
+        {
+          "code": "B01F 35/42",
+          "title": {
+            "ko": null,
+            "en": "Clamping or holding arrangements for mounting receptacles on mixing devices"
+          }
+        },
+        {
+          "code": "B01F 35/43",
+          "title": {
+            "ko": null,
+            "en": "Supporting receptacles on frames or stands"
+          }
+        },
+        {
+          "code": "B01F 35/45",
+          "title": {
+            "ko": null,
+            "en": "Closures or doors specially adapted for mixing receptacles; Operating mechanisms therefor"
+          }
+        },
+        {
+          "code": "B01F 35/50",
+          "title": {
+            "ko": null,
+            "en": "Mixing receptacles"
+          }
+        },
+        {
+          "code": "B01F 35/51",
+          "title": {
+            "ko": null,
+            "en": "characterised by their material"
+          }
+        },
+        {
+          "code": "B01F 35/511",
+          "title": {
+            "ko": null,
+            "en": "provided with liners, e.g. wear resistant or flexible liners"
+          }
+        },
+        {
+          "code": "B01F 35/512",
+          "title": {
+            "ko": null,
+            "en": "characterised by surface properties, e.g. coated or rough"
+          }
+        },
+        {
+          "code": "B01F 35/513",
+          "title": {
+            "ko": null,
+            "en": "Flexible receptacles, e.g. bags supported by rigid containers"
+          }
+        },
+        {
+          "code": "B01F 35/52",
+          "title": {
+            "ko": null,
+            "en": "Receptacles with two or more compartments"
+          }
+        },
+        {
+          "code": "B01F 35/53",
+          "title": {
+            "ko": null,
+            "en": "characterised by the configuration of the interior, e.g. baffles for facilitating the mixing of components"
+          }
+        },
+        {
+          "code": "B01F 35/60",
+          "title": {
+            "ko": null,
+            "en": "Safety arrangements"
+          }
+        },
+        {
+          "code": "B01F 35/71",
+          "title": {
+            "ko": "피드 메커니즘(분배수단이 있는 것 B01F35/80)",
+            "en": "Feed mechanisms (with proportioning B01F0035800000)"
+          }
+        },
+        {
+          "code": "B01F 35/75",
+          "title": {
+            "ko": null,
+            "en": "Discharge mechanisms"
+          }
+        },
+        {
+          "code": "B01F 35/80",
+          "title": {
+            "ko": "혼합할 물질의 미리 결정된 비율(두 개 이상의 유체 흐름 또는 유동성 물질의 제어 비율 G05D11/02)",
+            "en": "Forming a predetermined ratio of the substances to be mixed (controlling ratio of two or more flows of fluid or fluent material G05D0011020000)"
+          }
+        },
+        {
+          "code": "B01F 35/81",
+          "title": {
+            "ko": null,
+            "en": "Forming mixtures with changing ratios or gradients"
+          }
+        },
+        {
+          "code": "B01F 35/82",
+          "title": {
+            "ko": null,
+            "en": "by adding a material to be mixed to a mixture in response to a detected feature, e.g. density, radioactivity, consumed power or colour"
+          }
+        },
+        {
+          "code": "B01F 35/83",
+          "title": {
+            "ko": null,
+            "en": "by controlling the ratio of two or more flows, e.g. using flow sensing or flow controlling devices"
+          }
+        },
+        {
+          "code": "B01F 35/88",
+          "title": {
+            "ko": null,
+            "en": "by feeding the materials batchwise"
+          }
+        },
+        {
+          "code": "B01F 35/90",
+          "title": {
+            "ko": null,
+            "en": "Heating or cooling systems"
+          }
+        },
+        {
+          "code": "B01F 35/91",
+          "title": {
+            "ko": null,
+            "en": "using gas or liquid injected into the material, e.g. using liquefied carbon dioxide or steam"
+          }
+        },
+        {
+          "code": "B01F 35/92",
+          "title": {
+            "ko": null,
+            "en": "for heating the outside of the receptacle, e.g. heated jackets or burners"
+          }
+        },
+        {
+          "code": "B01F 35/93",
+          "title": {
+            "ko": null,
+            "en": "arranged inside the receptacle"
+          }
+        },
+        {
+          "code": "B01F 35/94",
+          "title": {
+            "ko": null,
+            "en": "using radiation, e.g. microwaves or electromagnetic radiation"
+          }
+        },
+        {
+          "code": "B01F 35/95",
+          "title": {
+            "ko": null,
+            "en": "using heated or cooled stirrers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B01F 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with groups B01F0021000000-B01F0035000000 and relating to the nature of the mixed materials, the field of application and complementary technical information about mixing"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B01F 101/00",
+      "title": {
+        "ko": null,
+        "en": "Mixing characterised by the nature of the mixed materials or by the application field"
+      },
+      "subgroups": [
+        {
+          "code": "B01F 101/02",
+          "title": {
+            "ko": null,
+            "en": "Mixing or agitating during harvesting or mowing, e.g. mixing with solid harvested products or particles"
+          }
+        },
+        {
+          "code": "B01F 101/04",
+          "title": {
+            "ko": null,
+            "en": "Mixing biocidal, pesticidal or herbicidal ingredients used in agriculture or horticulture, e.g. for spraying"
+          }
+        },
+        {
+          "code": "B01F 101/06",
+          "title": {
+            "ko": null,
+            "en": "Mixing of food ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/07",
+          "title": {
+            "ko": null,
+            "en": "Mixing ingredients into milk or cream, e.g. aerating"
+          }
+        },
+        {
+          "code": "B01F 101/08",
+          "title": {
+            "ko": null,
+            "en": "Mixing of dough"
+          }
+        },
+        {
+          "code": "B01F 101/09",
+          "title": {
+            "ko": null,
+            "en": "Mixing of cereals, grains or seeds materials"
+          }
+        },
+        {
+          "code": "B01F 101/10",
+          "title": {
+            "ko": null,
+            "en": "Mixing of butter or margarine ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/11",
+          "title": {
+            "ko": null,
+            "en": "Mixing of cheese ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/12",
+          "title": {
+            "ko": null,
+            "en": "Mixing of chocolate ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/13",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ice-cream ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/14",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for non-alcoholic beverages; Dissolving sugar in water"
+          }
+        },
+        {
+          "code": "B01F 101/15",
+          "title": {
+            "ko": null,
+            "en": "Mixing of beer ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/16",
+          "title": {
+            "ko": null,
+            "en": "Mixing wine or other alcoholic beverages; Mixing ingredients thereof"
+          }
+        },
+        {
+          "code": "B01F 101/17",
+          "title": {
+            "ko": null,
+            "en": "Aeration of wine"
+          }
+        },
+        {
+          "code": "B01F 101/18",
+          "title": {
+            "ko": null,
+            "en": "Mixing animal food ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/19",
+          "title": {
+            "ko": null,
+            "en": "Mixing dentistry compositions"
+          }
+        },
+        {
+          "code": "B01F 101/20",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for bone cement"
+          }
+        },
+        {
+          "code": "B01F 101/21",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for cosmetic or perfume compositions"
+          }
+        },
+        {
+          "code": "B01F 101/22",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for pharmaceutical or medical compositions"
+          }
+        },
+        {
+          "code": "B01F 101/23",
+          "title": {
+            "ko": null,
+            "en": "Mixing of laboratory samples e.g. in preparation of analysing or testing properties of materials"
+          }
+        },
+        {
+          "code": "B01F 101/24",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for cleaning compositions"
+          }
+        },
+        {
+          "code": "B01F 101/25",
+          "title": {
+            "ko": null,
+            "en": "Mixing waste with other ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/26",
+          "title": {
+            "ko": null,
+            "en": "Mixing ingredients for casting metals"
+          }
+        },
+        {
+          "code": "B01F 101/27",
+          "title": {
+            "ko": null,
+            "en": "Mixing ingredients for grinding, polishing or lapping materials"
+          }
+        },
+        {
+          "code": "B01F 101/28",
+          "title": {
+            "ko": null,
+            "en": "Mixing cement, mortar, clay, plaster or concrete ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/30",
+          "title": {
+            "ko": null,
+            "en": "Mixing paints or paint ingredients, e.g. pigments, dyes, colours, lacquers or enamel"
+          }
+        },
+        {
+          "code": "B01F 101/32",
+          "title": {
+            "ko": null,
+            "en": "Mixing fertiliser ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/33",
+          "title": {
+            "ko": null,
+            "en": "Mixing compost ingredients or organic waste"
+          }
+        },
+        {
+          "code": "B01F 101/34",
+          "title": {
+            "ko": null,
+            "en": "Mixing fuel and prill, i.e. water or other fluids mixed with solid explosives, to obtain liquid explosive fuel emulsions or slurries"
+          }
+        },
+        {
+          "code": "B01F 101/35",
+          "title": {
+            "ko": null,
+            "en": "Mixing inks or toners"
+          }
+        },
+        {
+          "code": "B01F 101/36",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for adhesives or glues; Mixing adhesives and gas"
+          }
+        },
+        {
+          "code": "B01F 101/38",
+          "title": {
+            "ko": null,
+            "en": "Mixing of asphalt, bitumen, tar or pitch or their ingredients"
+          }
+        },
+        {
+          "code": "B01F 101/39",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for grease or lubricating compositions"
+          }
+        },
+        {
+          "code": "B01F 101/40",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for oils, fats or waxes"
+          }
+        },
+        {
+          "code": "B01F 101/44",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for microbiology, enzymology, in vitro culture or genetic manipulation"
+          }
+        },
+        {
+          "code": "B01F 101/45",
+          "title": {
+            "ko": null,
+            "en": "Mixing in metallurgical processes of ferrous or non-ferrous materials"
+          }
+        },
+        {
+          "code": "B01F 101/47",
+          "title": {
+            "ko": null,
+            "en": "Mixing of ingredients for making paper pulp, e.g. wood fibres or wood pulp"
+          }
+        },
+        {
+          "code": "B01F 101/48",
+          "title": {
+            "ko": null,
+            "en": "Mixing water in water-taps with other ingredients, e.g. air, detergents or disinfectants"
+          }
+        },
+        {
+          "code": "B01F 101/49",
+          "title": {
+            "ko": null,
+            "en": "Mixing drilled material or ingredients for well-drilling, earth-drilling or deep-drilling compositions with liquids to obtain slurries"
+          }
+        },
+        {
+          "code": "B01F 101/50",
+          "title": {
+            "ko": null,
+            "en": "Mixing mined ingredients and liquid to obtain slurries"
+          }
+        },
+        {
+          "code": "B01F 101/54",
+          "title": {
+            "ko": null,
+            "en": "Mixing liquid fragrances with air"
+          }
+        },
+        {
+          "code": "B01F 101/55",
+          "title": {
+            "ko": null,
+            "en": "Mixing liquid air humidifiers with air"
+          }
+        },
+        {
+          "code": "B01F 101/56",
+          "title": {
+            "ko": null,
+            "en": "Mixing photosensitive chemicals or photographic base materials"
+          }
+        },
+        {
+          "code": "B01F 101/57",
+          "title": {
+            "ko": null,
+            "en": "Mixing radioactive materials, e.g. nuclear materials"
+          }
+        },
+        {
+          "code": "B01F 101/58",
+          "title": {
+            "ko": null,
+            "en": "Mixing semiconducting materials, e.g. during semiconductor or wafer manufacturing processes"
+          }
+        },
+        {
+          "code": "B01F 101/59",
+          "title": {
+            "ko": null,
+            "en": "Mixing reaction ingredients for fuel cells"
+          }
+        }
+      ]
+    }
+  ]
+}

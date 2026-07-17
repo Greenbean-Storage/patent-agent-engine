@@ -1,0 +1,549 @@
+{
+  "subclass": "H01T",
+  "title": {
+    "ko": "스파크 갭; 스파크 갭을 사용하는 과전압 피뢰기; 스파크 플러그; 코로나 장치; 비밀폐 가스로 유입되기 위한 이온 발생(과전합 보호회로 H02H )",
+    "en": "SPARK GAPS; OVERVOLTAGE ARRESTERS USING SPARK GAPS; SPARKING PLUGS; CORONA DEVICES; GENERATING IONS TO BE INTRODUCED INTO NON-ENCLOSED GASES (overvoltage protection circuits H02H)"
+  },
+  "definition": {
+    "ko": "스파크 갭 회전 H01T7/00 보조 트리거 수단을 포함하는 것 H01T2/00 특수 적용 : 발진용; 정류기용 H01T9/00; H01T11/00 과전압 피뢰기; 아크 호른 H01T4/00 기타 스파크 갭 H01T14/00 세부 H01T1/00 스파크 플러그 H01T13/00 회로 H01T15/00 코로나 방전 장치 H01T19/00 제조, 유지 보수 H01T21/00 이온 생성 장치 H01T23/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H01T 1/00",
+      "title": {
+        "ko": "스파크 갭의 세부",
+        "en": "Details of spark gaps"
+      },
+      "subgroups": [
+        {
+          "code": "H01T 1/02",
+          "title": {
+            "ko": null,
+            "en": "Means for extinguishing arc"
+          }
+        },
+        {
+          "code": "H01T 1/04",
+          "title": {
+            "ko": null,
+            "en": "using magnetic blow-out"
+          }
+        },
+        {
+          "code": "H01T 1/06",
+          "title": {
+            "ko": null,
+            "en": "with permanent magnet"
+          }
+        },
+        {
+          "code": "H01T 1/08",
+          "title": {
+            "ko": null,
+            "en": "using flow of arc-extinguishing fluid"
+          }
+        },
+        {
+          "code": "H01T 1/10",
+          "title": {
+            "ko": null,
+            "en": "with extinguishing fluid evolved from solid material by heat of arc"
+          }
+        },
+        {
+          "code": "H01T 1/12",
+          "title": {
+            "ko": null,
+            "en": "Means structurally associated with spark gap for recording operation thereof"
+          }
+        },
+        {
+          "code": "H01T 1/14",
+          "title": {
+            "ko": "정전이 날 경우에 대비하여, 과부하 또는 접속차단을 위해 스파크 갭과 구조적으로 연결된 장치 (H01T 1/15, H01T 1/16, H01T 1/18우선 ; 스파크 갭 피뢰기를 위한 비상보호회로 장치 H02H 7/24)",
+            "en": "Means structurally associated with spark gap for protecting it against overload or for disconnecting it in case of failure (H01T0001150000, H01T0001160000, H01T0001180000 take precedence;emergency protective circuit arrangements for spark gap arresters H02H0007240000)"
+          }
+        },
+        {
+          "code": "H01T 1/15",
+          "title": {
+            "ko": null,
+            "en": "for protection against excessive pressure"
+          }
+        },
+        {
+          "code": "H01T 1/16",
+          "title": {
+            "ko": null,
+            "en": "Series resistor structurally associated with spark gap"
+          }
+        },
+        {
+          "code": "H01T 1/18",
+          "title": {
+            "ko": null,
+            "en": "Electrolytic device structurally associated with spark gap"
+          }
+        },
+        {
+          "code": "H01T 1/20",
+          "title": {
+            "ko": null,
+            "en": "Means for starting arc or facilitating ignition of spark gap"
+          }
+        },
+        {
+          "code": "H01T 1/22",
+          "title": {
+            "ko": null,
+            "en": "by the shape or the composition of the electrodes"
+          }
+        },
+        {
+          "code": "H01T 1/24",
+          "title": {
+            "ko": "전극을 위한 재료의 선택(1/22가 우선)",
+            "en": "Selection of materials for electrodes (H01T0001220000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01T 2/00",
+      "title": {
+        "ko": "보조적인 트리거 수단을 포함한 스파크 갭 (트리거링 회로 H01T 15/00)",
+        "en": "Spark gaps comprising auxiliary triggering means (triggering circuits H01T0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01T 2/02",
+          "title": {
+            "ko": null,
+            "en": "comprising a trigger electrode or an auxiliary spark gap"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01T 4/00",
+      "title": {
+        "ko": "스파크 갭을 사용한 과전압 피뢰기(2/00이 우선; 스파크 갭을 사용하는 과전압 보호회로 H02H 9/06)",
+        "en": "Overvoltage arresters using spark gaps (H01T0002000000 takes precedence;overvoltage protection circuits using spark gaps H02H0009060000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01T 4/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01T 4/04",
+          "title": {
+            "ko": "하우징(4/06이 우선)",
+            "en": "Housings (H01T0004060000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01T 4/06",
+          "title": {
+            "ko": null,
+            "en": "Mounting arrangements for a plurality of overvoltage arresters"
+          }
+        },
+        {
+          "code": "H01T 4/08",
+          "title": {
+            "ko": "보호장치와 구조적으로 조합되어 있는 것(스위치가 부착된 것 H01H 9/14; 퓨즈가 부착된 것 H01H 85/44)",
+            "en": "structurally associated with protected apparatus (with switches H01H0009140000;with fuses H01H0085440000)"
+          }
+        },
+        {
+          "code": "H01T 4/10",
+          "title": {
+            "ko": "단일 갭 또는 평행의 복수갭을 가지는 것",
+            "en": "having a single gap or a plurality of gaps in parallel"
+          }
+        },
+        {
+          "code": "H01T 4/12",
+          "title": {
+            "ko": null,
+            "en": "hermetically sealed"
+          }
+        },
+        {
+          "code": "H01T 4/14",
+          "title": {
+            "ko": "아크 혼(절연체와 조합된 것 H01B 17/46)",
+            "en": "Arcing horns (associated with insulators H01B0017460000)"
+          }
+        },
+        {
+          "code": "H01T 4/16",
+          "title": {
+            "ko": null,
+            "en": "having a plurality of gaps arranged in series"
+          }
+        },
+        {
+          "code": "H01T 4/18",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing height of stacked spark gaps"
+          }
+        },
+        {
+          "code": "H01T 4/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for improving potential distribution"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01T 7/00",
+      "title": {
+        "ko": null,
+        "en": "Rotary spark gaps, i.e. devices having one or more rotating electrodes"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01T 9/00",
+      "title": {
+        "ko": null,
+        "en": "Spark gaps specially adapted for generating oscillations"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01T 11/00",
+      "title": {
+        "ko": null,
+        "en": "Spark gaps specially adapted as rectifiers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01T 13/00",
+      "title": {
+        "ko": "스파크 플러그",
+        "en": "Sparking plugs"
+      },
+      "subgroups": [
+        {
+          "code": "H01T 13/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01T 13/04",
+          "title": {
+            "ko": null,
+            "en": "Means providing electrical connection to sparking plugs"
+          }
+        },
+        {
+          "code": "H01T 13/05",
+          "title": {
+            "ko": null,
+            "en": "combined with interference suppressing or shielding means"
+          }
+        },
+        {
+          "code": "H01T 13/06",
+          "title": {
+            "ko": null,
+            "en": "Covers forming a part of the plug and protecting it against adverse environment"
+          }
+        },
+        {
+          "code": "H01T 13/08",
+          "title": {
+            "ko": null,
+            "en": "Mounting, fixing, or sealing of sparking plugs, e.g. in combustion chamber"
+          }
+        },
+        {
+          "code": "H01T 13/10",
+          "title": {
+            "ko": null,
+            "en": "by bayonet-type connection"
+          }
+        },
+        {
+          "code": "H01T 13/12",
+          "title": {
+            "ko": null,
+            "en": "Means on sparking plugs for facilitating engagement by tool or by hand"
+          }
+        },
+        {
+          "code": "H01T 13/14",
+          "title": {
+            "ko": null,
+            "en": "Means for self-cleaning"
+          }
+        },
+        {
+          "code": "H01T 13/16",
+          "title": {
+            "ko": null,
+            "en": "Means for dissipating heat"
+          }
+        },
+        {
+          "code": "H01T 13/18",
+          "title": {
+            "ko": null,
+            "en": "Means for heating, e.g. for drying"
+          }
+        },
+        {
+          "code": "H01T 13/20",
+          "title": {
+            "ko": "전극 또는 절연체의 형성에 특징이 있는 것",
+            "en": "characterised by features of the electrodes or insulation"
+          }
+        },
+        {
+          "code": "H01T 13/22",
+          "title": {
+            "ko": "절연체에 매립된 두개 이상의 전극을 가지는 것(두개이상의 스파크 갭을 가지는 스파킹 플러그 H01T 13/46 )",
+            "en": "having two or more electrodes embedded in insulation (sparking plugs having two or more spark gaps H01T0013460000)"
+          }
+        },
+        {
+          "code": "H01T 13/24",
+          "title": {
+            "ko": "가동전극이 있는 것(13/28이 우선)",
+            "en": "having movable electrodes (H01T0013280000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01T 13/26",
+          "title": {
+            "ko": null,
+            "en": "for adjusting spark gap otherwise than by bending of electrode"
+          }
+        },
+        {
+          "code": "H01T 13/28",
+          "title": {
+            "ko": null,
+            "en": "having spherically shaped electrodes, e.g. ball-shaped"
+          }
+        },
+        {
+          "code": "H01T 13/30",
+          "title": {
+            "ko": null,
+            "en": "mounted so as to permit free movement"
+          }
+        },
+        {
+          "code": "H01T 13/32",
+          "title": {
+            "ko": null,
+            "en": "characterised by features of the earthed electrode"
+          }
+        },
+        {
+          "code": "H01T 13/34",
+          "title": {
+            "ko": null,
+            "en": "characterised by the mounting of electrodes in insulation, e.g. by embedding"
+          }
+        },
+        {
+          "code": "H01T 13/36",
+          "title": {
+            "ko": null,
+            "en": "characterised by the joint between insulation and body, e.g. using cement"
+          }
+        },
+        {
+          "code": "H01T 13/38",
+          "title": {
+            "ko": null,
+            "en": "Selection of materials for insulation"
+          }
+        },
+        {
+          "code": "H01T 13/39",
+          "title": {
+            "ko": null,
+            "en": "Selection of materials for electrodes"
+          }
+        },
+        {
+          "code": "H01T 13/40",
+          "title": {
+            "ko": "다른 장치와 구조적으로 결합되어 있는 것(연료분사장치와 결합되고 또는 조합되어 있는 것 F02M 57/06; 내연기관의 다른 부품과 구조적으로 결합되어 있는 것 F02P 13/00)",
+            "en": "structurally combined with other devices (combined or associated with fuel injectors F02M0057060000;structurally combined with other parts of internal-combustion engines F02P0013000000)"
+          }
+        },
+        {
+          "code": "H01T 13/41",
+          "title": {
+            "ko": null,
+            "en": "with interference suppressing or shielding means"
+          }
+        },
+        {
+          "code": "H01T 13/42",
+          "title": {
+            "ko": null,
+            "en": "with magnetic spark generators"
+          }
+        },
+        {
+          "code": "H01T 13/44",
+          "title": {
+            "ko": null,
+            "en": "with transformers, e.g. for high-frequency ignition"
+          }
+        },
+        {
+          "code": "H01T 13/46",
+          "title": {
+            "ko": null,
+            "en": "having two or more spark gaps"
+          }
+        },
+        {
+          "code": "H01T 13/48",
+          "title": {
+            "ko": null,
+            "en": "having means for rendering sparks visible"
+          }
+        },
+        {
+          "code": "H01T 13/50",
+          "title": {
+            "ko": "갭의 이온화를 위한 수단이 있는 것(13/52가 우선)",
+            "en": "having means for ionisation of gap (H01T0013520000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01T 13/52",
+          "title": {
+            "ko": null,
+            "en": "characterised by a discharge along a surface"
+          }
+        },
+        {
+          "code": "H01T 13/54",
+          "title": {
+            "ko": null,
+            "en": "having electrodes arranged in a partly-enclosed ignition chamber"
+          }
+        },
+        {
+          "code": "H01T 13/56",
+          "title": {
+            "ko": null,
+            "en": "characterised by having component parts which are easily assembled or disassembled"
+          }
+        },
+        {
+          "code": "H01T 13/58",
+          "title": {
+            "ko": "검사 (내연 기관 점화시 스파크 특성을 검사하는 것 F02P17/12)",
+            "en": "Testing (testing characteristics of the spark in internal-combustion engine ignition F02P0017120000)"
+          }
+        },
+        {
+          "code": "H01T 13/60",
+          "title": {
+            "ko": null,
+            "en": "of electrical properties"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01T 14/00",
+      "title": {
+        "ko": "그룹 2/00～ 13/00에 분류되지 않는 스파크 갭 (코로나 방전을 발생시키기 위한 장치 19/00)",
+        "en": "Spark gaps not provided for in groups H01T0002000000-H01T0013000000 (devices providing for corona discharge H01T0019000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01T 15/00",
+      "title": {
+        "ko": "스파크 갭을 위해 특히 적합한 회로, 예. 점화회로 (내연기관을 위한 점화회로 F02P; 연소장치을 위한 전기적 스파크 점화 F23Q; 스파크 갭을 사용한 보호회로 H02H 9/06)",
+        "en": "Circuits specially adapted for spark gaps, e.g. ignition circuits (ignition circuits for internal-combustion engines F02P;electric spark ignition for combustion apparatus F23Q;protection circuits using spark gaps H02H0009060000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01T 19/00",
+      "title": {
+        "ko": "코로나방전을 발생시키기 위한 장치(전자사진요소의 대전을 위한 것 G03G 15/02)",
+        "en": "Devices providing for corona discharge (for charging electrographic elements G03G0015020000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01T 19/02",
+          "title": {
+            "ko": null,
+            "en": "Corona rings"
+          }
+        },
+        {
+          "code": "H01T 19/04",
+          "title": {
+            "ko": null,
+            "en": "having pointed electrodes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01T 21/00",
+      "title": {
+        "ko": "스파크 갭 또는 스파크 플러그의 제조 또는 보수를 위하여 특히 적합한 장치 또는 방법",
+        "en": "Apparatus or processes specially adapted for the manufacture or maintenance of spark gaps or sparking plugs"
+      },
+      "subgroups": [
+        {
+          "code": "H01T 21/02",
+          "title": {
+            "ko": "스파크 플러그에 관한 것",
+            "en": "of sparking plugs"
+          }
+        },
+        {
+          "code": "H01T 21/04",
+          "title": {
+            "ko": "청정(자동세척을 위한 수단 H01T 13/14; 스파크 플러그의 청정을 위한 연마제 취부장치 B24C 3/34)",
+            "en": "Cleaning  (means for self-cleaning H01T0013140000; abrasive blasting devices for cleaning sparking plugs B24C0003340000)"
+          }
+        },
+        {
+          "code": "H01T 21/06",
+          "title": {
+            "ko": "스파크 갭의 조정(갭조정용 가동전극을 가진 스파크 플러그 13/26)",
+            "en": "Adjustment of spark gaps (sparking plugs having movable electrodes for adjusting the gap H01T0013260000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01T 23/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for generating ions to be introduced into non-enclosed gases, e.g. into the atmosphere"
+      },
+      "subgroups": []
+    }
+  ]
+}

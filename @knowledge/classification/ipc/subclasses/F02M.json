@@ -1,0 +1,3114 @@
+{
+  "subclass": "F02M",
+  "title": {
+    "ko": "일반 연소기관에의 가연혼합물 또는 그의 성분의 공급",
+    "en": "SUPPLYING COMBUSTION ENGINES IN GENERAL WITH COMBUSTIBLE MIXTURES OR CONSTITUENTS THEREOF"
+  },
+  "definition": {
+    "ko": "액체연료의 공급 기화기 시동, 아이들링, 플로트에 의해서 제어되는 유면; 혼합기제어; 교축, 혼합실 F02M1/00, F02M3/00; 5/00; 7/00, F02M9/00 가열, 냉각, 절연 F02M15/00 다단, 레지스터형; 기화기 또는 연료의 조합; 저압연료와의 조합 F02M11/00, F02M13/00, F02M71/00 기타 특성; 기타 세부 또는 부속품 F02M17/00, F02M19/00 분사장치 일반적 특성, 가스를 동반하지 않은 분사 2종이상의 연속적으로 공급하는 인젝 터를 가진 것; F02M41/00; 43/00 주기적으로 송출특성이 있는 것; 유체 조작 밸브를 가지는 것 F02M45/00; 47/00 실린더압력 또는 그의 피스톤에 의해 조작되는 펌프 또는 인젝터를 가지는 것 F02M49/00 전기적으로 조작되는 것 F02M51/00 가열, 냉각 또는 절연수단을 가지는 것; 연료관 또는 통기수단에 특징이 있는 것 F02M53/00; 55/00 다른 장치와 조합된 인젝터 F02M57/00 기관에 관한 장치의 배열, 펌프구동부에 관한 장치의 배열 F02M39/00 펌프의 그외의 적용; 그 외인 인젝터 F02M59/00; F02M61/00 기타 장치, 세부 또는 부속품 F02M63/00; F02M69/00 시험 F02M65/00 고압가스의 사용 F02M67/00 저압장치 F02M51/02, F02M69/00; 71/00 비액체연료의 공급 F02M21/00 공기, 연료 또는 연료-공기 홍ㄴ합물의 공급 또는 전처리 연료, 공기 또는 혼합물의 전처리 보조의 공기를 가하는 것; 비연료물질 또는 보조의 연료를 가하는 것 F02M23/00; 25/00 촉매, 전기 또는 자기수단에 의한 것 혹은 음 또는 폭사에 의한 것; 열적으로 행하는 것 F02M27/00, F02M31/00 미세화(RE-ATOMISING) 또는 균질화(HOMOGENISING)하는 것에 따르는 것; 공기청정; 기타 처리 F02M29/00; 35/00; 33/00 공기취입구 또는 소음기, 흡입계통 F02M35/00 기화기 또는 분사장치로의 연료의 공급 F02M37/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제 사항 F02M99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F02M 1/00",
+      "title": {
+        "ko": "기관의 시동 또는 운전온도 이하에서 아이들링을 용이하게 하는 수단을 가진 기화기",
+        "en": "Carburettors for liquid fuels"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02M 1/00",
+      "title": {
+        "ko": "기관의 시동 또는 운전온도 이하에서 아이들링을 용이하게 하는 수단을 가진 기화기",
+        "en": "Carburettors with means for facilitating engine's starting or its idling below operational temperatures"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 1/02",
+          "title": {
+            "ko": "시동과 공회전을 용이하게 하는 수단이 연료-공기 혼합기를 농후하게 하기 위해 공기공급을 줄이기 위한 초크(자동초우크 F02M 1/08)",
+            "en": "the means to facilitate starting or idling being chokes for enriching fuel-air mixture (automatic chokes F02M0001080000)"
+          }
+        },
+        {
+          "code": "F02M 1/04",
+          "title": {
+            "ko": null,
+            "en": "the means to facilitate starting or idling being auxiliary carburetting apparatus able to be put into, and out of, operation, e.g. having automatically-operated disc valves"
+          }
+        },
+        {
+          "code": "F02M 1/06",
+          "title": {
+            "ko": null,
+            "en": "having axially-movable valves, e.g. piston-shaped"
+          }
+        },
+        {
+          "code": "F02M 1/08",
+          "title": {
+            "ko": "시동 또는 아이들링을 용이하게 하는 수단이 자동적으로 작동하는 것 또는 하지 않는 것 (보조기화장치와 관련하는 것 F02M 1/04)",
+            "en": "the means to facilitate starting or idling becoming operative or inoperative automatically (in connection with auxiliary carburetting apparatus F02M0001040000)"
+          }
+        },
+        {
+          "code": "F02M 1/10",
+          "title": {
+            "ko": null,
+            "en": "dependent on engine temperature, e.g. having thermostat"
+          }
+        },
+        {
+          "code": "F02M 1/12",
+          "title": {
+            "ko": null,
+            "en": "with means for electrically heating thermostat"
+          }
+        },
+        {
+          "code": "F02M 1/14",
+          "title": {
+            "ko": "연료공기 또는 연료-공기혼합기의 흡입압력에 의한 것 (연소 공기 또는 연료-공기 혼합물의 흡기 압력 및 엔진 온도 모두에 의한 것 F02M 1/10)",
+            "en": "dependent on pressure in combustion-air- or fuel-air-mixture intake  (dependent on both pressure in combustion-air or fuel-air-mixture intake and engine temperature F02M0001100000)"
+          }
+        },
+        {
+          "code": "F02M 1/16",
+          "title": {
+            "ko": null,
+            "en": "Other means for enriching fuel-air mixture during starting; Priming cups; using different fuels for starting and normal operation"
+          }
+        },
+        {
+          "code": "F02M 1/18",
+          "title": {
+            "ko": null,
+            "en": "Enriching fuel-air mixture by depressing float to flood carburettor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 3/00",
+      "title": {
+        "ko": "기화기용 아이들링장치(운전온도이하에서 아이들링을 용이하게 하는 수단을 가진 것 F02M 1/00)",
+        "en": "Idling devices for carburettors (with means for facilitating idling below operational temperatures F02M0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 3/02",
+          "title": {
+            "ko": null,
+            "en": "Preventing flow of idling fuel"
+          }
+        },
+        {
+          "code": "F02M 3/04",
+          "title": {
+            "ko": null,
+            "en": "under conditions where engine is driven instead of driving, e.g. driven by vehicle running down hill"
+          }
+        },
+        {
+          "code": "F02M 3/045",
+          "title": {
+            "ko": null,
+            "en": "Control of valves situated in the idling nozzle system, or the passage system, by electrical means or by a combination of electrical means with fluidic or mechanical means"
+          }
+        },
+        {
+          "code": "F02M 3/05",
+          "title": {
+            "ko": null,
+            "en": "Pneumatic or mechanical control, e.g. with speed regulation"
+          }
+        },
+        {
+          "code": "F02M 3/055",
+          "title": {
+            "ko": null,
+            "en": "Fuel flow cut-off by introducing air, e.g. brake air, into the idling fuel system"
+          }
+        },
+        {
+          "code": "F02M 3/06",
+          "title": {
+            "ko": null,
+            "en": "Increasing idling speed"
+          }
+        },
+        {
+          "code": "F02M 3/07",
+          "title": {
+            "ko": null,
+            "en": "by positioning the throttle flap stop, or by changing the fuel flow cross-sectional area, by electrical, electromechanical or electropneumatical means, according to engine speed"
+          }
+        },
+        {
+          "code": "F02M 3/08",
+          "title": {
+            "ko": "아이들링장치의 타의 세부(저속포트를 가열하여 빙결을 방지하는 것 F02M 15/02)",
+            "en": "Other details of idling devices (fighting ice-formation by heating idling ports F02M0015020000)"
+          }
+        },
+        {
+          "code": "F02M 3/09",
+          "title": {
+            "ko": "기관의 상태, 예. 매니폴드의 진공, 에 반응하는 밸브 (기관의 운전온도 이하에서 아이들링을 용이하게 하는 수단을 가진 기화기 F02M 1/00)",
+            "en": "Valves responsive to engine conditions, e.g. manifold vacuum  (carburettors with means for facilitating engine's idling below operational temperatures F02M0001000000)"
+          }
+        },
+        {
+          "code": "F02M 3/10",
+          "title": {
+            "ko": null,
+            "en": "Fuel metering pins; Nozzles"
+          }
+        },
+        {
+          "code": "F02M 3/12",
+          "title": {
+            "ko": null,
+            "en": "Passage way systems"
+          }
+        },
+        {
+          "code": "F02M 3/14",
+          "title": {
+            "ko": null,
+            "en": "Location of idling system outlet relative to throttle valve"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 5/00",
+      "title": {
+        "ko": null,
+        "en": "Float-controlled apparatus for maintaining a constant fuel level in carburettors"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 5/02",
+          "title": {
+            "ko": null,
+            "en": "with provisions to meet variations in carburettor position, e.g. upside-down position in aircraft"
+          }
+        },
+        {
+          "code": "F02M 5/04",
+          "title": {
+            "ko": null,
+            "en": "with pivotally or rotatably mounted float chambers"
+          }
+        },
+        {
+          "code": "F02M 5/06",
+          "title": {
+            "ko": null,
+            "en": "having adjustable float mechanism, e.g. to meet dissimilarities in specific gravity of different fuels"
+          }
+        },
+        {
+          "code": "F02M 5/08",
+          "title": {
+            "ko": null,
+            "en": "having means for venting float chambers"
+          }
+        },
+        {
+          "code": "F02M 5/10",
+          "title": {
+            "ko": null,
+            "en": "having means for preventing vapour lock, e.g. insulated float chambers or forced fuel circulation through float chamber with engine stopped"
+          }
+        },
+        {
+          "code": "F02M 5/12",
+          "title": {
+            "ko": null,
+            "en": "Other details, e.g. floats, valves, setting devices or tools"
+          }
+        },
+        {
+          "code": "F02M 5/16",
+          "title": {
+            "ko": null,
+            "en": "Floats"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 7/00",
+      "title": {
+        "ko": "변동하는 상태에서 급기의 연료/공기의 비율에 영향을 미치는 수단을 가진 기화기, 예. 농후하게 하거나 또는 일정하게 유지하는 것(시동용 초크밸브 F02M 1/00)",
+        "en": "Carburettors with means for influencing, e.g. enriching or keeping constant, fuel/air ratio of charge under varying conditions (choke valves for starting F02M0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 7/02",
+          "title": {
+            "ko": null,
+            "en": "Carburettors having aerated fuel spray nozzles"
+          }
+        },
+        {
+          "code": "F02M 7/04",
+          "title": {
+            "ko": null,
+            "en": "Means for enriching charge at high combustion-air flow"
+          }
+        },
+        {
+          "code": "F02M 7/06",
+          "title": {
+            "ko": null,
+            "en": "Means for enriching charge on sudden throttle opening, i.e. at acceleration, e.g. storage means in passage way system"
+          }
+        },
+        {
+          "code": "F02M 7/08",
+          "title": {
+            "ko": null,
+            "en": "using pumps"
+          }
+        },
+        {
+          "code": "F02M 7/087",
+          "title": {
+            "ko": null,
+            "en": "changing output according to temperature in engine"
+          }
+        },
+        {
+          "code": "F02M 7/093",
+          "title": {
+            "ko": null,
+            "en": "changing output according to intake vacuum"
+          }
+        },
+        {
+          "code": "F02M 7/10",
+          "title": {
+            "ko": "운동부분 없이 연료-공기의 비에 영향을 미치는 기타 장치, 예. 전기적 수단(연료/공기 비율에 영향을 미치는, 연료에 공기를 공급하는 장치 F02M7/23)",
+            "en": "Other installations, without moving parts, for influencing fuel/air ratio, e.g. electrical means  (fuel aerating devices for influencing fuel/air ratio F02M0007230000)"
+          }
+        },
+        {
+          "code": "F02M 7/11",
+          "title": {
+            "ko": "플로트실 압을 변경하는 것(시동중에 기화기가 넘치는 것을 억제하기 위해 연-공비를 농후하게 하는 것 F02M 1/18)",
+            "en": "Altering float-chamber pressure (enriching the fuel-air mixture during starting by depressing float to flood carburettor F02M0001180000)"
+          }
+        },
+        {
+          "code": "F02M 7/12",
+          "title": {
+            "ko": "운동부분을 갖는 연-공비에 영향을 미치는 타의 장치, 예. 밸브를 가지는 것(F02M 7/24가 우선)",
+            "en": "Other installations, with moving parts, for influencing fuel/air ratio, e.g. having valves (F02M0007240000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02M 7/127",
+          "title": {
+            "ko": "플로트실 압을 변경하는 것(시동중에 기화기를 넘치는 것을 억제하는 것에 의해 압하하여 연-공비를 농후하게 하는 것 F02M 1/18)",
+            "en": "Altering the float-chamber pressure (enriching the fuel-air mixture during starting by depressing float to flood carburettor F02M0001180000)"
+          }
+        },
+        {
+          "code": "F02M 7/133",
+          "title": {
+            "ko": "보조제트, 즉. 어떤 특정상태, 예. 최대 출력, 에서만 작동하는 것 (연소공기가 고속으로 흐를 때에 급기를 농후하게 하는 수단 F02M7/04; 급격한 교축 개방시에 급기를 농후하게 하는 수단 F02M7/06)",
+            "en": "Auxiliary jets, i.e. operating only under certain conditions, e.g. full power   (means for enriching charge at high combustion-air flow F02M0007040000; means for enriching charge on sudden throttle opening, i.e. at acceleration F02M0007060000)"
+          }
+        },
+        {
+          "code": "F02M 7/14",
+          "title": {
+            "ko": "연료분사노즐의 횡단면적을 제어하는 수단을 가지는 것(공기의 교축밸브 위치에 의하는 것 F02M 7/22)",
+            "en": "with means for controlling cross-sectional area of fuel spray nozzle (dependent on air-throttle valve position F02M0007220000)"
+          }
+        },
+        {
+          "code": "F02M 7/16",
+          "title": {
+            "ko": null,
+            "en": "operated automatically, e.g. dependent on exhaust-gas analysis"
+          }
+        },
+        {
+          "code": "F02M 7/17",
+          "title": {
+            "ko": null,
+            "en": "by a pneumatically adjustable piston-like element, e.g. constant depression carburettors"
+          }
+        },
+        {
+          "code": "F02M 7/18",
+          "title": {
+            "ko": "연료계량 오리피스의 횡단면적을 제어하는 수단을 가지는 것(공기의 교축위치에 의한 것 F02M 7/22)",
+            "en": "with means for controlling cross-sectional area of fuel-metering orifice (dependent on air-throttle position F02M0007220000)"
+          }
+        },
+        {
+          "code": "F02M 7/20",
+          "title": {
+            "ko": null,
+            "en": "operated automatically, e.g. dependent on altitude"
+          }
+        },
+        {
+          "code": "F02M 7/22",
+          "title": {
+            "ko": "연료류의 횡단면적이 공기교축 밸브의 위치에 의하여 제어되는 것(그 교축밸브가 공기통로를 횡단하여 미끄럼 운동되는 것 F02M 9/06)",
+            "en": "fuel flow cross-sectional area being controlled dependent on air-throttle-valve position (the throttle valve being slidably arranged transversely to air passage F02M0009060000)"
+          }
+        },
+        {
+          "code": "F02M 7/23",
+          "title": {
+            "ko": null,
+            "en": "Fuel aerating devices"
+          }
+        },
+        {
+          "code": "F02M 7/24",
+          "title": {
+            "ko": null,
+            "en": "Controlling flow of aerating air"
+          }
+        },
+        {
+          "code": "F02M 7/26",
+          "title": {
+            "ko": null,
+            "en": "dependent on position of optionally operable throttle means"
+          }
+        },
+        {
+          "code": "F02M 7/28",
+          "title": {
+            "ko": null,
+            "en": "dependent on temperature or pressure"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 9/00",
+      "title": {
+        "ko": "나비모양 이외의 공기 또는 연료-공기혼합기용 통로와 교축밸브를 가진 기화기(래지스터); 기화기 11/00(형상 또는 위치를 변경될 수 있는 연료-공기혼합실에 가진 기화기)",
+        "en": "Carburettors having air or fuel-air mixture passage throttling valves other than of butterfly type (register-type carburettors F02M0011000000); Carburettors having fuel-air mixing chambers of variable shape or position"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 9/02",
+          "title": {
+            "ko": "통로를 횡단하여 미끄럼 운동을 할 수 있는 교축밸브, 예. 피스톤상의 밸브를 가진 것",
+            "en": "having throttling valves, e.g. of piston shape, slidably arranged transversely to the passage"
+          }
+        },
+        {
+          "code": "F02M 9/04",
+          "title": {
+            "ko": null,
+            "en": "with throttling valves sliding in a plane inclined to the passage"
+          }
+        },
+        {
+          "code": "F02M 9/06",
+          "title": {
+            "ko": "교축위치에 의하여 연료분무노즐의 횡단면적을 변화시키는 수단을 가진 것 (연료/공기 비율에 영향을주기 위해서 공압식으로 조절 가능한 피스톤형 요소에 의해서 자동으로 작동되는 장치 F02M7/17)",
+            "en": "with means for varying cross-sectional area of fuel spray nozzle dependent on throttle position  (installations, operated automatically by a pneumatically adjustable piston-like element, for influencing fuel/air ratio F02M0007170000)"
+          }
+        },
+        {
+          "code": "F02M 9/08",
+          "title": {
+            "ko": null,
+            "en": "having throttling valves rotatably mounted in the passage"
+          }
+        },
+        {
+          "code": "F02M 9/10",
+          "title": {
+            "ko": null,
+            "en": "having valves, or like controls, of elastic-wall type for controlling the passage, or for varying cross-sectional area, of fuel-air mixing chambers"
+          }
+        },
+        {
+          "code": "F02M 9/12",
+          "title": {
+            "ko": null,
+            "en": "having other specific means for controlling the passage, or for varying cross-sectional area, of fuel-air mixing chambers"
+          }
+        },
+        {
+          "code": "F02M 9/127",
+          "title": {
+            "ko": null,
+            "en": "Axially movable throttle valves concentric with the axis of the mixture passage"
+          }
+        },
+        {
+          "code": "F02M 9/133",
+          "title": {
+            "ko": null,
+            "en": "the throttle valves having mushroom-shaped bodies"
+          }
+        },
+        {
+          "code": "F02M 9/14",
+          "title": {
+            "ko": null,
+            "en": "having venturi and nozzle relatively displaceable essentially along the venturi axis"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 11/00",
+      "title": {
+        "ko": null,
+        "en": "Multi-stage carburettors; Register-type carburettors, i.e. with slidable or rotatable throttling valves in which a plurality of fuel nozzles, other than only an idling nozzle and a main one, are sequentially exposed to air stream by throttling valve"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 11/02",
+          "title": {
+            "ko": null,
+            "en": "with throttling valve, e.g. of flap or butterfly type, in a later stage opening automatically"
+          }
+        },
+        {
+          "code": "F02M 11/04",
+          "title": {
+            "ko": null,
+            "en": "the later-stage valves having damping means"
+          }
+        },
+        {
+          "code": "F02M 11/06",
+          "title": {
+            "ko": null,
+            "en": "Other carburettors with throttling valve of flap or butterfly type"
+          }
+        },
+        {
+          "code": "F02M 11/08",
+          "title": {
+            "ko": null,
+            "en": "Register carburettors with throttling valve movable transversally to air passage"
+          }
+        },
+        {
+          "code": "F02M 11/10",
+          "title": {
+            "ko": null,
+            "en": "Register carburettors with rotatable throttling valves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 13/00",
+      "title": {
+        "ko": "2개이상의 별개의 기화기의 배열(응축연료의 재무화 또는 연료-공기혼합기의 균질화 F02M 29/00); 2종이상을 사용하는 기화기(소량의 2차연료를 가하는 장치 F02M 25/00)",
+        "en": "Arrangements of two or more separate carburettors (re-atomising condensed fuel or homogenising fuel-air mixture F02M0029000000); Carburettors using more than one fuel (apparatus for adding small quantities of secondary fuel F02M0025000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 13/02",
+          "title": {
+            "ko": null,
+            "en": "Separate carburettors"
+          }
+        },
+        {
+          "code": "F02M 13/04",
+          "title": {
+            "ko": null,
+            "en": "structurally united"
+          }
+        },
+        {
+          "code": "F02M 13/06",
+          "title": {
+            "ko": null,
+            "en": "the carburettors using different fuels"
+          }
+        },
+        {
+          "code": "F02M 13/08",
+          "title": {
+            "ko": null,
+            "en": "Carburettors adapted to use liquid and gaseous fuels, e.g. alternatively"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 15/00",
+      "title": {
+        "ko": null,
+        "en": "Carburettors with heating, cooling or thermal insulating means for combustion-air, fuel or fuel-air mixture"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 15/02",
+          "title": {
+            "ko": null,
+            "en": "with heating means, e.g. to combat ice-formation"
+          }
+        },
+        {
+          "code": "F02M 15/04",
+          "title": {
+            "ko": null,
+            "en": "the means being electrical"
+          }
+        },
+        {
+          "code": "F02M 15/06",
+          "title": {
+            "ko": null,
+            "en": "Heat shieldings, e.g. from engine radiations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 17/00",
+      "title": {
+        "ko": "메인 그룹 1/00에서 15/00의 장치로 분류되지 않는 적절한 특성을 가지는 기화기(촉매, 전기적 수단, 자기, 광선, 음파등에 의한 연소 공기, 연료 또는 연료-공기 혼합기체의 처리 장치 F02M 27/00; 기화기와 저압 연료 분사 장치의 조합 F02M 71/00)",
+        "en": "Carburettors having pertinent characteristics not provided for in, or of interest apart from, the apparatus of main groups F02M0001000000-F02M0015000000 (apparatus for treating combustion-air, fuel, or fuel-air mixture by catalysts, electric means, magnetism, rays, sonic waves, or the like F02M0027000000;combinations of carburettors and low-pressure fuel-injection apparatus F02M0071000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 17/02",
+          "title": {
+            "ko": null,
+            "en": "Floatless carburettors"
+          }
+        },
+        {
+          "code": "F02M 17/04",
+          "title": {
+            "ko": null,
+            "en": "having fuel inlet valve controlled by diaphragm"
+          }
+        },
+        {
+          "code": "F02M 17/06",
+          "title": {
+            "ko": null,
+            "en": "having overflow chamber determining constant fuel level"
+          }
+        },
+        {
+          "code": "F02M 17/08",
+          "title": {
+            "ko": null,
+            "en": "Carburettors having one or more fuel passages opening in a valve-seat surrounding combustion-air passage, the valve being opened by passing air"
+          }
+        },
+        {
+          "code": "F02M 17/09",
+          "title": {
+            "ko": null,
+            "en": "the valve being of an eccentrically mounted butterfly type"
+          }
+        },
+        {
+          "code": "F02M 17/10",
+          "title": {
+            "ko": null,
+            "en": "Carburettors having one or more fuel passages opening in valve-member of air throttle"
+          }
+        },
+        {
+          "code": "F02M 17/12",
+          "title": {
+            "ko": null,
+            "en": "the valve-member being of butterfly type"
+          }
+        },
+        {
+          "code": "F02M 17/14",
+          "title": {
+            "ko": null,
+            "en": "Carburettors with fuel-supply parts opened and closed in synchronism with engine stroke"
+          }
+        },
+        {
+          "code": "F02M 17/16",
+          "title": {
+            "ko": null,
+            "en": "Carburettors having continuously-rotating bodies, e.g. surface carburettors"
+          }
+        },
+        {
+          "code": "F02M 17/18",
+          "title": {
+            "ko": null,
+            "en": "Other surface carburettors"
+          }
+        },
+        {
+          "code": "F02M 17/20",
+          "title": {
+            "ko": null,
+            "en": "with fuel bath"
+          }
+        },
+        {
+          "code": "F02M 17/22",
+          "title": {
+            "ko": null,
+            "en": "with air bubbling through bath"
+          }
+        },
+        {
+          "code": "F02M 17/24",
+          "title": {
+            "ko": null,
+            "en": "with wicks"
+          }
+        },
+        {
+          "code": "F02M 17/26",
+          "title": {
+            "ko": null,
+            "en": "with other wetted bodies"
+          }
+        },
+        {
+          "code": "F02M 17/28",
+          "title": {
+            "ko": null,
+            "en": "fuel being drawn through a porous body"
+          }
+        },
+        {
+          "code": "F02M 17/30",
+          "title": {
+            "ko": null,
+            "en": "Carburettors with fire-protecting devices, e.g. combined with fire-extinguishing apparatus"
+          }
+        },
+        {
+          "code": "F02M 17/32",
+          "title": {
+            "ko": null,
+            "en": "automatically closing fuel conduits on outbreak of fire"
+          }
+        },
+        {
+          "code": "F02M 17/34",
+          "title": {
+            "ko": null,
+            "en": "Other carburettors combined or associated with other apparatus, e.g. air filters"
+          }
+        },
+        {
+          "code": "F02M 17/36",
+          "title": {
+            "ko": null,
+            "en": "Carburettors having fitments facilitating their cleaning"
+          }
+        },
+        {
+          "code": "F02M 17/38",
+          "title": {
+            "ko": "달리 분류되어 있지 않은 기화기의 제어(외부제어장치 F02M 19/12)",
+            "en": "Controlling of carburettors, not otherwise provided for (external control gear F02M0019120000)"
+          }
+        },
+        {
+          "code": "F02M 17/40",
+          "title": {
+            "ko": null,
+            "en": "Selection of particular materials for carburettors, e.g. sheet metal, plastic, or translucent materials"
+          }
+        },
+        {
+          "code": "F02M 17/42",
+          "title": {
+            "ko": null,
+            "en": "Float-controlled carburettors not otherwise provided for"
+          }
+        },
+        {
+          "code": "F02M 17/44",
+          "title": {
+            "ko": null,
+            "en": "Carburettors characterised by draught direction and not otherwise provided for"
+          }
+        },
+        {
+          "code": "F02M 17/46",
+          "title": {
+            "ko": null,
+            "en": "with down-draught"
+          }
+        },
+        {
+          "code": "F02M 17/48",
+          "title": {
+            "ko": null,
+            "en": "with up-draught"
+          }
+        },
+        {
+          "code": "F02M 17/50",
+          "title": {
+            "ko": "빙결방지용 수단이 있는 기화기(열식 F02M 15/02)",
+            "en": "Carburettors having means for combating ice-formation (thermally F02M0015020000)"
+          }
+        },
+        {
+          "code": "F02M 17/52",
+          "title": {
+            "ko": null,
+            "en": "Use of cold, produced by carburettors, for other purposes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 19/00",
+      "title": {
+        "ko": "그룹 1/00에서 17/00의 장치로 분류되지 않는 또는 그것들에게는 없는 주목할만한 기화기의 세부, 구성요소로서의 부품 또는 부속품",
+        "en": "Details, component parts, or accessories of carburettors, not provided for in, or of interest apart from, the apparatus of groups F02M0001000000-F02M0017000000"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 19/01",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for testing, tuning, or synchronising carburettors, e.g. carburettor flow stands"
+          }
+        },
+        {
+          "code": "F02M 19/02",
+          "title": {
+            "ko": "계량오리피스, 예. 직경 가변식(운전중 가변인 것 7/18)",
+            "en": "Metering-orifices, e.g. variable in diameter (variable during operation F02M0007180000)"
+          }
+        },
+        {
+          "code": "F02M 19/025",
+          "title": {
+            "ko": null,
+            "en": "Metering orifices not variable in diameter"
+          }
+        },
+        {
+          "code": "F02M 19/03",
+          "title": {
+            "ko": null,
+            "en": "Fuel atomising nozzles; Arrangement of emulsifying air conduits"
+          }
+        },
+        {
+          "code": "F02M 19/035",
+          "title": {
+            "ko": null,
+            "en": "Mushroom-shaped atomising nozzles"
+          }
+        },
+        {
+          "code": "F02M 19/04",
+          "title": {
+            "ko": null,
+            "en": "Fuel-metering pins or needles"
+          }
+        },
+        {
+          "code": "F02M 19/06",
+          "title": {
+            "ko": null,
+            "en": "Other details of fuel conduits"
+          }
+        },
+        {
+          "code": "F02M 19/08",
+          "title": {
+            "ko": null,
+            "en": "Venturis"
+          }
+        },
+        {
+          "code": "F02M 19/10",
+          "title": {
+            "ko": null,
+            "en": "in multiple arrangement"
+          }
+        },
+        {
+          "code": "F02M 19/12",
+          "title": {
+            "ko": "외부 제어장치, 예. 데시포트(dash-pots)를 가지는 것 (다단기화기의 후단에 있는 감이수단 F02M 11/04)",
+            "en": "External control gear, e.g. having dash-pots  (dampening means in later stages of multi-stage carburettors F02M0011040000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 21/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for supplying engines with non-liquid fuels, e.g. gaseous fuels stored in liquid form"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 21/02",
+          "title": {
+            "ko": null,
+            "en": "for gaseous fuels"
+          }
+        },
+        {
+          "code": "F02M 21/04",
+          "title": {
+            "ko": null,
+            "en": "Gas-air mixing apparatus"
+          }
+        },
+        {
+          "code": "F02M 21/06",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for de-liquefying, e.g. by heating"
+          }
+        },
+        {
+          "code": "F02M 21/08",
+          "title": {
+            "ko": null,
+            "en": "for non-gaseous fuels"
+          }
+        },
+        {
+          "code": "F02M 21/10",
+          "title": {
+            "ko": null,
+            "en": "for fuels with low melting point, e.g. apparatus having heating means"
+          }
+        },
+        {
+          "code": "F02M 21/12",
+          "title": {
+            "ko": null,
+            "en": "for fuels in pulverised state"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 23/00",
+      "title": {
+        "ko": null,
+        "en": "Engine-pertinent apparatus for feeding, or treating before their admission to engine, combustion-air, fuel, or fuel-air mixture"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02M 23/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for adding secondary air to fuel-air mixture"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 23/02",
+          "title": {
+            "ko": null,
+            "en": "with personal control"
+          }
+        },
+        {
+          "code": "F02M 23/03",
+          "title": {
+            "ko": null,
+            "en": "the secondary air-valve controlled by main combustion-air throttle"
+          }
+        },
+        {
+          "code": "F02M 23/04",
+          "title": {
+            "ko": null,
+            "en": "with automatic control"
+          }
+        },
+        {
+          "code": "F02M 23/06",
+          "title": {
+            "ko": null,
+            "en": "dependent on engine speed"
+          }
+        },
+        {
+          "code": "F02M 23/08",
+          "title": {
+            "ko": null,
+            "en": "dependent on pressure in main combustion-air induction system"
+          }
+        },
+        {
+          "code": "F02M 23/09",
+          "title": {
+            "ko": null,
+            "en": "using valves directly opened by low pressure"
+          }
+        },
+        {
+          "code": "F02M 23/10",
+          "title": {
+            "ko": null,
+            "en": "dependent on temperature, e.g. engine temperature"
+          }
+        },
+        {
+          "code": "F02M 23/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by being combined with device for, or by secondary air effecting, re-atomising of condensed fuel"
+          }
+        },
+        {
+          "code": "F02M 23/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by adding hot air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 25/00",
+      "title": {
+        "ko": "연소-공기, 주연료 또는 연료-공기 혼합물에 비연료 물질 또는 소량의 2차 연료를 첨가하기 위한 엔진 관련 장치 (연료-공기 혼합물에 이차 공기를 가하는 것 F02M23/00; 배기가스를 가하는 것 F02M 26/00; 2종 이상의 연료 또는 액체연료와 다른 액체에 동시에 작용하는 연료분사장치 F02M43/00)",
+        "en": "Engine-pertinent apparatus for adding non-fuel substances or small quantities of secondary fuel to combustion-air, main fuel or fuel-air mixture (adding secondary air to fuel-air mixture F02M0023000000; adding exhaust gases F02M0026000000; fuel-injection apparatus operating simultaneously on two or more fuels or on a liquid fuel and another liquid F02M0043000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 25/022",
+          "title": {
+            "ko": null,
+            "en": "Adding fuel and water emulsion, water or steam"
+          }
+        },
+        {
+          "code": "F02M 25/025",
+          "title": {
+            "ko": null,
+            "en": "Adding water"
+          }
+        },
+        {
+          "code": "F02M 25/028",
+          "title": {
+            "ko": null,
+            "en": "into the charge intakes"
+          }
+        },
+        {
+          "code": "F02M 25/03",
+          "title": {
+            "ko": null,
+            "en": "into the cylinders"
+          }
+        },
+        {
+          "code": "F02M 25/032",
+          "title": {
+            "ko": null,
+            "en": "Producing and adding steam"
+          }
+        },
+        {
+          "code": "F02M 25/035",
+          "title": {
+            "ko": null,
+            "en": "into the charge intakes"
+          }
+        },
+        {
+          "code": "F02M 25/038",
+          "title": {
+            "ko": null,
+            "en": "into the cylinders"
+          }
+        },
+        {
+          "code": "F02M 25/06",
+          "title": {
+            "ko": null,
+            "en": "adding lubricant vapours"
+          }
+        },
+        {
+          "code": "F02M 25/08",
+          "title": {
+            "ko": null,
+            "en": "adding fuel vapours drawn from engine fuel reservoir"
+          }
+        },
+        {
+          "code": "F02M 25/10",
+          "title": {
+            "ko": "아세틸렌, 수중의 수소 이외의 수소, 대기중의 산소 이외의 산소 또는 오존을 가하는 것",
+            "en": "adding acetylene, non-waterborne hydrogen, non-airborne oxygen, or ozone"
+          }
+        },
+        {
+          "code": "F02M 25/12",
+          "title": {
+            "ko": "전기가스를 발생시키는 수단을 가진 장치(광선과 동시에 발생하는 오존을 사용하는 것 F02M 27/06)",
+            "en": "the apparatus having means for generating such gases (using rays and simultaneously generating ozone F02M0027060000)"
+          }
+        },
+        {
+          "code": "F02M 25/14",
+          "title": {
+            "ko": "서브그룹의 25/022에서 25/10으로 분류되어 있지 않는 안티노크제를 가하는 것",
+            "en": "adding anti-knock agents, not provided for in groups F02M0025022000-F02M0025100000"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 26/00",
+      "title": {
+        "ko": "배기 가스를 연소 공기, 주 연료 또는 연료 공기 혼합물에 가하는 기관에 적절한 장치, 예. 배기가스 재순환 [EGR] 시스템",
+        "en": "Engine-pertinent apparatus for adding exhaust gases to combustion-air, main fuel or fuel-air mixture, e.g. by exhaust gas recirculation [EGR] systems"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 26/01",
+          "title": {
+            "ko": null,
+            "en": "Internal exhaust gas recirculation, i.e. wherein the residual exhaust gases are trapped in the cylinder or pushed back from the intake or the exhaust manifold into the combustion chamber without the use of additional passages"
+          }
+        },
+        {
+          "code": "F02M 26/02",
+          "title": {
+            "ko": null,
+            "en": "EGR systems specially adapted for supercharged engines"
+          }
+        },
+        {
+          "code": "F02M 26/03",
+          "title": {
+            "ko": null,
+            "en": "with a single mechanically or electrically driven intake charge compressor"
+          }
+        },
+        {
+          "code": "F02M 26/04",
+          "title": {
+            "ko": null,
+            "en": "with a single turbocharger"
+          }
+        },
+        {
+          "code": "F02M 26/05",
+          "title": {
+            "ko": null,
+            "en": "High pressure loops, i.e. wherein recirculated exhaust gas is taken out from the exhaust system upstream of the turbine and reintroduced into the intake system downstream of the compressor"
+          }
+        },
+        {
+          "code": "F02M 26/06",
+          "title": {
+            "ko": null,
+            "en": "Low pressure loops, i.e. wherein recirculated exhaust gas is taken out from the exhaust downstream of the turbocharger turbine and reintroduced into the intake system upstream of the compressor"
+          }
+        },
+        {
+          "code": "F02M 26/07",
+          "title": {
+            "ko": null,
+            "en": "Mixed pressure loops, i.e. wherein recirculated exhaust gas is either taken out upstream of the turbine and reintroduced upstream of the compressor, or is taken out downstream of the turbine and reintroduced downstream of the compressor"
+          }
+        },
+        {
+          "code": "F02M 26/08",
+          "title": {
+            "ko": null,
+            "en": "for engines having two or more intake charge compressors or exhaust gas turbines, e.g. a turbocharger combined with an additional compressor"
+          }
+        },
+        {
+          "code": "F02M 26/09",
+          "title": {
+            "ko": null,
+            "en": "Constructional details, e.g. structural combinations of EGR systems and supercharger systems; Arrangement of the EGR and supercharger systems with respect to the engine"
+          }
+        },
+        {
+          "code": "F02M 26/10",
+          "title": {
+            "ko": null,
+            "en": "having means to increase the pressure difference between the exhaust and intake system, e.g. venturis, variable geometry turbines, check valves using pressure pulsations or throttles in the air intake or exhaust system"
+          }
+        },
+        {
+          "code": "F02M 26/11",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or assembly of EGR systems; Materials or coatings specially adapted for EGR systems"
+          }
+        },
+        {
+          "code": "F02M 26/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for attaching parts of an EGR system to each other or to engine parts"
+          }
+        },
+        {
+          "code": "F02M 26/13",
+          "title": {
+            "ko": "EGR 통로의 레이아웃 배치, 예. 특별한 기관 부분에 관련 또는 부속품에 결합된것",
+            "en": "Arrangement or layout of EGR passages, e.g. in relation to specific engine parts or for incorporation of accessories"
+          }
+        },
+        {
+          "code": "F02M 26/14",
+          "title": {
+            "ko": null,
+            "en": "in relation to the exhaust system"
+          }
+        },
+        {
+          "code": "F02M 26/15",
+          "title": {
+            "ko": null,
+            "en": "in relation to engine exhaust purifying apparatus"
+          }
+        },
+        {
+          "code": "F02M 26/16",
+          "title": {
+            "ko": null,
+            "en": "with EGR valves located at or near the connection to the exhaust system"
+          }
+        },
+        {
+          "code": "F02M 26/17",
+          "title": {
+            "ko": null,
+            "en": "in relation to the intake system"
+          }
+        },
+        {
+          "code": "F02M 26/18",
+          "title": {
+            "ko": null,
+            "en": "Thermal insulation or heat protection"
+          }
+        },
+        {
+          "code": "F02M 26/19",
+          "title": {
+            "ko": null,
+            "en": "Means for improving the mixing of air and recirculated exhaust gases, e.g. venturis or multiple openings to the intake system"
+          }
+        },
+        {
+          "code": "F02M 26/20",
+          "title": {
+            "ko": null,
+            "en": "Feeding recirculated exhaust gases directly into the combustion chambers or into the intake runners"
+          }
+        },
+        {
+          "code": "F02M 26/21",
+          "title": {
+            "ko": null,
+            "en": "with EGR valves located at or near the connection to the intake system"
+          }
+        },
+        {
+          "code": "F02M 26/22",
+          "title": {
+            "ko": "재순환 통로에 냉각기를 갖는 것",
+            "en": "with coolers in the recirculation passage"
+          }
+        },
+        {
+          "code": "F02M 26/23",
+          "title": {
+            "ko": null,
+            "en": "Layout, e.g. schematics"
+          }
+        },
+        {
+          "code": "F02M 26/24",
+          "title": {
+            "ko": null,
+            "en": "with two or more coolers"
+          }
+        },
+        {
+          "code": "F02M 26/25",
+          "title": {
+            "ko": null,
+            "en": "with coolers having bypasses"
+          }
+        },
+        {
+          "code": "F02M 26/26",
+          "title": {
+            "ko": null,
+            "en": "characterised by details of the bypass valve"
+          }
+        },
+        {
+          "code": "F02M 26/27",
+          "title": {
+            "ko": null,
+            "en": "with air-cooled heat exchangers"
+          }
+        },
+        {
+          "code": "F02M 26/28",
+          "title": {
+            "ko": null,
+            "en": "with liquid-cooled heat exchangers"
+          }
+        },
+        {
+          "code": "F02M 26/29",
+          "title": {
+            "ko": "냉각기의 구조적 세부, 예. 파이프, 플레이트, 리브, 절연 또는 재료",
+            "en": "Constructional details of the coolers, e.g. pipes, plates, ribs, insulation or materials"
+          }
+        },
+        {
+          "code": "F02M 26/30",
+          "title": {
+            "ko": "다른장치에 냉각기의 접속, 예. 밸브, 히터, 압축기 또는 필터에; 엔진에서의 위치에 의해 특징지워지는 냉각기",
+            "en": "Connections of coolers to other devices, e. g. to valves, heaters, compressors or filters; Coolers characterised by their location on the engine"
+          }
+        },
+        {
+          "code": "F02M 26/31",
+          "title": {
+            "ko": null,
+            "en": "Air-cooled heat exchangers"
+          }
+        },
+        {
+          "code": "F02M 26/32",
+          "title": {
+            "ko": null,
+            "en": "Liquid-cooled heat exchangers"
+          }
+        },
+        {
+          "code": "F02M 26/33",
+          "title": {
+            "ko": null,
+            "en": "controlling the temperature of the recirculated gases"
+          }
+        },
+        {
+          "code": "F02M 26/34",
+          "title": {
+            "ko": null,
+            "en": "with compressors, turbines or the like in the recirculation passage"
+          }
+        },
+        {
+          "code": "F02M 26/35",
+          "title": {
+            "ko": null,
+            "en": "with means for cleaning or treating the recirculated gases, e.g. catalysts, condensate traps, particle filters or heaters"
+          }
+        },
+        {
+          "code": "F02M 26/36",
+          "title": {
+            "ko": null,
+            "en": "with means for adding fluids other than exhaust gas to the recirculation passage; with reformers"
+          }
+        },
+        {
+          "code": "F02M 26/37",
+          "title": {
+            "ko": "재순환 배기가스의 온도 저장을 갖는 것 (내부 배기가스 재순환 F02M 26/01 )",
+            "en": "with temporary storage of recirculated exhaust gas (internal exhaust gas recirculation F02M0026010000)"
+          }
+        },
+        {
+          "code": "F02M 26/38",
+          "title": {
+            "ko": null,
+            "en": "with two or more EGR valves disposed in parallel"
+          }
+        },
+        {
+          "code": "F02M 26/39",
+          "title": {
+            "ko": null,
+            "en": "with two or more EGR valves disposed in series"
+          }
+        },
+        {
+          "code": "F02M 26/40",
+          "title": {
+            "ko": null,
+            "en": "with timing means in the recirculation passage, e.g. cyclically operating valves or regenerators; with arrangements involving pressure pulsations"
+          }
+        },
+        {
+          "code": "F02M 26/41",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of the recirculation passage in relation to the engine, e.g. to cylinder heads, liners, spark plugs or manifolds;  characterised by the arrangement of the recirculation passage in relation to specially adapted combustion chambers"
+          }
+        },
+        {
+          "code": "F02M 26/42",
+          "title": {
+            "ko": null,
+            "en": "having two or more EGR passages; EGR systems specially adapted for engines having two or more cylinders"
+          }
+        },
+        {
+          "code": "F02M 26/43",
+          "title": {
+            "ko": null,
+            "en": "in which exhaust from only one cylinder or only a group of cylinders is directed to the intake of the engine"
+          }
+        },
+        {
+          "code": "F02M 26/44",
+          "title": {
+            "ko": null,
+            "en": "in which a main EGR passage is branched into multiple passages"
+          }
+        },
+        {
+          "code": "F02M 26/45",
+          "title": {
+            "ko": "EGR 시스템에 특별히 적용된 센서",
+            "en": "Sensors specially adapted for EGR systems"
+          }
+        },
+        {
+          "code": "F02M 26/46",
+          "title": {
+            "ko": null,
+            "en": "for determining the characteristics of gases, e.g. composition"
+          }
+        },
+        {
+          "code": "F02M 26/47",
+          "title": {
+            "ko": null,
+            "en": "the characteristics being temperatures, pressures or flow rates"
+          }
+        },
+        {
+          "code": "F02M 26/48",
+          "title": {
+            "ko": "EGR 밸브 위치 센서 (밸브 하우징에서의 센서 설치의 세부 F02M 26/71 )",
+            "en": "EGR valve position sensors (details of the sensor installation in the valve housing F02M0026710000)"
+          }
+        },
+        {
+          "code": "F02M 26/49",
+          "title": {
+            "ko": null,
+            "en": "Detecting, diagnosing or indicating an abnormal function of the EGR system"
+          }
+        },
+        {
+          "code": "F02M 26/50",
+          "title": {
+            "ko": "침적물의, 불순물에 의한 부식 또는 마모를 감소 또는 방지하기 위한 방법 또는 배치 (재순환 가스를 정화 또는 처리하기 위한 수단을 갖는 EGR 배관의 배치 또는 레이아웃 F02M 26/35, 손상으로부터의 EGR밸브 보호 F02M 26/74)",
+            "en": "Arrangements or methods for preventing or reducing deposits, corrosion or wear caused by impurities   (arrangement or layout of EGR passages with means for cleaning or treating the recirculated gases F02M0026350000;protection of EGR valves from damage F02M0026740000)"
+          }
+        },
+        {
+          "code": "F02M 26/51",
+          "title": {
+            "ko": "다른 기기와 조합되어 있는 EGR 밸브, 예. 흡기밸브 또는 압축기를 갖는 것 (흡기 쓰로틀과 조합되어 있는것 F02M 26/64 )",
+            "en": "EGR valves combined with other devices, e.g. with intake valves or compressors (combined with intake air throttles F02M0026640000)"
+          }
+        },
+        {
+          "code": "F02M 26/52",
+          "title": {
+            "ko": "EGR 밸브를 작동시키기 위한 시스템",
+            "en": "Systems for actuating EGR valves"
+          }
+        },
+        {
+          "code": "F02M 26/53",
+          "title": {
+            "ko": null,
+            "en": "using electric actuators, e.g. solenoids"
+          }
+        },
+        {
+          "code": "F02M 26/54",
+          "title": {
+            "ko": null,
+            "en": "Rotary actuators, e.g. step motors"
+          }
+        },
+        {
+          "code": "F02M 26/55",
+          "title": {
+            "ko": null,
+            "en": "using vacuum actuators"
+          }
+        },
+        {
+          "code": "F02M 26/56",
+          "title": {
+            "ko": null,
+            "en": "having pressure modulation valves"
+          }
+        },
+        {
+          "code": "F02M 26/57",
+          "title": {
+            "ko": null,
+            "en": "using electronic means, e.g. electromagnetic valves"
+          }
+        },
+        {
+          "code": "F02M 26/58",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of the actuator; Mounting thereof"
+          }
+        },
+        {
+          "code": "F02M 26/59",
+          "title": {
+            "ko": null,
+            "en": "using positive pressure actuators; Check valves therefor"
+          }
+        },
+        {
+          "code": "F02M 26/60",
+          "title": {
+            "ko": null,
+            "en": "in response to air intake pressure"
+          }
+        },
+        {
+          "code": "F02M 26/61",
+          "title": {
+            "ko": null,
+            "en": "in response to exhaust pressure"
+          }
+        },
+        {
+          "code": "F02M 26/62",
+          "title": {
+            "ko": null,
+            "en": "in response to fuel pressure"
+          }
+        },
+        {
+          "code": "F02M 26/63",
+          "title": {
+            "ko": "조작장치에 의해 직접 제어되는 EGR 밸브 (흡기 쓰로틀과 함께 작동하는 EGR 밸브 F02M 26/64)",
+            "en": "the EGR valve being directly controlled by an operator  (the EGR valve being operated together with an intake air throttle F02M0026640000)"
+          }
+        },
+        {
+          "code": "F02M 26/64",
+          "title": {
+            "ko": null,
+            "en": "the EGR valve being operated together with an intake air throttle"
+          }
+        },
+        {
+          "code": "F02M 26/65",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of EGR valves"
+          }
+        },
+        {
+          "code": "F02M 26/66",
+          "title": {
+            "ko": null,
+            "en": "Lift valves, e.g. poppet valves"
+          }
+        },
+        {
+          "code": "F02M 26/67",
+          "title": {
+            "ko": null,
+            "en": "Pintles; Spindles; Springs; Bearings; Sealings; Connections to actuators"
+          }
+        },
+        {
+          "code": "F02M 26/68",
+          "title": {
+            "ko": null,
+            "en": "Closing members; Valve seats; Flow passages"
+          }
+        },
+        {
+          "code": "F02M 26/69",
+          "title": {
+            "ko": null,
+            "en": "having two or more valve-closing members"
+          }
+        },
+        {
+          "code": "F02M 26/70",
+          "title": {
+            "ko": null,
+            "en": "Flap valves; Rotary valves; Sliding valves; Resilient valves"
+          }
+        },
+        {
+          "code": "F02M 26/71",
+          "title": {
+            "ko": null,
+            "en": "Multi-way valves"
+          }
+        },
+        {
+          "code": "F02M 26/72",
+          "title": {
+            "ko": null,
+            "en": "Housings"
+          }
+        },
+        {
+          "code": "F02M 26/73",
+          "title": {
+            "ko": null,
+            "en": "with means for heating or cooling the EGR valve"
+          }
+        },
+        {
+          "code": "F02M 26/74",
+          "title": {
+            "ko": null,
+            "en": "Protection from damage, e.g. shielding means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 27/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for treating combustion-air, fuel, or fuel-air mixture, by catalysts, electric means, magnetism, rays, sonic waves, or the like"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 27/02",
+          "title": {
+            "ko": null,
+            "en": "by catalysts"
+          }
+        },
+        {
+          "code": "F02M 27/04",
+          "title": {
+            "ko": null,
+            "en": "by electric means or magnetism"
+          }
+        },
+        {
+          "code": "F02M 27/06",
+          "title": {
+            "ko": null,
+            "en": "by rays"
+          }
+        },
+        {
+          "code": "F02M 27/08",
+          "title": {
+            "ko": null,
+            "en": "by sonic or ultrasonic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 29/00",
+      "title": {
+        "ko": "응축연료를 재미세화(re-atomising)하거나 또는 연료-공기 혼합기를 균질화 하는 장치(2차 공기의 공급과 조합된 것 F02M 23/12)",
+        "en": "Apparatus for re-atomising condensed fuel or homogenising fuel-air mixture (combined with secondary-air supply F02M0023120000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 29/02",
+          "title": {
+            "ko": null,
+            "en": "having rotary parts"
+          }
+        },
+        {
+          "code": "F02M 29/04",
+          "title": {
+            "ko": null,
+            "en": "having screens, gratings, baffles or the like"
+          }
+        },
+        {
+          "code": "F02M 29/06",
+          "title": {
+            "ko": null,
+            "en": "generating whirling motion of mixture"
+          }
+        },
+        {
+          "code": "F02M 29/08",
+          "title": {
+            "ko": null,
+            "en": "having spirally-wound wires"
+          }
+        },
+        {
+          "code": "F02M 29/10",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F02M 29/12",
+          "title": {
+            "ko": null,
+            "en": "having homogenising valves held open by mixture current"
+          }
+        },
+        {
+          "code": "F02M 29/14",
+          "title": {
+            "ko": null,
+            "en": "re-atomising or homogenising being effected by unevenness of internal surfaces of mixture intake"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 31/00",
+      "title": {
+        "ko": "연소공기, 연료 또는 연료-공기혼합기를 열처리하는 장치(연소공기, 연료 또는 연료-공기혼합물의 가열, 냉각 또는 열절연 수단을 가진 기화기 F02M15/00; 가열에 의한 비액체 연료의 증발장치 F02M21/06; 저융점 비가스 연료용 가열수단을 갖는 장치 F02M21/10; 연료-공기 혼합물에 고온의 2차 공기를 첨가하는 것을 특징으로하는 장치 F02M23/14; 가열, 냉각 또는 단열 수단을 갖는 것을 특징으로하는 연료 분사 장치 F02M53/00)",
+        "en": "Apparatus for thermally treating combustion-air, fuel, or fuel-air mixture (carburettors with heating, cooling or thermal insulating means for combustion-air, fuel or fuel-air mixture F02M0015000000;apparatus for de-liquefying non-liquid fuels by heating F02M0021060000;apparatus having heating means for non-gaseous fuels with low melting point F02M0021100000;  apparatus characterised by adding hot secondary air to fuel-air mixture F02M0023140000;  fuel-injection apparatus characterised by having heating, cooling or thermally-insulating means F02M0053000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 31/02",
+          "title": {
+            "ko": "가열용 (액체연료를 정화하기 위한 것 F02M37/30)",
+            "en": "for heating (for purifying liquid fuel F02M0037300000)"
+          }
+        },
+        {
+          "code": "F02M 31/04",
+          "title": {
+            "ko": "연소공기 또는 연료-공기혼합기(전기식 F02M 31/12; 동작실린더 또는 실린더헤드로 부터의 열을 이용하는 것 F02M 31/14; 기관시동의 보조로서 연소공기의 가열 F02N 19/04)",
+            "en": "combustion-air or fuel-air mixture (electrically F02M0031120000;by using heat from working cylinders or cylinder heads F02M0031140000;heating of combustion-air as an engine starting aid F02N0019040000)"
+          }
+        },
+        {
+          "code": "F02M 31/06",
+          "title": {
+            "ko": "가열가스식, 예. 냉 및 열공기를 혼합하는 것에 의한 것",
+            "en": "by hot gases, e.g. by mixing cold and hot air"
+          }
+        },
+        {
+          "code": "F02M 31/07",
+          "title": {
+            "ko": "온도-반응제어, 예 자동 온도조절 밸브를 이용하는 것 (열전달표면으로 향하는 배기가스 또는 연소 공기 양의 온도-반응제어 F02M 31/083)",
+            "en": "Temperature-responsive control, e.g. using thermostatically-controlled valves  (temperature-responsive control of the amount of exhaust gas or combustion air directed to the heat exchange surface F02M0031083000)"
+          }
+        },
+        {
+          "code": "F02M 31/08",
+          "title": {
+            "ko": null,
+            "en": "the gases being exhaust gases"
+          }
+        },
+        {
+          "code": "F02M 31/083",
+          "title": {
+            "ko": null,
+            "en": "Temperature-responsive control of the amount of exhaust gas or combustion air directed to the heat exchange surface"
+          }
+        },
+        {
+          "code": "F02M 31/087",
+          "title": {
+            "ko": null,
+            "en": "Heat-exchange arrangements between the air intake and exhaust gas passages, e.g. by means of contact between the passages"
+          }
+        },
+        {
+          "code": "F02M 31/093",
+          "title": {
+            "ko": null,
+            "en": "Air intake passage surrounding the exhaust gas passage; Exhaust gas passage surrounding the air intake passage"
+          }
+        },
+        {
+          "code": "F02M 31/10",
+          "title": {
+            "ko": null,
+            "en": "by hot liquids, e.g. lubricants"
+          }
+        },
+        {
+          "code": "F02M 31/12",
+          "title": {
+            "ko": null,
+            "en": "electrically"
+          }
+        },
+        {
+          "code": "F02M 31/125",
+          "title": {
+            "ko": null,
+            "en": "Fuel"
+          }
+        },
+        {
+          "code": "F02M 31/13",
+          "title": {
+            "ko": null,
+            "en": "Combustion air"
+          }
+        },
+        {
+          "code": "F02M 31/135",
+          "title": {
+            "ko": null,
+            "en": "Fuel-air mixture"
+          }
+        },
+        {
+          "code": "F02M 31/14",
+          "title": {
+            "ko": null,
+            "en": "by using heat from working cylinders or cylinder heads"
+          }
+        },
+        {
+          "code": "F02M 31/16",
+          "title": {
+            "ko": null,
+            "en": "Other apparatus for heating fuel"
+          }
+        },
+        {
+          "code": "F02M 31/18",
+          "title": {
+            "ko": null,
+            "en": "to vaporise fuel"
+          }
+        },
+        {
+          "code": "F02M 31/20",
+          "title": {
+            "ko": "냉각용 (급기 또는 소기의 냉각 F02B29/04)",
+            "en": "for cooling  (cooling of charging-air or of scavenging-air F02B0029040000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 33/00",
+      "title": {
+        "ko": "연소공기, 연료 또는 연료-공기혼합기를 처리하는 다른 장치 (연소공기 청정기 F02M 35/00; 액체연료를 정화하기 위한 장치 F02M 37/22)",
+        "en": "Other apparatus for treating combustion-air, fuel or fuel-air mixture (combustion-air cleaners F02M0035000000;arrangements for purifying liquid fuel F02M0037220000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 33/02",
+          "title": {
+            "ko": null,
+            "en": "for collecting and returning condensed fuel"
+          }
+        },
+        {
+          "code": "F02M 33/04",
+          "title": {
+            "ko": null,
+            "en": "returning to the intake passage"
+          }
+        },
+        {
+          "code": "F02M 33/06",
+          "title": {
+            "ko": null,
+            "en": "with simultaneous heat supply"
+          }
+        },
+        {
+          "code": "F02M 33/08",
+          "title": {
+            "ko": null,
+            "en": "returning to the fuel tank"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 35/00",
+      "title": {
+        "ko": "내연기관에 특히 적합하거나 또는 설치되는, 연소공기 청정기, 공기 취입구, 흡입측 소음기 또는 흡입계통",
+        "en": "Combustion-air cleaners, air intakes, intake silencers, or induction systems specially adapted for, or arranged on, internal-combustion engines"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 35/02",
+          "title": {
+            "ko": "공기청정기",
+            "en": "Air cleaners"
+          }
+        },
+        {
+          "code": "F02M 35/022",
+          "title": {
+            "ko": null,
+            "en": "acting by gravity, by centrifugal, or by other inertial forces, e.g. with moistened walls"
+          }
+        },
+        {
+          "code": "F02M 35/024",
+          "title": {
+            "ko": "필터를 사용하는 것, 예. 습식을 사용하는 것(F02M 35/026이 우선; 여과물의 세정 F02M 33/08)",
+            "en": "using filters, e.g. moistened (F02M0035026000 takes precedence;cleaning of the filtering material F02M0035080000)"
+          }
+        },
+        {
+          "code": "F02M 35/026",
+          "title": {
+            "ko": null,
+            "en": "acting by guiding the air over or through an oil or other liquid bath, e.g. combined with filters"
+          }
+        },
+        {
+          "code": "F02M 35/04",
+          "title": {
+            "ko": null,
+            "en": "specially arranged with respect to engine; Mounting thereon"
+          }
+        },
+        {
+          "code": "F02M 35/06",
+          "title": {
+            "ko": null,
+            "en": "combined or associated with engine's cooling blower or fan, or with flywheel"
+          }
+        },
+        {
+          "code": "F02M 35/08",
+          "title": {
+            "ko": null,
+            "en": "with means for removing dust from cleaners; with means for indicating clogging; with by-pass means"
+          }
+        },
+        {
+          "code": "F02M 35/09",
+          "title": {
+            "ko": null,
+            "en": "Clogging indicators"
+          }
+        },
+        {
+          "code": "F02M 35/10",
+          "title": {
+            "ko": null,
+            "en": "Air intakes; Induction systems"
+          }
+        },
+        {
+          "code": "F02M 35/104",
+          "title": {
+            "ko": null,
+            "en": "Intake manifolds"
+          }
+        },
+        {
+          "code": "F02M 35/108",
+          "title": {
+            "ko": null,
+            "en": "with primary and secondary intake passages"
+          }
+        },
+        {
+          "code": "F02M 35/112",
+          "title": {
+            "ko": null,
+            "en": "for engines with cylinders all in one line"
+          }
+        },
+        {
+          "code": "F02M 35/116",
+          "title": {
+            "ko": null,
+            "en": "for engines with cylinders in V-arrangement or arranged oppositely relative to the main shaft"
+          }
+        },
+        {
+          "code": "F02M 35/12",
+          "title": {
+            "ko": null,
+            "en": "Intake silencers"
+          }
+        },
+        {
+          "code": "F02M 35/14",
+          "title": {
+            "ko": null,
+            "en": "Combined air cleaners and silencers"
+          }
+        },
+        {
+          "code": "F02M 35/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by use in vehicles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 37/00",
+      "title": {
+        "ko": "저장용기로부터 기화기 또는 연료분사장치로 액체연료를 공급하는 장치 또는 시스템; 내연기관에 특히 적합하거나 배치된 액체연료를 정화하는 장치",
+        "en": "Apparatus or systems for feeding liquid fuel from storage containers to carburettors or fuel-injection apparatus; Arrangements for purifying liquid fuel specially adapted for, or arranged on, internal-combustion engines"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 37/02",
+          "title": {
+            "ko": "흡입장치에 있어서 연료를 공급하는 것 예. 기화기를 흐르는 공기에 의한 것(구동펌프에 의한 것 F02M 37/04)",
+            "en": "Feeding by means of suction apparatus, e.g. by air flow through carburettors (by driven pumps F02M0037040000)"
+          }
+        },
+        {
+          "code": "F02M 37/04",
+          "title": {
+            "ko": null,
+            "en": "Feeding by means of driven pumps"
+          }
+        },
+        {
+          "code": "F02M 37/06",
+          "title": {
+            "ko": null,
+            "en": "mechanically driven"
+          }
+        },
+        {
+          "code": "F02M 37/08",
+          "title": {
+            "ko": null,
+            "en": "electrically driven"
+          }
+        },
+        {
+          "code": "F02M 37/10",
+          "title": {
+            "ko": null,
+            "en": "submerged in fuel, e.g. in reservoir"
+          }
+        },
+        {
+          "code": "F02M 37/12",
+          "title": {
+            "ko": null,
+            "en": "fluid-driven, e.g. by compressed combustion-air"
+          }
+        },
+        {
+          "code": "F02M 37/14",
+          "title": {
+            "ko": null,
+            "en": "the pumps being combined with other apparatus"
+          }
+        },
+        {
+          "code": "F02M 37/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by provision of personally-, e.g. manually-, operated pumps"
+          }
+        },
+        {
+          "code": "F02M 37/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by provision of main and auxiliary pumps"
+          }
+        },
+        {
+          "code": "F02M 37/20",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for preventing vapour lock"
+          }
+        },
+        {
+          "code": "F02M 37/22",
+          "title": {
+            "ko": "내연기관에 특히 적합하거나 배치된 액체연료를 정화하는 장치, 예. 연료공급 시스템에 있는 장치",
+            "en": "Arrangements for purifying liquid fuel specially adapted for, or arranged on, internal-combustion engines, e.g. arrangements in the feeding system"
+          }
+        },
+        {
+          "code": "F02M 37/24",
+          "title": {
+            "ko": null,
+            "en": "characterised by water separating means"
+          }
+        },
+        {
+          "code": "F02M 37/26",
+          "title": {
+            "ko": null,
+            "en": "with water detection means"
+          }
+        },
+        {
+          "code": "F02M 37/28",
+          "title": {
+            "ko": null,
+            "en": "with means activated by the presence of water, e.g. alarms or means for automatic drainage"
+          }
+        },
+        {
+          "code": "F02M 37/30",
+          "title": {
+            "ko": null,
+            "en": "characterised by heating means"
+          }
+        },
+        {
+          "code": "F02M 37/32",
+          "title": {
+            "ko": null,
+            "en": "characterised by filters or filter arrangements"
+          }
+        },
+        {
+          "code": "F02M 37/34",
+          "title": {
+            "ko": null,
+            "en": "by the filter structure, e.g. honeycomb, mesh or fibrous"
+          }
+        },
+        {
+          "code": "F02M 37/36",
+          "title": {
+            "ko": null,
+            "en": "with bypass means"
+          }
+        },
+        {
+          "code": "F02M 37/38",
+          "title": {
+            "ko": null,
+            "en": "with regeneration means"
+          }
+        },
+        {
+          "code": "F02M 37/40",
+          "title": {
+            "ko": null,
+            "en": "with means for detection of clogging"
+          }
+        },
+        {
+          "code": "F02M 37/42",
+          "title": {
+            "ko": null,
+            "en": "Installation or removal of filters"
+          }
+        },
+        {
+          "code": "F02M 37/44",
+          "title": {
+            "ko": null,
+            "en": "Filters structurally associated with pumps"
+          }
+        },
+        {
+          "code": "F02M 37/46",
+          "title": {
+            "ko": null,
+            "en": "Filters structurally associated with pressure regulators"
+          }
+        },
+        {
+          "code": "F02M 37/48",
+          "title": {
+            "ko": null,
+            "en": "Filters structurally associated with fuel valves"
+          }
+        },
+        {
+          "code": "F02M 37/50",
+          "title": {
+            "ko": null,
+            "en": "Filters arranged in or on fuel tanks"
+          }
+        },
+        {
+          "code": "F02M 37/52",
+          "title": {
+            "ko": null,
+            "en": "using magnetic means"
+          }
+        },
+        {
+          "code": "F02M 37/54",
+          "title": {
+            "ko": "배기수단(air purging means)에 특징이 있는 것 (프라이밍 펌프가 구비된 것 F02M37/16)",
+            "en": "characterised by air purging means (having priming pumps F02M0037160000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 39/00",
+      "title": {
+        "ko": "엔진에 대한 연료 분사 장치의 배치; 이러한 장치에 적합한 펌프 구동 장치 (엔진 작동 실린더 내의 압력 또는 엔진 작동 피스톤의 충격에 의해 분사 펌프가 구동되거나 분사기가 작동되는 연료 분사 장치 F02M49/00; 인젝터의 배치 F02M61/14)",
+        "en": "Fuel-injection apparatus"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02M 39/00",
+      "title": {
+        "ko": "엔진에 대한 연료 분사 장치의 배치; 이러한 장치에 적합한 펌프 구동 장치 (엔진 작동 실린더 내의 압력 또는 엔진 작동 피스톤의 충격에 의해 분사 펌프가 구동되거나 분사기가 작동되는 연료 분사 장치 F02M49/00; 인젝터의 배치 F02M61/14)",
+        "en": "Arrangements of fuel-injection apparatus with respect to engines; Pump drives adapted to such arrangements (fuel-injection apparatus in which injection pumps are driven, or injectors are actuated, by the pressure in engine working cylinders, or by impact of engine working piston F02M0049000000;arrangements of injectors F02M0061140000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 39/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of fuel-injection apparatus to facilitate the driving of pumps; Arrangements of fuel-injection pumps; Pump drives"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 41/00",
+      "title": {
+        "ko": null,
+        "en": "Fuel-injection apparatus with two or more injectors fed from a common pressure-source sequentially by means of a distributor"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 41/02",
+          "title": {
+            "ko": null,
+            "en": "the distributor being spaced from pumping elements"
+          }
+        },
+        {
+          "code": "F02M 41/04",
+          "title": {
+            "ko": null,
+            "en": "the distributor reciprocating"
+          }
+        },
+        {
+          "code": "F02M 41/06",
+          "title": {
+            "ko": null,
+            "en": "the distributor rotating"
+          }
+        },
+        {
+          "code": "F02M 41/08",
+          "title": {
+            "ko": null,
+            "en": "the distributor and pumping elements being combined"
+          }
+        },
+        {
+          "code": "F02M 41/10",
+          "title": {
+            "ko": null,
+            "en": "pump pistons acting as the distributor"
+          }
+        },
+        {
+          "code": "F02M 41/12",
+          "title": {
+            "ko": null,
+            "en": "the pistons rotating to act as the distributor"
+          }
+        },
+        {
+          "code": "F02M 41/14",
+          "title": {
+            "ko": null,
+            "en": "rotary distributor supporting pump pistons"
+          }
+        },
+        {
+          "code": "F02M 41/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by the distributor being fed from a constant-pressure source, e.g. accumulator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 43/00",
+      "title": {
+        "ko": null,
+        "en": "Fuel-injection apparatus operating simultaneously on two or more fuels, or on a liquid fuel and another liquid, e.g. the other liquid being an anti-knock additive"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 43/02",
+          "title": {
+            "ko": null,
+            "en": "Pumps peculiar thereto"
+          }
+        },
+        {
+          "code": "F02M 43/04",
+          "title": {
+            "ko": null,
+            "en": "Injectors peculiar thereto"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 45/00",
+      "title": {
+        "ko": null,
+        "en": "Fuel-injection apparatus characterised by having a cyclic delivery of specific time/pressure or time/quantity relationship"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 45/02",
+          "title": {
+            "ko": null,
+            "en": "with each cyclic delivery being separated into two or more parts"
+          }
+        },
+        {
+          "code": "F02M 45/04",
+          "title": {
+            "ko": null,
+            "en": "with a small initial part"
+          }
+        },
+        {
+          "code": "F02M 45/06",
+          "title": {
+            "ko": null,
+            "en": "Pumps peculiar thereto"
+          }
+        },
+        {
+          "code": "F02M 45/08",
+          "title": {
+            "ko": null,
+            "en": "Injectors peculiar thereto"
+          }
+        },
+        {
+          "code": "F02M 45/10",
+          "title": {
+            "ko": null,
+            "en": "Other injectors with multiple-part delivery, e.g. with vibrating valves"
+          }
+        },
+        {
+          "code": "F02M 45/12",
+          "title": {
+            "ko": null,
+            "en": "providing a continuous delivery with variable pressure"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 47/00",
+      "title": {
+        "ko": "유체압력으로 조작되는 연료분사밸브를 가지고 주기적으로 작동하는 연료분사장치 (기관 작동 실린더의 압력에 의해서 작동되는 연료 분사 장치 F02M49/00)",
+        "en": "Fuel-injection apparatus operated cyclically with fuel-injection valves actuated by fluid pressure (fuel- injectors actuated by the pressure in engine working cylinders F02M0049000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 47/02",
+          "title": {
+            "ko": null,
+            "en": "of accumulator-injector type, i.e. having fuel pressure of accumulator tending to open, and fuel pressure in other chamber tending to close, injection valves, and having means for periodically releasing that closing pressure"
+          }
+        },
+        {
+          "code": "F02M 47/04",
+          "title": {
+            "ko": null,
+            "en": "using fluid, other than fuel, for injection-valve actuation"
+          }
+        },
+        {
+          "code": "F02M 47/06",
+          "title": {
+            "ko": null,
+            "en": "Other fuel injectors peculiar thereto"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 49/00",
+      "title": {
+        "ko": null,
+        "en": "Fuel-injection apparatus in which injection pumps are driven, or injectors are actuated, by the pressure in engine working cylinders, or by impact of engine working piston"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 49/02",
+          "title": {
+            "ko": null,
+            "en": "using the cylinder pressure, e.g. compression end pressure"
+          }
+        },
+        {
+          "code": "F02M 49/04",
+          "title": {
+            "ko": null,
+            "en": "using the piston impact"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 51/00",
+      "title": {
+        "ko": "전기적으로 작동하는 것을 특징으로 하는 연료분사장치",
+        "en": "Fuel-injection apparatus characterised by being operated electrically"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 51/02",
+          "title": {
+            "ko": "특히 저압연료분사용(펌프 자체 F02M 51/04; 인젝터 자체 F02M 51/08)",
+            "en": "specially for low-pressure fuel-injection (pumps per seF02M0051040000;injectors per seF02M0051080000)"
+          }
+        },
+        {
+          "code": "F02M 51/04",
+          "title": {
+            "ko": null,
+            "en": "Pumps peculiar thereto"
+          }
+        },
+        {
+          "code": "F02M 51/06",
+          "title": {
+            "ko": null,
+            "en": "Injectors peculiar thereto"
+          }
+        },
+        {
+          "code": "F02M 51/08",
+          "title": {
+            "ko": null,
+            "en": "specially for low-pressure fuel-injection"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 53/00",
+      "title": {
+        "ko": null,
+        "en": "Fuel-injection apparatus characterised by having heating, cooling, or thermally-insulating means"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 53/02",
+          "title": {
+            "ko": null,
+            "en": "with fuel-heating means, e.g. for vaporising"
+          }
+        },
+        {
+          "code": "F02M 53/04",
+          "title": {
+            "ko": null,
+            "en": "Injectors with heating, cooling, or thermally-insulating means"
+          }
+        },
+        {
+          "code": "F02M 53/06",
+          "title": {
+            "ko": null,
+            "en": "with fuel-heating means, e.g. for vaporising"
+          }
+        },
+        {
+          "code": "F02M 53/08",
+          "title": {
+            "ko": null,
+            "en": "with air cooling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 55/00",
+      "title": {
+        "ko": null,
+        "en": "Fuel-injection apparatus characterised by their fuel conduits or their venting means"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 55/02",
+          "title": {
+            "ko": null,
+            "en": "Conduits between injection pumps and injectors"
+          }
+        },
+        {
+          "code": "F02M 55/04",
+          "title": {
+            "ko": null,
+            "en": "Means for damping vibrations in injection-pump inlets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 57/00",
+      "title": {
+        "ko": null,
+        "en": "Fuel injectors combined or associated with other devices"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 57/02",
+          "title": {
+            "ko": null,
+            "en": "Injectors structurally combined with fuel-injection pumps"
+          }
+        },
+        {
+          "code": "F02M 57/04",
+          "title": {
+            "ko": null,
+            "en": "the devices being combustion-air intake or exhaust valves"
+          }
+        },
+        {
+          "code": "F02M 57/06",
+          "title": {
+            "ko": null,
+            "en": "the devices being sparking-plugs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 59/00",
+      "title": {
+        "ko": "연료분사에 특히 적합한 펌프로서 그룹 F02M39/00 ~ F02M57/00에 포함되지 않는 것",
+        "en": "Pumps specially adapted for fuel-injection and not provided for in groups F02M0039000000-F02M0057000000"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 59/02",
+          "title": {
+            "ko": null,
+            "en": "of reciprocating-piston type"
+          }
+        },
+        {
+          "code": "F02M 59/04",
+          "title": {
+            "ko": null,
+            "en": "characterised by special arrangement of cylinders with respect to piston-driving shaft, e.g. arranged parallel to that shaft"
+          }
+        },
+        {
+          "code": "F02M 59/06",
+          "title": {
+            "ko": null,
+            "en": "with cylinders arranged radially to driving shaft, e.g. in V- or star-arrangement"
+          }
+        },
+        {
+          "code": "F02M 59/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by two or more pumping elements with conjoint outlet"
+          }
+        },
+        {
+          "code": "F02M 59/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the piston drive"
+          }
+        },
+        {
+          "code": "F02M 59/12",
+          "title": {
+            "ko": null,
+            "en": "having other positive-displacement pumping elements, e.g. rotary"
+          }
+        },
+        {
+          "code": "F02M 59/14",
+          "title": {
+            "ko": null,
+            "en": "of elastic-wall type"
+          }
+        },
+        {
+          "code": "F02M 59/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by having multi-stage compression of fuel"
+          }
+        },
+        {
+          "code": "F02M 59/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by the pumping action being achieved through release of pre-compressed springs"
+          }
+        },
+        {
+          "code": "F02M 59/20",
+          "title": {
+            "ko": null,
+            "en": "Varying fuel delivery in quantity or timing"
+          }
+        },
+        {
+          "code": "F02M 59/22",
+          "title": {
+            "ko": null,
+            "en": "Varying quantity by adjusting cylinder-head space"
+          }
+        },
+        {
+          "code": "F02M 59/24",
+          "title": {
+            "ko": null,
+            "en": "with constant-length-stroke pistons having variable effective portion of stroke"
+          }
+        },
+        {
+          "code": "F02M 59/26",
+          "title": {
+            "ko": null,
+            "en": "caused by movements of pistons relative to their cylinders"
+          }
+        },
+        {
+          "code": "F02M 59/28",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms therefor"
+          }
+        },
+        {
+          "code": "F02M 59/30",
+          "title": {
+            "ko": null,
+            "en": "with variable-length-stroke pistons"
+          }
+        },
+        {
+          "code": "F02M 59/32",
+          "title": {
+            "ko": null,
+            "en": "fuel delivery being controlled by means of fuel-displaced auxiliary pistons, which effect injection"
+          }
+        },
+        {
+          "code": "F02M 59/34",
+          "title": {
+            "ko": null,
+            "en": "by throttling of passages to pumping elements or of overflow passages"
+          }
+        },
+        {
+          "code": "F02M 59/36",
+          "title": {
+            "ko": null,
+            "en": "by variably-timed valves controlling fuel passages"
+          }
+        },
+        {
+          "code": "F02M 59/38",
+          "title": {
+            "ko": null,
+            "en": "Pumps characterised by adaptations to special uses or conditions"
+          }
+        },
+        {
+          "code": "F02M 59/40",
+          "title": {
+            "ko": null,
+            "en": "for reversible engines"
+          }
+        },
+        {
+          "code": "F02M 59/42",
+          "title": {
+            "ko": null,
+            "en": "for starting of engines"
+          }
+        },
+        {
+          "code": "F02M 59/44",
+          "title": {
+            "ko": "그룹 59/02에서 59/42의 장치로 분류되지 않거나 또는 무관계한 세부, 구성요소부품 또는 부속품",
+            "en": "Details, component parts, or accessories not provided for in, or of interest apart from, the apparatus of groups F02M0059020000-F02M0059420000"
+          }
+        },
+        {
+          "code": "F02M 59/46",
+          "title": {
+            "ko": null,
+            "en": "Valves"
+          }
+        },
+        {
+          "code": "F02M 59/48",
+          "title": {
+            "ko": null,
+            "en": "Assembling; Disassembling; Replacing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 61/00",
+      "title": {
+        "ko": "그룹 F02M 39/00-F02M 57/00 또는 F02M 67/00으로 분류되지 않은 연료인젝터",
+        "en": "Fuel injectors not provided for in groups F02M0039000000-F02M0057000000 or F02M0067000000"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 61/02",
+          "title": {
+            "ko": null,
+            "en": "of valveless type"
+          }
+        },
+        {
+          "code": "F02M 61/04",
+          "title": {
+            "ko": null,
+            "en": "having valves"
+          }
+        },
+        {
+          "code": "F02M 61/06",
+          "title": {
+            "ko": null,
+            "en": "the valves being furnished at seated ends with pintle- or plug-shaped extensions"
+          }
+        },
+        {
+          "code": "F02M 61/08",
+          "title": {
+            "ko": null,
+            "en": "the valves opening in direction of fuel flow"
+          }
+        },
+        {
+          "code": "F02M 61/10",
+          "title": {
+            "ko": null,
+            "en": "Other injectors with elongated valve bodies, i.e. of needle-valve type"
+          }
+        },
+        {
+          "code": "F02M 61/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by the provision of guiding or centring means for valve bodies"
+          }
+        },
+        {
+          "code": "F02M 61/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of injectors with respect to engines; Mounting of injectors"
+          }
+        },
+        {
+          "code": "F02M 61/16",
+          "title": {
+            "ko": "그룹 61/02에서 61/14의 장치로 분류되지 않은 세부",
+            "en": "Details not provided for in, or of interest apart from, the apparatus of groups F02M0061020000-F02M0061140000"
+          }
+        },
+        {
+          "code": "F02M 61/18",
+          "title": {
+            "ko": null,
+            "en": "Injection nozzles, e.g. having valve-seats"
+          }
+        },
+        {
+          "code": "F02M 61/20",
+          "title": {
+            "ko": null,
+            "en": "Closing valves mechanically, e.g. arrangements of springs or weights"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 63/00",
+      "title": {
+        "ko": "그룹 F02M 39/00-F02M 57/00 또는 F02M 67/00으로 분류되지 않은 적절한 특성을 가진 타의 연료분사장치; 그룹 F02M 39/00-F02M 61/00 또는 F02M 67/00으로 분류되지 않은 연료분사장치의 세부, 구성요소부품 또는 부속품",
+        "en": "Other fuel-injection apparatus having pertinent characteristics not provided for in groups F02M0039000000-F02M0057000000 or F02M0067000000; Details, component parts or accessories of fuel-injection apparatus, not provided for in, or of interest apart from, the apparatus of groups F02M0039000000-F02M0061000000 or F02M0067000000"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 63/02",
+          "title": {
+            "ko": null,
+            "en": "Fuel-injection apparatus having several injectors fed by a common pumping element, or having several pumping elements feeding a common injector; Fuel-injection apparatus having provisions for cutting-out pumps, pumping elements, or injectors; Fuel-injection apparatus having provisions for variably interconnecting pumping elements and injectors alternatively"
+          }
+        },
+        {
+          "code": "F02M 63/04",
+          "title": {
+            "ko": null,
+            "en": "Fuel-injection apparatus having injection valves held closed by a cyclically-operated mechanism for a time and automatically opened by fuel pressure, e.g. of constant-pressure pump or accumulator, when that mechanism releases the valve"
+          }
+        },
+        {
+          "code": "F02M 63/06",
+          "title": {
+            "ko": null,
+            "en": "Use of pressure wave generated by fuel inertia to open injection valves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 65/00",
+      "title": {
+        "ko": null,
+        "en": "Testing fuel-injection apparatus, e.g. testing injection timing"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02M 67/00",
+      "title": {
+        "ko": "연료분사가 기관의 작동실린더에 연료를 도입하는 고압가스에 의해 이루어지는 장치, 예. 공기분사형(저압연료분사장치용에 압축공기를 사용하는 것 F02M 69/08)",
+        "en": "Apparatus in which fuel-injection is effected by means of high-pressure gas, the gas carrying the fuel into working cylinders of the engine, e.g. air-injection type (using compressed air for low-pressure fuel-injection apparatus F02M0069080000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 67/02",
+          "title": {
+            "ko": null,
+            "en": "the gas being compressed air, e.g. compressed in pumps"
+          }
+        },
+        {
+          "code": "F02M 67/04",
+          "title": {
+            "ko": null,
+            "en": "the air being extracted from working cylinders of the engine"
+          }
+        },
+        {
+          "code": "F02M 67/06",
+          "title": {
+            "ko": null,
+            "en": "the gas being other than air, e.g. steam, combustion gas"
+          }
+        },
+        {
+          "code": "F02M 67/08",
+          "title": {
+            "ko": null,
+            "en": "the gas being generated by combustion of part of fuel other than in engine working cylinders"
+          }
+        },
+        {
+          "code": "F02M 67/10",
+          "title": {
+            "ko": null,
+            "en": "Injectors peculiar thereto, e.g. of valveless type"
+          }
+        },
+        {
+          "code": "F02M 67/12",
+          "title": {
+            "ko": null,
+            "en": "having valves"
+          }
+        },
+        {
+          "code": "F02M 67/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by provisions for injecting different fuels, e.g. main fuel and readily self-igniting starting-fuel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 69/00",
+      "title": {
+        "ko": "저압 연료분사 장치",
+        "en": "Low-pressure fuel-injection apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 69/02",
+          "title": {
+            "ko": null,
+            "en": "Pumps peculiar thereto"
+          }
+        },
+        {
+          "code": "F02M 69/04",
+          "title": {
+            "ko": null,
+            "en": "Injectors peculiar thereto"
+          }
+        },
+        {
+          "code": "F02M 69/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by the pressurisation of the fuel being caused by centrifugal force acting on the fuel"
+          }
+        },
+        {
+          "code": "F02M 69/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by the fuel being carried by compressed air into main stream of combustion-air"
+          }
+        },
+        {
+          "code": "F02M 69/10",
+          "title": {
+            "ko": null,
+            "en": "peculiar to scavenged two-stroke engines, e.g. injecting into crankcase-pump chamber"
+          }
+        },
+        {
+          "code": "F02M 69/12",
+          "title": {
+            "ko": null,
+            "en": "comprising a fuel-displaced free piston for intermittently metering and supplying fuel to injection nozzles"
+          }
+        },
+        {
+          "code": "F02M 69/14",
+          "title": {
+            "ko": null,
+            "en": "having cyclically-operated valves connecting injection nozzles to a source of fuel under pressure during the injection period"
+          }
+        },
+        {
+          "code": "F02M 69/16",
+          "title": {
+            "ko": "인젝터에 연속적인 연료류를 계량하기 위한 수단, 혹은 인젝터의 상류의 연료압력을 바꾸기 위한 수단에 의하여 특징지워진것",
+            "en": "characterised by means for metering continuous fuel flow to injectors or means for varying fuel pressure upstream of injectors"
+          }
+        },
+        {
+          "code": "F02M 69/18",
+          "title": {
+            "ko": "그 수단이 인젝터에의 연료통로를 교축하는 계량밸브(meterig valves) 혹은 도관에 오버플로우하여 교축하는 바이패스밸브인 것으로서 계량밸브는 엔진 작동 파라미터, 예. 엔진부하, 스피드, 온도, 공기량, 에 응동하는 장치에 의하여 동작되는 것 (연료 바이패스 통로에서의 압력, 또는 분사 노즐로의 연료흐름을 가변적으로 조절하기 위해서 계량 또는 교축된 연료 압력에 대응해서 스로틀 밸브에 작용하는 압력을 변경하는 수단 F02M69/26)",
+            "en": "the means being metering valves throttling fuel passages to injectors or by-pass valves throttling overflow passages, the metering valves being actuated by a device responsive to the engine working parameters, e.g. engine load, speed, temperature or quantity of air  (the means varying fuel pressure in a fuel by-pass passage, the pressure acting on a throttle valve against the action of metered or throttled fuel pressure for variably throttling fuel flow to injection nozzles F02M0069260000)"
+          }
+        },
+        {
+          "code": "F02M 69/20",
+          "title": {
+            "ko": "그 장치가 서보모터인 것, 예. 엔진의 흡기공기의 압력 혹은 진공을 사용하는 것 (공기 흡입 도관에 이동 가능하게 장착되어, 엔진에 유입되는 공기양에 따라서 이동되는 부재를 포함하는 작동 장치 F02M69/22)",
+            "en": "the device being a servo-motor, e.g. using engine intake air pressure or vacuum  (the actuating device comprising a member movably mounted in the air intake conduit and displaced according to the quantity of air admitted to the engine F02M0069220000)"
+          }
+        },
+        {
+          "code": "F02M 69/22",
+          "title": {
+            "ko": null,
+            "en": "the device comprising a member movably mounted in the air intake conduit and displaced according to the quantity of air admitted to the engine"
+          }
+        },
+        {
+          "code": "F02M 69/24",
+          "title": {
+            "ko": null,
+            "en": "the device comprising a member for transmitting the movement of the air throttle valve actuated by the operator to the valves controlling fuel passages"
+          }
+        },
+        {
+          "code": "F02M 69/26",
+          "title": {
+            "ko": null,
+            "en": "the means varying fuel pressure in a fuel by-pass passage, the pressure acting on a throttle valve against the action of metered or throttled fuel pressure for variably throttling fuel flow to injection nozzles, e.g. to keep constant the pressure differential at the metering valve"
+          }
+        },
+        {
+          "code": "F02M 69/28",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for cutting-out the fuel supply to the engine or to main injectors during certain operating periods, e.g. deceleration"
+          }
+        },
+        {
+          "code": "F02M 69/30",
+          "title": {
+            "ko": "기관의 시동 또는 아이들링을 촉진하기 위한 수단 혹은 급기를 농후하게 하기 위한 수단에 특징이 있는 것, 예. 작동 온도 이하 또는 엔진의 고출력 요구시",
+            "en": "characterised by means for facilitating the starting-up or idling of engines or by means for enriching fuel charge, e.g. below operational temperatures or upon high power demand of engines"
+          }
+        },
+        {
+          "code": "F02M 69/32",
+          "title": {
+            "ko": null,
+            "en": "with an air by-pass around the air throttle valve or with an auxiliary air passage, e.g. with a variably controlled valve therein"
+          }
+        },
+        {
+          "code": "F02M 69/34",
+          "title": {
+            "ko": null,
+            "en": "with an auxiliary fuel circuit supplying fuel to the engine, e.g. with the fuel pump outlet being directly connected to the injection nozzles"
+          }
+        },
+        {
+          "code": "F02M 69/36",
+          "title": {
+            "ko": "인젝터에 연료흐름을 변경하여 농축화 하는 구조를 갖는 것, 예. 연료계량장치에 있어서, 또는 분사노즐의 연료통로가 넘침통로를 교축하고 있는 밸브에서 작동하는 것에 의한 것",
+            "en": "having an enrichment mechanism modifying fuel flow to injectors, e.g. by acting on the fuel metering device or on the valves throttling fuel passages to injection nozzles or overflow passages"
+          }
+        },
+        {
+          "code": "F02M 69/38",
+          "title": {
+            "ko": "연료압력을 사용하는 것, 예. 연료계량장치의 제어실내의 연료압력을 바꾸는 것",
+            "en": "using fuel pressure, e.g. by varying fuel pressure in the control chambers of the fuel metering device  (the means varying fuel pressure in a fuel by-pass passage, the pressure acting on a throttle valve against the action of metered or throttled fuel pressure for variably throttling fuel flow to injection nozzles F02M0069260000)"
+          }
+        },
+        {
+          "code": "F02M 69/40",
+          "title": {
+            "ko": null,
+            "en": "using variably controlled air pressure, e.g. by modifying the intake air vacuum signal acting on the fuel metering device"
+          }
+        },
+        {
+          "code": "F02M 69/42",
+          "title": {
+            "ko": null,
+            "en": "using other means than variable fluid pressure, e.g. acting on the fuel metering device mechanically or electrically"
+          }
+        },
+        {
+          "code": "F02M 69/44",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for supplying extra fuel to the engine on sudden air throttle opening, e.g at acceleration"
+          }
+        },
+        {
+          "code": "F02M 69/46",
+          "title": {
+            "ko": "분류되지 않은 또는 관계없는 세부 또는 부속품, 69/02부터 69/44 의 클래스 속하는 장치,",
+            "en": "Details, component parts or accessories not provided for in, or of interest apart from, the apparatus covered by groups F02M0069020000-F02M0069440000"
+          }
+        },
+        {
+          "code": "F02M 69/48",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of air sensors"
+          }
+        },
+        {
+          "code": "F02M 69/50",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of fuel distributors"
+          }
+        },
+        {
+          "code": "F02M 69/52",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of fuel metering devices"
+          }
+        },
+        {
+          "code": "F02M 69/54",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of fuel pressure regulators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 71/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of carburettors and low-pressure fuel-injection apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "F02M 71/02",
+          "title": {
+            "ko": null,
+            "en": "with fuel-air mixture being produced by the carburettor and being compressed by a pump for subsequent injection into main combustion-air"
+          }
+        },
+        {
+          "code": "F02M 71/04",
+          "title": {
+            "ko": null,
+            "en": "with carburettor being used at starting or idling only and injection apparatus being used during normal operation of engine"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02M 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

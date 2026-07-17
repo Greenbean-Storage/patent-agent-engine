@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "description": "P02.R12.DRAWING_ORCHESTRATION 의 마지막 step — 도면 작업 최종 결과 + IOM 갱신 결정.",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["success", "partial", "failed"],
+      "description": "도면 작업 결과. partial 은 일부 도면 fail 후 max_retry 도달."
+    },
+    "drawing_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "최종 저장된 도면 수."
+    },
+    "failing_drawings": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "검수 실패 또는 렌더 실패 도면 ID list."
+    },
+    "iom_drawings_patch": {
+      "type": "object",
+      "description": "IOM.drawings 섹션의 patch (status=success/partial 인 경우만)."
+    },
+    "dispatch_choice": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "0=도면 작업 완료 → director (P02.R00) 재호출, 1=재시도 (self-recursion, max 2)."
+    }
+  },
+  "required": ["status", "drawing_count", "dispatch_choice"]
+}

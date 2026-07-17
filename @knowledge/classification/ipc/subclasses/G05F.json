@@ -1,0 +1,601 @@
+{
+  "subclass": "G05F",
+  "title": {
+    "ko": "전기 또는 자기 변수 조절 시스템",
+    "en": "SYSTEMS FOR REGULATING ELECTRIC OR MAGNETIC VARIABLES"
+  },
+  "definition": {
+    "ko": "(1) 이 서브클래스는 다음의 것을 포함한다. - 계에 한정 - 조정량을 복원하는 장치의 전기적 특성을 변화시키기 위한 수압식, 공기식, 기계적, 전기적 모터의 사용 - 본질적인 특징이 정지형 변환기와 전류 또는 전압조정기와의 조합에 있는 경우 (2) 이 서브클래스는 요소 그 자체를 포함하지 않고, 단지 이것은 관련하는 서브클래스에 포함된다",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G05F 1/00",
+      "title": {
+        "ko": "전기량의 단일 또는 복수의 소망 값으로부터의 편차를 시스템의 출력부에서 검출하고 시스템내의 장치에 피드백하고, 이것에 의하여 검출량을 단일 또는 복수의 소망치로 복원하는 자동제어시스템, 즉 반작용시스템",
+        "en": "Automatic systems in which deviations of an electric quantity from one or more predetermined values are detected at the output of the system and fed back to a device within the system to restore the detected quantity to its predetermined value or values, i.e. retroactive systems"
+      },
+      "subgroups": [
+        {
+          "code": "G05F 1/02",
+          "title": {
+            "ko": null,
+            "en": "Regulating electric characteristics of arcs"
+          }
+        },
+        {
+          "code": "G05F 1/04",
+          "title": {
+            "ko": null,
+            "en": "by means of saturable magnetic devices"
+          }
+        },
+        {
+          "code": "G05F 1/06",
+          "title": {
+            "ko": null,
+            "en": "by means of discharge tubes"
+          }
+        },
+        {
+          "code": "G05F 1/08",
+          "title": {
+            "ko": null,
+            "en": "by means of semiconductor devices"
+          }
+        },
+        {
+          "code": "G05F 1/10",
+          "title": {
+            "ko": "전압 또는 전류 조절 (G05F1/02가 우선)",
+            "en": "Regulating voltage or current (G05F0001020000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05F 1/12",
+          "title": {
+            "ko": "최종제어장치에 의해 실제로 조정된 변량이 교류인 것 (G05F1/625가 우선)",
+            "en": "wherein the variable is actually regulated by the final control device is AC (G05F0001625000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05F 1/13",
+          "title": {
+            "ko": null,
+            "en": "using ferroresonant transformers as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/14",
+          "title": {
+            "ko": null,
+            "en": "using tap transformers or tap changing inductors as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/147",
+          "title": {
+            "ko": null,
+            "en": "with motor driven tap switch"
+          }
+        },
+        {
+          "code": "G05F 1/153",
+          "title": {
+            "ko": null,
+            "en": "controlled by discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "G05F 1/16",
+          "title": {
+            "ko": null,
+            "en": "combined with discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "G05F 1/20",
+          "title": {
+            "ko": null,
+            "en": "semiconductor devices only"
+          }
+        },
+        {
+          "code": "G05F 1/22",
+          "title": {
+            "ko": null,
+            "en": "combined with separate magnetic control devices having a controllable degree of saturation"
+          }
+        },
+        {
+          "code": "G05F 1/24",
+          "title": {
+            "ko": "최종제어장치로서 강압 또는 승압 변압기를 사용하는 것",
+            "en": "using bucking or boosting transformers as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/247",
+          "title": {
+            "ko": null,
+            "en": "with motor in control circuit"
+          }
+        },
+        {
+          "code": "G05F 1/253",
+          "title": {
+            "ko": "전원과 부하사이에 직렬의 복수 권선을 포함하는 변압기(G05F 1/247이 우선)",
+            "en": "the transformers including plural windings in series between source and load (G05F0001247000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05F 1/26",
+          "title": {
+            "ko": null,
+            "en": "combined with discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "G05F 1/30",
+          "title": {
+            "ko": null,
+            "en": "semiconductor devices only"
+          }
+        },
+        {
+          "code": "G05F 1/32",
+          "title": {
+            "ko": null,
+            "en": "using magnetic devices having a controllable degree of saturation as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/325",
+          "title": {
+            "ko": null,
+            "en": "with specific core structure, e.g. gap, aperture, slot, permanent magnet"
+          }
+        },
+        {
+          "code": "G05F 1/33",
+          "title": {
+            "ko": null,
+            "en": "with plural windings through which current to be controlled is conducted"
+          }
+        },
+        {
+          "code": "G05F 1/335",
+          "title": {
+            "ko": null,
+            "en": "on different cores"
+          }
+        },
+        {
+          "code": "G05F 1/34",
+          "title": {
+            "ko": null,
+            "en": "combined with discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "G05F 1/38",
+          "title": {
+            "ko": null,
+            "en": "semiconductor devices only"
+          }
+        },
+        {
+          "code": "G05F 1/40",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes or semiconductor devices as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/42",
+          "title": {
+            "ko": null,
+            "en": "discharge tubes only"
+          }
+        },
+        {
+          "code": "G05F 1/44",
+          "title": {
+            "ko": null,
+            "en": "semiconductor devices only"
+          }
+        },
+        {
+          "code": "G05F 1/445",
+          "title": {
+            "ko": null,
+            "en": "being transistors in series with the load"
+          }
+        },
+        {
+          "code": "G05F 1/45",
+          "title": {
+            "ko": null,
+            "en": "being controlled rectifiers in series with the load"
+          }
+        },
+        {
+          "code": "G05F 1/455",
+          "title": {
+            "ko": null,
+            "en": "with phase control"
+          }
+        },
+        {
+          "code": "G05F 1/46",
+          "title": {
+            "ko": "최종 제어장치에 의해 실제로 조정되는 변량이 직류인 것 (G05F1/625가 우선)",
+            "en": "wherein the variable actually regulated by the final control device is DC (G05F0001625000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05F 1/52",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes in series with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/54",
+          "title": {
+            "ko": null,
+            "en": "additionally controlled by the unregulated supply"
+          }
+        },
+        {
+          "code": "G05F 1/56",
+          "title": {
+            "ko": "최종제어장치로서 부하와 직렬로 반도체장치를 사용하는 것",
+            "en": "using semiconductor devices in series with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/563",
+          "title": {
+            "ko": null,
+            "en": "including two stages of regulation, at least one of which is output level responsive, e.g. coarse and fine regulation"
+          }
+        },
+        {
+          "code": "G05F 1/565",
+          "title": {
+            "ko": "출력, 예. 전류, 전압, 역률의 편차에 응답하는 수단에 부가하여 제어장치 또는 부하의 상태를 검지하는 것 (G05F1/563이 우선)",
+            "en": "sensing a condition of the system or its load in addition to means responsive to deviations in the output of the system, e.g. current, voltage, power factor (G05F0001563000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05F 1/567",
+          "title": {
+            "ko": null,
+            "en": "for temperature compensation"
+          }
+        },
+        {
+          "code": "G05F 1/569",
+          "title": {
+            "ko": null,
+            "en": "for protection"
+          }
+        },
+        {
+          "code": "G05F 1/571",
+          "title": {
+            "ko": null,
+            "en": "with overvoltage detector"
+          }
+        },
+        {
+          "code": "G05F 1/573",
+          "title": {
+            "ko": null,
+            "en": "with overcurrent detector"
+          }
+        },
+        {
+          "code": "G05F 1/575",
+          "title": {
+            "ko": null,
+            "en": "characterised by the feedback circuit"
+          }
+        },
+        {
+          "code": "G05F 1/577",
+          "title": {
+            "ko": null,
+            "en": "for plural loads"
+          }
+        },
+        {
+          "code": "G05F 1/585",
+          "title": {
+            "ko": null,
+            "en": "providing voltages of opposite polarities"
+          }
+        },
+        {
+          "code": "G05F 1/59",
+          "title": {
+            "ko": null,
+            "en": "including plural semiconductor devices as final control devices for a single load"
+          }
+        },
+        {
+          "code": "G05F 1/595",
+          "title": {
+            "ko": null,
+            "en": "semiconductor devices connected in series"
+          }
+        },
+        {
+          "code": "G05F 1/607",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes in parallel with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/61",
+          "title": {
+            "ko": null,
+            "en": "including two stages of regulation, at least one of which is output level responsive"
+          }
+        },
+        {
+          "code": "G05F 1/613",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices in parallel with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/614",
+          "title": {
+            "ko": null,
+            "en": "including two stages of regulation, at least one of which is output level responsive"
+          }
+        },
+        {
+          "code": "G05F 1/618",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices in series and in parallel with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/62",
+          "title": {
+            "ko": null,
+            "en": "using bucking or boosting DC sources"
+          }
+        },
+        {
+          "code": "G05F 1/625",
+          "title": {
+            "ko": null,
+            "en": "wherein it is irrelevant whether the variable actually regulated is AC or DC"
+          }
+        },
+        {
+          "code": "G05F 1/63",
+          "title": {
+            "ko": null,
+            "en": "using variable impedances in series with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/635",
+          "title": {
+            "ko": null,
+            "en": "being Hall effect devices, magnetoresistors or thermistors"
+          }
+        },
+        {
+          "code": "G05F 1/644",
+          "title": {
+            "ko": null,
+            "en": "being pressure-sensitive resistors"
+          }
+        },
+        {
+          "code": "G05F 1/648",
+          "title": {
+            "ko": null,
+            "en": "being plural resistors among which a selection is made"
+          }
+        },
+        {
+          "code": "G05F 1/652",
+          "title": {
+            "ko": null,
+            "en": "using variable impedances in parallel with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/656",
+          "title": {
+            "ko": null,
+            "en": "using variable impedances in series and in parallel with the load as final control devices"
+          }
+        },
+        {
+          "code": "G05F 1/66",
+          "title": {
+            "ko": null,
+            "en": "Regulating electric power"
+          }
+        },
+        {
+          "code": "G05F 1/67",
+          "title": {
+            "ko": null,
+            "en": "to the maximum power available from a generator, e.g. from solar cell"
+          }
+        },
+        {
+          "code": "G05F 1/70",
+          "title": {
+            "ko": null,
+            "en": "Regulating power factor; Regulating reactive current or power"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05F 3/00",
+      "title": {
+        "ko": "자기조정특성을 갖는 하나의 비제어소자 또는 복수의 소자로 된 조합으로 자기조정특성을 갖는 것에 의하여 전기량을 조정하는 비반작용계",
+        "en": "Non-retroactive systems for regulating electric variables by using an uncontrolled element, or an uncontrolled combination of elements, such element or such combination having self-regulating properties"
+      },
+      "subgroups": [
+        {
+          "code": "G05F 3/02",
+          "title": {
+            "ko": "전류 또는 전압의 조정",
+            "en": "Regulating voltage or current"
+          }
+        },
+        {
+          "code": "G05F 3/04",
+          "title": {
+            "ko": "변수가 교류인 것",
+            "en": "wherein the variable is AC"
+          }
+        },
+        {
+          "code": "G05F 3/06",
+          "title": {
+            "ko": "포화 및 비포화의 인덕터 장치를 조합하여 사용하는 것, 예. 공진회로와 조합되어 있는 것",
+            "en": "using combinations of saturated and unsaturated inductive devices, e g. combined with resonant circuit"
+          }
+        },
+        {
+          "code": "G05F 3/08",
+          "title": {
+            "ko": "변수가 직류인 것",
+            "en": "wherein the variable is DC"
+          }
+        },
+        {
+          "code": "G05F 3/10",
+          "title": {
+            "ko": "비선형 특성을 지닌 비제어소자를 사용하는 것",
+            "en": "using uncontrolled devices with non-linear characteristics"
+          }
+        },
+        {
+          "code": "G05F 3/12",
+          "title": {
+            "ko": null,
+            "en": "being glow discharge tubes"
+          }
+        },
+        {
+          "code": "G05F 3/16",
+          "title": {
+            "ko": "반도체장치인 것",
+            "en": "being semiconductor devices"
+          }
+        },
+        {
+          "code": "G05F 3/18",
+          "title": {
+            "ko": null,
+            "en": "using Zener diodes"
+          }
+        },
+        {
+          "code": "G05F 3/20",
+          "title": {
+            "ko": "다이오드 트랜지스터 조합을 사용하는 것(G05F 3/18이 우선)",
+            "en": "using diode-transistor combinations (G05F0003180000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05F 3/22",
+          "title": {
+            "ko": "트랜지스터는 쌍방향성형(biporar) 뿐인 것(G05F 3/26, G05F 3/30이 우선)",
+            "en": "wherein the transistors are of the bipolar type only (G05F0003260000, G05F0003300000 take precedence)"
+          }
+        },
+        {
+          "code": "G05F 3/24",
+          "title": {
+            "ko": "트랜지스터는 전계효과형뿐인 것(G05F 3/26, G05F 3/30이 우선)",
+            "en": "wherein the transistors are of the field-effect type only (G05F0003260000, G05F0003300000 take precedence)"
+          }
+        },
+        {
+          "code": "G05F 3/26",
+          "title": {
+            "ko": null,
+            "en": "Current mirrors"
+          }
+        },
+        {
+          "code": "G05F 3/28",
+          "title": {
+            "ko": null,
+            "en": "combined with a non-linear current amplifier"
+          }
+        },
+        {
+          "code": "G05F 3/30",
+          "title": {
+            "ko": "다른 전류밀도로 작동하는 2개의 쌍극성 트랜지스터의 베이스-에미터 전압간의 차를 이용하는 조정기(G05F 3/26이 우선)",
+            "en": "Regulators using the difference between the base-emitter voltages of two bipolar transistors operating at different current densities (G05F0003260000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05F 5/00",
+      "title": {
+        "ko": null,
+        "en": "Systems for regulating electric variables by detecting deviations in the electric input to the system and thereby controlling a device within the system to obtain a regulated output"
+      },
+      "subgroups": [
+        {
+          "code": "G05F 5/02",
+          "title": {
+            "ko": null,
+            "en": "Phase controlled switching using electronic tubes or three or more terminal semiconductive devices"
+          }
+        },
+        {
+          "code": "G05F 5/04",
+          "title": {
+            "ko": null,
+            "en": "using a transformer or inductor as the final control device"
+          }
+        },
+        {
+          "code": "G05F 5/06",
+          "title": {
+            "ko": null,
+            "en": "saturable"
+          }
+        },
+        {
+          "code": "G05F 5/08",
+          "title": {
+            "ko": null,
+            "en": "using a linearly acting final control device"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05F 7/00",
+      "title": {
+        "ko": null,
+        "en": "Regulating magnetic variables"
+      },
+      "subgroups": []
+    }
+  ]
+}

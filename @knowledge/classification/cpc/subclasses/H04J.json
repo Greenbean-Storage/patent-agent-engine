@@ -1,0 +1,344 @@
+{
+  "subclass": "H04J",
+  "title": {
+    "ko": null,
+    "en": "MULTIPLEX COMMUNICATION (transmission in general H04B; peculiar to transmission of digital information H04L5/00; systems for the simultaneous or sequential transmission of more than one television signal H04N7/08; in exchanges H04Q11/00; stereophonic systems H04S)"
+  },
+  "groups": [
+    {
+      "code": "H04J 1/00",
+      "title": {
+        "ko": null,
+        "en": "Frequency-division multiplex systems (H04J14/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H04J 1/18",
+          "title": {
+            "ko": null,
+            "en": "in which all the carriers are amplitude-modulated (H04J1/02 takes precedence {in telephony H04Q11/02, H04Q11/023; in stereophony H04H; in telegraphy H04L5/06; in telemetry G08C15/02, G08C15/04})"
+          }
+        },
+        {
+          "code": "H04J 1/20",
+          "title": {
+            "ko": null,
+            "en": "in which at least one carrier is angle-modulated (H04J1/02 takes precedence; FM without multiplex H04B1/00, H04B14/006, H04B15/00; PSK H04L5/12; impulse-modulation without multiplex H04B14/02; time-division multiplexing for data transmission H04L5/22; telemetry G08C15/06 - G08C15/12; telephony H04Q11/00, H04Q11/04, H04Q11/0407)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 3/00",
+      "title": {
+        "ko": null,
+        "en": "Time-division multiplex systems (H04J14/00 takes precedence; relay systems H04B7/14; selecting techniques H04Q)"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details (electronic switching or gating H03K17/00)"
+          }
+        },
+        {
+          "code": "H04J 3/16",
+          "title": {
+            "ko": null,
+            "en": "in which the time allocation to individual channels within a transmission cycle is variable, e.g. to accommodate varying complexity of signals, to vary number of channels transmitted (H04J3/17, H04J3/24 take precedence)"
+          }
+        },
+        {
+          "code": "H04J 3/17",
+          "title": {
+            "ko": null,
+            "en": "in which the transmission channel allotted to a first user may be taken away and re-allotted to a second user if the first user becomes inactive, e.g. TASI {(speech analysis or identification G10L)}"
+          }
+        },
+        {
+          "code": "H04J 3/18",
+          "title": {
+            "ko": null,
+            "en": "using frequency compression and subsequent expansion of the individual signals"
+          }
+        },
+        {
+          "code": "H04J 3/20",
+          "title": {
+            "ko": null,
+            "en": "using resonant transfer"
+          }
+        },
+        {
+          "code": "H04J 3/22",
+          "title": {
+            "ko": null,
+            "en": "in which the sources have different rates or codes {(simultaneous speech and digital data or video transmission H04M11/06; see provisional also H04J3/16)}"
+          }
+        },
+        {
+          "code": "H04J 3/24",
+          "title": {
+            "ko": null,
+            "en": "in which the allocation is indicated by an address {the different channels being transmitted sequentially}(H04J3/17 takes precedence; in computers G06F12/00, G06F13/00 {code multiplex systems H04J13/00; selecting techniques H04Q; relay systems H04B7/14})"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 4/00",
+      "title": {
+        "ko": null,
+        "en": "Combined time-division and frequency-division multiplex systems (H04J13/00 takes precedence {; data transmission H04L5/26; telemetry G08C15/00})"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 4/005",
+          "title": {
+            "ko": null,
+            "en": "{Transmultiplexing}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 7/00",
+      "title": {
+        "ko": null,
+        "en": "Multiplex systems in which the amplitudes or durations of the signals in individual channels are characteristic of those channels"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 7/02",
+          "title": {
+            "ko": null,
+            "en": "in which the polarity of the amplitude is characteristic"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 9/00",
+      "title": {
+        "ko": null,
+        "en": "Multiplex systems in which each channel is represented by a different type of modulation of the carrier"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04J 11/00",
+      "title": {
+        "ko": null,
+        "en": "Orthogonal multiplex systems, {e.g. using WALSH codes}(H04J13/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 2011/0003",
+          "title": {
+            "ko": null,
+            "en": "{Combination with other multiplexing techniques}"
+          }
+        },
+        {
+          "code": "H04J 11/0023",
+          "title": {
+            "ko": null,
+            "en": "{Interference mitigation or co-ordination (direct sequence spread spectrum [DSSS] systems H04B1/7097; frequency hopping H04B1/713; allocation criteria for ingress interference avoidance H04L5/0062; frequency allocation criteria for requirements on out-of-channel emissions H04L5/0066; arrangements for removing intersymbol interference or baseband equalisers H04L25/03006; peak power aspects in multicarrier modulation H04L27/2614; power management H04W52/00; traffic scheduling H04W72/54, H04W72/541)}"
+          }
+        },
+        {
+          "code": "H04J 11/0069",
+          "title": {
+            "ko": null,
+            "en": "{Cell search, i.e. determining cell identity [cell-ID] (design of multiplexing codes H04J13/00; processing access restriction or access information H04W48/16; discovery of network devices for network data management H04W8/005; sounding signals for channel estimation H04L25/0226; structure of reference signals in multicarrier modulation systems H04L27/2613; frame, time or carrier synchronisation in multicarrier modulation systems H04L27/2655)}"
+          }
+        },
+        {
+          "code": "H04J 2011/0096",
+          "title": {
+            "ko": null,
+            "en": "{Network synchronisation}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 13/00",
+      "title": {
+        "ko": null,
+        "en": "Code division multiplex systems (for frequency hopping H04B1/713)"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 13/0003",
+          "title": {
+            "ko": null,
+            "en": "{Code application, i.e. aspects relating to how codes are applied to form multiplexed channels}"
+          }
+        },
+        {
+          "code": "H04J 13/0007",
+          "title": {
+            "ko": null,
+            "en": "{Code type}"
+          }
+        },
+        {
+          "code": "H04J 13/0074",
+          "title": {
+            "ko": null,
+            "en": "{Code shifting or hopping}"
+          }
+        },
+        {
+          "code": "H04J 13/0077",
+          "title": {
+            "ko": null,
+            "en": "{Multicode, e.g. multiple codes assigned to one user}"
+          }
+        },
+        {
+          "code": "H04J 2013/0096",
+          "title": {
+            "ko": null,
+            "en": "{Network synchronisation}"
+          }
+        },
+        {
+          "code": "H04J 13/10",
+          "title": {
+            "ko": null,
+            "en": "Code generation"
+          }
+        },
+        {
+          "code": "H04J 13/16",
+          "title": {
+            "ko": null,
+            "en": "Code allocation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 14/00",
+      "title": {
+        "ko": null,
+        "en": "Optical multiplex systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 14/002",
+          "title": {
+            "ko": null,
+            "en": "{Coherencemultiplexing}"
+          }
+        },
+        {
+          "code": "H04J 14/005",
+          "title": {
+            "ko": null,
+            "en": "{Optical Code Multiplex}"
+          }
+        },
+        {
+          "code": "H04J 14/02",
+          "title": {
+            "ko": null,
+            "en": "Wavelength-division multiplex systems"
+          }
+        },
+        {
+          "code": "H04J 14/04",
+          "title": {
+            "ko": null,
+            "en": "Mode multiplex systems"
+          }
+        },
+        {
+          "code": "H04J 14/05",
+          "title": {
+            "ko": null,
+            "en": "{Spatial multiplexing systems}"
+          }
+        },
+        {
+          "code": "H04J 14/06",
+          "title": {
+            "ko": null,
+            "en": "Polarisation multiplex systems"
+          }
+        },
+        {
+          "code": "H04J 14/07",
+          "title": {
+            "ko": null,
+            "en": "{Orbital angular momentum [OAM] multiplex systems}"
+          }
+        },
+        {
+          "code": "H04J 14/08",
+          "title": {
+            "ko": null,
+            "en": "Time-division multiplex systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04J 2203/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of optical multiplex systems other than those covered by H04J14/05 and H04J14/07"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 2203/0001",
+          "title": {
+            "ko": null,
+            "en": "Provisions for broadband connections in integrated services digital network using frames of the Optical Transport Network [OTN] or using synchronous transfer mode [STM], e.g. SONET, SDH"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 2211/00",
+      "title": {
+        "ko": null,
+        "en": "Orthogonal indexing scheme relating to orthogonal multiplex systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 2211/001",
+          "title": {
+            "ko": null,
+            "en": "using small cells within macro cells, e.g. femto, pico or microcells"
+          }
+        },
+        {
+          "code": "H04J 2211/003",
+          "title": {
+            "ko": null,
+            "en": "within particular systems or standards"
+          }
+        }
+      ]
+    }
+  ]
+}

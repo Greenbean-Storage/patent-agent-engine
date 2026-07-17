@@ -1,0 +1,200 @@
+{
+  "subclass": "G21D",
+  "title": {
+    "ko": "원자력 발전소",
+    "en": "NUCLEAR POWER PLANT"
+  },
+  "groups": [
+    {
+      "code": "G21D 1/00",
+      "title": {
+        "ko": "원자력 발전소의 세부구조(제어 3/00)",
+        "en": "Details of nuclear power plant (control G21D0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G21D 1/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of auxiliary equipment"
+          }
+        },
+        {
+          "code": "G21D 1/04",
+          "title": {
+            "ko": "펌프(pump)계의 구성(원자로 압력용기내의 수단에 의한 것 G21G 15/24)",
+            "en": "Pumping arrangements (by means within the reactor pressure vessel G21C0015240000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21D 3/00",
+      "title": {
+        "ko": "원자력 발전소의 제어(원자핵반응의 제어 G21C 7/00)",
+        "en": "Control of nuclear power plant (control of nuclear reaction G21C0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G21D 3/02",
+          "title": {
+            "ko": null,
+            "en": "Manual control"
+          }
+        },
+        {
+          "code": "G21D 3/04",
+          "title": {
+            "ko": "안전장치(원자로의 긴급방호 G21C 9/00)",
+            "en": "Safety arrangements (emergency protection of reactor G21C0009000000)"
+          }
+        },
+        {
+          "code": "G21D 3/06",
+          "title": {
+            "ko": "발전소내의 사고에 감응하는 것(원자로내의 사고에 감응하는 것 G21C 9/02)",
+            "en": "responsive to faults within the plant (in the reactor G21C0009020000)"
+          }
+        },
+        {
+          "code": "G21D 3/08",
+          "title": {
+            "ko": null,
+            "en": "Regulation of any parameters in the plant"
+          }
+        },
+        {
+          "code": "G21D 3/10",
+          "title": {
+            "ko": null,
+            "en": "by a combination of a variable derived from neutron flux with other controlling variables, e.g. derived from temperature, cooling flow, pressure"
+          }
+        },
+        {
+          "code": "G21D 3/12",
+          "title": {
+            "ko": null,
+            "en": "by adjustment of the reactor in response only to changes in engine demand"
+          }
+        },
+        {
+          "code": "G21D 3/14",
+          "title": {
+            "ko": null,
+            "en": "Varying flow of coolant"
+          }
+        },
+        {
+          "code": "G21D 3/16",
+          "title": {
+            "ko": null,
+            "en": "Varying reactivity"
+          }
+        },
+        {
+          "code": "G21D 3/18",
+          "title": {
+            "ko": null,
+            "en": "by adjustment of plant external to the reactor only in response to change in reactivity"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements of reactor and engine in which reactor-produced heat is converted into mechanical energy"
+      },
+      "subgroups": [
+        {
+          "code": "G21D 5/02",
+          "title": {
+            "ko": null,
+            "en": "Reactor and engine structurally combined, e.g. portable"
+          }
+        },
+        {
+          "code": "G21D 5/04",
+          "title": {
+            "ko": null,
+            "en": "Reactor and engine not structurally combined"
+          }
+        },
+        {
+          "code": "G21D 5/06",
+          "title": {
+            "ko": null,
+            "en": "with engine working medium circulating through reactor core"
+          }
+        },
+        {
+          "code": "G21D 5/08",
+          "title": {
+            "ko": null,
+            "en": "with engine working medium heated in a heat exchanger by the reactor coolant"
+          }
+        },
+        {
+          "code": "G21D 5/10",
+          "title": {
+            "ko": null,
+            "en": "Liquid working medium partially heated by reactor and vaporised by heat source external to the core, e.g. with oil heating"
+          }
+        },
+        {
+          "code": "G21D 5/12",
+          "title": {
+            "ko": null,
+            "en": "Liquid working medium vaporised by reactor coolant"
+          }
+        },
+        {
+          "code": "G21D 5/14",
+          "title": {
+            "ko": null,
+            "en": "and also superheated by reactor coolant"
+          }
+        },
+        {
+          "code": "G21D 5/16",
+          "title": {
+            "ko": null,
+            "en": "superheated by separate heat source"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21D 7/00",
+      "title": {
+        "ko": "핵융합 또는 핵분열반응에서 직접발전을 하기 위한 구성(방사선원에서 전기에너지를 얻는 것 G21H 1/00)",
+        "en": "Arrangements for direct production of electric energy from fusion or fission reactions (obtaining electric energy from radioactive sources G21H0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G21D 7/02",
+          "title": {
+            "ko": null,
+            "en": "using magneto-hydrodynamic generators"
+          }
+        },
+        {
+          "code": "G21D 7/04",
+          "title": {
+            "ko": "열전소자를 사용하는 것(연료와 열전소자와의 구조상 의 결합 G21C 3/40)",
+            "en": "using thermoelectric elements (structural combination of fuel element with thermoelectric element G21C0003400000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements to provide heat for purposes other than conversion into power, e.g. for heating buildings"
+      },
+      "subgroups": []
+    }
+  ]
+}

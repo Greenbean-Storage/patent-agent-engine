@@ -1,0 +1,63 @@
+{
+  "description": "P01 Buddy 단일 chain — 사용자 대화 응대원. (step 0) Gemini multimodal 로 발화 + media + conversation + IOM 1차 분석 → intent/IOM 완성도/가드레일 special_case/응답 가이드라인 산출. (step 1) 가이드라인 + persona_prompt + 가드레일 fragments 적용해 친근 응답 작성 (internal_analysis 는 meta 로만 보존, content 에 노출 X). (step 2) cm.append_conversation 으로 assistant turn 누적. self-contained 종료. P02 Director 는 별도 chain 으로 conversation 보고 자체 IOM patch.",
+  "common": {
+    "inject_context": {
+      "conversation": "cm://conversation"
+    },
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      []
+    ]
+  },
+  "steps": [
+    {
+      "description": "assess — Gemini multimodal 로 사용자 발화 + media (image/document/audio) + conversation + IOM 종합 1차 분석. 의도 분류 + IOM 완성도 + 가드레일 special_case 판정 + 다음 compose step 의 응답 가이드라인 산출. 사용자에게 보여지는 응답은 절대 작성하지 않음 (다음 step 의 책임).",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/01.buddy/P01.R00/assess.md"
+      },
+      "llm_tools": [],
+      "output_contract": "chat-assess-output",
+      "display_status": {
+        "ko": "메시지를 살펴보고 있어요",
+        "en": "Reading your message…"
+      }
+    },
+    {
+      "description": "compose — step 0 의 assessment + persona_prompt + fragments 적용해 사용자에게 보여줄 친근 응답 작성. special_case 별 응대 패턴 강제. internal_analysis 는 meta 로만 보존, content 에 절대 노출 X.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/01.buddy/P01.R00/compose.md"
+      },
+      "llm_tools": [],
+      "output_contract": "chat-compose-output",
+      "display_status": {
+        "ko": "답장을 준비하고 있어요",
+        "en": "Composing a reply…"
+      }
+    },
+    {
+      "description": "save — compose step 의 assistant_turn 을 conversation.json 에 append. self-contained 종료. P02 가 별도 chain 으로 conversation 보고 알아서 IOM patch.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "cm.append_conversation",
+      "params": {
+        "message": "$.steps.1.assistant_turn"
+      },
+      "output_contract": "append-conversation-output",
+      "display_status": {
+        "ko": "대화를 정리하고 있어요",
+        "en": "Saving the conversation…"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5402 @@
+{
+  "subclass": "C08F",
+  "title": {
+    "ko": "탄소-탄소 불포화 결합만이 관여하는 반응으로 얻어지는 고분자 화합물(저급 탄화수소로부터 액체 탄화수소 혼합물의 제조, 예. 올리고머화에 의한 것, C10G 50/00; 발효 또는 효소를 사용하여 원하는 화학 화합물 또는 조성물을 합성하는 방법 또는 혼합물로부터 광학이성체를 분리하는 방법 C12P; 섬유 또는 실, 사, 직물 또는 그러한 물질로 만들어진 섬유제품 상에 탄소-탄소 불포화결합을 포함하는 단량체 중합을 융합하는 것 D06M 14/00)",
+    "en": "MACROMOLECULAR COMPOUNDS OBTAINED BY REACTIONS ONLY INVOLVING CARBON-TO-CARBON UNSATURATED BONDS (production of liquid hydrocarbon mixtures from lower carbon number hydrocarbons, e.g. by oligomerisation, C10G0050000000;fermentation or enzyme-using processes to synthesise a desired chemical compound or composition or to separate optical isomers from a racemic mixture C12P;graft polymerisation of monomers containing carbon-to-carbon unsaturated bonds on to fibres, threads, yarns, fabrics or fibrous goods made from such materials D06M0014000000)"
+  },
+  "definition": {
+    "ko": "중합방법; 촉매 C08F2/00; 4/00 중합후의 처리; 화학적 변성 C08F6/00; 8/00 단 하나의 탄소-탄소 이중결합을 함유하는 1개 이상의 불포화지방족 기를 갖는 화합물의 호모중합체 및 공중합체 C08F10/00 ~ C08F30/00 호모중합체 C08F110/00 ~ C08F130/00 공중합체 C08F210/00 ~ C08F230/00 측쇄에 불포화 지방족기를 갖지 않고 환내에 1개이상의 탄소-탄소 이중결합을 갖는 환식화합물의 호모중합체 및 공중합체 C08F32/00, C08F34/00 호모중합체 C08F132/00, C08F134/00 공중합체 C08F232/00, C08F234/00 하나 이상의 불포화지방족기를 갖고 그것의 적어도 하나가 둘이상의 탄소-탄소이중결합을 함유하는 화합물의 호모중합체 또는 공중합체 C08F36/00 호모중합체 C08F136/00 공중합체 C08F236/00 하나 이상의 탄소-탄소 3중 결합을 갖는 화합물의 호모중합체 또는 공중합체 C08F38/00 호모중합체 C08F138/00 공중합체 C08F238/00 탄화수소와 광물유의 공중합체 C08F240/00 건성유와 다른 단량체의 공중합체 C08F242/00 쿠마론(COUMARONE) -인덴(INDENE) 공중합체 C08F244/00 소량 첨가되는 단량체만의 특성이 확인되는 공중합체 C08F246/00 그래프트 중합체; 불포화 단량체로 가교화 (CROSS LINK)된 중합체 C08F251/00 ~ C08F292/00 블록(BLOCK) 중합체 C08F293/00 ~ C08F297/00 비고분자 단량체의 부재하에서 탄소-탄소 불포화 결합 반응만이 관여하는 고분자의 상호반응에 의하여 얻어지는 고분자 화합물 C08F299/00 이 서브클래스의 다른 그룹으로 분류되지 않는 주제 사항 C08F` 301/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "C08F 2/00",
+      "title": {
+        "ko": "중합 방법",
+        "en": "Processes; Catalysts"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 2/00",
+      "title": {
+        "ko": "중합 방법",
+        "en": "Processes of polymerisation"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 2/01",
+          "title": {
+            "ko": null,
+            "en": "characterised by special features of the polymerisation apparatus used"
+          }
+        },
+        {
+          "code": "C08F 2/02",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation in bulk"
+          }
+        },
+        {
+          "code": "C08F 2/04",
+          "title": {
+            "ko": "용액 중합(C08F 2/32가 우선)",
+            "en": "Polymerisation in solution (C08F0002320000 takes precedence)"
+          }
+        },
+        {
+          "code": "C08F 2/06",
+          "title": {
+            "ko": null,
+            "en": "Organic solvent"
+          }
+        },
+        {
+          "code": "C08F 2/08",
+          "title": {
+            "ko": null,
+            "en": "with the aid of dispersing agents for the polymer"
+          }
+        },
+        {
+          "code": "C08F 2/10",
+          "title": {
+            "ko": null,
+            "en": "Aqueous solvent"
+          }
+        },
+        {
+          "code": "C08F 2/12",
+          "title": {
+            "ko": "용매를 사용치 않는 중합(C08F 2/32가 우선)",
+            "en": "Polymerisation in non-solvents (C08F0002320000 takes precedence)"
+          }
+        },
+        {
+          "code": "C08F 2/14",
+          "title": {
+            "ko": null,
+            "en": "Organic medium"
+          }
+        },
+        {
+          "code": "C08F 2/16",
+          "title": {
+            "ko": null,
+            "en": "Aqueous medium"
+          }
+        },
+        {
+          "code": "C08F 2/18",
+          "title": {
+            "ko": null,
+            "en": "Suspension polymerisation"
+          }
+        },
+        {
+          "code": "C08F 2/20",
+          "title": {
+            "ko": null,
+            "en": "with the aid of macromolecular dispersing agents"
+          }
+        },
+        {
+          "code": "C08F 2/22",
+          "title": {
+            "ko": null,
+            "en": "Emulsion polymerisation"
+          }
+        },
+        {
+          "code": "C08F 2/24",
+          "title": {
+            "ko": null,
+            "en": "with the aid of emulsifying agents"
+          }
+        },
+        {
+          "code": "C08F 2/26",
+          "title": {
+            "ko": null,
+            "en": "anionic"
+          }
+        },
+        {
+          "code": "C08F 2/28",
+          "title": {
+            "ko": null,
+            "en": "cationic"
+          }
+        },
+        {
+          "code": "C08F 2/30",
+          "title": {
+            "ko": null,
+            "en": "non-ionic"
+          }
+        },
+        {
+          "code": "C08F 2/32",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation in water-in-oil emulsions"
+          }
+        },
+        {
+          "code": "C08F 2/34",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation in gaseous state"
+          }
+        },
+        {
+          "code": "C08F 2/36",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation in solid state"
+          }
+        },
+        {
+          "code": "C08F 2/38",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation using regulators, e.g. chain terminating agents"
+          }
+        },
+        {
+          "code": "C08F 2/40",
+          "title": {
+            "ko": null,
+            "en": "using retarding agents"
+          }
+        },
+        {
+          "code": "C08F 2/42",
+          "title": {
+            "ko": null,
+            "en": "using short-stopping agents"
+          }
+        },
+        {
+          "code": "C08F 2/44",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation in the presence of compounding ingredients, e.g. plasticisers, dyestuffs, fillers"
+          }
+        },
+        {
+          "code": "C08F 2/46",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation initiated by wave energy or particle radiation"
+          }
+        },
+        {
+          "code": "C08F 2/48",
+          "title": {
+            "ko": null,
+            "en": "by ultraviolet or visible light"
+          }
+        },
+        {
+          "code": "C08F 2/50",
+          "title": {
+            "ko": null,
+            "en": "with sensitising agents"
+          }
+        },
+        {
+          "code": "C08F 2/52",
+          "title": {
+            "ko": null,
+            "en": "by electric discharge, e.g. voltolisation"
+          }
+        },
+        {
+          "code": "C08F 2/54",
+          "title": {
+            "ko": null,
+            "en": "by X-rays or electrons"
+          }
+        },
+        {
+          "code": "C08F 2/56",
+          "title": {
+            "ko": null,
+            "en": "by ultrasonic vibrations"
+          }
+        },
+        {
+          "code": "C08F 2/58",
+          "title": {
+            "ko": "전류를 직접 작용시키는 것에 의하여 개시되는 중합(전해법 예. 전기 영동 C25)",
+            "en": "Polymerisation initiated by direct application of electric current (electrolytic processes, e.g. electrophoresis, C25)"
+          }
+        },
+        {
+          "code": "C08F 2/60",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation by the diene synthesis"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 4/00",
+      "title": {
+        "ko": "중합 촉매",
+        "en": "Polymerisation catalysts"
+      },
+      "definition": {
+        "ko": "그룹 C08F4/04 ~ C08F4/42에 분류하는 경우, 담체(carrier)가 특히 중요하다면, C08F4/02에도 분류할 수 있다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "C08F 4/02",
+          "title": {
+            "ko": null,
+            "en": "Carriers therefor"
+          }
+        },
+        {
+          "code": "C08F 4/04",
+          "title": {
+            "ko": null,
+            "en": "Azo-compounds"
+          }
+        },
+        {
+          "code": "C08F 4/06",
+          "title": {
+            "ko": null,
+            "en": "Metallic compounds other than hydrides and other than metallo-organic compounds; Boron halide or aluminium halide complexes with organic compounds containing oxygen"
+          }
+        },
+        {
+          "code": "C08F 4/08",
+          "title": {
+            "ko": null,
+            "en": "of alkali metals"
+          }
+        },
+        {
+          "code": "C08F 4/10",
+          "title": {
+            "ko": null,
+            "en": "of alkaline earth metals, zinc, cadmium, mercury, copper, or silver"
+          }
+        },
+        {
+          "code": "C08F 4/12",
+          "title": {
+            "ko": null,
+            "en": "of boron, aluminium, gallium, indium, thallium, or rare earths"
+          }
+        },
+        {
+          "code": "C08F 4/14",
+          "title": {
+            "ko": null,
+            "en": "Boron halides or aluminium halides; Complexes thereof with organic compounds containing oxygen"
+          }
+        },
+        {
+          "code": "C08F 4/16",
+          "title": {
+            "ko": null,
+            "en": "of silicon, germanium, tin, lead, titanium, zirconium or hafnium"
+          }
+        },
+        {
+          "code": "C08F 4/18",
+          "title": {
+            "ko": null,
+            "en": "Oxides"
+          }
+        },
+        {
+          "code": "C08F 4/20",
+          "title": {
+            "ko": null,
+            "en": "of antimony, bismuth, vanadium, niobium, or tantalum"
+          }
+        },
+        {
+          "code": "C08F 4/22",
+          "title": {
+            "ko": null,
+            "en": "of chromium, molybdenum, or tungsten"
+          }
+        },
+        {
+          "code": "C08F 4/24",
+          "title": {
+            "ko": null,
+            "en": "Oxides"
+          }
+        },
+        {
+          "code": "C08F 4/26",
+          "title": {
+            "ko": null,
+            "en": "of manganese, iron group metals, or platinum group metals"
+          }
+        },
+        {
+          "code": "C08F 4/28",
+          "title": {
+            "ko": "산소 또는 유리 산소를 발생하는 화합물(산화-환원계 redox system) C08F 4/40)",
+            "en": "Oxygen or compounds releasing free oxygen (redox systems C08F0004400000)"
+          }
+        },
+        {
+          "code": "C08F 4/30",
+          "title": {
+            "ko": null,
+            "en": "Inorganic compounds"
+          }
+        },
+        {
+          "code": "C08F 4/32",
+          "title": {
+            "ko": null,
+            "en": "Organic compounds"
+          }
+        },
+        {
+          "code": "C08F 4/34",
+          "title": {
+            "ko": null,
+            "en": "Per-compounds with one peroxy-radical"
+          }
+        },
+        {
+          "code": "C08F 4/36",
+          "title": {
+            "ko": null,
+            "en": "Per-compounds with more than one peroxy-radical"
+          }
+        },
+        {
+          "code": "C08F 4/38",
+          "title": {
+            "ko": null,
+            "en": "Mixtures of peroxy-compounds"
+          }
+        },
+        {
+          "code": "C08F 4/40",
+          "title": {
+            "ko": null,
+            "en": "Redox systems"
+          }
+        },
+        {
+          "code": "C08F 4/42",
+          "title": {
+            "ko": "금속; 금속 수소화물; 유기 금속 화합물; 그들의 촉매 전구체로서의 사용",
+            "en": "Metals; Metal hydrides; Metallo-organic compounds; Use thereof as catalyst precursors"
+          }
+        },
+        {
+          "code": "C08F 4/44",
+          "title": {
+            "ko": "경금속, 아연, 카드뮴, 수은, 구리, 은, 금, 붕소, 갈륨, 인듐, 탈륨, 희토류 또는 악티늄족에서 선택된 것",
+            "en": "selected from light metals, zinc, cadmium, mercury, copper, silver, gold, boron, gallium, indium, thallium, rare earths, or actinides"
+          }
+        },
+        {
+          "code": "C08F 4/46",
+          "title": {
+            "ko": null,
+            "en": "selected from alkali metals"
+          }
+        },
+        {
+          "code": "C08F 4/48",
+          "title": {
+            "ko": null,
+            "en": "selected from lithium, rubidium, caesium, or francium"
+          }
+        },
+        {
+          "code": "C08F 4/50",
+          "title": {
+            "ko": null,
+            "en": "selected from alkaline earth metals, zinc, cadmium, mercury, copper, or silver"
+          }
+        },
+        {
+          "code": "C08F 4/52",
+          "title": {
+            "ko": "붕소, 알루미늄, 갈륨, 인듐, 탈륨 또는 희토류 금속으로부터 선택된 것(C08F 4/14가 우선)",
+            "en": "selected from boron, aluminium, gallium, indium, thallium, or rare earths (C08F0004140000 takes precedence)"
+          }
+        },
+        {
+          "code": "C08F 4/54",
+          "title": {
+            "ko": null,
+            "en": "together with other compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/56",
+          "title": {
+            "ko": null,
+            "en": "Alkali metals being the only metals present, e.g. Alfin catalysts"
+          }
+        },
+        {
+          "code": "C08F 4/58",
+          "title": {
+            "ko": null,
+            "en": "together with silicon, germanium, tin, lead, antimony, bismuth, or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/60",
+          "title": {
+            "ko": "내열성 금속, 철족 금속, 백금족 금속, 망간, 테크네튬, 레륨 또는 그들의 혼합물과 함께 사용하는 것",
+            "en": "together with refractory metals, iron group metals, platinum group metals, manganese, technetium, rhenium, or compounds thereof"
+          },
+          "definition": {
+            "ko": "그룹 C0F 4/602 - C0F 4/62에서, 다음 용어는 지시된 의미로 사용된다: ㆍ \"성분\"은 전처리 되거나 되지 않은, 전이 금속 또는 그 화합물을 포함한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "C08F 4/602",
+          "title": {
+            "ko": "그룹 C08F 4/60에 포함된 성분과 유기 알루미늄 화합물을 함께 사용하는 것",
+            "en": "Component covered by group C08F0004600000 with an organo-aluminium compound"
+          }
+        },
+        {
+          "code": "C08F 4/603",
+          "title": {
+            "ko": "그룹 C08F 4/60에 포함된 성분과 유기 알루미늄이 아닌 그룹 C08F 4/44에 포함된 금속 또는 화합물을 함께 사용하는 것",
+            "en": "Component covered by group C08F0004600000 with a metal or compound covered by group C08F0004440000 other than an organo-aluminium compound"
+          }
+        },
+        {
+          "code": "C08F 4/605",
+          "title": {
+            "ko": "그룹 C08F 4/60에 포함된 성분과 그룹 C08F 4/602 또는 C08F 4/603중의 어느 한 그룹에도 포함되지 않는 그룹 C08F 4/44에 포함된 금속 또는 화합물",
+            "en": "Component covered by group C08F0004600000 with a metal or compound covered by group C08F0004440000, not provided for in a single group of groups C08F0004602000 or C08F0004603000"
+          }
+        },
+        {
+          "code": "C08F 4/606",
+          "title": {
+            "ko": "그룹 C08F 4/60에 포함된 성분 및 금속 형태 또는 그의 화합물의 상태에 있는 적어도 두 개의 다른 금속으로 구성된 촉매",
+            "en": "Catalysts comprising at least two different metals, in metallic form or as compounds thereof, in addition to the component covered by group C08F0004600000"
+          }
+        },
+        {
+          "code": "C08F 4/607",
+          "title": {
+            "ko": null,
+            "en": "Catalysts containing a specific non-metal or metal-free compound"
+          }
+        },
+        {
+          "code": "C08F 4/608",
+          "title": {
+            "ko": null,
+            "en": "inorganic"
+          }
+        },
+        {
+          "code": "C08F 4/609",
+          "title": {
+            "ko": null,
+            "en": "organic"
+          }
+        },
+        {
+          "code": "C08F 4/61",
+          "title": {
+            "ko": "그룹 C08F 4/44에 포함된 금속 또는 화합물과의 마지막 접촉을 시키기 전에 그룹 C08F 4/60에 포함된 금속 또는 화합물의 전처리",
+            "en": "Pretreating the metal or compound covered by group C08F0004600000 before the final contacting with the metal or compound covered by group C08F0004440000"
+          }
+        },
+        {
+          "code": "C08F 4/611",
+          "title": {
+            "ko": null,
+            "en": "Pretreating with non-metals or metal-free compounds"
+          }
+        },
+        {
+          "code": "C08F 4/612",
+          "title": {
+            "ko": "금속 또는 금속 함유 화합물로 전처리",
+            "en": "Pretreating with metals or metal-containing compounds"
+          }
+        },
+        {
+          "code": "C08F 4/613",
+          "title": {
+            "ko": "그룹 C08F 4/60에 포함된 금속 또는 그들의 화합물로 전처리",
+            "en": "with metals covered by group C08F0004600000 or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/614",
+          "title": {
+            "ko": null,
+            "en": "with magnesium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/615",
+          "title": {
+            "ko": null,
+            "en": "with aluminium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/616",
+          "title": {
+            "ko": null,
+            "en": "with silicon or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/617",
+          "title": {
+            "ko": "그룹 C08F 4/613 ～ C08F 4/616에 포함되지 않는 금속 또는 금속 함유 화합물로 전처리",
+            "en": "with metals or metal-containing compounds, not provided for in groups C08F0004613000-C08F0004616000"
+          }
+        },
+        {
+          "code": "C08F 4/618",
+          "title": {
+            "ko": "그룹 C08F 4/613 ～ C08F 4/617 중 적어도 두 군데에 포함되는 금속 또는 금속 함유 화합물로의 전처리",
+            "en": "with metals or metal-containing compounds, provided for in at least two of the groups C08F0004613000-C08F0004617000"
+          }
+        },
+        {
+          "code": "C08F 4/619",
+          "title": {
+            "ko": "전이 금속-탄소 결합을 포함한 그룹 C08F 4/60에 포함 되는 성분",
+            "en": "Component covered by group C08F0004600000 containing a transition metal-carbon bond"
+          }
+        },
+        {
+          "code": "C08F 4/6192",
+          "title": {
+            "ko": null,
+            "en": "containing at least one cyclopentadienyl ring, condensed or not, e.g. an indenyl or a fluorenyl ring"
+          }
+        },
+        {
+          "code": "C08F 4/62",
+          "title": {
+            "ko": "내열성 금속 또는 그의 화합물",
+            "en": "Refractory metals or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/622",
+          "title": {
+            "ko": "유기 알루미늄 화합물과 그룹 C08F 4/62에 포함된 성분",
+            "en": "Component covered by group C08F0004620000 with an organo-aluminium compound"
+          }
+        },
+        {
+          "code": "C08F 4/623",
+          "title": {
+            "ko": "유기 알루미늄 화합물이 아닌 그룹 C08F 4/44에 포함된 금속 또는 그의 화합물과 그룹 C08F 4/62에 포함된 성분",
+            "en": "Component covered by group C08F0004620000 with a metal or compound covered by group C08F0004440000 other than an organo-aluminium compound"
+          }
+        },
+        {
+          "code": "C08F 4/625",
+          "title": {
+            "ko": "그룹 C08F 4/622, C08F 4/623중의 하나의 그룹에 포함되지 않으며 그룹 C08F 4/44에 포함된 금속 또는 화합물과 그룹 C08F 4/62에 포함된 성분",
+            "en": "Component covered by group C08F0004620000 with a metal or compound covered by group C08F0004440000, not provided for in a single group of groups C08F0004622000 or C08F0004623000"
+          }
+        },
+        {
+          "code": "C08F 4/626",
+          "title": {
+            "ko": "그룹 C08F 4/62에 포함된 성분과 금속형태 또는 그의 화합물중 적어도 두개의 다른 금속으로 구성되는 촉매",
+            "en": "Catalysts comprising at least two different metals, in metallic form or as compounds thereof, in addition to the component covered by group C08F0004620000"
+          }
+        },
+        {
+          "code": "C08F 4/627",
+          "title": {
+            "ko": null,
+            "en": "Catalysts containing a specific non-metal or metal-free compound"
+          }
+        },
+        {
+          "code": "C08F 4/628",
+          "title": {
+            "ko": null,
+            "en": "inorganic"
+          }
+        },
+        {
+          "code": "C08F 4/629",
+          "title": {
+            "ko": null,
+            "en": "organic"
+          }
+        },
+        {
+          "code": "C08F 4/63",
+          "title": {
+            "ko": "그룹 C08F 4/44에 포함된 금속 또는 화합물과 마지막 접촉시키기 전에 그룹 C08F 4/62에 포함된 금속 또는 화합물의 전처리",
+            "en": "Pretreating the metal or compound covered by group C08F0004620000 before the final contacting with the metal or compound covered by group C08F0004440000"
+          }
+        },
+        {
+          "code": "C08F 4/631",
+          "title": {
+            "ko": null,
+            "en": "Pretreating with non-metals or metal-free compounds"
+          }
+        },
+        {
+          "code": "C08F 4/632",
+          "title": {
+            "ko": "금속 또는 금속 함유 화합물로의 전처리",
+            "en": "Pretreating with metals or metal-containing compounds"
+          }
+        },
+        {
+          "code": "C08F 4/633",
+          "title": {
+            "ko": "그룹 C08F 4/62에 포함된 금속 또는 그의 화합물로의 전처리",
+            "en": "with metals covered by group C08F0004620000 or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/634",
+          "title": {
+            "ko": null,
+            "en": "with magnesium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/635",
+          "title": {
+            "ko": null,
+            "en": "with aluminium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/636",
+          "title": {
+            "ko": null,
+            "en": "with silicon or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/637",
+          "title": {
+            "ko": "그룹 C08F 4/633 ～ C08F 4/636에 포함되지 않은 금속 또는 금속 함유 화합물로의 전처리",
+            "en": "with metals or metal-containing compounds, not provided for in groups C08F0004633000-C08F0004636000"
+          }
+        },
+        {
+          "code": "C08F 4/638",
+          "title": {
+            "ko": "그룹 C08F 4/633 ～ C08F 4/637중의 하나의 그룹에 포함되지 않는 금속 또는 금속 함유 화합물로의 전처리",
+            "en": "with metals or metal-containing compounds, not provided for in a single group of groups C08F0004633000-C08F0004637000"
+          }
+        },
+        {
+          "code": "C08F 4/639",
+          "title": {
+            "ko": "전이 금속-탄소 결합을 포함한 그룹 C08F 4/62에 포함 되는 성분",
+            "en": "Component covered by group C08F0004620000 containing a transition metal-carbon bond"
+          }
+        },
+        {
+          "code": "C08F 4/6392",
+          "title": {
+            "ko": null,
+            "en": "containing at least one cyclopentadienyl ring, condensed or not, e.g. an indenyl or a fluorenyl ring"
+          }
+        },
+        {
+          "code": "C08F 4/64",
+          "title": {
+            "ko": "티탄, 지르코늄, 하프늄 또는 그들의 화합물",
+            "en": "Titanium, zirconium, hafnium, or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/642",
+          "title": {
+            "ko": "유기 알루미늄 화합물과 그룹 C08F 4/64에 포함된 성분",
+            "en": "Component covered by group C08F0004640000 with an organo-aluminium compound"
+          }
+        },
+        {
+          "code": "C08F 4/643",
+          "title": {
+            "ko": "하나의 유기 알루미늄 화합물 이외의 그룹 C08F 4/44에 포함되는 금속 또는 화합물을 함유하며, 그룹 C08F 4/64에 포함되는 성분",
+            "en": "Component covered by group C08F0004640000 with a metal or compound covered by group C08F0004440000 other than an organo-aluminium compound"
+          }
+        },
+        {
+          "code": "C08F 4/645",
+          "title": {
+            "ko": "그룹 C08F 4/642 ~ C08F 4/643중의 어느 하나의 그룹으로 포함되지 않으며, 그룹 C08F 4/44에 포함된 금속 또는 화합물을 함유하고, 그룹 C08F 4/64에 포함되는 성분",
+            "en": "Component covered by group C08F0004640000 with a metal or compound covered by group C08F0004440000, not provided for in a single group of groups C08F0004642000-C08F0004643000"
+          }
+        },
+        {
+          "code": "C08F 4/646",
+          "title": {
+            "ko": "그룹 C08F 4/64에 포함된 성분과 금속 형태 또는 그의 화합물중 적어도 2개의 다른 금속으로 구성되는 촉매 C08F 4/647",
+            "en": "Catalysts comprising at least two different metals, in metallic form or as compounds thereof, in addition to the component covered by group C08F0004640000"
+          }
+        },
+        {
+          "code": "C08F 4/647",
+          "title": {
+            "ko": null,
+            "en": "Catalysts containing a specific non-metal or metal-free compound"
+          }
+        },
+        {
+          "code": "C08F 4/648",
+          "title": {
+            "ko": null,
+            "en": "inorganic"
+          }
+        },
+        {
+          "code": "C08F 4/649",
+          "title": {
+            "ko": null,
+            "en": "organic"
+          }
+        },
+        {
+          "code": "C08F 4/65",
+          "title": {
+            "ko": "그룹 C08F 4/44에 포함된 금속 또는 화합물로 최종 접촉시키기 전에 그룹 C08F 4/64에 포함된 금속 또는 화합물의 전처리",
+            "en": "Pretreating the metal or compound covered by group C08F0004640000 before the final contacting with the metal or compound covered by group C08F0004440000"
+          }
+        },
+        {
+          "code": "C08F 4/651",
+          "title": {
+            "ko": null,
+            "en": "Pretreating with non-metals or metal-free compounds"
+          }
+        },
+        {
+          "code": "C08F 4/652",
+          "title": {
+            "ko": "금속 또는 금속 함유 화합물로의 전처리",
+            "en": "Pretreating with metals or metal-containing compounds"
+          }
+        },
+        {
+          "code": "C08F 4/653",
+          "title": {
+            "ko": "그룹 C08F 4/64에 포함된 금속 또는 그의 화합물로의 전처리",
+            "en": "with metals covered by group C08F0004640000 or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/654",
+          "title": {
+            "ko": null,
+            "en": "with magnesium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/655",
+          "title": {
+            "ko": null,
+            "en": "with aluminium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/656",
+          "title": {
+            "ko": null,
+            "en": "with silicon or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/657",
+          "title": {
+            "ko": "그룹 C08F 4/653 ～ C08F 4/656에 포함되지 않은 금속 또는 금속 또는 금속함유 화합물로의 전처리",
+            "en": "with metals or metal-containing compounds, not provided for in groups C08F0004653000-C08F0004656000"
+          }
+        },
+        {
+          "code": "C08F 4/658",
+          "title": {
+            "ko": "그룹 C08F 4/653 ～ C08F 4/657중의 단일의 그룹에 포함되지 않는 금속 함유 화합물로의 전처리",
+            "en": "with metals or metal-containing compounds, not provided for in a single group of groups C08F0004653000-C08F0004657000"
+          }
+        },
+        {
+          "code": "C08F 4/659",
+          "title": {
+            "ko": "전이 금속-탄소 결합을 포함한 그룹 C08F 4/64에 포함 되는 성분",
+            "en": "Component covered by group C08F0004640000 containing a transition metal-carbon bond"
+          }
+        },
+        {
+          "code": "C08F 4/6592",
+          "title": {
+            "ko": null,
+            "en": "containing at least one cyclopentadienyl ring, condensed or not, e.g. an indenyl or a fluorenyl ring"
+          }
+        },
+        {
+          "code": "C08F 4/68",
+          "title": {
+            "ko": null,
+            "en": "Vanadium, niobium, tantalum, or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/685",
+          "title": {
+            "ko": null,
+            "en": "Vanadium or compounds thereof in combination with titanium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/69",
+          "title": {
+            "ko": null,
+            "en": "Chromium, molybdenum, tungsten or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/695",
+          "title": {
+            "ko": null,
+            "en": "Manganese, technetium, rhenium or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/70",
+          "title": {
+            "ko": null,
+            "en": "Iron group metals, platinum group metals, or compounds thereof"
+          }
+        },
+        {
+          "code": "C08F 4/72",
+          "title": {
+            "ko": "그룹 C08F 4/44에 포함되지 않는 금속으로부터 선택된 것(C08F 4/54 ～ C08F 4/70이 우선)",
+            "en": "selected from metals not provided for in group C08F0004440000 (C08F0004540000-C08F0004700000 take precedence)"
+          }
+        },
+        {
+          "code": "C08F 4/74",
+          "title": {
+            "ko": null,
+            "en": "selected from refractory metals"
+          }
+        },
+        {
+          "code": "C08F 4/76",
+          "title": {
+            "ko": null,
+            "en": "selected from titanium, zirconium, hafnium, vanadium, niobium, or tantalum"
+          }
+        },
+        {
+          "code": "C08F 4/78",
+          "title": {
+            "ko": null,
+            "en": "selected from chromium, molybdenum, or tungsten"
+          }
+        },
+        {
+          "code": "C08F 4/80",
+          "title": {
+            "ko": null,
+            "en": "selected from iron group metals or platinum group metals"
+          }
+        },
+        {
+          "code": "C08F 4/82",
+          "title": {
+            "ko": null,
+            "en": "pi-Allyl complexes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 6/00",
+      "title": {
+        "ko": "중합 후처리(C08F 8/00이 우선; 콘쥬게이트 디엔 고무(conjugated diene) C08C)",
+        "en": "Post-polymerisation treatments (C08F0008000000 takes precedence;of conjugated diene rubbers C08C)"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 6/02",
+          "title": {
+            "ko": "중합체의 중화, 예. 촉매활성 정지(단기 정지(short stopping) C08F 2/42)",
+            "en": "Neutralisation of the polymerisation mass, e.g. killing the catalyst (short-stopping C08F0002420000)"
+          }
+        },
+        {
+          "code": "C08F 6/04",
+          "title": {
+            "ko": null,
+            "en": "Fractionation"
+          }
+        },
+        {
+          "code": "C08F 6/06",
+          "title": {
+            "ko": null,
+            "en": "Treatment of polymer solutions"
+          }
+        },
+        {
+          "code": "C08F 6/08",
+          "title": {
+            "ko": null,
+            "en": "Removal of catalyst residues"
+          }
+        },
+        {
+          "code": "C08F 6/10",
+          "title": {
+            "ko": null,
+            "en": "Removal of volatile materials, e.g. monomers, solvents"
+          }
+        },
+        {
+          "code": "C08F 6/12",
+          "title": {
+            "ko": null,
+            "en": "Separation of polymers from solutions"
+          }
+        },
+        {
+          "code": "C08F 6/14",
+          "title": {
+            "ko": null,
+            "en": "Treatment of polymer emulsions"
+          }
+        },
+        {
+          "code": "C08F 6/16",
+          "title": {
+            "ko": null,
+            "en": "Purification"
+          }
+        },
+        {
+          "code": "C08F 6/18",
+          "title": {
+            "ko": null,
+            "en": "Increasing the size of the dispersed particles"
+          }
+        },
+        {
+          "code": "C08F 6/20",
+          "title": {
+            "ko": null,
+            "en": "Concentration"
+          }
+        },
+        {
+          "code": "C08F 6/22",
+          "title": {
+            "ko": null,
+            "en": "Coagulation"
+          }
+        },
+        {
+          "code": "C08F 6/24",
+          "title": {
+            "ko": null,
+            "en": "Treatment of polymer suspensions"
+          }
+        },
+        {
+          "code": "C08F 6/26",
+          "title": {
+            "ko": null,
+            "en": "Treatment of polymers prepared in bulk"
+          }
+        },
+        {
+          "code": "C08F 6/28",
+          "title": {
+            "ko": null,
+            "en": "Purification"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 8/00",
+      "title": {
+        "ko": "후처리에 의한 화학적 변성(그래프트 고분자, 블록 고분자, 불포화 단량체 또는 고분자를 사용하는 가교 C08F 251/00 ～ C08F 299/00; 콘쥬게이트 디엔 고무(conjugated diene) C08C)",
+        "en": "Chemical modification by after-treatment (graft polymers, block polymers, crosslinking with unsaturated monomers or with polymers C08F0251000000-C08F0299000000;of conjugated diene rubbers C08C)"
+      },
+      "definition": {
+        "ko": "그룹 C08F8/02 ~ C08F8/50에서, 최후개소 우선 규칙이 적용됩니다. 즉. 각 계층 레벨에서 반대의 표시가 없는 경우 공정은 마지막 적절한 개소에 분류됩니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "C08F 8/02",
+          "title": {
+            "ko": null,
+            "en": "Alkylation"
+          }
+        },
+        {
+          "code": "C08F 8/04",
+          "title": {
+            "ko": null,
+            "en": "Reduction, e.g. hydrogenation"
+          }
+        },
+        {
+          "code": "C08F 8/06",
+          "title": {
+            "ko": null,
+            "en": "Oxidation"
+          }
+        },
+        {
+          "code": "C08F 8/08",
+          "title": {
+            "ko": null,
+            "en": "Epoxidation"
+          }
+        },
+        {
+          "code": "C08F 8/10",
+          "title": {
+            "ko": null,
+            "en": "Acylation"
+          }
+        },
+        {
+          "code": "C08F 8/12",
+          "title": {
+            "ko": null,
+            "en": "Hydrolysis"
+          }
+        },
+        {
+          "code": "C08F 8/14",
+          "title": {
+            "ko": null,
+            "en": "Esterification"
+          }
+        },
+        {
+          "code": "C08F 8/16",
+          "title": {
+            "ko": null,
+            "en": "Lactonisation"
+          }
+        },
+        {
+          "code": "C08F 8/18",
+          "title": {
+            "ko": null,
+            "en": "Introducing halogen atoms or halogen-containing groups"
+          }
+        },
+        {
+          "code": "C08F 8/20",
+          "title": {
+            "ko": null,
+            "en": "Halogenation"
+          }
+        },
+        {
+          "code": "C08F 8/22",
+          "title": {
+            "ko": null,
+            "en": "by reaction with free halogens"
+          }
+        },
+        {
+          "code": "C08F 8/24",
+          "title": {
+            "ko": null,
+            "en": "Haloalkylation"
+          }
+        },
+        {
+          "code": "C08F 8/26",
+          "title": {
+            "ko": null,
+            "en": "Removing halogen atoms or halogen-containing groups from the molecule"
+          }
+        },
+        {
+          "code": "C08F 8/28",
+          "title": {
+            "ko": null,
+            "en": "Condensation with aldehydes or ketones"
+          }
+        },
+        {
+          "code": "C08F 8/30",
+          "title": {
+            "ko": null,
+            "en": "Introducing nitrogen atoms or nitrogen-containing groups"
+          }
+        },
+        {
+          "code": "C08F 8/32",
+          "title": {
+            "ko": null,
+            "en": "by reaction with amines"
+          }
+        },
+        {
+          "code": "C08F 8/34",
+          "title": {
+            "ko": null,
+            "en": "Introducing sulfur atoms or sulfur-containing groups"
+          }
+        },
+        {
+          "code": "C08F 8/36",
+          "title": {
+            "ko": null,
+            "en": "Sulfonation; Sulfation"
+          }
+        },
+        {
+          "code": "C08F 8/38",
+          "title": {
+            "ko": null,
+            "en": "Sulfohalogenation"
+          }
+        },
+        {
+          "code": "C08F 8/40",
+          "title": {
+            "ko": null,
+            "en": "Introducing phosphorus atoms or phosphorus-containing groups"
+          }
+        },
+        {
+          "code": "C08F 8/42",
+          "title": {
+            "ko": null,
+            "en": "Introducing metal atoms or metal-containing groups"
+          }
+        },
+        {
+          "code": "C08F 8/44",
+          "title": {
+            "ko": null,
+            "en": "Preparation of metal salts or ammonium salts"
+          }
+        },
+        {
+          "code": "C08F 8/46",
+          "title": {
+            "ko": null,
+            "en": "Reaction with unsaturated dicarboxylic acids or anhydrides thereof, e.g. maleinisation"
+          }
+        },
+        {
+          "code": "C08F 8/48",
+          "title": {
+            "ko": null,
+            "en": "Isomerisation; Cyclisation"
+          }
+        },
+        {
+          "code": "C08F 8/50",
+          "title": {
+            "ko": null,
+            "en": "Partial depolymerisation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 10/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 10/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of unsaturated aliphatic hydrocarbons having only one carbon-to-carbon double bond"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 10/02",
+          "title": {
+            "ko": null,
+            "en": "Ethene"
+          }
+        },
+        {
+          "code": "C08F 10/04",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or four carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 10/06",
+          "title": {
+            "ko": null,
+            "en": "Propene"
+          }
+        },
+        {
+          "code": "C08F 10/08",
+          "title": {
+            "ko": null,
+            "en": "Butenes"
+          }
+        },
+        {
+          "code": "C08F 10/10",
+          "title": {
+            "ko": null,
+            "en": "Isobutene"
+          }
+        },
+        {
+          "code": "C08F 10/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing five or more carbon atoms"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 12/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an aromatic carbocyclic ring"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 12/02",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing only one unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 12/04",
+          "title": {
+            "ko": null,
+            "en": "containing one ring"
+          }
+        },
+        {
+          "code": "C08F 12/06",
+          "title": {
+            "ko": null,
+            "en": "Hydrocarbons"
+          }
+        },
+        {
+          "code": "C08F 12/08",
+          "title": {
+            "ko": null,
+            "en": "Styrene"
+          }
+        },
+        {
+          "code": "C08F 12/12",
+          "title": {
+            "ko": null,
+            "en": "containing a branched unsaturated aliphatic radical or an alkyl radical attached to the ring"
+          }
+        },
+        {
+          "code": "C08F 12/14",
+          "title": {
+            "ko": null,
+            "en": "substituted by hetero atoms or groups containing hetero atoms"
+          }
+        },
+        {
+          "code": "C08F 12/16",
+          "title": {
+            "ko": null,
+            "en": "Halogens"
+          }
+        },
+        {
+          "code": "C08F 12/18",
+          "title": {
+            "ko": null,
+            "en": "Chlorine"
+          }
+        },
+        {
+          "code": "C08F 12/20",
+          "title": {
+            "ko": null,
+            "en": "Fluorine"
+          }
+        },
+        {
+          "code": "C08F 12/22",
+          "title": {
+            "ko": null,
+            "en": "Oxygen"
+          }
+        },
+        {
+          "code": "C08F 12/24",
+          "title": {
+            "ko": null,
+            "en": "Phenols or alcohols"
+          }
+        },
+        {
+          "code": "C08F 12/26",
+          "title": {
+            "ko": null,
+            "en": "Nitrogen"
+          }
+        },
+        {
+          "code": "C08F 12/28",
+          "title": {
+            "ko": null,
+            "en": "Amines"
+          }
+        },
+        {
+          "code": "C08F 12/30",
+          "title": {
+            "ko": null,
+            "en": "Sulfur"
+          }
+        },
+        {
+          "code": "C08F 12/32",
+          "title": {
+            "ko": null,
+            "en": "containing two or more rings"
+          }
+        },
+        {
+          "code": "C08F 12/34",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing two or more unsaturated aliphatic radicals"
+          }
+        },
+        {
+          "code": "C08F 12/36",
+          "title": {
+            "ko": null,
+            "en": "Divinylbenzene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 14/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a halogen"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 14/02",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing chlorine"
+          }
+        },
+        {
+          "code": "C08F 14/04",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing two carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 14/06",
+          "title": {
+            "ko": null,
+            "en": "Vinyl chloride"
+          }
+        },
+        {
+          "code": "C08F 14/08",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene chloride"
+          }
+        },
+        {
+          "code": "C08F 14/12",
+          "title": {
+            "ko": null,
+            "en": "1, 2-Dichloroethene"
+          }
+        },
+        {
+          "code": "C08F 14/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 14/16",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing bromine or iodine"
+          }
+        },
+        {
+          "code": "C08F 14/18",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing fluorine"
+          }
+        },
+        {
+          "code": "C08F 14/20",
+          "title": {
+            "ko": null,
+            "en": "Vinyl fluoride"
+          }
+        },
+        {
+          "code": "C08F 14/22",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene fluoride"
+          }
+        },
+        {
+          "code": "C08F 14/24",
+          "title": {
+            "ko": null,
+            "en": "Trifluorochloroethene"
+          }
+        },
+        {
+          "code": "C08F 14/26",
+          "title": {
+            "ko": null,
+            "en": "Tetrafluoroethene"
+          }
+        },
+        {
+          "code": "C08F 14/28",
+          "title": {
+            "ko": null,
+            "en": "Hexafluoropropene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 16/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an alcohol, ether, aldehydo, ketonic, acetal, or ketal radical"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 16/02",
+          "title": {
+            "ko": null,
+            "en": "by an alcohol radical"
+          }
+        },
+        {
+          "code": "C08F 16/04",
+          "title": {
+            "ko": null,
+            "en": "Acyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 16/06",
+          "title": {
+            "ko": null,
+            "en": "Polyvinyl alcohol"
+          }
+        },
+        {
+          "code": "C08F 16/08",
+          "title": {
+            "ko": null,
+            "en": "Allyl alcohol"
+          }
+        },
+        {
+          "code": "C08F 16/10",
+          "title": {
+            "ko": null,
+            "en": "Carbocyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 16/12",
+          "title": {
+            "ko": null,
+            "en": "by an ether radical"
+          }
+        },
+        {
+          "code": "C08F 16/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing only one unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 16/16",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing no hetero atoms other than the ether oxygen"
+          }
+        },
+        {
+          "code": "C08F 16/18",
+          "title": {
+            "ko": null,
+            "en": "Acyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 16/20",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or more carbon atoms in the unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 16/22",
+          "title": {
+            "ko": null,
+            "en": "Carbocyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 16/24",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing halogen"
+          }
+        },
+        {
+          "code": "C08F 16/26",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing oxygen atoms in addition to the ether oxygen"
+          }
+        },
+        {
+          "code": "C08F 16/28",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 16/30",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing sulfur"
+          }
+        },
+        {
+          "code": "C08F 16/32",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing two or more unsaturated aliphatic radicals"
+          }
+        },
+        {
+          "code": "C08F 16/34",
+          "title": {
+            "ko": null,
+            "en": "by an aldehydo radical"
+          }
+        },
+        {
+          "code": "C08F 16/36",
+          "title": {
+            "ko": null,
+            "en": "by a ketonic radical"
+          }
+        },
+        {
+          "code": "C08F 16/38",
+          "title": {
+            "ko": null,
+            "en": "by an acetal or ketal radical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 18/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an acyloxy radical of a saturated carboxylic acid, of carbonic acid, or of a haloformic acid"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 18/02",
+          "title": {
+            "ko": null,
+            "en": "Esters of monocarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 18/04",
+          "title": {
+            "ko": null,
+            "en": "Vinyl esters"
+          }
+        },
+        {
+          "code": "C08F 18/06",
+          "title": {
+            "ko": null,
+            "en": "Vinyl formate"
+          }
+        },
+        {
+          "code": "C08F 18/08",
+          "title": {
+            "ko": null,
+            "en": "Vinyl acetate"
+          }
+        },
+        {
+          "code": "C08F 18/10",
+          "title": {
+            "ko": null,
+            "en": "of monocarboxylic acids containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 18/12",
+          "title": {
+            "ko": null,
+            "en": "with unsaturated alcohols containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 18/14",
+          "title": {
+            "ko": null,
+            "en": "Esters of polycarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 18/16",
+          "title": {
+            "ko": null,
+            "en": "with alcohols containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 18/18",
+          "title": {
+            "ko": null,
+            "en": "Diallyl phthalate"
+          }
+        },
+        {
+          "code": "C08F 18/20",
+          "title": {
+            "ko": null,
+            "en": "Esters containing halogen"
+          }
+        },
+        {
+          "code": "C08F 18/22",
+          "title": {
+            "ko": null,
+            "en": "Esters containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 18/24",
+          "title": {
+            "ko": null,
+            "en": "Esters of carbonic or haloformic acids"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 20/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and only one being terminated by only one carboxyl radical or a salt, anhydride, ester, amide, imide, or nitrile thereof"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 20/02",
+          "title": {
+            "ko": null,
+            "en": "Monocarboxylic acids having less than ten carbon atoms; Derivatives thereof"
+          }
+        },
+        {
+          "code": "C08F 20/04",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 20/06",
+          "title": {
+            "ko": null,
+            "en": "Acrylic acid; Methacrylic acid; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 20/08",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides"
+          }
+        },
+        {
+          "code": "C08F 20/10",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 20/12",
+          "title": {
+            "ko": null,
+            "en": "of monohydric alcohols or phenols"
+          }
+        },
+        {
+          "code": "C08F 20/14",
+          "title": {
+            "ko": null,
+            "en": "Methyl esters"
+          }
+        },
+        {
+          "code": "C08F 20/16",
+          "title": {
+            "ko": null,
+            "en": "of phenols or of alcohols containing two or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 20/18",
+          "title": {
+            "ko": null,
+            "en": "with acrylic or methacrylic acids"
+          }
+        },
+        {
+          "code": "C08F 20/20",
+          "title": {
+            "ko": null,
+            "en": "of polyhydric alcohols or phenols"
+          }
+        },
+        {
+          "code": "C08F 20/22",
+          "title": {
+            "ko": null,
+            "en": "Esters containing halogen"
+          }
+        },
+        {
+          "code": "C08F 20/24",
+          "title": {
+            "ko": null,
+            "en": "containing perhaloalkyl radicals"
+          }
+        },
+        {
+          "code": "C08F 20/26",
+          "title": {
+            "ko": null,
+            "en": "Esters containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 20/28",
+          "title": {
+            "ko": null,
+            "en": "containing no aromatic rings in the alcohol moiety"
+          }
+        },
+        {
+          "code": "C08F 20/30",
+          "title": {
+            "ko": null,
+            "en": "containing aromatic rings in the alcohol moiety"
+          }
+        },
+        {
+          "code": "C08F 20/32",
+          "title": {
+            "ko": null,
+            "en": "containing epoxy radicals"
+          }
+        },
+        {
+          "code": "C08F 20/34",
+          "title": {
+            "ko": null,
+            "en": "Esters containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 20/36",
+          "title": {
+            "ko": null,
+            "en": "containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 20/38",
+          "title": {
+            "ko": null,
+            "en": "Esters containing sulfur"
+          }
+        },
+        {
+          "code": "C08F 20/40",
+          "title": {
+            "ko": null,
+            "en": "Esters of unsaturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 20/42",
+          "title": {
+            "ko": null,
+            "en": "Nitriles"
+          }
+        },
+        {
+          "code": "C08F 20/44",
+          "title": {
+            "ko": null,
+            "en": "Acrylonitrile"
+          }
+        },
+        {
+          "code": "C08F 20/50",
+          "title": {
+            "ko": null,
+            "en": "containing four or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 20/52",
+          "title": {
+            "ko": null,
+            "en": "Amides or imides"
+          }
+        },
+        {
+          "code": "C08F 20/54",
+          "title": {
+            "ko": null,
+            "en": "Amides"
+          }
+        },
+        {
+          "code": "C08F 20/56",
+          "title": {
+            "ko": null,
+            "en": "Acrylamide; Methacrylamide"
+          }
+        },
+        {
+          "code": "C08F 20/58",
+          "title": {
+            "ko": null,
+            "en": "containing oxygen in addition to the carbonamido oxygen"
+          }
+        },
+        {
+          "code": "C08F 20/60",
+          "title": {
+            "ko": null,
+            "en": "containing nitrogen in addition to the carbonamido nitrogen"
+          }
+        },
+        {
+          "code": "C08F 20/62",
+          "title": {
+            "ko": null,
+            "en": "Monocarboxylic acids having ten or more carbon atoms; Derivatives thereof"
+          }
+        },
+        {
+          "code": "C08F 20/64",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 20/66",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides"
+          }
+        },
+        {
+          "code": "C08F 20/68",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 20/70",
+          "title": {
+            "ko": null,
+            "en": "Nitriles; Amides; Imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 22/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a carboxyl radical and containing at least one other carboxyl radical in the molecule; Salts, anhydrides, esters, amides, imides, or nitriles thereof"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 22/02",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 22/04",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides, e.g. cyclic anhydrides"
+          }
+        },
+        {
+          "code": "C08F 22/06",
+          "title": {
+            "ko": null,
+            "en": "Maleic anhydride"
+          }
+        },
+        {
+          "code": "C08F 22/10",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 22/12",
+          "title": {
+            "ko": null,
+            "en": "of phenols or saturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 22/14",
+          "title": {
+            "ko": null,
+            "en": "Esters having no free carboxylic acid groups"
+          }
+        },
+        {
+          "code": "C08F 22/16",
+          "title": {
+            "ko": null,
+            "en": "Esters having free carboxylic acid groups"
+          }
+        },
+        {
+          "code": "C08F 22/18",
+          "title": {
+            "ko": null,
+            "en": "Esters containing halogen"
+          }
+        },
+        {
+          "code": "C08F 22/20",
+          "title": {
+            "ko": null,
+            "en": "Esters containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 22/22",
+          "title": {
+            "ko": null,
+            "en": "Esters containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 22/24",
+          "title": {
+            "ko": null,
+            "en": "Esters containing sulfur"
+          }
+        },
+        {
+          "code": "C08F 22/26",
+          "title": {
+            "ko": null,
+            "en": "of unsaturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 22/28",
+          "title": {
+            "ko": null,
+            "en": "Diallyl maleate"
+          }
+        },
+        {
+          "code": "C08F 22/30",
+          "title": {
+            "ko": null,
+            "en": "Nitriles"
+          }
+        },
+        {
+          "code": "C08F 22/32",
+          "title": {
+            "ko": null,
+            "en": "Alpha-cyano-acrylic acid; Esters thereof"
+          }
+        },
+        {
+          "code": "C08F 22/34",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene cyanide"
+          }
+        },
+        {
+          "code": "C08F 22/36",
+          "title": {
+            "ko": null,
+            "en": "Amides or imides"
+          }
+        },
+        {
+          "code": "C08F 22/38",
+          "title": {
+            "ko": null,
+            "en": "Amides"
+          }
+        },
+        {
+          "code": "C08F 22/40",
+          "title": {
+            "ko": null,
+            "en": "Imides, e.g. cyclic imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 24/00",
+      "title": {
+        "ko": "단 하나의 탄소-탄소 이중 결합을 함유하는 하나 이상의 불포화 지방족기를 갖고 그것의 적어도 하나가 산소 함유 헤테로 고리로 종결되어 있는 화합물의 호모중합체 또는 공중합체(다작용성 산의 고리 에스테르 C08F 18/00; 불포화 산의 고리 무수물 C08F 20/00, C08F 22/00)",
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a heterocyclic ring containing oxygen (cyclic esters of polyfunctional acids C08F0018000000;cyclic anhydrides of unsaturated acids C08F0020000000, C08F0022000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 26/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a single or double bond to nitrogen or by a heterocyclic ring containing nitrogen"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 26/02",
+          "title": {
+            "ko": null,
+            "en": "by a single or double bond to nitrogen"
+          }
+        },
+        {
+          "code": "C08F 26/04",
+          "title": {
+            "ko": null,
+            "en": "Diallylamine"
+          }
+        },
+        {
+          "code": "C08F 26/06",
+          "title": {
+            "ko": null,
+            "en": "by a heterocyclic ring containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 26/08",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-pyrrolidine"
+          }
+        },
+        {
+          "code": "C08F 26/10",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-pyrrolidone"
+          }
+        },
+        {
+          "code": "C08F 26/12",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-carbazole"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 28/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a bond to sulfur or by a heterocyclic ring containing sulfur"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 28/02",
+          "title": {
+            "ko": null,
+            "en": "by a bond to sulfur"
+          }
+        },
+        {
+          "code": "C08F 28/04",
+          "title": {
+            "ko": null,
+            "en": "Thioethers"
+          }
+        },
+        {
+          "code": "C08F 28/06",
+          "title": {
+            "ko": null,
+            "en": "by a heterocyclic ring containing sulfur"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 30/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and containing phosphorus, selenium, tellurium or a metal"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 30/02",
+          "title": {
+            "ko": null,
+            "en": "containing phosphorus"
+          }
+        },
+        {
+          "code": "C08F 30/04",
+          "title": {
+            "ko": null,
+            "en": "containing a metal"
+          }
+        },
+        {
+          "code": "C08F 30/06",
+          "title": {
+            "ko": null,
+            "en": "containing boron"
+          }
+        },
+        {
+          "code": "C08F 30/08",
+          "title": {
+            "ko": null,
+            "en": "containing silicon"
+          }
+        },
+        {
+          "code": "C08F 30/10",
+          "title": {
+            "ko": null,
+            "en": "containing germanium"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 32/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain, and having one or more carbon-to-carbon double bonds in a carbocyclic ring system"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 32/02",
+          "title": {
+            "ko": null,
+            "en": "having no condensed rings"
+          }
+        },
+        {
+          "code": "C08F 32/04",
+          "title": {
+            "ko": null,
+            "en": "having one carbon-to-carbon double bond"
+          }
+        },
+        {
+          "code": "C08F 32/06",
+          "title": {
+            "ko": null,
+            "en": "having two or more carbon-to-carbon double bonds"
+          }
+        },
+        {
+          "code": "C08F 32/08",
+          "title": {
+            "ko": null,
+            "en": "having condensed rings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 34/00",
+      "title": {
+        "ko": "헤테로 고리중에 하나 이상의 탄소-탄소 이중 결합을 함유하고 곁사슬에 불포화 지방족기를 갖지 않는 고리 화합물의 호모중합체 또는 공중합체(다작용성 산의 고리 에스테르 C08F 18/00; 고리 무수물 또는 이미드 C08F 22/00)",
+        "en": "Homopolymers or copolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain and having one or more carbon-to-carbon double bonds in a heterocyclic ring (cyclic esters of polyfunctional acids C08F0018000000;cyclic anhydrides or imides C08F0022000000)"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 34/02",
+          "title": {
+            "ko": null,
+            "en": "in a ring containing oxygen"
+          }
+        },
+        {
+          "code": "C08F 34/04",
+          "title": {
+            "ko": null,
+            "en": "in a ring containing sulfur"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 36/00",
+      "title": {
+        "ko": "하나 이상의 불포화 지방족기를 갖고 그것의 적어도 하나가 둘 이상의 탄소-탄소 이중 결합을 함유하는 화합물의 호모중합체 또는 공중합체(C08F 32/00이 우선)",
+        "en": "Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, at least one having two or more carbon-to-carbon double bonds (C08F0032000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 36/02",
+          "title": {
+            "ko": null,
+            "en": "the radical having only two carbon-to-carbon double bonds"
+          }
+        },
+        {
+          "code": "C08F 36/04",
+          "title": {
+            "ko": null,
+            "en": "conjugated"
+          }
+        },
+        {
+          "code": "C08F 36/06",
+          "title": {
+            "ko": null,
+            "en": "Butadiene"
+          }
+        },
+        {
+          "code": "C08F 36/08",
+          "title": {
+            "ko": null,
+            "en": "Isoprene"
+          }
+        },
+        {
+          "code": "C08F 36/14",
+          "title": {
+            "ko": null,
+            "en": "containing elements other than carbon and hydrogen"
+          }
+        },
+        {
+          "code": "C08F 36/16",
+          "title": {
+            "ko": null,
+            "en": "containing halogen"
+          }
+        },
+        {
+          "code": "C08F 36/18",
+          "title": {
+            "ko": null,
+            "en": "containing chlorine"
+          }
+        },
+        {
+          "code": "C08F 36/20",
+          "title": {
+            "ko": null,
+            "en": "unconjugated"
+          }
+        },
+        {
+          "code": "C08F 36/22",
+          "title": {
+            "ko": null,
+            "en": "the radical having three or more carbon-to-carbon double bonds"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 38/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers or copolymers of compounds having one or more carbon-to-carbon triple bonds"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 38/02",
+          "title": {
+            "ko": null,
+            "en": "Acetylene"
+          }
+        },
+        {
+          "code": "C08F 38/04",
+          "title": {
+            "ko": null,
+            "en": "Vinylacetylene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 110/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 110/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of unsaturated aliphatic hydrocarbons having only one carbon-to-carbon double bond"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 110/02",
+          "title": {
+            "ko": null,
+            "en": "Ethene"
+          }
+        },
+        {
+          "code": "C08F 110/04",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or four carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 110/06",
+          "title": {
+            "ko": null,
+            "en": "Propene"
+          }
+        },
+        {
+          "code": "C08F 110/08",
+          "title": {
+            "ko": null,
+            "en": "Butenes"
+          }
+        },
+        {
+          "code": "C08F 110/10",
+          "title": {
+            "ko": null,
+            "en": "Isobutene"
+          }
+        },
+        {
+          "code": "C08F 110/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing five or more carbon atoms"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 112/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an aromatic carbocyclic ring"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 112/02",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing only one unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 112/04",
+          "title": {
+            "ko": null,
+            "en": "containing one ring"
+          }
+        },
+        {
+          "code": "C08F 112/06",
+          "title": {
+            "ko": null,
+            "en": "Hydrocarbons"
+          }
+        },
+        {
+          "code": "C08F 112/08",
+          "title": {
+            "ko": null,
+            "en": "Styrene"
+          }
+        },
+        {
+          "code": "C08F 112/12",
+          "title": {
+            "ko": null,
+            "en": "containing a branched unsaturated aliphatic radical or an alkyl radical attached to the ring"
+          }
+        },
+        {
+          "code": "C08F 112/14",
+          "title": {
+            "ko": null,
+            "en": "substituted by hetero atoms or groups containing hetero atoms"
+          }
+        },
+        {
+          "code": "C08F 112/32",
+          "title": {
+            "ko": null,
+            "en": "containing two or more rings"
+          }
+        },
+        {
+          "code": "C08F 112/34",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing two or more unsaturated aliphatic radicals"
+          }
+        },
+        {
+          "code": "C08F 112/36",
+          "title": {
+            "ko": null,
+            "en": "Divinylbenzene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 114/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a halogen"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 114/02",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing chlorine"
+          }
+        },
+        {
+          "code": "C08F 114/04",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing two carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 114/06",
+          "title": {
+            "ko": null,
+            "en": "Vinyl chloride"
+          }
+        },
+        {
+          "code": "C08F 114/08",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene chloride"
+          }
+        },
+        {
+          "code": "C08F 114/12",
+          "title": {
+            "ko": null,
+            "en": "1,2-Dichloroethene"
+          }
+        },
+        {
+          "code": "C08F 114/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 114/16",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing bromine or iodine"
+          }
+        },
+        {
+          "code": "C08F 114/18",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing fluorine"
+          }
+        },
+        {
+          "code": "C08F 114/20",
+          "title": {
+            "ko": null,
+            "en": "Vinyl fluoride"
+          }
+        },
+        {
+          "code": "C08F 114/22",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene fluoride"
+          }
+        },
+        {
+          "code": "C08F 114/24",
+          "title": {
+            "ko": null,
+            "en": "Trifluorochloroethene"
+          }
+        },
+        {
+          "code": "C08F 114/26",
+          "title": {
+            "ko": null,
+            "en": "Tetrafluoroethene"
+          }
+        },
+        {
+          "code": "C08F 114/28",
+          "title": {
+            "ko": null,
+            "en": "Hexafluoropropene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 116/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an alcohol, ether, aldehydo, ketonic, acetal, or ketal radical"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 116/02",
+          "title": {
+            "ko": null,
+            "en": "by an alcohol radical"
+          }
+        },
+        {
+          "code": "C08F 116/04",
+          "title": {
+            "ko": null,
+            "en": "Acyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 116/06",
+          "title": {
+            "ko": null,
+            "en": "Polyvinyl alcohol"
+          }
+        },
+        {
+          "code": "C08F 116/08",
+          "title": {
+            "ko": null,
+            "en": "Allyl alcohol"
+          }
+        },
+        {
+          "code": "C08F 116/10",
+          "title": {
+            "ko": null,
+            "en": "Carbocyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 116/12",
+          "title": {
+            "ko": null,
+            "en": "by an ether radical"
+          }
+        },
+        {
+          "code": "C08F 116/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing only one unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 116/16",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing no hetero atoms other than the ether oxygen"
+          }
+        },
+        {
+          "code": "C08F 116/18",
+          "title": {
+            "ko": null,
+            "en": "Acyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 116/20",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or more carbon atoms in the unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 116/34",
+          "title": {
+            "ko": null,
+            "en": "by an aldehydo radical"
+          }
+        },
+        {
+          "code": "C08F 116/36",
+          "title": {
+            "ko": null,
+            "en": "by a ketonic radical"
+          }
+        },
+        {
+          "code": "C08F 116/38",
+          "title": {
+            "ko": null,
+            "en": "by an acetal or ketal radical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 118/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an acyloxy radical of a saturated carboxylic acid, of carbonic acid, or of a haloformic acid"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 118/02",
+          "title": {
+            "ko": null,
+            "en": "Esters of monocarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 118/04",
+          "title": {
+            "ko": null,
+            "en": "Vinyl esters"
+          }
+        },
+        {
+          "code": "C08F 118/06",
+          "title": {
+            "ko": null,
+            "en": "Vinyl formate"
+          }
+        },
+        {
+          "code": "C08F 118/08",
+          "title": {
+            "ko": null,
+            "en": "Vinyl acetate"
+          }
+        },
+        {
+          "code": "C08F 118/10",
+          "title": {
+            "ko": null,
+            "en": "of monocarboxylic acids containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 118/12",
+          "title": {
+            "ko": null,
+            "en": "with unsaturated alcohols containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 118/14",
+          "title": {
+            "ko": null,
+            "en": "Esters of polycarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 118/16",
+          "title": {
+            "ko": null,
+            "en": "with alcohols containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 118/18",
+          "title": {
+            "ko": null,
+            "en": "Diallyl phthalate"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 120/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and only one being terminated by only one carboxyl radical or a salt, anhydride, ester, amide, imide, or nitrile thereof"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 120/02",
+          "title": {
+            "ko": null,
+            "en": "Monocarboxylic acids having less than ten carbon atoms; Derivatives thereof"
+          }
+        },
+        {
+          "code": "C08F 120/04",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 120/06",
+          "title": {
+            "ko": null,
+            "en": "Acrylic acid; Methacrylic acid; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 120/08",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides"
+          }
+        },
+        {
+          "code": "C08F 120/10",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 120/12",
+          "title": {
+            "ko": null,
+            "en": "of monohydric alcohols or phenols"
+          }
+        },
+        {
+          "code": "C08F 120/14",
+          "title": {
+            "ko": null,
+            "en": "Methyl esters"
+          }
+        },
+        {
+          "code": "C08F 120/16",
+          "title": {
+            "ko": null,
+            "en": "of phenols or of alcohols containing two or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 120/18",
+          "title": {
+            "ko": null,
+            "en": "with acrylic or methacrylic acids"
+          }
+        },
+        {
+          "code": "C08F 120/20",
+          "title": {
+            "ko": null,
+            "en": "of polyhydric alcohols or phenols"
+          }
+        },
+        {
+          "code": "C08F 120/22",
+          "title": {
+            "ko": null,
+            "en": "Esters containing halogen"
+          }
+        },
+        {
+          "code": "C08F 120/24",
+          "title": {
+            "ko": null,
+            "en": "containing perhaloalkyl radicals"
+          }
+        },
+        {
+          "code": "C08F 120/26",
+          "title": {
+            "ko": null,
+            "en": "Esters containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 120/28",
+          "title": {
+            "ko": null,
+            "en": "containing no aromatic rings in the alcohol moiety"
+          }
+        },
+        {
+          "code": "C08F 120/30",
+          "title": {
+            "ko": null,
+            "en": "containing aromatic rings in the alcohol moiety"
+          }
+        },
+        {
+          "code": "C08F 120/32",
+          "title": {
+            "ko": null,
+            "en": "containing epoxy radicals"
+          }
+        },
+        {
+          "code": "C08F 120/34",
+          "title": {
+            "ko": null,
+            "en": "Esters containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 120/36",
+          "title": {
+            "ko": null,
+            "en": "containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 120/38",
+          "title": {
+            "ko": null,
+            "en": "Esters containing sulfur"
+          }
+        },
+        {
+          "code": "C08F 120/40",
+          "title": {
+            "ko": null,
+            "en": "Esters of unsaturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 120/42",
+          "title": {
+            "ko": null,
+            "en": "Nitriles"
+          }
+        },
+        {
+          "code": "C08F 120/44",
+          "title": {
+            "ko": null,
+            "en": "Acrylonitrile"
+          }
+        },
+        {
+          "code": "C08F 120/50",
+          "title": {
+            "ko": null,
+            "en": "containing four or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 120/52",
+          "title": {
+            "ko": null,
+            "en": "Amides or imides"
+          }
+        },
+        {
+          "code": "C08F 120/54",
+          "title": {
+            "ko": null,
+            "en": "Amides"
+          }
+        },
+        {
+          "code": "C08F 120/56",
+          "title": {
+            "ko": null,
+            "en": "Acrylamide; Methacrylamide"
+          }
+        },
+        {
+          "code": "C08F 120/58",
+          "title": {
+            "ko": null,
+            "en": "containing oxygen in addition to the carbonamido oxygen"
+          }
+        },
+        {
+          "code": "C08F 120/60",
+          "title": {
+            "ko": null,
+            "en": "containing nitrogen in addition to the carbonamido nitrogen"
+          }
+        },
+        {
+          "code": "C08F 120/62",
+          "title": {
+            "ko": null,
+            "en": "Monocarboxylic acids having ten or more carbon atoms; Derivatives thereof"
+          }
+        },
+        {
+          "code": "C08F 120/64",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 120/66",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides"
+          }
+        },
+        {
+          "code": "C08F 120/68",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 120/70",
+          "title": {
+            "ko": null,
+            "en": "Nitriles; Amides; Imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 122/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a carboxyl radical and containing at least one other carboxyl radical in the molecule; Salts, anhydrides, esters, amides, imides, or nitriles thereof"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 122/02",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 122/04",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides, e.g. cyclic anhydrides"
+          }
+        },
+        {
+          "code": "C08F 122/06",
+          "title": {
+            "ko": null,
+            "en": "Maleic anhydride"
+          }
+        },
+        {
+          "code": "C08F 122/10",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 122/12",
+          "title": {
+            "ko": null,
+            "en": "of phenols or saturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 122/14",
+          "title": {
+            "ko": null,
+            "en": "Esters having no free carboxylic acid groups"
+          }
+        },
+        {
+          "code": "C08F 122/16",
+          "title": {
+            "ko": null,
+            "en": "Esters having free carboxylic acid groups"
+          }
+        },
+        {
+          "code": "C08F 122/18",
+          "title": {
+            "ko": null,
+            "en": "Esters containing halogen"
+          }
+        },
+        {
+          "code": "C08F 122/20",
+          "title": {
+            "ko": null,
+            "en": "Esters containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 122/22",
+          "title": {
+            "ko": null,
+            "en": "Esters containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 122/24",
+          "title": {
+            "ko": null,
+            "en": "Esters containing sulfur"
+          }
+        },
+        {
+          "code": "C08F 122/26",
+          "title": {
+            "ko": null,
+            "en": "of unsaturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 122/28",
+          "title": {
+            "ko": null,
+            "en": "Diallyl maleate"
+          }
+        },
+        {
+          "code": "C08F 122/30",
+          "title": {
+            "ko": null,
+            "en": "Nitriles"
+          }
+        },
+        {
+          "code": "C08F 122/32",
+          "title": {
+            "ko": null,
+            "en": "Alpha-cyano-acrylic acid; Esters thereof"
+          }
+        },
+        {
+          "code": "C08F 122/34",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene cyanide"
+          }
+        },
+        {
+          "code": "C08F 122/36",
+          "title": {
+            "ko": null,
+            "en": "Amides or imides"
+          }
+        },
+        {
+          "code": "C08F 122/38",
+          "title": {
+            "ko": null,
+            "en": "Amides"
+          }
+        },
+        {
+          "code": "C08F 122/40",
+          "title": {
+            "ko": null,
+            "en": "Imides, e.g. cyclic imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 124/00",
+      "title": {
+        "ko": "하나의 탄소-탄소 이중 결합을 함유하는 하나 이상의 불포화 지방족기를 갖고, 그것의 적어도 하나가 산소 함유 헤테로 고리로 종결되어 있는 화합물의 호모중합체(다작용성 산의 고리 에스테르 C08F 118/00; 불포화 산의 고리 에스테르 C08F 120/00, C08F 122/00)",
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a heterocyclic ring containing oxygen (cyclic esters of polyfunctional acids C08F0118000000;cyclic anhydrides of unsaturated acids C08F0120000000, C08F0122000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 126/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a single or double bond to nitrogen or by a heterocyclic ring containing nitrogen"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 126/02",
+          "title": {
+            "ko": null,
+            "en": "by a single or double bond to nitrogen"
+          }
+        },
+        {
+          "code": "C08F 126/04",
+          "title": {
+            "ko": null,
+            "en": "Diallylamine"
+          }
+        },
+        {
+          "code": "C08F 126/06",
+          "title": {
+            "ko": null,
+            "en": "by a heterocyclic ring containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 126/08",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-pyrrolidine"
+          }
+        },
+        {
+          "code": "C08F 126/10",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-pyrrolidone"
+          }
+        },
+        {
+          "code": "C08F 126/12",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-carbazole"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 128/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon bond, and at least one being terminated by a bond to sulfur or by a heterocyclic ring containing sulfur"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 128/02",
+          "title": {
+            "ko": null,
+            "en": "by a bond to sulfur"
+          }
+        },
+        {
+          "code": "C08F 128/04",
+          "title": {
+            "ko": null,
+            "en": "Thioethers"
+          }
+        },
+        {
+          "code": "C08F 128/06",
+          "title": {
+            "ko": null,
+            "en": "by a heterocyclic ring containing sulfur"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 130/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and containing phosphorus, selenium, tellurium or a metal"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 130/02",
+          "title": {
+            "ko": null,
+            "en": "containing phosphorus"
+          }
+        },
+        {
+          "code": "C08F 130/04",
+          "title": {
+            "ko": null,
+            "en": "containing a metal"
+          }
+        },
+        {
+          "code": "C08F 130/06",
+          "title": {
+            "ko": null,
+            "en": "containing boron"
+          }
+        },
+        {
+          "code": "C08F 130/08",
+          "title": {
+            "ko": null,
+            "en": "containing silicon"
+          }
+        },
+        {
+          "code": "C08F 130/10",
+          "title": {
+            "ko": null,
+            "en": "containing germanium"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 132/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of cyclic compounds containing no unsaturated aliphatic radicals in a side chain, and having one or more carbon-to-carbon double bonds in a carbocyclic ring system"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 132/02",
+          "title": {
+            "ko": null,
+            "en": "having no condensed rings"
+          }
+        },
+        {
+          "code": "C08F 132/04",
+          "title": {
+            "ko": null,
+            "en": "having one carbon-to-carbon double bond"
+          }
+        },
+        {
+          "code": "C08F 132/06",
+          "title": {
+            "ko": null,
+            "en": "having two or more carbon-to-carbon double bonds"
+          }
+        },
+        {
+          "code": "C08F 132/08",
+          "title": {
+            "ko": null,
+            "en": "having condensed rings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 134/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain and having one or more carbon-to-carbon double bonds in a heterocyclic ring (cyclic esters of polyfunctional acids C08F0118000000;cyclic anhydrides or imides C08F0122000000)"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 134/02",
+          "title": {
+            "ko": null,
+            "en": "in a ring containing oxygen"
+          }
+        },
+        {
+          "code": "C08F 134/04",
+          "title": {
+            "ko": null,
+            "en": "in a ring containing sulfur"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 136/00",
+      "title": {
+        "ko": "하나 이상의 불포화 지방족기를 갖고 그것의 적어도 하나가 둘 이상의 탄소-탄소 이중 결합을 함유하는 화합물의 호모중합체(C08F 132/00이 우선)",
+        "en": "Homopolymers of compounds having one or more unsaturated aliphatic radicals, at least one having two or more carbon-to-carbon double bonds (C08F0132000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 136/02",
+          "title": {
+            "ko": null,
+            "en": "the radical having only two carbon-to-carbon double bonds"
+          }
+        },
+        {
+          "code": "C08F 136/04",
+          "title": {
+            "ko": null,
+            "en": "conjugated"
+          }
+        },
+        {
+          "code": "C08F 136/06",
+          "title": {
+            "ko": null,
+            "en": "Butadiene"
+          }
+        },
+        {
+          "code": "C08F 136/08",
+          "title": {
+            "ko": null,
+            "en": "Isoprene"
+          }
+        },
+        {
+          "code": "C08F 136/14",
+          "title": {
+            "ko": null,
+            "en": "containing elements other than carbon and hydrogen"
+          }
+        },
+        {
+          "code": "C08F 136/16",
+          "title": {
+            "ko": null,
+            "en": "containing halogen"
+          }
+        },
+        {
+          "code": "C08F 136/18",
+          "title": {
+            "ko": null,
+            "en": "containing chlorine"
+          }
+        },
+        {
+          "code": "C08F 136/20",
+          "title": {
+            "ko": null,
+            "en": "unconjugated"
+          }
+        },
+        {
+          "code": "C08F 136/22",
+          "title": {
+            "ko": null,
+            "en": "the radical having three or more carbon-to-carbon double bonds"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 138/00",
+      "title": {
+        "ko": null,
+        "en": "Homopolymers of compounds having one or more carbon-to-carbon triple bonds"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 138/02",
+          "title": {
+            "ko": null,
+            "en": "Acetylene"
+          }
+        },
+        {
+          "code": "C08F 138/04",
+          "title": {
+            "ko": null,
+            "en": "Vinylacetylene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 210/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 210/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of unsaturated aliphatic hydrocarbons having only one carbon-to-carbon double bond"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 210/02",
+          "title": {
+            "ko": null,
+            "en": "Ethene"
+          }
+        },
+        {
+          "code": "C08F 210/04",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or four carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 210/06",
+          "title": {
+            "ko": null,
+            "en": "Propene"
+          }
+        },
+        {
+          "code": "C08F 210/08",
+          "title": {
+            "ko": null,
+            "en": "Butenes"
+          }
+        },
+        {
+          "code": "C08F 210/10",
+          "title": {
+            "ko": null,
+            "en": "Isobutene"
+          }
+        },
+        {
+          "code": "C08F 210/12",
+          "title": {
+            "ko": null,
+            "en": "with conjugated diolefins, e.g. butyl rubber"
+          }
+        },
+        {
+          "code": "C08F 210/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing five or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 210/16",
+          "title": {
+            "ko": null,
+            "en": "Copolymers of ethene with alpha-alkenes, e.g. EP rubbers"
+          }
+        },
+        {
+          "code": "C08F 210/18",
+          "title": {
+            "ko": null,
+            "en": "with non-conjugated dienes, e.g. EPT rubbers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 212/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an aromatic carbocyclic ring"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 212/02",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing only one unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 212/04",
+          "title": {
+            "ko": null,
+            "en": "containing one ring"
+          }
+        },
+        {
+          "code": "C08F 212/06",
+          "title": {
+            "ko": null,
+            "en": "Hydrocarbons"
+          }
+        },
+        {
+          "code": "C08F 212/08",
+          "title": {
+            "ko": null,
+            "en": "Styrene"
+          }
+        },
+        {
+          "code": "C08F 212/10",
+          "title": {
+            "ko": null,
+            "en": "with nitriles"
+          }
+        },
+        {
+          "code": "C08F 212/12",
+          "title": {
+            "ko": null,
+            "en": "containing a branched unsaturated aliphatic radical or an alkyl radical attached to the ring"
+          }
+        },
+        {
+          "code": "C08F 212/14",
+          "title": {
+            "ko": null,
+            "en": "substituted by hetero atoms or groups containing hetero atoms"
+          }
+        },
+        {
+          "code": "C08F 212/32",
+          "title": {
+            "ko": null,
+            "en": "containing two or more rings"
+          }
+        },
+        {
+          "code": "C08F 212/34",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing two or more unsaturated aliphatic radicals"
+          }
+        },
+        {
+          "code": "C08F 212/36",
+          "title": {
+            "ko": null,
+            "en": "Divinylbenzene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 214/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a halogen"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 214/02",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing chlorine"
+          }
+        },
+        {
+          "code": "C08F 214/04",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing two carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 214/06",
+          "title": {
+            "ko": null,
+            "en": "Vinyl chloride"
+          }
+        },
+        {
+          "code": "C08F 214/08",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene chloride"
+          }
+        },
+        {
+          "code": "C08F 214/10",
+          "title": {
+            "ko": null,
+            "en": "with nitriles"
+          }
+        },
+        {
+          "code": "C08F 214/12",
+          "title": {
+            "ko": null,
+            "en": "1,2-Dichloroethene"
+          }
+        },
+        {
+          "code": "C08F 214/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 214/16",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing bromine or iodine"
+          }
+        },
+        {
+          "code": "C08F 214/18",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing fluorine"
+          }
+        },
+        {
+          "code": "C08F 214/20",
+          "title": {
+            "ko": null,
+            "en": "Vinyl fluoride"
+          }
+        },
+        {
+          "code": "C08F 214/22",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene fluoride"
+          }
+        },
+        {
+          "code": "C08F 214/24",
+          "title": {
+            "ko": null,
+            "en": "Trifluorochloroethene"
+          }
+        },
+        {
+          "code": "C08F 214/26",
+          "title": {
+            "ko": null,
+            "en": "Tetrafluoroethene"
+          }
+        },
+        {
+          "code": "C08F 214/28",
+          "title": {
+            "ko": null,
+            "en": "Hexafluoropropene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 216/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an alcohol, ether, aldehydo, ketonic, acetal, or ketal radical"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 216/02",
+          "title": {
+            "ko": null,
+            "en": "by an alcohol radical"
+          }
+        },
+        {
+          "code": "C08F 216/04",
+          "title": {
+            "ko": null,
+            "en": "Acyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 216/06",
+          "title": {
+            "ko": null,
+            "en": "Polyvinyl alcohol"
+          }
+        },
+        {
+          "code": "C08F 216/08",
+          "title": {
+            "ko": null,
+            "en": "Allyl alcohol"
+          }
+        },
+        {
+          "code": "C08F 216/10",
+          "title": {
+            "ko": null,
+            "en": "Carbocyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 216/12",
+          "title": {
+            "ko": null,
+            "en": "by an ether radical"
+          }
+        },
+        {
+          "code": "C08F 216/14",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing only one unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 216/16",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing no hetero atoms other than the ether oxygen"
+          }
+        },
+        {
+          "code": "C08F 216/18",
+          "title": {
+            "ko": null,
+            "en": "Acyclic compounds"
+          }
+        },
+        {
+          "code": "C08F 216/20",
+          "title": {
+            "ko": null,
+            "en": "Monomers containing three or more carbon atoms in the unsaturated aliphatic radical"
+          }
+        },
+        {
+          "code": "C08F 216/34",
+          "title": {
+            "ko": null,
+            "en": "by an aldehydo radical"
+          }
+        },
+        {
+          "code": "C08F 216/36",
+          "title": {
+            "ko": null,
+            "en": "by a ketonic radical"
+          }
+        },
+        {
+          "code": "C08F 216/38",
+          "title": {
+            "ko": null,
+            "en": "by an acetal or ketal radical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 218/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an acyloxy radical of a saturated carboxylic acid, of carbonic acid, or of a haloformic acid"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 218/02",
+          "title": {
+            "ko": null,
+            "en": "Esters of monocarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 218/04",
+          "title": {
+            "ko": null,
+            "en": "Vinyl esters"
+          }
+        },
+        {
+          "code": "C08F 218/06",
+          "title": {
+            "ko": null,
+            "en": "Vinyl formate"
+          }
+        },
+        {
+          "code": "C08F 218/08",
+          "title": {
+            "ko": null,
+            "en": "Vinyl acetate"
+          }
+        },
+        {
+          "code": "C08F 218/10",
+          "title": {
+            "ko": null,
+            "en": "of monocarboxylic acids containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 218/12",
+          "title": {
+            "ko": null,
+            "en": "with unsaturated alcohols containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 218/14",
+          "title": {
+            "ko": null,
+            "en": "Esters of polycarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 218/16",
+          "title": {
+            "ko": null,
+            "en": "with alcohols containing three or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 218/18",
+          "title": {
+            "ko": null,
+            "en": "Diallyl phthalate"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 220/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and only one being terminated by only one carboxyl radical or a salt, anhydride, ester, amide, imide, or nitrile thereof"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 220/02",
+          "title": {
+            "ko": null,
+            "en": "Monocarboxylic acids having less than ten carbon atoms; Derivatives thereof"
+          }
+        },
+        {
+          "code": "C08F 220/04",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metals salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 220/06",
+          "title": {
+            "ko": null,
+            "en": "Acrylic acid; Methacrylic acid; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 220/08",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides"
+          }
+        },
+        {
+          "code": "C08F 220/10",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 220/12",
+          "title": {
+            "ko": null,
+            "en": "of monohydric alcohols or phenols"
+          }
+        },
+        {
+          "code": "C08F 220/14",
+          "title": {
+            "ko": null,
+            "en": "Methyl esters"
+          }
+        },
+        {
+          "code": "C08F 220/16",
+          "title": {
+            "ko": null,
+            "en": "of phenols or of alcohols containing two or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 220/18",
+          "title": {
+            "ko": null,
+            "en": "with acrylic or methacrylic acids"
+          }
+        },
+        {
+          "code": "C08F 220/20",
+          "title": {
+            "ko": null,
+            "en": "of polyhydric alcohols or phenols"
+          }
+        },
+        {
+          "code": "C08F 220/22",
+          "title": {
+            "ko": null,
+            "en": "Esters containing halogen"
+          }
+        },
+        {
+          "code": "C08F 220/24",
+          "title": {
+            "ko": null,
+            "en": "containing perhaloalkyl radicals"
+          }
+        },
+        {
+          "code": "C08F 220/26",
+          "title": {
+            "ko": null,
+            "en": "Esters containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 220/28",
+          "title": {
+            "ko": null,
+            "en": "containing no aromatic rings in the alcohol moiety"
+          }
+        },
+        {
+          "code": "C08F 220/30",
+          "title": {
+            "ko": null,
+            "en": "containing aromatic rings in the alcohol moiety"
+          }
+        },
+        {
+          "code": "C08F 220/32",
+          "title": {
+            "ko": null,
+            "en": "containing epoxy radicals"
+          }
+        },
+        {
+          "code": "C08F 220/34",
+          "title": {
+            "ko": null,
+            "en": "Esters containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 220/36",
+          "title": {
+            "ko": null,
+            "en": "containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 220/38",
+          "title": {
+            "ko": null,
+            "en": "Esters containing sulfur"
+          }
+        },
+        {
+          "code": "C08F 220/40",
+          "title": {
+            "ko": null,
+            "en": "Esters of unsaturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 220/42",
+          "title": {
+            "ko": null,
+            "en": "Nitriles"
+          }
+        },
+        {
+          "code": "C08F 220/44",
+          "title": {
+            "ko": null,
+            "en": "Acrylonitrile"
+          }
+        },
+        {
+          "code": "C08F 220/46",
+          "title": {
+            "ko": null,
+            "en": "with carboxylic acids, sulfonic acids or salts thereof"
+          }
+        },
+        {
+          "code": "C08F 220/48",
+          "title": {
+            "ko": null,
+            "en": "with nitrogen-containing monomers"
+          }
+        },
+        {
+          "code": "C08F 220/50",
+          "title": {
+            "ko": null,
+            "en": "containing four or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 220/52",
+          "title": {
+            "ko": null,
+            "en": "Amides or imides"
+          }
+        },
+        {
+          "code": "C08F 220/54",
+          "title": {
+            "ko": null,
+            "en": "Amides"
+          }
+        },
+        {
+          "code": "C08F 220/56",
+          "title": {
+            "ko": null,
+            "en": "Acrylamide; Methacrylamide"
+          }
+        },
+        {
+          "code": "C08F 220/58",
+          "title": {
+            "ko": null,
+            "en": "containing oxygen in addition to the carbonamido oxygen"
+          }
+        },
+        {
+          "code": "C08F 220/60",
+          "title": {
+            "ko": null,
+            "en": "containing nitrogen in addition to the carbonamido nitrogen"
+          }
+        },
+        {
+          "code": "C08F 220/62",
+          "title": {
+            "ko": null,
+            "en": "Monocarboxylic acids having ten or more carbon atoms; Derivatives thereof"
+          }
+        },
+        {
+          "code": "C08F 220/64",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 220/66",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides"
+          }
+        },
+        {
+          "code": "C08F 220/68",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 220/70",
+          "title": {
+            "ko": null,
+            "en": "Nitriles; Amides; Imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 222/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a carboxyl radical and containing at least one other carboxyl radical in the molecule; Salts, anhydrides, esters, amides, imides, or nitriles thereof"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 222/02",
+          "title": {
+            "ko": null,
+            "en": "Acids; Metal salts or ammonium salts thereof"
+          }
+        },
+        {
+          "code": "C08F 222/04",
+          "title": {
+            "ko": null,
+            "en": "Anhydrides, e.g. cyclic anhydrides"
+          }
+        },
+        {
+          "code": "C08F 222/06",
+          "title": {
+            "ko": null,
+            "en": "Maleic anhydride"
+          }
+        },
+        {
+          "code": "C08F 222/08",
+          "title": {
+            "ko": null,
+            "en": "with vinyl aromatic monomers"
+          }
+        },
+        {
+          "code": "C08F 222/10",
+          "title": {
+            "ko": null,
+            "en": "Esters"
+          }
+        },
+        {
+          "code": "C08F 222/12",
+          "title": {
+            "ko": null,
+            "en": "of phenols or saturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 222/14",
+          "title": {
+            "ko": null,
+            "en": "Esters having no free carboxylic acid groups"
+          }
+        },
+        {
+          "code": "C08F 222/16",
+          "title": {
+            "ko": null,
+            "en": "Esters having free carboxylic acid groups"
+          }
+        },
+        {
+          "code": "C08F 222/18",
+          "title": {
+            "ko": null,
+            "en": "Esters containing halogen"
+          }
+        },
+        {
+          "code": "C08F 222/20",
+          "title": {
+            "ko": null,
+            "en": "Esters containing oxygen in addition to the carboxy oxygen"
+          }
+        },
+        {
+          "code": "C08F 222/22",
+          "title": {
+            "ko": null,
+            "en": "Esters containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 222/24",
+          "title": {
+            "ko": null,
+            "en": "Esters containing sulfur"
+          }
+        },
+        {
+          "code": "C08F 222/26",
+          "title": {
+            "ko": null,
+            "en": "of unsaturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 222/28",
+          "title": {
+            "ko": null,
+            "en": "Diallyl maleate"
+          }
+        },
+        {
+          "code": "C08F 222/30",
+          "title": {
+            "ko": null,
+            "en": "Nitriles"
+          }
+        },
+        {
+          "code": "C08F 222/32",
+          "title": {
+            "ko": null,
+            "en": "Alpha-cyano-acrylic acid; Esters thereof"
+          }
+        },
+        {
+          "code": "C08F 222/34",
+          "title": {
+            "ko": null,
+            "en": "Vinylidene cyanide"
+          }
+        },
+        {
+          "code": "C08F 222/36",
+          "title": {
+            "ko": null,
+            "en": "Amides or imides"
+          }
+        },
+        {
+          "code": "C08F 222/38",
+          "title": {
+            "ko": null,
+            "en": "Amides"
+          }
+        },
+        {
+          "code": "C08F 222/40",
+          "title": {
+            "ko": null,
+            "en": "Imides, e.g. cyclic imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 224/00",
+      "title": {
+        "ko": "하나의 탄소-탄소 이중 결합을 함유하는 하나 이상의 불포화 지방족기를 갖고 그것의 적어도 하나가 산소 함유 헤테로 고리에 의하여 종결되어 있는 화합물의 공중합체 (다작용성 산의 고리 에스테르 C08F 218/00, 불포화 산의 고리무수물 C08F 220/00, C08F 222/00)",
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a heterocyclic ring containing oxygen (cyclic esters of polyfunctional acids C08F0218000000;cyclic anhydrides of unsaturated acids C08F0220000000, C08F0222000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 226/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a single or double bond to nitrogen or by a heterocyclic ring containing nitrogen"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 226/02",
+          "title": {
+            "ko": null,
+            "en": "by a single or double bond to nitrogen"
+          }
+        },
+        {
+          "code": "C08F 226/04",
+          "title": {
+            "ko": null,
+            "en": "Diallylamine"
+          }
+        },
+        {
+          "code": "C08F 226/06",
+          "title": {
+            "ko": null,
+            "en": "by a heterocyclic ring containing nitrogen"
+          }
+        },
+        {
+          "code": "C08F 226/08",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-pyrrolidine"
+          }
+        },
+        {
+          "code": "C08F 226/10",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-pyrrolidone"
+          }
+        },
+        {
+          "code": "C08F 226/12",
+          "title": {
+            "ko": null,
+            "en": "N-Vinyl-carbazole"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 228/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a bond to sulfur or by a heterocyclic ring containing sulfur"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 228/02",
+          "title": {
+            "ko": null,
+            "en": "by a bond to sulfur"
+          }
+        },
+        {
+          "code": "C08F 228/04",
+          "title": {
+            "ko": null,
+            "en": "Thioethers"
+          }
+        },
+        {
+          "code": "C08F 228/06",
+          "title": {
+            "ko": null,
+            "en": "by a heterocyclic ring containing sulfur"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 230/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and containing phosphorus, selenium, tellurium or a metal"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 230/02",
+          "title": {
+            "ko": null,
+            "en": "containing phosphorus"
+          }
+        },
+        {
+          "code": "C08F 230/04",
+          "title": {
+            "ko": null,
+            "en": "containing a metal"
+          }
+        },
+        {
+          "code": "C08F 230/06",
+          "title": {
+            "ko": null,
+            "en": "containing boron"
+          }
+        },
+        {
+          "code": "C08F 230/08",
+          "title": {
+            "ko": null,
+            "en": "containing silicon"
+          }
+        },
+        {
+          "code": "C08F 230/10",
+          "title": {
+            "ko": null,
+            "en": "containing germanium"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 232/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of cyclic compounds containing no unsaturated aliphatic radicals in a side chain, and having one or more carbon-to-carbon double bonds in a carbocyclic ring system"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 232/02",
+          "title": {
+            "ko": null,
+            "en": "having no condensed rings"
+          }
+        },
+        {
+          "code": "C08F 232/04",
+          "title": {
+            "ko": null,
+            "en": "having one carbon-to-carbon double bond"
+          }
+        },
+        {
+          "code": "C08F 232/06",
+          "title": {
+            "ko": null,
+            "en": "having two or more carbon-to-carbon double bonds"
+          }
+        },
+        {
+          "code": "C08F 232/08",
+          "title": {
+            "ko": null,
+            "en": "having condensed rings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 234/00",
+      "title": {
+        "ko": "헤테로 고리에 하나 이상의 탄소-탄소 이중 결합을 함유하고 곁사슬에 불포화 지방족기를 갖지 않는 고리 화합물의 공중합체(다작용성 산의 고리 에스테르 C08F 218/00; 고리 무수물 또는 이미드 C08F 222/00)",
+        "en": "Copolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain and having one or more carbon-to-carbon double bonds in a heterocyclic ring (cyclic esters of polyfunctional acids C08F0218000000;cyclic anhydrides or imides C08F0222000000)"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 234/02",
+          "title": {
+            "ko": null,
+            "en": "in a ring containing oxygen"
+          }
+        },
+        {
+          "code": "C08F 234/04",
+          "title": {
+            "ko": null,
+            "en": "in a ring containing sulfur"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 236/00",
+      "title": {
+        "ko": "하나 이상의 불포화 지방족기를 갖고 그것의 적어도 하나가 둘 이상의 탄소-탄소 이중 결합을 함유하는 화합물의 공중합체(C08F 232/00이 우선)",
+        "en": "Copolymers of compounds having one or more unsaturated aliphatic radicals, at least one having two or more carbon-to-carbon double bonds (C08F0232000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 236/02",
+          "title": {
+            "ko": null,
+            "en": "the radical having only two carbon-to-carbon double bonds"
+          }
+        },
+        {
+          "code": "C08F 236/04",
+          "title": {
+            "ko": null,
+            "en": "conjugated"
+          }
+        },
+        {
+          "code": "C08F 236/06",
+          "title": {
+            "ko": null,
+            "en": "Butadiene"
+          }
+        },
+        {
+          "code": "C08F 236/08",
+          "title": {
+            "ko": null,
+            "en": "Isoprene"
+          }
+        },
+        {
+          "code": "C08F 236/10",
+          "title": {
+            "ko": null,
+            "en": "with vinyl aromatic monomers"
+          }
+        },
+        {
+          "code": "C08F 236/12",
+          "title": {
+            "ko": null,
+            "en": "with nitriles"
+          }
+        },
+        {
+          "code": "C08F 236/14",
+          "title": {
+            "ko": null,
+            "en": "containing elements other than carbon and hydrogen"
+          }
+        },
+        {
+          "code": "C08F 236/16",
+          "title": {
+            "ko": null,
+            "en": "containing halogen"
+          }
+        },
+        {
+          "code": "C08F 236/18",
+          "title": {
+            "ko": null,
+            "en": "containing chlorine"
+          }
+        },
+        {
+          "code": "C08F 236/20",
+          "title": {
+            "ko": null,
+            "en": "unconjugated"
+          }
+        },
+        {
+          "code": "C08F 236/22",
+          "title": {
+            "ko": null,
+            "en": "the radical having three or more carbon-to-carbon double bonds"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 238/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of compounds having one or more carbon-to-carbon triple bonds"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 238/02",
+          "title": {
+            "ko": null,
+            "en": "Acetylene"
+          }
+        },
+        {
+          "code": "C08F 238/04",
+          "title": {
+            "ko": null,
+            "en": "Vinylacetylene"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 240/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of hydrocarbons and mineral oils, e.g. petroleum resins"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 242/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers of drying-oils with other monomers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 244/00",
+      "title": {
+        "ko": null,
+        "en": "Coumarone-indene copolymers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 246/00",
+      "title": {
+        "ko": null,
+        "en": "Copolymers in which the nature of only the monomers in minority is defined"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 251/00",
+      "title": {
+        "ko": null,
+        "en": "Graft polymers; Polymers crosslinked with unsaturated monomers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 251/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polysaccharides or derivatives thereof"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 251/02",
+          "title": {
+            "ko": null,
+            "en": "on to cellulose or derivatives thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 253/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by polymerising monomers on to natural rubbers or derivatives thereof"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 255/00",
+      "title": {
+        "ko": "그룹 C08F 10/00에서 정의된 탄화수소의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of hydrocarbons as defined in group C08F0010000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 255/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of olefins having two or three carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 255/04",
+          "title": {
+            "ko": null,
+            "en": "onto ethylene-propylene copolymers"
+          }
+        },
+        {
+          "code": "C08F 255/06",
+          "title": {
+            "ko": null,
+            "en": "onto ethylene-propylene-diene terpolymers"
+          }
+        },
+        {
+          "code": "C08F 255/08",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of olefins having four or more carbon atoms"
+          }
+        },
+        {
+          "code": "C08F 255/10",
+          "title": {
+            "ko": null,
+            "en": "on to butene polymers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 257/00",
+      "title": {
+        "ko": "그룹 C08F 12/00에서 정의된 방향족 단량체의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of aromatic monomers as defined in group C08F0012000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 257/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of styrene or alkyl-substituted styrenes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 259/00",
+      "title": {
+        "ko": "그룹 C08F 14/00에서 정의된 단량체를 함유하는 할로겐 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of halogen containing monomers as defined in group C08F0014000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 259/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers containing chlorine"
+          }
+        },
+        {
+          "code": "C08F 259/04",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of vinyl chloride"
+          }
+        },
+        {
+          "code": "C08F 259/06",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of vinylidene chloride"
+          }
+        },
+        {
+          "code": "C08F 259/08",
+          "title": {
+            "ko": null,
+            "en": "on to polymers containing fluorine"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 261/00",
+      "title": {
+        "ko": "그룹 C08F 16/00에서 정의된 산소 함유 단량체의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of oxygen-containing monomers as defined in group C08F0016000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 261/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of unsaturated alcohols"
+          }
+        },
+        {
+          "code": "C08F 261/04",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of vinyl alcohol"
+          }
+        },
+        {
+          "code": "C08F 261/06",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of unsaturated ethers"
+          }
+        },
+        {
+          "code": "C08F 261/08",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of unsaturated aldehydes"
+          }
+        },
+        {
+          "code": "C08F 261/10",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of unsaturated ketones"
+          }
+        },
+        {
+          "code": "C08F 261/12",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of unsaturated acetals or ketals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 263/00",
+      "title": {
+        "ko": "그룹 C08F 18/00에서 정의된 포화산과 불포화 알코올의 에스테르의 고분자에 단량체를 중합시켜 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of esters of unsaturated alcohols with saturated acids as defined in group C08F0018000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 263/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of vinyl esters with monocarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 263/04",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of vinyl acetate"
+          }
+        },
+        {
+          "code": "C08F 263/06",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of esters with polycarboxylic acids"
+          }
+        },
+        {
+          "code": "C08F 263/08",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation of diallyl phthalate prepolymers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 265/00",
+      "title": {
+        "ko": "그룹 C08F 20/00에서 정의된 불포화 모노카르복실산 또는 그의 유도체의 고분자에 단량체를 중합시켜 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of unsaturated monocarboxylic acids or derivatives thereof as defined in group C08F0020000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 265/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of acids, salts or anhydrides"
+          }
+        },
+        {
+          "code": "C08F 265/04",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of esters"
+          }
+        },
+        {
+          "code": "C08F 265/06",
+          "title": {
+            "ko": null,
+            "en": "Polymerisation of acrylate or methacrylate esters on to polymers thereof"
+          }
+        },
+        {
+          "code": "C08F 265/08",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of nitriles"
+          }
+        },
+        {
+          "code": "C08F 265/10",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of amides or imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 267/00",
+      "title": {
+        "ko": "그룹 C08F 22/00에 정의된 불포화 폴리카르복실산 또는 그의 유도체의 고분자에 단량체를 중합시켜 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of unsaturated polycarboxylic acids or derivatives thereof as defined in group C08F0022000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 267/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of acids or salts"
+          }
+        },
+        {
+          "code": "C08F 267/04",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of anhydrides"
+          }
+        },
+        {
+          "code": "C08F 267/06",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of esters"
+          }
+        },
+        {
+          "code": "C08F 267/08",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of nitriles"
+          }
+        },
+        {
+          "code": "C08F 267/10",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of amides or imides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 269/00",
+      "title": {
+        "ko": "그룹 C08F 24/00에 정의된 헤테로 고리 산소를 함유하는 단량체의 고분자에 단량체를 중합시켜 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of heterocyclic oxygen-containing monomers as defined in group C08F0024000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 271/00",
+      "title": {
+        "ko": "그룹 C08F 26/00에 정의된 질소 함유 단량체의 고분자에 단량체를 중합시킴으로써 의해 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of nitrogen-containing monomers as defined in group C08F0026000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 271/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of monomers containing heterocyclic nitrogen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 273/00",
+      "title": {
+        "ko": "그룹 C08F 28/00에서 정의된 황 함유 단량체의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of sulfur-containing monomers as defined in group C08F0028000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 275/00",
+      "title": {
+        "ko": "그룹 C08F 30/00에서 정의된 인, 셀레늄, 텔루르 또는 금속을 함유하는 단량체의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of monomers containing phosphorus, selenium, tellurium, or a metal as defined in group C08F0030000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 277/00",
+      "title": {
+        "ko": "그룹 C08F 32/00, C08F 34/00에서 각각 정의된 탄소 고리 또는 헤테로 고리를 함유하는 단량체의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of carbocyclic or heterocyclic monomers as defined respectively in group C08F0032000000 or in group C08F0034000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 279/00",
+      "title": {
+        "ko": "그룹 C08F 36/00에서 정의된 둘 이상의 탄소-탄소 이중 결합을 함유하는 단량체의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of monomers having two or more carbon-to-carbon double bonds as defined in group C08F0036000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 279/02",
+          "title": {
+            "ko": null,
+            "en": "on to polymers of conjugated dienes"
+          }
+        },
+        {
+          "code": "C08F 279/04",
+          "title": {
+            "ko": null,
+            "en": "Vinyl aromatic monomers and nitriles as the only monomers"
+          }
+        },
+        {
+          "code": "C08F 279/06",
+          "title": {
+            "ko": null,
+            "en": "Vinyl aromatic monomers and methacrylates as the only monomers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 281/00",
+      "title": {
+        "ko": "그룹 C08F 38/00에서 정의된 탄소-탄소 삼중 결합을 갖는 단량체의 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers of monomers having carbon-to-carbon triple bonds as defined in group C08F0038000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 283/00",
+      "title": {
+        "ko": "서브클래스 C08G로 분류되는 고분자에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers provided for in subclass C08G"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 283/01",
+          "title": {
+            "ko": null,
+            "en": "on to unsaturated polyesters"
+          }
+        },
+        {
+          "code": "C08F 283/02",
+          "title": {
+            "ko": null,
+            "en": "on to polycarbonates or saturated polyesters"
+          }
+        },
+        {
+          "code": "C08F 283/04",
+          "title": {
+            "ko": null,
+            "en": "on to polycarbonamides, polyesteramides or polyimides"
+          }
+        },
+        {
+          "code": "C08F 283/06",
+          "title": {
+            "ko": null,
+            "en": "on to polyethers, polyoxymethylenes or polyacetals"
+          }
+        },
+        {
+          "code": "C08F 283/08",
+          "title": {
+            "ko": null,
+            "en": "on to polyphenylene oxides"
+          }
+        },
+        {
+          "code": "C08F 283/10",
+          "title": {
+            "ko": null,
+            "en": "on to polymers containing more than one epoxy radical per molecule"
+          }
+        },
+        {
+          "code": "C08F 283/12",
+          "title": {
+            "ko": null,
+            "en": "on to polysiloxanes"
+          }
+        },
+        {
+          "code": "C08F 283/14",
+          "title": {
+            "ko": null,
+            "en": "on to polymers obtained by ring-opening polymerisation of carbocyclic compounds having one or more carbon-to-carbon double bonds in the carbocyclic ring, i.e. polyalkeneamers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 285/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by polymerising monomers on to preformed graft polymers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 287/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by polymerising monomers on to block polymers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 289/00",
+      "title": {
+        "ko": "그룹 C08F 251/00 ~ C08F 287/00에 포함되지 않는 고분자 화합물에 단량체를 중합시킴으로서 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to macromolecular compounds not provided for in groups C08F0251000000-C08F0287000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 290/00",
+      "title": {
+        "ko": "불포화 지방족 말단 또는 곁기의 도입에 의하여 변성된 고분자에 단량체를 중합시킴에 의하여 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to polymers modified by introduction of aliphatic unsaturated end or side groups"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 290/02",
+          "title": {
+            "ko": "불포화 말단의 도입에 의하여 변성된 고분자에 중합하는 것",
+            "en": "on to polymers modified by introduction of unsaturated end groups"
+          }
+        },
+        {
+          "code": "C08F 290/04",
+          "title": {
+            "ko": "서브클래스 C08C 또는 C08F에 분류되는 고분자",
+            "en": "Polymers provided for in subclasses C08C or C08F"
+          }
+        },
+        {
+          "code": "C08F 290/06",
+          "title": {
+            "ko": "서브클래스 C08G에 분류되는 고분자",
+            "en": "Polymers provided for in subclass C08G"
+          }
+        },
+        {
+          "code": "C08F 290/08",
+          "title": {
+            "ko": "불포화 곁기의 도입에 의하여 변성된 고분자에 중합시키는 것",
+            "en": "on to polymers modified by introduction of unsaturated side groups"
+          }
+        },
+        {
+          "code": "C08F 290/10",
+          "title": {
+            "ko": "서브클래스 C08B에 분류되는 고분자",
+            "en": "Polymers provided for in subclass C08B"
+          }
+        },
+        {
+          "code": "C08F 290/12",
+          "title": {
+            "ko": "서브클래스 C08C 또는 C08F에 분류되는 고분자",
+            "en": "Polymers provided for in subclasses C08C or C08F"
+          }
+        },
+        {
+          "code": "C08F 290/14",
+          "title": {
+            "ko": "서브클래스 C08G에 분류되는 고분자",
+            "en": "Polymers provided for in subclass C08G"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 291/00",
+      "title": {
+        "ko": "그룹 C08F 251 ~ C08F 289/00중 둘 이상의 그룹에 속하는 고분자 화합물에 단량체를 중합시킴으로써 얻어지는 고분자 화합물",
+        "en": "Macromolecular compounds obtained by polymerising monomers on to macromolecular compounds according to more than one of the groups C08F0251000000-C08F0289000000"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 291/02",
+          "title": {
+            "ko": null,
+            "en": "on to elastomers"
+          }
+        },
+        {
+          "code": "C08F 291/04",
+          "title": {
+            "ko": null,
+            "en": "on to halogen-containing macromolecules"
+          }
+        },
+        {
+          "code": "C08F 291/06",
+          "title": {
+            "ko": null,
+            "en": "on to oxygen-containing macromolecules"
+          }
+        },
+        {
+          "code": "C08F 291/08",
+          "title": {
+            "ko": null,
+            "en": "on to macromolecules containing hydroxy radicals"
+          }
+        },
+        {
+          "code": "C08F 291/10",
+          "title": {
+            "ko": null,
+            "en": "on to macromolecules containing epoxy radicals"
+          }
+        },
+        {
+          "code": "C08F 291/12",
+          "title": {
+            "ko": null,
+            "en": "on to nitrogen-containing macromolecules"
+          }
+        },
+        {
+          "code": "C08F 291/14",
+          "title": {
+            "ko": null,
+            "en": "on to sulfur-containing macromolecules"
+          }
+        },
+        {
+          "code": "C08F 291/16",
+          "title": {
+            "ko": null,
+            "en": "on to macromolecules containing more than two metal atoms"
+          }
+        },
+        {
+          "code": "C08F 291/18",
+          "title": {
+            "ko": "조사 또는 산화된 고분자에 중합시키는 것(에폭시화된 고분자에 중합시키는 것 C08F 291/10)",
+            "en": "on to irradiated or oxidised macromolecules (epoxidised C08F0291100000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 292/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by polymerising monomers on to inorganic materials"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 293/00",
+      "title": {
+        "ko": "출발 고분자의 한쪽 또는 양쪽 끝에만 결합하는 새로운 고분자 사슬의 형성을 가능하게 하는 기를 갖는 고분자에 대한 중합에 의하여 얻어지는 고분자 화합물(불포화 말단기의 도입에 의하여 변성된 고분자에 의한 것 C08F 290/02)",
+        "en": "Block polymers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 293/00",
+      "title": {
+        "ko": "출발 고분자의 한쪽 또는 양쪽 끝에만 결합하는 새로운 고분자 사슬의 형성을 가능하게 하는 기를 갖는 고분자에 대한 중합에 의하여 얻어지는 고분자 화합물(불포화 말단기의 도입에 의하여 변성된 고분자에 의한 것 C08F 290/02)",
+        "en": "Macromolecular compounds obtained by polymerisation on to a macromolecule having groups capable of inducing the formation of new polymer chains bound exclusively at one or both ends of the starting macromolecule (on to polymers modified by introduction of unsaturated end groups C08F0290020000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 295/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by polymerisation using successively different catalyst types without deactivating the intermediate polymer"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C08F 297/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by successively polymerising different monomer systems using a catalyst of the ionic or coordination type without deactivating the intermediate polymer"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 297/02",
+          "title": {
+            "ko": null,
+            "en": "using a catalyst of the anionic type"
+          }
+        },
+        {
+          "code": "C08F 297/04",
+          "title": {
+            "ko": null,
+            "en": "polymerising vinyl aromatic monomers and conjugated dienes"
+          }
+        },
+        {
+          "code": "C08F 297/06",
+          "title": {
+            "ko": null,
+            "en": "using a catalyst of the coordination type"
+          }
+        },
+        {
+          "code": "C08F 297/08",
+          "title": {
+            "ko": null,
+            "en": "polymerising mono-olefins"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 299/00",
+      "title": {
+        "ko": null,
+        "en": "Macromolecular compounds obtained by interreacting polymers involving only carbon-to-carbon unsaturated bond reactions, in the absence of non-macromolecular monomers"
+      },
+      "subgroups": [
+        {
+          "code": "C08F 299/02",
+          "title": {
+            "ko": null,
+            "en": "from unsaturated polycondensates"
+          }
+        },
+        {
+          "code": "C08F 299/04",
+          "title": {
+            "ko": null,
+            "en": "from polyesters"
+          }
+        },
+        {
+          "code": "C08F 299/06",
+          "title": {
+            "ko": null,
+            "en": "from polyurethanes"
+          }
+        },
+        {
+          "code": "C08F 299/08",
+          "title": {
+            "ko": null,
+            "en": "from polysiloxanes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C08F 301/00",
+      "title": {
+        "ko": "그룹 C08F 10/00 ~ C08F 299/00에 분류되지 않는 고분자 화합물",
+        "en": "Macromolecular compounds not provided for in groups C08F0010000000-C08F0299000000"
+      },
+      "subgroups": []
+    }
+  ]
+}

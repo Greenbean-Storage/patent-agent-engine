@@ -1,0 +1,2688 @@
+{
+  "subclass": "H03K",
+  "title": {
+    "ko": "펄스(PULSE)기술(펄스특성의 측정 G01R; 펄스를 갖는 정현파진동의 변조 H03C; 디지털 정보의 전송 H04L; 진동 주기의 계수 또는 적산에 의해 두 신호간 위상차를 검출하는 회로 H03D 3/04; 발생기의 형에 관계없는 또는 특정되어 있지 않은 전자진동 또는 펄스 발생기의 발생기의 자동제어, 시동, 동기화 또는 안정화 H03L; 부호화, 복호화 또는 부호변환 일반 H03M)",
+    "en": "PULSE TECHNIQUE (measuring pulse characteristics G01R;modulating sinusoidal oscillations with pulses H03C; transmission of digital information H04L;discriminator circuits detecting phase difference between two signals by counting or integrating cycles of oscillation H03D0003040000;automatic control, starting, synchronisation or stabilisation of generators of electronic oscillations or pulses where the type of generator is irrelevant or unspecified H03L;coding, decoding or code conversion, in general H03M)"
+  },
+  "definition": {
+    "ko": "펄스 생성 회로; 유한 기울기 또는 계단형 부분 H03K3/00; H03K4/00 정현파에서의 펄스 생성 H03K12/00 계수 이외의 펄스 조작 변조; 복조; 변환 H03K7/00; H03K9/00; H03K11/00 기타 H03K5/00, H03K6/00 전자적 스위칭; 논리회로 H03K17/00; 19/00 펄스 카운터, 주파수 분배기 계수 체인 포함; 적분 포함; 폐루프 포함; 다수 안정소자 포함 H03K23/00; H03K25/00; H03K27/00; H03K29/00 세부 H03K21/00 특수 응용 전자 스위칭; 논리회로 H03K17/00; H03K19/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03K 3/00",
+      "title": {
+        "ko": "전기 펄스를 생성하기 위한 회로; 단안정, 쌍안정 또는 다중안정 회로 (H03K4/00이 우선; 컴퓨터의 디지털 함수 생성기용 G06F1/02)",
+        "en": "Circuits for generating electric pulses; Monostable, bistable or multistable circuits (H03K0004000000 takes precedence;for digital function generators in computers G06F0001020000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 3/01",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03K 3/011",
+          "title": {
+            "ko": null,
+            "en": "Modifications of generator to compensate for variations in physical values, e.g. voltage, temperature"
+          }
+        },
+        {
+          "code": "H03K 3/012",
+          "title": {
+            "ko": null,
+            "en": "Modifications of generator to improve response time or to decrease power consumption"
+          }
+        },
+        {
+          "code": "H03K 3/013",
+          "title": {
+            "ko": null,
+            "en": "Modifications of generator to prevent operation by noise or interference"
+          }
+        },
+        {
+          "code": "H03K 3/014",
+          "title": {
+            "ko": null,
+            "en": "Modifications of generator to ensure starting of oscillations"
+          }
+        },
+        {
+          "code": "H03K 3/015",
+          "title": {
+            "ko": null,
+            "en": "Modifications of generator to maintain energy constant"
+          }
+        },
+        {
+          "code": "H03K 3/017",
+          "title": {
+            "ko": "펄스의 폭 또는 충격계수의 조정(펄스폭변조 H03K 7/08)",
+            "en": "Adjustment of width or dutycycle of pulses (pulse width modulation H03K0007080000)"
+          }
+        },
+        {
+          "code": "H03K 3/02",
+          "title": {
+            "ko": "산출 펄스를 이용한 수단에 의하거나 회로의 형에 의한 특성지어진 발생기(H03K 31/64부터 H03K 3/84가 우선)",
+            "en": "Generators characterised by the type of circuit or by the means used for producing pulses (H03K0003640000-H03K0003840000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/021",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of more than one type of element or means, e.g. BIMOS, composite devices such as IGBT"
+          }
+        },
+        {
+          "code": "H03K 3/023",
+          "title": {
+            "ko": null,
+            "en": "by the use of differential amplifiers or comparators, with internal or external positive feedback"
+          }
+        },
+        {
+          "code": "H03K 3/0231",
+          "title": {
+            "ko": null,
+            "en": "Astable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/0232",
+          "title": {
+            "ko": null,
+            "en": "Monostable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/0233",
+          "title": {
+            "ko": null,
+            "en": "Bistable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/0234",
+          "title": {
+            "ko": null,
+            "en": "Multistable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/027",
+          "title": {
+            "ko": null,
+            "en": "by the use of logic circuits, with internal or external positive feedback"
+          }
+        },
+        {
+          "code": "H03K 3/03",
+          "title": {
+            "ko": null,
+            "en": "Astable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/033",
+          "title": {
+            "ko": null,
+            "en": "Monostable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/037",
+          "title": {
+            "ko": null,
+            "en": "Bistable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/038",
+          "title": {
+            "ko": null,
+            "en": "Multistable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/04",
+          "title": {
+            "ko": "능동소자로써 양(+)의 피드백을 갖는 진공관만을 사용하는 것",
+            "en": "by the use, as active elements, of vacuum tubes only, with positive feedback (H03K0003023000, H03K0003027000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/05",
+          "title": {
+            "ko": null,
+            "en": "using means other than a transformer for feedback"
+          }
+        },
+        {
+          "code": "H03K 3/06",
+          "title": {
+            "ko": null,
+            "en": "using at least two tubes so coupled that the input of one is derived from the output of another, e.g. multivibrator"
+          }
+        },
+        {
+          "code": "H03K 3/08",
+          "title": {
+            "ko": null,
+            "en": "astable"
+          }
+        },
+        {
+          "code": "H03K 3/09",
+          "title": {
+            "ko": null,
+            "en": "Stabilisation of output"
+          }
+        },
+        {
+          "code": "H03K 3/10",
+          "title": {
+            "ko": null,
+            "en": "monostable"
+          }
+        },
+        {
+          "code": "H03K 3/12",
+          "title": {
+            "ko": null,
+            "en": "bistable"
+          }
+        },
+        {
+          "code": "H03K 3/13",
+          "title": {
+            "ko": null,
+            "en": "Bistables with hysteresis, e.g. Schmitt trigger"
+          }
+        },
+        {
+          "code": "H03K 3/14",
+          "title": {
+            "ko": null,
+            "en": "multistable"
+          }
+        },
+        {
+          "code": "H03K 3/16",
+          "title": {
+            "ko": null,
+            "en": "using a transformer for feedback, e.g. blocking oscillator with saturable core"
+          }
+        },
+        {
+          "code": "H03K 3/22",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for amplitude comparison, i.e. Multiar"
+          }
+        },
+        {
+          "code": "H03K 3/26",
+          "title": {
+            "ko": "능동소자로써 내부 또는 외부 양(positive)의 피드백을 갖는 바이폴라 트랜지스터를 사용하는 것 (H03K3/023, H03K3/027이 우선)",
+            "en": "by the use, as active elements, of bipolar transistors with internal or external positive feedback (H03K0003023000, H03K0003027000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/28",
+          "title": {
+            "ko": "피드백을 위해 변압기 이외의 수단을 사용하는 것",
+            "en": "using means other than a transformer for feedback"
+          }
+        },
+        {
+          "code": "H03K 3/281",
+          "title": {
+            "ko": "하나의 입력이 다른 입력의 출력으로부터 유도되도록 결합된 적어도 두 개의 트랜지스터를 사용하는 것, 예. 멀티바이브레이",
+            "en": "using at least two transistors so coupled that the input of one is derived from the output of another, e.g. multivibrator"
+          }
+        },
+        {
+          "code": "H03K 3/282",
+          "title": {
+            "ko": null,
+            "en": "astable"
+          }
+        },
+        {
+          "code": "H03K 3/283",
+          "title": {
+            "ko": null,
+            "en": "Stabilisation of output"
+          }
+        },
+        {
+          "code": "H03K 3/284",
+          "title": {
+            "ko": null,
+            "en": "monostable"
+          }
+        },
+        {
+          "code": "H03K 3/286",
+          "title": {
+            "ko": "쌍안정",
+            "en": "bistable"
+          }
+        },
+        {
+          "code": "H03K 3/287",
+          "title": {
+            "ko": "귀환회로중에 부가트랜지스터를 사용하는 것(H03K 3/2893이 우선)",
+            "en": "using additional transistors in the feedback circuit (H03K0003289000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/288",
+          "title": {
+            "ko": "입력회로중에 부가트랜지스터를 사용하는 미분구조를 갖는 입력회로",
+            "en": "using additional transistors in the input circuit (H03K0003289000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/2885",
+          "title": {
+            "ko": null,
+            "en": "the input circuit having a differential configuration"
+          }
+        },
+        {
+          "code": "H03K 3/289",
+          "title": {
+            "ko": null,
+            "en": "of the primary-secondary type"
+          }
+        },
+        {
+          "code": "H03K 3/2893",
+          "title": {
+            "ko": null,
+            "en": "Bistables with hysteresis, e.g. Schmitt trigger"
+          }
+        },
+        {
+          "code": "H03K 3/2897",
+          "title": {
+            "ko": null,
+            "en": "with an input circuit of differential configuration"
+          }
+        },
+        {
+          "code": "H03K 3/29",
+          "title": {
+            "ko": null,
+            "en": "multistable"
+          }
+        },
+        {
+          "code": "H03K 3/30",
+          "title": {
+            "ko": null,
+            "en": "using a transformer for feedback, e.g. blocking oscillator"
+          }
+        },
+        {
+          "code": "H03K 3/313",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of semiconductor devices with two electrodes, one or two potential barriers, and exhibiting a negative resistance characteristic"
+          }
+        },
+        {
+          "code": "H03K 3/315",
+          "title": {
+            "ko": null,
+            "en": "the devices being tunnel diodes"
+          }
+        },
+        {
+          "code": "H03K 3/33",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of semiconductor devices exhibiting hole storage or enhancement effect"
+          }
+        },
+        {
+          "code": "H03K 3/335",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of semiconductor devices with more than two electrodes and exhibiting avalanche effect"
+          }
+        },
+        {
+          "code": "H03K 3/35",
+          "title": {
+            "ko": "3이상의 PN접합 또는 4이상의 전극 혹은 동일한 전도영역에 접속된 바이폴라 반도체장치를 이용하는 것",
+            "en": "by the use, as active elements, of bipolar semiconductor devices with more than two PN junctions, or more than three electrodes, or more than one electrode connected to the same conductivity region (H03K0003023000, H03K0003027000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/351",
+          "title": {
+            "ko": "단일접합(unijunction) 트랜지스터를 갖는 장치 (H03K 3/352가 우선)",
+            "en": "the devices being unijunction transistors (H03K0003352000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/352",
+          "title": {
+            "ko": null,
+            "en": "the devices being thyristors"
+          }
+        },
+        {
+          "code": "H03K 3/3525",
+          "title": {
+            "ko": null,
+            "en": "Anode gate thyristors or programmable unijunction transistors"
+          }
+        },
+        {
+          "code": "H03K 3/353",
+          "title": {
+            "ko": "능동소자로서 내부 또는 외부의 양(positive )의 피드백을 가지는 전계효과 트랜지스터의 사용에 의한 것 (H03K3/023, H03K3/027이 우선)",
+            "en": "by the use, as active elements, of field-effect transistors with internal or external positive feedback (H03K0003023000, H03K0003027000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/354",
+          "title": {
+            "ko": null,
+            "en": "Astable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/355",
+          "title": {
+            "ko": null,
+            "en": "Monostable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/356",
+          "title": {
+            "ko": null,
+            "en": "Bistable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/3562",
+          "title": {
+            "ko": null,
+            "en": "of the primary-secondary type"
+          }
+        },
+        {
+          "code": "H03K 3/3565",
+          "title": {
+            "ko": null,
+            "en": "Bistables with hysteresis, e.g. Schmitt trigger"
+          }
+        },
+        {
+          "code": "H03K 3/3568",
+          "title": {
+            "ko": null,
+            "en": "Multistable circuits"
+          }
+        },
+        {
+          "code": "H03K 3/357",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of bulk negative resistance devices, e.g. Gunn-effect devices"
+          }
+        },
+        {
+          "code": "H03K 3/36",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of semiconductors, not otherwise provided for"
+          }
+        },
+        {
+          "code": "H03K 3/37",
+          "title": {
+            "ko": "능동소자로써 가스봉입된 관을 이용하는 것, 예. 비안정트리거 회로(H03K 3/55가 우선)",
+            "en": "by the use, as active elements, of gas-filled tubes, e.g. astable trigger circuits (H03K0003550000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/38",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of superconductive devices"
+          }
+        },
+        {
+          "code": "H03K 3/40",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of electrochemical cells"
+          }
+        },
+        {
+          "code": "H03K 3/42",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled"
+          }
+        },
+        {
+          "code": "H03K 3/43",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of beam deflection tubes"
+          }
+        },
+        {
+          "code": "H03K 3/45",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of non-linear magnetic or dielectric devices"
+          }
+        },
+        {
+          "code": "H03K 3/47",
+          "title": {
+            "ko": null,
+            "en": "the devices being parametrons"
+          }
+        },
+        {
+          "code": "H03K 3/49",
+          "title": {
+            "ko": null,
+            "en": "the devices being ferro-resonant"
+          }
+        },
+        {
+          "code": "H03K 3/51",
+          "title": {
+            "ko": null,
+            "en": "the devices being multi-aperture magnetic cores, e.g. transfluxors"
+          }
+        },
+        {
+          "code": "H03K 3/53",
+          "title": {
+            "ko": null,
+            "en": "by the use of an energy-accumulating element discharged through the load by a switching device controlled by an external signal and not incorporating positive feedback (H03K0003335000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/537",
+          "title": {
+            "ko": null,
+            "en": "the switching device being a spark gap"
+          }
+        },
+        {
+          "code": "H03K 3/543",
+          "title": {
+            "ko": null,
+            "en": "the switching device being a vacuum tube"
+          }
+        },
+        {
+          "code": "H03K 3/55",
+          "title": {
+            "ko": null,
+            "en": "the switching device being a gas-filled tube having a control electrode"
+          }
+        },
+        {
+          "code": "H03K 3/57",
+          "title": {
+            "ko": null,
+            "en": "the switching device being a semiconductor device"
+          }
+        },
+        {
+          "code": "H03K 3/59",
+          "title": {
+            "ko": null,
+            "en": "by the use of galvano-magnetic devices, e.g. Hall-effect devices"
+          }
+        },
+        {
+          "code": "H03K 3/64",
+          "title": {
+            "ko": null,
+            "en": "Generators producing trains of pulses, i.e. finite sequences of pulses"
+          }
+        },
+        {
+          "code": "H03K 3/66",
+          "title": {
+            "ko": null,
+            "en": "by interrupting the output of a generator"
+          }
+        },
+        {
+          "code": "H03K 3/70",
+          "title": {
+            "ko": null,
+            "en": "time intervals between all adjacent pulses of one train being equal"
+          }
+        },
+        {
+          "code": "H03K 3/72",
+          "title": {
+            "ko": null,
+            "en": "with means for varying repetition rate of trains"
+          }
+        },
+        {
+          "code": "H03K 3/78",
+          "title": {
+            "ko": null,
+            "en": "Generating a single train of pulses having a predetermined pattern, e.g. a predetermined number"
+          }
+        },
+        {
+          "code": "H03K 3/80",
+          "title": {
+            "ko": "정현파진동의 열의 발생(키잉(keying), 사인파형태(sinusoidal oscillations) 진동의 차단 H03C; 디지털 정보의 전송을 위한 것 H04L)",
+            "en": "Generating trains of sinusoidal oscillations (by keying or interruption of sinusoidal oscillations H03C; for transmission of digital information H04L)"
+          }
+        },
+        {
+          "code": "H03K 3/84",
+          "title": {
+            "ko": null,
+            "en": "Generating pulses having a predetermined statistical distribution of a parameter, e.g. random pulse generators"
+          }
+        },
+        {
+          "code": "H03K 3/86",
+          "title": {
+            "ko": null,
+            "en": "Generating pulses by means of delay lines and not covered by the preceding subgroups"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 4/00",
+      "title": {
+        "ko": "유한의 경사 혹은 스탭부분을 실질적으로 갖는 펄스의 발생",
+        "en": "Generating pulses having essentially a finite slope or stepped portions"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 4/02",
+          "title": {
+            "ko": null,
+            "en": "having stepped portions, e.g. staircase waveform"
+          }
+        },
+        {
+          "code": "H03K 4/04",
+          "title": {
+            "ko": null,
+            "en": "having parabolic shape"
+          }
+        },
+        {
+          "code": "H03K 4/06",
+          "title": {
+            "ko": "3각파형이 있는 것",
+            "en": "having triangular shape"
+          }
+        },
+        {
+          "code": "H03K 4/08",
+          "title": {
+            "ko": "톱니파형(sawtoth shape)이 있는 것",
+            "en": "having sawtooth shape"
+          }
+        },
+        {
+          "code": "H03K 4/10",
+          "title": {
+            "ko": null,
+            "en": "using as active elements vacuum tubes only"
+          }
+        },
+        {
+          "code": "H03K 4/12",
+          "title": {
+            "ko": null,
+            "en": "in which a sawtooth voltage is produced across a capacitor"
+          }
+        },
+        {
+          "code": "H03K 4/14",
+          "title": {
+            "ko": null,
+            "en": "using two tubes so coupled that the input of each one is derived from the output of the other, e.g. multivibrator"
+          }
+        },
+        {
+          "code": "H03K 4/16",
+          "title": {
+            "ko": null,
+            "en": "using a single tube with positive feedback through transformer, e.g. blocking oscillator"
+          }
+        },
+        {
+          "code": "H03K 4/18",
+          "title": {
+            "ko": null,
+            "en": "using a single tube exhibiting negative resistance between two of its electrodes, e.g. transitron, dynatron"
+          }
+        },
+        {
+          "code": "H03K 4/20",
+          "title": {
+            "ko": null,
+            "en": "using a tube with negative feedback by capacitor, e.g. Miller integrator"
+          }
+        },
+        {
+          "code": "H03K 4/22",
+          "title": {
+            "ko": null,
+            "en": "combined with transitron, e.g. phantastron, sanatron"
+          }
+        },
+        {
+          "code": "H03K 4/24",
+          "title": {
+            "ko": null,
+            "en": "Boot-strap generators"
+          }
+        },
+        {
+          "code": "H03K 4/26",
+          "title": {
+            "ko": null,
+            "en": "in which a sawtooth current is produced through an inductor"
+          }
+        },
+        {
+          "code": "H03K 4/28",
+          "title": {
+            "ko": null,
+            "en": "using a tube operating as a switching device"
+          }
+        },
+        {
+          "code": "H03K 4/32",
+          "title": {
+            "ko": null,
+            "en": "combined with means for generating the driving pulses"
+          }
+        },
+        {
+          "code": "H03K 4/34",
+          "title": {
+            "ko": null,
+            "en": "using a single tube with positive feedback through a transformer"
+          }
+        },
+        {
+          "code": "H03K 4/36",
+          "title": {
+            "ko": null,
+            "en": "using a single tube exhibiting negative resistance between two of its electrodes, e.g. transitron, dynatron"
+          }
+        },
+        {
+          "code": "H03K 4/38",
+          "title": {
+            "ko": null,
+            "en": "combined with Miller integrator"
+          }
+        },
+        {
+          "code": "H03K 4/39",
+          "title": {
+            "ko": null,
+            "en": "using a tube operating as an amplifier"
+          }
+        },
+        {
+          "code": "H03K 4/41",
+          "title": {
+            "ko": null,
+            "en": "with negative feedback through a capacitor, e.g. Miller integrator"
+          }
+        },
+        {
+          "code": "H03K 4/43",
+          "title": {
+            "ko": null,
+            "en": "combined with means for generating the driving pulses"
+          }
+        },
+        {
+          "code": "H03K 4/48",
+          "title": {
+            "ko": "반도체장치를 능동소자로서 사용하는 것(H03K 4/787～ H03K 4/84가 우선)",
+            "en": "using as active elements semiconductor devices (H03K0004787000-H03K0004840000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 4/50",
+          "title": {
+            "ko": null,
+            "en": "in which a sawtooth voltage is produced across a capacitor"
+          }
+        },
+        {
+          "code": "H03K 4/501",
+          "title": {
+            "ko": null,
+            "en": "the starting point of the flyback period being determined by the amplitude of the voltage across the capacitor, e.g. by a comparator"
+          }
+        },
+        {
+          "code": "H03K 4/502",
+          "title": {
+            "ko": null,
+            "en": "the capacitor being charged from a constant-current source"
+          }
+        },
+        {
+          "code": "H03K 4/52",
+          "title": {
+            "ko": null,
+            "en": "using two semiconductor devices so coupled that the input of each one is derived from the output of the other, e.g. multivibrator"
+          }
+        },
+        {
+          "code": "H03K 4/54",
+          "title": {
+            "ko": null,
+            "en": "using a single semiconductor device with positive feedback through a transformer, e.g. blocking oscillator"
+          }
+        },
+        {
+          "code": "H03K 4/56",
+          "title": {
+            "ko": null,
+            "en": "using a semiconductor device with negative feedback through a capacitor, e.g. Miller integrator"
+          }
+        },
+        {
+          "code": "H03K 4/58",
+          "title": {
+            "ko": null,
+            "en": "Boot-strap generators"
+          }
+        },
+        {
+          "code": "H03K 4/60",
+          "title": {
+            "ko": null,
+            "en": "in which a sawtooth current is produced through an inductor"
+          }
+        },
+        {
+          "code": "H03K 4/62",
+          "title": {
+            "ko": null,
+            "en": "using a semiconductor device operating as a switching device"
+          }
+        },
+        {
+          "code": "H03K 4/64",
+          "title": {
+            "ko": null,
+            "en": "combined with means for generating the driving pulses"
+          }
+        },
+        {
+          "code": "H03K 4/66",
+          "title": {
+            "ko": null,
+            "en": "using a single device with positive feedback, e.g. blocking oscillator"
+          }
+        },
+        {
+          "code": "H03K 4/68",
+          "title": {
+            "ko": null,
+            "en": "Generators in which the switching device is conducting during the fly-back part of the cycle"
+          }
+        },
+        {
+          "code": "H03K 4/69",
+          "title": {
+            "ko": null,
+            "en": "using a semiconductor device operating as an amplifier"
+          }
+        },
+        {
+          "code": "H03K 4/71",
+          "title": {
+            "ko": null,
+            "en": "with negative feedback through a capacitor, e.g. Miller integrator"
+          }
+        },
+        {
+          "code": "H03K 4/72",
+          "title": {
+            "ko": null,
+            "en": "combined with means for generating the driving pulses"
+          }
+        },
+        {
+          "code": "H03K 4/787",
+          "title": {
+            "ko": null,
+            "en": "using as active elements semiconductor devices with two electrodes and exhibiting a negative resistance characteristic"
+          }
+        },
+        {
+          "code": "H03K 4/793",
+          "title": {
+            "ko": null,
+            "en": "using tunnel diodes"
+          }
+        },
+        {
+          "code": "H03K 4/80",
+          "title": {
+            "ko": null,
+            "en": "using as active elements multi-layer diodes"
+          }
+        },
+        {
+          "code": "H03K 4/83",
+          "title": {
+            "ko": null,
+            "en": "using as active elements semiconductor devices with more than two PN junctions or with more than three electrodes or more than one electrode connected to the same conductivity region"
+          }
+        },
+        {
+          "code": "H03K 4/84",
+          "title": {
+            "ko": null,
+            "en": "Generators in which the semiconductor device is conducting during the fly-back part of the cycle"
+          }
+        },
+        {
+          "code": "H03K 4/86",
+          "title": {
+            "ko": null,
+            "en": "using as active elements gas-filled tubes"
+          }
+        },
+        {
+          "code": "H03K 4/88",
+          "title": {
+            "ko": null,
+            "en": "using as active elements electrochemical cells"
+          }
+        },
+        {
+          "code": "H03K 4/90",
+          "title": {
+            "ko": "경사파(램프파)의 선형화(펄스의 경사 변형 H03K 6/04; 텔레비전 수신기에 대한 주사 왜곡 정정 H04N 3/23); 펄스 동기화",
+            "en": "Linearisation of ramp (modifying slopes of pulses H03K0006040000;scanning distortion correction for television receivers H04N0003230000); Synchronisation of pulses"
+          }
+        },
+        {
+          "code": "H03K 4/92",
+          "title": {
+            "ko": "정현파형의 일부로부터 되는 파형이 있는 것 (스위칭 동작을 행하지 않은 능동소자를 이용한 진동의 발생 H03B)",
+            "en": "having a waveform comprising a portion of a sinusoid (generating sinusoidal oscillations H03B)"
+          }
+        },
+        {
+          "code": "H03K 4/94",
+          "title": {
+            "ko": null,
+            "en": "having trapezoidal shape"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 5/00",
+      "title": {
+        "ko": "이 서브클래스의 다른 메인그룹 중 하나에 포함되지 않는 펄스의 조작 (재생작용이 있는 회로 H03K3/00, H03K4/00; 비선형 자기 혹은 유전체장치를 이용하는 것 H03K3/45)",
+        "en": "Manipulation of pulses not covered by one of the other main groups of this subclass (circuits with regenerative action H03K0003000000, H03K0004000000;by the use of non-linear magnetic or dielectric devices H03K0003450000)"
+      },
+      "definition": {
+        "ko": "이 그룹내에 있어서는 입력신호는 펄스의 형의 것이다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H03K 5/003",
+          "title": {
+            "ko": "직류레벨로 변화되는 것 (텔레비전 신호의 직류 성분의 재삽입 H04N5/16)",
+            "en": "Changing the DC level (reinsertion of DC component of a television signal H04N0005160000)"
+          }
+        },
+        {
+          "code": "H03K 5/007",
+          "title": {
+            "ko": "안정화의 기본선(base line)(드레스홀딩 H03K 5/08)",
+            "en": "Base line stabilisation (thresholding H03K0005080000)"
+          }
+        },
+        {
+          "code": "H03K 5/01",
+          "title": {
+            "ko": "펄스의 정형(잡음 또는 간섭의 구분 H03K 5/125)",
+            "en": "Shaping pulses (discrimination against noise or interference H03K0005125000)"
+          }
+        },
+        {
+          "code": "H03K 5/02",
+          "title": {
+            "ko": "증폭에 의한 것(H03K 5/04 우선)",
+            "en": "by amplifying (H03K0005040000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 5/04",
+          "title": {
+            "ko": null,
+            "en": "by increasing duration; by decreasing duration"
+          }
+        },
+        {
+          "code": "H03K 5/05",
+          "title": {
+            "ko": null,
+            "en": "by the use of clock signals or other time reference signals"
+          }
+        },
+        {
+          "code": "H03K 5/06",
+          "title": {
+            "ko": null,
+            "en": "by the use of delay lines or other analogue delay elements"
+          }
+        },
+        {
+          "code": "H03K 5/07",
+          "title": {
+            "ko": null,
+            "en": "by the use of resonant circuits"
+          }
+        },
+        {
+          "code": "H03K 5/08",
+          "title": {
+            "ko": "진폭제한에 의한 것, 자리잡는 치(면적치)에 의한 것, 슬라이스(slice 에 의한 것, 즉 증폭제한과 면적치의 결합에 의하는 것(H03K 5/07이 우선; 1개의 펄스와 다른 펄스와의 비교 H03K 5/22; 스위치 동작을 위하여 소정의 면적치를 설비하는 것 H03K 17/30)",
+            "en": "by limiting, by thresholding, by slicing, i.e. combined limiting and thresholding (H03K0005070000 takes precedence;comparing one pulse with another H03K0005220000;providing a determined threshold for switching H03K0017300000)"
+          }
+        },
+        {
+          "code": "H03K 5/12",
+          "title": {
+            "ko": null,
+            "en": "by steepening leading or trailing edges"
+          }
+        },
+        {
+          "code": "H03K 5/125",
+          "title": {
+            "ko": "펄스의 구별(개별 펄스 특성을 측정하는 것 G01R 29/02; 텔레비전 장치내 동기신호의 분리 H04N 5/08)",
+            "en": "Discriminating pulses (measuring characteristics of individual pulses G01R0029020000;separation of synchronising signals in television systems H04N0005080000)"
+          }
+        },
+        {
+          "code": "H03K 5/1252",
+          "title": {
+            "ko": "잡음 또는 외난의 제한 혹은 억제(특히 전송에 적합한 것 H04B 15/00, H04L 25/08)",
+            "en": "Suppression or limitation of noise or interference (specially adapted for transmission systems H04B0015000000, H04L0025080000)"
+          }
+        },
+        {
+          "code": "H03K 5/1254",
+          "title": {
+            "ko": "스위치의 닫음에 의해 발생하는 펄스에 적합한 것, 즉 시간 간격없는(debouncing 회로 G04G 5/00, antibouncing 장치 포함)",
+            "en": "specially adapted for pulses generated by closure of switches, i.e. anti-bouncing devices (debouncing circuits for electronic time-pieces G04G0005000000)"
+          }
+        },
+        {
+          "code": "H03K 5/13",
+          "title": {
+            "ko": "단일의 출력이 있고, 한편 입력신호를 변환해서 소정의 시간 간격이 있는 펄스를 주는 배치",
+            "en": "Arrangements having a single output and transforming input signals into pulses delivered at desired time intervals"
+          }
+        },
+        {
+          "code": "H03K 5/131",
+          "title": {
+            "ko": null,
+            "en": "Digitally controlled"
+          }
+        },
+        {
+          "code": "H03K 5/133",
+          "title": {
+            "ko": null,
+            "en": "using a chain of active-delay devices"
+          }
+        },
+        {
+          "code": "H03K 5/134",
+          "title": {
+            "ko": null,
+            "en": "with field-effect transistors"
+          }
+        },
+        {
+          "code": "H03K 5/135",
+          "title": {
+            "ko": null,
+            "en": "by the use of time reference signals, e.g. clock signals"
+          }
+        },
+        {
+          "code": "H03K 5/14",
+          "title": {
+            "ko": "지연선을 이용하는 것 (H03K 5/133이 우선)",
+            "en": "by the use of delay lines (H03K0005133000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 5/145",
+          "title": {
+            "ko": null,
+            "en": "by the use of resonant circuits"
+          }
+        },
+        {
+          "code": "H03K 5/15",
+          "title": {
+            "ko": "펄스를 상이한 시간에 몇 개의 출력으로 발생시키는 장치, 즉 펄스 분배기(분배, 스위칭 또는 게이트 장치 H03K 17/00)",
+            "en": "Arrangements in which pulses are delivered at different times at several outputs, i.e. pulse distributors (distributing, switching, or gating arrangements H03K0017000000)"
+          }
+        },
+        {
+          "code": "H03K 5/151",
+          "title": {
+            "ko": null,
+            "en": "with two complementary outputs"
+          }
+        },
+        {
+          "code": "H03K 5/153",
+          "title": {
+            "ko": "입력신호가 예정된 특성으로 왔을 때 순시에 또는 어느시간 간격을 가지고 1개의 펄스를 주는 배치(영교차에서의 스위칭 H03K 17/13)",
+            "en": "Arrangements in which a pulse is delivered at the instant when a predetermined characteristic of an input signal is present or at a fixed time interval after this instant (switching at zero crossing H03K0017130000)"
+          }
+        },
+        {
+          "code": "H03K 5/1532",
+          "title": {
+            "ko": "정상 감지기(각각의 펄스 특성을 측정할 G01R 29/02)",
+            "en": "Peak detectors (measuring characteristics of individual pulses G01R0029020000)"
+          }
+        },
+        {
+          "code": "H03K 5/1534",
+          "title": {
+            "ko": null,
+            "en": "Transition or edge detectors"
+          }
+        },
+        {
+          "code": "H03K 5/1536",
+          "title": {
+            "ko": "영교차(Zerocrossing) 감지기(측정회로내 G01R 19/175)",
+            "en": "Zero-crossing detectors (in measuring circuits G01R0019175000)"
+          }
+        },
+        {
+          "code": "H03K 5/156",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in which a continuous pulse train is transformed into a train having a desired pattern"
+          }
+        },
+        {
+          "code": "H03K 5/159",
+          "title": {
+            "ko": null,
+            "en": "Applications of delay lines not covered by the preceding subgroups"
+          }
+        },
+        {
+          "code": "H03K 5/19",
+          "title": {
+            "ko": "펄스열의 패턴이 감시(진폭의 지시 G01R 19/00; 주파수의 지시 G01R 23/00; 개개의 펄스의 특성의 측정 G01R 29/02)",
+            "en": "Monitoring patterns of pulse trains (indicating amplitude G01R0019000000;indicating frequency G01R0023000000;measuring characteristics of individual pulses G01R0029020000)"
+          }
+        },
+        {
+          "code": "H03K 5/22",
+          "title": {
+            "ko": "입력신호특성, 예. 경사, 적분에 기초하여 펄스 또는 펄스열을 서로 비교하기 위한 2개 이상의 입력과 1개의 출력을 갖는 회로(2개의 주기적 펄스열의 위상차의 지시 G01R 25/00)",
+            "en": "Circuits having more than one input and one output for comparing pulses or pulse trains with each other according to input signal characteristics, e.g. slope, integral (indicating phase difference of two cyclic pulse trains G01R0025000000)"
+          }
+        },
+        {
+          "code": "H03K 5/24",
+          "title": {
+            "ko": null,
+            "en": "the characteristic being amplitude"
+          }
+        },
+        {
+          "code": "H03K 5/26",
+          "title": {
+            "ko": null,
+            "en": "the characteristic being duration, interval, position, frequency, or sequence"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 6/00",
+      "title": {
+        "ko": "이 서브클래스중의 다른 메인그룹 중 하나에 포함되지 않으며 유한 경사를 갖는 펄스의 조작 (재생작용이 있는 회로 H03K4/00)",
+        "en": "Manipulating pulses having a finite slope and not covered by one of the other main groups of this subclass (circuits with regenerative action H03K0004000000)"
+      },
+      "definition": {
+        "ko": "이 그룹내에 있어서는 입력신호는 펄스의 형의 것이다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H03K 6/02",
+          "title": {
+            "ko": null,
+            "en": "Amplifying pulses"
+          }
+        },
+        {
+          "code": "H03K 6/04",
+          "title": {
+            "ko": "펄스 경사의 변형(텔레비전 내S- 정정 H04N 3/23)",
+            "en": "Modifying slopes of pulses, e.g. S-correction (S-correction in television H04N0003230000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 7/00",
+      "title": {
+        "ko": null,
+        "en": "Modulating pulses with a continuously-variable modulating signal"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 7/02",
+          "title": {
+            "ko": null,
+            "en": "Amplitude modulation, i.e. PAM"
+          }
+        },
+        {
+          "code": "H03K 7/04",
+          "title": {
+            "ko": null,
+            "en": "Position modulation, i.e. PPM"
+          }
+        },
+        {
+          "code": "H03K 7/06",
+          "title": {
+            "ko": null,
+            "en": "Frequency or rate modulation, i.e. PFM or PRM"
+          }
+        },
+        {
+          "code": "H03K 7/08",
+          "title": {
+            "ko": null,
+            "en": "Duration or width modulation"
+          }
+        },
+        {
+          "code": "H03K 7/10",
+          "title": {
+            "ko": null,
+            "en": "Combined modulation, e.g. rate modulation and amplitude modulation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 9/00",
+      "title": {
+        "ko": null,
+        "en": "Demodulating pulses which have been modulated with a continuously-variable signal"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 9/02",
+          "title": {
+            "ko": null,
+            "en": "of amplitude-modulated pulses"
+          }
+        },
+        {
+          "code": "H03K 9/04",
+          "title": {
+            "ko": null,
+            "en": "of position-modulated pulses"
+          }
+        },
+        {
+          "code": "H03K 9/06",
+          "title": {
+            "ko": null,
+            "en": "of frequency- or rate-modulated pulses"
+          }
+        },
+        {
+          "code": "H03K 9/08",
+          "title": {
+            "ko": null,
+            "en": "of duration- or width-modulated pulses"
+          }
+        },
+        {
+          "code": "H03K 9/10",
+          "title": {
+            "ko": null,
+            "en": "of pulses having combined modulation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 11/00",
+      "title": {
+        "ko": null,
+        "en": "Transforming types of modulation, e.g. position-modulated pulses into duration-modulated pulses"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03K 12/00",
+      "title": {
+        "ko": "정현파형의 왜곡 또는 결합에 의한 펄스의 산출(펄스의 정형 H03K 5/01; 스위칭이 아닌 방법으로 동작하는 소자를 이용하는 정현파를 결합 H03B 21/00)",
+        "en": "Producing pulses by distorting or combining sinusoidal waveforms (shaping pulses H03K0005010000;combining sinewaves using elements operating in a non-switching manner H03B0021000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03K 17/00",
+      "title": {
+        "ko": "전자적 스위칭 또는 게이팅, 즉. 접점 형성 및 접점 차단에 의하지 않는 것 (게이트 증폭기 H03F3/72; 정적장치를 사용하는 교환방법을 위한 스위칭 배치 H04Q3/52)",
+        "en": "Electronic switching or gating, i.e. not by contact-making and -breaking (gated amplifiers H03F0003720000;switching arrangements for exchange systems using static devices H04Q0003520000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 17/04",
+          "title": {
+            "ko": null,
+            "en": "Modifications for accelerating switching"
+          }
+        },
+        {
+          "code": "H03K 17/041",
+          "title": {
+            "ko": null,
+            "en": "without feedback from the output circuit to the control circuit"
+          }
+        },
+        {
+          "code": "H03K 17/0412",
+          "title": {
+            "ko": null,
+            "en": "by measures taken in the control circuit"
+          }
+        },
+        {
+          "code": "H03K 17/0414",
+          "title": {
+            "ko": null,
+            "en": "Anti-saturation measures"
+          }
+        },
+        {
+          "code": "H03K 17/0416",
+          "title": {
+            "ko": null,
+            "en": "by measures taken in the output circuit"
+          }
+        },
+        {
+          "code": "H03K 17/042",
+          "title": {
+            "ko": null,
+            "en": "by feedback from the output circuit to the control circuit"
+          }
+        },
+        {
+          "code": "H03K 17/0422",
+          "title": {
+            "ko": null,
+            "en": "Anti-saturation measures"
+          }
+        },
+        {
+          "code": "H03K 17/0424",
+          "title": {
+            "ko": null,
+            "en": "by the use of a transformer"
+          }
+        },
+        {
+          "code": "H03K 17/06",
+          "title": {
+            "ko": null,
+            "en": "Modifications for ensuring a fully conducting state"
+          }
+        },
+        {
+          "code": "H03K 17/08",
+          "title": {
+            "ko": null,
+            "en": "Modifications for protecting switching circuit against overcurrent or overvoltage"
+          }
+        },
+        {
+          "code": "H03K 17/081",
+          "title": {
+            "ko": null,
+            "en": "without feedback from the output circuit to the control circuit"
+          }
+        },
+        {
+          "code": "H03K 17/0812",
+          "title": {
+            "ko": null,
+            "en": "by measures taken in the control circuit"
+          }
+        },
+        {
+          "code": "H03K 17/0814",
+          "title": {
+            "ko": null,
+            "en": "by measures taken in the output circuit"
+          }
+        },
+        {
+          "code": "H03K 17/082",
+          "title": {
+            "ko": null,
+            "en": "by feedback from the output to the control circuit"
+          }
+        },
+        {
+          "code": "H03K 17/10",
+          "title": {
+            "ko": null,
+            "en": "Modifications for increasing the maximum permissible switched voltage"
+          }
+        },
+        {
+          "code": "H03K 17/12",
+          "title": {
+            "ko": null,
+            "en": "Modifications for increasing the maximum permissible switched current"
+          }
+        },
+        {
+          "code": "H03K 17/13",
+          "title": {
+            "ko": "영교차에서 스위칭동작하기 위한 변형(영교차에서의 충격파의 발생 H03K 5/153)",
+            "en": "Modifications for switching at zero crossing (generating an impulse at zero crossing H03K0005153600)"
+          }
+        },
+        {
+          "code": "H03K 17/14",
+          "title": {
+            "ko": null,
+            "en": "Modifications for compensating variations of physical values, e.g. of temperature"
+          }
+        },
+        {
+          "code": "H03K 17/16",
+          "title": {
+            "ko": null,
+            "en": "Modifications for eliminating interference voltages or currents"
+          }
+        },
+        {
+          "code": "H03K 17/18",
+          "title": {
+            "ko": null,
+            "en": "Modifications for indicating state of switch"
+          }
+        },
+        {
+          "code": "H03K 17/20",
+          "title": {
+            "ko": null,
+            "en": "Modifications for resetting core switching units to a predetermined state"
+          }
+        },
+        {
+          "code": "H03K 17/22",
+          "title": {
+            "ko": "공급전압의 투입시의 소정의 초기상태를 확보하기 위한 변형(쌍안정 발생기 H03K 3/12)",
+            "en": "Modifications for ensuring a predetermined initial state when the supply voltage has been applied (bi-stable generators H03K0003120000)"
+          }
+        },
+        {
+          "code": "H03K 17/24",
+          "title": {
+            "ko": null,
+            "en": "Storing the actual state when the supply voltage fails"
+          }
+        },
+        {
+          "code": "H03K 17/26",
+          "title": {
+            "ko": null,
+            "en": "Modifications for temporary blocking after receipt of control pulses"
+          }
+        },
+        {
+          "code": "H03K 17/28",
+          "title": {
+            "ko": "스위칭동작전에 시간지연을 도입하기 위한 변형(2이상의 스위칭동작을 실행하기 위하여 시간간격이 선택될 수 있도록 변형 H03K 17/296)",
+            "en": "Modifications for introducing a time delay before switching (modifications to provide a choice of time-intervals for executing more than one switching action H03K0017296000)"
+          }
+        },
+        {
+          "code": "H03K 17/284",
+          "title": {
+            "ko": null,
+            "en": "in field-effect transistor switches"
+          }
+        },
+        {
+          "code": "H03K 17/288",
+          "title": {
+            "ko": null,
+            "en": "in tube switches"
+          }
+        },
+        {
+          "code": "H03K 17/292",
+          "title": {
+            "ko": null,
+            "en": "in thyristor, unijunction transistor or programmable unijunction transistor switches"
+          }
+        },
+        {
+          "code": "H03K 17/296",
+          "title": {
+            "ko": "2이상의 스위칭 동작을 실행하고 프로그램이 완료된 후, 자동적으로 그 기능이 끝나게 되는 시간간격의 선택을 하기 위한 변형(미리 선택된 시간간격후 또는 미리 선택된 시간에서 조절되어진 수단에 의해 동작하는 전자시계 G04G 15/00)",
+            "en": "Modifications to provide a choice of time-intervals for executing more than one switching action and automatically terminating their operation after the programme is completed (electronic clocks comprising means to be operated at preselected times or after preselected time-intervals G04G0015000000)"
+          }
+        },
+        {
+          "code": "H03K 17/30",
+          "title": {
+            "ko": "스위치동작전에 소정의 임계치 설정을 위한 변형",
+            "en": "Modifications for providing a predetermined threshold before switching (shaping pulses by thresholding H03K0005080000)"
+          }
+        },
+        {
+          "code": "H03K 17/51",
+          "title": {
+            "ko": "특정 구성요소의 사용에 특징이 있는 것 (H03K17/04 - H03K17/30, H03K17/94가 우선)",
+            "en": "characterised by the use of specified components (H03K0017040000-H03K0017300000, H03K0017940000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/52",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of gas-filled tubes"
+          }
+        },
+        {
+          "code": "H03K 17/54",
+          "title": {
+            "ko": "진공관을 사용하는 것(다이오드를 사용하는 것 H03K 17/74)",
+            "en": "by the use, as active elements, of vacuum tubes (using diodes H03K0017740000)"
+          }
+        },
+        {
+          "code": "H03K 17/56",
+          "title": {
+            "ko": "능동소자로써 반도체장치를 이용한 것(다이오드를 이용한 것 H03K 17/74)",
+            "en": "by the use, as active elements, of semiconductor devices (using diodes H03K0017740000)"
+          }
+        },
+        {
+          "code": "H03K 17/567",
+          "title": {
+            "ko": null,
+            "en": "Circuits characterised by the use of more than one type of semiconductor device, e.g. BIMOS, composite devices such as IGBT"
+          }
+        },
+        {
+          "code": "H03K 17/58",
+          "title": {
+            "ko": null,
+            "en": "the devices being tunnel diodes"
+          }
+        },
+        {
+          "code": "H03K 17/60",
+          "title": {
+            "ko": "바이폴라 트랜지스터인 장치 (4개 이상의 전극을 가지는 바이폴라 트랜지스터 H03K17/72)",
+            "en": "the devices being bipolar transistors (bipolar transistors having four or more electrodes H03K0017720000)"
+          }
+        },
+        {
+          "code": "H03K 17/605",
+          "title": {
+            "ko": "제어회로와 출력회로사이에 전전절연이 있는 것 (H03K17/78이 우선)",
+            "en": "with galvanic isolation between the control circuit and the output circuit (H03K0017780000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/61",
+          "title": {
+            "ko": null,
+            "en": "using transformer coupling"
+          }
+        },
+        {
+          "code": "H03K 17/615",
+          "title": {
+            "ko": null,
+            "en": "in a Darlington configuration"
+          }
+        },
+        {
+          "code": "H03K 17/62",
+          "title": {
+            "ko": "몇 개의 입출력단자를 갖는 스위칭배열, 예, 멀티플렉서, 분할기(논리회로 H03K 19/00; 부호변환기 H03M 5/00, H03M 7/00)",
+            "en": "Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (logic circuits H03K0019000000;code converters H03M0005000000, H03M0007000000)"
+          }
+        },
+        {
+          "code": "H03K 17/64",
+          "title": {
+            "ko": null,
+            "en": "having inductive loads"
+          }
+        },
+        {
+          "code": "H03K 17/66",
+          "title": {
+            "ko": null,
+            "en": "Switching arrangements for passing the current in either direction at will; Switching arrangements for reversing the current at will"
+          }
+        },
+        {
+          "code": "H03K 17/68",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for switching AC currents or voltages"
+          }
+        },
+        {
+          "code": "H03K 17/687",
+          "title": {
+            "ko": "전계효과트랜지스터(FET)를 갖는 장치",
+            "en": "the devices being field-effect transistors"
+          }
+        },
+        {
+          "code": "H03K 17/689",
+          "title": {
+            "ko": "제어회로와 출력회로 사이에 전기절연이 있는 것 (H03K17/78이 우선)",
+            "en": "with galvanic isolation between the control circuit and the output circuit (H03K0017780000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/691",
+          "title": {
+            "ko": null,
+            "en": "using transformer coupling"
+          }
+        },
+        {
+          "code": "H03K 17/693",
+          "title": {
+            "ko": "몇 개의 입출력단자를 갖는 스위칭배열, 예. 멀티플렉서, 분할기(논리회로 H03K 19/00; 부호변환기 H03M 5/00, H03M 7/00)",
+            "en": "Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (logic circuits H03K0019000000;code converters H03M0005000000, H03M0007000000)"
+          }
+        },
+        {
+          "code": "H03K 17/695",
+          "title": {
+            "ko": "유도부하를 갖는 것(유도플라이백 전압에 대한 스위칭회로의 보호 H03K 17/08)",
+            "en": "having inductive loads (protecting switching circuit against inductive flyback voltage H03K0017080000)"
+          }
+        },
+        {
+          "code": "H03K 17/70",
+          "title": {
+            "ko": "2개의 전극을 가지고 부성저항을 나타내는 장치 (터널 다이오드를 갖는 장치 H03K 17/58)",
+            "en": "the devices having only two electrodes and exhibiting negative resistance (the devices being tunnel diodes H03K0017580000)"
+          }
+        },
+        {
+          "code": "H03K 17/72",
+          "title": {
+            "ko": "2개 이상의 PN접합을 갖는 바이폴라 반도체장치, 예. 사이리스터, 프로그래머블UJT, 또는 3개 이상의 전극을 갖는 것, 예. 실리콘 제어 스위치 또는 동일한 전도도 영역에 연결된 2개 이상의 전극을 갖는 바이폴라 반도체 장치, 예. 유니접합 트랜지스터",
+            "en": "Bipolar semiconductor devices with more than two PN junctions, e.g. thyristors, programmable unijunction transistors, or with more than three electrodes, e.g. silicon controlled switches, or with more than one electrode connected to the same conductivity region, e.g. unijunction transistors"
+          }
+        },
+        {
+          "code": "H03K 17/722",
+          "title": {
+            "ko": "제어회로와 출력회로사이에 전기절연이 있는 것 (H03K17/135이 우선)",
+            "en": "with galvanic isolation between the control circuit and the output circuit (H03K0017780000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/723",
+          "title": {
+            "ko": null,
+            "en": "using transformer coupling"
+          }
+        },
+        {
+          "code": "H03K 17/725",
+          "title": {
+            "ko": "교류전압 또는 교류전류를 위한 것 (H03K17/722, H03K17/735가 우선)",
+            "en": "for AC voltages or currents (H03K0017722000, H03K0017735000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/73",
+          "title": {
+            "ko": "직류 전압 또는 전류를 위한 것 (H03K17/722, H03K17/735 가 우선)",
+            "en": "for DC voltages or currents (H03K0017722000, H03K0017735000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/732",
+          "title": {
+            "ko": null,
+            "en": "Measures for enabling turn-off"
+          }
+        },
+        {
+          "code": "H03K 17/735",
+          "title": {
+            "ko": "몇개의 입출력단자를 갖는 스위칭 배열(예, 멀티플랙서, 분할기)(H03K 17/722이 우선; 논리회로 H03K 19/00; 부호변환기 H03M 5/00, H03M 7/00)",
+            "en": "Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (H03K0017722000 takes precedence;logic circuits H03K0019000000;code converters H03M0005000000, H03M0007000000)"
+          }
+        },
+        {
+          "code": "H03K 17/74",
+          "title": {
+            "ko": "능동소자로써 다이오드를 이용한 것(반도체장치 2형이상의 것을 이용한 것 H03K 17/567; 터널다이오드를 이용한 것 H03K 17/58; 부성저항 다이오드를 이용한 것 H03K 17/70)",
+            "en": "by the use, as active elements, of diodes (by the use of more than one type of semiconductor device H03K0017567000;by the use of tunnel diodes H03K0017580000;by the use of negative resistance diodes H03K0017700000)"
+          }
+        },
+        {
+          "code": "H03K 17/76",
+          "title": {
+            "ko": "몇 개의 입출력단자를 갖는 스위칭 배열, 예. 멀티플렉서, 분할기(논리회로 H03K 19/00; 부호변환기 H03M 5/00, H03M 7/00)",
+            "en": "Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (logic circuits H03K0019000000;code converters H03M0005000000, H03M0007000000)"
+          }
+        },
+        {
+          "code": "H03K 17/78",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled"
+          }
+        },
+        {
+          "code": "H03K 17/785",
+          "title": {
+            "ko": null,
+            "en": "controlling field-effect transistor switches"
+          }
+        },
+        {
+          "code": "H03K 17/79",
+          "title": {
+            "ko": null,
+            "en": "controlling semiconductor switches with more than two PN-junctions, or more than three electrodes, or more than one electrode connected to the same conductivity region"
+          }
+        },
+        {
+          "code": "H03K 17/795",
+          "title": {
+            "ko": null,
+            "en": "controlling bipolar transistors"
+          }
+        },
+        {
+          "code": "H03K 17/80",
+          "title": {
+            "ko": "능동소자로써 비선형 자기 또는 유전소자를 이용하는 것",
+            "en": "by the use, as active elements, of non-linear magnetic or dielectric devices"
+          }
+        },
+        {
+          "code": "H03K 17/81",
+          "title": {
+            "ko": "몇 개의 입출력단자를 갖는 스위칭배열 예. 멀티플렉서, 분할기(논리회로 H03K 19/00; 부호변환기 H03M 5/00, H03M 7/00)",
+            "en": "Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (logic circuits H03K0019000000;code converters H03M0005000000, H03M0007000000)"
+          }
+        },
+        {
+          "code": "H03K 17/82",
+          "title": {
+            "ko": null,
+            "en": "the devices being transfluxors"
+          }
+        },
+        {
+          "code": "H03K 17/84",
+          "title": {
+            "ko": null,
+            "en": "the devices being thin-film devices"
+          }
+        },
+        {
+          "code": "H03K 17/86",
+          "title": {
+            "ko": null,
+            "en": "the devices being twistors"
+          }
+        },
+        {
+          "code": "H03K 17/88",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of beam-deflection tubes"
+          }
+        },
+        {
+          "code": "H03K 17/90",
+          "title": {
+            "ko": "능동소자로써 검류-전기효과장치를 이용하는 것. 예 홀효과 장치(H03K 17/95, H03K 17/97이 우선)",
+            "en": "by the use, as active elements, of galvano-magnetic devices, e.g. Hall-effect devices (H03K0017950000, H03K0017970000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/92",
+          "title": {
+            "ko": null,
+            "en": "by the use, as active elements, of superconductive devices"
+          }
+        },
+        {
+          "code": "H03K 17/94",
+          "title": {
+            "ko": "제어신호가 발생하는 방법에 의해서 특징지워진 것",
+            "en": "characterised by the way in which the control signals are generated"
+          }
+        },
+        {
+          "code": "H03K 17/945",
+          "title": {
+            "ko": "근접스위치(H03K 17/96이 우선)",
+            "en": "Proximity switches (H03K0017960000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/95",
+          "title": {
+            "ko": null,
+            "en": "using a magnetic detector"
+          }
+        },
+        {
+          "code": "H03K 17/955",
+          "title": {
+            "ko": null,
+            "en": "using a capacitive detector"
+          }
+        },
+        {
+          "code": "H03K 17/96",
+          "title": {
+            "ko": "터치 스위치(가동부분을 갖지 않는 전자시계에 특별히 적용되는 것 G04G 21/08)",
+            "en": "Touch switches (specially adapted for electronic time-pieces with no moving parts G04G0021080000)"
+          }
+        },
+        {
+          "code": "H03K 17/965",
+          "title": {
+            "ko": "스위치의 일부를 형성하는 소자의 이동에 의해서 제어되는 스위치",
+            "en": "Switches controlled by moving an element forming part of the switch"
+          }
+        },
+        {
+          "code": "H03K 17/967",
+          "title": {
+            "ko": "복수개의 제어부재를 갖는 것 예. Keyborard (H03K 17/969, H03K 17/972, H03K 17/16이 우선)",
+            "en": "having a plurality of control members, e.g. keyboard (H03K0017969000, H03K0017972000, H03K0017980000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/968",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic devices"
+          }
+        },
+        {
+          "code": "H03K 17/969",
+          "title": {
+            "ko": null,
+            "en": "having a plurality of control members, e.g. keyboard"
+          }
+        },
+        {
+          "code": "H03K 17/97",
+          "title": {
+            "ko": null,
+            "en": "using a magnetic movable element"
+          }
+        },
+        {
+          "code": "H03K 17/972",
+          "title": {
+            "ko": null,
+            "en": "having a plurality of control members, e.g. keyboard"
+          }
+        },
+        {
+          "code": "H03K 17/975",
+          "title": {
+            "ko": null,
+            "en": "using a capacitive movable element"
+          }
+        },
+        {
+          "code": "H03K 17/98",
+          "title": {
+            "ko": null,
+            "en": "having a plurality of control members, e.g. keyboard"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 19/00",
+      "title": {
+        "ko": "논리회로, 즉 1출력에 작용하는 적어도 2입력이 있는 것(퍼지 논리를 사용하는 컴퓨터 시스템에 관한 회로 G06N 7/02); 쌍전(inverting)회로",
+        "en": "Logic circuits, i.e. having at least two inputs acting on one output (circuits for computer systems using fuzzy logic G06N0007020000); Inverting circuits"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 19/003",
+          "title": {
+            "ko": null,
+            "en": "Modifications for increasing the reliability"
+          }
+        },
+        {
+          "code": "H03K 19/007",
+          "title": {
+            "ko": null,
+            "en": "Fail-safe circuits"
+          }
+        },
+        {
+          "code": "H03K 19/01",
+          "title": {
+            "ko": null,
+            "en": "Modifications for accelerating switching"
+          }
+        },
+        {
+          "code": "H03K 19/013",
+          "title": {
+            "ko": null,
+            "en": "in bipolar transistor circuits"
+          }
+        },
+        {
+          "code": "H03K 19/017",
+          "title": {
+            "ko": null,
+            "en": "in field-effect transistor circuits"
+          }
+        },
+        {
+          "code": "H03K 19/0175",
+          "title": {
+            "ko": "결합장치, 인터페이스장치(디지털컴퓨터에 대한 인터페이스장치 G06F 3/00, G06F 13/00)",
+            "en": "Coupling arrangements; Interface arrangements (interface arrangements for digital computers G06F0003000000, G06F0013000000)"
+          }
+        },
+        {
+          "code": "H03K 19/018",
+          "title": {
+            "ko": null,
+            "en": "using bipolar transistors only"
+          }
+        },
+        {
+          "code": "H03K 19/0185",
+          "title": {
+            "ko": null,
+            "en": "using field-effect transistors only"
+          }
+        },
+        {
+          "code": "H03K 19/02",
+          "title": {
+            "ko": "열거된 구성요소를 이용하는 것(H03K 19/003부터 H03K 19/0175가 우선)",
+            "en": "using specified components (H03K0019003000-H03K0019017500 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 19/04",
+          "title": {
+            "ko": null,
+            "en": "using gas-filled tubes"
+          }
+        },
+        {
+          "code": "H03K 19/06",
+          "title": {
+            "ko": "진공관을 이용하는 것(다이오드정류기를 이용하는 것 19/12)",
+            "en": "using vacuum tubes (using diode rectifiers H03K0019120000)"
+          }
+        },
+        {
+          "code": "H03K 19/08",
+          "title": {
+            "ko": "반도체장치를 이용하는 것(H03K 19/173이 우선; 반도체장치 내에 다이오드정류기만 있는 것 H03K 19/12)",
+            "en": "using semiconductor devices (H03K0019173000 takes precedence;wherein the semiconductor devices are only diode rectifiers H03K0019120000)"
+          }
+        },
+        {
+          "code": "H03K 19/082",
+          "title": {
+            "ko": null,
+            "en": "using bipolar transistors"
+          }
+        },
+        {
+          "code": "H03K 19/084",
+          "title": {
+            "ko": null,
+            "en": "Diode–transistor logic"
+          }
+        },
+        {
+          "code": "H03K 19/086",
+          "title": {
+            "ko": null,
+            "en": "Emitter coupled logic"
+          }
+        },
+        {
+          "code": "H03K 19/088",
+          "title": {
+            "ko": null,
+            "en": "Transistor–transistor logic"
+          }
+        },
+        {
+          "code": "H03K 19/09",
+          "title": {
+            "ko": null,
+            "en": "Resistor–transistor logic"
+          }
+        },
+        {
+          "code": "H03K 19/091",
+          "title": {
+            "ko": null,
+            "en": "Integrated injection logic or merged transistor logic"
+          }
+        },
+        {
+          "code": "H03K 19/094",
+          "title": {
+            "ko": "전계효과 트랜지스터를 사용하는 것",
+            "en": "using field-effect transistors"
+          }
+        },
+        {
+          "code": "H03K 19/0944",
+          "title": {
+            "ko": "MOSFET를 사용하는 것(H03K 19/096이 우선)",
+            "en": "using MOSFET (H03K0019096000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 19/0948",
+          "title": {
+            "ko": null,
+            "en": "using CMOS"
+          }
+        },
+        {
+          "code": "H03K 19/0952",
+          "title": {
+            "ko": "쇼트키 FET를 사용하는 것(H03K 19/096이 우선)",
+            "en": "using Schottky type FET (H03K0019096000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 19/0956",
+          "title": {
+            "ko": "쇼트키 다이오드 FET 논리(H03K 19/096이 우선)",
+            "en": "Schottky diode FET logic (H03K0019096000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 19/096",
+          "title": {
+            "ko": null,
+            "en": "Synchronous circuits, i.e. using clock signals"
+          }
+        },
+        {
+          "code": "H03K 19/098",
+          "title": {
+            "ko": null,
+            "en": "using thyristors"
+          }
+        },
+        {
+          "code": "H03K 19/10",
+          "title": {
+            "ko": null,
+            "en": "using tunnel diodes"
+          }
+        },
+        {
+          "code": "H03K 19/12",
+          "title": {
+            "ko": null,
+            "en": "using diode rectifiers"
+          }
+        },
+        {
+          "code": "H03K 19/14",
+          "title": {
+            "ko": "광전자소자 즉, 전기적 또는 광학적으로 결합된 광방출 및 광전소자를 이용하는 것(광학 논리소자 G02F 3/00)",
+            "en": "using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled (optical logic elements G02F0003000000)"
+          }
+        },
+        {
+          "code": "H03K 19/16",
+          "title": {
+            "ko": null,
+            "en": "using saturable magnetic devices"
+          }
+        },
+        {
+          "code": "H03K 19/162",
+          "title": {
+            "ko": null,
+            "en": "using parametrons"
+          }
+        },
+        {
+          "code": "H03K 19/164",
+          "title": {
+            "ko": null,
+            "en": "using ferro-resonant devices"
+          }
+        },
+        {
+          "code": "H03K 19/166",
+          "title": {
+            "ko": null,
+            "en": "using transfluxors"
+          }
+        },
+        {
+          "code": "H03K 19/168",
+          "title": {
+            "ko": null,
+            "en": "using thin-film devices"
+          }
+        },
+        {
+          "code": "H03K 19/17",
+          "title": {
+            "ko": null,
+            "en": "using twistors"
+          }
+        },
+        {
+          "code": "H03K 19/173",
+          "title": {
+            "ko": null,
+            "en": "using elementary logic circuits as components"
+          }
+        },
+        {
+          "code": "H03K 19/177",
+          "title": {
+            "ko": null,
+            "en": "arranged in matrix form"
+          }
+        },
+        {
+          "code": "H03K 19/17704",
+          "title": {
+            "ko": null,
+            "en": "the logic functions being realised by the interconnection of rows and columns"
+          }
+        },
+        {
+          "code": "H03K 19/17724",
+          "title": {
+            "ko": null,
+            "en": "Structural details of logic blocks"
+          }
+        },
+        {
+          "code": "H03K 19/17728",
+          "title": {
+            "ko": null,
+            "en": "Reconfigurable logic blocks, e.g. lookup tables"
+          }
+        },
+        {
+          "code": "H03K 19/17732",
+          "title": {
+            "ko": null,
+            "en": "Macroblocks"
+          }
+        },
+        {
+          "code": "H03K 19/17736",
+          "title": {
+            "ko": null,
+            "en": "Structural details of routing resources"
+          }
+        },
+        {
+          "code": "H03K 19/17748",
+          "title": {
+            "ko": null,
+            "en": "Structural details of configuration resources"
+          }
+        },
+        {
+          "code": "H03K 19/17752",
+          "title": {
+            "ko": null,
+            "en": "for hot reconfiguration"
+          }
+        },
+        {
+          "code": "H03K 19/17756",
+          "title": {
+            "ko": null,
+            "en": "for partial configuration or partial reconfiguration"
+          }
+        },
+        {
+          "code": "H03K 19/17758",
+          "title": {
+            "ko": null,
+            "en": "for speeding up configuration or reconfiguration"
+          }
+        },
+        {
+          "code": "H03K 19/1776",
+          "title": {
+            "ko": null,
+            "en": "for memories"
+          }
+        },
+        {
+          "code": "H03K 19/17764",
+          "title": {
+            "ko": null,
+            "en": "for reliability"
+          }
+        },
+        {
+          "code": "H03K 19/17768",
+          "title": {
+            "ko": null,
+            "en": "for security"
+          }
+        },
+        {
+          "code": "H03K 19/17772",
+          "title": {
+            "ko": null,
+            "en": "for powering on or off"
+          }
+        },
+        {
+          "code": "H03K 19/1778",
+          "title": {
+            "ko": null,
+            "en": "Structural details for adapting physical parameters"
+          }
+        },
+        {
+          "code": "H03K 19/17784",
+          "title": {
+            "ko": null,
+            "en": "for supply voltage"
+          }
+        },
+        {
+          "code": "H03K 19/17788",
+          "title": {
+            "ko": null,
+            "en": "for input/output [I/O] voltages"
+          }
+        },
+        {
+          "code": "H03K 19/17792",
+          "title": {
+            "ko": null,
+            "en": "for operating speed"
+          }
+        },
+        {
+          "code": "H03K 19/17796",
+          "title": {
+            "ko": null,
+            "en": "for physical disposition of blocks"
+          }
+        },
+        {
+          "code": "H03K 19/18",
+          "title": {
+            "ko": null,
+            "en": "using galvano-magnetic devices, e.g. Hall-effect devices"
+          }
+        },
+        {
+          "code": "H03K 19/185",
+          "title": {
+            "ko": null,
+            "en": "using dielectric elements with variable dielectric constant, e.g. ferro-electric capacitors"
+          }
+        },
+        {
+          "code": "H03K 19/19",
+          "title": {
+            "ko": null,
+            "en": "using ferro-resonant devices"
+          }
+        },
+        {
+          "code": "H03K 19/195",
+          "title": {
+            "ko": null,
+            "en": "using superconductive devices"
+          }
+        },
+        {
+          "code": "H03K 19/20",
+          "title": {
+            "ko": "논리기능에 의해서 특징지워진 것 예. AND, OR, NOR, NOT회로(H03K 19/003～ H03K 19/01이 우선)",
+            "en": "characterised by logic function, e.g. AND, OR, NOR, NOT circuits (H03K0019003000-H03K0019010000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 19/21",
+          "title": {
+            "ko": null,
+            "en": "EXCLUSIVE-OR circuits, i.e. giving output if input signal exists at only one input; COINCIDENCE circuits, i.e. giving output only if all input signals are identical"
+          }
+        },
+        {
+          "code": "H03K 19/23",
+          "title": {
+            "ko": null,
+            "en": "Majority or minority circuits, i.e. giving output having the state of the majority or the minority of the inputs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 21/00",
+      "title": {
+        "ko": "펄스계수기 또는 주파수분할기의 세부",
+        "en": "Details of pulse counters or frequency dividers"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 21/02",
+          "title": {
+            "ko": null,
+            "en": "Input circuits"
+          }
+        },
+        {
+          "code": "H03K 21/08",
+          "title": {
+            "ko": null,
+            "en": "Output circuits"
+          }
+        },
+        {
+          "code": "H03K 21/10",
+          "title": {
+            "ko": null,
+            "en": "comprising logic circuits"
+          }
+        },
+        {
+          "code": "H03K 21/12",
+          "title": {
+            "ko": null,
+            "en": "with parallel read-out"
+          }
+        },
+        {
+          "code": "H03K 21/14",
+          "title": {
+            "ko": null,
+            "en": "with series read-out of number stored"
+          }
+        },
+        {
+          "code": "H03K 21/16",
+          "title": {
+            "ko": null,
+            "en": "Circuits for carrying-over pulses between successive decades"
+          }
+        },
+        {
+          "code": "H03K 21/17",
+          "title": {
+            "ko": null,
+            "en": "with field-effect transistors"
+          }
+        },
+        {
+          "code": "H03K 21/18",
+          "title": {
+            "ko": null,
+            "en": "Circuits for visual indication of the result"
+          }
+        },
+        {
+          "code": "H03K 21/20",
+          "title": {
+            "ko": null,
+            "en": "using glow-discharge lamps"
+          }
+        },
+        {
+          "code": "H03K 21/38",
+          "title": {
+            "ko": "계수기의 기동, 정지 또는 리세트(저가 2의 막이 아닌 계수기 H03K 23/48, H03K 23/66)",
+            "en": "Starting, stopping, or resetting the counter (counters with a base other than a power of two H03K0023480000, H03K0023660000)"
+          }
+        },
+        {
+          "code": "H03K 21/40",
+          "title": {
+            "ko": null,
+            "en": "Monitoring; Error detection; Preventing or correcting improper counter operation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 23/00",
+      "title": {
+        "ko": "계수연쇄를 포함하는 펄스계수기; 계수연쇄를 포함하는 주파수분할기(H03K 29/00이 우선)",
+        "en": "Pulse counters comprising counting chains; Frequency dividers comprising counting chains (H03K0029000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 23/40",
+          "title": {
+            "ko": "게이트신호 도는 클럭신호가 모든 단에 인가되는 것, 즉 동기 계수기",
+            "en": "Gating or clocking signals applied to all stages, i.e. synchronous counters"
+          }
+        },
+        {
+          "code": "H03K 23/42",
+          "title": {
+            "ko": null,
+            "en": "Out-of-phase gating or clocking signals applied to counter stages"
+          }
+        },
+        {
+          "code": "H03K 23/44",
+          "title": {
+            "ko": null,
+            "en": "using field-effect transistors"
+          }
+        },
+        {
+          "code": "H03K 23/46",
+          "title": {
+            "ko": null,
+            "en": "using charge transfer devices, i.e. bucket brigade or charge coupled devices"
+          }
+        },
+        {
+          "code": "H03K 23/48",
+          "title": {
+            "ko": "2의멱이 아닌 저 또는 기수를 갖는 것(H03K 23/42이 우선)",
+            "en": "with a base or radix other than a power of two (H03K0023420000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/50",
+          "title": {
+            "ko": "쌍안정 재생 트리거회로를 사용하는 것(H03K 23/42～ H03K 23/48이 우선)",
+            "en": "using bi-stable regenerative trigger circuits (H03K0023420000-H03K0023480000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/52",
+          "title": {
+            "ko": null,
+            "en": "using field-effect transistors"
+          }
+        },
+        {
+          "code": "H03K 23/54",
+          "title": {
+            "ko": "링카운터, 즉 피드백 시프트레지스터 카운터(H03K 23/52가 우선)",
+            "en": "Ring counters, i.e. feedback shift register counters (H03K0023520000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/56",
+          "title": {
+            "ko": "가역계수기(H03K 23/52가 우선)",
+            "en": "Reversible counters (H03K0023520000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/58",
+          "title": {
+            "ko": "게이트 또는 클럭신호가 모든 단에다 인가되지 않는 것, 즉 비동기형계수기(H03K 23/74～ H03K 23/84가 우선)",
+            "en": "Gating or clocking signals not applied to all stages, i.e. asynchronous counters (H03K0023740000-H03K0023840000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/60",
+          "title": {
+            "ko": null,
+            "en": "with field-effect transistors"
+          }
+        },
+        {
+          "code": "H03K 23/62",
+          "title": {
+            "ko": null,
+            "en": "reversible"
+          }
+        },
+        {
+          "code": "H03K 23/64",
+          "title": {
+            "ko": "그의 멱이 아닌 저 또는 기수를 갖는 것(H03K 23/40～ H03K 23/62가 우선)",
+            "en": "with a base or radix other than a power of two (H03K0023400000-H03K0023620000 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/66",
+          "title": {
+            "ko": null,
+            "en": "with a variable counting base, e.g. by presetting or by adding or suppressing pulses"
+          }
+        },
+        {
+          "code": "H03K 23/68",
+          "title": {
+            "ko": null,
+            "en": "with a base which is a non-integer"
+          }
+        },
+        {
+          "code": "H03K 23/70",
+          "title": {
+            "ko": "저가 기수인 것(H03K 23/66이 우선)",
+            "en": "with a base which is an odd number (H03K0023660000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/72",
+          "title": {
+            "ko": "10진계수기(H03K 23/66이 우선)",
+            "en": "Decade counters (H03K0023660000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/74",
+          "title": {
+            "ko": null,
+            "en": "using relays"
+          }
+        },
+        {
+          "code": "H03K 23/76",
+          "title": {
+            "ko": null,
+            "en": "using magnetic cores or ferro-electric capacitors"
+          }
+        },
+        {
+          "code": "H03K 23/78",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic devices"
+          }
+        },
+        {
+          "code": "H03K 23/80",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices having only two electrodes, e.g. tunnel diode, multi-layer diode"
+          }
+        },
+        {
+          "code": "H03K 23/82",
+          "title": {
+            "ko": null,
+            "en": "using gas-filled tubes"
+          }
+        },
+        {
+          "code": "H03K 23/84",
+          "title": {
+            "ko": null,
+            "en": "using thyristors or unijunction transistors"
+          }
+        },
+        {
+          "code": "H03K 23/86",
+          "title": {
+            "ko": "가역적인 것(H03K 23/40～ H03K 23/84가 우선)",
+            "en": "reversible (H03K0023400000-H03K0023840000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 25/00",
+      "title": {
+        "ko": null,
+        "en": "Pulse counters with step-by-step integration and static storage; Analogous frequency dividers"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 25/02",
+          "title": {
+            "ko": null,
+            "en": "comprising charge storage, e.g. capacitor without polarisation hysteresis"
+          }
+        },
+        {
+          "code": "H03K 25/04",
+          "title": {
+            "ko": null,
+            "en": "using auxiliary pulse generator triggered by the incoming pulses"
+          }
+        },
+        {
+          "code": "H03K 25/12",
+          "title": {
+            "ko": null,
+            "en": "comprising hysteresis storage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 27/00",
+      "title": {
+        "ko": "펄스가 폐루프중에 연속해서 순환되어지는 펄스 계수기; 유사한 주파수분할기(피드백 시프트레시스터 계수기 H03K 23/54)",
+        "en": "Pulse counters in which pulses are continuously circulated in a closed loop; Analogous frequency dividers (feedback shift register counters H03K0023540000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03K 29/00",
+      "title": {
+        "ko": null,
+        "en": "Pulse counters comprising multi-stable elements, e.g. for ternary scale, for decimal scale; Analogous frequency dividers"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 29/04",
+          "title": {
+            "ko": null,
+            "en": "using multi-cathode gas discharge tubes"
+          }
+        },
+        {
+          "code": "H03K 29/06",
+          "title": {
+            "ko": null,
+            "en": "using beam-type tubes, e.g. magnetrons, cathode-ray tubes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

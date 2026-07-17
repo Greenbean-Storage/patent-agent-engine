@@ -1,0 +1,2087 @@
+{
+  "subclass": "H02P",
+  "title": {
+    "ko": "전동기, 전기 발전기 또는 다이나모일렉트릭(역학적 에너지와 전기적 에너지를 서로 변환하는, Dynamo-electric) 변환기 ; 변압기를 제어하는 것, 원자로 또는 초크 코일(choke coil)의 제어 또는 규제",
+    "en": "CONTROL OR REGULATION OF ELECTRIC MOTORS, ELECTRIC GENERATORS OR DYNAMO-ELECTRIC CONVERTERS; CONTROLLING TRANSFORMERS, REACTORS OR CHOKE COILS"
+  },
+  "definition": {
+    "ko": "초동장치; 감속 또는 정지 H02P1/00; 3/00 다른 공급원에 접속 가능한 전동기를 제어하는 장치 H02P4/00 2이상의 전동기를 제어하기 위한 장치 H02P5/00 회전자 위치에 종속되는 전자정류자가 있는 동기전동기 또는 다른 전동기의 제어 장치 H02P6/00 직류전동기의 제어장치 H02P7/00 스텝 회전발전 전동기의 제어장치 H02P8/00 발전기로부터 소망출력을 얻는 장치 H02P9/00 변환기로부터 소망출력을 얻는 장치; 전기 적인 것; 정지형의 것 H02P11/00; 13/00 브레이크 또는 클러치의 제어장치 H02P15/00 전동치차의 제어장치 H02P17/00 벡터 제어에 의한 전기기기의 제어장치 H02P21/00 벡터 제어 이외 방법에 따르는 교류 전동기의 제어장치 H02P23/00 교류 전동기의 종류 또는 구조적 세부에 특징이 있는 것 H02P25/00 공급 전압의 종류에 특징이 있는 것 H02P27/00 교류 전동기 및 직류 전동기 양측 모두에 적절한 제어장치 H02P29/00 그 밖에 분류되지 않는 제어장치 H02P31/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H02P 1/00",
+      "title": {
+        "ko": "전동기 또는 다이나모-전기 변환기를 기동하기 위한 장치 (전자 정류자를 가진 동기 모터의 기동 H02P6/20, H02P6/22; 단계별로 회전하는 다이나모-전기 모터를 기동 H02P8/04; 벡터 제어 H02P21/00)",
+        "en": "Arrangements for starting electric motors or dynamo-electric converters (starting of synchronous motors with electronic commutators H02P0006200000, H02P0006220000;starting dynamo-electric motors rotating step by step H02P0008040000;vector control H02P0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H02P 1/04",
+          "title": {
+            "ko": null,
+            "en": "Means for controlling progress of starting sequence in dependence upon time or upon current, speed, or other motor parameter"
+          }
+        },
+        {
+          "code": "H02P 1/06",
+          "title": {
+            "ko": null,
+            "en": "Manually-operated multi-position starters"
+          }
+        },
+        {
+          "code": "H02P 1/08",
+          "title": {
+            "ko": null,
+            "en": "Manually-operated on/off switch controlling power-operated multi-position switch or impedances for starting a motor"
+          }
+        },
+        {
+          "code": "H02P 1/10",
+          "title": {
+            "ko": null,
+            "en": "Manually-operated on/off switch controlling relays or contactors operating sequentially for starting a motor"
+          }
+        },
+        {
+          "code": "H02P 1/12",
+          "title": {
+            "ko": null,
+            "en": "Switching devices centrifugally operated by the motor"
+          }
+        },
+        {
+          "code": "H02P 1/14",
+          "title": {
+            "ko": null,
+            "en": "Pressure-sensitive resistors centrifugally operated by the motor"
+          }
+        },
+        {
+          "code": "H02P 1/16",
+          "title": {
+            "ko": "다이나모-전기 모터 또는 다이나모-전기 변환기를 기동하기 위한 것",
+            "en": "for starting dynamo-electric motors or dynamo-electric converters"
+          }
+        },
+        {
+          "code": "H02P 1/18",
+          "title": {
+            "ko": null,
+            "en": "for starting an individual DC motor"
+          }
+        },
+        {
+          "code": "H02P 1/20",
+          "title": {
+            "ko": null,
+            "en": "by progressive reduction of resistance in series with armature winding"
+          }
+        },
+        {
+          "code": "H02P 1/22",
+          "title": {
+            "ko": null,
+            "en": "in either direction of rotation"
+          }
+        },
+        {
+          "code": "H02P 1/24",
+          "title": {
+            "ko": "개별 교류 정류자 전동기의 기동을 위한 것 (교류/직류 정류자 전동기의 기동 H02P1/18)",
+            "en": "for starting an individual AC commutator motor (starting of AC/DC commutator motors H02P0001180000)"
+          }
+        },
+        {
+          "code": "H02P 1/26",
+          "title": {
+            "ko": null,
+            "en": "for starting an individual polyphase induction motor"
+          }
+        },
+        {
+          "code": "H02P 1/28",
+          "title": {
+            "ko": null,
+            "en": "by progressive increase of voltage applied to primary circuit of motor"
+          }
+        },
+        {
+          "code": "H02P 1/30",
+          "title": {
+            "ko": null,
+            "en": "by progressive increase of frequency of supply to primary circuit of motor"
+          }
+        },
+        {
+          "code": "H02P 1/32",
+          "title": {
+            "ko": null,
+            "en": "by star/delta switching"
+          }
+        },
+        {
+          "code": "H02P 1/34",
+          "title": {
+            "ko": null,
+            "en": "by progressive reduction of impedance in secondary circuit"
+          }
+        },
+        {
+          "code": "H02P 1/36",
+          "title": {
+            "ko": null,
+            "en": "the impedance being a liquid resistance"
+          }
+        },
+        {
+          "code": "H02P 1/38",
+          "title": {
+            "ko": null,
+            "en": "by pole-changing"
+          }
+        },
+        {
+          "code": "H02P 1/40",
+          "title": {
+            "ko": null,
+            "en": "in either direction of rotation"
+          }
+        },
+        {
+          "code": "H02P 1/42",
+          "title": {
+            "ko": null,
+            "en": "for starting an individual single-phase induction motor"
+          }
+        },
+        {
+          "code": "H02P 1/44",
+          "title": {
+            "ko": null,
+            "en": "by phase-splitting with a capacitor"
+          }
+        },
+        {
+          "code": "H02P 1/46",
+          "title": {
+            "ko": "1개의 동기전동기의 기동용",
+            "en": "for starting an individual synchronous motor"
+          }
+        },
+        {
+          "code": "H02P 1/48",
+          "title": {
+            "ko": null,
+            "en": "by pole-changing"
+          }
+        },
+        {
+          "code": "H02P 1/50",
+          "title": {
+            "ko": "비동기에서 동기운전으로의 절환에 의한 것 (H02P 1/48이 우선)",
+            "en": "by changing over from asynchronous to synchronous operation (H02P0001480000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 1/52",
+          "title": {
+            "ko": null,
+            "en": "by progressive increase of frequency of supply to motor"
+          }
+        },
+        {
+          "code": "H02P 1/54",
+          "title": {
+            "ko": null,
+            "en": "for starting two or more dynamo-electric motors"
+          }
+        },
+        {
+          "code": "H02P 1/56",
+          "title": {
+            "ko": null,
+            "en": "simultaneously"
+          }
+        },
+        {
+          "code": "H02P 1/58",
+          "title": {
+            "ko": null,
+            "en": "sequentially"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 3/00",
+      "title": {
+        "ko": "전동기, 발전기, 또는 다이나모-전기 변환기를 정지하거나 감속시키는 장치 (전자 정류자를 가진 동기 모터의 정지 H02P6/24; 단계별로 회전하는 다이나모-전기 모터 정지 H02P8/24; 벡터 제어 H02P21/00)",
+        "en": "Arrangements for stopping or slowing electric motors, generators, or dynamo-electric converters (stopping of synchronous motors with electronic commutators H02P0006240000;stopping dynamo-electric motors rotating step by step H02P0008240000;vector control H02P0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H02P 3/04",
+          "title": {
+            "ko": null,
+            "en": "Means for stopping or slowing by a separate brake, e.g. friction brake or eddy-current brake"
+          }
+        },
+        {
+          "code": "H02P 3/06",
+          "title": {
+            "ko": null,
+            "en": "for stopping or slowing an individual dynamo-electric motor or dynamo-electric converter"
+          }
+        },
+        {
+          "code": "H02P 3/08",
+          "title": {
+            "ko": null,
+            "en": "for stopping or slowing a DC motor"
+          }
+        },
+        {
+          "code": "H02P 3/10",
+          "title": {
+            "ko": null,
+            "en": "by reversal of supply connections"
+          }
+        },
+        {
+          "code": "H02P 3/12",
+          "title": {
+            "ko": null,
+            "en": "by short-circuit or resistive braking"
+          }
+        },
+        {
+          "code": "H02P 3/14",
+          "title": {
+            "ko": null,
+            "en": "by regenerative braking"
+          }
+        },
+        {
+          "code": "H02P 3/16",
+          "title": {
+            "ko": null,
+            "en": "by combined electrical and mechanical braking"
+          }
+        },
+        {
+          "code": "H02P 3/18",
+          "title": {
+            "ko": null,
+            "en": "for stopping or slowing an AC motor"
+          }
+        },
+        {
+          "code": "H02P 3/20",
+          "title": {
+            "ko": null,
+            "en": "by reversal of phase sequence of connections to the motor"
+          }
+        },
+        {
+          "code": "H02P 3/22",
+          "title": {
+            "ko": null,
+            "en": "by short-circuit or resistive braking"
+          }
+        },
+        {
+          "code": "H02P 3/24",
+          "title": {
+            "ko": null,
+            "en": "by applying DC to the motor"
+          }
+        },
+        {
+          "code": "H02P 3/26",
+          "title": {
+            "ko": null,
+            "en": "by combined electrical and mechanical braking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 4/00",
+      "title": {
+        "ko": "2이상 다른 전력공급장치에 접속 가능한 전동기의 속도 또는 토크의 조정, 제어에 특별히 적합한 장치 (벡터 제어 H02P 21/00 )",
+        "en": "Arrangements specially adapted for regulating or controlling the speed or torque of electric motors that can be connected to two or more different electric power supplies (vector control H02P0021000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02P 5/00",
+      "title": {
+        "ko": "2이상의 전동기의 속도 또는 토크 조정, 제어에 특별히 적합한 장치 (H02P6/04, H02P8/40이 우선 )",
+        "en": "Arrangements specially adapted for regulating or controlling the speed or torque of two or more electric motors (H02P0006040000, H02P0008400000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 5/46",
+          "title": {
+            "ko": null,
+            "en": "for speed regulation of two or more dynamo-electric motors in relation to one another"
+          }
+        },
+        {
+          "code": "H02P 5/48",
+          "title": {
+            "ko": null,
+            "en": "by comparing mechanical values representing the speeds"
+          }
+        },
+        {
+          "code": "H02P 5/485",
+          "title": {
+            "ko": null,
+            "en": "using differential movement of the two motors, e.g. using differential gearboxes"
+          }
+        },
+        {
+          "code": "H02P 5/49",
+          "title": {
+            "ko": null,
+            "en": "by intermittently closing or opening electrical contacts"
+          }
+        },
+        {
+          "code": "H02P 5/50",
+          "title": {
+            "ko": null,
+            "en": "by comparing electrical values representing the speeds"
+          }
+        },
+        {
+          "code": "H02P 5/505",
+          "title": {
+            "ko": null,
+            "en": "using equalising lines, e.g. rotor and stator lines of first and second motors"
+          }
+        },
+        {
+          "code": "H02P 5/51",
+          "title": {
+            "ko": null,
+            "en": "Direct ratio control"
+          }
+        },
+        {
+          "code": "H02P 5/52",
+          "title": {
+            "ko": null,
+            "en": "additionally providing control of relative angular displacement"
+          }
+        },
+        {
+          "code": "H02P 5/54",
+          "title": {
+            "ko": null,
+            "en": "Speed and position comparison between the motors by mechanical means"
+          }
+        },
+        {
+          "code": "H02P 5/56",
+          "title": {
+            "ko": null,
+            "en": "Speed and position comparison between the motors by electrical means"
+          }
+        },
+        {
+          "code": "H02P 5/60",
+          "title": {
+            "ko": "결합된 직류 및 교류 전동기를 제어하는 것 (H02P5/46이 우선)",
+            "en": "controlling combinations of DC and AC dynamo-electric motors (H02P0005460000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 5/68",
+          "title": {
+            "ko": "둘 이상의 직류 발전기 전기 모터 제어 (H02P5/46, H02P5/60이 우선)",
+            "en": "controlling two or more DC dynamo-electric motors (H02P0005460000, H02P0005600000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 5/685",
+          "title": {
+            "ko": null,
+            "en": "electrically connected in series, i.e. carrying the same current"
+          }
+        },
+        {
+          "code": "H02P 5/69",
+          "title": {
+            "ko": null,
+            "en": "mechanically coupled by gearing"
+          }
+        },
+        {
+          "code": "H02P 5/695",
+          "title": {
+            "ko": null,
+            "en": "Differential gearing"
+          }
+        },
+        {
+          "code": "H02P 5/74",
+          "title": {
+            "ko": "둘 이상의 교류 전동기를 제어하는 것 (H02P5/46, H02P5/60 이 우선)",
+            "en": "controlling two or more AC dynamo-electric motors (H02P0005460000, H02P0005600000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 5/747",
+          "title": {
+            "ko": null,
+            "en": "mechanically coupled by gearing"
+          }
+        },
+        {
+          "code": "H02P 5/753",
+          "title": {
+            "ko": null,
+            "en": "Differential gearing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 6/00",
+      "title": {
+        "ko": "회전자의 위치에 종속되는 전자 정류자를 사용하는 동기 전동기 또는 다른 전동기의 제어장치; 그러한 전자 정류자(벡터 제어 H02P 21/00)",
+        "en": "Arrangements for controlling synchronous motors or other dynamo-electric motors using electronic commutation dependent on the rotor position; Electronic commutators therefor (vector control H02P0021000000)"
+      },
+      "definition": {
+        "ko": "주(注) 그룹 H02P 6/26은 그룹 H02P 6/04-H02P 6/24와 H02P 6/28-H02P 6/34를 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H02P 6/04",
+          "title": {
+            "ko": "하나 이상의 전동기의 속도 또는 토크(Torque)를 제어하거나 조정하기 위한 장치 (H02P이 6/10 우선 )",
+            "en": "Arrangements for controlling or regulating the speed or torque of more than one motor (H02P0006100000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for speed regulation of a single motor wherein the motor speed is measured and compared with a given physical value so as to adjust the motor speed"
+          }
+        },
+        {
+          "code": "H02P 6/08",
+          "title": {
+            "ko": "정류의 측정 및 조정; 정류실패에 대한 조치의 제공 (H02P 6/10, H02P 6/28이 우선 )",
+            "en": "Arrangements for controlling the speed or torque of a single motor (H02P0006100000, H02P0006280000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling torque ripple, e.g. providing reduced torque ripple"
+          }
+        },
+        {
+          "code": "H02P 6/12",
+          "title": {
+            "ko": null,
+            "en": "Monitoring commutation; Providing indication of commutation failure"
+          }
+        },
+        {
+          "code": "H02P 6/14",
+          "title": {
+            "ko": null,
+            "en": "Electronic commutators"
+          }
+        },
+        {
+          "code": "H02P 6/15",
+          "title": {
+            "ko": null,
+            "en": "Controlling commutation time"
+          }
+        },
+        {
+          "code": "H02P 6/16",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for detecting position"
+          }
+        },
+        {
+          "code": "H02P 6/17",
+          "title": {
+            "ko": null,
+            "en": "and for generating speed information"
+          }
+        },
+        {
+          "code": "H02P 6/18",
+          "title": {
+            "ko": null,
+            "en": "without separate position detecting elements"
+          }
+        },
+        {
+          "code": "H02P 6/182",
+          "title": {
+            "ko": null,
+            "en": "using back-emf in windings"
+          }
+        },
+        {
+          "code": "H02P 6/185",
+          "title": {
+            "ko": null,
+            "en": "using inductance sensing, e.g. pulse excitation"
+          }
+        },
+        {
+          "code": "H02P 6/20",
+          "title": {
+            "ko": "기동을 위한 장치 (H02P 6/08이 우선)",
+            "en": "Arrangements for starting (H02P0006080000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/21",
+          "title": {
+            "ko": null,
+            "en": "Open loop start"
+          }
+        },
+        {
+          "code": "H02P 6/22",
+          "title": {
+            "ko": null,
+            "en": "in a selected direction of rotation"
+          }
+        },
+        {
+          "code": "H02P 6/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for stopping"
+          }
+        },
+        {
+          "code": "H02P 6/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling single phase motors"
+          }
+        },
+        {
+          "code": "H02P 6/28",
+          "title": {
+            "ko": "전류 제어를 위한 장치(H02P 6/10이 우선 )",
+            "en": "Arrangements for controlling current (H02P0006100000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/30",
+          "title": {
+            "ko": "회전 방향을 제어하기 위한 장치(H02P 6/22가 우선)",
+            "en": "Arrangements for controlling the direction of rotation (H02P0006220000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/32",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling wound field motors, e.g. motors with exciter coils"
+          }
+        },
+        {
+          "code": "H02P 6/34",
+          "title": {
+            "ko": null,
+            "en": "Modelling or simulation for control purposes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 7/00",
+      "title": {
+        "ko": "직류전동기의 모터의 속도 또는 토크를 조절하거나 제어하기 위한 장치",
+        "en": "Arrangements for regulating or controlling the speed or torque of electric DC motors"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 7/02",
+          "title": {
+            "ko": null,
+            "en": "the DC motors being of the linear type"
+          }
+        },
+        {
+          "code": "H02P 7/025",
+          "title": {
+            "ko": null,
+            "en": "the DC motors being of the moving coil type, e.g. voice coil motors"
+          }
+        },
+        {
+          "code": "H02P 7/03",
+          "title": {
+            "ko": null,
+            "en": "for controlling the direction of rotation of DC motors"
+          }
+        },
+        {
+          "code": "H02P 7/06",
+          "title": {
+            "ko": "개별 직류 발전기 전기 모터를 필드 또는 전기자 전류를 변화시켜 조절 또는 제어하기 위한 것",
+            "en": "for regulating or controlling an individual DC dynamo-electric motor by varying field or armature current"
+          }
+        },
+        {
+          "code": "H02P 7/08",
+          "title": {
+            "ko": null,
+            "en": "by manual control without auxiliary power"
+          }
+        },
+        {
+          "code": "H02P 7/10",
+          "title": {
+            "ko": null,
+            "en": "of motor field only"
+          }
+        },
+        {
+          "code": "H02P 7/12",
+          "title": {
+            "ko": null,
+            "en": "Switching field from series to shunt excitation or vice versa"
+          }
+        },
+        {
+          "code": "H02P 7/14",
+          "title": {
+            "ko": null,
+            "en": "of voltage applied to the armature with or without control of field"
+          }
+        },
+        {
+          "code": "H02P 7/18",
+          "title": {
+            "ko": "보조동력이 있는 제어에 의한 것",
+            "en": "by master control with auxiliary power"
+          }
+        },
+        {
+          "code": "H02P 7/20",
+          "title": {
+            "ko": "계전기에 의한 전동기회로제어 다중 위치 개폐기. 예)드럼 개폐기를 사용하는 것(H02P 7/24, H02P 7/30이 우선)",
+            "en": "using multi-position switch, e.g. drum, controlling motor circuit by means of relays (H02P0007240000, H02P0007300000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 7/22",
+          "title": {
+            "ko": "조작 전동기로 조작되는 다중 위치 개폐기 또는 조작 전동기로 조작되는 가변 저항기에 의한 전동기회로제어 다중 위치 개폐기. 예)드럼 개폐기를 사용하는 것(H02P 7/24, H02P 7/30가 우선)",
+            "en": "using multi-position switch, e.g. drum, controlling motor circuit by means of pilot-motor-operated multi-position switch or pilot-motor-operated variable resistance (H02P0007240000, H02P0007300000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 7/24",
+          "title": {
+            "ko": "방전관 또는 반도체장치를 사용하는 것",
+            "en": "using discharge tubes or semiconductor devices"
+          }
+        },
+        {
+          "code": "H02P 7/26",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes"
+          }
+        },
+        {
+          "code": "H02P 7/28",
+          "title": {
+            "ko": "반도체장치를 사용하는 것",
+            "en": "using semiconductor devices"
+          }
+        },
+        {
+          "code": "H02P 7/281",
+          "title": {
+            "ko": null,
+            "en": "the DC motor being operated in four quadrants"
+          }
+        },
+        {
+          "code": "H02P 7/282",
+          "title": {
+            "ko": null,
+            "en": "controlling field supply only"
+          }
+        },
+        {
+          "code": "H02P 7/285",
+          "title": {
+            "ko": "전기자공급만을 제어하는 것",
+            "en": "controlling armature supply only"
+          }
+        },
+        {
+          "code": "H02P 7/288",
+          "title": {
+            "ko": null,
+            "en": "using variable impedance"
+          }
+        },
+        {
+          "code": "H02P 7/29",
+          "title": {
+            "ko": null,
+            "en": "using pulse modulation"
+          }
+        },
+        {
+          "code": "H02P 7/291",
+          "title": {
+            "ko": null,
+            "en": "with on-off control between two set points, e.g. controlling by hysteresis"
+          }
+        },
+        {
+          "code": "H02P 7/292",
+          "title": {
+            "ko": "정지형변환기, 예. 교류-직류변환기를 사용하는 것",
+            "en": "using static converters, e.g. AC to DC"
+          }
+        },
+        {
+          "code": "H02P 7/293",
+          "title": {
+            "ko": "위상 제어를 사용하는 것 (H02P7/295 가 우선)",
+            "en": "using phase control (H02P0007295000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 7/295",
+          "title": {
+            "ko": null,
+            "en": "of the kind having one thyristor or the like in series with the power supply and the motor"
+          }
+        },
+        {
+          "code": "H02P 7/298",
+          "title": {
+            "ko": null,
+            "en": "controlling armature and field supplies"
+          }
+        },
+        {
+          "code": "H02P 7/30",
+          "title": {
+            "ko": null,
+            "en": "using magnetic devices with controllable degree of saturation, i.e. transductors"
+          }
+        },
+        {
+          "code": "H02P 7/32",
+          "title": {
+            "ko": null,
+            "en": "using armature-reaction-excited machines, e.g. metadyne, amplidyne, rototrol"
+          }
+        },
+        {
+          "code": "H02P 7/34",
+          "title": {
+            "ko": null,
+            "en": "using Ward-Leonard arrangements"
+          }
+        },
+        {
+          "code": "H02P 7/343",
+          "title": {
+            "ko": null,
+            "en": "in which both generator and motor fields are controlled"
+          }
+        },
+        {
+          "code": "H02P 7/347",
+          "title": {
+            "ko": null,
+            "en": "in which only the generator field is controlled"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 8/00",
+      "title": {
+        "ko": "스텝 구동하는 전동기의 제어장치",
+        "en": "Arrangements for controlling dynamo-electric motors rotating step by step"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 8/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for single-phase or bi-pole stepper motors, e.g. watch-motors, clock-motors"
+          }
+        },
+        {
+          "code": "H02P 8/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for starting"
+          }
+        },
+        {
+          "code": "H02P 8/06",
+          "title": {
+            "ko": null,
+            "en": "in selected direction of rotation"
+          }
+        },
+        {
+          "code": "H02P 8/08",
+          "title": {
+            "ko": null,
+            "en": "Determining position before starting"
+          }
+        },
+        {
+          "code": "H02P 8/10",
+          "title": {
+            "ko": null,
+            "en": "Shaping pulses for starting; Boosting current during starting"
+          }
+        },
+        {
+          "code": "H02P 8/12",
+          "title": {
+            "ko": null,
+            "en": "Control or stabilisation of current"
+          }
+        },
+        {
+          "code": "H02P 8/14",
+          "title": {
+            "ko": "속도 또는 속도와 토크를 제어하기 위한 장치(H02P 8/12, H02P 8/22가 우선)",
+            "en": "Arrangements for controlling speed or speed and torque (H02P0008120000, H02P0008220000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 8/16",
+          "title": {
+            "ko": null,
+            "en": "Reducing energy dissipated or supplied"
+          }
+        },
+        {
+          "code": "H02P 8/18",
+          "title": {
+            "ko": null,
+            "en": "Shaping of pulses, e.g. to reduce torque ripple"
+          }
+        },
+        {
+          "code": "H02P 8/20",
+          "title": {
+            "ko": null,
+            "en": "characterised by bidirectional operation"
+          }
+        },
+        {
+          "code": "H02P 8/22",
+          "title": {
+            "ko": null,
+            "en": "Control of step size; Intermediate stepping, e.g. microstepping"
+          }
+        },
+        {
+          "code": "H02P 8/24",
+          "title": {
+            "ko": "정지장치(H02P 8/32가 우선)",
+            "en": "Arrangements for stopping (H02P0008320000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 8/26",
+          "title": {
+            "ko": null,
+            "en": "Memorising final pulse when stopping"
+          }
+        },
+        {
+          "code": "H02P 8/28",
+          "title": {
+            "ko": null,
+            "en": "Disconnecting power source when stopping"
+          }
+        },
+        {
+          "code": "H02P 8/30",
+          "title": {
+            "ko": null,
+            "en": "Holding position when stopped"
+          }
+        },
+        {
+          "code": "H02P 8/32",
+          "title": {
+            "ko": null,
+            "en": "Reducing overshoot or oscillation, e.g. damping"
+          }
+        },
+        {
+          "code": "H02P 8/34",
+          "title": {
+            "ko": "모니터에 의한 조작(8/36이 우선)",
+            "en": "Monitoring operation (H02P0008360000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 8/36",
+          "title": {
+            "ko": null,
+            "en": "Protection against faults, e.g. against overheating or step-out; Indicating faults"
+          }
+        },
+        {
+          "code": "H02P 8/38",
+          "title": {
+            "ko": null,
+            "en": "the fault being step-out"
+          }
+        },
+        {
+          "code": "H02P 8/40",
+          "title": {
+            "ko": null,
+            "en": "Special adaptations for controlling two or more stepping motors"
+          }
+        },
+        {
+          "code": "H02P 8/42",
+          "title": {
+            "ko": null,
+            "en": "characterised by non-stepper motors being operated step by step"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 9/00",
+      "title": {
+        "ko": "목표 출력을 얻기 위한 발전기 제어장치",
+        "en": "Arrangements for controlling electric generators for the purpose of obtaining a desired output"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 9/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H02P 9/04",
+          "title": {
+            "ko": null,
+            "en": "Control effected upon non-electric prime mover and dependent upon electric output value of the generator"
+          }
+        },
+        {
+          "code": "H02P 9/06",
+          "title": {
+            "ko": null,
+            "en": "Control effected upon clutch or other mechanical power transmission means and dependent upon electric output value of the generator"
+          }
+        },
+        {
+          "code": "H02P 9/08",
+          "title": {
+            "ko": null,
+            "en": "Control of generator circuit during starting or stopping of driving means, e.g. for initiating excitation"
+          }
+        },
+        {
+          "code": "H02P 9/10",
+          "title": {
+            "ko": null,
+            "en": "Control effected upon generator excitation circuit to reduce harmful effects of overloads or transients, e.g. sudden application of load, sudden removal of load, sudden change of load"
+          }
+        },
+        {
+          "code": "H02P 9/12",
+          "title": {
+            "ko": null,
+            "en": "for demagnetising; for reducing effects of remanence; for preventing pole reversal"
+          }
+        },
+        {
+          "code": "H02P 9/14",
+          "title": {
+            "ko": "계자의 변화에 의한 것(H02P 9/08, H02P 9/10이 우선)",
+            "en": "by variation of field (H02P0009080000, H02P0009100000 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 9/16",
+          "title": {
+            "ko": null,
+            "en": "due to variation of ohmic resistance in field circuit, using resistances switched in or out of circuit step by step"
+          }
+        },
+        {
+          "code": "H02P 9/18",
+          "title": {
+            "ko": null,
+            "en": "the switching being caused by a servomotor, measuring instrument, or relay"
+          }
+        },
+        {
+          "code": "H02P 9/20",
+          "title": {
+            "ko": null,
+            "en": "due to variation of continuously-variable ohmic resistance"
+          }
+        },
+        {
+          "code": "H02P 9/22",
+          "title": {
+            "ko": null,
+            "en": "comprising carbon pile resistance"
+          }
+        },
+        {
+          "code": "H02P 9/24",
+          "title": {
+            "ko": null,
+            "en": "due to variation of make-to-break ratio of intermittently-operating contacts, e.g. using Tirrill regulator"
+          }
+        },
+        {
+          "code": "H02P 9/26",
+          "title": {
+            "ko": "방전관 또는 반도체장치를 이용하는 것(9/34가 우선)",
+            "en": "using discharge tubes or semiconductor devices (H02P0009340000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 9/28",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes"
+          }
+        },
+        {
+          "code": "H02P 9/30",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices"
+          }
+        },
+        {
+          "code": "H02P 9/32",
+          "title": {
+            "ko": "포화도를 제어할 수 있는 자기적장치를 이용하는 것(H02P 9/34가 우선)",
+            "en": "using magnetic devices with controllable degree of saturation (H02P0009340000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 9/34",
+          "title": {
+            "ko": null,
+            "en": "using magnetic devices with controllable degree of saturation in combination with controlled discharge tube or controlled semiconductor device"
+          }
+        },
+        {
+          "code": "H02P 9/36",
+          "title": {
+            "ko": null,
+            "en": "using armature-reaction-excited machines"
+          }
+        },
+        {
+          "code": "H02P 9/38",
+          "title": {
+            "ko": null,
+            "en": "Self-excitation by current derived from rectification of both output voltage and output current of generator"
+          }
+        },
+        {
+          "code": "H02P 9/40",
+          "title": {
+            "ko": null,
+            "en": "by variation of reluctance of magnetic circuit of generator"
+          }
+        },
+        {
+          "code": "H02P 9/42",
+          "title": {
+            "ko": null,
+            "en": "to obtain desired frequency without varying speed of the generator"
+          }
+        },
+        {
+          "code": "H02P 9/44",
+          "title": {
+            "ko": null,
+            "en": "Control of frequency and voltage in predetermined relation, e.g. constant ratio"
+          }
+        },
+        {
+          "code": "H02P 9/46",
+          "title": {
+            "ko": null,
+            "en": "Control of asynchronous generator by variation of capacitor"
+          }
+        },
+        {
+          "code": "H02P 9/48",
+          "title": {
+            "ko": "발전기의 속도변경에 대해서 일정한 출력값를 얻기 위한 장치, 예. 차량용(H02P 9/04～ H02P 9/46이 우선)",
+            "en": "Arrangements for obtaining a constant output value at varying speed of the generator, e.g. on vehicle (H02P0009040000-H02P0009460000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 11/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling dynamo-electric converters"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 11/04",
+          "title": {
+            "ko": null,
+            "en": "for controlling dynamo-electric converters having a DC output"
+          }
+        },
+        {
+          "code": "H02P 11/06",
+          "title": {
+            "ko": null,
+            "en": "for controlling dynamo-electric converters having an AC output"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 13/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling transformers, reactors or choke coils, for the purpose of obtaining a desired output"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 13/06",
+          "title": {
+            "ko": null,
+            "en": "by tap-changing; by rearranging interconnections of windings"
+          }
+        },
+        {
+          "code": "H02P 13/08",
+          "title": {
+            "ko": null,
+            "en": "by sliding current collector along winding"
+          }
+        },
+        {
+          "code": "H02P 13/10",
+          "title": {
+            "ko": null,
+            "en": "by moving core, coil winding, or shield, e.g. by induction regulator"
+          }
+        },
+        {
+          "code": "H02P 13/12",
+          "title": {
+            "ko": null,
+            "en": "by varying magnetic bias"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 15/00",
+      "title": {
+        "ko": "전동 브레이크 또는 전동 클러치 제어장치(벡터 제어 H02P 21/00)",
+        "en": "Arrangements for controlling dynamo-electric brakes or clutches (vector control H02P0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 15/02",
+          "title": {
+            "ko": null,
+            "en": "Conjoint control of brakes and clutches"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 17/00",
+      "title": {
+        "ko": "전동 톱니바퀴의 제어장치(벡터 제어 H02P 21/00)",
+        "en": "Arrangements for controlling dynamo-electric gears (vector control H02P0021000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02P 21/00",
+      "title": {
+        "ko": "벡터 제어에 의한 전기기기의 제어장치 또는 제어 방법, 예. 필드지향의 제어에 의한 것",
+        "en": "Arrangements or methods for the control of electric machines by vector control, e.g. by control of field orientation"
+      },
+      "definition": {
+        "ko": "주(注) 1. 이그룹을 분류할때, 1. 제어하는 방법이 제어되는 모토의 종류에 의해 특징화 되어질때 분류는 그룹 H02P 25/00에 되어져야 한다. 2. 제어하는 방법이 제어되는 모터의 공급전압의 종류에 의해 특징화되어질 때 분류는 그룹 H02P27/00 에도 되어져야 한다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H02P 21/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for optimising the efficiency at low load"
+          }
+        },
+        {
+          "code": "H02P 21/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for very low speeds"
+          }
+        },
+        {
+          "code": "H02P 21/05",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for damping motor oscillations, e.g. for reducing hunting"
+          }
+        },
+        {
+          "code": "H02P 21/06",
+          "title": {
+            "ko": null,
+            "en": "Rotor flux based control involving the use of rotor position or rotor speed sensors"
+          }
+        },
+        {
+          "code": "H02P 21/08",
+          "title": {
+            "ko": null,
+            "en": "Indirect field-oriented control; Rotor flux feed-forward control"
+          }
+        },
+        {
+          "code": "H02P 21/09",
+          "title": {
+            "ko": null,
+            "en": "Field phase angle calculation based on rotor voltage equation by adding slip frequency and speed proportional frequency"
+          }
+        },
+        {
+          "code": "H02P 21/10",
+          "title": {
+            "ko": null,
+            "en": "Direct field-oriented control; Rotor flux feed-back control"
+          }
+        },
+        {
+          "code": "H02P 21/12",
+          "title": {
+            "ko": null,
+            "en": "Stator flux based control involving the use of rotor position or rotor speed sensors"
+          }
+        },
+        {
+          "code": "H02P 21/13",
+          "title": {
+            "ko": null,
+            "en": "Observer control, e.g. using Luenberger observers or Kalman filters"
+          }
+        },
+        {
+          "code": "H02P 21/14",
+          "title": {
+            "ko": null,
+            "en": "Estimation or adaptation of machine parameters, e.g. flux, current or voltage"
+          }
+        },
+        {
+          "code": "H02P 21/16",
+          "title": {
+            "ko": null,
+            "en": "Estimation of constants, e.g. the rotor time constant"
+          }
+        },
+        {
+          "code": "H02P 21/18",
+          "title": {
+            "ko": null,
+            "en": "Estimation of position or speed"
+          }
+        },
+        {
+          "code": "H02P 21/20",
+          "title": {
+            "ko": null,
+            "en": "Estimation of torque"
+          }
+        },
+        {
+          "code": "H02P 21/22",
+          "title": {
+            "ko": null,
+            "en": "Current control, e.g. using a current control loop"
+          }
+        },
+        {
+          "code": "H02P 21/24",
+          "title": {
+            "ko": "회전자 위치 또는 회전자 속도 센서를 사용하지 않는 벡터 제어",
+            "en": "Vector control not involving the use of rotor position or rotor speed sensors"
+          }
+        },
+        {
+          "code": "H02P 21/26",
+          "title": {
+            "ko": null,
+            "en": "Rotor flux based control"
+          }
+        },
+        {
+          "code": "H02P 21/28",
+          "title": {
+            "ko": null,
+            "en": "Stator flux based control"
+          }
+        },
+        {
+          "code": "H02P 21/30",
+          "title": {
+            "ko": null,
+            "en": "Direct torque control [DTC] or field acceleration method [FAM]"
+          }
+        },
+        {
+          "code": "H02P 21/32",
+          "title": {
+            "ko": "초기 회전자 위치를 결정하는 것 (H02P 21/34가 우선)",
+            "en": "Determining the initial rotor position (H02P0021340000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 21/34",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for starting"
+          }
+        },
+        {
+          "code": "H02P 21/36",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for braking or slowing; Four quadrant control"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 23/00",
+      "title": {
+        "ko": "벡터 제어 이외의 제어 방법을 특징으로 하는 교류 모터 제어를 위한 장치 또는 방법",
+        "en": "Arrangements or methods for the control of AC motors characterised by a control method other than vector control"
+      },
+      "definition": {
+        "ko": "주 이 그룹에 분류할때, 그룹 H02P21/00, H02P25/00 또는 H02P27/00과 관련된 주제사항은 또한 적당할때는 언제나 그들 그룹에 추가적으로 분류되어 진다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H02P 23/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for optimising the efficiency at low load"
+          }
+        },
+        {
+          "code": "H02P 23/03",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for very low speeds"
+          }
+        },
+        {
+          "code": "H02P 23/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for damping motor oscillations, e.g. for reducing hunting"
+          }
+        },
+        {
+          "code": "H02P 23/06",
+          "title": {
+            "ko": null,
+            "en": "Controlling the motor in four quadrants"
+          }
+        },
+        {
+          "code": "H02P 23/07",
+          "title": {
+            "ko": null,
+            "en": "Polyphase or monophase asynchronous induction motors"
+          }
+        },
+        {
+          "code": "H02P 23/08",
+          "title": {
+            "ko": null,
+            "en": "Controlling based on slip frequency, e.g. adding slip frequency and speed proportional frequency"
+          }
+        },
+        {
+          "code": "H02P 23/10",
+          "title": {
+            "ko": null,
+            "en": "Controlling by adding a DC current"
+          }
+        },
+        {
+          "code": "H02P 23/12",
+          "title": {
+            "ko": null,
+            "en": "Observer control, e.g. using Luenberger observers or Kalman filters"
+          }
+        },
+        {
+          "code": "H02P 23/14",
+          "title": {
+            "ko": null,
+            "en": "Estimation or adaptation of motor parameters, e.g. rotor time constant, flux, speed, current or voltage"
+          }
+        },
+        {
+          "code": "H02P 23/16",
+          "title": {
+            "ko": "한 축의 각 속도를 제어하는 것 (H02P 23/18이 우선)",
+            "en": "Controlling the angular speed of one shaft (H02P0023180000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 23/18",
+          "title": {
+            "ko": null,
+            "en": "Controlling the angular speed together with angular position or phase"
+          }
+        },
+        {
+          "code": "H02P 23/20",
+          "title": {
+            "ko": null,
+            "en": "Controlling the acceleration or deceleration"
+          }
+        },
+        {
+          "code": "H02P 23/22",
+          "title": {
+            "ko": null,
+            "en": "Controlling the speed digitally using a reference oscillator, a speed proportional pulse rate feedback and a digital comparator"
+          }
+        },
+        {
+          "code": "H02P 23/24",
+          "title": {
+            "ko": null,
+            "en": "Controlling the direction, e.g. clockwise or counterclockwise"
+          }
+        },
+        {
+          "code": "H02P 23/26",
+          "title": {
+            "ko": null,
+            "en": "Power factor control [PFC]"
+          }
+        },
+        {
+          "code": "H02P 23/28",
+          "title": {
+            "ko": null,
+            "en": "Controlling the motor by varying the switching frequency of switches connected to a DC supply and the motor phases"
+          }
+        },
+        {
+          "code": "H02P 23/30",
+          "title": {
+            "ko": null,
+            "en": "Direct torque control [DTC] or field acceleration method [FAM]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 25/00",
+      "title": {
+        "ko": "교류 모터의 종류 또는 구조적 세부사항에 특징이 있는 교류 모터의 제어를 위한 장치 또는 방법",
+        "en": "Arrangements or methods for the control of AC motors characterised by the kind of AC motor or by structural details"
+      },
+      "definition": {
+        "ko": "주 이 그룹에 분류할때, 그룹 H02P 21/00, H02P 23/00 또는 H02P 27/00과 관련된 주제사항은 또한 적당할때는 언제나 그들 그룹에 추가적으로 분류되어 진다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H02P 25/02",
+          "title": {
+            "ko": "전동기의 종류에 특징이 있는 것",
+            "en": "characterised by the kind of motor"
+          }
+        },
+        {
+          "code": "H02P 25/022",
+          "title": {
+            "ko": "동기 전동기 (H02P 25/064이 우선 )",
+            "en": "Synchronous motors (H02P0025064000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 25/024",
+          "title": {
+            "ko": null,
+            "en": "controlled by supply frequency"
+          }
+        },
+        {
+          "code": "H02P 25/026",
+          "title": {
+            "ko": null,
+            "en": "thereby detecting the rotor position"
+          }
+        },
+        {
+          "code": "H02P 25/028",
+          "title": {
+            "ko": null,
+            "en": "with four quadrant control"
+          }
+        },
+        {
+          "code": "H02P 25/03",
+          "title": {
+            "ko": null,
+            "en": "with brushless excitation"
+          }
+        },
+        {
+          "code": "H02P 25/032",
+          "title": {
+            "ko": "왕복, 진동 또는 진동 전동기",
+            "en": "Reciprocating, oscillating or vibrating motors"
+          }
+        },
+        {
+          "code": "H02P 25/034",
+          "title": {
+            "ko": "보이스 코일 전동기 (직류 전압에 의해 구동된 보이스 코일 전동기 H02P 7/025 )",
+            "en": "Voice coil motors (voice coil motors driven by DC H02P0007025000)"
+          }
+        },
+        {
+          "code": "H02P 25/04",
+          "title": {
+            "ko": null,
+            "en": "Single phase motors, e.g. capacitor motors"
+          }
+        },
+        {
+          "code": "H02P 25/06",
+          "title": {
+            "ko": null,
+            "en": "Linear motors"
+          }
+        },
+        {
+          "code": "H02P 25/062",
+          "title": {
+            "ko": null,
+            "en": "of the induction type"
+          }
+        },
+        {
+          "code": "H02P 25/064",
+          "title": {
+            "ko": null,
+            "en": "of the synchronous type"
+          }
+        },
+        {
+          "code": "H02P 25/066",
+          "title": {
+            "ko": null,
+            "en": "of the stepping type"
+          }
+        },
+        {
+          "code": "H02P 25/08",
+          "title": {
+            "ko": "자기저항 전동기",
+            "en": "Reluctance motors"
+          }
+        },
+        {
+          "code": "H02P 25/083",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for increasing the switching speed from one coil to the next one"
+          }
+        },
+        {
+          "code": "H02P 25/086",
+          "title": {
+            "ko": "정류",
+            "en": "Commutation"
+          }
+        },
+        {
+          "code": "H02P 25/089",
+          "title": {
+            "ko": "센서리스 제어 (직접 토크 제어 H02P 23/30 )",
+            "en": "Sensorless control (direct torque control H02P0023300000)"
+          }
+        },
+        {
+          "code": "H02P 25/092",
+          "title": {
+            "ko": null,
+            "en": "Converters specially adapted for controlling reluctance motors"
+          }
+        },
+        {
+          "code": "H02P 25/098",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing torque ripple"
+          }
+        },
+        {
+          "code": "H02P 25/10",
+          "title": {
+            "ko": "정류자 전동기, 예. 반작용 전동기",
+            "en": "Commutator motors, e.g. repulsion motors"
+          }
+        },
+        {
+          "code": "H02P 25/12",
+          "title": {
+            "ko": null,
+            "en": "with shiftable brushes"
+          }
+        },
+        {
+          "code": "H02P 25/14",
+          "title": {
+            "ko": "유니버설 모터(H02P 25/12가 우선)",
+            "en": "Universal motors (H02P0025120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 25/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by the circuit arrangement or by the kind of wiring"
+          }
+        },
+        {
+          "code": "H02P 25/18",
+          "title": {
+            "ko": null,
+            "en": "with arrangements for switching the windings, e.g. with mechanical switches or relays"
+          }
+        },
+        {
+          "code": "H02P 25/20",
+          "title": {
+            "ko": null,
+            "en": "for pole-changing"
+          }
+        },
+        {
+          "code": "H02P 25/22",
+          "title": {
+            "ko": null,
+            "en": "Multiple windings; Windings for more than three phases"
+          }
+        },
+        {
+          "code": "H02P 25/24",
+          "title": {
+            "ko": null,
+            "en": "Variable impedance in stator or rotor circuit"
+          }
+        },
+        {
+          "code": "H02P 25/26",
+          "title": {
+            "ko": null,
+            "en": "with arrangements for controlling secondary impedance"
+          }
+        },
+        {
+          "code": "H02P 25/28",
+          "title": {
+            "ko": null,
+            "en": "using magnetic devices with controllable degree of saturation, e.g. transductors"
+          }
+        },
+        {
+          "code": "H02P 25/30",
+          "title": {
+            "ko": null,
+            "en": "the motor being controlled by a control effected upon an AC generator supplying it"
+          }
+        },
+        {
+          "code": "H02P 25/32",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 27/00",
+      "title": {
+        "ko": "공급 전압의 종류에 특징을 가지는 교류 전동기의 제어장치 또는 제어방법(둘 이상의 전동기 H02P 5/00; 전자 정류자를 갖는 동기 전동기 H02P 6/00; 직류전동기 H02P 7/00; 스텝 모터 H02P 8/00)",
+        "en": "Arrangements or methods for the control of AC motors characterised by the kind of supply voltage (of two or more motors H02P0005000000;of synchronous motors with electronic commutators H02P0006000000;of DC motors H02P0007000000;of stepping motors H02P0008000000)"
+      },
+      "definition": {
+        "ko": "주(注) 이 그룹에 분류할때, 그룹 H02P 21/00, H02P 23/00 또는 H02P 25/00과 관련된 주제사항은 또한 적당할때는 언제나 그들 그룹에 추가적으로 분류되어 진다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H02P 27/02",
+          "title": {
+            "ko": null,
+            "en": "using supply voltage with constant frequency and variable amplitude"
+          }
+        },
+        {
+          "code": "H02P 27/024",
+          "title": {
+            "ko": null,
+            "en": "using AC supply for only the rotor circuit or only the stator circuit"
+          }
+        },
+        {
+          "code": "H02P 27/04",
+          "title": {
+            "ko": "가변 주파수의 공급 전압을 이용하는 것, 예. 인버터 또는 컨버터 공급 전압",
+            "en": "using variable-frequency supply voltage, e.g. inverter or converter supply voltage"
+          }
+        },
+        {
+          "code": "H02P 27/048",
+          "title": {
+            "ko": null,
+            "en": "using AC supply for only the rotor circuit or only the stator circuit"
+          }
+        },
+        {
+          "code": "H02P 27/05",
+          "title": {
+            "ko": null,
+            "en": "using AC supply for both the rotor and the stator circuits, the frequency of supply to at least one circuit being variable"
+          }
+        },
+        {
+          "code": "H02P 27/06",
+          "title": {
+            "ko": "직류-교류 컨버터 또는 인버터를 이용하는 것 (H02P27/05가 우선)",
+            "en": "using DC to AC converters or inverters (H02P0027050000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 27/08",
+          "title": {
+            "ko": null,
+            "en": "with pulse width modulation"
+          }
+        },
+        {
+          "code": "H02P 27/10",
+          "title": {
+            "ko": null,
+            "en": "using bang-bang controllers"
+          }
+        },
+        {
+          "code": "H02P 27/12",
+          "title": {
+            "ko": null,
+            "en": "pulsing by guiding the flux vector, current vector or voltage vector on a circle or a closed curve, e.g. for direct torque control"
+          }
+        },
+        {
+          "code": "H02P 27/14",
+          "title": {
+            "ko": null,
+            "en": "with three or more levels of voltage"
+          }
+        },
+        {
+          "code": "H02P 27/16",
+          "title": {
+            "ko": "직류로의 중간 변환 없이 교류-교류 변환기를 사용하는 것 (H02P27/05가 우선)",
+            "en": "using AC to AC converters without intermediate conversion to DC (H02P0027050000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 27/18",
+          "title": {
+            "ko": null,
+            "en": "varying the frequency by omitting half waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 29/00",
+      "title": {
+        "ko": "교류 전동기 및 직류전동기 양측에 적합한 조정 또는 제어장치(전기 전동기의 시작을 위한 장치 H02P 1/00 ;전기 전동기의 정지 또는 감속을 위한 장치 H02P 3/00 ; 둘 이상의 다른 전기 전압 공급에 접속 가능한 전동기의 제어 H02P 4/00 ;둘 이상의 전기 전동기의 속도 또는 토크를 조정 또는 제어하는 것 H02P 5/00 ;벡터 제어 H02P 21/00 )",
+        "en": "Arrangements for regulating or controlling electric motors, appropriate for both AC and DC motors (arrangements for starting electric motors H02P0001000000;arrangements for stopping or slowing electric motors H02P0003000000;control of motors that can be connected to two or more different electric power supplies H02P0004000000;regulating or controlling the speed or torque of two or more electric motors H02P0005000000;vector control H02P0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 29/02",
+          "title": {
+            "ko": "전원을 자동 차단하지 않고 과부하에 대한 보호를 하는 것(스테퍼 전동기의 고장에 대한 보호 H02P 8/36 )",
+            "en": "Providing protection against overload without automatic interruption of supply (protection against faults of stepper motors H02P0008360000)"
+          }
+        },
+        {
+          "code": "H02P 29/024",
+          "title": {
+            "ko": null,
+            "en": "Detecting a fault condition, e.g. short circuit, locked rotor, open circuit or loss of load"
+          }
+        },
+        {
+          "code": "H02P 29/028",
+          "title": {
+            "ko": null,
+            "en": "the motor continuing operation despite the fault condition, e.g. eliminating, compensating for or remedying the fault"
+          }
+        },
+        {
+          "code": "H02P 29/032",
+          "title": {
+            "ko": null,
+            "en": "Preventing damage to the motor, e.g. setting individual current limits for different drive conditions"
+          }
+        },
+        {
+          "code": "H02P 29/04",
+          "title": {
+            "ko": null,
+            "en": "by means of a separate brake"
+          }
+        },
+        {
+          "code": "H02P 29/10",
+          "title": {
+            "ko": null,
+            "en": "for preventing overspeed or under speed"
+          }
+        },
+        {
+          "code": "H02P 29/20",
+          "title": {
+            "ko": null,
+            "en": "for controlling one motor used for different sequential operations"
+          }
+        },
+        {
+          "code": "H02P 29/40",
+          "title": {
+            "ko": null,
+            "en": "Regulating or controlling the amount of current drawn or delivered by the motor for controlling the mechanical load"
+          }
+        },
+        {
+          "code": "H02P 29/50",
+          "title": {
+            "ko": null,
+            "en": "Reduction of harmonics"
+          }
+        },
+        {
+          "code": "H02P 29/60",
+          "title": {
+            "ko": "전동기의 온도 또는 구동의 온도를 제어 또는 결정하는 것(H02P 29/02 우선)",
+            "en": "Controlling or determining the temperature of the motor or of the drive (H02P0029020000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 29/62",
+          "title": {
+            "ko": null,
+            "en": "for raising the temperature of the motor"
+          }
+        },
+        {
+          "code": "H02P 29/64",
+          "title": {
+            "ko": null,
+            "en": "Controlling or determining the temperature of the winding"
+          }
+        },
+        {
+          "code": "H02P 29/66",
+          "title": {
+            "ko": null,
+            "en": "Controlling or determining the temperature of the rotor"
+          }
+        },
+        {
+          "code": "H02P 29/68",
+          "title": {
+            "ko": null,
+            "en": "based on the temperature of a drive component or a semiconductor component"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 31/00",
+      "title": {
+        "ko": "그룹 H02P 1/00 ~ H02P 5/00, H02P 7/00 또는 H02P 21/00 ~ H02P 29/00에 분류되지 않는 전동기의 조정 또는 제어장치",
+        "en": "Arrangements for regulating or controlling electric motors not provided for in groups H02P0001000000-H02P0005000000, H02P0007000000 or H02P0021000000-H02P0029000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02P 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with groups relating to the arrangements for controlling electric generators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02P 101/00",
+      "title": {
+        "ko": null,
+        "en": "Special adaptation of control arrangements for generators"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 101/10",
+          "title": {
+            "ko": null,
+            "en": "for water-driven turbines"
+          }
+        },
+        {
+          "code": "H02P 101/15",
+          "title": {
+            "ko": null,
+            "en": "for wind-driven turbines"
+          }
+        },
+        {
+          "code": "H02P 101/20",
+          "title": {
+            "ko": null,
+            "en": "for steam-driven turbines"
+          }
+        },
+        {
+          "code": "H02P 101/25",
+          "title": {
+            "ko": null,
+            "en": "for combustion engines"
+          }
+        },
+        {
+          "code": "H02P 101/30",
+          "title": {
+            "ko": null,
+            "en": "for aircraft"
+          }
+        },
+        {
+          "code": "H02P 101/35",
+          "title": {
+            "ko": null,
+            "en": "for ships"
+          }
+        },
+        {
+          "code": "H02P 101/40",
+          "title": {
+            "ko": null,
+            "en": "for railway vehicles"
+          }
+        },
+        {
+          "code": "H02P 101/45",
+          "title": {
+            "ko": null,
+            "en": "for motor vehicles, e.g. car alternators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 103/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling arrangements characterised by the type of generator"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 103/10",
+          "title": {
+            "ko": null,
+            "en": "of the asynchronous type"
+          }
+        },
+        {
+          "code": "H02P 103/20",
+          "title": {
+            "ko": null,
+            "en": "of the synchronous type"
+          }
+        }
+      ]
+    }
+  ]
+}

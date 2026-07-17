@@ -1,0 +1,805 @@
+{
+  "subclass": "A62C",
+  "title": {
+    "ko": "소방 (소방제, 화학물질의 사용 A62D1/00; 분무, 표면에 액체 또 는 다른 유동성 물질을 도포시키는 일반 B05; 소방 항공기 B64D1/16; 경보장치 G08B, 예. 연기 또는 가스에 의해 작동되는 경보기 G08B17/10)",
+    "en": "FIRE-FIGHTING (fire-extinguishing compositions, use of chemical substances in extinguishing fires A62D0001000000;spraying, applying liquids or other fluent materials to surfaces in general B05;fire-fighting aircraft B64D0001160000;alarm arrangements G08B, e.g. fire alarms actuated by smoke or gases G08B0017100000)"
+  },
+  "definition": {
+    "ko": "화재예방 또는 억제; 특정한 대상 또는 장소에 대한 소화 A62C 예방 또는 억제 A62C2/00 화염트랩(FLAME TRAPS) A62C4/00 특정한 대상 또는 장소용 A62C3/00 사용전에 소화물질을 만드는 것 A62C5/00 손도구 또는 부속품 A62C8/00 휴대용 소화기 A62C 작동원리에 의한 것 A62C11/00, A62C13/00, A62C19/00, A62C25/00 배낭형 A62C15/00 권총형 또는 소총형 A62C17/00 소방 차량 A62C 육상 차량 A62C27/00 선박 A62C29/00 소화제의 방출 A62C31/00 호스 부속품 A62C33/00 고정 설치된 설비 A62C35/00 소화장치의 제어 A62C37/00 그 밖의 방법, 설비 또는 부속품 A62C99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "A62C 2/00",
+      "title": {
+        "ko": "화재 예방 또는 억제(A62C 3/00이 우선; 화염트랩 A62C 4/00)",
+        "en": "Fire prevention or containment (A62C0003000000 takes precedence;flame traps A62C0004000000)"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 2/04",
+          "title": {
+            "ko": null,
+            "en": "Removing or cutting-off the supply of inflammable material"
+          }
+        },
+        {
+          "code": "A62C 2/06",
+          "title": {
+            "ko": "물리적인 방화벽",
+            "en": "Physical fire-barriers"
+          }
+        },
+        {
+          "code": "A62C 2/08",
+          "title": {
+            "ko": "물차단막(노즐 A62C 31/02)",
+            "en": "Water curtains (nozzles A62C0031020000)"
+          }
+        },
+        {
+          "code": "A62C 2/10",
+          "title": {
+            "ko": null,
+            "en": "Fire-proof curtains"
+          }
+        },
+        {
+          "code": "A62C 2/12",
+          "title": {
+            "ko": null,
+            "en": "Hinged dampers"
+          }
+        },
+        {
+          "code": "A62C 2/14",
+          "title": {
+            "ko": null,
+            "en": "with two or more blades"
+          }
+        },
+        {
+          "code": "A62C 2/16",
+          "title": {
+            "ko": null,
+            "en": "multi-vane roll or fold-up type"
+          }
+        },
+        {
+          "code": "A62C 2/18",
+          "title": {
+            "ko": null,
+            "en": "Sliding dampers"
+          }
+        },
+        {
+          "code": "A62C 2/20",
+          "title": {
+            "ko": null,
+            "en": "at 90 degrees to the plane of the opening"
+          }
+        },
+        {
+          "code": "A62C 2/22",
+          "title": {
+            "ko": null,
+            "en": "Fire-dampers with provision for the removal of an obstacle, e.g. rails or conveyors, before closing the opening"
+          }
+        },
+        {
+          "code": "A62C 2/24",
+          "title": {
+            "ko": null,
+            "en": "Operating or controlling mechanisms"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 3/00",
+      "title": {
+        "ko": "특정한 대상 또는 장소에 특히 적합한 화재 예방, 억제 또는 소화(원자로용은 G21C 9/04)",
+        "en": "Fire prevention, containment or extinguishing specially adapted for particular objects or places (for nuclear reactors G21C0009040000)"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 3/02",
+          "title": {
+            "ko": null,
+            "en": "for area conflagrations, e.g. forest fires, subterranean fires"
+          }
+        },
+        {
+          "code": "A62C 3/04",
+          "title": {
+            "ko": "쓰레기 또는 포장되지 않은 또는 아무렇게나 쌓아놓은 재료를 위한 것, 예. 지하실 내의 것, 굴뚝 내의 것(화염트랩 A62C 4/00)",
+            "en": "for dust or loosely-baled or loosely-piled materials, e.g. in silos, in chimneys (flame traps A62C0004000000)"
+          }
+        },
+        {
+          "code": "A62C 3/06",
+          "title": {
+            "ko": null,
+            "en": "of highly inflammable material, e.g. light metals, petroleum products"
+          }
+        },
+        {
+          "code": "A62C 3/07",
+          "title": {
+            "ko": null,
+            "en": "in vehicles, e.g. in road vehicles"
+          }
+        },
+        {
+          "code": "A62C 3/08",
+          "title": {
+            "ko": null,
+            "en": "in aircraft"
+          }
+        },
+        {
+          "code": "A62C 3/10",
+          "title": {
+            "ko": null,
+            "en": "in ships"
+          }
+        },
+        {
+          "code": "A62C 3/16",
+          "title": {
+            "ko": null,
+            "en": "in electrical installations, e.g. cableways"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 4/00",
+      "title": {
+        "ko": "화염 또는 폭발이 아닌 가스를 통과시키는 화염트랩",
+        "en": "Flame traps allowing passage of gas but not of flame or explosion wave"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 4/02",
+          "title": {
+            "ko": "가스파이프 속에 쓰는 것(안전밸브 F16K 17/00)",
+            "en": "in gas-pipes (safety valves F16K0017000000)"
+          }
+        },
+        {
+          "code": "A62C 4/04",
+          "title": {
+            "ko": null,
+            "en": "in flues or chimneys"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 5/00",
+      "title": {
+        "ko": "사용 전에 즉시 소방제를 만들어 내는 것(노즐 A62C 31/02)",
+        "en": "Making of fire-extinguishing materials immediately before use (nozzles A62C0031020000)"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 5/02",
+          "title": {
+            "ko": null,
+            "en": "of foam"
+          }
+        },
+        {
+          "code": "A62C 5/027",
+          "title": {
+            "ko": null,
+            "en": "Heavy foam"
+          }
+        },
+        {
+          "code": "A62C 5/033",
+          "title": {
+            "ko": null,
+            "en": "of gel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 8/00",
+      "title": {
+        "ko": null,
+        "en": "Hand tools; Portable extinguishers; Hand fire-extinguishers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 8/00",
+      "title": {
+        "ko": null,
+        "en": "Hand tools or accessories specially adapted for fire-fighting, e.g. tool boxes"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 8/02",
+          "title": {
+            "ko": null,
+            "en": "Buckets or pails"
+          }
+        },
+        {
+          "code": "A62C 8/04",
+          "title": {
+            "ko": null,
+            "en": "Rakes or beaters"
+          }
+        },
+        {
+          "code": "A62C 8/06",
+          "title": {
+            "ko": null,
+            "en": "Fire-blankets"
+          }
+        },
+        {
+          "code": "A62C 8/08",
+          "title": {
+            "ko": null,
+            "en": "Shields"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 11/00",
+      "title": {
+        "ko": null,
+        "en": "Portable extinguishers with manually-operated pumps"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 13/00",
+      "title": {
+        "ko": "항상 가압되어 있거나 사용 전 즉시 가압되는 휴대용 소화기(A62C 11/00이 우선)",
+        "en": "Portable extinguishers which are permanently pressurised or pressurised immediately before use (A62C0011000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 13/02",
+          "title": {
+            "ko": "화학적으로 발생한 고압가스가 있는 것",
+            "en": "with pressure gas produced by chemicals"
+          }
+        },
+        {
+          "code": "A62C 13/04",
+          "title": {
+            "ko": "산용기가 별도로 있는 것",
+            "en": "with separate acid container"
+          }
+        },
+        {
+          "code": "A62C 13/06",
+          "title": {
+            "ko": null,
+            "en": "with acid container without closure device"
+          }
+        },
+        {
+          "code": "A62C 13/08",
+          "title": {
+            "ko": "폐쇄장치가 있는 산용기가 있는 것",
+            "en": "with acid container with closure device"
+          }
+        },
+        {
+          "code": "A62C 13/10",
+          "title": {
+            "ko": "느슨한 뚜껑의 폐쇄장치가 있는 것(밀봉효과가 없는 액체용기에 느슨하 게 연결되는 뚜껑 또는 덮개 일반 B65D 51/02)",
+            "en": "with loose-lid closure device (loosely-engaging lids or covers for containers for liquids without means for effecting sealing of container in general B65D0051020000)"
+          }
+        },
+        {
+          "code": "A62C 13/12",
+          "title": {
+            "ko": null,
+            "en": "with valve closure device"
+          }
+        },
+        {
+          "code": "A62C 13/14",
+          "title": {
+            "ko": null,
+            "en": "with acid container the shell of which is ruptured by pin, screw-pin, or similar device"
+          }
+        },
+        {
+          "code": "A62C 13/16",
+          "title": {
+            "ko": null,
+            "en": "with movable acid container ruptured by falling when operated"
+          }
+        },
+        {
+          "code": "A62C 13/18",
+          "title": {
+            "ko": null,
+            "en": "with acid container ruptured by a striking weight, e.g. by a falling weight"
+          }
+        },
+        {
+          "code": "A62C 13/20",
+          "title": {
+            "ko": null,
+            "en": "with the chemicals in a single case, e.g. in a cartridge"
+          }
+        },
+        {
+          "code": "A62C 13/22",
+          "title": {
+            "ko": null,
+            "en": "with incendiary substances producing pressure gas"
+          }
+        },
+        {
+          "code": "A62C 13/62",
+          "title": {
+            "ko": null,
+            "en": "with a single permanently pressurised container"
+          }
+        },
+        {
+          "code": "A62C 13/64",
+          "title": {
+            "ko": null,
+            "en": "the extinguishing material being released by means of a valve"
+          }
+        },
+        {
+          "code": "A62C 13/66",
+          "title": {
+            "ko": null,
+            "en": "with extinguishing material and pressure gas being stored in separate containers"
+          }
+        },
+        {
+          "code": "A62C 13/68",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for releasing the extinguishing material"
+          }
+        },
+        {
+          "code": "A62C 13/70",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for releasing the pressure gas"
+          }
+        },
+        {
+          "code": "A62C 13/72",
+          "title": {
+            "ko": null,
+            "en": "characterised by releasing means operating essentially simultaneously on both containers"
+          }
+        },
+        {
+          "code": "A62C 13/74",
+          "title": {
+            "ko": null,
+            "en": "the pressure gas container being pierced or broken"
+          }
+        },
+        {
+          "code": "A62C 13/76",
+          "title": {
+            "ko": null,
+            "en": "Details or accessories"
+          }
+        },
+        {
+          "code": "A62C 13/78",
+          "title": {
+            "ko": null,
+            "en": "Suspending or supporting devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 15/00",
+      "title": {
+        "ko": "배낭형태의 소화기(배낭, 운송용의 틀, 몸으로 운반하는 팩(pack) A45F 3/00)",
+        "en": "Extinguishers essentially of the knapsack type (knapsacks, carrying-frames, pack-frames carried on the body A45F0003000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 17/00",
+      "title": {
+        "ko": null,
+        "en": "Hand fire-extinguishers essentially in the form of pistols or rifles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 19/00",
+      "title": {
+        "ko": null,
+        "en": "Hand fire-extinguishers in which the extinguishing substance is expelled by an explosion; Exploding containers thrown into the fire"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 25/00",
+      "title": {
+        "ko": null,
+        "en": "Portable extinguishers with power-driven pumps"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 27/00",
+      "title": {
+        "ko": "소방용 육상 차량 (차량에 관한 것은 클래스 B60 ~ B62의 적절한 서브클래스 참조)",
+        "en": "Fire-fighting land vehicles (vehicle aspects, see the appropriate subclasses of classes B60-B62)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 29/00",
+      "title": {
+        "ko": "소방정 또는 유사한 물에 뜨는 구조물(선박건조나 항해에 관한 것은 B63의 적당한 서브클래스를 참조)",
+        "en": "Fire-fighting vessels or like floating structures (shipbuilding or navigation aspects, see the appropriate subclasses of class B63)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "A62C 31/00",
+      "title": {
+        "ko": "소방제의 방출(펌프 F04; 관 F16L)",
+        "en": "Delivery of fire-extinguishing material (pumps F04;hoses F16L)"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 31/02",
+          "title": {
+            "ko": null,
+            "en": "Nozzles specially adapted for fire-extinguishing"
+          }
+        },
+        {
+          "code": "A62C 31/03",
+          "title": {
+            "ko": null,
+            "en": "adjustable, e.g. from spray to jet or vice-versa"
+          }
+        },
+        {
+          "code": "A62C 31/05",
+          "title": {
+            "ko": null,
+            "en": "with two or more outlets"
+          }
+        },
+        {
+          "code": "A62C 31/07",
+          "title": {
+            "ko": null,
+            "en": "for different media"
+          }
+        },
+        {
+          "code": "A62C 31/12",
+          "title": {
+            "ko": null,
+            "en": "for delivering foam or atomized foam"
+          }
+        },
+        {
+          "code": "A62C 31/22",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for piercing walls, heaped materials, or the like"
+          }
+        },
+        {
+          "code": "A62C 31/24",
+          "title": {
+            "ko": null,
+            "en": "attached to ladders, poles, towers, or other structures with or without rotary heads"
+          }
+        },
+        {
+          "code": "A62C 31/28",
+          "title": {
+            "ko": null,
+            "en": "Accessories for delivery devices, e.g. supports"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 33/00",
+      "title": {
+        "ko": "호스(hose) 부속구",
+        "en": "Hose accessories"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 33/02",
+          "title": {
+            "ko": "호스의 청소 또는 건조장치(건조용 선반 F26B)",
+            "en": "Apparatus for cleaning or drying hoses (drying shelves F26B)"
+          }
+        },
+        {
+          "code": "A62C 33/04",
+          "title": {
+            "ko": null,
+            "en": "Supports or clamps for fire hoses"
+          }
+        },
+        {
+          "code": "A62C 33/06",
+          "title": {
+            "ko": null,
+            "en": "Hose or pipe bridges"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 35/00",
+      "title": {
+        "ko": "영구히 설치된 소방설비(A62C 31/00, A62C 33/00, A62C 37/00이 우선; 물차단막 형성을 위한 것 A62C 2/08)",
+        "en": "Permanently-installed equipment (A62C0031000000, A62C0033000000, A62C0037000000 take precedence;for forming water curtains A62C0002080000)"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 35/02",
+          "title": {
+            "ko": null,
+            "en": "with containers for delivering the extinguishing substance (for forming water curtains A62C0002080000)"
+          }
+        },
+        {
+          "code": "A62C 35/04",
+          "title": {
+            "ko": null,
+            "en": "Swingable or tiltable containers"
+          }
+        },
+        {
+          "code": "A62C 35/06",
+          "title": {
+            "ko": null,
+            "en": "Containers destroyed or opened by falling"
+          }
+        },
+        {
+          "code": "A62C 35/08",
+          "title": {
+            "ko": null,
+            "en": "Containers destroyed or opened by bursting charge"
+          }
+        },
+        {
+          "code": "A62C 35/10",
+          "title": {
+            "ko": null,
+            "en": "Containers destroyed or opened by flames or heat"
+          }
+        },
+        {
+          "code": "A62C 35/11",
+          "title": {
+            "ko": null,
+            "en": "controlled by a signal from the danger zone"
+          }
+        },
+        {
+          "code": "A62C 35/13",
+          "title": {
+            "ko": null,
+            "en": "with a finite supply of extinguishing material"
+          }
+        },
+        {
+          "code": "A62C 35/15",
+          "title": {
+            "ko": null,
+            "en": "with a system for topping-up the supply of extinguishing material automatically"
+          }
+        },
+        {
+          "code": "A62C 35/20",
+          "title": {
+            "ko": "소화전, 예. 벽에 장착된 호스, 벽에 장착된 설비, 캐비넷 속에 든 소화전(길 가에 설치된 소화전 E03B 9/02)",
+            "en": "Hydrants, e.g. wall-hoses, wall units, plug-in cabinets (hydrants in streets E03B0009020000)"
+          }
+        },
+        {
+          "code": "A62C 35/58",
+          "title": {
+            "ko": "배관설비",
+            "en": "Pipe-line systems"
+          }
+        },
+        {
+          "code": "A62C 35/60",
+          "title": {
+            "ko": null,
+            "en": "wet, i.e. containing extinguishing material even when not in use"
+          }
+        },
+        {
+          "code": "A62C 35/62",
+          "title": {
+            "ko": null,
+            "en": "dry, i.e. empty of extinguishing material when not in use"
+          }
+        },
+        {
+          "code": "A62C 35/64",
+          "title": {
+            "ko": null,
+            "en": "pressurised"
+          }
+        },
+        {
+          "code": "A62C 35/66",
+          "title": {
+            "ko": null,
+            "en": "Accelerators"
+          }
+        },
+        {
+          "code": "A62C 35/68",
+          "title": {
+            "ko": "세부, 예. 관 또는 밸브체계(일반적 밸브, F16K)",
+            "en": "Details, e.g. of pipes or valve systems (valves in general F16K)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 37/00",
+      "title": {
+        "ko": "소방설비의 제어(열감지장치 G01K)",
+        "en": "Control of fire-fighting equipment (heat-sensitive devices G01K)"
+      },
+      "subgroups": [
+        {
+          "code": "A62C 37/08",
+          "title": {
+            "ko": null,
+            "en": "comprising an outlet device containing a sensor, or itself being the sensor, i.e. self-contained sprinklers"
+          }
+        },
+        {
+          "code": "A62C 37/09",
+          "title": {
+            "ko": null,
+            "en": "telescopic or adjustable"
+          }
+        },
+        {
+          "code": "A62C 37/10",
+          "title": {
+            "ko": null,
+            "en": "Releasing means, e.g. electrically released"
+          }
+        },
+        {
+          "code": "A62C 37/11",
+          "title": {
+            "ko": null,
+            "en": "heat-sensitive"
+          }
+        },
+        {
+          "code": "A62C 37/12",
+          "title": {
+            "ko": null,
+            "en": "with fusible links"
+          }
+        },
+        {
+          "code": "A62C 37/14",
+          "title": {
+            "ko": null,
+            "en": "with frangible vessels"
+          }
+        },
+        {
+          "code": "A62C 37/16",
+          "title": {
+            "ko": null,
+            "en": "with thermally-expansible links"
+          }
+        },
+        {
+          "code": "A62C 37/20",
+          "title": {
+            "ko": null,
+            "en": "Resetting after use; Tools therefor"
+          }
+        },
+        {
+          "code": "A62C 37/21",
+          "title": {
+            "ko": null,
+            "en": "automatic"
+          }
+        },
+        {
+          "code": "A62C 37/36",
+          "title": {
+            "ko": null,
+            "en": "an actuating signal being generated by a sensor separate from an outlet device"
+          }
+        },
+        {
+          "code": "A62C 37/38",
+          "title": {
+            "ko": null,
+            "en": "by both sensor and actuator, e.g. valve, being in the danger zone"
+          }
+        },
+        {
+          "code": "A62C 37/40",
+          "title": {
+            "ko": null,
+            "en": "with electric connection between sensor and actuator"
+          }
+        },
+        {
+          "code": "A62C 37/42",
+          "title": {
+            "ko": null,
+            "en": "with mechanical connection between sensor and actuator, e.g. rods, levers"
+          }
+        },
+        {
+          "code": "A62C 37/44",
+          "title": {
+            "ko": null,
+            "en": "only the sensor being in the danger zone"
+          }
+        },
+        {
+          "code": "A62C 37/46",
+          "title": {
+            "ko": null,
+            "en": "Construction of the actuator"
+          }
+        },
+        {
+          "code": "A62C 37/48",
+          "title": {
+            "ko": null,
+            "en": "Thermally sensitive initiators"
+          }
+        },
+        {
+          "code": "A62C 37/50",
+          "title": {
+            "ko": null,
+            "en": "Testing or indicating devices for determining the state of readiness of the equipment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "A62C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

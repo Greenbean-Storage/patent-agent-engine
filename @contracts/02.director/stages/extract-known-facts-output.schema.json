@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "known_facts": {
+      "type": "object"
+    },
+    "filled_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "empty_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resolved_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "known_facts",
+    "filled_fields",
+    "empty_fields",
+    "resolved_gaps"
+  ]
+}

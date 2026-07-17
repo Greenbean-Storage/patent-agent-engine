@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+    "ranked_patents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "application_number": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "applicant": {
+            "type": "string"
+          },
+          "relevance_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "matched_elements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "application_number",
+          "title",
+          "relevance_score",
+          "matched_elements"
+        ]
+      },
+      "maxItems": 30,
+      "description": "relevance_score >= 0.3, 상위 30개"
+    },
+    "total_unique_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "중복 제거 후 unique patent 총수"
+    },
+    "dedupe_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ranked_patents",
+    "total_unique_count",
+    "dedupe_notes"
+  ]
+}

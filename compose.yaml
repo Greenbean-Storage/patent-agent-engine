@@ -1,0 +1,210 @@
+# DRC: 4 컨테이너 (DRO 1 + Nexus 1 + CM 1 + Actor 1 — unified, persona 별 동시성은 engine.config cap).
+#
+# 모든 host/port 는 `@deployment/topology.yaml` 이 SoT.
+#   - compose interpolation: `make topology` → `@deployment/.env.topology` 생성 → 아래 `env_file` 이 import
+#   - Python (DRO/Nexus/CM/Actor): `@deployment/topology.yaml` read-only 마운트 + shared/venezia_topology 가 read
+#
+# AWS 자격증명 — **EC2 IAM role only** (host env pass-through 의도적으로 폐기)
+#   - PRODUCTION 모드: EC2 인스턴스의 IAM role 로만 동작
+#   - 로컬 dev 에서 PRODUCTION 모드는 의도된 fail — 로컬은 FIXTURE 모드만 사용
+#     (`make deploy init llm fake auth open && make up`)
+#
+# 시크릿 (API key / KIPRIS / Google service account) — AWS Secrets Manager 가 단일 source.
+#
+# 모드 — env 아님. `@deployment/profile.stack.yaml`(마운트 /etc/deployment.yaml)의 knob 을
+#   venezia_deployment 가 런타임 read: auth(open|secure)·engine(full|smalltalk)·llm(real|fake). `make deploy` 로 설정.
+# 부분 반영 룰 폐기 — 모든 코드 변경은 `make deploy init … && make up` 풀 rebuild 로만 반영.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 공통 정의
+# ─────────────────────────────────────────────────────────────────────────────
+
+# 모든 컨테이너가 @deployment/topology.yaml 을 read-only 로 mount.
+x-topology-mount: &topology-mount
+  type: bind
+  source: ./@deployment/topology.yaml
+  target: /etc/topology.yaml
+  read_only: true
+
+# profile.stack.yaml(현재 knob 값) 을 read-only mount → venezia_deployment 가 런타임 read.
+x-deployment-mount: &deployment-mount
+  type: bind
+  source: ./@deployment/profile.stack.yaml
+  target: /etc/deployment.yaml
+  read_only: true
+
+# media.config.yaml(업로드 제한·presign TTL) read-only mount → venezia_media_config 가 런타임 read. (Nexus·CM 만)
+x-media-config-mount: &media-config-mount
+  type: bind
+  source: ./@deployment/media.config.yaml
+  target: /etc/media.config.yaml
+  read_only: true
+
+services:
+  # ─── 200. DRO (순수 내부 체인 실행기 — control + event SSE + health, 단일 포트) ──────────
+  # 외부 클라이언트 표면 0 — 모든 client REST/WS 는 Nexus 게이트웨이 소유. 인증 없음 (내부망 신뢰).
+  # 구 production/debug 이원화·:59290 제거 (sub-plan ② 코어 컷오버).
+  dro:
+    container_name: 200.DRO
+    build:
+      context: .
+      dockerfile: 200.DRO/Dockerfile
+      target: ${DRO_TARGET:?run 'make up' — @deployment/.env.deploy 미생성(stale/absent)}
+    ports:
+      - "${DRO_PUBLISH_PORT}:${DRO_PORT}"
+    # command 없음 — 각 stage(production/mock)의 Dockerfile CMD 가 PORT env 로 기동 (actor 동형).
+    environment:
+      PORT: ${DRO_PORT}
+      TOPOLOGY_NETWORK: internal
+      PIPELINES_DIR: /pipelines
+      # LLM_MODE 는 env 아님 — profile(/etc/deployment.yaml) 을 venezia_deployment 가 read.
+      AWS_SECRET_NAME: llm-providers/prod/personal,llm-providers/prod/personal/google-credentials
+      AWS_REGION: ap-northeast-2
+      GOOGLE_CLOUD_LOCATION: ${GCP_LOCATION:-global}
+      LOG_DIR: /logs/dro
+    volumes:
+      - ./@pipelines:/pipelines:ro
+      - ./@contracts:/contracts:ro
+      - ./tests/data/dro-tapes:/app/data/dro-tapes:ro # mock-dro tape playlist (dro:fake — real 은 비참조)
+      - logs:/logs
+      - *topology-mount
+      - *deployment-mount
+    depends_on:
+      cm:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - "uv run --no-sync python -c \"import urllib.request,os; urllib.request.urlopen(f'http://localhost:{os.environ[\\\"PORT\\\"]}/health')\""
+      interval: 30s
+      timeout: 10s
+      start_period: 30s
+      retries: 3
+    networks:
+      - drc-network
+
+  # ─── 100. Nexus (mypage 영역 — auth + account + invention CRUD/metadata) ─
+  # 분리 안 A — `.docs/Temp/EXTERNAL_API_TEMP_REVIEW/02-unit-split-review.md`. DRO 의
+  # chain runtime 책임 제거된 가벼운 컨테이너. JWT secret + Google OAuth credentials 는
+  # DRO 와 동일 AWS Secret 공유.
+  nexus:
+    container_name: 100.Nexus
+    build:
+      context: .
+      dockerfile: 100.Nexus/Dockerfile
+      target: ${NEXUS_TARGET:?run 'make up' — @deployment/.env.deploy 미생성(stale/absent)}
+    ports:
+      - "${NEXUS_PUBLISH_PORT}:${NEXUS_PORT}"
+    environment:
+      PORT: ${NEXUS_PORT}
+      TOPOLOGY_NETWORK: internal
+      # AUTH_MODE/ENGINE_MODE 는 env 아님 — profile(/etc/deployment.yaml) 을 venezia_deployment 가 read.
+      AWS_SECRET_NAME: llm-providers/prod/personal
+      AWS_REGION: ap-northeast-2
+      LOG_DIR: /logs/nexus
+    volumes:
+      - logs:/logs
+      - *topology-mount
+      - *deployment-mount
+      - *media-config-mount
+    depends_on:
+      cm:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - "uv run --no-sync python -c \"import urllib.request,os; urllib.request.urlopen(f'http://localhost:{os.environ[\\\"PORT\\\"]}/health')\""
+      interval: 30s
+      timeout: 10s
+      start_period: 20s
+      retries: 3
+    networks:
+      - drc-network
+
+  # ─── 400. CM (Context Manager — S3 단일 writer) ────────────────────────────
+  cm:
+    container_name: 400.CM
+    build:
+      context: .
+      dockerfile: 400.CM/Dockerfile
+      target: ${CM_TARGET:?run 'make up' — @deployment/.env.deploy 미생성(stale/absent)}
+    ports:
+      - "${CM_PUBLISH_PORT}:${CM_PORT}"
+    environment:
+      PORT: ${CM_PORT}
+      TOPOLOGY_NETWORK: internal
+      S3_BUCKET: venezia-bucket
+      AWS_SECRET_NAME: llm-providers/prod/personal,llm-providers/prod/personal/google-credentials
+      AWS_REGION: ap-northeast-2
+      GOOGLE_CLOUD_LOCATION: ${GCP_LOCATION:-global}
+      LOG_DIR: /logs/cm
+    volumes:
+      - logs:/logs
+      - *topology-mount
+      - *deployment-mount
+      - *media-config-mount
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - "uv run --no-sync python -c \"import urllib.request,os; urllib.request.urlopen(f'http://localhost:{os.environ[\\\"PORT\\\"]}/health')\""
+      interval: 30s
+      timeout: 10s
+      start_period: 20s
+      retries: 3
+    networks:
+      - drc-network
+
+  # ─── 300. Actor — unified 단일 워커 (전 persona 수락 — 수락 집합 = engine.config personas) ──
+  # persona 별 동시 요청 cap = engine.config max_concurrency (src/slots.py 세마포어 집행).
+  # secrets 통일 — public-data-sources/personal(KIPRIS_KEY) 포함 (구 391/392 전용 → 단일 actor).
+  actor:
+    build:
+      context: .
+      dockerfile: 300.Actor/Dockerfile
+      target: ${ACTOR_TARGET:?run 'make up' — @deployment/.env.deploy 미생성(stale/absent)}
+    container_name: 300.Actor
+    ports:
+      - "${ACTOR_PUBLISH_PORT}:${ACTOR_PORT}"
+    environment:
+      TOPOLOGY_NETWORK: internal
+      # LLM_MODE 는 env 아님 — 마운트된 /etc/deployment.yaml(profile) 을 venezia_deployment 가 read.
+      # persona 수락 집합도 env 아님 — 빌드타임 COPY 된 /app/engine.config.yaml 의 personas (SoT).
+      FIXTURE_PATH: ${FIXTURE_PATH:-/app/data/llm-fixtures}
+      AWS_REGION: ap-northeast-2
+      AWS_SECRET_NAME: llm-providers/prod/personal,llm-providers/prod/personal/google-credentials,public-data-sources/personal
+      GOOGLE_CLOUD_LOCATION: ${GCP_LOCATION:-global}
+      PORT: ${ACTOR_PORT}
+      ACTOR_ID: 300.Actor
+      LOG_DIR: /logs/300.Actor
+    volumes:
+      - ./@pipelines:/pipelines:ro
+      - ./@knowledge:/app/@knowledge:ro
+      - ./tests/data/llm-fixtures:/app/data/llm-fixtures:ro
+      - ./tests/data/kipris-fixtures:/app/data/kipris-fixtures:ro # mock /tool canned + real actor kipris:fake 공유 (단일 소스)
+      - logs:/logs
+      - *topology-mount
+      - *deployment-mount
+    depends_on:
+      cm:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - "uv run --no-sync python -c \"import urllib.request,os; urllib.request.urlopen(f'http://localhost:{os.environ[\\\"PORT\\\"]}/health')\""
+      interval: 30s
+      timeout: 10s
+      start_period: 20s
+      retries: 3
+    networks:
+      - drc-network
+
+networks:
+  drc-network:
+    driver: bridge
+
+volumes:
+  logs:

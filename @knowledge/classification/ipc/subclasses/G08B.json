@@ -1,0 +1,917 @@
+{
+  "subclass": "G08B",
+  "title": {
+    "ko": "신호 시스템, 예. 개인 호출 시스템; 주문 전신; 경보 시스템",
+    "en": "SIGNALLING SYSTEMS, e.g. PERSONAL CALLING SYSTEMS; ORDER TELEGRAPHS; ALARM SYSTEMS"
+  },
+  "definition": {
+    "ko": "신호 또는 호출 시스템 신호의 전송에 특징이 있는 것 G08B1/00 표시 특성에 특징이 있는 것; 가청; 가시; 가촉; 결합된 것 G08B3/00; G08B5/00; G08B6/00; G08B7/00 지령 발신장치 G08B9/00 경보시스템 불특정 상태에 응답하는 것 G08B23/00 둘 이상의 상이한 상태에 응답하는 것 G08B19/00 하나의 특정상태에 응답하는 것; 잠입; 화재; 기타 G08B13/00; G08B15/00 G08B17/00; G08B21/00 중앙국으로부터 또는 중앙국으로의 전송을 행하는 것 G08B25/00; G08B26/00; G08B27/00 예보 경보시스템 G08B31/00 점검, 감시 G08B29/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G08B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Systems for signalling characterised solely by the form of transmission of the signal"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 1/02",
+          "title": {
+            "ko": null,
+            "en": "using only mechanical transmission"
+          }
+        },
+        {
+          "code": "G08B 1/04",
+          "title": {
+            "ko": null,
+            "en": "using hydraulic transmission; using pneumatic transmission"
+          }
+        },
+        {
+          "code": "G08B 1/06",
+          "title": {
+            "ko": null,
+            "en": "hydraulic only"
+          }
+        },
+        {
+          "code": "G08B 1/08",
+          "title": {
+            "ko": null,
+            "en": "using electric transmission"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Audible signalling systems, e.g. audible personal calling systems"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 3/02",
+          "title": {
+            "ko": null,
+            "en": "using only mechanical transmission"
+          }
+        },
+        {
+          "code": "G08B 3/06",
+          "title": {
+            "ko": null,
+            "en": "using hydraulic transmission; using pneumatic transmission"
+          }
+        },
+        {
+          "code": "G08B 3/10",
+          "title": {
+            "ko": null,
+            "en": "using electric transmission; using electromagnetic transmission"
+          }
+        },
+        {
+          "code": "G08B 3/14",
+          "title": {
+            "ko": null,
+            "en": "using explosives"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Visible signalling systems, e.g. visible personal calling systems or remote indication of seats occupied"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 5/02",
+          "title": {
+            "ko": null,
+            "en": "using only mechanical transmission"
+          }
+        },
+        {
+          "code": "G08B 5/06",
+          "title": {
+            "ko": null,
+            "en": "using hydraulic transmission; using pneumatic transmission"
+          }
+        },
+        {
+          "code": "G08B 5/14",
+          "title": {
+            "ko": null,
+            "en": "with indicator element moving about a pivot, e.g. hinged flap or rotating vane"
+          }
+        },
+        {
+          "code": "G08B 5/16",
+          "title": {
+            "ko": null,
+            "en": "with reset means necessitating a separate operation to return the indicator element"
+          }
+        },
+        {
+          "code": "G08B 5/18",
+          "title": {
+            "ko": null,
+            "en": "with indicator element moving rectilinearly"
+          }
+        },
+        {
+          "code": "G08B 5/20",
+          "title": {
+            "ko": null,
+            "en": "with reset means necessitating a separate operation to return the indicator element"
+          }
+        },
+        {
+          "code": "G08B 5/22",
+          "title": {
+            "ko": null,
+            "en": "using electric transmission; using electromagnetic transmission"
+          }
+        },
+        {
+          "code": "G08B 5/24",
+          "title": {
+            "ko": null,
+            "en": "with indicator element moving about a pivot, e.g. hinged flap or rotating vane"
+          }
+        },
+        {
+          "code": "G08B 5/26",
+          "title": {
+            "ko": null,
+            "en": "with reset means necessitating a separate operation to return the indicator element"
+          }
+        },
+        {
+          "code": "G08B 5/28",
+          "title": {
+            "ko": null,
+            "en": "with hinged flap or arm"
+          }
+        },
+        {
+          "code": "G08B 5/30",
+          "title": {
+            "ko": null,
+            "en": "with rotating or oscillating members, e.g. vanes"
+          }
+        },
+        {
+          "code": "G08B 5/32",
+          "title": {
+            "ko": null,
+            "en": "with indicator element moving rectilinearly"
+          }
+        },
+        {
+          "code": "G08B 5/34",
+          "title": {
+            "ko": null,
+            "en": "with reset means necessitating a separate operation to return the indicator element"
+          }
+        },
+        {
+          "code": "G08B 5/36",
+          "title": {
+            "ko": null,
+            "en": "using visible light sources"
+          }
+        },
+        {
+          "code": "G08B 5/38",
+          "title": {
+            "ko": null,
+            "en": "using flashing light"
+          }
+        },
+        {
+          "code": "G08B 5/40",
+          "title": {
+            "ko": null,
+            "en": "using smoke, fire or coloured gases"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 6/00",
+      "title": {
+        "ko": null,
+        "en": "Tactile signalling systems, e.g. tactile personal calling systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G08B 7/00",
+      "title": {
+        "ko": "그룹 G08B3/00 ～ G08B6/00 중 2 이상에 해당하는 신호 시스템",
+        "en": "Signalling systems according to two or more of groups G08B0003000000-G08B0006000000"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 7/02",
+          "title": {
+            "ko": null,
+            "en": "using mechanical transmission"
+          }
+        },
+        {
+          "code": "G08B 7/04",
+          "title": {
+            "ko": null,
+            "en": "using hydraulic transmission; using pneumatic transmission"
+          }
+        },
+        {
+          "code": "G08B 7/06",
+          "title": {
+            "ko": null,
+            "en": "using electric transmission"
+          }
+        },
+        {
+          "code": "G08B 7/08",
+          "title": {
+            "ko": null,
+            "en": "using explosives"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 9/00",
+      "title": {
+        "ko": null,
+        "en": "Order telegraph apparatus, i.e. means for transmitting one of a finite number of different orders at the discretion of the user, e.g. bridge to engine room orders in ships"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 9/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G08B 9/04",
+          "title": {
+            "ko": null,
+            "en": "Means for recording operation of the apparatus"
+          }
+        },
+        {
+          "code": "G08B 9/06",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating disagreement between orders given and those carried out"
+          }
+        },
+        {
+          "code": "G08B 9/08",
+          "title": {
+            "ko": null,
+            "en": "mechanical"
+          }
+        },
+        {
+          "code": "G08B 9/10",
+          "title": {
+            "ko": null,
+            "en": "using ratchet"
+          }
+        },
+        {
+          "code": "G08B 9/12",
+          "title": {
+            "ko": null,
+            "en": "using rotary shaft"
+          }
+        },
+        {
+          "code": "G08B 9/14",
+          "title": {
+            "ko": null,
+            "en": "hydraulic; pneumatic"
+          }
+        },
+        {
+          "code": "G08B 9/16",
+          "title": {
+            "ko": null,
+            "en": "using ratchet"
+          }
+        },
+        {
+          "code": "G08B 9/18",
+          "title": {
+            "ko": null,
+            "en": "by varying displacement of the fluid"
+          }
+        },
+        {
+          "code": "G08B 9/20",
+          "title": {
+            "ko": null,
+            "en": "by varying pressure of the fluid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Burglar, theft or intruder alarms"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Mechanical actuation"
+          }
+        },
+        {
+          "code": "G08B 13/04",
+          "title": {
+            "ko": null,
+            "en": "by breaking of glass"
+          }
+        },
+        {
+          "code": "G08B 13/06",
+          "title": {
+            "ko": null,
+            "en": "by tampering with fastening"
+          }
+        },
+        {
+          "code": "G08B 13/08",
+          "title": {
+            "ko": null,
+            "en": "by opening, e.g. of door, of window, of drawer, of shutter, of curtain, of blind"
+          }
+        },
+        {
+          "code": "G08B 13/10",
+          "title": {
+            "ko": null,
+            "en": "by pressure on floors, floor coverings, stair treads, counters, or tills"
+          }
+        },
+        {
+          "code": "G08B 13/12",
+          "title": {
+            "ko": null,
+            "en": "by the breaking or disturbance of stretched cords or wires"
+          }
+        },
+        {
+          "code": "G08B 13/14",
+          "title": {
+            "ko": null,
+            "en": "by lifting or attempted removal of hand-portable articles"
+          }
+        },
+        {
+          "code": "G08B 13/16",
+          "title": {
+            "ko": null,
+            "en": "Actuation by interference with mechanical vibrations in air or other fluid"
+          }
+        },
+        {
+          "code": "G08B 13/18",
+          "title": {
+            "ko": null,
+            "en": "Actuation by interference with heat, light, or radiation of shorter wavelength; Actuation by intruding sources of heat, light, or radiation of shorter wavelength"
+          }
+        },
+        {
+          "code": "G08B 13/181",
+          "title": {
+            "ko": null,
+            "en": "using active radiation detection systems"
+          }
+        },
+        {
+          "code": "G08B 13/183",
+          "title": {
+            "ko": null,
+            "en": "by interruption of a radiation beam or barrier"
+          }
+        },
+        {
+          "code": "G08B 13/184",
+          "title": {
+            "ko": null,
+            "en": "using radiation reflectors"
+          }
+        },
+        {
+          "code": "G08B 13/186",
+          "title": {
+            "ko": null,
+            "en": "using light guides, e.g. optical fibres"
+          }
+        },
+        {
+          "code": "G08B 13/187",
+          "title": {
+            "ko": null,
+            "en": "by interference of a radiation field"
+          }
+        },
+        {
+          "code": "G08B 13/189",
+          "title": {
+            "ko": null,
+            "en": "using passive radiation detection systems"
+          }
+        },
+        {
+          "code": "G08B 13/19",
+          "title": {
+            "ko": null,
+            "en": "using infrared-radiation detection systems"
+          }
+        },
+        {
+          "code": "G08B 13/191",
+          "title": {
+            "ko": null,
+            "en": "using pyroelectric sensor means"
+          }
+        },
+        {
+          "code": "G08B 13/193",
+          "title": {
+            "ko": null,
+            "en": "using focusing means"
+          }
+        },
+        {
+          "code": "G08B 13/194",
+          "title": {
+            "ko": null,
+            "en": "using image scanning and comparing systems"
+          }
+        },
+        {
+          "code": "G08B 13/196",
+          "title": {
+            "ko": null,
+            "en": "using television cameras"
+          }
+        },
+        {
+          "code": "G08B 13/20",
+          "title": {
+            "ko": null,
+            "en": "Actuation by change of fluid pressure"
+          }
+        },
+        {
+          "code": "G08B 13/22",
+          "title": {
+            "ko": null,
+            "en": "Electrical actuation"
+          }
+        },
+        {
+          "code": "G08B 13/24",
+          "title": {
+            "ko": null,
+            "en": "by interference with electromagnetic field distribution"
+          }
+        },
+        {
+          "code": "G08B 13/26",
+          "title": {
+            "ko": null,
+            "en": "by proximity of an intruder causing variation in capacitance or inductance of a circuit"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Identifying, scaring or incapacitating burglars, thieves or intruders, e.g. by explosives"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 15/02",
+          "title": {
+            "ko": null,
+            "en": "with smoke, gas, or coloured or odorous powder or liquid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 17/00",
+      "title": {
+        "ko": "화재경보; 폭발에 반응하는 경보",
+        "en": "Fire alarms; Alarms responsive to explosion"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 17/02",
+          "title": {
+            "ko": null,
+            "en": "Mechanical actuation of the alarm, e.g. by the breaking of a wire"
+          }
+        },
+        {
+          "code": "G08B 17/04",
+          "title": {
+            "ko": null,
+            "en": "Hydraulic or pneumatic actuation of the alarm, e.g. by change of fluid pressure"
+          }
+        },
+        {
+          "code": "G08B 17/06",
+          "title": {
+            "ko": null,
+            "en": "Electric actuation of the alarm, e.g. using a thermally-operated switch"
+          }
+        },
+        {
+          "code": "G08B 17/08",
+          "title": {
+            "ko": null,
+            "en": "Actuation involving the use of explosive means"
+          }
+        },
+        {
+          "code": "G08B 17/10",
+          "title": {
+            "ko": "연기나 가스의 존재에 의하여 동작하는 것",
+            "en": "Actuation by presence of smoke or gases"
+          }
+        },
+        {
+          "code": "G08B 17/103",
+          "title": {
+            "ko": null,
+            "en": "using a light emitting and receiving device"
+          }
+        },
+        {
+          "code": "G08B 17/107",
+          "title": {
+            "ko": null,
+            "en": "for detecting light-scattering due to smoke"
+          }
+        },
+        {
+          "code": "G08B 17/11",
+          "title": {
+            "ko": null,
+            "en": "using an ionisation chamber for detecting smoke or gas"
+          }
+        },
+        {
+          "code": "G08B 17/113",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "G08B 17/117",
+          "title": {
+            "ko": "특정한 가스, 예. 화재에 의한 연소 생성물을 검출하는 장치를 사용하는 것(G08B 17/103, G08B 17/11이 우선)",
+            "en": "by using a detection device for specific gases, e.g. combustion products, produced by the fire (G08B0017103000, G08B0017110000 take precedence)"
+          }
+        },
+        {
+          "code": "G08B 17/12",
+          "title": {
+            "ko": null,
+            "en": "Actuation by presence of radiation or particles, e.g. of infrared radiation or of ions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Alarms responsive to two or more different undesired or abnormal conditions, e.g. burglary and fire, abnormal temperature and abnormal rate of flow"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 19/02",
+          "title": {
+            "ko": null,
+            "en": "Alarm responsive to formation or anticipated formation of ice"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 21/00",
+      "title": {
+        "ko": "단일의 특정한 바람직하지 못한 또는 이상상태에 응답하는 경보 내지 다른 곳에 속하지 않는 것",
+        "en": "Alarms responsive to a single specified undesired or abnormal condition and not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 21/02",
+          "title": {
+            "ko": "개인의 안전을 보장하기 위한 경보",
+            "en": "Alarms for ensuring the safety of persons"
+          }
+        },
+        {
+          "code": "G08B 21/04",
+          "title": {
+            "ko": "비활동적인 것에 응답하는 것, 예. 노인들의 비활동성 (G08B21/06이 우선)",
+            "en": "responsive to non-activity, e.g. of elderly persons (G08B0021060000 takes precedence)"
+          }
+        },
+        {
+          "code": "G08B 21/06",
+          "title": {
+            "ko": null,
+            "en": "indicating a condition of sleep, e.g. anti-dozing alarms"
+          }
+        },
+        {
+          "code": "G08B 21/08",
+          "title": {
+            "ko": null,
+            "en": "responsive to the presence of persons in a body of water, e.g. a swimming pool; responsive to an abnormal condition of a body of water"
+          }
+        },
+        {
+          "code": "G08B 21/10",
+          "title": {
+            "ko": null,
+            "en": "responsive to calamitous events, e.g. tornados or earthquakes"
+          }
+        },
+        {
+          "code": "G08B 21/12",
+          "title": {
+            "ko": "물질의 바람직하지 않은 방출에 응답하는 것, 예. 오염경보",
+            "en": "responsive to undesired emission of substances, e.g. pollution alarms"
+          }
+        },
+        {
+          "code": "G08B 21/14",
+          "title": {
+            "ko": "유독가스경보(G08B 21/16이 우선)",
+            "en": "Toxic gas alarms (G08B0021160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G08B 21/16",
+          "title": {
+            "ko": null,
+            "en": "Combustible gas alarms"
+          }
+        },
+        {
+          "code": "G08B 21/18",
+          "title": {
+            "ko": "상태경보 (G08B21/02가 우선)",
+            "en": "Status alarms (G08B0021020000 takes precedence)"
+          }
+        },
+        {
+          "code": "G08B 21/20",
+          "title": {
+            "ko": null,
+            "en": "responsive to moisture"
+          }
+        },
+        {
+          "code": "G08B 21/22",
+          "title": {
+            "ko": null,
+            "en": "responsive to presence or absence of persons"
+          }
+        },
+        {
+          "code": "G08B 21/24",
+          "title": {
+            "ko": "암시 경보, 예. 손실방지 경보",
+            "en": "Reminder alarms, e.g. anti-loss alarms"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Alarms responsive to unspecified undesired or abnormal conditions"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G08B 25/00",
+      "title": {
+        "ko": null,
+        "en": "Alarm systems in which the location of the alarm condition is signalled to a central station, e.g. fire or police telegraphic systems"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 25/01",
+          "title": {
+            "ko": null,
+            "en": "characterised by the transmission medium"
+          }
+        },
+        {
+          "code": "G08B 25/04",
+          "title": {
+            "ko": null,
+            "en": "using a single signalling line, e.g. in a closed loop"
+          }
+        },
+        {
+          "code": "G08B 25/06",
+          "title": {
+            "ko": null,
+            "en": "using power transmission lines"
+          }
+        },
+        {
+          "code": "G08B 25/08",
+          "title": {
+            "ko": null,
+            "en": "using communication transmission lines"
+          }
+        },
+        {
+          "code": "G08B 25/10",
+          "title": {
+            "ko": null,
+            "en": "using wireless transmission systems"
+          }
+        },
+        {
+          "code": "G08B 25/12",
+          "title": {
+            "ko": null,
+            "en": "Manually actuated calamity alarm transmitting arrangements"
+          }
+        },
+        {
+          "code": "G08B 25/14",
+          "title": {
+            "ko": null,
+            "en": "Central alarm receiver or annunciator arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 26/00",
+      "title": {
+        "ko": null,
+        "en": "Alarm systems in which substations are interrogated in succession by a central station"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G08B 27/00",
+      "title": {
+        "ko": null,
+        "en": "Alarm systems in which the alarm condition is signalled from a central station to a plurality of substations"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G08B 29/00",
+      "title": {
+        "ko": "신호의 점검 또는 감시 시스템, 또는 경보시스템; 작동에러의 방지 또는 수정, 예. 허가되지 않은 작동의 방지",
+        "en": "Checking or monitoring of signalling or alarm systems; Prevention or correction of operating errors, e.g. preventing unauthorised operation"
+      },
+      "subgroups": [
+        {
+          "code": "G08B 29/02",
+          "title": {
+            "ko": null,
+            "en": "Monitoring continuously signalling or alarm systems"
+          }
+        },
+        {
+          "code": "G08B 29/04",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of the detection circuits"
+          }
+        },
+        {
+          "code": "G08B 29/06",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of the line circuits, e.g. signalling of line faults"
+          }
+        },
+        {
+          "code": "G08B 29/08",
+          "title": {
+            "ko": null,
+            "en": "Signalling of tampering with the line circuit"
+          }
+        },
+        {
+          "code": "G08B 29/10",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of the annunciator circuits"
+          }
+        },
+        {
+          "code": "G08B 29/12",
+          "title": {
+            "ko": null,
+            "en": "Checking intermittently signalling or alarm systems"
+          }
+        },
+        {
+          "code": "G08B 29/14",
+          "title": {
+            "ko": null,
+            "en": "checking the detection circuits"
+          }
+        },
+        {
+          "code": "G08B 29/16",
+          "title": {
+            "ko": null,
+            "en": "Security signalling or alarm systems, e.g. redundant systems"
+          }
+        },
+        {
+          "code": "G08B 29/18",
+          "title": {
+            "ko": "작동에러의 방지 또는 수정 (G08B29/02, G08B29/12가 우선)",
+            "en": "Prevention or correction of operating errors (G08B0029020000, G08B0029120000 take precedence)"
+          }
+        },
+        {
+          "code": "G08B 29/20",
+          "title": {
+            "ko": null,
+            "en": "Calibration, including self-calibrating arrangements"
+          }
+        },
+        {
+          "code": "G08B 29/22",
+          "title": {
+            "ko": null,
+            "en": "Provisions facilitating manual calibration, e.g. input or output provisions for testing; Holding of intermittent values to permit measurement"
+          }
+        },
+        {
+          "code": "G08B 29/24",
+          "title": {
+            "ko": null,
+            "en": "Self-calibration, e.g. compensating for environmental drift or ageing of components"
+          }
+        },
+        {
+          "code": "G08B 29/26",
+          "title": {
+            "ko": null,
+            "en": "by updating and storing reference thresholds"
+          }
+        },
+        {
+          "code": "G08B 29/28",
+          "title": {
+            "ko": null,
+            "en": "by changing the gain of an amplifier"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08B 31/00",
+      "title": {
+        "ko": null,
+        "en": "Predictive alarm systems characterised by extrapolation or other computation using updated historic data"
+      },
+      "subgroups": []
+    }
+  ]
+}

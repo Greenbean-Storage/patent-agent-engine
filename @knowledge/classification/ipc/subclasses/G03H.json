@@ -1,0 +1,157 @@
+{
+  "subclass": "G03H",
+  "title": {
+    "ko": "홀로그래픽 처리 또는 장치(통상의 광학적 소자로서 사용되는 홀로그램, 예. 점홀로그램 G02B 5/32; 광학소자를 이용하여 계산 동작을 하는 아날로그컴퓨터 G06E 3/00; 홀로그래피적 디지털 기록 G11B 7/0065, G11C 13/04)",
+    "en": "HOLOGRAPHIC PROCESSES OR APPARATUS (holograms, e.g. point holograms, used as ordinary optical elements G02B0005320000;analogue computers performing mathematical operations with the aid of optical elements G06E0003000000;holographic storage G11B0007006500, G11C0013040000)"
+  },
+  "definition": {
+    "ko": "이 서브클래스는 파면의 위상 및 진폭 정보 기록을 생성하기 위한 수단을 포함하며, 이 정보는 원래의 하면의 재구성하는 수단에 사용될 수 있습니다. 또는 이 서브클래스는 파면의 위상 및 진폭 정보를 포함하는 기록으로부터 원래 파면을 재구성하기 위한 수단을 포함합니다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G03H 1/00",
+      "title": {
+        "ko": "홀로그램을 얻기 위해 또는 그것들로부터 상을 얻기 위해 광, 적외 또는 자외파를 사용한 홀로그래픽 처리 또는 장치 거기에 특유한 세부",
+        "en": "Holographic processes or apparatus using light, infrared, or ultraviolet waves for obtaining holograms or for obtaining an image from them; Details peculiar thereto"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G03H 1/04",
+          "title": {
+            "ko": "홀로그램(hologram)을 만들기 위한 처리 또는 장치(G03H 1/26이 우선)",
+            "en": "Processes or apparatus for producing holograms (G03H0001260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G03H 1/06",
+          "title": {
+            "ko": null,
+            "en": "using incoherent light"
+          }
+        },
+        {
+          "code": "G03H 1/08",
+          "title": {
+            "ko": null,
+            "en": "Synthesising holograms"
+          }
+        },
+        {
+          "code": "G03H 1/10",
+          "title": {
+            "ko": null,
+            "en": "using modulated reference beam"
+          }
+        },
+        {
+          "code": "G03H 1/12",
+          "title": {
+            "ko": null,
+            "en": "Spatial modulation, e.g. ghost imaging"
+          }
+        },
+        {
+          "code": "G03H 1/14",
+          "title": {
+            "ko": null,
+            "en": "Temporal modulation, e.g. extending depth of field or phase compensation for object motion"
+          }
+        },
+        {
+          "code": "G03H 1/16",
+          "title": {
+            "ko": "푸리에 변환을 사용하는 것 (G03H 1/12, G03H 1/14가 우선)",
+            "en": "using Fourier transform (G03H0001120000, G03H0001140000 take precedence)"
+          }
+        },
+        {
+          "code": "G03H 1/18",
+          "title": {
+            "ko": null,
+            "en": "Particular processing of hologram record carriers, e.g. for obtaining blazed holograms"
+          }
+        },
+        {
+          "code": "G03H 1/20",
+          "title": {
+            "ko": null,
+            "en": "Copying holograms by holographic means"
+          }
+        },
+        {
+          "code": "G03H 1/22",
+          "title": {
+            "ko": "홀로그램에서 광학상을 얻기 위한 처리 또는 장치(G03H 1/26 ～ G03H 1/34가 우선)",
+            "en": "Processes or apparatus for obtaining an optical image from holograms (G03H0001260000-G03H0001340000 take precedence)"
+          }
+        },
+        {
+          "code": "G03H 1/24",
+          "title": {
+            "ko": null,
+            "en": "using white light"
+          }
+        },
+        {
+          "code": "G03H 1/26",
+          "title": {
+            "ko": null,
+            "en": "Processes or apparatus specially adapted to produce multiple holograms or to obtain images from them, e.g. multicolour technique"
+          }
+        },
+        {
+          "code": "G03H 1/28",
+          "title": {
+            "ko": null,
+            "en": "superimposed holograms only"
+          }
+        },
+        {
+          "code": "G03H 1/30",
+          "title": {
+            "ko": null,
+            "en": "discrete holograms only"
+          }
+        },
+        {
+          "code": "G03H 1/32",
+          "title": {
+            "ko": null,
+            "en": "Systems for obtaining speckle elimination"
+          }
+        },
+        {
+          "code": "G03H 1/34",
+          "title": {
+            "ko": null,
+            "en": "Systems for reducing the space-spatial bandwidth product"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 3/00",
+      "title": {
+        "ko": "홀로그램을 얻기 위한 초음파, 음파 또는 초저주파를 사용한 홀로그래픽 처리 또는 장치; 그것들로부터 광학 이미지을 얻기 위한 처리 또는 장치 (G03H1/22가 우선)",
+        "en": "Holographic processes or apparatus using ultrasonic, sonic or infrasonic waves for obtaining holograms; Processes or apparatus for obtaining an optical image from them (G03H0001220000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G03H 5/00",
+      "title": {
+        "ko": "그룹 G03H 1/00 또는 G03H 3/00에 포함 되지 않는 입자 또는 파를 이용한 홀로그래피적 방법 또는 장치; 그것들로부터 광학상을 얻기 위한 방법 또는 장치 (G03H 1/22가 우선)",
+        "en": "Holographic processes or apparatus using particles or using waves other than those covered by groups G03H0001000000 or G03H0003000000 for obtaining holograms; Processes or apparatus for obtaining an optical image from them (G03H0001220000 takes precedence)"
+      },
+      "subgroups": []
+    }
+  ]
+}

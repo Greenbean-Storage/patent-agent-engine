@@ -1,0 +1,147 @@
+{
+  "title": "DirectorAnalysisRuntime",
+  "description": "AI 에이전트 분석 결과 누적. sessions/{user_id}/{work_id}/runtime/02.director/analysis.json. director(02) writer.",
+  "type": "object",
+  "required": [
+    "last_updated"
+  ],
+  "properties": {
+    "multi_view_summary": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Gemini (buddy) Multi-View Summary 최신 결과",
+      "properties": {
+        "technical_overview": {
+          "type": "string"
+        },
+        "hard_data": {
+          "type": "object"
+        },
+        "point_of_novelty": {
+          "type": "string"
+        },
+        "completeness_notes": {
+          "type": "string"
+        },
+        "extracted_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "conversation_turn": {
+          "type": "integer"
+        }
+      }
+    },
+    "latest_gap_analysis": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Specification Agent (Claude) Gap Analysis 최신 결과",
+      "properties": {
+        "gaps": {
+          "type": "array"
+        },
+        "questions_for_user": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "completeness_score": {
+          "type": "number"
+        },
+        "ready_for_research": {
+          "type": "boolean"
+        },
+        "analyzed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "reasoning_result": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Reasoning Agent (o3) 심층 분석 최신 결과",
+      "properties": {
+        "technical_domain": {
+          "type": "object"
+        },
+        "logical_issues": {
+          "type": "array"
+        },
+        "structural_gaps": {
+          "type": "array"
+        },
+        "deep_questions": {
+          "type": "array"
+        },
+        "reasoning_trace": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "number"
+        },
+        "analyzed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "drawing_analysis": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "buddy(Gemini) 사용자 업로드 도면 이해 결과",
+      "properties": {
+        "upload_count": {
+          "type": "integer"
+        },
+        "global_numeral_map": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "component_inventory": {
+          "type": "array"
+        },
+        "structural_summary": {
+          "type": "string"
+        },
+        "last_analyzed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "intermediate_results": {
+      "type": "object",
+      "description": "단계별 마지막 결과 요약",
+      "properties": {
+        "research_summary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evaluation_summary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

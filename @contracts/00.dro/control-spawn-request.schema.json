@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "control-spawn-request",
+  "title": "DRO Control Spawn Request (internal — Nexus→DRO)",
+  "description": "Nexus→DRO 내부 control 채널 (POST /control/spawn) body. 외부 비노출. 인증 없음 (내부망 신뢰, Q32). user_id 는 평문 — Nexus 가 JWT 에서 해석해 전달 (user_id ⊥ JWT, Q34). Nexus 가 chain_id 를 발급하고 conversation/turn/media 를 CM 에 먼저 기록한 뒤 호출 — DRO 는 받은 chain_id 로 run_chain (producer — RT enqueue + (session,persona) worker 깨움) 실행만 (Q18=executor). 메시지 내용은 body 에 없음 — chain 의 composer 가 CM conversation 에서 fetch.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["user_id", "work_id", "persona", "pipeline_id", "chain_id"],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Nexus 가 JWT 에서 해석한 user_id (평문). JWT 아님."
+    },
+    "work_id": {
+      "type": "string",
+      "description": "세션/작업 식별자."
+    },
+    "persona": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "체인 persona. pipeline_id 에서도 도출 가능하나 명시 전달 (Q19)."
+    },
+    "pipeline_id": {
+      "type": "string",
+      "description": "진입 pipeline (P{NN}.R{NN}.{NAME}). 후속 chain 은 DRO 가 dispatch_to 로 내부 spawn."
+    },
+    "chain_id": {
+      "type": "string",
+      "description": "Nexus 발급 chain_id. Nexus 가 media/turn/conversation 을 이 chain_id 로 CM 에 선기록하므로 caller 가 발급."
+    },
+    "trigger": {
+      "type": "object",
+      "description": "run_chain trigger payload. root user-message chain 은 {kind: user_message} 최소형 (내용은 CM). 생략 시 DRO 가 기본값 사용.",
+      "additionalProperties": true
+    }
+  }
+}

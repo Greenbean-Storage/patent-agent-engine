@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "properties": {
+    "claim_elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "element": {
+            "type": "string"
+          },
+          "prior_art_match": {
+            "type": "string"
+          },
+          "similarity": {
+            "enum": [
+              "동일",
+              "유사",
+              "상이"
+            ],
+            "type": "string"
+          },
+          "differentiation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "element",
+          "similarity",
+          "differentiation"
+        ]
+      }
+    },
+    "overall_novelty": {
+      "enum": [
+        "높음",
+        "중간",
+        "낮음"
+      ],
+      "type": "string"
+    },
+    "differentiation_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "maxItems": 5
+    }
+  },
+  "required": [
+    "claim_elements",
+    "overall_novelty",
+    "differentiation_points"
+  ]
+}

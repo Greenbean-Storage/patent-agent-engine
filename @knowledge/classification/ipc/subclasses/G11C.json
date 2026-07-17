@@ -1,0 +1,1417 @@
+{
+  "subclass": "G11C",
+  "title": {
+    "ko": "정적 저장 (반도체 메모리 소자 H10B)",
+    "en": "STATIC STORES (semiconductor memory devices H10B)"
+  },
+  "definition": {
+    "ko": "정보의 써넣기 또는 판독하기 G11C7/00 어드레스(ADDRESS)의 선택 G11C8/00 소자의 형식에 따라 특징이 지워지는 디지털 기억 전기적 자기적인 형식들; 그 세부 G11C11/00; 5/00 기계적인 형식들 G11C23/00 유체적인 형식들 G11C25/00 그 밖의 형식들 G11C13/00 백업(BACK-UP) 수단에 의해 특징 지워지는 디지털 기억 G11C14/00 EPROM G11C16/00 정보의 전위에 따라서 특징지워지는 디지털 기억 시프트(SHIFT); 순환 G11C19/00, G11C21/00 기능에 따라서 특징지워지는 기억 연상기억; 아날로그(ANALOG); 판독하기 전용 G11C15/00; 27/00; 17/00 기억의 체크(CHECK) 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제사항 G11C99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G11C 5/00",
+      "title": {
+        "ko": "그룹 G11C11/00로 분류되는 저장장치의 세부",
+        "en": "Details of stores covered by group G11C0011000000"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Disposition of storage elements, e.g. in the form of a matrix array"
+          }
+        },
+        {
+          "code": "G11C 5/04",
+          "title": {
+            "ko": null,
+            "en": "Supports for storage elements; Mounting or fixing of storage elements on such supports"
+          }
+        },
+        {
+          "code": "G11C 5/05",
+          "title": {
+            "ko": null,
+            "en": "Supporting of cores in matrix"
+          }
+        },
+        {
+          "code": "G11C 5/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for interconnecting storage elements electrically, e.g. by wiring"
+          }
+        },
+        {
+          "code": "G11C 5/08",
+          "title": {
+            "ko": null,
+            "en": "for interconnecting magnetic elements, e.g. toroidal cores"
+          }
+        },
+        {
+          "code": "G11C 5/10",
+          "title": {
+            "ko": null,
+            "en": "for interconnecting capacitors"
+          }
+        },
+        {
+          "code": "G11C 5/12",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or processes for interconnecting storage elements, e.g. for threading magnetic cores"
+          }
+        },
+        {
+          "code": "G11C 5/14",
+          "title": {
+            "ko": null,
+            "en": "Power supply arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 7/00",
+      "title": {
+        "ko": "디지털 기억장치에 정보를 써넣거나 또는 디지털 기억장치로부터 정보를 판독하는 장치(5/00이 우선; 11/407, 11/413 트랜지스터를 사용하는 정보기억)",
+        "en": "Arrangements for writing information into, or reading information out from, a digital store (G11C0005000000 takes precedence;auxiliary circuits for stores using semiconductor devices G11C0011406300, G11C0011413000, G11C0011419300)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 7/02",
+          "title": {
+            "ko": null,
+            "en": "with means for avoiding parasitic signals"
+          }
+        },
+        {
+          "code": "G11C 7/04",
+          "title": {
+            "ko": null,
+            "en": "with means for avoiding disturbances due to temperature effects"
+          }
+        },
+        {
+          "code": "G11C 7/06",
+          "title": {
+            "ko": null,
+            "en": "Sense amplifiers; Associated circuits"
+          }
+        },
+        {
+          "code": "G11C 7/08",
+          "title": {
+            "ko": null,
+            "en": "Control thereof"
+          }
+        },
+        {
+          "code": "G11C 7/10",
+          "title": {
+            "ko": null,
+            "en": "Input/output [I/O] data interface arrangements, e.g. I/O data control circuits, I/O data buffers"
+          }
+        },
+        {
+          "code": "G11C 7/12",
+          "title": {
+            "ko": null,
+            "en": "Bit line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, equalising circuits, for bit lines"
+          }
+        },
+        {
+          "code": "G11C 7/14",
+          "title": {
+            "ko": null,
+            "en": "Dummy cell management; Sense reference voltage generators"
+          }
+        },
+        {
+          "code": "G11C 7/16",
+          "title": {
+            "ko": "아날로그/디지털[A/D] 변환기, 디지털 메모리 및 디지털/아날로그[A/D] 변환기로 구성된 장치를 이용한 디지털 기억장치에 아날로그 신호 저장",
+            "en": "Storage of analogue signals in digital stores using an arrangement comprising analogue/digital [A/D] converters, digital memories and digital/analogue [D/A] converters"
+          }
+        },
+        {
+          "code": "G11C 7/18",
+          "title": {
+            "ko": null,
+            "en": "Bit line organisation; Bit line lay-out"
+          }
+        },
+        {
+          "code": "G11C 7/20",
+          "title": {
+            "ko": null,
+            "en": "Memory cell initialisation circuits, e.g. when powering up or down, memory clear, latent image memory"
+          }
+        },
+        {
+          "code": "G11C 7/22",
+          "title": {
+            "ko": null,
+            "en": "Read-write [R-W] timing or clocking circuits; Read-write [R-W] control signal generators or management"
+          }
+        },
+        {
+          "code": "G11C 7/24",
+          "title": {
+            "ko": null,
+            "en": "Memory cell safety or protection circuits, e.g. arrangements for preventing inadvertent reading or writing; Status cells; Test cells"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 8/00",
+      "title": {
+        "ko": "디지털 기억장치에 있어서 어드레스(address)를 선택 하는 장치(반도체 소자를 이용하는 저장을 위한 보조 회로 11/4063, 11/413, 11/4193)",
+        "en": "Arrangements for selecting an address in a digital store (auxiliary circuits for stores using semiconductor devices G11C0011406300, G11C0011413000, G11C0011419300)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 8/02",
+          "title": {
+            "ko": null,
+            "en": "using selecting matrix"
+          }
+        },
+        {
+          "code": "G11C 8/04",
+          "title": {
+            "ko": null,
+            "en": "using a sequential addressing device, e.g. shift register, counter"
+          }
+        },
+        {
+          "code": "G11C 8/06",
+          "title": {
+            "ko": null,
+            "en": "Address interface arrangements, e.g. address buffers"
+          }
+        },
+        {
+          "code": "G11C 8/08",
+          "title": {
+            "ko": null,
+            "en": "Word line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, for word lines"
+          }
+        },
+        {
+          "code": "G11C 8/10",
+          "title": {
+            "ko": null,
+            "en": "Decoders"
+          }
+        },
+        {
+          "code": "G11C 8/12",
+          "title": {
+            "ko": null,
+            "en": "Group selection circuits, e.g. for memory block selection, chip selection, array selection"
+          }
+        },
+        {
+          "code": "G11C 8/14",
+          "title": {
+            "ko": null,
+            "en": "Word line organisation; Word line lay-out"
+          }
+        },
+        {
+          "code": "G11C 8/16",
+          "title": {
+            "ko": null,
+            "en": "Multiple access memory array, e.g. addressing one storage element via at least two independent addressing line groups"
+          }
+        },
+        {
+          "code": "G11C 8/18",
+          "title": {
+            "ko": null,
+            "en": "Address timing or clocking circuits; Address control signal generation or management, e.g. for row address strobe [RAS] or column address strobe [CAS] signals"
+          }
+        },
+        {
+          "code": "G11C 8/20",
+          "title": {
+            "ko": null,
+            "en": "Address safety or protection circuits, i.e. arrangements for preventing unauthorized or accidental access"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 11/00",
+      "title": {
+        "ko": "특정의 전기적 또는 자기적 기억소자의 사용에 따라 특징지워지는 디지털 기억장치; 그를 위한 기억소자(14/00 ～ 21/00이 우선)",
+        "en": "Digital stores characterised by the use of particular electric or magnetic storage elements; Storage elements therefor (G11C0014000000-G11C0021000000 take precedence)"
+      },
+      "definition": {
+        "ko": "그룹 G11C11/56은 그룹 G11C11/02 ~ G11C11/54에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G11C 11/02",
+          "title": {
+            "ko": "자기적 소자를 사용하는 것",
+            "en": "using magnetic elements"
+          }
+        },
+        {
+          "code": "G11C 11/04",
+          "title": {
+            "ko": "실린더(cylinder)상의 기억소자, 예. 로드(rod), 와이어(wire)를 사용하는 것(11/12, 11/14이 우선)",
+            "en": "using storage elements having cylindrical form, e.g. rod, wire (G11C0011120000, G11C0011140000 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 11/06",
+          "title": {
+            "ko": "단공(single-aperature)기억소자를 사용하는 것, 예. 링(ring) 자심; 다공판을 사용하여 각각의 구멍(aperture)이 하나의 기억소자를 구성하는 것",
+            "en": "using single-aperture storage elements, e.g. ring core; using multi-aperture plates in which each individual aperture forms a storage element"
+          }
+        },
+        {
+          "code": "G11C 11/061",
+          "title": {
+            "ko": "1비트당 1소자를 기억하거나 파괴판독을 행하기 위한 단순한 구멍 또는 자기루프를 지니는 소자를 사용하는 것",
+            "en": "using elements with single aperture or magnetic loop for storage, one element per bit, and for destructive read-out"
+          }
+        },
+        {
+          "code": "G11C 11/063",
+          "title": {
+            "ko": "2L/2D 조직 또는 3차원 [3D] 조직과 같은 비트 단위 조직, 즉. 읽기와 쓰기에 있어서, 적어도 두 개의 일치된, 부분 전류에 의해 하나의 기억소자를 선택하기 위하여 조직화된 것",
+            "en": "bit-organised, such as 2L/2D-organisation or three-dimensional [3D]-organisation, i.e. for selection of an element by means of at least two coincident partial currents both for reading and for writing"
+          }
+        },
+        {
+          "code": "G11C 11/065",
+          "title": {
+            "ko": "2차원 [2D] 조직 또는 선형 선택과 같은 워드 단위조직, 즉. 단일 전체 판독전류에 의한 전기억소자를 선택하기 위하여 조직화된 것",
+            "en": "word-organised, such as two-dimensional [2D]-organisation, or linear selection, i.e. for selection of all the elements of a word by means of a single full current for reading"
+          }
+        },
+        {
+          "code": "G11C 11/067",
+          "title": {
+            "ko": null,
+            "en": "using elements with single aperture or magnetic loop for storage, one element per bit, and for non-destructive read-out"
+          }
+        },
+        {
+          "code": "G11C 11/08",
+          "title": {
+            "ko": "다공기억소자를 지니는 것, 예. 트랜스플럭스 (transfluxors)를 사용하는 것; 복수개의 독립된 다공기억소자를 판상체를 사용하여 구성하는 것(11/10가 우선)",
+            "en": "using multi-aperture storage elements, e.g. using transfluxors; using plates incorporating several individual multi-aperture storage elements (G11C0011100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 11/10",
+          "title": {
+            "ko": null,
+            "en": "using multi-axial storage elements"
+          }
+        },
+        {
+          "code": "G11C 11/12",
+          "title": {
+            "ko": null,
+            "en": "using tensors; using twistors, i.e. elements in which one axis of magnetisation is twisted"
+          }
+        },
+        {
+          "code": "G11C 11/14",
+          "title": {
+            "ko": "박막소자를 사용하는 것",
+            "en": "using thin-film elements"
+          }
+        },
+        {
+          "code": "G11C 11/15",
+          "title": {
+            "ko": "다층의 자성층을 사용하는 것(11/155가 우선)",
+            "en": "using multiple magnetic layers (G11C0011155000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 11/155",
+          "title": {
+            "ko": null,
+            "en": "with cylindrical configuration"
+          }
+        },
+        {
+          "code": "G11C 11/16",
+          "title": {
+            "ko": null,
+            "en": "using elements in which the storage effect is based on magnetic spin effect"
+          }
+        },
+        {
+          "code": "G11C 11/18",
+          "title": {
+            "ko": null,
+            "en": "using Hall-effect devices"
+          }
+        },
+        {
+          "code": "G11C 11/19",
+          "title": {
+            "ko": null,
+            "en": "using non-linear reactive devices in resonant circuits"
+          }
+        },
+        {
+          "code": "G11C 11/20",
+          "title": {
+            "ko": null,
+            "en": "using parametrons"
+          }
+        },
+        {
+          "code": "G11C 11/21",
+          "title": {
+            "ko": "전기적 소자를 사용하는 것",
+            "en": "using electric elements"
+          }
+        },
+        {
+          "code": "G11C 11/22",
+          "title": {
+            "ko": null,
+            "en": "using ferroelectric elements"
+          }
+        },
+        {
+          "code": "G11C 11/23",
+          "title": {
+            "ko": "하나의 공통층상의 정전기억을 사용하는 것, 예. 포레스터하에프(Forrester-Haeff) (11/22가 우선)",
+            "en": "using electrostatic storage on a common layer, e.g. Forrester-Haeff tubes (G11C0011220000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 11/24",
+          "title": {
+            "ko": "축전기를 사용하는 것(11/22가 우선; 반도체장치와 축전기의 결합을 사용하는 것(11/34, 예. 11/40)",
+            "en": "using capacitors (G11C0011220000 takes precedence;using a combination of semiconductor devices and capacitors G11C0011340000, e.g. G11C0011400000)"
+          }
+        },
+        {
+          "code": "G11C 11/26",
+          "title": {
+            "ko": "방전관을 사용하는 것",
+            "en": "using discharge tubes"
+          }
+        },
+        {
+          "code": "G11C 11/28",
+          "title": {
+            "ko": null,
+            "en": "using gas-filled tubes"
+          }
+        },
+        {
+          "code": "G11C 11/30",
+          "title": {
+            "ko": "진공관을 사용하는 것(11/23이 우선)",
+            "en": "using vacuum tubes (G11C0011230000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 11/34",
+          "title": {
+            "ko": "반도체장치를 사용하는 것",
+            "en": "using semiconductor devices"
+          }
+        },
+        {
+          "code": "G11C 11/35",
+          "title": {
+            "ko": null,
+            "en": "with charge storage in a depletion layer, e.g. charge coupled devices"
+          }
+        },
+        {
+          "code": "G11C 11/36",
+          "title": {
+            "ko": null,
+            "en": "using diodes, e.g. as threshold elements"
+          }
+        },
+        {
+          "code": "G11C 11/38",
+          "title": {
+            "ko": null,
+            "en": "using tunnel diodes"
+          }
+        },
+        {
+          "code": "G11C 11/39",
+          "title": {
+            "ko": null,
+            "en": "using thyristors"
+          }
+        },
+        {
+          "code": "G11C 11/40",
+          "title": {
+            "ko": "트랜지스터를 사용하는 것",
+            "en": "using transistors"
+          }
+        },
+        {
+          "code": "G11C 11/401",
+          "title": {
+            "ko": "재충전(refreshing)이나 또는 전하 재발생을 필요로 하는 셀(cells)를 형성하는 것, 예. 다이나믹 셀",
+            "en": "forming cells needing refreshing or charge regeneration, i.e. dynamic cells"
+          }
+        },
+        {
+          "code": "G11C 11/402",
+          "title": {
+            "ko": null,
+            "en": "with charge regeneration individual to each memory cell, i.e. internal refresh"
+          }
+        },
+        {
+          "code": "G11C 11/403",
+          "title": {
+            "ko": null,
+            "en": "with charge regeneration common to a multiplicity of memory cells, i.e. external refresh"
+          }
+        },
+        {
+          "code": "G11C 11/404",
+          "title": {
+            "ko": null,
+            "en": "with one charge-transfer gate, e.g. MOS transistor, per cell"
+          }
+        },
+        {
+          "code": "G11C 11/405",
+          "title": {
+            "ko": null,
+            "en": "with three charge-transfer gates, e.g. MOS transistors, per cell"
+          }
+        },
+        {
+          "code": "G11C 11/406",
+          "title": {
+            "ko": null,
+            "en": "Management or control of the refreshing or charge-regeneration cycles"
+          }
+        },
+        {
+          "code": "G11C 11/4063",
+          "title": {
+            "ko": "보조회로들, 예. 어드레싱, 디코딩, 드라이빙, 쓰기, 센싱이나 타이밍을 위한 것",
+            "en": "Auxiliary circuits, e.g. for addressing, decoding, driving, writing, sensing or timing"
+          }
+        },
+        {
+          "code": "G11C 11/4067",
+          "title": {
+            "ko": null,
+            "en": "for memory cells of the bipolar type"
+          }
+        },
+        {
+          "code": "G11C 11/407",
+          "title": {
+            "ko": "전계효과형의 메모리 셀을 위한 것",
+            "en": "for memory cells of the field-effect type"
+          }
+        },
+        {
+          "code": "G11C 11/4072",
+          "title": {
+            "ko": null,
+            "en": "Circuits for initialization, powering up or down, clearing memory or presetting"
+          }
+        },
+        {
+          "code": "G11C 11/4074",
+          "title": {
+            "ko": null,
+            "en": "Power supply or voltage generation circuits, e.g. bias voltage generators, substrate voltage generators, back-up power, power control circuits"
+          }
+        },
+        {
+          "code": "G11C 11/4076",
+          "title": {
+            "ko": "타이밍 회로(재발생 관리를 위한 11/406)",
+            "en": "Timing circuits (for regeneration management G11C0011406000)"
+          }
+        },
+        {
+          "code": "G11C 11/4078",
+          "title": {
+            "ko": "안전 또는 보호 회로, 예. 불의의 읽기 또는 쓰기를 방지하기 위한 것; 상태 셀; 시험 셀(체크 또는 테스트 도중 메모리 내용의 보호 29/52)",
+            "en": "Safety or protection circuits, e.g. for preventing inadvertent or unauthorised reading or writing; Status cells; Test cells (protection of memory contents during checking or testing G11C0029520000)"
+          }
+        },
+        {
+          "code": "G11C 11/408",
+          "title": {
+            "ko": null,
+            "en": "Address circuits"
+          }
+        },
+        {
+          "code": "G11C 11/409",
+          "title": {
+            "ko": null,
+            "en": "Read-write [R-W] circuits"
+          }
+        },
+        {
+          "code": "G11C 11/4091",
+          "title": {
+            "ko": null,
+            "en": "Sense or sense/refresh amplifiers, or associated sense circuitry, e.g. for coupled bit-line precharging, equalising or isolating"
+          }
+        },
+        {
+          "code": "G11C 11/4093",
+          "title": {
+            "ko": null,
+            "en": "Input/output [I/O] data interface arrangements, e.g. data buffers"
+          }
+        },
+        {
+          "code": "G11C 11/4094",
+          "title": {
+            "ko": null,
+            "en": "Bit-line management or control circuits"
+          }
+        },
+        {
+          "code": "G11C 11/4096",
+          "title": {
+            "ko": null,
+            "en": "Input/output [I/O] data management or control circuits, e.g. reading or writing circuits, I/O drivers or bit-line switches"
+          }
+        },
+        {
+          "code": "G11C 11/4097",
+          "title": {
+            "ko": null,
+            "en": "Bit-line organisation, e.g. bit-line layout, folded bit lines"
+          }
+        },
+        {
+          "code": "G11C 11/4099",
+          "title": {
+            "ko": null,
+            "en": "Dummy cell treatment; Reference voltage generators"
+          }
+        },
+        {
+          "code": "G11C 11/41",
+          "title": {
+            "ko": null,
+            "en": "forming cells with positive feedback, i.e. cells not needing refreshing or charge regeneration, e.g. bistable multivibrator or Schmitt trigger"
+          }
+        },
+        {
+          "code": "G11C 11/411",
+          "title": {
+            "ko": null,
+            "en": "using bipolar transistors only"
+          }
+        },
+        {
+          "code": "G11C 11/412",
+          "title": {
+            "ko": null,
+            "en": "using field-effect transistors only"
+          }
+        },
+        {
+          "code": "G11C 11/413",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary circuits, e.g. for addressing, decoding, driving, writing, sensing, timing or power reduction"
+          }
+        },
+        {
+          "code": "G11C 11/414",
+          "title": {
+            "ko": null,
+            "en": "for memory cells of the bipolar type"
+          }
+        },
+        {
+          "code": "G11C 11/415",
+          "title": {
+            "ko": null,
+            "en": "Address circuits"
+          }
+        },
+        {
+          "code": "G11C 11/416",
+          "title": {
+            "ko": null,
+            "en": "Read-write [R-W] circuits"
+          }
+        },
+        {
+          "code": "G11C 11/417",
+          "title": {
+            "ko": null,
+            "en": "for memory cells of the field-effect type"
+          }
+        },
+        {
+          "code": "G11C 11/418",
+          "title": {
+            "ko": null,
+            "en": "Address circuits"
+          }
+        },
+        {
+          "code": "G11C 11/419",
+          "title": {
+            "ko": null,
+            "en": "Read-write [R-W] circuits"
+          }
+        },
+        {
+          "code": "G11C 11/4193",
+          "title": {
+            "ko": "특별한 형태의 반도체 저장 소자에 특정된 보조 회로들, 예. 어드레싱, 드라이빙, 센싱, 타이밍, 전력공급, 신호 전송을 위한 것(11/4063, 11/413이 우선)",
+            "en": "Auxiliary circuits specific to particular types of semiconductor storage devices, e.g. for addressing, driving, sensing, timing, power supply, signal propagation (G11C0011406300, G11C0011413000 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 11/4195",
+          "title": {
+            "ko": null,
+            "en": "Address circuits"
+          }
+        },
+        {
+          "code": "G11C 11/4197",
+          "title": {
+            "ko": null,
+            "en": "Read-write [R-W] circuits"
+          }
+        },
+        {
+          "code": "G11C 11/42",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled"
+          }
+        },
+        {
+          "code": "G11C 11/44",
+          "title": {
+            "ko": null,
+            "en": "using super-conductive elements, e.g. cryotron"
+          }
+        },
+        {
+          "code": "G11C 11/46",
+          "title": {
+            "ko": null,
+            "en": "using thermoplastic elements"
+          }
+        },
+        {
+          "code": "G11C 11/48",
+          "title": {
+            "ko": null,
+            "en": "using displaceable coupling elements, e.g. ferromagnetic cores, to produce change between different states of mutual or self-inductance"
+          }
+        },
+        {
+          "code": "G11C 11/50",
+          "title": {
+            "ko": null,
+            "en": "using actuation of electric contacts to store the information"
+          }
+        },
+        {
+          "code": "G11C 11/52",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic relays"
+          }
+        },
+        {
+          "code": "G11C 11/54",
+          "title": {
+            "ko": null,
+            "en": "using elements simulating biological cells, e.g. neuron"
+          }
+        },
+        {
+          "code": "G11C 11/56",
+          "title": {
+            "ko": null,
+            "en": "using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 13/00",
+      "title": {
+        "ko": "11/00, 23/00 또는 25/00에 속하지 않는 기억소자의 사용에 의해 특징지워지는 디지털 기억장치",
+        "en": "Digital stores characterised by the use of storage elements not covered by groups G11C0011000000, G11C0023000000, or G11C0025000000"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 13/02",
+          "title": {
+            "ko": null,
+            "en": "using elements whose operation depends upon chemical change"
+          }
+        },
+        {
+          "code": "G11C 13/04",
+          "title": {
+            "ko": null,
+            "en": "using optical elements"
+          }
+        },
+        {
+          "code": "G11C 13/06",
+          "title": {
+            "ko": null,
+            "en": "using magneto-optical elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 14/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by arrangements of cells having volatile and non-volatile storage properties for back-up when the power is down"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G11C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores in which information comprising one or more characteristic parts is written into the store and in which information is read-out by searching for one or more of these characteristic parts, i.e. associative or content-addressed stores"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 15/02",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements"
+          }
+        },
+        {
+          "code": "G11C 15/04",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor elements"
+          }
+        },
+        {
+          "code": "G11C 15/06",
+          "title": {
+            "ko": null,
+            "en": "using cryogenic elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 16/00",
+      "title": {
+        "ko": "소거가능한 프로그램할 수 있는 읽기 전용메모리 (14/00이 우선)",
+        "en": "Erasable programmable read-only memories (G11C0014000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 16/02",
+          "title": {
+            "ko": null,
+            "en": "electrically programmable"
+          }
+        },
+        {
+          "code": "G11C 16/04",
+          "title": {
+            "ko": null,
+            "en": "using variable threshold transistors, e.g. FAMOS"
+          }
+        },
+        {
+          "code": "G11C 16/06",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary circuits, e.g. for writing into memory"
+          }
+        },
+        {
+          "code": "G11C 16/08",
+          "title": {
+            "ko": null,
+            "en": "Address circuits; Decoders; Word-line control circuits"
+          }
+        },
+        {
+          "code": "G11C 16/10",
+          "title": {
+            "ko": null,
+            "en": "Programming or data input circuits"
+          }
+        },
+        {
+          "code": "G11C 16/12",
+          "title": {
+            "ko": null,
+            "en": "Programming voltage switching circuits"
+          }
+        },
+        {
+          "code": "G11C 16/14",
+          "title": {
+            "ko": null,
+            "en": "Circuits for erasing electrically, e.g. erase voltage switching circuits"
+          }
+        },
+        {
+          "code": "G11C 16/16",
+          "title": {
+            "ko": null,
+            "en": "for erasing blocks, e.g. arrays, words, groups"
+          }
+        },
+        {
+          "code": "G11C 16/18",
+          "title": {
+            "ko": null,
+            "en": "Circuits for erasing optically"
+          }
+        },
+        {
+          "code": "G11C 16/20",
+          "title": {
+            "ko": null,
+            "en": "Initialising; Data preset; Chip identification"
+          }
+        },
+        {
+          "code": "G11C 16/22",
+          "title": {
+            "ko": null,
+            "en": "Safety or protection circuits preventing unauthorised or accidental access to memory cells"
+          }
+        },
+        {
+          "code": "G11C 16/24",
+          "title": {
+            "ko": null,
+            "en": "Bit-line control circuits"
+          }
+        },
+        {
+          "code": "G11C 16/26",
+          "title": {
+            "ko": null,
+            "en": "Sensing or reading circuits; Data output circuits"
+          }
+        },
+        {
+          "code": "G11C 16/28",
+          "title": {
+            "ko": null,
+            "en": "using differential sensing or reference cells, e.g. dummy cells"
+          }
+        },
+        {
+          "code": "G11C 16/30",
+          "title": {
+            "ko": null,
+            "en": "Power supply circuits"
+          }
+        },
+        {
+          "code": "G11C 16/32",
+          "title": {
+            "ko": null,
+            "en": "Timing circuits"
+          }
+        },
+        {
+          "code": "G11C 16/34",
+          "title": {
+            "ko": null,
+            "en": "Determination of programming status, e.g. threshold voltage, overprogramming or underprogramming, retention"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 17/00",
+      "title": {
+        "ko": "한번만 프로그램할 수 있는 읽기전용 메모리; 반영구적 저장, 예. 손으로 리플레이스(replace) 할 수 있는 정보 카드",
+        "en": "Read-only memories programmable only once; Semi-permanent stores, e.g. manually-replaceable information cards"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 17/02",
+          "title": {
+            "ko": "자기 또는 유도소자를 사용하는 것(17/14가 우선)",
+            "en": "using magnetic or inductive elements (G11C0017140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/04",
+          "title": {
+            "ko": "용량(capacitive) 소자를 사용하는 것(17/06, 17/14가 우선)",
+            "en": "using capacitive elements (G11C0017060000, G11C0017140000 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/06",
+          "title": {
+            "ko": "다이오드소자를 사용하는 것(17/14가 우선)",
+            "en": "using diode elements (G11C0017140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/08",
+          "title": {
+            "ko": "반도체장치를 사용하는 것, 예. 쌍극소자(17/06, 17/14가 우선)",
+            "en": "using semiconductor devices, e.g. bipolar elements (G11C0017060000, G11C0017140000 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/10",
+          "title": {
+            "ko": null,
+            "en": "in which contents are determined during manufacturing by a predetermined arrangement of coupling elements, e.g. mask-programmable ROM"
+          }
+        },
+        {
+          "code": "G11C 17/12",
+          "title": {
+            "ko": null,
+            "en": "using field-effect devices"
+          }
+        },
+        {
+          "code": "G11C 17/14",
+          "title": {
+            "ko": null,
+            "en": "in which contents are determined by selectively establishing, breaking or modifying connecting links by permanently altering the state of coupling elements, e.g. PROM"
+          }
+        },
+        {
+          "code": "G11C 17/16",
+          "title": {
+            "ko": null,
+            "en": "using electrically-fusible links"
+          }
+        },
+        {
+          "code": "G11C 17/18",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary circuits, e.g. for writing into memory"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 19/00",
+      "title": {
+        "ko": "정보가 스텝(step) 형식으로 이동하는 디지털 기억장치, 예. 쉬프트 레지스터(shift register)",
+        "en": "Digital stores in which the information is moved stepwise, e.g. shift registers"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 19/02",
+          "title": {
+            "ko": "자기소자를 사용하는 것(19/14가 우선)",
+            "en": "using magnetic elements (G11C0019140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 19/04",
+          "title": {
+            "ko": null,
+            "en": "using cores with one aperture or magnetic loop"
+          }
+        },
+        {
+          "code": "G11C 19/06",
+          "title": {
+            "ko": null,
+            "en": "using structures with a number of apertures or magnetic loops, e.g. transfluxors"
+          }
+        },
+        {
+          "code": "G11C 19/08",
+          "title": {
+            "ko": null,
+            "en": "using thin films in plane structure"
+          }
+        },
+        {
+          "code": "G11C 19/10",
+          "title": {
+            "ko": null,
+            "en": "using thin films on rods; with twistors"
+          }
+        },
+        {
+          "code": "G11C 19/12",
+          "title": {
+            "ko": null,
+            "en": "using non-linear reactive devices in resonant circuits"
+          }
+        },
+        {
+          "code": "G11C 19/14",
+          "title": {
+            "ko": "능동소자와 조합하여 자기소자를 사용하는 것, 예. 방전관, 반도체소자(19/34가 우선)",
+            "en": "using magnetic elements in combination with active elements, e.g. discharge tubes, semiconductor elements (G11C0019340000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 19/18",
+          "title": {
+            "ko": null,
+            "en": "using capacitors as main elements of the stages"
+          }
+        },
+        {
+          "code": "G11C 19/20",
+          "title": {
+            "ko": "방전관을 사용하는 것(19/14가 우선)",
+            "en": "using discharge tubes (G11C0019140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 19/28",
+          "title": {
+            "ko": "반도체소자를 사용하는 것(19/14가 우선)",
+            "en": "using semiconductor elements (G11C0019140000, G11C0019360000 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 19/30",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled"
+          }
+        },
+        {
+          "code": "G11C 19/32",
+          "title": {
+            "ko": null,
+            "en": "using super-conductive elements"
+          }
+        },
+        {
+          "code": "G11C 19/34",
+          "title": {
+            "ko": null,
+            "en": "using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency"
+          }
+        },
+        {
+          "code": "G11C 19/36",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor elements"
+          }
+        },
+        {
+          "code": "G11C 19/38",
+          "title": {
+            "ko": null,
+            "en": "two-dimensional [2D], e.g. horizontal and vertical shift registers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 21/00",
+      "title": {
+        "ko": "정보가 순환하는 형식의 디지털 기억장치(스텝형식인 것 19/00)",
+        "en": "Digital stores in which the information circulates (stepwise G11C0019000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 21/02",
+          "title": {
+            "ko": null,
+            "en": "using electromechanical delay lines, e.g. using a mercury tank"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 23/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by movement of mechanical parts to effect storage, e.g. using balls; Storage elements therefor"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G11C 25/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by the use of flowing media; Storage elements therefor"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G11C 27/00",
+      "title": {
+        "ko": "전기적 아날로그 기억장치, 예. 순시치를 기억하기 위한 것",
+        "en": "Electric analogue stores, e.g. for storing instantaneous values"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 27/02",
+          "title": {
+            "ko": "샘플-홀드장치(27/04가 우선)",
+            "en": "Sample-and-hold arrangements (G11C0027040000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 27/04",
+          "title": {
+            "ko": null,
+            "en": "Shift registers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 29/00",
+      "title": {
+        "ko": "정확한 동작을 위한 기억장치의 체크; 스탠바이 또는 오프 라인 동작중의 기억장치의 테스트",
+        "en": "Checking stores for correct operation; Testing stores during standby or offline operation"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 29/02",
+          "title": {
+            "ko": null,
+            "en": "Detection or location of defective auxiliary circuits, e.g. defective refresh counters"
+          }
+        },
+        {
+          "code": "G11C 29/04",
+          "title": {
+            "ko": "고장난 메모리 소자의 검출 또는 그 위치의 특정",
+            "en": "Detection or location of defective memory elements"
+          }
+        },
+        {
+          "code": "G11C 29/06",
+          "title": {
+            "ko": null,
+            "en": "Acceleration testing"
+          }
+        },
+        {
+          "code": "G11C 29/08",
+          "title": {
+            "ko": "기능 테스트, 예. 리프레쉬중의 테스트하는 것, 파워 온·셀프 테스트 [POST], 또는 분산 테스트",
+            "en": "Functional testing, e.g. testing during refresh, power-on self testing [POST] or distributed testing"
+          }
+        },
+        {
+          "code": "G11C 29/10",
+          "title": {
+            "ko": null,
+            "en": "Test algorithms, e.g. memory scan [MScan] algorithms; Test patterns, e.g. checkerboard patterns"
+          }
+        },
+        {
+          "code": "G11C 29/12",
+          "title": {
+            "ko": "테스트를 하기 위한 내장(Built-in)장치, 예. 빌트인 셀프 테스트(BIST) [BIST]",
+            "en": "Built-in arrangements for testing, e.g. built-in self testing [BIST]"
+          }
+        },
+        {
+          "code": "G11C 29/14",
+          "title": {
+            "ko": null,
+            "en": "Implementation of control logic, e.g. test mode decoders"
+          }
+        },
+        {
+          "code": "G11C 29/16",
+          "title": {
+            "ko": null,
+            "en": "using microprogrammed units, e.g. state machines"
+          }
+        },
+        {
+          "code": "G11C 29/18",
+          "title": {
+            "ko": "주소 작성 장치; 메모리에 액세스하기 위한 장치, 예. 주소 회로의 세부",
+            "en": "Address generation devices; Devices for accessing memories, e.g. details of addressing circuits"
+          }
+        },
+        {
+          "code": "G11C 29/20",
+          "title": {
+            "ko": null,
+            "en": "using counters or linear-feedback shift registers [LFSR]"
+          }
+        },
+        {
+          "code": "G11C 29/22",
+          "title": {
+            "ko": null,
+            "en": "Accessing serial memories"
+          }
+        },
+        {
+          "code": "G11C 29/24",
+          "title": {
+            "ko": null,
+            "en": "Accessing extra cells, e.g. dummy cells or redundant cells"
+          }
+        },
+        {
+          "code": "G11C 29/26",
+          "title": {
+            "ko": "다양한 어레이에 액세스 하는 것(29/24가 우선)",
+            "en": "Accessing multiple arrays (G11C0029240000 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 29/28",
+          "title": {
+            "ko": null,
+            "en": "Dependent multiple arrays, e.g. multi-bit arrays"
+          }
+        },
+        {
+          "code": "G11C 29/30",
+          "title": {
+            "ko": null,
+            "en": "Accessing single arrays"
+          }
+        },
+        {
+          "code": "G11C 29/32",
+          "title": {
+            "ko": null,
+            "en": "Serial access; Scan testing"
+          }
+        },
+        {
+          "code": "G11C 29/34",
+          "title": {
+            "ko": null,
+            "en": "Accessing multiple bits simultaneously"
+          }
+        },
+        {
+          "code": "G11C 29/36",
+          "title": {
+            "ko": null,
+            "en": "Data generation devices, e.g. data inverters"
+          }
+        },
+        {
+          "code": "G11C 29/38",
+          "title": {
+            "ko": null,
+            "en": "Response verification devices"
+          }
+        },
+        {
+          "code": "G11C 29/40",
+          "title": {
+            "ko": null,
+            "en": "using compression techniques"
+          }
+        },
+        {
+          "code": "G11C 29/42",
+          "title": {
+            "ko": null,
+            "en": "using error correcting codes [ECC] or parity check"
+          }
+        },
+        {
+          "code": "G11C 29/44",
+          "title": {
+            "ko": null,
+            "en": "Indication or identification of errors, e.g. for repair"
+          }
+        },
+        {
+          "code": "G11C 29/46",
+          "title": {
+            "ko": null,
+            "en": "Test trigger logic"
+          }
+        },
+        {
+          "code": "G11C 29/48",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in static stores specially adapted for testing by means external to the store, e.g. using direct memory access [DMA] or using auxiliary access paths"
+          }
+        },
+        {
+          "code": "G11C 29/50",
+          "title": {
+            "ko": null,
+            "en": "Marginal testing, e.g. race, voltage or current testing"
+          }
+        },
+        {
+          "code": "G11C 29/52",
+          "title": {
+            "ko": null,
+            "en": "Protection of memory contents; Detection of errors in memory contents"
+          }
+        },
+        {
+          "code": "G11C 29/54",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for designing test circuits, e.g. design for test [DFT] tools"
+          }
+        },
+        {
+          "code": "G11C 29/56",
+          "title": {
+            "ko": null,
+            "en": "External testing equipment for static stores, e.g. automatic test equipment [ATE]; Interfaces therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

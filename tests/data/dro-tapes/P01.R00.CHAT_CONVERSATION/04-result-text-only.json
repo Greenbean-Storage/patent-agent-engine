@@ -1,0 +1,41 @@
+{
+ "description": "rt_result(text) 는 미노출 신호 — chain_completed→reply 1만",
+ "events": [
+  {
+   "type": "rt_result",
+   "persona": 1,
+   "payload": {
+    "text": "텍스트만"
+   }
+  },
+  {
+   "type": "chain_completed",
+   "persona": 1,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "message.reply"
+  ],
+  "forbidden": [
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "message.reply": 1
+  },
+  "payload_contains": [
+   {
+    "type": "message.reply",
+    "data": {
+     "text": null
+    }
+   }
+  ]
+ }
+}

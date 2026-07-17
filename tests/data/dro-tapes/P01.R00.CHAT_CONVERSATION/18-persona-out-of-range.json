@@ -1,0 +1,50 @@
+{
+ "description": "persona 9(범위밖) → progress.channel=support fallback",
+ "events": [
+  {
+   "type": "rt_started",
+   "persona": 9,
+   "payload": {},
+   "step": {
+    "id": "s0",
+    "display_status": {
+     "ko": "진행 중",
+     "en": "Working"
+    }
+   }
+  },
+  {
+   "type": "chain_completed",
+   "persona": 9,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.progress"
+  ],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed"
+  ],
+  "thinking_channels": [
+   "support"
+  ],
+  "client_event_counts": {
+   "work.progress": 1
+  },
+  "payload_contains": [
+   {
+    "type": "work.progress",
+    "data": {
+     "display_status": {
+      "ko": "진행 중"
+     }
+    }
+   }
+  ]
+ }
+}

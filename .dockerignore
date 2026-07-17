@@ -1,0 +1,40 @@
+# Version control
+.git/
+.gitignore
+
+# Secrets — never bake into image
+.env
+.envrc
+config/kipris.env
+
+# Runtime data — use volumes
+data/
+
+# Tests
+tests/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python artifacts
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.venv/
+**/*.egg-info/
+
+# MCP tooling files (not needed in image)
+.mcp*.json
+.claude/
+
+# Docs
+*.md

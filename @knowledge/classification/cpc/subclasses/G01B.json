@@ -1,0 +1,900 @@
+{
+  "subclass": "G01B",
+  "title": {
+    "ko": null,
+    "en": "MEASURING LENGTH, THICKNESS OR SIMILAR LINEAR DIMENSIONS; MEASURING ANGLES; MEASURING AREAS; MEASURING IRREGULARITIES OF SURFACES OR CONTOURS"
+  },
+  "groups": [
+    {
+      "code": "G01B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring instruments characterised by the selection of material therefor"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring instruments characterised by the use of mechanical techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 3/002",
+          "title": {
+            "ko": null,
+            "en": "{Details}"
+          }
+        },
+        {
+          "code": "G01B 3/02",
+          "title": {
+            "ko": null,
+            "en": "Rulers with scales or marks for direct reading (measuring tapes G01B3/10)"
+          }
+        },
+        {
+          "code": "G01B 3/10",
+          "title": {
+            "ko": null,
+            "en": "Measuring tapes"
+          }
+        },
+        {
+          "code": "G01B 3/11",
+          "title": {
+            "ko": null,
+            "en": "Chains for measuring length"
+          }
+        },
+        {
+          "code": "G01B 3/12",
+          "title": {
+            "ko": null,
+            "en": "Measuring wheels"
+          }
+        },
+        {
+          "code": "G01B 3/14",
+          "title": {
+            "ko": null,
+            "en": "Templates for checking contours {(templates for mounting doors or windows E04F21/0007)}"
+          }
+        },
+        {
+          "code": "G01B 3/16",
+          "title": {
+            "ko": null,
+            "en": "Compasses, i.e. with a pair of pivoted arms"
+          }
+        },
+        {
+          "code": "G01B 3/18",
+          "title": {
+            "ko": null,
+            "en": "Micrometers"
+          }
+        },
+        {
+          "code": "G01B 3/20",
+          "title": {
+            "ko": null,
+            "en": "Slide gauges"
+          }
+        },
+        {
+          "code": "G01B 3/22",
+          "title": {
+            "ko": null,
+            "en": "Feeler-pin gauges, e.g. dial gauges (for measuring contours or curvatures G01B5/20)"
+          }
+        },
+        {
+          "code": "G01B 3/30",
+          "title": {
+            "ko": null,
+            "en": "Bars, blocks, or strips in which the distance between a pair of faces is fixed, although it may be preadjustable, e.g. end measure, feeler strip"
+          }
+        },
+        {
+          "code": "G01B 3/34",
+          "title": {
+            "ko": null,
+            "en": "Ring or other apertured gauges, e.g. \"go/no-go\" gauge"
+          }
+        },
+        {
+          "code": "G01B 3/38",
+          "title": {
+            "ko": null,
+            "en": "Gauges with an open yoke and opposed faces, i.e. calipers, in which the internal distance between the faces is fixed, although it may be preadjustable"
+          }
+        },
+        {
+          "code": "G01B 3/46",
+          "title": {
+            "ko": null,
+            "en": "Plug gauges for internal dimensions with engaging surfaces which are at a fixed distance, although they may be preadjustable"
+          }
+        },
+        {
+          "code": "G01B 3/56",
+          "title": {
+            "ko": null,
+            "en": "Gauges for measuring angles or tapers, e.g. conical calipers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements characterised by the use of mechanical techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 5/0002",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements for supporting, fixing or guiding the measuring instrument or the object to be measured}"
+          }
+        },
+        {
+          "code": "G01B 5/0011",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements for eliminating or compensation of measuring errors due to temperature or weight}"
+          }
+        },
+        {
+          "code": "G01B 5/0018",
+          "title": {
+            "ko": null,
+            "en": "{for measuring key-ways}"
+          }
+        },
+        {
+          "code": "G01B 5/0021",
+          "title": {
+            "ko": null,
+            "en": "{for measuring the volumetric dimension of an object}"
+          }
+        },
+        {
+          "code": "G01B 5/0023",
+          "title": {
+            "ko": null,
+            "en": "{Measuring of sport goods, e.g. bowling accessories, golfclubs, game balls}"
+          }
+        },
+        {
+          "code": "G01B 5/0025",
+          "title": {
+            "ko": null,
+            "en": "{Measuring of vehicle parts (G01B5/003 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01B 5/003",
+          "title": {
+            "ko": null,
+            "en": "{Measuring of motor parts}"
+          }
+        },
+        {
+          "code": "G01B 5/0035",
+          "title": {
+            "ko": null,
+            "en": "{Measuring of dimensions of trees}"
+          }
+        },
+        {
+          "code": "G01B 5/0037",
+          "title": {
+            "ko": null,
+            "en": "{Measuring of dimensions of welds}"
+          }
+        },
+        {
+          "code": "G01B 5/004",
+          "title": {
+            "ko": null,
+            "en": "for measuring coordinates of points"
+          }
+        },
+        {
+          "code": "G01B 5/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring length, width or thickness (G01B5/004, G01B5/08 take precedence)"
+          }
+        },
+        {
+          "code": "G01B 5/08",
+          "title": {
+            "ko": null,
+            "en": "for measuring diameters {(G01B5/0035 takes precedence; measuring radius of curvature G01B5/213)}"
+          }
+        },
+        {
+          "code": "G01B 5/14",
+          "title": {
+            "ko": null,
+            "en": "for measuring distance or clearance between spaced objects or spaced apertures (G01B5/24 takes precedence)"
+          }
+        },
+        {
+          "code": "G01B 5/18",
+          "title": {
+            "ko": null,
+            "en": "for measuring depth"
+          }
+        },
+        {
+          "code": "G01B 5/20",
+          "title": {
+            "ko": null,
+            "en": "for measuring contours or curvatures"
+          }
+        },
+        {
+          "code": "G01B 5/24",
+          "title": {
+            "ko": null,
+            "en": "for measuring angles or tapers; for testing the alignment of axes"
+          }
+        },
+        {
+          "code": "G01B 5/26",
+          "title": {
+            "ko": null,
+            "en": "for measuring areas, e.g. planimeters"
+          }
+        },
+        {
+          "code": "G01B 5/28",
+          "title": {
+            "ko": null,
+            "en": "for measuring roughness or irregularity of surfaces"
+          }
+        },
+        {
+          "code": "G01B 5/30",
+          "title": {
+            "ko": null,
+            "en": "for measuring the deformation in a solid, e.g. mechanical strain gauge"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 7/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements characterised by the use of electric or magnetic techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 7/001",
+          "title": {
+            "ko": null,
+            "en": "{Constructional details of gauge heads (G01B7/012 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01B 7/002",
+          "title": {
+            "ko": null,
+            "en": "{Constructional details of contacts for gauges actuating one or more contacts (G01B7/016 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01B 7/003",
+          "title": {
+            "ko": null,
+            "en": "{for measuring position, not involving coordinate determination (coordinate measuring G01B7/004)}"
+          }
+        },
+        {
+          "code": "G01B 7/004",
+          "title": {
+            "ko": null,
+            "en": "for measuring coordinates of points"
+          }
+        },
+        {
+          "code": "G01B 7/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring length, width or thickness (G01B7/004, G01B7/12 take precedence)"
+          }
+        },
+        {
+          "code": "G01B 7/12",
+          "title": {
+            "ko": null,
+            "en": "for measuring diameters"
+          }
+        },
+        {
+          "code": "G01B 7/14",
+          "title": {
+            "ko": null,
+            "en": "for measuring distance or clearance between spaced objects or spaced apertures (G01B7/30 takes precedence)"
+          }
+        },
+        {
+          "code": "G01B 7/16",
+          "title": {
+            "ko": null,
+            "en": "for measuring the deformation in a solid, e.g. by resistance strain gauge"
+          }
+        },
+        {
+          "code": "G01B 7/26",
+          "title": {
+            "ko": null,
+            "en": "for measuring depth"
+          }
+        },
+        {
+          "code": "G01B 7/28",
+          "title": {
+            "ko": null,
+            "en": "for measuring contours or curvatures"
+          }
+        },
+        {
+          "code": "G01B 7/30",
+          "title": {
+            "ko": null,
+            "en": "for measuring angles or tapers; for testing the alignment of axes"
+          }
+        },
+        {
+          "code": "G01B 7/32",
+          "title": {
+            "ko": null,
+            "en": "for measuring areas"
+          }
+        },
+        {
+          "code": "G01B 7/34",
+          "title": {
+            "ko": null,
+            "en": "for measuring roughness or irregularity of surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 9/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring instruments characterised by the use of optical techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 9/02",
+          "title": {
+            "ko": null,
+            "en": "Interferometers"
+          }
+        },
+        {
+          "code": "G01B 9/04",
+          "title": {
+            "ko": null,
+            "en": "Measuring microscopes"
+          }
+        },
+        {
+          "code": "G01B 9/06",
+          "title": {
+            "ko": null,
+            "en": "Measuring telescopes"
+          }
+        },
+        {
+          "code": "G01B 9/08",
+          "title": {
+            "ko": null,
+            "en": "Optical projection comparators"
+          }
+        },
+        {
+          "code": "G01B 9/10",
+          "title": {
+            "ko": null,
+            "en": "Goniometers for measuring angles between surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 11/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements characterised by the use of optical techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 11/002",
+          "title": {
+            "ko": null,
+            "en": "{for measuring two or more coordinates}"
+          }
+        },
+        {
+          "code": "G01B 11/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring length, width or thickness (G01B11/08 takes precedence)"
+          }
+        },
+        {
+          "code": "G01B 11/08",
+          "title": {
+            "ko": null,
+            "en": "for measuring diameters"
+          }
+        },
+        {
+          "code": "G01B 11/14",
+          "title": {
+            "ko": null,
+            "en": "for measuring distance or clearance between spaced objects or spaced apertures (G01B11/26 takes precedence; rangefinders G01C3/00)"
+          }
+        },
+        {
+          "code": "G01B 11/16",
+          "title": {
+            "ko": null,
+            "en": "for measuring the deformation in a solid, e.g. optical strain gauge"
+          }
+        },
+        {
+          "code": "G01B 11/22",
+          "title": {
+            "ko": null,
+            "en": "for measuring depth"
+          }
+        },
+        {
+          "code": "G01B 11/24",
+          "title": {
+            "ko": null,
+            "en": "for measuring contours or curvatures"
+          }
+        },
+        {
+          "code": "G01B 11/26",
+          "title": {
+            "ko": null,
+            "en": "for measuring angles or tapers; for testing the alignment of axes"
+          }
+        },
+        {
+          "code": "G01B 11/28",
+          "title": {
+            "ko": null,
+            "en": "for measuring areas"
+          }
+        },
+        {
+          "code": "G01B 11/30",
+          "title": {
+            "ko": null,
+            "en": "for measuring roughness or irregularity of surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements characterised by the use of fluids"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 13/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring length, width or thickness (G01B13/08 takes precedence)"
+          }
+        },
+        {
+          "code": "G01B 13/08",
+          "title": {
+            "ko": null,
+            "en": "for measuring diameters"
+          }
+        },
+        {
+          "code": "G01B 13/12",
+          "title": {
+            "ko": null,
+            "en": "for measuring distance or clearance between spaced objects or spaced apertures (G01B13/18 takes precedence)"
+          }
+        },
+        {
+          "code": "G01B 13/14",
+          "title": {
+            "ko": null,
+            "en": "for measuring depth"
+          }
+        },
+        {
+          "code": "G01B 13/16",
+          "title": {
+            "ko": null,
+            "en": "for measuring contours or curvatures"
+          }
+        },
+        {
+          "code": "G01B 13/18",
+          "title": {
+            "ko": null,
+            "en": "for measuring angles or tapers; for testing the alignment of axes"
+          }
+        },
+        {
+          "code": "G01B 13/20",
+          "title": {
+            "ko": null,
+            "en": "for measuring areas, e.g. pneumatic planimeters"
+          }
+        },
+        {
+          "code": "G01B 13/22",
+          "title": {
+            "ko": null,
+            "en": "for measuring roughness or irregularity of surfaces"
+          }
+        },
+        {
+          "code": "G01B 13/24",
+          "title": {
+            "ko": null,
+            "en": "for measuring the deformation in a solid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements characterised by the use of electromagnetic waves or particle radiation, e.g. by the use of microwaves, X-rays, gamma rays or electrons (characterised by the use of optical techniques G01B9/00, G01B11/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 15/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring thickness"
+          }
+        },
+        {
+          "code": "G01B 15/04",
+          "title": {
+            "ko": null,
+            "en": "for measuring contours or curvatures"
+          }
+        },
+        {
+          "code": "G01B 15/06",
+          "title": {
+            "ko": null,
+            "en": "for measuring the deformation in a solid"
+          }
+        },
+        {
+          "code": "G01B 15/08",
+          "title": {
+            "ko": null,
+            "en": "for measuring roughness or irregularity of surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements characterised by the use of infrasonic, sonic or ultrasonic vibrations"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 17/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring thickness"
+          }
+        },
+        {
+          "code": "G01B 17/04",
+          "title": {
+            "ko": null,
+            "en": "for measuring the deformation in a solid, e.g. by vibrating string"
+          }
+        },
+        {
+          "code": "G01B 17/06",
+          "title": {
+            "ko": null,
+            "en": "for measuring contours or curvatures"
+          }
+        },
+        {
+          "code": "G01B 17/08",
+          "title": {
+            "ko": null,
+            "en": "for measuring roughness or irregularity of surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 21/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements or details thereof, where the measuring technique is not covered by the other groups of this subclass, unspecified or not relevant"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 21/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring length, width, or thickness (G01B21/10 takes precedence)"
+          }
+        },
+        {
+          "code": "G01B 21/10",
+          "title": {
+            "ko": null,
+            "en": "for measuring diameters"
+          }
+        },
+        {
+          "code": "G01B 21/16",
+          "title": {
+            "ko": null,
+            "en": "for measuring distance of clearance between spaced objects"
+          }
+        },
+        {
+          "code": "G01B 21/18",
+          "title": {
+            "ko": null,
+            "en": "for measuring depth"
+          }
+        },
+        {
+          "code": "G01B 21/20",
+          "title": {
+            "ko": null,
+            "en": "for measuring contours or curvatures, e.g. determining profile"
+          }
+        },
+        {
+          "code": "G01B 21/22",
+          "title": {
+            "ko": null,
+            "en": "for measuring angles or tapers; for testing the alignment of axes"
+          }
+        },
+        {
+          "code": "G01B 21/28",
+          "title": {
+            "ko": null,
+            "en": "for measuring areas"
+          }
+        },
+        {
+          "code": "G01B 21/30",
+          "title": {
+            "ko": null,
+            "en": "for measuring roughness or irregularity of surfaces"
+          }
+        },
+        {
+          "code": "G01B 21/32",
+          "title": {
+            "ko": null,
+            "en": "for measuring the deformation in a solid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 2210/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects not specifically covered by any group under G01B, e.g. of wheel alignment, caliper-like sensors"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 2210/10",
+          "title": {
+            "ko": null,
+            "en": "Wheel alignment"
+          }
+        },
+        {
+          "code": "G01B 2210/40",
+          "title": {
+            "ko": null,
+            "en": "Caliper-like sensors"
+          }
+        },
+        {
+          "code": "G01B 2210/50",
+          "title": {
+            "ko": null,
+            "en": "Using chromatic effects to achieve wavelength-dependent depth resolution"
+          }
+        },
+        {
+          "code": "G01B 2210/52",
+          "title": {
+            "ko": null,
+            "en": "Combining or merging partially overlapping images to an overall image"
+          }
+        },
+        {
+          "code": "G01B 2210/54",
+          "title": {
+            "ko": null,
+            "en": "Revolving an optical measuring instrument around a body"
+          }
+        },
+        {
+          "code": "G01B 2210/56",
+          "title": {
+            "ko": null,
+            "en": "Measuring geometric parameters of semiconductor structures, e.g. profile, critical dimensions or trench depth"
+          }
+        },
+        {
+          "code": "G01B 2210/58",
+          "title": {
+            "ko": null,
+            "en": "Wireless transmission of information between a sensor or probe and a control or evaluation unit"
+          }
+        },
+        {
+          "code": "G01B 2210/60",
+          "title": {
+            "ko": null,
+            "en": "Unique sensor identification"
+          }
+        },
+        {
+          "code": "G01B 2210/62",
+          "title": {
+            "ko": null,
+            "en": "Support for workpiece air film or bearing with positive or negative pressure"
+          }
+        },
+        {
+          "code": "G01B 2210/64",
+          "title": {
+            "ko": null,
+            "en": "Interconnection or interfacing through or under capping or via rear of substrate in microsensors"
+          }
+        },
+        {
+          "code": "G01B 2210/66",
+          "title": {
+            "ko": null,
+            "en": "Rock or ground anchors having deformation measuring means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01B 2290/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of interferometers not specifically covered by any group under G01B9/02"
+      },
+      "subgroups": [
+        {
+          "code": "G01B 2290/10",
+          "title": {
+            "ko": null,
+            "en": "Astronomic interferometers"
+          }
+        },
+        {
+          "code": "G01B 2290/15",
+          "title": {
+            "ko": null,
+            "en": "Cat eye, i.e. reflection always parallel to incoming beam"
+          }
+        },
+        {
+          "code": "G01B 2290/20",
+          "title": {
+            "ko": null,
+            "en": "Dispersive element for generating dispersion"
+          }
+        },
+        {
+          "code": "G01B 2290/25",
+          "title": {
+            "ko": null,
+            "en": "Fabry-Perot in interferometer, e.g. etalon, cavity"
+          }
+        },
+        {
+          "code": "G01B 2290/30",
+          "title": {
+            "ko": null,
+            "en": "Grating as beam-splitter"
+          }
+        },
+        {
+          "code": "G01B 2290/35",
+          "title": {
+            "ko": null,
+            "en": "Mechanical variable delay line"
+          }
+        },
+        {
+          "code": "G01B 2290/40",
+          "title": {
+            "ko": null,
+            "en": "Non-mechanical variable delay line"
+          }
+        },
+        {
+          "code": "G01B 2290/45",
+          "title": {
+            "ko": null,
+            "en": "Multiple detectors for detecting interferometer signals"
+          }
+        },
+        {
+          "code": "G01B 2290/50",
+          "title": {
+            "ko": null,
+            "en": "Pupil plane manipulation, e.g. filtering light of certain reflection angles"
+          }
+        },
+        {
+          "code": "G01B 2290/55",
+          "title": {
+            "ko": null,
+            "en": "Quantum effects"
+          }
+        },
+        {
+          "code": "G01B 2290/60",
+          "title": {
+            "ko": null,
+            "en": "Reference interferometer, i.e. additional interferometer not interacting with object"
+          }
+        },
+        {
+          "code": "G01B 2290/65",
+          "title": {
+            "ko": null,
+            "en": "Spatial scanning object beam"
+          }
+        },
+        {
+          "code": "G01B 2290/70",
+          "title": {
+            "ko": null,
+            "en": "Using polarization in the interferometer"
+          }
+        }
+      ]
+    }
+  ]
+}

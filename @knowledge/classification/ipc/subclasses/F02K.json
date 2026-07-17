@@ -1,0 +1,864 @@
+{
+  "subclass": "F02K",
+  "title": {
+    "ko": "제트 추진 플랜트 (육상 차량 또는 차량에 제트 추진 플랜트 의 배치 또는 장착 일반 B60K; 수상 선박에서 제트 추진 설비의 배치 또는 장착 B63H; 제트 반응에 의한 항공기 자세, 비행 방향 또는 고도를 제어하는 것 B64C15/00, B64U50/10; 제트 추진과 다른 형태의 추진 간에 나누어지는 작동 유체의 힘에 특징이 있는 플랜트, 예. 프로펠러 F02B, F02C; 가스 터빈 플랜트, 공기 흡입 또는 공기 배출 제트 추진 플랜트의 연료 공급 제어에 공통되는 제트 추진 플랜트의 특징 F02C)",
+    "en": "JET-PROPULSION PLANTS (arrangement or mounting of jet-propulsion plants in land vehicles or vehicles in general B60K;arrangement or mounting of jet-propulsion plants in waterborne vessels B63H;controlling aircraft attitude, flight direction or altitude by jet reaction B64C0015000000, B64U0050100000;arrangement or mounting of jet-propulsion plants in aircraft B64D0027000000, B64U0050100000;plants characterised by the power of the working fluid being divided between jet propulsion and another form of propulsion, e.g. propeller, F02B, F02C;features of jet-propulsion plants common to gas-turbine plants, air intakes or fuel supply control of air-breathing jet-propulsion plants F02C)"
+  },
+  "definition": {
+    "ko": "파이프 또는 노즐에 특징이 있는 장치 F02K1/00, F02K9/80 압축기 또는 팬에 특징이 있는 장치 F02K3/00, F02K5/00 압축기 또는 팬이 없는 장치 F02K7/00 로켓기관설비 F02K9/00 제어 F02K1/15, F02K1/76, F02K7/00, F02K9/00 그 밖의 장치, 세부 F02K11/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F02K 1/00",
+      "title": {
+        "ko": "제트 파이프 또는 노즐의 형상 또는 배치에 특징이 있는 설비 그것에 특유한 제트 파이프 또는 노즐(로켓노즐 F02K 9/97)",
+        "en": "Plants characterised by the form or arrangement of the jet pipe or nozzle; Jet pipes or nozzles peculiar thereto (rocket nozzles F02K0009970000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02K 1/04",
+          "title": {
+            "ko": null,
+            "en": "Mounting of an exhaust cone in the jet pipe"
+          }
+        },
+        {
+          "code": "F02K 1/06",
+          "title": {
+            "ko": "제트 파이프 또는 노즐의 유효 영역을 바꾸는 것(유체 제트를 사용하여 제트 흐름에 영향을 주는 것 F02K1/30)",
+            "en": "Varying effective area of jet pipe or nozzle  (by using fluid jets to influence the jet flow F02K0001300000)"
+          }
+        },
+        {
+          "code": "F02K 1/08",
+          "title": {
+            "ko": null,
+            "en": "by axially moving or transversely deforming an internal member, e.g. the exhaust cone"
+          }
+        },
+        {
+          "code": "F02K 1/09",
+          "title": {
+            "ko": "외측부재의 축방향으로 이동에 의하는 것, 예. 슈라우드(shroud)(F02K 1/12이 우선)",
+            "en": "by axially moving an external member, e.g. a shroud (F02K0001120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02K 1/10",
+          "title": {
+            "ko": null,
+            "en": "by distorting the jet pipe or nozzle"
+          }
+        },
+        {
+          "code": "F02K 1/11",
+          "title": {
+            "ko": null,
+            "en": "by means of pivoted eyelids"
+          }
+        },
+        {
+          "code": "F02K 1/12",
+          "title": {
+            "ko": null,
+            "en": "by means of pivoted flaps"
+          }
+        },
+        {
+          "code": "F02K 1/15",
+          "title": {
+            "ko": null,
+            "en": "Control or regulation"
+          }
+        },
+        {
+          "code": "F02K 1/16",
+          "title": {
+            "ko": null,
+            "en": "conjointly with another control"
+          }
+        },
+        {
+          "code": "F02K 1/17",
+          "title": {
+            "ko": null,
+            "en": "with control of fuel supply"
+          }
+        },
+        {
+          "code": "F02K 1/18",
+          "title": {
+            "ko": null,
+            "en": "automatic"
+          }
+        },
+        {
+          "code": "F02K 1/28",
+          "title": {
+            "ko": null,
+            "en": "using fluid jets to influence the jet flow"
+          }
+        },
+        {
+          "code": "F02K 1/30",
+          "title": {
+            "ko": null,
+            "en": "for varying effective area of jet pipe or nozzle"
+          }
+        },
+        {
+          "code": "F02K 1/32",
+          "title": {
+            "ko": null,
+            "en": "for reversing thrust"
+          }
+        },
+        {
+          "code": "F02K 1/34",
+          "title": {
+            "ko": null,
+            "en": "for attenuating noise"
+          }
+        },
+        {
+          "code": "F02K 1/36",
+          "title": {
+            "ko": null,
+            "en": "having an ejector"
+          }
+        },
+        {
+          "code": "F02K 1/38",
+          "title": {
+            "ko": "제트의 내부에 공기를 도입하는 것",
+            "en": "Introducing air inside the jet (F02K0001280000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02K 1/40",
+          "title": {
+            "ko": null,
+            "en": "Nozzles having means for dividing the jet into a plurality of partial jets or having an elongated cross-section outlet"
+          }
+        },
+        {
+          "code": "F02K 1/42",
+          "title": {
+            "ko": null,
+            "en": "the means being movable into an inoperative position"
+          }
+        },
+        {
+          "code": "F02K 1/44",
+          "title": {
+            "ko": "특정방향으로 음의 방사를 감소시키는 수단을 갖는 노즐(F02K 1/40이 우선)",
+            "en": "Nozzles having means, e.g. a shield, reducing sound radiation in a specified direction (F02K0001400000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02K 1/46",
+          "title": {
+            "ko": "제트에 공기를 가하기 위한 또는 제트와 주위의 공기와의 혼합물을 추가하기 위한 수단이 있는 노즐, 예. 소음을 위한 것(F02K 1/28, 1/36, 1/38이 우선)",
+            "en": "Nozzles having means for adding air to the jet or for augmenting the mixing region between the jet and the ambient air, e.g. for silencing (F02K0001280000, F02K0001360000, F02K0001380000 take precedence)"
+          }
+        },
+        {
+          "code": "F02K 1/48",
+          "title": {
+            "ko": null,
+            "en": "Corrugated nozzles"
+          }
+        },
+        {
+          "code": "F02K 1/50",
+          "title": {
+            "ko": null,
+            "en": "Deflecting outwardly a portion of the jet by retractable scoop-like baffles"
+          }
+        },
+        {
+          "code": "F02K 1/52",
+          "title": {
+            "ko": null,
+            "en": "Nozzles specially constructed for positioning adjacent to another nozzle or to a fixed member, e.g. fairing"
+          }
+        },
+        {
+          "code": "F02K 1/54",
+          "title": {
+            "ko": "제트 추력을 역전시키기 위한 수단을 가지는 노즐(유체 제트를 사용한 역 제트 추력 F02K1/32)",
+            "en": "Nozzles having means for reversing jet thrust  (reversing jet thrust using fluid jets F02K0001320000)"
+          }
+        },
+        {
+          "code": "F02K 1/56",
+          "title": {
+            "ko": null,
+            "en": "Reversing jet main flow"
+          }
+        },
+        {
+          "code": "F02K 1/58",
+          "title": {
+            "ko": null,
+            "en": "Reversers mounted on the inner cone or the nozzle housing"
+          }
+        },
+        {
+          "code": "F02K 1/60",
+          "title": {
+            "ko": null,
+            "en": "by blocking the rearward discharge by means of pivoted eyelids or clamshells, e.g. target-type reversers"
+          }
+        },
+        {
+          "code": "F02K 1/62",
+          "title": {
+            "ko": null,
+            "en": "by blocking the rearward discharge by means of flaps"
+          }
+        },
+        {
+          "code": "F02K 1/64",
+          "title": {
+            "ko": null,
+            "en": "Reversing fan flow"
+          }
+        },
+        {
+          "code": "F02K 1/66",
+          "title": {
+            "ko": null,
+            "en": "using reversing fan blades"
+          }
+        },
+        {
+          "code": "F02K 1/68",
+          "title": {
+            "ko": null,
+            "en": "Reversers mounted on the engine housing downstream of the fan exhaust section"
+          }
+        },
+        {
+          "code": "F02K 1/70",
+          "title": {
+            "ko": null,
+            "en": "using thrust reverser flaps or doors mounted on the fan housing"
+          }
+        },
+        {
+          "code": "F02K 1/72",
+          "title": {
+            "ko": null,
+            "en": "the aft end of the fan housing being movable to uncover openings in the fan housing for the reversed flow"
+          }
+        },
+        {
+          "code": "F02K 1/74",
+          "title": {
+            "ko": null,
+            "en": "Reversing at least one flow in relation to at least one other flow in a plural-flow engine"
+          }
+        },
+        {
+          "code": "F02K 1/76",
+          "title": {
+            "ko": null,
+            "en": "Control or regulation of thrust reversers"
+          }
+        },
+        {
+          "code": "F02K 1/78",
+          "title": {
+            "ko": null,
+            "en": "Other construction of jet pipes"
+          }
+        },
+        {
+          "code": "F02K 1/80",
+          "title": {
+            "ko": null,
+            "en": "Couplings or connections"
+          }
+        },
+        {
+          "code": "F02K 1/82",
+          "title": {
+            "ko": null,
+            "en": "Jet pipe walls, e.g. liners"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02K 3/00",
+      "title": {
+        "ko": "압축기 또는 덕트팬(ducted fan)을 구동하는 가스터빈이 있는 장치",
+        "en": "Plants including a gas turbine driving a compressor or a ducted fan"
+      },
+      "subgroups": [
+        {
+          "code": "F02K 3/02",
+          "title": {
+            "ko": null,
+            "en": "in which part of the working fluid by-passes the turbine and combustion chamber"
+          }
+        },
+        {
+          "code": "F02K 3/04",
+          "title": {
+            "ko": null,
+            "en": "the plant including ducted fans, i.e. fans with high volume, low-pressure outputs, for augmenting jet thrust, e.g. of double-flow type"
+          }
+        },
+        {
+          "code": "F02K 3/06",
+          "title": {
+            "ko": null,
+            "en": "with front fan"
+          }
+        },
+        {
+          "code": "F02K 3/062",
+          "title": {
+            "ko": null,
+            "en": "with aft fan"
+          }
+        },
+        {
+          "code": "F02K 3/065",
+          "title": {
+            "ko": null,
+            "en": "with front and aft fans"
+          }
+        },
+        {
+          "code": "F02K 3/068",
+          "title": {
+            "ko": null,
+            "en": "being characterised by a short axial length relative to diameter"
+          }
+        },
+        {
+          "code": "F02K 3/072",
+          "title": {
+            "ko": null,
+            "en": "with counter-rotating rotors"
+          }
+        },
+        {
+          "code": "F02K 3/075",
+          "title": {
+            "ko": null,
+            "en": "controlling flow ratio between flows"
+          }
+        },
+        {
+          "code": "F02K 3/077",
+          "title": {
+            "ko": null,
+            "en": "the plant being of the multiple flow type, i.e. having three or more flows"
+          }
+        },
+        {
+          "code": "F02K 3/08",
+          "title": {
+            "ko": "동작 유체의 추가 가열을 가지는 것; 그것의 제어(그를 위한 연료 공급의 제어 F02C 9/26)",
+            "en": "with supplementary heating of the working fluid; Control thereof (control of fuel supply therefor F02C0009260000)"
+          }
+        },
+        {
+          "code": "F02K 3/10",
+          "title": {
+            "ko": "애프터 버너에 의한 것(F02K 3/105가 우선)",
+            "en": "by after-burners (F02K0003105000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02K 3/105",
+          "title": {
+            "ko": null,
+            "en": "Heating the by-pass flow"
+          }
+        },
+        {
+          "code": "F02K 3/11",
+          "title": {
+            "ko": null,
+            "en": "by means of burners or combustion chambers"
+          }
+        },
+        {
+          "code": "F02K 3/115",
+          "title": {
+            "ko": null,
+            "en": "by means of indirect heat exchange"
+          }
+        },
+        {
+          "code": "F02K 3/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by having more than one gas turbine"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02K 5/00",
+      "title": {
+        "ko": null,
+        "en": "Plants including an engine, other than a gas turbine, driving a compressor or a ducted fan"
+      },
+      "subgroups": [
+        {
+          "code": "F02K 5/02",
+          "title": {
+            "ko": null,
+            "en": "the engine being of the reciprocating-piston type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02K 7/00",
+      "title": {
+        "ko": "유동유체가 분사에만 사용되는 설비, 즉 압축기 또는 택티드 팬을 구동하는 터빈 또는 그 밖의 기관이 없는 설비; 그 제어(로켓엔진 F02K 9/00)",
+        "en": "Plants in which the working-fluid is used in a jet only, i.e. the plants not having a turbine or other engine driving a compressor or a ducted fan; Control thereof (rocket-engine plants F02K0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02K 7/02",
+          "title": {
+            "ko": null,
+            "en": "the jet being intermittent, i.e. pulse jet"
+          }
+        },
+        {
+          "code": "F02K 7/04",
+          "title": {
+            "ko": null,
+            "en": "with resonant combustion chambers"
+          }
+        },
+        {
+          "code": "F02K 7/06",
+          "title": {
+            "ko": null,
+            "en": "with combustion chambers having valves"
+          }
+        },
+        {
+          "code": "F02K 7/067",
+          "title": {
+            "ko": null,
+            "en": "having aerodynamic valves"
+          }
+        },
+        {
+          "code": "F02K 7/075",
+          "title": {
+            "ko": null,
+            "en": "with multiple pulse-jet engines"
+          }
+        },
+        {
+          "code": "F02K 7/08",
+          "title": {
+            "ko": null,
+            "en": "the jet being continuous"
+          }
+        },
+        {
+          "code": "F02K 7/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by having ram-action compression, i.e. aero-thermo-dynamic-ducts or ram-jet engines"
+          }
+        },
+        {
+          "code": "F02K 7/12",
+          "title": {
+            "ko": null,
+            "en": "Injection-induction jet engines"
+          }
+        },
+        {
+          "code": "F02K 7/14",
+          "title": {
+            "ko": null,
+            "en": "with external combustion, e.g. scram-jet engines"
+          }
+        },
+        {
+          "code": "F02K 7/16",
+          "title": {
+            "ko": null,
+            "en": "Composite ram-jet/turbo-jet engines"
+          }
+        },
+        {
+          "code": "F02K 7/18",
+          "title": {
+            "ko": null,
+            "en": "Composite ram-jet/rocket engines"
+          }
+        },
+        {
+          "code": "F02K 7/20",
+          "title": {
+            "ko": null,
+            "en": "Composite ram-jet/pulse-jet engines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02K 9/00",
+      "title": {
+        "ko": "로켓 엔진 설비, 즉. 연료와 그 산화제 양쪽을 운반하는 설비; 그것의 제어",
+        "en": "Rocket-engine plants, i.e. plants carrying both fuel and oxidant therefor; Control thereof"
+      },
+      "subgroups": [
+        {
+          "code": "F02K 9/08",
+          "title": {
+            "ko": "고체의 추진제를 사용하는 것(F02K 9/72이 우선; 반고체 또는 분상의 추진제를 사용하는 것, F02K 9/70)",
+            "en": "using solid propellants (F02K0009720000 takes precedence;using semi-solid or pulverulent propellants F02K0009700000)"
+          }
+        },
+        {
+          "code": "F02K 9/10",
+          "title": {
+            "ko": null,
+            "en": "Shape or structure of solid propellant charges"
+          }
+        },
+        {
+          "code": "F02K 9/12",
+          "title": {
+            "ko": null,
+            "en": "made of two or more portions burning at different rates"
+          }
+        },
+        {
+          "code": "F02K 9/14",
+          "title": {
+            "ko": null,
+            "en": "made from sheet-like materials, e.g. of carpet-roll type, of layered structure"
+          }
+        },
+        {
+          "code": "F02K 9/16",
+          "title": {
+            "ko": null,
+            "en": "of honeycomb structure"
+          }
+        },
+        {
+          "code": "F02K 9/18",
+          "title": {
+            "ko": null,
+            "en": "of the internal-burning type having a star or like shaped internal cavity"
+          }
+        },
+        {
+          "code": "F02K 9/20",
+          "title": {
+            "ko": null,
+            "en": "of the external-burning type"
+          }
+        },
+        {
+          "code": "F02K 9/22",
+          "title": {
+            "ko": null,
+            "en": "of the front-burning type"
+          }
+        },
+        {
+          "code": "F02K 9/24",
+          "title": {
+            "ko": null,
+            "en": "Charging rocket engines with solid propellants; Methods or apparatus specially adapted for working solid propellant charges"
+          }
+        },
+        {
+          "code": "F02K 9/26",
+          "title": {
+            "ko": null,
+            "en": "Burning control"
+          }
+        },
+        {
+          "code": "F02K 9/28",
+          "title": {
+            "ko": null,
+            "en": "having two or more propellant charges with the propulsion gases exhausting through a common nozzle"
+          }
+        },
+        {
+          "code": "F02K 9/30",
+          "title": {
+            "ko": null,
+            "en": "with the propulsion gases exhausting through a plurality of nozzles"
+          }
+        },
+        {
+          "code": "F02K 9/32",
+          "title": {
+            "ko": null,
+            "en": "Constructional parts; Details not otherwise provided for"
+          }
+        },
+        {
+          "code": "F02K 9/34",
+          "title": {
+            "ko": null,
+            "en": "Casings; Combustion chambers; Liners thereof"
+          }
+        },
+        {
+          "code": "F02K 9/36",
+          "title": {
+            "ko": null,
+            "en": "Propellant charge supports"
+          }
+        },
+        {
+          "code": "F02K 9/38",
+          "title": {
+            "ko": null,
+            "en": "Safety devices, e.g. to prevent accidental ignition"
+          }
+        },
+        {
+          "code": "F02K 9/40",
+          "title": {
+            "ko": null,
+            "en": "Cooling arrangements"
+          }
+        },
+        {
+          "code": "F02K 9/42",
+          "title": {
+            "ko": "유체 또는 기체의 추진제을 사용하는 것(F02K 9/72이 우선)",
+            "en": "using liquid or gaseous propellants (F02K0009720000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02K 9/44",
+          "title": {
+            "ko": null,
+            "en": "Feeding propellants"
+          }
+        },
+        {
+          "code": "F02K 9/46",
+          "title": {
+            "ko": null,
+            "en": "using pumps"
+          }
+        },
+        {
+          "code": "F02K 9/48",
+          "title": {
+            "ko": null,
+            "en": "driven by a gas turbine fed by propellant combustion gases"
+          }
+        },
+        {
+          "code": "F02K 9/50",
+          "title": {
+            "ko": null,
+            "en": "using pressurised fluid to pressurize the propellants"
+          }
+        },
+        {
+          "code": "F02K 9/52",
+          "title": {
+            "ko": null,
+            "en": "Injectors"
+          }
+        },
+        {
+          "code": "F02K 9/54",
+          "title": {
+            "ko": null,
+            "en": "Leakage detectors; Purging systems; Filtration systems"
+          }
+        },
+        {
+          "code": "F02K 9/56",
+          "title": {
+            "ko": null,
+            "en": "Control"
+          }
+        },
+        {
+          "code": "F02K 9/58",
+          "title": {
+            "ko": null,
+            "en": "Propellant feed valves"
+          }
+        },
+        {
+          "code": "F02K 9/60",
+          "title": {
+            "ko": null,
+            "en": "Constructional parts; Details not otherwise provided for"
+          }
+        },
+        {
+          "code": "F02K 9/62",
+          "title": {
+            "ko": null,
+            "en": "Combustion or thrust chambers"
+          }
+        },
+        {
+          "code": "F02K 9/64",
+          "title": {
+            "ko": null,
+            "en": "having cooling arrangements"
+          }
+        },
+        {
+          "code": "F02K 9/66",
+          "title": {
+            "ko": null,
+            "en": "of the rotary type"
+          }
+        },
+        {
+          "code": "F02K 9/68",
+          "title": {
+            "ko": null,
+            "en": "Decomposition chambers"
+          }
+        },
+        {
+          "code": "F02K 9/70",
+          "title": {
+            "ko": null,
+            "en": "using semi-solid or pulverulent propellants"
+          }
+        },
+        {
+          "code": "F02K 9/72",
+          "title": {
+            "ko": null,
+            "en": "using liquid and solid propellants, i.e. hybrid rocket-engine plants"
+          }
+        },
+        {
+          "code": "F02K 9/74",
+          "title": {
+            "ko": "타의 제트추진설비와의 조합",
+            "en": "combined with another jet-propulsion plant"
+          }
+        },
+        {
+          "code": "F02K 9/76",
+          "title": {
+            "ko": null,
+            "en": "with another rocket-engine plant; Multistage rocket-engine plants"
+          }
+        },
+        {
+          "code": "F02K 9/78",
+          "title": {
+            "ko": "공기흡입 제트추진설비와이 조합(램 제트 엔진과의 조합 F02K 7/18)",
+            "en": "with an air-breathing jet-propulsion plant (with a ram-jet engine F02K0007180000)"
+          }
+        },
+        {
+          "code": "F02K 9/80",
+          "title": {
+            "ko": "추력 또는 추력 벡터 제어를 특징으로 하는 것 (고체 추진제의 연소 제어 F02K9/26; 액체 또는 기체 추진제의 공급 제어 F02K9/56; 재점화, 재가동 또는 간헐적으로 작동되는 로켓 엔진 플랜트 F02K9/94)",
+            "en": "characterised by thrust or thrust vector control  (burning control of solid propellants F02K0009260000;feeding control of liquid or gaseous propellants F02K0009560000;re-ignitable, restartable or intermittently operated rocket-engine plants F02K0009940000)"
+          }
+        },
+        {
+          "code": "F02K 9/82",
+          "title": {
+            "ko": null,
+            "en": "by injection of a secondary fluid into the rocket exhaust gases"
+          }
+        },
+        {
+          "code": "F02K 9/84",
+          "title": {
+            "ko": null,
+            "en": "using movable nozzles"
+          }
+        },
+        {
+          "code": "F02K 9/86",
+          "title": {
+            "ko": null,
+            "en": "using nozzle throats of adjustable cross-section"
+          }
+        },
+        {
+          "code": "F02K 9/88",
+          "title": {
+            "ko": null,
+            "en": "using auxiliary rocket nozzles"
+          }
+        },
+        {
+          "code": "F02K 9/90",
+          "title": {
+            "ko": "편향장치를 사용하는 것(F02K 9/82이 우선)",
+            "en": "using deflectors (F02K0009820000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02K 9/92",
+          "title": {
+            "ko": null,
+            "en": "incorporating means for reversing or terminating thrust"
+          }
+        },
+        {
+          "code": "F02K 9/94",
+          "title": {
+            "ko": null,
+            "en": "Re-ignitable or restartable rocket-engine plants; Intermittently operated rocket-engine plants"
+          }
+        },
+        {
+          "code": "F02K 9/95",
+          "title": {
+            "ko": "시동 또는 점화수단 또는 장치에 의해서 특징지어진 것(안전장치 F02K 9/38)",
+            "en": "characterised by starting or ignition means or arrangements (safety devices F02K0009380000)"
+          }
+        },
+        {
+          "code": "F02K 9/96",
+          "title": {
+            "ko": null,
+            "en": "characterised by specially adapted arrangements for testing or measuring"
+          }
+        },
+        {
+          "code": "F02K 9/97",
+          "title": {
+            "ko": "로켓 노즐(추력 또는 추력궤도의 제어 F02K 9/80)",
+            "en": "Rocket nozzles (thrust or thrust vector control F02K0009800000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02K 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

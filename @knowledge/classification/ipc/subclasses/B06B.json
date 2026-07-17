@@ -1,0 +1,115 @@
+{
+  "subclass": "B06B",
+  "title": {
+    "ko": "일반적인 기계적 진동 생성 또는 전달(특정 물리적 또는 화학적 공정의 경우, 관련 서브클래스 참조, 예. B07B1/40, B22C19/06, B23Q17/12, B24B31/06, E01C19/22; 발생과 측정의 조합을 포함한 기계적 진동의 측정 G01H; 음파의 반사 또는 재방사를 사용하는 시스템 G01S15/00; 탐사를 위한 지진 에너지 생성 G01V1/02; 기계적 진동의 제어 G05D19/00; 음을 전달하고 유도 또는 지향시키기 위한 방법 또는 장치 일반 G10K11/00; 음향파의 합성 G10K15/02; 압전소자, 전기변형소자, 자기변형소자 H10N30/00; H10N35/00; 진동 자석, 전기자 또는 코일이 있는 모터 H02K33/00; 압전 효과, 전기변형소자를 사용하는 모터 H02N2/00; 전기 진동 발생 H03B; 공진 회로 요소로서의 전자 기계 공진기 H03H; 확성스피커, 마이크, 축음기 픽업 또는 음향 전자 기계 변환기 H04R)",
+    "en": "GENERATING OR TRANSMITTING MECHANICAL VIBRATIONS IN GENERAL (for particular physical or chemical processes, see the relevant subclasses, e.g. B07B0001400000, B22C0019060000, B23Q0017120000, B24B0031060000, E01C0019220000;measurement of mechanical vibrations, including the combination of generation and measurement, G01H;systems using reflection or reradiation of acoustic waves G01S0015000000;generating seismic energy for prospecting G01V0001020000;control of mechanical vibrations G05D0019000000;methods or devices for transmitting, conducting or directing sound, in general G10K0011000000;synthesis of acoustic waves G10K0015020000;piezoelectric, electrostrictive or magnetostrictive elements H10N0030000000, H10N0035000000;motors with vibrating magnet, armature or coil H02K0033000000;motors using piezoelectric effect, electrostriction or magnetostriction H02N0002000000;generation of electrical oscillations H03B;electromechanical resonators as resonant circuit elements H03H;loudspeakers, microphones, gramophone pick-ups or like acoustic electromechanical transducers H04R)"
+  },
+  "definition": {
+    "ko": "(1) 이 서브클래스는 고체내의 기계적 진동의 발생을 위한 구성을 포함한다. 예, 기계적인 작업의 수행을 위한 것 (2) 이 서브클래스는 유체중에 기계적진동을 발생시키는 장치를 포함하지 않는다. 그것은 서브클래스 G10K에 포함된다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B06B 1/00",
+      "title": {
+        "ko": "저주파, 음파 또는 초음파 주파수의 기계적 진동을 발생시키기 위한 방법 또는 장치",
+        "en": "Processes or apparatus for generating mechanical vibrations of infrasonic, sonic or ultrasonic frequency"
+      },
+      "subgroups": [
+        {
+          "code": "B06B 1/02",
+          "title": {
+            "ko": "전기적 에너지를 이용하는 것(B06B 1/18, B06B 1/20 이 우선)",
+            "en": "making use of electrical energy (B06B0001180000, B06B0001200000 take precedence)"
+          }
+        },
+        {
+          "code": "B06B 1/04",
+          "title": {
+            "ko": "전자기로 작동되는 것(진동하는 자석, 전기자 또는 코일을 갖는 전동모터 H02K 33/00)",
+            "en": "operating with electromagnetism (dynamo-electric motors with vibrating magnet, armature or coil system H02K0033000000)"
+          }
+        },
+        {
+          "code": "B06B 1/06",
+          "title": {
+            "ko": "압전효과 또는 전기변형을 이용한 것 (압전장치 또는 전기변형장치 일반 H10N30/00)",
+            "en": "operating with piezoelectric effect or with electrostriction   (piezoelectric or electrostrictive elements in general H10N0030000000)"
+          }
+        },
+        {
+          "code": "B06B 1/08",
+          "title": {
+            "ko": "자기변형을 이용한 것 (자기변형장치 일반 H010N35/00)",
+            "en": "operating with magnetostriction  (magnetostrictive elements in general H10N0035000000)"
+          }
+        },
+        {
+          "code": "B06B 1/10",
+          "title": {
+            "ko": "기계적 에너지를 이용한 것(B06B 1/18, B06B 1/20이 우선)",
+            "en": "making use of mechanical energy (B06B0001180000, B06B0001200000 take precedence)"
+          }
+        },
+        {
+          "code": "B06B 1/12",
+          "title": {
+            "ko": null,
+            "en": "operating with systems involving reciprocating masses"
+          }
+        },
+        {
+          "code": "B06B 1/14",
+          "title": {
+            "ko": null,
+            "en": "the masses being elastically coupled"
+          }
+        },
+        {
+          "code": "B06B 1/16",
+          "title": {
+            "ko": null,
+            "en": "operating with systems involving rotary unbalanced masses"
+          }
+        },
+        {
+          "code": "B06B 1/18",
+          "title": {
+            "ko": "진동체가 압력유체에 의하여 작동되는 것(B06B 1/20이 우선)",
+            "en": "wherein the vibrator is actuated by pressure fluid (B06B0001200000 takes precedence)"
+          }
+        },
+        {
+          "code": "B06B 1/20",
+          "title": {
+            "ko": null,
+            "en": "making use of a vibrating fluid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B06B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Processes or apparatus specially adapted for transmitting mechanical vibrations of infrasonic, sonic or ultrasonic frequency"
+      },
+      "subgroups": [
+        {
+          "code": "B06B 3/02",
+          "title": {
+            "ko": null,
+            "en": "involving a change of amplitude"
+          }
+        },
+        {
+          "code": "B06B 3/04",
+          "title": {
+            "ko": null,
+            "en": "involving focusing or reflecting"
+          }
+        }
+      ]
+    }
+  ]
+}

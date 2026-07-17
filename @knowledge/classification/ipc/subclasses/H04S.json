@@ -1,0 +1,61 @@
+{
+  "subclass": "H04S",
+  "title": {
+    "ko": "입체음향 시스템",
+    "en": "STEREOPHONIC SYSTEMS"
+  },
+  "definition": {
+    "ko": "이 서브클래스에서, 다음의 표현은 이하의 의미로 사용된다. - “스테레오 시스템”이라 하는 용어는 4채널 또는 그와 유사한 시스템을 포함한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04S 1/00",
+      "title": {
+        "ko": "2채널 시스템(H04S 5/00, H04S 7/00이 우선)",
+        "en": "Two-channel systems (H04S0005000000, H04S0007000000 take precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04S 3/00",
+      "title": {
+        "ko": "2채널이상, 예. 4채널을 사용하는 시스템(H04S 5/00, H04S 7/00이 우선)",
+        "en": "Systems employing more than two channels, e.g. quadraphonic (H04S0005000000, H04S0007000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 3/02",
+          "title": {
+            "ko": null,
+            "en": "of the matrix type, i.e. in which input signals are combined algebraically, e.g. after having been phase shifted with respect to each other"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04S 5/00",
+      "title": {
+        "ko": null,
+        "en": "Pseudo-stereo systems, e.g. in which additional channel signals are derived from monophonic signals by means of phase shifting, time delay or reverberation"
+      },
+      "subgroups": [
+        {
+          "code": "H04S 5/02",
+          "title": {
+            "ko": null,
+            "en": "of the pseudo four-channel type, e.g. in which rear channel signals are derived from two-channel stereo signals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04S 7/00",
+      "title": {
+        "ko": null,
+        "en": "Indicating arrangements; Control arrangements, e.g. balance control"
+      },
+      "subgroups": []
+    }
+  ]
+}

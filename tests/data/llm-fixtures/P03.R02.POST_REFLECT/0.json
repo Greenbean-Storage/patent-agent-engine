@@ -1,0 +1,143 @@
+{
+  "ranked_patents": [
+    {
+      "application_number": "1020180123456",
+      "title": "온도 표시 기능을 갖는 스마트 텀블러",
+      "applicant": "주식회사 써모스마트",
+      "filing_date": "2018-10-15",
+      "ipc": ["G01K1/02", "B65D81/18"],
+      "relevance_score": 0.88,
+      "matched_elements": [
+        "NTC 서미스터를 이용한 음료 온도 측정",
+        "500ml 트라이탄 소재 음료 용기 본체"
+      ],
+      "summary_kr": "음료 온도를 LCD 디스플레이로 표시하는 스마트 텀블러. NTC 서미스터 1개 + 4-bit LCD. 본 발명과 측정 element 동일하나 표시 수단(LCD vs RGB LED) 상이.",
+      "match_rationale": "온도 측정 element + 용기 본체 element 직접 매칭. 표시 수단이 LCD 이므로 RGB LED 발광부와는 상이."
+    },
+    {
+      "application_number": "1020200987654",
+      "title": "RGB LED 기반 색상 제어 시스템",
+      "applicant": "주식회사 컬러테크",
+      "filing_date": "2020-07-22",
+      "ipc": ["H05B47/00", "H05B47/19"],
+      "relevance_score": 0.82,
+      "matched_elements": [
+        "RGB LED 3개를 이용한 색상 가변 발광부",
+        "MCU 기반 온도-색상 매핑 알고리즘"
+      ],
+      "summary_kr": "환경 센서(온도/습도/조도) 입력에 따라 RGB LED 색상을 가변 제어하는 일반 조명 시스템. 음료 용기 적용 사례는 없음. MCU 매핑 방식이 3-구간 임계값으로 본 발명과 유사.",
+      "match_rationale": "RGB LED 발광 + MCU 매핑 element 강하게 매칭. 다만 음료 용기 응용 분야가 아니어서 직접 침해는 어려우나 진보성 쟁점 가능."
+    },
+    {
+      "application_number": "1020160069447",
+      "title": "엘이디가 구비된 음료용기",
+      "applicant": "주식회사 인비저블",
+      "filing_date": "2016-05-30",
+      "ipc": ["B65D25/20", "H05B47/00"],
+      "relevance_score": 0.78,
+      "matched_elements": [
+        "RGB LED 3개를 이용한 색상 가변 발광부",
+        "500ml 트라이탄 소재 음료 용기 본체"
+      ],
+      "summary_kr": "단색 LED 6개를 음료 용기 외부에 부착하여 사용자 조작으로 색상 변경. 온도 연동 없음. 수동 색상 선택.",
+      "match_rationale": "LED 발광부 + 음료 용기 element 매칭. 다만 온도 연동 없는 단순 장식형이라 본 발명의 핵심(온도-색상 자동 매핑) 과 상이."
+    },
+    {
+      "application_number": "1020160103463",
+      "title": "엘이디가 구비된 음료용기",
+      "applicant": "개인",
+      "filing_date": "2016-08-12",
+      "ipc": ["B65D25/20"],
+      "relevance_score": 0.71,
+      "matched_elements": [
+        "RGB LED 3개를 이용한 색상 가변 발광부"
+      ],
+      "summary_kr": "충격(움직임) 감지 시 LED 가 점등되는 어린이용 컵. 단색 LED 단일. 온도 연동 없음.",
+      "match_rationale": "LED + 용기 표면 매칭이나 작동 원리(충격 감지)가 완전히 다름. 침해 위험 낮음."
+    },
+    {
+      "application_number": "1020190034521",
+      "title": "온도 감지 색상 변화 텀블러",
+      "applicant": "주식회사 텀블링",
+      "filing_date": "2019-03-10",
+      "ipc": ["G01K1/02", "B65D81/18"],
+      "relevance_score": 0.69,
+      "matched_elements": [
+        "NTC 서미스터를 이용한 음료 온도 측정",
+        "온도 센서 ↔ MCU ↔ LED 시각 표시 신호 흐름"
+      ],
+      "summary_kr": "써모크로믹(thermochromic) 잉크를 텀블러 외벽에 인쇄하여 온도에 따라 색상 변경. 전자식 아닌 화학식. 회로/MCU 없음.",
+      "match_rationale": "기능 효과(온도 따른 색상 변경)는 동일하나 수단이 완전히 다름 (화학적 vs 전자적). 신규성 직접 부정은 어려움."
+    },
+    {
+      "application_number": "1020210045678",
+      "title": "스마트 머그컵 및 그 제어 방법",
+      "applicant": "주식회사 머그테크",
+      "filing_date": "2021-04-08",
+      "ipc": ["G01K1/02", "H05B47/00", "H02J7/00"],
+      "relevance_score": 0.65,
+      "matched_elements": [
+        "NTC 서미스터를 이용한 음료 온도 측정",
+        "USB-C 충전식 리튬이온 배터리 전원부"
+      ],
+      "summary_kr": "음료 온도를 측정해 스마트폰 앱으로 표시하는 IoT 머그. 자체 LED 표시 없음 (앱 연동). USB-C 충전.",
+      "match_rationale": "온도 측정 + 충전식 전원 매칭. 다만 시각 표시 수단(LED vs 앱) 이 상이하고 핵심 element(RGB LED 매핑)가 없음."
+    },
+    {
+      "application_number": "1020170089234",
+      "title": "RGB LED 컨트롤러 회로",
+      "applicant": "삼성전자 주식회사",
+      "filing_date": "2017-07-15",
+      "ipc": ["H05B47/19"],
+      "relevance_score": 0.58,
+      "matched_elements": [
+        "RGB LED 3개를 이용한 색상 가변 발광부"
+      ],
+      "summary_kr": "RGB LED 채널별 PWM 제어 회로 — 범용 조명 컨트롤러. 음료 용기와 무관한 일반 회로 IP.",
+      "match_rationale": "RGB LED PWM 제어 element 매칭하나 응용 분야가 일반 조명. 음료 용기 적용 시 응용 출원 형태로만 영향."
+    },
+    {
+      "application_number": "1020150067890",
+      "title": "써미스터를 이용한 음료 온도 감지 장치",
+      "applicant": "주식회사 센서랩",
+      "filing_date": "2015-06-20",
+      "ipc": ["G01K7/22"],
+      "relevance_score": 0.55,
+      "matched_elements": [
+        "NTC 서미스터를 이용한 음료 온도 측정"
+      ],
+      "summary_kr": "NTC 서미스터로 음료 온도 측정 후 부저로 알림. LED 표시 없음. 비선형 응답 보정 알고리즘 명시.",
+      "match_rationale": "온도 측정 element 강하게 매칭 + 비선형 보정 기법 공통. 다만 출력 수단이 부저/알림 으로 LED 표시와 상이."
+    },
+    {
+      "application_number": "1020220112233",
+      "title": "온도 감응형 변색 텀블러 (특허 무효 심결 진행 중)",
+      "applicant": "주식회사 무효테크",
+      "filing_date": "2022-09-01",
+      "ipc": ["B65D81/18"],
+      "relevance_score": 0.51,
+      "matched_elements": [
+        "500ml 트라이탄 소재 음료 용기 본체",
+        "온도 센서 ↔ MCU ↔ LED 시각 표시 신호 흐름"
+      ],
+      "summary_kr": "본 발명과 거의 동일한 구성이나 청구항 광범위 사유로 무효 심결 진행 중. 청구항 1 의 추상성 사유로 향후 무효 가능성 높음 (변리사 검토 필요).",
+      "match_rationale": "구성 유사도 매우 높음. 다만 출원 후 무효 심결 진행 중 — 본 발명의 신규성/진보성에 직접 위협은 적음."
+    },
+    {
+      "application_number": "1020200456789",
+      "title": "USB 충전 LED 컵홀더",
+      "applicant": "개인",
+      "filing_date": "2020-11-19",
+      "ipc": ["B65D25/20", "H02J7/00"],
+      "relevance_score": 0.42,
+      "matched_elements": [
+        "RGB LED 3개를 이용한 색상 가변 발광부",
+        "USB-C 충전식 리튬이온 배터리 전원부"
+      ],
+      "summary_kr": "컵홀더 (자동차/책상 거치형) 에 RGB LED 와 USB 충전을 내장. 음료 용기 자체가 아니라 외부 거치대.",
+      "match_rationale": "전원부 + LED 매칭이나 용기 본체 element 미매칭 (컵홀더는 외부 액세서리)."
+    }
+  ],
+  "total_unique_count": 14,
+  "dedupe_notes": "15개 query 의 fan_out 결과를 합쳐 application_number 로 중복 제거 → 14건 unique. caller 의 exclude_known 출원번호 1건 (KR-1234567) 제외 후 13건. relevance_score 임계값 0.3 적용으로 노이즈 3건 제외, 최종 10건 ranked_patents 로 출력. 상위 5건 (relevance ≥ 0.65) 이 신규성/진보성 판단의 1차 근거. 1020220112233 의 경우 무효 심결 진행 정보 보강 — 변리사 검토 필요 표시."
+}

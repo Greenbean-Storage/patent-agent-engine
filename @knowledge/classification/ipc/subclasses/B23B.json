@@ -1,0 +1,1633 @@
+{
+  "subclass": "B23B",
+  "title": {
+    "ko": "선삭; 보오링(모방 또는 제어 장치 B23Q)",
+    "en": "TURNING; BORING (using an electrode which takes the place of a tool B23H, e.g. making holes B23H0009140000;working by laser beam B23K0026000000;arrangements for copying or controlling B23Q)"
+  },
+  "definition": {
+    "ko": "선삭 방법 B23B1/00 선반 B23B3/00 일반목적의 선반 B23B7/00, B23B9/00, B23B11/00 자동 또는 반자동선반 B23B5/00 특수한 가공을 위한 것 B23B13/00, B23B15/00 조종, 조정 구성부분 B23B19/00, B23B23/00, B23B31/00 주축대, 심압대, 척 B23B27/00, B23B29/00 공구 또는 공구홀더 B23B17/00, B23B21/00, B23B33/00 그 외의 부분 B23B25/00 부속장치 보오링, 드릴링 B23B35/00, B23B37/00 방법 기계 B23B39/00 일반적인 목적의 기계 B23B41/00 특수한 가공을 위한 것 B23B45/00 손으로 잡는 기계 B23B47/00, B23B49/00, B23B51/00 구성부분 B23B43/00 타기종 공작기계의 부속장치로서도 사용가능한 장치",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B23B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Turning"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Methods for turning or working essentially requiring the use of turning-machines; Use of auxiliary equipment in connection with such methods"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 3/00",
+      "title": {
+        "ko": "범용 선삭기계나 선삭장치, 예. 이송막대와 어미나사가 있는 중앙선반; 선삭기계의 세트",
+        "en": "General-purpose turning-machines or devices, e.g. centre lathes with feed rod and lead screw; Sets of turning-machines"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 3/02",
+          "title": {
+            "ko": "소형 선반, 예. 공구 제작용(특히 시계 부품 제작용으로 설계된 것 G04D 3/00)",
+            "en": "Small lathes, e.g. for toolmakers (specially designed for watchmakers G04D0003000000)"
+          }
+        },
+        {
+          "code": "B23B 3/04",
+          "title": {
+            "ko": null,
+            "en": "Turning-machines in which the workpiece is rotated by means at a distance from the headstock"
+          }
+        },
+        {
+          "code": "B23B 3/06",
+          "title": {
+            "ko": "선삭 기계 또는 구성 단위의 특수한 배열로만 특징지어지는 장치(B23Q37/00이 우선; 일반적으로 적용 가능한 기능 B23Q)",
+            "en": "Turning-machines or devices characterised only by the special arrangement of constructional units (B23Q0037000000 takes precedence;such features of general applicability B23Q)"
+          }
+        },
+        {
+          "code": "B23B 3/08",
+          "title": {
+            "ko": null,
+            "en": "Turning-machines characterised by the use of faceplates"
+          }
+        },
+        {
+          "code": "B23B 3/10",
+          "title": {
+            "ko": null,
+            "en": "with the faceplate horizontal, i.e. vertical boring and turning machines"
+          }
+        },
+        {
+          "code": "B23B 3/12",
+          "title": {
+            "ko": null,
+            "en": "with the faceplate vertical, i.e. face lathes"
+          }
+        },
+        {
+          "code": "B23B 3/14",
+          "title": {
+            "ko": null,
+            "en": "Mountings or drives of faceplates"
+          }
+        },
+        {
+          "code": "B23B 3/16",
+          "title": {
+            "ko": null,
+            "en": "Turret lathes for turning individually-chucked workpieces"
+          }
+        },
+        {
+          "code": "B23B 3/18",
+          "title": {
+            "ko": null,
+            "en": "with horizontal working-spindle"
+          }
+        },
+        {
+          "code": "B23B 3/20",
+          "title": {
+            "ko": null,
+            "en": "with vertical working-spindle"
+          }
+        },
+        {
+          "code": "B23B 3/22",
+          "title": {
+            "ko": null,
+            "en": "Turning-machines or devices with rotary tool heads"
+          }
+        },
+        {
+          "code": "B23B 3/24",
+          "title": {
+            "ko": null,
+            "en": "the tools of which do not perform a radial movement; Rotary tool heads therefor"
+          }
+        },
+        {
+          "code": "B23B 3/26",
+          "title": {
+            "ko": null,
+            "en": "the tools of which perform a radial movement; Rotary tool heads thereof"
+          }
+        },
+        {
+          "code": "B23B 3/28",
+          "title": {
+            "ko": "이송이 모방 장치에 의해서 제어되는 선반, 즉 모방 선반(모방 장치의 특징 B23Q 35/00)",
+            "en": "Turning-machines in which the feed is controlled by a copying device, i.e. copying lathes (features of copying devices B23Q0035000000)"
+          }
+        },
+        {
+          "code": "B23B 3/30",
+          "title": {
+            "ko": null,
+            "en": "Turning-machines with two or more working-spindles, e.g. in fixed arrangement"
+          }
+        },
+        {
+          "code": "B23B 3/32",
+          "title": {
+            "ko": null,
+            "en": "for performing identical operations simultaneously on two or more workpieces"
+          }
+        },
+        {
+          "code": "B23B 3/34",
+          "title": {
+            "ko": "1개 또는 다수의 가공 주축을 갖는 짧은 선반(B23B 3/12가 우선)",
+            "en": "Short turning-machines with one or multiple working-spindles attended from the end (B23B0003120000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23B 3/36",
+          "title": {
+            "ko": "특별한 가공 결과를 목적으로 한 선반의 조합(특유한 가공 결과가 중요치 않으면 B23Q 39/00)",
+            "en": "Associations of only turning-machines directed to a particular metal-working result (if the metal-working result is not essential B23Q0039000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 5/00",
+      "title": {
+        "ko": "특별한 가공을 위해서 특히 적합하게 한 선반 또는 선삭 장치 그것을 위한 부속 장치",
+        "en": "Turning-machines or devices specially adapted for particular work; Accessories specially adapted therefor"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 5/02",
+          "title": {
+            "ko": "허브 또는 브레이크 드럼을 선삭하는 것(B23B 5/04가 우선)",
+            "en": "for turning hubs or brake drums (B23B0005040000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23B 5/04",
+          "title": {
+            "ko": null,
+            "en": "for reconditioning hubs or brake drums or axle spindles without removing same from the vehicle"
+          }
+        },
+        {
+          "code": "B23B 5/06",
+          "title": {
+            "ko": null,
+            "en": "for turning valves or valve bodies"
+          }
+        },
+        {
+          "code": "B23B 5/08",
+          "title": {
+            "ko": "차축, 봉, 로드, 관, 롤러를 선삭하는 것, 예. 차축 선반, 롤러 선반; 센터리스 선반",
+            "en": "for turning axles, bars, rods, tubes, rolls, i.e. shaft-turning lathes, roll lathes; Centreless turning"
+          }
+        },
+        {
+          "code": "B23B 5/10",
+          "title": {
+            "ko": null,
+            "en": "for turning pilgrim rolls"
+          }
+        },
+        {
+          "code": "B23B 5/12",
+          "title": {
+            "ko": "공작물의 주위에 배치한 절삭 공구에 의해서 봉 또는 관의 표면을 절삭하는 것(공작물의 주위에 배치한 절삭 공구를 사용하는 것으로 선삭에 의한 것 이외의 것 B23D 79/12)",
+            "en": "for peeling bars or tubes by making use of cutting bits arranged around the workpiece (making use of cutting bits arranged around the workpiece otherwise than by turning B23D0079120000)"
+          }
+        },
+        {
+          "code": "B23B 5/14",
+          "title": {
+            "ko": "절단용 선반(cutting off lathe) (전단 작업 B23D)",
+            "en": "Cutting-off lathes (shearing B23D)"
+          }
+        },
+        {
+          "code": "B23B 5/16",
+          "title": {
+            "ko": null,
+            "en": "for bevelling, chamfering, or deburring the ends of bars or tubes"
+          }
+        },
+        {
+          "code": "B23B 5/18",
+          "title": {
+            "ko": null,
+            "en": "for turning crankshafts, eccentrics, or cams, e.g. crankpin lathes"
+          }
+        },
+        {
+          "code": "B23B 5/20",
+          "title": {
+            "ko": null,
+            "en": "without removing same from the engine"
+          }
+        },
+        {
+          "code": "B23B 5/22",
+          "title": {
+            "ko": null,
+            "en": "Holding the workpiece in the machine, e.g. chucking devices"
+          }
+        },
+        {
+          "code": "B23B 5/24",
+          "title": {
+            "ko": null,
+            "en": "for turning pistons or other workpieces to a slightly non-circular cross-section"
+          }
+        },
+        {
+          "code": "B23B 5/26",
+          "title": {
+            "ko": null,
+            "en": "for simultaneously turning internal and external surfaces of a body"
+          }
+        },
+        {
+          "code": "B23B 5/28",
+          "title": {
+            "ko": null,
+            "en": "for turning wheels or wheel sets or cranks thereon, i.e. wheel lathes"
+          }
+        },
+        {
+          "code": "B23B 5/30",
+          "title": {
+            "ko": null,
+            "en": "Arrangements providing for tool control by templates"
+          }
+        },
+        {
+          "code": "B23B 5/32",
+          "title": {
+            "ko": null,
+            "en": "for reconditioning wheel sets without removing same from the vehicle; Underfloor wheel lathes for railway vehicles"
+          }
+        },
+        {
+          "code": "B23B 5/34",
+          "title": {
+            "ko": null,
+            "en": "Holding the workpiece in the machine, e.g. chucking devices therefor; Drivers therefor"
+          }
+        },
+        {
+          "code": "B23B 5/36",
+          "title": {
+            "ko": "기하학적 기구에서 생기는 공구와 공작물과의 상대 운동에 의해서 특별한 형상의 면을 선삭하는 것, 즉 총형 선반",
+            "en": "for turning specially-shaped surfaces by making use of relative movement of the tool and work produced by geometrical mechanisms, i.e. forming-lathes"
+          }
+        },
+        {
+          "code": "B23B 5/38",
+          "title": {
+            "ko": null,
+            "en": "for turning conical surfaces inside or outside, e.g. taper pins"
+          }
+        },
+        {
+          "code": "B23B 5/40",
+          "title": {
+            "ko": null,
+            "en": "for turning spherical surfaces inside or outside"
+          }
+        },
+        {
+          "code": "B23B 5/42",
+          "title": {
+            "ko": null,
+            "en": "for turning relieving surfaces, i.e. relieving-lathes"
+          }
+        },
+        {
+          "code": "B23B 5/44",
+          "title": {
+            "ko": null,
+            "en": "for turning polygonal or other non-circular surfaces controlled by gear or guide mechanisms, i.e. eccentric lathes"
+          }
+        },
+        {
+          "code": "B23B 5/46",
+          "title": {
+            "ko": "나선상(helical) 또는 와권상(spiral)면을 선삭하는 것(나사 절삭 B23G)",
+            "en": "for turning helical or spiral surfaces (thread cutting B23G)"
+          }
+        },
+        {
+          "code": "B23B 5/48",
+          "title": {
+            "ko": null,
+            "en": "for cutting grooves, e.g. oil grooves of helicoidal shape"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 7/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic or semi-automatic turning-machines with a single working-spindle, e.g. controlled by cams; Equipment therefor; Features common to automatic and semi-automatic turning-machines with one or more working-spindles"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 7/02",
+          "title": {
+            "ko": null,
+            "en": "Automatic or semi-automatic machines for turning of stock"
+          }
+        },
+        {
+          "code": "B23B 7/04",
+          "title": {
+            "ko": null,
+            "en": "Turret machines"
+          }
+        },
+        {
+          "code": "B23B 7/06",
+          "title": {
+            "ko": null,
+            "en": "with sliding headstock"
+          }
+        },
+        {
+          "code": "B23B 7/08",
+          "title": {
+            "ko": null,
+            "en": "with the working-spindle vertical"
+          }
+        },
+        {
+          "code": "B23B 7/10",
+          "title": {
+            "ko": null,
+            "en": "Accessories, e.g. guards"
+          }
+        },
+        {
+          "code": "B23B 7/12",
+          "title": {
+            "ko": null,
+            "en": "Automatic or semi-automatic machines for turning of workpieces"
+          }
+        },
+        {
+          "code": "B23B 7/14",
+          "title": {
+            "ko": null,
+            "en": "with the working-spindle horizontal"
+          }
+        },
+        {
+          "code": "B23B 7/16",
+          "title": {
+            "ko": null,
+            "en": "with the working-spindle vertical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 9/00",
+      "title": {
+        "ko": "복수개의 가공 주축을 비치한 자동 또는 반자동 선반, 예. 미리 정한 위치로 이동가능한 드럼 캐리어(drum carrier)에 배치된 주축을 비치한 자동 다축 선반 그것을 위한 비품(단축 선반에도 적용될 수 있는 비품 B23B 7/00)",
+        "en": "Automatic or semi-automatic turning-machines with a plurality of working-spindles, e.g. automatic multiple-spindle machines with spindles arranged in a drum carrier able to be moved into pre-determined positions; Equipment therefor (equipment applicable to single-spindle machines B23B0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 9/02",
+          "title": {
+            "ko": null,
+            "en": "Automatic or semi-automatic machines for turning of stock"
+          }
+        },
+        {
+          "code": "B23B 9/04",
+          "title": {
+            "ko": null,
+            "en": "with the working-spindles horizontal"
+          }
+        },
+        {
+          "code": "B23B 9/06",
+          "title": {
+            "ko": null,
+            "en": "with the working-spindles vertical"
+          }
+        },
+        {
+          "code": "B23B 9/08",
+          "title": {
+            "ko": null,
+            "en": "Automatic or semi-automatic machines for turning of workpieces"
+          }
+        },
+        {
+          "code": "B23B 9/10",
+          "title": {
+            "ko": null,
+            "en": "with the working-spindles horizontal"
+          }
+        },
+        {
+          "code": "B23B 9/12",
+          "title": {
+            "ko": null,
+            "en": "with the working-spindles vertical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 11/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic or semi-automatic turning-machines incorporating equipment for performing other working procedures, e.g. slotting, milling, rolling"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 13/00",
+      "title": {
+        "ko": "선삭 기계를 위해 봉재를 자동적으로 반송, 파지 또는 안내하기 위한 장치",
+        "en": "Arrangements for automatically conveying, chucking or guiding stock for turning machines"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 13/02",
+          "title": {
+            "ko": null,
+            "en": "for turning-machines with a single working-spindle"
+          }
+        },
+        {
+          "code": "B23B 13/04",
+          "title": {
+            "ko": null,
+            "en": "for turning-machines with a plurality of working-spindles"
+          }
+        },
+        {
+          "code": "B23B 13/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for switching-off the drive of turning-machines after the stock has been completely machined"
+          }
+        },
+        {
+          "code": "B23B 13/08",
+          "title": {
+            "ko": "공급로에 있어서 진동을 감소시키기 위한 또는 소음을 감소시키기 위한 장치(소음 감소 일반 G10K)",
+            "en": "Arrangements for reducing vibrations in feeding-passages or for damping noise (damping noise in general G10K)"
+          }
+        },
+        {
+          "code": "B23B 13/10",
+          "title": {
+            "ko": null,
+            "en": "with magazines for stock"
+          }
+        },
+        {
+          "code": "B23B 13/12",
+          "title": {
+            "ko": null,
+            "en": "Accessories, e.g. stops, grippers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for conveying, loading, adjusting, reversing, chucking, or discharging workpieces specially designed for automatic or semi-automatic turning-machines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 17/00",
+      "title": {
+        "ko": "선반 베드(기초 프레임, 왕복대 안내부 그 자체 23Q 1/00)",
+        "en": "Components or accessories particularly for turning machines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 17/00",
+      "title": {
+        "ko": "선반 베드(기초 프레임, 왕복대 안내부 그 자체 23Q 1/00)",
+        "en": "Lathe beds (foundation frames, carriage guides as such B23Q0001000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 19/00",
+      "title": {
+        "ko": "주축대; 어떠한 공작 기계에 대해서도 동등한 부분",
+        "en": "Headstocks; Equivalent parts of any machine tools"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 19/02",
+          "title": {
+            "ko": "가공 주축; 그것에 관련된 구성, 예. 지지 구조(B23B 13/00이 우선)",
+            "en": "Working-spindles; Features relating thereto, e.g. supporting arrangements (B23B0013000000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 21/00",
+      "title": {
+        "ko": "선반 왕복대; 가로 이송대(cross slide); 절삭 공구대(tool post) (공구 홀더 29/00); 어떠한 공작 기계에 대해서도 유사한 부분",
+        "en": "Lathe carriages; Cross-slides; Tool posts (tool holders B23B0029000000); Similar parts of any machine tools"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Tailstocks; Centres"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 23/02",
+          "title": {
+            "ko": null,
+            "en": "Dead centres"
+          }
+        },
+        {
+          "code": "B23B 23/04",
+          "title": {
+            "ko": null,
+            "en": "Live centres"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 25/00",
+      "title": {
+        "ko": "선반용 부속 장치 또는 보조 장치(공작 기계 일반용 B23Q; 냉각 또는 윤활 B23Q 11/12)",
+        "en": "Accessories or auxiliary equipment for turning-machines (for machine tools in general B23Q;cooling or lubricating B23Q0011120000)"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 25/02",
+          "title": {
+            "ko": "선반에 있어서 칩(chip) 파쇄용 장치(절삭 공구상에 설치하는 칩 파쇄용 장치 B23B 27/22)",
+            "en": "Arrangements for chip-breaking in turning-machines (on cutting tools B23B0027220000)"
+          }
+        },
+        {
+          "code": "B23B 25/04",
+          "title": {
+            "ko": "특히 선반용으로 설계된 안전 보호 장치(일반 F16P)",
+            "en": "Safety guards specially designed for turning-machines (in general F16P)"
+          }
+        },
+        {
+          "code": "B23B 25/06",
+          "title": {
+            "ko": "공구 또는 공작물의 설치, 이송, 제어 또는 감시용의 선반상에서 사용하는 계측, 치수재는 것 또는 조정용 비품(계측 장치 또는 계기 G01B)",
+            "en": "Measuring, gauging, or adjusting equipment on turning-machines for setting-on, feeding, controlling, or monitoring the cutting tools or work (measuring devices or gauges G01B)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 27/00",
+      "title": {
+        "ko": "선반 또는 보오링 머시인용 공구(드릴링 머신용 B23B 51/00) 일반적으로 유사한 종류의 공구; 그것을 위한 부속구",
+        "en": "Tools for turning or boring machines (for drilling machines B23B0051000000); Tools of a similar kind in general; Accessories therefor"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 27/02",
+          "title": {
+            "ko": "곧은 주부 및 각도가 붙은 절삭날(cutting edge)을 갖는 절삭 공구(B23B 27/04~ B23B 27/08이 우선)",
+            "en": "Cutting tools with straight main part and cutting edge at an angle (B23B0027040000-B23B0027080000 take precedence)"
+          }
+        },
+        {
+          "code": "B23B 27/04",
+          "title": {
+            "ko": "절단용(cutting off)공구(B23B 27/08이 우선)",
+            "en": "Cutting-off tools (B23B0027080000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23B 27/06",
+          "title": {
+            "ko": null,
+            "en": "Profile cutting tools, i.e. forming-tools"
+          }
+        },
+        {
+          "code": "B23B 27/08",
+          "title": {
+            "ko": null,
+            "en": "Cutting tools with blade- or disc-like main parts"
+          }
+        },
+        {
+          "code": "B23B 27/10",
+          "title": {
+            "ko": null,
+            "en": "Cutting tools with special provision for cooling"
+          }
+        },
+        {
+          "code": "B23B 27/12",
+          "title": {
+            "ko": null,
+            "en": "with a continuously-rotated circular cutting edge; Holders therefor"
+          }
+        },
+        {
+          "code": "B23B 27/14",
+          "title": {
+            "ko": null,
+            "en": "Cutting tools of which the bits or tips are of special material"
+          }
+        },
+        {
+          "code": "B23B 27/16",
+          "title": {
+            "ko": null,
+            "en": "with exchangeable cutting bits, e.g. able to be clamped"
+          }
+        },
+        {
+          "code": "B23B 27/18",
+          "title": {
+            "ko": null,
+            "en": "with cutting bits or tips rigidly mounted, e.g. by brazing"
+          }
+        },
+        {
+          "code": "B23B 27/20",
+          "title": {
+            "ko": null,
+            "en": "with diamond bits"
+          }
+        },
+        {
+          "code": "B23B 27/22",
+          "title": {
+            "ko": null,
+            "en": "Cutting tools with chip-breaking equipment"
+          }
+        },
+        {
+          "code": "B23B 27/24",
+          "title": {
+            "ko": null,
+            "en": "Knurling tools"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 29/00",
+      "title": {
+        "ko": "회전하지 않는 절삭 공구의 홀더(B23B 27/12가 우선); 보오링바(bar)또는 보오링 헤드; 공구 홀더용 부속품",
+        "en": "Holders for non-rotary cutting tools (B23B0027120000 takes precedence); Boring bars or boring heads; Accessories for tool holders"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 29/02",
+          "title": {
+            "ko": null,
+            "en": "Boring bars"
+          }
+        },
+        {
+          "code": "B23B 29/03",
+          "title": {
+            "ko": null,
+            "en": "Boring heads"
+          }
+        },
+        {
+          "code": "B23B 29/034",
+          "title": {
+            "ko": null,
+            "en": "with tools moving radially, e.g. for making chamfers or undercuttings"
+          }
+        },
+        {
+          "code": "B23B 29/04",
+          "title": {
+            "ko": null,
+            "en": "Tool holders for a single cutting tool"
+          }
+        },
+        {
+          "code": "B23B 29/06",
+          "title": {
+            "ko": null,
+            "en": "Tool holders equipped with longitudinally- arranged grooves for setting the cutting tool"
+          }
+        },
+        {
+          "code": "B23B 29/08",
+          "title": {
+            "ko": null,
+            "en": "Tool holders equipped with grooves arranged crosswise to the longitudinal direction for setting the cutting tool"
+          }
+        },
+        {
+          "code": "B23B 29/10",
+          "title": {
+            "ko": null,
+            "en": "with adjustable counterbase for the cutting tool"
+          }
+        },
+        {
+          "code": "B23B 29/12",
+          "title": {
+            "ko": null,
+            "en": "Special arrangements on tool holders"
+          }
+        },
+        {
+          "code": "B23B 29/14",
+          "title": {
+            "ko": null,
+            "en": "affording a yielding support of the cutting tool, e.g. by spring clamping"
+          }
+        },
+        {
+          "code": "B23B 29/16",
+          "title": {
+            "ko": null,
+            "en": "for supporting the workpiece in a backrest"
+          }
+        },
+        {
+          "code": "B23B 29/18",
+          "title": {
+            "ko": null,
+            "en": "for retracting the cutting tool"
+          }
+        },
+        {
+          "code": "B23B 29/20",
+          "title": {
+            "ko": null,
+            "en": "for placing same by shanks in sleeves of a turret"
+          }
+        },
+        {
+          "code": "B23B 29/22",
+          "title": {
+            "ko": null,
+            "en": "for tool adjustment by means of shims or spacers"
+          }
+        },
+        {
+          "code": "B23B 29/24",
+          "title": {
+            "ko": null,
+            "en": "Tool holders for a plurality of cutting tools, e.g. turrets"
+          }
+        },
+        {
+          "code": "B23B 29/26",
+          "title": {
+            "ko": null,
+            "en": "Tool holders in fixed position"
+          }
+        },
+        {
+          "code": "B23B 29/28",
+          "title": {
+            "ko": null,
+            "en": "Turrets manually adjustable about a vertical pivot"
+          }
+        },
+        {
+          "code": "B23B 29/30",
+          "title": {
+            "ko": null,
+            "en": "Turrets manually adjustable about a horizontal pivot"
+          }
+        },
+        {
+          "code": "B23B 29/32",
+          "title": {
+            "ko": null,
+            "en": "Turrets adjustable by power drive, i.e. turret heads"
+          }
+        },
+        {
+          "code": "B23B 29/34",
+          "title": {
+            "ko": null,
+            "en": "Turrets equipped with triggers for releasing the cutting tools"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 31/00",
+      "title": {
+        "ko": "척(chuck); 확장용 맨드릴; 원격 제어를 위한 그 응용(면판 B23Q 1/25 일반적으로 공작물이나 공구를 스핀들에 부착하기 위한 장치 B23Q 3/12; 공작물에 직접 작용하는 전자적 또는 전기적 힘에 의한 지지 B23Q 3/152)",
+        "en": "Chucks; Expansion mandrels; Adaptations thereof for remote control (devices for securing work or tools to spindles in general B23Q0003120000;rotary devices holding by magnetic or electrical force acting directly on work B23Q0003152000)"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 31/02",
+          "title": {
+            "ko": "척",
+            "en": "Chucks"
+          }
+        },
+        {
+          "code": "B23B 31/06",
+          "title": {
+            "ko": null,
+            "en": "Features relating to the removal of tools or work; Accessories therefor"
+          }
+        },
+        {
+          "code": "B23B 31/07",
+          "title": {
+            "ko": null,
+            "en": "Ejector wedges"
+          }
+        },
+        {
+          "code": "B23B 31/08",
+          "title": {
+            "ko": null,
+            "en": "holding tools or work yieldably"
+          }
+        },
+        {
+          "code": "B23B 31/10",
+          "title": {
+            "ko": "잡는 장치 또는 그것을 직접적으로 조작하는 수단을 특징으로 하는 것",
+            "en": "characterised by the retaining or gripping devices or their immediate operating means"
+          },
+          "definition": {
+            "ko": "그룹 B23B31/12는 그룹 B23B31/103 ~ B23B31/117에 우선함",
+            "en": null
+          }
+        },
+        {
+          "code": "B23B 31/103",
+          "title": {
+            "ko": null,
+            "en": "Retention by pivotal elements, e.g. catches, pawls"
+          }
+        },
+        {
+          "code": "B23B 31/107",
+          "title": {
+            "ko": null,
+            "en": "Retention by laterally-acting detents, e.g. pins, screws, wedges; Retention by loose elements, e.g. balls"
+          }
+        },
+        {
+          "code": "B23B 31/11",
+          "title": {
+            "ko": null,
+            "en": "Retention by threaded connection"
+          }
+        },
+        {
+          "code": "B23B 31/113",
+          "title": {
+            "ko": null,
+            "en": "Retention by bayonet connection"
+          }
+        },
+        {
+          "code": "B23B 31/117",
+          "title": {
+            "ko": null,
+            "en": "Retention by friction only, e.g. using springs, resilient sleeves, tapers"
+          }
+        },
+        {
+          "code": "B23B 31/12",
+          "title": {
+            "ko": "각각 조정가능 여부에 불구하고 동시에 작동하는 복수의 죠(jaw)를 가진 척",
+            "en": "Chucks with simultaneously-acting jaws, whether or not also individually adjustable"
+          }
+        },
+        {
+          "code": "B23B 31/14",
+          "title": {
+            "ko": null,
+            "en": "involving the use of centrifugal force"
+          }
+        },
+        {
+          "code": "B23B 31/16",
+          "title": {
+            "ko": "반경방향으로 작동하는 것",
+            "en": "moving radially"
+          }
+        },
+        {
+          "code": "B23B 31/163",
+          "title": {
+            "ko": null,
+            "en": "actuated by one or more spiral grooves"
+          }
+        },
+        {
+          "code": "B23B 31/165",
+          "title": {
+            "ko": null,
+            "en": "actuated by screw-and-nut mechanisms"
+          }
+        },
+        {
+          "code": "B23B 31/167",
+          "title": {
+            "ko": null,
+            "en": "actuated by oblique racks"
+          }
+        },
+        {
+          "code": "B23B 31/169",
+          "title": {
+            "ko": "맞물린 기어 장치에 의해 작동되는 것(B23B 31/167이 우선)",
+            "en": "actuated by toothed gearing (B23B0031167000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23B 31/171",
+          "title": {
+            "ko": null,
+            "en": "actuated by a cam surface in a radial plane"
+          }
+        },
+        {
+          "code": "B23B 31/173",
+          "title": {
+            "ko": "동축의 원뿔 표면을 따라 작동되는 것",
+            "en": "actuated by coaxial conical surfaces (B23B0031177000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23B 31/175",
+          "title": {
+            "ko": null,
+            "en": "actuated by levers moved by a coaxial control rod"
+          }
+        },
+        {
+          "code": "B23B 31/177",
+          "title": {
+            "ko": "동축의 제어봉의 경사면을 따라 작동되는 것(B23B 31/167이 우선)",
+            "en": "actuated by the oblique surfaces of a coaxial control rod (B23B0031167000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23B 31/18",
+          "title": {
+            "ko": null,
+            "en": "pivotally movable in planes containing the axis of the chuck"
+          }
+        },
+        {
+          "code": "B23B 31/19",
+          "title": {
+            "ko": null,
+            "en": "moving parallel to the axis of the chuck"
+          }
+        },
+        {
+          "code": "B23B 31/20",
+          "title": {
+            "ko": null,
+            "en": "Longitudinally-split sleeves, e.g. collet chucks"
+          }
+        },
+        {
+          "code": "B23B 31/22",
+          "title": {
+            "ko": null,
+            "en": "Jaws in the form of balls"
+          }
+        },
+        {
+          "code": "B23B 31/24",
+          "title": {
+            "ko": null,
+            "en": "characterised by features relating primarily to remote control of the gripping means"
+          }
+        },
+        {
+          "code": "B23B 31/26",
+          "title": {
+            "ko": null,
+            "en": "using mechanical transmission through the working-spindle"
+          }
+        },
+        {
+          "code": "B23B 31/28",
+          "title": {
+            "ko": null,
+            "en": "using electric or magnetic means in the chuck"
+          }
+        },
+        {
+          "code": "B23B 31/30",
+          "title": {
+            "ko": null,
+            "en": "using fluid-pressure means in the chuck"
+          }
+        },
+        {
+          "code": "B23B 31/32",
+          "title": {
+            "ko": null,
+            "en": "with jaws carried by diaphragm"
+          }
+        },
+        {
+          "code": "B23B 31/34",
+          "title": {
+            "ko": null,
+            "en": "with means enabling the workpiece to be reversed or tilted"
+          }
+        },
+        {
+          "code": "B23B 31/36",
+          "title": {
+            "ko": null,
+            "en": "with means for adjusting the chuck with respect to the working-spindle"
+          }
+        },
+        {
+          "code": "B23B 31/38",
+          "title": {
+            "ko": null,
+            "en": "with overload clutches"
+          }
+        },
+        {
+          "code": "B23B 31/39",
+          "title": {
+            "ko": null,
+            "en": "Jaw changers"
+          }
+        },
+        {
+          "code": "B23B 31/40",
+          "title": {
+            "ko": null,
+            "en": "Expansion mandrels"
+          }
+        },
+        {
+          "code": "B23B 31/42",
+          "title": {
+            "ko": null,
+            "en": "characterised by features relating primarily to remote control of the gripping means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 33/00",
+      "title": {
+        "ko": null,
+        "en": "Drivers; Driving centres; Nose clutches, e.g. lathe dogs"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 35/00",
+      "title": {
+        "ko": null,
+        "en": "Boring; Drilling"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 35/00",
+      "title": {
+        "ko": null,
+        "en": "Methods for boring or drilling, or for working essentially requiring the use of boring or drilling machines; Use of auxiliary equipment in connection with such methods"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 37/00",
+      "title": {
+        "ko": "초음파 주파수의 진동을 이용한 보링 (가공 도구나 연마 매체를 진동시켜 가공하는 작업 재료, 예. 초음파 주파수 연마 B24B1/04)",
+        "en": "Boring by making use of vibrations of ultrasonic frequency (working materials by subjecting the grinding tools or the abrading medium to vibration, e.g. grinding with ultrasonic frequency, B24B0001040000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 39/00",
+      "title": {
+        "ko": "일반 목적의 보오링머신 또는 드릴링머신, 또는 보오링 또는 드릴링 장치 보오링머신 또는 드릴링머신의 조합",
+        "en": "General-purpose boring or drilling machines or devices; Sets of boring or drilling machines"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 39/02",
+          "title": {
+            "ko": null,
+            "en": "Boring machines; Combined horizontal boring and milling machines"
+          }
+        },
+        {
+          "code": "B23B 39/04",
+          "title": {
+            "ko": null,
+            "en": "Co-ordinate boring or drilling machines; Machines for making holes without previous marking"
+          }
+        },
+        {
+          "code": "B23B 39/06",
+          "title": {
+            "ko": null,
+            "en": "Equipment for positioning work"
+          }
+        },
+        {
+          "code": "B23B 39/08",
+          "title": {
+            "ko": null,
+            "en": "Devices for program control"
+          }
+        },
+        {
+          "code": "B23B 39/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the drive, e.g. by fluid-pressure drive, pneumatic power drive"
+          }
+        },
+        {
+          "code": "B23B 39/12",
+          "title": {
+            "ko": null,
+            "en": "Radial drilling machines"
+          }
+        },
+        {
+          "code": "B23B 39/14",
+          "title": {
+            "ko": null,
+            "en": "with special provision to enable the machine or the drilling or boring head to be moved into any desired position, e.g. with respect to immovable work"
+          }
+        },
+        {
+          "code": "B23B 39/16",
+          "title": {
+            "ko": null,
+            "en": "Drilling machines with a plurality of working-spindles; Drilling automatons"
+          }
+        },
+        {
+          "code": "B23B 39/18",
+          "title": {
+            "ko": null,
+            "en": "Setting work or tool carrier along a straight index line"
+          }
+        },
+        {
+          "code": "B23B 39/20",
+          "title": {
+            "ko": null,
+            "en": "Setting work or tool carrier along a circular index line; Turret head drilling machines"
+          }
+        },
+        {
+          "code": "B23B 39/22",
+          "title": {
+            "ko": null,
+            "en": "with working-spindles in opposite headstocks"
+          }
+        },
+        {
+          "code": "B23B 39/24",
+          "title": {
+            "ko": null,
+            "en": "designed for program control"
+          }
+        },
+        {
+          "code": "B23B 39/26",
+          "title": {
+            "ko": "공구 또는 공작물의 가공 위치가 패턴(pattern)의 불연속점을 복사함으로서 제어되는 것(모방 장치 B23Q 35/02)",
+            "en": "in which the working position of tool or work is controlled by copying discrete points of a pattern (features of copying devices B23Q0035020000)"
+          }
+        },
+        {
+          "code": "B23B 39/28",
+          "title": {
+            "ko": "특별한 가공을 목적으로 한 보오링머신 또는 드릴링머신의 조합(만약 특별한 가공 결과를 달성하지 않는다면 B23Q 39/00)",
+            "en": "Associations of only boring or drilling machines directed to a particular metal-working result (if not producing a particular metal-working result B23Q0039000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 41/00",
+      "title": {
+        "ko": "특별한 가공을 위해서 특히 적합한 보오링머신 또는 드릴링머신 또는 보오링 또는 드릴링 장치; 그것을 위한 부속 장치",
+        "en": "Boring or drilling machines or devices specially adapted for particular work; Accessories specially adapted therefor"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 41/02",
+          "title": {
+            "ko": null,
+            "en": "for boring deep holes; Trepanning, e.g. of gun or rifle barrels"
+          }
+        },
+        {
+          "code": "B23B 41/04",
+          "title": {
+            "ko": null,
+            "en": "for boring polygonal or other non-circular holes"
+          }
+        },
+        {
+          "code": "B23B 41/06",
+          "title": {
+            "ko": null,
+            "en": "for boring conical holes"
+          }
+        },
+        {
+          "code": "B23B 41/08",
+          "title": {
+            "ko": "액체 또는 가스의 압력하에 있는 관에 구멍을 보오링.드릴링 또는 탭핑(tapping)하는 것(지관 설치와 관련된 밀폐를 위한 구성 또는 조작 F16L 41/04)",
+            "en": "for boring, drilling, or tapping holes in tubes under fluid or gas pressure (sealing features or operations, combined with placing branch parts F16L0041040000)"
+          }
+        },
+        {
+          "code": "B23B 41/10",
+          "title": {
+            "ko": null,
+            "en": "for boring holes in steam boilers"
+          }
+        },
+        {
+          "code": "B23B 41/12",
+          "title": {
+            "ko": null,
+            "en": "for forming working surfaces of cylinders, of bearings, e.g. in heads of driving rods, or of other engine parts"
+          }
+        },
+        {
+          "code": "B23B 41/14",
+          "title": {
+            "ko": null,
+            "en": "for very small holes"
+          }
+        },
+        {
+          "code": "B23B 41/16",
+          "title": {
+            "ko": null,
+            "en": "for boring holes with high-quality surface"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 43/00",
+      "title": {
+        "ko": "공작 기계에 그 작동부분과의 교체여부에 불문하고 설치가능한 보오링 또는 드릴링하는 장치(만약 특별한 가공에 특히 적합한 것이라면 B23B 41/00)",
+        "en": "Boring or drilling devices able to be attached to a machine tool, whether or not replacing an operative portion of the machine tool (if specially adapted for particular work B23B0041000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 43/02",
+          "title": {
+            "ko": null,
+            "en": "to the tailstock of a lathe"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 45/00",
+      "title": {
+        "ko": "손작업용 또는 유사한 휴대용 드릴링머신, 예. 드릴건(drill gun); 그것을 위한 비품(수행되는 작동 방식과 특별한 관련이 없는 휴대용 동력 구동 공구의 세부 또는 요소, 예. 케이싱, 본체 B25F 5/00)",
+        "en": "Hand-held or like portable drilling machines, e.g. drill guns; Equipment therefor (details or components, e.g. casings, bodies, of portable power-driven tools not particularly related to the operation performed B25F0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 45/02",
+          "title": {
+            "ko": null,
+            "en": "driven by electric power"
+          }
+        },
+        {
+          "code": "B23B 45/04",
+          "title": {
+            "ko": null,
+            "en": "driven by fluid-pressure or pneumatic power"
+          }
+        },
+        {
+          "code": "B23B 45/06",
+          "title": {
+            "ko": null,
+            "en": "driven by man-power"
+          }
+        },
+        {
+          "code": "B23B 45/08",
+          "title": {
+            "ko": null,
+            "en": "for drilling rails or profiled stock"
+          }
+        },
+        {
+          "code": "B23B 45/10",
+          "title": {
+            "ko": null,
+            "en": "by using a fiddle bow or a belt"
+          }
+        },
+        {
+          "code": "B23B 45/12",
+          "title": {
+            "ko": null,
+            "en": "by using a ratchet brace"
+          }
+        },
+        {
+          "code": "B23B 45/14",
+          "title": {
+            "ko": "드릴링 장치를 지지 또는 안내하는 것 또는 공작물에 설치하기 위한 수단(B23B 41/08이 우선) 추력태(thrust stand)",
+            "en": "Means for holding or guiding the drilling device or for securing it to the work (B23B0041080000 takes precedence); Thrust stands"
+          }
+        },
+        {
+          "code": "B23B 45/16",
+          "title": {
+            "ko": "충격 동작이 가해지는 것(회전 동작이 가해지는 휴대용 동력 충격 공구 B25D 16/00)",
+            "en": "with superimposed percussive action (portable percussive machines with superimposed rotation B25D0016000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 47/00",
+      "title": {
+        "ko": "보오링머신 또는 드릴링머신을 위하여 특히 설계된 구조에 특징이 있는 구성부분 그것을 위한 부속 장치(가공 주축, 그것을 위한 베어링 슬리브 B23B 19/02; 일반 공작 기계용 B23Q)",
+        "en": "Components or accessories for boring or drilling machines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B23B 47/00",
+      "title": {
+        "ko": "보오링머신 또는 드릴링머신을 위하여 특히 설계된 구조에 특징이 있는 구성부분 그것을 위한 부속 장치(가공 주축, 그것을 위한 베어링 슬리브 B23B 19/02; 일반 공작 기계용 B23Q)",
+        "en": "Constructional features of components specially designed for boring or drilling machines; Accessories therefor (working-spindles, bearing sleeves therefor B23B0019020000;for machine tools in general B23Q)"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 47/02",
+          "title": {
+            "ko": "전동 장치; 치차 장치(B23B 39/10이 우선)",
+            "en": "Drives; Gearings (B23B0039100000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23B 47/04",
+          "title": {
+            "ko": null,
+            "en": "for rotating the working-spindle"
+          }
+        },
+        {
+          "code": "B23B 47/06",
+          "title": {
+            "ko": null,
+            "en": "driven essentially by electrical means"
+          }
+        },
+        {
+          "code": "B23B 47/08",
+          "title": {
+            "ko": null,
+            "en": "driven essentially by fluid-pressure or pneumatic power"
+          }
+        },
+        {
+          "code": "B23B 47/10",
+          "title": {
+            "ko": null,
+            "en": "equipped with turbines or other rotating machines"
+          }
+        },
+        {
+          "code": "B23B 47/12",
+          "title": {
+            "ko": null,
+            "en": "equipped with oscillating pistons"
+          }
+        },
+        {
+          "code": "B23B 47/14",
+          "title": {
+            "ko": null,
+            "en": "Change-speed gearings; Reversing gearings"
+          }
+        },
+        {
+          "code": "B23B 47/16",
+          "title": {
+            "ko": null,
+            "en": "Belt or chain drives"
+          }
+        },
+        {
+          "code": "B23B 47/18",
+          "title": {
+            "ko": null,
+            "en": "for feeding or retracting tool or work"
+          }
+        },
+        {
+          "code": "B23B 47/20",
+          "title": {
+            "ko": null,
+            "en": "actuated essentially by electric power"
+          }
+        },
+        {
+          "code": "B23B 47/22",
+          "title": {
+            "ko": null,
+            "en": "actuated essentially by fluid-pressure or pneumatic power"
+          }
+        },
+        {
+          "code": "B23B 47/24",
+          "title": {
+            "ko": null,
+            "en": "Stops or feed interruption owing to fracture or overload of the boring or drilling tool"
+          }
+        },
+        {
+          "code": "B23B 47/26",
+          "title": {
+            "ko": null,
+            "en": "Liftable or lowerable drill heads or headstocks; Balancing arrangements therefor"
+          }
+        },
+        {
+          "code": "B23B 47/28",
+          "title": {
+            "ko": "공작물용 드릴 치구(드릴의 조정 또는 안내를 위한 장치 B23B 49/00)",
+            "en": "Drill jigs for workpieces (equipment for setting or guiding the drill B23B0049000000)"
+          }
+        },
+        {
+          "code": "B23B 47/30",
+          "title": {
+            "ko": null,
+            "en": "Additional gear with one or more working-spindles attachable to the main working-spindle; Mounting the additional gear"
+          }
+        },
+        {
+          "code": "B23B 47/32",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing the running-out of drills or fracture of drills when getting through"
+          }
+        },
+        {
+          "code": "B23B 47/34",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for removing chips out of the holes made; Chip-breaking arrangements attached to the tool"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 49/00",
+      "title": {
+        "ko": "보오링머신용의 드릴의 위치를 정하거나 안내하기 위한 측정 또는 치수 재는 장치; 보오링 중 드릴의 파손을 알려주는 장치; 보오링되는 구멍의 센터링(centering) 장치(각인 장치 B25H 7/00; 측정 장치, 게이지(gauge) G01B)",
+        "en": "Measuring or gauging equipment on boring machines for positioning or guiding the drill; Devices for indicating failure of drills during boring; Centring devices for holes to be bored (marking-out equipment B25H0007000000;measuring devices, gauges G01B)"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 49/02",
+          "title": {
+            "ko": null,
+            "en": "Boring templates or bushings"
+          }
+        },
+        {
+          "code": "B23B 49/04",
+          "title": {
+            "ko": null,
+            "en": "Devices for boring or drilling centre holes in workpieces"
+          }
+        },
+        {
+          "code": "B23B 49/06",
+          "title": {
+            "ko": null,
+            "en": "Devices for drilling holes in brake bands or brake linings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23B 51/00",
+      "title": {
+        "ko": null,
+        "en": "Tools for drilling machines"
+      },
+      "subgroups": [
+        {
+          "code": "B23B 51/02",
+          "title": {
+            "ko": null,
+            "en": "Twist drills"
+          }
+        },
+        {
+          "code": "B23B 51/04",
+          "title": {
+            "ko": null,
+            "en": "for trepanning"
+          }
+        },
+        {
+          "code": "B23B 51/05",
+          "title": {
+            "ko": null,
+            "en": "for cutting discs from sheet"
+          }
+        },
+        {
+          "code": "B23B 51/06",
+          "title": {
+            "ko": null,
+            "en": "Drills with lubricating or cooling equipment"
+          }
+        },
+        {
+          "code": "B23B 51/08",
+          "title": {
+            "ko": null,
+            "en": "Drills combined with tool parts or tools for performing additional working"
+          }
+        },
+        {
+          "code": "B23B 51/10",
+          "title": {
+            "ko": null,
+            "en": "Bits for countersinking"
+          }
+        },
+        {
+          "code": "B23B 51/12",
+          "title": {
+            "ko": null,
+            "en": "Adapters for drills or chucks; Tapered sleeves"
+          }
+        },
+        {
+          "code": "B23B 51/14",
+          "title": {
+            "ko": null,
+            "en": "Adapters for broken drills"
+          }
+        }
+      ]
+    }
+  ]
+}

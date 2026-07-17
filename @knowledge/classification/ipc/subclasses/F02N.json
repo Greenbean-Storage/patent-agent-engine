@@ -1,0 +1,342 @@
+{
+  "subclass": "F02N",
+  "title": {
+    "ko": "연소 엔진의 시동; 그러한 엔진에 대한 시동 보조제, 달리 제공되지 않는 것",
+    "en": "STARTING OF COMBUSTION ENGINES; STARTING AIDS FOR SUCH ENGINES, NOT OTHERWISE PROVIDED FOR"
+  },
+  "definition": {
+    "ko": "강제력에 의한 시동 F02N1/00, F02N3/00, F02N5/00 그밖의 시동 기계적 에너지의 축적부를 가진 것 F02N5/00 유체 원동기에 의한 것; 전동기에 의한 것 F02N7/00; 11/00 작동실 내에서 직접 작동하는 것; 유체압력에 의한 것; 폭약에 의한 것 F02N9/00; 13/00 기타 장치에 의한 것, 세부, 부속품 F02N15/00 시동을 위한 기타 수단 또는 보조 F02N19/00; 99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F02N 1/00",
+      "title": {
+        "ko": "핸드(hand) 크랭크를 가지는 시동장치(중간 동력 축적부를 가지는 것 F02N 5/00 ～ F02N 15/00)",
+        "en": "Muscle-operated starting apparatus"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02N 1/00",
+      "title": {
+        "ko": "핸드(hand) 크랭크를 가지는 시동장치(중간 동력 축적부를 가지는 것 F02N 5/00 ～ F02N 15/00)",
+        "en": "Starting apparatus having hand cranks (with intermediate power storage F02N0005000000-F02N0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 1/02",
+          "title": {
+            "ko": null,
+            "en": "having safety means preventing damage caused by reverse rotation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 3/00",
+      "title": {
+        "ko": "기타 강제조작하는 시동장치(중간 동력 축적부를 가지는 것 F02N 5/00 ～ F02N 15/00)",
+        "en": "Other muscle-operated starting apparatus (with intermediate power storage F02N0005000000-F02N0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 3/02",
+          "title": {
+            "ko": null,
+            "en": "having pull-cords"
+          }
+        },
+        {
+          "code": "F02N 3/04",
+          "title": {
+            "ko": null,
+            "en": "having foot-actuated levers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 5/00",
+      "title": {
+        "ko": null,
+        "en": "Power-operated starting apparatus; Muscle-operated starting apparatus with intermediate power storage"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02N 5/00",
+      "title": {
+        "ko": null,
+        "en": "Starting apparatus having mechanical power storage"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 5/02",
+          "title": {
+            "ko": null,
+            "en": "of spring type"
+          }
+        },
+        {
+          "code": "F02N 5/04",
+          "title": {
+            "ko": null,
+            "en": "of inertia type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 7/00",
+      "title": {
+        "ko": "유체구동 보조기관 또는 장치를 가지는 시동장치",
+        "en": "Starting apparatus having fluid-driven auxiliary engines or apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 7/02",
+          "title": {
+            "ko": null,
+            "en": "the apparatus being of single-stroke piston type, e.g. pistons acting on racks or pull-cords"
+          }
+        },
+        {
+          "code": "F02N 7/04",
+          "title": {
+            "ko": null,
+            "en": "the pistons acting on screw-threaded members to effect rotation"
+          }
+        },
+        {
+          "code": "F02N 7/06",
+          "title": {
+            "ko": "왕복운동 피스톤형의 기관(내연식의 것 F02N 7/10)",
+            "en": "the engines being of reciprocating-piston type (of internal-combustion type F02N0007100000)"
+          }
+        },
+        {
+          "code": "F02N 7/08",
+          "title": {
+            "ko": null,
+            "en": "the engines being of rotary type"
+          }
+        },
+        {
+          "code": "F02N 7/10",
+          "title": {
+            "ko": "보조기관 또는 연소식의 장치를 사용하는 것을 특징으로 하는 것(폭약 약포(explosive cartridges)를 사용하는 것 F02N 13/00)",
+            "en": "characterised by using auxiliary engines or apparatus of combustion type (by using explosive cartridges F02N0013000000)"
+          }
+        },
+        {
+          "code": "F02N 7/12",
+          "title": {
+            "ko": "회전식의 기관, 예. 터빈(F02N 7/14가 우선)",
+            "en": "the engines being of rotary type, e.g. turbines (F02N0007140000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02N 7/14",
+          "title": {
+            "ko": null,
+            "en": "the starting engines being readily removable from main engines, e.g. of portable type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 9/00",
+      "title": {
+        "ko": "보조 압력유체의 동작실로 공급에 의한 기관의 시동",
+        "en": "Starting of engines by supplying auxiliary pressure fluid to their working chambers"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 9/02",
+          "title": {
+            "ko": "연소에 의해 직접 만들어 낼 수 있는 압력 유체(폭약 약포를 사용하는 것에 의한 것 F02N 13/00)",
+            "en": "the pressure fluid being generated directly by combustion (by using explosive cartridges F02N0013000000)"
+          }
+        },
+        {
+          "code": "F02N 9/04",
+          "title": {
+            "ko": null,
+            "en": "the pressure fluid being generated otherwise, e.g. by compressing air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 11/00",
+      "title": {
+        "ko": "전기모터에 의한 엔진 시동",
+        "en": "Starting of engines by means of electric motors"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 11/02",
+          "title": {
+            "ko": null,
+            "en": "the motors having longitudinally-shiftable rotors"
+          }
+        },
+        {
+          "code": "F02N 11/04",
+          "title": {
+            "ko": null,
+            "en": "the motors being associated with current generators"
+          }
+        },
+        {
+          "code": "F02N 11/06",
+          "title": {
+            "ko": null,
+            "en": "and with ignition apparatus"
+          }
+        },
+        {
+          "code": "F02N 11/08",
+          "title": {
+            "ko": null,
+            "en": "Circuits specially adapted for starting of engines"
+          }
+        },
+        {
+          "code": "F02N 11/10",
+          "title": {
+            "ko": "안전장치(F02N 11/08이 우선)",
+            "en": "Safety devices (F02N0011080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02N 11/12",
+          "title": {
+            "ko": null,
+            "en": "Starting of engines by means of mobile, e.g. portable, starting sets"
+          }
+        },
+        {
+          "code": "F02N 11/14",
+          "title": {
+            "ko": "외부에 의해 전류가 공급되는 전동식 시동기에 의한 기관 시동(F02N 11/12가 우선)",
+            "en": "Starting of engines by means of electric starters with external current supply (F02N0011120000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 13/00",
+      "title": {
+        "ko": null,
+        "en": "Starting of engines, or driving of starting apparatus by use of explosives, e.g. stored in cartridges"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 13/02",
+          "title": {
+            "ko": null,
+            "en": "Cartridges specially adapted therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 15/00",
+      "title": {
+        "ko": "타의 동력 조작 시동장치; 구조 요소부품, 세부 또는 부속품이고 그룹 5/00에서 13/00으로 분류되지 않은 것 또는 그들의 그룹에는 없는 점을 주목하여야 할 것",
+        "en": "Other power-operated starting apparatus; Component parts, details, or accessories, not provided for in, or of interest apart from, groups F02N0005000000-F02N0013000000"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 15/02",
+          "title": {
+            "ko": null,
+            "en": "Gearing between starting-engines and started engines; Engagement or disengagement thereof"
+          }
+        },
+        {
+          "code": "F02N 15/04",
+          "title": {
+            "ko": null,
+            "en": "the gearing including disengaging toothed gears"
+          }
+        },
+        {
+          "code": "F02N 15/06",
+          "title": {
+            "ko": null,
+            "en": "the toothed gears being moved by axial displacement"
+          }
+        },
+        {
+          "code": "F02N 15/08",
+          "title": {
+            "ko": null,
+            "en": "the gearing being of friction type"
+          }
+        },
+        {
+          "code": "F02N 15/10",
+          "title": {
+            "ko": null,
+            "en": "Safety devices not otherwise provided for"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 19/00",
+      "title": {
+        "ko": null,
+        "en": "Starting aids for combustion engines, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02N 19/02",
+          "title": {
+            "ko": null,
+            "en": "Aiding engine start by thermal means, e.g. using lighted wicks"
+          }
+        },
+        {
+          "code": "F02N 19/04",
+          "title": {
+            "ko": null,
+            "en": "by heating of fluids used in engines"
+          }
+        },
+        {
+          "code": "F02N 19/06",
+          "title": {
+            "ko": null,
+            "en": "by heating of combustion-air by flame generating means, e.g. flame glow-plugs"
+          }
+        },
+        {
+          "code": "F02N 19/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangement thereof"
+          }
+        },
+        {
+          "code": "F02N 19/10",
+          "title": {
+            "ko": null,
+            "en": "by heating of engine coolants"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02N 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in the other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

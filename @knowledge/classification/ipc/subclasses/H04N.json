@@ -1,0 +1,6124 @@
+{
+  "subclass": "H04N",
+  "title": {
+    "ko": "화상통신, 예. 텔레비젼",
+    "en": "PICTORIAL COMMUNICATION, e.g. TELEVISION"
+  },
+  "definition": {
+    "ko": "그룹 H04N 1/00에서 H04N 17/00는 그룹 H04N 101/00의 인덱싱 코드를 추가하는 것이 바람직하다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04N 1/00",
+      "title": {
+        "ko": "문서 또는 그와 유사한 것의 주사, 전송 또는 재생, 예. 팩시밀리 전송; 그 세부",
+        "en": "Scanning, transmission or reproduction of documents or the like, e.g. facsimile transmission; Details thereof"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 1/024",
+          "title": {
+            "ko": null,
+            "en": "Details of scanning heads"
+          }
+        },
+        {
+          "code": "H04N 1/028",
+          "title": {
+            "ko": null,
+            "en": "for picture-information pick-up"
+          }
+        },
+        {
+          "code": "H04N 1/029",
+          "title": {
+            "ko": null,
+            "en": "Heads optically focused on only one picture element at a time"
+          }
+        },
+        {
+          "code": "H04N 1/03",
+          "title": {
+            "ko": null,
+            "en": "with photodetectors arranged in a substantially linear array"
+          }
+        },
+        {
+          "code": "H04N 1/031",
+          "title": {
+            "ko": null,
+            "en": "the photodetectors having a one-to-one and optically positive correspondence with the scanned picture elements, e.g. linear contact sensors"
+          }
+        },
+        {
+          "code": "H04N 1/032",
+          "title": {
+            "ko": null,
+            "en": "for picture-information reproduction"
+          }
+        },
+        {
+          "code": "H04N 1/034",
+          "title": {
+            "ko": null,
+            "en": "using ink, e.g. ink-jet heads"
+          }
+        },
+        {
+          "code": "H04N 1/036",
+          "title": {
+            "ko": null,
+            "en": "for optical reproduction"
+          }
+        },
+        {
+          "code": "H04N 1/04",
+          "title": {
+            "ko": "주사장치(H04N 1/387이 우선)",
+            "en": "Scanning arrangements (H04N0001387000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/047",
+          "title": {
+            "ko": "주사 속도 또는 위치의 검출, 제어 또는 에러보정(H04N 1/17이 우선)",
+            "en": "Detection, control or error compensation of scanning velocity or position (H04N0001170000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/053",
+          "title": {
+            "ko": null,
+            "en": "in main scanning direction, e.g. synchronisation of line start or picture elements in a line"
+          }
+        },
+        {
+          "code": "H04N 1/06",
+          "title": {
+            "ko": null,
+            "en": "using cylindrical picture-bearing surfaces"
+          }
+        },
+        {
+          "code": "H04N 1/08",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms for mounting or holding the sheet around the drum"
+          }
+        },
+        {
+          "code": "H04N 1/10",
+          "title": {
+            "ko": null,
+            "en": "using flat picture-bearing surfaces"
+          }
+        },
+        {
+          "code": "H04N 1/107",
+          "title": {
+            "ko": null,
+            "en": "with manual scanning"
+          }
+        },
+        {
+          "code": "H04N 1/113",
+          "title": {
+            "ko": null,
+            "en": "using oscillating or rotating mirrors"
+          }
+        },
+        {
+          "code": "H04N 1/12",
+          "title": {
+            "ko": "저속주사 구성요소로서 급지장치을 이용하는 것 다소자배열(multi-element arrays) H04N 1/19)",
+            "en": "using the sheet-feed movement as the slow scanning component (using multi-element arrays H04N0001190000)"
+          }
+        },
+        {
+          "code": "H04N 1/14",
+          "title": {
+            "ko": null,
+            "en": "using a rotating endless belt carrying the scanning heads"
+          }
+        },
+        {
+          "code": "H04N 1/16",
+          "title": {
+            "ko": null,
+            "en": "using a rotating helical element"
+          }
+        },
+        {
+          "code": "H04N 1/17",
+          "title": {
+            "ko": null,
+            "en": "the scanning speed being dependent on content of picture"
+          }
+        },
+        {
+          "code": "H04N 1/19",
+          "title": {
+            "ko": null,
+            "en": "using multi-element arrays"
+          }
+        },
+        {
+          "code": "H04N 1/191",
+          "title": {
+            "ko": null,
+            "en": "the array comprising a one-dimensional [1D] array"
+          }
+        },
+        {
+          "code": "H04N 1/192",
+          "title": {
+            "ko": null,
+            "en": "Simultaneously scanning picture elements on one main scanning line"
+          }
+        },
+        {
+          "code": "H04N 1/193",
+          "title": {
+            "ko": null,
+            "en": "using electrically scanned linear arrays"
+          }
+        },
+        {
+          "code": "H04N 1/195",
+          "title": {
+            "ko": null,
+            "en": "the array comprising a two-dimensional [2D] array"
+          }
+        },
+        {
+          "code": "H04N 1/203",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous scanning of two or more separate pictures"
+          }
+        },
+        {
+          "code": "H04N 1/207",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous scanning of the original picture and the reproduced picture with a common scanning device"
+          }
+        },
+        {
+          "code": "H04N 1/21",
+          "title": {
+            "ko": "중간정보축적 (H04N 1/387, H04N 1/41이 우선)",
+            "en": "Intermediate information storage (H04N0001387000, H04N0001410000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/23",
+          "title": {
+            "ko": null,
+            "en": "Reproducing arrangements"
+          }
+        },
+        {
+          "code": "H04N 1/27",
+          "title": {
+            "ko": null,
+            "en": "involving production of a magnetic intermediate picture"
+          }
+        },
+        {
+          "code": "H04N 1/29",
+          "title": {
+            "ko": null,
+            "en": "involving production of an electrostatic intermediate picture"
+          }
+        },
+        {
+          "code": "H04N 1/31",
+          "title": {
+            "ko": null,
+            "en": "Mechanical arrangements for picture transmission, e.g. adaptation of clutches, gearing, gear transmissions"
+          }
+        },
+        {
+          "code": "H04N 1/32",
+          "title": {
+            "ko": null,
+            "en": "Circuits or arrangements for control or supervision between transmitter and receiver"
+          }
+        },
+        {
+          "code": "H04N 1/327",
+          "title": {
+            "ko": null,
+            "en": "Initiating, continuing or ending a single-mode communication; Handshaking therefor"
+          }
+        },
+        {
+          "code": "H04N 1/333",
+          "title": {
+            "ko": null,
+            "en": "Mode signalling or mode changing; Handshaking therefor"
+          }
+        },
+        {
+          "code": "H04N 1/34",
+          "title": {
+            "ko": null,
+            "en": "for coin-freed systems"
+          }
+        },
+        {
+          "code": "H04N 1/36",
+          "title": {
+            "ko": null,
+            "en": "for synchronising or phasing transmitter and receiver"
+          }
+        },
+        {
+          "code": "H04N 1/38",
+          "title": {
+            "ko": "화상의 불요부분(不要部分)을 블랭킹(blanking) 또는 다른 방법으로 소거하기 위한 회로 또는 장치(H04N 1/387이 우선)",
+            "en": "Circuits or arrangements for blanking or otherwise eliminating unwanted parts of pictures (H04N0001387000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/387",
+          "title": {
+            "ko": null,
+            "en": "Composing, repositioning or otherwise modifying originals"
+          }
+        },
+        {
+          "code": "H04N 1/393",
+          "title": {
+            "ko": null,
+            "en": "Enlarging or reducing"
+          }
+        },
+        {
+          "code": "H04N 1/40",
+          "title": {
+            "ko": "화상신호회로(H04N 1/387이 우선)",
+            "en": "Picture signal circuits (H04N0001387000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/401",
+          "title": {
+            "ko": "픽업(pick-up) 또는 재생헤드의 위치적으로 일치하지 않는 응답을 보상하는 것(H04N 1/403이 우선)",
+            "en": "Compensating positionaly unequal response of the pick-up or reproducing head (H04N0001403000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/403",
+          "title": {
+            "ko": null,
+            "en": "Discrimination between the two tones in the picture signal of a two-tone original"
+          }
+        },
+        {
+          "code": "H04N 1/405",
+          "title": {
+            "ko": null,
+            "en": "Halftoning, i.e. converting the picture signal of a continuous-tone original into a corresponding signal showing only two levels"
+          }
+        },
+        {
+          "code": "H04N 1/407",
+          "title": {
+            "ko": null,
+            "en": "Control or modification of tonal gradation or of extreme levels, e.g. background level"
+          }
+        },
+        {
+          "code": "H04N 1/409",
+          "title": {
+            "ko": null,
+            "en": "Edge or detail enhancement; Noise or error suppression"
+          }
+        },
+        {
+          "code": "H04N 1/41",
+          "title": {
+            "ko": "대역폭 또는 용장도(redundancy)의 감소(주사에 의한 것 H04N 1/17)",
+            "en": "Bandwidth or redundancy reduction (by scanning H04N0001170000)"
+          }
+        },
+        {
+          "code": "H04N 1/411",
+          "title": {
+            "ko": null,
+            "en": "for the transmission or reproduction of two-tone pictures, e.g. black and white pictures"
+          }
+        },
+        {
+          "code": "H04N 1/413",
+          "title": {
+            "ko": null,
+            "en": "Systems or arrangements allowing the picture to be reproduced without loss or modification of picture-information"
+          }
+        },
+        {
+          "code": "H04N 1/415",
+          "title": {
+            "ko": null,
+            "en": "in which the picture-elements are subdivided or grouped into fixed one-dimensional [1D] or two-dimensional [2D] blocks"
+          }
+        },
+        {
+          "code": "H04N 1/417",
+          "title": {
+            "ko": null,
+            "en": "using predictive or differential encoding"
+          }
+        },
+        {
+          "code": "H04N 1/419",
+          "title": {
+            "ko": null,
+            "en": "in which encoding of the length of a succession of picture-elements of the same value along a scanning line is the only encoding step"
+          }
+        },
+        {
+          "code": "H04N 1/42",
+          "title": {
+            "ko": null,
+            "en": "Systems for two-way working"
+          }
+        },
+        {
+          "code": "H04N 1/44",
+          "title": {
+            "ko": null,
+            "en": "Secrecy systems"
+          }
+        },
+        {
+          "code": "H04N 1/46",
+          "title": {
+            "ko": "컬러화상 통신시스템",
+            "en": "Colour picture communication systems"
+          }
+        },
+        {
+          "code": "H04N 1/48",
+          "title": {
+            "ko": "화상신호 발생기(중간조 차폐(screening) H04N 1/52)",
+            "en": "Picture signal generators (for halftone screening H04N0001520000)"
+          }
+        },
+        {
+          "code": "H04N 1/50",
+          "title": {
+            "ko": "화상 재생기(중간조 차폐(screening) H04N 1/52)",
+            "en": "Picture reproducers (for halftone screening H04N0001520000)"
+          }
+        },
+        {
+          "code": "H04N 1/52",
+          "title": {
+            "ko": null,
+            "en": "Circuits or arrangements for halftone screening"
+          }
+        },
+        {
+          "code": "H04N 1/54",
+          "title": {
+            "ko": null,
+            "en": "Conversion of colour picture signals to a plurality of signals some of which represent particular mixed colours, e.g. for textile printing"
+          }
+        },
+        {
+          "code": "H04N 1/56",
+          "title": {
+            "ko": "컬러화상신호의 처리(H04N 1/52가 우선)",
+            "en": "Processing of colour picture signals (H04N0001520000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/58",
+          "title": {
+            "ko": "윤곽 또는 세부(細部)의 보강; 잡음 또는 에러억제, 예. 컬러 오정합(misregistration) 보정(H04N 1/62가 우선)",
+            "en": "Edge or detail enhancement; Noise or error suppression, e.g. colour misregistration correction (H04N0001620000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 1/60",
+          "title": {
+            "ko": null,
+            "en": "Colour correction or control"
+          }
+        },
+        {
+          "code": "H04N 1/62",
+          "title": {
+            "ko": null,
+            "en": "Retouching, i.e. modification of isolated colours only or in isolated picture areas only"
+          }
+        },
+        {
+          "code": "H04N 1/64",
+          "title": {
+            "ko": null,
+            "en": "Systems for the transmission or the storage of the colour picture signal; Details therefor, e.g. coding or decoding means therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 3/00",
+      "title": {
+        "ko": "텔레비전 시스템의 스캐닝 세부; 공급 전압 발생과의 조합",
+        "en": "Scanning details of television systems; Combination thereof with generation of supply voltages"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 3/02",
+          "title": {
+            "ko": "광학적-기계적 수단만에 의한 것(H04N 3/36이 우선)",
+            "en": "by optical-mechanical means only (H04N0003360000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 3/04",
+          "title": {
+            "ko": null,
+            "en": "having a moving aperture"
+          }
+        },
+        {
+          "code": "H04N 3/06",
+          "title": {
+            "ko": null,
+            "en": "having a moving lens or other refractor"
+          }
+        },
+        {
+          "code": "H04N 3/08",
+          "title": {
+            "ko": null,
+            "en": "having a moving reflector"
+          }
+        },
+        {
+          "code": "H04N 3/09",
+          "title": {
+            "ko": null,
+            "en": "for electromagnetic radiation in the invisible region, e.g. infrared"
+          }
+        },
+        {
+          "code": "H04N 3/10",
+          "title": {
+            "ko": "광학적-기계적만이 아닌 수단에 의한 것 (H04N3/36이 우선)",
+            "en": "by means not exclusively optical-mechanical (H04N0003360000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 3/12",
+          "title": {
+            "ko": null,
+            "en": "by switched stationary formation of lamps, photocells, or light relays"
+          }
+        },
+        {
+          "code": "H04N 3/14",
+          "title": {
+            "ko": "전기적으로 주사된 고체소자에 의한 것(사진 생성용 H04N25/00)",
+            "en": "by means of electrically scanned solid-state devices (for picture generation H04N0025000000)"
+          }
+        },
+        {
+          "code": "H04N 3/16",
+          "title": {
+            "ko": "음극선관(CRT)내에서의 전자빔의 편향에 의한 것",
+            "en": "by deflecting electron beam in cathode-ray tube"
+          }
+        },
+        {
+          "code": "H04N 3/18",
+          "title": {
+            "ko": null,
+            "en": "Generation of supply voltages, in combination with electron beam deflecting"
+          }
+        },
+        {
+          "code": "H04N 3/185",
+          "title": {
+            "ko": null,
+            "en": "Maintaining DC voltage constant"
+          }
+        },
+        {
+          "code": "H04N 3/19",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or assemblies in supply circuits for the purpose of withstanding high voltages"
+          }
+        },
+        {
+          "code": "H04N 3/20",
+          "title": {
+            "ko": null,
+            "en": "Prevention of damage to cathode-ray tubes in event of failure of scanning"
+          }
+        },
+        {
+          "code": "H04N 3/22",
+          "title": {
+            "ko": "스크린상의 화상의 크기, 형상 또는 중심을 제어하기 위한 회로",
+            "en": "Circuits for controlling dimensions, shape or centering of picture on screen"
+          }
+        },
+        {
+          "code": "H04N 3/223",
+          "title": {
+            "ko": "크기를 제어하는 것(음극선관에 일정한 고전압을 유지하는 것에 의한 것 H04N 3/185)",
+            "en": "Controlling dimensions (by maintaining the cathode-ray tube high voltage constant H04N0003185000)"
+          }
+        },
+        {
+          "code": "H04N 3/227",
+          "title": {
+            "ko": null,
+            "en": "Centering"
+          }
+        },
+        {
+          "code": "H04N 3/23",
+          "title": {
+            "ko": null,
+            "en": "Distortion correction, e.g. for pincushion distortion correction, S-correction"
+          }
+        },
+        {
+          "code": "H04N 3/233",
+          "title": {
+            "ko": null,
+            "en": "using active elements"
+          }
+        },
+        {
+          "code": "H04N 3/237",
+          "title": {
+            "ko": null,
+            "en": "using passive elements"
+          }
+        },
+        {
+          "code": "H04N 3/24",
+          "title": {
+            "ko": null,
+            "en": "Blanking circuits"
+          }
+        },
+        {
+          "code": "H04N 3/26",
+          "title": {
+            "ko": null,
+            "en": "Modifications of scanning arrangements to improve focusing"
+          }
+        },
+        {
+          "code": "H04N 3/27",
+          "title": {
+            "ko": null,
+            "en": "Circuits special to multi-standard receivers"
+          }
+        },
+        {
+          "code": "H04N 3/28",
+          "title": {
+            "ko": null,
+            "en": "producing multiple scanning, i.e. using more than one spot at the same time"
+          }
+        },
+        {
+          "code": "H04N 3/30",
+          "title": {
+            "ko": null,
+            "en": "otherwise than with constant velocity or otherwise than in pattern formed by unidirectional, straight, substantially horizontal or vertical lines"
+          }
+        },
+        {
+          "code": "H04N 3/32",
+          "title": {
+            "ko": null,
+            "en": "Velocity varied in dependence upon picture information"
+          }
+        },
+        {
+          "code": "H04N 3/34",
+          "title": {
+            "ko": null,
+            "en": "Elemental scanning area oscillated rapidly in direction transverse to main scanning direction"
+          }
+        },
+        {
+          "code": "H04N 3/36",
+          "title": {
+            "ko": null,
+            "en": "Scanning of motion picture films, e.g. for telecine"
+          }
+        },
+        {
+          "code": "H04N 3/38",
+          "title": {
+            "ko": null,
+            "en": "with continuously moving film"
+          }
+        },
+        {
+          "code": "H04N 3/40",
+          "title": {
+            "ko": null,
+            "en": "with intermittently moving film"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 5/00",
+      "title": {
+        "ko": "텔레비전 시스템의 세부 (스캐닝 세부 또는 공급 전압 생성과의 결합 H04N3/00)",
+        "en": "Details of television systems (scanning details or combination thereof with generation of supply voltages H04N0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 5/04",
+          "title": {
+            "ko": "동기 (펄스부호변조(PCM)를 이용하는 텔레비젼 시스템용 H04N 7/56 )",
+            "en": "Synchronising (for television systems using pulse code modulation H04N0007560000)"
+          }
+        },
+        {
+          "code": "H04N 5/05",
+          "title": {
+            "ko": null,
+            "en": "Synchronising circuits with arrangements for extending range of synchronisation, e.g. by using switching between several time constants"
+          }
+        },
+        {
+          "code": "H04N 5/06",
+          "title": {
+            "ko": null,
+            "en": "Generation of synchronising signals"
+          }
+        },
+        {
+          "code": "H04N 5/067",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or circuits at the transmitter end"
+          }
+        },
+        {
+          "code": "H04N 5/073",
+          "title": {
+            "ko": null,
+            "en": "for mutually locking plural sources of synchronising signals, e.g. studios or relay stations"
+          }
+        },
+        {
+          "code": "H04N 5/08",
+          "title": {
+            "ko": null,
+            "en": "Separation of synchronising signals from picture signals"
+          }
+        },
+        {
+          "code": "H04N 5/10",
+          "title": {
+            "ko": null,
+            "en": "Separation of line synchronising signal from frame synchronising signal"
+          }
+        },
+        {
+          "code": "H04N 5/12",
+          "title": {
+            "ko": null,
+            "en": "Devices in which the synchronising signals are only operative if a phase difference occurs between synchronising and synchronised scanning devices, e.g. flywheel synchronising"
+          }
+        },
+        {
+          "code": "H04N 5/14",
+          "title": {
+            "ko": "영상 주파수 영역용 영상 신호 회로 (전자 이미지 센서를 포함하는 카메라 또는 카메라 모듈, 또는 그 제어 H04N23/00)",
+            "en": "Picture signal circuitry for video frequency region (cameras or camera modules comprising electronic image sensors, or control thereof H04N0023000000)"
+          }
+        },
+        {
+          "code": "H04N 5/16",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for reinsertion of DC and slowly varying components of signal; Circuitry for preservation of black or white level"
+          }
+        },
+        {
+          "code": "H04N 5/18",
+          "title": {
+            "ko": null,
+            "en": "by means of \"clamp\" circuit operated by switching circuit"
+          }
+        },
+        {
+          "code": "H04N 5/20",
+          "title": {
+            "ko": "진폭응답을 제어하기 위한 회로",
+            "en": "Circuitry for controlling amplitude response"
+          }
+        },
+        {
+          "code": "H04N 5/202",
+          "title": {
+            "ko": "감마 제어 (장면 밝기에 관계 없이 카메라 응답을 제어하는 회로 H04N23/82)",
+            "en": "Gamma control  (circuits for controlling camera response irrespective of the scene brightness H04N0023820000)"
+          }
+        },
+        {
+          "code": "H04N 5/205",
+          "title": {
+            "ko": null,
+            "en": "for correcting amplitude versus frequency characteristic"
+          }
+        },
+        {
+          "code": "H04N 5/208",
+          "title": {
+            "ko": null,
+            "en": "for compensating for attenuation of high frequency components, e.g. crispening, aperture distortion correction"
+          }
+        },
+        {
+          "code": "H04N 5/21",
+          "title": {
+            "ko": "방해를 억제하거나 최소화하기 위한 회로, 예. 모아레(moire), 헤일로우(halo : 후광)",
+            "en": "Circuitry for suppressing or minimising disturbance, e.g. moire or halo"
+          }
+        },
+        {
+          "code": "H04N 5/213",
+          "title": {
+            "ko": "임펄스성 노이즈를 억제 또는 최소화하기 위한 회로 (영상 신호 생성의 방해를 억제하거나 최소화하기 위한 것 H04N23/81)",
+            "en": "Circuitry for suppressing or minimising impulsive noise (for suppressing or minimising disturbance in image signal generation H04N0023810000)"
+          }
+        },
+        {
+          "code": "H04N 5/222",
+          "title": {
+            "ko": "스튜디오 회로; 스튜디오 장치; 스튜디오 장비 (전자 이미지 센서를 포함하는 카메라 또는 카메라 모듈, 그 제어 H04N23/00)",
+            "en": "Studio circuitry; Studio devices; Studio equipment (cameras or camera modules comprising electronic image sensors, or control thereof H04N0023000000)"
+          }
+        },
+        {
+          "code": "H04N 5/253",
+          "title": {
+            "ko": "영화필름 또는 슬라이드오페크(slide opaque)의 주사에 의한 영상신호발생, 예. 텔레비젼 영화 (telecine)를 위한 것(그것을 위한 주사의 세부 H04N 3/36)",
+            "en": "Picture signal generating by scanning motion picture films or slide opaques, e.g. for telecine (scanning details therefor H04N0003360000)"
+          }
+        },
+        {
+          "code": "H04N 5/257",
+          "title": {
+            "ko": "비점(비점 : flying-spot) 주사기를 이용하는 영상신호 발생기(H04N 5/253이 우선)",
+            "en": "Picture signal generators using flying-spot scanners (H04N0005253000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/262",
+          "title": {
+            "ko": null,
+            "en": "Studio circuits, e.g. for mixing, switching-over, change of character of image, other special effects"
+          }
+        },
+        {
+          "code": "H04N 5/265",
+          "title": {
+            "ko": null,
+            "en": "Mixing"
+          }
+        },
+        {
+          "code": "H04N 5/268",
+          "title": {
+            "ko": null,
+            "en": "Signal distribution or switching"
+          }
+        },
+        {
+          "code": "H04N 5/272",
+          "title": {
+            "ko": null,
+            "en": "Means for inserting a foreground image in a background image, i.e. inlay, outlay"
+          }
+        },
+        {
+          "code": "H04N 5/275",
+          "title": {
+            "ko": null,
+            "en": "Generation of keying signals"
+          }
+        },
+        {
+          "code": "H04N 5/278",
+          "title": {
+            "ko": null,
+            "en": "Subtitling"
+          }
+        },
+        {
+          "code": "H04N 5/28",
+          "title": {
+            "ko": null,
+            "en": "Mobile studios"
+          }
+        },
+        {
+          "code": "H04N 5/30",
+          "title": {
+            "ko": "광 또는 아날로그 정보를 전기적 정보로 변환시키는 것(스캔 세부 H04N3/00; 전자 이미지 센서를 포함하는 카메라 또는 카메라 모듈, 그 제어 H04N23/00; 고체 이미지 센서[SSIS]의 회로 또는 그 제어 H04N25/00)",
+            "en": "Transforming light or analogous information into electric information  (scanning details H04N0003000000; cameras or camera modules comprising electronic image sensors, or control thereof H04N0023000000; circuitry of solid-state image sensors [SSIS] or control thereof H04N0025000000)"
+          }
+        },
+        {
+          "code": "H04N 5/32",
+          "title": {
+            "ko": "X선을 변환시키는 것 (X선에서 이미지 신호를 생성하기 위한 카메라 또는 카메라 모듈 H04N23/30; X선을 영상 신호로 변환하기 위한 SSIS 회로 H04N25/30)",
+            "en": "Transforming X-rays (cameras or camera modules for generating image signals from X-rays H04N0023300000;circuitry of SSIS for transforming X-rays into image signals H04N0025300000)"
+          }
+        },
+        {
+          "code": "H04N 5/321",
+          "title": {
+            "ko": null,
+            "en": "with video transmission of fluoroscopic images"
+          }
+        },
+        {
+          "code": "H04N 5/325",
+          "title": {
+            "ko": null,
+            "en": "Image enhancement, e.g. by subtraction techniques using polyenergetic X-rays"
+          }
+        },
+        {
+          "code": "H04N 5/33",
+          "title": {
+            "ko": "적외선을 변환시키는 것 (적외선에서 이미지 신호를 생성하기 위한 카메라 또는 카메라 모듈 H04N23/20; 적외선을 영상 신호로 변환하기 위한 SSIS 회로 H04N25/20)",
+            "en": "Transforming infrared radiation (cameras or camera modules for generating image signals from infrared radiation H04N0023200000;circuitry of SSIS for transforming infrared radiation into image signals H04N0025200000)"
+          }
+        },
+        {
+          "code": "H04N 5/38",
+          "title": {
+            "ko": "송신기회로(H04N 5/14가 우선)",
+            "en": "Transmitter circuitry (H04N0005140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/40",
+          "title": {
+            "ko": null,
+            "en": "Modulation circuits"
+          }
+        },
+        {
+          "code": "H04N 5/42",
+          "title": {
+            "ko": null,
+            "en": "for transmitting at will black-and-white or colour signals"
+          }
+        },
+        {
+          "code": "H04N 5/44",
+          "title": {
+            "ko": "수신기회로(H04N 5/14가 우선)",
+            "en": "Receiver circuitry (H04N0005140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/445",
+          "title": {
+            "ko": "부가적인 정보를 표시하기 위한 것(H04N 5/50이 우선)",
+            "en": "for displaying additional information (H04N0005500000  takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/45",
+          "title": {
+            "ko": null,
+            "en": "Picture in picture"
+          }
+        },
+        {
+          "code": "H04N 5/455",
+          "title": {
+            "ko": null,
+            "en": "Demodulation-circuits"
+          }
+        },
+        {
+          "code": "H04N 5/46",
+          "title": {
+            "ko": "2이상의 표준방식을 임의로 수신하기 위한 것 (복수표준(multi-standard) 수신기의 편향회로 H04N 3/27)",
+            "en": "for receiving on more than one standard at will (deflecting circuits of multi-standard receivers H04N0003270000)"
+          }
+        },
+        {
+          "code": "H04N 5/50",
+          "title": {
+            "ko": null,
+            "en": "Tuning indicators; Automatic tuning control"
+          }
+        },
+        {
+          "code": "H04N 5/52",
+          "title": {
+            "ko": "자동이득제어(AGC)",
+            "en": "Automatic gain control"
+          }
+        },
+        {
+          "code": "H04N 5/53",
+          "title": {
+            "ko": null,
+            "en": "Keyed automatic gain control"
+          }
+        },
+        {
+          "code": "H04N 5/54",
+          "title": {
+            "ko": "정변조된 영상신호를 위한 것(H04N 5/53이 우선)",
+            "en": "for positively-modulated picture signals (H04N0005530000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/56",
+          "title": {
+            "ko": "부변조된 영상신호를 위한 것(H04N 5/53이 우선)",
+            "en": "for negatively-modulated picture signals (H04N0005530000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/57",
+          "title": {
+            "ko": null,
+            "en": "Control of contrast or brightness"
+          }
+        },
+        {
+          "code": "H04N 5/58",
+          "title": {
+            "ko": null,
+            "en": "in dependence upon ambient light"
+          }
+        },
+        {
+          "code": "H04N 5/59",
+          "title": {
+            "ko": null,
+            "en": "in dependence upon beam current of cathode ray tube"
+          }
+        },
+        {
+          "code": "H04N 5/60",
+          "title": {
+            "ko": null,
+            "en": "for the sound signals"
+          }
+        },
+        {
+          "code": "H04N 5/62",
+          "title": {
+            "ko": null,
+            "en": "Intercarrier circuits, i.e. heterodyning sound and vision carriers"
+          }
+        },
+        {
+          "code": "H04N 5/63",
+          "title": {
+            "ko": null,
+            "en": "Generation or supply of power specially adapted for television receivers"
+          }
+        },
+        {
+          "code": "H04N 5/64",
+          "title": {
+            "ko": "수신기 구조의 세부, 예. 캐비닛 또는 먼지 커버(dust cover)(가구에 특징이 있는 것 A47B, 예. A47B 81/06)",
+            "en": "Constructional details of receivers, e.g. cabinets or dust covers (furniture aspects A47B0081060000)"
+          }
+        },
+        {
+          "code": "H04N 5/645",
+          "title": {
+            "ko": null,
+            "en": "Mounting of picture tube on chassis or in housing"
+          }
+        },
+        {
+          "code": "H04N 5/65",
+          "title": {
+            "ko": null,
+            "en": "Holding-devices for protective discs or for picture masks"
+          }
+        },
+        {
+          "code": "H04N 5/655",
+          "title": {
+            "ko": null,
+            "en": "Construction or mounting of chassis, e.g. for varying the elevation of the tube"
+          }
+        },
+        {
+          "code": "H04N 5/66",
+          "title": {
+            "ko": "전기정보를 광정보로 변환하는 것(주사의 세부 H04N 3/00)",
+            "en": "Transforming electric information into light information (scanning details H04N0003000000)"
+          }
+        },
+        {
+          "code": "H04N 5/68",
+          "title": {
+            "ko": null,
+            "en": "Circuit details for cathode-ray display tubes"
+          }
+        },
+        {
+          "code": "H04N 5/70",
+          "title": {
+            "ko": null,
+            "en": "Circuit details for electroluminescent devices"
+          }
+        },
+        {
+          "code": "H04N 5/72",
+          "title": {
+            "ko": null,
+            "en": "Modifying the appearance of television pictures by optical filters or diffusing screens"
+          }
+        },
+        {
+          "code": "H04N 5/74",
+          "title": {
+            "ko": null,
+            "en": "Projection arrangements for image reproduction, e.g. using eidophor"
+          }
+        },
+        {
+          "code": "H04N 5/76",
+          "title": {
+            "ko": "텔레비젼 신호의 기록",
+            "en": "Television signal recording"
+          }
+        },
+        {
+          "code": "H04N 5/761",
+          "title": {
+            "ko": null,
+            "en": "Systems for programming the time at which predetermined television channels will be selected for recording"
+          }
+        },
+        {
+          "code": "H04N 5/7613",
+          "title": {
+            "ko": null,
+            "en": "by using data entered by the user and a reference timing clock incorporated in the recorder"
+          }
+        },
+        {
+          "code": "H04N 5/7617",
+          "title": {
+            "ko": null,
+            "en": "by using data entered by the user and reference data transmitted by the broadcasting station"
+          }
+        },
+        {
+          "code": "H04N 5/765",
+          "title": {
+            "ko": null,
+            "en": "Interface circuits between an apparatus for recording and another apparatus"
+          }
+        },
+        {
+          "code": "H04N 5/77",
+          "title": {
+            "ko": null,
+            "en": "between a recording apparatus and a television camera"
+          }
+        },
+        {
+          "code": "H04N 5/775",
+          "title": {
+            "ko": null,
+            "en": "between a recording apparatus and a television receiver"
+          }
+        },
+        {
+          "code": "H04N 5/78",
+          "title": {
+            "ko": "자기기록을 이용하는 것(H04N 5/91이 우선)",
+            "en": "using magnetic recording (H04N0005910000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/781",
+          "title": {
+            "ko": null,
+            "en": "on disks or drums"
+          }
+        },
+        {
+          "code": "H04N 5/782",
+          "title": {
+            "ko": null,
+            "en": "on tape"
+          }
+        },
+        {
+          "code": "H04N 5/7822",
+          "title": {
+            "ko": null,
+            "en": "with stationary magnetic heads"
+          }
+        },
+        {
+          "code": "H04N 5/7824",
+          "title": {
+            "ko": null,
+            "en": "with rotating magnetic heads"
+          }
+        },
+        {
+          "code": "H04N 5/7826",
+          "title": {
+            "ko": null,
+            "en": "involving helical scanning of the magnetic tape"
+          }
+        },
+        {
+          "code": "H04N 5/7828",
+          "title": {
+            "ko": null,
+            "en": "involving transversal scanning of the magnetic tape"
+          }
+        },
+        {
+          "code": "H04N 5/783",
+          "title": {
+            "ko": null,
+            "en": "Adaptations for reproducing at a rate different from the recording rate"
+          }
+        },
+        {
+          "code": "H04N 5/784",
+          "title": {
+            "ko": null,
+            "en": "on a sheet"
+          }
+        },
+        {
+          "code": "H04N 5/80",
+          "title": {
+            "ko": "정전기록(electrostatic recording)을 이용하는 것 (H04N 5/19가 우선)",
+            "en": "using electrostatic recording (H04N0005910000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/82",
+          "title": {
+            "ko": null,
+            "en": "using deformable thermoplastic recording medium"
+          }
+        },
+        {
+          "code": "H04N 5/83",
+          "title": {
+            "ko": null,
+            "en": "on disks or drums"
+          }
+        },
+        {
+          "code": "H04N 5/84",
+          "title": {
+            "ko": "광학적 기록을 이용하는 것(H04N 5/80, H04N 5/89, H04N 5/91이 우선)",
+            "en": "using optical recording (H04N0005800000, H04N0005890000, H04N0005910000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/85",
+          "title": {
+            "ko": null,
+            "en": "on discs or drums"
+          }
+        },
+        {
+          "code": "H04N 5/87",
+          "title": {
+            "ko": null,
+            "en": "Producing a motion picture film from a television signal"
+          }
+        },
+        {
+          "code": "H04N 5/89",
+          "title": {
+            "ko": "홀로그래픽 기록을 이용하는 것(H04N 5/91이 우선)",
+            "en": "using holographic recording (H04N0005910000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/90",
+          "title": {
+            "ko": null,
+            "en": "on discs or drums"
+          }
+        },
+        {
+          "code": "H04N 5/903",
+          "title": {
+            "ko": "가변 전기 용량 기록을 이용하는 것(H04N 5/91이 우선)",
+            "en": "using variable electrical capacitive recording (H04N0005910000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/907",
+          "title": {
+            "ko": "정적기억수단, 예. 축적관 또는 반도체메모리를 이용하는 것 (H04N 5/91이 우선)",
+            "en": "using static stores, e.g. storage tubes or semiconductor memories (H04N0005910000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/91",
+          "title": {
+            "ko": "그것을 위한 텔레비젼 신호의 처리",
+            "en": "Television signal processing therefor"
+          }
+        },
+        {
+          "code": "H04N 5/911",
+          "title": {
+            "ko": null,
+            "en": "for the suppression of noise"
+          }
+        },
+        {
+          "code": "H04N 5/913",
+          "title": {
+            "ko": null,
+            "en": "for scrambling"
+          }
+        },
+        {
+          "code": "H04N 5/915",
+          "title": {
+            "ko": null,
+            "en": "for field- or frame-skip recording or reproducing"
+          }
+        },
+        {
+          "code": "H04N 5/917",
+          "title": {
+            "ko": null,
+            "en": "for bandwidth reduction"
+          }
+        },
+        {
+          "code": "H04N 5/919",
+          "title": {
+            "ko": null,
+            "en": "by dividing samples or signal segments, e.g. television lines, among a plurality of recording channels"
+          }
+        },
+        {
+          "code": "H04N 5/92",
+          "title": {
+            "ko": "기록을 위한 텔레비젼 신호의 변환, 예. 변조, 주파수 변환; 재생을 위한 역변환",
+            "en": "Transformation of the television signal for recording, e.g. modulation, frequency changing; Inverse transformation for playback"
+          }
+        },
+        {
+          "code": "H04N 5/921",
+          "title": {
+            "ko": null,
+            "en": "by recording or reproducing the baseband signal"
+          }
+        },
+        {
+          "code": "H04N 5/922",
+          "title": {
+            "ko": null,
+            "en": "by modulation of the signal on a carrier wave, e.g. amplitude or frequency modulation"
+          }
+        },
+        {
+          "code": "H04N 5/923",
+          "title": {
+            "ko": null,
+            "en": "using preemphasis of the signal before modulation and deemphasis of the signal after demodulation"
+          }
+        },
+        {
+          "code": "H04N 5/924",
+          "title": {
+            "ko": null,
+            "en": "using duty cycle modulation"
+          }
+        },
+        {
+          "code": "H04N 5/926",
+          "title": {
+            "ko": "펄스부호변조(PCM)에 의한 것(H04N 5/919가 우선)",
+            "en": "by pulse code modulation (H04N0005919000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 5/928",
+          "title": {
+            "ko": null,
+            "en": "the sound signal being pulse code modulated and recorded in time division multiplex with the modulated video signal"
+          }
+        },
+        {
+          "code": "H04N 5/93",
+          "title": {
+            "ko": null,
+            "en": "Regeneration of the television signal or of selected parts thereof"
+          }
+        },
+        {
+          "code": "H04N 5/931",
+          "title": {
+            "ko": null,
+            "en": "for restoring the level of the reproduced signal"
+          }
+        },
+        {
+          "code": "H04N 5/932",
+          "title": {
+            "ko": null,
+            "en": "Regeneration of analogue synchronisation signals"
+          }
+        },
+        {
+          "code": "H04N 5/935",
+          "title": {
+            "ko": null,
+            "en": "Regeneration of digital synchronisation signals"
+          }
+        },
+        {
+          "code": "H04N 5/937",
+          "title": {
+            "ko": null,
+            "en": "by assembling picture element blocks in an intermediate store"
+          }
+        },
+        {
+          "code": "H04N 5/94",
+          "title": {
+            "ko": null,
+            "en": "Signal drop-out compensation"
+          }
+        },
+        {
+          "code": "H04N 5/945",
+          "title": {
+            "ko": null,
+            "en": "for signals recorded by pulse code modulation"
+          }
+        },
+        {
+          "code": "H04N 5/95",
+          "title": {
+            "ko": null,
+            "en": "Time-base error compensation"
+          }
+        },
+        {
+          "code": "H04N 5/953",
+          "title": {
+            "ko": null,
+            "en": "by using an analogue memory, e.g. a CCD-shift register, the delay of which is controlled by a voltage controlled oscillator"
+          }
+        },
+        {
+          "code": "H04N 5/956",
+          "title": {
+            "ko": null,
+            "en": "by using a digital memory with independent write-in and read-out clock generators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 7/00",
+      "title": {
+        "ko": "텔레비젼시스템 (세부 H04N 3/00, H04N 5/00; 디지털 비디오 신호의 부호화, 복호화, 압축 또는 압축 해제 방법 혹은 장치; 선택적 콘텐츠 분배 H04N 21/00)",
+        "en": "Television systems (details H04N0003000000, H04N0005000000;methods or arrangements, for coding, decoding, compressing or decompressing digital video signals H04N0019000000;selective content distribution H04N0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 7/01",
+          "title": {
+            "ko": null,
+            "en": "Conversion of standards"
+          }
+        },
+        {
+          "code": "H04N 7/015",
+          "title": {
+            "ko": null,
+            "en": "High-definition television systems"
+          }
+        },
+        {
+          "code": "H04N 7/025",
+          "title": {
+            "ko": null,
+            "en": "Systems for transmission of digital non-picture data, e.g. of text during the active part of a television frame"
+          }
+        },
+        {
+          "code": "H04N 7/03",
+          "title": {
+            "ko": null,
+            "en": "Subscription systems therefor"
+          }
+        },
+        {
+          "code": "H04N 7/035",
+          "title": {
+            "ko": null,
+            "en": "Circuits for the digital non-picture data signal, e.g. for slicing of the data signal, for regeneration of the data-clock signal, for error detection or correction of the data signal"
+          }
+        },
+        {
+          "code": "H04N 7/04",
+          "title": {
+            "ko": null,
+            "en": "Systems for the transmission of one television signal, i.e. both picture and sound, by a single carrier"
+          }
+        },
+        {
+          "code": "H04N 7/045",
+          "title": {
+            "ko": null,
+            "en": "the carrier being frequency modulated"
+          }
+        },
+        {
+          "code": "H04N 7/06",
+          "title": {
+            "ko": null,
+            "en": "Systems for the simultaneous transmission of one television signal, i.e. both picture and sound, by more than one carrier"
+          }
+        },
+        {
+          "code": "H04N 7/08",
+          "title": {
+            "ko": null,
+            "en": "Systems for the simultaneous or sequential transmission of more than one television signal, e.g. additional information signals, the signals occupying wholly or partially the same frequency band"
+          }
+        },
+        {
+          "code": "H04N 7/081",
+          "title": {
+            "ko": null,
+            "en": "the additional information signals being transmitted by means of a subcarrier"
+          }
+        },
+        {
+          "code": "H04N 7/083",
+          "title": {
+            "ko": null,
+            "en": "with signal insertion during the vertical and the horizontal blanking interval"
+          }
+        },
+        {
+          "code": "H04N 7/084",
+          "title": {
+            "ko": null,
+            "en": "with signal insertion during the horizontal blanking interval"
+          }
+        },
+        {
+          "code": "H04N 7/085",
+          "title": {
+            "ko": null,
+            "en": "the inserted signal being digital"
+          }
+        },
+        {
+          "code": "H04N 7/087",
+          "title": {
+            "ko": null,
+            "en": "with signal insertion during the vertical blanking interval"
+          }
+        },
+        {
+          "code": "H04N 7/088",
+          "title": {
+            "ko": null,
+            "en": "the inserted signal being digital"
+          }
+        },
+        {
+          "code": "H04N 7/10",
+          "title": {
+            "ko": "유선 텔레비젼시스템(CATV)(H04N 7/12가 우선)",
+            "en": "Adaptations for transmission by electrical cable (H04N0007120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 7/12",
+          "title": {
+            "ko": "각 채널의 대역폭이 텔레비젼신호의 대역폭보다 좁은 대역폭을 갖는 1개의 채널 또는 복수의 병렬채널을 통해서 텔레비젼신호가 전송되는 시스템(H04N 7/24가 우선)",
+            "en": "Systems in which the television signal is transmitted via one channel or a plurality of parallel channels, the bandwidth of each channel being less than the bandwidth of the television signal (H04N0007240000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 7/14",
+          "title": {
+            "ko": "쌍방향동작을 위한 시스템(H04N 7/173이 우선)",
+            "en": "Systems for two-way working (H04N0007173000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 7/15",
+          "title": {
+            "ko": null,
+            "en": "Conference systems"
+          }
+        },
+        {
+          "code": "H04N 7/16",
+          "title": {
+            "ko": null,
+            "en": "Analogue secrecy systems; Analogue subscription systems"
+          }
+        },
+        {
+          "code": "H04N 7/167",
+          "title": {
+            "ko": null,
+            "en": "Systems rendering the television signal unintelligible and subsequently intelligible"
+          }
+        },
+        {
+          "code": "H04N 7/169",
+          "title": {
+            "ko": null,
+            "en": "Systems operating in the time domain of the television signal"
+          }
+        },
+        {
+          "code": "H04N 7/171",
+          "title": {
+            "ko": null,
+            "en": "Systems operating in the amplitude domain of the television signal"
+          }
+        },
+        {
+          "code": "H04N 7/173",
+          "title": {
+            "ko": null,
+            "en": "with two-way working, e.g. subscriber sending a programme selection signal"
+          }
+        },
+        {
+          "code": "H04N 7/18",
+          "title": {
+            "ko": null,
+            "en": "Closed-circuit television [CCTV] systems, i.e. systems in which the video signal is not broadcast"
+          }
+        },
+        {
+          "code": "H04N 7/20",
+          "title": {
+            "ko": null,
+            "en": "Adaptations for transmission via a GHz frequency band, e.g. via satellite"
+          }
+        },
+        {
+          "code": "H04N 7/22",
+          "title": {
+            "ko": null,
+            "en": "Adaptations for optical transmission"
+          }
+        },
+        {
+          "code": "H04N 7/24",
+          "title": {
+            "ko": "펄스부호변조를 이용하여 텔레비젼 신호를 전송하기 위한 시스템(H04N 21/00이 우선)",
+            "en": "Systems for the transmission of television signals using pulse code modulation (H04N0021000000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 7/52",
+          "title": {
+            "ko": "하나 이상의 펄스 부호 변조된 신호를 지닌 변조된 펄스 부호의 전송을 위한 시스템, 예. 오디오 신호, 동기조정 신호(다른 콘텐츠 또는 부가적인 데이터와 비디오 스트림을 결합한 다중 스트림 모음, 다중 스트림의 재다중화, 다중 스트림으로의 스터핑 비트의 삽입, 서버 사이드에서 패킷화된 기본 스트림의 모음 H04N 21/236; 다중 스트림의 분해, 다중 스트림의 재다중화, 서비스 정보의 추출 또는 처리, 클라이언트 사이드 에서의 패킷화된 기본 스트림의 분해 H04N 21/434)",
+            "en": "Systems for transmission of a pulse code modulated with one or more other pulse code modulated signals, e.g. an audio signal or a synchronizing signal (assembling of a multiplex stream by combining a video stream with other content or additional data, remultiplexing of multiplex streams, insertion of stuffing bits into the multiplex stream, assembling of a packetised elementary stream at server side H04N0021236000;disassembling of a multiplex stream, remultiplexing of multiplex streams, extraction or processing of Service Information, disassembling of packetised elementary stream at client side H04N0021434000)"
+          }
+        },
+        {
+          "code": "H04N 7/54",
+          "title": {
+            "ko": null,
+            "en": "the signals being synchronous"
+          }
+        },
+        {
+          "code": "H04N 7/56",
+          "title": {
+            "ko": null,
+            "en": "Synchronising systems therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 9/00",
+      "title": {
+        "ko": "컬러텔레비젼시스템의 세부",
+        "en": "Details of colour television systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 9/01",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for demodulating colour component signals modulated spatially by colour striped filters by phase separation"
+          }
+        },
+        {
+          "code": "H04N 9/03",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for demodulating colour component signals modulated spatially by colour striped filters by frequency separation"
+          }
+        },
+        {
+          "code": "H04N 9/11",
+          "title": {
+            "ko": null,
+            "en": "Scanning of colour motion picture films, e.g. for telecine"
+          }
+        },
+        {
+          "code": "H04N 9/12",
+          "title": {
+            "ko": "화상재생장치(H04N 9/11이 우선)",
+            "en": "Picture reproducers (H04N0009110000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/14",
+          "title": {
+            "ko": null,
+            "en": "using optical-mechanical scanning means only"
+          }
+        },
+        {
+          "code": "H04N 9/16",
+          "title": {
+            "ko": "음극선관(CRT)을 이용하는 것(H04N 9/11이 우선)",
+            "en": "using cathode ray tubes (H04N0009110000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/18",
+          "title": {
+            "ko": "원색(原色)신호에 대하여 분리된 전자빔을 이용하는 것(H04N 9/27이 우선)",
+            "en": "using separate electron beams for the primary colour signals (H04N0009270000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/20",
+          "title": {
+            "ko": null,
+            "en": "with more than one beam in a tube"
+          }
+        },
+        {
+          "code": "H04N 9/22",
+          "title": {
+            "ko": "2개이상의 원색(原色)정보에 대하여 동일 빔을 이용하는 것(H04N 9/27이 우선)",
+            "en": "using the same beam for more than one primary colour information (H04N0009270000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/24",
+          "title": {
+            "ko": null,
+            "en": "using means, integral with, or external to, the tube, for producing signal indicating instantaneous beam position"
+          }
+        },
+        {
+          "code": "H04N 9/26",
+          "title": {
+            "ko": null,
+            "en": "using electron-optical colour selection means, e.g. line grid, deflection means in or near the gun or near the phosphor screen"
+          }
+        },
+        {
+          "code": "H04N 9/27",
+          "title": {
+            "ko": null,
+            "en": "with variable depth of penetration of electron beam into the luminescent layer, e.g. penetrons"
+          }
+        },
+        {
+          "code": "H04N 9/28",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for convergence or focusing"
+          }
+        },
+        {
+          "code": "H04N 9/285",
+          "title": {
+            "ko": null,
+            "en": "using quadrupole lenses"
+          }
+        },
+        {
+          "code": "H04N 9/29",
+          "title": {
+            "ko": null,
+            "en": "using demagnetisation or compensation of external magnetic fields"
+          }
+        },
+        {
+          "code": "H04N 9/30",
+          "title": {
+            "ko": null,
+            "en": "using solid-state colour display devices"
+          }
+        },
+        {
+          "code": "H04N 9/31",
+          "title": {
+            "ko": null,
+            "en": "Projection devices for colour picture display"
+          }
+        },
+        {
+          "code": "H04N 9/43",
+          "title": {
+            "ko": null,
+            "en": "Conversion of monochrome picture signals to colour picture signals for colour picture display"
+          }
+        },
+        {
+          "code": "H04N 9/44",
+          "title": {
+            "ko": "컬러동기",
+            "en": "Colour synchronisation"
+          }
+        },
+        {
+          "code": "H04N 9/45",
+          "title": {
+            "ko": null,
+            "en": "Generation or recovery of colour sub-carriers"
+          }
+        },
+        {
+          "code": "H04N 9/455",
+          "title": {
+            "ko": "컬러버스트신호의 발생; 컬러화상신호내로 컬러버스트의 삽입 또는 컬러화상신호로부터 컬러버스트신호의 분리(H04N 9/45가 우선)",
+            "en": "Generation of colour burst signals; Insertion of colour burst signals in colour picture signals or separation of colour burst signals from colour picture signals (H04N0009450000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/465",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation of the PAL-switch"
+          }
+        },
+        {
+          "code": "H04N 9/47",
+          "title": {
+            "ko": null,
+            "en": "for sequential signals"
+          }
+        },
+        {
+          "code": "H04N 9/475",
+          "title": {
+            "ko": null,
+            "en": "for mutually locking different synchronisation sources"
+          }
+        },
+        {
+          "code": "H04N 9/64",
+          "title": {
+            "ko": "컬러 신호 처리용 회로 (H04N9/77이 우선; 컬러 신호 처리를 위한 카메라 처리 파이프라인 H04N23/84)",
+            "en": "Circuits for processing colour signals (H04N0009770000 takes precedence;camera processing pipelines for processing colour signals H04N0023840000)"
+          }
+        },
+        {
+          "code": "H04N 9/65",
+          "title": {
+            "ko": null,
+            "en": "for synchronous modulators"
+          }
+        },
+        {
+          "code": "H04N 9/66",
+          "title": {
+            "ko": null,
+            "en": "for synchronous demodulators"
+          }
+        },
+        {
+          "code": "H04N 9/67",
+          "title": {
+            "ko": "매트릭스화(matrixing)를 위한 것 (색상 신호의 매트릭스화를 위한 카메라 처리 파이프라인 H04N23/85)",
+            "en": "for matrixing (camera processing pipelines for matrixing of colour signals H04N0023850000)"
+          }
+        },
+        {
+          "code": "H04N 9/68",
+          "title": {
+            "ko": "색상 신호의 진폭을 제어하기 위한 것, 예. 자동 채도 제어 회로 (H04N9/71, H04N9/73이 우선; 색상 신호의 채도 제어용 카메라 처리 파이프라인 H04N23/86)",
+            "en": "for controlling the amplitude of colour signals, e.g. automatic chroma control circuits  (H04N0009710000, H04N0009730000 take precedence; camera processing pipelines for controlling the colour saturation of colour signals H04N0023860000)"
+          }
+        },
+        {
+          "code": "H04N 9/69",
+          "title": {
+            "ko": "감마 보정을 통해 컬러 신호를 수정하기 위한 것 (컬러 신호에 대한 카메라 응답 제어 H04N23/83)",
+            "en": "for modifying the colour signals by gamma correction (controlling camera response for colour signals H04N0023830000)"
+          }
+        },
+        {
+          "code": "H04N 9/70",
+          "title": {
+            "ko": null,
+            "en": "for colour killing"
+          }
+        },
+        {
+          "code": "H04N 9/71",
+          "title": {
+            "ko": null,
+            "en": "combined with colour gain control"
+          }
+        },
+        {
+          "code": "H04N 9/72",
+          "title": {
+            "ko": "색상 신호의 직류(DC) 및 천천히 변화하는 성분의 재삽입을 위한 것 (색상 신호의 직류 또는 천천히 변화하는 성분을 재삽입하기 위한 카메라 처리 파이프라인 H04N23/87)",
+            "en": "for reinsertion of DC and slowly varying components of colour signals (camera processing pipelines for reinsertion of DC or slowly varying components of colour signals H04N0023870000)"
+          }
+        },
+        {
+          "code": "H04N 9/73",
+          "title": {
+            "ko": "컬러 밸런스 회로, 예. 화이트 밸런스 회로 또는 색온도 제어 (컬러 밸런스를 위한 카메라 처리 파이프라인 H04N23/88)",
+            "en": "Colour balance circuits, e.g. white balance circuits or colour temperature control (camera processing pipelines for colour balance H04N0023880000)"
+          }
+        },
+        {
+          "code": "H04N 9/74",
+          "title": {
+            "ko": "특수효과를 얻기 위한 것(H04N 9/65부터 H04N 9/73이 우선)",
+            "en": "for obtaining special effects (H04N0009650000-H04N0009730000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/75",
+          "title": {
+            "ko": null,
+            "en": "Chroma key"
+          }
+        },
+        {
+          "code": "H04N 9/76",
+          "title": {
+            "ko": "컬러신호의 혼합을 위한 것(H04N 9/75가 우선)",
+            "en": "for mixing of colour signals (H04N0009750000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/77",
+          "title": {
+            "ko": "상호 관련되어 있는 휘도신호와 색차신호를 처리하기 위한 회로, 예. 컬러신호에 관련된 휘도신호의 위상조정, 미분이득이나 미분위상의 보정(매트릭스하기 위한 회로 H04N 9/67)",
+            "en": "Circuits for processing the brightness signal and the chrominance signal relative to each other, e.g. adjusting the phase of the brightness signal relative to the colour signal, correcting differential gain or differential phase (circuits for matrixing H04N0009670000)"
+          }
+        },
+        {
+          "code": "H04N 9/78",
+          "title": {
+            "ko": null,
+            "en": "for separating the brightness signal or the chrominance signal from the colour television signal, e.g. using comb filter"
+          }
+        },
+        {
+          "code": "H04N 9/79",
+          "title": {
+            "ko": "기록에 관련된 컬러텔레비젼신호의 처리",
+            "en": "Processing of colour television signals in connection with recording"
+          }
+        },
+        {
+          "code": "H04N 9/793",
+          "title": {
+            "ko": null,
+            "en": "for controlling the level of the chrominance signal, e.g. by means of automatic chroma control circuits"
+          }
+        },
+        {
+          "code": "H04N 9/797",
+          "title": {
+            "ko": "각 채널의 대역폭이 신호의 대역폭보다 좁은 복수의 채널에 신호를 기록하기 위한 것(H04N 9/804, H04N 9/81, H04N 9/82이 우선)",
+            "en": "for recording the signal in a plurality of channels, the bandwidth of each channel being less than the bandwidth of the signal (H04N0009804000, H04N0009810000, H04N0009820000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/80",
+          "title": {
+            "ko": "기록하기 위한 텔레비젼신호의 변환, 예. 변조, 주파수 변환; 재생을 위한 역변환",
+            "en": "Transformation of the television signal for recording, e.g. modulation, frequency changing; Inverse transformation for playback"
+          }
+        },
+        {
+          "code": "H04N 9/802",
+          "title": {
+            "ko": "음성신호의 처리를 포함하는 것(H04N 9/806, H04N 9/835이 우선)",
+            "en": "involving processing of the sound signal (H04N0009806000, H04N0009835000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/804",
+          "title": {
+            "ko": null,
+            "en": "involving pulse code modulation of the colour picture signal components"
+          }
+        },
+        {
+          "code": "H04N 9/806",
+          "title": {
+            "ko": null,
+            "en": "with processing of the sound signal"
+          }
+        },
+        {
+          "code": "H04N 9/808",
+          "title": {
+            "ko": null,
+            "en": "involving pulse code modulation of the composite colour video-signal"
+          }
+        },
+        {
+          "code": "H04N 9/81",
+          "title": {
+            "ko": null,
+            "en": "the individual colour picture signal components being recorded sequentially only"
+          }
+        },
+        {
+          "code": "H04N 9/815",
+          "title": {
+            "ko": null,
+            "en": "the luminance signal and the sequential colour component signals being recorded in separate recording channels"
+          }
+        },
+        {
+          "code": "H04N 9/82",
+          "title": {
+            "ko": null,
+            "en": "the individual colour picture signal components being recorded simultaneously only"
+          }
+        },
+        {
+          "code": "H04N 9/825",
+          "title": {
+            "ko": null,
+            "en": "the luminance and chrominance signals being recorded in separate channels"
+          }
+        },
+        {
+          "code": "H04N 9/83",
+          "title": {
+            "ko": null,
+            "en": "the recorded chrominance signal occupying a frequency band under the frequency band of the recorded brightness signal"
+          }
+        },
+        {
+          "code": "H04N 9/835",
+          "title": {
+            "ko": null,
+            "en": "involving processing of the sound signal"
+          }
+        },
+        {
+          "code": "H04N 9/84",
+          "title": {
+            "ko": null,
+            "en": "the recorded signal showing a feature, which is different in adjacent track parts, e.g. different phase or frequency"
+          }
+        },
+        {
+          "code": "H04N 9/85",
+          "title": {
+            "ko": null,
+            "en": "the recorded brightness signal occupying a frequency band totally overlapping the frequency band of the recorded chrominance signal, e.g. frequency interleaving"
+          }
+        },
+        {
+          "code": "H04N 9/86",
+          "title": {
+            "ko": null,
+            "en": "the individual colour picture signal components being recorded sequentially and simultaneously, e.g. corresponding to SECAM-system"
+          }
+        },
+        {
+          "code": "H04N 9/87",
+          "title": {
+            "ko": "컬러텔레비젼 신호의 재생(H04N 9/80이 우선)",
+            "en": "Regeneration of colour television signals (H04N0009800000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 9/873",
+          "title": {
+            "ko": null,
+            "en": "for restoring the colour component sequence of the reproduced signal"
+          }
+        },
+        {
+          "code": "H04N 9/877",
+          "title": {
+            "ko": null,
+            "en": "by assembling picture element blocks in an intermediate memory"
+          }
+        },
+        {
+          "code": "H04N 9/88",
+          "title": {
+            "ko": null,
+            "en": "Signal drop-out compensation"
+          }
+        },
+        {
+          "code": "H04N 9/882",
+          "title": {
+            "ko": null,
+            "en": "the signal being a composite colour television signal"
+          }
+        },
+        {
+          "code": "H04N 9/885",
+          "title": {
+            "ko": null,
+            "en": "using a digital intermediate memory"
+          }
+        },
+        {
+          "code": "H04N 9/888",
+          "title": {
+            "ko": null,
+            "en": "for signals recorded by pulse code modulation"
+          }
+        },
+        {
+          "code": "H04N 9/89",
+          "title": {
+            "ko": null,
+            "en": "Time-base error compensation"
+          }
+        },
+        {
+          "code": "H04N 9/893",
+          "title": {
+            "ko": null,
+            "en": "using an analogue memory, e.g. a CCD-shift register, the delay of which is controlled by a voltage controlled oscillator"
+          }
+        },
+        {
+          "code": "H04N 9/896",
+          "title": {
+            "ko": null,
+            "en": "using a digital memory with independent write-in and read-out clock generators"
+          }
+        },
+        {
+          "code": "H04N 9/898",
+          "title": {
+            "ko": null,
+            "en": "using frequency multiplication of the reproduced colour signal with another auxiliary reproduced signal, e.g. a pilot signal carrier"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 11/00",
+      "title": {
+        "ko": "컬러 텔레비전 시스템 (세부 H04N 9/00)",
+        "en": "Colour television systems (details H04N0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 11/02",
+          "title": {
+            "ko": "대역폭을 감소시키는 것(H04N 11/04가 우선)",
+            "en": "with bandwidth reduction (H04N0011040000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 11/04",
+          "title": {
+            "ko": null,
+            "en": "using pulse code modulation"
+          }
+        },
+        {
+          "code": "H04N 11/06",
+          "title": {
+            "ko": "개개의 컬러 화상신호성분이 결합되는 방법에 의해 특징지워지는 전송시스템",
+            "en": "Transmission systems characterised by the manner in which the individual colour picture signal components are combined"
+          }
+        },
+        {
+          "code": "H04N 11/08",
+          "title": {
+            "ko": "순차신호만을 이용하는 것(점순차시스템 H04N 11/12)",
+            "en": "using sequential signals only (dot sequential systems H04N0011120000)"
+          }
+        },
+        {
+          "code": "H04N 11/10",
+          "title": {
+            "ko": null,
+            "en": "in which colour signals are inserted in the blanking interval of brightness signal"
+          }
+        },
+        {
+          "code": "H04N 11/12",
+          "title": {
+            "ko": null,
+            "en": "using simultaneous signals only"
+          }
+        },
+        {
+          "code": "H04N 11/14",
+          "title": {
+            "ko": null,
+            "en": "in which one signal, modulated in phase and amplitude, conveys colour information and a second signal conveys brightness information, e.g. NTSC-system"
+          }
+        },
+        {
+          "code": "H04N 11/16",
+          "title": {
+            "ko": null,
+            "en": "the chrominance signal alternating in phase, e.g. PAL-system"
+          }
+        },
+        {
+          "code": "H04N 11/18",
+          "title": {
+            "ko": null,
+            "en": "using simultaneous and sequential signals, e.g. SECAM-system"
+          }
+        },
+        {
+          "code": "H04N 11/20",
+          "title": {
+            "ko": null,
+            "en": "Conversion of the manner in which the individual colour picture signal components are combined, e.g. conversion of colour television standards"
+          }
+        },
+        {
+          "code": "H04N 11/22",
+          "title": {
+            "ko": null,
+            "en": "in which simultaneous signals are converted into sequential signals or vice versa"
+          }
+        },
+        {
+          "code": "H04N 11/24",
+          "title": {
+            "ko": null,
+            "en": "High-definition television systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 13/00",
+      "title": {
+        "ko": "입체 텔레비젼 시스템; 그 세부",
+        "en": "Stereoscopic video systems; Multi-view video systems; Details thereof"
+      },
+      "definition": {
+        "ko": "이 그룹은 상이한 시점들로부터 획득된 이미지들을 나타내는 전자 신호 또는 깊이 정보를 포함하는 신호들에 의해 하나 이상의 시청자들에게 3차원 [3D] 효과 또는 상이한 뷰들을 제공하는 시스템을 포함한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H04N 13/10",
+          "title": {
+            "ko": "입체 또는 멀티-뷰 화상 신호의 처리, 기록 또는 전송 [2018.",
+            "en": "Processing, recording or transmission of stereoscopic or multi-view image signals"
+          }
+        },
+        {
+          "code": "H04N 13/106",
+          "title": {
+            "ko": "화상 신호 처리 (H04N 19/597 멀티-뷰 비디오 인코딩 시퀀스 용)",
+            "en": "Processing image signals  (for multi-view video sequence encoding H04N0019597000)"
+          }
+        },
+        {
+          "code": "H04N 13/111",
+          "title": {
+            "ko": null,
+            "en": "Transformation of image signals corresponding to virtual viewpoints, e.g. spatial image interpolation"
+          }
+        },
+        {
+          "code": "H04N 13/117",
+          "title": {
+            "ko": null,
+            "en": "the virtual viewpoint locations being selected by the viewers or determined by viewer tracking"
+          }
+        },
+        {
+          "code": "H04N 13/122",
+          "title": {
+            "ko": "이미지 신호 내용을 수정하여 입체 영상의 3차원 [3D] 인상을 개선하는 것, 예. 모노스코픽 깊이 단서를 필터링 또는 추가하는 것에 의해 (H04N13/128이 우선)",
+            "en": "Improving the three-dimensional [3D] impression of stereoscopic images by modifying image signal contents, e.g. by filtering or adding monoscopic depth cues (H04N0013128000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 13/125",
+          "title": {
+            "ko": null,
+            "en": "for crosstalk reduction"
+          }
+        },
+        {
+          "code": "H04N 13/128",
+          "title": {
+            "ko": null,
+            "en": "Adjusting depth or disparity"
+          }
+        },
+        {
+          "code": "H04N 13/133",
+          "title": {
+            "ko": null,
+            "en": "Equalising the characteristics of different image components, e.g. their average brightness or colour balance"
+          }
+        },
+        {
+          "code": "H04N 13/139",
+          "title": {
+            "ko": null,
+            "en": "Format conversion, e.g. of frame-rate or size"
+          }
+        },
+        {
+          "code": "H04N 13/144",
+          "title": {
+            "ko": null,
+            "en": "for flicker reduction"
+          }
+        },
+        {
+          "code": "H04N 13/15",
+          "title": {
+            "ko": null,
+            "en": "for colour aspects of image signals"
+          }
+        },
+        {
+          "code": "H04N 13/156",
+          "title": {
+            "ko": null,
+            "en": "Mixing image signals"
+          }
+        },
+        {
+          "code": "H04N 13/161",
+          "title": {
+            "ko": "상이한 영상 신호 성분의 부호화, 다중화 또는 역 다중화 (H04N 19/597의 멀티-뷰 화상 시퀀스 부호화의 경우)",
+            "en": "Encoding, multiplexing or demultiplexing different image signal components (for multi-view video sequence encoding H04N0019597000)"
+          }
+        },
+        {
+          "code": "H04N 13/167",
+          "title": {
+            "ko": null,
+            "en": "Synchronising or controlling image signals"
+          }
+        },
+        {
+          "code": "H04N 13/172",
+          "title": {
+            "ko": null,
+            "en": "image signals comprising non-image signal components, e.g. headers or format information"
+          }
+        },
+        {
+          "code": "H04N 13/178",
+          "title": {
+            "ko": null,
+            "en": "Metadata, e.g. disparity information"
+          }
+        },
+        {
+          "code": "H04N 13/183",
+          "title": {
+            "ko": null,
+            "en": "On-screen display [OSD] information, e.g. subtitles or menus"
+          }
+        },
+        {
+          "code": "H04N 13/189",
+          "title": {
+            "ko": null,
+            "en": "Recording image signals; Reproducing recorded image signals"
+          }
+        },
+        {
+          "code": "H04N 13/194",
+          "title": {
+            "ko": null,
+            "en": "Transmission of image signals"
+          }
+        },
+        {
+          "code": "H04N 13/20",
+          "title": {
+            "ko": "화상 신호의 생성",
+            "en": "Image signal generators"
+          }
+        },
+        {
+          "code": "H04N 13/204",
+          "title": {
+            "ko": "입체 화상 카메라 사용 (입체 사진 촬영 G03B 35/00)",
+            "en": "using stereoscopic image cameras (stereoscopic photography G03B0035000000)"
+          }
+        },
+        {
+          "code": "H04N 13/207",
+          "title": {
+            "ko": "단일 2차원 [2D] 이미지 센서를 사용하는 것",
+            "en": "using a single two-dimensional [2D] image sensor"
+          }
+        },
+        {
+          "code": "H04N 13/211",
+          "title": {
+            "ko": null,
+            "en": "using temporal multiplexing"
+          }
+        },
+        {
+          "code": "H04N 13/214",
+          "title": {
+            "ko": null,
+            "en": "using spectral multiplexing"
+          }
+        },
+        {
+          "code": "H04N 13/218",
+          "title": {
+            "ko": null,
+            "en": "using spatial multiplexing"
+          }
+        },
+        {
+          "code": "H04N 13/221",
+          "title": {
+            "ko": null,
+            "en": "using the relative movement between cameras and objects"
+          }
+        },
+        {
+          "code": "H04N 13/225",
+          "title": {
+            "ko": null,
+            "en": "using parallax barriers"
+          }
+        },
+        {
+          "code": "H04N 13/229",
+          "title": {
+            "ko": null,
+            "en": "using lenticular lenses, e.g. arrangements of cylindrical lenses"
+          }
+        },
+        {
+          "code": "H04N 13/232",
+          "title": {
+            "ko": null,
+            "en": "using fly-eye lenses, e.g. arrangements of circular lenses"
+          }
+        },
+        {
+          "code": "H04N 13/236",
+          "title": {
+            "ko": null,
+            "en": "using varifocal lenses or mirrors"
+          }
+        },
+        {
+          "code": "H04N 13/239",
+          "title": {
+            "ko": "눈 사이 거리와 같거나 관련된 상대 위치를 갖는 2차원 [2D] 이미지 센서를 사용하는 것 (H04N13/243이 우선)",
+            "en": "using two two-dimensional [2D] image sensors having a relative position equal to or related to the interocular distance (H04N0013243000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 13/243",
+          "title": {
+            "ko": "3개 이상의 2차원 [2D] 이미지 센서를 사용하는 것",
+            "en": "using three or more two-dimensional [2D] image sensors"
+          }
+        },
+        {
+          "code": "H04N 13/246",
+          "title": {
+            "ko": null,
+            "en": "Calibration of cameras"
+          }
+        },
+        {
+          "code": "H04N 13/25",
+          "title": {
+            "ko": null,
+            "en": "using two or more image sensors with different characteristics other than in their location or field of view, e.g. having different resolutions or colour pickup characteristics; using image signals from one sensor to control the characteristics of another sensor"
+          }
+        },
+        {
+          "code": "H04N 13/254",
+          "title": {
+            "ko": null,
+            "en": "in combination with electromagnetic radiation sources for illuminating objects"
+          }
+        },
+        {
+          "code": "H04N 13/257",
+          "title": {
+            "ko": null,
+            "en": "Colour aspects"
+          }
+        },
+        {
+          "code": "H04N 13/261",
+          "title": {
+            "ko": null,
+            "en": "with monoscopic-to-stereoscopic image conversion"
+          }
+        },
+        {
+          "code": "H04N 13/264",
+          "title": {
+            "ko": null,
+            "en": "using the relative movement of objects in two video frames or fields"
+          }
+        },
+        {
+          "code": "H04N 13/268",
+          "title": {
+            "ko": null,
+            "en": "based on depth image-based rendering [DIBR]"
+          }
+        },
+        {
+          "code": "H04N 13/271",
+          "title": {
+            "ko": null,
+            "en": "wherein the generated image signals comprise depth maps or disparity maps"
+          }
+        },
+        {
+          "code": "H04N 13/275",
+          "title": {
+            "ko": "3차원 [3D] 객체 모델으로부터의 것, 예. 컴퓨터로 생성된 입체 이미지 신호",
+            "en": "from three-dimensional [3D] object models, e.g. computer-generated stereoscopic image signals"
+          }
+        },
+        {
+          "code": "H04N 13/279",
+          "title": {
+            "ko": null,
+            "en": "the virtual viewpoint locations being selected by the viewers or determined by tracking"
+          }
+        },
+        {
+          "code": "H04N 13/282",
+          "title": {
+            "ko": null,
+            "en": "for generating image signals corresponding to three or more geometrical viewpoints, e.g. multi-view systems"
+          }
+        },
+        {
+          "code": "H04N 13/286",
+          "title": {
+            "ko": null,
+            "en": "having separate monoscopic and stereoscopic modes"
+          }
+        },
+        {
+          "code": "H04N 13/289",
+          "title": {
+            "ko": null,
+            "en": "Switching between monoscopic and stereoscopic modes"
+          }
+        },
+        {
+          "code": "H04N 13/293",
+          "title": {
+            "ko": null,
+            "en": "Generating mixed stereoscopic images; Generating mixed monoscopic and stereoscopic images, e.g. a stereoscopic image overlay window on a monoscopic image background"
+          }
+        },
+        {
+          "code": "H04N 13/296",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation thereof; Control thereof"
+          }
+        },
+        {
+          "code": "H04N 13/30",
+          "title": {
+            "ko": "이미지 재생기 (입체 또는 기타 3차원 [3D] 효과를 생성하는 광학 시스템 G02B30/00)",
+            "en": "Image reproducers (optical systems for producing stereoscopic or other three-dimensional [3D] effects G02B0030000000)"
+          }
+        },
+        {
+          "code": "H04N 13/302",
+          "title": {
+            "ko": null,
+            "en": "for viewing without the aid of special glasses, i.e. using autostereoscopic displays"
+          }
+        },
+        {
+          "code": "H04N 13/305",
+          "title": {
+            "ko": null,
+            "en": "using lenticular lenses, e.g. arrangements of cylindrical lenses"
+          }
+        },
+        {
+          "code": "H04N 13/307",
+          "title": {
+            "ko": null,
+            "en": "using  fly-eye lenses, e.g. arrangements of circular lenses"
+          }
+        },
+        {
+          "code": "H04N 13/31",
+          "title": {
+            "ko": null,
+            "en": "using parallax barriers"
+          }
+        },
+        {
+          "code": "H04N 13/312",
+          "title": {
+            "ko": null,
+            "en": "the parallax barriers being placed behind the display panel, e.g. between backlight and spatial light modulator [SLM]"
+          }
+        },
+        {
+          "code": "H04N 13/315",
+          "title": {
+            "ko": null,
+            "en": "the parallax barriers being time-variant"
+          }
+        },
+        {
+          "code": "H04N 13/317",
+          "title": {
+            "ko": null,
+            "en": "using slanted parallax optics"
+          }
+        },
+        {
+          "code": "H04N 13/32",
+          "title": {
+            "ko": null,
+            "en": "using arrays of controllable light sources; using moving apertures or moving light sources"
+          }
+        },
+        {
+          "code": "H04N 13/322",
+          "title": {
+            "ko": null,
+            "en": "using varifocal lenses or mirrors"
+          }
+        },
+        {
+          "code": "H04N 13/324",
+          "title": {
+            "ko": null,
+            "en": "Colour aspects"
+          }
+        },
+        {
+          "code": "H04N 13/327",
+          "title": {
+            "ko": null,
+            "en": "Calibration thereof"
+          }
+        },
+        {
+          "code": "H04N 13/332",
+          "title": {
+            "ko": "특수 안경이나 헤드 마운트 디스플레이를 사용하여 보기 위한 디스플레이 [HMD]",
+            "en": "Displays for viewing with the aid of special glasses or head-mounted displays [HMD]"
+          }
+        },
+        {
+          "code": "H04N 13/334",
+          "title": {
+            "ko": null,
+            "en": "using spectral multiplexing"
+          }
+        },
+        {
+          "code": "H04N 13/337",
+          "title": {
+            "ko": null,
+            "en": "using polarisation multiplexing"
+          }
+        },
+        {
+          "code": "H04N 13/339",
+          "title": {
+            "ko": "공간 다중화를 사용하는 것 ( H04N 13/337 우선)",
+            "en": "using spatial multiplexing  (H04N0013337000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 13/341",
+          "title": {
+            "ko": null,
+            "en": "using temporal multiplexing"
+          }
+        },
+        {
+          "code": "H04N 13/344",
+          "title": {
+            "ko": null,
+            "en": "with head-mounted left-right displays"
+          }
+        },
+        {
+          "code": "H04N 13/346",
+          "title": {
+            "ko": null,
+            "en": "using prisms or semi-transparent mirrors"
+          }
+        },
+        {
+          "code": "H04N 13/349",
+          "title": {
+            "ko": "관찰자 추적없이 3개 이상의 기하학적 시점을 표시하는 멀티-뷰 디스플레이(플라이 아이 렌즈를 사용한 특수 안경의 도움 없이 볼수 있는 것 H04N13/307)",
+            "en": "Multi-view displays for displaying three or more geometrical viewpoints without viewer tracking   (for viewing without the aid of special glasses using fly-eye lenses H04N0013307000)"
+          }
+        },
+        {
+          "code": "H04N 13/351",
+          "title": {
+            "ko": null,
+            "en": "for displaying simultaneously"
+          }
+        },
+        {
+          "code": "H04N 13/354",
+          "title": {
+            "ko": null,
+            "en": "for displaying sequentially"
+          }
+        },
+        {
+          "code": "H04N 13/356",
+          "title": {
+            "ko": null,
+            "en": "having separate monoscopic and stereoscopic modes"
+          }
+        },
+        {
+          "code": "H04N 13/359",
+          "title": {
+            "ko": null,
+            "en": "Switching between monoscopic and stereoscopic modes"
+          }
+        },
+        {
+          "code": "H04N 13/361",
+          "title": {
+            "ko": null,
+            "en": "Reproducing mixed stereoscopic images; Reproducing mixed monoscopic and stereoscopic images, e.g. a stereoscopic image overlay window on a monoscopic image background"
+          }
+        },
+        {
+          "code": "H04N 13/363",
+          "title": {
+            "ko": "이미지 프로젝션 스크린을 사용하는 것 (체적 디스플레이 H04N 13/388 )",
+            "en": "using image projection screens   (volumetric displays H04N0013388000)"
+          }
+        },
+        {
+          "code": "H04N 13/365",
+          "title": {
+            "ko": null,
+            "en": "using digital micromirror devices [DMD]"
+          }
+        },
+        {
+          "code": "H04N 13/366",
+          "title": {
+            "ko": null,
+            "en": "using viewer tracking"
+          }
+        },
+        {
+          "code": "H04N 13/368",
+          "title": {
+            "ko": null,
+            "en": "for two or more viewers"
+          }
+        },
+        {
+          "code": "H04N 13/371",
+          "title": {
+            "ko": null,
+            "en": "for tracking viewers with different interocular distances; for tracking rotational head movements around the vertical axis"
+          }
+        },
+        {
+          "code": "H04N 13/373",
+          "title": {
+            "ko": null,
+            "en": "for tracking forward-backward translational head movements, i.e. longitudinal movements"
+          }
+        },
+        {
+          "code": "H04N 13/376",
+          "title": {
+            "ko": null,
+            "en": "for tracking left-right translational head movements, i.e. lateral movements"
+          }
+        },
+        {
+          "code": "H04N 13/378",
+          "title": {
+            "ko": null,
+            "en": "for tracking rotational head movements around an axis perpendicular to the screen"
+          }
+        },
+        {
+          "code": "H04N 13/38",
+          "title": {
+            "ko": null,
+            "en": "for tracking vertical translational head movements"
+          }
+        },
+        {
+          "code": "H04N 13/383",
+          "title": {
+            "ko": null,
+            "en": "for tracking with gaze detection, i.e. detecting the lines of sight of the viewer's eyes"
+          }
+        },
+        {
+          "code": "H04N 13/385",
+          "title": {
+            "ko": "디스플레이 스크린상의 좌우 화상 구성요소의 위치를 신속하게 교대하는 것 (시간 변화 시차 장벽을 사용하여 특수 안경을 사용하지 않고 보려는 경우 H04N13/315, 시간 다중화를 사용하여 특수 안경 또는 머리 장착형 디스플레이를 사용하여 보기 위한 디스플레이 H04N 13/341)",
+            "en": "alternating rapidly the location of the left-right image components on the display screens (for viewing without the aid of special glasses using time variant parallax barriers H04N0013315000;displays for viewing with the aid of special glasses or head-mounted displays using temporal multiplexing H04N0013341000)"
+          }
+        },
+        {
+          "code": "H04N 13/388",
+          "title": {
+            "ko": "체적 디스플레이, 즉. 화상이 볼륨에 분산된 화소로부터 내장된 시스템}",
+            "en": "Volumetric displays, i.e. systems where the image is built up from picture elements distributed through a volume"
+          }
+        },
+        {
+          "code": "H04N 13/39",
+          "title": {
+            "ko": null,
+            "en": "the picture elements emitting light at places where a pair of light beams intersect in a transparent material"
+          }
+        },
+        {
+          "code": "H04N 13/393",
+          "title": {
+            "ko": null,
+            "en": "the volume being generated by a moving, e.g. vibrating or rotating, surface"
+          }
+        },
+        {
+          "code": "H04N 13/395",
+          "title": {
+            "ko": "깊이 샘플링을 갖는 것, 즉. 2차원 [2D] 이미지 평면의 스택 또는 시퀀스로부터 구성된 볼륨",
+            "en": "with depth sampling, i.e. the volume being constructed from a stack or sequence of two-dimensional [2D] image planes"
+          }
+        },
+        {
+          "code": "H04N 13/398",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation thereof; Control thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 17/00",
+      "title": {
+        "ko": null,
+        "en": "Diagnosis, testing or measuring for television systems or their details"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 17/02",
+          "title": {
+            "ko": null,
+            "en": "for colour television signals"
+          }
+        },
+        {
+          "code": "H04N 17/04",
+          "title": {
+            "ko": null,
+            "en": "for receivers"
+          }
+        },
+        {
+          "code": "H04N 17/06",
+          "title": {
+            "ko": null,
+            "en": "for recorders"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 19/00",
+      "title": {
+        "ko": "디지털 비디오 신호의 부호화, 복호화 또는 압축 또는 압축해제를 위한 방법 또는 장치",
+        "en": "Methods or arrangements for coding, decoding, compressing or decompressing digital video signals"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 19/10",
+          "title": {
+            "ko": "적응성 부호화를 사용하는 것",
+            "en": "using adaptive coding"
+          },
+          "definition": {
+            "ko": "이 그룹을 분류할때 적응성 부호화에 관련된 각각의 측면은 서브그룹 H04N 19/102, H04N 19/134, H04N 19/169 및 H04N 19/189 각각에 분류되어야 한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "H04N 19/102",
+          "title": {
+            "ko": "적응성 부호화에 의하여 제어되거나 영향받은 요소, 변수 또는 선택에 특징이 있는 것",
+            "en": "characterised by the element, parameter or selection affected or controlled by the adaptive coding"
+          }
+        },
+        {
+          "code": "H04N 19/103",
+          "title": {
+            "ko": "부호화 모드 또는 예측 모드의 선택",
+            "en": "Selection of coding mode or of prediction mode"
+          }
+        },
+        {
+          "code": "H04N 19/105",
+          "title": {
+            "ko": null,
+            "en": "Selection of the reference unit for prediction within a chosen coding or prediction mode, e.g. adaptive choice of position and number of pixels used for prediction"
+          }
+        },
+        {
+          "code": "H04N 19/107",
+          "title": {
+            "ko": null,
+            "en": "between spatial and temporal predictive coding, e.g. picture refresh"
+          }
+        },
+        {
+          "code": "H04N 19/109",
+          "title": {
+            "ko": null,
+            "en": "among a plurality of temporal predictive coding modes"
+          }
+        },
+        {
+          "code": "H04N 19/11",
+          "title": {
+            "ko": null,
+            "en": "among a plurality of spatial predictive coding modes"
+          }
+        },
+        {
+          "code": "H04N 19/112",
+          "title": {
+            "ko": null,
+            "en": "according to a given display mode, e.g. for interlaced or progressive display mode"
+          }
+        },
+        {
+          "code": "H04N 19/114",
+          "title": {
+            "ko": "화상 집합 [GOP] 구조를 적용하는 것, 예. 두 개의 앵커 프레임 간에 다수의 B 프레임 (H04N 19/107이 우선)",
+            "en": "Adapting the group of pictures [GOP] structure, e.g. number of B-frames between two anchor frames (H04N0019107000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/115",
+          "title": {
+            "ko": null,
+            "en": "Selection of the code volume for a coding unit prior to coding"
+          }
+        },
+        {
+          "code": "H04N 19/117",
+          "title": {
+            "ko": "필터, 예. 전처리 또는 후처리를 위한 것 (부분대역 필터 뱅크 H04N 19/635)",
+            "en": "Filters, e.g. for pre-processing or post-processing (sub-band filter banks H04N0019635000)"
+          }
+        },
+        {
+          "code": "H04N 19/119",
+          "title": {
+            "ko": null,
+            "en": "Adaptive subdivision aspects e.g. subdivision of a picture into rectangular or non-rectangular coding blocks"
+          }
+        },
+        {
+          "code": "H04N 19/12",
+          "title": {
+            "ko": "다수의 변형 또는 표준 중에서의 선택, 예. 이산 코사인 변환 [DCT]과 부대역 변환 간의 선택 또는 H.263과 H.264 간의 선택",
+            "en": "Selection from among a plurality of transforms or standards, e.g. selection between discrete cosine transform [DCT] and sub-band transform or selection between H.263 and H.264"
+          },
+          "definition": {
+            "ko": "이 그룹을 분류할때, 각각의 압축 알고리즘은 그룹 H04N 19/60 또는 H04N 19/90의 관련된 서브그룹에 추가로 분류된다. [new]",
+            "en": null
+          }
+        },
+        {
+          "code": "H04N 19/122",
+          "title": {
+            "ko": null,
+            "en": "Selection of transform size, e.g. 8x8 or 2x4x8 DCT; Selection of sub-band transforms of varying structure or type"
+          }
+        },
+        {
+          "code": "H04N 19/124",
+          "title": {
+            "ko": null,
+            "en": "Quantisation"
+          }
+        },
+        {
+          "code": "H04N 19/126",
+          "title": {
+            "ko": null,
+            "en": "Details of normalisation or weighting functions, e.g. normalisation matrices or variable uniform quantisers"
+          }
+        },
+        {
+          "code": "H04N 19/127",
+          "title": {
+            "ko": null,
+            "en": "Prioritisation of hardware or computational resources"
+          }
+        },
+        {
+          "code": "H04N 19/129",
+          "title": {
+            "ko": null,
+            "en": "Scanning of coding units, e.g. zig-zag scan of transform coefficients or flexible macroblock ordering [FMO]"
+          }
+        },
+        {
+          "code": "H04N 19/13",
+          "title": {
+            "ko": null,
+            "en": "Adaptive entropy coding, e.g. adaptive variable length coding [AVLC] or context adaptive binary arithmetic coding [CABAC]"
+          }
+        },
+        {
+          "code": "H04N 19/132",
+          "title": {
+            "ko": null,
+            "en": "Sampling, masking or truncation of coding units, e.g. adaptive resampling, frame skipping, frame interpolation or high-frequency transform coefficient masking"
+          }
+        },
+        {
+          "code": "H04N 19/134",
+          "title": {
+            "ko": "적응성 부호화에 양향을 주거나 제어하는 요소, 변수 또는 기준에 특징이 있는 것",
+            "en": "characterised by the element, parameter or criterion affecting or controlling the adaptive coding"
+          }
+        },
+        {
+          "code": "H04N 19/136",
+          "title": {
+            "ko": "착신 영상 신호 특성 또는 성질",
+            "en": "Incoming video signal characteristics or properties"
+          }
+        },
+        {
+          "code": "H04N 19/137",
+          "title": {
+            "ko": null,
+            "en": "Motion inside a coding unit, e.g. average field, frame or block difference"
+          }
+        },
+        {
+          "code": "H04N 19/139",
+          "title": {
+            "ko": null,
+            "en": "Analysis of motion vectors, e.g. their magnitude, direction, variance or reliability"
+          }
+        },
+        {
+          "code": "H04N 19/14",
+          "title": {
+            "ko": "부호화 유닛 복잡성, 예. 활동의 양 또는 에지 존재 판단 (H04N 19/146이 우선)",
+            "en": "Coding unit complexity, e.g. amount of activity or edge presence estimation (H04N0019146000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/142",
+          "title": {
+            "ko": null,
+            "en": "Detection of scene cut or scene change"
+          }
+        },
+        {
+          "code": "H04N 19/146",
+          "title": {
+            "ko": "인코더 출력에서의 데이터 율 또는 코드양",
+            "en": "Data rate or code amount at the encoder output"
+          }
+        },
+        {
+          "code": "H04N 19/147",
+          "title": {
+            "ko": "왜율 기준에 따른 것 (모션 예측을 위한 기준으로서의 왜율 H04N 19/567)",
+            "en": "according to rate distortion criteria (rate-distortion as a criterion for motion estimation H04N0019567000)"
+          }
+        },
+        {
+          "code": "H04N 19/149",
+          "title": {
+            "ko": null,
+            "en": "by estimating the code amount by means of a model, e.g. mathematical model or statistical model"
+          }
+        },
+        {
+          "code": "H04N 19/15",
+          "title": {
+            "ko": null,
+            "en": "by monitoring actual compressed data size at the memory before deciding storage at the transmission buffer"
+          }
+        },
+        {
+          "code": "H04N 19/152",
+          "title": {
+            "ko": null,
+            "en": "by measuring the fullness of the transmission buffer"
+          }
+        },
+        {
+          "code": "H04N 19/154",
+          "title": {
+            "ko": "측정된 또는 주관적으로 예측된 복호화 후의 시각적 품질, 예. 왜곡의 측정 (비율 왜곡 기준을 사용하는 것 H04N 19/147)",
+            "en": "Measured or subjectively estimated visual quality after decoding, e.g. measurement of distortion (use of rate-distortion criteria H04N0019147000)"
+          }
+        },
+        {
+          "code": "H04N 19/156",
+          "title": {
+            "ko": null,
+            "en": "Availability of hardware or computational resources, e.g. encoding based on power-saving criteria"
+          }
+        },
+        {
+          "code": "H04N 19/157",
+          "title": {
+            "ko": null,
+            "en": "Assigned coding mode, i.e. the coding mode being predefined or preselected to be further used for selection of another element or parameter"
+          }
+        },
+        {
+          "code": "H04N 19/159",
+          "title": {
+            "ko": null,
+            "en": "Prediction type, e.g. intra-frame, inter-frame or bidirectional frame prediction"
+          }
+        },
+        {
+          "code": "H04N 19/16",
+          "title": {
+            "ko": null,
+            "en": "for a given display mode, e.g. for interlaced or progressive display mode"
+          }
+        },
+        {
+          "code": "H04N 19/162",
+          "title": {
+            "ko": null,
+            "en": "User input"
+          }
+        },
+        {
+          "code": "H04N 19/164",
+          "title": {
+            "ko": null,
+            "en": "Feedback from the receiver or from the transmission channel"
+          }
+        },
+        {
+          "code": "H04N 19/166",
+          "title": {
+            "ko": null,
+            "en": "concerning the amount of transmission errors, e.g. bit error rate [BER]"
+          }
+        },
+        {
+          "code": "H04N 19/167",
+          "title": {
+            "ko": null,
+            "en": "Position within a video image, e.g. region of interest [ROI]"
+          }
+        },
+        {
+          "code": "H04N 19/169",
+          "title": {
+            "ko": null,
+            "en": "characterised by the coding unit, i.e. the structural portion or semantic portion of the video signal being the object or the subject of the adaptive coding"
+          }
+        },
+        {
+          "code": "H04N 19/17",
+          "title": {
+            "ko": null,
+            "en": "the unit being an image region, e.g. an object"
+          }
+        },
+        {
+          "code": "H04N 19/172",
+          "title": {
+            "ko": null,
+            "en": "the region being a picture, frame or field"
+          }
+        },
+        {
+          "code": "H04N 19/174",
+          "title": {
+            "ko": null,
+            "en": "the region being a slice, e.g. a line of blocks or a group of blocks"
+          }
+        },
+        {
+          "code": "H04N 19/176",
+          "title": {
+            "ko": null,
+            "en": "the region being a block, e.g. a macroblock"
+          }
+        },
+        {
+          "code": "H04N 19/177",
+          "title": {
+            "ko": null,
+            "en": "the unit being a group of pictures [GOP]"
+          }
+        },
+        {
+          "code": "H04N 19/179",
+          "title": {
+            "ko": null,
+            "en": "the unit being a scene or a shot"
+          }
+        },
+        {
+          "code": "H04N 19/18",
+          "title": {
+            "ko": null,
+            "en": "the unit being a set of transform coefficients"
+          }
+        },
+        {
+          "code": "H04N 19/182",
+          "title": {
+            "ko": null,
+            "en": "the unit being a pixel"
+          }
+        },
+        {
+          "code": "H04N 19/184",
+          "title": {
+            "ko": null,
+            "en": "the unit being bits, e.g. of the compressed video stream"
+          }
+        },
+        {
+          "code": "H04N 19/186",
+          "title": {
+            "ko": null,
+            "en": "the unit being a colour or a chrominance component"
+          }
+        },
+        {
+          "code": "H04N 19/187",
+          "title": {
+            "ko": null,
+            "en": "the unit being a scalable video layer"
+          }
+        },
+        {
+          "code": "H04N 19/189",
+          "title": {
+            "ko": "적응성 부호화에 사용되는 적응 방법, 적응도구 또는 적응 형식에 특징이 있는 것",
+            "en": "characterised by the adaptation method, adaptation tool or adaptation type used for the adaptive coding"
+          }
+        },
+        {
+          "code": "H04N 19/19",
+          "title": {
+            "ko": null,
+            "en": "using optimisation based on Lagrange multipliers"
+          }
+        },
+        {
+          "code": "H04N 19/192",
+          "title": {
+            "ko": null,
+            "en": "the adaptation method, adaptation tool or adaptation type being iterative or recursive"
+          }
+        },
+        {
+          "code": "H04N 19/194",
+          "title": {
+            "ko": null,
+            "en": "involving only two passes"
+          }
+        },
+        {
+          "code": "H04N 19/196",
+          "title": {
+            "ko": "인코딩 변수의 계산에 특히 적합한 것, 예. 사전에 계산된 인코딩 변수의 평균에 의한 것 (모션 벡터의 처리 H04N 19/513)",
+            "en": "being specially adapted for the computation of encoding parameters, e.g. by averaging previously computed encoding parameters (processing of motion vectors H04N0019513000)"
+          }
+        },
+        {
+          "code": "H04N 19/20",
+          "title": {
+            "ko": null,
+            "en": "using video object coding"
+          }
+        },
+        {
+          "code": "H04N 19/21",
+          "title": {
+            "ko": null,
+            "en": "with binary alpha-plane coding for video objects, e.g. context-based arithmetic encoding [CAE]"
+          }
+        },
+        {
+          "code": "H04N 19/23",
+          "title": {
+            "ko": null,
+            "en": "with coding of regions that are present throughout a whole video segment, e.g. sprites, background or mosaic"
+          }
+        },
+        {
+          "code": "H04N 19/25",
+          "title": {
+            "ko": null,
+            "en": "with scene description coding, e.g. binary format for scenes [BIFS] compression"
+          }
+        },
+        {
+          "code": "H04N 19/27",
+          "title": {
+            "ko": null,
+            "en": "involving both synthetic and natural picture components, e.g. synthetic natural hybrid coding [SNHC]"
+          }
+        },
+        {
+          "code": "H04N 19/29",
+          "title": {
+            "ko": null,
+            "en": "involving scalability at the object level, e.g. video object layer [VOL]"
+          }
+        },
+        {
+          "code": "H04N 19/30",
+          "title": {
+            "ko": "계층 기술을 사용하는 것, 예. 확장성 (H04N 19/63이 우선)",
+            "en": "using hierarchical techniques, e.g. scalability (H04N0019630000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/31",
+          "title": {
+            "ko": null,
+            "en": "in the temporal domain"
+          }
+        },
+        {
+          "code": "H04N 19/33",
+          "title": {
+            "ko": null,
+            "en": "in the spatial domain"
+          }
+        },
+        {
+          "code": "H04N 19/34",
+          "title": {
+            "ko": null,
+            "en": "Scalability techniques involving progressive bit-plane based encoding of the enhancement layer, e.g. fine granular scalability [FGS]"
+          }
+        },
+        {
+          "code": "H04N 19/36",
+          "title": {
+            "ko": null,
+            "en": "Scalability techniques involving formatting the layers as a function of picture distortion after decoding, e.g. signal-to-noise [SNR] scalability"
+          }
+        },
+        {
+          "code": "H04N 19/37",
+          "title": {
+            "ko": null,
+            "en": "with arrangements for assigning different transmission priorities to video input data or to video coded data"
+          }
+        },
+        {
+          "code": "H04N 19/39",
+          "title": {
+            "ko": null,
+            "en": "involving multiple description coding [MDC], i.e. with separate layers being structured as independently decodable descriptions of input picture data"
+          }
+        },
+        {
+          "code": "H04N 19/40",
+          "title": {
+            "ko": null,
+            "en": "using video transcoding, i.e. partial or full decoding of a coded input stream followed by re-encoding of the decoded output stream"
+          }
+        },
+        {
+          "code": "H04N 19/42",
+          "title": {
+            "ko": "비디오 압축 또는 압축해제에 특히 적합한 실행 세부 또는 하드웨어에 특징이 있는 것, 예. 전용 소프트웨어 실행 (H04N 19/635가 우선)",
+            "en": "characterised by implementation details or hardware specially adapted for video compression or decompression, e.g. dedicated software implementation (H04N0019635000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/423",
+          "title": {
+            "ko": "메모리 장치에 특징이 있는 것 (H04N 19/433이 우선)",
+            "en": "characterised by memory arrangements (H04N0019433000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/426",
+          "title": {
+            "ko": null,
+            "en": "using memory downsizing methods"
+          }
+        },
+        {
+          "code": "H04N 19/43",
+          "title": {
+            "ko": null,
+            "en": "Hardware specially adapted for motion estimation or compensation"
+          }
+        },
+        {
+          "code": "H04N 19/433",
+          "title": {
+            "ko": null,
+            "en": "characterised by techniques for memory access"
+          }
+        },
+        {
+          "code": "H04N 19/436",
+          "title": {
+            "ko": null,
+            "en": "using parallelised computational arrangements"
+          }
+        },
+        {
+          "code": "H04N 19/44",
+          "title": {
+            "ko": null,
+            "en": "Decoders specially adapted therefor, e.g. video decoders which are asymmetric with respect to the encoder"
+          }
+        },
+        {
+          "code": "H04N 19/46",
+          "title": {
+            "ko": "압축 처리 동안에 비디오 신호에서 추가적 정보를 삽입하는 것 (H04N 19/517, H04N 19/68, H04N 19/70이 우선)",
+            "en": "Embedding additional information in the video signal during the compression process (H04N0019517000, H04N0019680000, H04N0019700000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/463",
+          "title": {
+            "ko": null,
+            "en": "by compressing encoding parameters before transmission"
+          }
+        },
+        {
+          "code": "H04N 19/467",
+          "title": {
+            "ko": null,
+            "en": "characterised by the embedded information being invisible, e.g. watermarking"
+          }
+        },
+        {
+          "code": "H04N 19/48",
+          "title": {
+            "ko": "복호화를 제외한 압축된 도메인 처리 기술을 이용하는 것, 예. 변환 계수 또는 가변장 부호화 [VLC] 데이터 또는 런 길이(run-length) 데이터의 수정 (변형 도메인에서의 모션 예측 H04N 19/547; 복호된 모션 벡터의 처리 H04N 19/513)",
+            "en": "using compressed domain processing techniques other than decoding, e.g. modification of transform coefficients, variable length coding [VLC] data or run-length data (motion estimation in a transform domain H04N0019547000;processing of decoded motion vectors H04N0019513000)"
+          }
+        },
+        {
+          "code": "H04N 19/50",
+          "title": {
+            "ko": "예측 부호화를 이용하는 것 (H04N 19/61이 우선)",
+            "en": "using predictive coding (H04N0019610000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/503",
+          "title": {
+            "ko": "시간적 예측을 포함하는 것 (공간과 시간적 예측 부호화 간의 적응 선택을 가지는 적응성 부호화 H04N 19/107; 복수의 일시적 예측 부호화 모드 중에서의 적응 선택을 가지는 적응성 부호화 H04N 19/109)",
+            "en": "involving temporal prediction (adaptive coding with adaptive selection between spatial and temporal predictive coding H04N0019107000;adaptive coding with adaptive selection among a plurality of temporal predictive coding modes H04N0019109000)"
+          }
+        },
+        {
+          "code": "H04N 19/507",
+          "title": {
+            "ko": null,
+            "en": "using conditional replenishment"
+          }
+        },
+        {
+          "code": "H04N 19/51",
+          "title": {
+            "ko": "모션 예측 또는 모션 보상",
+            "en": "Motion estimation or motion compensation"
+          }
+        },
+        {
+          "code": "H04N 19/513",
+          "title": {
+            "ko": null,
+            "en": "Processing of motion vectors"
+          }
+        },
+        {
+          "code": "H04N 19/517",
+          "title": {
+            "ko": null,
+            "en": "by encoding"
+          }
+        },
+        {
+          "code": "H04N 19/52",
+          "title": {
+            "ko": null,
+            "en": "by predictive encoding"
+          }
+        },
+        {
+          "code": "H04N 19/523",
+          "title": {
+            "ko": null,
+            "en": "with sub-pixel accuracy"
+          }
+        },
+        {
+          "code": "H04N 19/527",
+          "title": {
+            "ko": null,
+            "en": "Global motion vector estimation"
+          }
+        },
+        {
+          "code": "H04N 19/53",
+          "title": {
+            "ko": null,
+            "en": "Multi-resolution motion estimation; Hierarchical motion estimation"
+          }
+        },
+        {
+          "code": "H04N 19/533",
+          "title": {
+            "ko": "다단계 검색을 이용한 움직임 추정, 예. 2차원 [2D]-로그 검색 또는 한번에 하나의 검색 [OTS]",
+            "en": "Motion estimation using multistep search, e.g. two-dimensional [2D]-log search or one-at-a-time search [OTS]"
+          }
+        },
+        {
+          "code": "H04N 19/537",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation other than block-based"
+          }
+        },
+        {
+          "code": "H04N 19/54",
+          "title": {
+            "ko": null,
+            "en": "using feature points or meshes"
+          }
+        },
+        {
+          "code": "H04N 19/543",
+          "title": {
+            "ko": null,
+            "en": "using regions"
+          }
+        },
+        {
+          "code": "H04N 19/547",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation performed in a transform domain"
+          }
+        },
+        {
+          "code": "H04N 19/55",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation with spatial constraints, e.g. at image or region borders"
+          }
+        },
+        {
+          "code": "H04N 19/553",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation dealing with occlusions"
+          }
+        },
+        {
+          "code": "H04N 19/557",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation characterised by stopping computation or iteration based on certain criteria, e.g. error magnitude being too large or early exit"
+          }
+        },
+        {
+          "code": "H04N 19/56",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation with initialisation of the vector search, e.g. estimating a good candidate to initiate a search"
+          }
+        },
+        {
+          "code": "H04N 19/563",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation with padding, i.e. with filling of non-object values in an arbitrarily shaped picture block or region for estimation purposes"
+          }
+        },
+        {
+          "code": "H04N 19/567",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation based on rate distortion criteria"
+          }
+        },
+        {
+          "code": "H04N 19/57",
+          "title": {
+            "ko": null,
+            "en": "Motion estimation characterised by a search window with variable size or shape"
+          }
+        },
+        {
+          "code": "H04N 19/573",
+          "title": {
+            "ko": null,
+            "en": "Motion compensation with multiple frame prediction using two or more reference frames in a given prediction direction"
+          }
+        },
+        {
+          "code": "H04N 19/577",
+          "title": {
+            "ko": "양방향 프레임 보간을 가지는 모션 보상, 예. B-픽쳐를 이용하는 것",
+            "en": "Motion compensation with bidirectional frame interpolation, i.e. using B-pictures"
+          }
+        },
+        {
+          "code": "H04N 19/58",
+          "title": {
+            "ko": "장기 예측을 가지는 모션 보상, 즉. 일시적으로 가장 가깝지 않은 현재 프레임을 위한 참조 프레임 (H04N 19/23이 우선)",
+            "en": "Motion compensation with long-term prediction, i.e. the reference frame for a current frame not being the temporally closest one (H04N0019230000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/583",
+          "title": {
+            "ko": null,
+            "en": "Motion compensation with overlapping blocks"
+          }
+        },
+        {
+          "code": "H04N 19/587",
+          "title": {
+            "ko": null,
+            "en": "involving temporal sub-sampling or interpolation, e.g. decimation or subsequent interpolation of pictures in a video sequence"
+          }
+        },
+        {
+          "code": "H04N 19/59",
+          "title": {
+            "ko": null,
+            "en": "involving spatial sub-sampling or interpolation, e.g. alteration of picture size or resolution"
+          }
+        },
+        {
+          "code": "H04N 19/593",
+          "title": {
+            "ko": null,
+            "en": "involving spatial prediction techniques"
+          }
+        },
+        {
+          "code": "H04N 19/597",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for multi-view video sequence encoding"
+          }
+        },
+        {
+          "code": "H04N 19/60",
+          "title": {
+            "ko": "변환 코딩을 사용하는 것",
+            "en": "using transform coding"
+          }
+        },
+        {
+          "code": "H04N 19/61",
+          "title": {
+            "ko": null,
+            "en": "in combination with predictive coding"
+          }
+        },
+        {
+          "code": "H04N 19/615",
+          "title": {
+            "ko": null,
+            "en": "using motion compensated temporal filtering [MCTF]"
+          }
+        },
+        {
+          "code": "H04N 19/62",
+          "title": {
+            "ko": "3차원 [3D] 주파수 변환에 의한 것 (H04N19/63이 우선)",
+            "en": "by frequency transforming in three dimensions [3D] (H04N0019630000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/625",
+          "title": {
+            "ko": null,
+            "en": "using discrete cosine transform [DCT]"
+          }
+        },
+        {
+          "code": "H04N 19/63",
+          "title": {
+            "ko": null,
+            "en": "using sub-band based transform, e.g. wavelets"
+          }
+        },
+        {
+          "code": "H04N 19/635",
+          "title": {
+            "ko": null,
+            "en": "characterised by filter definition or implementation details"
+          }
+        },
+        {
+          "code": "H04N 19/64",
+          "title": {
+            "ko": null,
+            "en": "characterised by ordering of coefficients or of bits for transmission"
+          }
+        },
+        {
+          "code": "H04N 19/645",
+          "title": {
+            "ko": null,
+            "en": "by grouping of coefficients into blocks after the transform"
+          }
+        },
+        {
+          "code": "H04N 19/65",
+          "title": {
+            "ko": null,
+            "en": "using error resilience"
+          }
+        },
+        {
+          "code": "H04N 19/66",
+          "title": {
+            "ko": null,
+            "en": "involving data partitioning, i.e. separation of data into packets or partitions according to importance"
+          }
+        },
+        {
+          "code": "H04N 19/67",
+          "title": {
+            "ko": null,
+            "en": "involving unequal error protection [UEP], i.e. providing protection according to the importance of the data"
+          }
+        },
+        {
+          "code": "H04N 19/68",
+          "title": {
+            "ko": null,
+            "en": "involving the insertion of resynchronisation markers into the bitstream"
+          }
+        },
+        {
+          "code": "H04N 19/69",
+          "title": {
+            "ko": null,
+            "en": "involving reversible variable length codes [RVLC]"
+          }
+        },
+        {
+          "code": "H04N 19/70",
+          "title": {
+            "ko": null,
+            "en": "characterised by syntax aspects related to video coding, e.g. related to compression standards"
+          }
+        },
+        {
+          "code": "H04N 19/80",
+          "title": {
+            "ko": "비디오 압축에 특히 적합한 필터링 동작의 세부, 예. 픽셀 보간을 위한 것 (H04N 19/635, H04N 19/86이 우선)",
+            "en": "Details of filtering operations specially adapted for video compression, e.g. for pixel interpolation (H04N0019635000, H04N0019860000 take precedence)"
+          }
+        },
+        {
+          "code": "H04N 19/82",
+          "title": {
+            "ko": null,
+            "en": "involving filtering within a prediction loop"
+          }
+        },
+        {
+          "code": "H04N 19/85",
+          "title": {
+            "ko": null,
+            "en": "using pre-processing or post-processing specially adapted for video compression"
+          }
+        },
+        {
+          "code": "H04N 19/86",
+          "title": {
+            "ko": null,
+            "en": "involving reduction of coding artifacts, e.g. of blockiness"
+          }
+        },
+        {
+          "code": "H04N 19/87",
+          "title": {
+            "ko": null,
+            "en": "involving scene cut or scene change detection in combination with video compression"
+          }
+        },
+        {
+          "code": "H04N 19/88",
+          "title": {
+            "ko": null,
+            "en": "involving rearrangement of data among different coding units, e.g. shuffling, interleaving, scrambling or permutation of pixel data or permutation of transform coefficient data among different blocks"
+          }
+        },
+        {
+          "code": "H04N 19/89",
+          "title": {
+            "ko": null,
+            "en": "involving methods or arrangements for detection of transmission errors at the decoder"
+          }
+        },
+        {
+          "code": "H04N 19/895",
+          "title": {
+            "ko": null,
+            "en": "in combination with error concealment"
+          }
+        },
+        {
+          "code": "H04N 19/90",
+          "title": {
+            "ko": "그룹 H04N 19/10-H04N 19/85에 포함되지 않은 부호화 기술을 이용하는 것, 예. 프랙탈",
+            "en": "using coding techniques not provided for in groups H04N0019100000-H04N0019850000, e.g. fractals"
+          }
+        },
+        {
+          "code": "H04N 19/91",
+          "title": {
+            "ko": null,
+            "en": "Entropy coding, e.g. variable length coding [VLC] or arithmetic coding"
+          }
+        },
+        {
+          "code": "H04N 19/93",
+          "title": {
+            "ko": null,
+            "en": "Run-length coding"
+          }
+        },
+        {
+          "code": "H04N 19/94",
+          "title": {
+            "ko": null,
+            "en": "Vector quantisation"
+          }
+        },
+        {
+          "code": "H04N 19/96",
+          "title": {
+            "ko": null,
+            "en": "Tree coding, e.g. quad-tree coding"
+          }
+        },
+        {
+          "code": "H04N 19/97",
+          "title": {
+            "ko": null,
+            "en": "Matching pursuit coding"
+          }
+        },
+        {
+          "code": "H04N 19/98",
+          "title": {
+            "ko": null,
+            "en": "Adaptive-dynamic-range coding [ADRC]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 21/00",
+      "title": {
+        "ko": "선택적 콘텐츠 분배, 예. 대화형(interactive) TV 또는 VOD (실시간 양방향 동영상 데이터 전송 H04N 7/14 )",
+        "en": "Selective content distribution, e.g. interactive television or video on demand [VOD] (real-time bi-directional transmission of motion video data H04N0007140000)"
+      },
+      "definition": {
+        "ko": "1. 이 그룹은 다음을 포함합니다 : ㆍ 포인트-투-멀티 포인트 시스템 구성에 특징 있고, 모션 비디오 데이터 단방향 분배 또는 시스템 운영자(예. 액세스 또는 서비스 공급자) 또는 사용자(예. 가입자)와 시스템 요소간의 상호작용 결과 전달에 주로 사용되는 대화형 비디오 분배 프로세스 ㆍ 그러한 시스템은 지시된 방식으로 주로 동화상 비디오 데이터를 배포하거나 전달하는 텔레비전 분배 시스템과 같은 전용 통신 시스템을 포함하며, 추가적으로 다양한 데이터 통신 또는 서비스를 단방향 또는 양방향으로 제공할 수 있는 프레임 워크를 제공할 수 있습니다. 그러나 비디오는 배포 프로세스에서 다운 링크 대역폭의 대부분을 차지합니다. ㆍ 일반적으로 시스템 운영자는 송신기측 요소 또는 수신기측 요소와 사용자 인터페이스와 인터페이스하여 이러한 요소와의 상호 작용을 통해 시스템의 다양한 지점에서 데이터 처리 또는 데이터 흐름의 동적 제어를 용이하게합니다. 이 상호 작용은 본질적으로 가끔씩 또는 간헐적으로 발생합니다. ㆍ 비디오 콘텐츠(예. 메타 데이터, 평가)와 관련된 또는 사용자나 그의 환경과 관련되어 있고 적극적으로 또는 수동적으로 수집된 정보 데이터의 생성, 배포 및 처리에 특히 적합한 프로세스, 시스템 또는 요소. 이 데이터는 상호 작용을 용이하게 하는 것 또는 콘텐츠를 변경하거나 타겟팅하는데 사용됩니다. 2. 이 메인 그룹에서, 최초개소 우선규칙이 적용됩니다. 즉. 각 계층 레벨에서 반대의 표시가 없는 경우, 첫번째 적절한 개소에 분류됩니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H04N 21/20",
+          "title": {
+            "ko": "콘텐츠 배포에 특별히 적합한 서버들, 예. VOD 서버; 그 작동",
+            "en": "Servers specifically adapted for the distribution of content, e.g. VOD servers; Operations thereof"
+          }
+        },
+        {
+          "code": "H04N 21/21",
+          "title": {
+            "ko": null,
+            "en": "Server components or server architectures"
+          }
+        },
+        {
+          "code": "H04N 21/214",
+          "title": {
+            "ko": null,
+            "en": "Specialised server platform, e.g. server located in an airplane, hotel or hospital"
+          }
+        },
+        {
+          "code": "H04N 21/218",
+          "title": {
+            "ko": null,
+            "en": "Source of audio or video content, e.g. local disk arrays"
+          }
+        },
+        {
+          "code": "H04N 21/2183",
+          "title": {
+            "ko": null,
+            "en": "Cache memory"
+          }
+        },
+        {
+          "code": "H04N 21/2187",
+          "title": {
+            "ko": null,
+            "en": "Live feed"
+          }
+        },
+        {
+          "code": "H04N 21/222",
+          "title": {
+            "ko": null,
+            "en": "Secondary servers, e.g. proxy server or cable television Head-end"
+          }
+        },
+        {
+          "code": "H04N 21/2225",
+          "title": {
+            "ko": null,
+            "en": "Local VOD servers"
+          }
+        },
+        {
+          "code": "H04N 21/226",
+          "title": {
+            "ko": null,
+            "en": "Internal components of the server"
+          }
+        },
+        {
+          "code": "H04N 21/23",
+          "title": {
+            "ko": "콘텐츠 또는 추가 데이터 처리; 기본적인 서버 운용; 서버 미들웨어",
+            "en": "Processing of content or additional data; Elementary server operations; Server middleware"
+          }
+        },
+        {
+          "code": "H04N 21/231",
+          "title": {
+            "ko": null,
+            "en": "Content storage operation, e.g. caching movies for short term storage, replicating data over plural servers or prioritizing data for deletion"
+          }
+        },
+        {
+          "code": "H04N 21/2312",
+          "title": {
+            "ko": null,
+            "en": "Data placement on disk arrays"
+          }
+        },
+        {
+          "code": "H04N 21/2315",
+          "title": {
+            "ko": null,
+            "en": "using interleaving"
+          }
+        },
+        {
+          "code": "H04N 21/2318",
+          "title": {
+            "ko": null,
+            "en": "using striping"
+          }
+        },
+        {
+          "code": "H04N 21/232",
+          "title": {
+            "ko": null,
+            "en": "Content retrieval operation within server, e.g. reading video streams from disk arrays"
+          }
+        },
+        {
+          "code": "H04N 21/233",
+          "title": {
+            "ko": null,
+            "en": "Processing of audio elementary streams"
+          }
+        },
+        {
+          "code": "H04N 21/234",
+          "title": {
+            "ko": null,
+            "en": "Processing of video elementary streams, e.g. splicing of video streams or manipulating encoded video stream scene graphs"
+          }
+        },
+        {
+          "code": "H04N 21/2343",
+          "title": {
+            "ko": null,
+            "en": "involving reformatting operations of video signals for distribution or compliance with end-user requests or end-user device requirements"
+          }
+        },
+        {
+          "code": "H04N 21/2347",
+          "title": {
+            "ko": null,
+            "en": "involving video stream encryption"
+          }
+        },
+        {
+          "code": "H04N 21/235",
+          "title": {
+            "ko": null,
+            "en": "Processing of additional data, e.g. scrambling of additional data or processing content descriptors"
+          }
+        },
+        {
+          "code": "H04N 21/236",
+          "title": {
+            "ko": null,
+            "en": "Assembling of a multiplex stream, e.g. transport stream, by combining a video stream with other content or additional data, e.g. inserting a URL [Uniform Resource Locator ] into a video stream, multiplexing software data into a video stream; Remultiplexing of multiplex streams; Insertion of stuffing bits into the multiplex stream, e.g. to obtain a constant bit-rate; Assembling of a packetised elementary stream"
+          }
+        },
+        {
+          "code": "H04N 21/2362",
+          "title": {
+            "ko": null,
+            "en": "Generation or processing of SI [Service Information]"
+          }
+        },
+        {
+          "code": "H04N 21/2365",
+          "title": {
+            "ko": null,
+            "en": "Multiplexing of several video streams"
+          }
+        },
+        {
+          "code": "H04N 21/2368",
+          "title": {
+            "ko": null,
+            "en": "Multiplexing of audio and video streams"
+          }
+        },
+        {
+          "code": "H04N 21/237",
+          "title": {
+            "ko": null,
+            "en": "Communication with additional data server"
+          }
+        },
+        {
+          "code": "H04N 21/238",
+          "title": {
+            "ko": "전송 네트워크의 다운스트림 경로 인터페이스, 예. 네트워크 대역폭에 비디오 스트림의 전송율을 적용하는 것; 다중 스트림의 처리",
+            "en": "Interfacing the downstream path of the transmission network, e.g. adapting the transmission rate of a video stream to network bandwidth; Processing of multiplex streams"
+          }
+        },
+        {
+          "code": "H04N 21/2381",
+          "title": {
+            "ko": null,
+            "en": "Adapting the multiplex stream to a specific network, e.g. an IP [Internet Protocol] network"
+          }
+        },
+        {
+          "code": "H04N 21/2383",
+          "title": {
+            "ko": null,
+            "en": "Channel coding of digital bit-stream, e.g. modulation"
+          }
+        },
+        {
+          "code": "H04N 21/2385",
+          "title": {
+            "ko": "채널 할당(H04N 21/266이 우선); 대역폭 할당(H04N 21/21이 우선)",
+            "en": "Channel allocation (H04N0021266000  takes precedence); Bandwidth allocation (H04N0021240000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 21/2387",
+          "title": {
+            "ko": null,
+            "en": "Stream processing in response to a playback request from an end-user, e.g. for trick-play"
+          }
+        },
+        {
+          "code": "H04N 21/2389",
+          "title": {
+            "ko": null,
+            "en": "Multiplex stream processing, e.g. multiplex stream encrypting"
+          }
+        },
+        {
+          "code": "H04N 21/239",
+          "title": {
+            "ko": null,
+            "en": "Interfacing the upstream path of the transmission network, e.g. prioritizing client requests"
+          }
+        },
+        {
+          "code": "H04N 21/24",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of processes or resources, e.g. monitoring of server load, available bandwidth or upstream requests"
+          }
+        },
+        {
+          "code": "H04N 21/241",
+          "title": {
+            "ko": null,
+            "en": "Operating system [OS] processes, e.g. server setup"
+          }
+        },
+        {
+          "code": "H04N 21/242",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation processes, e.g. processing of PCR [Programme Clock References]"
+          }
+        },
+        {
+          "code": "H04N 21/25",
+          "title": {
+            "ko": null,
+            "en": "Management operations performed by the server for facilitating the content distribution or administrating data related to end-users or client devices, e.g. end-user or client device authentication or learning user preferences for recommending movies"
+          }
+        },
+        {
+          "code": "H04N 21/254",
+          "title": {
+            "ko": null,
+            "en": "Management at additional data server, e.g. shopping server or rights management server"
+          }
+        },
+        {
+          "code": "H04N 21/2543",
+          "title": {
+            "ko": null,
+            "en": "Billing"
+          }
+        },
+        {
+          "code": "H04N 21/2547",
+          "title": {
+            "ko": null,
+            "en": "Third party billing, e.g. billing of advertiser"
+          }
+        },
+        {
+          "code": "H04N 21/258",
+          "title": {
+            "ko": null,
+            "en": "Client or end-user data management, e.g. managing client capabilities, user preferences or demographics or processing of multiple end-users preferences to derive collaborative data"
+          }
+        },
+        {
+          "code": "H04N 21/262",
+          "title": {
+            "ko": null,
+            "en": "Content or additional data distribution scheduling, e.g. sending additional data at off-peak times, updating software modules, calculating the carousel transmission frequency, delaying a video stream transmission or generating play-lists"
+          }
+        },
+        {
+          "code": "H04N 21/266",
+          "title": {
+            "ko": null,
+            "en": "Channel or content management, e.g. generation and management of keys and entitlement messages in a conditional access system or merging a VOD unicast channel into a multicast channel"
+          }
+        },
+        {
+          "code": "H04N 21/2662",
+          "title": {
+            "ko": null,
+            "en": "Controlling the complexity of the video stream, e.g. by scaling the resolution or bitrate of the video stream based on the client capabilities"
+          }
+        },
+        {
+          "code": "H04N 21/2665",
+          "title": {
+            "ko": null,
+            "en": "Gathering content from different sources, e.g. Internet and satellite"
+          }
+        },
+        {
+          "code": "H04N 21/2668",
+          "title": {
+            "ko": null,
+            "en": "Creating a channel for a dedicated end-user group, e.g. by inserting targeted commercials into a video stream based on end-user profiles"
+          }
+        },
+        {
+          "code": "H04N 21/27",
+          "title": {
+            "ko": null,
+            "en": "Server based end-user applications"
+          }
+        },
+        {
+          "code": "H04N 21/274",
+          "title": {
+            "ko": null,
+            "en": "Storing end-user specific content or additional data in response to end-user request"
+          }
+        },
+        {
+          "code": "H04N 21/2743",
+          "title": {
+            "ko": null,
+            "en": "Video hosting of uploaded data from client"
+          }
+        },
+        {
+          "code": "H04N 21/2747",
+          "title": {
+            "ko": null,
+            "en": "Remote storage of video programmes received via the downstream path, e.g. from the server"
+          }
+        },
+        {
+          "code": "H04N 21/278",
+          "title": {
+            "ko": null,
+            "en": "Content descriptor database or directory service for end-user access"
+          }
+        },
+        {
+          "code": "H04N 21/40",
+          "title": {
+            "ko": "콘텐츠의 수신 또는 콘텐츠와의 상호작용에 특히 적합한 클라이언트 장치, 예. 셋톱박스[STB]; 그것의 운용",
+            "en": "Client devices specifically adapted for the reception of, or interaction with, content, e.g. STB [set-top-box]; Operations thereof"
+          }
+        },
+        {
+          "code": "H04N 21/41",
+          "title": {
+            "ko": "클라이언트의 구조; 클라이언트 주변 장치의 구조",
+            "en": "Structure of client; Structure of client peripherals"
+          }
+        },
+        {
+          "code": "H04N 21/414",
+          "title": {
+            "ko": "전문화된 클라이언트 플랫폼, 예. 자동차에서의 수신기, 이동 장치에 내장되는 것",
+            "en": "Specialised client platforms, e.g. receiver in car or embedded in a mobile appliance"
+          }
+        },
+        {
+          "code": "H04N 21/4143",
+          "title": {
+            "ko": null,
+            "en": "PC [Personal Computer]"
+          }
+        },
+        {
+          "code": "H04N 21/4147",
+          "title": {
+            "ko": "개인용 비디오 녹화기[PVR] (H04N 5/76이 우선)",
+            "en": "PVR [Personal Video Recorder] (H04N0005760000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 21/418",
+          "title": {
+            "ko": null,
+            "en": "External card to be used in combination with the client device, e.g. for conditional access"
+          }
+        },
+        {
+          "code": "H04N 21/4185",
+          "title": {
+            "ko": null,
+            "en": "for payment"
+          }
+        },
+        {
+          "code": "H04N 21/422",
+          "title": {
+            "ko": "입력만을 위한 주변기기, 예. 위성 위치 확인 시스템[GPS]",
+            "en": "Input-only peripherals, e.g. global positioning system [GPS]"
+          }
+        },
+        {
+          "code": "H04N 21/4223",
+          "title": {
+            "ko": "카메라 (H04N 23/00이 우선)",
+            "en": "Cameras (H04N0023000000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 21/4227",
+          "title": {
+            "ko": null,
+            "en": "Remote input by a user located remotely from the client device, e.g. at work"
+          }
+        },
+        {
+          "code": "H04N 21/426",
+          "title": {
+            "ko": "클라이언트의 내부 구성 (H04N 5/44 우선함)",
+            "en": "Internal components of the client (H04N0005440000  takes precedence)"
+          }
+        },
+        {
+          "code": "H04N 21/43",
+          "title": {
+            "ko": null,
+            "en": "Processing of content or additional data, e.g. demultiplexing additional data from a digital video stream; Elementary client operations, e.g. monitoring of home network or synchronizing decoder's clock; Client middleware"
+          }
+        },
+        {
+          "code": "H04N 21/431",
+          "title": {
+            "ko": null,
+            "en": "Generation of visual interfaces; Content or additional data rendering"
+          }
+        },
+        {
+          "code": "H04N 21/432",
+          "title": {
+            "ko": null,
+            "en": "Content retrieval operation from a local storage medium, e.g. hard-disk"
+          }
+        },
+        {
+          "code": "H04N 21/433",
+          "title": {
+            "ko": null,
+            "en": "Content storage operation, e.g. storage operation in response to a pause request or caching operations"
+          }
+        },
+        {
+          "code": "H04N 21/4335",
+          "title": {
+            "ko": null,
+            "en": "Housekeeping operations, e.g. prioritizing content for deletion because of storage space restrictions"
+          }
+        },
+        {
+          "code": "H04N 21/434",
+          "title": {
+            "ko": null,
+            "en": "Disassembling of a multiplex stream, e.g. demultiplexing audio and video streams or extraction of additional data from a video stream; Remultiplexing of multiplex streams; Extraction or processing of SI; Disassembling of packetised elementary stream"
+          }
+        },
+        {
+          "code": "H04N 21/435",
+          "title": {
+            "ko": null,
+            "en": "Processing of additional data, e.g. decrypting of additional data or reconstructing software from modules extracted from the transport stream"
+          }
+        },
+        {
+          "code": "H04N 21/436",
+          "title": {
+            "ko": null,
+            "en": "Interfacing a local distribution network, e.g. communicating with another STB or inside the home"
+          }
+        },
+        {
+          "code": "H04N 21/4363",
+          "title": {
+            "ko": null,
+            "en": "Adapting the video stream to a specific local network, e.g. a Bluetooth® network"
+          }
+        },
+        {
+          "code": "H04N 21/4367",
+          "title": {
+            "ko": null,
+            "en": "Establishing a secure communication between the client and a peripheral device or smart card"
+          }
+        },
+        {
+          "code": "H04N 21/437",
+          "title": {
+            "ko": null,
+            "en": "Interfacing the upstream path of the transmission network, e.g. for transmitting client requests to a VOD server"
+          }
+        },
+        {
+          "code": "H04N 21/438",
+          "title": {
+            "ko": null,
+            "en": "Interfacing the downstream path of the transmission network originating from a server, e.g. retrieving encoded video stream packets from an IP network"
+          }
+        },
+        {
+          "code": "H04N 21/4385",
+          "title": {
+            "ko": null,
+            "en": "Multiplex stream processing, e.g. multiplex stream decrypting"
+          }
+        },
+        {
+          "code": "H04N 21/439",
+          "title": {
+            "ko": null,
+            "en": "Processing of audio elementary streams"
+          }
+        },
+        {
+          "code": "H04N 21/44",
+          "title": {
+            "ko": null,
+            "en": "Processing of video elementary streams, e.g. splicing a video clip retrieved from local storage with an incoming video stream or rendering scenes according to encoded video stream scene graphs"
+          }
+        },
+        {
+          "code": "H04N 21/4402",
+          "title": {
+            "ko": null,
+            "en": "involving reformatting operations of video signals for household redistribution, storage or real-time display"
+          }
+        },
+        {
+          "code": "H04N 21/4405",
+          "title": {
+            "ko": null,
+            "en": "involving video stream decryption"
+          }
+        },
+        {
+          "code": "H04N 21/4408",
+          "title": {
+            "ko": null,
+            "en": "involving video stream encryption, e.g. re-encrypting a decrypted video stream for redistribution in a home network"
+          }
+        },
+        {
+          "code": "H04N 21/441",
+          "title": {
+            "ko": null,
+            "en": "Acquiring end-user identification"
+          }
+        },
+        {
+          "code": "H04N 21/4415",
+          "title": {
+            "ko": null,
+            "en": "using biometric characteristics of the user, e.g. by voice recognition or fingerprint scanning"
+          }
+        },
+        {
+          "code": "H04N 21/442",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of processes or resources, e.g. detecting the failure of a recording device, monitoring the downstream bandwidth, the number of times a movie has been viewed or the storage space available from the internal hard disk"
+          }
+        },
+        {
+          "code": "H04N 21/4425",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of client processing errors or hardware failure"
+          }
+        },
+        {
+          "code": "H04N 21/443",
+          "title": {
+            "ko": null,
+            "en": "OS processes, e.g. booting an STB, implementing a Java virtual machine in an STB or power management in an STB"
+          }
+        },
+        {
+          "code": "H04N 21/45",
+          "title": {
+            "ko": null,
+            "en": "Management operations performed by the client for facilitating the reception of or the interaction with the content or administrating data related to the end-user or to the client device itself, e.g. learning user preferences for recommending movies or resolving scheduling conflicts"
+          }
+        },
+        {
+          "code": "H04N 21/454",
+          "title": {
+            "ko": null,
+            "en": "Content filtering, e.g. blocking advertisements"
+          }
+        },
+        {
+          "code": "H04N 21/4545",
+          "title": {
+            "ko": null,
+            "en": "Input to filtering algorithms, e.g. filtering a region of the image"
+          }
+        },
+        {
+          "code": "H04N 21/458",
+          "title": {
+            "ko": null,
+            "en": "Scheduling content for creating a personalised stream, e.g. by combining a locally stored advertisement with an incoming stream; Updating operations, e.g. for OS modules"
+          }
+        },
+        {
+          "code": "H04N 21/462",
+          "title": {
+            "ko": null,
+            "en": "Content or additional data management e.g. creating a master electronic programme guide from data received from the Internet and a Head-end or controlling the complexity of a video stream by scaling the resolution or bit-rate based on the client capabilities"
+          }
+        },
+        {
+          "code": "H04N 21/4623",
+          "title": {
+            "ko": null,
+            "en": "Processing of entitlement messages, e.g. ECM [Entitlement Control Message] or EMM [Entitlement Management Message]"
+          }
+        },
+        {
+          "code": "H04N 21/4627",
+          "title": {
+            "ko": null,
+            "en": "Rights management"
+          }
+        },
+        {
+          "code": "H04N 21/466",
+          "title": {
+            "ko": null,
+            "en": "Learning process for intelligent management, e.g. learning user preferences for recommending movies"
+          }
+        },
+        {
+          "code": "H04N 21/47",
+          "title": {
+            "ko": "엔드-유저 응용",
+            "en": "End-user applications"
+          }
+        },
+        {
+          "code": "H04N 21/472",
+          "title": {
+            "ko": null,
+            "en": "End-user interface for requesting content, additional data or services; End-user interface for interacting with content, e.g. for content reservation or setting reminders, for requesting event notification or for manipulating displayed content"
+          }
+        },
+        {
+          "code": "H04N 21/4722",
+          "title": {
+            "ko": null,
+            "en": "for requesting additional data associated with the content"
+          }
+        },
+        {
+          "code": "H04N 21/4725",
+          "title": {
+            "ko": null,
+            "en": "using interactive regions of the image, e.g. hot spots"
+          }
+        },
+        {
+          "code": "H04N 21/4728",
+          "title": {
+            "ko": null,
+            "en": "for selecting a ROI [Region Of Interest], e.g. for requesting a higher resolution version of a selected region"
+          }
+        },
+        {
+          "code": "H04N 21/475",
+          "title": {
+            "ko": null,
+            "en": "End-user interface for inputting end-user data, e.g. PIN [Personal Identification Number] or preference data"
+          }
+        },
+        {
+          "code": "H04N 21/478",
+          "title": {
+            "ko": "추가 서비스, 예. 발신자 번호 표시 , 쇼핑 응용",
+            "en": "Supplemental services, e.g. displaying phone caller identification or shopping application"
+          }
+        },
+        {
+          "code": "H04N 21/4782",
+          "title": {
+            "ko": null,
+            "en": "Web browsing"
+          }
+        },
+        {
+          "code": "H04N 21/4784",
+          "title": {
+            "ko": null,
+            "en": "receiving rewards"
+          }
+        },
+        {
+          "code": "H04N 21/4786",
+          "title": {
+            "ko": "이메일",
+            "en": "e-mailing"
+          }
+        },
+        {
+          "code": "H04N 21/4788",
+          "title": {
+            "ko": null,
+            "en": "communicating with other users, e.g. chatting"
+          }
+        },
+        {
+          "code": "H04N 21/482",
+          "title": {
+            "ko": null,
+            "en": "End-user interface for programme selection"
+          }
+        },
+        {
+          "code": "H04N 21/485",
+          "title": {
+            "ko": null,
+            "en": "End-user interface for client configuration"
+          }
+        },
+        {
+          "code": "H04N 21/488",
+          "title": {
+            "ko": null,
+            "en": "Data services, e.g. news ticker"
+          }
+        },
+        {
+          "code": "H04N 21/60",
+          "title": {
+            "ko": null,
+            "en": "Network structure or processes for video distribution between server and client or between remote clients; Control signalling between clients, server and network components; Transmission of management data between server and client; Communication details between server and client"
+          }
+        },
+        {
+          "code": "H04N 21/61",
+          "title": {
+            "ko": null,
+            "en": "Network physical structure; Signal processing"
+          }
+        },
+        {
+          "code": "H04N 21/63",
+          "title": {
+            "ko": null,
+            "en": "Control signaling between client, server and network components; Network processes for video distribution between server and clients, e.g. transmitting basic layer and enhancement layers over different transmission paths, setting up a peer-to-peer communication via Internet between remote STB's; Communication protocols; Addressing"
+          }
+        },
+        {
+          "code": "H04N 21/633",
+          "title": {
+            "ko": null,
+            "en": "Control signals issued by server directed to the network components or client"
+          }
+        },
+        {
+          "code": "H04N 21/6332",
+          "title": {
+            "ko": null,
+            "en": "directed to client"
+          }
+        },
+        {
+          "code": "H04N 21/6334",
+          "title": {
+            "ko": null,
+            "en": "for authorisation, e.g. by transmitting a key"
+          }
+        },
+        {
+          "code": "H04N 21/6336",
+          "title": {
+            "ko": null,
+            "en": "directed to decoder"
+          }
+        },
+        {
+          "code": "H04N 21/6338",
+          "title": {
+            "ko": null,
+            "en": "directed to network"
+          }
+        },
+        {
+          "code": "H04N 21/637",
+          "title": {
+            "ko": null,
+            "en": "Control signals issued by the client directed to the server or network components"
+          }
+        },
+        {
+          "code": "H04N 21/6371",
+          "title": {
+            "ko": null,
+            "en": "directed to network"
+          }
+        },
+        {
+          "code": "H04N 21/6373",
+          "title": {
+            "ko": null,
+            "en": "for rate control"
+          }
+        },
+        {
+          "code": "H04N 21/6375",
+          "title": {
+            "ko": null,
+            "en": "for requesting retransmission"
+          }
+        },
+        {
+          "code": "H04N 21/6377",
+          "title": {
+            "ko": null,
+            "en": "directed to server"
+          }
+        },
+        {
+          "code": "H04N 21/6379",
+          "title": {
+            "ko": null,
+            "en": "directed to encoder"
+          }
+        },
+        {
+          "code": "H04N 21/64",
+          "title": {
+            "ko": null,
+            "en": "Addressing"
+          }
+        },
+        {
+          "code": "H04N 21/6402",
+          "title": {
+            "ko": null,
+            "en": "Address allocation for clients"
+          }
+        },
+        {
+          "code": "H04N 21/6405",
+          "title": {
+            "ko": null,
+            "en": "Multicasting"
+          }
+        },
+        {
+          "code": "H04N 21/6408",
+          "title": {
+            "ko": null,
+            "en": "Unicasting"
+          }
+        },
+        {
+          "code": "H04N 21/643",
+          "title": {
+            "ko": null,
+            "en": "Communication protocols"
+          }
+        },
+        {
+          "code": "H04N 21/6433",
+          "title": {
+            "ko": null,
+            "en": "DSM-CC [Digital Storage Media - Command and Control Protocol]"
+          }
+        },
+        {
+          "code": "H04N 21/6437",
+          "title": {
+            "ko": null,
+            "en": "RTP [Real-time Transport Protocol]"
+          }
+        },
+        {
+          "code": "H04N 21/647",
+          "title": {
+            "ko": null,
+            "en": "Control signaling between network components and server or clients; Network processes for video distribution between server and clients, e.g. controlling the quality of the video stream, by dropping packets, protecting content from unauthorised alteration within the network, monitoring of network load or bridging between two different networks, e.g. between IP and wireless"
+          }
+        },
+        {
+          "code": "H04N 21/65",
+          "title": {
+            "ko": null,
+            "en": "Transmission of management data between client and server"
+          }
+        },
+        {
+          "code": "H04N 21/654",
+          "title": {
+            "ko": null,
+            "en": "Transmission by server directed to the client"
+          }
+        },
+        {
+          "code": "H04N 21/6543",
+          "title": {
+            "ko": null,
+            "en": "for forcing some client operations, e.g. recording"
+          }
+        },
+        {
+          "code": "H04N 21/6547",
+          "title": {
+            "ko": null,
+            "en": "comprising parameters, e.g. for client setup"
+          }
+        },
+        {
+          "code": "H04N 21/658",
+          "title": {
+            "ko": null,
+            "en": "Transmission by the client directed to the server"
+          }
+        },
+        {
+          "code": "H04N 21/6583",
+          "title": {
+            "ko": null,
+            "en": "Acknowledgement"
+          }
+        },
+        {
+          "code": "H04N 21/6587",
+          "title": {
+            "ko": null,
+            "en": "Control parameters, e.g. trick play commands or viewpoint selection"
+          }
+        },
+        {
+          "code": "H04N 21/80",
+          "title": {
+            "ko": null,
+            "en": "Generation or processing of content or additional data by content creator independently of the distribution process; Content per se"
+          }
+        },
+        {
+          "code": "H04N 21/81",
+          "title": {
+            "ko": null,
+            "en": "Monomedia components thereof"
+          }
+        },
+        {
+          "code": "H04N 21/83",
+          "title": {
+            "ko": null,
+            "en": "Generation or processing of protective or descriptive data associated with content; Content structuring"
+          }
+        },
+        {
+          "code": "H04N 21/835",
+          "title": {
+            "ko": null,
+            "en": "Generation of protective data, e.g. certificates"
+          }
+        },
+        {
+          "code": "H04N 21/8352",
+          "title": {
+            "ko": null,
+            "en": "involving content or source identification data, e.g. UMID [Unique Material Identifier]"
+          }
+        },
+        {
+          "code": "H04N 21/8355",
+          "title": {
+            "ko": null,
+            "en": "involving usage data, e.g. number of copies or viewings allowed"
+          }
+        },
+        {
+          "code": "H04N 21/8358",
+          "title": {
+            "ko": null,
+            "en": "involving watermark"
+          }
+        },
+        {
+          "code": "H04N 21/84",
+          "title": {
+            "ko": null,
+            "en": "Generation or processing of descriptive data, e.g. content descriptors"
+          }
+        },
+        {
+          "code": "H04N 21/8405",
+          "title": {
+            "ko": null,
+            "en": "represented by keywords"
+          }
+        },
+        {
+          "code": "H04N 21/845",
+          "title": {
+            "ko": null,
+            "en": "Structuring of content, e.g. decomposing content into time segments"
+          }
+        },
+        {
+          "code": "H04N 21/85",
+          "title": {
+            "ko": null,
+            "en": "Assembly of content; Generation of multimedia applications"
+          }
+        },
+        {
+          "code": "H04N 21/854",
+          "title": {
+            "ko": null,
+            "en": "Content authoring"
+          }
+        },
+        {
+          "code": "H04N 21/8541",
+          "title": {
+            "ko": null,
+            "en": "involving branching, e.g. to different story endings"
+          }
+        },
+        {
+          "code": "H04N 21/8543",
+          "title": {
+            "ko": null,
+            "en": "using a description language, e.g. MHEG [Multimedia and Hypermedia information coding Expert Group] or XML [eXtensible Markup Language]"
+          }
+        },
+        {
+          "code": "H04N 21/8545",
+          "title": {
+            "ko": null,
+            "en": "for generating interactive applications"
+          }
+        },
+        {
+          "code": "H04N 21/8547",
+          "title": {
+            "ko": null,
+            "en": "involving timestamps for synchronizing content"
+          }
+        },
+        {
+          "code": "H04N 21/8549",
+          "title": {
+            "ko": null,
+            "en": "Creating video summaries, e.g. movie trailer"
+          }
+        },
+        {
+          "code": "H04N 21/858",
+          "title": {
+            "ko": null,
+            "en": "Linking data to content, e.g. by linking an URL to a video object or by creating a hotspot"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 23/00",
+      "title": {
+        "ko": null,
+        "en": "Cameras or camera modules comprising electronic image sensors; Control thereof"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 23/10",
+          "title": {
+            "ko": null,
+            "en": "for generating image signals from different wavelengths"
+          }
+        },
+        {
+          "code": "H04N 23/11",
+          "title": {
+            "ko": null,
+            "en": "for generating image signals from visible and infrared light wavelengths"
+          }
+        },
+        {
+          "code": "H04N 23/12",
+          "title": {
+            "ko": null,
+            "en": "with one sensor only"
+          }
+        },
+        {
+          "code": "H04N 23/13",
+          "title": {
+            "ko": null,
+            "en": "with multiple sensors"
+          }
+        },
+        {
+          "code": "H04N 23/15",
+          "title": {
+            "ko": null,
+            "en": "Image signal generation with circuitry for avoiding or correcting image misregistration"
+          }
+        },
+        {
+          "code": "H04N 23/16",
+          "title": {
+            "ko": null,
+            "en": "Optical arrangements associated therewith, e.g. for beam-splitting or for colour correction"
+          }
+        },
+        {
+          "code": "H04N 23/17",
+          "title": {
+            "ko": null,
+            "en": "using opto-mechanical scanning means only"
+          }
+        },
+        {
+          "code": "H04N 23/20",
+          "title": {
+            "ko": null,
+            "en": "for generating image signals from infrared radiation only"
+          }
+        },
+        {
+          "code": "H04N 23/21",
+          "title": {
+            "ko": null,
+            "en": "from near infrared [NIR] radiation"
+          }
+        },
+        {
+          "code": "H04N 23/23",
+          "title": {
+            "ko": null,
+            "en": "from thermal infrared radiation"
+          }
+        },
+        {
+          "code": "H04N 23/30",
+          "title": {
+            "ko": null,
+            "en": "for generating image signals from X-rays"
+          }
+        },
+        {
+          "code": "H04N 23/40",
+          "title": {
+            "ko": null,
+            "en": "Circuit details for pick-up tubes"
+          }
+        },
+        {
+          "code": "H04N 23/45",
+          "title": {
+            "ko": null,
+            "en": "for generating image signals from two or more image sensors being of different type or operating in different modes, e.g. with a CMOS sensor for moving images in combination with a charge-coupled device [CCD] for still images"
+          }
+        },
+        {
+          "code": "H04N 23/50",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "H04N 23/51",
+          "title": {
+            "ko": null,
+            "en": "Housings"
+          }
+        },
+        {
+          "code": "H04N 23/52",
+          "title": {
+            "ko": null,
+            "en": "Elements optimising image sensor operation, e.g. for electromagnetic interference [EMI] protection or temperature control by heat transfer or cooling elements"
+          }
+        },
+        {
+          "code": "H04N 23/53",
+          "title": {
+            "ko": null,
+            "en": "of electronic viewfinders, e.g. rotatable or detachable"
+          }
+        },
+        {
+          "code": "H04N 23/54",
+          "title": {
+            "ko": null,
+            "en": "Mounting of pick-up tubes, electronic image sensors, deviation or focusing coils"
+          }
+        },
+        {
+          "code": "H04N 23/55",
+          "title": {
+            "ko": null,
+            "en": "Optical parts specially adapted for electronic image sensors; Mounting thereof"
+          }
+        },
+        {
+          "code": "H04N 23/56",
+          "title": {
+            "ko": null,
+            "en": "provided with illuminating means"
+          }
+        },
+        {
+          "code": "H04N 23/57",
+          "title": {
+            "ko": null,
+            "en": "Mechanical or electrical details of cameras or camera modules specially adapted for being embedded in other devices"
+          }
+        },
+        {
+          "code": "H04N 23/58",
+          "title": {
+            "ko": null,
+            "en": "Means for changing the camera field of view without moving the camera body, e.g. nutating or panning of optics or image sensors"
+          }
+        },
+        {
+          "code": "H04N 23/60",
+          "title": {
+            "ko": null,
+            "en": "Control of cameras or camera modules"
+          }
+        },
+        {
+          "code": "H04N 23/61",
+          "title": {
+            "ko": null,
+            "en": "based on recognised objects"
+          }
+        },
+        {
+          "code": "H04N 23/611",
+          "title": {
+            "ko": null,
+            "en": "where the recognised objects include parts of the human body"
+          }
+        },
+        {
+          "code": "H04N 23/617",
+          "title": {
+            "ko": null,
+            "en": "Upgrading or updating of programs or applications for camera control"
+          }
+        },
+        {
+          "code": "H04N 23/62",
+          "title": {
+            "ko": null,
+            "en": "Control of parameters via user interfaces"
+          }
+        },
+        {
+          "code": "H04N 23/63",
+          "title": {
+            "ko": null,
+            "en": "by using electronic viewfinders"
+          }
+        },
+        {
+          "code": "H04N 23/65",
+          "title": {
+            "ko": null,
+            "en": "Control of camera operation in relation to power supply"
+          }
+        },
+        {
+          "code": "H04N 23/66",
+          "title": {
+            "ko": null,
+            "en": "Remote control of cameras or camera parts, e.g. by remote control devices"
+          }
+        },
+        {
+          "code": "H04N 23/661",
+          "title": {
+            "ko": null,
+            "en": "Transmitting camera control signals through networks, e.g. control via the Internet"
+          }
+        },
+        {
+          "code": "H04N 23/663",
+          "title": {
+            "ko": null,
+            "en": "for controlling interchangeable camera parts based on electronic image sensor signals"
+          }
+        },
+        {
+          "code": "H04N 23/667",
+          "title": {
+            "ko": null,
+            "en": "Camera operation mode switching, e.g. between still and video, sport and normal or high and low resolution modes"
+          }
+        },
+        {
+          "code": "H04N 23/67",
+          "title": {
+            "ko": null,
+            "en": "Focus control based on electronic image sensor signals"
+          }
+        },
+        {
+          "code": "H04N 23/68",
+          "title": {
+            "ko": null,
+            "en": "for stable pick-up of the scene, e.g. compensating for camera body vibrations"
+          }
+        },
+        {
+          "code": "H04N 23/69",
+          "title": {
+            "ko": null,
+            "en": "Control of means for changing angle of the field of view, e.g. optical zoom objectives or electronic zooming"
+          }
+        },
+        {
+          "code": "H04N 23/695",
+          "title": {
+            "ko": null,
+            "en": "Control of camera direction for changing a field of view, e.g. pan, tilt or based on tracking of objects"
+          }
+        },
+        {
+          "code": "H04N 23/698",
+          "title": {
+            "ko": null,
+            "en": "for achieving an enlarged field of view, e.g. panoramic image capture"
+          }
+        },
+        {
+          "code": "H04N 23/70",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for compensating brightness variation in the scene"
+          }
+        },
+        {
+          "code": "H04N 23/71",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for evaluating the brightness variation"
+          }
+        },
+        {
+          "code": "H04N 23/72",
+          "title": {
+            "ko": null,
+            "en": "Combination of two or more compensation controls"
+          }
+        },
+        {
+          "code": "H04N 23/73",
+          "title": {
+            "ko": null,
+            "en": "by influencing the exposure time"
+          }
+        },
+        {
+          "code": "H04N 23/74",
+          "title": {
+            "ko": null,
+            "en": "by influencing the scene brightness using illuminating means"
+          }
+        },
+        {
+          "code": "H04N 23/741",
+          "title": {
+            "ko": null,
+            "en": "by increasing the dynamic range of the image compared to the dynamic range of the electronic image sensors"
+          }
+        },
+        {
+          "code": "H04N 23/743",
+          "title": {
+            "ko": null,
+            "en": "Bracketing, i.e. taking a series of images with varying exposure conditions"
+          }
+        },
+        {
+          "code": "H04N 23/745",
+          "title": {
+            "ko": null,
+            "en": "Detection of flicker frequency or suppression of flicker wherein the flicker is caused by illumination, e.g. due to fluorescent tube illumination or pulsed LED illumination"
+          }
+        },
+        {
+          "code": "H04N 23/75",
+          "title": {
+            "ko": null,
+            "en": "by influencing optical camera components"
+          }
+        },
+        {
+          "code": "H04N 23/76",
+          "title": {
+            "ko": null,
+            "en": "by influencing the image signals"
+          }
+        },
+        {
+          "code": "H04N 23/80",
+          "title": {
+            "ko": null,
+            "en": "Camera processing pipelines; Components thereof"
+          }
+        },
+        {
+          "code": "H04N 23/81",
+          "title": {
+            "ko": null,
+            "en": "for suppressing or minimising disturbance in the image signal generation"
+          }
+        },
+        {
+          "code": "H04N 23/82",
+          "title": {
+            "ko": null,
+            "en": "for controlling camera response irrespective of the scene brightness, e.g. gamma correction"
+          }
+        },
+        {
+          "code": "H04N 23/83",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for colour signals"
+          }
+        },
+        {
+          "code": "H04N 23/84",
+          "title": {
+            "ko": null,
+            "en": "for processing colour signals"
+          }
+        },
+        {
+          "code": "H04N 23/85",
+          "title": {
+            "ko": null,
+            "en": "for matrixing"
+          }
+        },
+        {
+          "code": "H04N 23/86",
+          "title": {
+            "ko": null,
+            "en": "for controlling the colour saturation of colour signals, e.g. automatic chroma control circuits"
+          }
+        },
+        {
+          "code": "H04N 23/87",
+          "title": {
+            "ko": null,
+            "en": "for reinsertion of DC or slowly varying components of colour signals"
+          }
+        },
+        {
+          "code": "H04N 23/88",
+          "title": {
+            "ko": null,
+            "en": "for colour balance, e.g. white-balance circuits or colour temperature control"
+          }
+        },
+        {
+          "code": "H04N 23/90",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of cameras or camera modules, e.g. multiple cameras in TV studios or sports stadiums"
+          }
+        },
+        {
+          "code": "H04N 23/95",
+          "title": {
+            "ko": null,
+            "en": "Computational photography systems, e.g. light-field imaging systems"
+          }
+        },
+        {
+          "code": "H04N 23/951",
+          "title": {
+            "ko": null,
+            "en": "by using two or more images to influence resolution, frame rate or aspect ratio"
+          }
+        },
+        {
+          "code": "H04N 23/955",
+          "title": {
+            "ko": null,
+            "en": "for lensless imaging"
+          }
+        },
+        {
+          "code": "H04N 23/957",
+          "title": {
+            "ko": null,
+            "en": "Light-field or plenoptic cameras or camera modules"
+          }
+        },
+        {
+          "code": "H04N 23/958",
+          "title": {
+            "ko": null,
+            "en": "for extended depth of field imaging"
+          }
+        },
+        {
+          "code": "H04N 23/959",
+          "title": {
+            "ko": null,
+            "en": "by adjusting depth of field during image capture, e.g. maximising or setting range based on scene characteristics"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 25/00",
+      "title": {
+        "ko": "고체 이미지 센서 [SSIS]의 회로; 그것의 제어",
+        "en": "Circuitry of solid-state image sensors [SSIS]; Control thereof"
+      },
+      "subgroups": [
+        {
+          "code": "H04N 25/10",
+          "title": {
+            "ko": null,
+            "en": "for transforming different wavelengths into image signals"
+          }
+        },
+        {
+          "code": "H04N 25/11",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of colour filter arrays [CFA]; Filter mosaics"
+          }
+        },
+        {
+          "code": "H04N 25/13",
+          "title": {
+            "ko": null,
+            "en": "characterised by the spectral characteristics of the filter elements"
+          }
+        },
+        {
+          "code": "H04N 25/131",
+          "title": {
+            "ko": null,
+            "en": "including elements passing infrared wavelengths"
+          }
+        },
+        {
+          "code": "H04N 25/133",
+          "title": {
+            "ko": null,
+            "en": "including elements passing panchromatic light, e.g. filters passing white light"
+          }
+        },
+        {
+          "code": "H04N 25/17",
+          "title": {
+            "ko": null,
+            "en": "Colour separation based on photon absorption depth, e.g. full colour resolution obtained simultaneously at each pixel location"
+          }
+        },
+        {
+          "code": "H04N 25/20",
+          "title": {
+            "ko": null,
+            "en": "for transforming only infrared radiation into image signals"
+          }
+        },
+        {
+          "code": "H04N 25/21",
+          "title": {
+            "ko": null,
+            "en": "for transforming thermal infrared radiation into image signals"
+          }
+        },
+        {
+          "code": "H04N 25/30",
+          "title": {
+            "ko": null,
+            "en": "for transforming X-rays into image signals"
+          }
+        },
+        {
+          "code": "H04N 25/40",
+          "title": {
+            "ko": null,
+            "en": "Extracting pixel data from image sensors by controlling scanning circuits, e.g. by modifying the number of pixels sampled or to be sampled"
+          }
+        },
+        {
+          "code": "H04N 25/42",
+          "title": {
+            "ko": null,
+            "en": "by switching between different modes of operation using different resolutions or aspect ratios, e.g. switching between interlaced and non-interlaced mode"
+          }
+        },
+        {
+          "code": "H04N 25/44",
+          "title": {
+            "ko": null,
+            "en": "by partially reading an SSIS array"
+          }
+        },
+        {
+          "code": "H04N 25/441",
+          "title": {
+            "ko": null,
+            "en": "by reading contiguous pixels from selected rows or columns of the array, e.g. interlaced scanning"
+          }
+        },
+        {
+          "code": "H04N 25/443",
+          "title": {
+            "ko": null,
+            "en": "by reading pixels from selected two-dimensional [2D] regions of the array, e.g. for windowing or digital zooming"
+          }
+        },
+        {
+          "code": "H04N 25/445",
+          "title": {
+            "ko": null,
+            "en": "by skipping some contiguous pixels within the read portion of the array"
+          }
+        },
+        {
+          "code": "H04N 25/447",
+          "title": {
+            "ko": null,
+            "en": "by preserving the colour pattern with or without loss of information"
+          }
+        },
+        {
+          "code": "H04N 25/46",
+          "title": {
+            "ko": null,
+            "en": "by combining or binning pixels"
+          }
+        },
+        {
+          "code": "H04N 25/47",
+          "title": {
+            "ko": null,
+            "en": "Image sensors with pixel address output; Event-driven image sensors; Selection of pixels to be read out based on image data"
+          }
+        },
+        {
+          "code": "H04N 25/48",
+          "title": {
+            "ko": null,
+            "en": "Increasing resolution by shifting the sensor relative to the scene"
+          }
+        },
+        {
+          "code": "H04N 25/50",
+          "title": {
+            "ko": null,
+            "en": "Control of the SSIS exposure"
+          }
+        },
+        {
+          "code": "H04N 25/51",
+          "title": {
+            "ko": null,
+            "en": "Control of the gain"
+          }
+        },
+        {
+          "code": "H04N 25/53",
+          "title": {
+            "ko": null,
+            "en": "Control of the integration time"
+          }
+        },
+        {
+          "code": "H04N 25/531",
+          "title": {
+            "ko": null,
+            "en": "by controlling rolling shutters in CMOS SSIS"
+          }
+        },
+        {
+          "code": "H04N 25/532",
+          "title": {
+            "ko": null,
+            "en": "by controlling global shutters in CMOS SSIS"
+          }
+        },
+        {
+          "code": "H04N 25/533",
+          "title": {
+            "ko": null,
+            "en": "by using differing integration times for different sensor regions"
+          }
+        },
+        {
+          "code": "H04N 25/534",
+          "title": {
+            "ko": null,
+            "en": "depending on the spectral component"
+          }
+        },
+        {
+          "code": "H04N 25/535",
+          "title": {
+            "ko": null,
+            "en": "by dynamic region selection"
+          }
+        },
+        {
+          "code": "H04N 25/57",
+          "title": {
+            "ko": null,
+            "en": "Control of the dynamic range"
+          }
+        },
+        {
+          "code": "H04N 25/571",
+          "title": {
+            "ko": null,
+            "en": "involving a non-linear response"
+          }
+        },
+        {
+          "code": "H04N 25/58",
+          "title": {
+            "ko": null,
+            "en": "involving two or more exposures"
+          }
+        },
+        {
+          "code": "H04N 25/581",
+          "title": {
+            "ko": null,
+            "en": "acquired simultaneously"
+          }
+        },
+        {
+          "code": "H04N 25/583",
+          "title": {
+            "ko": null,
+            "en": "with different integration times"
+          }
+        },
+        {
+          "code": "H04N 25/585",
+          "title": {
+            "ko": null,
+            "en": "with pixels having different sensitivities within the sensor, e.g. fast or slow pixels or pixels having different sizes"
+          }
+        },
+        {
+          "code": "H04N 25/587",
+          "title": {
+            "ko": null,
+            "en": "acquired sequentially, e.g. using the combination of odd and even image fields"
+          }
+        },
+        {
+          "code": "H04N 25/589",
+          "title": {
+            "ko": null,
+            "en": "with different integration times, e.g. short and long exposures"
+          }
+        },
+        {
+          "code": "H04N 25/59",
+          "title": {
+            "ko": null,
+            "en": "by controlling the amount of charge storable in the pixel, e.g. modification of the charge conversion ratio of the floating node capacitance"
+          }
+        },
+        {
+          "code": "H04N 25/60",
+          "title": {
+            "ko": null,
+            "en": "Noise processing, e.g. detecting, correcting, reducing or removing noise"
+          }
+        },
+        {
+          "code": "H04N 25/61",
+          "title": {
+            "ko": null,
+            "en": "the noise originating only from the lens unit, e.g. flare, shading, vignetting or \"cos4\""
+          }
+        },
+        {
+          "code": "H04N 25/611",
+          "title": {
+            "ko": null,
+            "en": "Correction of chromatic aberration"
+          }
+        },
+        {
+          "code": "H04N 25/615",
+          "title": {
+            "ko": null,
+            "en": "involving a transfer function modelling the optical system, e.g. optical transfer function [OTF], phase transfer function [PhTF] or modulation transfer function [MTF]"
+          }
+        },
+        {
+          "code": "H04N 25/616",
+          "title": {
+            "ko": null,
+            "en": "involving a correlated sampling function, e.g. correlated double sampling [CDS] or triple sampling"
+          }
+        },
+        {
+          "code": "H04N 25/617",
+          "title": {
+            "ko": null,
+            "en": "for reducing electromagnetic interference, e.g. clocking noise"
+          }
+        },
+        {
+          "code": "H04N 25/618",
+          "title": {
+            "ko": null,
+            "en": "for random or high-frequency noise"
+          }
+        },
+        {
+          "code": "H04N 25/62",
+          "title": {
+            "ko": null,
+            "en": "Detection or reduction of noise due to excess charges produced by the exposure, e.g. smear, blooming, ghost image, crosstalk or leakage between pixels"
+          }
+        },
+        {
+          "code": "H04N 25/621",
+          "title": {
+            "ko": null,
+            "en": "for the control of blooming"
+          }
+        },
+        {
+          "code": "H04N 25/625",
+          "title": {
+            "ko": null,
+            "en": "for the control of smear"
+          }
+        },
+        {
+          "code": "H04N 25/626",
+          "title": {
+            "ko": null,
+            "en": "Reduction of noise due to residual charges remaining after image readout, e.g. to remove ghost images or afterimages"
+          }
+        },
+        {
+          "code": "H04N 25/627",
+          "title": {
+            "ko": null,
+            "en": "Detection or reduction of inverted contrast or eclipsing effects"
+          }
+        },
+        {
+          "code": "H04N 25/628",
+          "title": {
+            "ko": null,
+            "en": "for reducing horizontal stripes caused by saturated regions of CMOS sensors"
+          }
+        },
+        {
+          "code": "H04N 25/63",
+          "title": {
+            "ko": null,
+            "en": "applied to dark current"
+          }
+        },
+        {
+          "code": "H04N 25/633",
+          "title": {
+            "ko": null,
+            "en": "by using optical black pixels"
+          }
+        },
+        {
+          "code": "H04N 25/65",
+          "title": {
+            "ko": null,
+            "en": "applied to reset noise, e.g. KTC noise related to CMOS structures by techniques other than CDS"
+          }
+        },
+        {
+          "code": "H04N 25/67",
+          "title": {
+            "ko": null,
+            "en": "applied to fixed-pattern noise, e.g. non-uniformity of response"
+          }
+        },
+        {
+          "code": "H04N 25/671",
+          "title": {
+            "ko": null,
+            "en": "for non-uniformity detection or correction"
+          }
+        },
+        {
+          "code": "H04N 25/672",
+          "title": {
+            "ko": null,
+            "en": "between adjacent sensors or output registers for reading a single image"
+          }
+        },
+        {
+          "code": "H04N 25/673",
+          "title": {
+            "ko": null,
+            "en": "by using reference sources"
+          }
+        },
+        {
+          "code": "H04N 25/674",
+          "title": {
+            "ko": null,
+            "en": "based on the scene itself, e.g. defocusing"
+          }
+        },
+        {
+          "code": "H04N 25/677",
+          "title": {
+            "ko": null,
+            "en": "for reducing the column or line fixed pattern noise"
+          }
+        },
+        {
+          "code": "H04N 25/68",
+          "title": {
+            "ko": null,
+            "en": "applied to defects"
+          }
+        },
+        {
+          "code": "H04N 25/683",
+          "title": {
+            "ko": null,
+            "en": "by defect estimation performed on the scene signal, e.g. real time or on the fly detection"
+          }
+        },
+        {
+          "code": "H04N 25/69",
+          "title": {
+            "ko": null,
+            "en": "SSIS comprising testing or correcting structures for circuits other than pixel cells"
+          }
+        },
+        {
+          "code": "H04N 25/70",
+          "title": {
+            "ko": "SSIS 구조; 그와 관련된 회로",
+            "en": "SSIS architectures; Circuits associated therewith"
+          }
+        },
+        {
+          "code": "H04N 25/701",
+          "title": {
+            "ko": null,
+            "en": "Line sensors"
+          }
+        },
+        {
+          "code": "H04N 25/702",
+          "title": {
+            "ko": null,
+            "en": "SSIS architectures characterised by non-identical, non-equidistant or non-planar pixel layout"
+          }
+        },
+        {
+          "code": "H04N 25/703",
+          "title": {
+            "ko": null,
+            "en": "SSIS architectures incorporating pixels for producing signals other than image signals"
+          }
+        },
+        {
+          "code": "H04N 25/704",
+          "title": {
+            "ko": null,
+            "en": "Pixels specially adapted for focusing, e.g. phase difference pixel sets"
+          }
+        },
+        {
+          "code": "H04N 25/705",
+          "title": {
+            "ko": null,
+            "en": "Pixels for depth measurement, e.g. RGBZ"
+          }
+        },
+        {
+          "code": "H04N 25/706",
+          "title": {
+            "ko": null,
+            "en": "Pixels for exposure or ambient light measuring"
+          }
+        },
+        {
+          "code": "H04N 25/707",
+          "title": {
+            "ko": null,
+            "en": "Pixels for event detection"
+          }
+        },
+        {
+          "code": "H04N 25/708",
+          "title": {
+            "ko": null,
+            "en": "Pixels for edge detection"
+          }
+        },
+        {
+          "code": "H04N 25/709",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for control of the power supply"
+          }
+        },
+        {
+          "code": "H04N 25/71",
+          "title": {
+            "ko": null,
+            "en": "Charge-coupled device [CCD] sensors; Charge-transfer registers specially adapted for CCD sensors"
+          }
+        },
+        {
+          "code": "H04N 25/711",
+          "title": {
+            "ko": null,
+            "en": "Time delay and integration [TDI] registers; TDI shift registers"
+          }
+        },
+        {
+          "code": "H04N 25/713",
+          "title": {
+            "ko": null,
+            "en": "Transfer or readout registers; Split readout registers or multiple readout registers"
+          }
+        },
+        {
+          "code": "H04N 25/715",
+          "title": {
+            "ko": null,
+            "en": "using frame interline transfer [FIT]"
+          }
+        },
+        {
+          "code": "H04N 25/72",
+          "title": {
+            "ko": null,
+            "en": "using frame transfer [FT]"
+          }
+        },
+        {
+          "code": "H04N 25/73",
+          "title": {
+            "ko": null,
+            "en": "using interline transfer [IT]"
+          }
+        },
+        {
+          "code": "H04N 25/74",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for scanning or addressing the pixel array"
+          }
+        },
+        {
+          "code": "H04N 25/75",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for providing, modifying or processing image signals from the pixel array"
+          }
+        },
+        {
+          "code": "H04N 25/76",
+          "title": {
+            "ko": "어드레스된 센서, 예. MOS 또는 CMOS 센서",
+            "en": "Addressed sensors, e.g. MOS or CMOS sensors"
+          }
+        },
+        {
+          "code": "H04N 25/766",
+          "title": {
+            "ko": null,
+            "en": "comprising control or output lines used for a plurality of functions, e.g. for pixel output, driving, reset or power"
+          }
+        },
+        {
+          "code": "H04N 25/767",
+          "title": {
+            "ko": null,
+            "en": "Horizontal readout lines, multiplexers or registers"
+          }
+        },
+        {
+          "code": "H04N 25/768",
+          "title": {
+            "ko": null,
+            "en": "for time delay and integration [TDI]"
+          }
+        },
+        {
+          "code": "H04N 25/77",
+          "title": {
+            "ko": "픽셀 회로, 예. 메모리, A/D 컨버터, 픽셀 증폭기, 공유 회로 또는 공유 구성 요소",
+            "en": "Pixel circuitry, e.g. memories, A/D converters, pixel amplifiers, shared circuits or shared components"
+          }
+        },
+        {
+          "code": "H04N 25/771",
+          "title": {
+            "ko": null,
+            "en": "comprising storage means other than floating diffusion"
+          }
+        },
+        {
+          "code": "H04N 25/772",
+          "title": {
+            "ko": "A/D, V/T, V/F, I/T 또는 I/F 변환기로 구성되는 것",
+            "en": "comprising A/D, V/T, V/F, I/T or I/F converters"
+          }
+        },
+        {
+          "code": "H04N 25/773",
+          "title": {
+            "ko": null,
+            "en": "comprising photon counting circuits, e.g. single photon detection [SPD] or single photon avalanche diodes [SPAD]"
+          }
+        },
+        {
+          "code": "H04N 25/778",
+          "title": {
+            "ko": null,
+            "en": "comprising amplifiers shared between a plurality of pixels, i.e. at least one part of the amplifier must be on the sensor array itself"
+          }
+        },
+        {
+          "code": "H04N 25/779",
+          "title": {
+            "ko": null,
+            "en": "Circuitry for scanning or addressing the pixel array"
+          }
+        },
+        {
+          "code": "H04N 25/78",
+          "title": {
+            "ko": "어드레스된 센서에 대한 판독 회로, 예. 출력 증폭기 또는 A/D 변환기",
+            "en": "Readout circuits for addressed sensors, e.g. output amplifiers or A/D converters"
+          }
+        },
+        {
+          "code": "H04N 25/79",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of circuitry being divided between different or multiple substrates, chips or circuit boards, e.g. stacked image sensors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04N 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with groups H04N0001000000-H04N0017000000, relating to still video cameras."
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04N 101/00",
+      "title": {
+        "ko": null,
+        "en": "Still video cameras"
+      },
+      "subgroups": []
+    }
+  ]
+}

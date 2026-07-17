@@ -1,0 +1,172 @@
+version: 2
+description: "Patent AI Agent Engine — pipeline manifest (DRC P{NN} 포맷). 22 P{NN} pipeline, chain dispatch graph. 사람 inventory 용 — runtime SoT 는 *.pipeline.json 파일명 + 파일 자체 (pipeline_walker / tests/validate 가 파일 scan)."
+
+# =============================================================================
+# Personas (6) — 정의 SoT = @deployment/engine.config.yaml 의 `personas`
+#   (name/role/llm/fallback/effort/channel/memory_dir/max_concurrency — 여기 중복 기재 않음.
+#    아래 pipelines[].persona 의 정수 id 가 그 SoT 의 persona id 를 참조.)
+# =============================================================================
+
+# =============================================================================
+# Pipelines (22 P{NN} files) — chain dispatch graph
+# =============================================================================
+pipelines:
+  - id: P01.R00.CHAT_CONVERSATION
+    file: 01.buddy/P01.R00.CHAT_CONVERSATION.pipeline.json
+    persona: 1
+    description: "P01 Buddy 단일 chain — 응대원. (step 0) Gemini multimodal 1차 분석 (intent + IOM 완성도 + 가드레일 special_case + guidelines + internal_analysis). (step 1) compose — special_case 별 응대 패턴 적용, 친근 응답 작성, internal_analysis 는 meta 로만 보존. (step 2) cm.append_conversation. self-contained 종료 — P02 가 별도 chain 으로 conversation 보고 IOM patch."
+    dispatches_to: []
+
+  - id: P02.R00.CONCEPT_MATURITY
+    file: 02.director/P02.R00.CONCEPT_MATURITY.pipeline.json
+    persona: 2
+    description: "구체화 단계 진입 chain (임시, 작성 단계 마일스톤까지). 8 step: (0) extract_to_stack Agent, (1) staging.save DRO tool, (2~4) score 3개 정적 병렬 (clarity / completeness / potential), (5) maturity.compute DRO tool (가중 합산 + CMM PUT — model.maturity WS 는 Nexus 가 chain 완료 시 CM fetch 로 생성, DRO 미발사 #12), (6) update_roadmap Agent, (7) roadmap.persist DRO tool (UR array PUT — model.roadmap WS 는 Nexus 가 chain 완료 시 CM fetch 로 생성, DRO 미발사 #12). dispatch_to: null — self-contained."
+    dispatches_to: []
+
+  - id: P02.R99.CENTRAL_AGENT
+    file: 02.director/P02.R99.CENTRAL_AGENT.pipeline.json
+    persona: 2
+    description: "정식 메인 루프 (미구현 target — 현재 미활성, 작성 단계 마일스톤에서 활성화 예정). 1 step `validate_and_plan` + 7-way dispatch (gap/classify/rejection/prior_art/reasoning/drawing/evaluation). 활성화 시 모든 사용자 메시지의 진입점."
+    dispatches_to:
+      - P02.R10.DIRECTOR_GAP_ANALYSIS
+      - P03.R20.ANALYZE_REJECTION_RISK
+      - P02.R20.CLASSIFY_INVENTION
+      - P03.R00.PRIOR_ART_SEARCH_ANALYZE
+      - P04.R00.INVENTION_REASONING
+      - P02.R12.DRAWING_ORCHESTRATION
+      - P02.R11.PATENT_EVALUATION
+
+  - id: P02.R10.DIRECTOR_GAP_ANALYSIS
+    file: 02.director/P02.R10.DIRECTOR_GAP_ANALYSIS.pipeline.json
+    persona: 2
+    description: "director 갭 분석 chain. R99 의 gap_analysis 분기에서 dispatch. 알려진 사실로 IOM 을 채우고 부족 항목 (gap) 으로 체크리스트 생성."
+    dispatches_to:
+      - P02.R99.CENTRAL_AGENT
+
+  - id: P02.R11.PATENT_EVALUATION
+    file: 02.director/P02.R11.PATENT_EVALUATION.pipeline.json
+    persona: 2
+    description: "director 등록가능성 종합 평가 chain. Finder/Thinker 의 산출 (선행기술·신규성·청구항 논리) 을 chain dispatch 로 모아 출원 전략 수립. research staleness 기반 재탐색/재사용 결정."
+    dispatches_to:
+      - P03.R00.PRIOR_ART_SEARCH_ANALYZE
+      - P03.R11.EVALUATE_NOVELTY
+      - P04.R02.VERIFY_CLAIM_LOGIC
+      - P02.R11.PATENT_EVALUATION
+
+  - id: P02.R12.DRAWING_ORCHESTRATION
+    file: 02.director/P02.R12.DRAWING_ORCHESTRATION.pipeline.json
+    persona: 2
+    description: "director 도면 생성 orchestrate. 4 step: (0) 도면 리스트 self-check, (1) 부호 추출 per drawing (Thinker chain dispatch + peer-review), (2) 청구항 작성 (Thinker chain dispatch + peer-review), (3) DL 생성 → 렌더링 → Inspector Vision 검수 per drawing. 검수 fail 시 직전 stage 회귀, max_review_retries 가드. Inspector fail 은 DL 단계로 회귀."
+    dispatches_to:
+      - P02.R99.CENTRAL_AGENT
+      - P02.R12.DRAWING_ORCHESTRATION
+
+  - id: P02.R13.SAVE_DRAWING_ARTIFACTS
+    file: 02.director/P02.R13.SAVE_DRAWING_ARTIFACTS.pipeline.json
+    persona: 2
+    description: "director 단일 도면 artifacts (numerals/dl/figure) 저장 chain. drawing_orchestration 이 도면별 dispatch. payload 가 null 이면 해당 PUT 자동 skip (executor body=null 처리)."
+    dispatches_to: []
+
+  - id: P02.R20.CLASSIFY_INVENTION
+    file: 02.director/P02.R20.CLASSIFY_INVENTION.pipeline.json
+    persona: 2
+    description: "발명 → IPC + CPC 분류 자동 추론. 4-shard fan-out 으로 후보 Subclass 좁힌 뒤, 좁혀진 Subclass 산하 Group/Subgroup 보고 최종 코드 결정. director gap-analysis 가 completeness_score >= 0.4 도달 시 dispatch."
+    dispatches_to:
+      - P02.R99.CENTRAL_AGENT
+
+  - id: P02.R21.CLASSIFY_SHARD
+    file: 02.director/P02.R21.CLASSIFY_SHARD.pipeline.json
+    persona: 2
+    description: "한 shard (Section 2개) 안에서 IPC + CPC Subclass 후보 좁힘. P02.R20.CLASSIFY_INVENTION 의 4-shard fan-out 중 1개."
+    dispatches_to: []
+
+  - id: P03.R00.PRIOR_ART_SEARCH_ANALYZE
+    file: 03.finder/P03.R00.PRIOR_ART_SEARCH_ANALYZE.pipeline.json
+    persona: 3
+    description: "P03 Finder — 발명 분석 + 청구항 element 후보 + IPC 분류 + 1차 검색 쿼리 초안. 후속 SEARCH_AND_REFLECT 사이클로 dispatch."
+    dispatches_to:
+      - P03.R01.SEARCH_AND_REFLECT
+
+  - id: P03.R01.SEARCH_AND_REFLECT
+    file: 03.finder/P03.R01.SEARCH_AND_REFLECT.pipeline.json
+    persona: 3
+    description: "P03 Finder — KIPRIS 검색 사이클 (query_plan → search → reflect). reflect 가 dispatch_choice 결정: 0=자기 호출 재시도, 1=POST_REFLECT 진행."
+    dispatches_to:
+      - P03.R01.SEARCH_AND_REFLECT
+      - P03.R02.POST_REFLECT
+
+  - id: P03.R02.POST_REFLECT
+    file: 03.finder/P03.R02.POST_REFLECT.pipeline.json
+    persona: 3
+    description: "P03 Finder — 검색 결과 후처리: 중복 제거·랭킹 → 청구항 대비표 → 최종 신규성·진보성·배타성 평가 (synthesis)."
+    dispatches_to: []
+
+  - id: P03.R10.ANALYZE_PLAN
+    file: 03.finder/P03.R10.ANALYZE_PLAN.pipeline.json
+    persona: 3
+    description: "발명 분석 및 검색 계획 수립 (Stage 1만 실행). 전체 prior-art search 없이 빠르게 분석 플랜만 반환."
+    dispatches_to:
+      - P03.R11.EVALUATE_NOVELTY
+
+  - id: P03.R11.EVALUATE_NOVELTY
+    file: 03.finder/P03.R11.EVALUATE_NOVELTY.pipeline.json
+    persona: 3
+    description: "알려진 선행기술 번호로 신규성/배타성 평가. Stage 1 (분석) + 특허 직접 로드 + Stage 4-5 (Claim Chart + Synthesis)."
+    dispatches_to:
+      - P02.R99.CENTRAL_AGENT
+
+  - id: P03.R20.ANALYZE_REJECTION_RISK
+    file: 03.finder/P03.R20.ANALYZE_REJECTION_RISK.pipeline.json
+    persona: 3
+    description: "거절사유 위험 분석 (Layer 3 RAG synthesis). 입력 청구항·명세서와 사전 retrieval 된 거절 사례를 LLM 이 종합해 거절 위험·회피 권고 합성. R99 의 rejection_search 분기에서 dispatch."
+    dispatches_to:
+      - P02.R99.CENTRAL_AGENT
+
+  - id: P04.R00.INVENTION_REASONING
+    file: 04.thinker/P04.R00.INVENTION_REASONING.pipeline.json
+    persona: 4
+    description: "thinker (P04) GPT o3 심층 추론 chain. 5단계: 도메인 식별 → 논리 분해 → 일관성 검증 → 심층 허점 분석 → 질문 합성."
+    dispatches_to:
+      - P02.R99.CENTRAL_AGENT
+
+  - id: P04.R02.VERIFY_CLAIM_LOGIC
+    file: 04.thinker/P04.R02.VERIFY_CLAIM_LOGIC.pipeline.json
+    persona: 4
+    description: "단일 청구항의 논리적·수학적·물리적 타당성 검증. GPT o3 로 모순/오류/모호함/과도한 일반화/실시 불가 주장 탐지."
+    dispatches_to: []
+
+  - id: P04.R10.EXTRACT_NUMERALS
+    file: 04.thinker/P04.R10.EXTRACT_NUMERALS.pipeline.json
+    persona: 4
+    description: "thinker (P04) GPT o3 단일 도면 부호 (numerals) 추출. drawing_orchestration Step 1 에서 도면별 fan_out dispatch. existing_numerals + revision_comment 입력 시 보완 (추가/수정) 모드."
+    dispatches_to:
+      - P04.R11.CLAIMS_WITH_NUMERALS
+
+  - id: P04.R11.CLAIMS_WITH_NUMERALS
+    file: 04.thinker/P04.R11.CLAIMS_WITH_NUMERALS.pipeline.json
+    persona: 4
+    description: "thinker (P04) GPT o3 청구항 작성. 모든 도면의 부호 (all_numerals) 통합 활용해 부호 포함 청구항 (독립항·종속항·방법항) 작성. drawing_orchestration Step 2 에서 단일 dispatch. existing_claims + revision_comment 가 있으면 보완 모드."
+    dispatches_to:
+      - P02.R12.DRAWING_ORCHESTRATION
+
+  - id: P05.R00.GENERATE_DL
+    file: 05.crafter/P05.R00.GENERATE_DL.pipeline.json
+    persona: 5
+    description: "P05 Crafter — 단일 도면 DL 생성. 2 step: select_tool (PlantUML / OpenSCAD / schemdraw 결정) → generate_dl_code (도구별 코드). drawing_orchestration 이 dispatch, 결과는 render 단계로."
+    dispatches_to:
+      - P05.R10.RENDER_DRAWING
+
+  - id: P05.R10.RENDER_DRAWING
+    file: 05.crafter/P05.R10.RENDER_DRAWING.pipeline.json
+    persona: 5
+    description: "P05 Crafter — DL 코드를 실제 이미지 (SVG/PNG) 로 렌더링. LLM 없음, DRO tool step (drawing.render) 으로 PlantUML CLI / OpenSCAD CLI / SchemDraw 라이브러리 호출. base64 image 반환."
+    dispatches_to:
+      - P06.R00.REVIEW_DRAWING
+
+  - id: P06.R00.REVIEW_DRAWING
+    file: 06.inspector/P06.R00.REVIEW_DRAWING.pipeline.json
+    persona: 6
+    description: "P06 Inspector — 단일 도면 Vision 검수. multimodal Gemini 가 figure_b64 + drawing_meta + numerals 보고 pass/fail + 보완 지시 생성. drawing_orchestration 이 결과 보고 회귀 결정."
+    dispatches_to:
+      - P02.R12.DRAWING_ORCHESTRATION
+      - P05.R00.GENERATE_DL

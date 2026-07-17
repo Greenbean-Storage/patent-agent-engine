@@ -1,0 +1,467 @@
+{
+  "subclass": "H03G",
+  "title": {
+    "ko": "증폭 제어",
+    "en": "CONTROL OF AMPLIFICATION"
+  },
+  "definition": {
+    "ko": "이득 조정 H03G3/00 음질 조정 H03G5/00 압축기 또는 신장기; 리미터 H03G7/00;11/00 2종류 이상의 형식의 제어의 결합 H03G9/00 세부 H03G1/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제사항 H03G99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03G 1/00",
+      "title": {
+        "ko": "증폭을 제어하기 위한 장치의 세부",
+        "en": "Details of arrangements for controlling amplification"
+      },
+      "subgroups": [
+        {
+          "code": "H03G 1/02",
+          "title": {
+            "ko": "증폭, 톤 또는 대역폭의 원격 제어 (공진 회로의 원격 조정 또는 선택과 결합된 것 H03J)",
+            "en": "Remote control of amplification, tone or bandwidth  (combined with remote tuning or selection of resonant circuits H03J)"
+          }
+        },
+        {
+          "code": "H03G 1/04",
+          "title": {
+            "ko": "제어에 기인하는 왜곡을 저감하기 위한 제어회로의 변형 (제어에 기인하는 증폭소자의 내부임피던스의 변화의 영향을 저감하기 위한 변형 H03F 1/08)",
+            "en": "Modifications of control circuit to reduce distortion caused by control (modifications to reduce influence of variations of internal impedance of amplifying elements caused by control H03F0001080000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03G 3/00",
+      "title": {
+        "ko": "증폭기 또는 주파수 변환기에서 이득 제어",
+        "en": "Gain control in amplifiers or frequency changers"
+      },
+      "subgroups": [
+        {
+          "code": "H03G 3/02",
+          "title": {
+            "ko": null,
+            "en": "Manually-operated control"
+          }
+        },
+        {
+          "code": "H03G 3/04",
+          "title": {
+            "ko": null,
+            "en": "in untuned amplifiers"
+          }
+        },
+        {
+          "code": "H03G 3/06",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 3/08",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        },
+        {
+          "code": "H03G 3/10",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 3/12",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        },
+        {
+          "code": "H03G 3/14",
+          "title": {
+            "ko": null,
+            "en": "in frequency-selective amplifiers"
+          }
+        },
+        {
+          "code": "H03G 3/16",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 3/18",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 3/20",
+          "title": {
+            "ko": "자동제어(음량의 신장 또는 압축과 결합된 것 H03F 7/00)",
+            "en": "Automatic control (combined with volume compression or expansion H03G0007000000)"
+          }
+        },
+        {
+          "code": "H03G 3/22",
+          "title": {
+            "ko": null,
+            "en": "in amplifiers having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 3/24",
+          "title": {
+            "ko": null,
+            "en": "Control dependent upon ambient noise level or sound level"
+          }
+        },
+        {
+          "code": "H03G 3/26",
+          "title": {
+            "ko": null,
+            "en": "Muting amplifier when no signal is present"
+          }
+        },
+        {
+          "code": "H03G 3/28",
+          "title": {
+            "ko": null,
+            "en": "in frequency-modulation receivers"
+          }
+        },
+        {
+          "code": "H03G 3/30",
+          "title": {
+            "ko": null,
+            "en": "in amplifiers having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 3/32",
+          "title": {
+            "ko": null,
+            "en": "the control being dependent upon ambient noise level or sound level"
+          }
+        },
+        {
+          "code": "H03G 3/34",
+          "title": {
+            "ko": null,
+            "en": "Muting amplifier when no signal is present"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03G 5/00",
+      "title": {
+        "ko": null,
+        "en": "Tone control or bandwidth control in amplifiers"
+      },
+      "subgroups": [
+        {
+          "code": "H03G 5/02",
+          "title": {
+            "ko": null,
+            "en": "Manually-operated control"
+          }
+        },
+        {
+          "code": "H03G 5/04",
+          "title": {
+            "ko": null,
+            "en": "in untuned amplifiers"
+          }
+        },
+        {
+          "code": "H03G 5/06",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 5/08",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        },
+        {
+          "code": "H03G 5/10",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 5/12",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        },
+        {
+          "code": "H03G 5/14",
+          "title": {
+            "ko": null,
+            "en": "in frequency-selective amplifiers"
+          }
+        },
+        {
+          "code": "H03G 5/16",
+          "title": {
+            "ko": null,
+            "en": "Automatic control"
+          }
+        },
+        {
+          "code": "H03G 5/18",
+          "title": {
+            "ko": null,
+            "en": "in untuned amplifiers"
+          }
+        },
+        {
+          "code": "H03G 5/20",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 5/22",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 5/24",
+          "title": {
+            "ko": null,
+            "en": "in frequency-selective amplifiers"
+          }
+        },
+        {
+          "code": "H03G 5/26",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 5/28",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03G 7/00",
+      "title": {
+        "ko": null,
+        "en": "Volume compression or expansion in amplifiers"
+      },
+      "subgroups": [
+        {
+          "code": "H03G 7/02",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 7/04",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        },
+        {
+          "code": "H03G 7/06",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 7/08",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03G 9/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of two or more types of control, e.g. gain control and tone control"
+      },
+      "subgroups": [
+        {
+          "code": "H03G 9/02",
+          "title": {
+            "ko": null,
+            "en": "in untuned amplifiers"
+          }
+        },
+        {
+          "code": "H03G 9/04",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 9/06",
+          "title": {
+            "ko": null,
+            "en": "for gain control and tone control"
+          }
+        },
+        {
+          "code": "H03G 9/08",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        },
+        {
+          "code": "H03G 9/10",
+          "title": {
+            "ko": null,
+            "en": "for tone control and volume expansion or compression"
+          }
+        },
+        {
+          "code": "H03G 9/12",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 9/14",
+          "title": {
+            "ko": null,
+            "en": "for gain control and tone control"
+          }
+        },
+        {
+          "code": "H03G 9/16",
+          "title": {
+            "ko": null,
+            "en": "incorporating negative feedback"
+          }
+        },
+        {
+          "code": "H03G 9/18",
+          "title": {
+            "ko": null,
+            "en": "for tone control and volume expansion or compression"
+          }
+        },
+        {
+          "code": "H03G 9/20",
+          "title": {
+            "ko": null,
+            "en": "in frequency-selective amplifiers"
+          }
+        },
+        {
+          "code": "H03G 9/22",
+          "title": {
+            "ko": null,
+            "en": "having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 9/24",
+          "title": {
+            "ko": null,
+            "en": "having semiconductor devices"
+          }
+        },
+        {
+          "code": "H03G 9/26",
+          "title": {
+            "ko": null,
+            "en": "in untuned amplifying stages as well as in frequency-selective amplifying stages"
+          }
+        },
+        {
+          "code": "H03G 9/28",
+          "title": {
+            "ko": null,
+            "en": "all amplifying stages having discharge tubes"
+          }
+        },
+        {
+          "code": "H03G 9/30",
+          "title": {
+            "ko": null,
+            "en": "all amplifying stages having semiconductor devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03G 11/00",
+      "title": {
+        "ko": "진폭의 제한; 진폭의 변화율의 제한",
+        "en": "Limiting amplitude; Limiting rate of change of amplitude"
+      },
+      "subgroups": [
+        {
+          "code": "H03G 11/02",
+          "title": {
+            "ko": "다이오드에 의한 것(H03F 11/04, H03F 11/06, H03F 11/08이 우선)",
+            "en": "by means of diodes (H03G0011040000, H03G0011060000, H03G0011080000 take precedence)"
+          }
+        },
+        {
+          "code": "H03G 11/04",
+          "title": {
+            "ko": null,
+            "en": "Limiting level dependent on strength of signal; Limiting level dependent on strength of carrier on which signal is modulated"
+          }
+        },
+        {
+          "code": "H03G 11/06",
+          "title": {
+            "ko": "각도변조된 신호의 리미터; 변별기(Discriminator) 와 결합된 리미터(고유의 제한동작이 있는 변별기 H03D 3/00)",
+            "en": "Limiters of angle-modulated signals; such limiters combined with discriminators (discriminators having an inherent limiting action H03D0003000000)"
+          }
+        },
+        {
+          "code": "H03G 11/08",
+          "title": {
+            "ko": null,
+            "en": "Limiting rate of change of amplitude"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03G 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

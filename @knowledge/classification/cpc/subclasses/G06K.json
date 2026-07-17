@@ -1,0 +1,460 @@
+{
+  "subclass": "G06K",
+  "title": {
+    "ko": null,
+    "en": "GRAPHICAL DATA READING (image or video recognition or understanding G06V); PRESENTATION OF DATA; RECORD CARRIERS; HANDLING RECORD CARRIERS"
+  },
+  "groups": [
+    {
+      "code": "G06K 1/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for marking the record carrier in digital fashion"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 1/02",
+          "title": {
+            "ko": null,
+            "en": "by punching"
+          }
+        },
+        {
+          "code": "G06K 1/12",
+          "title": {
+            "ko": null,
+            "en": "otherwise than by punching"
+          }
+        },
+        {
+          "code": "G06K 1/14",
+          "title": {
+            "ko": null,
+            "en": "by transferring data from a similar or dissimilar record carrier"
+          }
+        },
+        {
+          "code": "G06K 1/20",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous marking of record carrier and printing-out of data, e.g. printing-punch"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 3/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for printing of data in the shape of alphanumeric or other characters from a record carrier, e.g. interpreting, printing-out from a magnetic tape"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 3/02",
+          "title": {
+            "ko": null,
+            "en": "Translating markings on a record carrier into printed data on the same record carrier, i.e. interpreting"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 5/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for verifying the correctness of markings on a record carrier; Column detection devices"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 5/02",
+          "title": {
+            "ko": null,
+            "en": "the verifying forming a part of the marking action"
+          }
+        },
+        {
+          "code": "G06K 5/04",
+          "title": {
+            "ko": null,
+            "en": "Verifying the alignment of markings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 7/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for sensing record carriers, {e.g. for reading patterns} (methods or arrangements for marking the record carrier in digital fashion G06K1/00; pattern recognition G06F18/00; arrangements for image or video recognition or understanding G06V10/00; character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V30/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 7/0004",
+          "title": {
+            "ko": null,
+            "en": "{Hybrid readers}"
+          }
+        },
+        {
+          "code": "G06K 7/0008",
+          "title": {
+            "ko": null,
+            "en": "{General problems related to the reading of electronic memory record carriers, independent of its reading method, e.g. power transfer}"
+          }
+        },
+        {
+          "code": "G06K 7/0013",
+          "title": {
+            "ko": null,
+            "en": "{by galvanic contacts, e.g. card connectors for ISO-7816 compliant smart cards or memory cards, e.g. SD card readers (connectors in general H01R13/00; connectors for SIM cards used in mobile phones or the like H04B1/3816)}"
+          }
+        },
+        {
+          "code": "G06K 7/0095",
+          "title": {
+            "ko": null,
+            "en": "{Testing the sensing arrangement, e.g. testing if a magnetic card reader, bar code reader, RFID interrogator or smart card reader functions properly (testing of electrical circuits G01R31/28)}"
+          }
+        },
+        {
+          "code": "G06K 7/01",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G06K 7/02",
+          "title": {
+            "ko": null,
+            "en": "by pneumatic or hydraulic means, e.g. sensing punched holes with compressed air; by sonic means {; by ultrasonic means}"
+          }
+        },
+        {
+          "code": "G06K 7/04",
+          "title": {
+            "ko": null,
+            "en": "by mechanical means, e.g. by pins operating electric contacts"
+          }
+        },
+        {
+          "code": "G06K 7/06",
+          "title": {
+            "ko": null,
+            "en": "by means which conduct current when a mark is sensed or absent, e.g. contact brush for a conductive mark"
+          }
+        },
+        {
+          "code": "G06K 7/08",
+          "title": {
+            "ko": null,
+            "en": "by means detecting the change of an electrostatic or magnetic field, e.g. by detecting change of capacitance between electrodes"
+          }
+        },
+        {
+          "code": "G06K 7/10",
+          "title": {
+            "ko": null,
+            "en": "by electromagnetic radiation, e.g. optical sensing; by corpuscular radiation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 11/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for graph-reading or for converting the pattern of mechanical parameters, e.g. force or presence, into electrical signal (feelers for copying devices on machine tools B23Q35/00; arrangements for measuring areas G01B; measuring force G01L; adapted as input devices to computers G06F3/00; combined with pattern recognition G06F18/00; arrangements for image or video recognition or understanding G06V10/00; character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V30/00; systems for transmitting the position of an object with respect to a predetermined reference system, e.g. tele-autographic system, G08C21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 11/02",
+          "title": {
+            "ko": null,
+            "en": "Automatic curve followers {, i.e. arrangements in which an exploring member or beam is forced to follow the curve}"
+          }
+        },
+        {
+          "code": "G06K 11/06",
+          "title": {
+            "ko": null,
+            "en": "Devices for converting the position of a manually-operated writing or tracing member into an electrical signal {(arrangements for converting the position or the displacement of a member into a coded form G06F3/03)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 13/00",
+      "title": {
+        "ko": null,
+        "en": "Conveying record carriers from one station to another, e.g. from stack to punching mechanism (conveying record carriers combined with another operation, e.g. with reading G06K17/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 13/02",
+          "title": {
+            "ko": null,
+            "en": "the record carrier having longitudinal dimension comparable with transverse dimension, e.g. punched card"
+          }
+        },
+        {
+          "code": "G06K 13/18",
+          "title": {
+            "ko": null,
+            "en": "the record carrier being longitudinally extended, e.g. punched tape"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 15/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for producing a permanent visual presentation of the output data {, e.g. computer output printers}(printing or plotting combined with another operation, e.g. with conveying, G06K17/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 15/002",
+          "title": {
+            "ko": null,
+            "en": "{Interacting with the operator}"
+          }
+        },
+        {
+          "code": "G06K 15/02",
+          "title": {
+            "ko": null,
+            "en": "using printers"
+          }
+        },
+        {
+          "code": "G06K 15/22",
+          "title": {
+            "ko": null,
+            "en": "using plotters"
+          }
+        },
+        {
+          "code": "G06K 15/40",
+          "title": {
+            "ko": null,
+            "en": "{Details not directly involved in printing, e.g. machine management, management of the arrangement as a whole or of its constitutive parts (computer driven print job management G06F3/1237)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 17/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for effecting co-operative working between equipments covered by two or more of main groups G06K1/00 - G06K15/00, e.g. automatic card files incorporating conveying and reading operations"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 17/0003",
+          "title": {
+            "ko": null,
+            "en": "{Automatic card files incorporating selecting, conveying and possibly reading and/or writing operations}"
+          }
+        },
+        {
+          "code": "G06K 17/0016",
+          "title": {
+            "ko": null,
+            "en": "{Selecting or retrieving of images by means of their associated code-marks, e.g. coded microfilm or microfiche (microfilm reading G03B21/11; computers therefor G06F16/00; teaching devices G09B5/02; accessing record carriers G11B27/002; static digital stores using optical elements G11C13/04; intermediate storage of facsimile picture signals H04N1/21)}"
+          }
+        },
+        {
+          "code": "G06K 17/0022",
+          "title": {
+            "ko": null,
+            "en": "{arrangements or provisions for transferring data to distant stations, e.g. from a sensing device (\"transfer between computer elements G06F13/00 \"; data-transmission H04L)}"
+          }
+        },
+        {
+          "code": "G06K 17/0032",
+          "title": {
+            "ko": null,
+            "en": "{Apparatus for automatic testing and analysing marked record carriers, used for examinations of the multiple choice answer type (teaching apparatus working with questions and answers G09B7/00)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 19/00",
+      "title": {
+        "ko": null,
+        "en": "Record carriers for use with machines and with at least a part designed to carry digital markings"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 19/005",
+          "title": {
+            "ko": null,
+            "en": "{the record carrier comprising an arrangement to facilitate insertion into a holding device, e.g. an arrangement that makes the record carrier fit into an etui or a casing (ticket holders A45C11/18)}"
+          }
+        },
+        {
+          "code": "G06K 19/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the selection of materials, e.g. to avoid wear during transport through the machine"
+          }
+        },
+        {
+          "code": "G06K 19/04",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape"
+          }
+        },
+        {
+          "code": "G06K 19/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by the kind of the digital marking, e.g. shape, nature, code"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 21/00",
+      "title": {
+        "ko": null,
+        "en": "Information retrieval from punched cards designed for manual use or handling by machine (G06K19/00 takes precedence; detection or correction of errors by rescanning patterns G06V10/98; checking correct operation of card-conveying mechanisms G06K13/06); Apparatus for handling such cards, e.g. marking or correcting"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 21/002",
+          "title": {
+            "ko": null,
+            "en": "{Selecting of marginally notched cards (card filling arrangements B42F17/00)}"
+          }
+        },
+        {
+          "code": "G06K 21/02",
+          "title": {
+            "ko": null,
+            "en": "in which coincidence of markings is sensed mechanically, e.g. by needle"
+          }
+        },
+        {
+          "code": "G06K 21/04",
+          "title": {
+            "ko": null,
+            "en": "in which coincidence of markings is sensed optically, e.g. peek-a-boo system"
+          }
+        },
+        {
+          "code": "G06K 21/06",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or tools adapted for slotting or otherwise marking information-retrieval cards"
+          }
+        },
+        {
+          "code": "G06K 21/08",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or tools for correcting punching or slotting errors {and regeneration of record carriers}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Other aspects"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 2207/1011",
+          "title": {
+            "ko": null,
+            "en": "Aiming"
+          }
+        },
+        {
+          "code": "G06K 2207/1012",
+          "title": {
+            "ko": null,
+            "en": "Special detection of object"
+          }
+        },
+        {
+          "code": "G06K 2207/1013",
+          "title": {
+            "ko": null,
+            "en": "Multi-focal"
+          }
+        },
+        {
+          "code": "G06K 2207/1015",
+          "title": {
+            "ko": null,
+            "en": "Hologram"
+          }
+        },
+        {
+          "code": "G06K 2207/1016",
+          "title": {
+            "ko": null,
+            "en": "Motor control or optical moving unit control"
+          }
+        },
+        {
+          "code": "G06K 2207/1017",
+          "title": {
+            "ko": null,
+            "en": "Programmable"
+          }
+        },
+        {
+          "code": "G06K 2207/1018",
+          "title": {
+            "ko": null,
+            "en": "Source control"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06K 2215/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for producing a permanent visual presentation of the output data"
+      },
+      "subgroups": [
+        {
+          "code": "G06K 2215/0002",
+          "title": {
+            "ko": null,
+            "en": "Handling the output data"
+          }
+        },
+        {
+          "code": "G06K 2215/0082",
+          "title": {
+            "ko": null,
+            "en": "Architecture adapted for a particular function"
+          }
+        },
+        {
+          "code": "G06K 2215/101",
+          "title": {
+            "ko": null,
+            "en": "involving the use of ink jets"
+          }
+        },
+        {
+          "code": "G06K 2215/111",
+          "title": {
+            "ko": null,
+            "en": "with overlapping swaths"
+          }
+        }
+      ]
+    }
+  ]
+}

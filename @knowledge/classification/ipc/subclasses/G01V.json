@@ -1,0 +1,819 @@
+{
+  "subclass": "G01V",
+  "title": {
+    "ko": "지구물리; 중력측정; 질량 또는 대상물의 검출; 태그(TAGS) (돌발적으로 매몰된, 예. 눈(雪)에 매몰된, 사람의 위치를 지시하는 수단 A63B29/02)",
+    "en": "GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS (means for indicating the location of accidentally buried, e.g. snow-buried, persons A63B0029020000)"
+  },
+  "definition": {
+    "ko": "탐광 또는 검출의 장치 또는 방법 지진 또는 음향 G01V1/00 전기적, 자기적; 핵방사선에 의한 것; 중량측정; 광학적 수단에 의한 것 G01V3/00; G01V5/00; G01V7/00; G01V8/00 기타 또는 조합된 것 G01V9/00, G01V11/00 태그 기반 탐지 G01V15/00 지리모델링 일반 G01V20/00 측정 부분 자기장; 중력장 G01V3/00; GO1V7/00 제조, 교정, 보수 G01V13/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01V 1/00",
+      "title": {
+        "ko": "지진학; 지진 또는 음향 탐사 또는 탐지",
+        "en": "Seismology; Seismic or acoustic prospecting or detecting"
+      },
+      "subgroups": [
+        {
+          "code": "G01V 1/01",
+          "title": {
+            "ko": null,
+            "en": "Measuring or predicting earthquakes"
+          }
+        },
+        {
+          "code": "G01V 1/02",
+          "title": {
+            "ko": "지진에너지 발생",
+            "en": "Generating seismic energy"
+          }
+        },
+        {
+          "code": "G01V 1/04",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01V 1/047",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for coupling the generator to the ground"
+          }
+        },
+        {
+          "code": "G01V 1/053",
+          "title": {
+            "ko": null,
+            "en": "for generating transverse waves"
+          }
+        },
+        {
+          "code": "G01V 1/06",
+          "title": {
+            "ko": "점화장치(G01V 1/393이 우선)",
+            "en": "Ignition devices (G01V0001393000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/08",
+          "title": {
+            "ko": null,
+            "en": "involving time-delay devices"
+          }
+        },
+        {
+          "code": "G01V 1/09",
+          "title": {
+            "ko": "수송하는 장치, 예. 차량으로 하는 것(G01V 1/38이 우선)",
+            "en": "Transporting arrangements, e.g. on vehicles (G01V0001380000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/104",
+          "title": {
+            "ko": "폭발물을 사용하는 것(G01V 1/157이 우선)",
+            "en": "using explosive charges (G01V0001157000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/108",
+          "title": {
+            "ko": null,
+            "en": "by deforming or displacing surfaces of enclosures"
+          }
+        },
+        {
+          "code": "G01V 1/112",
+          "title": {
+            "ko": null,
+            "en": "for use on the surface of the earth"
+          }
+        },
+        {
+          "code": "G01V 1/116",
+          "title": {
+            "ko": null,
+            "en": "where pressurised combustion gases escape from the generator in a pulsating manner, e.g. for generating bursts"
+          }
+        },
+        {
+          "code": "G01V 1/13",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or disposition of charges to produce a desired pattern in space or time"
+          }
+        },
+        {
+          "code": "G01V 1/133",
+          "title": {
+            "ko": "유체식 구동수단을 사용하는 것, 높게 가압된 유체를 쓰는 것(G01V 1/104가 우선)",
+            "en": "using fluidic driving means, e.g. using highly pressurised fluids (G01V0001104000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/135",
+          "title": {
+            "ko": null,
+            "en": "by deforming or displacing surfaces of enclosures"
+          }
+        },
+        {
+          "code": "G01V 1/137",
+          "title": {
+            "ko": null,
+            "en": "which fluids escape from the generator in a pulsating manner, e.g. for generating bursts"
+          }
+        },
+        {
+          "code": "G01V 1/143",
+          "title": {
+            "ko": "기계적 구동수단을 사용하는 것(G01V 1/104, G01V 1/133이 우선)",
+            "en": "using mechanical driving means (G01V0001104000, G01V0001133000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/145",
+          "title": {
+            "ko": null,
+            "en": "by deforming or displacing surfaces"
+          }
+        },
+        {
+          "code": "G01V 1/147",
+          "title": {
+            "ko": null,
+            "en": "using impact of dropping masses"
+          }
+        },
+        {
+          "code": "G01V 1/153",
+          "title": {
+            "ko": null,
+            "en": "using rotary unbalanced masses"
+          }
+        },
+        {
+          "code": "G01V 1/155",
+          "title": {
+            "ko": null,
+            "en": "using reciprocating masses"
+          }
+        },
+        {
+          "code": "G01V 1/157",
+          "title": {
+            "ko": null,
+            "en": "using spark discharges; using exploding wires"
+          }
+        },
+        {
+          "code": "G01V 1/16",
+          "title": {
+            "ko": null,
+            "en": "Receiving elements for seismic signals; Arrangements or adaptations of receiving elements"
+          }
+        },
+        {
+          "code": "G01V 1/18",
+          "title": {
+            "ko": null,
+            "en": "Receiving elements, e.g. seismometer, geophone"
+          }
+        },
+        {
+          "code": "G01V 1/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of receiving elements, e.g. geophone pattern"
+          }
+        },
+        {
+          "code": "G01V 1/22",
+          "title": {
+            "ko": null,
+            "en": "Transmitting seismic signals to recording or processing apparatus"
+          }
+        },
+        {
+          "code": "G01V 1/24",
+          "title": {
+            "ko": null,
+            "en": "Recording seismic data"
+          }
+        },
+        {
+          "code": "G01V 1/26",
+          "title": {
+            "ko": null,
+            "en": "Reference-signal-transmitting devices, e.g. indicating moment of firing of shot"
+          }
+        },
+        {
+          "code": "G01V 1/28",
+          "title": {
+            "ko": "지진데이터의 처리, 예. 분석, 해석, 수정을 위한 것(G01V 1/48이 우선)",
+            "en": "Processing seismic data, e.g. for interpretation or for event detection (G01V0001480000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/30",
+          "title": {
+            "ko": "분석(G01V 1/50이 우선)",
+            "en": "Analysis (G01V0001500000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/32",
+          "title": {
+            "ko": null,
+            "en": "Transforming one recording into another"
+          }
+        },
+        {
+          "code": "G01V 1/34",
+          "title": {
+            "ko": null,
+            "en": "Displaying seismic recordings"
+          }
+        },
+        {
+          "code": "G01V 1/36",
+          "title": {
+            "ko": null,
+            "en": "Effecting static or dynamic corrections on records, e.g. correcting spread; Correlating seismic signals; Eliminating effects of unwanted energy"
+          }
+        },
+        {
+          "code": "G01V 1/37",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for seismic systems using continuous agitation of the ground"
+          }
+        },
+        {
+          "code": "G01V 1/38",
+          "title": {
+            "ko": "관수영역에 특히 적합한 것(G01V 1/29이 우선)",
+            "en": "specially adapted for water-covered areas (G01V0001280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/387",
+          "title": {
+            "ko": null,
+            "en": "Reducing secondary bubble pulse, i.e. reducing the detected signals resulting from the generation and release of gas bubbles after the primary explosion"
+          }
+        },
+        {
+          "code": "G01V 1/393",
+          "title": {
+            "ko": null,
+            "en": "Means for loading explosive underwater charges, e.g. combined with ignition devices"
+          }
+        },
+        {
+          "code": "G01V 1/40",
+          "title": {
+            "ko": "우물검층에 특히 적합한 것",
+            "en": "specially adapted for well-logging"
+          }
+        },
+        {
+          "code": "G01V 1/42",
+          "title": {
+            "ko": "한쪽 벽에 발진기를 다른 한쪽에 수신기를 이용하는 것 또는 그 반대(G01V 1/52가 우선)",
+            "en": "using generators in one well and receivers elsewhere or vice-versa (G01V0001520000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/44",
+          "title": {
+            "ko": "동일한 벽에 발진기와 수신기가 있는 것을 이용하는 것(G01V 1/52가 우선)",
+            "en": "using generators and receivers in the same well (G01V0001520000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 1/46",
+          "title": {
+            "ko": null,
+            "en": "Data acquisition"
+          }
+        },
+        {
+          "code": "G01V 1/48",
+          "title": {
+            "ko": null,
+            "en": "Processing data"
+          }
+        },
+        {
+          "code": "G01V 1/50",
+          "title": {
+            "ko": null,
+            "en": "Analysing data"
+          }
+        },
+        {
+          "code": "G01V 1/52",
+          "title": {
+            "ko": null,
+            "en": "Structural details"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01V 3/00",
+      "title": {
+        "ko": "전기적 또는 자기적 탐광 또는 검출; 지구 자장 특성의 측정, 예. 편각 또는 편차의 측정",
+        "en": "Electric or magnetic prospecting or detecting; Measuring magnetic field characteristics of the earth, e.g. declination or deviation"
+      },
+      "definition": {
+        "ko": "그룹 G01V3/15 ~ G01V3/18은 그룹 G01V3/02 ~ G01V3/14에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01V 3/02",
+          "title": {
+            "ko": null,
+            "en": "operating with propagation of electric current"
+          }
+        },
+        {
+          "code": "G01V 3/04",
+          "title": {
+            "ko": null,
+            "en": "using DC"
+          }
+        },
+        {
+          "code": "G01V 3/06",
+          "title": {
+            "ko": null,
+            "en": "using AC"
+          }
+        },
+        {
+          "code": "G01V 3/08",
+          "title": {
+            "ko": "대상물 혹은 지질구조에 의하든가 또는 검출장치에 의하여 발생 또는 변동하는 자장 혹은 전장에서 작동하는 것(전자파로 작동하는 것 G01V 3/12)",
+            "en": "operating with magnetic or electric fields produced or modified by objects or geological structures or by detecting devices (with electromagnetic waves G01V0003120000)"
+          }
+        },
+        {
+          "code": "G01V 3/10",
+          "title": {
+            "ko": null,
+            "en": "using induction coils"
+          }
+        },
+        {
+          "code": "G01V 3/11",
+          "title": {
+            "ko": null,
+            "en": "for detecting conductive objects, e.g. firearms, cables or pipes"
+          }
+        },
+        {
+          "code": "G01V 3/12",
+          "title": {
+            "ko": null,
+            "en": "operating with electromagnetic waves"
+          }
+        },
+        {
+          "code": "G01V 3/14",
+          "title": {
+            "ko": null,
+            "en": "operating with electron or nuclear magnetic resonance"
+          }
+        },
+        {
+          "code": "G01V 3/15",
+          "title": {
+            "ko": "수송중, 예. 사람, 차량 또는 배에 의한 사용에 특히 적합한 것",
+            "en": "specially adapted for use during transport, e.g. by a person, vehicle or boat"
+          }
+        },
+        {
+          "code": "G01V 3/16",
+          "title": {
+            "ko": "항공기에서의 사용에 특히 적합한 것(G01V 3/165 ～ G01V 3/175가 우선)",
+            "en": "specially adapted for use from aircraft (G01V0003165000-G01V0003175000 take precedence)"
+          }
+        },
+        {
+          "code": "G01V 3/165",
+          "title": {
+            "ko": "대상물 또는 검출장치에 의해 발생 또는 변동하는 자장 혹은 전장에서 작동하는 것(전자파로 작동하는 것 G01V 3/17)",
+            "en": "operating with magnetic or electric fields produced or modified by the object or by the detecting device (with electromagnetic waves G01V0003170000)"
+          }
+        },
+        {
+          "code": "G01V 3/17",
+          "title": {
+            "ko": null,
+            "en": "operating with electromagnetic waves"
+          }
+        },
+        {
+          "code": "G01V 3/175",
+          "title": {
+            "ko": null,
+            "en": "operating with electron or nuclear magnetic resonance"
+          }
+        },
+        {
+          "code": "G01V 3/18",
+          "title": {
+            "ko": "시추 검층에 특히 적합한 것",
+            "en": "specially adapted for well-logging"
+          }
+        },
+        {
+          "code": "G01V 3/20",
+          "title": {
+            "ko": null,
+            "en": "operating with propagation of electric current"
+          }
+        },
+        {
+          "code": "G01V 3/22",
+          "title": {
+            "ko": null,
+            "en": "using DC"
+          }
+        },
+        {
+          "code": "G01V 3/24",
+          "title": {
+            "ko": null,
+            "en": "using AC"
+          }
+        },
+        {
+          "code": "G01V 3/26",
+          "title": {
+            "ko": "주위의 지구조성물에 의하거나 또는 검출장치에 의하여 발생 또는 변동하는 자장 혹은 전장으로 작용하는 것(전자파로 작동하는 것 G01V 3/30)",
+            "en": "operating with magnetic or electric fields produced or modified either by the surrounding earth formation or by the detecting device (with electromagnetic waves G01V0003300000)"
+          }
+        },
+        {
+          "code": "G01V 3/28",
+          "title": {
+            "ko": null,
+            "en": "using induction coils"
+          }
+        },
+        {
+          "code": "G01V 3/30",
+          "title": {
+            "ko": null,
+            "en": "operating with electromagnetic waves"
+          }
+        },
+        {
+          "code": "G01V 3/32",
+          "title": {
+            "ko": null,
+            "en": "operating with electron or nuclear magnetic resonance"
+          }
+        },
+        {
+          "code": "G01V 3/34",
+          "title": {
+            "ko": null,
+            "en": "Transmitting data to recording or processing apparatus; Recording data"
+          }
+        },
+        {
+          "code": "G01V 3/36",
+          "title": {
+            "ko": "데이터의 기록(G01V 3/34가 우선)",
+            "en": "Recording data (G01V0003340000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01V 3/38",
+          "title": {
+            "ko": null,
+            "en": "Processing data, e.g. for analysis, for interpretation or for correction"
+          }
+        },
+        {
+          "code": "G01V 3/40",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for measuring magnetic field characteristics of the earth"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01V 5/00",
+      "title": {
+        "ko": null,
+        "en": "Prospecting or detecting by the use of ionising radiation, e.g. of natural or induced radioactivity"
+      },
+      "subgroups": [
+        {
+          "code": "G01V 5/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for surface logging, e.g. from aircraft"
+          }
+        },
+        {
+          "code": "G01V 5/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for well-logging"
+          }
+        },
+        {
+          "code": "G01V 5/06",
+          "title": {
+            "ko": null,
+            "en": "for detecting naturally radioactive minerals"
+          }
+        },
+        {
+          "code": "G01V 5/08",
+          "title": {
+            "ko": null,
+            "en": "using primary nuclear radiation sources or X-rays"
+          }
+        },
+        {
+          "code": "G01V 5/10",
+          "title": {
+            "ko": null,
+            "en": "using neutron sources"
+          }
+        },
+        {
+          "code": "G01V 5/12",
+          "title": {
+            "ko": null,
+            "en": "using gamma- or X-ray sources"
+          }
+        },
+        {
+          "code": "G01V 5/14",
+          "title": {
+            "ko": null,
+            "en": "using a combination of several sources, e.g. a neutron and a gamma source"
+          }
+        },
+        {
+          "code": "G01V 5/20",
+          "title": {
+            "ko": null,
+            "en": "Detecting prohibited goods, e.g. weapons, explosives, hazardous substances, contraband or smuggled objects"
+          }
+        },
+        {
+          "code": "G01V 5/22",
+          "title": {
+            "ko": null,
+            "en": "Active interrogation, i.e. by irradiating objects or goods using external radiation sources, e.g. using gamma rays or cosmic rays"
+          }
+        },
+        {
+          "code": "G01V 5/222",
+          "title": {
+            "ko": null,
+            "en": "measuring scattered radiation"
+          }
+        },
+        {
+          "code": "G01V 5/226",
+          "title": {
+            "ko": null,
+            "en": "using tomography"
+          }
+        },
+        {
+          "code": "G01V 5/26",
+          "title": {
+            "ko": null,
+            "en": "Passive interrogation, i.e. by measuring radiation emitted by objects or goods"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01V 7/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring gravitational fields or waves; Gravimetric prospecting or detecting"
+      },
+      "subgroups": [
+        {
+          "code": "G01V 7/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01V 7/04",
+          "title": {
+            "ko": null,
+            "en": "Electric, photoelectric, or magnetic indicating or recording means"
+          }
+        },
+        {
+          "code": "G01V 7/06",
+          "title": {
+            "ko": null,
+            "en": "Analysis or interpretation of gravimetric records"
+          }
+        },
+        {
+          "code": "G01V 7/08",
+          "title": {
+            "ko": null,
+            "en": "using balances"
+          }
+        },
+        {
+          "code": "G01V 7/10",
+          "title": {
+            "ko": null,
+            "en": "using torsion balances, e.g. Eötvös balance"
+          }
+        },
+        {
+          "code": "G01V 7/12",
+          "title": {
+            "ko": null,
+            "en": "using pendulums"
+          }
+        },
+        {
+          "code": "G01V 7/14",
+          "title": {
+            "ko": null,
+            "en": "using free-fall time"
+          }
+        },
+        {
+          "code": "G01V 7/16",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for use on moving platforms, e.g. ship, aircraft"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01V 8/00",
+      "title": {
+        "ko": "광학적 수단에 의해 검출 또는 탐광",
+        "en": "Prospecting or detecting by optical means"
+      },
+      "definition": {
+        "ko": "이 그룹은 적외선, 가시광선, 자외선의 이용을 포함한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01V 8/02",
+          "title": {
+            "ko": null,
+            "en": "Prospecting"
+          }
+        },
+        {
+          "code": "G01V 8/10",
+          "title": {
+            "ko": "검출, 예. 광선 방벽을 이용하는 것(물체로부터의 반사 G01S 17/00)",
+            "en": "Detecting, e.g. by using light barriers (by reflection from the object G01S0017000000)"
+          }
+        },
+        {
+          "code": "G01V 8/12",
+          "title": {
+            "ko": null,
+            "en": "using one transmitter and one receiver"
+          }
+        },
+        {
+          "code": "G01V 8/14",
+          "title": {
+            "ko": null,
+            "en": "using reflectors"
+          }
+        },
+        {
+          "code": "G01V 8/16",
+          "title": {
+            "ko": null,
+            "en": "using optical fibres"
+          }
+        },
+        {
+          "code": "G01V 8/18",
+          "title": {
+            "ko": null,
+            "en": "using mechanical scanning systems"
+          }
+        },
+        {
+          "code": "G01V 8/20",
+          "title": {
+            "ko": null,
+            "en": "using multiple transmitters or receivers"
+          }
+        },
+        {
+          "code": "G01V 8/22",
+          "title": {
+            "ko": null,
+            "en": "using reflectors"
+          }
+        },
+        {
+          "code": "G01V 8/24",
+          "title": {
+            "ko": null,
+            "en": "using optical fibres"
+          }
+        },
+        {
+          "code": "G01V 8/26",
+          "title": {
+            "ko": null,
+            "en": "using mechanical scanning systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01V 9/00",
+      "title": {
+        "ko": "그룹 G01V 1/00 ～ G01V 8/00에 분류되지 않는 방법에 의한 탐광 또는 검출",
+        "en": "Prospecting or detecting by methods not provided for in groups G01V0001000000-G01V0008000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01V 9/02",
+          "title": {
+            "ko": null,
+            "en": "Determining existence or flow of underground water"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01V 11/00",
+      "title": {
+        "ko": "메인그룹 G01V 1/00 ～ G01V 9/00중 둘 이상에 포함되는 기술을 결합한 방법에 의한 탐광 또는 검출",
+        "en": "Prospecting or detecting by methods combining techniques covered by two or more of main groups G01V0001000000-G01V0009000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01V 13/00",
+      "title": {
+        "ko": "그룹 G01V 1/00 ～ G01V 11/00에 포함되는 계기 또는 장치의 제조, 교정, 청소 또는 수리",
+        "en": "Manufacturing, calibrating, cleaning, or repairing instruments or devices covered by groups G01V0001000000-G01V0011000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01V 15/00",
+      "title": {
+        "ko": "물체는 감지하기 위하여 물체와 연결된 또는 붙어있는 태그(tags) (검출가능한 태그나 마커를 갖는 기계와 사용하기 위한 기록운반체 G06K 19/00)",
+        "en": "Tags attached to, or associated with, an object, in order to enable detection of the object (record carriers for use with machines having a detectable tag or marker G06K0019000000)"
+      },
+      "definition": {
+        "ko": "이 그룹은 검지기 또는 검지수단을 포함하지 않는다. 예. 검지 되기 위해서 자기 또는 전기장을 만들거나 변화시키는 물체를 사용하는 방법, 이것은 다른 곳에 포함된다. 예. 그룹 G01V 3/00",
+        "en": null
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01V 20/00",
+      "title": {
+        "ko": null,
+        "en": "Geomodelling in general"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01V 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

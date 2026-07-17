@@ -1,0 +1,27 @@
+{
+  "description": "단일 청구항의 논리적·수학적·물리적 타당성 검증. GPT o3로 모순/오류/모호함/과도한 일반화/실시 불가 주장을 탐지.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      []
+    ]
+  },
+  "steps": [
+    {
+      "description": "청구항의 element 정합성·종속 관계·뒷받침 명세서 일관성·신규성 element 잔존 여부를 종합 검증.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R02/verify.md"
+      },
+      "llm_tools": [],
+      "output_contract": "verify-output"
+    }
+  ]
+}

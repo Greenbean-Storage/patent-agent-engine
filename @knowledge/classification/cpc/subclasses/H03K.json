@@ -1,0 +1,858 @@
+{
+  "subclass": "H03K",
+  "title": {
+    "ko": null,
+    "en": "PULSE TECHNIQUE (measuring pulse characteristics G01R; modulating sinusoidal oscillations with pulses H03C; transmission of digital information H04L; discriminator circuits detecting phase difference between two signals by counting or integrating cycles of oscillation H03D3/04; automatic control, starting, synchronisation or stabilisation of generators of electronic oscillations or pulses where the type of generator is irrelevant or unspecified H03L; coding, decoding or code conversion, in general H03M)"
+  },
+  "groups": [
+    {
+      "code": "H03K 3/00",
+      "title": {
+        "ko": null,
+        "en": "Circuits for generating electric pulses; Monostable, bistable or multistable circuits (H03K4/00 takes precedence; for digital function generators in computers G06F1/02)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 3/01",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03K 3/02",
+          "title": {
+            "ko": null,
+            "en": "Generators characterised by the type of circuit or by the means used for producing pulses (H03K3/64 - H03K3/84 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 3/64",
+          "title": {
+            "ko": null,
+            "en": "Generators producing trains of pulses, i.e. finite sequences of pulses"
+          }
+        },
+        {
+          "code": "H03K 3/78",
+          "title": {
+            "ko": null,
+            "en": "Generating a single train of pulses having a predetermined pattern, e.g. a predetermined number"
+          }
+        },
+        {
+          "code": "H03K 3/80",
+          "title": {
+            "ko": null,
+            "en": "Generating trains of sinusoidal oscillations (by keying or interruption of sinusoidal oscillations H03C; for transmission of digital information H04L)"
+          }
+        },
+        {
+          "code": "H03K 3/84",
+          "title": {
+            "ko": null,
+            "en": "Generating pulses having a predetermined statistical distribution of a parameter, e.g. random pulse generators"
+          }
+        },
+        {
+          "code": "H03K 3/86",
+          "title": {
+            "ko": null,
+            "en": "Generating pulses by means of delay lines and not covered by the preceding subgroups"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 4/00",
+      "title": {
+        "ko": null,
+        "en": "Generating pulses having essentially a finite slope or stepped portions"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 4/02",
+          "title": {
+            "ko": null,
+            "en": "having stepped portions, e.g. staircase waveform"
+          }
+        },
+        {
+          "code": "H03K 4/04",
+          "title": {
+            "ko": null,
+            "en": "having parabolic shape"
+          }
+        },
+        {
+          "code": "H03K 4/06",
+          "title": {
+            "ko": null,
+            "en": "having triangular shape"
+          }
+        },
+        {
+          "code": "H03K 4/92",
+          "title": {
+            "ko": null,
+            "en": "having a waveform comprising a portion of a sinusoid (generating sinusoidal oscillations H03B)"
+          }
+        },
+        {
+          "code": "H03K 4/94",
+          "title": {
+            "ko": null,
+            "en": "having trapezoidal shape"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 5/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulating of pulses not covered by one of the other main groups of this subclass (circuits with regenerative action H03K3/00, H03K4/00; by the use of non-linear magnetic or dielectric devices H03K3/45)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 5/00006",
+          "title": {
+            "ko": null,
+            "en": "{Changing the frequency (modulating pulses H03K7/00; frequency dividers H03K21/00 - H03K29/00; additive or subtractive mixing of two pulse rates into one G06F7/605; pulse rate dividers G06F7/68)}"
+          }
+        },
+        {
+          "code": "H03K 2005/00013",
+          "title": {
+            "ko": null,
+            "en": "{Delay, i.e. output pulse is delayed after input pulse and pulse length of output pulse is dependent on pulse length of input pulse}"
+          }
+        },
+        {
+          "code": "H03K 2005/00286",
+          "title": {
+            "ko": null,
+            "en": "{Phase shifter, i.e. the delay between the output and input pulse is dependent on the frequency, and such that a phase difference is obtained independent of the frequency}"
+          }
+        },
+        {
+          "code": "H03K 2005/00293",
+          "title": {
+            "ko": null,
+            "en": "{Output pulse is a delayed pulse issued after a rising or a falling edge, the length of the output pulse not being in relation with the length of the input triggering pulse}"
+          }
+        },
+        {
+          "code": "H03K 5/003",
+          "title": {
+            "ko": null,
+            "en": "Changing the DC level (reinsertion of DC component of a television signal H04N5/16)"
+          }
+        },
+        {
+          "code": "H03K 5/01",
+          "title": {
+            "ko": null,
+            "en": "Shaping pulses (discrimination against noise or interference H03K5/125)"
+          }
+        },
+        {
+          "code": "H03K 5/125",
+          "title": {
+            "ko": null,
+            "en": "Discriminating pulses (measuring characteristics of individual pulses G01R29/02; separation of synchronising signals in television systems H04N5/08)"
+          }
+        },
+        {
+          "code": "H03K 5/13",
+          "title": {
+            "ko": null,
+            "en": "Arrangements having a single output and transforming input signals into pulses delivered at desired time intervals"
+          }
+        },
+        {
+          "code": "H03K 5/15",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in which pulses are delivered at different times at several outputs, i.e. pulse distributors (distributing, switching or gating arrangements H03K17/00)"
+          }
+        },
+        {
+          "code": "H03K 5/153",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in which a pulse is delivered at the instant when a predetermined characteristic of an input signal is present or at a fixed time interval after this instant (switching at zero crossing H03K17/13)"
+          }
+        },
+        {
+          "code": "H03K 5/156",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in which a continuous pulse train is transformed into a train having a desired pattern"
+          }
+        },
+        {
+          "code": "H03K 5/159",
+          "title": {
+            "ko": null,
+            "en": "Applications of delay lines not covered by the preceding subgroups"
+          }
+        },
+        {
+          "code": "H03K 5/19",
+          "title": {
+            "ko": null,
+            "en": "Monitoring patterns of pulse trains (indicating amplitude G01R19/00; indicating frequency G01R23/00; measuring characteristics of individual pulses G01R29/02)"
+          }
+        },
+        {
+          "code": "H03K 5/22",
+          "title": {
+            "ko": null,
+            "en": "Circuits having more than one input and one output for comparing pulses or pulse trains with each other according to input signal characteristics, e.g. slope, integral (indicating phase difference of two cyclic pulse trains G01R25/00)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 6/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulating pulses having a finite slope and not covered by one of the other main groups of this subclass (circuits with regenerative action H03K4/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 6/02",
+          "title": {
+            "ko": null,
+            "en": "Amplifying pulses"
+          }
+        },
+        {
+          "code": "H03K 6/04",
+          "title": {
+            "ko": null,
+            "en": "Modifying slopes of pulses, e.g. S-correction (S-correction in television H04N3/23)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 7/00",
+      "title": {
+        "ko": null,
+        "en": "Modulating pulses with a continuously-variable modulating signal"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 7/02",
+          "title": {
+            "ko": null,
+            "en": "Amplitude modulation, i.e. PAM"
+          }
+        },
+        {
+          "code": "H03K 7/04",
+          "title": {
+            "ko": null,
+            "en": "Position modulation, i.e. PPM"
+          }
+        },
+        {
+          "code": "H03K 7/06",
+          "title": {
+            "ko": null,
+            "en": "Frequency or rate modulation, i.e. PFM or PRM"
+          }
+        },
+        {
+          "code": "H03K 7/08",
+          "title": {
+            "ko": null,
+            "en": "Duration or width modulation {; Duty cycle modulation}"
+          }
+        },
+        {
+          "code": "H03K 7/10",
+          "title": {
+            "ko": null,
+            "en": "Combined modulation, e.g. rate modulation and amplitude modulation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 9/00",
+      "title": {
+        "ko": null,
+        "en": "Demodulating pulses which have been modulated with a continuously-variable signal"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 9/02",
+          "title": {
+            "ko": null,
+            "en": "of amplitude-modulated pulses"
+          }
+        },
+        {
+          "code": "H03K 9/04",
+          "title": {
+            "ko": null,
+            "en": "of position-modulated pulses"
+          }
+        },
+        {
+          "code": "H03K 9/06",
+          "title": {
+            "ko": null,
+            "en": "of frequency- or rate-modulated pulses"
+          }
+        },
+        {
+          "code": "H03K 9/08",
+          "title": {
+            "ko": null,
+            "en": "of duration- or width-mudulated pulses {or of duty-cycle modulated pulses}"
+          }
+        },
+        {
+          "code": "H03K 9/10",
+          "title": {
+            "ko": null,
+            "en": "of pulses having combined modulation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 11/00",
+      "title": {
+        "ko": null,
+        "en": "Transforming types of modulations, e.g. position-modulated pulses into duration-modulated pulses"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03K 12/00",
+      "title": {
+        "ko": null,
+        "en": "Producing pulses by distorting or combining sinusoidal waveforms (shaping pulses H03K5/01; combining sinewaves using elements operating in a non-switching manner H03B21/00)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03K 17/00",
+      "title": {
+        "ko": null,
+        "en": "Electronic switching or gating, i.e. not by contact-making and –breaking (gated amplifiers H03F3/72; switching arrangements for exchange systems using static devices H04Q3/52)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 17/002",
+          "title": {
+            "ko": null,
+            "en": "{Switching arrangements with several input- or output terminals (code converters H03M5/00, H03M7/00)}"
+          }
+        },
+        {
+          "code": "H03K 17/04",
+          "title": {
+            "ko": null,
+            "en": "Modifications for accelerating switching"
+          }
+        },
+        {
+          "code": "H03K 17/06",
+          "title": {
+            "ko": null,
+            "en": "Modifications for ensuring a fully conducting state"
+          }
+        },
+        {
+          "code": "H03K 17/08",
+          "title": {
+            "ko": null,
+            "en": "Modifications for protecting switching circuit against overcurrent or overvoltage"
+          }
+        },
+        {
+          "code": "H03K 17/10",
+          "title": {
+            "ko": null,
+            "en": "Modifications for increasing the maximum permissible switched voltage"
+          }
+        },
+        {
+          "code": "H03K 17/12",
+          "title": {
+            "ko": null,
+            "en": "Modifications for increasing the maximum permissible switched current"
+          }
+        },
+        {
+          "code": "H03K 17/13",
+          "title": {
+            "ko": null,
+            "en": "Modifications for switching at zero crossing (generating an impulse at zero crossing H03K5/1536)"
+          }
+        },
+        {
+          "code": "H03K 17/14",
+          "title": {
+            "ko": null,
+            "en": "Modifications for compensating variations of physical values, e.g. of temperature"
+          }
+        },
+        {
+          "code": "H03K 17/16",
+          "title": {
+            "ko": null,
+            "en": "Modifications for eliminating interference voltages or currents"
+          }
+        },
+        {
+          "code": "H03K 17/18",
+          "title": {
+            "ko": null,
+            "en": "Modifications for indicating state of switch"
+          }
+        },
+        {
+          "code": "H03K 17/20",
+          "title": {
+            "ko": null,
+            "en": "Modifications for resetting core switching units to a predetermined state"
+          }
+        },
+        {
+          "code": "H03K 17/22",
+          "title": {
+            "ko": null,
+            "en": "Modifications for ensuring a predetermined initial state when the supply voltage has been applied (bi-stable generators H03K3/12)"
+          }
+        },
+        {
+          "code": "H03K 17/26",
+          "title": {
+            "ko": null,
+            "en": "Modifications for temporary blocking after receipt of control pulses"
+          }
+        },
+        {
+          "code": "H03K 17/28",
+          "title": {
+            "ko": null,
+            "en": "Modifications for introducing a time delay before switching (modifications to provide a choice of time-intervals for executing more than one switching action H03K17/296)"
+          }
+        },
+        {
+          "code": "H03K 17/296",
+          "title": {
+            "ko": null,
+            "en": "Time-programme switches providing a choice of time-intervals for executing more than one switching action and automatically terminating their operation after the programme is completed (electronic clocks comprising means to be operated at preselected times or after preselected time-intervals G04G15/00)"
+          }
+        },
+        {
+          "code": "H03K 17/30",
+          "title": {
+            "ko": null,
+            "en": "Modifications for providing a predetermined threshold before switching (shaping pulses by thresholding H03K5/08)"
+          }
+        },
+        {
+          "code": "H03K 17/51",
+          "title": {
+            "ko": null,
+            "en": "characterised by the components used (H03K17/04 - H03K17/30, H03K17/94 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 17/94",
+          "title": {
+            "ko": null,
+            "en": "characterised by the way in which the control signals are generated"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 19/00",
+      "title": {
+        "ko": null,
+        "en": "Logic circuits, i.e. having at least two inputs acting on one output (circuits for computer systems using fuzzy logic G06N7/02); Inverting circuits"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 19/0002",
+          "title": {
+            "ko": null,
+            "en": "{Multistate logic (H03K19/02 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03K 19/0005",
+          "title": {
+            "ko": null,
+            "en": "{Modifications of input or output impedance}"
+          }
+        },
+        {
+          "code": "H03K 19/0008",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements for reducing power consumption}"
+          }
+        },
+        {
+          "code": "H03K 19/0021",
+          "title": {
+            "ko": null,
+            "en": "{Modifications of threshold (for electronic switching or gating H03K17/30)}"
+          }
+        },
+        {
+          "code": "H03K 19/003",
+          "title": {
+            "ko": null,
+            "en": "Modifications for increasing the reliability {for protection}"
+          }
+        },
+        {
+          "code": "H03K 19/007",
+          "title": {
+            "ko": null,
+            "en": "Fail-safe circuits"
+          }
+        },
+        {
+          "code": "H03K 19/01",
+          "title": {
+            "ko": null,
+            "en": "Modifications for accelerating switching"
+          }
+        },
+        {
+          "code": "H03K 19/0175",
+          "title": {
+            "ko": null,
+            "en": "Coupling arrangements; Interface arrangements (interface arrangements for digital computers G06F3/00, G06F13/00)"
+          }
+        },
+        {
+          "code": "H03K 19/02",
+          "title": {
+            "ko": null,
+            "en": "using specified components ({H03K19/0005 - H03K19/0021}, H03K19/003 - H03K19/0175 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 19/20",
+          "title": {
+            "ko": null,
+            "en": "characterised by logic function, e.g. AND, OR, NOR, NOT circuits (H03K19/003 - H03K19/01 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 21/00",
+      "title": {
+        "ko": null,
+        "en": "Details of pulse counters or frequency dividers"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 21/02",
+          "title": {
+            "ko": null,
+            "en": "Input circuits"
+          }
+        },
+        {
+          "code": "H03K 21/08",
+          "title": {
+            "ko": null,
+            "en": "Output circuits"
+          }
+        },
+        {
+          "code": "H03K 21/16",
+          "title": {
+            "ko": null,
+            "en": "Circuits for carrying over pulses between successive decades"
+          }
+        },
+        {
+          "code": "H03K 21/18",
+          "title": {
+            "ko": null,
+            "en": "Circuits for visual indication of the result"
+          }
+        },
+        {
+          "code": "H03K 21/38",
+          "title": {
+            "ko": null,
+            "en": "Starting, stopping or resetting the counter (counters with a base other than a power of two H03K23/48, H03K23/66)"
+          }
+        },
+        {
+          "code": "H03K 21/40",
+          "title": {
+            "ko": null,
+            "en": "Monitoring; Error detection; Preventing or correcting improper counter operation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 23/00",
+      "title": {
+        "ko": null,
+        "en": "Pulse counters comprising counting chains; Frequency dividers comprising counting chains (H03K29/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 23/001",
+          "title": {
+            "ko": null,
+            "en": "{using elements not covered by groups H03K23/002 and H03K23/74 - H03K23/84}"
+          }
+        },
+        {
+          "code": "H03K 23/002",
+          "title": {
+            "ko": null,
+            "en": "{using semiconductor devices (H03K23/78, H03K23/80, H03K23/84 take precedence)}"
+          }
+        },
+        {
+          "code": "H03K 23/004",
+          "title": {
+            "ko": null,
+            "en": "{Counters counting in a non-natural counting order, e.g. random counters}"
+          }
+        },
+        {
+          "code": "H03K 23/40",
+          "title": {
+            "ko": null,
+            "en": "Gating or clocking signals applied to all stages, i.e. synchronous counters {(H03K23/74 - H03K23/84 take precedence)}"
+          }
+        },
+        {
+          "code": "H03K 23/58",
+          "title": {
+            "ko": null,
+            "en": "Gating or clocking signals not applied to all stages, i.e. asynchronous counters (H03K23/74 - H03K23/84 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/64",
+          "title": {
+            "ko": null,
+            "en": "with a base or radix other than a power of two (H03K23/40 - H03K23/62 take precedence)"
+          }
+        },
+        {
+          "code": "H03K 23/74",
+          "title": {
+            "ko": null,
+            "en": "using relays"
+          }
+        },
+        {
+          "code": "H03K 23/76",
+          "title": {
+            "ko": null,
+            "en": "using magnetic cores or ferro-electric capacitors"
+          }
+        },
+        {
+          "code": "H03K 23/78",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic devices"
+          }
+        },
+        {
+          "code": "H03K 23/80",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices having only two electrodes, e.g. tunnel diode, multi-layer diode"
+          }
+        },
+        {
+          "code": "H03K 23/82",
+          "title": {
+            "ko": null,
+            "en": "using gas-filled tubes"
+          }
+        },
+        {
+          "code": "H03K 23/84",
+          "title": {
+            "ko": null,
+            "en": "using thyristors or unijunction transistors"
+          }
+        },
+        {
+          "code": "H03K 23/86",
+          "title": {
+            "ko": null,
+            "en": "reversible (H03K23/40 - H03K23/84 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 25/00",
+      "title": {
+        "ko": null,
+        "en": "Pulse counters with step-by-step integration and static storage; Analogous frequency dividers"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 25/02",
+          "title": {
+            "ko": null,
+            "en": "comprising charge storage, e.g. capacitor without polarisation hysteresis"
+          }
+        },
+        {
+          "code": "H03K 25/12",
+          "title": {
+            "ko": null,
+            "en": "comprising hysteresis storage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 27/00",
+      "title": {
+        "ko": null,
+        "en": "Pulse counters in which pulses are continuously circulated in a closed loop; Analogous frequency dividers (feedback shift register counters H03K23/54)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03K 29/00",
+      "title": {
+        "ko": null,
+        "en": "Pulse counters comprising multi-stable elements, e.g. for ternary scale, for decimal scale; Analogous frequency dividers"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 29/04",
+          "title": {
+            "ko": null,
+            "en": "using multi-cathode gas discharge tubes"
+          }
+        },
+        {
+          "code": "H03K 29/06",
+          "title": {
+            "ko": null,
+            "en": "using beam-type tubes, e.g. magnetrons, cathode-ray tubes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03K 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03K 2217/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme related to electronic switching or gating, i.e. not by contact-making or -breaking covered by H03K17/00"
+      },
+      "subgroups": [
+        {
+          "code": "H03K 2217/0009",
+          "title": {
+            "ko": null,
+            "en": "AC switches, i.e. delivering AC power to a load"
+          }
+        },
+        {
+          "code": "H03K 2217/0018",
+          "title": {
+            "ko": null,
+            "en": "Special modifications or use of the back gate voltage of a FET"
+          }
+        },
+        {
+          "code": "H03K 2217/0027",
+          "title": {
+            "ko": null,
+            "en": "Measuring means of, e.g. currents through or voltages across the switch"
+          }
+        },
+        {
+          "code": "H03K 2217/0036",
+          "title": {
+            "ko": null,
+            "en": "Means reducing energy consumption"
+          }
+        },
+        {
+          "code": "H03K 2217/0045",
+          "title": {
+            "ko": null,
+            "en": "Full bridges, determining the direction of the current through the load"
+          }
+        },
+        {
+          "code": "H03K 2217/0054",
+          "title": {
+            "ko": null,
+            "en": "Gating switches, e.g. pass gates"
+          }
+        },
+        {
+          "code": "H03K 2217/0063",
+          "title": {
+            "ko": null,
+            "en": "High side switches, i.e. the higher potential [DC] or life wire [AC] being directly connected to the switch and not via the load"
+          }
+        },
+        {
+          "code": "H03K 2217/0072",
+          "title": {
+            "ko": null,
+            "en": "Low side switches, i.e. the lower potential [DC] or neutral wire [AC] being directly connected to the switch and not via the load"
+          }
+        },
+        {
+          "code": "H03K 2217/0081",
+          "title": {
+            "ko": null,
+            "en": "Power supply means, e.g. to the switch driver"
+          }
+        },
+        {
+          "code": "H03K 2217/009",
+          "title": {
+            "ko": null,
+            "en": "Resonant driver circuits"
+          }
+        },
+        {
+          "code": "H03K 2217/94",
+          "title": {
+            "ko": null,
+            "en": "characterised by the way in which the control signal is generated"
+          }
+        }
+      ]
+    }
+  ]
+}

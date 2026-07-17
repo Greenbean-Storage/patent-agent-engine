@@ -1,0 +1,746 @@
+{
+  "subclass": "G01P",
+  "title": {
+    "ko": "선형 또는 각속도, 가속, 감속 또는 충격의 측정; 운동의 존재 또는 부재 표시; 운동의 방향 표시(회전 운동 효과(gyroscopic)를 이용한 각속도 측정 G01C 19/00; 둘 이상의 운동변량을 측정하기 위한 결합된 측정 장치 G01C23/00; 음속의 측정 G01H5/00; 광속의 측정 G01J7/00; 전파 또는 기타 파동의 반사 또는 재방사 및 전파 효과, 예. 도플러효과(Doppler), 전파시간 또는 전파방향에 기초하여 고체 물체의 방향 또는 속도 결정, G01S; 핵방사선 속도 측정 G01T)",
+    "en": "MEASURING LINEAR OR ANGULAR SPEED, ACCELERATION, DECELERATION OR SHOCK; INDICATING PRESENCE OR ABSENCE OF MOVEMENT;  INDICATING DIRECTION OF MOVEMENT  (measuring angular rate using gyroscopic effects G01C0019000000;combined measuring devices for measuring two or more variables of movement G01C0023000000;measuring velocity of sound G01H0005000000;measuring velocity of light G01J0007000000;determining direction or velocity of solid objects by reflection or reradiation of radio or other waves and based on propagation effects, e.g. Doppler effect, propagation time or direction of propagation, G01S;measuring speed of nuclear radiation G01T)"
+  },
+  "definition": {
+    "ko": "운동 또는 운동방향의 지시 G01P13/00 고체의 직선속도 또는 각속도의 측정 수단의 작용이 통상의 원리에 의한 것이라 는 것을 특징으로 하는 것 G01P3/00 적산하는 것; 자이로스코프 효과에 의한 것; 평균하는 것 G01P7/00; 9/00; 11/00 유체 속도 또는 고체와 유체간의 상대속도 측정 G01P5/00 가속도 또는 가속도의 급격한 변화 측정 G01P15/00 세부 G01P1/00 기능시험 또는 교정 G01P21/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01P 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details of instruments"
+      },
+      "subgroups": [
+        {
+          "code": "G01P 1/02",
+          "title": {
+            "ko": null,
+            "en": "Housings"
+          }
+        },
+        {
+          "code": "G01P 1/04",
+          "title": {
+            "ko": null,
+            "en": "Special adaptations of driving means"
+          }
+        },
+        {
+          "code": "G01P 1/07",
+          "title": {
+            "ko": null,
+            "en": "Indicating devices, e.g. for remote indication"
+          }
+        },
+        {
+          "code": "G01P 1/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of scales, pointers, lamps, or acoustic indicators, e.g. in automobile speedometers"
+          }
+        },
+        {
+          "code": "G01P 1/10",
+          "title": {
+            "ko": null,
+            "en": "for indicating predetermined speeds"
+          }
+        },
+        {
+          "code": "G01P 1/11",
+          "title": {
+            "ko": null,
+            "en": "by the detection of the position of the indicator needle"
+          }
+        },
+        {
+          "code": "G01P 1/12",
+          "title": {
+            "ko": null,
+            "en": "Recording devices"
+          }
+        },
+        {
+          "code": "G01P 1/14",
+          "title": {
+            "ko": null,
+            "en": "for permanent recording"
+          }
+        },
+        {
+          "code": "G01P 1/16",
+          "title": {
+            "ko": null,
+            "en": "for erasable recording, e.g. magnetic recording"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01P 3/00",
+      "title": {
+        "ko": "직선 또는 각속도의 측정; 직선 또는 각속도의 차이 측정(G01P 5/00에서 G01P 11/00 우선; 회전 운동 효과(gyroscopic)를 이용한 각속도 측정 G01C 19/00)",
+        "en": "Measuring linear or angular speed; Measuring differences of linear or angular speeds (G01P0005000000-G01P0011000000 take precedence;measuring angular rate using gyroscopic effects G01C0019000000)"
+      },
+      "definition": {
+        "ko": "그룹 G01P3/02 ~ G01P3/64는 중요한 측정 방법으로 구분됩니다. 따라서, 최종 표시를 하기 위한 다른 방법의 단순한 적용은 분류에 영향을 미치지 않습니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01P 3/02",
+          "title": {
+            "ko": "기계적 수단의 사용에 특징이 있는 장치",
+            "en": "Devices characterised by the use of mechanical means"
+          }
+        },
+        {
+          "code": "G01P 3/04",
+          "title": {
+            "ko": null,
+            "en": "by comparing two speeds"
+          }
+        },
+        {
+          "code": "G01P 3/06",
+          "title": {
+            "ko": null,
+            "en": "using a friction gear"
+          }
+        },
+        {
+          "code": "G01P 3/08",
+          "title": {
+            "ko": null,
+            "en": "using differential gearing"
+          }
+        },
+        {
+          "code": "G01P 3/10",
+          "title": {
+            "ko": null,
+            "en": "by actuating an indicating element, e.g. pointer, for a fixed time"
+          }
+        },
+        {
+          "code": "G01P 3/12",
+          "title": {
+            "ko": null,
+            "en": "by making use of a system excited by impact"
+          }
+        },
+        {
+          "code": "G01P 3/14",
+          "title": {
+            "ko": null,
+            "en": "by exciting one or more mechanical resonance systems"
+          }
+        },
+        {
+          "code": "G01P 3/16",
+          "title": {
+            "ko": null,
+            "en": "by using centrifugal forces of solid masses"
+          }
+        },
+        {
+          "code": "G01P 3/18",
+          "title": {
+            "ko": null,
+            "en": "transferred to the indicator by mechanical means"
+          }
+        },
+        {
+          "code": "G01P 3/20",
+          "title": {
+            "ko": null,
+            "en": "transferred to the indicator by fluid means"
+          }
+        },
+        {
+          "code": "G01P 3/22",
+          "title": {
+            "ko": null,
+            "en": "transferred to the indicator by electric or magnetic means"
+          }
+        },
+        {
+          "code": "G01P 3/24",
+          "title": {
+            "ko": "마찰효과를 이용하는 것(G01P 3/06이 우선)",
+            "en": "by using friction effects (G01P0003060000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 3/26",
+          "title": {
+            "ko": null,
+            "en": "Devices characterised by the use of fluids"
+          }
+        },
+        {
+          "code": "G01P 3/28",
+          "title": {
+            "ko": null,
+            "en": "by using pumps"
+          }
+        },
+        {
+          "code": "G01P 3/30",
+          "title": {
+            "ko": null,
+            "en": "by using centrifugal forces of fluids"
+          }
+        },
+        {
+          "code": "G01P 3/32",
+          "title": {
+            "ko": null,
+            "en": "in a rotary container communicating with a fixed container"
+          }
+        },
+        {
+          "code": "G01P 3/34",
+          "title": {
+            "ko": null,
+            "en": "by using friction effects"
+          }
+        },
+        {
+          "code": "G01P 3/36",
+          "title": {
+            "ko": "광학적 수단의 사용에 특징이 있는 장치, 예. 적외선, 가시광선 또는 자외선의 사용(G01P 3/68이 우선)",
+            "en": "Devices characterised by the use of optical means, e.g. using infrared, visible, or ultraviolet light (G01P0003680000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 3/38",
+          "title": {
+            "ko": null,
+            "en": "using photographic means"
+          }
+        },
+        {
+          "code": "G01P 3/40",
+          "title": {
+            "ko": null,
+            "en": "using stroboscopic means"
+          }
+        },
+        {
+          "code": "G01P 3/42",
+          "title": {
+            "ko": "전기적 또는 자기적 수단의 사용에 특징이 있는 장치(G01P 3/66이 우선)",
+            "en": "Devices characterised by the use of electric or magnetic means (G01P0003660000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 3/44",
+          "title": {
+            "ko": "각속도의 측정용(G01P 3/56이 우선)",
+            "en": "for measuring angular speed (G01P0003560000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 3/46",
+          "title": {
+            "ko": null,
+            "en": "by measuring amplitude of generated current or voltage"
+          }
+        },
+        {
+          "code": "G01P 3/48",
+          "title": {
+            "ko": null,
+            "en": "by measuring frequency of generated current or voltage"
+          }
+        },
+        {
+          "code": "G01P 3/481",
+          "title": {
+            "ko": null,
+            "en": "of pulse signals"
+          }
+        },
+        {
+          "code": "G01P 3/482",
+          "title": {
+            "ko": null,
+            "en": "delivered by nuclear radiation detectors"
+          }
+        },
+        {
+          "code": "G01P 3/483",
+          "title": {
+            "ko": null,
+            "en": "delivered by variable capacitance detectors"
+          }
+        },
+        {
+          "code": "G01P 3/484",
+          "title": {
+            "ko": null,
+            "en": "delivered by contact-making switches"
+          }
+        },
+        {
+          "code": "G01P 3/486",
+          "title": {
+            "ko": null,
+            "en": "delivered by photo-electric detectors"
+          }
+        },
+        {
+          "code": "G01P 3/487",
+          "title": {
+            "ko": null,
+            "en": "delivered by rotating magnets"
+          }
+        },
+        {
+          "code": "G01P 3/488",
+          "title": {
+            "ko": null,
+            "en": "delivered by variable reluctance detectors"
+          }
+        },
+        {
+          "code": "G01P 3/489",
+          "title": {
+            "ko": null,
+            "en": "Digital circuits therefor"
+          }
+        },
+        {
+          "code": "G01P 3/49",
+          "title": {
+            "ko": null,
+            "en": "using eddy currents"
+          }
+        },
+        {
+          "code": "G01P 3/495",
+          "title": {
+            "ko": null,
+            "en": "where the indicating means responds to forces produced by the eddy currents and the generating magnetic field"
+          }
+        },
+        {
+          "code": "G01P 3/50",
+          "title": {
+            "ko": "직선속도의 측정용(G01P 3/56이 우선)",
+            "en": "for measuring linear speed (G01P0003560000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 3/52",
+          "title": {
+            "ko": null,
+            "en": "by measuring amplitude of generated current or voltage"
+          }
+        },
+        {
+          "code": "G01P 3/54",
+          "title": {
+            "ko": null,
+            "en": "by measuring frequency of generated current or voltage"
+          }
+        },
+        {
+          "code": "G01P 3/56",
+          "title": {
+            "ko": null,
+            "en": "for comparing two speeds"
+          }
+        },
+        {
+          "code": "G01P 3/58",
+          "title": {
+            "ko": null,
+            "en": "by measuring or comparing amplitudes of generated currents or voltages"
+          }
+        },
+        {
+          "code": "G01P 3/60",
+          "title": {
+            "ko": null,
+            "en": "by measuring or comparing frequency of generated currents or voltages"
+          }
+        },
+        {
+          "code": "G01P 3/62",
+          "title": {
+            "ko": null,
+            "en": "Devices characterised by the determination of the variation of atmospheric pressure with height to measure the vertical components of speed"
+          }
+        },
+        {
+          "code": "G01P 3/64",
+          "title": {
+            "ko": "일정거리의 주행시간 측정에 의해서 특징지어지는 장치",
+            "en": "Devices characterised by the determination of the time taken to traverse a fixed distance"
+          }
+        },
+        {
+          "code": "G01P 3/66",
+          "title": {
+            "ko": "전기적 또는 자기적 수단을 사용하는 것(G01P 3/80이 우선)",
+            "en": "using electric or magnetic means (G01P0003800000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 3/68",
+          "title": {
+            "ko": "광학적 수단을 사용하는 것, 즉 적외선, 가시광선, 자외선의 사용하는 것(G01P 3/80이 우선)",
+            "en": "using optical means, i.e. using infrared, visible, or ultraviolet light (G01P0003800000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 3/80",
+          "title": {
+            "ko": null,
+            "en": "using auto-correlation or cross-correlation detection means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01P 5/00",
+      "title": {
+        "ko": "유체, 예. 공기류의 속도측정 유체에 관련된 물체, 예. 선박의 항공기의 상대속도의 측정(유체의 양을 재기 위해 속도측정 장치를 사용하는 것 G01F)",
+        "en": "Measuring speed of fluids, e.g. of air stream; Measuring speed of bodies relative to fluids, e.g. of ship, of aircraft (application of speed-measuring devices for measuring volume of fluids G01F)"
+      },
+      "subgroups": [
+        {
+          "code": "G01P 5/01",
+          "title": {
+            "ko": null,
+            "en": "by using swirlflowmeter"
+          }
+        },
+        {
+          "code": "G01P 5/02",
+          "title": {
+            "ko": null,
+            "en": "by measuring forces exerted by the fluid on solid bodies, e.g. anemometer"
+          }
+        },
+        {
+          "code": "G01P 5/04",
+          "title": {
+            "ko": null,
+            "en": "using deflection of baffle-plates"
+          }
+        },
+        {
+          "code": "G01P 5/06",
+          "title": {
+            "ko": null,
+            "en": "using rotation of vanes"
+          }
+        },
+        {
+          "code": "G01P 5/07",
+          "title": {
+            "ko": null,
+            "en": "with electrical coupling to the indicating device"
+          }
+        },
+        {
+          "code": "G01P 5/08",
+          "title": {
+            "ko": null,
+            "en": "by measuring variation of an electric variable directly affected by the flow, e.g. by using dynamo-electric effect"
+          }
+        },
+        {
+          "code": "G01P 5/10",
+          "title": {
+            "ko": null,
+            "en": "by measuring thermal variables"
+          }
+        },
+        {
+          "code": "G01P 5/12",
+          "title": {
+            "ko": null,
+            "en": "using variation of resistance of a heated conductor"
+          }
+        },
+        {
+          "code": "G01P 5/14",
+          "title": {
+            "ko": null,
+            "en": "by measuring differences of pressure in the fluid"
+          }
+        },
+        {
+          "code": "G01P 5/16",
+          "title": {
+            "ko": null,
+            "en": "using Pitot tubes"
+          }
+        },
+        {
+          "code": "G01P 5/165",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or constructions of Pitot tubes"
+          }
+        },
+        {
+          "code": "G01P 5/17",
+          "title": {
+            "ko": null,
+            "en": "Coupling arrangements to the indicating device"
+          }
+        },
+        {
+          "code": "G01P 5/175",
+          "title": {
+            "ko": null,
+            "en": "with the determination of Mach number"
+          }
+        },
+        {
+          "code": "G01P 5/18",
+          "title": {
+            "ko": "유체가 일정거리를 주행하는 시간을 측정하는 것",
+            "en": "by measuring the time taken by the fluid to traverse a fixed distance"
+          }
+        },
+        {
+          "code": "G01P 5/20",
+          "title": {
+            "ko": "유체의 흐름에 의해 운반되는 미립자를 사용하는 것(G01P 5/22가 우선)",
+            "en": "using particles entrained by a fluid stream (G01P0005220000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 5/22",
+          "title": {
+            "ko": null,
+            "en": "using auto-correlation or cross-correlation detection means"
+          }
+        },
+        {
+          "code": "G01P 5/24",
+          "title": {
+            "ko": null,
+            "en": "by measuring the direct influence of the streaming fluid on the properties of a detecting acoustical wave"
+          }
+        },
+        {
+          "code": "G01P 5/26",
+          "title": {
+            "ko": null,
+            "en": "by measuring the direct influence of the streaming fluid on the properties of a detecting optical wave"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01P 7/00",
+      "title": {
+        "ko": "가속도 적산에 의한 속도측정(관성 항법, 즉, 항행하는 대상에 대해 속도 또는 가속도 적산에 의해, 위치 또는 속도를 계산하는 것 G01C 21/16)",
+        "en": "Measuring speed by integrating acceleration (inertial navigation, i.e. calculating position or speed aboard the object being navigated, by integration of speed or acceleration G01C0021160000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01P 11/00",
+      "title": {
+        "ko": "평균속도의 측정(일정거리의 주행시간의 측정에 의한 것 G01P 3/64, G01P 5/18)",
+        "en": "Measuring average value of speed (by determining time taken to traverse a fixed distance G01P0003640000, G01P0005180000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01P 11/02",
+          "title": {
+            "ko": null,
+            "en": "Measuring average speed of a number of bodies, e.g. of vehicles for traffic control"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01P 13/00",
+      "title": {
+        "ko": null,
+        "en": "Indicating or recording presence or absence of movement; Indicating or recording of direction of movement"
+      },
+      "subgroups": [
+        {
+          "code": "G01P 13/02",
+          "title": {
+            "ko": null,
+            "en": "Indicating direction only, e.g. by weather vane"
+          }
+        },
+        {
+          "code": "G01P 13/04",
+          "title": {
+            "ko": null,
+            "en": "Indicating positive or negative direction of a linear movement or clockwise or anti-clockwise direction of a rotational movement"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01P 15/00",
+      "title": {
+        "ko": "가속도의 측정; 감속도의 측정; 충격, 즉 가속도의 급격한 변화의 측정",
+        "en": "Measuring acceleration; Measuring deceleration; Measuring shock, i.e. sudden change of acceleration"
+      },
+      "subgroups": [
+        {
+          "code": "G01P 15/02",
+          "title": {
+            "ko": "관성력을 이용함에 의한 것(G01P 15/14 우선)",
+            "en": "by making use of inertia forces (G01P0015140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01P 15/03",
+          "title": {
+            "ko": null,
+            "en": "by using non-electrical means"
+          }
+        },
+        {
+          "code": "G01P 15/04",
+          "title": {
+            "ko": null,
+            "en": "for indicating maximum value"
+          }
+        },
+        {
+          "code": "G01P 15/06",
+          "title": {
+            "ko": null,
+            "en": "using members subjected to a permanent deformation"
+          }
+        },
+        {
+          "code": "G01P 15/08",
+          "title": {
+            "ko": null,
+            "en": "with conversion into electric or magnetic values"
+          }
+        },
+        {
+          "code": "G01P 15/09",
+          "title": {
+            "ko": null,
+            "en": "by piezoelectric pick-up"
+          }
+        },
+        {
+          "code": "G01P 15/093",
+          "title": {
+            "ko": null,
+            "en": "by photoelectric pick-up"
+          }
+        },
+        {
+          "code": "G01P 15/097",
+          "title": {
+            "ko": null,
+            "en": "by vibratory elements"
+          }
+        },
+        {
+          "code": "G01P 15/10",
+          "title": {
+            "ko": null,
+            "en": "by vibratory strings"
+          }
+        },
+        {
+          "code": "G01P 15/105",
+          "title": {
+            "ko": null,
+            "en": "by magnetically sensitive devices"
+          }
+        },
+        {
+          "code": "G01P 15/11",
+          "title": {
+            "ko": null,
+            "en": "by inductive pick-up"
+          }
+        },
+        {
+          "code": "G01P 15/12",
+          "title": {
+            "ko": null,
+            "en": "by alteration of electrical resistance"
+          }
+        },
+        {
+          "code": "G01P 15/125",
+          "title": {
+            "ko": null,
+            "en": "by capacitive pick-up"
+          }
+        },
+        {
+          "code": "G01P 15/13",
+          "title": {
+            "ko": null,
+            "en": "by measuring the force required to restore a proofmass subjected to inertial forces to a null position"
+          }
+        },
+        {
+          "code": "G01P 15/135",
+          "title": {
+            "ko": null,
+            "en": "by making use of contacts which are actuated by a movable inertial mass"
+          }
+        },
+        {
+          "code": "G01P 15/14",
+          "title": {
+            "ko": null,
+            "en": "by making use of gyroscopes"
+          }
+        },
+        {
+          "code": "G01P 15/16",
+          "title": {
+            "ko": null,
+            "en": "by evaluating the time-derivative of a measured speed signal"
+          }
+        },
+        {
+          "code": "G01P 15/18",
+          "title": {
+            "ko": null,
+            "en": "in two or more dimensions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01P 21/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating of apparatus or devices covered by the other groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "G01P 21/02",
+          "title": {
+            "ko": null,
+            "en": "of speedometers"
+          }
+        }
+      ]
+    }
+  ]
+}

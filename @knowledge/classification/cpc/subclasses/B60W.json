@@ -1,0 +1,1502 @@
+{
+  "subclass": "B60W",
+  "title": {
+    "ko": null,
+    "en": "CONJOINT CONTROL OF VEHICLE SUB-UNITS OF DIFFERENT TYPE OR DIFFERENT FUNCTION; CONTROL SYSTEMS SPECIALLY ADAPTED FOR HYBRID VEHICLES; ROAD VEHICLE DRIVE CONTROL SYSTEMS FOR PURPOSES NOT RELATED TO THE CONTROL OF A PARTICULAR SUB-UNIT"
+  },
+  "groups": [
+    {
+      "code": "B60W 10/00",
+      "title": {
+        "ko": null,
+        "en": "Conjoint control of vehicle sub-units of different type or different function (for propulsion of purely electrically-propelled vehicles with power supplied within the vehicle B60L50/00 - B60L58/00)"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 10/02",
+          "title": {
+            "ko": null,
+            "en": "including control of driveline clutches"
+          }
+        },
+        {
+          "code": "B60W 10/04",
+          "title": {
+            "ko": null,
+            "en": "including control of propulsion units"
+          }
+        },
+        {
+          "code": "B60W 10/10",
+          "title": {
+            "ko": null,
+            "en": "including control of change-speed gearings"
+          }
+        },
+        {
+          "code": "B60W 10/119",
+          "title": {
+            "ko": null,
+            "en": "including control of all-wheel-driveline means, e.g. transfer gears or clutches for dividing torque between front and rear axle (B60W10/14 takes precedence)"
+          }
+        },
+        {
+          "code": "B60W 10/12",
+          "title": {
+            "ko": null,
+            "en": "including control of differentials"
+          }
+        },
+        {
+          "code": "B60W 10/18",
+          "title": {
+            "ko": null,
+            "en": "including control of braking systems"
+          }
+        },
+        {
+          "code": "B60W 10/20",
+          "title": {
+            "ko": null,
+            "en": "including control of steering systems"
+          }
+        },
+        {
+          "code": "B60W 10/22",
+          "title": {
+            "ko": null,
+            "en": "including control of suspension systems"
+          }
+        },
+        {
+          "code": "B60W 10/24",
+          "title": {
+            "ko": null,
+            "en": "including control of energy storage means"
+          }
+        },
+        {
+          "code": "B60W 10/28",
+          "title": {
+            "ko": null,
+            "en": "including control of fuel cells"
+          }
+        },
+        {
+          "code": "B60W 10/30",
+          "title": {
+            "ko": null,
+            "en": "including control of auxiliary equipment, e.g. air-conditioning compressors or oil pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 20/00",
+      "title": {
+        "ko": null,
+        "en": "Control systems specially adapted for hybrid vehicles {(hybrid vehicle design, B60K6/00; electric vehicles B60L)}"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 20/10",
+          "title": {
+            "ko": null,
+            "en": "Controlling the power contribution of each of the prime movers to meet required power demand"
+          }
+        },
+        {
+          "code": "B60W 20/20",
+          "title": {
+            "ko": null,
+            "en": "Control strategies involving selection of hybrid configuration, e.g. selection between series or parallel configuration"
+          }
+        },
+        {
+          "code": "B60W 20/30",
+          "title": {
+            "ko": null,
+            "en": "Control strategies involving selection of transmission gear ratio {(control of change speed gearings, together with other vehicle sub-units B60W10/10; HEV transmission gearing B60K6/36; gearings and control thereof F16H)}"
+          }
+        },
+        {
+          "code": "B60W 20/40",
+          "title": {
+            "ko": null,
+            "en": "Controlling the engagement or disengagement of prime movers, e.g. for transition between prime movers {(power-up or power-down of the driveline B60W30/192)}"
+          }
+        },
+        {
+          "code": "B60W 20/50",
+          "title": {
+            "ko": null,
+            "en": "Control strategies for responding to system failures, e.g. for fault diagnosis, failsafe operation or limp mode"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 30/00",
+      "title": {
+        "ko": null,
+        "en": "Purposes of road vehicle drive control systems not related to the control of a particular sub-unit, e.g. of systems using conjoint control of vehicle sub-units"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 30/02",
+          "title": {
+            "ko": null,
+            "en": "Control of vehicle driving stability"
+          }
+        },
+        {
+          "code": "B60W 30/06",
+          "title": {
+            "ko": null,
+            "en": "Automatic manoeuvring for parking"
+          }
+        },
+        {
+          "code": "B60W 30/08",
+          "title": {
+            "ko": null,
+            "en": "{Active safety systems} predicting or avoiding probable or impending collision {or attempting to minimise its consequences}"
+          }
+        },
+        {
+          "code": "B60W 30/10",
+          "title": {
+            "ko": null,
+            "en": "Path keeping {(cruise control for automatically following a preceding vehicle B60W30/165)}"
+          }
+        },
+        {
+          "code": "B60W 30/14",
+          "title": {
+            "ko": null,
+            "en": "{Adaptive} cruise control"
+          }
+        },
+        {
+          "code": "B60W 30/18",
+          "title": {
+            "ko": null,
+            "en": "Propelling the vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 40/00",
+      "title": {
+        "ko": null,
+        "en": "Estimation or calculation of {non-directly measurable} driving parameters for road vehicle drive control systems not related to the control of a particular sub unit, {e.g. by using mathematical models}"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 40/02",
+          "title": {
+            "ko": null,
+            "en": "related to ambient conditions"
+          }
+        },
+        {
+          "code": "B60W 40/08",
+          "title": {
+            "ko": null,
+            "en": "related to drivers or passengers"
+          }
+        },
+        {
+          "code": "B60W 40/10",
+          "title": {
+            "ko": null,
+            "en": "related to vehicle motion"
+          }
+        },
+        {
+          "code": "B60W 40/12",
+          "title": {
+            "ko": null,
+            "en": "related to parameters of the vehicle itself {, e.g. tyre models}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 50/00",
+      "title": {
+        "ko": null,
+        "en": "Details of control systems for road vehicle drive control not related to the control of a particular sub-unit {, e.g. process diagnostic or vehicle driver interfaces}"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2050/0001",
+          "title": {
+            "ko": null,
+            "en": "{Details of the control system}"
+          }
+        },
+        {
+          "code": "B60W 2050/0062",
+          "title": {
+            "ko": null,
+            "en": "{Adapting control system settings}"
+          }
+        },
+        {
+          "code": "B60W 50/0097",
+          "title": {
+            "ko": null,
+            "en": "{Predicting future conditions}"
+          }
+        },
+        {
+          "code": "B60W 50/0098",
+          "title": {
+            "ko": null,
+            "en": "{Details of control systems ensuring comfort, safety or stability not otherwise provided for}"
+          }
+        },
+        {
+          "code": "B60W 50/02",
+          "title": {
+            "ko": null,
+            "en": "Ensuring safety in case of control system failures, e.g. by diagnosing, circumventing or fixing failures"
+          }
+        },
+        {
+          "code": "B60W 50/04",
+          "title": {
+            "ko": null,
+            "en": "Monitoring the functioning of the control system"
+          }
+        },
+        {
+          "code": "B60W 50/06",
+          "title": {
+            "ko": null,
+            "en": "Improving the dynamic response of the control system, e.g. improving the speed of regulation or avoiding hunting or overshoot"
+          }
+        },
+        {
+          "code": "B60W 50/08",
+          "title": {
+            "ko": null,
+            "en": "Interaction between the driver and the control system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 60/00",
+      "title": {
+        "ko": null,
+        "en": "Drive control systems specially adapted for autonomous road vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 60/001",
+          "title": {
+            "ko": null,
+            "en": "{Planning or execution of driving tasks}"
+          }
+        },
+        {
+          "code": "B60W 60/005",
+          "title": {
+            "ko": null,
+            "en": "{Handover processes (Handing over between remote control and on-board control or handing over between remote control arrangements G05D1/227)}"
+          }
+        },
+        {
+          "code": "B60W 60/007",
+          "title": {
+            "ko": null,
+            "en": "{Emergency override (Handing over between remote control and on-board control or handing over between remote control arrangements G05D1/227)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2300/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing codes relating to the type of vehicle"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2300/10",
+          "title": {
+            "ko": null,
+            "en": "Buses"
+          }
+        },
+        {
+          "code": "B60W 2300/105",
+          "title": {
+            "ko": null,
+            "en": "Emergency vehicles, e.g. ambulances"
+          }
+        },
+        {
+          "code": "B60W 2300/12",
+          "title": {
+            "ko": null,
+            "en": "Trucks; Load vehicles"
+          }
+        },
+        {
+          "code": "B60W 2300/13",
+          "title": {
+            "ko": null,
+            "en": "Independent Multi-axle long vehicles"
+          }
+        },
+        {
+          "code": "B60W 2300/14",
+          "title": {
+            "ko": null,
+            "en": "Tractor-trailers, i.e. combinations of a towing vehicle and one or more towed vehicles, e.g. caravans; Road trains"
+          }
+        },
+        {
+          "code": "B60W 2300/15",
+          "title": {
+            "ko": null,
+            "en": "Agricultural vehicles"
+          }
+        },
+        {
+          "code": "B60W 2300/17",
+          "title": {
+            "ko": null,
+            "en": "Construction vehicles, e.g. graders, excavators"
+          }
+        },
+        {
+          "code": "B60W 2300/18",
+          "title": {
+            "ko": null,
+            "en": "Four-wheel drive vehicles"
+          }
+        },
+        {
+          "code": "B60W 2300/26",
+          "title": {
+            "ko": null,
+            "en": "Military"
+          }
+        },
+        {
+          "code": "B60W 2300/28",
+          "title": {
+            "ko": null,
+            "en": "Racing vehicles, e.g. Formula one cars"
+          }
+        },
+        {
+          "code": "B60W 2300/34",
+          "title": {
+            "ko": null,
+            "en": "Compact city vehicles, e.g., microcars or kei cars"
+          }
+        },
+        {
+          "code": "B60W 2300/36",
+          "title": {
+            "ko": null,
+            "en": "Cycles; Motorcycles; Scooters"
+          }
+        },
+        {
+          "code": "B60W 2300/40",
+          "title": {
+            "ko": null,
+            "en": "Carts, e.g. trolleys"
+          }
+        },
+        {
+          "code": "B60W 2300/44",
+          "title": {
+            "ko": null,
+            "en": "Tracked vehicles"
+          }
+        },
+        {
+          "code": "B60W 2300/46",
+          "title": {
+            "ko": null,
+            "en": "Variable track or wheelbase vehicles"
+          }
+        },
+        {
+          "code": "B60W 2300/50",
+          "title": {
+            "ko": null,
+            "en": "Tilting frame vehicles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2400/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing codes relating to detected, measured or calculated conditions or factors"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B60W 2420/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing codes relating to the type of sensors based on the principle of their operation"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2420/10",
+          "title": {
+            "ko": null,
+            "en": "Transducer, e.g. piezoelectric elements"
+          }
+        },
+        {
+          "code": "B60W 2420/20",
+          "title": {
+            "ko": null,
+            "en": "Resistance type, e.g. potentiometer as level indicator"
+          }
+        },
+        {
+          "code": "B60W 2420/22",
+          "title": {
+            "ko": null,
+            "en": "Strain gauge"
+          }
+        },
+        {
+          "code": "B60W 2420/24",
+          "title": {
+            "ko": null,
+            "en": "Capacitance type, e.g. as level indicator"
+          }
+        },
+        {
+          "code": "B60W 2420/30",
+          "title": {
+            "ko": null,
+            "en": "Switches, e.g. mercury or ball type switches"
+          }
+        },
+        {
+          "code": "B60W 2420/40",
+          "title": {
+            "ko": null,
+            "en": "Photo, light or radio wave sensitive means, e.g. infrared sensors"
+          }
+        },
+        {
+          "code": "B60W 2420/50",
+          "title": {
+            "ko": null,
+            "en": "Magnetic or electromagnetic sensors"
+          }
+        },
+        {
+          "code": "B60W 2420/54",
+          "title": {
+            "ko": null,
+            "en": "Audio sensitive means, e.g. ultrasound"
+          }
+        },
+        {
+          "code": "B60W 2420/60",
+          "title": {
+            "ko": null,
+            "en": "Doppler effect"
+          }
+        },
+        {
+          "code": "B60W 2420/90",
+          "title": {
+            "ko": null,
+            "en": "Single sensor for two or more measurements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2422/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing codes relating to the special location or mounting of sensors"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2422/10",
+          "title": {
+            "ko": null,
+            "en": "on a suspension arm"
+          }
+        },
+        {
+          "code": "B60W 2422/20",
+          "title": {
+            "ko": null,
+            "en": "on or inside a spring"
+          }
+        },
+        {
+          "code": "B60W 2422/40",
+          "title": {
+            "ko": null,
+            "en": "on a damper"
+          }
+        },
+        {
+          "code": "B60W 2422/50",
+          "title": {
+            "ko": null,
+            "en": "on a steering column"
+          }
+        },
+        {
+          "code": "B60W 2422/70",
+          "title": {
+            "ko": null,
+            "en": "on the wheel or the tyre"
+          }
+        },
+        {
+          "code": "B60W 2422/80",
+          "title": {
+            "ko": null,
+            "en": "on wheel hub bearing"
+          }
+        },
+        {
+          "code": "B60W 2422/90",
+          "title": {
+            "ko": null,
+            "en": "on bumper, e.g. collision sensor"
+          }
+        },
+        {
+          "code": "B60W 2422/95",
+          "title": {
+            "ko": null,
+            "en": "Measuring the same parameter at multiple locations of the vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2510/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to a particular sub-units"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2510/02",
+          "title": {
+            "ko": null,
+            "en": "Clutches"
+          }
+        },
+        {
+          "code": "B60W 2510/06",
+          "title": {
+            "ko": null,
+            "en": "Combustion engines, Gas turbines"
+          }
+        },
+        {
+          "code": "B60W 2510/08",
+          "title": {
+            "ko": null,
+            "en": "Electric propulsion units"
+          }
+        },
+        {
+          "code": "B60W 2510/09",
+          "title": {
+            "ko": null,
+            "en": "Other types of propulsion units, e.g. fluid motors, or type not specified"
+          }
+        },
+        {
+          "code": "B60W 2510/10",
+          "title": {
+            "ko": null,
+            "en": "Change speed gearings"
+          }
+        },
+        {
+          "code": "B60W 2510/12",
+          "title": {
+            "ko": null,
+            "en": "Differentials"
+          }
+        },
+        {
+          "code": "B60W 2510/18",
+          "title": {
+            "ko": null,
+            "en": "Braking system"
+          }
+        },
+        {
+          "code": "B60W 2510/20",
+          "title": {
+            "ko": null,
+            "en": "Steering systems"
+          }
+        },
+        {
+          "code": "B60W 2510/22",
+          "title": {
+            "ko": null,
+            "en": "Suspension systems"
+          }
+        },
+        {
+          "code": "B60W 2510/24",
+          "title": {
+            "ko": null,
+            "en": "Energy storage means"
+          }
+        },
+        {
+          "code": "B60W 2510/28",
+          "title": {
+            "ko": null,
+            "en": "Fuel cells"
+          }
+        },
+        {
+          "code": "B60W 2510/30",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary equipments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2520/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to overall vehicle dynamics"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2520/04",
+          "title": {
+            "ko": null,
+            "en": "Vehicle stop"
+          }
+        },
+        {
+          "code": "B60W 2520/06",
+          "title": {
+            "ko": null,
+            "en": "Direction of travel"
+          }
+        },
+        {
+          "code": "B60W 2520/10",
+          "title": {
+            "ko": null,
+            "en": "Longitudinal speed"
+          }
+        },
+        {
+          "code": "B60W 2520/12",
+          "title": {
+            "ko": null,
+            "en": "Lateral speed"
+          }
+        },
+        {
+          "code": "B60W 2520/14",
+          "title": {
+            "ko": null,
+            "en": "Yaw"
+          }
+        },
+        {
+          "code": "B60W 2520/16",
+          "title": {
+            "ko": null,
+            "en": "Pitch"
+          }
+        },
+        {
+          "code": "B60W 2520/18",
+          "title": {
+            "ko": null,
+            "en": "Roll"
+          }
+        },
+        {
+          "code": "B60W 2520/20",
+          "title": {
+            "ko": null,
+            "en": "Sideslip angle"
+          }
+        },
+        {
+          "code": "B60W 2520/22",
+          "title": {
+            "ko": null,
+            "en": "Articulation angle, e.g. between tractor and trailer"
+          }
+        },
+        {
+          "code": "B60W 2520/26",
+          "title": {
+            "ko": null,
+            "en": "Wheel slip"
+          }
+        },
+        {
+          "code": "B60W 2520/28",
+          "title": {
+            "ko": null,
+            "en": "Wheel speed"
+          }
+        },
+        {
+          "code": "B60W 2520/30",
+          "title": {
+            "ko": null,
+            "en": "Wheel torque"
+          }
+        },
+        {
+          "code": "B60W 2520/40",
+          "title": {
+            "ko": null,
+            "en": "Torque distribution"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2530/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to vehicle conditions or values, not covered by groups B60W2510/00 or B60W2520/00"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2530/10",
+          "title": {
+            "ko": null,
+            "en": "Weight"
+          }
+        },
+        {
+          "code": "B60W 2530/12",
+          "title": {
+            "ko": null,
+            "en": "Catalyst or filter state"
+          }
+        },
+        {
+          "code": "B60W 2530/13",
+          "title": {
+            "ko": null,
+            "en": "Mileage"
+          }
+        },
+        {
+          "code": "B60W 2530/16",
+          "title": {
+            "ko": null,
+            "en": "Driving resistance"
+          }
+        },
+        {
+          "code": "B60W 2530/18",
+          "title": {
+            "ko": null,
+            "en": "Distance travelled"
+          }
+        },
+        {
+          "code": "B60W 2530/20",
+          "title": {
+            "ko": null,
+            "en": "Tyre data"
+          }
+        },
+        {
+          "code": "B60W 2530/201",
+          "title": {
+            "ko": null,
+            "en": "Dimensions of vehicle"
+          }
+        },
+        {
+          "code": "B60W 2530/203",
+          "title": {
+            "ko": null,
+            "en": "Presence of trailer"
+          }
+        },
+        {
+          "code": "B60W 2530/209",
+          "title": {
+            "ko": null,
+            "en": "Fuel quantity remaining in tank"
+          }
+        },
+        {
+          "code": "B60W 2530/211",
+          "title": {
+            "ko": null,
+            "en": "Fuel quality, e.g. water content due to age of fuel"
+          }
+        },
+        {
+          "code": "B60W 2530/213",
+          "title": {
+            "ko": null,
+            "en": "Fuel type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2540/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to occupants"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2540/01",
+          "title": {
+            "ko": null,
+            "en": "Occupants other than the driver"
+          }
+        },
+        {
+          "code": "B60W 2540/041",
+          "title": {
+            "ko": null,
+            "en": "Potential occupants"
+          }
+        },
+        {
+          "code": "B60W 2540/043",
+          "title": {
+            "ko": null,
+            "en": "Identity of occupants"
+          }
+        },
+        {
+          "code": "B60W 2540/045",
+          "title": {
+            "ko": null,
+            "en": "Occupant permissions"
+          }
+        },
+        {
+          "code": "B60W 2540/047",
+          "title": {
+            "ko": null,
+            "en": "Prioritizing desires of multiple occupants, e.g. when setting climate control or driving behaviour"
+          }
+        },
+        {
+          "code": "B60W 2540/049",
+          "title": {
+            "ko": null,
+            "en": "Number of occupants"
+          }
+        },
+        {
+          "code": "B60W 2540/06",
+          "title": {
+            "ko": null,
+            "en": "Ignition switch"
+          }
+        },
+        {
+          "code": "B60W 2540/10",
+          "title": {
+            "ko": null,
+            "en": "Accelerator pedal position"
+          }
+        },
+        {
+          "code": "B60W 2540/12",
+          "title": {
+            "ko": null,
+            "en": "Brake pedal position"
+          }
+        },
+        {
+          "code": "B60W 2540/14",
+          "title": {
+            "ko": null,
+            "en": "Clutch pedal position"
+          }
+        },
+        {
+          "code": "B60W 2540/16",
+          "title": {
+            "ko": null,
+            "en": "Ratio selector position"
+          }
+        },
+        {
+          "code": "B60W 2540/18",
+          "title": {
+            "ko": null,
+            "en": "Steering angle"
+          }
+        },
+        {
+          "code": "B60W 2540/20",
+          "title": {
+            "ko": null,
+            "en": "Direction indicator values"
+          }
+        },
+        {
+          "code": "B60W 2540/21",
+          "title": {
+            "ko": null,
+            "en": "Voice"
+          }
+        },
+        {
+          "code": "B60W 2540/215",
+          "title": {
+            "ko": null,
+            "en": "Selection or confirmation of options"
+          }
+        },
+        {
+          "code": "B60W 2540/22",
+          "title": {
+            "ko": null,
+            "en": "Psychological state; Stress level or workload"
+          }
+        },
+        {
+          "code": "B60W 2540/221",
+          "title": {
+            "ko": null,
+            "en": "Physiology, e.g. weight, heartbeat, health or special needs"
+          }
+        },
+        {
+          "code": "B60W 2540/223",
+          "title": {
+            "ko": null,
+            "en": "Posture, e.g. hand, foot, or seat position, turned or inclined"
+          }
+        },
+        {
+          "code": "B60W 2540/225",
+          "title": {
+            "ko": null,
+            "en": "Direction of gaze"
+          }
+        },
+        {
+          "code": "B60W 2540/227",
+          "title": {
+            "ko": null,
+            "en": "Position in the vehicle"
+          }
+        },
+        {
+          "code": "B60W 2540/229",
+          "title": {
+            "ko": null,
+            "en": "Attention level, e.g. attentive to driving, reading or sleeping"
+          }
+        },
+        {
+          "code": "B60W 2540/24",
+          "title": {
+            "ko": null,
+            "en": "Drug level, e.g. alcohol"
+          }
+        },
+        {
+          "code": "B60W 2540/26",
+          "title": {
+            "ko": null,
+            "en": "Incapacity"
+          }
+        },
+        {
+          "code": "B60W 2540/30",
+          "title": {
+            "ko": null,
+            "en": "Driving style"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2552/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to infrastructure"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2552/05",
+          "title": {
+            "ko": null,
+            "en": "Type of road, e.g. motorways, local streets, paved or unpaved roads"
+          }
+        },
+        {
+          "code": "B60W 2552/10",
+          "title": {
+            "ko": null,
+            "en": "Number of lanes"
+          }
+        },
+        {
+          "code": "B60W 2552/15",
+          "title": {
+            "ko": null,
+            "en": "Road slope, i.e. the inclination of a road segment in the longitudinal direction"
+          }
+        },
+        {
+          "code": "B60W 2552/20",
+          "title": {
+            "ko": null,
+            "en": "Road profile, i.e. the change in elevation or curvature of a plurality of continuous road segments"
+          }
+        },
+        {
+          "code": "B60W 2552/25",
+          "title": {
+            "ko": null,
+            "en": "Road altitude"
+          }
+        },
+        {
+          "code": "B60W 2552/30",
+          "title": {
+            "ko": null,
+            "en": "Road curve radius"
+          }
+        },
+        {
+          "code": "B60W 2552/35",
+          "title": {
+            "ko": null,
+            "en": "Road bumpiness, e.g. potholes"
+          }
+        },
+        {
+          "code": "B60W 2552/40",
+          "title": {
+            "ko": null,
+            "en": "Coefficient of friction"
+          }
+        },
+        {
+          "code": "B60W 2552/45",
+          "title": {
+            "ko": null,
+            "en": "Pedestrian sidewalk"
+          }
+        },
+        {
+          "code": "B60W 2552/50",
+          "title": {
+            "ko": null,
+            "en": "Barriers"
+          }
+        },
+        {
+          "code": "B60W 2552/53",
+          "title": {
+            "ko": null,
+            "en": "Road markings, e.g. lane marker or crosswalk"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2554/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to objects"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2554/20",
+          "title": {
+            "ko": null,
+            "en": "Static objects"
+          }
+        },
+        {
+          "code": "B60W 2554/40",
+          "title": {
+            "ko": null,
+            "en": "Dynamic objects, e.g. animals, windblown objects"
+          }
+        },
+        {
+          "code": "B60W 2554/60",
+          "title": {
+            "ko": null,
+            "en": "Traversable objects, e.g. speed bumps or curbs"
+          }
+        },
+        {
+          "code": "B60W 2554/80",
+          "title": {
+            "ko": null,
+            "en": "Spatial relation or speed relative to objects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2555/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to exterior conditions, not covered by groups B60W2552/00, B60W2554/00"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2555/20",
+          "title": {
+            "ko": null,
+            "en": "Ambient conditions, e.g. wind or rain"
+          }
+        },
+        {
+          "code": "B60W 2555/40",
+          "title": {
+            "ko": null,
+            "en": "Altitude"
+          }
+        },
+        {
+          "code": "B60W 2555/60",
+          "title": {
+            "ko": null,
+            "en": "Traffic rules, e.g. speed limits or right of way"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2556/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters relating to data"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2556/05",
+          "title": {
+            "ko": null,
+            "en": "Big data"
+          }
+        },
+        {
+          "code": "B60W 2556/10",
+          "title": {
+            "ko": null,
+            "en": "Historical data"
+          }
+        },
+        {
+          "code": "B60W 2556/15",
+          "title": {
+            "ko": null,
+            "en": "Data age"
+          }
+        },
+        {
+          "code": "B60W 2556/20",
+          "title": {
+            "ko": null,
+            "en": "Data confidence level"
+          }
+        },
+        {
+          "code": "B60W 2556/25",
+          "title": {
+            "ko": null,
+            "en": "Data precision"
+          }
+        },
+        {
+          "code": "B60W 2556/30",
+          "title": {
+            "ko": null,
+            "en": "Data update rate"
+          }
+        },
+        {
+          "code": "B60W 2556/35",
+          "title": {
+            "ko": null,
+            "en": "Data fusion"
+          }
+        },
+        {
+          "code": "B60W 2556/40",
+          "title": {
+            "ko": null,
+            "en": "High definition maps"
+          }
+        },
+        {
+          "code": "B60W 2556/45",
+          "title": {
+            "ko": null,
+            "en": "External transmission of data to or from the vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2710/00",
+      "title": {
+        "ko": null,
+        "en": "Output or target parameters relating to a particular sub-units"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2710/02",
+          "title": {
+            "ko": null,
+            "en": "Clutches"
+          }
+        },
+        {
+          "code": "B60W 2710/06",
+          "title": {
+            "ko": null,
+            "en": "Combustion engines, Gas turbines"
+          }
+        },
+        {
+          "code": "B60W 2710/08",
+          "title": {
+            "ko": null,
+            "en": "Electric propulsion units"
+          }
+        },
+        {
+          "code": "B60W 2710/09",
+          "title": {
+            "ko": null,
+            "en": "Other types of propulsion units, e.g. fluid motors, or type not specified"
+          }
+        },
+        {
+          "code": "B60W 2710/10",
+          "title": {
+            "ko": null,
+            "en": "Change speed gearings"
+          }
+        },
+        {
+          "code": "B60W 2710/12",
+          "title": {
+            "ko": null,
+            "en": "Differentials"
+          }
+        },
+        {
+          "code": "B60W 2710/18",
+          "title": {
+            "ko": null,
+            "en": "Braking system"
+          }
+        },
+        {
+          "code": "B60W 2710/20",
+          "title": {
+            "ko": null,
+            "en": "Steering systems"
+          }
+        },
+        {
+          "code": "B60W 2710/22",
+          "title": {
+            "ko": null,
+            "en": "Suspension systems"
+          }
+        },
+        {
+          "code": "B60W 2710/24",
+          "title": {
+            "ko": null,
+            "en": "Energy storage means"
+          }
+        },
+        {
+          "code": "B60W 2710/28",
+          "title": {
+            "ko": null,
+            "en": "Fuel cells"
+          }
+        },
+        {
+          "code": "B60W 2710/30",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary equipments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2720/00",
+      "title": {
+        "ko": null,
+        "en": "Output or target parameters relating to overall vehicle dynamics"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2720/10",
+          "title": {
+            "ko": null,
+            "en": "Longitudinal speed"
+          }
+        },
+        {
+          "code": "B60W 2720/12",
+          "title": {
+            "ko": null,
+            "en": "Lateral speed"
+          }
+        },
+        {
+          "code": "B60W 2720/14",
+          "title": {
+            "ko": null,
+            "en": "Yaw"
+          }
+        },
+        {
+          "code": "B60W 2720/16",
+          "title": {
+            "ko": null,
+            "en": "Pitch"
+          }
+        },
+        {
+          "code": "B60W 2720/18",
+          "title": {
+            "ko": null,
+            "en": "Roll"
+          }
+        },
+        {
+          "code": "B60W 2720/20",
+          "title": {
+            "ko": null,
+            "en": "Sideslip angle"
+          }
+        },
+        {
+          "code": "B60W 2720/22",
+          "title": {
+            "ko": null,
+            "en": "Articulation angle, e.g. between tractor and trailer"
+          }
+        },
+        {
+          "code": "B60W 2720/24",
+          "title": {
+            "ko": null,
+            "en": "Direction of travel"
+          }
+        },
+        {
+          "code": "B60W 2720/26",
+          "title": {
+            "ko": null,
+            "en": "Wheel slip"
+          }
+        },
+        {
+          "code": "B60W 2720/28",
+          "title": {
+            "ko": null,
+            "en": "Wheel speed"
+          }
+        },
+        {
+          "code": "B60W 2720/30",
+          "title": {
+            "ko": null,
+            "en": "Wheel torque"
+          }
+        },
+        {
+          "code": "B60W 2720/40",
+          "title": {
+            "ko": null,
+            "en": "Torque distribution"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2754/00",
+      "title": {
+        "ko": null,
+        "en": "Output or target parameters relating to objects"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2754/10",
+          "title": {
+            "ko": null,
+            "en": "Spatial relation or speed relative to objects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2756/00",
+      "title": {
+        "ko": null,
+        "en": "Output or target parameters relating to data"
+      },
+      "subgroups": [
+        {
+          "code": "B60W 2756/10",
+          "title": {
+            "ko": null,
+            "en": "Involving external transmission of data to or from the vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60W 2900/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing codes relating to the purpose of, or problem solved of road vehicle drive control systems not otherwise provided for in groups B60W30/00"
+      },
+      "subgroups": []
+    }
+  ]
+}

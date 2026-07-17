@@ -1,0 +1,32 @@
+# invoke 트랙 coverage 설정 (단일 source) — 제품 pyproject 에서 이전.
+#
+# 원칙: 제품 코드(src/·pyproject) 에는 검증/커버리지 흔적 0. 커버리지 omit/exclude 는
+# 전부 여기(검증 트랙) 안에만 둔다. cli.py:_run_suite 가 각 suite pytest 에
+# `--cov-config=<repo>/tests/invoke/coveragerc` 로 이 파일을 전달한다.
+#
+# omit 패턴은 각 패키지 venv cwd 기준 상대경로 — 매칭 안 되는 패턴은 무시되므로
+# 5 패키지(shared·cm·dro·actor·account) 의 제외분을 한 파일에 합쳐 둔다.
+
+[run]
+branch = false
+omit =
+    # 앱 부팅 entrypoint (endpoint 트랙이 커버) · AWS Secrets import
+    src/main.py
+    src/secrets.py
+    # 300.Actor — LLM 벤더 adapter (SDK 내부호출, shim)
+    src/llm/claude.py
+    src/llm/gemini.py
+    src/llm/openai.py
+    # shared — 부팅 코드 + 미배선 output 모델
+    venezia_topology/export_env.py
+    venezia_secrets/*
+    venezia_contracts/models/dro_api/document.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if TYPE_CHECKING:
+    raise NotImplementedError
+    if __name__ == "__main__":
+    @(abc\.)?abstractmethod
+    \.\.\.

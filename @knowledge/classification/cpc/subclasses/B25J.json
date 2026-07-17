@@ -1,0 +1,676 @@
+{
+  "subclass": "B25J",
+  "title": {
+    "ko": null,
+    "en": "MANIPULATORS; CHAMBERS PROVIDED WITH MANIPULATION DEVICES ({manipulators specially adapted for use in surgery A61B34/70; manipulators used in cleaning hollow articles B08B9/04}; manipulators associated with rolling mills B21B39/20; manipulators associated with forging machines B21J13/10; {manipulators associated with picking-up and placing mechanisms B23P19/007}; means for holding wheels or parts thereof B60B30/00; {vehicles with ground-engaging propulsion means, e.g. walking members B62D57/02, B62D57/032; devices for picking-up and depositing articles or materials between conveyors B65G47/90, B65G47/91; manipulators with gripping or holding means for transferring packages B65H67/065}; cranes B66C; {manipulators used in the protection or supervision of pipe-line installations F17D5/00; walking equipment adapted for nuclear steam-generators F22B37/006}; manipulators specially adapted for, or associated with, nuclear reactors G21C; {apparatus used for handling wafers during manufacture or treatment of semiconductor H10P72/50})"
+  },
+  "groups": [
+    {
+      "code": "B25J 1/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulators positioned in space by hand (of leader-follower type B25J3/00; micromanipulators B25J7/00)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 1/02",
+          "title": {
+            "ko": null,
+            "en": "articulated or flexible"
+          }
+        },
+        {
+          "code": "B25J 1/04",
+          "title": {
+            "ko": null,
+            "en": "rigid, e.g. shelf-reachers {(without grippers A47F13/06)}"
+          }
+        },
+        {
+          "code": "B25J 1/06",
+          "title": {
+            "ko": null,
+            "en": "of the lazy-tongs type"
+          }
+        },
+        {
+          "code": "B25J 1/08",
+          "title": {
+            "ko": null,
+            "en": "movably mounted in a wall"
+          }
+        },
+        {
+          "code": "B25J 1/12",
+          "title": {
+            "ko": null,
+            "en": "having means for attachment to a support stand"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 3/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulators of leader-follower type, i.e. both controlling unit and controlled unit perform corresponding spatial movements"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 3/02",
+          "title": {
+            "ko": null,
+            "en": "involving a parallelogram coupling of the leader and follower units (pantographic instruments B43L13/00)"
+          }
+        },
+        {
+          "code": "B25J 3/04",
+          "title": {
+            "ko": null,
+            "en": "involving servo mechanisms (servo-actuated heads B25J15/02)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 5/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulators mounted on wheels or on carriages (B25J1/00 takes precedence; programme-controlled manipulators B25J9/00  {; vehicle aspects B60, B62, e.g. remote-controlled steering for motor vehicles B62D1/24; control of position of vehicles G05D1/00})"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 5/002",
+          "title": {
+            "ko": null,
+            "en": "{mounted on an air cushion}"
+          }
+        },
+        {
+          "code": "B25J 5/005",
+          "title": {
+            "ko": null,
+            "en": "{mounted on endless tracks or belts}"
+          }
+        },
+        {
+          "code": "B25J 5/007",
+          "title": {
+            "ko": null,
+            "en": "{mounted on wheels}"
+          }
+        },
+        {
+          "code": "B25J 5/02",
+          "title": {
+            "ko": null,
+            "en": "travelling along a guideway"
+          }
+        },
+        {
+          "code": "B25J 5/06",
+          "title": {
+            "ko": null,
+            "en": "Manipulators combined with a control cab for the operator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 7/00",
+      "title": {
+        "ko": null,
+        "en": "Micromanipulators {(specimen supports for investigating or analysing materials G01N23/2204; associated with microscopes G02B21/32; means for supporting or positioning the objects or the material in discharge tubes H01J37/20)}"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B25J 9/00",
+      "title": {
+        "ko": null,
+        "en": "Program-controlled manipulators"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 9/0003",
+          "title": {
+            "ko": null,
+            "en": "{Home robots, i.e. small robots for domestic use}"
+          }
+        },
+        {
+          "code": "B25J 9/0006",
+          "title": {
+            "ko": null,
+            "en": "{Exoskeletons, i.e. resembling a human figure}"
+          }
+        },
+        {
+          "code": "B25J 9/0009",
+          "title": {
+            "ko": null,
+            "en": "{Constructional details, e.g. manipulator supports, bases}"
+          }
+        },
+        {
+          "code": "B25J 9/003",
+          "title": {
+            "ko": null,
+            "en": "{having parallel kinematics}"
+          }
+        },
+        {
+          "code": "B25J 9/0081",
+          "title": {
+            "ko": null,
+            "en": "{with leader teach-in means}"
+          }
+        },
+        {
+          "code": "B25J 9/0084",
+          "title": {
+            "ko": null,
+            "en": "{comprising a plurality of manipulators}"
+          }
+        },
+        {
+          "code": "B25J 9/0093",
+          "title": {
+            "ko": null,
+            "en": "{co-operating with conveyor means}"
+          }
+        },
+        {
+          "code": "B25J 9/0096",
+          "title": {
+            "ko": null,
+            "en": "{co-operating with a working support, e.g. work-table}"
+          }
+        },
+        {
+          "code": "B25J 9/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by movement of the arms, e.g. cartesian coordinate type (B25J9/06 takes precedence)"
+          }
+        },
+        {
+          "code": "B25J 9/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by multi-articulated arms"
+          }
+        },
+        {
+          "code": "B25J 9/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by modular constructions"
+          }
+        },
+        {
+          "code": "B25J 9/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by positioning means for manipulator elements"
+          }
+        },
+        {
+          "code": "B25J 9/16",
+          "title": {
+            "ko": null,
+            "en": "Program controls (total factory control, i.e. centrally controlling a plurality of machines, G05B19/418)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 11/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulators not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 11/0005",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators having means for high-level communication with users, e.g. speech generator, face recognition means}"
+          }
+        },
+        {
+          "code": "B25J 11/002",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators for defensive or military tasks}"
+          }
+        },
+        {
+          "code": "B25J 11/003",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators for entertainment}"
+          }
+        },
+        {
+          "code": "B25J 11/0045",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators used in the food industry}"
+          }
+        },
+        {
+          "code": "B25J 11/005",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators for mechanical processing tasks}"
+          }
+        },
+        {
+          "code": "B25J 11/0075",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators for painting or coating}"
+          }
+        },
+        {
+          "code": "B25J 11/008",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators for service tasks}"
+          }
+        },
+        {
+          "code": "B25J 11/0095",
+          "title": {
+            "ko": null,
+            "en": "{Manipulators transporting wafers}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 13/00",
+      "title": {
+        "ko": null,
+        "en": "Controls for manipulators (programme controls B25J9/16)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 13/003",
+          "title": {
+            "ko": null,
+            "en": "{by means of an audio-responsive input (audible safety signals B25J19/061)}"
+          }
+        },
+        {
+          "code": "B25J 13/006",
+          "title": {
+            "ko": null,
+            "en": "{by means of a wireless system for controlling one or several manipulators}"
+          }
+        },
+        {
+          "code": "B25J 13/02",
+          "title": {
+            "ko": null,
+            "en": "Hand grip control means {(handles or pedals for crane control B66C13/56; for measuring the force applied to control members G01L5/22; hand-held casings for switching devices, e.g. joy-sticks H01H9/0214)}"
+          }
+        },
+        {
+          "code": "B25J 13/04",
+          "title": {
+            "ko": null,
+            "en": "Foot-operated control means"
+          }
+        },
+        {
+          "code": "B25J 13/06",
+          "title": {
+            "ko": null,
+            "en": "Control stands, e.g. consoles, switchboards"
+          }
+        },
+        {
+          "code": "B25J 13/08",
+          "title": {
+            "ko": null,
+            "en": "by means of sensing devices, e.g. viewing or touching devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 15/00",
+      "title": {
+        "ko": null,
+        "en": "Gripping heads {and other end effectors (grippers used in machine tools B23Q7/04; gripping members fitted on cranes B66C1/42, B66C1/44; gripping means used for mounting electrical components H05K13/04; gripping means used in the manufacture of semiconductors H10P72/7602)}"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 15/0004",
+          "title": {
+            "ko": null,
+            "en": "{with provision for adjusting the gripped object in the hand}"
+          }
+        },
+        {
+          "code": "B25J 15/0009",
+          "title": {
+            "ko": null,
+            "en": "{comprising multi-articulated fingers, e.g. resembling a human hand}"
+          }
+        },
+        {
+          "code": "B25J 15/0014",
+          "title": {
+            "ko": null,
+            "en": "{having fork, comb or plate shaped means for engaging the lower surface on a object to be transported}"
+          }
+        },
+        {
+          "code": "B25J 15/0019",
+          "title": {
+            "ko": null,
+            "en": "{End effectors other than grippers}"
+          }
+        },
+        {
+          "code": "B25J 15/0023",
+          "title": {
+            "ko": null,
+            "en": "{Gripper surfaces directly activated by a fluid (flexible fingers B25J15/12)}"
+          }
+        },
+        {
+          "code": "B25J 15/0028",
+          "title": {
+            "ko": null,
+            "en": "{with movable, e.g. pivoting gripping jaw surfaces}"
+          }
+        },
+        {
+          "code": "B25J 15/0033",
+          "title": {
+            "ko": null,
+            "en": "{with gripping surfaces having special shapes}"
+          }
+        },
+        {
+          "code": "B25J 15/0047",
+          "title": {
+            "ko": null,
+            "en": "{for internally gripping hollow or recessed objects}"
+          }
+        },
+        {
+          "code": "B25J 15/0052",
+          "title": {
+            "ko": null,
+            "en": "{multiple gripper units or multiple end effectors}"
+          }
+        },
+        {
+          "code": "B25J 15/0071",
+          "title": {
+            "ko": null,
+            "en": "{with needles engaging into objects to be gripped}"
+          }
+        },
+        {
+          "code": "B25J 15/0076",
+          "title": {
+            "ko": null,
+            "en": "{with means, e.g. Pelletier elements, for freezing a fluid interface between the gripping head and an object to be gripped}"
+          }
+        },
+        {
+          "code": "B25J 15/008",
+          "title": {
+            "ko": null,
+            "en": "{with sticking, gluing or adhesive means}"
+          }
+        },
+        {
+          "code": "B25J 15/0085",
+          "title": {
+            "ko": null,
+            "en": "{with means for applying an electrostatic force on the object to be gripped}"
+          }
+        },
+        {
+          "code": "B25J 15/009",
+          "title": {
+            "ko": null,
+            "en": "{with pins for accurately positioning the object on the gripping head}"
+          }
+        },
+        {
+          "code": "B25J 15/0095",
+          "title": {
+            "ko": null,
+            "en": "{with an external support, i.e. a support which does not belong to the manipulator or the object to be gripped, e.g. for maintaining the gripping head in an accurate position, guiding it or preventing vibrations}"
+          }
+        },
+        {
+          "code": "B25J 15/02",
+          "title": {
+            "ko": null,
+            "en": "servo-actuated"
+          }
+        },
+        {
+          "code": "B25J 15/04",
+          "title": {
+            "ko": null,
+            "en": "with provision for the remote detachment or exchange of the head or parts thereof"
+          }
+        },
+        {
+          "code": "B25J 15/06",
+          "title": {
+            "ko": null,
+            "en": "with vacuum or magnetic holding means"
+          }
+        },
+        {
+          "code": "B25J 15/08",
+          "title": {
+            "ko": null,
+            "en": "having finger members (B25J15/02, B25J15/04 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 17/00",
+      "title": {
+        "ko": null,
+        "en": "Joints"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 17/02",
+          "title": {
+            "ko": null,
+            "en": "Wrist joints"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 18/00",
+      "title": {
+        "ko": null,
+        "en": "Arms"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 18/002",
+          "title": {
+            "ko": null,
+            "en": "{comprising beam bending compensation means}"
+          }
+        },
+        {
+          "code": "B25J 18/005",
+          "title": {
+            "ko": null,
+            "en": "{having a curved shape}"
+          }
+        },
+        {
+          "code": "B25J 18/007",
+          "title": {
+            "ko": null,
+            "en": "{the end effector rotating around a fixed point}"
+          }
+        },
+        {
+          "code": "B25J 18/02",
+          "title": {
+            "ko": null,
+            "en": "extensible"
+          }
+        },
+        {
+          "code": "B25J 18/06",
+          "title": {
+            "ko": null,
+            "en": "flexible"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 19/00",
+      "title": {
+        "ko": null,
+        "en": "Accessories fitted to manipulators, e.g. for monitoring, for viewing; Safety devices combined with or specially adapted for use in connection with manipulators (safety-devices in general F16P; protection against radiation in general G21F)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 19/0004",
+          "title": {
+            "ko": null,
+            "en": "{Braking devices (brakes in general F16D)}"
+          }
+        },
+        {
+          "code": "B25J 19/0008",
+          "title": {
+            "ko": null,
+            "en": "{Balancing devices}"
+          }
+        },
+        {
+          "code": "B25J 19/0025",
+          "title": {
+            "ko": null,
+            "en": "{Means for supplying energy to the end effector}"
+          }
+        },
+        {
+          "code": "B25J 19/005",
+          "title": {
+            "ko": null,
+            "en": "{using batteries, e.g. as a back-up power source}"
+          }
+        },
+        {
+          "code": "B25J 19/0054",
+          "title": {
+            "ko": null,
+            "en": "{Cooling means}"
+          }
+        },
+        {
+          "code": "B25J 19/0058",
+          "title": {
+            "ko": null,
+            "en": "{Means for cleaning manipulators, e.g. dust removing means}"
+          }
+        },
+        {
+          "code": "B25J 19/0062",
+          "title": {
+            "ko": null,
+            "en": "{Lubrication means}"
+          }
+        },
+        {
+          "code": "B25J 19/0066",
+          "title": {
+            "ko": null,
+            "en": "{Means or methods for maintaining or repairing manipulators}"
+          }
+        },
+        {
+          "code": "B25J 19/007",
+          "title": {
+            "ko": null,
+            "en": "{Means or methods for designing or fabricating manipulators}"
+          }
+        },
+        {
+          "code": "B25J 19/0075",
+          "title": {
+            "ko": null,
+            "en": "{Means for protecting the manipulator from its environment or vice versa}"
+          }
+        },
+        {
+          "code": "B25J 19/0091",
+          "title": {
+            "ko": null,
+            "en": "{Shock absorbers (in general F16F)}"
+          }
+        },
+        {
+          "code": "B25J 19/0095",
+          "title": {
+            "ko": null,
+            "en": "{Means or methods for testing manipulators}"
+          }
+        },
+        {
+          "code": "B25J 19/02",
+          "title": {
+            "ko": null,
+            "en": "Sensing devices"
+          }
+        },
+        {
+          "code": "B25J 19/06",
+          "title": {
+            "ko": null,
+            "en": "Safety devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 21/00",
+      "title": {
+        "ko": null,
+        "en": "Chambers provided with manipulation devices (constructional features of the mounting of the manipulator in the wall B25J1/08  {; glove-boxes for nuclear applications G21F7/04})"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 21/005",
+          "title": {
+            "ko": null,
+            "en": "{Clean rooms}"
+          }
+        },
+        {
+          "code": "B25J 21/02",
+          "title": {
+            "ko": null,
+            "en": "Glove-boxes, i.e. chambers in which manipulations are performed by the human hands in gloves built into the chamber walls {(glove- boxes for removal of dirt B08B15/026; glove-boxes shielded against radiation G21F7/04)}; Gloves therefor"
+          }
+        }
+      ]
+    }
+  ]
+}

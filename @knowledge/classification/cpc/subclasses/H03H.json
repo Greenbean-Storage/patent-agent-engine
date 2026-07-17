@@ -1,0 +1,714 @@
+{
+  "subclass": "H03H",
+  "title": {
+    "ko": null,
+    "en": "IMPEDANCE NETWORKS, e.g. RESONANT CIRCUITS; RESONATORS (waveguides, resonators, lines or other devices of the waveguide type H01P)"
+  },
+  "groups": [
+    {
+      "code": "H03H 1/00",
+      "title": {
+        "ko": null,
+        "en": "Constructional details of impedance networks whose electrical mode of operation is not specified or applicable to more than one type of network (constructional details of electromechanical transducers H03H9/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 1/0007",
+          "title": {
+            "ko": null,
+            "en": "{of radio frequency interference filters}"
+          }
+        },
+        {
+          "code": "H03H 2001/0014",
+          "title": {
+            "ko": null,
+            "en": "{Capacitor filters, i.e. capacitors whose parasitic inductance is of relevance to consider it as filter}"
+          }
+        },
+        {
+          "code": "H03H 2001/0021",
+          "title": {
+            "ko": null,
+            "en": "{Constructional details}"
+          }
+        },
+        {
+          "code": "H03H 2001/0092",
+          "title": {
+            "ko": null,
+            "en": "{Inductor filters, i.e. inductors whose parasitic capacitance is of relevance to consider it as filter}"
+          }
+        },
+        {
+          "code": "H03H 1/02",
+          "title": {
+            "ko": null,
+            "en": "RC networks, e.g. filters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 2/00",
+      "title": {
+        "ko": null,
+        "en": "Networks using elements or techniques not provided for in groups H03H3/00 - H03H21/00"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 2/001",
+          "title": {
+            "ko": null,
+            "en": "{comprising magnetostatic wave network elements}"
+          }
+        },
+        {
+          "code": "H03H 2/003",
+          "title": {
+            "ko": null,
+            "en": "{comprising optical fibre network elements (optical elements per se G02B, G02F; transmission systems using light waves H04B10/00)}"
+          }
+        },
+        {
+          "code": "H03H 2/005",
+          "title": {
+            "ko": null,
+            "en": "{Coupling circuits between transmission lines or antennas and transmitters, receivers or amplifiers}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 3/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes specially adapted for the manufacture of impedance networks, resonating circuits, resonators"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 3/007",
+          "title": {
+            "ko": null,
+            "en": "for the manufacture of electromechanical resonators or networks"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 5/00",
+      "title": {
+        "ko": null,
+        "en": "One-port networks comprising only passive electrical elements as network components"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 5/003",
+          "title": {
+            "ko": null,
+            "en": "{comprising distributed impedance elements together with lumped impedance elements}"
+          }
+        },
+        {
+          "code": "H03H 5/006",
+          "title": {
+            "ko": null,
+            "en": "{comprising simultaneously tunable inductance and capacitance}"
+          }
+        },
+        {
+          "code": "H03H 5/02",
+          "title": {
+            "ko": null,
+            "en": "without voltage- or current-dependent elements"
+          }
+        },
+        {
+          "code": "H03H 5/12",
+          "title": {
+            "ko": null,
+            "en": "with at least one voltage- or current-dependent element"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 7/00",
+      "title": {
+        "ko": null,
+        "en": "Multiple-port networks comprising only passive electrical elements as network components"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 7/002",
+          "title": {
+            "ko": null,
+            "en": "{Gyrators}"
+          }
+        },
+        {
+          "code": "H03H 7/004",
+          "title": {
+            "ko": null,
+            "en": "{Capacitive coupling circuits not otherwise provided for}"
+          }
+        },
+        {
+          "code": "H03H 2007/006",
+          "title": {
+            "ko": null,
+            "en": "{MEMS}"
+          }
+        },
+        {
+          "code": "H03H 7/01",
+          "title": {
+            "ko": null,
+            "en": "Frequency selective two-port networks"
+          }
+        },
+        {
+          "code": "H03H 7/18",
+          "title": {
+            "ko": null,
+            "en": "Networks for phase shifting"
+          }
+        },
+        {
+          "code": "H03H 7/24",
+          "title": {
+            "ko": null,
+            "en": "Frequency- independent attenuators"
+          }
+        },
+        {
+          "code": "H03H 7/30",
+          "title": {
+            "ko": null,
+            "en": "Time-delay networks {(analogue shift registers G11C27/04)}"
+          }
+        },
+        {
+          "code": "H03H 7/38",
+          "title": {
+            "ko": null,
+            "en": "Impedance-matching networks"
+          }
+        },
+        {
+          "code": "H03H 7/42",
+          "title": {
+            "ko": null,
+            "en": "Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns"
+          }
+        },
+        {
+          "code": "H03H 7/46",
+          "title": {
+            "ko": null,
+            "en": "Networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common load or source"
+          }
+        },
+        {
+          "code": "H03H 7/48",
+          "title": {
+            "ko": null,
+            "en": "Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (phase shifters providing two or more output signals H03H7/21)"
+          }
+        },
+        {
+          "code": "H03H 7/52",
+          "title": {
+            "ko": null,
+            "en": "One-way transmission networks, i.e. unilines"
+          }
+        },
+        {
+          "code": "H03H 7/54",
+          "title": {
+            "ko": null,
+            "en": "Modifications of networks to reduce influence of variations of temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 9/00",
+      "title": {
+        "ko": null,
+        "en": "Networks comprising electromechanical or electro-acoustic elements; Electromechanical resonators (electro-acoustic transducers such as loudspeakers, microphones or gramophone pick-ups H04R; piezoelectric, electrostrictive or magnetostrictive devices with mechanical input or output, e.g. actuators or sensors, H10N30/00, H10N35/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 9/0004",
+          "title": {
+            "ko": null,
+            "en": "{Impedance-matching networks (H03H9/145 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03H 2009/0019",
+          "title": {
+            "ko": null,
+            "en": "{Surface acoustic wave multichip}"
+          }
+        },
+        {
+          "code": "H03H 9/0023",
+          "title": {
+            "ko": null,
+            "en": "{Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns, or networks having balanced input and output}"
+          }
+        },
+        {
+          "code": "H03H 9/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03H 9/15",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of resonators consisting of piezoelectric or electrostrictive material (H03H9/25 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 9/22",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of resonators consisting of magnetostrictive material"
+          }
+        },
+        {
+          "code": "H03H 9/24",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of resonators of material which is not piezoelectric, electrostrictive, or magnetostrictive"
+          }
+        },
+        {
+          "code": "H03H 9/25",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of resonators using surface acoustic waves {(devices for manipulating acoustic surface waves in general G10K11/36)}"
+          }
+        },
+        {
+          "code": "H03H 9/30",
+          "title": {
+            "ko": null,
+            "en": "Time-delay networks"
+          }
+        },
+        {
+          "code": "H03H 9/46",
+          "title": {
+            "ko": null,
+            "en": "Filters (multiple-port electromechanical filters H03H9/70)"
+          }
+        },
+        {
+          "code": "H03H 9/66",
+          "title": {
+            "ko": null,
+            "en": "Phase shifters"
+          }
+        },
+        {
+          "code": "H03H 9/70",
+          "title": {
+            "ko": null,
+            "en": "Multiple-port networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common load or source"
+          }
+        },
+        {
+          "code": "H03H 9/74",
+          "title": {
+            "ko": null,
+            "en": "Multiple-port networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (networks for phase shifting H03H9/66)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 11/00",
+      "title": {
+        "ko": null,
+        "en": "Networks using active elements"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 11/02",
+          "title": {
+            "ko": null,
+            "en": "Multiple-port networks"
+          }
+        },
+        {
+          "code": "H03H 11/46",
+          "title": {
+            "ko": null,
+            "en": "One-port networks"
+          }
+        },
+        {
+          "code": "H03H 11/54",
+          "title": {
+            "ko": null,
+            "en": "Modifications of networks to reduce influence of variations of temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 15/00",
+      "title": {
+        "ko": null,
+        "en": "Transversal filters (electromechanical filters H03H9/46, H03H9/70)"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 2015/002",
+          "title": {
+            "ko": null,
+            "en": "{Computation saving measures}"
+          }
+        },
+        {
+          "code": "H03H 2015/005",
+          "title": {
+            "ko": null,
+            "en": "{comprising capacitors implemented with MEMS technology}"
+          }
+        },
+        {
+          "code": "H03H 2015/007",
+          "title": {
+            "ko": null,
+            "en": "{Programmable filters}"
+          }
+        },
+        {
+          "code": "H03H 15/02",
+          "title": {
+            "ko": null,
+            "en": "using analogue shift registers"
+          }
+        },
+        {
+          "code": "H03H 2015/026",
+          "title": {
+            "ko": null,
+            "en": "{Matched filters in charge domain}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 17/00",
+      "title": {
+        "ko": null,
+        "en": "Networks using digital techniques"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 17/0009",
+          "title": {
+            "ko": null,
+            "en": "{Time-delay networks}"
+          }
+        },
+        {
+          "code": "H03H 17/0045",
+          "title": {
+            "ko": null,
+            "en": "{Impedance matching networks}"
+          }
+        },
+        {
+          "code": "H03H 17/0054",
+          "title": {
+            "ko": null,
+            "en": "{Attenuators}"
+          }
+        },
+        {
+          "code": "H03H 17/0063",
+          "title": {
+            "ko": null,
+            "en": "{R, L, C, simulating networks}"
+          }
+        },
+        {
+          "code": "H03H 2017/0072",
+          "title": {
+            "ko": null,
+            "en": "{Theoretical filter design}"
+          }
+        },
+        {
+          "code": "H03H 17/02",
+          "title": {
+            "ko": null,
+            "en": "Frequency selective networks {(digital computers for complex mathematical operations G06F17/10)}"
+          }
+        },
+        {
+          "code": "H03H 17/08",
+          "title": {
+            "ko": null,
+            "en": "Networks for phase shifting"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 19/00",
+      "title": {
+        "ko": null,
+        "en": "Networks using time-varying elements, e.g. N-path filters"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 19/002",
+          "title": {
+            "ko": null,
+            "en": "{N-path filters}"
+          }
+        },
+        {
+          "code": "H03H 19/004",
+          "title": {
+            "ko": null,
+            "en": "{Switched capacitor networks}"
+          }
+        },
+        {
+          "code": "H03H 19/008",
+          "title": {
+            "ko": null,
+            "en": "{with variable switch closing time}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 21/00",
+      "title": {
+        "ko": null,
+        "en": "Adaptive networks"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 21/0001",
+          "title": {
+            "ko": null,
+            "en": "{Analogue adaptive filters}"
+          }
+        },
+        {
+          "code": "H03H 21/0012",
+          "title": {
+            "ko": null,
+            "en": "{Digital adaptive filters}"
+          }
+        },
+        {
+          "code": "H03H 2021/0098",
+          "title": {
+            "ko": null,
+            "en": "{Adaptive filters comprising analog and digital structures}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 2210/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of tunable filters"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 2210/01",
+          "title": {
+            "ko": null,
+            "en": "Tuned parameter of filter characteristics"
+          }
+        },
+        {
+          "code": "H03H 2210/02",
+          "title": {
+            "ko": null,
+            "en": "Variable filter component"
+          }
+        },
+        {
+          "code": "H03H 2210/03",
+          "title": {
+            "ko": null,
+            "en": "Type of tuning"
+          }
+        },
+        {
+          "code": "H03H 2210/04",
+          "title": {
+            "ko": null,
+            "en": "Filter calibration method"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 2218/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of digital filters"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 2218/02",
+          "title": {
+            "ko": null,
+            "en": "Coefficients"
+          }
+        },
+        {
+          "code": "H03H 2218/04",
+          "title": {
+            "ko": null,
+            "en": "In-phase and quadrature [I/Q] signals"
+          }
+        },
+        {
+          "code": "H03H 2218/06",
+          "title": {
+            "ko": null,
+            "en": "Multiple-input, multiple-output [MIMO]; Multiple-input, single-output [MISO]"
+          }
+        },
+        {
+          "code": "H03H 2218/08",
+          "title": {
+            "ko": null,
+            "en": "Resource sharing"
+          }
+        },
+        {
+          "code": "H03H 2218/10",
+          "title": {
+            "ko": null,
+            "en": "Multiplier and or accumulator units"
+          }
+        },
+        {
+          "code": "H03H 2218/12",
+          "title": {
+            "ko": null,
+            "en": "Signal conditioning"
+          }
+        },
+        {
+          "code": "H03H 2218/14",
+          "title": {
+            "ko": null,
+            "en": "Non-uniform sampling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 2220/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to structures of digital filters"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 2220/02",
+          "title": {
+            "ko": null,
+            "en": "Modular, e.g. cells connected in cascade"
+          }
+        },
+        {
+          "code": "H03H 2220/04",
+          "title": {
+            "ko": null,
+            "en": "Pipelined"
+          }
+        },
+        {
+          "code": "H03H 2220/06",
+          "title": {
+            "ko": null,
+            "en": "Systolic"
+          }
+        },
+        {
+          "code": "H03H 2220/08",
+          "title": {
+            "ko": null,
+            "en": "Variable filter length"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 2222/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to digital filtering methods"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 2222/02",
+          "title": {
+            "ko": null,
+            "en": "using fuzzy logic"
+          }
+        },
+        {
+          "code": "H03H 2222/04",
+          "title": {
+            "ko": null,
+            "en": "using neural networks"
+          }
+        },
+        {
+          "code": "H03H 2222/06",
+          "title": {
+            "ko": null,
+            "en": "using wavelets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 2240/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to filter banks"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03H 2250/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to dual- or multi-band filters"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03H 2260/00",
+      "title": {
+        "ko": null,
+        "en": "Theory relating to impedance networks"
+      },
+      "subgroups": []
+    }
+  ]
+}

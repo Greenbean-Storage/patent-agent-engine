@@ -1,0 +1,122 @@
+{
+  "title": "ChainManifest",
+  "description": "DRC chain 의 manifest. sessions/{user_id}/{work_id}/chains/{chain_id}/manifest.json 에 저장. writer = DRO.",
+  "type": "object",
+  "required": [
+    "chain_id",
+    "user_id",
+    "work_id",
+    "pipeline_id",
+    "persona",
+    "trigger",
+    "status",
+    "started_at"
+  ],
+  "properties": {
+    "chain_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "user_id": {
+      "type": "string",
+      "description": "이 chain 이 속한 user (path 외 명시) — manifest 만 보고도 session 식별 가능"
+    },
+    "work_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "이 chain 이 속한 work"
+    },
+    "pipeline_id": {
+      "type": "string",
+      "description": "P{NN}.R{NN}.UPPER_SNAKE pipeline ID (예: P01.R00.CHAT_CONVERSATION)"
+    },
+    "persona": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "이 chain 의 페르소나 (P{NN} 의 NN). 페르소나별 RT 큐 (runtime/{persona}/queue.json) 로 라우팅."
+    },
+    "trigger": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "user_message",
+            "structured_input",
+            "system",
+            "pipeline_run",
+            "spawned"
+          ],
+          "description": "chain 시작 트리거. spawned = 부모 chain 의 dispatch_to 로 생성"
+        },
+        "content_ref": {
+          "type": "string",
+          "description": "관련 자료의 S3 ref (예: chains/{chain_id}/inputs/turn.json)"
+        },
+        "ref_chain_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "buddy_completion 등 다른 chain 후속으로 시작된 경우 부모 chain"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "active",
+        "done",
+        "failed"
+      ],
+      "description": "pending=체인 큐 대기, active=진행 중, done=완료, failed=중단"
+    },
+    "rt_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "총 enqueue 된 RT 수 (관측용)"
+    },
+    "completed_rt_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "activated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time",
+      "description": "체인 큐에서 active 로 승격된 시각"
+    },
+    "completed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "error": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "failed_rt_id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "source": "KIPO 심사기준 (drafting/raw → 거절사유 요약)",
+  "license": "KOGL 2.0",
+  "input_parts": [
+    "01",
+    "03",
+    "04"
+  ],
+  "model": "claude-opus-4-7",
+  "input_tokens": 218288,
+  "output_tokens": 9119,
+  "summary_chars": 9636,
+  "built_at": "2026-05-05T03:21:55.264087+00:00",
+  "layer": "1+2+3",
+  "by_section": {
+    "sections": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "model": "claude-opus-4-7",
+    "input_tokens": 48466,
+    "output_tokens": 18456,
+    "built_at": "2026-05-05T03:40:31.545959+00:00"
+  },
+  "cases": {
+    "kipris_keywords": [
+      "진보성",
+      "신규성",
+      "명확성",
+      "기재불비",
+      "식별력",
+      "산업상이용가능성",
+      "보정"
+    ],
+    "services": [
+      "IntermediateDocumentREService",
+      "IntermediateDocumentOPService"
+    ],
+    "fetched_metas": 267,
+    "enriched_with_text": 256,
+    "indexed_in_chroma": 256,
+    "embedding_model": "gemini-embedding-001",
+    "collection": "rejection_cases",
+    "built_at": "2026-05-05T05:22:47.135185+00:00"
+  }
+}

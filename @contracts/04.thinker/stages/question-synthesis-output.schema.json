@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "deep_questions": {
+      "type": "array"
+    },
+    "reasoning_summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "deep_questions",
+    "reasoning_summary"
+  ]
+}

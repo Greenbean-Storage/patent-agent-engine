@@ -1,0 +1,1337 @@
+{
+  "subclass": "B60L",
+  "title": {
+    "ko": "전기 추진차량의 추진(차량의 공통 추진 또는 상호 추진을 위한 여러 다양한 견인차의 또는 전기 추진 장치의 설치 또는 배치 B60K 1/00, B60K 6/20; 차량에서 전기 기어링의 설치 또는 배치 B60K 17/12, B60K 17/14; 철도 차량에서 파워를 감소시킴으로 휠 슬립(wheel slip)을 예방하는 것 B61C 15/08; 전기 발전 기계 H02K; 전기자동차의 제어 또는 조정 H02P); 전기추진자동차의 보조 장치를 위해 전력을 공급하는 것 (차량의 기계적 커플링을 결합한 전자 커플링 장치 B60D 1/64; 차량용 전기 난방 B60H 1/00); 차량용 전동식 브레이크 시스템 일반 (전기자동차의 규제 또는 통제 H02P); 차량용 자기 서스펜션 또는 부상; 전기 추진 자동차의 운영 변수 모니터링; 전기 추진 자동차의 전기 안전 장치",
+    "en": "PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES (arrangements or mounting of electrical propulsion units or of plural diverse prime-movers for mutual or common propulsion in vehicles B60K0001000000, B60K0006200000;arrangements or mounting of electrical gearing in vehicles B60K0017120000, B60K0017140000;preventing wheel slip by reducing power in rail vehicles B61C0015080000;dynamo-electric machines H02K;control or regulation of electric motors H02P); SUPPLYING ELECTRIC POWER FOR AUXILIARY EQUIPMENT OF ELECTRICALLY-PROPELLED VEHICLES (electric coupling devices combined with mechanical couplings of vehicles B60D0001640000;electric heating for vehicles B60H0001000000); ELECTRODYNAMIC BRAKE SYSTEMS FOR VEHICLES IN GENERAL (control or regulation of electric motors H02P); MAGNETIC SUSPENSION OR LEVITATION FOR VEHICLES; MONITORING OPERATING VARIABLES OF ELECTRICALLY-PROPELLED VEHICLES; ELECTRIC SAFETY DEVICES FOR ELECTRICALLY-PROPELLED VEHICLES"
+  },
+  "definition": {
+    "ko": "전기적 추진 외부로부터의 전력공급 B60L 8/00, B60L 9/00 내부로부터의 전력공급 B60L 50/00 충전 B60L 53/00 차량-대-그리드 장치 B60L 55/00 배터리 또는 연료전지 모니터링 B60L 58/00 모노레일 차량, 차체현가 차량, 또는 랙(RACK)식 철도에 관한 것; 차량용 자기현가 또는 부양 B60L13/00 제어 B60L15/00 전류집전장치 B60L5/00 보조장치에의 전력공급 B60L1/00 안전장치 B60L3/00 전기적 제동 B60L7/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B60L 1/00",
+      "title": {
+        "ko": "전기 추진차량의 보조장치에 전력공급(차량용 신호 또는 조명장치, 또는 그의 탑재 또는 지지 또는 그의 회로 배치 일반 B60Q)",
+        "en": "Supplying electric power to auxiliary equipment of electrically-propelled vehicles (arrangement of signalling or lighting devices, the mounting or supporting thereof or circuits therefor, for vehicles in general B60Q)"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 1/02",
+          "title": {
+            "ko": null,
+            "en": "to electric heating circuits"
+          }
+        },
+        {
+          "code": "B60L 1/04",
+          "title": {
+            "ko": null,
+            "en": "fed by the power supply line"
+          }
+        },
+        {
+          "code": "B60L 1/06",
+          "title": {
+            "ko": null,
+            "en": "using only one supply"
+          }
+        },
+        {
+          "code": "B60L 1/08",
+          "title": {
+            "ko": null,
+            "en": "Methods or devices for control or regulation"
+          }
+        },
+        {
+          "code": "B60L 1/10",
+          "title": {
+            "ko": null,
+            "en": "with provision for using different supplies"
+          }
+        },
+        {
+          "code": "B60L 1/12",
+          "title": {
+            "ko": null,
+            "en": "Methods or devices for control or regulation"
+          }
+        },
+        {
+          "code": "B60L 1/14",
+          "title": {
+            "ko": null,
+            "en": "to electric lighting circuits"
+          }
+        },
+        {
+          "code": "B60L 1/16",
+          "title": {
+            "ko": null,
+            "en": "fed by the power supply line"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 3/00",
+      "title": {
+        "ko": "전기적 추진차량의 안전 목적의 전기적 장치; 동작변수 모니터링, 예. 속도, 감속 또는 에너지 소비 (배터리 또는 연료전지의 모니터링 또는 제어용 방법 또는 회로 장치 B60L 58/00)",
+        "en": "Electric devices on electrically-propelled vehicles for safety purposes; Monitoring operating variables, e.g. speed, deceleration or energy consumption (methods or circuit arrangements for monitoring or controlling batteries or fuel cells B60L0058000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 3/02",
+          "title": {
+            "ko": null,
+            "en": "Dead-man's devices"
+          }
+        },
+        {
+          "code": "B60L 3/04",
+          "title": {
+            "ko": null,
+            "en": "Cutting-off the power supply under fault conditions"
+          }
+        },
+        {
+          "code": "B60L 3/06",
+          "title": {
+            "ko": null,
+            "en": "Limiting the traction current under mechanical- overload conditions"
+          }
+        },
+        {
+          "code": "B60L 3/08",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing excessive speed of the vehicle"
+          }
+        },
+        {
+          "code": "B60L 3/10",
+          "title": {
+            "ko": null,
+            "en": "Indicating wheel slip"
+          }
+        },
+        {
+          "code": "B60L 3/12",
+          "title": {
+            "ko": null,
+            "en": "Recording operating variables"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 5/00",
+      "title": {
+        "ko": "전기적 추진차량의 동력공급선용 집전장치",
+        "en": "Current-collectors for power supply lines of electrically-propelled vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 5/02",
+          "title": {
+            "ko": null,
+            "en": "with ice-removing device"
+          }
+        },
+        {
+          "code": "B60L 5/04",
+          "title": {
+            "ko": "전차선에 접촉하는 롤러 또는 슬라이딩 슈 사용하는 것",
+            "en": "using rollers or sliding shoes in contact with trolley wire (B60L0005400000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 5/06",
+          "title": {
+            "ko": null,
+            "en": "Structure of the rollers or their carrying means"
+          }
+        },
+        {
+          "code": "B60L 5/08",
+          "title": {
+            "ko": null,
+            "en": "Structure of the sliding shoes or their carrying means"
+          }
+        },
+        {
+          "code": "B60L 5/10",
+          "title": {
+            "ko": null,
+            "en": "Devices preventing the collector from jumping off"
+          }
+        },
+        {
+          "code": "B60L 5/12",
+          "title": {
+            "ko": "폴 또는 그들 베이스의 구조적특징",
+            "en": "Structural features of poles or their bases"
+          }
+        },
+        {
+          "code": "B60L 5/14",
+          "title": {
+            "ko": null,
+            "en": "Devices for automatic lowering of a jumped-off collector"
+          }
+        },
+        {
+          "code": "B60L 5/16",
+          "title": {
+            "ko": "집전장치를 상승시켜 재설치하는 장치(5/34이 우선)",
+            "en": "Devices for lifting and resetting the collector (B60L0005340000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 5/18",
+          "title": {
+            "ko": null,
+            "en": "using bow-type collectors in contact with trolley wire"
+          }
+        },
+        {
+          "code": "B60L 5/19",
+          "title": {
+            "ko": null,
+            "en": "using arrangements for effecting collector movement transverse to the direction of vehicle motion"
+          }
+        },
+        {
+          "code": "B60L 5/20",
+          "title": {
+            "ko": null,
+            "en": "Details of contact bow"
+          }
+        },
+        {
+          "code": "B60L 5/22",
+          "title": {
+            "ko": null,
+            "en": "Supporting means for the contact bow"
+          }
+        },
+        {
+          "code": "B60L 5/24",
+          "title": {
+            "ko": null,
+            "en": "Pantographs"
+          }
+        },
+        {
+          "code": "B60L 5/26",
+          "title": {
+            "ko": null,
+            "en": "Half-pantographs, e.g. using counter-rocking beams"
+          }
+        },
+        {
+          "code": "B60L 5/28",
+          "title": {
+            "ko": null,
+            "en": "Devices for lifting and resetting the collector"
+          }
+        },
+        {
+          "code": "B60L 5/30",
+          "title": {
+            "ko": null,
+            "en": "using springs"
+          }
+        },
+        {
+          "code": "B60L 5/32",
+          "title": {
+            "ko": null,
+            "en": "using fluid pressure"
+          }
+        },
+        {
+          "code": "B60L 5/34",
+          "title": {
+            "ko": null,
+            "en": "with devices to enable one vehicle to pass another one using the same power supply line"
+          }
+        },
+        {
+          "code": "B60L 5/36",
+          "title": {
+            "ko": null,
+            "en": "with means for collecting current simultaneously from more than one conductor, e.g. from more than one phase"
+          }
+        },
+        {
+          "code": "B60L 5/38",
+          "title": {
+            "ko": "도전레일로부터 집전하는 것(5/40이 우선)",
+            "en": "for collecting current from conductor rails (B60L0005400000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 5/39",
+          "title": {
+            "ko": null,
+            "en": "from third rail"
+          }
+        },
+        {
+          "code": "B60L 5/40",
+          "title": {
+            "ko": null,
+            "en": "for collecting current from lines in slotted conduits"
+          }
+        },
+        {
+          "code": "B60L 5/42",
+          "title": {
+            "ko": null,
+            "en": "for collecting current from individual contact pieces connected to the power supply line"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 7/00",
+      "title": {
+        "ko": "차량용 전기적 제동방식일반",
+        "en": "Electrodynamic brake systems for vehicles in general"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 7/02",
+          "title": {
+            "ko": "전기적인 저항제동 (B60L7/22가 우선)",
+            "en": "Dynamic electric resistor braking (B60L0007220000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 7/04",
+          "title": {
+            "ko": null,
+            "en": "for vehicles propelled by DC motors"
+          }
+        },
+        {
+          "code": "B60L 7/06",
+          "title": {
+            "ko": null,
+            "en": "for vehicles propelled by AC motors"
+          }
+        },
+        {
+          "code": "B60L 7/08",
+          "title": {
+            "ko": "제동효과의 제어(7/04, 7/06이 우선)",
+            "en": "Controlling the braking effect (B60L0007040000, B60L0007060000 take precedence)"
+          }
+        },
+        {
+          "code": "B60L 7/10",
+          "title": {
+            "ko": "회생제동 (B60L7/22가 우선)",
+            "en": "Dynamic electric regenerative braking (B60L0007220000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 7/12",
+          "title": {
+            "ko": null,
+            "en": "for vehicles propelled by DC motors"
+          }
+        },
+        {
+          "code": "B60L 7/14",
+          "title": {
+            "ko": null,
+            "en": "for vehicles propelled by AC motors"
+          }
+        },
+        {
+          "code": "B60L 7/16",
+          "title": {
+            "ko": null,
+            "en": "for vehicles comprising converters between the power source and the motor"
+          }
+        },
+        {
+          "code": "B60L 7/18",
+          "title": {
+            "ko": "제동효과의 제어(7/12, 7/14, 7/16이 우선)",
+            "en": "Controlling the braking effect (B60L0007120000, B60L0007140000, B60L0007160000 take precedence)"
+          }
+        },
+        {
+          "code": "B60L 7/20",
+          "title": {
+            "ko": null,
+            "en": "Braking by supplying regenerated power to the prime mover of vehicles comprising engine-driven generators"
+          }
+        },
+        {
+          "code": "B60L 7/22",
+          "title": {
+            "ko": null,
+            "en": "Dynamic electric resistor braking, combined with dynamic electric regenerative braking"
+          }
+        },
+        {
+          "code": "B60L 7/24",
+          "title": {
+            "ko": null,
+            "en": "with additional mechanical or electromagnetic braking"
+          }
+        },
+        {
+          "code": "B60L 7/26",
+          "title": {
+            "ko": null,
+            "en": "Controlling the braking effect"
+          }
+        },
+        {
+          "code": "B60L 7/28",
+          "title": {
+            "ko": null,
+            "en": "Eddy-current braking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 8/00",
+      "title": {
+        "ko": null,
+        "en": "Electric propulsion with power supply from forces of nature, e.g. sun or wind"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B60L 9/00",
+      "title": {
+        "ko": "차량의 외부로부터 동력을 공급하는 전기적 추진 장치 (모노레일 차량, 차체현가차량 또는 랙식 레일철도용 전기적 추진 장치 B60L13/00 ; 차량 내에서 배터리 또는 연료전지와 조합되는 것 B60L50/53)",
+        "en": "Electric propulsion with power supply external to the vehicle (electric propulsion for monorail vehicles, suspension vehicles or rack railways B60L0013000000;in combination with batteries or fuel cells within the vehicle B60L0050530000)"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 9/02",
+          "title": {
+            "ko": null,
+            "en": "using DC motors"
+          }
+        },
+        {
+          "code": "B60L 9/04",
+          "title": {
+            "ko": null,
+            "en": "fed from DC supply lines"
+          }
+        },
+        {
+          "code": "B60L 9/06",
+          "title": {
+            "ko": null,
+            "en": "with conversion by metadyne"
+          }
+        },
+        {
+          "code": "B60L 9/08",
+          "title": {
+            "ko": null,
+            "en": "fed from AC supply lines"
+          }
+        },
+        {
+          "code": "B60L 9/10",
+          "title": {
+            "ko": null,
+            "en": "with rotary converters"
+          }
+        },
+        {
+          "code": "B60L 9/12",
+          "title": {
+            "ko": null,
+            "en": "with static converters"
+          }
+        },
+        {
+          "code": "B60L 9/14",
+          "title": {
+            "ko": null,
+            "en": "fed from different kinds of power supply lines"
+          }
+        },
+        {
+          "code": "B60L 9/16",
+          "title": {
+            "ko": null,
+            "en": "using AC induction motors"
+          }
+        },
+        {
+          "code": "B60L 9/18",
+          "title": {
+            "ko": null,
+            "en": "fed from DC supply lines"
+          }
+        },
+        {
+          "code": "B60L 9/20",
+          "title": {
+            "ko": null,
+            "en": "single-phase motors"
+          }
+        },
+        {
+          "code": "B60L 9/22",
+          "title": {
+            "ko": null,
+            "en": "polyphase motors"
+          }
+        },
+        {
+          "code": "B60L 9/24",
+          "title": {
+            "ko": null,
+            "en": "fed from AC supply lines"
+          }
+        },
+        {
+          "code": "B60L 9/26",
+          "title": {
+            "ko": null,
+            "en": "single-phase motors"
+          }
+        },
+        {
+          "code": "B60L 9/28",
+          "title": {
+            "ko": null,
+            "en": "polyphase motors"
+          }
+        },
+        {
+          "code": "B60L 9/30",
+          "title": {
+            "ko": null,
+            "en": "fed from different kinds of power supply lines"
+          }
+        },
+        {
+          "code": "B60L 9/32",
+          "title": {
+            "ko": null,
+            "en": "using AC brush-displacement motors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 13/00",
+      "title": {
+        "ko": null,
+        "en": "Electric propulsion for monorail vehicles, suspension vehicles or rack railways; Magnetic suspension or levitation for vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 13/03",
+          "title": {
+            "ko": null,
+            "en": "Electric propulsion by linear motors"
+          }
+        },
+        {
+          "code": "B60L 13/04",
+          "title": {
+            "ko": null,
+            "en": "Magnetic suspension or levitation for vehicles"
+          }
+        },
+        {
+          "code": "B60L 13/06",
+          "title": {
+            "ko": null,
+            "en": "Means to sense or control vehicle position or attitude with respect to railway"
+          }
+        },
+        {
+          "code": "B60L 13/08",
+          "title": {
+            "ko": null,
+            "en": "for the lateral position"
+          }
+        },
+        {
+          "code": "B60L 13/10",
+          "title": {
+            "ko": null,
+            "en": "Combination of electric propulsion and magnetic suspension or levitation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 15/00",
+      "title": {
+        "ko": "전기 추진차량의 추진을 제어하는 방법, 회로 또는 장치, 예. 요구되는 성능을 달성하기 위한 차량의 견인 모터 속도; 고정된 장소, 차량의 대체 부품 또는 같은 차량 열차의 대체 차량으로부터 원격 작동을 위해 전기적 추진 자동차 제어 장치의 적용체",
+        "en": "Methods, circuits or devices for controlling the propulsion of electrically-propelled vehicles, e.g. their traction-motor speed, to achieve a desired performance; Adaptation of control equipment on electrically-propelled vehicles for remote actuation from a stationary place, from alternative parts of the vehicle or from alternative vehicles of the same vehicle train"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 15/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the form of the current used in the control circuit"
+          }
+        },
+        {
+          "code": "B60L 15/04",
+          "title": {
+            "ko": null,
+            "en": "using DC"
+          }
+        },
+        {
+          "code": "B60L 15/06",
+          "title": {
+            "ko": null,
+            "en": "using substantially-sinusoidal AC"
+          }
+        },
+        {
+          "code": "B60L 15/08",
+          "title": {
+            "ko": null,
+            "en": "using pulses"
+          }
+        },
+        {
+          "code": "B60L 15/10",
+          "title": {
+            "ko": "차량의 가속을 제한하기 위한 수동 제어에 중첩된 자동제어를 위한것. 예) 모터의 과전류를 방지하는 것(보안목적의 전기적 장치 3/00)",
+            "en": "for automatic control superimposed on human control to limit the acceleration of the vehicle, e.g. to prevent excessive motor current (electric devices for safety purposes B60L0003000000)"
+          }
+        },
+        {
+          "code": "B60L 15/12",
+          "title": {
+            "ko": null,
+            "en": "with circuits controlled by relays or contactors"
+          }
+        },
+        {
+          "code": "B60L 15/14",
+          "title": {
+            "ko": "서보 모터에 의하여 구동되는 주제어기를 갖는 것15/18이 우선)",
+            "en": "with main controller driven by a servomotor (B60L0015180000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 15/16",
+          "title": {
+            "ko": "래칫(ratchet)기구로 구동되는 주제어기를 갖는 것(15/18이 우선)",
+            "en": "with main controller driven through a ratchet mechanism (B60L0015180000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 15/18",
+          "title": {
+            "ko": null,
+            "en": "without contact-making and breaking, e.g. using a transductor"
+          }
+        },
+        {
+          "code": "B60L 15/20",
+          "title": {
+            "ko": "속도, 토크, 목표된 속도 변화 등의 목표 수행을 위한 차량 또는 구동모터의 제어",
+            "en": "for control of the vehicle or its driving motor to achieve a desired performance, e.g. speed, torque, programmed variation of speed"
+          }
+        },
+        {
+          "code": "B60L 15/22",
+          "title": {
+            "ko": null,
+            "en": "with sequential operation of interdependent switches, e.g. relays, contactors or programme drum"
+          }
+        },
+        {
+          "code": "B60L 15/24",
+          "title": {
+            "ko": "서어보모터에 의하여 구동되는 주제어기를 갖는 것(15/28이 우선)",
+            "en": "with main controller driven by a servomotor (B60L0015280000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 15/26",
+          "title": {
+            "ko": "래칫기구로 구동하는 주제어기를 갖는 것(15/28이 우선)",
+            "en": "with main controller driven through a ratchet mechanism (B60L0015280000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60L 15/28",
+          "title": {
+            "ko": null,
+            "en": "without contact-making and breaking, e.g. using a transductor"
+          }
+        },
+        {
+          "code": "B60L 15/30",
+          "title": {
+            "ko": null,
+            "en": "with means to change-over to human control"
+          }
+        },
+        {
+          "code": "B60L 15/32",
+          "title": {
+            "ko": null,
+            "en": "Control or regulation of multiple-unit electrically-propelled vehicles"
+          }
+        },
+        {
+          "code": "B60L 15/34",
+          "title": {
+            "ko": null,
+            "en": "with human control of a setting device"
+          }
+        },
+        {
+          "code": "B60L 15/36",
+          "title": {
+            "ko": null,
+            "en": "with automatic control superimposed, e.g. to prevent excessive motor current"
+          }
+        },
+        {
+          "code": "B60L 15/38",
+          "title": {
+            "ko": null,
+            "en": "with automatic control"
+          }
+        },
+        {
+          "code": "B60L 15/40",
+          "title": {
+            "ko": "정지장소로부터 원격조작을 하기 위한 차상장치(차상장치 제어를 위해 선로를 따라 설치된 장치들 B61L 13/00; 철도의 중앙제어방식 B61L 27/00)",
+            "en": "Adaptation of control equipment on vehicle for remote actuation from a stationary place (devices along the route for controlling devices on rail vehicles B61L0003000000;central rail-traffic control systems B61L0027000000)"
+          }
+        },
+        {
+          "code": "B60L 15/42",
+          "title": {
+            "ko": "차량의 다른 부분 또는 동일한 열차의 다른 차량으로부터 동작하기 위한 차량 제어장치의 적용(15/32이 우선)",
+            "en": "Adaptation of control equipment on vehicle for actuation from alternative parts of the vehicle or from alternative vehicles of the same vehicle train (B60L0015320000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 50/00",
+      "title": {
+        "ko": "차량 내부에 동력공급원을 가지는 전기적 추진장치 (자연력, 예. 태양 또는 바람, 으로부터 동력 공급을 갖는 것 B60L8/00; 모노레일 차량, 차체현가차량, 랙식 철도용 B60L13/00)",
+        "en": "Electric propulsion with power supplied within the vehicle (with power supply from forces of nature, e.g. sun or wind, B60L0008000000; for monorail vehicles, suspension vehicles or rack railways B60L0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 50/10",
+          "title": {
+            "ko": "엔진 구동 발전기, 예. 연소 기관에 의해 구동되는 발전기, 에 의해 공급되는 추진력의 사용",
+            "en": "using propulsion power supplied by engine-driven generators, e.g. generators driven by combustion engines"
+          }
+        },
+        {
+          "code": "B60L 50/11",
+          "title": {
+            "ko": null,
+            "en": "using DC generators and DC motors"
+          }
+        },
+        {
+          "code": "B60L 50/12",
+          "title": {
+            "ko": null,
+            "en": "using AC generators and DC motors"
+          }
+        },
+        {
+          "code": "B60L 50/13",
+          "title": {
+            "ko": null,
+            "en": "using AC generators and AC motors"
+          }
+        },
+        {
+          "code": "B60L 50/14",
+          "title": {
+            "ko": null,
+            "en": "using DC generators and AC motors"
+          }
+        },
+        {
+          "code": "B60L 50/15",
+          "title": {
+            "ko": "부가적 전력 공급을 갖는 것 (전기 구동 발전기에 의해 충전되는 캐패시터를 갖는 것 B60L 50/40; 엔진 구동 발전기에 의해 충전되는 배터리를 갖는 것 B60L 50/61)",
+            "en": "with additional electric power supply  (with capacitors charged by engine-driven generators B60L0050400000; with batteries charged by engine-driven generators B60L0050610000)"
+          }
+        },
+        {
+          "code": "B60L 50/16",
+          "title": {
+            "ko": null,
+            "en": "with provision for separate direct mechanical propulsion"
+          }
+        },
+        {
+          "code": "B60L 50/20",
+          "title": {
+            "ko": null,
+            "en": "using propulsion power generated by humans or animals"
+          }
+        },
+        {
+          "code": "B60L 50/30",
+          "title": {
+            "ko": null,
+            "en": "using propulsion power stored mechanically, e.g. in fly-wheels"
+          }
+        },
+        {
+          "code": "B60L 50/40",
+          "title": {
+            "ko": null,
+            "en": "using propulsion power supplied by capacitors"
+          }
+        },
+        {
+          "code": "B60L 50/50",
+          "title": {
+            "ko": "배터리 또는 연료전지에 의해 공급되는 추진력을 사용하는 것",
+            "en": "using propulsion power supplied by batteries or fuel cells"
+          }
+        },
+        {
+          "code": "B60L 50/51",
+          "title": {
+            "ko": null,
+            "en": "characterised by AC-motors"
+          }
+        },
+        {
+          "code": "B60L 50/52",
+          "title": {
+            "ko": null,
+            "en": "characterised by DC-motors"
+          }
+        },
+        {
+          "code": "B60L 50/53",
+          "title": {
+            "ko": null,
+            "en": "in combination with an external power supply, e.g. from overhead contact lines"
+          }
+        },
+        {
+          "code": "B60L 50/60",
+          "title": {
+            "ko": "배터리에 의해 공급되는 동력을 사용하는 것 (연료전지와 조합된 것 B60L 50/75)",
+            "en": "using power supplied by batteries (in combination with fuel cells B60L0050750000)"
+          }
+        },
+        {
+          "code": "B60L 50/61",
+          "title": {
+            "ko": null,
+            "en": "by batteries charged by engine-driven generators, e.g. series hybrid electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 50/62",
+          "title": {
+            "ko": null,
+            "en": "charged by low-power generators primarily intended to support the batteries, e.g. range extenders"
+          }
+        },
+        {
+          "code": "B60L 50/64",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of batteries specially adapted for electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 50/70",
+          "title": {
+            "ko": "연료전지에 의해 공급되는 동력을 사용하는 것 (배터리와의 조합으로 B60L50/75)",
+            "en": "using power supplied by fuel cells (in combination with batteries B60L0050750000)"
+          }
+        },
+        {
+          "code": "B60L 50/71",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of fuel cells within vehicles specially adapted for electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 50/72",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of fuel cells specially adapted for electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 50/75",
+          "title": {
+            "ko": null,
+            "en": "using propulsion power supplied by both fuel cells and batteries"
+          }
+        },
+        {
+          "code": "B60L 50/90",
+          "title": {
+            "ko": "그룹 B60L50/10 - B60L50/50에 포함되지 않는 특정 수단에 의해 공급되는 추진력을 사용하는 것, 예. 열적 원자력 에너지의 전기로의 직접 전환에 의한 것",
+            "en": "using propulsion power supplied by specific means not covered by groups B60L0050100000-B60L0050500000, e.g. by direct conversion of thermal nuclear energy into electricity"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 53/00",
+      "title": {
+        "ko": "배터리 충전 방법, 특히 전기 차량에 특히 적합한 것; 그를 위한 충전 스테이션 또는 탑재 충전 장치; 전기 차량에서의 에너지 저장 요소의 교환",
+        "en": "Methods of charging batteries, specially adapted for electric vehicles; Charging stations or on-board charging equipment therefor; Exchange of energy storage elements in electric vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 53/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the energy transfer between the charging station and the vehicle"
+          }
+        },
+        {
+          "code": "B60L 53/12",
+          "title": {
+            "ko": null,
+            "en": "Inductive energy transfer"
+          }
+        },
+        {
+          "code": "B60L 53/122",
+          "title": {
+            "ko": null,
+            "en": "Circuits or methods for driving the primary coil, i.e. supplying electric power to the coil"
+          }
+        },
+        {
+          "code": "B60L 53/124",
+          "title": {
+            "ko": null,
+            "en": "Detection or removal of foreign bodies"
+          }
+        },
+        {
+          "code": "B60L 53/126",
+          "title": {
+            "ko": null,
+            "en": "Methods for pairing a vehicle and a charging station, e.g. establishing a one-to-one relation between a wireless power transmitter and a wireless power receiver"
+          }
+        },
+        {
+          "code": "B60L 53/14",
+          "title": {
+            "ko": null,
+            "en": "Conductive energy transfer"
+          }
+        },
+        {
+          "code": "B60L 53/16",
+          "title": {
+            "ko": null,
+            "en": "Connectors, e.g. plugs or sockets, specially adapted for charging electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 53/18",
+          "title": {
+            "ko": null,
+            "en": "Cables specially adapted for charging electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 53/20",
+          "title": {
+            "ko": null,
+            "en": "characterised by converters located in the vehicle"
+          }
+        },
+        {
+          "code": "B60L 53/22",
+          "title": {
+            "ko": null,
+            "en": "Constructional details or arrangements of charging converters specially adapted for charging electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 53/24",
+          "title": {
+            "ko": null,
+            "en": "Using the vehicle's propulsion converter for charging"
+          }
+        },
+        {
+          "code": "B60L 53/30",
+          "title": {
+            "ko": "충전 스테이션의 구조적 세부",
+            "en": "Constructional details of charging stations"
+          }
+        },
+        {
+          "code": "B60L 53/302",
+          "title": {
+            "ko": null,
+            "en": "Cooling of charging equipment"
+          }
+        },
+        {
+          "code": "B60L 53/31",
+          "title": {
+            "ko": null,
+            "en": "Charging columns specially adapted for electric vehicles"
+          }
+        },
+        {
+          "code": "B60L 53/34",
+          "title": {
+            "ko": "전기 차량의 비접촉 유도성 충전에 특히 적합한 플러그-유사 또는 소켓-유사 장치",
+            "en": "Plug-like or socket-like devices specially adapted for contactless inductive charging of electric vehicles (positioning means for charging devices using inductive energy transfer B60L0053380000)"
+          }
+        },
+        {
+          "code": "B60L 53/35",
+          "title": {
+            "ko": null,
+            "en": "Means for automatic or assisted adjustment of the relative position of charging devices and vehicles"
+          }
+        },
+        {
+          "code": "B60L 53/36",
+          "title": {
+            "ko": null,
+            "en": "by positioning the vehicle"
+          }
+        },
+        {
+          "code": "B60L 53/37",
+          "title": {
+            "ko": null,
+            "en": "using optical position determination, e.g. using cameras"
+          }
+        },
+        {
+          "code": "B60L 53/38",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for charging by inductive energy transfer"
+          }
+        },
+        {
+          "code": "B60L 53/39",
+          "title": {
+            "ko": null,
+            "en": "with position-responsive activation of primary coils"
+          }
+        },
+        {
+          "code": "B60L 53/50",
+          "title": {
+            "ko": null,
+            "en": "Charging stations characterised by energy-storage or power-generation means"
+          }
+        },
+        {
+          "code": "B60L 53/51",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic means"
+          }
+        },
+        {
+          "code": "B60L 53/52",
+          "title": {
+            "ko": null,
+            "en": "Wind-driven generators"
+          }
+        },
+        {
+          "code": "B60L 53/53",
+          "title": {
+            "ko": null,
+            "en": "Batteries"
+          }
+        },
+        {
+          "code": "B60L 53/54",
+          "title": {
+            "ko": null,
+            "en": "Fuel cells"
+          }
+        },
+        {
+          "code": "B60L 53/55",
+          "title": {
+            "ko": null,
+            "en": "Capacitors"
+          }
+        },
+        {
+          "code": "B60L 53/56",
+          "title": {
+            "ko": null,
+            "en": "Mechanical storage means, e.g. fly wheels"
+          }
+        },
+        {
+          "code": "B60L 53/57",
+          "title": {
+            "ko": null,
+            "en": "Charging stations without connection to power networks"
+          }
+        },
+        {
+          "code": "B60L 53/60",
+          "title": {
+            "ko": null,
+            "en": "Monitoring or controlling charging stations"
+          }
+        },
+        {
+          "code": "B60L 53/62",
+          "title": {
+            "ko": null,
+            "en": "in response to charging parameters, e.g. current, voltage or electrical charge"
+          }
+        },
+        {
+          "code": "B60L 53/63",
+          "title": {
+            "ko": null,
+            "en": "in response to network capacity"
+          }
+        },
+        {
+          "code": "B60L 53/64",
+          "title": {
+            "ko": null,
+            "en": "Optimising energy costs, e.g. responding to electricity rates"
+          }
+        },
+        {
+          "code": "B60L 53/65",
+          "title": {
+            "ko": null,
+            "en": "involving identification of vehicles or their battery types"
+          }
+        },
+        {
+          "code": "B60L 53/66",
+          "title": {
+            "ko": null,
+            "en": "Data transfer between charging stations and vehicles"
+          }
+        },
+        {
+          "code": "B60L 53/67",
+          "title": {
+            "ko": null,
+            "en": "Controlling two or more charging stations"
+          }
+        },
+        {
+          "code": "B60L 53/68",
+          "title": {
+            "ko": null,
+            "en": "Off-site monitoring or control, e.g. remote control"
+          }
+        },
+        {
+          "code": "B60L 53/80",
+          "title": {
+            "ko": null,
+            "en": "Exchanging energy storage elements, e.g. removable batteries"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60L 55/00",
+      "title": {
+        "ko": "차량에 저장된 에너지를 전력망, 즉. vehicle-to-grid [V2G] 장치, 에 공급하기 위한 장치",
+        "en": "Arrangements for supplying energy stored within a vehicle to a power network, i.e. vehicle-to-grid [V2G] arrangements"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B60L 58/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or circuit arrangements for monitoring or controlling batteries or fuel cells, specially adapted for electric vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "B60L 58/10",
+          "title": {
+            "ko": null,
+            "en": "for monitoring or controlling batteries"
+          }
+        },
+        {
+          "code": "B60L 58/12",
+          "title": {
+            "ko": null,
+            "en": "responding to state of charge [SoC]"
+          }
+        },
+        {
+          "code": "B60L 58/13",
+          "title": {
+            "ko": null,
+            "en": "Maintaining the SoC within a determined range"
+          }
+        },
+        {
+          "code": "B60L 58/14",
+          "title": {
+            "ko": null,
+            "en": "Preventing excessive discharging"
+          }
+        },
+        {
+          "code": "B60L 58/15",
+          "title": {
+            "ko": null,
+            "en": "Preventing overcharging"
+          }
+        },
+        {
+          "code": "B60L 58/16",
+          "title": {
+            "ko": null,
+            "en": "responding to battery ageing, e.g. to the number of charging cycles or the state of health [SoH]"
+          }
+        },
+        {
+          "code": "B60L 58/18",
+          "title": {
+            "ko": null,
+            "en": "of two or more battery modules"
+          }
+        },
+        {
+          "code": "B60L 58/19",
+          "title": {
+            "ko": null,
+            "en": "Switching between serial connection and parallel connection of battery modules"
+          }
+        },
+        {
+          "code": "B60L 58/20",
+          "title": {
+            "ko": null,
+            "en": "having different nominal voltages"
+          }
+        },
+        {
+          "code": "B60L 58/21",
+          "title": {
+            "ko": null,
+            "en": "having the same nominal voltage"
+          }
+        },
+        {
+          "code": "B60L 58/22",
+          "title": {
+            "ko": null,
+            "en": "Balancing the charge of battery modules"
+          }
+        },
+        {
+          "code": "B60L 58/24",
+          "title": {
+            "ko": null,
+            "en": "for controlling the temperature of batteries"
+          }
+        },
+        {
+          "code": "B60L 58/25",
+          "title": {
+            "ko": null,
+            "en": "by controlling the electric load"
+          }
+        },
+        {
+          "code": "B60L 58/26",
+          "title": {
+            "ko": null,
+            "en": "by cooling"
+          }
+        },
+        {
+          "code": "B60L 58/27",
+          "title": {
+            "ko": null,
+            "en": "by heating"
+          }
+        },
+        {
+          "code": "B60L 58/30",
+          "title": {
+            "ko": null,
+            "en": "for monitoring or controlling fuel cells"
+          }
+        },
+        {
+          "code": "B60L 58/31",
+          "title": {
+            "ko": null,
+            "en": "for starting of fuel cells"
+          }
+        },
+        {
+          "code": "B60L 58/32",
+          "title": {
+            "ko": null,
+            "en": "for controlling the temperature of fuel cells, e.g. by controlling the electric load"
+          }
+        },
+        {
+          "code": "B60L 58/33",
+          "title": {
+            "ko": null,
+            "en": "by cooling"
+          }
+        },
+        {
+          "code": "B60L 58/34",
+          "title": {
+            "ko": null,
+            "en": "by heating"
+          }
+        },
+        {
+          "code": "B60L 58/40",
+          "title": {
+            "ko": null,
+            "en": "for controlling a combination of batteries and fuel cells"
+          }
+        }
+      ]
+    }
+  ]
+}

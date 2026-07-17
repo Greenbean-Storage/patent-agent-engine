@@ -1,0 +1,360 @@
+{
+  "subclass": "H04J",
+  "title": {
+    "ko": "다중통신(디지털정보 전송에 대한 특유한 것 H04L 5/00; 하나 이상의 텔레비젼신호를 동시 또는 순차로 전송하기 위한 시스템 H04N 7/08; 교환기에 있어서의 것 H04Q 11/00)",
+    "en": "MULTIPLEX COMMUNICATION (peculiar to transmission of digital information H04L0005000000;systems for the simultaneous or sequential transmission of more than one television signal H04N0007080000;in exchanges H04Q0011000000)"
+  },
+  "definition": {
+    "ko": "이 서브클래스는 이하의 것을 포함한다. - 동일전송로상에 복수개의 신호를 동시적 또는 순차적으로 전송하는 목적으로 그들의 신호를 결합 또는 분리하기 위한 회로장치 - 그를 위한 감시배치를 다룬다",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04J 1/00",
+      "title": {
+        "ko": "주파수분할 다중 시스템(H04J 14/02이 우선)",
+        "en": "Frequency-division multiplex systems (H04J0014020000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H04J 1/04",
+          "title": {
+            "ko": null,
+            "en": "Frequency-transposition arrangements"
+          }
+        },
+        {
+          "code": "H04J 1/05",
+          "title": {
+            "ko": null,
+            "en": "using digital techniques"
+          }
+        },
+        {
+          "code": "H04J 1/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supplying the carrier waves"
+          }
+        },
+        {
+          "code": "H04J 1/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for combining channels"
+          }
+        },
+        {
+          "code": "H04J 1/10",
+          "title": {
+            "ko": null,
+            "en": "Intermediate station arrangements, e.g. for branching, for tapping-off"
+          }
+        },
+        {
+          "code": "H04J 1/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing cross-talk between channels"
+          }
+        },
+        {
+          "code": "H04J 1/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangements providing for calling or supervisory signals"
+          }
+        },
+        {
+          "code": "H04J 1/16",
+          "title": {
+            "ko": null,
+            "en": "Monitoring arrangements"
+          }
+        },
+        {
+          "code": "H04J 1/18",
+          "title": {
+            "ko": "전반송파가 진폭변조되어 있는 것(H04J 1/02가 우선)",
+            "en": "in which all the carriers are amplitude-modulated (H04J0001020000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04J 1/20",
+          "title": {
+            "ko": "적어도 하나의 반송파가 각변조된 것(H04J 1/02이 우선)",
+            "en": "in which at least one carrier is angle-modulated (H04J0001020000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 3/00",
+      "title": {
+        "ko": "시분할 다중 시스템(H04J 14/08이 우선)",
+        "en": "Time-division multiplex systems (H04J0014080000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H04J 3/04",
+          "title": {
+            "ko": null,
+            "en": "Distributors combined with modulators or demodulators"
+          }
+        },
+        {
+          "code": "H04J 3/06",
+          "title": {
+            "ko": null,
+            "en": "Synchronising arrangements"
+          }
+        },
+        {
+          "code": "H04J 3/07",
+          "title": {
+            "ko": null,
+            "en": "using pulse stuffing for systems with different or fluctuating information rates"
+          }
+        },
+        {
+          "code": "H04J 3/08",
+          "title": {
+            "ko": null,
+            "en": "Intermediate station arrangements, e.g. for branching, for tapping-off"
+          }
+        },
+        {
+          "code": "H04J 3/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing cross-talk between channels"
+          }
+        },
+        {
+          "code": "H04J 3/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements providing for calling or supervisory signals"
+          }
+        },
+        {
+          "code": "H04J 3/14",
+          "title": {
+            "ko": null,
+            "en": "Monitoring arrangements"
+          }
+        },
+        {
+          "code": "H04J 3/16",
+          "title": {
+            "ko": "단일 전송 사이클 내의 개개의 채널에 대한 시간할당이 가변인 것, 예. 복수신호의 변화를 수용하기 위한 것, 전송채널의 수를 변화시키기 위한 것(H04J 3/17, H04J 3/24가 우선)",
+            "en": "in which the time allocation to individual channels within a transmission cycle is variable, e.g. to accommodate varying complexity of signals, to vary number of channels transmitted (H04J0003170000, H04J0003240000 take precedence)"
+          }
+        },
+        {
+          "code": "H04J 3/17",
+          "title": {
+            "ko": null,
+            "en": "in which the transmission channel allotted to a first user may be taken away and re-allotted to a second user if the first user becomes inactive, e.g. TASI"
+          }
+        },
+        {
+          "code": "H04J 3/18",
+          "title": {
+            "ko": null,
+            "en": "using frequency compression and subsequent expansion of the individual signals"
+          }
+        },
+        {
+          "code": "H04J 3/20",
+          "title": {
+            "ko": null,
+            "en": "using resonant transfer"
+          }
+        },
+        {
+          "code": "H04J 3/22",
+          "title": {
+            "ko": null,
+            "en": "in which the sources have different rates or codes"
+          }
+        },
+        {
+          "code": "H04J 3/24",
+          "title": {
+            "ko": "할당이 어드레스에 의하여 지시되는 것(H04J 3/17이 우선)",
+            "en": "in which the allocation is indicated by an address (H04J0003170000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04J 3/26",
+          "title": {
+            "ko": null,
+            "en": "in which the information and the address are simultaneously transmitted"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 4/00",
+      "title": {
+        "ko": "시분할 다중화 시스템과 주파수분할 다중화 시스템과의 조합(H04J 13/00이 우선)",
+        "en": "Combined time-division and frequency-division multiplex systems (H04J0013000000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04J 7/00",
+      "title": {
+        "ko": null,
+        "en": "Multiplex systems in which the amplitudes or durations of the signals in individual channels are characteristic of those channels"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 7/02",
+          "title": {
+            "ko": null,
+            "en": "in which the polarity of the amplitude is characteristic"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 9/00",
+      "title": {
+        "ko": null,
+        "en": "Multiplex systems in which each channel is represented by a different type of modulation of the carrier"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04J 11/00",
+      "title": {
+        "ko": "직교다중화 시스템(H04J 13/00이 우선)",
+        "en": "Orthogonal multiplex systems (H04J0013000000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04J 13/00",
+      "title": {
+        "ko": "코드 분할 다중 시스템 (주파수 호핑을 위한 것 H04B 1/713)",
+        "en": "Code division multiplex systems (for frequency hopping H04B0001713000)"
+      },
+      "definition": {
+        "ko": "이 그룹을 분류할 때, 확산 스펙트럼 기술이 주파수 호핑에 특정되지 않고, 탐색에 대한 관심 정보를 표현하는 것으로 간주되는 것은, H04B 1/69 그룹으로도 분류될 수 있다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H04J 13/10",
+          "title": {
+            "ko": null,
+            "en": "Code generation"
+          }
+        },
+        {
+          "code": "H04J 13/12",
+          "title": {
+            "ko": null,
+            "en": "Generation of orthogonal codes"
+          }
+        },
+        {
+          "code": "H04J 13/14",
+          "title": {
+            "ko": null,
+            "en": "Generation of codes with a zero correlation zone"
+          }
+        },
+        {
+          "code": "H04J 13/16",
+          "title": {
+            "ko": null,
+            "en": "Code allocation"
+          }
+        },
+        {
+          "code": "H04J 13/18",
+          "title": {
+            "ko": null,
+            "en": "Allocation of orthogonal codes"
+          }
+        },
+        {
+          "code": "H04J 13/20",
+          "title": {
+            "ko": null,
+            "en": "having an orthogonal variable spreading factor [OVSF]"
+          }
+        },
+        {
+          "code": "H04J 13/22",
+          "title": {
+            "ko": null,
+            "en": "Allocation of codes with a zero correlation zone"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 14/00",
+      "title": {
+        "ko": null,
+        "en": "Optical multiplex systems"
+      },
+      "subgroups": [
+        {
+          "code": "H04J 14/02",
+          "title": {
+            "ko": null,
+            "en": "Wavelength-division multiplex systems"
+          }
+        },
+        {
+          "code": "H04J 14/04",
+          "title": {
+            "ko": null,
+            "en": "Mode multiplex systems"
+          }
+        },
+        {
+          "code": "H04J 14/06",
+          "title": {
+            "ko": null,
+            "en": "Polarisation multiplex systems"
+          }
+        },
+        {
+          "code": "H04J 14/08",
+          "title": {
+            "ko": null,
+            "en": "Time-division multiplex systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04J 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

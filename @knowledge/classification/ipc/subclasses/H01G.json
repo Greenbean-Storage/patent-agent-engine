@@ -1,0 +1,1111 @@
+{
+  "subclass": "H01G",
+  "title": {
+    "ko": "캐패시터; 전해형 캐패시터, 정류기, 검출기, 스위칭 장치, 광 감응 또는 온도 감응 장치 (유전체로서 특정 재료의 선택 H01B3/00; 전위 장벽이 있는 캐패시터 H10D1/62, H10K10/10)",
+    "en": "CAPACITORS; CAPACITORS, RECTIFIERS, DETECTORS, SWITCHING DEVICES, LIGHT-SENSITIVE OR TEMPERATURE-SENSITIVE DEVICES OF THE ELECTROLYTIC TYPE  (selection of specified materials as dielectric H01B0003000000; capacitors having potential barriers H10D0001620000, H10K0010100000)"
+  },
+  "definition": {
+    "ko": "콘덴서 고정 콘덴서 H01G4/00 가변 콘덴서: 기계적 수단에 의한 것; 비 기계적 수단에 의한 것 H01G5/00; H01G7/00 하이브리드 H01G11/00 세부 H01G2/00 전해장치 H01G9/00 구조적인 조합 H01G15/00, H01G17/00 제조 H01G4/00, H01G5/00, H01G7/00, H01G9/00, H01G13/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H01G 2/00",
+      "title": {
+        "ko": "그룹 H01G 4/00에서 H01G 11/00 중의 단 하나에 의해 적용될 수 없는 콘덴서의 세부",
+        "en": "Details of capacitors not covered by a single one of groups H01G0004000000-H01G0011000000"
+      },
+      "subgroups": [
+        {
+          "code": "H01G 2/02",
+          "title": {
+            "ko": null,
+            "en": "Mountings"
+          }
+        },
+        {
+          "code": "H01G 2/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for mounting on a chassis"
+          }
+        },
+        {
+          "code": "H01G 2/06",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for mounting on a printed-circuit support"
+          }
+        },
+        {
+          "code": "H01G 2/08",
+          "title": {
+            "ko": null,
+            "en": "Cooling arrangements; Heating arrangements; Ventilating arrangements"
+          }
+        },
+        {
+          "code": "H01G 2/10",
+          "title": {
+            "ko": null,
+            "en": "Housing; Encapsulation"
+          }
+        },
+        {
+          "code": "H01G 2/12",
+          "title": {
+            "ko": "부식에 대한 보호(H01G 2/10이 우선)",
+            "en": "Protection against corrosion (H01G0002100000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 2/14",
+          "title": {
+            "ko": "전기적 또는 열적 과부하에 대한 보호(냉각에 의한 것 H01G 2/08)",
+            "en": "Protection against electric or thermal overload (by cooling H01G0002080000)"
+          }
+        },
+        {
+          "code": "H01G 2/16",
+          "title": {
+            "ko": null,
+            "en": "with fusing elements"
+          }
+        },
+        {
+          "code": "H01G 2/18",
+          "title": {
+            "ko": null,
+            "en": "with breakable contacts"
+          }
+        },
+        {
+          "code": "H01G 2/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing discharge from edges of electrodes"
+          }
+        },
+        {
+          "code": "H01G 2/22",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic or magnetic shielding"
+          }
+        },
+        {
+          "code": "H01G 2/24",
+          "title": {
+            "ko": null,
+            "en": "Distinguishing marks, e.g. colour coding"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01G 4/00",
+      "title": {
+        "ko": "고정 캐패시터; 그 제조방법 (전해 캐패시터 H01G9/00)",
+        "en": "Fixed capacitors; Processes of their manufacture (electrolytic capacitors H01G0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01G 4/002",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01G 4/005",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "H01G 4/008",
+          "title": {
+            "ko": null,
+            "en": "Selection of materials"
+          }
+        },
+        {
+          "code": "H01G 4/01",
+          "title": {
+            "ko": null,
+            "en": "Form of self-supporting electrodes"
+          }
+        },
+        {
+          "code": "H01G 4/012",
+          "title": {
+            "ko": null,
+            "en": "Form of non-self-supporting electrodes"
+          }
+        },
+        {
+          "code": "H01G 4/015",
+          "title": {
+            "ko": null,
+            "en": "Special provisions for self-healing"
+          }
+        },
+        {
+          "code": "H01G 4/018",
+          "title": {
+            "ko": "유전체",
+            "en": "Dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/02",
+          "title": {
+            "ko": null,
+            "en": "Gas or vapour dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/04",
+          "title": {
+            "ko": null,
+            "en": "Liquid dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/06",
+          "title": {
+            "ko": "고체유전체",
+            "en": "Solid dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/08",
+          "title": {
+            "ko": null,
+            "en": "Inorganic dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/10",
+          "title": {
+            "ko": null,
+            "en": "Metal-oxide dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/12",
+          "title": {
+            "ko": null,
+            "en": "Ceramic dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/14",
+          "title": {
+            "ko": "유기유전체",
+            "en": "Organic dielectrics"
+          }
+        },
+        {
+          "code": "H01G 4/16",
+          "title": {
+            "ko": null,
+            "en": "of fibrous material, e.g. paper"
+          }
+        },
+        {
+          "code": "H01G 4/18",
+          "title": {
+            "ko": "합성물질에 의한 것 예. 섬유소의 파생물(H01G 4/16이 우선)",
+            "en": "of synthetic material, e.g. derivatives of cellulose (H01G0004160000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 4/20",
+          "title": {
+            "ko": "그룹 H01G 4/02- H01G 4/06사이의 하나 이상의 그룹 유전체의 조합을 이용하는 것 (H01G 4/12가 우선)",
+            "en": "using combinations of dielectrics from more than one of groups H01G0004020000-H01G0004060000 (H01G0004120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 4/22",
+          "title": {
+            "ko": null,
+            "en": "impregnated"
+          }
+        },
+        {
+          "code": "H01G 4/224",
+          "title": {
+            "ko": null,
+            "en": "Housing; Encapsulation"
+          }
+        },
+        {
+          "code": "H01G 4/228",
+          "title": {
+            "ko": "단자",
+            "en": "Terminals"
+          }
+        },
+        {
+          "code": "H01G 4/232",
+          "title": {
+            "ko": null,
+            "en": "electrically connecting two or more layers of a stacked or rolled capacitor"
+          }
+        },
+        {
+          "code": "H01G 4/236",
+          "title": {
+            "ko": null,
+            "en": "leading through the housing, i.e. lead-through"
+          }
+        },
+        {
+          "code": "H01G 4/242",
+          "title": {
+            "ko": null,
+            "en": "the capacitive element surrounding the terminal"
+          }
+        },
+        {
+          "code": "H01G 4/245",
+          "title": {
+            "ko": null,
+            "en": "Tabs between the layers of a rolled electrode"
+          }
+        },
+        {
+          "code": "H01G 4/248",
+          "title": {
+            "ko": "콘덴서 부품을 포함하거나 에워싸는 단자, 예. 캡(H01G 4/252가 우선)",
+            "en": "the terminals embracing or surrounding the capacitive element, e.g. caps (H01G0004252000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 4/252",
+          "title": {
+            "ko": "콘덴서 부품에 코팅되는 단자(H01G 4/232가 우선)",
+            "en": "the terminals being coated on the capacitive element (H01G0004232000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 4/255",
+          "title": {
+            "ko": null,
+            "en": "Means for correcting the capacitance value"
+          }
+        },
+        {
+          "code": "H01G 4/258",
+          "title": {
+            "ko": null,
+            "en": "Temperature compensation means"
+          }
+        },
+        {
+          "code": "H01G 4/26",
+          "title": {
+            "ko": null,
+            "en": "Folded capacitors"
+          }
+        },
+        {
+          "code": "H01G 4/28",
+          "title": {
+            "ko": null,
+            "en": "Tubular capacitors"
+          }
+        },
+        {
+          "code": "H01G 4/30",
+          "title": {
+            "ko": "적층형 콘덴서(H01G 4/33가 우선)",
+            "en": "Stacked capacitors (H01G0004330000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 4/32",
+          "title": {
+            "ko": null,
+            "en": "Wound capacitors"
+          }
+        },
+        {
+          "code": "H01G 4/33",
+          "title": {
+            "ko": null,
+            "en": "Thin- or thick-film capacitors"
+          }
+        },
+        {
+          "code": "H01G 4/35",
+          "title": {
+            "ko": null,
+            "en": "Feed-through capacitors or anti-noise capacitors"
+          }
+        },
+        {
+          "code": "H01G 4/38",
+          "title": {
+            "ko": null,
+            "en": "Multiple capacitors, i.e. structural combinations of fixed capacitors"
+          }
+        },
+        {
+          "code": "H01G 4/40",
+          "title": {
+            "ko": null,
+            "en": "Structural combinations of fixed capacitors with other electric elements not covered by this subclass, the structure mainly consisting of a capacitor, e.g. RC combinations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01G 5/00",
+      "title": {
+        "ko": null,
+        "en": "Capacitors in which the capacitance is varied by mechanical means, e.g. by turning a shaft; Processes of their manufacture"
+      },
+      "subgroups": [
+        {
+          "code": "H01G 5/01",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01G 5/011",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "H01G 5/012",
+          "title": {
+            "ko": null,
+            "en": "at least one of the electrodes being a displaceable liquid or powder"
+          }
+        },
+        {
+          "code": "H01G 5/013",
+          "title": {
+            "ko": null,
+            "en": "Dielectrics"
+          }
+        },
+        {
+          "code": "H01G 5/014",
+          "title": {
+            "ko": null,
+            "en": "Housing; Encapsulation"
+          }
+        },
+        {
+          "code": "H01G 5/015",
+          "title": {
+            "ko": null,
+            "en": "Current collectors"
+          }
+        },
+        {
+          "code": "H01G 5/017",
+          "title": {
+            "ko": null,
+            "en": "Temperature compensation"
+          }
+        },
+        {
+          "code": "H01G 5/019",
+          "title": {
+            "ko": null,
+            "en": "Means for correcting the capacitance characteristics"
+          }
+        },
+        {
+          "code": "H01G 5/04",
+          "title": {
+            "ko": null,
+            "en": "using variation of effective area of electrode"
+          }
+        },
+        {
+          "code": "H01G 5/06",
+          "title": {
+            "ko": null,
+            "en": "due to rotation of flat or substantially flat electrodes"
+          }
+        },
+        {
+          "code": "H01G 5/08",
+          "title": {
+            "ko": null,
+            "en": "becoming active in succession"
+          }
+        },
+        {
+          "code": "H01G 5/10",
+          "title": {
+            "ko": null,
+            "en": "due to rotation of helical electrodes"
+          }
+        },
+        {
+          "code": "H01G 5/12",
+          "title": {
+            "ko": null,
+            "en": "due to rotation of part-cylindrical, conical, or spherical electrodes"
+          }
+        },
+        {
+          "code": "H01G 5/14",
+          "title": {
+            "ko": null,
+            "en": "due to longitudinal movement of electrodes"
+          }
+        },
+        {
+          "code": "H01G 5/16",
+          "title": {
+            "ko": null,
+            "en": "using variation of distance between electrodes"
+          }
+        },
+        {
+          "code": "H01G 5/18",
+          "title": {
+            "ko": null,
+            "en": "due to change in inclination, e.g. by flexing, by spiral wrapping"
+          }
+        },
+        {
+          "code": "H01G 5/38",
+          "title": {
+            "ko": null,
+            "en": "Multiple capacitors, e.g. ganged"
+          }
+        },
+        {
+          "code": "H01G 5/40",
+          "title": {
+            "ko": null,
+            "en": "Structural combinations of variable capacitors with other electric elements not covered by this subclass, the structure mainly consisting of a capacitor, e.g. RC combinations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01G 7/00",
+      "title": {
+        "ko": "비기계적 수단에 의해서 용량을 변화시키는 콘덴서; 그의 제조 방법",
+        "en": "Capacitors in which the capacitance is varied by non-mechanical means; Processes of their manufacture"
+      },
+      "subgroups": [
+        {
+          "code": "H01G 7/02",
+          "title": {
+            "ko": null,
+            "en": "Electrets, i.e. having a permanently-polarised dielectric"
+          }
+        },
+        {
+          "code": "H01G 7/04",
+          "title": {
+            "ko": null,
+            "en": "having a dielectric selected for the variation of its permitivity with applied temperature"
+          }
+        },
+        {
+          "code": "H01G 7/06",
+          "title": {
+            "ko": "주어진 전압에 따라서 유전율이 변화하도록 선택된 유전체가 있는 것, 즉 강유전성 콘덴서(일렉트릿 H01G 7/02)",
+            "en": "having a dielectric selected for the variation of its permitivity with applied voltage, i.e. ferroelectric capacitors (electrets H01G0007020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01G 9/00",
+      "title": {
+        "ko": "전해콘덴서, 정류기, 검파기, 개폐장치, 감광장치 또는 온도감응소자; 그 제조방법",
+        "en": "Electrolytic capacitors, rectifiers, detectors, switching devices, light-sensitive or temperature-sensitive devices; Processes of their manufacture"
+      },
+      "subgroups": [
+        {
+          "code": "H01G 9/004",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01G 9/008",
+          "title": {
+            "ko": null,
+            "en": "Terminals"
+          }
+        },
+        {
+          "code": "H01G 9/012",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for solid capacitors"
+          }
+        },
+        {
+          "code": "H01G 9/02",
+          "title": {
+            "ko": null,
+            "en": "Diaphragms; Separators"
+          }
+        },
+        {
+          "code": "H01G 9/022",
+          "title": {
+            "ko": "전해질; 흡수물질",
+            "en": "Electrolytes; Absorbents"
+          }
+        },
+        {
+          "code": "H01G 9/025",
+          "title": {
+            "ko": "고체전해질(H01G 11/54 우선)",
+            "en": "Solid electrolytes (H01G0011540000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 9/028",
+          "title": {
+            "ko": null,
+            "en": "Organic semiconducting electrolytes, e.g. TCNQ"
+          }
+        },
+        {
+          "code": "H01G 9/032",
+          "title": {
+            "ko": null,
+            "en": "Inorganic semiconducting electrolytes, e.g. MnO2"
+          }
+        },
+        {
+          "code": "H01G 9/035",
+          "title": {
+            "ko": "액체전해질, 예. 투침물질(H01G 11/54 우선)",
+            "en": "Liquid electrolytes, e.g. impregnating materials (H01G0011540000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 9/04",
+          "title": {
+            "ko": "전극",
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "H01G 9/042",
+          "title": {
+            "ko": "재료에 특징이 있는 것(H01G 11/22 우선)",
+            "en": "characterised by the material (H01G0011220000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 9/045",
+          "title": {
+            "ko": null,
+            "en": "based on aluminium"
+          }
+        },
+        {
+          "code": "H01G 9/048",
+          "title": {
+            "ko": "구조에 특징이 있는 것(H01G 11/22 우선)",
+            "en": "characterised by their structure (H01G0011220000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 9/052",
+          "title": {
+            "ko": null,
+            "en": "Sintered electrodes"
+          }
+        },
+        {
+          "code": "H01G 9/055",
+          "title": {
+            "ko": null,
+            "en": "Etched foil electrodes"
+          }
+        },
+        {
+          "code": "H01G 9/06",
+          "title": {
+            "ko": null,
+            "en": "Mounting in containers"
+          }
+        },
+        {
+          "code": "H01G 9/07",
+          "title": {
+            "ko": null,
+            "en": "Dielectric layers"
+          }
+        },
+        {
+          "code": "H01G 9/08",
+          "title": {
+            "ko": null,
+            "en": "Housing; Encapsulation"
+          }
+        },
+        {
+          "code": "H01G 9/10",
+          "title": {
+            "ko": null,
+            "en": "Sealing, e.g. of lead-in wires"
+          }
+        },
+        {
+          "code": "H01G 9/12",
+          "title": {
+            "ko": null,
+            "en": "Vents or other means allowing expansion"
+          }
+        },
+        {
+          "code": "H01G 9/14",
+          "title": {
+            "ko": null,
+            "en": "Structural combinations for modifying, or compensating for, electric characteristics of electrolytic capacitors"
+          }
+        },
+        {
+          "code": "H01G 9/145",
+          "title": {
+            "ko": "액체전해콘덴서(H01G 11/00 우선)",
+            "en": "Liquid electrolytic capacitors (H01G0011000000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 9/15",
+          "title": {
+            "ko": "고체 전해 콘덴서(H01G 11/00우선)",
+            "en": "Solid electrolytic capacitors (H01G0011000000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 9/16",
+          "title": {
+            "ko": "정류기 또는 검파기로서 사용하기 위한 특별한 구조(H01G 9/22가 우선)",
+            "en": "specially adapted for use as rectifiers or detectors (H01G0009220000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01G 9/18",
+          "title": {
+            "ko": null,
+            "en": "Self-interrupters"
+          }
+        },
+        {
+          "code": "H01G 9/20",
+          "title": {
+            "ko": null,
+            "en": "Light-sensitive devices"
+          }
+        },
+        {
+          "code": "H01G 9/21",
+          "title": {
+            "ko": null,
+            "en": "Temperature-sensitive devices"
+          }
+        },
+        {
+          "code": "H01G 9/22",
+          "title": {
+            "ko": null,
+            "en": "Devices using combined reduction and oxidation, e.g. redox arrangement or solion"
+          }
+        },
+        {
+          "code": "H01G 9/26",
+          "title": {
+            "ko": null,
+            "en": "Structural combinations of electrolytic capacitors, rectifiers, detectors, switching devices, light-sensitive or temperature-sensitive devices with each other"
+          }
+        },
+        {
+          "code": "H01G 9/28",
+          "title": {
+            "ko": null,
+            "en": "Structural combinations of electrolytic capacitors, rectifiers, detectors, switching devices with other electric components not covered by this subclass"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01G 11/00",
+      "title": {
+        "ko": "하이브리드 커페시터, 즉. 다른 양성과 음성 전극을 가지는 커페시터; 전기 이중층(double-layer) [EDL] 커페시터; 그 제조 또는 그 부품을 위한 처리",
+        "en": "Hybrid capacitors, i.e. capacitors having different positive and negative electrodes; Electric double-layer [EDL] capacitors; Processes for the manufacture thereof or of parts thereof"
+      },
+      "definition": {
+        "ko": "그룹 H01G 11/02가 그룹 H01G 11/04에서 H01G 11/14보다 우선한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H01G 11/02",
+          "title": {
+            "ko": null,
+            "en": "using combined reduction-oxidation reactions, e.g. redox arrangement or solion"
+          }
+        },
+        {
+          "code": "H01G 11/04",
+          "title": {
+            "ko": null,
+            "en": "Hybrid capacitors"
+          }
+        },
+        {
+          "code": "H01G 11/06",
+          "title": {
+            "ko": null,
+            "en": "with one of the electrodes allowing ions to be reversibly doped thereinto, e.g. lithium ion capacitors [LIC]"
+          }
+        },
+        {
+          "code": "H01G 11/08",
+          "title": {
+            "ko": null,
+            "en": "Structural combinations, e.g. assembly or connection, of hybrid or EDL capacitors with other electric components, at least one hybrid or EDL capacitor being the main component"
+          }
+        },
+        {
+          "code": "H01G 11/10",
+          "title": {
+            "ko": "다중 하이브리드 또는 EDL 커패시터, 예. 어레이 또는 모듈(하우징, 케이스, 캡슐화 또는 그 장착(mountings) H01G11/78)",
+            "en": "Multiple hybrid or EDL capacitors, e.g. arrays or modules (housings, cases, encapsulations or mountings thereof H01G0011780000)"
+          }
+        },
+        {
+          "code": "H01G 11/12",
+          "title": {
+            "ko": null,
+            "en": "Stacked hybrid or EDL capacitors"
+          }
+        },
+        {
+          "code": "H01G 11/14",
+          "title": {
+            "ko": "하이브리드 또는 EDL 커페시터를 보호하거나 조절하기 위한 처리 또는 배치(커페시터에 특히 적합하거나 일반 동작 조건으로부터 예기치 않은 자동 스위칭에 효과가 있는 비상 보호 회로 H02H 7/16; 단절없이 과잉 전류 또는 전압을 제한하기 위한 비상 보호 회로 배열 H02H 9/00)",
+            "en": "Arrangements or processes for adjusting or protecting hybrid or EDL capacitors (emergency protective circuit arrangements specially adapted for capacitors, and effecting automatic switching in the event of an undesired change from normal working conditions H02H0007160000;emergency protective circuit arrangements for limiting excess current or voltages without disconnection H02H0009000000)"
+          }
+        },
+        {
+          "code": "H01G 11/16",
+          "title": {
+            "ko": null,
+            "en": "against electric overloads, e.g. including fuses"
+          }
+        },
+        {
+          "code": "H01G 11/18",
+          "title": {
+            "ko": null,
+            "en": "against thermal overloads, e.g. heating, cooling or ventilating"
+          }
+        },
+        {
+          "code": "H01G 11/20",
+          "title": {
+            "ko": null,
+            "en": "Reformation or processes for removal of impurities, e.g. scavenging"
+          }
+        },
+        {
+          "code": "H01G 11/22",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "H01G 11/24",
+          "title": {
+            "ko": null,
+            "en": "characterised by structural features of the materials making up or comprised in the electrodes, e.g. form, surface area or porosity; characterised by the structural features of powders or particles used therefor"
+          }
+        },
+        {
+          "code": "H01G 11/26",
+          "title": {
+            "ko": null,
+            "en": "characterised by their structure, e.g. multi-layered, porosity or surface features"
+          }
+        },
+        {
+          "code": "H01G 11/28",
+          "title": {
+            "ko": null,
+            "en": "arranged or disposed on a current collector; Layers or phases between electrodes and current collectors, e.g. adhesives"
+          }
+        },
+        {
+          "code": "H01G 11/30",
+          "title": {
+            "ko": null,
+            "en": "characterised by their material"
+          }
+        },
+        {
+          "code": "H01G 11/32",
+          "title": {
+            "ko": null,
+            "en": "Carbon-based"
+          }
+        },
+        {
+          "code": "H01G 11/34",
+          "title": {
+            "ko": null,
+            "en": "characterised by carbonisation or activation of carbon"
+          }
+        },
+        {
+          "code": "H01G 11/36",
+          "title": {
+            "ko": null,
+            "en": "Nanostructures, e.g. nanofibres, nanotubes or fullerenes"
+          }
+        },
+        {
+          "code": "H01G 11/38",
+          "title": {
+            "ko": null,
+            "en": "Carbon pastes or blends; Binders or additives therein"
+          }
+        },
+        {
+          "code": "H01G 11/40",
+          "title": {
+            "ko": null,
+            "en": "Fibres"
+          }
+        },
+        {
+          "code": "H01G 11/42",
+          "title": {
+            "ko": null,
+            "en": "Powders or particles, e.g. composition thereof"
+          }
+        },
+        {
+          "code": "H01G 11/44",
+          "title": {
+            "ko": null,
+            "en": "Raw materials therefor, e.g. resins or coal"
+          }
+        },
+        {
+          "code": "H01G 11/46",
+          "title": {
+            "ko": null,
+            "en": "Metal oxides"
+          }
+        },
+        {
+          "code": "H01G 11/48",
+          "title": {
+            "ko": null,
+            "en": "Conductive polymers"
+          }
+        },
+        {
+          "code": "H01G 11/50",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for lithium-ion capacitors, e.g. for lithium-doping or for intercalation"
+          }
+        },
+        {
+          "code": "H01G 11/52",
+          "title": {
+            "ko": null,
+            "en": "Separators"
+          }
+        },
+        {
+          "code": "H01G 11/54",
+          "title": {
+            "ko": null,
+            "en": "Electrolytes"
+          }
+        },
+        {
+          "code": "H01G 11/56",
+          "title": {
+            "ko": null,
+            "en": "Solid electrolytes, e.g. gels; Additives therein"
+          }
+        },
+        {
+          "code": "H01G 11/58",
+          "title": {
+            "ko": null,
+            "en": "Liquid electrolytes"
+          }
+        },
+        {
+          "code": "H01G 11/60",
+          "title": {
+            "ko": null,
+            "en": "characterised by the solvent"
+          }
+        },
+        {
+          "code": "H01G 11/62",
+          "title": {
+            "ko": null,
+            "en": "characterised by the solute, e.g. salts, anions or cations therein"
+          }
+        },
+        {
+          "code": "H01G 11/64",
+          "title": {
+            "ko": null,
+            "en": "characterised by additives"
+          }
+        },
+        {
+          "code": "H01G 11/66",
+          "title": {
+            "ko": null,
+            "en": "Current collectors"
+          }
+        },
+        {
+          "code": "H01G 11/68",
+          "title": {
+            "ko": null,
+            "en": "characterised by their material"
+          }
+        },
+        {
+          "code": "H01G 11/70",
+          "title": {
+            "ko": null,
+            "en": "characterised by their structure"
+          }
+        },
+        {
+          "code": "H01G 11/72",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for integration in multiple or stacked hybrid or EDL capacitors"
+          }
+        },
+        {
+          "code": "H01G 11/74",
+          "title": {
+            "ko": null,
+            "en": "Terminals, e.g. extensions of current collectors"
+          }
+        },
+        {
+          "code": "H01G 11/76",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for integration in multiple or stacked hybrid or EDL capacitors"
+          }
+        },
+        {
+          "code": "H01G 11/78",
+          "title": {
+            "ko": null,
+            "en": "Cases; Housings; Encapsulations; Mountings"
+          }
+        },
+        {
+          "code": "H01G 11/80",
+          "title": {
+            "ko": null,
+            "en": "Gaskets; Sealings"
+          }
+        },
+        {
+          "code": "H01G 11/82",
+          "title": {
+            "ko": null,
+            "en": "Fixing or assembling a capacitive element in a housing, e.g. mounting electrodes, current collectors or terminals in containers or encapsulations"
+          }
+        },
+        {
+          "code": "H01G 11/84",
+          "title": {
+            "ko": "하이브리드 또는 EDL 커페시터 또는 그 요소의 제조를 위한 방법",
+            "en": "Processes for the manufacture of hybrid or EDL capacitors, or components thereof"
+          }
+        },
+        {
+          "code": "H01G 11/86",
+          "title": {
+            "ko": "특히 전극에 적합한 것(전극의 제조를 위한 탄화 또는 탄소의 활성화 H01G 11/34)",
+            "en": "specially adapted for electrodes (carbonisation or activation of carbon for the manufacture of electrodes H01G0011340000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01G 13/00",
+      "title": {
+        "ko": "콘덴서의 제조에 특히 적합한 장치; 그룹 H01G 4/00에서 H01G 11/00으로 분류되지 않는 콘덴서의 제조에 특히 적합한 방법",
+        "en": "Apparatus specially adapted for manufacturing capacitors; Processes specially adapted for manufacturing capacitors not provided for in groups H01G0004000000-H01G0011000000"
+      },
+      "subgroups": [
+        {
+          "code": "H01G 13/02",
+          "title": {
+            "ko": null,
+            "en": "Machines for winding capacitors"
+          }
+        },
+        {
+          "code": "H01G 13/04",
+          "title": {
+            "ko": null,
+            "en": "Drying; Impregnating"
+          }
+        },
+        {
+          "code": "H01G 13/06",
+          "title": {
+            "ko": null,
+            "en": "with provision for removing metal surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01G 15/00",
+      "title": {
+        "ko": "콘덴서의 구조적인 조합 또는 이 서브클래스에 속하는 적어도 둘 이상의 메인그룹에 의하여 다루어지는 기타 소자의 구조적인 조합(주요 구성요소로서 적어도 하나의 하이브리드 또는 전기 이중층[EDL] 커페시터에 관련하는 것 H01G 11/08)",
+        "en": "Structural combinations of capacitors or other devices covered by at least two different main groups of this subclass with each other (involving at least one hybrid or electric double-layer [EDL] capacitor as the main component H01G0011080000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01G 17/00",
+      "title": {
+        "ko": null,
+        "en": "Structural combinations of capacitors or other devices covered by at least two different main groups of this subclass with other electric elements, not covered by this subclass, e.g. RC combinations"
+      },
+      "subgroups": []
+    }
+  ]
+}

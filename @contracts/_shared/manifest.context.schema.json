@@ -1,0 +1,66 @@
+{
+  "title": "ContextManifest",
+  "description": "Invention context manifest. sessions/{user_id}/{work_id}/manifest.context.yaml 에 YAML로 저장. 발명 1 건의 정체성·상태·lifecycle 을 한 파일에 모음. director(02) writer. (rename ← session-manifest.schema.json; 파일명 manifest.session.yaml → manifest.context.yaml)",
+  "type": "object",
+  "required": [
+    "user_id",
+    "work_id",
+    "session_id",
+    "status",
+    "current_phase",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "work_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "session_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "in_progress",
+        "reviewing",
+        "complete",
+        "filed"
+      ],
+      "description": "draft: 초기 입력 단계 / in_progress: 대화 진행 중 / reviewing: 검토 중 / complete: 출원 준비 완료 / filed: 출원 완료"
+    },
+    "current_phase": {
+      "type": "string",
+      "enum": [
+        "idle",
+        "discovery",
+        "conversation",
+        "specification",
+        "research",
+        "evaluation",
+        "document",
+        "complete"
+      ],
+      "description": "현재 진행 단계"
+    },
+    "language": {
+      "type": "string",
+      "default": "ko",
+      "description": "이 세션의 주 언어 코드"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

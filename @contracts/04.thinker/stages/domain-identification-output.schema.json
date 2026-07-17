@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "primary_domain": {
+      "type": "string"
+    },
+    "sub_domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "governing_principles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "applicable_standards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ipc_range": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "known_patent_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fusion_analysis": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "primary_domain",
+    "sub_domains",
+    "governing_principles",
+    "applicable_standards",
+    "ipc_range",
+    "known_patent_issues",
+    "fusion_analysis"
+  ]
+}

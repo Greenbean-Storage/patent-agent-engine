@@ -1,0 +1,2864 @@
+{
+  "subclass": "F41A",
+  "title": {
+    "ko": "소화기와 대포 등의 화기에 공통되는 기능적 특징 또는 세부; 소화기 또는 대포용 총포가(mountings)",
+    "en": "FUNCTIONAL FEATURES OR DETAILS COMMON TO BOTH SMALLARMS AND ORDNANCE, e.g. CANNONS; MOUNTINGS FOR SMALLARMS OR ORDNANCE"
+  },
+  "definition": {
+    "ko": "추진의 형식 F41A1/00 브리취(총개머리, 포미) 기구 F41A3/00 잠금해제기구 F41A5/00 총의 재장전, 외부에 동력을 구비한 총 F41A7/00 공급 또는 장전, 탄창 F41A9/00 조립 특성, 모듈러개념, 연결식 또는 접철식(ARTICUIATED OR COLLAPSIBLE) 총 F41A11/00 냉각, 가열, 환기, 블로잉 F41A13/00 익스트랙터(EXTRACTORS), 이젝터 F41A15/00 안전장치 F41A17/00 발사 또는 방아쇠 기구, 공이치기(COCKING) F41A19/00 총포신, 총포신 내통, 총포구 취부구 F41A21/00 총포가(GUN MOUNTINGS), 예. 차량에 대한 것 F41A23/00 반동이 있는 것 F41A25/00 승강 또는 선회하는 것 F41A27/00 청소 또는 윤활 F41A29/00 시험 F41A31/00 훈련에 대한 적용 F41A33/00 기타 부속구 또는 세부 F41A35/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제 사항 F41A99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F41A 1/00",
+      "title": {
+        "ko": "폭발성 또는 연소성 추진장약의 사용에 특징이 있는 미사일의 추진(폭발성 또는 연소성 추진장약을 사용하지 않는 미사일의 투사 F41B; 로켓 또는 어뢰의 발사 F41F 3/00, 자기 추진(Selfpropluson)",
+        "en": "Missile propulsion characterised by the use of explosive or combustible propellant charges (projecting missiles without use of explosive or combustible propellant charge F41B;launching rockets or torpedoes F41F0003000000;missile self-propulsion F42B0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 1/02",
+          "title": {
+            "ko": null,
+            "en": "Hypervelocity missile propulsion using successive means for increasing the propulsive force, e.g. using successively initiated propellant charges arranged along the barrel length; Multistage missile propulsion"
+          }
+        },
+        {
+          "code": "F41A 1/04",
+          "title": {
+            "ko": null,
+            "en": "Missile propulsion using the combustion of a liquid or gaseous fuel, e.g. hypergolic fuel"
+          }
+        },
+        {
+          "code": "F41A 1/06",
+          "title": {
+            "ko": null,
+            "en": "Adjusting the range without varying elevation angle or propellant charge data, e.g. by venting a part of the propulsive charge gases, or by adjusting the capacity of the cartridge or combustion chamber"
+          }
+        },
+        {
+          "code": "F41A 1/08",
+          "title": {
+            "ko": null,
+            "en": "Recoilless guns, i.e. guns having propulsion means producing no recoil"
+          }
+        },
+        {
+          "code": "F41A 1/10",
+          "title": {
+            "ko": null,
+            "en": "a counter projectile being used to balance recoil"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 3/00",
+      "title": {
+        "ko": "브리취(총개머리, 포미) 기구, 예. 폐쇄(locks)",
+        "en": "Breech mechanism, e.g. locks"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 3/02",
+          "title": {
+            "ko": "폐쇄식(block action), 예. 주(主)브리취의 개구운동이 총포신 축을 횡단하는 것",
+            "en": "Block action, i.e. the main breech opening movement being transverse to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 3/04",
+          "title": {
+            "ko": "브리취 블록(breech block)이 선회하는 것",
+            "en": "with pivoting breech-block"
+          }
+        },
+        {
+          "code": "F41A 3/06",
+          "title": {
+            "ko": "블록의 후방에서 총포신 축을 횡단하는 수평축에 관한 것(F41A 3/08이 우선)",
+            "en": "about a horizontal axis transverse to the barrel axis at the rear of the block (F41A0003080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 3/08",
+          "title": {
+            "ko": "회전하는 나사산 형태의 밀폐 플러그를 가진 것(F41A 3/30이 우선)",
+            "en": "carrying a rotably mounted obturating plug of the screw-thread or the interrupted-thread type (F41A0003300000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 3/10",
+          "title": {
+            "ko": null,
+            "en": "with sliding breech-block, e.g. vertically"
+          }
+        },
+        {
+          "code": "F41A 3/12",
+          "title": {
+            "ko": "노리쇠 작동(bolt action), 예. 주브리취 개구운동이 총포신 축에 수평인 것",
+            "en": "Bolt action, i.e. the main breech opening movement being parallel to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 3/14",
+          "title": {
+            "ko": null,
+            "en": "Rigid bolt locks, i.e. having locking elements rigidly mounted on the bolt or bolt handle and on the barrel or breech-housing respectively"
+          }
+        },
+        {
+          "code": "F41A 3/16",
+          "title": {
+            "ko": null,
+            "en": "the locking elements effecting a rotary movement about the barrel axis, e.g. rotating cylinder bolt locks"
+          }
+        },
+        {
+          "code": "F41A 3/18",
+          "title": {
+            "ko": null,
+            "en": "hand-operated"
+          }
+        },
+        {
+          "code": "F41A 3/20",
+          "title": {
+            "ko": null,
+            "en": "Straight-pull operated bolt locks, i.e. the operating hand effecting only a straight movement parallel to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 3/22",
+          "title": {
+            "ko": null,
+            "en": "the locking being effected by rotating the operating handle or lever transversely to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 3/24",
+          "title": {
+            "ko": null,
+            "en": "the locking elements forming part of the operating handle or lever"
+          }
+        },
+        {
+          "code": "F41A 3/26",
+          "title": {
+            "ko": null,
+            "en": "semi-automatically or automatically operated, e.g. having a slidable bolt-carrier and a rotatable bolt"
+          }
+        },
+        {
+          "code": "F41A 3/28",
+          "title": {
+            "ko": null,
+            "en": "having fixed locking elements on the non-rotating bolt and rotating locking elements mounted on the barrel or breech housing, e.g. rotatable rings"
+          }
+        },
+        {
+          "code": "F41A 3/30",
+          "title": {
+            "ko": null,
+            "en": "Interlocking means, e.g. locking lugs, screw threads"
+          }
+        },
+        {
+          "code": "F41A 3/32",
+          "title": {
+            "ko": null,
+            "en": "the bolt being rocked about a notional axis transverse to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 3/34",
+          "title": {
+            "ko": null,
+            "en": "the bolt additionally effecting a sliding movement transverse to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 3/36",
+          "title": {
+            "ko": "쎄미 레지드 볼트 폐쇄, 예. 노리쇠 또는 총포신 또는 브리취 하우징에 움직일 수 있게 부착된 폐쇄요소를 갖는 것",
+            "en": "Semi-rigid bolt locks, i.e. having locking elements movably mounted on the bolt or on the barrrel or breech housing"
+          }
+        },
+        {
+          "code": "F41A 3/38",
+          "title": {
+            "ko": "동요되는 폐쇄요소를 갖는 것, 예. 레버 또는 베인(Vane)을 회동하는 것",
+            "en": "having rocking locking elements, e.g. pivoting levers or vanes"
+          }
+        },
+        {
+          "code": "F41A 3/40",
+          "title": {
+            "ko": "노리쇠에 부착된 것(F41A 3/42가 우선)",
+            "en": "mounted on the bolt (F41A0003420000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 3/42",
+          "title": {
+            "ko": null,
+            "en": "hand-operated"
+          }
+        },
+        {
+          "code": "F41A 3/44",
+          "title": {
+            "ko": "미끄럼운동하는 폐쇄요소를 갖는 것, 예. 볼 롤러",
+            "en": "having sliding locking elements, e.g. balls, rollers"
+          }
+        },
+        {
+          "code": "F41A 3/46",
+          "title": {
+            "ko": "노리쇠에 부착된 것(F41A 3/48이 우선)",
+            "en": "mounted on the bolt (F41A0003480000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 3/48",
+          "title": {
+            "ko": null,
+            "en": "hand-operated"
+          }
+        },
+        {
+          "code": "F41A 3/50",
+          "title": {
+            "ko": null,
+            "en": "Toggle-joint locks, e.g. crank-operated"
+          }
+        },
+        {
+          "code": "F41A 3/52",
+          "title": {
+            "ko": null,
+            "en": "hand-operated"
+          }
+        },
+        {
+          "code": "F41A 3/54",
+          "title": {
+            "ko": null,
+            "en": "Bolt locks of the unlocked type, i.e. being inertia operated"
+          }
+        },
+        {
+          "code": "F41A 3/56",
+          "title": {
+            "ko": null,
+            "en": "the bolt being provided with an additional slidable mass"
+          }
+        },
+        {
+          "code": "F41A 3/58",
+          "title": {
+            "ko": null,
+            "en": "Breakdown breech mechanisms, e.g. for shotguns"
+          }
+        },
+        {
+          "code": "F41A 3/60",
+          "title": {
+            "ko": "둘 또는 그 이상의 총신을 갖는 총포용 브리취 기구(F41A 3/58이 우선; 회전대포용 F41F 1/10)",
+            "en": "Breech mechanisms for guns having two or more barrels (F41A0003580000 takes precedence;for revolving-cannon guns F41F0001100000)"
+          }
+        },
+        {
+          "code": "F41A 3/62",
+          "title": {
+            "ko": null,
+            "en": "using combustion gas pressure for adding to the mechanical locking action, or for delaying breech opening movement"
+          }
+        },
+        {
+          "code": "F41A 3/64",
+          "title": {
+            "ko": "브리취 폐쇄의 장착(mounting) 브리취 폐쇄 또는 브리취 폐쇄장착을 위한 부속구",
+            "en": "Mounting of breech-blocks; Accessories for breech-blocks or breech-block mountings"
+          }
+        },
+        {
+          "code": "F41A 3/66",
+          "title": {
+            "ko": null,
+            "en": "Breech housings or frames; Receivers"
+          }
+        },
+        {
+          "code": "F41A 3/68",
+          "title": {
+            "ko": null,
+            "en": "Bolt stops, i.e. means for limiting bolt opening movement"
+          }
+        },
+        {
+          "code": "F41A 3/70",
+          "title": {
+            "ko": null,
+            "en": "Anti-rebound arrangements, i.e. preventing rebound of the bolt out of the firing position"
+          }
+        },
+        {
+          "code": "F41A 3/72",
+          "title": {
+            "ko": null,
+            "en": "Operating handles or levers; Mounting thereof in breech-blocks or bolts"
+          }
+        },
+        {
+          "code": "F41A 3/74",
+          "title": {
+            "ko": null,
+            "en": "Obturating or packing devices for gas leak prevention in breech mechanisms"
+          }
+        },
+        {
+          "code": "F41A 3/76",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for sealing the gap between the forward end of the cartridge chamber and the rearward end of the barrel, e.g. sealing devices for revolvers or revolver-type guns"
+          }
+        },
+        {
+          "code": "F41A 3/78",
+          "title": {
+            "ko": "노리쇠 완충장치 또는 복좌기(複座機)",
+            "en": "Bolt buffer or recuperator means"
+          }
+        },
+        {
+          "code": "F41A 3/80",
+          "title": {
+            "ko": null,
+            "en": "Adjustable spring buffers"
+          }
+        },
+        {
+          "code": "F41A 3/82",
+          "title": {
+            "ko": "코일 스프링 완충장치(3/80이 우선)",
+            "en": "Coil spring buffers (F41A0003800000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 3/84",
+          "title": {
+            "ko": null,
+            "en": "mounted within the gun stock"
+          }
+        },
+        {
+          "code": "F41A 3/86",
+          "title": {
+            "ko": null,
+            "en": "mounted under the barrel"
+          }
+        },
+        {
+          "code": "F41A 3/88",
+          "title": {
+            "ko": null,
+            "en": "mounted around the barrel"
+          }
+        },
+        {
+          "code": "F41A 3/90",
+          "title": {
+            "ko": null,
+            "en": "Fluid buffers"
+          }
+        },
+        {
+          "code": "F41A 3/92",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 3/94",
+          "title": {
+            "ko": null,
+            "en": "in combination with spring buffers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 5/00",
+      "title": {
+        "ko": "자동으로 폐쇄를 개방시키기 위한 추진 장약 에너지에 의하여 작동되는 기계 또는 시스템",
+        "en": "Mechanisms or systems operated by propellant charge energy for automatically opening the lock"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 5/02",
+          "title": {
+            "ko": null,
+            "en": "recoil-operated"
+          }
+        },
+        {
+          "code": "F41A 5/04",
+          "title": {
+            "ko": null,
+            "en": "the barrel being tilted during recoil"
+          }
+        },
+        {
+          "code": "F41A 5/06",
+          "title": {
+            "ko": null,
+            "en": "the barrel being rotated about its longitudinal axis during recoil"
+          }
+        },
+        {
+          "code": "F41A 5/08",
+          "title": {
+            "ko": null,
+            "en": "having an accelerator lever acting on the breech-block or bolt during the opening movement"
+          }
+        },
+        {
+          "code": "F41A 5/10",
+          "title": {
+            "ko": null,
+            "en": "having a movable inertia weight"
+          }
+        },
+        {
+          "code": "F41A 5/12",
+          "title": {
+            "ko": null,
+            "en": "mounted in a gun having a fixed barrel"
+          }
+        },
+        {
+          "code": "F41A 5/14",
+          "title": {
+            "ko": null,
+            "en": "Barrel stops, i.e. devices for holding the recoiling barrel in a predetermined position, e.g. the recoil position"
+          }
+        },
+        {
+          "code": "F41A 5/16",
+          "title": {
+            "ko": null,
+            "en": "having a barrel moving forwardly after the firing of a shot"
+          }
+        },
+        {
+          "code": "F41A 5/18",
+          "title": {
+            "ko": "가스로 작동되는 것",
+            "en": "gas-operated"
+          }
+        },
+        {
+          "code": "F41A 5/20",
+          "title": {
+            "ko": null,
+            "en": "using a gas piston arranged concentrically around the barrel"
+          }
+        },
+        {
+          "code": "F41A 5/22",
+          "title": {
+            "ko": null,
+            "en": "having two or more gas pistons"
+          }
+        },
+        {
+          "code": "F41A 5/24",
+          "title": {
+            "ko": null,
+            "en": "by direct action of gas pressure on bolt or locking elements"
+          }
+        },
+        {
+          "code": "F41A 5/26",
+          "title": {
+            "ko": "총포신으로부터 가스를 유출시키기 위한 장치 또는 시스템(F41A 5/20에서 F41A 5/24까지가 우선)",
+            "en": "Arrangements or systems for bleeding the gas from the barrel (F41A0005200000-F41A0005240000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 5/28",
+          "title": {
+            "ko": null,
+            "en": "Adjustable systems"
+          }
+        },
+        {
+          "code": "F41A 5/30",
+          "title": {
+            "ko": null,
+            "en": "Gas- or recoil-operation, e.g. selection of gas- or recoil-operated systems"
+          }
+        },
+        {
+          "code": "F41A 5/32",
+          "title": {
+            "ko": null,
+            "en": "Energy accumulator systems, i.e. systems for opening the breech-block by energy accumulated during barrel or gas piston recoil"
+          }
+        },
+        {
+          "code": "F41A 5/34",
+          "title": {
+            "ko": null,
+            "en": "with spring accumulators"
+          }
+        },
+        {
+          "code": "F41A 5/36",
+          "title": {
+            "ko": null,
+            "en": "with fluid accumulators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 7/00",
+      "title": {
+        "ko": "자동발사 전에 브리취 블록 또는 노리쇠 또는 총신을 개시위치에 갖다 놓기 위한 보조기구; 외부에 동력을 구비한 총포의 구동기구; 원격제어형 총포 장전장치 (chargers)",
+        "en": "Auxiliary mechanisms for bringing the breech-block or bolt or the barrel to the starting position before automatic firing (operating handles or levers F41A0003000000); Drives for externally-powered guns (revolving-cannon guns F41F0001000000); Remote-controlled gun chargers"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 7/02",
+          "title": {
+            "ko": null,
+            "en": "Machine-gun rechargers, e.g. manually operated"
+          }
+        },
+        {
+          "code": "F41A 7/04",
+          "title": {
+            "ko": null,
+            "en": "fluid operated"
+          }
+        },
+        {
+          "code": "F41A 7/06",
+          "title": {
+            "ko": null,
+            "en": "electrically operated"
+          }
+        },
+        {
+          "code": "F41A 7/08",
+          "title": {
+            "ko": null,
+            "en": "Drives for externally-powered guns, i.e. drives for moving the breech-block or bolt by an external force during automatic firing"
+          }
+        },
+        {
+          "code": "F41A 7/10",
+          "title": {
+            "ko": null,
+            "en": "using a rotating cylindrical drum having a camming groove"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 9/00",
+      "title": {
+        "ko": "탄약의 공급 또는 장전(공기총에 있어서 탄창에서 미사일을 공급 또는 장전하기 위한 적용 F41B 11/02) 탄창; 카트리지 방출용 안내수단(익스트랙터 또는 이젝트 15/00)",
+        "en": "Feeding or loading of ammunition (adaptations for feeding or loading missiles from magazines in air guns F41B0011500000); Magazines; Guiding means for the extracting of cartridges (cartridge extractors or ejectors F41A0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 9/01",
+          "title": {
+            "ko": "탄대가 없는 탄약의 공급",
+            "en": "Feeding of unbelted ammunition"
+          }
+        },
+        {
+          "code": "F41A 9/02",
+          "title": {
+            "ko": null,
+            "en": "using wheel conveyors, e.g. star-wheel-shaped conveyors"
+          }
+        },
+        {
+          "code": "F41A 9/03",
+          "title": {
+            "ko": null,
+            "en": "using screw or rotary-spiral conveyors"
+          }
+        },
+        {
+          "code": "F41A 9/04",
+          "title": {
+            "ko": null,
+            "en": "using endless-chain belts carrying a plurality of ammunition"
+          }
+        },
+        {
+          "code": "F41A 9/05",
+          "title": {
+            "ko": null,
+            "en": "in tandem sequence"
+          }
+        },
+        {
+          "code": "F41A 9/06",
+          "title": {
+            "ko": "주기적으로 움직이는 콘베이어를 사용하는 것, 복귀행정 중에 탄약으로부터 없어지는 또는 분리되는 탄약추출기 또는 이송요소가 있는 콘베이어",
+            "en": "using cyclically moving conveyors, i.e. conveyors having ammunition pusher or carrier elements which are emptied or disengaged from the ammunition during the return stroke"
+          }
+        },
+        {
+          "code": "F41A 9/07",
+          "title": {
+            "ko": null,
+            "en": "Reciprocating conveyors, i.e. conveyors pushing a plurality of ammunition during the feeding stroke"
+          }
+        },
+        {
+          "code": "F41A 9/09",
+          "title": {
+            "ko": "이동할 수 있는 탄약송탄기 또는 공급트레이, 예. 탄창으로부터의 이송용",
+            "en": "Movable ammunition carriers or loading trays, e.g. for feeding from magazines"
+          }
+        },
+        {
+          "code": "F41A 9/10",
+          "title": {
+            "ko": null,
+            "en": "pivoting or swinging"
+          }
+        },
+        {
+          "code": "F41A 9/11",
+          "title": {
+            "ko": null,
+            "en": "in a horizontal plane"
+          }
+        },
+        {
+          "code": "F41A 9/12",
+          "title": {
+            "ko": null,
+            "en": "mounted within a smallarm"
+          }
+        },
+        {
+          "code": "F41A 9/13",
+          "title": {
+            "ko": null,
+            "en": "in a vertical plane"
+          }
+        },
+        {
+          "code": "F41A 9/14",
+          "title": {
+            "ko": null,
+            "en": "transverse to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 9/15",
+          "title": {
+            "ko": null,
+            "en": "mounted within a smallarm"
+          }
+        },
+        {
+          "code": "F41A 9/16",
+          "title": {
+            "ko": null,
+            "en": "parallel to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 9/17",
+          "title": {
+            "ko": null,
+            "en": "mounted within a smallarm"
+          }
+        },
+        {
+          "code": "F41A 9/18",
+          "title": {
+            "ko": null,
+            "en": "feeding from a magazine under the barrel"
+          }
+        },
+        {
+          "code": "F41A 9/19",
+          "title": {
+            "ko": null,
+            "en": "feeding from a magazine mounted in the stock"
+          }
+        },
+        {
+          "code": "F41A 9/20",
+          "title": {
+            "ko": "미끄럼 운동하는 것, 예. 왕복 운동하는 것",
+            "en": "sliding, e.g. reciprocating"
+          }
+        },
+        {
+          "code": "F41A 9/21",
+          "title": {
+            "ko": "수직방향 내에서(F41A 9/23이 우선)",
+            "en": "in a vertical direction (F41A0009230000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 9/22",
+          "title": {
+            "ko": "수평방향 내에서(F41A 9/23이 우선)",
+            "en": "in a horizontal direction (F41A0009230000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 9/23",
+          "title": {
+            "ko": null,
+            "en": "mounted within a smallarm"
+          }
+        },
+        {
+          "code": "F41A 9/24",
+          "title": {
+            "ko": "공급요소로서 이동가능한 탄창 또는 클립을 사용한 것",
+            "en": "using a movable magazine or clip as feeding element"
+          }
+        },
+        {
+          "code": "F41A 9/25",
+          "title": {
+            "ko": null,
+            "en": "using a sliding clip"
+          }
+        },
+        {
+          "code": "F41A 9/26",
+          "title": {
+            "ko": "회전하는 드럼형 탄창을 사용하는 것",
+            "en": "using a revolving drum magazine"
+          }
+        },
+        {
+          "code": "F41A 9/27",
+          "title": {
+            "ko": "리벌버형 총포에 있어서",
+            "en": "in revolver-type guns"
+          }
+        },
+        {
+          "code": "F41A 9/28",
+          "title": {
+            "ko": "소화기식의 것(리벌버에 있어서의 것 F41C 3/14)",
+            "en": "of smallarm type (in revolvers F41C0003140000)"
+          }
+        },
+        {
+          "code": "F41A 9/29",
+          "title": {
+            "ko": "벨트로 된 탄약의 공급",
+            "en": "Feeding of belted ammunition"
+          }
+        },
+        {
+          "code": "F41A 9/30",
+          "title": {
+            "ko": null,
+            "en": "Sprocket-type belt transporters"
+          }
+        },
+        {
+          "code": "F41A 9/31",
+          "title": {
+            "ko": null,
+            "en": "with cartridge stripping means"
+          }
+        },
+        {
+          "code": "F41A 9/32",
+          "title": {
+            "ko": null,
+            "en": "Reciprocating-slide-type belt transporters"
+          }
+        },
+        {
+          "code": "F41A 9/33",
+          "title": {
+            "ko": null,
+            "en": "with cartridge stripping means"
+          }
+        },
+        {
+          "code": "F41A 9/34",
+          "title": {
+            "ko": "탄창으로부터(벨트로 된 탄약을 위한 탄창 그 자체는 F41A 9/79 참조)",
+            "en": "from magazines (magazines for belted ammunition per seF41A0009790000)"
+          }
+        },
+        {
+          "code": "F41A 9/35",
+          "title": {
+            "ko": null,
+            "en": "Feeding multibarrel guns"
+          }
+        },
+        {
+          "code": "F41A 9/36",
+          "title": {
+            "ko": null,
+            "en": "Feed mechanisms for revolving-cannon guns"
+          }
+        },
+        {
+          "code": "F41A 9/37",
+          "title": {
+            "ko": null,
+            "en": "Feeding two or more kinds of ammunition to the same gun; Feeding from two sides"
+          }
+        },
+        {
+          "code": "F41A 9/38",
+          "title": {
+            "ko": null,
+            "en": "Loading arrangements, i.e. for bringing the ammunition into the firing position"
+          }
+        },
+        {
+          "code": "F41A 9/39",
+          "title": {
+            "ko": null,
+            "en": "Ramming arrangements"
+          }
+        },
+        {
+          "code": "F41A 9/40",
+          "title": {
+            "ko": null,
+            "en": "the breech-block itself being the rammer"
+          }
+        },
+        {
+          "code": "F41A 9/41",
+          "title": {
+            "ko": null,
+            "en": "pushing unbelted ammunition from a box magazine on the gun frame into the cartridge chamber"
+          }
+        },
+        {
+          "code": "F41A 9/42",
+          "title": {
+            "ko": null,
+            "en": "Rammers separate from breech-block"
+          }
+        },
+        {
+          "code": "F41A 9/43",
+          "title": {
+            "ko": null,
+            "en": "Chain rammers"
+          }
+        },
+        {
+          "code": "F41A 9/44",
+          "title": {
+            "ko": null,
+            "en": "Fluid-operated piston rammers"
+          }
+        },
+        {
+          "code": "F41A 9/45",
+          "title": {
+            "ko": null,
+            "en": "the cartridge chamber or the barrel as a whole being tiltable between a loading and a firing position"
+          }
+        },
+        {
+          "code": "F41A 9/46",
+          "title": {
+            "ko": null,
+            "en": "the cartridge chamber being formed by two complementary elements, movable one relative to the other for loading"
+          }
+        },
+        {
+          "code": "F41A 9/47",
+          "title": {
+            "ko": null,
+            "en": "using forwardly-sliding barrels or barrel parts for loading"
+          }
+        },
+        {
+          "code": "F41A 9/48",
+          "title": {
+            "ko": null,
+            "en": "by gravitational force"
+          }
+        },
+        {
+          "code": "F41A 9/49",
+          "title": {
+            "ko": null,
+            "en": "Internally-powered drives, i.e. operated by propellant charge energy, e.g. couplings, clutches, energy accumulators"
+          }
+        },
+        {
+          "code": "F41A 9/50",
+          "title": {
+            "ko": null,
+            "en": "External power or control systems"
+          }
+        },
+        {
+          "code": "F41A 9/51",
+          "title": {
+            "ko": null,
+            "en": "Boosters, i.e. externally-powered motors"
+          }
+        },
+        {
+          "code": "F41A 9/52",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for changing from automatic or magazine-loading to hand-loading"
+          }
+        },
+        {
+          "code": "F41A 9/53",
+          "title": {
+            "ko": null,
+            "en": "Charged-condition indicators, i.e. indicating the presence of a cartridge in the cartridge chamber"
+          }
+        },
+        {
+          "code": "F41A 9/54",
+          "title": {
+            "ko": null,
+            "en": "Cartridge guides, stops or positioners, e.g. for cartridge extraction"
+          }
+        },
+        {
+          "code": "F41A 9/55",
+          "title": {
+            "ko": null,
+            "en": "Fixed guiding means, mounted on, or near, the cartridge chamber"
+          }
+        },
+        {
+          "code": "F41A 9/56",
+          "title": {
+            "ko": null,
+            "en": "Movable guiding means"
+          }
+        },
+        {
+          "code": "F41A 9/57",
+          "title": {
+            "ko": null,
+            "en": "Flexible chutes, e.g. for guiding belted ammunition from the magazine to the gun"
+          }
+        },
+        {
+          "code": "F41A 9/58",
+          "title": {
+            "ko": null,
+            "en": "Cartridge stops; Cartridge positioners"
+          }
+        },
+        {
+          "code": "F41A 9/59",
+          "title": {
+            "ko": null,
+            "en": "Ejectors for clips or magazines, e.g. when empty"
+          }
+        },
+        {
+          "code": "F41A 9/60",
+          "title": {
+            "ko": "탄피 또는 탄대수집기 또는 캐처(Catchers)(F41A 9/81이 우선)",
+            "en": "Empty-cartridge-case or belt-link collectors or catchers (F41A0009810000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 9/61",
+          "title": {
+            "ko": "탄창",
+            "en": "Magazines"
+          }
+        },
+        {
+          "code": "F41A 9/62",
+          "title": {
+            "ko": "탄창내에 남아있는 카트리지의 수를 나타내는 수단을 가진 것 예. 최종탄 표시기(최종발사안전장치 F41A 17/40)",
+            "en": "having means for indicating the number of cartridges left in the magazine, e.g. last-round indicators (last-round safeties F41A0017400000)"
+          }
+        },
+        {
+          "code": "F41A 9/63",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for releasable connection with other magazines"
+          }
+        },
+        {
+          "code": "F41A 9/64",
+          "title": {
+            "ko": "벨트로 되지 않은 탄약을 위한 것",
+            "en": "for unbelted ammunition"
+          }
+        },
+        {
+          "code": "F41A 9/65",
+          "title": {
+            "ko": "카트리지 종동부를 가진 상자형 탄창",
+            "en": "Box magazines having a cartridge follower"
+          }
+        },
+        {
+          "code": "F41A 9/66",
+          "title": {
+            "ko": "장전을 위한 장치 즉, 재장전(탄창 재장전을 위한 장치 또는 기구 F41A 9/83)",
+            "en": "Arrangements thereon for charging, i.e. reloading (apparatus or tools for reloading magazines F41A0009830000)"
+          }
+        },
+        {
+          "code": "F41A 9/67",
+          "title": {
+            "ko": null,
+            "en": "having means for depressing the cartridge follower, or for locking it in a depressed position"
+          }
+        },
+        {
+          "code": "F41A 9/68",
+          "title": {
+            "ko": null,
+            "en": "Plural magazines, e.g. tandem magazines"
+          }
+        },
+        {
+          "code": "F41A 9/69",
+          "title": {
+            "ko": null,
+            "en": "characterised by multiple-row or zigzag arrangement of cartridges"
+          }
+        },
+        {
+          "code": "F41A 9/70",
+          "title": {
+            "ko": null,
+            "en": "Arrangements thereon for discharging, e.g. cartridge followers or discharge throats"
+          }
+        },
+        {
+          "code": "F41A 9/71",
+          "title": {
+            "ko": null,
+            "en": "Arrangements thereon for varying capacity; Adapters or inserts for changing cartridge size or type"
+          }
+        },
+        {
+          "code": "F41A 9/72",
+          "title": {
+            "ko": null,
+            "en": "Tubular magazines, i.e. magazines containing the ammunition in lengthwise tandem sequence"
+          }
+        },
+        {
+          "code": "F41A 9/73",
+          "title": {
+            "ko": null,
+            "en": "Drum magazines"
+          }
+        },
+        {
+          "code": "F41A 9/74",
+          "title": {
+            "ko": null,
+            "en": "with radially disposed cartridges"
+          }
+        },
+        {
+          "code": "F41A 9/75",
+          "title": {
+            "ko": null,
+            "en": "having a spiral cartridge channel"
+          }
+        },
+        {
+          "code": "F41A 9/76",
+          "title": {
+            "ko": null,
+            "en": "Magazines having an endless-chain conveyor"
+          }
+        },
+        {
+          "code": "F41A 9/77",
+          "title": {
+            "ko": null,
+            "en": "Magazines having a screw conveyor"
+          }
+        },
+        {
+          "code": "F41A 9/78",
+          "title": {
+            "ko": null,
+            "en": "Magazines having a reciprocating conveyor"
+          }
+        },
+        {
+          "code": "F41A 9/79",
+          "title": {
+            "ko": null,
+            "en": "for belted ammunition"
+          }
+        },
+        {
+          "code": "F41A 9/80",
+          "title": {
+            "ko": null,
+            "en": "having provision for quick-coupling of the belts of adjacent magazines"
+          }
+        },
+        {
+          "code": "F41A 9/81",
+          "title": {
+            "ko": null,
+            "en": "having provision for collecting belt links or empty cartridge cases"
+          }
+        },
+        {
+          "code": "F41A 9/82",
+          "title": {
+            "ko": null,
+            "en": "Reloading of magazines"
+          }
+        },
+        {
+          "code": "F41A 9/83",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or tools for reloading magazines with unbelted ammunition, e.g. cartridge clips"
+          }
+        },
+        {
+          "code": "F41A 9/84",
+          "title": {
+            "ko": null,
+            "en": "Clips"
+          }
+        },
+        {
+          "code": "F41A 9/85",
+          "title": {
+            "ko": null,
+            "en": "for reloading revolver-type magazines"
+          }
+        },
+        {
+          "code": "F41A 9/86",
+          "title": {
+            "ko": null,
+            "en": "Feeding belted ammunition into magazines"
+          }
+        },
+        {
+          "code": "F41A 9/87",
+          "title": {
+            "ko": "탄약취급운반차 또는 이송카트(Carts)(F41A 9/86이 우선)",
+            "en": "Ammunition handling dollies or transfer carts (F41A0009860000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 11/00",
+      "title": {
+        "ko": "조립 또는 분해 특성; 모듈(modular)개념; 연결식 또는 접철식 총포(F41A 3/64, F41A 19/10에서 F41A 19/15, F41A 21/48, F41A 25/26이 우선)",
+        "en": "Assembly or disassembly features; Modular concepts; Articulated or collapsible guns (F41A0003640000, F41A0019100000-F41A0019150000, F41A0021480000, F41A0025260000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 11/02",
+          "title": {
+            "ko": null,
+            "en": "Modular concepts, e.g. weapon-family concepts"
+          }
+        },
+        {
+          "code": "F41A 11/04",
+          "title": {
+            "ko": "연결식 또는 접철식 총포, 즉 이송 또는 저장을 위하여 힌지결합되거나 신축가능한 것(분해산탄총 또는 라이플 F41C 7/11, 접을 수 있거나 신축가능한 개머리판 또는 개머리판부품 F41C 23/04)",
+            "en": "Articulated or collapsible guns, i.e. with hinged or telescopic parts for transport or storage (breakdown shotguns or rifles F41C0007110000;folding or telescopic stocks or stock parts F41C0023040000)"
+          }
+        },
+        {
+          "code": "F41A 11/06",
+          "title": {
+            "ko": null,
+            "en": "Telescopic guns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 13/00",
+      "title": {
+        "ko": "냉각 또는 가열 시스템 총포신의 블로윙(blowing) 환기시스템",
+        "en": "Cooling or heating systems (barrels or gun tubes with fins or ribs F41A0021000000); Blowing-through of gun barrels; Ventilating systems"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 13/02",
+          "title": {
+            "ko": null,
+            "en": "Heating systems"
+          }
+        },
+        {
+          "code": "F41A 13/04",
+          "title": {
+            "ko": "총신 또는 약실에 유체를 주입하는 것",
+            "en": "Injecting fluids into barrels or cartridge chambers (F41A0013080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 13/06",
+          "title": {
+            "ko": "총신에서 연소가스를 배출시키는 것",
+            "en": "Evacuating combustion gas from barrels (F41A0013100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 13/08",
+          "title": {
+            "ko": null,
+            "en": "Bore evacuators, i.e. chambers disposed around barrels for storing part of the combustion gas and subsequently injecting it into the barrel to provide suction"
+          }
+        },
+        {
+          "code": "F41A 13/10",
+          "title": {
+            "ko": null,
+            "en": "Blowers or turbines for evacuating or cooling guns, e.g. driven by combustion gas pressure or recoil"
+          }
+        },
+        {
+          "code": "F41A 13/12",
+          "title": {
+            "ko": "총신의 외부면을 냉각시키기 위한 시스템(F41A 13/10, F41A 21/24가 우선)",
+            "en": "Systems for cooling the outer surface of the barrel (F41A0013100000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 15/00",
+      "title": {
+        "ko": "카트리지 익스트랙터(extractors) 즉, 약실로부터 적어도 부분적으로 카트리지 또는 카트리지 케이스를 뽑아내기 위한 장치; 카트리지 이젝터 즉, 뽑혀진 카트리지 또는 탄피를 총포 외부로 던져내기 위한 장치(F41A 9/54이 우선)",
+        "en": "Cartridge extractors, i.e. devices for pulling cartridges or cartridge cases at least partially out of the cartridge chamber; Cartridge ejectors, i.e. devices for throwing the extracted cartridges or cartridge cases free of the gun (F41A0009540000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 15/02",
+          "title": {
+            "ko": null,
+            "en": "for revolver-type guns, e.g. revolvers"
+          }
+        },
+        {
+          "code": "F41A 15/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for cartridge cases being deformed when fired, e.g. of plastics"
+          }
+        },
+        {
+          "code": "F41A 15/06",
+          "title": {
+            "ko": null,
+            "en": "for breakdown guns"
+          }
+        },
+        {
+          "code": "F41A 15/08",
+          "title": {
+            "ko": null,
+            "en": "for block-action guns"
+          }
+        },
+        {
+          "code": "F41A 15/10",
+          "title": {
+            "ko": null,
+            "en": "of sliding-block type"
+          }
+        },
+        {
+          "code": "F41A 15/12",
+          "title": {
+            "ko": null,
+            "en": "for bolt-action guns"
+          }
+        },
+        {
+          "code": "F41A 15/14",
+          "title": {
+            "ko": null,
+            "en": "the ejector being mounted on, or within, the bolt"
+          }
+        },
+        {
+          "code": "F41A 15/16",
+          "title": {
+            "ko": null,
+            "en": "the ejector being mounted on the breech housing or frame"
+          }
+        },
+        {
+          "code": "F41A 15/18",
+          "title": {
+            "ko": null,
+            "en": "for guns with forwardly slidable barrels"
+          }
+        },
+        {
+          "code": "F41A 15/20",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for caseless-ammunition duds"
+          }
+        },
+        {
+          "code": "F41A 15/22",
+          "title": {
+            "ko": null,
+            "en": "Tools for extracting cartridges"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 17/00",
+      "title": {
+        "ko": "안전장치, 예. 안전기",
+        "en": "Safety arrangements, e.g. safeties"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 17/02",
+          "title": {
+            "ko": null,
+            "en": "Key-operated safeties"
+          }
+        },
+        {
+          "code": "F41A 17/04",
+          "title": {
+            "ko": "결합폐쇄식 안전기 (F41A 17/02가 우선)",
+            "en": "Safeties of the combination-lock type (F41A0017020000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/06",
+          "title": {
+            "ko": "전기 또는 전기기계적 안전장치(F41A 17/04, F41A 17/08이 우선)",
+            "en": "Electric or electromechanical safeties (F41A0017040000, F41A0017080000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/08",
+          "title": {
+            "ko": "특정방향에의 발사를 금지시키기 위한 것, 예. 특정인물 또는 보호지역(F41A 27/02가 우선)",
+            "en": "for inhibiting firing in a specified direction, e.g. at a friendly person or at a protected area (F41A0027020000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/10",
+          "title": {
+            "ko": null,
+            "en": "Firing mechanisms with elevation stop"
+          }
+        },
+        {
+          "code": "F41A 17/12",
+          "title": {
+            "ko": null,
+            "en": "Firing mechanisms with anti-canting safety"
+          }
+        },
+        {
+          "code": "F41A 17/14",
+          "title": {
+            "ko": null,
+            "en": "Double-loading prevention"
+          }
+        },
+        {
+          "code": "F41A 17/16",
+          "title": {
+            "ko": null,
+            "en": "Cook-off prevention, i.e. prevention of spontaneous firing of a cartridge by chamber wall heat"
+          }
+        },
+        {
+          "code": "F41A 17/18",
+          "title": {
+            "ko": null,
+            "en": "Hang-fire prevention"
+          }
+        },
+        {
+          "code": "F41A 17/20",
+          "title": {
+            "ko": "총 파지(把持) 또는 개머리판 안전장치, 즉 총 파지 또는 개머리판을 꽉 쥐는 것에 의하여 분리되는 안전장치(엄지손가락으로 작동되는 미끄럼운동 안전장치 F41A 17/52, F41A 17/62, F41A 17/70, F41A 17/80)",
+            "en": "Grip or stock safeties, i.e. safeties disengaged by clasping the grip or stock (thumb-operated sliding safeties F41A0017520000, F41A0017620000, F41A0017700000, F41A0017800000)"
+          }
+        },
+        {
+          "code": "F41A 17/22",
+          "title": {
+            "ko": null,
+            "en": "acting on the trigger"
+          }
+        },
+        {
+          "code": "F41A 17/24",
+          "title": {
+            "ko": null,
+            "en": "acting on the firing pin"
+          }
+        },
+        {
+          "code": "F41A 17/26",
+          "title": {
+            "ko": null,
+            "en": "acting on the hammer"
+          }
+        },
+        {
+          "code": "F41A 17/28",
+          "title": {
+            "ko": null,
+            "en": "acting on the sear"
+          }
+        },
+        {
+          "code": "F41A 17/30",
+          "title": {
+            "ko": null,
+            "en": "Multiple safeties, i.e. safeties acting on at least one element of the firing mechanism and at least one other element of the gun, e.g. the moving barrel"
+          }
+        },
+        {
+          "code": "F41A 17/32",
+          "title": {
+            "ko": null,
+            "en": "the other element being the breech-block or bolt"
+          }
+        },
+        {
+          "code": "F41A 17/34",
+          "title": {
+            "ko": null,
+            "en": "Magazine safeties"
+          }
+        },
+        {
+          "code": "F41A 17/36",
+          "title": {
+            "ko": null,
+            "en": "locking the gun in a safety condition when the magazine is empty or removed"
+          }
+        },
+        {
+          "code": "F41A 17/38",
+          "title": {
+            "ko": null,
+            "en": "locking the magazine in the gun"
+          }
+        },
+        {
+          "code": "F41A 17/40",
+          "title": {
+            "ko": "최종탄 안전장치(F41A 17/34가 우선)",
+            "en": "Last-round safeties (F41A0017340000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/42",
+          "title": {
+            "ko": "브리취 블록 또는 노리쇠를 안전위치로 잠그기 위한 안전장치(F41A 17/32, F41A 17/36, F41A 17/40이 우선)",
+            "en": "Safeties for locking the breech-block or bolt in a safety position (F41A0017320000, F41A0017360000, F41A0017400000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/44",
+          "title": {
+            "ko": null,
+            "en": "Safety plugs, e.g. for plugging-up cartridge chambers"
+          }
+        },
+        {
+          "code": "F41A 17/46",
+          "title": {
+            "ko": "방아쇠 안전장치, 즉 격발이동을 방지하기 위한 수단 (F41A 17/02에서 F41A 17/40이 우선)",
+            "en": "Trigger safeties, i.e. means for preventing trigger movement (F41A0017020000-F41A0017400000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/48",
+          "title": {
+            "ko": null,
+            "en": "Automatically operated trigger safeties, i.e. operated by breech opening or closing movement"
+          }
+        },
+        {
+          "code": "F41A 17/50",
+          "title": {
+            "ko": null,
+            "en": "by breakdown action"
+          }
+        },
+        {
+          "code": "F41A 17/52",
+          "title": {
+            "ko": null,
+            "en": "Thumb-operated sliding safeties mounted on the upside of the stock, e.g. for shotguns"
+          }
+        },
+        {
+          "code": "F41A 17/54",
+          "title": {
+            "ko": null,
+            "en": "Protecting-caps for trigger guards; Trigger locking pieces mounted on, or within, the trigger guard"
+          }
+        },
+        {
+          "code": "F41A 17/56",
+          "title": {
+            "ko": "시어(sear)안전장치, 예. 방아쇠 운동을 공이, 공이치기, 노리쇠 또는 시어에 전달하는 중간레버를 무력화시키는 수단(F41A 17/02에서 F41A 17/40이 우선)",
+            "en": "Sear safeties, i.e. means for rendering ineffective an intermediate lever transmitting trigger movement to firing pin, hammer, bolt or sear (F41A0017020000-F41A0017400000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/58",
+          "title": {
+            "ko": null,
+            "en": "automatically operated, i.e. operated by breech opening or closing movement"
+          }
+        },
+        {
+          "code": "F41A 17/60",
+          "title": {
+            "ko": null,
+            "en": "by breakdown action"
+          }
+        },
+        {
+          "code": "F41A 17/62",
+          "title": {
+            "ko": null,
+            "en": "Thumb-operated sliding safeties mounted on the upside of the stock, e.g. for shotguns"
+          }
+        },
+        {
+          "code": "F41A 17/64",
+          "title": {
+            "ko": "공이 안전장치, 즉 미끄럼운동 할 수 있게 장착된 공이(striker)의 운동을 방지하기 위한 수단(F41A 17/02에서 F41A 17/40이 우선)",
+            "en": "Firing-pin safeties, i.e. means for preventing movement of slidably-mounted strikers (F41A0017020000-F41A0017400000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/66",
+          "title": {
+            "ko": null,
+            "en": "automatically operated, i.e. operated by breech opening or closing movement"
+          }
+        },
+        {
+          "code": "F41A 17/68",
+          "title": {
+            "ko": null,
+            "en": "by breakdown action"
+          }
+        },
+        {
+          "code": "F41A 17/70",
+          "title": {
+            "ko": null,
+            "en": "Thumb-operated sliding safeties mounted on the upside of the stock, e.g. for shotguns"
+          }
+        },
+        {
+          "code": "F41A 17/72",
+          "title": {
+            "ko": null,
+            "en": "trigger-operated, i.e. the movement of the trigger bringing a firing-pin safety into inoperative position during the firing"
+          }
+        },
+        {
+          "code": "F41A 17/74",
+          "title": {
+            "ko": "해머(hammer)안전장치, 즉 해머가 카트리지나 발화핀을 치는 것을 방지하기 위한 것",
+            "en": "Hammer safeties, i.e. for preventing the hammer from hitting the cartridge or the firing pin (F41A0017020000-F41A0017400000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 17/76",
+          "title": {
+            "ko": null,
+            "en": "automatically operated, i.e. operated by breech opening or closing movement"
+          }
+        },
+        {
+          "code": "F41A 17/78",
+          "title": {
+            "ko": null,
+            "en": "by breakdown action"
+          }
+        },
+        {
+          "code": "F41A 17/80",
+          "title": {
+            "ko": null,
+            "en": "Thumb-operated sliding safeties mounted on the upside of the stock, e.g. for shotguns"
+          }
+        },
+        {
+          "code": "F41A 17/82",
+          "title": {
+            "ko": null,
+            "en": "trigger-operated, i.e. the movement of the trigger bringing a hammer safety into inoperative position during firing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 19/00",
+      "title": {
+        "ko": "발사 또는 방아쇠 기구; 공이치기(Cocking) 기구",
+        "en": "Firing or trigger mechanisms; Cocking mechanisms"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 19/01",
+          "title": {
+            "ko": "발사된 탄환의 수를 표시하는 계수수단",
+            "en": "Counting means indicating the number of shots fired"
+          }
+        },
+        {
+          "code": "F41A 19/02",
+          "title": {
+            "ko": "연사제한기(F41A 19/67이 우선)",
+            "en": "Burst limiters (F41A0019670000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/03",
+          "title": {
+            "ko": "발사 속도 제어 ( F41A 3/78, F41A 5/28, F41A 19/05, F41A 19/66 우선)",
+            "en": "Shot-velocity control (F41A0003780000, F41A0005280000, F41A0019050000, F41A0019660000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/04",
+          "title": {
+            "ko": null,
+            "en": "by controlling the time of release of the firing pin or hammer"
+          }
+        },
+        {
+          "code": "F41A 19/05",
+          "title": {
+            "ko": null,
+            "en": "Synchronising for firing through the propeller of an aircraft"
+          }
+        },
+        {
+          "code": "F41A 19/06",
+          "title": {
+            "ko": "기계적 발사기구(F41A 19/01에서 F41A 19/05, F41A 19/59가 우선)",
+            "en": "Mechanical firing mechanisms (F41A0019010000-F41A0019050000, F41A0019590000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/07",
+          "title": {
+            "ko": null,
+            "en": "press-button actuated, e.g. with thumb rest"
+          }
+        },
+        {
+          "code": "F41A 19/08",
+          "title": {
+            "ko": null,
+            "en": "remote actuated; lanyard actuated"
+          }
+        },
+        {
+          "code": "F41A 19/09",
+          "title": {
+            "ko": "보조 방아쇠 장치(F41A 19/08이 우선)",
+            "en": "Auxiliary trigger devices (F41A0019080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/10",
+          "title": {
+            "ko": null,
+            "en": "Triggers; Trigger mountings"
+          }
+        },
+        {
+          "code": "F41A 19/11",
+          "title": {
+            "ko": "방아쇠울(trigger guards) 방아쇠울을 장착하기 위한 것",
+            "en": "Trigger guards; Trigger-guard mountings (F41A0019150000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/12",
+          "title": {
+            "ko": null,
+            "en": "Sears; Sear mountings"
+          }
+        },
+        {
+          "code": "F41A 19/13",
+          "title": {
+            "ko": null,
+            "en": "Percussion or firing pins, i.e. fixed or slidably- mounted striker elements; Mountings therefor"
+          }
+        },
+        {
+          "code": "F41A 19/14",
+          "title": {
+            "ko": null,
+            "en": "Hammers, i.e. pivotably-mounted striker elements; Hammer mountings"
+          }
+        },
+        {
+          "code": "F41A 19/15",
+          "title": {
+            "ko": null,
+            "en": "Modular firing mechanism units"
+          }
+        },
+        {
+          "code": "F41A 19/16",
+          "title": {
+            "ko": "조정할 수 있는 발사기구; 방아쇠 당김을 조정할 수 있도록 된 방아쇠 기구(F41A 19/17이 우선)",
+            "en": "Adjustable firing mechanisms; Trigger mechanisms with adjustable trigger pull (F41A0019170000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/17",
+          "title": {
+            "ko": null,
+            "en": "Hair-trigger mechanisms"
+          }
+        },
+        {
+          "code": "F41A 19/18",
+          "title": {
+            "ko": "다연장(multibarrel)총포용(F41A 19/68이 우선)",
+            "en": "for multibarrel guns (F41A0019680000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/19",
+          "title": {
+            "ko": null,
+            "en": "with single-trigger firing possibility"
+          }
+        },
+        {
+          "code": "F41A 19/20",
+          "title": {
+            "ko": null,
+            "en": "Double-trigger arrangements having the possibility of single-trigger actuation"
+          }
+        },
+        {
+          "code": "F41A 19/21",
+          "title": {
+            "ko": null,
+            "en": "having only one trigger"
+          }
+        },
+        {
+          "code": "F41A 19/22",
+          "title": {
+            "ko": null,
+            "en": "and only one striker element"
+          }
+        },
+        {
+          "code": "F41A 19/23",
+          "title": {
+            "ko": null,
+            "en": "rotatable about an axis parallel to the barrel axis for firing subsequent barrels"
+          }
+        },
+        {
+          "code": "F41A 19/24",
+          "title": {
+            "ko": null,
+            "en": "Release-trigger mechanisms, i.e. the striker element being released during the return movement of the trigger subsequent to trigger pull"
+          }
+        },
+        {
+          "code": "F41A 19/25",
+          "title": {
+            "ko": "미끄럼운동 할 수 있게 장착된 격철요소만을 가진 것, 즉 격발장치 또는 공이",
+            "en": "having only slidably-mounted striker elements, i.e. percussion or firing pins"
+          }
+        },
+        {
+          "code": "F41A 19/26",
+          "title": {
+            "ko": null,
+            "en": "the percussion or firing pin and the breech-block or bolt forming one piece"
+          }
+        },
+        {
+          "code": "F41A 19/27",
+          "title": {
+            "ko": "격발장치 또는 공이가 브리취 블록에 호응하여 움직일 수 있는 것",
+            "en": "the percussion or firing pin being movable relative to the breech-block"
+          }
+        },
+        {
+          "code": "F41A 19/28",
+          "title": {
+            "ko": null,
+            "en": "propelled by a cam or lever when the breech-block or bolt arrives at a closing position"
+          }
+        },
+        {
+          "code": "F41A 19/29",
+          "title": {
+            "ko": "인장스프링에 의하여 추진되는 것",
+            "en": "propelled by a spring under tension"
+          }
+        },
+        {
+          "code": "F41A 19/30",
+          "title": {
+            "ko": "노리쇠 작동식 총포에 있는 것",
+            "en": "in bolt-action guns"
+          }
+        },
+        {
+          "code": "F41A 19/31",
+          "title": {
+            "ko": "그것을 위한 시어 장치(F41A 19/33이 우선)",
+            "en": "Sear arrangements therefor (F41A0019330000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/32",
+          "title": {
+            "ko": null,
+            "en": "for catching the percussion or firing pin after each shot, i.e. in single-shot or semi-automatic firing mode"
+          }
+        },
+        {
+          "code": "F41A 19/33",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for the selection of automatic or semi-automatic fire"
+          }
+        },
+        {
+          "code": "F41A 19/34",
+          "title": {
+            "ko": null,
+            "en": "Cocking mechanisms"
+          }
+        },
+        {
+          "code": "F41A 19/35",
+          "title": {
+            "ko": null,
+            "en": "Double-action mechanisms, i.e. the cocking being effected during the first part of the trigger pull movement"
+          }
+        },
+        {
+          "code": "F41A 19/36",
+          "title": {
+            "ko": null,
+            "en": "in block-action guns"
+          }
+        },
+        {
+          "code": "F41A 19/37",
+          "title": {
+            "ko": null,
+            "en": "Cocking mechanisms"
+          }
+        },
+        {
+          "code": "F41A 19/38",
+          "title": {
+            "ko": null,
+            "en": "Double-action mechanisms, i.e. the cocking being effected during the first part of the trigger pull movement"
+          }
+        },
+        {
+          "code": "F41A 19/39",
+          "title": {
+            "ko": null,
+            "en": "Cocking mechanisms for other types of guns, e.g. fixed breech-block types, forwardly-slidable barrel types"
+          }
+        },
+        {
+          "code": "F41A 19/40",
+          "title": {
+            "ko": null,
+            "en": "Double-action mechanisms, i.e. the cocking being effected during the first part of the trigger pull movement"
+          }
+        },
+        {
+          "code": "F41A 19/41",
+          "title": {
+            "ko": null,
+            "en": "for breakdown guns"
+          }
+        },
+        {
+          "code": "F41A 19/42",
+          "title": {
+            "ko": "적어도 하나의 공이치기를 갖는 것",
+            "en": "having at least one hammer"
+          }
+        },
+        {
+          "code": "F41A 19/43",
+          "title": {
+            "ko": "노리쇠 작동식 총포용",
+            "en": "in bolt-action guns"
+          }
+        },
+        {
+          "code": "F41A 19/44",
+          "title": {
+            "ko": "그것을 위한 시어(sear)장치",
+            "en": "Sear arrangements therefor (F41A0019460000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/45",
+          "title": {
+            "ko": null,
+            "en": "for catching the hammer after each shot, i.e. in single-shot or semi- automatic firing mode"
+          }
+        },
+        {
+          "code": "F41A 19/46",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for the selection of automatic or semi-automatic fire"
+          }
+        },
+        {
+          "code": "F41A 19/47",
+          "title": {
+            "ko": null,
+            "en": "Cocking mechanisms"
+          }
+        },
+        {
+          "code": "F41A 19/48",
+          "title": {
+            "ko": null,
+            "en": "Double-action mechanisms, i.e. the cocking being effected during the first part of the trigger pull movement"
+          }
+        },
+        {
+          "code": "F41A 19/49",
+          "title": {
+            "ko": null,
+            "en": "in block-action guns"
+          }
+        },
+        {
+          "code": "F41A 19/50",
+          "title": {
+            "ko": null,
+            "en": "Cocking mechanisms"
+          }
+        },
+        {
+          "code": "F41A 19/51",
+          "title": {
+            "ko": null,
+            "en": "Double-action mechanisms, i.e. the cocking being effected during the first part of the trigger pull movement"
+          }
+        },
+        {
+          "code": "F41A 19/52",
+          "title": {
+            "ko": null,
+            "en": "Cocking mechanisms for other types of guns, e.g. fixed breech-block types, revolvers"
+          }
+        },
+        {
+          "code": "F41A 19/53",
+          "title": {
+            "ko": null,
+            "en": "Double-action mechanisms, i.e. the cocking being effected during the first part of the trigger pull movement"
+          }
+        },
+        {
+          "code": "F41A 19/54",
+          "title": {
+            "ko": null,
+            "en": "for breakdown guns"
+          }
+        },
+        {
+          "code": "F41A 19/55",
+          "title": {
+            "ko": null,
+            "en": "Fluid-operated firing mechanisms"
+          }
+        },
+        {
+          "code": "F41A 19/56",
+          "title": {
+            "ko": null,
+            "en": "Ignition of the propellant charge by contact with air heated by adiabatic compression"
+          }
+        },
+        {
+          "code": "F41A 19/57",
+          "title": {
+            "ko": null,
+            "en": "Firing mechanisms operating with primer cartridge"
+          }
+        },
+        {
+          "code": "F41A 19/58",
+          "title": {
+            "ko": "전기발사기구(F41A 17/10, F41A 17/12가 우선)",
+            "en": "Electric firing mechanisms (F41A0017100000, F41A0017120000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/59",
+          "title": {
+            "ko": null,
+            "en": "Electromechanical firing mechanisms, i.e. the mechanical striker element being propelled or released by electric means"
+          }
+        },
+        {
+          "code": "F41A 19/60",
+          "title": {
+            "ko": null,
+            "en": "characterised by the means for generating electric energy"
+          }
+        },
+        {
+          "code": "F41A 19/61",
+          "title": {
+            "ko": null,
+            "en": "Inductive generators"
+          }
+        },
+        {
+          "code": "F41A 19/62",
+          "title": {
+            "ko": null,
+            "en": "Piezoelectric generators"
+          }
+        },
+        {
+          "code": "F41A 19/63",
+          "title": {
+            "ko": null,
+            "en": "having means for contactless transmission of electric energy, e.g. by induction, by sparking gap"
+          }
+        },
+        {
+          "code": "F41A 19/64",
+          "title": {
+            "ko": "자동 또는 연사모드용",
+            "en": "for automatic or burst-firing mode"
+          }
+        },
+        {
+          "code": "F41A 19/65",
+          "title": {
+            "ko": null,
+            "en": "for giving ripple fire, i.e. using electric sequencer switches for timed multiple-charge launching, e.g. for rocket launchers"
+          }
+        },
+        {
+          "code": "F41A 19/66",
+          "title": {
+            "ko": "전자적 발사속도제어(F41A 19/65가 우선)",
+            "en": "Electronic shot-velocity control (F41A0019650000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/67",
+          "title": {
+            "ko": null,
+            "en": "Burst limiters"
+          }
+        },
+        {
+          "code": "F41A 19/68",
+          "title": {
+            "ko": "복총신 총포용",
+            "en": "for multibarrel guns (F41A0019650000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/69",
+          "title": {
+            "ko": "그것에 고유한 전기접점 또는 스위치(F41A 19/65가 우선)",
+            "en": "Electric contacts or switches peculiar thereto (F41A0019650000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 19/70",
+          "title": {
+            "ko": null,
+            "en": "Electric firing pins; Mountings therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 21/00",
+      "title": {
+        "ko": "총포신 또는 건튜브(gun tubes) 포신신관; 총포구 취부구 (Muzzle attachments) 총포신을 장착하는 수단 F41A25/00 이 우선; 소화기로부터 총류탄 또는 폭동진압용 탄약을 발사하기 위한 총포신 취부구 F41C 27/06; 조준장치 F41G1/00)",
+        "en": "Barrels or gun tubes; Muzzle attachments; Barrel mounting means (F41A0025000000 takes precedence;  barrel attachments for firing grenades or riot-control ammunition from smallarms F41C0027060000;  sighting devices F41G0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 21/02",
+          "title": {
+            "ko": null,
+            "en": "Composite barrels, i.e. barrels having multiple layers, e.g. of different materials"
+          }
+        },
+        {
+          "code": "F41A 21/04",
+          "title": {
+            "ko": null,
+            "en": "Barrel liners"
+          }
+        },
+        {
+          "code": "F41A 21/06",
+          "title": {
+            "ko": null,
+            "en": "Plural barrels"
+          }
+        },
+        {
+          "code": "F41A 21/08",
+          "title": {
+            "ko": null,
+            "en": "Barrel junctions"
+          }
+        },
+        {
+          "code": "F41A 21/10",
+          "title": {
+            "ko": null,
+            "en": "Insert barrels, i.e. barrels for firing reduced calibre ammunition and being mounted within the normal barrels"
+          }
+        },
+        {
+          "code": "F41A 21/12",
+          "title": {
+            "ko": "약실(Cartridge chambers) 약실라이너(F41A 3/74, F41A 9/46, F41A 21/04가 우선)",
+            "en": "Cartridge chambers; Chamber liners (F41A0003740000, F41A0009460000, F41A0021040000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 21/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of cartridge chambers lateral to the barrel axis"
+          }
+        },
+        {
+          "code": "F41A 21/16",
+          "title": {
+            "ko": null,
+            "en": "Barrels or gun tubes characterised by the shape of the bore"
+          }
+        },
+        {
+          "code": "F41A 21/18",
+          "title": {
+            "ko": null,
+            "en": "Grooves; Rifling"
+          }
+        },
+        {
+          "code": "F41A 21/20",
+          "title": {
+            "ko": "재료에 특징이 있는 총포신 또는 건튜브(F41A 21/02가 우선)",
+            "en": "Barrels or gun tubes characterised by the material (F41A0021020000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 21/22",
+          "title": {
+            "ko": null,
+            "en": "Barrels which have undergone surface treatment, e.g. phosphating"
+          }
+        },
+        {
+          "code": "F41A 21/24",
+          "title": {
+            "ko": null,
+            "en": "Barrels or gun tubes with fins or ribs, e.g. for cooling"
+          }
+        },
+        {
+          "code": "F41A 21/26",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for recoil reinforcement, e.g. for training purposes"
+          }
+        },
+        {
+          "code": "F41A 21/28",
+          "title": {
+            "ko": "가스팽창실; 가스방출구가 있는 총포신(F41A 1/06, F41A 13/08이 우선)",
+            "en": "Gas-expansion chambers; Barrels provided with gas-relieving ports (F41A0001060000, F41A0013080000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 21/30",
+          "title": {
+            "ko": null,
+            "en": "Silencers"
+          }
+        },
+        {
+          "code": "F41A 21/32",
+          "title": {
+            "ko": "총포구 취부구 또는 글랜드(gland) (F41A21/26, F41A21/30, F41A21/46 이 우선)",
+            "en": "Muzzle attachments or glands  (F41A0021260000, F41A0021300000, F41A0021460000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 21/34",
+          "title": {
+            "ko": null,
+            "en": "Flash dampers"
+          }
+        },
+        {
+          "code": "F41A 21/36",
+          "title": {
+            "ko": "반동감소용(반동감소장치 일반 F41A 25/00)",
+            "en": "for recoil reduction (recoil reduction arrangements in general F41A0025000000)"
+          }
+        },
+        {
+          "code": "F41A 21/38",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 21/40",
+          "title": {
+            "ko": null,
+            "en": "Chokes for shotguns"
+          }
+        },
+        {
+          "code": "F41A 21/42",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 21/44",
+          "title": {
+            "ko": null,
+            "en": "Insulation jackets; Protective jackets"
+          }
+        },
+        {
+          "code": "F41A 21/46",
+          "title": {
+            "ko": null,
+            "en": "Barrels having means for separating sabots from projectiles"
+          }
+        },
+        {
+          "code": "F41A 21/48",
+          "title": {
+            "ko": null,
+            "en": "Barrel mounting means, e.g. releasable mountings for replaceable barrels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 23/00",
+      "title": {
+        "ko": "총포가(銃砲架), 예. 차량용 차량상에 총포의 배치(F41A 25/00, 27/00이 우선)",
+        "en": "Gun mountings, e.g. on vehicles; Disposition of guns on vehicles (F41A0025000000, F41A0027000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 23/02",
+          "title": {
+            "ko": "바퀴가 없는 총포가",
+            "en": "Mountings without wheels"
+          }
+        },
+        {
+          "code": "F41A 23/04",
+          "title": {
+            "ko": null,
+            "en": "Unipods"
+          }
+        },
+        {
+          "code": "F41A 23/06",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 23/08",
+          "title": {
+            "ko": null,
+            "en": "Bipods"
+          }
+        },
+        {
+          "code": "F41A 23/10",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 23/12",
+          "title": {
+            "ko": null,
+            "en": "Tripods"
+          }
+        },
+        {
+          "code": "F41A 23/14",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 23/16",
+          "title": {
+            "ko": null,
+            "en": "Testing mounts"
+          }
+        },
+        {
+          "code": "F41A 23/18",
+          "title": {
+            "ko": "비사격위치에서 소화기를 지지하기 위한 가태 (架台)(보관용 래크 A47B 81/00; 차량에 있는 래크 B60R 11/00)",
+            "en": "Rests for supporting smallarms in non-shooting position (racks for storage A47B0081000000;racks in vehicles B60R0011000000)"
+          }
+        },
+        {
+          "code": "F41A 23/20",
+          "title": {
+            "ko": null,
+            "en": "for disappearing guns"
+          }
+        },
+        {
+          "code": "F41A 23/22",
+          "title": {
+            "ko": null,
+            "en": "on board of submarines"
+          }
+        },
+        {
+          "code": "F41A 23/24",
+          "title": {
+            "ko": "포탑포가(탄약의 공급, 장전 또는 안내 F41A 9/00; 포탑총용의 기계적 고각(elevating) 또는 선회시스템 F41A 27/18)",
+            "en": "Turret gun mountings (feeding, loading or guiding ammunition F41A0009000000;mechanical elevating or traversing systems for turret guns F41A0027180000)"
+          }
+        },
+        {
+          "code": "F41A 23/26",
+          "title": {
+            "ko": "이송만을 위한 포가; 운반차에 사용하는 총포를 싣거나 내리는 장치(F41A 23/50이 우선)",
+            "en": "Mountings for transport only; Loading or unloading arrangements for guns for use with carrier vehicles (F41A0023500000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 23/28",
+          "title": {
+            "ko": "차량총포가; 무한궤도 총포가",
+            "en": "Wheeled-gun mountings; Endless-track gun mountings"
+          }
+        },
+        {
+          "code": "F41A 23/30",
+          "title": {
+            "ko": null,
+            "en": "the wheels being liftable from the ground for firing"
+          }
+        },
+        {
+          "code": "F41A 23/32",
+          "title": {
+            "ko": "개각식 포가(split trails)(F41A 23/30, 23/46이 우선)",
+            "en": "with split trails (F41A0023300000, F41A0023460000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 23/34",
+          "title": {
+            "ko": "바퀴가 있는 차량 또는 무한궤도 차량용",
+            "en": "on wheeled or endless-track vehicles"
+          }
+        },
+        {
+          "code": "F41A 23/36",
+          "title": {
+            "ko": "트레일러용(F41A 23/42가 우선)",
+            "en": "on trailers (F41A0023420000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 23/38",
+          "title": {
+            "ko": null,
+            "en": "on motorcycles"
+          }
+        },
+        {
+          "code": "F41A 23/40",
+          "title": {
+            "ko": null,
+            "en": "on rail vehicles"
+          }
+        },
+        {
+          "code": "F41A 23/42",
+          "title": {
+            "ko": null,
+            "en": "for rocket throwers"
+          }
+        },
+        {
+          "code": "F41A 23/44",
+          "title": {
+            "ko": null,
+            "en": "on sledges"
+          }
+        },
+        {
+          "code": "F41A 23/46",
+          "title": {
+            "ko": null,
+            "en": "Trail spades"
+          }
+        },
+        {
+          "code": "F41A 23/48",
+          "title": {
+            "ko": null,
+            "en": "elastic"
+          }
+        },
+        {
+          "code": "F41A 23/50",
+          "title": {
+            "ko": null,
+            "en": "Travelling locks; Brakes for holding the gun platform in a fixed position during transport"
+          }
+        },
+        {
+          "code": "F41A 23/52",
+          "title": {
+            "ko": null,
+            "en": "Base plates for gun mountings"
+          }
+        },
+        {
+          "code": "F41A 23/54",
+          "title": {
+            "ko": null,
+            "en": "for mortars"
+          }
+        },
+        {
+          "code": "F41A 23/56",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for adjusting the gun platform in the vertical or horizontal position (F41A0017100000, F41A0017120000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 23/58",
+          "title": {
+            "ko": null,
+            "en": "Hydraulic jacks"
+          }
+        },
+        {
+          "code": "F41A 23/60",
+          "title": {
+            "ko": null,
+            "en": "Screw-operated jacks"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 25/00",
+      "title": {
+        "ko": "반동 또는 발포위치로 되돌아오는 포가, 예. 건 크레이들(gun cradle); 총신완충기 또는 브레이크 (무반동총포 F41A 1/08)",
+        "en": "Gun mountings permitting recoil or return to battery, e.g. gun cradles; Barrel buffers or brakes (recoilless guns F41A0001080000)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 25/02",
+          "title": {
+            "ko": null,
+            "en": "Fluid-operated systems"
+          }
+        },
+        {
+          "code": "F41A 25/04",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 25/06",
+          "title": {
+            "ko": null,
+            "en": "Friction-operated systems"
+          }
+        },
+        {
+          "code": "F41A 25/08",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 25/10",
+          "title": {
+            "ko": null,
+            "en": "Spring-operated systems"
+          }
+        },
+        {
+          "code": "F41A 25/12",
+          "title": {
+            "ko": null,
+            "en": "using coil springs"
+          }
+        },
+        {
+          "code": "F41A 25/14",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F41A 25/16",
+          "title": {
+            "ko": null,
+            "en": "Hybrid systems"
+          }
+        },
+        {
+          "code": "F41A 25/18",
+          "title": {
+            "ko": null,
+            "en": "Hydroelastic systems"
+          }
+        },
+        {
+          "code": "F41A 25/20",
+          "title": {
+            "ko": null,
+            "en": "Hydropneumatic systems"
+          }
+        },
+        {
+          "code": "F41A 25/22",
+          "title": {
+            "ko": null,
+            "en": "Bearing arrangements for the reciprocating gun-mount or barrel movement"
+          }
+        },
+        {
+          "code": "F41A 25/24",
+          "title": {
+            "ko": null,
+            "en": "using ball or roller bearings"
+          }
+        },
+        {
+          "code": "F41A 25/26",
+          "title": {
+            "ko": null,
+            "en": "Assembling or dismounting recoil elements or systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 27/00",
+      "title": {
+        "ko": "선회 또는 고각(elevating) 작동하는 총포가",
+        "en": "Gun mountings permitting traversing or elevating movement, e.g. gun carriages"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 27/02",
+          "title": {
+            "ko": null,
+            "en": "Control systems for preventing interference between the moving gun and the adjacent structure"
+          }
+        },
+        {
+          "code": "F41A 27/04",
+          "title": {
+            "ko": null,
+            "en": "Scatter-fire arrangements, i.e. means for oscillating guns automatically during firing"
+          }
+        },
+        {
+          "code": "F41A 27/06",
+          "title": {
+            "ko": "기계적방식",
+            "en": "Mechanical systems (F41A0027020000, F41A0027040000, F41A0027300000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 27/08",
+          "title": {
+            "ko": null,
+            "en": "Bearings, e.g. trunnions; Brakes or blocking arrangements"
+          }
+        },
+        {
+          "code": "F41A 27/10",
+          "title": {
+            "ko": null,
+            "en": "Bearings for supporting a pivoting gun in a wall, e.g. a turret wall"
+          }
+        },
+        {
+          "code": "F41A 27/12",
+          "title": {
+            "ko": null,
+            "en": "Brakes or locks for blocking traversing or elevating gear in a fixed position"
+          }
+        },
+        {
+          "code": "F41A 27/14",
+          "title": {
+            "ko": null,
+            "en": "Central-pivot bearings"
+          }
+        },
+        {
+          "code": "F41A 27/16",
+          "title": {
+            "ko": null,
+            "en": "using raceway bearings, e.g. for supporting the turret"
+          }
+        },
+        {
+          "code": "F41A 27/18",
+          "title": {
+            "ko": "포탑용(F41A 27/08이 우선)",
+            "en": "for gun turrets (F41A0027080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 27/20",
+          "title": {
+            "ko": null,
+            "en": "Drives for turret movements"
+          }
+        },
+        {
+          "code": "F41A 27/22",
+          "title": {
+            "ko": "선회기어(F41A 27/18이 우선)",
+            "en": "Traversing gear (F41A0027180000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 27/24",
+          "title": {
+            "ko": "고각기어(elevating gear)(F41A 27/18이 우선)",
+            "en": "Elevating gear (F41A0027180000 takes precedence)"
+          }
+        },
+        {
+          "code": "F41A 27/26",
+          "title": {
+            "ko": "유체작동시스템(F41A 27/02, F41A 27/04, F41A 27/30이 우선)",
+            "en": "Fluid-operated systems (F41A0027020000, F41A0027040000, F41A0027300000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 27/28",
+          "title": {
+            "ko": "전기작동시스템(F41A 27/02, F41A 27/04, F41A 27/30이 우선)",
+            "en": "Electrically-operated systems (F41A0027020000, F41A0027040000, F41A0027300000 take precedence)"
+          }
+        },
+        {
+          "code": "F41A 27/30",
+          "title": {
+            "ko": null,
+            "en": "Stabilisation or compensation systems, e.g. compensating for barrel weight or wind force"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 29/00",
+      "title": {
+        "ko": "세정 및 윤활장치(총포신 또는 약실에 유체를 주입하기 위한 것 F41A 13/04)",
+        "en": "Cleaning or lubricating arrangements (injecting fluids into barrels or cartridge chambers F41A0013040000)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 29/02",
+          "title": {
+            "ko": null,
+            "en": "Scrapers or cleaning rods"
+          }
+        },
+        {
+          "code": "F41A 29/04",
+          "title": {
+            "ko": null,
+            "en": "Lubricating, oiling or greasing means, e.g. operating during use"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 31/00",
+      "title": {
+        "ko": "시험장치(시험포가 F41A 23/16)",
+        "en": "Testing arrangements (testing mounts F41A0023160000)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 31/02",
+          "title": {
+            "ko": null,
+            "en": "for checking gun barrels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 33/00",
+      "title": {
+        "ko": "훈련에 적용(반동강화를 위하여 총포신에 적용 F41A 21/26); 총포 시뮬레이터(총포의 겨냥 또는 지향을 위한 교육 또는 훈련장치 F41G 3/26)",
+        "en": "Adaptations for training (adaptations of barrels for recoil reinforcement F41A0021260000); Gun simulators (teaching or practice apparatus for gun-aiming or gun-laying F41G0003260000)"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 33/02",
+          "title": {
+            "ko": null,
+            "en": "Light- or radiation-emitting guns"
+          }
+        },
+        {
+          "code": "F41A 33/04",
+          "title": {
+            "ko": null,
+            "en": "Acoustical simulation of gun fire, e.g. by pyrotechnic means"
+          }
+        },
+        {
+          "code": "F41A 33/06",
+          "title": {
+            "ko": null,
+            "en": "Recoil simulators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 35/00",
+      "title": {
+        "ko": "달리 분류되지 않는 부속구 또는 세부",
+        "en": "Accessories or details not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F41A 35/02",
+          "title": {
+            "ko": "먼지 또는 악천후 보호 캡 또는 커버(방아쇠울 (trigger guards) 보호캡 F41A 17/54)",
+            "en": "Dust- or weather-protection caps or covers (protecting-caps for trigger guards F41A0017540000)"
+          }
+        },
+        {
+          "code": "F41A 35/04",
+          "title": {
+            "ko": null,
+            "en": "Muzzle covers"
+          }
+        },
+        {
+          "code": "F41A 35/06",
+          "title": {
+            "ko": null,
+            "en": "Adaptation of guns to both right and left hand use"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F41A 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

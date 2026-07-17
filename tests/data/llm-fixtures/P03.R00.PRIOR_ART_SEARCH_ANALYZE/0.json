@@ -1,0 +1,31 @@
+{
+  "invention_summary": "음료 용기가 NTC 서미스터로 측정한 음료 온도에 따라 0~30°C 청색 / 30~50°C 녹색 / 50°C 이상 적색의 RGB LED 색상으로 표시하는 USB-C 충전식 스마트 텀블러 (500ml 트라이탄 본체)",
+  "technical_elements": [
+    "NTC 서미스터를 이용한 음료 온도 측정 (저항형 비선형 응답 곡선 보정 포함)",
+    "MCU 기반 온도-색상 매핑 알고리즘 (3-구간 임계값 분기: 0~30 / 30~50 / 50°C+)",
+    "RGB LED 3개를 이용한 색상 가변 발광부 (적/녹/청 채널 PWM 제어)",
+    "500ml 트라이탄(Tritan) 소재 음료 용기 본체",
+    "USB-C 충전식 리튬이온 배터리 전원부",
+    "온도 센서 ↔ MCU ↔ LED 의 시각 표시 신호 흐름 (closed-loop)"
+  ],
+  "search_queries": [
+    {"text": "음료 용기 온도 표시", "ipc_hint": "", "priority": 1},
+    {"text": "RGB LED 색상 제어", "ipc_hint": "H05B47/00", "priority": 1},
+    {"text": "NTC 서미스터 측정", "ipc_hint": "G01K7/22", "priority": 1},
+    {"text": "스마트 텀블러 LED", "ipc_hint": "", "priority": 2},
+    {"text": "온도 감응 발광 용기", "ipc_hint": "B65D81/18", "priority": 2},
+    {"text": "thermistor beverage container", "ipc_hint": "", "priority": 2},
+    {"text": "temperature responsive LED indicator", "ipc_hint": "", "priority": 3},
+    {"text": "리튬이온 USB-C 텀블러", "ipc_hint": "", "priority": 3}
+  ],
+  "ipc_codes": [
+    "G01K7/22",
+    "G01K1/02",
+    "H05B47/00",
+    "H05B47/19",
+    "B65D81/18",
+    "B65D25/20",
+    "H02J7/00"
+  ],
+  "search_strategy": "1차로 핵심 element 인 RGB LED 색상 제어 + NTC 서미스터 측정 + 음료 용기 본체 세 축의 한국어 ko_short query 로 광범위 탐색. 2차로 IPC class (G01K7/22 서미스터 / H05B47 LED 제어 / B65D81 열표시 용기) 직접 검색으로 분야 누락 보완. 3차로 영문 동의어 (thermistor, temperature responsive LED) 로 영문 명세서 동시 게재 출원 매칭. caller 가 exclude_known 으로 넘긴 출원번호는 dedupe_rank 후처리에서 제외. caller 의 search_focus 가 'RGB LED 색상 제어' 라면 H05B47/00 IPC + 'RGB LED 색상' ko_short 를 priority 1 로 정렬."
+}

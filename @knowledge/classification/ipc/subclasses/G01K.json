@@ -1,0 +1,982 @@
+{
+  "subclass": "G01K",
+  "title": {
+    "ko": "온도의 측정; 열량의 측정; 달리 속하지 않는 감온소자(방사선 고온측정법 G01J 5/00)",
+    "en": "MEASURING TEMPERATURE; MEASURING QUANTITY OF HEAT; THERMALLY-SENSITIVE ELEMENTS NOT OTHERWISE PROVIDED FOR (radiation pyrometry G01J0005000000)"
+  },
+  "definition": {
+    "ko": "온도 측정 동작원리에 특징이 있는 온도계 G01K5/00, G01K7/00, G01K9/00, G01K11/00 순시값 이외의 값을 지시하는 온도계 G01K3/00 세부 G01K1/00 특수한 목적에 대한 온도계의 적응 G01K13/00 온도계의 시험 및 교정 G01K15/00 열량측정; 열량계의 시험 및 교정 G01K17/00; 19/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01K 1/00",
+      "title": {
+        "ko": "특수한 형태의 것이 아닌 온도계의 세부(열 관성 감소용 회로 G01K 7/42)",
+        "en": "Details of thermometers not specially adapted for particular types of thermometer (circuits for reducing thermal inertia G01K0007420000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 1/02",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating or recording specially adapted for thermometers"
+          }
+        },
+        {
+          "code": "G01K 1/022",
+          "title": {
+            "ko": null,
+            "en": "for recording"
+          }
+        },
+        {
+          "code": "G01K 1/024",
+          "title": {
+            "ko": null,
+            "en": "for remote indication"
+          }
+        },
+        {
+          "code": "G01K 1/04",
+          "title": {
+            "ko": null,
+            "en": "Scales"
+          }
+        },
+        {
+          "code": "G01K 1/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for facilitating reading, e.g. illumination, magnifying glass"
+          }
+        },
+        {
+          "code": "G01K 1/08",
+          "title": {
+            "ko": null,
+            "en": "Protective devices, e.g. casings"
+          }
+        },
+        {
+          "code": "G01K 1/10",
+          "title": {
+            "ko": null,
+            "en": "for preventing chemical attack"
+          }
+        },
+        {
+          "code": "G01K 1/12",
+          "title": {
+            "ko": null,
+            "en": "for preventing damage due to heat overloading"
+          }
+        },
+        {
+          "code": "G01K 1/14",
+          "title": {
+            "ko": null,
+            "en": "Supports; Fastening devices; Arrangements for mounting thermometers in particular locations"
+          }
+        },
+        {
+          "code": "G01K 1/143",
+          "title": {
+            "ko": null,
+            "en": "for measuring surface temperatures"
+          }
+        },
+        {
+          "code": "G01K 1/16",
+          "title": {
+            "ko": null,
+            "en": "Special arrangements for conducting heat from the object to the sensitive element"
+          }
+        },
+        {
+          "code": "G01K 1/18",
+          "title": {
+            "ko": null,
+            "en": "for reducing thermal inertia"
+          }
+        },
+        {
+          "code": "G01K 1/20",
+          "title": {
+            "ko": null,
+            "en": "Compensating for effects of temperature changes other than those to be measured, e.g. changes in ambient temperature"
+          }
+        },
+        {
+          "code": "G01K 1/22",
+          "title": {
+            "ko": null,
+            "en": "by means of fluid contained in a hollow body having parts which are deformable or displaceable under the pressure developed by the fluid"
+          }
+        },
+        {
+          "code": "G01K 1/24",
+          "title": {
+            "ko": null,
+            "en": "by means of compounded strips or plates, e.g. bimetallic strips"
+          }
+        },
+        {
+          "code": "G01K 1/26",
+          "title": {
+            "ko": null,
+            "en": "Compensating for effects of pressure changes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 3/00",
+      "title": {
+        "ko": "온도의 순간치 이외의 결과를 나타내는 온도계(G01K 7/42가 우선)",
+        "en": "Thermometers giving results other than momentary value of temperature (G01K0007420000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 3/02",
+          "title": {
+            "ko": null,
+            "en": "giving mean values; giving integrated values"
+          }
+        },
+        {
+          "code": "G01K 3/04",
+          "title": {
+            "ko": null,
+            "en": "in respect of time"
+          }
+        },
+        {
+          "code": "G01K 3/06",
+          "title": {
+            "ko": null,
+            "en": "in respect of space"
+          }
+        },
+        {
+          "code": "G01K 3/08",
+          "title": {
+            "ko": null,
+            "en": "giving differences of values; giving differentiated values"
+          }
+        },
+        {
+          "code": "G01K 3/10",
+          "title": {
+            "ko": null,
+            "en": "in respect of time, e.g. reacting only to a quick change of temperature"
+          }
+        },
+        {
+          "code": "G01K 3/12",
+          "title": {
+            "ko": null,
+            "en": "based upon expansion or contraction of materials"
+          }
+        },
+        {
+          "code": "G01K 3/14",
+          "title": {
+            "ko": null,
+            "en": "in respect of space"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 5/00",
+      "title": {
+        "ko": "물질의 팽창 수축을 기초로한 온도측정(G01K 9/00이 우선; 온도의 순간치 이외의 결과를 나타내는 것 G01K 3/00)",
+        "en": "Measuring temperature based on the expansion or contraction of a material (G01K0009000000 takes precedence;giving other than momentary value of temperature G01K0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 5/02",
+          "title": {
+            "ko": "물질이 액체인 것(G01K 5/32가 우선)",
+            "en": "the material being a liquid (G01K0005320000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 5/04",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01K 5/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for driving back the liquid column"
+          }
+        },
+        {
+          "code": "G01K 5/08",
+          "title": {
+            "ko": null,
+            "en": "Capillary tubes"
+          }
+        },
+        {
+          "code": "G01K 5/10",
+          "title": {
+            "ko": null,
+            "en": "Containers for the liquid"
+          }
+        },
+        {
+          "code": "G01K 5/12",
+          "title": {
+            "ko": null,
+            "en": "Selection of liquid compositions"
+          }
+        },
+        {
+          "code": "G01K 5/14",
+          "title": {
+            "ko": "액체가 다른 액주 또는 고체를 변위시키는 것(최대 또는 최소 지시용 G01K 5/20)",
+            "en": "the liquid displacing a further liquid column or a solid body (for maximum or minimum indication G01K0005200000)"
+          }
+        },
+        {
+          "code": "G01K 5/16",
+          "title": {
+            "ko": null,
+            "en": "with electric contacts"
+          }
+        },
+        {
+          "code": "G01K 5/18",
+          "title": {
+            "ko": null,
+            "en": "with electric conversion means for final indication"
+          }
+        },
+        {
+          "code": "G01K 5/20",
+          "title": {
+            "ko": "최대 최소 또는 그 양쪽을 지시하는 수단을 가진 것(G01K 5/22가 우선)",
+            "en": "with means for indicating a maximum or a minimum or both (G01K0005220000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 5/22",
+          "title": {
+            "ko": null,
+            "en": "with provision for expansion indicating over not more than a few degrees"
+          }
+        },
+        {
+          "code": "G01K 5/24",
+          "title": {
+            "ko": null,
+            "en": "with provision for measuring the difference between two temperatures"
+          }
+        },
+        {
+          "code": "G01K 5/26",
+          "title": {
+            "ko": null,
+            "en": "with provision for adjusting zero point of scale, e.g. Beckmann thermometer"
+          }
+        },
+        {
+          "code": "G01K 5/28",
+          "title": {
+            "ko": "물질이 가스상태인 것(G01K 5/32가 우선)",
+            "en": "the material being a gas (G01K0005320000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 5/30",
+          "title": {
+            "ko": null,
+            "en": "the gas displacing a liquid column"
+          }
+        },
+        {
+          "code": "G01K 5/32",
+          "title": {
+            "ko": "물질에 의해 발생한 압력으로 변형 또는 변위될 수 있는 부재를 가진 중공체에 넣어지는 액체상태 물질(증기에 의해 발생한 압력에 의한 것 G01K 11/04)",
+            "en": "the material being a fluid contained in a hollow body having parts which are deformable or displaceable under the pressure developed by the material (under pressure developed by evaporation G01K0011040000)"
+          }
+        },
+        {
+          "code": "G01K 5/34",
+          "title": {
+            "ko": "부재가 캡슐인 것(G01K 5/36, G01K 5/42가 우선)",
+            "en": "the body being a capsule (G01K0005360000, G01K0005420000 take precedence)"
+          }
+        },
+        {
+          "code": "G01K 5/36",
+          "title": {
+            "ko": null,
+            "en": "the body being a tubular spring, e.g. Bourdon tube"
+          }
+        },
+        {
+          "code": "G01K 5/38",
+          "title": {
+            "ko": null,
+            "en": "of spiral formation"
+          }
+        },
+        {
+          "code": "G01K 5/40",
+          "title": {
+            "ko": null,
+            "en": "of helical formation"
+          }
+        },
+        {
+          "code": "G01K 5/42",
+          "title": {
+            "ko": null,
+            "en": "the body being a bellows"
+          }
+        },
+        {
+          "code": "G01K 5/44",
+          "title": {
+            "ko": null,
+            "en": "the body being a cylinder and piston"
+          }
+        },
+        {
+          "code": "G01K 5/46",
+          "title": {
+            "ko": null,
+            "en": "with electric conversion means for final indication"
+          }
+        },
+        {
+          "code": "G01K 5/48",
+          "title": {
+            "ko": "물질이 고체인 것",
+            "en": "the material being a solid"
+          }
+        },
+        {
+          "code": "G01K 5/50",
+          "title": {
+            "ko": null,
+            "en": "arranged for free expansion or contraction"
+          }
+        },
+        {
+          "code": "G01K 5/52",
+          "title": {
+            "ko": null,
+            "en": "with electrical conversion means for final indication"
+          }
+        },
+        {
+          "code": "G01K 5/54",
+          "title": {
+            "ko": null,
+            "en": "consisting of pivotally-connected elements"
+          }
+        },
+        {
+          "code": "G01K 5/56",
+          "title": {
+            "ko": "팽창 또는 수축이 고체에 변형을 발생하도록 구속하는 것",
+            "en": "constrained so that expansion or contraction causes a deformation of the solid"
+          }
+        },
+        {
+          "code": "G01K 5/58",
+          "title": {
+            "ko": "고체가 1점 이상으로 구속된 것, 예. 막대, 판, 다이어프램(G01K 5/62이 우선)",
+            "en": "the solid body being constrained at more than one point, e.g. rod, plate, diaphragm (G01K0005620000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 5/60",
+          "title": {
+            "ko": null,
+            "en": "the body being a flexible wire or ribbon"
+          }
+        },
+        {
+          "code": "G01K 5/62",
+          "title": {
+            "ko": null,
+            "en": "the solid body being formed of compounded strips or plates, e.g. bimetallic strip"
+          }
+        },
+        {
+          "code": "G01K 5/64",
+          "title": {
+            "ko": null,
+            "en": "Details of the compound system"
+          }
+        },
+        {
+          "code": "G01K 5/66",
+          "title": {
+            "ko": null,
+            "en": "Selection of composition of the components of the system"
+          }
+        },
+        {
+          "code": "G01K 5/68",
+          "title": {
+            "ko": null,
+            "en": "Shape of the system"
+          }
+        },
+        {
+          "code": "G01K 5/70",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for indicating or recording"
+          }
+        },
+        {
+          "code": "G01K 5/72",
+          "title": {
+            "ko": null,
+            "en": "with electric transmission means for final indication"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 7/00",
+      "title": {
+        "ko": "열에 직접 감응하는 전기적 또는 자기적 소자의 사용을 기초한 온도측정(온도의 순시치 이외의 결과를 나타내는 것 G01K 3/00)",
+        "en": "Measuring temperature based on the use of electric or magnetic elements directly sensitive to heat (giving results other than momentary value of temperature G01K0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 7/01",
+          "title": {
+            "ko": "PN 접합을 가지는 반도체를 이용하는 것(G01K 7/02, G01K 7/16, G01K 7/30이 우선)",
+            "en": "using semiconducting elements having PN junctions (G01K0007020000, G01K0007160000, G01K0007300000 take precedence)"
+          }
+        },
+        {
+          "code": "G01K 7/02",
+          "title": {
+            "ko": null,
+            "en": "using thermoelectric elements, e.g. thermocouples"
+          }
+        },
+        {
+          "code": "G01K 7/026",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for signalling failure or disconnection of thermocouples"
+          }
+        },
+        {
+          "code": "G01K 7/04",
+          "title": {
+            "ko": null,
+            "en": "the object to be measured not forming one of the thermoelectric materials"
+          }
+        },
+        {
+          "code": "G01K 7/06",
+          "title": {
+            "ko": null,
+            "en": "the thermoelectric materials being arranged one within the other with the junction at one end exposed to the object, e.g. sheathed type"
+          }
+        },
+        {
+          "code": "G01K 7/08",
+          "title": {
+            "ko": null,
+            "en": "the object to be measured forming one of the thermoelectric materials, e.g. pointed type"
+          }
+        },
+        {
+          "code": "G01K 7/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for compensating for auxiliary variables, e.g. length of lead"
+          }
+        },
+        {
+          "code": "G01K 7/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements with respect to the cold junction, e.g. preventing influence of temperature of surrounding air"
+          }
+        },
+        {
+          "code": "G01K 7/13",
+          "title": {
+            "ko": null,
+            "en": "Circuits for cold-junction compensation"
+          }
+        },
+        {
+          "code": "G01K 7/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for modifying the output characteristic, e.g. linearising"
+          }
+        },
+        {
+          "code": "G01K 7/16",
+          "title": {
+            "ko": "저항소자를 사용하는 것",
+            "en": "using resistive elements"
+          }
+        },
+        {
+          "code": "G01K 7/18",
+          "title": {
+            "ko": "소자가 선형 저항체인 것, 예. 백금저항 온도계(G01K 7/26이 우선)",
+            "en": "the element being a linear resistance, e.g. platinum resistance thermometer (G01K0007260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 7/20",
+          "title": {
+            "ko": null,
+            "en": "in a specially-adapted circuit, e.g. bridge circuit"
+          }
+        },
+        {
+          "code": "G01K 7/21",
+          "title": {
+            "ko": null,
+            "en": "for modifying the output characteristic, e.g. linearising"
+          }
+        },
+        {
+          "code": "G01K 7/22",
+          "title": {
+            "ko": "소자가 비선형 저항체, 예. 서미스터(thermister) (G01K 7/26이 우선)",
+            "en": "the element being a non-linear resistance, e.g. thermistor (G01K0007260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 7/24",
+          "title": {
+            "ko": null,
+            "en": "in a specially-adapted circuit, e.g. bridge circuit"
+          }
+        },
+        {
+          "code": "G01K 7/25",
+          "title": {
+            "ko": null,
+            "en": "for modifying the output characteristic, e.g. linearising"
+          }
+        },
+        {
+          "code": "G01K 7/26",
+          "title": {
+            "ko": null,
+            "en": "the element being an electrolyte"
+          }
+        },
+        {
+          "code": "G01K 7/28",
+          "title": {
+            "ko": null,
+            "en": "in a specially-adapted circuit, e.g. bridge circuit"
+          }
+        },
+        {
+          "code": "G01K 7/30",
+          "title": {
+            "ko": null,
+            "en": "using thermal noise of resistances or conductors"
+          }
+        },
+        {
+          "code": "G01K 7/32",
+          "title": {
+            "ko": null,
+            "en": "using change of resonant frequency of a crystal"
+          }
+        },
+        {
+          "code": "G01K 7/34",
+          "title": {
+            "ko": null,
+            "en": "using capacitative elements"
+          }
+        },
+        {
+          "code": "G01K 7/36",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements, e.g. magnets, coils"
+          }
+        },
+        {
+          "code": "G01K 7/38",
+          "title": {
+            "ko": null,
+            "en": "the variations of temperature influencing the magnetic permeability"
+          }
+        },
+        {
+          "code": "G01K 7/40",
+          "title": {
+            "ko": null,
+            "en": "using ionisation of gases"
+          }
+        },
+        {
+          "code": "G01K 7/42",
+          "title": {
+            "ko": null,
+            "en": "Circuits effecting compensation of thermal inertia; Circuits for predicting the stationary value of a temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 9/00",
+      "title": {
+        "ko": "중량의 재배분에 의해 발생한 움직임을 기초로 한 온도측정, 예. 경사온도계(온도의 순시값을 주지 않는 것 G01K 3/00)",
+        "en": "Measuring temperature based on movements caused by redistribution of weight, e.g. tilting thermometer (not giving momentary value of temperature G01K0003000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 11/00",
+      "title": {
+        "ko": "그룹 G01K 3/00, 5/00, 7/00, 또는 9/00에 포함되지 않는 물리적 또는 화학적 변화를 기초로 한 온도측정",
+        "en": "Measuring temperature based on physical or chemical changes not covered by group G01K0003000000, G01K0005000000, G01K0007000000, or G01K0009000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 11/02",
+          "title": {
+            "ko": null,
+            "en": "using evaporation or sublimation, e.g. by observing boiling"
+          }
+        },
+        {
+          "code": "G01K 11/04",
+          "title": {
+            "ko": null,
+            "en": "from material contained in a hollow body having parts which are deformable or displaceable under the pressure developed by the vapour"
+          }
+        },
+        {
+          "code": "G01K 11/06",
+          "title": {
+            "ko": null,
+            "en": "using melting, freezing, or softening"
+          }
+        },
+        {
+          "code": "G01K 11/08",
+          "title": {
+            "ko": null,
+            "en": "of disposable test bodies, e.g. cone"
+          }
+        },
+        {
+          "code": "G01K 11/10",
+          "title": {
+            "ko": null,
+            "en": "using sintering"
+          }
+        },
+        {
+          "code": "G01K 11/12",
+          "title": {
+            "ko": null,
+            "en": "using changes in colour, translucency or reflectance"
+          }
+        },
+        {
+          "code": "G01K 11/125",
+          "title": {
+            "ko": null,
+            "en": "using changes in reflectance"
+          }
+        },
+        {
+          "code": "G01K 11/14",
+          "title": {
+            "ko": null,
+            "en": "of inorganic materials"
+          }
+        },
+        {
+          "code": "G01K 11/16",
+          "title": {
+            "ko": null,
+            "en": "of organic materials"
+          }
+        },
+        {
+          "code": "G01K 11/165",
+          "title": {
+            "ko": null,
+            "en": "of organic liquid crystals"
+          }
+        },
+        {
+          "code": "G01K 11/18",
+          "title": {
+            "ko": null,
+            "en": "of materials which change translucency"
+          }
+        },
+        {
+          "code": "G01K 11/20",
+          "title": {
+            "ko": "열발광 물질을 사용하는 것(G01K 11/32가 우선)",
+            "en": "using thermoluminescent materials (G01K0011320000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 11/22",
+          "title": {
+            "ko": null,
+            "en": "using measurement of acoustic effects"
+          }
+        },
+        {
+          "code": "G01K 11/24",
+          "title": {
+            "ko": null,
+            "en": "of the velocity of propagation of sound"
+          }
+        },
+        {
+          "code": "G01K 11/26",
+          "title": {
+            "ko": null,
+            "en": "of resonant frequencies"
+          }
+        },
+        {
+          "code": "G01K 11/28",
+          "title": {
+            "ko": null,
+            "en": "using measurements of density"
+          }
+        },
+        {
+          "code": "G01K 11/30",
+          "title": {
+            "ko": null,
+            "en": "using measurement of the effect of a material on X-radiation, gamma radiation or particle radiation"
+          }
+        },
+        {
+          "code": "G01K 11/32",
+          "title": {
+            "ko": null,
+            "en": "using changes in transmittance, scattering or luminescence in optical fibres"
+          }
+        },
+        {
+          "code": "G01K 11/3206",
+          "title": {
+            "ko": null,
+            "en": "at discrete locations in the fibre, e.g. using Bragg scattering"
+          }
+        },
+        {
+          "code": "G01K 11/3213",
+          "title": {
+            "ko": null,
+            "en": "using changes in luminescence, e.g. at the distal end of the fibres"
+          }
+        },
+        {
+          "code": "G01K 11/322",
+          "title": {
+            "ko": null,
+            "en": "using Brillouin scattering"
+          }
+        },
+        {
+          "code": "G01K 11/324",
+          "title": {
+            "ko": null,
+            "en": "using Raman scattering"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 13/00",
+      "title": {
+        "ko": "특수한 목적을 위해 적용된 온도계",
+        "en": "Thermometers specially adapted for specific purposes"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 13/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring temperature of moving fluids or granular materials capable of flow"
+          }
+        },
+        {
+          "code": "G01K 13/024",
+          "title": {
+            "ko": null,
+            "en": "of moving gases"
+          }
+        },
+        {
+          "code": "G01K 13/04",
+          "title": {
+            "ko": null,
+            "en": "for measuring temperature of moving solid bodies"
+          }
+        },
+        {
+          "code": "G01K 13/06",
+          "title": {
+            "ko": null,
+            "en": "in linear movement"
+          }
+        },
+        {
+          "code": "G01K 13/08",
+          "title": {
+            "ko": null,
+            "en": "in rotary movement"
+          }
+        },
+        {
+          "code": "G01K 13/10",
+          "title": {
+            "ko": "퇴적물의 내부온도를 측정하는 것(대상물에서 감응소자에 열을 인도하기 위한 특별한 기구에 의한 것 G01K 1/16)",
+            "en": "for measuring temperature within piled or stacked materials (by special arrangements for conducting heat from the object to the sensitive element G01K0001160000)"
+          }
+        },
+        {
+          "code": "G01K 13/12",
+          "title": {
+            "ko": null,
+            "en": "combined with sampling devices for measuring temperatures of samples of material"
+          }
+        },
+        {
+          "code": "G01K 13/20",
+          "title": {
+            "ko": null,
+            "en": "Clinical contact thermometers for use with humans or animals"
+          }
+        },
+        {
+          "code": "G01K 13/25",
+          "title": {
+            "ko": null,
+            "en": "Protective devices therefor, e.g. sleeves preventing contamination"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 15/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating of thermometers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 17/00",
+      "title": {
+        "ko": "열량의 측정",
+        "en": "Measuring quantity of heat"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 17/02",
+          "title": {
+            "ko": null,
+            "en": "Calorimeters using transport of an indicating substance, e.g. evaporation calorimeters"
+          }
+        },
+        {
+          "code": "G01K 17/04",
+          "title": {
+            "ko": null,
+            "en": "Calorimeters using compensation methods"
+          }
+        },
+        {
+          "code": "G01K 17/06",
+          "title": {
+            "ko": "유동매체에 의해 운반되는 열량의 측정, 예. 가열계에 있어서의 것(G01K 17/02, G01K 17/04가 우선)",
+            "en": "Measuring quantity of heat conveyed by flowing media, e.g. in heating systems (G01K0017020000, G01K0017040000 take precedence)"
+          }
+        },
+        {
+          "code": "G01K 17/08",
+          "title": {
+            "ko": null,
+            "en": "based upon measurement of temperature difference"
+          }
+        },
+        {
+          "code": "G01K 17/10",
+          "title": {
+            "ko": null,
+            "en": "between an inlet and an outlet point, combined with measurement of rate of flow of the medium"
+          }
+        },
+        {
+          "code": "G01K 17/12",
+          "title": {
+            "ko": null,
+            "en": "Indicating product of flow and temperature difference directly"
+          }
+        },
+        {
+          "code": "G01K 17/14",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means for both measurements"
+          }
+        },
+        {
+          "code": "G01K 17/16",
+          "title": {
+            "ko": null,
+            "en": "using electrical means for both measurements"
+          }
+        },
+        {
+          "code": "G01K 17/18",
+          "title": {
+            "ko": null,
+            "en": "using electrical means for one measurement and mechanical means for the other"
+          }
+        },
+        {
+          "code": "G01K 17/20",
+          "title": {
+            "ko": null,
+            "en": "across a radiating surface, combined with ascertainment of the heat-transmission coefficient"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 19/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating calorimeters"
+      },
+      "subgroups": []
+    }
+  ]
+}

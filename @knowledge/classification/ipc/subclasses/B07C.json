@@ -1,0 +1,373 @@
+{
+  "subclass": "B07C",
+  "title": {
+    "ko": "우편에 관한 선별(postal sorting); 개개의 물품(articles) 분류, 피스밀(piecemeal)로 분리되기에 적합한 대량물(bulk material) (다른 클래스에 속하는 특수목적에 특히 적합한 것은, 관련된 클래스를 참조, 예. A43D 33/06, B23Q 7/12)",
+    "en": "POSTAL SORTING; SORTING INDIVIDUAL ARTICLES, OR BULK MATERIAL FIT TO BE SORTED PIECE-MEAL, e.g. BY PICKING (specially adapted for a specific purpose covered by another class, see the relevant place, e.g. A43D0033060000, B23Q0007120000)"
+  },
+  "definition": {
+    "ko": "방법에 특징이 있는 선별 B07C5/00, B07C7/00, B07C99/00 목적지에 따른 선별 B07C1/00, B07C3/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B07C 1/00",
+      "title": {
+        "ko": null,
+        "en": "Postal sorting; Similar sorting of documents, e.g. cheques"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B07C 1/00",
+      "title": {
+        "ko": null,
+        "en": "Measures preceding sorting of mail or documents according to destination"
+      },
+      "subgroups": [
+        {
+          "code": "B07C 1/02",
+          "title": {
+            "ko": null,
+            "en": "Forming articles into a stream; Arranging articles in a stream, e.g. spacing, orientating"
+          }
+        },
+        {
+          "code": "B07C 1/04",
+          "title": {
+            "ko": null,
+            "en": "Forming a stream from a bulk; Controlling the stream, e.g. spacing the articles"
+          }
+        },
+        {
+          "code": "B07C 1/06",
+          "title": {
+            "ko": null,
+            "en": "Orientating; Aligning"
+          }
+        },
+        {
+          "code": "B07C 1/10",
+          "title": {
+            "ko": null,
+            "en": "Sorting according to size or flexibility"
+          }
+        },
+        {
+          "code": "B07C 1/12",
+          "title": {
+            "ko": null,
+            "en": "Separating letters from parcels"
+          }
+        },
+        {
+          "code": "B07C 1/14",
+          "title": {
+            "ko": null,
+            "en": "Sorting according to length or width"
+          }
+        },
+        {
+          "code": "B07C 1/16",
+          "title": {
+            "ko": null,
+            "en": "Sorting according to thickness or stiffness"
+          }
+        },
+        {
+          "code": "B07C 1/18",
+          "title": {
+            "ko": null,
+            "en": "Orientating articles other than in a stream"
+          }
+        },
+        {
+          "code": "B07C 1/20",
+          "title": {
+            "ko": null,
+            "en": "Sorting according to orientation, e.g. according to position of stamp"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B07C 3/00",
+      "title": {
+        "ko": "목적지에 따른 우편 또는 문서의 선별",
+        "en": "Sorting of mail or documents according to destination"
+      },
+      "subgroups": [
+        {
+          "code": "B07C 3/02",
+          "title": {
+            "ko": null,
+            "en": "Apparatus characterised by the means used for distribution"
+          }
+        },
+        {
+          "code": "B07C 3/04",
+          "title": {
+            "ko": null,
+            "en": "Drum-type sorting machines"
+          }
+        },
+        {
+          "code": "B07C 3/06",
+          "title": {
+            "ko": null,
+            "en": "Linear sorting machines in which articles are removed from a stream at selected points"
+          }
+        },
+        {
+          "code": "B07C 3/08",
+          "title": {
+            "ko": null,
+            "en": "using arrangements of conveyors"
+          }
+        },
+        {
+          "code": "B07C 3/10",
+          "title": {
+            "ko": "목적지의 탐지를 위하여 사용하는 수단에 특징이 있는 장치(인쇄 또는 손으로 쓴 문자 또는 기하학적 도형을 독해하는 방법 또는 장치 G06V30/00)",
+            "en": "Apparatus characterised by the means used for detection of the destination  (methods or arrangements for reading and recognising printed or written characters or geometric figures G06V0030000000)"
+          }
+        },
+        {
+          "code": "B07C 3/12",
+          "title": {
+            "ko": "전기식 또는 전자식 검지수단을 사용하는 것(B07C 3/14가 우선)",
+            "en": "using electric or electronic detecting means (B07C0003140000 takes precedence)"
+          }
+        },
+        {
+          "code": "B07C 3/14",
+          "title": {
+            "ko": null,
+            "en": "using light-responsive detecting means"
+          }
+        },
+        {
+          "code": "B07C 3/16",
+          "title": {
+            "ko": null,
+            "en": "using magnetic detecting means"
+          }
+        },
+        {
+          "code": "B07C 3/18",
+          "title": {
+            "ko": null,
+            "en": "Devices or arrangements for indicating destination, e.g. by code marks"
+          }
+        },
+        {
+          "code": "B07C 3/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for facilitating the visual reading of addresses, e.g. display arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B07C 5/00",
+      "title": {
+        "ko": "선별되는 물질 또는 물품의 특색 또는 특징에 따른 선별, 예. 이러한 특색 또는 특징을 검지 또는 측정하는 장치에 의해서 효과가 얻어지는 제어에 의한 것; 수동에 의하여 작동되는 기기에 의한 선별, 예. 스위치(손만에 의한 선별 B07C 7/00; 체에 의한, 스크리닝(screening) 또는 기체의 흐름을 이용하는 것에 의한 고체간의 분리 또는 대량물(bulk material)에 적용하는 건식에 의한 분리 B07B; 동전의 분류 G07D)",
+        "en": "Sorting according to a characteristic or feature of the articles or material being sorted, e.g. by control effected by devices which detect or measure such characteristic or feature; Sorting by manually actuated devices, e.g. switches (sorting by hand only B07C0007000000;separating solids from solids by sieving, screening, or sifting or by using gas currents or other separating by dry methods applicable to bulk material B07B;sorting of coins G07D)"
+      },
+      "subgroups": [
+        {
+          "code": "B07C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Measures preceding sorting, e.g. arranging articles in a stream, orientating"
+          }
+        },
+        {
+          "code": "B07C 5/04",
+          "title": {
+            "ko": "크기에 따른 선별",
+            "en": "Sorting according to size"
+          }
+        },
+        {
+          "code": "B07C 5/06",
+          "title": {
+            "ko": null,
+            "en": "measured mechanically"
+          }
+        },
+        {
+          "code": "B07C 5/07",
+          "title": {
+            "ko": null,
+            "en": "by calipering using relatively moving article-engaging means, e.g. clamps"
+          }
+        },
+        {
+          "code": "B07C 5/08",
+          "title": {
+            "ko": "전기적 또는 전자적으로 측정되는 것(B07C 5/10이 우선)",
+            "en": "measured electrically or electronically (B07C0005100000 takes precedence)"
+          }
+        },
+        {
+          "code": "B07C 5/10",
+          "title": {
+            "ko": null,
+            "en": "measured by light-responsive means"
+          }
+        },
+        {
+          "code": "B07C 5/12",
+          "title": {
+            "ko": "타 분류에 속하지 아니하는 특수물품에 대하여 적용에 특징이 있는 것(알의 선별 A01K 43/00)",
+            "en": "characterised by the application to particular articles, not otherwise provided for (sorting eggs A01K0043000000)"
+          }
+        },
+        {
+          "code": "B07C 5/14",
+          "title": {
+            "ko": null,
+            "en": "Sorting timber or logs"
+          }
+        },
+        {
+          "code": "B07C 5/16",
+          "title": {
+            "ko": "무게에 따른 선별(알의 선별 A01K 43/00; 계량기구 그 자체 G01G)",
+            "en": "Sorting according to weight (sorting eggs A01K0043000000;weighing apparatus per seG01G)"
+          }
+        },
+        {
+          "code": "B07C 5/18",
+          "title": {
+            "ko": null,
+            "en": "using a single stationary weighing mechanism"
+          }
+        },
+        {
+          "code": "B07C 5/20",
+          "title": {
+            "ko": null,
+            "en": "for separating articles of less than a predetermined weight from those of more than that weight"
+          }
+        },
+        {
+          "code": "B07C 5/22",
+          "title": {
+            "ko": null,
+            "en": "using a plurality of stationary weighing mechanisms"
+          }
+        },
+        {
+          "code": "B07C 5/24",
+          "title": {
+            "ko": null,
+            "en": "using moving weighing mechanisms, e.g. moving along a circular path"
+          }
+        },
+        {
+          "code": "B07C 5/26",
+          "title": {
+            "ko": null,
+            "en": "wherein the counterbalancing effect of the weighing mechanisms is varied during such movement"
+          }
+        },
+        {
+          "code": "B07C 5/28",
+          "title": {
+            "ko": null,
+            "en": "using electrical control means"
+          }
+        },
+        {
+          "code": "B07C 5/30",
+          "title": {
+            "ko": null,
+            "en": "with associated counting means"
+          }
+        },
+        {
+          "code": "B07C 5/32",
+          "title": {
+            "ko": null,
+            "en": "with associated check-weighing means"
+          }
+        },
+        {
+          "code": "B07C 5/34",
+          "title": {
+            "ko": null,
+            "en": "Sorting according to other particular properties"
+          }
+        },
+        {
+          "code": "B07C 5/342",
+          "title": {
+            "ko": null,
+            "en": "according to optical properties, e.g. colour"
+          }
+        },
+        {
+          "code": "B07C 5/344",
+          "title": {
+            "ko": null,
+            "en": "according to electric or electromagnetic properties"
+          }
+        },
+        {
+          "code": "B07C 5/346",
+          "title": {
+            "ko": null,
+            "en": "according to radioactive properties"
+          }
+        },
+        {
+          "code": "B07C 5/36",
+          "title": {
+            "ko": null,
+            "en": "Sorting apparatus characterised by the means used for distribution"
+          }
+        },
+        {
+          "code": "B07C 5/38",
+          "title": {
+            "ko": null,
+            "en": "Collecting or arranging articles in groups"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B07C 7/00",
+      "title": {
+        "ko": "손만에 의한 선별",
+        "en": "Sorting by hand only"
+      },
+      "subgroups": [
+        {
+          "code": "B07C 7/02",
+          "title": {
+            "ko": "칸으로 구분된 가구, 예. 분류선반(pigeon holes) (창고선반 B65G)",
+            "en": "Compartmented furniture, e.g. pigeon-holes (storage racks B65G)"
+          }
+        },
+        {
+          "code": "B07C 7/04",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or accessories for hand picking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B07C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "description": "chain_completed(p2) → model.roadmap 미발생(dro:fake) — count 보존은 invoke",
+ "events": [
+  {
+   "type": "chain_completed",
+   "persona": 2,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {},
+  "payload_contains": []
+ }
+}

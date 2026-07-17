@@ -1,0 +1,654 @@
+{
+  "subclass": "H01P",
+  "title": {
+    "ko": "도파관; 도파관형의 공진기, 선로 또는 기타장치 (광주파수로 동작하는 것 G02B)",
+    "en": "WAVEGUIDES; RESONATORS, LINES OR OTHER DEVICES OF THE WAVEGUIDE TYPE (operating at optical frequencies G02B)"
+  },
+  "definition": {
+    "ko": "도파관, 전송선로 H01P3/00 도파관형의 장치 보조장치; 결합장치; 공진기; 지연선로 H01P1/00; 5/00; 7/00; 9/00 제조 H01P11/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H01P 1/00",
+      "title": {
+        "ko": "보조장치(도파관형의 결합장치 H01P 5/00)",
+        "en": "Auxiliary devices (coupling devices of the waveguide type H01P0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01P 1/02",
+          "title": {
+            "ko": null,
+            "en": "Bends; Corners; Twists"
+          }
+        },
+        {
+          "code": "H01P 1/04",
+          "title": {
+            "ko": null,
+            "en": "Fixed joints"
+          }
+        },
+        {
+          "code": "H01P 1/06",
+          "title": {
+            "ko": null,
+            "en": "Movable joints, e.g. rotating joints"
+          }
+        },
+        {
+          "code": "H01P 1/08",
+          "title": {
+            "ko": null,
+            "en": "Dielectric windows"
+          }
+        },
+        {
+          "code": "H01P 1/10",
+          "title": {
+            "ko": "절환용 또는 단속용",
+            "en": "for switching or interrupting"
+          }
+        },
+        {
+          "code": "H01P 1/11",
+          "title": {
+            "ko": null,
+            "en": "by ferromagnetic devices"
+          }
+        },
+        {
+          "code": "H01P 1/12",
+          "title": {
+            "ko": null,
+            "en": "by mechanical chopper"
+          }
+        },
+        {
+          "code": "H01P 1/14",
+          "title": {
+            "ko": "방전장치에 의한 것(방전장치 H01J 17/64)",
+            "en": "by electric discharge devices (discharge devices H01J0017640000)"
+          }
+        },
+        {
+          "code": "H01P 1/15",
+          "title": {
+            "ko": null,
+            "en": "by semiconductor devices"
+          }
+        },
+        {
+          "code": "H01P 1/16",
+          "title": {
+            "ko": null,
+            "en": "for mode selection, e.g. mode suppression or mode promotion; for mode conversion"
+          }
+        },
+        {
+          "code": "H01P 1/161",
+          "title": {
+            "ko": null,
+            "en": "sustaining two independent orthogonal modes, e.g. orthomode transducer"
+          }
+        },
+        {
+          "code": "H01P 1/162",
+          "title": {
+            "ko": null,
+            "en": "absorbing spurious or unwanted modes of propagation"
+          }
+        },
+        {
+          "code": "H01P 1/163",
+          "title": {
+            "ko": null,
+            "en": "specifically adapted for selection or promotion of the TE01 circular-electric mode"
+          }
+        },
+        {
+          "code": "H01P 1/165",
+          "title": {
+            "ko": null,
+            "en": "for rotating the plane of polarisation"
+          }
+        },
+        {
+          "code": "H01P 1/17",
+          "title": {
+            "ko": null,
+            "en": "for producing a continuously rotating polarisation, e.g. circular polarisation"
+          }
+        },
+        {
+          "code": "H01P 1/175",
+          "title": {
+            "ko": null,
+            "en": "using Faraday rotators"
+          }
+        },
+        {
+          "code": "H01P 1/18",
+          "title": {
+            "ko": "위상천이기(H01P 1/165가 우선)",
+            "en": "Phase-shifters (H01P0001165000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/185",
+          "title": {
+            "ko": null,
+            "en": "using a diode or a gas filled discharge tube"
+          }
+        },
+        {
+          "code": "H01P 1/19",
+          "title": {
+            "ko": null,
+            "en": "using a ferromagnetic device"
+          }
+        },
+        {
+          "code": "H01P 1/195",
+          "title": {
+            "ko": null,
+            "en": "having a toroidal shape"
+          }
+        },
+        {
+          "code": "H01P 1/20",
+          "title": {
+            "ko": "주파수 선택장치, 예. 필터",
+            "en": "Frequency-selective devices, e.g. filters"
+          }
+        },
+        {
+          "code": "H01P 1/201",
+          "title": {
+            "ko": "TEM(Transverse Electro Magnetic 파용 필터 (H01P 1/212, 1/213, 1/215, 1/219가 우선)",
+            "en": "Filters for transverse electromagnetic waves (H01P0001212000, H01P0001213000, H01P0001215000, H01P0001219000 take precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/202",
+          "title": {
+            "ko": "동축필터(종속접속동축공동 H01P 1/205)",
+            "en": "Coaxial filters (cascaded coaxial cavities H01P0001205000)"
+          }
+        },
+        {
+          "code": "H01P 1/203",
+          "title": {
+            "ko": null,
+            "en": "Strip line filters"
+          }
+        },
+        {
+          "code": "H01P 1/205",
+          "title": {
+            "ko": "빗살형(comb) 또는 인터디지털(interdigital)형 필터; 종속접속동축공동(H01P 1/203이우선)",
+            "en": "Comb or interdigital filters; Cascaded coaxial cavities (H01P0001203000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/207",
+          "title": {
+            "ko": "중공도파관필터(H01P 1/212, 1/213, 1/215, 1/219 우선)",
+            "en": "Hollow waveguide filters (H01P0001212000, H01P0001213000, H01P0001215000, H01P0001219000 take precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/208",
+          "title": {
+            "ko": "종속접속공동; 중공도파관구조의 내부에 치한 종속접속공진기(H01P 1/205가 우선)",
+            "en": "Cascaded cavities; Cascaded resonators inside a hollow waveguide structure (H01P0001205000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/209",
+          "title": {
+            "ko": null,
+            "en": "comprising one or more branching arms or cavities wholly outside the main waveguide"
+          }
+        },
+        {
+          "code": "H01P 1/211",
+          "title": {
+            "ko": null,
+            "en": "Waffle-iron filters; Corrugated structures"
+          }
+        },
+        {
+          "code": "H01P 1/212",
+          "title": {
+            "ko": "고주파주파수를 억제 또는 감쇠하는 것(H01P 1/215가 우선)",
+            "en": "suppressing or attenuating harmonic frequencies (H01P0001215000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/213",
+          "title": {
+            "ko": "복잡한 또는 계단상의 단면을 갖는 것, 예. 리지(ridge) 또는 요철형상 도파관(H01P 3/14가 우선)",
+            "en": "combining or separating two or more different frequencies (H01P0001215000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/215",
+          "title": {
+            "ko": null,
+            "en": "using ferromagnetic material"
+          }
+        },
+        {
+          "code": "H01P 1/217",
+          "title": {
+            "ko": null,
+            "en": "the ferromagnetic material acting as a tuning element in resonators"
+          }
+        },
+        {
+          "code": "H01P 1/218",
+          "title": {
+            "ko": null,
+            "en": "the ferromagnetic material acting as a frequency selective coupling element, e.g. YIG-filters"
+          }
+        },
+        {
+          "code": "H01P 1/219",
+          "title": {
+            "ko": null,
+            "en": "Evanescent mode filters"
+          }
+        },
+        {
+          "code": "H01P 1/22",
+          "title": {
+            "ko": "감쇠장치(손실이 있는 종단장치 H01P 1/26)",
+            "en": "Attenuating devices (dissipative terminating devices H01P0001260000)"
+          }
+        },
+        {
+          "code": "H01P 1/23",
+          "title": {
+            "ko": null,
+            "en": "using ferromagnetic material"
+          }
+        },
+        {
+          "code": "H01P 1/24",
+          "title": {
+            "ko": null,
+            "en": "Terminating devices"
+          }
+        },
+        {
+          "code": "H01P 1/26",
+          "title": {
+            "ko": null,
+            "en": "Dissipative terminations"
+          }
+        },
+        {
+          "code": "H01P 1/28",
+          "title": {
+            "ko": null,
+            "en": "Short-circuiting plungers"
+          }
+        },
+        {
+          "code": "H01P 1/30",
+          "title": {
+            "ko": null,
+            "en": "for compensation of, or protection against, temperature or moisture effects"
+          }
+        },
+        {
+          "code": "H01P 1/32",
+          "title": {
+            "ko": "비가역성전송장치(H01P 1/02-H01P 1/30이 우선)",
+            "en": "Non-reciprocal transmission devices (H01P0001020000-H01P0001300000 take precedence)"
+          }
+        },
+        {
+          "code": "H01P 1/36",
+          "title": {
+            "ko": null,
+            "en": "Isolators"
+          }
+        },
+        {
+          "code": "H01P 1/365",
+          "title": {
+            "ko": null,
+            "en": "Resonance absorption isolators"
+          }
+        },
+        {
+          "code": "H01P 1/37",
+          "title": {
+            "ko": null,
+            "en": "Field displacement isolators"
+          }
+        },
+        {
+          "code": "H01P 1/375",
+          "title": {
+            "ko": null,
+            "en": "using Faraday rotators"
+          }
+        },
+        {
+          "code": "H01P 1/38",
+          "title": {
+            "ko": "서큘레이터(circulator)",
+            "en": "Circulators"
+          }
+        },
+        {
+          "code": "H01P 1/383",
+          "title": {
+            "ko": null,
+            "en": "Junction circulators, e.g. Y-circulators"
+          }
+        },
+        {
+          "code": "H01P 1/387",
+          "title": {
+            "ko": null,
+            "en": "Strip line circulators"
+          }
+        },
+        {
+          "code": "H01P 1/39",
+          "title": {
+            "ko": null,
+            "en": "Hollow waveguide circulators"
+          }
+        },
+        {
+          "code": "H01P 1/393",
+          "title": {
+            "ko": null,
+            "en": "using Faraday rotators"
+          }
+        },
+        {
+          "code": "H01P 1/397",
+          "title": {
+            "ko": "비가역 위상천이기를 사용하는 것(H01P 1/393이 우선)",
+            "en": "using non-reciprocal phase shifters (H01P0001393000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01P 3/00",
+      "title": {
+        "ko": "도파관; 도파관형의 전송선로",
+        "en": "Waveguides; Transmission lines of the waveguide type"
+      },
+      "subgroups": [
+        {
+          "code": "H01P 3/02",
+          "title": {
+            "ko": null,
+            "en": "with two longitudinal conductors"
+          }
+        },
+        {
+          "code": "H01P 3/04",
+          "title": {
+            "ko": null,
+            "en": "Lines formed as Lecher wire pairs"
+          }
+        },
+        {
+          "code": "H01P 3/06",
+          "title": {
+            "ko": null,
+            "en": "Coaxial lines"
+          }
+        },
+        {
+          "code": "H01P 3/08",
+          "title": {
+            "ko": null,
+            "en": "Microstrips; Strip lines"
+          }
+        },
+        {
+          "code": "H01P 3/10",
+          "title": {
+            "ko": null,
+            "en": "Wire waveguides, i.e. with a single solid longitudinal conductor"
+          }
+        },
+        {
+          "code": "H01P 3/12",
+          "title": {
+            "ko": "중공도파관(H01P 3/20이 우선)",
+            "en": "Hollow waveguides (H01P0003200000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 3/123",
+          "title": {
+            "ko": "복잡한 또는 계단상의 단면을 갖는 것, 예. 리지(ridge) 또는 요상도파관(H01P 3/14가 우선)",
+            "en": "with a complex or stepped cross-section, e.g. ridged or grooved waveguides (H01P0003140000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 3/127",
+          "title": {
+            "ko": null,
+            "en": "with a circular, elliptic, or parabolic cross-section"
+          }
+        },
+        {
+          "code": "H01P 3/13",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for transmission of the TE01 circular-electric mode"
+          }
+        },
+        {
+          "code": "H01P 3/14",
+          "title": {
+            "ko": null,
+            "en": "flexible"
+          }
+        },
+        {
+          "code": "H01P 3/16",
+          "title": {
+            "ko": null,
+            "en": "Dielectric waveguides, i.e. without a longitudinal conductor"
+          }
+        },
+        {
+          "code": "H01P 3/18",
+          "title": {
+            "ko": null,
+            "en": "built-up from several layers to increase operating surface, i.e. alternately conductive and dielectric layers"
+          }
+        },
+        {
+          "code": "H01P 3/20",
+          "title": {
+            "ko": null,
+            "en": "Quasi-optical arrangements for guiding a wave, e.g. focusing by dielectric lenses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01P 5/00",
+      "title": {
+        "ko": "도파관형의 결합장치",
+        "en": "Coupling devices of the waveguide type"
+      },
+      "subgroups": [
+        {
+          "code": "H01P 5/02",
+          "title": {
+            "ko": "일정한 결합계수를 갖는 것(H01P 5/12가 우선)",
+            "en": "with invariable factor of coupling (H01P0005120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 5/04",
+          "title": {
+            "ko": null,
+            "en": "with variable factor of coupling"
+          }
+        },
+        {
+          "code": "H01P 5/08",
+          "title": {
+            "ko": "다른 종류의 선로 또는 장치의 접속용(H01P 1/16, 5/04가 우선; 상이한 치수의 동일한 종류의 선로를 결합하는 것 H01P 5/02)",
+            "en": "for linking lines or devices of different kinds (H01P0001160000, H01P0005040000 take precedence;linking lines of the same kind but with different dimensions H01P0005020000)"
+          }
+        },
+        {
+          "code": "H01P 5/10",
+          "title": {
+            "ko": null,
+            "en": "for coupling balanced lines or devices with unbalanced lines or devices"
+          }
+        },
+        {
+          "code": "H01P 5/103",
+          "title": {
+            "ko": null,
+            "en": "Hollow-waveguide/coaxial-line transitions"
+          }
+        },
+        {
+          "code": "H01P 5/107",
+          "title": {
+            "ko": null,
+            "en": "Hollow-waveguide/strip-line transitions"
+          }
+        },
+        {
+          "code": "H01P 5/12",
+          "title": {
+            "ko": "2개이상의 단자를 갖는 결합장치(H01P 5/04가 우선)",
+            "en": "Coupling devices having more than two ports (H01P0005040000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01P 5/16",
+          "title": {
+            "ko": null,
+            "en": "Conjugate devices, i.e. devices having at least one port decoupled from one other port"
+          }
+        },
+        {
+          "code": "H01P 5/18",
+          "title": {
+            "ko": null,
+            "en": "consisting of two coupled guides, e.g. directional couplers"
+          }
+        },
+        {
+          "code": "H01P 5/19",
+          "title": {
+            "ko": null,
+            "en": "of the junction type"
+          }
+        },
+        {
+          "code": "H01P 5/20",
+          "title": {
+            "ko": null,
+            "en": "Magic-T junctions"
+          }
+        },
+        {
+          "code": "H01P 5/22",
+          "title": {
+            "ko": null,
+            "en": "Hybrid ring junctions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01P 7/00",
+      "title": {
+        "ko": null,
+        "en": "Resonators of the waveguide type"
+      },
+      "subgroups": [
+        {
+          "code": "H01P 7/02",
+          "title": {
+            "ko": null,
+            "en": "Lecher resonators"
+          }
+        },
+        {
+          "code": "H01P 7/04",
+          "title": {
+            "ko": null,
+            "en": "Coaxial resonators"
+          }
+        },
+        {
+          "code": "H01P 7/06",
+          "title": {
+            "ko": null,
+            "en": "Cavity resonators"
+          }
+        },
+        {
+          "code": "H01P 7/08",
+          "title": {
+            "ko": null,
+            "en": "Strip line resonators"
+          }
+        },
+        {
+          "code": "H01P 7/10",
+          "title": {
+            "ko": null,
+            "en": "Dielectric resonators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01P 9/00",
+      "title": {
+        "ko": null,
+        "en": "Delay lines of the waveguide type"
+      },
+      "subgroups": [
+        {
+          "code": "H01P 9/02",
+          "title": {
+            "ko": null,
+            "en": "Helical lines"
+          }
+        },
+        {
+          "code": "H01P 9/04",
+          "title": {
+            "ko": null,
+            "en": "Interdigital lines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01P 11/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes specially adapted for manufacturing waveguides or resonators, lines, or other devices of the waveguide type"
+      },
+      "subgroups": []
+    }
+  ]
+}

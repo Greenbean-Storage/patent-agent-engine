@@ -1,0 +1,2525 @@
+{
+  "subclass": "H04W",
+  "title": {
+    "ko": "무선 통신 네트워크 (방송 통신 H04H; 비선택적 통신을 위한 무선 링크를 사용하는 통신 시스템, 예. 무선 증설 H04M 1/72)",
+    "en": "WIRELESS COMMUNICATION NETWORKS (broadcast communication H04H;communication systems using wireless links for non-selective communication, e.g. wireless extensions H04M0001720000)"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스는 다음과 같은 사항을 다룬다. [2009.01] • 이러한 무선통신링크를 통한 정보전달을 목적으로 원하는 수의 사용자간 또는 사용자와 네트워크장치간의 하나 또는 복수의 무선통신링크를 선별적으로 수립하기 위한 통신네트워크 • 네트워크에 연결된 무선 사용자들의 이동성 관리를 위해 기반시설을 배치한 네트워크, 예, 셀룰러 네트워크, WLAN [Wireless Local Area Network], 무선 접속 네트워크, 예, WLL [Wireless Local Loop] 또는, 자가 조직형 무선통신 네트워크(self-organising wireless communication networks), 예. 임시 네트워크(ad hoc networks) • 상기에 언급된 무선네트워크에 특히 적합한 계획 또는 배치 [2009.01] • 상기에 언급된 무선네트워크에 특히 적합한 서비스 또는 설비 • 상기에 언급된 무선네트워크의 작동에 특히 적합한 장치 또는 기술 2. 이 서브클래스는 아래사항을 포함하지 않는다:[2009.01] • 무선내선(wireless extension)을 사용하는 통신시스템, 즉, 선별적 통신이 없는 무선 링크 예, 무선 전화기 (이것은 그룹 H04M 1/72에 포함됨) • 방송통신 (이것은 서브클래스 H04H에 포함됨)",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04W 4/00",
+      "title": {
+        "ko": "무선 통신 네트워크에 특별히 적합한 서비스; 그 시설들",
+        "en": "Services specially adapted for wireless communication networks; Facilities therefor"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 4/02",
+          "title": {
+            "ko": null,
+            "en": "Services making use of location information"
+          }
+        },
+        {
+          "code": "H04W 4/021",
+          "title": {
+            "ko": null,
+            "en": "Services related to particular areas, e.g. point of interest [POI] services, venue services or geofences"
+          }
+        },
+        {
+          "code": "H04W 4/024",
+          "title": {
+            "ko": null,
+            "en": "Guidance services"
+          }
+        },
+        {
+          "code": "H04W 4/029",
+          "title": {
+            "ko": null,
+            "en": "Location-based management or tracking services"
+          }
+        },
+        {
+          "code": "H04W 4/06",
+          "title": {
+            "ko": null,
+            "en": "Selective distribution of broadcast services, e.g. multimedia broadcast multicast service [MBMS]; Services to user groups; One-way selective calling services"
+          }
+        },
+        {
+          "code": "H04W 4/08",
+          "title": {
+            "ko": null,
+            "en": "User group management"
+          }
+        },
+        {
+          "code": "H04W 4/10",
+          "title": {
+            "ko": null,
+            "en": "Push-to-talk [PTT] or push-on-call services"
+          }
+        },
+        {
+          "code": "H04W 4/12",
+          "title": {
+            "ko": null,
+            "en": "Messaging; Mailboxes; Announcements"
+          }
+        },
+        {
+          "code": "H04W 4/14",
+          "title": {
+            "ko": null,
+            "en": "Short messaging services, e.g. short message service [SMS] or unstructured supplementary service data  [USSD]"
+          }
+        },
+        {
+          "code": "H04W 4/16",
+          "title": {
+            "ko": null,
+            "en": "Communication-related supplementary services, e.g. call-transfer or call-hold"
+          }
+        },
+        {
+          "code": "H04W 4/18",
+          "title": {
+            "ko": null,
+            "en": "Information format or content conversion, e.g. adaptation by the network of the transmitted or received information for the purpose of wireless delivery to users or terminals"
+          }
+        },
+        {
+          "code": "H04W 4/20",
+          "title": {
+            "ko": null,
+            "en": "Services signalling; Auxiliary data signalling, i.e. transmitting data via a non-traffic channel"
+          }
+        },
+        {
+          "code": "H04W 4/21",
+          "title": {
+            "ko": null,
+            "en": "for social networking applications"
+          }
+        },
+        {
+          "code": "H04W 4/23",
+          "title": {
+            "ko": null,
+            "en": "for mobile advertising"
+          }
+        },
+        {
+          "code": "H04W 4/24",
+          "title": {
+            "ko": null,
+            "en": "Accounting or billing"
+          }
+        },
+        {
+          "code": "H04W 4/30",
+          "title": {
+            "ko": "특정 환경, 상황 또는 목적에 맞게 특별히 조정 된 서비스",
+            "en": "Services specially adapted for particular environments, situations or purposes"
+          }
+        },
+        {
+          "code": "H04W 4/33",
+          "title": {
+            "ko": null,
+            "en": "for indoor environments, e.g. buildings"
+          }
+        },
+        {
+          "code": "H04W 4/35",
+          "title": {
+            "ko": null,
+            "en": "for the management of goods or merchandise"
+          }
+        },
+        {
+          "code": "H04W 4/38",
+          "title": {
+            "ko": null,
+            "en": "for collecting sensor information"
+          }
+        },
+        {
+          "code": "H04W 4/40",
+          "title": {
+            "ko": "차량용 예. 차량 대 보행자 [V2P]",
+            "en": "for vehicles, e.g. vehicle-to-pedestrians [V2P]"
+          }
+        },
+        {
+          "code": "H04W 4/42",
+          "title": {
+            "ko": null,
+            "en": "for mass transport vehicles, e.g. buses, trains or aircraft"
+          }
+        },
+        {
+          "code": "H04W 4/44",
+          "title": {
+            "ko": "차량과 사회기반시설 사이의 통신용, 예. vehicle-to-cloud [V2C] 또는 vehicle-to-home [V2H]",
+            "en": "for communication between vehicles and infrastructures, e.g. vehicle-to-cloud [V2C] or vehicle-to-home [V2H]"
+          }
+        },
+        {
+          "code": "H04W 4/46",
+          "title": {
+            "ko": null,
+            "en": "for vehicle-to-vehicle communication [V2V]"
+          }
+        },
+        {
+          "code": "H04W 4/48",
+          "title": {
+            "ko": null,
+            "en": "for in-vehicle communication"
+          }
+        },
+        {
+          "code": "H04W 4/50",
+          "title": {
+            "ko": null,
+            "en": "Service provisioning or reconfiguring"
+          }
+        },
+        {
+          "code": "H04W 4/60",
+          "title": {
+            "ko": null,
+            "en": "Subscription-based services using application servers or record carriers, e.g. SIM application toolkits"
+          }
+        },
+        {
+          "code": "H04W 4/70",
+          "title": {
+            "ko": null,
+            "en": "Services for machine-to-machine communication [M2M] or machine type communication [MTC]"
+          }
+        },
+        {
+          "code": "H04W 4/80",
+          "title": {
+            "ko": null,
+            "en": "Services using short range communication, e.g. near-field communication [NFC], radio-frequency identification [RFID] or low energy communication"
+          }
+        },
+        {
+          "code": "H04W 4/90",
+          "title": {
+            "ko": null,
+            "en": "Services for handling of emergency or hazardous situations, e.g. earthquake and tsunami warning systems [ETWS]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 8/00",
+      "title": {
+        "ko": null,
+        "en": "Network data management"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 8/02",
+          "title": {
+            "ko": null,
+            "en": "Processing of mobility data, e.g. registration information at HLR [Home Location Register] or VLR [Visitor Location Register]; Transfer of mobility data, e.g. between HLR, VLR or external networks"
+          }
+        },
+        {
+          "code": "H04W 8/04",
+          "title": {
+            "ko": null,
+            "en": "Registration at HLR or HSS [Home Subscriber Server]"
+          }
+        },
+        {
+          "code": "H04W 8/06",
+          "title": {
+            "ko": null,
+            "en": "Registration at serving network Location Register, VLR or user mobility server"
+          }
+        },
+        {
+          "code": "H04W 8/08",
+          "title": {
+            "ko": null,
+            "en": "Mobility data transfer"
+          }
+        },
+        {
+          "code": "H04W 8/10",
+          "title": {
+            "ko": null,
+            "en": "between location register and external networks"
+          }
+        },
+        {
+          "code": "H04W 8/12",
+          "title": {
+            "ko": null,
+            "en": "between location registers or mobility servers"
+          }
+        },
+        {
+          "code": "H04W 8/14",
+          "title": {
+            "ko": null,
+            "en": "between corresponding nodes"
+          }
+        },
+        {
+          "code": "H04W 8/16",
+          "title": {
+            "ko": null,
+            "en": "selectively restricting mobility tracking"
+          }
+        },
+        {
+          "code": "H04W 8/18",
+          "title": {
+            "ko": null,
+            "en": "Processing of user or subscriber data, e.g. subscribed services, user preferences or user profiles; Transfer of user or subscriber data"
+          }
+        },
+        {
+          "code": "H04W 8/20",
+          "title": {
+            "ko": null,
+            "en": "Transfer of user or subscriber data"
+          }
+        },
+        {
+          "code": "H04W 8/22",
+          "title": {
+            "ko": null,
+            "en": "Processing or transfer of terminal data, e.g. status or physical capabilities"
+          }
+        },
+        {
+          "code": "H04W 8/24",
+          "title": {
+            "ko": null,
+            "en": "Transfer of terminal data"
+          }
+        },
+        {
+          "code": "H04W 8/26",
+          "title": {
+            "ko": null,
+            "en": "Network addressing or numbering for mobility support"
+          }
+        },
+        {
+          "code": "H04W 8/28",
+          "title": {
+            "ko": null,
+            "en": "Number portability"
+          }
+        },
+        {
+          "code": "H04W 8/30",
+          "title": {
+            "ko": null,
+            "en": "Network data restoration"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 12/00",
+      "title": {
+        "ko": null,
+        "en": "Security arrangements; Authentication; Protecting privacy or anonymity"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 12/02",
+          "title": {
+            "ko": null,
+            "en": "Protecting privacy or anonymity, e.g. protecting personally identifiable information [PII]"
+          }
+        },
+        {
+          "code": "H04W 12/03",
+          "title": {
+            "ko": null,
+            "en": "Protecting confidentiality, e.g. by encryption"
+          }
+        },
+        {
+          "code": "H04W 12/033",
+          "title": {
+            "ko": null,
+            "en": "of the user plane, e.g. user’s traffic"
+          }
+        },
+        {
+          "code": "H04W 12/037",
+          "title": {
+            "ko": null,
+            "en": "of the control plane, e.g. signalling traffic"
+          }
+        },
+        {
+          "code": "H04W 12/04",
+          "title": {
+            "ko": null,
+            "en": "Key management, e.g. using generic bootstrapping architecture [GBA]"
+          }
+        },
+        {
+          "code": "H04W 12/041",
+          "title": {
+            "ko": null,
+            "en": "Key generation or derivation"
+          }
+        },
+        {
+          "code": "H04W 12/043",
+          "title": {
+            "ko": null,
+            "en": "using a trusted network node as an anchor"
+          }
+        },
+        {
+          "code": "H04W 12/0431",
+          "title": {
+            "ko": null,
+            "en": "Key distribution or pre-distribution; Key agreement"
+          }
+        },
+        {
+          "code": "H04W 12/0433",
+          "title": {
+            "ko": null,
+            "en": "Key management protocols"
+          }
+        },
+        {
+          "code": "H04W 12/047",
+          "title": {
+            "ko": null,
+            "en": "without using a trusted network node as an anchor"
+          }
+        },
+        {
+          "code": "H04W 12/0471",
+          "title": {
+            "ko": null,
+            "en": "Key exchange"
+          }
+        },
+        {
+          "code": "H04W 12/06",
+          "title": {
+            "ko": null,
+            "en": "Authentication"
+          }
+        },
+        {
+          "code": "H04W 12/062",
+          "title": {
+            "ko": null,
+            "en": "Pre-authentication"
+          }
+        },
+        {
+          "code": "H04W 12/065",
+          "title": {
+            "ko": null,
+            "en": "Continuous authentication"
+          }
+        },
+        {
+          "code": "H04W 12/069",
+          "title": {
+            "ko": null,
+            "en": "using certificates or pre-shared keys"
+          }
+        },
+        {
+          "code": "H04W 12/08",
+          "title": {
+            "ko": null,
+            "en": "Access security"
+          }
+        },
+        {
+          "code": "H04W 12/082",
+          "title": {
+            "ko": null,
+            "en": "using revocation of authorisation"
+          }
+        },
+        {
+          "code": "H04W 12/084",
+          "title": {
+            "ko": null,
+            "en": "using delegated authorisation, e.g. open authorisation [OAuth] protocol"
+          }
+        },
+        {
+          "code": "H04W 12/086",
+          "title": {
+            "ko": null,
+            "en": "using security domains"
+          }
+        },
+        {
+          "code": "H04W 12/088",
+          "title": {
+            "ko": null,
+            "en": "using filters or firewalls"
+          }
+        },
+        {
+          "code": "H04W 12/10",
+          "title": {
+            "ko": null,
+            "en": "Integrity"
+          }
+        },
+        {
+          "code": "H04W 12/102",
+          "title": {
+            "ko": null,
+            "en": "Route integrity, e.g. using trusted paths"
+          }
+        },
+        {
+          "code": "H04W 12/104",
+          "title": {
+            "ko": null,
+            "en": "Location integrity, e.g. secure geotagging"
+          }
+        },
+        {
+          "code": "H04W 12/106",
+          "title": {
+            "ko": null,
+            "en": "Packet or message integrity"
+          }
+        },
+        {
+          "code": "H04W 12/108",
+          "title": {
+            "ko": null,
+            "en": "Source integrity"
+          }
+        },
+        {
+          "code": "H04W 12/12",
+          "title": {
+            "ko": null,
+            "en": "Detection or prevention of fraud"
+          }
+        },
+        {
+          "code": "H04W 12/121",
+          "title": {
+            "ko": null,
+            "en": "Wireless intrusion detection systems [WIDS]; Wireless intrusion prevention systems [WIPS]"
+          }
+        },
+        {
+          "code": "H04W 12/122",
+          "title": {
+            "ko": null,
+            "en": "Counter-measures against attacks; Protection against rogue devices"
+          }
+        },
+        {
+          "code": "H04W 12/125",
+          "title": {
+            "ko": null,
+            "en": "Protection against power exhaustion attacks"
+          }
+        },
+        {
+          "code": "H04W 12/126",
+          "title": {
+            "ko": null,
+            "en": "Anti-theft arrangements, e.g. protection against subscriber identity module [SIM] cloning"
+          }
+        },
+        {
+          "code": "H04W 12/128",
+          "title": {
+            "ko": null,
+            "en": "Anti-malware arrangements, e.g. protection against SMS fraud or mobile malware"
+          }
+        },
+        {
+          "code": "H04W 12/30",
+          "title": {
+            "ko": null,
+            "en": "Security of mobile devices; Security of mobile applications"
+          }
+        },
+        {
+          "code": "H04W 12/33",
+          "title": {
+            "ko": null,
+            "en": "using wearable devices, e.g. using a smartwatch or smart-glasses"
+          }
+        },
+        {
+          "code": "H04W 12/37",
+          "title": {
+            "ko": null,
+            "en": "Managing security policies for mobile devices or for controlling mobile applications"
+          }
+        },
+        {
+          "code": "H04W 12/40",
+          "title": {
+            "ko": null,
+            "en": "Security arrangements using identity modules"
+          }
+        },
+        {
+          "code": "H04W 12/42",
+          "title": {
+            "ko": null,
+            "en": "using virtual identity modules"
+          }
+        },
+        {
+          "code": "H04W 12/43",
+          "title": {
+            "ko": null,
+            "en": "using shared identity modules, e.g. SIM sharing"
+          }
+        },
+        {
+          "code": "H04W 12/45",
+          "title": {
+            "ko": null,
+            "en": "using multiple identity modules"
+          }
+        },
+        {
+          "code": "H04W 12/47",
+          "title": {
+            "ko": null,
+            "en": "using near field communication [NFC] or radio frequency identification [RFID] modules"
+          }
+        },
+        {
+          "code": "H04W 12/48",
+          "title": {
+            "ko": null,
+            "en": "using secure binding, e.g. securely binding identity modules to devices, services or applications"
+          }
+        },
+        {
+          "code": "H04W 12/50",
+          "title": {
+            "ko": null,
+            "en": "Secure pairing of devices"
+          }
+        },
+        {
+          "code": "H04W 12/55",
+          "title": {
+            "ko": null,
+            "en": "involving three or more devices, e.g. group pairing"
+          }
+        },
+        {
+          "code": "H04W 12/60",
+          "title": {
+            "ko": null,
+            "en": "Context-dependent security"
+          }
+        },
+        {
+          "code": "H04W 12/61",
+          "title": {
+            "ko": null,
+            "en": "Time-dependent"
+          }
+        },
+        {
+          "code": "H04W 12/63",
+          "title": {
+            "ko": null,
+            "en": "Location-dependent; Proximity-dependent"
+          }
+        },
+        {
+          "code": "H04W 12/64",
+          "title": {
+            "ko": null,
+            "en": "using geofenced areas"
+          }
+        },
+        {
+          "code": "H04W 12/65",
+          "title": {
+            "ko": null,
+            "en": "Environment-dependent, e.g. using captured environmental data"
+          }
+        },
+        {
+          "code": "H04W 12/67",
+          "title": {
+            "ko": null,
+            "en": "Risk-dependent, e.g. selecting a security level depending on risk profiles"
+          }
+        },
+        {
+          "code": "H04W 12/68",
+          "title": {
+            "ko": null,
+            "en": "Gesture-dependent or behaviour-dependent"
+          }
+        },
+        {
+          "code": "H04W 12/69",
+          "title": {
+            "ko": null,
+            "en": "Identity-dependent"
+          }
+        },
+        {
+          "code": "H04W 12/71",
+          "title": {
+            "ko": null,
+            "en": "Hardware identity"
+          }
+        },
+        {
+          "code": "H04W 12/72",
+          "title": {
+            "ko": null,
+            "en": "Subscriber identity"
+          }
+        },
+        {
+          "code": "H04W 12/73",
+          "title": {
+            "ko": null,
+            "en": "Access point logical identity"
+          }
+        },
+        {
+          "code": "H04W 12/75",
+          "title": {
+            "ko": null,
+            "en": "Temporary identity"
+          }
+        },
+        {
+          "code": "H04W 12/76",
+          "title": {
+            "ko": null,
+            "en": "Group identity"
+          }
+        },
+        {
+          "code": "H04W 12/77",
+          "title": {
+            "ko": null,
+            "en": "Graphical identity"
+          }
+        },
+        {
+          "code": "H04W 12/79",
+          "title": {
+            "ko": null,
+            "en": "Radio fingerprint"
+          }
+        },
+        {
+          "code": "H04W 12/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangements enabling lawful interception [LI]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 16/00",
+      "title": {
+        "ko": null,
+        "en": "Network planning, e.g. coverage or traffic planning tools; Network deployment, e.g. resource partitioning or cell structures"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 16/02",
+          "title": {
+            "ko": null,
+            "en": "Resource partitioning among network components, e.g. reuse partitioning"
+          }
+        },
+        {
+          "code": "H04W 16/04",
+          "title": {
+            "ko": null,
+            "en": "Traffic adaptive resource partitioning"
+          }
+        },
+        {
+          "code": "H04W 16/06",
+          "title": {
+            "ko": null,
+            "en": "Hybrid resource partitioning, e.g. channel borrowing"
+          }
+        },
+        {
+          "code": "H04W 16/08",
+          "title": {
+            "ko": null,
+            "en": "Load shedding arrangements"
+          }
+        },
+        {
+          "code": "H04W 16/10",
+          "title": {
+            "ko": null,
+            "en": "Dynamic resource partitioning"
+          }
+        },
+        {
+          "code": "H04W 16/12",
+          "title": {
+            "ko": null,
+            "en": "Fixed resource partitioning"
+          }
+        },
+        {
+          "code": "H04W 16/14",
+          "title": {
+            "ko": null,
+            "en": "Spectrum sharing arrangements"
+          }
+        },
+        {
+          "code": "H04W 16/16",
+          "title": {
+            "ko": null,
+            "en": "for PBS [Private Base Station] arrangements"
+          }
+        },
+        {
+          "code": "H04W 16/18",
+          "title": {
+            "ko": null,
+            "en": "Network planning tools"
+          }
+        },
+        {
+          "code": "H04W 16/20",
+          "title": {
+            "ko": null,
+            "en": "for indoor coverage or short range network deployment"
+          }
+        },
+        {
+          "code": "H04W 16/22",
+          "title": {
+            "ko": null,
+            "en": "Traffic simulation tools or models"
+          }
+        },
+        {
+          "code": "H04W 16/24",
+          "title": {
+            "ko": null,
+            "en": "Cell structures"
+          }
+        },
+        {
+          "code": "H04W 16/26",
+          "title": {
+            "ko": null,
+            "en": "Cell enhancers, e.g. for tunnels or building shadow"
+          }
+        },
+        {
+          "code": "H04W 16/28",
+          "title": {
+            "ko": null,
+            "en": "using beam steering"
+          }
+        },
+        {
+          "code": "H04W 16/30",
+          "title": {
+            "ko": null,
+            "en": "Special cell shapes, e.g. doughnuts or ring cells"
+          }
+        },
+        {
+          "code": "H04W 16/32",
+          "title": {
+            "ko": null,
+            "en": "Hierarchical cell structures"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 24/00",
+      "title": {
+        "ko": null,
+        "en": "Supervisory, monitoring or testing arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 24/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for optimising operational condition"
+          }
+        },
+        {
+          "code": "H04W 24/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for maintaining operational condition"
+          }
+        },
+        {
+          "code": "H04W 24/06",
+          "title": {
+            "ko": null,
+            "en": "Testing using simulated traffic"
+          }
+        },
+        {
+          "code": "H04W 24/08",
+          "title": {
+            "ko": null,
+            "en": "Testing using real traffic"
+          }
+        },
+        {
+          "code": "H04W 24/10",
+          "title": {
+            "ko": null,
+            "en": "Scheduling measurement reports"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 28/00",
+      "title": {
+        "ko": "네트워크 트래픽 관리; 네트워크 자원 관리",
+        "en": "Network traffic management; Network resource management"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 28/02",
+          "title": {
+            "ko": "트래픽 관리, 예. 흐름 제어 또는 정체 제어",
+            "en": "Traffic management, e.g. flow control or congestion control"
+          }
+        },
+        {
+          "code": "H04W 28/04",
+          "title": {
+            "ko": null,
+            "en": "Error control"
+          }
+        },
+        {
+          "code": "H04W 28/06",
+          "title": {
+            "ko": null,
+            "en": "Optimising, e.g. header compression, information sizing"
+          }
+        },
+        {
+          "code": "H04W 28/08",
+          "title": {
+            "ko": "부하 분산(balancing) 또는 부하 배분 (트래픽 처리를 위한 연결 전송 H04W36/22; 무선 트래픽 스케줄링 H04W72/12)",
+            "en": "Load balancing or load distribution  (transferring a connection for handling the traffic H04W0036220000; wireless traffic scheduling H04W0072120000)"
+          }
+        },
+        {
+          "code": "H04W 28/082",
+          "title": {
+            "ko": null,
+            "en": "among bearers or channels"
+          }
+        },
+        {
+          "code": "H04W 28/084",
+          "title": {
+            "ko": null,
+            "en": "among network function virtualisation [NFV] entities; among edge computing entities, e.g. multi-access edge computing"
+          }
+        },
+        {
+          "code": "H04W 28/086",
+          "title": {
+            "ko": null,
+            "en": "among access entities"
+          }
+        },
+        {
+          "code": "H04W 28/088",
+          "title": {
+            "ko": null,
+            "en": "among core entities"
+          }
+        },
+        {
+          "code": "H04W 28/10",
+          "title": {
+            "ko": null,
+            "en": "Flow control"
+          }
+        },
+        {
+          "code": "H04W 28/12",
+          "title": {
+            "ko": null,
+            "en": "using signalling between network elements"
+          }
+        },
+        {
+          "code": "H04W 28/14",
+          "title": {
+            "ko": null,
+            "en": "using intermediate storage"
+          }
+        },
+        {
+          "code": "H04W 28/16",
+          "title": {
+            "ko": null,
+            "en": "Central resource management; Negotiation of resources or communication parameters, e.g. negotiating bandwidth or QoS [Quality of Service]"
+          }
+        },
+        {
+          "code": "H04W 28/18",
+          "title": {
+            "ko": null,
+            "en": "Negotiating wireless communication parameters"
+          }
+        },
+        {
+          "code": "H04W 28/20",
+          "title": {
+            "ko": null,
+            "en": "Negotiating bandwidth"
+          }
+        },
+        {
+          "code": "H04W 28/22",
+          "title": {
+            "ko": null,
+            "en": "Negotiating communication rate"
+          }
+        },
+        {
+          "code": "H04W 28/24",
+          "title": {
+            "ko": null,
+            "en": "Negotiating SLA [Service Level Agreement]; Negotiating QoS [Quality of Service]"
+          }
+        },
+        {
+          "code": "H04W 28/26",
+          "title": {
+            "ko": null,
+            "en": "Resource reservation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 36/00",
+      "title": {
+        "ko": null,
+        "en": "Handoff or reselecting arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 36/02",
+          "title": {
+            "ko": null,
+            "en": "Buffering or recovering information during reselection"
+          }
+        },
+        {
+          "code": "H04W 36/04",
+          "title": {
+            "ko": null,
+            "en": "Reselecting a cell layer in multi-layered cells"
+          }
+        },
+        {
+          "code": "H04W 36/06",
+          "title": {
+            "ko": null,
+            "en": "Reselecting a communication resource in the serving access point"
+          }
+        },
+        {
+          "code": "H04W 36/08",
+          "title": {
+            "ko": null,
+            "en": "Reselecting an access point"
+          }
+        },
+        {
+          "code": "H04W 36/10",
+          "title": {
+            "ko": null,
+            "en": "Reselecting an access point controller"
+          }
+        },
+        {
+          "code": "H04W 36/12",
+          "title": {
+            "ko": null,
+            "en": "Reselecting a serving backbone network switching or routing node"
+          }
+        },
+        {
+          "code": "H04W 36/14",
+          "title": {
+            "ko": null,
+            "en": "Reselecting a network or an air interface"
+          }
+        },
+        {
+          "code": "H04W 36/16",
+          "title": {
+            "ko": null,
+            "en": "Performing reselection for specific purposes"
+          }
+        },
+        {
+          "code": "H04W 36/18",
+          "title": {
+            "ko": null,
+            "en": "for allowing seamless reselection, e.g. soft reselection"
+          }
+        },
+        {
+          "code": "H04W 36/20",
+          "title": {
+            "ko": null,
+            "en": "for optimising the interference level"
+          }
+        },
+        {
+          "code": "H04W 36/22",
+          "title": {
+            "ko": null,
+            "en": "for handling the traffic"
+          }
+        },
+        {
+          "code": "H04W 36/24",
+          "title": {
+            "ko": null,
+            "en": "Reselection being triggered by specific parameters"
+          }
+        },
+        {
+          "code": "H04W 36/26",
+          "title": {
+            "ko": null,
+            "en": "by agreed or negotiated communication parameters"
+          }
+        },
+        {
+          "code": "H04W 36/28",
+          "title": {
+            "ko": null,
+            "en": "involving a plurality of connections, e.g. multi-call or multi-bearer connections"
+          }
+        },
+        {
+          "code": "H04W 36/30",
+          "title": {
+            "ko": null,
+            "en": "by measured or perceived connection quality data"
+          }
+        },
+        {
+          "code": "H04W 36/32",
+          "title": {
+            "ko": null,
+            "en": "by location or mobility data, e.g. speed data"
+          }
+        },
+        {
+          "code": "H04W 36/34",
+          "title": {
+            "ko": null,
+            "en": "Reselection control"
+          }
+        },
+        {
+          "code": "H04W 36/36",
+          "title": {
+            "ko": null,
+            "en": "by user or terminal equipment"
+          }
+        },
+        {
+          "code": "H04W 36/38",
+          "title": {
+            "ko": null,
+            "en": "by fixed network equipment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 40/00",
+      "title": {
+        "ko": null,
+        "en": "Communication routing or communication path finding"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 40/02",
+          "title": {
+            "ko": null,
+            "en": "Communication route or path selection, e.g. power-based or shortest path routing"
+          }
+        },
+        {
+          "code": "H04W 40/04",
+          "title": {
+            "ko": null,
+            "en": "based on wireless node resources"
+          }
+        },
+        {
+          "code": "H04W 40/06",
+          "title": {
+            "ko": null,
+            "en": "based on characteristics of available antennas"
+          }
+        },
+        {
+          "code": "H04W 40/08",
+          "title": {
+            "ko": null,
+            "en": "based on transmission power"
+          }
+        },
+        {
+          "code": "H04W 40/10",
+          "title": {
+            "ko": null,
+            "en": "based on available power or energy"
+          }
+        },
+        {
+          "code": "H04W 40/12",
+          "title": {
+            "ko": null,
+            "en": "based on transmission quality or channel quality"
+          }
+        },
+        {
+          "code": "H04W 40/14",
+          "title": {
+            "ko": null,
+            "en": "based on stability"
+          }
+        },
+        {
+          "code": "H04W 40/16",
+          "title": {
+            "ko": null,
+            "en": "based on interference"
+          }
+        },
+        {
+          "code": "H04W 40/18",
+          "title": {
+            "ko": null,
+            "en": "based on predicted events"
+          }
+        },
+        {
+          "code": "H04W 40/20",
+          "title": {
+            "ko": null,
+            "en": "based on geographic position or location"
+          }
+        },
+        {
+          "code": "H04W 40/22",
+          "title": {
+            "ko": null,
+            "en": "using selective relaying for reaching a BTS [Base Transceiver Station] or an access point"
+          }
+        },
+        {
+          "code": "H04W 40/24",
+          "title": {
+            "ko": null,
+            "en": "Connectivity information management, e.g. connectivity discovery or connectivity update"
+          }
+        },
+        {
+          "code": "H04W 40/26",
+          "title": {
+            "ko": null,
+            "en": "for hybrid routing by combining proactive and reactive routing"
+          }
+        },
+        {
+          "code": "H04W 40/28",
+          "title": {
+            "ko": null,
+            "en": "for reactive routing"
+          }
+        },
+        {
+          "code": "H04W 40/30",
+          "title": {
+            "ko": null,
+            "en": "for proactive routing"
+          }
+        },
+        {
+          "code": "H04W 40/32",
+          "title": {
+            "ko": null,
+            "en": "for defining a routing cluster membership"
+          }
+        },
+        {
+          "code": "H04W 40/34",
+          "title": {
+            "ko": null,
+            "en": "Modification of an existing route"
+          }
+        },
+        {
+          "code": "H04W 40/36",
+          "title": {
+            "ko": null,
+            "en": "due to handover"
+          }
+        },
+        {
+          "code": "H04W 40/38",
+          "title": {
+            "ko": null,
+            "en": "adapting due to varying relative distances between nodes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 48/00",
+      "title": {
+        "ko": "접속 제한 (부정 접속을 막기 위한 접속 보안 H04W 12/08); 네트워크 선택; 접속 포인트 선택",
+        "en": "Access restriction (access security to prevent unauthorised access H04W0012080000); Network selection; Access point selection"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 48/02",
+          "title": {
+            "ko": null,
+            "en": "Access restriction performed under specific conditions"
+          }
+        },
+        {
+          "code": "H04W 48/04",
+          "title": {
+            "ko": null,
+            "en": "based on user or terminal location or mobility data, e.g. moving direction or speed"
+          }
+        },
+        {
+          "code": "H04W 48/06",
+          "title": {
+            "ko": null,
+            "en": "based on traffic conditions"
+          }
+        },
+        {
+          "code": "H04W 48/08",
+          "title": {
+            "ko": "접속 제한 또는 접속 정보 전달, 예. 발견 데이터 전달 (연결 동안의 신호 H04W 76/00)",
+            "en": "Access restriction or access information delivery, e.g. discovery data delivery (signalling during connection H04W0076000000)"
+          }
+        },
+        {
+          "code": "H04W 48/10",
+          "title": {
+            "ko": null,
+            "en": "using broadcasted information"
+          }
+        },
+        {
+          "code": "H04W 48/12",
+          "title": {
+            "ko": null,
+            "en": "using downlink control channel"
+          }
+        },
+        {
+          "code": "H04W 48/14",
+          "title": {
+            "ko": null,
+            "en": "using user query"
+          }
+        },
+        {
+          "code": "H04W 48/16",
+          "title": {
+            "ko": null,
+            "en": "Discovering; Processing access restriction or access information"
+          }
+        },
+        {
+          "code": "H04W 48/18",
+          "title": {
+            "ko": null,
+            "en": "Selecting a network or a communication service"
+          }
+        },
+        {
+          "code": "H04W 48/20",
+          "title": {
+            "ko": null,
+            "en": "Selecting an access point"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 52/00",
+      "title": {
+        "ko": null,
+        "en": "Power management"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 52/02",
+          "title": {
+            "ko": null,
+            "en": "Power saving arrangements"
+          }
+        },
+        {
+          "code": "H04W 52/04",
+          "title": {
+            "ko": null,
+            "en": "Transmission power control [TPC]"
+          }
+        },
+        {
+          "code": "H04W 52/06",
+          "title": {
+            "ko": null,
+            "en": "TPC algorithms"
+          }
+        },
+        {
+          "code": "H04W 52/08",
+          "title": {
+            "ko": null,
+            "en": "Closed loop power control"
+          }
+        },
+        {
+          "code": "H04W 52/10",
+          "title": {
+            "ko": null,
+            "en": "Open loop power control"
+          }
+        },
+        {
+          "code": "H04W 52/12",
+          "title": {
+            "ko": null,
+            "en": "Outer and inner loops"
+          }
+        },
+        {
+          "code": "H04W 52/14",
+          "title": {
+            "ko": null,
+            "en": "Separate analysis of uplink or downlink"
+          }
+        },
+        {
+          "code": "H04W 52/16",
+          "title": {
+            "ko": null,
+            "en": "Deriving transmission power values from another channel"
+          }
+        },
+        {
+          "code": "H04W 52/18",
+          "title": {
+            "ko": null,
+            "en": "TPC being performed according to specific parameters"
+          }
+        },
+        {
+          "code": "H04W 52/20",
+          "title": {
+            "ko": null,
+            "en": "using error rate"
+          }
+        },
+        {
+          "code": "H04W 52/22",
+          "title": {
+            "ko": null,
+            "en": "taking into account previous information or commands"
+          }
+        },
+        {
+          "code": "H04W 52/24",
+          "title": {
+            "ko": null,
+            "en": "using SIR [Signal to Interference Ratio] or other wireless path parameters"
+          }
+        },
+        {
+          "code": "H04W 52/26",
+          "title": {
+            "ko": null,
+            "en": "using transmission rate or quality of service QoS [Quality of Service]"
+          }
+        },
+        {
+          "code": "H04W 52/28",
+          "title": {
+            "ko": null,
+            "en": "using user profile, e.g. mobile speed, priority or network state, e.g. standby, idle or non-transmission"
+          }
+        },
+        {
+          "code": "H04W 52/30",
+          "title": {
+            "ko": null,
+            "en": "using constraints in the total amount of available transmission power"
+          }
+        },
+        {
+          "code": "H04W 52/32",
+          "title": {
+            "ko": null,
+            "en": "TPC of broadcast or control channels"
+          }
+        },
+        {
+          "code": "H04W 52/34",
+          "title": {
+            "ko": null,
+            "en": "TPC management, i.e. sharing limited amount of power among users or channels or data types, e.g. cell loading"
+          }
+        },
+        {
+          "code": "H04W 52/36",
+          "title": {
+            "ko": null,
+            "en": "with a discrete range or set of values, e.g. step size, ramping or offsets"
+          }
+        },
+        {
+          "code": "H04W 52/38",
+          "title": {
+            "ko": null,
+            "en": "TPC being performed in particular situations"
+          }
+        },
+        {
+          "code": "H04W 52/40",
+          "title": {
+            "ko": null,
+            "en": "during macro-diversity or soft handoff"
+          }
+        },
+        {
+          "code": "H04W 52/42",
+          "title": {
+            "ko": null,
+            "en": "in systems with time, space, frequency or polarisation diversity"
+          }
+        },
+        {
+          "code": "H04W 52/44",
+          "title": {
+            "ko": null,
+            "en": "in connection with interruption of transmission"
+          }
+        },
+        {
+          "code": "H04W 52/46",
+          "title": {
+            "ko": null,
+            "en": "in multi-hop networks, e.g. wireless relay networks"
+          }
+        },
+        {
+          "code": "H04W 52/48",
+          "title": {
+            "ko": null,
+            "en": "during retransmission after error or non-acknowledgment"
+          }
+        },
+        {
+          "code": "H04W 52/50",
+          "title": {
+            "ko": null,
+            "en": "at the moment of starting communication in a multiple access environment"
+          }
+        },
+        {
+          "code": "H04W 52/52",
+          "title": {
+            "ko": null,
+            "en": "using AGC [Automatic Gain Control] circuits or amplifiers"
+          }
+        },
+        {
+          "code": "H04W 52/54",
+          "title": {
+            "ko": null,
+            "en": "Signalisation aspects of the TPC commands, e.g. frame structure"
+          }
+        },
+        {
+          "code": "H04W 52/56",
+          "title": {
+            "ko": null,
+            "en": "Detection of errors of TPC bits"
+          }
+        },
+        {
+          "code": "H04W 52/58",
+          "title": {
+            "ko": null,
+            "en": "Format of the TPC bits"
+          }
+        },
+        {
+          "code": "H04W 52/60",
+          "title": {
+            "ko": null,
+            "en": "using different transmission rates for TPC commands"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 56/00",
+      "title": {
+        "ko": null,
+        "en": "Synchronisation arrangements"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04W 60/00",
+      "title": {
+        "ko": null,
+        "en": "Affiliation to network, e.g. registration; Terminating affiliation with the network, e.g. de-registration"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 60/02",
+          "title": {
+            "ko": null,
+            "en": "by periodical registration"
+          }
+        },
+        {
+          "code": "H04W 60/04",
+          "title": {
+            "ko": null,
+            "en": "using triggered events"
+          }
+        },
+        {
+          "code": "H04W 60/06",
+          "title": {
+            "ko": null,
+            "en": "De-registration or detaching"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 64/00",
+      "title": {
+        "ko": null,
+        "en": "Locating users or terminals for network management purposes, e.g. mobility management"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H04W 68/00",
+      "title": {
+        "ko": null,
+        "en": "User notification, e.g. alerting or paging, for incoming communication, change of service or the like"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 68/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for increasing efficiency of notification or paging channel"
+          }
+        },
+        {
+          "code": "H04W 68/04",
+          "title": {
+            "ko": null,
+            "en": "multi-step notification using statistical or historical mobility data"
+          }
+        },
+        {
+          "code": "H04W 68/06",
+          "title": {
+            "ko": null,
+            "en": "using multi-step notification by changing the notification area"
+          }
+        },
+        {
+          "code": "H04W 68/08",
+          "title": {
+            "ko": null,
+            "en": "using multi-step notification by increasing the notification area"
+          }
+        },
+        {
+          "code": "H04W 68/10",
+          "title": {
+            "ko": null,
+            "en": "using simulcast notification"
+          }
+        },
+        {
+          "code": "H04W 68/12",
+          "title": {
+            "ko": null,
+            "en": "Inter-network notification"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 72/00",
+      "title": {
+        "ko": "지역 자원 관리",
+        "en": "Local resource management"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 72/02",
+          "title": {
+            "ko": null,
+            "en": "Selection of wireless resources by user or terminal"
+          }
+        },
+        {
+          "code": "H04W 72/04",
+          "title": {
+            "ko": null,
+            "en": "Wireless resource allocation"
+          }
+        },
+        {
+          "code": "H04W 72/044",
+          "title": {
+            "ko": null,
+            "en": "based on the type of the allocated resource"
+          }
+        },
+        {
+          "code": "H04W 72/0446",
+          "title": {
+            "ko": null,
+            "en": "Resources in time domain, e.g. slots or frames"
+          }
+        },
+        {
+          "code": "H04W 72/0453",
+          "title": {
+            "ko": null,
+            "en": "Resources in frequency domain, e.g. a carrier in FDMA"
+          }
+        },
+        {
+          "code": "H04W 72/0457",
+          "title": {
+            "ko": null,
+            "en": "Variable allocation of band or rate"
+          }
+        },
+        {
+          "code": "H04W 72/11",
+          "title": {
+            "ko": null,
+            "en": "Semi-persistent scheduling"
+          }
+        },
+        {
+          "code": "H04W 72/115",
+          "title": {
+            "ko": null,
+            "en": "Grant-free or autonomous transmission"
+          }
+        },
+        {
+          "code": "H04W 72/12",
+          "title": {
+            "ko": null,
+            "en": "Wireless traffic scheduling"
+          }
+        },
+        {
+          "code": "H04W 72/121",
+          "title": {
+            "ko": null,
+            "en": "for groups of terminals or users"
+          }
+        },
+        {
+          "code": "H04W 72/1263",
+          "title": {
+            "ko": null,
+            "en": "Mapping of traffic onto schedule, e.g. scheduled allocation or multiplexing of flows"
+          }
+        },
+        {
+          "code": "H04W 72/1268",
+          "title": {
+            "ko": null,
+            "en": "of uplink data flows"
+          }
+        },
+        {
+          "code": "H04W 72/1273",
+          "title": {
+            "ko": null,
+            "en": "of downlink data flows"
+          }
+        },
+        {
+          "code": "H04W 72/20",
+          "title": {
+            "ko": null,
+            "en": "Control channels or signalling for resource management"
+          }
+        },
+        {
+          "code": "H04W 72/21",
+          "title": {
+            "ko": null,
+            "en": "in the uplink direction of a wireless link, i.e. towards the network"
+          }
+        },
+        {
+          "code": "H04W 72/23",
+          "title": {
+            "ko": null,
+            "en": "in the downlink direction of a wireless link, i.e. towards a terminal"
+          }
+        },
+        {
+          "code": "H04W 72/231",
+          "title": {
+            "ko": null,
+            "en": "the control data signalling from the layers above the physical layer, e.g. RRC or MAC-CE signalling"
+          }
+        },
+        {
+          "code": "H04W 72/232",
+          "title": {
+            "ko": null,
+            "en": "the control data signalling from the physical layer, e.g. DCI signalling"
+          }
+        },
+        {
+          "code": "H04W 72/25",
+          "title": {
+            "ko": null,
+            "en": "between terminals via a wireless link, e.g. sidelink"
+          }
+        },
+        {
+          "code": "H04W 72/27",
+          "title": {
+            "ko": null,
+            "en": "between access points"
+          }
+        },
+        {
+          "code": "H04W 72/29",
+          "title": {
+            "ko": null,
+            "en": "between an access point and the access point controlling device"
+          }
+        },
+        {
+          "code": "H04W 72/30",
+          "title": {
+            "ko": null,
+            "en": "Resource management for broadcast services"
+          }
+        },
+        {
+          "code": "H04W 72/40",
+          "title": {
+            "ko": "직접 모드 통신을 위한 자원 관리, 예. D2D 또는 사이드링크",
+            "en": "Resource management for direct mode communication, e.g. D2D or sidelink"
+          }
+        },
+        {
+          "code": "H04W 72/50",
+          "title": {
+            "ko": null,
+            "en": "Allocation or scheduling criteria for wireless resources"
+          }
+        },
+        {
+          "code": "H04W 72/51",
+          "title": {
+            "ko": null,
+            "en": "based on terminal or device properties"
+          }
+        },
+        {
+          "code": "H04W 72/512",
+          "title": {
+            "ko": null,
+            "en": "for low-latency requirements, e.g. URLLC"
+          }
+        },
+        {
+          "code": "H04W 72/52",
+          "title": {
+            "ko": null,
+            "en": "based on load"
+          }
+        },
+        {
+          "code": "H04W 72/53",
+          "title": {
+            "ko": null,
+            "en": "based on regulatory allocation policies"
+          }
+        },
+        {
+          "code": "H04W 72/54",
+          "title": {
+            "ko": null,
+            "en": "based on quality criteria"
+          }
+        },
+        {
+          "code": "H04W 72/541",
+          "title": {
+            "ko": null,
+            "en": "using the level of interference"
+          }
+        },
+        {
+          "code": "H04W 72/542",
+          "title": {
+            "ko": null,
+            "en": "using measured or perceived quality"
+          }
+        },
+        {
+          "code": "H04W 72/543",
+          "title": {
+            "ko": null,
+            "en": "based on requested quality, e.g. QoS"
+          }
+        },
+        {
+          "code": "H04W 72/56",
+          "title": {
+            "ko": null,
+            "en": "based on priority criteria"
+          }
+        },
+        {
+          "code": "H04W 72/563",
+          "title": {
+            "ko": null,
+            "en": "of the wireless resources"
+          }
+        },
+        {
+          "code": "H04W 72/566",
+          "title": {
+            "ko": null,
+            "en": "of the information or information source or recipient"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 74/00",
+      "title": {
+        "ko": "무선 채널 접속",
+        "en": "Wireless channel access"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 74/02",
+          "title": {
+            "ko": null,
+            "en": "Hybrid access"
+          }
+        },
+        {
+          "code": "H04W 74/04",
+          "title": {
+            "ko": "예정된 접속 (하이브리드 접속 H04W 74/02)",
+            "en": "Scheduled access   (hybrid access H04W0074020000)"
+          }
+        },
+        {
+          "code": "H04W 74/06",
+          "title": {
+            "ko": null,
+            "en": "using polling"
+          }
+        },
+        {
+          "code": "H04W 74/08",
+          "title": {
+            "ko": "예정되지 않은 접속, 예. ALOHA (하이브리드 접속 H04W 74/02)",
+            "en": "Non-scheduled access, e.g. ALOHA (hybrid access H04W0074020000)"
+          }
+        },
+        {
+          "code": "H04W 74/0808",
+          "title": {
+            "ko": null,
+            "en": "using carrier sensing, e.g. carrier sense multiple access [CSMA]"
+          }
+        },
+        {
+          "code": "H04W 74/0816",
+          "title": {
+            "ko": null,
+            "en": "with collision avoidance"
+          }
+        },
+        {
+          "code": "H04W 74/0833",
+          "title": {
+            "ko": null,
+            "en": "Random access procedures, e.g. with 4-step access"
+          }
+        },
+        {
+          "code": "H04W 74/0836",
+          "title": {
+            "ko": null,
+            "en": "with 2-step access"
+          }
+        },
+        {
+          "code": "H04W 74/0838",
+          "title": {
+            "ko": null,
+            "en": "using contention-free random access [CFRA]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 76/00",
+      "title": {
+        "ko": null,
+        "en": "Connection management"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 76/10",
+          "title": {
+            "ko": null,
+            "en": "Connection setup"
+          }
+        },
+        {
+          "code": "H04W 76/11",
+          "title": {
+            "ko": null,
+            "en": "Allocation or use of connection identifiers"
+          }
+        },
+        {
+          "code": "H04W 76/12",
+          "title": {
+            "ko": null,
+            "en": "Setup of transport tunnels"
+          }
+        },
+        {
+          "code": "H04W 76/14",
+          "title": {
+            "ko": null,
+            "en": "Direct-mode setup"
+          }
+        },
+        {
+          "code": "H04W 76/15",
+          "title": {
+            "ko": null,
+            "en": "Setup of multiple wireless link connections"
+          }
+        },
+        {
+          "code": "H04W 76/16",
+          "title": {
+            "ko": null,
+            "en": "involving different core network technologies, e.g. a packet-switched [PS] bearer in combination with a circuit-switched [CS] bearer"
+          }
+        },
+        {
+          "code": "H04W 76/18",
+          "title": {
+            "ko": null,
+            "en": "Management of setup rejection or failure"
+          }
+        },
+        {
+          "code": "H04W 76/19",
+          "title": {
+            "ko": null,
+            "en": "Connection re-establishment"
+          }
+        },
+        {
+          "code": "H04W 76/20",
+          "title": {
+            "ko": null,
+            "en": "Manipulation of established connections"
+          }
+        },
+        {
+          "code": "H04W 76/22",
+          "title": {
+            "ko": null,
+            "en": "Manipulation of transport tunnels"
+          }
+        },
+        {
+          "code": "H04W 76/23",
+          "title": {
+            "ko": null,
+            "en": "Manipulation of direct-mode connections"
+          }
+        },
+        {
+          "code": "H04W 76/25",
+          "title": {
+            "ko": null,
+            "en": "Maintenance of established connections"
+          }
+        },
+        {
+          "code": "H04W 76/27",
+          "title": {
+            "ko": null,
+            "en": "Transitions between radio resource control [RRC] states"
+          }
+        },
+        {
+          "code": "H04W 76/28",
+          "title": {
+            "ko": null,
+            "en": "Discontinuous transmission [DTX]; Discontinuous reception [DRX]"
+          }
+        },
+        {
+          "code": "H04W 76/30",
+          "title": {
+            "ko": null,
+            "en": "Connection release"
+          }
+        },
+        {
+          "code": "H04W 76/32",
+          "title": {
+            "ko": null,
+            "en": "Release of transport tunnels"
+          }
+        },
+        {
+          "code": "H04W 76/34",
+          "title": {
+            "ko": null,
+            "en": "Selective release of ongoing connections"
+          }
+        },
+        {
+          "code": "H04W 76/36",
+          "title": {
+            "ko": null,
+            "en": "for reassigning the resources associated with the released connections"
+          }
+        },
+        {
+          "code": "H04W 76/38",
+          "title": {
+            "ko": null,
+            "en": "triggered by timers"
+          }
+        },
+        {
+          "code": "H04W 76/40",
+          "title": {
+            "ko": null,
+            "en": "for selective distribution or broadcast"
+          }
+        },
+        {
+          "code": "H04W 76/45",
+          "title": {
+            "ko": null,
+            "en": "for push-to-talk [PTT] or push-to-talk over cellular [PoC] services"
+          }
+        },
+        {
+          "code": "H04W 76/50",
+          "title": {
+            "ko": null,
+            "en": "for emergency connections"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 80/00",
+      "title": {
+        "ko": null,
+        "en": "Wireless network protocols or protocol adaptations to wireless operation"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 80/02",
+          "title": {
+            "ko": null,
+            "en": "Data link layer protocols"
+          }
+        },
+        {
+          "code": "H04W 80/04",
+          "title": {
+            "ko": null,
+            "en": "Network layer protocols, e.g. mobile IP [Internet Protocol]"
+          }
+        },
+        {
+          "code": "H04W 80/06",
+          "title": {
+            "ko": null,
+            "en": "Transport layer protocols, e.g. TCP [Transport Control Protocol] over wireless"
+          }
+        },
+        {
+          "code": "H04W 80/08",
+          "title": {
+            "ko": null,
+            "en": "Upper layer protocols"
+          }
+        },
+        {
+          "code": "H04W 80/10",
+          "title": {
+            "ko": null,
+            "en": "adapted for session management, e.g. SIP [Session Initiation Protocol]"
+          }
+        },
+        {
+          "code": "H04W 80/12",
+          "title": {
+            "ko": null,
+            "en": "Application layer protocols, e.g. WAP [Wireless Application Protocol]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 84/00",
+      "title": {
+        "ko": "네트워크 토폴로지",
+        "en": "Network topologies"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 84/02",
+          "title": {
+            "ko": "계층적으로 미리 조직화된 네트워크, 예. 페이징 네트워크, 셀룰러 네트워크, WLAN [Wireless Local Area Network] 또는 WLL [Wireless Local Loop]",
+            "en": "Hierarchically pre-organised networks, e.g. paging networks, cellular networks, WLAN [Wireless Local Area Network] or WLL [Wireless Local Loop]"
+          }
+        },
+        {
+          "code": "H04W 84/04",
+          "title": {
+            "ko": "대규모 네트워크; 심오계층(deep hierarchical) 네트워크",
+            "en": "Large scale networks; Deep hierarchical networks"
+          }
+        },
+        {
+          "code": "H04W 84/06",
+          "title": {
+            "ko": "공중 또는 위성 네트워크 (능동 중계 시스템용 우주-기반 또는 항공기 탑재 스테이션 H04B 7/185)",
+            "en": "Airborne or Satellite Networks  (space-based or airborne stations for active relay systems H04B0007185000)"
+          }
+        },
+        {
+          "code": "H04W 84/08",
+          "title": {
+            "ko": null,
+            "en": "Trunked mobile radio systems"
+          }
+        },
+        {
+          "code": "H04W 84/10",
+          "title": {
+            "ko": null,
+            "en": "Small scale networks; Flat hierarchical networks"
+          }
+        },
+        {
+          "code": "H04W 84/12",
+          "title": {
+            "ko": null,
+            "en": "WLAN [Wireless Local Area Networks]"
+          }
+        },
+        {
+          "code": "H04W 84/14",
+          "title": {
+            "ko": null,
+            "en": "WLL [Wireless Local Loop]; RLL [Radio Local Loop]"
+          }
+        },
+        {
+          "code": "H04W 84/16",
+          "title": {
+            "ko": null,
+            "en": "WPBX [Wireless Private Branch Exchange]"
+          }
+        },
+        {
+          "code": "H04W 84/18",
+          "title": {
+            "ko": null,
+            "en": "Self-organising networks, e.g. ad hoc networks or sensor networks"
+          }
+        },
+        {
+          "code": "H04W 84/20",
+          "title": {
+            "ko": null,
+            "en": "Leader-follower arrangements"
+          }
+        },
+        {
+          "code": "H04W 84/22",
+          "title": {
+            "ko": null,
+            "en": "with access to wired networks"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 88/00",
+      "title": {
+        "ko": null,
+        "en": "Devices specially adapted for wireless communication networks, e.g. terminals, base stations or access point devices"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 88/02",
+          "title": {
+            "ko": null,
+            "en": "Terminal devices"
+          }
+        },
+        {
+          "code": "H04W 88/04",
+          "title": {
+            "ko": null,
+            "en": "adapted for relaying to or from another terminal or user"
+          }
+        },
+        {
+          "code": "H04W 88/06",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation in multiple networks, e.g. multi-mode terminals"
+          }
+        },
+        {
+          "code": "H04W 88/08",
+          "title": {
+            "ko": null,
+            "en": "Access point devices"
+          }
+        },
+        {
+          "code": "H04W 88/10",
+          "title": {
+            "ko": null,
+            "en": "adapted for operation in multiple networks, e.g. multi-mode access points"
+          }
+        },
+        {
+          "code": "H04W 88/12",
+          "title": {
+            "ko": null,
+            "en": "Access point controller devices"
+          }
+        },
+        {
+          "code": "H04W 88/14",
+          "title": {
+            "ko": null,
+            "en": "Backbone network devices"
+          }
+        },
+        {
+          "code": "H04W 88/16",
+          "title": {
+            "ko": null,
+            "en": "Gateway arrangements"
+          }
+        },
+        {
+          "code": "H04W 88/18",
+          "title": {
+            "ko": null,
+            "en": "Service support devices; Network management devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 92/00",
+      "title": {
+        "ko": null,
+        "en": "Interfaces specially adapted for wireless communication networks"
+      },
+      "subgroups": [
+        {
+          "code": "H04W 92/02",
+          "title": {
+            "ko": null,
+            "en": "Inter-networking arrangements"
+          }
+        },
+        {
+          "code": "H04W 92/04",
+          "title": {
+            "ko": null,
+            "en": "Interfaces between hierarchically different network devices"
+          }
+        },
+        {
+          "code": "H04W 92/06",
+          "title": {
+            "ko": null,
+            "en": "between gateways and public network devices"
+          }
+        },
+        {
+          "code": "H04W 92/08",
+          "title": {
+            "ko": null,
+            "en": "between user and terminal device"
+          }
+        },
+        {
+          "code": "H04W 92/10",
+          "title": {
+            "ko": null,
+            "en": "between terminal device and access point, i.e. wireless air interface"
+          }
+        },
+        {
+          "code": "H04W 92/12",
+          "title": {
+            "ko": null,
+            "en": "between access points and access point controllers"
+          }
+        },
+        {
+          "code": "H04W 92/14",
+          "title": {
+            "ko": null,
+            "en": "between access point controllers and backbone network device"
+          }
+        },
+        {
+          "code": "H04W 92/16",
+          "title": {
+            "ko": null,
+            "en": "Interfaces between hierarchically similar devices"
+          }
+        },
+        {
+          "code": "H04W 92/18",
+          "title": {
+            "ko": null,
+            "en": "between terminal devices"
+          }
+        },
+        {
+          "code": "H04W 92/20",
+          "title": {
+            "ko": null,
+            "en": "between access points"
+          }
+        },
+        {
+          "code": "H04W 92/22",
+          "title": {
+            "ko": null,
+            "en": "between access point controllers"
+          }
+        },
+        {
+          "code": "H04W 92/24",
+          "title": {
+            "ko": null,
+            "en": "between backbone network devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04W 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "description": "P02.R00.CONCEPT_MATURITY step 3 (score_completeness) LLM output. 3 sub-score (sequence / causality / embodiment) + rationale.",
+  "required": ["sequence", "causality", "embodiment", "rationale"],
+  "properties": {
+    "sequence":   { "type": "number", "minimum": 0, "maximum": 1, "multipleOf": 0.01 },
+    "causality":  { "type": "number", "minimum": 0, "maximum": 1, "multipleOf": 0.01 },
+    "embodiment": { "type": "number", "minimum": 0, "maximum": 1, "multipleOf": 0.01 },
+    "rationale":  { "type": "string", "minLength": 20 }
+  }
+}

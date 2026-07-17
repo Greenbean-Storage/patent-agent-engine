@@ -1,0 +1,15 @@
+{
+  "title": "FinderResearchRuntime",
+  "description": "선행기술 조사 누적. sessions/{user_id}/{work_id}/runtime/03.finder/research.json. P03 finder writer. P-A minimal placeholder — 구체 schema 는 prior-art-search sub-plan 또는 차후 정의.",
+  "type": "object",
+  "required": [
+    "last_updated"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

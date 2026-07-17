@@ -1,0 +1,2670 @@
+{
+  "subclass": "G01S",
+  "title": {
+    "ko": "무선에 의한 방위결정; 무선항행; 무선전파의 사용에 의한 거리 또는 속도의 결정; 무선전파의 반사 또는 재방사의 사용에 의한 위치 또는 유무의 탐지; 기타의 파류를 사용하는 유사한 방식",
+    "en": "RADIO DIRECTION-FINDING; RADIO NAVIGATION; DETERMINING DISTANCE OR VELOCITY BY USE OF RADIO WAVES; LOCATING OR PRESENCE-DETECTING BY USE OF THE REFLECTION OR RERADIATION OF RADIO WAVES; ANALOGOUS ARRANGEMENTS USING OTHER WAVES"
+  },
+  "definition": {
+    "ko": "비콘 방식; 방위측정기; 위치결정 G01S1/00, G01S19/00; 3/00; 5/00 레이더 또는 유사의 방식 세부 G01S7/00 전파를 사용하는 것, 파장 또는 파의 종류 에 무관하거나 정해지지 않은 기타 파를 사용하는 것 G01S13/00 음파를 사용하는 것 G01S15/00 전파이외의 전자파를 사용하는 것 G01S17/00 반사 또는 재방사를 사용하지 않는 거리 또는 속도의 측정방식 G01S11/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01S 1/00",
+      "title": {
+        "ko": "비지향성 수신기에 의해 탐지되며 한편 비콘 송신기에 관련하여 정해지는 방향, 위치 또는 위치선을 측정할 수 있는 1 또는 복수의 특성을 가진 신호를 송신하는 비콘, 또는 비콘 방식 그것과 협동하는 수신기(복수의 방향선 또는 위치선 측정을 좌표정함에 의한 위치결정 5/00)",
+        "en": "Beacons or beacon systems transmitting signals having a characteristic or characteristics capable of being detected by non-directional receivers and defining directions, positions, or position lines fixed relatively to the beacon transmitters; Receivers co-operating therewith (position-fixing by co-ordinating a plurality of determinations of direction or position lines G01S0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 1/02",
+          "title": {
+            "ko": "전파를 사용하는 것(G01S 19/00이 우선)",
+            "en": "using radio waves (G01S0019000000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 1/04",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01S 1/06",
+          "title": {
+            "ko": null,
+            "en": "Means for providing multiple indication, e.g. coarse and fine indications"
+          }
+        },
+        {
+          "code": "G01S 1/08",
+          "title": {
+            "ko": "방향선 또는 위치선을 결정하기 위한 방식",
+            "en": "Systems for determining direction or position line"
+          }
+        },
+        {
+          "code": "G01S 1/10",
+          "title": {
+            "ko": "개개의 방향을 향하면서도 서로 중복한 지향 특성을 갖는 복수의 안테나 또는 안테나 방식으로부터, 순차로 송신된 복수의 신호의 진폭을 비교하는 것, 예. 등신호 A-N형",
+            "en": "using amplitude comparison of signals transmitted sequentially from antennas or antenna systems having differently-oriented overlapping directivity-characteristics, e.g. equi-signal A-N type"
+          }
+        },
+        {
+          "code": "G01S 1/12",
+          "title": {
+            "ko": null,
+            "en": "the signals being transmitted sequentially from an antenna or antenna system having the orientation of its directivity characteristic periodically varied, e.g. by means of sequentially effective reflectors"
+          }
+        },
+        {
+          "code": "G01S 1/14",
+          "title": {
+            "ko": null,
+            "en": "using amplitude comparison of signals transmitted simultaneously from antennas or antenna systems having differently-oriented overlapping directivity-characteristics"
+          }
+        },
+        {
+          "code": "G01S 1/16",
+          "title": {
+            "ko": null,
+            "en": "Azimuthal guidance systems, e.g. system for defining aircraft approach path, localiser system"
+          }
+        },
+        {
+          "code": "G01S 1/18",
+          "title": {
+            "ko": null,
+            "en": "Elevational guidance systems, e.g. system for defining aircraft glide path"
+          }
+        },
+        {
+          "code": "G01S 1/20",
+          "title": {
+            "ko": null,
+            "en": "using a comparison of transit time of synchronised signals transmitted from non-directional antennas or antenna systems spaced apart, i.e. path-difference systems"
+          }
+        },
+        {
+          "code": "G01S 1/22",
+          "title": {
+            "ko": null,
+            "en": "the synchronised signals being frequency modulations on carrier waves and the transit times being compared by measuring difference of instantaneous frequencies of received carrier waves"
+          }
+        },
+        {
+          "code": "G01S 1/24",
+          "title": {
+            "ko": null,
+            "en": "the synchronised signals being pulses or equivalent modulations on carrier waves and the transit times being compared by measuring the difference in arrival time of a significant part of the modulations"
+          }
+        },
+        {
+          "code": "G01S 1/26",
+          "title": {
+            "ko": null,
+            "en": "Systems in which pulses or time-base signals are generated locally at the receiver and brought into predetermined time-relationship with received signals, e.g. pulse duration coincides with time interval between arrival of significant part of modulation of signals received from first and second antennas or antenna systems"
+          }
+        },
+        {
+          "code": "G01S 1/28",
+          "title": {
+            "ko": null,
+            "en": "wherein the predetermined time-relationship is maintained automatically"
+          }
+        },
+        {
+          "code": "G01S 1/30",
+          "title": {
+            "ko": null,
+            "en": "the synchronised signals being continuous waves or intermittent trains of continuous waves, the intermittency not being for the purpose of determining direction or position line and the transit times being compared by measuring the phase difference"
+          }
+        },
+        {
+          "code": "G01S 1/32",
+          "title": {
+            "ko": null,
+            "en": "Systems in which the signals received, with or without amplification, or signals derived therefrom, are compared in phase directly"
+          }
+        },
+        {
+          "code": "G01S 1/34",
+          "title": {
+            "ko": null,
+            "en": "Systems in which first and second synchronised signals are transmitted from both antennas or antenna systems and a beat frequency, obtained by heterodyning the first signals with each other is compared in phase with a beat frequency obtained by heterodyning the second signals with each other"
+          }
+        },
+        {
+          "code": "G01S 1/36",
+          "title": {
+            "ko": null,
+            "en": "Systems in which a beat frequency, obtained by heterodyning the synchronised signals, is compared in phase with a reference signal having a phase substantially independent of direction"
+          }
+        },
+        {
+          "code": "G01S 1/38",
+          "title": {
+            "ko": null,
+            "en": "using comparison of [1] the phase of the envelope of the change of frequency, due to Doppler effect, of the signal transmitted by an antenna moving, or appearing to move, in a cyclic path with [2] the phase of a reference signal, the frequency of this reference signal being synchronised with that of the cyclic movement, or apparent cyclic movement, of the antenna"
+          }
+        },
+        {
+          "code": "G01S 1/40",
+          "title": {
+            "ko": null,
+            "en": "the apparent movement of the antenna being produced by cyclic sequential energisation of fixed antennas"
+          }
+        },
+        {
+          "code": "G01S 1/42",
+          "title": {
+            "ko": null,
+            "en": "Conical-scan beam beacons transmitting signals which indicate at a mobile receiver any displacement of the receiver from the conical-scan axis, e.g. for \"beam-riding\" missile control"
+          }
+        },
+        {
+          "code": "G01S 1/44",
+          "title": {
+            "ko": null,
+            "en": "Rotating or oscillating beam beacons defining directions in the plane of rotation or oscillation"
+          }
+        },
+        {
+          "code": "G01S 1/46",
+          "title": {
+            "ko": null,
+            "en": "Broad-beam systems producing at a receiver a substantially continuous sinusoidal envelope signal of the carrier wave of the beam, the phase angle of which is dependent upon the angle between the direction of the receiver from the beacon and a reference direction from the beacon, e.g. cardioid system"
+          }
+        },
+        {
+          "code": "G01S 1/48",
+          "title": {
+            "ko": null,
+            "en": "wherein the phase angle of the direction-dependent envelope signal is a multiple of the direction angle, e.g. for \"fine\" bearing indication"
+          }
+        },
+        {
+          "code": "G01S 1/50",
+          "title": {
+            "ko": null,
+            "en": "wherein the phase angle of the direction-dependent envelope signal is compared with a non-direction- dependent reference signal"
+          }
+        },
+        {
+          "code": "G01S 1/52",
+          "title": {
+            "ko": null,
+            "en": "wherein the phase angles of a plurality of direction-dependent envelope signals produced by a plurality of beams rotating at different speeds or in different directions are compared"
+          }
+        },
+        {
+          "code": "G01S 1/54",
+          "title": {
+            "ko": null,
+            "en": "Narrow-beam systems producing at a receiver a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the receiver from the beacon and a reference direction from the beacon; Overlapping broad beam systems defining a narrow zone and producing at a receiver a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the receiver from the beacon and a reference direction from the beacon"
+          }
+        },
+        {
+          "code": "G01S 1/56",
+          "title": {
+            "ko": null,
+            "en": "Timing the pulse-type envelope signals derived by reception of beam"
+          }
+        },
+        {
+          "code": "G01S 1/58",
+          "title": {
+            "ko": null,
+            "en": "wherein a characteristic of the beam transmitted or of an auxiliary signal is varied in time synchronously with rotation or oscillation of the beam"
+          }
+        },
+        {
+          "code": "G01S 1/60",
+          "title": {
+            "ko": null,
+            "en": "Varying frequency of beam signal or of auxiliary signal"
+          }
+        },
+        {
+          "code": "G01S 1/62",
+          "title": {
+            "ko": null,
+            "en": "Varying phase-relationship between beam and auxiliary signal"
+          }
+        },
+        {
+          "code": "G01S 1/64",
+          "title": {
+            "ko": null,
+            "en": "Varying pulse timing, e.g. varying interval between pulses radiated in pairs"
+          }
+        },
+        {
+          "code": "G01S 1/66",
+          "title": {
+            "ko": null,
+            "en": "Superimposing direction-indicating intelligence signals, e.g. speech, Morse"
+          }
+        },
+        {
+          "code": "G01S 1/68",
+          "title": {
+            "ko": null,
+            "en": "Marker, boundary, call-sign, or like beacons transmitting signals not carrying directional information"
+          }
+        },
+        {
+          "code": "G01S 1/70",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 1/72",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        },
+        {
+          "code": "G01S 1/74",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01S 1/76",
+          "title": {
+            "ko": null,
+            "en": "Systems for determining direction or position line"
+          }
+        },
+        {
+          "code": "G01S 1/78",
+          "title": {
+            "ko": null,
+            "en": "using amplitude comparison of signals transmitted from transducers or transducer systems having differently-oriented characteristics"
+          }
+        },
+        {
+          "code": "G01S 1/80",
+          "title": {
+            "ko": null,
+            "en": "using a comparison of transit time of synchronised signals transmitted from non-directional transducers or transducer systems spaced apart, i.e. path-difference systems"
+          }
+        },
+        {
+          "code": "G01S 1/82",
+          "title": {
+            "ko": null,
+            "en": "Rotating or oscillating beam beacons defining directions in the plane of rotation or oscillation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 3/00",
+      "title": {
+        "ko": "방향성이 없는 초저주파, 음파, 초음파, 전자기파 또는 입자 방출이 수신되는 방향을 결정하기 위한 방향 측정기 (복수의 방향선 또는 위치선 측정값을 조정하여 위치를 고정하는 것 G01S5/00)",
+        "en": "Direction-finders for determining the direction from which infrasonic, sonic, ultrasonic or electromagnetic waves, or particle emission, not having a directional significance, are being received (position-fixing by co-ordinating a plurality of determinations of direction or position lines G01S0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 3/02",
+          "title": {
+            "ko": "전파를 사용하는 것",
+            "en": "using radio waves"
+          }
+        },
+        {
+          "code": "G01S 3/04",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01S 3/06",
+          "title": {
+            "ko": "실효적인 지향성을 증대시키기 위한 수단, 예. 개개의 방향으로 향해진 지향 특성을 갖는 신호에 의한 것 또는 회전 또는 요동하고 있는 빔 안테나로부터 요구되어지는 신호의 포락선 파형의 첨예화에 의한 것 (방향을 결정하기 위한 개개의 방향으로 향해진 지향 특성을 갖는 복수의 신호의 진폭을 비교하는 것 G01S 3/16, G01S 3/28)",
+            "en": "Means for increasing effective directivity, e.g. by combining signals having differently-oriented directivity characteristics or by sharpening the envelope waveform of the signal derived from a rotating or oscillating beam antenna  (comparing amplitude of signals having differently-oriented directivity characteristics to determine direction G01S0003160000, G01S0003280000)"
+          }
+        },
+        {
+          "code": "G01S 3/08",
+          "title": {
+            "ko": null,
+            "en": "Means for reducing polarisation errors, e.g. by use of Adcock or spaced loop antenna systems"
+          }
+        },
+        {
+          "code": "G01S 3/10",
+          "title": {
+            "ko": null,
+            "en": "Means for reducing or compensating for quadrantal, site, or like errors"
+          }
+        },
+        {
+          "code": "G01S 3/12",
+          "title": {
+            "ko": "방향의 센스를 결정하기 위한 수단, 예. 지향성 안테나 또는 고니오메터(goniometer)의 수색 코일로부터의 신호와, 무지향성 안테나로부터의 신호와의 결합에 의한 것 (지향성 신호와 무지향성 신호와의 결합에 의해 인출된 복수의 신호의 진폭을 비교하는 것에 의한 방향의 측정 G01S 3/24, G01S 3/34)",
+            "en": "Means for determining sense of direction, e.g. by combining signals from directional antenna or goniometer search coil with those from non-directional antenna  (determining direction by amplitude comparison of signals derived by combining directional and non-directional signals G01S0003240000, G01S0003340000)"
+          }
+        },
+        {
+          "code": "G01S 3/14",
+          "title": {
+            "ko": "방향의 결정 또는 소정의 방향에서의 편차의 결정을 위한 방식",
+            "en": "Systems for determining direction or deviation from predetermined direction"
+          }
+        },
+        {
+          "code": "G01S 3/16",
+          "title": {
+            "ko": null,
+            "en": "using amplitude comparison of signals derived sequentially from receiving antennas or antenna systems having differently-oriented directivity characteristics or from an antenna system having periodically-varied orientation of directivity characteristic"
+          }
+        },
+        {
+          "code": "G01S 3/18",
+          "title": {
+            "ko": null,
+            "en": "derived directly from separate directional antennas"
+          }
+        },
+        {
+          "code": "G01S 3/20",
+          "title": {
+            "ko": null,
+            "en": "derived by sampling signal received by an antenna system having periodically-varied orientation of directivity characteristic"
+          }
+        },
+        {
+          "code": "G01S 3/22",
+          "title": {
+            "ko": null,
+            "en": "derived from different combinations of signals from separate antennas, e.g. comparing sum with difference"
+          }
+        },
+        {
+          "code": "G01S 3/24",
+          "title": {
+            "ko": null,
+            "en": "the separate antennas comprising one directional antenna and one non-directional antenna, e.g. combination of loop and open antennas producing a reversed cardioid directivity characteristic"
+          }
+        },
+        {
+          "code": "G01S 3/26",
+          "title": {
+            "ko": null,
+            "en": "the separate antennas having differently-oriented directivity characteristics"
+          }
+        },
+        {
+          "code": "G01S 3/28",
+          "title": {
+            "ko": null,
+            "en": "using amplitude comparison of signals derived simultaneously from receiving antennas or antenna systems having differently-oriented directivity characteristics"
+          }
+        },
+        {
+          "code": "G01S 3/30",
+          "title": {
+            "ko": null,
+            "en": "derived directly from separate directional systems"
+          }
+        },
+        {
+          "code": "G01S 3/32",
+          "title": {
+            "ko": null,
+            "en": "derived from different combinations of signals from separate antennas, e.g. comparing sum with difference"
+          }
+        },
+        {
+          "code": "G01S 3/34",
+          "title": {
+            "ko": null,
+            "en": "the separate antennas comprising one directional antenna and one non-directional antenna, e.g. combination of loop and open antennas producing a reversed cardioid directivity characteristic"
+          }
+        },
+        {
+          "code": "G01S 3/36",
+          "title": {
+            "ko": null,
+            "en": "the separate antennas having differently-oriented directivity characteristics"
+          }
+        },
+        {
+          "code": "G01S 3/38",
+          "title": {
+            "ko": "1개의 안테나 또는 안테나 방식의 지향 특성의 현실 방향 또는 실효 방향을 조정하여, 그 안테나 또는 안테나 방식으로부터 도출된 신호를 소망의 상태로 하는 것, 예. 최대 또는 최소 신호를 부여하는 것 (G01S 3/16, G01S 3/28이 우선)",
+            "en": "using adjustment of real or effective orientation of directivity characteristic of an antenna or an antenna system to give a desired condition of signal derived from that antenna or antenna system, e.g. to give a maximum or minimum signal (G01S0003160000, G01S0003280000 take precedence)"
+          }
+        },
+        {
+          "code": "G01S 3/40",
+          "title": {
+            "ko": null,
+            "en": "adjusting orientation of a single directivity characteristic to produce maximum or minimum signal, e.g. rotatable loop antenna or equivalent goniometer system"
+          }
+        },
+        {
+          "code": "G01S 3/42",
+          "title": {
+            "ko": null,
+            "en": "the desired condition being maintained automatically"
+          }
+        },
+        {
+          "code": "G01S 3/44",
+          "title": {
+            "ko": null,
+            "en": "the adjustment being varied periodically or continuously until it is halted automatically when the desired condition is attained"
+          }
+        },
+        {
+          "code": "G01S 3/46",
+          "title": {
+            "ko": null,
+            "en": "using antennas spaced apart and measuring phase or time difference between signals therefrom, i.e. path-difference systems"
+          }
+        },
+        {
+          "code": "G01S 3/48",
+          "title": {
+            "ko": null,
+            "en": "the waves arriving at the antennas being continuous or intermittent and the phase difference of signals derived therefrom being measured"
+          }
+        },
+        {
+          "code": "G01S 3/50",
+          "title": {
+            "ko": null,
+            "en": "the waves arriving at the antennas being pulse modulated and the time difference of their arrival being measured"
+          }
+        },
+        {
+          "code": "G01S 3/52",
+          "title": {
+            "ko": null,
+            "en": "using a receiving antenna moving, or appearing to move, in a cyclic path to produce a Doppler variation of frequency of the received signal"
+          }
+        },
+        {
+          "code": "G01S 3/54",
+          "title": {
+            "ko": null,
+            "en": "the apparent movement of the antenna being produced by coupling the receiver cyclically and sequentially to each of several fixed spaced antennas"
+          }
+        },
+        {
+          "code": "G01S 3/56",
+          "title": {
+            "ko": null,
+            "en": "Conical-scan beam systems using signals indicative of the deviation of the direction of reception from the scan axis"
+          }
+        },
+        {
+          "code": "G01S 3/58",
+          "title": {
+            "ko": "회전면 또는 요동면내의 방향을 결정 또는 이러한 면내의 소정방향에서의 편차를 결정하기 위해 수신신호의 연속적인 해석을 사용하는 회전 또는 요동빔 시스템(G01S 3/16 우선)",
+            "en": "Rotating or oscillating beam systems using continuous analysis of received signal for determining direction in the plane of rotation or oscillation or for determining deviation from a predetermined direction in such a plane (G01S0003160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 3/60",
+          "title": {
+            "ko": null,
+            "en": "Broad-beam systems producing in the receiver a substantially-sinusoidal envelope signal of the carrier wave of the beam, the phase angle of which is dependent upon the angle between the direction of the transmitter from the receiver and a reference direction from the receiver, e.g. cardioid system"
+          }
+        },
+        {
+          "code": "G01S 3/62",
+          "title": {
+            "ko": null,
+            "en": "wherein the phase angle of the signal is indicated by a cathode-ray tube"
+          }
+        },
+        {
+          "code": "G01S 3/64",
+          "title": {
+            "ko": null,
+            "en": "wherein the phase angle of the signal is determined by phase comparison with a reference alternating signal varying in synchronism with the directivity variation"
+          }
+        },
+        {
+          "code": "G01S 3/66",
+          "title": {
+            "ko": null,
+            "en": "Narrow-beam systems producing in the receiver a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the transmitter from the receiver and a reference direction from the receiver; Overlapping broad-beam systems defining in the receiver a narrow zone and producing a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the transmitter from the receiver and a reference direction from the receiver"
+          }
+        },
+        {
+          "code": "G01S 3/68",
+          "title": {
+            "ko": null,
+            "en": "wherein the timing of the pulse-type envelope signal is indicated by cathode-ray tube"
+          }
+        },
+        {
+          "code": "G01S 3/70",
+          "title": {
+            "ko": null,
+            "en": "wherein the timing of the pulse-type envelope signal is determined by bringing a locally-generated pulse-type signal into coincidence or other predetermined time-relationship with the envelope signal"
+          }
+        },
+        {
+          "code": "G01S 3/72",
+          "title": {
+            "ko": null,
+            "en": "Diversity systems specially adapted for direction-finding"
+          }
+        },
+        {
+          "code": "G01S 3/74",
+          "title": {
+            "ko": "방위 측정용에 특수하게 적합한 다중 채널 방식, 즉 상이한 복수의 신호 방향의 동시 지시를 부여하는 것이 가능한 단일 안테나 방식을 갖는 것 (상이한 복수 신호의 방향이 순차로 결정되고 그리고 동시에 표시되는 방식 G01S 3/00, G01S 3/14)",
+            "en": "Multi-channel systems specially adapted for direction-finding, i.e. having a single antenna system capable of giving simultaneous indications of the directions of different signals  (systems in which the directions of different signals are determined sequentially and displayed simultaneously G01S0003040000, G01S0003140000)"
+          }
+        },
+        {
+          "code": "G01S 3/78",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 3/781",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01S 3/782",
+          "title": {
+            "ko": null,
+            "en": "Systems for determining direction or deviation from predetermined direction"
+          }
+        },
+        {
+          "code": "G01S 3/783",
+          "title": {
+            "ko": null,
+            "en": "using amplitude comparison of signals derived from static detectors or detector systems"
+          }
+        },
+        {
+          "code": "G01S 3/784",
+          "title": {
+            "ko": null,
+            "en": "using a mosaic of detectors"
+          }
+        },
+        {
+          "code": "G01S 3/785",
+          "title": {
+            "ko": null,
+            "en": "using adjustment of orientation of directivity characteristics of a detector or detector system to give a desired condition of signal derived from that detector or detector system"
+          }
+        },
+        {
+          "code": "G01S 3/786",
+          "title": {
+            "ko": null,
+            "en": "the desired condition being maintained automatically"
+          }
+        },
+        {
+          "code": "G01S 3/787",
+          "title": {
+            "ko": null,
+            "en": "using rotating reticles producing a direction-dependent modulation characteristic"
+          }
+        },
+        {
+          "code": "G01S 3/788",
+          "title": {
+            "ko": null,
+            "en": "producing a frequency modulation characteristic"
+          }
+        },
+        {
+          "code": "G01S 3/789",
+          "title": {
+            "ko": null,
+            "en": "using rotating or oscillating beam systems, e.g. using mirrors, prisms"
+          }
+        },
+        {
+          "code": "G01S 3/80",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        },
+        {
+          "code": "G01S 3/801",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01S 3/802",
+          "title": {
+            "ko": null,
+            "en": "Systems for determining direction or deviation from predetermined direction"
+          }
+        },
+        {
+          "code": "G01S 3/803",
+          "title": {
+            "ko": null,
+            "en": "using amplitude comparison of signals derived from receiving transducers or transducer systems having differently-oriented directivity characteristics"
+          }
+        },
+        {
+          "code": "G01S 3/805",
+          "title": {
+            "ko": null,
+            "en": "using adjustment of real or effective orientation of directivity characteristics of a transducer or transducer system to give a desired condition of signal derived from that transducer or transducer system, e.g. to give a maximum or minimum signal"
+          }
+        },
+        {
+          "code": "G01S 3/807",
+          "title": {
+            "ko": null,
+            "en": "the desired condition being maintained automatically"
+          }
+        },
+        {
+          "code": "G01S 3/808",
+          "title": {
+            "ko": null,
+            "en": "using transducers spaced apart and measuring phase or time difference between signals therefrom, i.e. path-difference systems"
+          }
+        },
+        {
+          "code": "G01S 3/809",
+          "title": {
+            "ko": null,
+            "en": "Rotating or oscillating beam systems using continuous analysis of received signal for determining direction in the plane of rotation or oscillation or for determining deviation from a predetermined direction in such a plane"
+          }
+        },
+        {
+          "code": "G01S 3/82",
+          "title": {
+            "ko": null,
+            "en": "with means for adjusting phase or compensating for time-lag errors"
+          }
+        },
+        {
+          "code": "G01S 3/84",
+          "title": {
+            "ko": null,
+            "en": "with indication presented on cathode-ray tubes"
+          }
+        },
+        {
+          "code": "G01S 3/86",
+          "title": {
+            "ko": null,
+            "en": "with means for eliminating undesired waves, e.g. disturbing noises"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 5/00",
+      "title": {
+        "ko": "2 또는 그 이상의 방향선 또는 위치선 결정의 조정(co-ordinating)에 의한 위치 고정; 2 또는 그 이상의 거리 결정의 조정에 의한 위치 고정",
+        "en": "Position-fixing by co-ordinating two or more direction or position-line determinations; Position-fixing by co-ordinating two or more distance determinations"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 5/02",
+          "title": {
+            "ko": "전파를 사용하는 것(G01S 19/00이 우선)",
+            "en": "using radio waves (G01S0019000000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 5/04",
+          "title": {
+            "ko": null,
+            "en": "Position of source determined by a plurality of spaced direction-finders"
+          }
+        },
+        {
+          "code": "G01S 5/06",
+          "title": {
+            "ko": "노정차 측정에 의하여 결정되는 복수의 위치선의 조정(co-ordinating)에 의해 전파원의 위치가 결정되는 것(G01S 5/12가 우선)",
+            "en": "Position of source determined by co-ordinating a plurality of position lines defined by path-difference measurements (G01S0005120000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 5/08",
+          "title": {
+            "ko": null,
+            "en": "Position of single direction-finder fixed by determining direction of a plurality of spaced sources of known location"
+          }
+        },
+        {
+          "code": "G01S 5/10",
+          "title": {
+            "ko": "수신기의 위치가 노정차 측정에 의한 복수의 위치선을 좌표붙임에 의하여 결정되는 것(G01S 5/12가 우선)",
+            "en": "Position of receiver fixed by co-ordinating a plurality of position lines defined by path-difference measurements (G01S0005120000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 5/12",
+          "title": {
+            "ko": null,
+            "en": "by co-ordinating position lines of different shape, e.g. hyperbolic, circular, elliptical or radial"
+          }
+        },
+        {
+          "code": "G01S 5/14",
+          "title": {
+            "ko": null,
+            "en": "Determining absolute distances from a plurality of spaced points of known location"
+          }
+        },
+        {
+          "code": "G01S 5/16",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 5/18",
+          "title": {
+            "ko": "초음파, 음파 또는 초저주파를 사용하는 것",
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        },
+        {
+          "code": "G01S 5/20",
+          "title": {
+            "ko": null,
+            "en": "Position of source determined by a plurality of spaced direction-finders"
+          }
+        },
+        {
+          "code": "G01S 5/22",
+          "title": {
+            "ko": "전파원의 위치가 노정차 측정에 의하여 결정되는 복수의 위치선을 좌표붙임에 의하여 결정되는 것(G01S 5/28가 우선)",
+            "en": "Position of source determined by co-ordinating a plurality of position lines defined by path-difference measurements (G01S0005280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 5/24",
+          "title": {
+            "ko": null,
+            "en": "Position of single direction-finder fixed by determining direction of a plurality of spaced sources of known location"
+          }
+        },
+        {
+          "code": "G01S 5/26",
+          "title": {
+            "ko": "수신기의 위치가 노정차 측정 의하여 결정되는 것. 복수의 위치선을 좌표붙임에 의하여 결정되는 것(G01S 5/28가 우선)",
+            "en": "Position of receiver fixed by co-ordinating a plurality of position lines defined by path-difference measurements (G01S0005280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 5/28",
+          "title": {
+            "ko": null,
+            "en": "by co-ordinating position lines of different shape, e.g. hyperbolic, circular, elliptical or radial"
+          }
+        },
+        {
+          "code": "G01S 5/30",
+          "title": {
+            "ko": null,
+            "en": "Determining absolute distances from a plurality of spaced points of known location"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 7/00",
+      "title": {
+        "ko": "그룹 G01S 13/00, G01S 15/00, G01S 17/00에 의한 방식의 세부",
+        "en": "Details of systems according to groups G01S0013000000, G01S0015000000, G01S0017000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 7/02",
+          "title": {
+            "ko": "그룹 G01S 13/00에 의한 것",
+            "en": "of systems according to group G01S0013000000"
+          }
+        },
+        {
+          "code": "G01S 7/03",
+          "title": {
+            "ko": null,
+            "en": "Details of HF subsystems specially adapted therefor, e.g. common to transmitter and receiver"
+          }
+        },
+        {
+          "code": "G01S 7/04",
+          "title": {
+            "ko": "표시장치",
+            "en": "Display arrangements"
+          }
+        },
+        {
+          "code": "G01S 7/06",
+          "title": {
+            "ko": "음극선관 표시",
+            "en": "Cathode-ray tube displays"
+          }
+        },
+        {
+          "code": "G01S 7/08",
+          "title": {
+            "ko": null,
+            "en": "with vernier indication of distance, e.g. using two cathode-ray tubes"
+          }
+        },
+        {
+          "code": "G01S 7/10",
+          "title": {
+            "ko": "거리 및 방향을 2차원 [2D] 좌표로 표시하는 장치를 제공한 것",
+            "en": "Providing two-dimensional [2D] co-ordinated display of distance and direction"
+          }
+        },
+        {
+          "code": "G01S 7/12",
+          "title": {
+            "ko": null,
+            "en": "Plan-position indicators, i.e. P. P. I."
+          }
+        },
+        {
+          "code": "G01S 7/14",
+          "title": {
+            "ko": null,
+            "en": "Sector, off-centre, or expanded- angle display"
+          }
+        },
+        {
+          "code": "G01S 7/16",
+          "title": {
+            "ko": "거리 및 방위를 표시하는 직각좌표를 가진 신호를 휘도 변조로 표시하는 것, 예. B형",
+            "en": "Signals displayed as intensity modulation with rectangular co-ordinates representing distance and bearing, e.g. type B"
+          }
+        },
+        {
+          "code": "G01S 7/18",
+          "title": {
+            "ko": "거리-고도표시; 거리-앙각표시, 예. RHI형, E형",
+            "en": "Distance-height displays; Distance-elevation displays, e.g. type RHI, type E"
+          }
+        },
+        {
+          "code": "G01S 7/20",
+          "title": {
+            "ko": null,
+            "en": "Stereoscopic displays; Three-dimensional [3D] displays; Pseudo-3D displays"
+          }
+        },
+        {
+          "code": "G01S 7/22",
+          "title": {
+            "ko": null,
+            "en": "Producing cursor lines and indicia by electronic means"
+          }
+        },
+        {
+          "code": "G01S 7/24",
+          "title": {
+            "ko": null,
+            "en": "the display being orientated or displaced in accordance with movement of object carrying the transmitting and receiving apparatus, e.g. true-motion radar"
+          }
+        },
+        {
+          "code": "G01S 7/26",
+          "title": {
+            "ko": null,
+            "en": "Displays using electroluminescent panels"
+          }
+        },
+        {
+          "code": "G01S 7/28",
+          "title": {
+            "ko": null,
+            "en": "Details of pulse systems"
+          }
+        },
+        {
+          "code": "G01S 7/282",
+          "title": {
+            "ko": null,
+            "en": "Transmitters"
+          }
+        },
+        {
+          "code": "G01S 7/285",
+          "title": {
+            "ko": null,
+            "en": "Receivers"
+          }
+        },
+        {
+          "code": "G01S 7/288",
+          "title": {
+            "ko": null,
+            "en": "Coherent receivers"
+          }
+        },
+        {
+          "code": "G01S 7/292",
+          "title": {
+            "ko": null,
+            "en": "Extracting wanted echo-signals"
+          }
+        },
+        {
+          "code": "G01S 7/295",
+          "title": {
+            "ko": null,
+            "en": "Means for transforming co-ordinates or for evaluating data, e.g. using computers"
+          }
+        },
+        {
+          "code": "G01S 7/298",
+          "title": {
+            "ko": null,
+            "en": "Scan converters"
+          }
+        },
+        {
+          "code": "G01S 7/32",
+          "title": {
+            "ko": null,
+            "en": "Shaping echo pulse signals; Deriving non-pulse signals from echo pulse signals"
+          }
+        },
+        {
+          "code": "G01S 7/34",
+          "title": {
+            "ko": null,
+            "en": "Gain of receiver varied automatically during pulse-recurrence period, e.g. anti-clutter gain control"
+          }
+        },
+        {
+          "code": "G01S 7/35",
+          "title": {
+            "ko": null,
+            "en": "Details of non-pulse systems"
+          }
+        },
+        {
+          "code": "G01S 7/36",
+          "title": {
+            "ko": null,
+            "en": "Means for anti-jamming"
+          }
+        },
+        {
+          "code": "G01S 7/38",
+          "title": {
+            "ko": null,
+            "en": "Jamming means, e.g. producing false echoes"
+          }
+        },
+        {
+          "code": "G01S 7/40",
+          "title": {
+            "ko": null,
+            "en": "Means for monitoring or calibrating"
+          }
+        },
+        {
+          "code": "G01S 7/41",
+          "title": {
+            "ko": null,
+            "en": "using analysis of echo signal for target characterisation; Target signature; Target cross-section"
+          }
+        },
+        {
+          "code": "G01S 7/42",
+          "title": {
+            "ko": null,
+            "en": "Diversity systems specially adapted for radar"
+          }
+        },
+        {
+          "code": "G01S 7/48",
+          "title": {
+            "ko": "그룹 G01S 17/00에 의한 방식",
+            "en": "of systems according to group G01S0017000000"
+          }
+        },
+        {
+          "code": "G01S 7/481",
+          "title": {
+            "ko": null,
+            "en": "Constructional features, e.g. arrangements of optical elements"
+          }
+        },
+        {
+          "code": "G01S 7/483",
+          "title": {
+            "ko": "펄스방식의 세부",
+            "en": "Details of pulse systems"
+          }
+        },
+        {
+          "code": "G01S 7/484",
+          "title": {
+            "ko": null,
+            "en": "Transmitters"
+          }
+        },
+        {
+          "code": "G01S 7/486",
+          "title": {
+            "ko": "수신기",
+            "en": "Receivers"
+          }
+        },
+        {
+          "code": "G01S 7/4861",
+          "title": {
+            "ko": null,
+            "en": "Circuits for detection, sampling, integration or read-out"
+          }
+        },
+        {
+          "code": "G01S 7/4863",
+          "title": {
+            "ko": null,
+            "en": "Detector arrays, e.g. charge-transfer gates"
+          }
+        },
+        {
+          "code": "G01S 7/4865",
+          "title": {
+            "ko": "시간 지연 측정, 예. 비행 시간 측정, 도착 시간 측정 또는 피크의 정확한 위치 결정 (소음에서 피크 검출, 신호 컨디셔닝 G01S7/487)",
+            "en": "Time delay measurement, e.g. time-of-flight measurement, time of arrival measurement or determining the exact position of a peak (peak detection in noise, signal conditioning G01S0007487000)"
+          }
+        },
+        {
+          "code": "G01S 7/487",
+          "title": {
+            "ko": null,
+            "en": "Extracting wanted echo signals"
+          }
+        },
+        {
+          "code": "G01S 7/489",
+          "title": {
+            "ko": null,
+            "en": "Gain of receiver varied automatically during pulse-recurrence period"
+          }
+        },
+        {
+          "code": "G01S 7/491",
+          "title": {
+            "ko": "비-펄스 시스템의 세부",
+            "en": "Details of non-pulse systems"
+          }
+        },
+        {
+          "code": "G01S 7/4911",
+          "title": {
+            "ko": null,
+            "en": "Transmitters"
+          }
+        },
+        {
+          "code": "G01S 7/4912",
+          "title": {
+            "ko": "수신기",
+            "en": "Receivers"
+          }
+        },
+        {
+          "code": "G01S 7/4913",
+          "title": {
+            "ko": null,
+            "en": "Circuits for detection, sampling, integration or read-out"
+          }
+        },
+        {
+          "code": "G01S 7/4914",
+          "title": {
+            "ko": null,
+            "en": "Detector arrays, e.g. charge-transfer gates"
+          }
+        },
+        {
+          "code": "G01S 7/4915",
+          "title": {
+            "ko": "시간 지연 측정, 예. 픽셀 구성 요소에 대한 작동 세부 (신호 추출 및 컨디셔닝 G01S7/493); 위상 측정",
+            "en": "Time delay measurement, e.g. operational details for pixel components (signal extraction and conditioning G01S0007493000); Phase measurement"
+          }
+        },
+        {
+          "code": "G01S 7/493",
+          "title": {
+            "ko": null,
+            "en": "Extracting wanted echo signals"
+          }
+        },
+        {
+          "code": "G01S 7/495",
+          "title": {
+            "ko": null,
+            "en": "Counter-measures or counter-counter-measures"
+          }
+        },
+        {
+          "code": "G01S 7/497",
+          "title": {
+            "ko": null,
+            "en": "Means for monitoring or calibrating"
+          }
+        },
+        {
+          "code": "G01S 7/499",
+          "title": {
+            "ko": null,
+            "en": "using polarisation effects"
+          }
+        },
+        {
+          "code": "G01S 7/51",
+          "title": {
+            "ko": null,
+            "en": "Display arrangements"
+          }
+        },
+        {
+          "code": "G01S 7/52",
+          "title": {
+            "ko": "그룹 G01S 15/00에 의한 방식",
+            "en": "of systems according to group G01S0015000000"
+          }
+        },
+        {
+          "code": "G01S 7/521",
+          "title": {
+            "ko": null,
+            "en": "Constructional features"
+          }
+        },
+        {
+          "code": "G01S 7/523",
+          "title": {
+            "ko": null,
+            "en": "Details of pulse systems"
+          }
+        },
+        {
+          "code": "G01S 7/524",
+          "title": {
+            "ko": null,
+            "en": "Transmitters"
+          }
+        },
+        {
+          "code": "G01S 7/526",
+          "title": {
+            "ko": null,
+            "en": "Receivers"
+          }
+        },
+        {
+          "code": "G01S 7/527",
+          "title": {
+            "ko": null,
+            "en": "Extracting wanted echo signals"
+          }
+        },
+        {
+          "code": "G01S 7/529",
+          "title": {
+            "ko": null,
+            "en": "Gain of receiver varied automatically during pulse-recurrence period"
+          }
+        },
+        {
+          "code": "G01S 7/53",
+          "title": {
+            "ko": null,
+            "en": "Means for transforming co-ordinates or for evaluating data, e.g. using computers"
+          }
+        },
+        {
+          "code": "G01S 7/531",
+          "title": {
+            "ko": null,
+            "en": "Scan converters"
+          }
+        },
+        {
+          "code": "G01S 7/533",
+          "title": {
+            "ko": null,
+            "en": "Data rate converters"
+          }
+        },
+        {
+          "code": "G01S 7/534",
+          "title": {
+            "ko": null,
+            "en": "Details of non-pulse systems"
+          }
+        },
+        {
+          "code": "G01S 7/536",
+          "title": {
+            "ko": null,
+            "en": "Extracting wanted echo signals"
+          }
+        },
+        {
+          "code": "G01S 7/537",
+          "title": {
+            "ko": null,
+            "en": "Counter measures or counter-counter-measures, e.g. jamming, anti-jamming"
+          }
+        },
+        {
+          "code": "G01S 7/539",
+          "title": {
+            "ko": null,
+            "en": "using analysis of echo signal for target characterisation; Target signature; Target cross-section"
+          }
+        },
+        {
+          "code": "G01S 7/54",
+          "title": {
+            "ko": null,
+            "en": "with receivers spaced apart"
+          }
+        },
+        {
+          "code": "G01S 7/56",
+          "title": {
+            "ko": null,
+            "en": "Display arrangements"
+          }
+        },
+        {
+          "code": "G01S 7/58",
+          "title": {
+            "ko": null,
+            "en": "for providing variable ranges"
+          }
+        },
+        {
+          "code": "G01S 7/60",
+          "title": {
+            "ko": null,
+            "en": "for providing a permanent recording"
+          }
+        },
+        {
+          "code": "G01S 7/62",
+          "title": {
+            "ko": null,
+            "en": "Cathode-ray tube displays"
+          }
+        },
+        {
+          "code": "G01S 7/64",
+          "title": {
+            "ko": "발광체 지시(G01S 7/62가 우선)",
+            "en": "Luminous indications (G01S0007620000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 11/00",
+      "title": {
+        "ko": "반사 또는 재방사를 사용하지 않는 거리 또는 속도의 측정 시스템(2 또는 그 이상의 거리측정을 좌표지움에 의해 위치결정 G01S 5/00)",
+        "en": "Systems for determining distance or velocity not using reflection or reradiation (position-fixing by co-ordinating two or more distance determinations G01S0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 11/02",
+          "title": {
+            "ko": null,
+            "en": "using radio waves (G01S0019000000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 11/04",
+          "title": {
+            "ko": null,
+            "en": "using angle measurements"
+          }
+        },
+        {
+          "code": "G01S 11/06",
+          "title": {
+            "ko": null,
+            "en": "using intensity measurements"
+          }
+        },
+        {
+          "code": "G01S 11/08",
+          "title": {
+            "ko": null,
+            "en": "using synchronised clocks"
+          }
+        },
+        {
+          "code": "G01S 11/10",
+          "title": {
+            "ko": null,
+            "en": "using Doppler effect"
+          }
+        },
+        {
+          "code": "G01S 11/12",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 11/14",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        },
+        {
+          "code": "G01S 11/16",
+          "title": {
+            "ko": null,
+            "en": "using difference in transit time between electromagnetic and sonic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 13/00",
+      "title": {
+        "ko": "전파의 반사 또는 재방사를 사용하는 방식, 예. 레이더 시스템; 파의 특성 또는 파장에 무관하거나 규정되지 않은 파류의 반사 또는 재방사를 사용하는 유사방식",
+        "en": "Systems using the reflection or reradiation of radio waves, e.g. radar systems; Analogous systems using reflection or reradiation of waves whose nature or wavelength is irrelevant or unspecified"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 13/02",
+          "title": {
+            "ko": "전파의 반사를 사용하는 방식, 예. 일차레이더 방식; 유사한 방식",
+            "en": "Systems using reflection of radio waves, e.g. primary radar systems; Analogous systems"
+          }
+        },
+        {
+          "code": "G01S 13/04",
+          "title": {
+            "ko": "목표물의 존재를 결정하는 방식(목표물의 상대적 이동에 기초를 두는 것 G01S 13/56)",
+            "en": "Systems determining presence of a target (based on relative movement of target G01S0013560000)"
+          }
+        },
+        {
+          "code": "G01S 13/06",
+          "title": {
+            "ko": "목표물의 위치 데이타를 결정하는 방식",
+            "en": "Systems determining position data of a target"
+          }
+        },
+        {
+          "code": "G01S 13/08",
+          "title": {
+            "ko": "거리만을 측정하기 위한 방식(간접적인 측정 G01S 13/46)",
+            "en": "Systems for measuring distance only (indirect measurement G01S0013460000)"
+          }
+        },
+        {
+          "code": "G01S 13/10",
+          "title": {
+            "ko": "단독 펄스 변조파를 송신하는 것(위치측정에 의한 거리결정 G01S 13/32)",
+            "en": "using transmission of interrupted, pulse modulated waves  (determination of distance by phase measurement G01S0013320000)"
+          }
+        },
+        {
+          "code": "G01S 13/12",
+          "title": {
+            "ko": null,
+            "en": "wherein the pulse-recurrence frequency is varied to provide a desired time relationship between the transmission of a pulse and the receipt of the echo of a preceding pulse"
+          }
+        },
+        {
+          "code": "G01S 13/14",
+          "title": {
+            "ko": null,
+            "en": "wherein a voltage or current pulse is initiated and terminated in accordance respectively with the pulse transmission and echo reception"
+          }
+        },
+        {
+          "code": "G01S 13/16",
+          "title": {
+            "ko": null,
+            "en": "using counters"
+          }
+        },
+        {
+          "code": "G01S 13/18",
+          "title": {
+            "ko": null,
+            "en": "wherein range gates are used"
+          }
+        },
+        {
+          "code": "G01S 13/20",
+          "title": {
+            "ko": null,
+            "en": "whereby multiple time-around echos are used or eliminated"
+          }
+        },
+        {
+          "code": "G01S 13/22",
+          "title": {
+            "ko": null,
+            "en": "using irregular pulse repetition frequency"
+          }
+        },
+        {
+          "code": "G01S 13/24",
+          "title": {
+            "ko": null,
+            "en": "using frequency agility of carrier wave"
+          }
+        },
+        {
+          "code": "G01S 13/26",
+          "title": {
+            "ko": null,
+            "en": "wherein the transmitted pulses use a frequency- or phase-modulated carrier wave"
+          }
+        },
+        {
+          "code": "G01S 13/28",
+          "title": {
+            "ko": null,
+            "en": "with time compression of received pulses"
+          }
+        },
+        {
+          "code": "G01S 13/30",
+          "title": {
+            "ko": null,
+            "en": "using more than one pulse per radar period"
+          }
+        },
+        {
+          "code": "G01S 13/32",
+          "title": {
+            "ko": null,
+            "en": "using transmission of continuous waves, whether amplitude-, frequency-, or phase-modulated, or unmodulated"
+          }
+        },
+        {
+          "code": "G01S 13/34",
+          "title": {
+            "ko": null,
+            "en": "using transmission of continuous, frequency-modulated waves while heterodyning the received signal, or a signal derived therefrom, with a locally-generated signal related to the contemporaneously transmitted signal"
+          }
+        },
+        {
+          "code": "G01S 13/36",
+          "title": {
+            "ko": null,
+            "en": "with phase comparison between the received signal and the contemporaneously transmitted signal"
+          }
+        },
+        {
+          "code": "G01S 13/38",
+          "title": {
+            "ko": null,
+            "en": "wherein more than one modulation frequency is used"
+          }
+        },
+        {
+          "code": "G01S 13/40",
+          "title": {
+            "ko": null,
+            "en": "wherein the frequency of transmitted signal is adjusted to give a predetermined phase relationship"
+          }
+        },
+        {
+          "code": "G01S 13/42",
+          "title": {
+            "ko": "거리와 그것에 비슷한 다른 것과를 동시측정 (간접적인 측정 13/36)",
+            "en": "Simultaneous measurement of distance and other coordinates (indirect measurement G01S0013460000)"
+          }
+        },
+        {
+          "code": "G01S 13/44",
+          "title": {
+            "ko": null,
+            "en": "Monopulse radar, i.e. simultaneous lobing"
+          }
+        },
+        {
+          "code": "G01S 13/46",
+          "title": {
+            "ko": null,
+            "en": "Indirect determination of position data"
+          }
+        },
+        {
+          "code": "G01S 13/48",
+          "title": {
+            "ko": null,
+            "en": "using multiple beams at emission or reception"
+          }
+        },
+        {
+          "code": "G01S 13/50",
+          "title": {
+            "ko": "목표의 상대운동에 기초를 둔 측정방법",
+            "en": "Systems of measurement based on relative movement of target"
+          }
+        },
+        {
+          "code": "G01S 13/52",
+          "title": {
+            "ko": null,
+            "en": "Discriminating between fixed and moving objects or between objects moving at different speeds"
+          }
+        },
+        {
+          "code": "G01S 13/522",
+          "title": {
+            "ko": null,
+            "en": "using transmissions of interrupted pulse modulated waves"
+          }
+        },
+        {
+          "code": "G01S 13/524",
+          "title": {
+            "ko": null,
+            "en": "based upon the phase or frequency shift resulting from movement of objects, with reference to the transmitted signals, e.g. coherent MTi"
+          }
+        },
+        {
+          "code": "G01S 13/526",
+          "title": {
+            "ko": null,
+            "en": "performing filtering on the whole spectrum without loss of range information, e.g. using delay line cancellers or comb filters"
+          }
+        },
+        {
+          "code": "G01S 13/528",
+          "title": {
+            "ko": null,
+            "en": "with elimination of blind speeds"
+          }
+        },
+        {
+          "code": "G01S 13/53",
+          "title": {
+            "ko": null,
+            "en": "performing filtering on a single spectral line and associated with one or more range gates with a phase detector or a frequency mixer to extract the Doppler information, e.g. pulse Doppler radar"
+          }
+        },
+        {
+          "code": "G01S 13/532",
+          "title": {
+            "ko": null,
+            "en": "using a bank of range gates or a memory matrix"
+          }
+        },
+        {
+          "code": "G01S 13/534",
+          "title": {
+            "ko": null,
+            "en": "based upon amplitude or phase shift resulting from movement of objects, with reference to the surrounding clutter echo signal, e.g. non-coherent MTi, clutter referenced MTi, externally coherent MTi"
+          }
+        },
+        {
+          "code": "G01S 13/536",
+          "title": {
+            "ko": null,
+            "en": "using transmission of continuous unmodulated waves, amplitude-, frequency-, or phase-modulated waves"
+          }
+        },
+        {
+          "code": "G01S 13/538",
+          "title": {
+            "ko": null,
+            "en": "eliminating objects that have not moved between successive antenna scans, e.g. area MTi"
+          }
+        },
+        {
+          "code": "G01S 13/56",
+          "title": {
+            "ko": null,
+            "en": "for presence detection"
+          }
+        },
+        {
+          "code": "G01S 13/58",
+          "title": {
+            "ko": "속도 또는 궤도의 결정방식; 운동의 감지의 결정방식",
+            "en": "Velocity or trajectory determination systems; Sense-of-movement determination systems"
+          }
+        },
+        {
+          "code": "G01S 13/60",
+          "title": {
+            "ko": "송신기 및 수신기가 이동 물체상에 장치되어 있는 것, 예. 대지속도 드리프트각, 대지궤도를 결정하기 위한 것(G01S 13/64가 우선)",
+            "en": "wherein the transmitter and receiver are mounted on the moving object, e.g. for determining ground speed, drift angle, ground track (G01S0013640000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 13/62",
+          "title": {
+            "ko": null,
+            "en": "Sense-of-movement determination"
+          }
+        },
+        {
+          "code": "G01S 13/64",
+          "title": {
+            "ko": null,
+            "en": "Velocity measuring systems using range gates"
+          }
+        },
+        {
+          "code": "G01S 13/66",
+          "title": {
+            "ko": null,
+            "en": "Radar-tracking systems; Analogous systems"
+          }
+        },
+        {
+          "code": "G01S 13/68",
+          "title": {
+            "ko": null,
+            "en": "for angle tracking only"
+          }
+        },
+        {
+          "code": "G01S 13/70",
+          "title": {
+            "ko": null,
+            "en": "for range tracking only"
+          }
+        },
+        {
+          "code": "G01S 13/72",
+          "title": {
+            "ko": null,
+            "en": "for two-dimensional [2D] tracking, e.g. combination of angle and range tracking, track-while-scan radar"
+          }
+        },
+        {
+          "code": "G01S 13/74",
+          "title": {
+            "ko": "전파의 재방사를 사용하는 방식, 예. 이차 레이더 방식; 유사한 방식",
+            "en": "Systems using reradiation of radio waves, e.g. secondary radar systems; Analogous systems"
+          }
+        },
+        {
+          "code": "G01S 13/75",
+          "title": {
+            "ko": null,
+            "en": "using transponders powered from received waves, e.g. using passive transponders"
+          }
+        },
+        {
+          "code": "G01S 13/76",
+          "title": {
+            "ko": "펄스형신호를 송신하는 것",
+            "en": "wherein pulse-type signals are transmitted"
+          }
+        },
+        {
+          "code": "G01S 13/78",
+          "title": {
+            "ko": "상이한 종류의 목표물을 판별하는 것, 예 IFF 레이더, 즉 아군과 적군의 식별장치(G01S 13/75, G01S 13/79가 우선)",
+            "en": "discriminating between different kinds of targets, e.g. IFF-radar, i.e. identification of friend or foe (G01S0013750000, G01S0013790000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 13/79",
+          "title": {
+            "ko": null,
+            "en": "Systems using random coded signals or random pulse repetition frequencies"
+          }
+        },
+        {
+          "code": "G01S 13/82",
+          "title": {
+            "ko": null,
+            "en": "wherein continuous-type signals are transmitted"
+          }
+        },
+        {
+          "code": "G01S 13/84",
+          "title": {
+            "ko": null,
+            "en": "for distance determination by phase measurement"
+          }
+        },
+        {
+          "code": "G01S 13/86",
+          "title": {
+            "ko": null,
+            "en": "Combinations of radar systems with non-radar systems, e.g. sonar, direction finder"
+          }
+        },
+        {
+          "code": "G01S 13/87",
+          "title": {
+            "ko": null,
+            "en": "Combinations of radar systems, e.g. primary radar and secondary radar"
+          }
+        },
+        {
+          "code": "G01S 13/88",
+          "title": {
+            "ko": "레이더방식 또는 유사한 방식, 특히 특수한 목적에 적합한 것(물체의 전자파 탐광 또는 탐지, 예. 근거리 탐지방식 G01V 3/00)",
+            "en": "Radar or analogous systems, specially adapted for specific applications (electromagnetic prospecting or detecting of objects, e.g. near-field detection, G01V0003000000)"
+          }
+        },
+        {
+          "code": "G01S 13/89",
+          "title": {
+            "ko": null,
+            "en": "for mapping or imaging"
+          }
+        },
+        {
+          "code": "G01S 13/90",
+          "title": {
+            "ko": null,
+            "en": "using synthetic aperture techniques"
+          }
+        },
+        {
+          "code": "G01S 13/91",
+          "title": {
+            "ko": "교통제어용(G01S 13/93이 우선)",
+            "en": "for traffic control (G01S0013930000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 13/92",
+          "title": {
+            "ko": null,
+            "en": "for velocity measurement"
+          }
+        },
+        {
+          "code": "G01S 13/93",
+          "title": {
+            "ko": null,
+            "en": "for anti-collision purposes"
+          }
+        },
+        {
+          "code": "G01S 13/931",
+          "title": {
+            "ko": null,
+            "en": "of land vehicles"
+          }
+        },
+        {
+          "code": "G01S 13/933",
+          "title": {
+            "ko": null,
+            "en": "of aircraft or spacecraft"
+          }
+        },
+        {
+          "code": "G01S 13/934",
+          "title": {
+            "ko": null,
+            "en": "on airport surfaces, e.g. while taxiing"
+          }
+        },
+        {
+          "code": "G01S 13/935",
+          "title": {
+            "ko": null,
+            "en": "for terrain-avoidance"
+          }
+        },
+        {
+          "code": "G01S 13/937",
+          "title": {
+            "ko": null,
+            "en": "of marine craft"
+          }
+        },
+        {
+          "code": "G01S 13/95",
+          "title": {
+            "ko": null,
+            "en": "for meteorological use"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 15/00",
+      "title": {
+        "ko": "음파의 반사 또는 재방사를 사용하는 시스템, 예 소나(수중 음파 탐지) 시스템",
+        "en": "Systems using the reflection or reradiation of acoustic waves, e.g. sonar systems"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 15/02",
+          "title": {
+            "ko": "음파의 반사를 사용하는 것(G01S 15/66이 우선)",
+            "en": "using reflection of acoustic waves (G01S0015660000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 15/04",
+          "title": {
+            "ko": null,
+            "en": "Systems determining presence of a target"
+          }
+        },
+        {
+          "code": "G01S 15/06",
+          "title": {
+            "ko": "목표의 위치데이타를 결정하는 방식",
+            "en": "Systems determining position data of a target"
+          }
+        },
+        {
+          "code": "G01S 15/08",
+          "title": {
+            "ko": "거리만을 측정하기 위한 방식(간접적인 측정 15/46)",
+            "en": "Systems for measuring distance only (indirect measurement G01S0015460000)"
+          }
+        },
+        {
+          "code": "G01S 15/10",
+          "title": {
+            "ko": "단속펄스 변조파를 송신하는 것(위상측정에 의한 거리결정 G01S 15/32)",
+            "en": "using transmission of interrupted, pulse-modulated waves  (determination of distance by phase measurement G01S0015320000)"
+          }
+        },
+        {
+          "code": "G01S 15/12",
+          "title": {
+            "ko": null,
+            "en": "wherein the pulse-recurrence frequency is varied to provide a desired time relationship between the transmission of a pulse and the receipt of the echo of a preceding pulse"
+          }
+        },
+        {
+          "code": "G01S 15/14",
+          "title": {
+            "ko": null,
+            "en": "wherein a voltage or current pulse is initiated and terminated in accordance respectively with the pulse transmission and echo reception"
+          }
+        },
+        {
+          "code": "G01S 15/18",
+          "title": {
+            "ko": null,
+            "en": "wherein range gates are used"
+          }
+        },
+        {
+          "code": "G01S 15/32",
+          "title": {
+            "ko": null,
+            "en": "using transmission of continuous waves, whether amplitude-, frequency-, or phase-modulated, or unmodulated"
+          }
+        },
+        {
+          "code": "G01S 15/34",
+          "title": {
+            "ko": null,
+            "en": "using transmission of continuous, frequency-modulated waves while heterodyning the received signal, or a signal derived therefrom, with a locally-generated signal related to the contemporaneously transmitted signal"
+          }
+        },
+        {
+          "code": "G01S 15/36",
+          "title": {
+            "ko": null,
+            "en": "with phase comparison between the received signal and the contemporaneously transmitted signal"
+          }
+        },
+        {
+          "code": "G01S 15/42",
+          "title": {
+            "ko": "거리 및 그것과 동류의 다른 것과의 동시측정 (간접적인 측정 G01S 15/46)",
+            "en": "Simultaneous measurement of distance and other coordinates (indirect measurement G01S0015460000)"
+          }
+        },
+        {
+          "code": "G01S 15/46",
+          "title": {
+            "ko": null,
+            "en": "Indirect determination of position data"
+          }
+        },
+        {
+          "code": "G01S 15/50",
+          "title": {
+            "ko": null,
+            "en": "Systems of measurement based on relative movement of target"
+          }
+        },
+        {
+          "code": "G01S 15/52",
+          "title": {
+            "ko": null,
+            "en": "Discriminating between fixed and moving objects or between objects moving at different speeds"
+          }
+        },
+        {
+          "code": "G01S 15/58",
+          "title": {
+            "ko": null,
+            "en": "Velocity or trajectory determination systems; Sense-of-movement determination systems"
+          }
+        },
+        {
+          "code": "G01S 15/60",
+          "title": {
+            "ko": null,
+            "en": "wherein the transmitter and receiver are mounted on the moving object, e.g. for determining ground speed, drift angle, ground track"
+          }
+        },
+        {
+          "code": "G01S 15/62",
+          "title": {
+            "ko": null,
+            "en": "Sense-of-movement determination"
+          }
+        },
+        {
+          "code": "G01S 15/66",
+          "title": {
+            "ko": null,
+            "en": "Sonar tracking systems"
+          }
+        },
+        {
+          "code": "G01S 15/74",
+          "title": {
+            "ko": null,
+            "en": "Systems using reradiation of acoustic waves, e.g. IFF, i.e. identification of friend or foe"
+          }
+        },
+        {
+          "code": "G01S 15/86",
+          "title": {
+            "ko": null,
+            "en": "Combinations of sonar systems with lidar systems; Combinations of sonar systems with systems not using wave reflection"
+          }
+        },
+        {
+          "code": "G01S 15/87",
+          "title": {
+            "ko": null,
+            "en": "Combinations of sonar systems"
+          }
+        },
+        {
+          "code": "G01S 15/88",
+          "title": {
+            "ko": "특정 응용 분야에 특별히 적합한 소나 시스템 (지진파 또는 음파 탐광 또는 탐지 G01V1/00)",
+            "en": "Sonar systems specially adapted for specific applications (seismic or acoustic prospecting or detecting G01V0001000000)"
+          }
+        },
+        {
+          "code": "G01S 15/89",
+          "title": {
+            "ko": null,
+            "en": "for mapping or imaging"
+          }
+        },
+        {
+          "code": "G01S 15/93",
+          "title": {
+            "ko": null,
+            "en": "for anti-collision purposes"
+          }
+        },
+        {
+          "code": "G01S 15/931",
+          "title": {
+            "ko": null,
+            "en": "of land vehicles"
+          }
+        },
+        {
+          "code": "G01S 15/96",
+          "title": {
+            "ko": null,
+            "en": "for locating fish"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 17/00",
+      "title": {
+        "ko": "전파 이외의 전자파의 반사 또는 재방사를 사용하는 시스템, 예. 라이더 시스템",
+        "en": "Systems using the reflection or reradiation of electromagnetic waves other than radio waves, e.g. lidar systems"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 17/02",
+          "title": {
+            "ko": "전파 이외의 전자파의 반사를 사용하는 시스템(G01S17/66이 우선)",
+            "en": "Systems using the reflection of electromagnetic waves other than radio waves (G01S0017660000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 17/04",
+          "title": {
+            "ko": null,
+            "en": "Systems determining the presence of a target"
+          }
+        },
+        {
+          "code": "G01S 17/06",
+          "title": {
+            "ko": "물체의 위치데이터를 결정하는 방식",
+            "en": "Systems determining position data of a target"
+          }
+        },
+        {
+          "code": "G01S 17/08",
+          "title": {
+            "ko": "거리만을 측정하기 위한 것(간접적인 측정 G01S 17/46; 액티브 삼각측량 방식 G01S 17/48)",
+            "en": "for measuring distance only (indirect measurement G01S0017460000;active triangulation systems G01S0017480000)"
+          }
+        },
+        {
+          "code": "G01S 17/10",
+          "title": {
+            "ko": "단속 펄스 변조파의 송신을 사용하는 것(위상측정에 의한 거리 결정 G01S17/32)",
+            "en": "using transmission of interrupted, pulse-modulated waves (determination of distance by phase measurements G01S0017320000)"
+          }
+        },
+        {
+          "code": "G01S 17/14",
+          "title": {
+            "ko": null,
+            "en": "wherein a voltage or current pulse is initiated and terminated in accordance with the pulse transmission and echo reception respectively, e.g. using counters"
+          }
+        },
+        {
+          "code": "G01S 17/18",
+          "title": {
+            "ko": null,
+            "en": "wherein range gates are used"
+          }
+        },
+        {
+          "code": "G01S 17/26",
+          "title": {
+            "ko": null,
+            "en": "wherein the transmitted pulses use a frequency-modulated or phase-modulated carrier wave, e.g. for pulse compression of received signals"
+          }
+        },
+        {
+          "code": "G01S 17/32",
+          "title": {
+            "ko": null,
+            "en": "using transmission of continuous waves, whether amplitude-, frequency-, or phase-modulated, or unmodulated"
+          }
+        },
+        {
+          "code": "G01S 17/34",
+          "title": {
+            "ko": null,
+            "en": "using transmission of continuous, frequency-modulated waves while heterodyning the received signal, or a signal derived therefrom, with a locally-generated signal related to the contemporaneously transmitted signal"
+          }
+        },
+        {
+          "code": "G01S 17/36",
+          "title": {
+            "ko": null,
+            "en": "with phase comparison between the received signal and the contemporaneously transmitted signal"
+          }
+        },
+        {
+          "code": "G01S 17/42",
+          "title": {
+            "ko": "거리 및 그것과 동류인 다른 것과의 동시측정(간접적인 측정 G01S 17/46)",
+            "en": "Simultaneous measurement of distance and other coordinates (indirect measurement G01S0017460000)"
+          }
+        },
+        {
+          "code": "G01S 17/46",
+          "title": {
+            "ko": null,
+            "en": "Indirect determination of position data"
+          }
+        },
+        {
+          "code": "G01S 17/48",
+          "title": {
+            "ko": null,
+            "en": "Active triangulation systems, i.e. using the transmission and reflection of electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 17/50",
+          "title": {
+            "ko": null,
+            "en": "Systems of measurement based on relative movement of target"
+          }
+        },
+        {
+          "code": "G01S 17/58",
+          "title": {
+            "ko": null,
+            "en": "Velocity or trajectory determination systems; Sense-of-movement determination systems"
+          }
+        },
+        {
+          "code": "G01S 17/66",
+          "title": {
+            "ko": null,
+            "en": "Tracking systems using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 17/74",
+          "title": {
+            "ko": null,
+            "en": "Systems using reradiation of electromagnetic waves other than radio waves, e.g. IFF, i.e. identification of friend or foe"
+          }
+        },
+        {
+          "code": "G01S 17/86",
+          "title": {
+            "ko": null,
+            "en": "Combinations of lidar systems with systems other than lidar, radar or sonar, e.g. with direction finders"
+          }
+        },
+        {
+          "code": "G01S 17/87",
+          "title": {
+            "ko": null,
+            "en": "Combinations of systems using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 17/875",
+          "title": {
+            "ko": null,
+            "en": "for determining attitude"
+          }
+        },
+        {
+          "code": "G01S 17/88",
+          "title": {
+            "ko": null,
+            "en": "Lidar systems, specially adapted for specific applications"
+          }
+        },
+        {
+          "code": "G01S 17/89",
+          "title": {
+            "ko": null,
+            "en": "for mapping or imaging"
+          }
+        },
+        {
+          "code": "G01S 17/894",
+          "title": {
+            "ko": null,
+            "en": "Three-dimensional [3D] imaging with simultaneous measurement of time-of-flight at a two-dimensional [2D] array of receiver pixels, e.g. time-of-flight cameras or flash lidar"
+          }
+        },
+        {
+          "code": "G01S 17/90",
+          "title": {
+            "ko": null,
+            "en": "using synthetic aperture techniques"
+          }
+        },
+        {
+          "code": "G01S 17/93",
+          "title": {
+            "ko": null,
+            "en": "for anti-collision purposes"
+          }
+        },
+        {
+          "code": "G01S 17/931",
+          "title": {
+            "ko": null,
+            "en": "of land vehicles"
+          }
+        },
+        {
+          "code": "G01S 17/933",
+          "title": {
+            "ko": null,
+            "en": "of aircraft or spacecraft"
+          }
+        },
+        {
+          "code": "G01S 17/95",
+          "title": {
+            "ko": null,
+            "en": "for meteorological use"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 19/00",
+      "title": {
+        "ko": null,
+        "en": "Satellite radio beacon positioning systems; Determining position, velocity or attitude using signals transmitted by such systems"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 19/01",
+          "title": {
+            "ko": null,
+            "en": "Satellite radio beacon positioning systems transmitting time-stamped messages, e.g. GPS [Global Positioning System], GLONASS [Global Orbiting Navigation Satellite System] or GALILEO"
+          }
+        },
+        {
+          "code": "G01S 19/02",
+          "title": {
+            "ko": null,
+            "en": "Details of the space or ground control segments"
+          }
+        },
+        {
+          "code": "G01S 19/03",
+          "title": {
+            "ko": null,
+            "en": "Cooperating elements; Interaction or communication between different cooperating elements or between cooperating elements and receivers"
+          }
+        },
+        {
+          "code": "G01S 19/04",
+          "title": {
+            "ko": null,
+            "en": "providing carrier phase data"
+          }
+        },
+        {
+          "code": "G01S 19/05",
+          "title": {
+            "ko": null,
+            "en": "providing aiding data"
+          }
+        },
+        {
+          "code": "G01S 19/06",
+          "title": {
+            "ko": null,
+            "en": "employing an initial estimate of the location of the receiver as aiding data or in generating aiding data"
+          }
+        },
+        {
+          "code": "G01S 19/07",
+          "title": {
+            "ko": null,
+            "en": "providing data for correcting measured positioning data, e.g. DGPS [differential GPS] or ionosphere corrections"
+          }
+        },
+        {
+          "code": "G01S 19/08",
+          "title": {
+            "ko": null,
+            "en": "providing integrity information, e.g. health of satellites or quality of ephemeris data"
+          }
+        },
+        {
+          "code": "G01S 19/09",
+          "title": {
+            "ko": null,
+            "en": "providing processing capability normally carried out by the receiver"
+          }
+        },
+        {
+          "code": "G01S 19/10",
+          "title": {
+            "ko": null,
+            "en": "providing dedicated supplementary positioning signals"
+          }
+        },
+        {
+          "code": "G01S 19/11",
+          "title": {
+            "ko": null,
+            "en": "wherein the cooperating elements are pseudolites or satellite radio beacon positioning system signal repeaters"
+          }
+        },
+        {
+          "code": "G01S 19/12",
+          "title": {
+            "ko": null,
+            "en": "wherein the cooperating elements are telecommunication base stations"
+          }
+        },
+        {
+          "code": "G01S 19/13",
+          "title": {
+            "ko": null,
+            "en": "Receivers"
+          }
+        },
+        {
+          "code": "G01S 19/14",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for specific applications"
+          }
+        },
+        {
+          "code": "G01S 19/15",
+          "title": {
+            "ko": null,
+            "en": "Aircraft landing systems"
+          }
+        },
+        {
+          "code": "G01S 19/16",
+          "title": {
+            "ko": null,
+            "en": "Anti-theft; Abduction"
+          }
+        },
+        {
+          "code": "G01S 19/17",
+          "title": {
+            "ko": null,
+            "en": "Emergency applications"
+          }
+        },
+        {
+          "code": "G01S 19/18",
+          "title": {
+            "ko": null,
+            "en": "Military applications"
+          }
+        },
+        {
+          "code": "G01S 19/19",
+          "title": {
+            "ko": null,
+            "en": "Sporting applications"
+          }
+        },
+        {
+          "code": "G01S 19/20",
+          "title": {
+            "ko": null,
+            "en": "Integrity monitoring, fault detection or fault isolation of space segment"
+          }
+        },
+        {
+          "code": "G01S 19/21",
+          "title": {
+            "ko": null,
+            "en": "Interference related issues"
+          }
+        },
+        {
+          "code": "G01S 19/22",
+          "title": {
+            "ko": null,
+            "en": "Multipath-related issues"
+          }
+        },
+        {
+          "code": "G01S 19/23",
+          "title": {
+            "ko": null,
+            "en": "Testing, monitoring, correcting or calibrating of a receiver element"
+          }
+        },
+        {
+          "code": "G01S 19/24",
+          "title": {
+            "ko": null,
+            "en": "Acquisition or tracking of signals transmitted by the system"
+          }
+        },
+        {
+          "code": "G01S 19/25",
+          "title": {
+            "ko": null,
+            "en": "involving aiding data received from a cooperating element, e.g. assisted GPS"
+          }
+        },
+        {
+          "code": "G01S 19/26",
+          "title": {
+            "ko": null,
+            "en": "involving a sensor measurement for aiding acquisition or tracking"
+          }
+        },
+        {
+          "code": "G01S 19/27",
+          "title": {
+            "ko": null,
+            "en": "creating, predicting or correcting ephemeris or almanac data within the receiver"
+          }
+        },
+        {
+          "code": "G01S 19/28",
+          "title": {
+            "ko": null,
+            "en": "Satellite selection"
+          }
+        },
+        {
+          "code": "G01S 19/29",
+          "title": {
+            "ko": null,
+            "en": "carrier related"
+          }
+        },
+        {
+          "code": "G01S 19/30",
+          "title": {
+            "ko": null,
+            "en": "code related"
+          }
+        },
+        {
+          "code": "G01S 19/31",
+          "title": {
+            "ko": null,
+            "en": "Acquisition or tracking of other signals for positioning"
+          }
+        },
+        {
+          "code": "G01S 19/32",
+          "title": {
+            "ko": null,
+            "en": "Multimode operation in a single same satellite system, e.g. GPS L1/L2"
+          }
+        },
+        {
+          "code": "G01S 19/33",
+          "title": {
+            "ko": null,
+            "en": "Multimode operation in different systems which transmit time stamped messages, e.g. GPS/GLONASS"
+          }
+        },
+        {
+          "code": "G01S 19/34",
+          "title": {
+            "ko": null,
+            "en": "Power consumption"
+          }
+        },
+        {
+          "code": "G01S 19/35",
+          "title": {
+            "ko": null,
+            "en": "Constructional details or hardware or software details of the signal processing chain"
+          }
+        },
+        {
+          "code": "G01S 19/36",
+          "title": {
+            "ko": null,
+            "en": "relating to the receiver frond end"
+          }
+        },
+        {
+          "code": "G01S 19/37",
+          "title": {
+            "ko": null,
+            "en": "Hardware or software details of the signal processing chain"
+          }
+        },
+        {
+          "code": "G01S 19/38",
+          "title": {
+            "ko": null,
+            "en": "Determining a navigation solution using signals transmitted by a satellite radio beacon positioning system"
+          }
+        },
+        {
+          "code": "G01S 19/39",
+          "title": {
+            "ko": null,
+            "en": "the satellite radio beacon positioning system transmitting time-stamped messages, e.g. GPS [Global Positioning System], GLONASS [Global Orbiting Navigation Satellite System] or GALILEO"
+          }
+        },
+        {
+          "code": "G01S 19/40",
+          "title": {
+            "ko": null,
+            "en": "Correcting position, velocity or attitude"
+          }
+        },
+        {
+          "code": "G01S 19/41",
+          "title": {
+            "ko": null,
+            "en": "Differential correction, e.g. DGPS [differential GPS]"
+          }
+        },
+        {
+          "code": "G01S 19/42",
+          "title": {
+            "ko": null,
+            "en": "Determining position"
+          }
+        },
+        {
+          "code": "G01S 19/43",
+          "title": {
+            "ko": null,
+            "en": "using carrier phase measurements, e.g. kinematic positioning; using long or short baseline interferometry"
+          }
+        },
+        {
+          "code": "G01S 19/44",
+          "title": {
+            "ko": null,
+            "en": "Carrier phase ambiguity resolution; Floating ambiguity; LAMBDA [Least-squares AMBiguity Decorrelation Adjustment] method"
+          }
+        },
+        {
+          "code": "G01S 19/45",
+          "title": {
+            "ko": null,
+            "en": "by combining measurements of signals from the satellite radio beacon positioning system with a supplementary measurement"
+          }
+        },
+        {
+          "code": "G01S 19/46",
+          "title": {
+            "ko": null,
+            "en": "the supplementary measurement being of a radio-wave signal type"
+          }
+        },
+        {
+          "code": "G01S 19/47",
+          "title": {
+            "ko": null,
+            "en": "the supplementary measurement being an inertial measurement, e.g. tightly coupled inertial"
+          }
+        },
+        {
+          "code": "G01S 19/48",
+          "title": {
+            "ko": null,
+            "en": "by combining or switching between position solutions derived from the satellite radio beacon positioning system and position solutions derived from a further system"
+          }
+        },
+        {
+          "code": "G01S 19/49",
+          "title": {
+            "ko": null,
+            "en": "whereby the further system is an inertial position system, e.g. loosely-coupled"
+          }
+        },
+        {
+          "code": "G01S 19/50",
+          "title": {
+            "ko": null,
+            "en": "whereby the position solution is constrained to lie upon a particular curve or surface, e.g. for locomotives on railway tracks"
+          }
+        },
+        {
+          "code": "G01S 19/51",
+          "title": {
+            "ko": null,
+            "en": "Relative positioning"
+          }
+        },
+        {
+          "code": "G01S 19/52",
+          "title": {
+            "ko": null,
+            "en": "Determining velocity"
+          }
+        },
+        {
+          "code": "G01S 19/53",
+          "title": {
+            "ko": null,
+            "en": "Determining attitude"
+          }
+        },
+        {
+          "code": "G01S 19/54",
+          "title": {
+            "ko": null,
+            "en": "using carrier phase measurements; using long or short baseline interferometry"
+          }
+        },
+        {
+          "code": "G01S 19/55",
+          "title": {
+            "ko": null,
+            "en": "Carrier phase ambiguity resolution; Floating ambiguity; LAMBDA [Least-squares AMBiguity Decorrelation Adjustment] method"
+          }
+        }
+      ]
+    }
+  ]
+}

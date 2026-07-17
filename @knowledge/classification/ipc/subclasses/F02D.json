@@ -1,0 +1,823 @@
+{
+  "subclass": "F02D",
+  "title": {
+    "ko": "연소 기관의 제어(차량 속도를 자동적으로 제어하는 차량 부속품이고, 단일의 서브 유닛만으로 작용하는 것 B60K31/00；다른 종류 또는 다른 기능의 차량용 서브 유닛의 관련 제어, 특정의 단일의 서브 유닛의 제어에 관한 것은 아닌, 특정의 목적을 위한 도로상의 차량의 운전 제어 시스템 B60W)",
+    "en": "CONTROLLING COMBUSTION ENGINES  (vehicle fittings, acting on a single sub-unit only, for automatically controlling vehicle speed B60K0031000000; conjoint control of vehicle sub-units of different type or different function, road vehicle drive control systems for purposes other than the control of a single sub-unit B60W)"
+  },
+  "definition": {
+    "ko": "연소기관의 제어 일반 기관의 운전에 작용하는 것을 특징으로 하는 것 분사에 관한 것; 일반; 저압; 그 외의 수단 F02D1/00; F02D3/00; F02D7/00 흡입 또는 배기되는 공기 또는 혼합기의 교축에 의한 것 F02D9/00 밸브의 작동주기에 관한 것; 가변 압축비에 관한 것 F02D13/00; F02D15/00 실린더의 휴지, 엔진의 정지 또는 공회전에 관한 것 F02D17/00 연료 또는 연소공기의 공급에 관한 것으로서 달리 분류되지 않는 것 F02D33/00 복수의 결합된 기능에 관한 것으로 달리 분류되지 않는 것 F02D37/00 시동수단 또는 구동수단을 특징으로 하는 것 자동적으로 시동되지 않는 것, 예. 운전자에 의한 것 F02D11/00 속도센싱 감시기 또는 내부 또는 외부의 상태에 의한 시동, 달리 분류되지 않는 것 F02D31/00; F02D35/00 프로그램제어 F02D28/00 특수 엔진의 제어 연료에 특징이 있는 엔진; 사용된 연소매질에 특징이 있는 엔진; 슈퍼차저에 의한 F02D19/00; F02D21/00; 23/00 공조하여 작동하는 엔진; 역전 기능이 있는 엔진; 차량 또는 특수한 장치를 구동하는 엔진 F02D25/00; F02D27/00; F02D29/00 그 외의 제어 비전기적인 것 F02D39/00 전기적인 것 F02D41/00 ～ F02D45/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F02D 1/00",
+      "title": {
+        "ko": "연료분사펌프의 제어, 예. 고압분사형의 제어(F02D 3/00이 우선)",
+        "en": "Controlling, e.g. regulating, fuel injection"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 1/00",
+      "title": {
+        "ko": "연료분사펌프의 제어, 예. 고압분사형의 제어(F02D 3/00이 우선)",
+        "en": "Controlling fuel-injection pumps, e.g. of high-pressure injection type (F02D0003000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 1/02",
+          "title": {
+            "ko": "분사시기를 조정하는 것만으로 한정되지 않는 것, 예. 연료공급량의 변경",
+            "en": "not restricted to adjustment of injection timing, e.g. varying amount of fuel delivered"
+          }
+        },
+        {
+          "code": "F02D 1/04",
+          "title": {
+            "ko": "기관속도에 따른 기계적 수단에 의한 것, 예. 원심조속기를 사용하는 것(F02D 1/08이 우선)",
+            "en": "by mechanical means dependent on engine speed, e.g. using centrifugal governors (F02D0001080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02D 1/06",
+          "title": {
+            "ko": "기관의 작동유체의 압력에 따른 수단에 의한 것(F02D 1/08이 우선)",
+            "en": "by means dependent on pressure of engine working fluid (F02D0001080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02D 1/08",
+          "title": {
+            "ko": null,
+            "en": "Transmission of control impulse to pump control, e.g. with power drive or power assistance"
+          }
+        },
+        {
+          "code": "F02D 1/10",
+          "title": {
+            "ko": null,
+            "en": "mechanical"
+          }
+        },
+        {
+          "code": "F02D 1/12",
+          "title": {
+            "ko": null,
+            "en": "non-mechanical, e.g. hydraulic"
+          }
+        },
+        {
+          "code": "F02D 1/14",
+          "title": {
+            "ko": null,
+            "en": "pneumatic"
+          }
+        },
+        {
+          "code": "F02D 1/16",
+          "title": {
+            "ko": "분사시기의 조정(F02D 1/02이 우선)",
+            "en": "Adjustment of injection timing (F02D0001020000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02D 1/18",
+          "title": {
+            "ko": null,
+            "en": "with non-mechanical means for transmitting control impulse; with amplification of control impulse"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling low-pressure fuel injection, i.e. where the fuel-air mixture containing fuel thus injected will be substantially compressed by the compression stroke of the engine, by means other than controlling only an injection pump"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 3/02",
+          "title": {
+            "ko": null,
+            "en": "with continuous injection or continuous flow upstream of the injection nozzle"
+          }
+        },
+        {
+          "code": "F02D 3/04",
+          "title": {
+            "ko": null,
+            "en": "Controlling fuel injection and carburation, e.g. of alternative systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Other non-electrical fuel injection control"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 7/02",
+          "title": {
+            "ko": null,
+            "en": "Controlling fuel injection where fuel is injected by compressed air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 9/00",
+      "title": {
+        "ko": "공기 교축 또는 연료와 공기 도입 도관 또는 배기도관에 의한 기관의 제어",
+        "en": "Controlling engines by throttling air or fuel-and-air induction conduits or exhaust conduits"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 9/02",
+          "title": {
+            "ko": "흡기관에 관한 것(도관중의 교축밸브 또는 배치 F02D 9/08)",
+            "en": "concerning induction conduits (throttle valves, or arrangements thereof in conduits F02D0009080000)"
+          }
+        },
+        {
+          "code": "F02D 9/04",
+          "title": {
+            "ko": "배기관에 관한 것(도관중의 교축밸브 또는 배치 F02D 9/08)",
+            "en": "concerning exhaust conduits (throttle valves, or arrangements thereof in conduits F02D0009080000)"
+          }
+        },
+        {
+          "code": "F02D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Exhaust brakes"
+          }
+        },
+        {
+          "code": "F02D 9/08",
+          "title": {
+            "ko": null,
+            "en": "Throttle valves specially adapted therefor; Arrangements of such valves in conduits"
+          }
+        },
+        {
+          "code": "F02D 9/10",
+          "title": {
+            "ko": null,
+            "en": "having pivotally-mounted flaps"
+          }
+        },
+        {
+          "code": "F02D 9/12",
+          "title": {
+            "ko": null,
+            "en": "having slidably-mounted valve-members; having valve-members movable longitudinally of conduit"
+          }
+        },
+        {
+          "code": "F02D 9/14",
+          "title": {
+            "ko": null,
+            "en": "the members being slidable transversely of conduit"
+          }
+        },
+        {
+          "code": "F02D 9/16",
+          "title": {
+            "ko": null,
+            "en": "the members being rotatable"
+          }
+        },
+        {
+          "code": "F02D 9/18",
+          "title": {
+            "ko": null,
+            "en": "having elastic-wall valve-members"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 11/00",
+      "title": {
+        "ko": "비자동 엔진 제어 개시 수단에 대한 배치 또는 개조, 예. 오퍼레이터 개시(특히 역전을 위한 것 F02D27/00)",
+        "en": "Arrangements for, or adaptations to, non-automatic engine control initiation means, e.g. operator initiated (specially for reversing F02D0027000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 11/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by hand, foot, or like operator controlled initiation means"
+          }
+        },
+        {
+          "code": "F02D 11/04",
+          "title": {
+            "ko": "기계적 제어 연결을 특징으로 하는 것 (F02D11/06이 우선)",
+            "en": "characterised by mechanical control linkages  (F02D0011060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02D 11/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by non-mechanical control linkages, e.g. fluid control linkages or by control linkages with power drive or assistance"
+          }
+        },
+        {
+          "code": "F02D 11/08",
+          "title": {
+            "ko": null,
+            "en": "of the pneumatic type"
+          }
+        },
+        {
+          "code": "F02D 11/10",
+          "title": {
+            "ko": null,
+            "en": "of the electric type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling the engine output power by varying inlet or exhaust valve operating characteristics, e.g. timing"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 13/02",
+          "title": {
+            "ko": null,
+            "en": "during engine operation"
+          }
+        },
+        {
+          "code": "F02D 13/04",
+          "title": {
+            "ko": null,
+            "en": "using engine as brake"
+          }
+        },
+        {
+          "code": "F02D 13/06",
+          "title": {
+            "ko": null,
+            "en": "Cutting-out cylinders"
+          }
+        },
+        {
+          "code": "F02D 13/08",
+          "title": {
+            "ko": null,
+            "en": "for rendering engine inoperative or idling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Varying compression ratio"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 15/02",
+          "title": {
+            "ko": null,
+            "en": "by alteration or displacement of piston stroke"
+          }
+        },
+        {
+          "code": "F02D 15/04",
+          "title": {
+            "ko": null,
+            "en": "by alteration of volume of compression space without changing piston stroke"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 17/00",
+      "title": {
+        "ko": "개개의 실린더의 휴지에 의한 기관의 제어; 기관을 정지시키거나 공회전시키는 것(흡기 또는 배기밸브의 작동특성을 변경시켜 기관을 제어하거나 또는 정지시키는 것 F02D 13/00)",
+        "en": "Controlling engines by cutting-out individual cylinders; Rendering engines inoperative or idling (controlling or rendering inoperative by varying inlet or exhaust valve operating characteristics F02D0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 17/02",
+          "title": {
+            "ko": "작동휴지(다수의 엔진 배열에 있어서의 작동 휴지 F02D 25/04)",
+            "en": "Cutting-out (cutting-out engines in multiple-engine arrangements F02D0025040000)"
+          }
+        },
+        {
+          "code": "F02D 17/04",
+          "title": {
+            "ko": "이상상태 발생시 기관을 정지시키거나 또는 공회전시키는 것(윤활상태에 의한 것 F01M 1/22; 냉각상태에 의한 것 F01P 5/14)",
+            "en": "rendering engines inoperative or idling, e.g. caused by abnormal conditions (dependent on lubricating conditions F01M0001220000;dependent on cooling F01P0005140000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 19/00",
+      "title": {
+        "ko": "액체가 아닌 연료, 복수의 연료 또는 가연 혼합물에 연료가 아닌 물질을 첨가하여 사용하는 기관에 특징이 있는 제어(기체상태의 비연료 물질에 관한 것 F02D 21/00)",
+        "en": "Controlling peculiar to specified types or adaptations of engines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 19/00",
+      "title": {
+        "ko": "액체가 아닌 연료, 복수의 연료 또는 가연 혼합물에 연료가 아닌 물질을 첨가하여 사용하는 기관에 특징이 있는 제어(기체상태의 비연료 물질에 관한 것 F02D 21/00)",
+        "en": "Controlling engines characterised by their use of non-liquid fuels, pluralities of fuels, or non-fuel substances added to the combustible mixtures (the non-fuel substances being gaseous F02D0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 19/02",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines working with gaseous fuels"
+          }
+        },
+        {
+          "code": "F02D 19/04",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines working with solid fuels, e.g. pulverised coal"
+          }
+        },
+        {
+          "code": "F02D 19/06",
+          "title": {
+            "ko": "다수의 연료에 의하여 작동하는 기관, 예. 경유 및 중유연료를 선택적으로 사용할 수 있는, 소비되는 연료에 무관한 다른 기관 에 특징이 있는 것",
+            "en": "peculiar to engines working with pluralities of fuels, e.g. alternatively with light and heavy fuel oil, other than engines indifferent to the fuel consumed"
+          }
+        },
+        {
+          "code": "F02D 19/08",
+          "title": {
+            "ko": "동시에 다수의 연료를 사용하는 것(F02D 19/12이 우선)",
+            "en": "simultaneously using pluralities of fuels (F02D0019120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02D 19/10",
+          "title": {
+            "ko": null,
+            "en": "peculiar to compression-ignition engines in which the main fuel is gaseous"
+          }
+        },
+        {
+          "code": "F02D 19/12",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines working with non-fuel substances or with anti-knock agents, e.g. with anti-knock fuel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines characterised by their being supplied with non-airborne oxygen or other non-fuel gas"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 21/02",
+          "title": {
+            "ko": null,
+            "en": "peculiar to oxygen-fed engines"
+          }
+        },
+        {
+          "code": "F02D 21/04",
+          "title": {
+            "ko": null,
+            "en": "with circulation of exhaust gases in closed or semi-closed circuits"
+          }
+        },
+        {
+          "code": "F02D 21/06",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines having other non-fuel gas added to combustion-air"
+          }
+        },
+        {
+          "code": "F02D 21/08",
+          "title": {
+            "ko": null,
+            "en": "the other gas being the exhaust gas of engine"
+          }
+        },
+        {
+          "code": "F02D 21/10",
+          "title": {
+            "ko": null,
+            "en": "having secondary air added to fuel-air mixture"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 23/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines characterised by their being supercharged"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 23/02",
+          "title": {
+            "ko": null,
+            "en": "the engines being of fuel-injection type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 25/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling two or more co-operating engines"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 25/02",
+          "title": {
+            "ko": null,
+            "en": "to synchronise speed"
+          }
+        },
+        {
+          "code": "F02D 25/04",
+          "title": {
+            "ko": null,
+            "en": "by cutting-out engines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines characterised by their being reversible"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 27/02",
+          "title": {
+            "ko": null,
+            "en": "by performing a programme"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 28/00",
+      "title": {
+        "ko": null,
+        "en": "Program control of engines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 29/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines, such controlling being peculiar to the devices driven thereby, the devices being other than parts or accessories essential to engine operation, e.g. controlling of engines by signals external thereto"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 29/02",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines driving vehicles; peculiar to engines driving variable-pitch propellers"
+          }
+        },
+        {
+          "code": "F02D 29/04",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines driving pumps"
+          }
+        },
+        {
+          "code": "F02D 29/06",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines driving electric generators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Other non-electrical control of combustion engines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Use of non-electrical speed-sensing governors to control combustion engines, not otherwise provided for"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 33/00",
+      "title": {
+        "ko": null,
+        "en": "Non-electrical control of delivery of fuel or combustion-air, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 33/02",
+          "title": {
+            "ko": null,
+            "en": "of combustion-air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 35/00",
+      "title": {
+        "ko": null,
+        "en": "Non-electrical control of engines, dependent on conditions exterior or interior to engines, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 35/02",
+          "title": {
+            "ko": null,
+            "en": "on interior conditions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 37/00",
+      "title": {
+        "ko": null,
+        "en": "Non-electrical conjoint control of  two or more functions of engines, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 37/02",
+          "title": {
+            "ko": null,
+            "en": "one of the functions being ignition"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 39/00",
+      "title": {
+        "ko": null,
+        "en": "Other non-electrical control"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 39/02",
+          "title": {
+            "ko": null,
+            "en": "for four-stroke engines"
+          }
+        },
+        {
+          "code": "F02D 39/04",
+          "title": {
+            "ko": null,
+            "en": "for engines with other cycles than four-stroke, e.g. two-stroke"
+          }
+        },
+        {
+          "code": "F02D 39/06",
+          "title": {
+            "ko": null,
+            "en": "for engines adding the fuel substantially at end of compression stroke"
+          }
+        },
+        {
+          "code": "F02D 39/08",
+          "title": {
+            "ko": null,
+            "en": "for engines adding the fuel substantially before compression stroke"
+          }
+        },
+        {
+          "code": "F02D 39/10",
+          "title": {
+            "ko": null,
+            "en": "for free-piston engines; for engines without rotary main shaft"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 41/00",
+      "title": {
+        "ko": "연소가능한 혼합기 또는 그 성분의 공급의 전기적 제어(F02D 43/00이 우선)",
+        "en": "Electrical control of combustion engines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 41/00",
+      "title": {
+        "ko": "연소가능한 혼합기 또는 그 성분의 공급의 전기적 제어(F02D 43/00이 우선)",
+        "en": "Electrical control of supply of combustible mixture or its constituents (F02D0043000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 41/02",
+          "title": {
+            "ko": "제어신호를 발생하는 회로장치",
+            "en": "Circuit arrangements for generating control signals"
+          }
+        },
+        {
+          "code": "F02D 41/04",
+          "title": {
+            "ko": "특정의 운전상태에 대응하는 보정의 도입(F02D 41/14가 우선)",
+            "en": "Introducing corrections for particular operating conditions (F02D0041140000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02D 41/06",
+          "title": {
+            "ko": null,
+            "en": "for engine starting or warming up"
+          }
+        },
+        {
+          "code": "F02D 41/08",
+          "title": {
+            "ko": "아이들링을 위한 것(F02D 41/06, 41/16이 우선)",
+            "en": "for idling (F02D0041060000, F02D0041160000 take precedence)"
+          }
+        },
+        {
+          "code": "F02D 41/10",
+          "title": {
+            "ko": null,
+            "en": "for acceleration"
+          }
+        },
+        {
+          "code": "F02D 41/12",
+          "title": {
+            "ko": null,
+            "en": "for deceleration"
+          }
+        },
+        {
+          "code": "F02D 41/14",
+          "title": {
+            "ko": null,
+            "en": "Introducing closed-loop corrections"
+          }
+        },
+        {
+          "code": "F02D 41/16",
+          "title": {
+            "ko": null,
+            "en": "for idling"
+          }
+        },
+        {
+          "code": "F02D 41/18",
+          "title": {
+            "ko": null,
+            "en": "by measuring intake air flow"
+          }
+        },
+        {
+          "code": "F02D 41/20",
+          "title": {
+            "ko": null,
+            "en": "Output circuits, e.g. for controlling currents in command coils"
+          }
+        },
+        {
+          "code": "F02D 41/22",
+          "title": {
+            "ko": null,
+            "en": "Safety or indicating devices for abnormal conditions"
+          }
+        },
+        {
+          "code": "F02D 41/24",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of digital means"
+          }
+        },
+        {
+          "code": "F02D 41/26",
+          "title": {
+            "ko": null,
+            "en": "using computer, e.g. microprocessor"
+          }
+        },
+        {
+          "code": "F02D 41/28",
+          "title": {
+            "ko": null,
+            "en": "Interface circuits"
+          }
+        },
+        {
+          "code": "F02D 41/30",
+          "title": {
+            "ko": null,
+            "en": "Controlling fuel injection"
+          }
+        },
+        {
+          "code": "F02D 41/32",
+          "title": {
+            "ko": null,
+            "en": "of the low pressure type"
+          }
+        },
+        {
+          "code": "F02D 41/34",
+          "title": {
+            "ko": null,
+            "en": "with means for controlling injection timing or duration"
+          }
+        },
+        {
+          "code": "F02D 41/36",
+          "title": {
+            "ko": null,
+            "en": "with means for controlling distribution"
+          }
+        },
+        {
+          "code": "F02D 41/38",
+          "title": {
+            "ko": null,
+            "en": "of the high pressure type"
+          }
+        },
+        {
+          "code": "F02D 41/40",
+          "title": {
+            "ko": null,
+            "en": "with means for controlling injection timing or duration"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 43/00",
+      "title": {
+        "ko": null,
+        "en": "Conjoint electrical control of two or more functions, e.g. ignition, fuel-air mixture, recirculation, supercharging or exhaust-gas treatment"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 43/02",
+          "title": {
+            "ko": null,
+            "en": "using only analogue means"
+          }
+        },
+        {
+          "code": "F02D 43/04",
+          "title": {
+            "ko": null,
+            "en": "using only digital means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 45/00",
+      "title": {
+        "ko": "그룹 F02D 41/00 ～ F02D 43/00에 달리 분류되지 않는 전기적 제어",
+        "en": "Electrical control not provided for in groups F02D0041000000-F02D0043000000"
+      },
+      "subgroups": []
+    }
+  ]
+}

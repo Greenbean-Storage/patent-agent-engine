@@ -1,0 +1,51 @@
+{
+  "subclass": "G06E",
+  "title": {
+    "ko": "광학 계산 장치 (광학 논리소자 그 자체 G02F3/00; 광학 소자를 사용한 디지털기억 G11C13/04)",
+    "en": "OPTICAL COMPUTING DEVICES (digital storage using optical elements G11C0013040000)"
+  },
+  "definition": {
+    "ko": "(1) 이 서브클래스는 적어도 하나의 계산기능이 공학적 수단에 의해서 수행되는 모든 장치를 포함한다 (2) 만약 다른 형태, 예를 들면, 기계적, 유체압력 또는 전기적 계산이 중요하다면 분류에 이러한 형태에 대한 관련 서브클래스에 분류한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G06E 1/00",
+      "title": {
+        "ko": null,
+        "en": "Devices for processing exclusively digital data"
+      },
+      "subgroups": [
+        {
+          "code": "G06E 1/02",
+          "title": {
+            "ko": null,
+            "en": "operating upon the order or content of the data handled"
+          }
+        },
+        {
+          "code": "G06E 1/04",
+          "title": {
+            "ko": null,
+            "en": "for performing computations using exclusively denominational number representation, e.g. using binary, ternary, decimal representation"
+          }
+        },
+        {
+          "code": "G06E 1/06",
+          "title": {
+            "ko": null,
+            "en": "for performing computations using a digital non-denominational number representation, i.e. number representation without radix; using combinations of denominational and non-denominational number representations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06E 3/00",
+      "title": {
+        "ko": "그룹 G06E1/00에 분류되지 않는 장치, 예 아날로그 또는 하이브리드 데이터를 처리하기 위한 것",
+        "en": "Devices not provided for in group G06E0001000000, e.g. for processing analogue or hybrid data"
+      },
+      "subgroups": []
+    }
+  ]
+}

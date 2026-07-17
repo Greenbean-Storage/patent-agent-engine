@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "enum": [
+        "success",
+        "error"
+      ],
+      "type": "string"
+    },
+    "chosen_tool": {
+      "type": "string"
+    },
+    "figure_bytes_b64": {
+      "type": "string"
+    },
+    "mime_type": {
+      "type": "string"
+    },
+    "file_extension": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status"
+  ]
+}

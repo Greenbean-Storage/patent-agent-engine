@@ -1,0 +1,909 @@
+{
+  "subclass": "B21C",
+  "title": {
+    "ko": "압연 이외의 방법으로 금속 판재, 선재, 봉재, 관재, 프로파일 또는 이와 유사한 반제품을 제조하는 것; 금속 가공과 관련하여 재료를 본질적으로 제거하지 않고 사용되는 보조 작업",
+    "en": "MANUFACTURE OF METAL SHEETS, WIRE, RODS, TUBES, PROFILES OR LIKE SEMI-MANUFACTURED PRODUCTS OTHERWISE THAN BY ROLLING; AUXILIARY OPERATIONS USED IN CONNECTION WITH METAL-WORKING WITHOUT ESSENTIALLY REMOVING MATERIAL"
+  },
+  "definition": {
+    "ko": "금속의 인발 일반적방법 B21C1/00 보조적 작업 B21C5/00, B21C9/00 장치 B21C3/00, B21C19/00 금속의 압출 일반적방법 B21C23/00 보조적 작업 B21C29/00, B21C33/00, B21C35/00 장치 B21C25/00, B21C26/00, B21C27/00 제어 B21C31/00 금속의 인발 및 압출에 공통된 세부 B21C43/00 실질적으로 재료의 제거없이 금속가공과 결합해서 사용하는 보조적 및 부수적작업 권취 B21C37/00 다른 보조 작업 B21C47/00 보조장치 B21C45/00, B21C51/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B21C 1/00",
+      "title": {
+        "ko": "인발에 의한 금속 판재, 선재, 봉재, 관재 또는 기타 반제품의 제조",
+        "en": "Metal drawing"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 1/00",
+      "title": {
+        "ko": "인발에 의한 금속 판재, 선재, 봉재, 관재 또는 기타 반제품의 제조",
+        "en": "Manufacture of metal sheets, wire, rods, tubes or like semi-manufactured products by drawing"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 1/02",
+          "title": {
+            "ko": null,
+            "en": "Drawing metal wire or like flexible metallic material by drawing machines or apparatus in which the drawing action is effected by drums"
+          }
+        },
+        {
+          "code": "B21C 1/04",
+          "title": {
+            "ko": null,
+            "en": "with two or more dies operating in series"
+          }
+        },
+        {
+          "code": "B21C 1/06",
+          "title": {
+            "ko": null,
+            "en": "in which the material slips on the drums"
+          }
+        },
+        {
+          "code": "B21C 1/08",
+          "title": {
+            "ko": null,
+            "en": "in which the material does not slip on the drums"
+          }
+        },
+        {
+          "code": "B21C 1/10",
+          "title": {
+            "ko": null,
+            "en": "with accumulation of material between consecutively-arranged dies"
+          }
+        },
+        {
+          "code": "B21C 1/12",
+          "title": {
+            "ko": null,
+            "en": "Regulating or controlling speed of drawing drums, e.g. to influence tension; Drives; Stop or relief mechanisms"
+          }
+        },
+        {
+          "code": "B21C 1/14",
+          "title": {
+            "ko": null,
+            "en": "Drums, e.g. capstans; Connection of grippers thereto; Grippers specially adapted for drawing machines or apparatus of the drum type; Couplings specially adapted for these drums"
+          }
+        },
+        {
+          "code": "B21C 1/16",
+          "title": {
+            "ko": "드럼 이외의 수단에 의해 인발 동작이 이루어지는 기계 또는 장치에 의한 금속 인발, 예. 금속 판재, 봉재 또는 관재를 만들기 위해 작업물이나 재료를 당기거나 밀어내는 세로 방향으로 이동하는 이송대에 의한 것",
+            "en": "Metal drawing by machines or apparatus in which the drawing action is effected by means other than drums, e.g. by a longitudinally-moved carriage pulling or pushing the work or stock for making metal sheets, rods or tubes"
+          }
+        },
+        {
+          "code": "B21C 1/18",
+          "title": {
+            "ko": "한정된 길이의 스토크(물품)로부터의 것(B21C 1/22가 우선)",
+            "en": "from stock of limited length (B21C0001220000 takes precedence)"
+          }
+        },
+        {
+          "code": "B21C 1/20",
+          "title": {
+            "ko": "실질적으로 무제한 길이의 스토크(물품)로부터의 것(B21C 1/22가 우선)",
+            "en": "from stock of essentially unlimited length (B21C0001220000 takes precedence)"
+          }
+        },
+        {
+          "code": "B21C 1/22",
+          "title": {
+            "ko": "관상물품의 제조에 특히 적합한 것(인발에 의하여 관상으로 성형하는 금속판의 굽힘가공 B21D 5/10)",
+            "en": "specially adapted for making tubular articles (bending sheet metal into tubular form by drawing B21D0005100000)"
+          }
+        },
+        {
+          "code": "B21C 1/24",
+          "title": {
+            "ko": null,
+            "en": "by means of mandrels"
+          }
+        },
+        {
+          "code": "B21C 1/26",
+          "title": {
+            "ko": null,
+            "en": "Push-bench drawing"
+          }
+        },
+        {
+          "code": "B21C 1/27",
+          "title": {
+            "ko": null,
+            "en": "Carriages; Drives"
+          }
+        },
+        {
+          "code": "B21C 1/28",
+          "title": {
+            "ko": null,
+            "en": "Carriages; Connections of grippers thereto; Grippers"
+          }
+        },
+        {
+          "code": "B21C 1/30",
+          "title": {
+            "ko": null,
+            "en": "Drives, e.g. carriage-traversing mechanisms; Driving elements, e.g. drawing chains; Controlling the drive"
+          }
+        },
+        {
+          "code": "B21C 1/32",
+          "title": {
+            "ko": null,
+            "en": "Feeding or discharging the material or mandrels"
+          }
+        },
+        {
+          "code": "B21C 1/34",
+          "title": {
+            "ko": null,
+            "en": "Guiding or supporting the material or mandrels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 3/00",
+      "title": {
+        "ko": "금속 인발용 프로파일링 공구; 금속 인발용 다이와 맨드릴의 조합",
+        "en": "Profiling tools for metal drawing; Combinations of dies and mandrels for metal drawing"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 3/02",
+          "title": {
+            "ko": "다이스; 다이스용 재료의 선택; 다이스의 청정",
+            "en": "Dies; Selection of material therefor; Cleaning thereof"
+          }
+        },
+        {
+          "code": "B21C 3/04",
+          "title": {
+            "ko": "비조정단면을 갖는 것(B21C 3/08이 우선)",
+            "en": "with non-adjustable section (B21C0003080000 takes precedence)"
+          }
+        },
+        {
+          "code": "B21C 3/06",
+          "title": {
+            "ko": "조정단면을 갖는 것(B21C 3/08이 우선)",
+            "en": "with adjustable section (B21C0003080000 takes precedence)"
+          }
+        },
+        {
+          "code": "B21C 3/08",
+          "title": {
+            "ko": null,
+            "en": "with section defined by rollers, balls, or the like"
+          }
+        },
+        {
+          "code": "B21C 3/10",
+          "title": {
+            "ko": null,
+            "en": "with hydraulic forces acting immediately on work"
+          }
+        },
+        {
+          "code": "B21C 3/12",
+          "title": {
+            "ko": null,
+            "en": "Die holders; Rotating dies"
+          }
+        },
+        {
+          "code": "B21C 3/14",
+          "title": {
+            "ko": null,
+            "en": "Die holders combined with devices for guiding the drawing material or combined with devices for cooling, heating, or lubricating"
+          }
+        },
+        {
+          "code": "B21C 3/16",
+          "title": {
+            "ko": null,
+            "en": "Mandrels; Mounting or adjusting same"
+          }
+        },
+        {
+          "code": "B21C 3/18",
+          "title": {
+            "ko": null,
+            "en": "Making tools by operations not covered by a single other subclass; Repairing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 5/00",
+      "title": {
+        "ko": null,
+        "en": "Pointing or push-pointing drawn work or drawing material"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 9/00",
+      "title": {
+        "ko": "인발재료의 냉각, 가열 또는 윤활(B21C 3/14가 우선)",
+        "en": "Cooling, heating or lubricating drawing material (B21C0003140000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 9/02",
+          "title": {
+            "ko": null,
+            "en": "Selection of compositions therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 19/00",
+      "title": {
+        "ko": null,
+        "en": "Devices for straightening wire or like work combined with or specially adapted for use in connection with drawing or winding machines or apparatus"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 23/00",
+      "title": {
+        "ko": "금속의 압출 충격압출",
+        "en": "Metal extruding"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 23/00",
+      "title": {
+        "ko": "금속의 압출 충격압출",
+        "en": "Extruding metal; Impact extrusion"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 23/01",
+          "title": {
+            "ko": "특유한 형 또는 형상의 재료에서의 출발, 예. 기계적으로 예비처리한 것(B21C 23/22가 우선)",
+            "en": "starting from material of particular form or shape, e.g. mechanically pre-treated  (B21C0023220000 takes precedence)"
+          }
+        },
+        {
+          "code": "B21C 23/02",
+          "title": {
+            "ko": null,
+            "en": "Making uncoated products"
+          }
+        },
+        {
+          "code": "B21C 23/03",
+          "title": {
+            "ko": null,
+            "en": "by both direct and backward extrusion"
+          }
+        },
+        {
+          "code": "B21C 23/04",
+          "title": {
+            "ko": null,
+            "en": "by direct extrusion"
+          }
+        },
+        {
+          "code": "B21C 23/06",
+          "title": {
+            "ko": null,
+            "en": "Making sheets"
+          }
+        },
+        {
+          "code": "B21C 23/08",
+          "title": {
+            "ko": null,
+            "en": "Making wire, rods or tubes"
+          }
+        },
+        {
+          "code": "B21C 23/10",
+          "title": {
+            "ko": null,
+            "en": "Making finned tubes"
+          }
+        },
+        {
+          "code": "B21C 23/12",
+          "title": {
+            "ko": null,
+            "en": "Extruding bent tubes or rods"
+          }
+        },
+        {
+          "code": "B21C 23/14",
+          "title": {
+            "ko": null,
+            "en": "Making other products"
+          }
+        },
+        {
+          "code": "B21C 23/16",
+          "title": {
+            "ko": null,
+            "en": "Making turbo blades or propellers"
+          }
+        },
+        {
+          "code": "B21C 23/18",
+          "title": {
+            "ko": null,
+            "en": "by impact extrusion"
+          }
+        },
+        {
+          "code": "B21C 23/20",
+          "title": {
+            "ko": null,
+            "en": "by backward extrusion"
+          }
+        },
+        {
+          "code": "B21C 23/21",
+          "title": {
+            "ko": null,
+            "en": "Presses specially adapted for extruding metal"
+          }
+        },
+        {
+          "code": "B21C 23/22",
+          "title": {
+            "ko": null,
+            "en": "Making metal-coated products; Making products from two or more metals"
+          }
+        },
+        {
+          "code": "B21C 23/24",
+          "title": {
+            "ko": null,
+            "en": "Covering indefinite lengths of metal or non-metal material with a metal coating"
+          }
+        },
+        {
+          "code": "B21C 23/26",
+          "title": {
+            "ko": null,
+            "en": "Applying metal coats to cables, e.g. to insulated electric cables"
+          }
+        },
+        {
+          "code": "B21C 23/28",
+          "title": {
+            "ko": null,
+            "en": "on intermittently-operating extrusion presses"
+          }
+        },
+        {
+          "code": "B21C 23/30",
+          "title": {
+            "ko": null,
+            "en": "on continuously-operating extrusion presses"
+          }
+        },
+        {
+          "code": "B21C 23/32",
+          "title": {
+            "ko": null,
+            "en": "Lubrication of metal being extruded or of dies, or the like, e.g. physical state of lubricant, location where lubricant is applied"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 25/00",
+      "title": {
+        "ko": "금속의 압출용 (프로파일링 공구, 성형 공구)",
+        "en": "Profiling tools for metal extruding"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 25/02",
+          "title": {
+            "ko": null,
+            "en": "Dies"
+          }
+        },
+        {
+          "code": "B21C 25/04",
+          "title": {
+            "ko": null,
+            "en": "Mandrels"
+          }
+        },
+        {
+          "code": "B21C 25/06",
+          "title": {
+            "ko": null,
+            "en": "Press heads, dies, or mandrels for coating work"
+          }
+        },
+        {
+          "code": "B21C 25/08",
+          "title": {
+            "ko": "압출중에 단면이 변화하는 다이스 또는 맨드릴, 예. 테이퍼 가공품의 제조를 위한 것; 변화의 제어",
+            "en": "Dies or mandrels with section variable during extruding, e. g for making tapered work; Controlling variation"
+          }
+        },
+        {
+          "code": "B21C 25/10",
+          "title": {
+            "ko": null,
+            "en": "Making tools by operations not covered by a single other subclass"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 26/00",
+      "title": {
+        "ko": null,
+        "en": "Rams or plungers for metal extruding; Discs therefor"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 27/00",
+      "title": {
+        "ko": "압출금속을 위한 용기(Container) (B21C 29/02가 우선)",
+        "en": "Containers for metal to be extruded (B21C0029020000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 27/02",
+          "title": {
+            "ko": null,
+            "en": "for making coated work"
+          }
+        },
+        {
+          "code": "B21C 27/04",
+          "title": {
+            "ko": null,
+            "en": "Venting metal-container chamber"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 29/00",
+      "title": {
+        "ko": null,
+        "en": "Cooling or heating extruded work or parts of the extrusion press"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 29/02",
+          "title": {
+            "ko": null,
+            "en": "of containers for metal to be extruded"
+          }
+        },
+        {
+          "code": "B21C 29/04",
+          "title": {
+            "ko": null,
+            "en": "of press heads, dies, or mandrels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 31/00",
+      "title": {
+        "ko": "금속 압출용 제어 장치, 예. 금속의 프레스 속도 또는 온도 조절용 (B21C25/08이 우선); 측정 장치, 예. 압출프레스와 결합되었거나 이에 특히 적합한 금속의 온도 측정용의 것",
+        "en": "Control devices for metal extruding, e.g. for regulating the pressing speed or temperature of metal (B21C0025080000 takes precedence); Measuring devices, e.g. for temperature of metal, combined with or specially adapted for use in connection with extrusion presses"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 33/00",
+      "title": {
+        "ko": null,
+        "en": "Feeding extrusion presses with metal to be extruded"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 33/02",
+          "title": {
+            "ko": null,
+            "en": "the metal being in liquid form"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 35/00",
+      "title": {
+        "ko": "압출프레스로부터 작업물 또는 폐기물의 제거; 압출된 작업물을 분리하는 것 (굽힘관 또는 봉의 압출과 관련된 것 B21C 23/12); 금속 압출용 다이, 덕트, 용기 또는 맨드릴의 세척",
+        "en": "Removing work or waste from extruding presses; Drawing-off extruded work (in connection with the extruding of bent tubes or rods B21C0023120000); Cleaning dies, ducts, containers, or mandrels for metal extruding"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 35/02",
+          "title": {
+            "ko": null,
+            "en": "Removing or drawing-off work"
+          }
+        },
+        {
+          "code": "B21C 35/03",
+          "title": {
+            "ko": null,
+            "en": "Straightening the work"
+          }
+        },
+        {
+          "code": "B21C 35/04",
+          "title": {
+            "ko": null,
+            "en": "Cutting-off or removing waste"
+          }
+        },
+        {
+          "code": "B21C 35/06",
+          "title": {
+            "ko": null,
+            "en": "Cleaning dies, ducts, containers or mandrels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 37/00",
+      "title": {
+        "ko": null,
+        "en": "Manufacture of metal sheets, rods, wire, tubes, profiles or like semi-manufactured products, not otherwise provided for; Manufacture of tubes of special shape"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 37/02",
+          "title": {
+            "ko": null,
+            "en": "of sheets"
+          }
+        },
+        {
+          "code": "B21C 37/04",
+          "title": {
+            "ko": null,
+            "en": "of rods or wire"
+          }
+        },
+        {
+          "code": "B21C 37/06",
+          "title": {
+            "ko": null,
+            "en": "of tubes or metal hoses; Combined procedures for making tubes, e.g. for making multi-wall tubes"
+          }
+        },
+        {
+          "code": "B21C 37/08",
+          "title": {
+            "ko": null,
+            "en": "Making tubes with welded or soldered seams"
+          }
+        },
+        {
+          "code": "B21C 37/083",
+          "title": {
+            "ko": null,
+            "en": "Supply, or operations combined with supply, of strip material"
+          }
+        },
+        {
+          "code": "B21C 37/087",
+          "title": {
+            "ko": null,
+            "en": "using rods or strips of soldering material"
+          }
+        },
+        {
+          "code": "B21C 37/09",
+          "title": {
+            "ko": null,
+            "en": "of coated strip material"
+          }
+        },
+        {
+          "code": "B21C 37/10",
+          "title": {
+            "ko": null,
+            "en": "Making tubes with riveted seams"
+          }
+        },
+        {
+          "code": "B21C 37/12",
+          "title": {
+            "ko": null,
+            "en": "Making tubes or metal hoses with helically arranged seams"
+          }
+        },
+        {
+          "code": "B21C 37/14",
+          "title": {
+            "ko": null,
+            "en": "Making tubes from doubled flat material"
+          }
+        },
+        {
+          "code": "B21C 37/15",
+          "title": {
+            "ko": null,
+            "en": "Making tubes of special shape; Making the fittings"
+          }
+        },
+        {
+          "code": "B21C 37/16",
+          "title": {
+            "ko": null,
+            "en": "Making tubes with varying diameter in longitudinal direction"
+          }
+        },
+        {
+          "code": "B21C 37/18",
+          "title": {
+            "ko": null,
+            "en": "conical tubes"
+          }
+        },
+        {
+          "code": "B21C 37/20",
+          "title": {
+            "ko": null,
+            "en": "Making helical or similar guides in or on tubes without removing material, e.g. by drawing same over mandrels, by pushing same through dies"
+          }
+        },
+        {
+          "code": "B21C 37/22",
+          "title": {
+            "ko": null,
+            "en": "Making finned or ribbed tubes by fixing strip or like material to tubes"
+          }
+        },
+        {
+          "code": "B21C 37/24",
+          "title": {
+            "ko": null,
+            "en": "annularly-ribbed tubes"
+          }
+        },
+        {
+          "code": "B21C 37/26",
+          "title": {
+            "ko": null,
+            "en": "helically-ribbed tubes"
+          }
+        },
+        {
+          "code": "B21C 37/28",
+          "title": {
+            "ko": null,
+            "en": "Making tube fittings for connecting pipes, e.g. U-pieces"
+          }
+        },
+        {
+          "code": "B21C 37/29",
+          "title": {
+            "ko": null,
+            "en": "Making branched pieces, e.g. T-pieces"
+          }
+        },
+        {
+          "code": "B21C 37/30",
+          "title": {
+            "ko": null,
+            "en": "Finishing tubes, e.g. sizing, burnishing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 43/00",
+      "title": {
+        "ko": null,
+        "en": "Devices for cleaning metal products combined with or specially adapted for use with machines or apparatus provided for in this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 43/02",
+          "title": {
+            "ko": null,
+            "en": "combined with or specially adapted for use in connection with drawing or winding machines or apparatus"
+          }
+        },
+        {
+          "code": "B21C 43/04",
+          "title": {
+            "ko": null,
+            "en": "Devices for de-scaling wire or like flexible work"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 45/00",
+      "title": {
+        "ko": null,
+        "en": "Auxiliary operations used in connection with metal working without essentially removing material"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 45/00",
+      "title": {
+        "ko": null,
+        "en": "Separating mandrels from work or vice versa"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 47/00",
+      "title": {
+        "ko": "금속의 처리법에만 관련된 점을 특징으로 하는 금속선, 금속대 또는 타 가요성금속재료의 권취, 코일링 또는 풀기(Winding off) (특수한 형태로 선재를 코일링 B21F 3/00)",
+        "en": "Winding-up, coiling or winding-off metal wire, metal band or other flexible metal material characterised by features relevant to metal processing only (coiling wire into particular forms B21F0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B21C 47/02",
+          "title": {
+            "ko": "권취 또는 코일링",
+            "en": "Winding-up or coiling"
+          }
+        },
+        {
+          "code": "B21C 47/04",
+          "title": {
+            "ko": null,
+            "en": "on or in reels or drums, without using a moving guide"
+          }
+        },
+        {
+          "code": "B21C 47/06",
+          "title": {
+            "ko": null,
+            "en": "with loaded rollers, bolts, or equivalent means holding the material on the reel or drum"
+          }
+        },
+        {
+          "code": "B21C 47/08",
+          "title": {
+            "ko": null,
+            "en": "without making use of a reel or drum, the first turn being formed by a stationary guide"
+          }
+        },
+        {
+          "code": "B21C 47/10",
+          "title": {
+            "ko": "이동안내에 의한 것",
+            "en": "by means of a moving guide"
+          }
+        },
+        {
+          "code": "B21C 47/12",
+          "title": {
+            "ko": "코일(Coil)의 축에 평행하게 이동하는 안내(B21C 47/14가 우선)",
+            "en": "the guide moving parallel to the axis of the coil (B21C0047140000 takes precedence)"
+          }
+        },
+        {
+          "code": "B21C 47/14",
+          "title": {
+            "ko": null,
+            "en": "by means of a rotating guide, e.g. laying the material around a stationary reel or drum"
+          }
+        },
+        {
+          "code": "B21C 47/16",
+          "title": {
+            "ko": null,
+            "en": "Unwinding or uncoiling"
+          }
+        },
+        {
+          "code": "B21C 47/18",
+          "title": {
+            "ko": null,
+            "en": "from reels or drums"
+          }
+        },
+        {
+          "code": "B21C 47/20",
+          "title": {
+            "ko": null,
+            "en": "the unreeled material moving transversely to the tangent line of the drum, e.g. axially, radially"
+          }
+        },
+        {
+          "code": "B21C 47/22",
+          "title": {
+            "ko": null,
+            "en": "Unwinding coils without reels or drums"
+          }
+        },
+        {
+          "code": "B21C 47/24",
+          "title": {
+            "ko": null,
+            "en": "Transferring coils to or from winding apparatus or to or from operative position therein; Preventing uncoiling during transfer"
+          }
+        },
+        {
+          "code": "B21C 47/26",
+          "title": {
+            "ko": null,
+            "en": "Special arrangements with regard to simultaneous or subsequent treatment of the material"
+          }
+        },
+        {
+          "code": "B21C 47/28",
+          "title": {
+            "ko": null,
+            "en": "Drums or other coil-holders"
+          }
+        },
+        {
+          "code": "B21C 47/30",
+          "title": {
+            "ko": null,
+            "en": "expansible or contractible"
+          }
+        },
+        {
+          "code": "B21C 47/32",
+          "title": {
+            "ko": null,
+            "en": "Tongs or gripping means specially adapted for reeling operations"
+          }
+        },
+        {
+          "code": "B21C 47/34",
+          "title": {
+            "ko": null,
+            "en": "Feeding or guiding devices not specially adapted to a particular type of apparatus"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B21C 49/00",
+      "title": {
+        "ko": null,
+        "en": "Devices for temporarily accumulating material"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 51/00",
+      "title": {
+        "ko": "서브클래스 B21B~ B21F에 따르는 재료의 제조 또는 취급하는데 특히 적합한 측정, 계기, 표식, 계산 또는 표시하는 장치",
+        "en": "Measuring, gauging, indicating, counting, or marking devices specially adapted for use in the production or manipulation of material in accordance with subclasses B21B-B21F"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B21C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

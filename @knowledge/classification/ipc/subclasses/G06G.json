@@ -1,0 +1,528 @@
+{
+  "subclass": "G06G",
+  "title": {
+    "ko": "아날로그 컴퓨터 (광학적 아날로그 계산장치 G06E3/00)",
+    "en": "ANALOGUE COMPUTERS (analogue optical computing devices G06E0003000000)"
+  },
+  "groups": [
+    {
+      "code": "G06G 1/00",
+      "title": {
+        "ko": "수동식 계산 장치",
+        "en": "Hand-manipulated computing devices"
+      },
+      "subgroups": [
+        {
+          "code": "G06G 1/02",
+          "title": {
+            "ko": "평행 또는 동심원형에 새겨진 스케일의 길이를 더하고, 빼고 또는 비교하는 것에 의하여 계산이 이루어지는 장치",
+            "en": "Devices in which computing is effected by adding, subtracting, or comparing lengths of parallel or concentric graduated scales"
+          }
+        },
+        {
+          "code": "G06G 1/04",
+          "title": {
+            "ko": "그 구조를 특징으로 하는 것(G06G 1/10이 우선)",
+            "en": "characterised by construction (G06G0001100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 1/06",
+          "title": {
+            "ko": null,
+            "en": "with rectilinear scales, e.g. slide rule"
+          }
+        },
+        {
+          "code": "G06G 1/08",
+          "title": {
+            "ko": null,
+            "en": "with circular or helical scales"
+          }
+        },
+        {
+          "code": "G06G 1/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the graduation"
+          }
+        },
+        {
+          "code": "G06G 1/12",
+          "title": {
+            "ko": null,
+            "en": "logarithmic graduations, e.g. for multiplication"
+          }
+        },
+        {
+          "code": "G06G 1/14",
+          "title": {
+            "ko": null,
+            "en": "in which a straight or curved line has to be drawn from given points on one or more input scales to one or more points on a result scale"
+          }
+        },
+        {
+          "code": "G06G 1/16",
+          "title": {
+            "ko": null,
+            "en": "in which a straight or curved line has to be drawn through related points on one or more families of curves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06G 3/00",
+      "title": {
+        "ko": "계산동작이 기계적으로 행하여지는 장치 (G06G1/00이 우선)",
+        "en": "Devices in which the computing operation is performed mechanically (G06G0001000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G06G 3/02",
+          "title": {
+            "ko": null,
+            "en": "for performing additions or subtractions, e.g. differential gearing"
+          }
+        },
+        {
+          "code": "G06G 3/04",
+          "title": {
+            "ko": null,
+            "en": "for performing multiplications or divisions, e.g. variable-ratio gearing"
+          }
+        },
+        {
+          "code": "G06G 3/06",
+          "title": {
+            "ko": null,
+            "en": "for evaluating functions by using cams and cam followers"
+          }
+        },
+        {
+          "code": "G06G 3/08",
+          "title": {
+            "ko": null,
+            "en": "for integrating or differentiating, e.g. by wheel and disc"
+          }
+        },
+        {
+          "code": "G06G 3/10",
+          "title": {
+            "ko": null,
+            "en": "for simulating specific processes, systems, or devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06G 5/00",
+      "title": {
+        "ko": "유체압력 소자에 의해 연산 작업이 수행되는 장치",
+        "en": "Devices in which the computing operation is performed by means of fluid-pressure elements"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06G 7/00",
+      "title": {
+        "ko": "전기 또는 자기량을 변화시켜 연산 작업이 수행되는 장치",
+        "en": "Devices in which the computing operation is performed by varying electric or magnetic quantities"
+      },
+      "subgroups": [
+        {
+          "code": "G06G 7/02",
+          "title": {
+            "ko": "그룹 G06G 7/04 ～ G06G 7/10에 속하지 않는 세부",
+            "en": "Details not covered by groups G06G0007040000-G06G0007100000"
+          }
+        },
+        {
+          "code": "G06G 7/04",
+          "title": {
+            "ko": "입출력 장치",
+            "en": "Input or output devices"
+          }
+        },
+        {
+          "code": "G06G 7/06",
+          "title": {
+            "ko": null,
+            "en": "Programming arrangements, e.g. plugboard for interconnecting functional units of the computer; Digital programming"
+          }
+        },
+        {
+          "code": "G06G 7/10",
+          "title": {
+            "ko": null,
+            "en": "Power supply arrangements"
+          }
+        },
+        {
+          "code": "G06G 7/12",
+          "title": {
+            "ko": "연산 작업을 수행하기 위한 장치, 예. 그것에 특히 적합한 증폭기",
+            "en": "Arrangements for performing computing operations, e.g. amplifiers specially adapted therefor"
+          }
+        },
+        {
+          "code": "G06G 7/122",
+          "title": {
+            "ko": null,
+            "en": "for optimisation, e.g. least square fitting, linear programming, critical path analysis, gradient method"
+          }
+        },
+        {
+          "code": "G06G 7/14",
+          "title": {
+            "ko": "덧셈 또는 뺄셈의 것(백터량에 대해서는 G06G 7/22)",
+            "en": "for addition or subtraction (of vector quantities G06G0007220000)"
+          }
+        },
+        {
+          "code": "G06G 7/16",
+          "title": {
+            "ko": "곱셈 또는 나눗셈을 위한 것",
+            "en": "for multiplication or division"
+          }
+        },
+        {
+          "code": "G06G 7/161",
+          "title": {
+            "ko": null,
+            "en": "with pulse modulation, e.g. modulation of amplitude, width, frequency, phase, or form"
+          }
+        },
+        {
+          "code": "G06G 7/162",
+          "title": {
+            "ko": null,
+            "en": "using galvano-magnetic effects, e.g. Hall effect; using similar magnetic effects"
+          }
+        },
+        {
+          "code": "G06G 7/163",
+          "title": {
+            "ko": null,
+            "en": "using a variable impedance controlled by one of the input signals, variable amplification or transfer function"
+          }
+        },
+        {
+          "code": "G06G 7/164",
+          "title": {
+            "ko": "거듭제곱을 위한 수단을 사용하는 것, 예. 1/4 제곱 승수 (거듭제곱 계산용 G06G7/20)",
+            "en": "using means for evaluating powers, e.g. quarter square multiplier   (for evaluating powers G06G0007200000)"
+          }
+        },
+        {
+          "code": "G06G 7/18",
+          "title": {
+            "ko": "적분 또는 미분을 위한 것(G06G 7/19가 우선)",
+            "en": "for integration or differentiation (G06G0007190000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/182",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements"
+          }
+        },
+        {
+          "code": "G06G 7/184",
+          "title": {
+            "ko": null,
+            "en": "using capacitive elements"
+          }
+        },
+        {
+          "code": "G06G 7/186",
+          "title": {
+            "ko": null,
+            "en": "using an operational amplifier comprising a capacitor or a resistor in the feedback loop"
+          }
+        },
+        {
+          "code": "G06G 7/188",
+          "title": {
+            "ko": null,
+            "en": "using electromechanical elements"
+          }
+        },
+        {
+          "code": "G06G 7/19",
+          "title": {
+            "ko": "곱의 적분을 구하기 위한 것, 예. 푸리에 적분, 라플라스 적분 또는 상관적분; 직교함수를 사용한 함수의 합성 또는 분석을 위한 것",
+            "en": "for forming integrals of products, e.g. Fourier integrals, Laplace integrals or correlation integrals; for analysis or synthesis of functions using orthogonal functions"
+          }
+        },
+        {
+          "code": "G06G 7/195",
+          "title": {
+            "ko": null,
+            "en": "using electro-acoustic elements"
+          }
+        },
+        {
+          "code": "G06G 7/20",
+          "title": {
+            "ko": "거듭제곱, 근, 다항식, 자승평균치, 표준편차를 위한 것 (G06G7/122, G06G7/28이 우선)",
+            "en": "for evaluating powers, roots, polynomes, mean square values or standard deviation (G06G0007122000, G06G0007280000 take precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/22",
+          "title": {
+            "ko": "삼각관계의 값을 구하기 위한 것; 좌표교환을 위한 것; 백터량을 포함하는 계산을 하기 위한 것 (연립방정식을 사용하는 삼각함수의 계산 G06G7/34)",
+            "en": "for evaluating trigonometric functions; for conversion of co-ordinates; for computations involving vector quantities (trigonometric computations using simultaneous equations G06G0007340000)"
+          }
+        },
+        {
+          "code": "G06G 7/24",
+          "title": {
+            "ko": null,
+            "en": "for evaluating logarithmic or exponential functions, e.g. hyperbolic functions"
+          }
+        },
+        {
+          "code": "G06G 7/25",
+          "title": {
+            "ko": null,
+            "en": "for discontinuous functions, e.g. backlash, dead zone, limiting, absolute value, or peak value"
+          }
+        },
+        {
+          "code": "G06G 7/26",
+          "title": {
+            "ko": "임의 함수 생성기 (직교 함수를 사용하는 것, 예. 푸리에 급수 G06G7/19)",
+            "en": "Arbitrary function generators (using orthogonal functions, e.g. Fourier series, G06G0007190000)"
+          }
+        },
+        {
+          "code": "G06G 7/28",
+          "title": {
+            "ko": null,
+            "en": "for synthesising functions by piecewise approximation"
+          }
+        },
+        {
+          "code": "G06G 7/30",
+          "title": {
+            "ko": "내삽 또는 외삽을 위한 것(G06G 7/122가 우선)",
+            "en": "for interpolation or extrapolation (G06G0007122000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/32",
+          "title": {
+            "ko": "방정식을 풀기 위한 것",
+            "en": "for solving of equations"
+          }
+        },
+        {
+          "code": "G06G 7/34",
+          "title": {
+            "ko": "연립방정식을 위한 것(G06G 7/122가 우선)",
+            "en": "of simultaneous equations (G06G0007122000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/36",
+          "title": {
+            "ko": "2차 이상의 단일방정식을 위한 것(G06G7/22, G06G7/24기 우선)",
+            "en": "of single equations of quadratic or higher degree (G06G0007220000, G06G0007240000 take precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/38",
+          "title": {
+            "ko": "미분방정식 또는 적분방정식의 것",
+            "en": "of differential or integral equations"
+          }
+        },
+        {
+          "code": "G06G 7/40",
+          "title": {
+            "ko": "편미분 방정식의 (특정 프로세스, 시스템 또는 장치용 아날로그 컴퓨터, 예. 시뮬레이터 G06G7/48)",
+            "en": "of partial differential equations (analogue computers for specific processes, systems or devices, e.g. simulators, G06G0007480000)"
+          }
+        },
+        {
+          "code": "G06G 7/42",
+          "title": {
+            "ko": null,
+            "en": "using electrolytic tank"
+          }
+        },
+        {
+          "code": "G06G 7/44",
+          "title": {
+            "ko": null,
+            "en": "using continuous medium, current-sensitive paper"
+          }
+        },
+        {
+          "code": "G06G 7/46",
+          "title": {
+            "ko": null,
+            "en": "using discontinuous medium, e.g. resistance network"
+          }
+        },
+        {
+          "code": "G06G 7/48",
+          "title": {
+            "ko": "특정한 프로세스, 시스템 또는 장치를 위한 아날로그 컴퓨터 예, 시뮬에이터",
+            "en": "Analogue computers for specific processes, systems, or devices, e.g. simulators"
+          }
+        },
+        {
+          "code": "G06G 7/50",
+          "title": {
+            "ko": "분배망을 위한 것, 예. 유체 분배망용(G06G 7/62가 우선)",
+            "en": "for distribution networks, e.g. for fluids (G06G0007620000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/52",
+          "title": {
+            "ko": "경제시스템용의 것; 통계용의 것 (G06G7/122, G06G7/19, G06G7/20이 우선)",
+            "en": "for economic systems; for statistics (G06G0007122000, G06G0007190000, G06G0007200000 take precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/54",
+          "title": {
+            "ko": null,
+            "en": "for nuclear physics, e.g. nuclear reactors, radioactive fallout"
+          }
+        },
+        {
+          "code": "G06G 7/56",
+          "title": {
+            "ko": "열 흐름의 것 (G06G7/58이 우선)",
+            "en": "for heat flow (G06G0007580000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/57",
+          "title": {
+            "ko": "유체흐름의 것(G06G 7/50이 우선)",
+            "en": "for fluid flow (G06G0007500000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/58",
+          "title": {
+            "ko": "화학적 프로세스용의 것(G06G 7/75가 우선)",
+            "en": "for chemical processes (G06G0007750000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/60",
+          "title": {
+            "ko": null,
+            "en": "for living beings, e.g. their nervous systems"
+          }
+        },
+        {
+          "code": "G06G 7/62",
+          "title": {
+            "ko": "전기적 시스템 또는 장치를 위한 것",
+            "en": "for electric systems or apparatus"
+          }
+        },
+        {
+          "code": "G06G 7/625",
+          "title": {
+            "ko": "임피던스 회로망, 예. 응답 결정, 극 또는 영점의 결정, 나이퀴스트 도표의 결정을 위한 것",
+            "en": "for impedance networks, e.g. determining response, determining poles or zeros or determining the Nyquist diagram"
+          }
+        },
+        {
+          "code": "G06G 7/63",
+          "title": {
+            "ko": null,
+            "en": "for power apparatus, e.g. motors, or supply distribution networks"
+          }
+        },
+        {
+          "code": "G06G 7/635",
+          "title": {
+            "ko": null,
+            "en": "for determining the most economical distribution in power systems"
+          }
+        },
+        {
+          "code": "G06G 7/64",
+          "title": {
+            "ko": null,
+            "en": "for non-electric machines, e.g. turbine"
+          }
+        },
+        {
+          "code": "G06G 7/66",
+          "title": {
+            "ko": null,
+            "en": "for control systems"
+          }
+        },
+        {
+          "code": "G06G 7/68",
+          "title": {
+            "ko": null,
+            "en": "for civil-engineering structures, e.g. beam, strut, girder"
+          }
+        },
+        {
+          "code": "G06G 7/70",
+          "title": {
+            "ko": "탈것을 위한 것, 예. 선박의 허용적재량을 결정하기 위한 것",
+            "en": "for vehicles, e.g. to determine permissible loading of ships"
+          }
+        },
+        {
+          "code": "G06G 7/72",
+          "title": {
+            "ko": "비행 시뮬레이터",
+            "en": "Flight simulators"
+          }
+        },
+        {
+          "code": "G06G 7/75",
+          "title": {
+            "ko": "성분분석을 위한 것, 예. 혼합물 색의 성분분석을 위한 것(G06G 7/122가 우선)",
+            "en": "for component analysis, e.g. of mixtures, of colours (G06G0007122000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06G 7/76",
+          "title": {
+            "ko": null,
+            "en": "for traffic"
+          }
+        },
+        {
+          "code": "G06G 7/78",
+          "title": {
+            "ko": null,
+            "en": "for direction-finding, locating, distance or velocity measuring, or navigation systems"
+          }
+        },
+        {
+          "code": "G06G 7/80",
+          "title": {
+            "ko": null,
+            "en": "for gun-laying; for bomb aiming; for guiding missiles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06G 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

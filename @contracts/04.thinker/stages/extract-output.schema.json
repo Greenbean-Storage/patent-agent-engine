@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "drawing_id": {
+      "type": "string"
+    },
+    "numerals": {
+      "type": "array"
+    },
+    "extraction_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "drawing_id",
+    "numerals",
+    "extraction_notes"
+  ]
+}

@@ -1,0 +1,2252 @@
+{
+  "subclass": "G02B",
+  "title": {
+    "ko": "광학 요소, 시스템 또는 장치",
+    "en": "OPTICAL ELEMENTS, SYSTEMS OR APPARATUS"
+  },
+  "definition": {
+    "ko": "광학요소 구조에 특징이 있는 것 : 렌즈; 라이트 가이드; 기타 요소 G02B3/00; G02B6/00; G02B5/00 재료에 특징이 있는 것 G02B1/00 광학계 일반적 구조 : 광학구성부품의 수와 배치 G02B9/00, G02B11/00 특수한 구조 : 용도에 의한 것; 변배(變倍)의 것; 반사표면을 가진 것 G02B13/00; G02B15/00; G02B17/00 기타 시스템 G02B27/00 3차원 [3D] 효과를 생성하는 광학 시스템 또는 장치 G02B30/00 라이트 가이드와 기타 광학요소를 포함하는 배치의 구조적 세부 G02B6/00 광학 장치 컨덴서 G02B19/00 현미경 G02B21/00 망원경, 잠망경, 중공체(HOLLOW BODY) 내부를 관찰하는 장치, 뷰파인더, 조준 또는 관측장치 G02B23/00 접안렌즈, 확대경 G02B25/00 기타 광학장치 G02B27/00 광 제어 G02B26/00 마운팅, 조절수단, 광-밀 결합 G02B7/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G02B 1/00",
+      "title": {
+        "ko": "사용물질에 특징이 있는 광학요소; 광학 요소를 위한 광학 코팅",
+        "en": "Optical elements characterised by the material of which they are made; Optical coatings for optical elements"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 1/02",
+          "title": {
+            "ko": "결정, 예. 암염, 반도체로 만들어진 것(G02B 1/08이 우선)",
+            "en": "made of crystals, e.g. rock-salt, semiconductors (G02B0001080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 1/04",
+          "title": {
+            "ko": "유기물질, 예. 합성수지로서 만들어진 것(G02B 1/08이 우선)",
+            "en": "made of organic materials, e.g. plastics (G02B0001080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 1/06",
+          "title": {
+            "ko": null,
+            "en": "made of fluids in transparent cells"
+          }
+        },
+        {
+          "code": "G02B 1/08",
+          "title": {
+            "ko": null,
+            "en": "made of polarising materials"
+          }
+        },
+        {
+          "code": "G02B 1/10",
+          "title": {
+            "ko": "광학요소에의 적용 또는 표면처리로 인해 산출된 광학코팅(optical coating) ( G02B 1/08 우선 우선 )",
+            "en": "Optical coatings produced by application to, or surface treatment of, optical elements (G02B0001080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 1/11",
+          "title": {
+            "ko": null,
+            "en": "Anti-reflection coatings"
+          }
+        },
+        {
+          "code": "G02B 1/111",
+          "title": {
+            "ko": null,
+            "en": "using layers comprising organic materials"
+          }
+        },
+        {
+          "code": "G02B 1/113",
+          "title": {
+            "ko": null,
+            "en": "using inorganic layer materials only"
+          }
+        },
+        {
+          "code": "G02B 1/115",
+          "title": {
+            "ko": null,
+            "en": "Multilayers"
+          }
+        },
+        {
+          "code": "G02B 1/116",
+          "title": {
+            "ko": null,
+            "en": "including electrically conducting layers"
+          }
+        },
+        {
+          "code": "G02B 1/118",
+          "title": {
+            "ko": null,
+            "en": "having sub-optical wavelength surface structures designed to provide an enhanced transmittance, e.g. moth-eye structures"
+          }
+        },
+        {
+          "code": "G02B 1/12",
+          "title": {
+            "ko": null,
+            "en": "by surface treatment, e.g. by irradiation"
+          }
+        },
+        {
+          "code": "G02B 1/14",
+          "title": {
+            "ko": null,
+            "en": "Protective coatings, e.g. hard coatings"
+          }
+        },
+        {
+          "code": "G02B 1/16",
+          "title": {
+            "ko": null,
+            "en": "having an anti-static effect, e.g. electrically conducting coatings"
+          }
+        },
+        {
+          "code": "G02B 1/18",
+          "title": {
+            "ko": "광학면을 청결하게 유지하기 위한 코팅, 예. 소수성( hydrophobic) 코팅 또는 광촉매코팅 (G02B 1/16 우선)",
+            "en": "Coatings for keeping optical surfaces clean, e.g. hydrophobic or photo-catalytic films (G02B0001160000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 3/00",
+      "title": {
+        "ko": "단렌즈 또는 복합렌즈",
+        "en": "Simple or compound lenses"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 3/02",
+          "title": {
+            "ko": "비구면을 가진 것(G02B 3/10이 우선)",
+            "en": "with non-spherical faces (G02B0003100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 3/04",
+          "title": {
+            "ko": null,
+            "en": "with continuous faces that are rotationally symmetrical but deviate from a true sphere"
+          }
+        },
+        {
+          "code": "G02B 3/06",
+          "title": {
+            "ko": null,
+            "en": "with cylindrical or toric faces"
+          }
+        },
+        {
+          "code": "G02B 3/08",
+          "title": {
+            "ko": null,
+            "en": "with discontinuous faces, e.g. Fresnel lens"
+          }
+        },
+        {
+          "code": "G02B 3/10",
+          "title": {
+            "ko": null,
+            "en": "Bifocal lenses; Multifocal lenses"
+          }
+        },
+        {
+          "code": "G02B 3/12",
+          "title": {
+            "ko": null,
+            "en": "Fluid-filled or evacuated lenses"
+          }
+        },
+        {
+          "code": "G02B 3/14",
+          "title": {
+            "ko": null,
+            "en": "of variable focal length"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 5/00",
+      "title": {
+        "ko": "렌즈 이외의 광학 요소 (라이트 가이드 G02B6/00; 광학 논리 소자 G02F3/00)",
+        "en": "Optical elements other than lenses (light guides G02B0006000000;optical logic elements G02F0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 5/02",
+          "title": {
+            "ko": null,
+            "en": "Diffusing elements; Afocal elements"
+          }
+        },
+        {
+          "code": "G02B 5/04",
+          "title": {
+            "ko": null,
+            "en": "Prisms"
+          }
+        },
+        {
+          "code": "G02B 5/06",
+          "title": {
+            "ko": null,
+            "en": "Fluid-filled or evacuated prisms"
+          }
+        },
+        {
+          "code": "G02B 5/08",
+          "title": {
+            "ko": null,
+            "en": "Mirrors"
+          }
+        },
+        {
+          "code": "G02B 5/09",
+          "title": {
+            "ko": null,
+            "en": "Multifaceted or polygonal mirrors"
+          }
+        },
+        {
+          "code": "G02B 5/10",
+          "title": {
+            "ko": null,
+            "en": "with curved faces"
+          }
+        },
+        {
+          "code": "G02B 5/12",
+          "title": {
+            "ko": "재귀(再歸)반사체",
+            "en": "Reflex reflectors"
+          }
+        },
+        {
+          "code": "G02B 5/122",
+          "title": {
+            "ko": null,
+            "en": "cube corner, trihedral or triple reflector type"
+          }
+        },
+        {
+          "code": "G02B 5/124",
+          "title": {
+            "ko": null,
+            "en": "plural reflecting elements forming part of a unitary plate or sheet"
+          }
+        },
+        {
+          "code": "G02B 5/126",
+          "title": {
+            "ko": null,
+            "en": "including curved refracting surface"
+          }
+        },
+        {
+          "code": "G02B 5/128",
+          "title": {
+            "ko": null,
+            "en": "transparent spheres being embedded in matrix"
+          }
+        },
+        {
+          "code": "G02B 5/13",
+          "title": {
+            "ko": null,
+            "en": "plural curved refracting elements forming part of a unitary body"
+          }
+        },
+        {
+          "code": "G02B 5/132",
+          "title": {
+            "ko": null,
+            "en": "with individual reflector mounting means"
+          }
+        },
+        {
+          "code": "G02B 5/134",
+          "title": {
+            "ko": null,
+            "en": "including a threaded mounting member"
+          }
+        },
+        {
+          "code": "G02B 5/136",
+          "title": {
+            "ko": "복수의 반사소자가 단일체의 일부를 구성하는 것(G02B 5/124가 우선)",
+            "en": "plural reflecting elements forming part of a unitary body (G02B0005124000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 5/18",
+          "title": {
+            "ko": null,
+            "en": "Diffracting gratings"
+          }
+        },
+        {
+          "code": "G02B 5/20",
+          "title": {
+            "ko": "필터 (편광요소 G02B5/30)",
+            "en": "Filters  (polarising elements G02B0005300000)"
+          }
+        },
+        {
+          "code": "G02B 5/22",
+          "title": {
+            "ko": "흡수필터",
+            "en": "Absorbing filters"
+          }
+        },
+        {
+          "code": "G02B 5/23",
+          "title": {
+            "ko": null,
+            "en": "Photochromic filters"
+          }
+        },
+        {
+          "code": "G02B 5/24",
+          "title": {
+            "ko": "액체필터(G02B 5/23이 우선)",
+            "en": "Liquid filters (G02B0005230000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 5/26",
+          "title": {
+            "ko": "반사필터(G02B 5/28이 우선)",
+            "en": "Reflecting filters (G02B0005280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 5/28",
+          "title": {
+            "ko": null,
+            "en": "Interference filters"
+          }
+        },
+        {
+          "code": "G02B 5/30",
+          "title": {
+            "ko": "편광요소(능동 소자를 갖는 광변조장치 G02F 1/00)",
+            "en": "Polarising elements  (light-modulating devices with active elements G02F0001000000)"
+          }
+        },
+        {
+          "code": "G02B 5/32",
+          "title": {
+            "ko": null,
+            "en": "Holograms used as optical elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 6/00",
+      "title": {
+        "ko": "라이트 가이드; 라이트 가이드와 다른 광학요소를 포함하는 배치의 구조적 세부, 예. 커플링",
+        "en": "Light guides; Structural details of arrangements comprising light guides and other optical elements, e.g. couplings"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 6/02",
+          "title": {
+            "ko": null,
+            "en": "Optical fibres with cladding"
+          }
+        },
+        {
+          "code": "G02B 6/024",
+          "title": {
+            "ko": null,
+            "en": "with polarisation-maintaining properties"
+          }
+        },
+        {
+          "code": "G02B 6/028",
+          "title": {
+            "ko": null,
+            "en": "with core or cladding having graded refractive index"
+          }
+        },
+        {
+          "code": "G02B 6/032",
+          "title": {
+            "ko": null,
+            "en": "with non-solid core or cladding"
+          }
+        },
+        {
+          "code": "G02B 6/036",
+          "title": {
+            "ko": null,
+            "en": "core or cladding comprising multiple layers"
+          }
+        },
+        {
+          "code": "G02B 6/04",
+          "title": {
+            "ko": "광섬유 다발에 의하여 형성된 것(6/24이 우선)",
+            "en": "formed by bundles of fibres (G02B0006240000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 6/06",
+          "title": {
+            "ko": null,
+            "en": "the relative position of the fibres being the same at both ends, e.g. for transporting images"
+          }
+        },
+        {
+          "code": "G02B 6/08",
+          "title": {
+            "ko": null,
+            "en": "with fibre bundle in form of plate"
+          }
+        },
+        {
+          "code": "G02B 6/10",
+          "title": {
+            "ko": "광 도파로형의 것 (G02B6/02, G02B6/24가 우선; 전기적, 전자기적, 자기적 또는 음향적 수단에 의한 광의 제어를 위한 장치 또는 배치 G02F1/00; 변조광의 변조 방식의 변환 G02F2/00; 광학적 논리 소자 G02F3/00; 광학적 아날로그/디지털 변환기 G02F7/00)",
+            "en": "of the optical waveguide type  (G02B0006020000, G02B0006240000 take precedence; devices or arrangements for the control of light by electric, magnetic, electro-magnetic or acoustic means G02F0001000000; transferring the modulation of modulated light G02F0002000000; optical logic elements G02F0003000000; optical analogue/digital converters G02F0007000000)"
+          }
+        },
+        {
+          "code": "G02B 6/12",
+          "title": {
+            "ko": "집적회로 종류의 (전기 집적회로 H10B, H10D84/00 ~ H10D89/00, H10F19/00, H10F39/00, H10H29/00, H10K19/00, H10K39/00, H10K59/00, H10N19/00, H10N39/00, H10N59/00, H10N69/00, H10N79/00, H10N89/00)",
+            "en": "of the integrated circuit kind   (electric integrated circuits H10B, H10D0084000000-H10D0089000000, H10F0019000000, H10F0039000000, H10H0029000000, H10K0019000000, H10K0039000000, H10K0059000000, H10N0019000000, H10N0039000000, H10N0059000000, H10N0069000000, H10N0079000000, H10N0089000000)"
+          }
+        },
+        {
+          "code": "G02B 6/122",
+          "title": {
+            "ko": null,
+            "en": "Basic optical elements, e.g. light-guiding paths"
+          }
+        },
+        {
+          "code": "G02B 6/124",
+          "title": {
+            "ko": null,
+            "en": "Geodesic lenses or integrated gratings"
+          }
+        },
+        {
+          "code": "G02B 6/125",
+          "title": {
+            "ko": null,
+            "en": "Bends, branchings or intersections"
+          }
+        },
+        {
+          "code": "G02B 6/126",
+          "title": {
+            "ko": null,
+            "en": "using polarisation effects"
+          }
+        },
+        {
+          "code": "G02B 6/13",
+          "title": {
+            "ko": null,
+            "en": "Integrated optical circuits characterised by the manufacturing method"
+          }
+        },
+        {
+          "code": "G02B 6/132",
+          "title": {
+            "ko": null,
+            "en": "by deposition of thin films"
+          }
+        },
+        {
+          "code": "G02B 6/134",
+          "title": {
+            "ko": null,
+            "en": "by substitution by dopant atoms"
+          }
+        },
+        {
+          "code": "G02B 6/136",
+          "title": {
+            "ko": null,
+            "en": "by etching"
+          }
+        },
+        {
+          "code": "G02B 6/138",
+          "title": {
+            "ko": null,
+            "en": "by using polymerisation"
+          }
+        },
+        {
+          "code": "G02B 6/14",
+          "title": {
+            "ko": null,
+            "en": "Mode converters"
+          }
+        },
+        {
+          "code": "G02B 6/24",
+          "title": {
+            "ko": "라이트 가이드를 결합하는 것",
+            "en": "Coupling light guides"
+          }
+        },
+        {
+          "code": "G02B 6/245",
+          "title": {
+            "ko": null,
+            "en": "Removing protective coverings of light guides before coupling"
+          }
+        },
+        {
+          "code": "G02B 6/25",
+          "title": {
+            "ko": null,
+            "en": "Preparing the ends of light guides for coupling, e.g. cutting"
+          }
+        },
+        {
+          "code": "G02B 6/255",
+          "title": {
+            "ko": null,
+            "en": "Splicing of light guides, e.g. by fusion or bonding"
+          }
+        },
+        {
+          "code": "G02B 6/26",
+          "title": {
+            "ko": "광학적 결합수단(G02B 6/36, G02B 6/42이 우선)",
+            "en": "Optical coupling means (G02B0006360000, G02B0006420000 take precedence)"
+          }
+        },
+        {
+          "code": "G02B 6/27",
+          "title": {
+            "ko": null,
+            "en": "with polarisation selective and adjusting means"
+          }
+        },
+        {
+          "code": "G02B 6/28",
+          "title": {
+            "ko": "데이타 버스수단, 즉 상호 결합된 복수의 도파관에 있어서 신호를 혼합, 분기하는 것에 의하여 본질적 으로 쌍방향 전송계를 부여하는 도파관을 갖는 것",
+            "en": "having data bus means, i.e. plural waveguides interconnected and providing an inherently bidirectional system by mixing and splitting signals"
+          }
+        },
+        {
+          "code": "G02B 6/287",
+          "title": {
+            "ko": "가열에 의해 광학요소를 형상화한 라이트 가이드의 구조(G02B 6/255가 우선)",
+            "en": "Structuring of light guides to shape optical elements with heat application (G02B0006255000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 6/293",
+          "title": {
+            "ko": null,
+            "en": "with wavelength selective means"
+          }
+        },
+        {
+          "code": "G02B 6/30",
+          "title": {
+            "ko": null,
+            "en": "for use between fibre and thin-film device"
+          }
+        },
+        {
+          "code": "G02B 6/32",
+          "title": {
+            "ko": null,
+            "en": "having lens focusing means"
+          }
+        },
+        {
+          "code": "G02B 6/34",
+          "title": {
+            "ko": null,
+            "en": "utilising prism or grating"
+          }
+        },
+        {
+          "code": "G02B 6/35",
+          "title": {
+            "ko": "스위칭 수단을 가지는 것(매질의 광학적 특성의 변환에 의한 것 G02F 1/00)",
+            "en": "having switching means (by changing the optical properties of the medium G02F0001000000)"
+          }
+        },
+        {
+          "code": "G02B 6/36",
+          "title": {
+            "ko": "기계적 결합수단(G02B 6/255, G02B 6/42가 우선)",
+            "en": "Mechanical coupling means (G02B0006255000, G02B0006420000 take precedence)"
+          }
+        },
+        {
+          "code": "G02B 6/38",
+          "title": {
+            "ko": null,
+            "en": "having fibre to fibre mating means"
+          }
+        },
+        {
+          "code": "G02B 6/40",
+          "title": {
+            "ko": null,
+            "en": "having fibre bundle mating means"
+          }
+        },
+        {
+          "code": "G02B 6/42",
+          "title": {
+            "ko": null,
+            "en": "Coupling light guides with opto-electronic elements"
+          }
+        },
+        {
+          "code": "G02B 6/43",
+          "title": {
+            "ko": null,
+            "en": "Arrangements comprising a plurality of opto-electronic elements and associated optical interconnections"
+          }
+        },
+        {
+          "code": "G02B 6/44",
+          "title": {
+            "ko": "파이버의 인장강도와 외부보호를 부여하기 위한 기계적 구조, 예. 광전송 케이블(도전체와 광파이버를 결합한 케이블 H01B 11/22)",
+            "en": "Mechanical structures for providing tensile strength and external protection for fibres, e.g. optical transmission cables (cables incorporating electric conductors and optical fibres H01B0011220000)"
+          }
+        },
+        {
+          "code": "G02B 6/46",
+          "title": {
+            "ko": "광파이버 또는 광케이블의 설치에 적합한 방법 또는 장치(전기도체 및 광파이버를 포함하는 케이블의 설치 H02G)",
+            "en": "Processes or apparatus adapted for installing optical fibres or optical cables (installation of cables containing electric conductors and optical fibres H02G)"
+          }
+        },
+        {
+          "code": "G02B 6/48",
+          "title": {
+            "ko": null,
+            "en": "Overhead installation"
+          }
+        },
+        {
+          "code": "G02B 6/50",
+          "title": {
+            "ko": null,
+            "en": "Underground or underwater installation; Installation through tubing, conduits or ducts"
+          }
+        },
+        {
+          "code": "G02B 6/52",
+          "title": {
+            "ko": null,
+            "en": "using fluid, e.g. air"
+          }
+        },
+        {
+          "code": "G02B 6/54",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means, e.g. pulling or pushing devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 7/00",
+      "title": {
+        "ko": "광학요소용 마운트, 조절수단, 광-밀결합",
+        "en": "Mountings, adjusting means, or light-tight connections, for optical elements"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 7/02",
+          "title": {
+            "ko": null,
+            "en": "for lenses"
+          }
+        },
+        {
+          "code": "G02B 7/04",
+          "title": {
+            "ko": null,
+            "en": "with mechanism for focusing or varying magnification"
+          }
+        },
+        {
+          "code": "G02B 7/06",
+          "title": {
+            "ko": null,
+            "en": "Focusing binocular pairs"
+          }
+        },
+        {
+          "code": "G02B 7/08",
+          "title": {
+            "ko": null,
+            "en": "adapted to co-operate with a remote control mechanism"
+          }
+        },
+        {
+          "code": "G02B 7/09",
+          "title": {
+            "ko": null,
+            "en": "adapted for automatic focusing or varying magnification"
+          }
+        },
+        {
+          "code": "G02B 7/10",
+          "title": {
+            "ko": null,
+            "en": "by relative axial movement of several lenses, e.g. of varifocal objective lens"
+          }
+        },
+        {
+          "code": "G02B 7/105",
+          "title": {
+            "ko": null,
+            "en": "with movable lens means specially adapted for focusing at close distances"
+          }
+        },
+        {
+          "code": "G02B 7/12",
+          "title": {
+            "ko": null,
+            "en": "Adjusting pupillary distance of binocular pairs"
+          }
+        },
+        {
+          "code": "G02B 7/14",
+          "title": {
+            "ko": null,
+            "en": "adapted to interchange lenses"
+          }
+        },
+        {
+          "code": "G02B 7/16",
+          "title": {
+            "ko": null,
+            "en": "Rotatable turrets"
+          }
+        },
+        {
+          "code": "G02B 7/18",
+          "title": {
+            "ko": "프리즘용; 반사경용",
+            "en": "for prisms; for mirrors"
+          }
+        },
+        {
+          "code": "G02B 7/182",
+          "title": {
+            "ko": "반사경용",
+            "en": "for mirrors"
+          }
+        },
+        {
+          "code": "G02B 7/183",
+          "title": {
+            "ko": "대형 반사경에 특히 적합한 것, 예. 천문학용(G02B 7/185, 7/192, 7/198이 우선)",
+            "en": "specially adapted for very large mirrors, e.g. for astronomy (G02B0007185000, G02B0007192000, G02B0007198000 take precedence)"
+          }
+        },
+        {
+          "code": "G02B 7/185",
+          "title": {
+            "ko": null,
+            "en": "with means for adjusting the shape of the mirror surface"
+          }
+        },
+        {
+          "code": "G02B 7/188",
+          "title": {
+            "ko": null,
+            "en": "Membrane mirrors"
+          }
+        },
+        {
+          "code": "G02B 7/192",
+          "title": {
+            "ko": null,
+            "en": "with means for minimising internal mirror stresses"
+          }
+        },
+        {
+          "code": "G02B 7/195",
+          "title": {
+            "ko": null,
+            "en": "Fluid-cooled mirrors"
+          }
+        },
+        {
+          "code": "G02B 7/198",
+          "title": {
+            "ko": null,
+            "en": "with means for adjusting the mirror relative to its support"
+          }
+        },
+        {
+          "code": "G02B 7/20",
+          "title": {
+            "ko": null,
+            "en": "Light-tight connections for movable optical elements"
+          }
+        },
+        {
+          "code": "G02B 7/22",
+          "title": {
+            "ko": null,
+            "en": "Extensible connections, e.g. bellows"
+          }
+        },
+        {
+          "code": "G02B 7/24",
+          "title": {
+            "ko": null,
+            "en": "Pivoted connections"
+          }
+        },
+        {
+          "code": "G02B 7/28",
+          "title": {
+            "ko": null,
+            "en": "Systems for automatic generation of focusing signals"
+          }
+        },
+        {
+          "code": "G02B 7/30",
+          "title": {
+            "ko": null,
+            "en": "using parallactic triangle with a base line"
+          }
+        },
+        {
+          "code": "G02B 7/32",
+          "title": {
+            "ko": null,
+            "en": "using active means, e.g. light emitter"
+          }
+        },
+        {
+          "code": "G02B 7/34",
+          "title": {
+            "ko": null,
+            "en": "using different areas in a pupil plane"
+          }
+        },
+        {
+          "code": "G02B 7/36",
+          "title": {
+            "ko": null,
+            "en": "using image sharpness techniques"
+          }
+        },
+        {
+          "code": "G02B 7/38",
+          "title": {
+            "ko": null,
+            "en": "measured at different points on the optical axis"
+          }
+        },
+        {
+          "code": "G02B 7/40",
+          "title": {
+            "ko": null,
+            "en": "using time delay of the reflected waves, e.g. of ultrasonic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 9/00",
+      "title": {
+        "ko": "복합된 구성요소의 수와 그것들의 부호, 즉 + 또는 -에 의한 배열에 의해 특징 지워진 대물렌즈(G02B 13/00, G02B 15/00가 우선)",
+        "en": "Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or – (G02B0013000000, G02B0015000000 take precedence)"
+      },
+      "definition": {
+        "ko": "이 그룹에 있어서는 구성요소는 단렌즈 또는 복합렌즈와 단렌즈 혹은 복합렌즈와 등가인 분리된 렌즈로 본다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G02B 9/02",
+          "title": {
+            "ko": "1개의 +구성요소만으로 되는 것(단렌즈 3/00)",
+            "en": "having one + component only (simple lenses G02B0003000000)"
+          }
+        },
+        {
+          "code": "G02B 9/04",
+          "title": {
+            "ko": null,
+            "en": "having two components only"
+          }
+        },
+        {
+          "code": "G02B 9/06",
+          "title": {
+            "ko": null,
+            "en": "two + components"
+          }
+        },
+        {
+          "code": "G02B 9/08",
+          "title": {
+            "ko": null,
+            "en": "arranged about a stop"
+          }
+        },
+        {
+          "code": "G02B 9/10",
+          "title": {
+            "ko": null,
+            "en": "one + and one – component"
+          }
+        },
+        {
+          "code": "G02B 9/12",
+          "title": {
+            "ko": "3개의 구성요소만으로 되는 것",
+            "en": "having three components only"
+          }
+        },
+        {
+          "code": "G02B 9/14",
+          "title": {
+            "ko": "+ - +배열",
+            "en": "arranged + – +"
+          }
+        },
+        {
+          "code": "G02B 9/16",
+          "title": {
+            "ko": null,
+            "en": "all the components being simple"
+          }
+        },
+        {
+          "code": "G02B 9/18",
+          "title": {
+            "ko": "1개의 구성요소가 복합렌즈인 것(G02B 9/30이 우선)",
+            "en": "only one component having a compound lens (G02B0009300000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 9/20",
+          "title": {
+            "ko": null,
+            "en": "the rear component having the compound"
+          }
+        },
+        {
+          "code": "G02B 9/22",
+          "title": {
+            "ko": null,
+            "en": "the middle component having the compound"
+          }
+        },
+        {
+          "code": "G02B 9/24",
+          "title": {
+            "ko": "2개의 구성요소가 복합렌즈인 것(G02B 9/30이 우선)",
+            "en": "two of the components having compound lenses (G02B0009300000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 9/26",
+          "title": {
+            "ko": null,
+            "en": "the front and rear components having compound lenses"
+          }
+        },
+        {
+          "code": "G02B 9/28",
+          "title": {
+            "ko": null,
+            "en": "the middle and rear components having compound lenses"
+          }
+        },
+        {
+          "code": "G02B 9/30",
+          "title": {
+            "ko": null,
+            "en": "the middle component being a – compound meniscus having a + lens"
+          }
+        },
+        {
+          "code": "G02B 9/32",
+          "title": {
+            "ko": null,
+            "en": "the + lens being a meniscus"
+          }
+        },
+        {
+          "code": "G02B 9/34",
+          "title": {
+            "ko": null,
+            "en": "having four components only"
+          }
+        },
+        {
+          "code": "G02B 9/36",
+          "title": {
+            "ko": null,
+            "en": "arranged + –– +"
+          }
+        },
+        {
+          "code": "G02B 9/38",
+          "title": {
+            "ko": null,
+            "en": "both – components being meniscus"
+          }
+        },
+        {
+          "code": "G02B 9/40",
+          "title": {
+            "ko": null,
+            "en": "one – component being compound"
+          }
+        },
+        {
+          "code": "G02B 9/42",
+          "title": {
+            "ko": null,
+            "en": "two – components being compound"
+          }
+        },
+        {
+          "code": "G02B 9/44",
+          "title": {
+            "ko": null,
+            "en": "both – components being biconcave"
+          }
+        },
+        {
+          "code": "G02B 9/46",
+          "title": {
+            "ko": null,
+            "en": "one – component being compound"
+          }
+        },
+        {
+          "code": "G02B 9/48",
+          "title": {
+            "ko": null,
+            "en": "two – components being compound"
+          }
+        },
+        {
+          "code": "G02B 9/50",
+          "title": {
+            "ko": null,
+            "en": "both + components being meniscus"
+          }
+        },
+        {
+          "code": "G02B 9/52",
+          "title": {
+            "ko": null,
+            "en": "the rear + component being compound"
+          }
+        },
+        {
+          "code": "G02B 9/54",
+          "title": {
+            "ko": null,
+            "en": "the front + component being compound"
+          }
+        },
+        {
+          "code": "G02B 9/56",
+          "title": {
+            "ko": null,
+            "en": "all components being simple lenses"
+          }
+        },
+        {
+          "code": "G02B 9/58",
+          "title": {
+            "ko": null,
+            "en": "arranged – + + –"
+          }
+        },
+        {
+          "code": "G02B 9/60",
+          "title": {
+            "ko": null,
+            "en": "having five components only"
+          }
+        },
+        {
+          "code": "G02B 9/62",
+          "title": {
+            "ko": null,
+            "en": "having six components only"
+          }
+        },
+        {
+          "code": "G02B 9/64",
+          "title": {
+            "ko": null,
+            "en": "having more than six components"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 11/00",
+      "title": {
+        "ko": "대물렌즈를 구성하는 단렌즈와 복합렌즈의 총수와 그 배열에 의해 특징지워지는 대물렌즈(G02B 9/00이 우선; 1개의 단렌즈만을 가진 것 G02B 3/00)",
+        "en": "Optical objectives characterised by the total number of simple and compound lenses forming the objective and their arrangement (G02B0009000000 takes precedence;having only one simple lens G02B0003000000)"
+      },
+      "definition": {
+        "ko": "그룹 G02B11/02 ~ G02B11/34에서, 접촉이 끊어진 렌즈들은 별도로 계산됩니다. 단순 렌즈는 L, 복합 렌즈는 C로 표시되고, 프론트 렌즈는 먼저 언급됩니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G02B 11/02",
+          "title": {
+            "ko": "2개의 렌즈만을 가진 것",
+            "en": "having two lenses only"
+          }
+        },
+        {
+          "code": "G02B 11/04",
+          "title": {
+            "ko": "CC 배열의 것",
+            "en": "arranged C C"
+          }
+        },
+        {
+          "code": "G02B 11/06",
+          "title": {
+            "ko": "3개의 렌즈만을 가진 것",
+            "en": "having three lenses only"
+          }
+        },
+        {
+          "code": "G02B 11/08",
+          "title": {
+            "ko": null,
+            "en": "arranged L L L"
+          }
+        },
+        {
+          "code": "G02B 11/10",
+          "title": {
+            "ko": "LCL 배열의 것",
+            "en": "arranged L C L"
+          }
+        },
+        {
+          "code": "G02B 11/12",
+          "title": {
+            "ko": "LLC 배열의 것",
+            "en": "arranged L L C"
+          }
+        },
+        {
+          "code": "G02B 11/14",
+          "title": {
+            "ko": "CLC 배열의 것",
+            "en": "arranged C L C"
+          }
+        },
+        {
+          "code": "G02B 11/16",
+          "title": {
+            "ko": "CCL 배열의 것",
+            "en": "arranged C C L"
+          }
+        },
+        {
+          "code": "G02B 11/18",
+          "title": {
+            "ko": "CCC 배열의 것",
+            "en": "arranged C C C"
+          }
+        },
+        {
+          "code": "G02B 11/20",
+          "title": {
+            "ko": "4개의 렌즈만을 가진 것",
+            "en": "having four lenses only"
+          }
+        },
+        {
+          "code": "G02B 11/22",
+          "title": {
+            "ko": null,
+            "en": "arranged L L L L"
+          }
+        },
+        {
+          "code": "G02B 11/24",
+          "title": {
+            "ko": "CLLC 배열의 것",
+            "en": "arranged C L L C"
+          }
+        },
+        {
+          "code": "G02B 11/26",
+          "title": {
+            "ko": "LCCL 배열의 것",
+            "en": "arranged L C C L"
+          }
+        },
+        {
+          "code": "G02B 11/28",
+          "title": {
+            "ko": "CCCC 배열의 것",
+            "en": "arranged C C C C"
+          }
+        },
+        {
+          "code": "G02B 11/30",
+          "title": {
+            "ko": null,
+            "en": "having five lenses only"
+          }
+        },
+        {
+          "code": "G02B 11/32",
+          "title": {
+            "ko": null,
+            "en": "having six lenses only"
+          }
+        },
+        {
+          "code": "G02B 11/34",
+          "title": {
+            "ko": null,
+            "en": "having more than six lenses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 13/00",
+      "title": {
+        "ko": "이하에 상세히 기재된 목적을 위해 특히 설계된 대물렌즈(변배의 것 15/00)",
+        "en": "Optical objectives specially designed for the purposes specified below (with variable magnification G02B0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Telephoto objectives, i.e. systems of the type + – in which the distance from the front vertex to the image plane is less than the equivalent focal length"
+          }
+        },
+        {
+          "code": "G02B 13/04",
+          "title": {
+            "ko": null,
+            "en": "Reversed telephoto objectives"
+          }
+        },
+        {
+          "code": "G02B 13/06",
+          "title": {
+            "ko": null,
+            "en": "Panoramic objectives; So-called \"sky lenses\""
+          }
+        },
+        {
+          "code": "G02B 13/08",
+          "title": {
+            "ko": "애너모포틱(anamorphotic) 렌즈",
+            "en": "Anamorphotic objectives"
+          }
+        },
+        {
+          "code": "G02B 13/10",
+          "title": {
+            "ko": "프리즘을 포함하는 것(G02B 13/12가 우선)",
+            "en": "involving prisms (G02B0013120000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 13/12",
+          "title": {
+            "ko": null,
+            "en": "with variable magnification"
+          }
+        },
+        {
+          "code": "G02B 13/14",
+          "title": {
+            "ko": "적외선 또는 자외선으로 사용하는 것(G02B 13/14가 우선)",
+            "en": "for use with infrared or ultraviolet radiation (G02B0013160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 13/16",
+          "title": {
+            "ko": null,
+            "en": "for use in conjunction with image converters or intensifiers"
+          }
+        },
+        {
+          "code": "G02B 13/18",
+          "title": {
+            "ko": null,
+            "en": "with lenses having one or more non-spherical faces, e.g. for reducing geometrical aberration"
+          }
+        },
+        {
+          "code": "G02B 13/20",
+          "title": {
+            "ko": null,
+            "en": "Soft-focus objectives"
+          }
+        },
+        {
+          "code": "G02B 13/22",
+          "title": {
+            "ko": null,
+            "en": "Telecentric objectives or lens systems"
+          }
+        },
+        {
+          "code": "G02B 13/24",
+          "title": {
+            "ko": null,
+            "en": "for reproducing or copying at short object distances"
+          }
+        },
+        {
+          "code": "G02B 13/26",
+          "title": {
+            "ko": null,
+            "en": "for reproducing with unit magnification"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 15/00",
+      "title": {
+        "ko": "변배를 위해 수단을 가진 대물렌즈(애너포모틱 대물렌즈 G02B 13/08)",
+        "en": "Optical objectives with means for varying the magnification (anamorphotic objectives G02B0013080000)"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 15/02",
+          "title": {
+            "ko": "대물렌즈의 일부를 교환하는 것, 부가하는 것 또는 삭제하는 것, 예. 변환될 수 있는 대물렌즈",
+            "en": "by changing, adding, or subtracting a part of the objective, e.g. convertible objective"
+          }
+        },
+        {
+          "code": "G02B 15/04",
+          "title": {
+            "ko": null,
+            "en": "by changing a part"
+          }
+        },
+        {
+          "code": "G02B 15/06",
+          "title": {
+            "ko": null,
+            "en": "by changing the front part"
+          }
+        },
+        {
+          "code": "G02B 15/08",
+          "title": {
+            "ko": null,
+            "en": "by changing the rear part"
+          }
+        },
+        {
+          "code": "G02B 15/10",
+          "title": {
+            "ko": "일부를 부가하는 것, 예. 접사용 어태치먼트",
+            "en": "by adding a part, e.g. close-up attachment"
+          }
+        },
+        {
+          "code": "G02B 15/12",
+          "title": {
+            "ko": "망원 어태치먼트를 부가하는 것(G02B 15/14가 우선)",
+            "en": "by adding telescopic attachments (G02B0015140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 15/14",
+          "title": {
+            "ko": "대물렌즈의 등가초점거리를 연속적으로 변화시키기 위하여 상면에 대하는 하나 이상이 렌즈 또는 렌즈군의 축방향 이동에 의한 것",
+            "en": "by axial movement of one or more lenses or groups of lenses relative to the image plane for continuously varying the equivalent focal length of the objective"
+          }
+        },
+        {
+          "code": "G02B 15/15",
+          "title": {
+            "ko": null,
+            "en": "compensation by means of only one movement or by means of only linearly related movements, e.g. optical compensation"
+          }
+        },
+        {
+          "code": "G02B 15/16",
+          "title": {
+            "ko": "하나의 렌즈 또는 렌즈군과 다른 렌즈 또는 렌즈군과의 사이에 상호 의존적 비선형 상대이동을 수반하는 것(G02B 15/22가 우선)",
+            "en": "with interdependent non-linearly related movements between one lens or lens group, and another lens or lens group (G02B0015220000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 15/163",
+          "title": {
+            "ko": "제1의 가동렌즈 또는 렌즈군 및 제2의 가동렌즈 또는 렌즈군이 둘 다 고정렌즈 또는 렌즈군의 전방에 배치되어 있는 것(G02B 15/177이 우선)",
+            "en": "having a first movable lens or lens group and a second movable lens or lens group, both in front of a fixed lens or lens group (G02B0015177000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 15/167",
+          "title": {
+            "ko": null,
+            "en": "having an additional fixed front lens or group of lenses"
+          }
+        },
+        {
+          "code": "G02B 15/17",
+          "title": {
+            "ko": null,
+            "en": "arranged + ––"
+          }
+        },
+        {
+          "code": "G02B 15/173",
+          "title": {
+            "ko": null,
+            "en": "arranged + – +"
+          }
+        },
+        {
+          "code": "G02B 15/177",
+          "title": {
+            "ko": null,
+            "en": "having a negative front lens or group of lenses"
+          }
+        },
+        {
+          "code": "G02B 15/20",
+          "title": {
+            "ko": null,
+            "en": "having an additional movable lens or lens group for varying the objective focal length"
+          }
+        },
+        {
+          "code": "G02B 15/22",
+          "title": {
+            "ko": null,
+            "en": "with movable lens means specially adapted for focusing at close distances"
+          }
+        },
+        {
+          "code": "G02B 15/24",
+          "title": {
+            "ko": null,
+            "en": "having a front fixed lens or lens group and two movable lenses or lens groups in front of a fixed lens or lens group"
+          }
+        },
+        {
+          "code": "G02B 15/26",
+          "title": {
+            "ko": null,
+            "en": "arranged + ––"
+          }
+        },
+        {
+          "code": "G02B 15/28",
+          "title": {
+            "ko": null,
+            "en": "arranged + – +"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Systems with reflecting surfaces, with or without refracting elements"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 17/02",
+          "title": {
+            "ko": null,
+            "en": "Catoptric systems, e.g. image erecting and reversing system"
+          }
+        },
+        {
+          "code": "G02B 17/04",
+          "title": {
+            "ko": null,
+            "en": "using prisms only"
+          }
+        },
+        {
+          "code": "G02B 17/06",
+          "title": {
+            "ko": null,
+            "en": "using mirrors only"
+          }
+        },
+        {
+          "code": "G02B 17/08",
+          "title": {
+            "ko": null,
+            "en": "Catadioptric systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 19/00",
+      "title": {
+        "ko": "콘덴서(현미경용 G02B 21/08)",
+        "en": "Condensers (for microscopes G02B0021080000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G02B 21/00",
+      "title": {
+        "ko": "현미경",
+        "en": "Microscopes"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 21/02",
+          "title": {
+            "ko": null,
+            "en": "Objectives"
+          }
+        },
+        {
+          "code": "G02B 21/04",
+          "title": {
+            "ko": null,
+            "en": "involving mirrors"
+          }
+        },
+        {
+          "code": "G02B 21/06",
+          "title": {
+            "ko": "시료조명을 위한 수단",
+            "en": "Means for illuminating specimen"
+          }
+        },
+        {
+          "code": "G02B 21/08",
+          "title": {
+            "ko": "콘덴서",
+            "en": "Condensers"
+          }
+        },
+        {
+          "code": "G02B 21/10",
+          "title": {
+            "ko": "어두운 시야 조명을 주는 것(G02B 21/14가 우선)",
+            "en": "affording dark-field illumination (G02B0021140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 21/12",
+          "title": {
+            "ko": "밝은 시야 조명을 주는 것(G02B 21/14가 우선)",
+            "en": "affording bright-field illumination (G02B0021140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 21/14",
+          "title": {
+            "ko": null,
+            "en": "affording illumination for phase-contrast observation"
+          }
+        },
+        {
+          "code": "G02B 21/16",
+          "title": {
+            "ko": null,
+            "en": "adapted for ultraviolet illumination"
+          }
+        },
+        {
+          "code": "G02B 21/18",
+          "title": {
+            "ko": null,
+            "en": "Arrangements with more than one light-path, e.g. for comparing two specimens"
+          }
+        },
+        {
+          "code": "G02B 21/20",
+          "title": {
+            "ko": null,
+            "en": "Binocular arrangements"
+          }
+        },
+        {
+          "code": "G02B 21/22",
+          "title": {
+            "ko": null,
+            "en": "Stereoscopic arrangements"
+          }
+        },
+        {
+          "code": "G02B 21/24",
+          "title": {
+            "ko": null,
+            "en": "Base structure"
+          }
+        },
+        {
+          "code": "G02B 21/26",
+          "title": {
+            "ko": null,
+            "en": "Stages; Adjusting means therefor"
+          }
+        },
+        {
+          "code": "G02B 21/28",
+          "title": {
+            "ko": null,
+            "en": "with cooling device"
+          }
+        },
+        {
+          "code": "G02B 21/30",
+          "title": {
+            "ko": null,
+            "en": "with heating device"
+          }
+        },
+        {
+          "code": "G02B 21/32",
+          "title": {
+            "ko": null,
+            "en": "Micromanipulators structurally combined with microscopes"
+          }
+        },
+        {
+          "code": "G02B 21/33",
+          "title": {
+            "ko": null,
+            "en": "Immersion oils"
+          }
+        },
+        {
+          "code": "G02B 21/34",
+          "title": {
+            "ko": null,
+            "en": "Microscope slides, e.g. mounting specimens on microscope slides"
+          }
+        },
+        {
+          "code": "G02B 21/36",
+          "title": {
+            "ko": "사진촬영용 또는 투영용으로 구성된 것(G02B 21/18이 우선)",
+            "en": "arranged for photographic purposes or projection purposes (G02B0021180000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 23/00",
+      "title": {
+        "ko": "망원경, 예. 쌍안경; 잠망경; 중공체의 내부를 관찰하는 장치; 뷰파인더; 광학적 조준 또는 관측 장치",
+        "en": "Telescopes, e.g. binoculars; Periscopes; Instruments for viewing the inside of hollow bodies; Viewfinders; Optical aiming or sighting devices"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 23/02",
+          "title": {
+            "ko": "프리즘 또는 반사경을 포함한 것(G02B 23/14가 우선)",
+            "en": "involving prisms or mirrors (G02B0023140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 23/04",
+          "title": {
+            "ko": "광속분할 또는 합성을 위한 것, 예. 2인 이상의 관찰자를 위한 접안렌즈를 갖춘 것(G02B 23/10이 우선)",
+            "en": "for the purpose of beam splitting or combining, e.g. fitted with eyepieces for more than one observer (G02B0023100000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 23/06",
+          "title": {
+            "ko": null,
+            "en": "having a focusing action, e.g. parabolic mirror"
+          }
+        },
+        {
+          "code": "G02B 23/08",
+          "title": {
+            "ko": null,
+            "en": "Periscopes"
+          }
+        },
+        {
+          "code": "G02B 23/10",
+          "title": {
+            "ko": null,
+            "en": "reflecting into the field of view additional indications, e.g. from collimator"
+          }
+        },
+        {
+          "code": "G02B 23/12",
+          "title": {
+            "ko": null,
+            "en": "with means for image conversion or intensification"
+          }
+        },
+        {
+          "code": "G02B 23/14",
+          "title": {
+            "ko": "뷰파인더(사진장치용의 것 G03B 13/02)",
+            "en": "Viewfinders (for photographic apparatus G03B0013020000)"
+          }
+        },
+        {
+          "code": "G02B 23/16",
+          "title": {
+            "ko": "하우징; 뚜껑; 마운트; 지지물, 예. 평형추를 가진 것",
+            "en": "Housings; Caps; Mountings; Supports, e.g. with counterweight"
+          }
+        },
+        {
+          "code": "G02B 23/18",
+          "title": {
+            "ko": null,
+            "en": "for binocular arrangements"
+          }
+        },
+        {
+          "code": "G02B 23/20",
+          "title": {
+            "ko": "접는 하우징(G02B 23/18이 우선)",
+            "en": "Collapsible housings (G02B0023180000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 23/22",
+          "title": {
+            "ko": null,
+            "en": "Underwater equipments, e.g. for submarine periscope"
+          }
+        },
+        {
+          "code": "G02B 23/24",
+          "title": {
+            "ko": null,
+            "en": "Instruments for viewing the inside of hollow bodies, e.g. fibrescopes"
+          }
+        },
+        {
+          "code": "G02B 23/26",
+          "title": {
+            "ko": null,
+            "en": "using light guides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 25/00",
+      "title": {
+        "ko": null,
+        "en": "Eyepieces; Magnifying glasses"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 25/02",
+          "title": {
+            "ko": null,
+            "en": "with means for illuminating object viewed"
+          }
+        },
+        {
+          "code": "G02B 25/04",
+          "title": {
+            "ko": null,
+            "en": "affording a wide-angle view, e.g. through a spy-hole"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 26/00",
+      "title": {
+        "ko": "가동 또는 변형 가능한 광학 요소를 이용하여 광을 제어하는 광학 장치 또는 광학적 배치(매질에 포함된 요소의 광학적 특성을 수정하여 광을 제어 G02F1/00)",
+        "en": "Optical devices or arrangements for the control of light using movable or deformable optical elements (control of light by modification of the optical properties of the media of the elements involved therein G02F0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 26/02",
+          "title": {
+            "ko": null,
+            "en": "for controlling the intensity of light"
+          }
+        },
+        {
+          "code": "G02B 26/04",
+          "title": {
+            "ko": null,
+            "en": "by periodically varying the intensity of light, e.g. using choppers"
+          }
+        },
+        {
+          "code": "G02B 26/06",
+          "title": {
+            "ko": "광의 위상을 제어하기 위한 것(G02B 26/08이 우선)",
+            "en": "for controlling the phase of light (G02B0026080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 26/08",
+          "title": {
+            "ko": "광의 방향을 제어하기 위한 것(라이트 가이드 내에서의 것 G02B 6/35)",
+            "en": "for controlling the direction of light (in light guides G02B0006350000)"
+          }
+        },
+        {
+          "code": "G02B 26/10",
+          "title": {
+            "ko": null,
+            "en": "Scanning systems"
+          }
+        },
+        {
+          "code": "G02B 26/12",
+          "title": {
+            "ko": null,
+            "en": "using multifaceted mirrors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 27/00",
+      "title": {
+        "ko": "그룹 G02B1/00 ~ G02B26/00, G02B30/00 어느 하나에도 분류되지 않는 광학계 또는 장치",
+        "en": "Optical systems or apparatus not provided for by any of the groups G02B0001000000-G02B0026000000,G02B0030000000"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 27/01",
+          "title": {
+            "ko": null,
+            "en": "Head-up displays"
+          }
+        },
+        {
+          "code": "G02B 27/02",
+          "title": {
+            "ko": "관찰 또는 읽는 장치(입체 시스템 G02B30/00)",
+            "en": "Viewing or reading apparatus (stereoscopic systems G02B0030000000)"
+          }
+        },
+        {
+          "code": "G02B 27/04",
+          "title": {
+            "ko": null,
+            "en": "having collapsible parts"
+          }
+        },
+        {
+          "code": "G02B 27/06",
+          "title": {
+            "ko": null,
+            "en": "with moving-picture effect"
+          }
+        },
+        {
+          "code": "G02B 27/08",
+          "title": {
+            "ko": null,
+            "en": "Kaleidoscopes"
+          }
+        },
+        {
+          "code": "G02B 27/09",
+          "title": {
+            "ko": null,
+            "en": "Beam shaping, e.g. changing the cross-sectioned area, not otherwise provided for"
+          }
+        },
+        {
+          "code": "G02B 27/10",
+          "title": {
+            "ko": "광속분할계 또는 합성계(편광계 G02B 27/28)",
+            "en": "Beam splitting or combining systems (mixing and splitting light signals using optical waveguides G02B0006280000;polarising systems G02B0027280000)"
+          }
+        },
+        {
+          "code": "G02B 27/12",
+          "title": {
+            "ko": null,
+            "en": "operating by refraction only"
+          }
+        },
+        {
+          "code": "G02B 27/14",
+          "title": {
+            "ko": null,
+            "en": "operating by reflection only"
+          }
+        },
+        {
+          "code": "G02B 27/16",
+          "title": {
+            "ko": null,
+            "en": "used as aids for focusing"
+          }
+        },
+        {
+          "code": "G02B 27/18",
+          "title": {
+            "ko": null,
+            "en": "for optical projection, e.g. combination of mirror and condenser and objective"
+          }
+        },
+        {
+          "code": "G02B 27/20",
+          "title": {
+            "ko": null,
+            "en": "for imaging minute objects, e.g. light-pointer"
+          }
+        },
+        {
+          "code": "G02B 27/28",
+          "title": {
+            "ko": "편광용(입체경에 사용되는 것 G02B 30/25)",
+            "en": "for polarising  (used in stereoscopes G02B0030250000)"
+          }
+        },
+        {
+          "code": "G02B 27/30",
+          "title": {
+            "ko": null,
+            "en": "Collimators"
+          }
+        },
+        {
+          "code": "G02B 27/32",
+          "title": {
+            "ko": null,
+            "en": "Fiducial marks or measuring scales within the optical system"
+          }
+        },
+        {
+          "code": "G02B 27/34",
+          "title": {
+            "ko": null,
+            "en": "illuminated"
+          }
+        },
+        {
+          "code": "G02B 27/36",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "G02B 27/40",
+          "title": {
+            "ko": null,
+            "en": "Optical focusing aids"
+          }
+        },
+        {
+          "code": "G02B 27/42",
+          "title": {
+            "ko": "회절광학계(G02B 27/60가 우선)",
+            "en": "Diffraction optics (G02B0027600000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 27/44",
+          "title": {
+            "ko": "회절격자계; 존 플레이트(zone plate)계 (G02B27/46이 우선)",
+            "en": "Grating systems; Zone plate systems (G02B0027460000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02B 27/46",
+          "title": {
+            "ko": null,
+            "en": "Systems using spatial filters"
+          }
+        },
+        {
+          "code": "G02B 27/48",
+          "title": {
+            "ko": null,
+            "en": "Laser speckle optics"
+          }
+        },
+        {
+          "code": "G02B 27/50",
+          "title": {
+            "ko": "위상물체 가시화를 위한 광학계",
+            "en": "Optics for phase object visualisation (in microscopes G02B0021140000)"
+          }
+        },
+        {
+          "code": "G02B 27/52",
+          "title": {
+            "ko": null,
+            "en": "Phase contrast optics"
+          }
+        },
+        {
+          "code": "G02B 27/54",
+          "title": {
+            "ko": null,
+            "en": "Schlieren-optical systems"
+          }
+        },
+        {
+          "code": "G02B 27/56",
+          "title": {
+            "ko": null,
+            "en": "Optics using evanescent waves, i.e. inhomogeneous waves"
+          }
+        },
+        {
+          "code": "G02B 27/58",
+          "title": {
+            "ko": null,
+            "en": "Optics for apodization or superresolution; Optical synthetic aperture systems"
+          }
+        },
+        {
+          "code": "G02B 27/60",
+          "title": {
+            "ko": null,
+            "en": "Systems using moiré fringes"
+          }
+        },
+        {
+          "code": "G02B 27/62",
+          "title": {
+            "ko": null,
+            "en": "Optical apparatus specially adapted for adjusting optical elements during the assembly of optical systems"
+          }
+        },
+        {
+          "code": "G02B 27/64",
+          "title": {
+            "ko": null,
+            "en": "Imaging systems using optical elements for stabilisation of the lateral and angular position of the image"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02B 30/00",
+      "title": {
+        "ko": "3차원 [3D] 효과를 생성하기 위한 광학 시스템 또는 장치, 예. 입체 이미지 (현미경용 G02B21/22)",
+        "en": "Optical systems or apparatus for producing three-dimensional [3D] effects, e.g. stereoscopic images (in microscopes G02B0021220000)"
+      },
+      "subgroups": [
+        {
+          "code": "G02B 30/10",
+          "title": {
+            "ko": null,
+            "en": "using integral imaging methods"
+          }
+        },
+        {
+          "code": "G02B 30/20",
+          "title": {
+            "ko": "관찰자의 왼쪽 눈과 오른쪽 눈에 첫 번째와 두 번째 시차 이미지 제공에 의한 것",
+            "en": "by providing first and second parallax images to an observer’s left and right eyes"
+          }
+        },
+        {
+          "code": "G02B 30/22",
+          "title": {
+            "ko": null,
+            "en": "of the stereoscopic type"
+          }
+        },
+        {
+          "code": "G02B 30/23",
+          "title": {
+            "ko": null,
+            "en": "using wavelength separation, e.g. using anaglyph techniques"
+          }
+        },
+        {
+          "code": "G02B 30/24",
+          "title": {
+            "ko": null,
+            "en": "involving temporal multiplexing, e.g. using sequentially activated left and right shutters"
+          }
+        },
+        {
+          "code": "G02B 30/25",
+          "title": {
+            "ko": null,
+            "en": "using polarisation techniques"
+          }
+        },
+        {
+          "code": "G02B 30/26",
+          "title": {
+            "ko": "자동입체경(autostereoscopic)형인 것",
+            "en": "of the autostereoscopic type"
+          }
+        },
+        {
+          "code": "G02B 30/27",
+          "title": {
+            "ko": null,
+            "en": "involving lenticular arrays"
+          }
+        },
+        {
+          "code": "G02B 30/28",
+          "title": {
+            "ko": null,
+            "en": "involving active lenticular arrays"
+          }
+        },
+        {
+          "code": "G02B 30/29",
+          "title": {
+            "ko": null,
+            "en": "characterised by the geometry of the lenticular array, e.g. slanted arrays, irregular arrays or arrays of varying shape or size"
+          }
+        },
+        {
+          "code": "G02B 30/30",
+          "title": {
+            "ko": "패럴랙스 베리어를 포함하는 것",
+            "en": "involving parallax barriers"
+          }
+        },
+        {
+          "code": "G02B 30/31",
+          "title": {
+            "ko": "패럴랙스 베리어를 포함하는 것 (방향성 광 또는 백라이트 광원을 포함하는 것 G02B30/33)",
+            "en": "involving active parallax barriers   (involving directional light or back-light sources G02B0030330000)"
+          }
+        },
+        {
+          "code": "G02B 30/32",
+          "title": {
+            "ko": null,
+            "en": "characterised by the geometry of the parallax barriers, e.g. staggered barriers, slanted parallax arrays or parallax arrays of varying shape or size"
+          }
+        },
+        {
+          "code": "G02B 30/33",
+          "title": {
+            "ko": null,
+            "en": "involving directional light or back-light sources"
+          }
+        },
+        {
+          "code": "G02B 30/34",
+          "title": {
+            "ko": "동일한 객체의 시차 변위 시점에 대응하는 분리된 이미지의 입체 쌍을 제공하는 입체경, 예. 3차원 [3D] 슬라이드 뷰어",
+            "en": "Stereoscopes providing a stereoscopic pair of separated images corresponding to parallactically displaced views of the same object, e.g. three-dimensional [3D] slide viewers"
+          }
+        },
+        {
+          "code": "G02B 30/35",
+          "title": {
+            "ko": null,
+            "en": "using reflective optical elements in the optical path between the images and the observer"
+          }
+        },
+        {
+          "code": "G02B 30/36",
+          "title": {
+            "ko": null,
+            "en": "using refractive optical elements, e.g. prisms, in the optical path between the images and the observer"
+          }
+        },
+        {
+          "code": "G02B 30/37",
+          "title": {
+            "ko": null,
+            "en": "Collapsible stereoscopes"
+          }
+        },
+        {
+          "code": "G02B 30/40",
+          "title": {
+            "ko": "단일 2차원 [2D] 이미지의 관찰자에게 깊이의 지각을 제공하는 것",
+            "en": "giving the observer of a single two-dimensional [2D] image a perception of depth"
+          }
+        },
+        {
+          "code": "G02B 30/50",
+          "title": {
+            "ko": "3차원 [3D] 볼륨에 분산된 이미지 요소로 구성된 이미지, 예. 복셀",
+            "en": "the image being built up from image elements distributed over a three-dimensional [3D] volume, e.g. voxels"
+          }
+        },
+        {
+          "code": "G02B 30/52",
+          "title": {
+            "ko": "2차원 [2D] 평면의 스택 또는 시퀀스로부터 구성되는 3차원 [3D] 볼륨, 예. 깊이 샘플링 시스템",
+            "en": "the three-dimensional [3D] volume being constructed from a stack or sequence of two-dimensional [2D] planes, e.g. depth sampling systems"
+          }
+        },
+        {
+          "code": "G02B 30/54",
+          "title": {
+            "ko": "2차원 [2D] 표면을 이동하여 생성되는 3차원 [3D] 볼륨, 예. 2D 표면을 진동시키거나 회전시키는 것",
+            "en": "the three-dimensional [3D] volume being generated by moving a two-dimensional [2D] surface, e.g. by vibrating or rotating the 2D surface"
+          }
+        },
+        {
+          "code": "G02B 30/56",
+          "title": {
+            "ko": null,
+            "en": "by projecting aerial or floating images"
+          }
+        },
+        {
+          "code": "G02B 30/60",
+          "title": {
+            "ko": null,
+            "en": "involving reflecting prisms and mirrors only"
+          }
+        }
+      ]
+    }
+  ]
+}

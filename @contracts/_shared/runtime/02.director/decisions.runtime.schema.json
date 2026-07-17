@@ -1,0 +1,54 @@
+{
+  "title": "DirectorDecisionsRuntime",
+  "description": "director(02) 의사결정 이력. sessions/{user_id}/{work_id}/runtime/02.director/decisions.json. 최신 N개 유지(default 20).",
+  "type": "object",
+  "required": [
+    "decisions",
+    "last_updated"
+  ],
+  "properties": {
+    "max_entries": {
+      "type": "integer",
+      "default": 20,
+      "description": "유지할 최신 결정 개수"
+    },
+    "decisions": {
+      "type": "array",
+      "description": "결정 이력 (시간 순)",
+      "items": {
+        "type": "object",
+        "required": [
+          "at",
+          "phase",
+          "action",
+          "rationale"
+        ],
+        "properties": {
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phase": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "triggered_tools": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

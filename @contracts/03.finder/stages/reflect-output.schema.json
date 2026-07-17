@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "coverage_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "covered_elements 수 / 전체 technical_elements 수"
+    },
+    "covered_elements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncovered_elements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "additional_queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "ipc_hint": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 3
+          }
+        },
+        "required": [
+          "text"
+        ]
+      },
+      "description": "dispatch_choice=0 (재시도) 일 때만 채움"
+    },
+    "previous_queries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "이번까지 시도한 query 누적 (중복 방지용)"
+    },
+    "retry_strategy": {
+      "type": "string",
+      "description": "dispatch_choice=0 시 다음 cycle 의 전략"
+    },
+    "unique_patents_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "dispatch_choice": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "다음 chain dispatch index. 0=재검색 / 1=검색 만족"
+    }
+  },
+  "required": [
+    "coverage_score",
+    "covered_elements",
+    "uncovered_elements",
+    "unique_patents_count",
+    "dispatch_choice"
+  ]
+}

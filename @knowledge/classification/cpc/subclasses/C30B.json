@@ -1,0 +1,775 @@
+{
+  "subclass": "C30B",
+  "title": {
+    "ko": null,
+    "en": "SINGLE-CRYSTAL GROWTH (by using ultra-high pressure, e.g. for the formation of diamonds, B01J3/06); UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL (zone-refining of metals or alloys C22B); PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE (casting of metals, casting of other substances by the same processes or devices B22D; working of plastics B29; modifying the physical structure of metals or alloys C21D, C22F); SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE (for producing semiconductor devices or parts thereof H10); APPARATUS THEREFOR"
+  },
+  "groups": [
+    {
+      "code": "C30B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth directly from the solid state (unidirectional demixing of eutectoid materials C30B3/00; under a protective fluid C30B27/00)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 1/02",
+          "title": {
+            "ko": null,
+            "en": "by thermal treatment, e.g. strain annealing (C30B1/12 takes precedence)"
+          }
+        },
+        {
+          "code": "C30B 1/10",
+          "title": {
+            "ko": null,
+            "en": "by solid state reactions or multi-phase diffusion"
+          }
+        },
+        {
+          "code": "C30B 1/12",
+          "title": {
+            "ko": null,
+            "en": "by pressure treatment during the growth"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Unidirectional demixing of eutectoid materials"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C30B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth from gels (under a protective fluid C30B27/00)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 5/02",
+          "title": {
+            "ko": null,
+            "en": "with addition of doping materials"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 7/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth from solutions using solvents which are liquid at normal temperature, e.g. aqueous solutions (from molten solvents C30B9/00; by normal or gradient freezing C30B11/00; under a protective fluid C30B27/00)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 7/005",
+          "title": {
+            "ko": null,
+            "en": "{Epitaxial layer growth}"
+          }
+        },
+        {
+          "code": "C30B 7/02",
+          "title": {
+            "ko": null,
+            "en": "by evaporation of the solvent"
+          }
+        },
+        {
+          "code": "C30B 7/08",
+          "title": {
+            "ko": null,
+            "en": "by cooling of the solution"
+          }
+        },
+        {
+          "code": "C30B 7/10",
+          "title": {
+            "ko": null,
+            "en": "by application of pressure, e.g. hydrothermal processes"
+          }
+        },
+        {
+          "code": "C30B 7/12",
+          "title": {
+            "ko": null,
+            "en": "by electrolysis"
+          }
+        },
+        {
+          "code": "C30B 7/14",
+          "title": {
+            "ko": null,
+            "en": "the crystallising materials being formed by chemical reactions in the solution"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 9/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth from melt solutions using molten solvents (by normal or gradient freezing C30B11/00; by zone-melting C30B13/00; by crystal pulling C30B15/00; on immersed seed crystal C30B17/00; by liquid phase epitaxial growth C30B19/00; under a protective fluid C30B27/00)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 9/02",
+          "title": {
+            "ko": null,
+            "en": "by evaporation of the molten solvent"
+          }
+        },
+        {
+          "code": "C30B 9/04",
+          "title": {
+            "ko": null,
+            "en": "by cooling of the solution"
+          }
+        },
+        {
+          "code": "C30B 9/14",
+          "title": {
+            "ko": null,
+            "en": "by electrolysis"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 11/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth by normal freezing or freezing under temperature gradient, e.g. Bridgman-Stockbarger method (C30B13/00, C30B15/00, C30B17/00, C30B19/00 take precedence; under a protective fluid C30B27/00)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 11/001",
+          "title": {
+            "ko": null,
+            "en": "{Continuous growth}"
+          }
+        },
+        {
+          "code": "C30B 11/002",
+          "title": {
+            "ko": null,
+            "en": "{Crucibles or containers for supporting the melt}"
+          }
+        },
+        {
+          "code": "C30B 11/003",
+          "title": {
+            "ko": null,
+            "en": "{Heating or cooling of the melt or the crystallised material}"
+          }
+        },
+        {
+          "code": "C30B 11/005",
+          "title": {
+            "ko": null,
+            "en": "{by irradiation or electric discharge}"
+          }
+        },
+        {
+          "code": "C30B 11/006",
+          "title": {
+            "ko": null,
+            "en": "{Controlling or regulating}"
+          }
+        },
+        {
+          "code": "C30B 11/007",
+          "title": {
+            "ko": null,
+            "en": "{Mechanisms for moving either the charge or the heater}"
+          }
+        },
+        {
+          "code": "C30B 11/008",
+          "title": {
+            "ko": null,
+            "en": "{using centrifugal force to the charge}"
+          }
+        },
+        {
+          "code": "C30B 11/02",
+          "title": {
+            "ko": null,
+            "en": "without using solvents (C30B11/06 takes precedence)"
+          }
+        },
+        {
+          "code": "C30B 11/04",
+          "title": {
+            "ko": null,
+            "en": "adding crystallising materials or reactants forming it in situ to the melt"
+          }
+        },
+        {
+          "code": "C30B 11/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by the seed, e.g. its crystallographic orientation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth by zone-melting; Refining by zone-melting (C30B17/00 takes precedence; by changing the cross-section of the treated solid C30B15/00; under a protective fluid C30B27/00; for the growth of homogeneous polycrystalline material with defined structure C30B28/00)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 13/005",
+          "title": {
+            "ko": null,
+            "en": "{Continuous growth}"
+          }
+        },
+        {
+          "code": "C30B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Zone-melting with a solvent, e.g. travelling solvent process"
+          }
+        },
+        {
+          "code": "C30B 13/04",
+          "title": {
+            "ko": null,
+            "en": "Homogenisation by zone-levelling"
+          }
+        },
+        {
+          "code": "C30B 13/06",
+          "title": {
+            "ko": null,
+            "en": "the molten zone not extending over the whole cross-section"
+          }
+        },
+        {
+          "code": "C30B 13/08",
+          "title": {
+            "ko": null,
+            "en": "adding crystallising materials or reactants forming it in situ to the molten zone"
+          }
+        },
+        {
+          "code": "C30B 13/14",
+          "title": {
+            "ko": null,
+            "en": "Crucibles or vessels"
+          }
+        },
+        {
+          "code": "C30B 13/16",
+          "title": {
+            "ko": null,
+            "en": "Heating of the molten zone"
+          }
+        },
+        {
+          "code": "C30B 13/26",
+          "title": {
+            "ko": null,
+            "en": "Stirring of the molten zone"
+          }
+        },
+        {
+          "code": "C30B 13/28",
+          "title": {
+            "ko": null,
+            "en": "Controlling or regulating"
+          }
+        },
+        {
+          "code": "C30B 13/32",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms for moving either the charge or the heater"
+          }
+        },
+        {
+          "code": "C30B 13/34",
+          "title": {
+            "ko": null,
+            "en": "characterised by the seed, e.g. by its crystallographic orientation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth by pulling from a melt, e.g. Czochralski method (under a protective fluid C30B27/00)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 15/002",
+          "title": {
+            "ko": null,
+            "en": "{Continuous growth}"
+          }
+        },
+        {
+          "code": "C30B 15/005",
+          "title": {
+            "ko": null,
+            "en": "{Simultaneous pulling of more than one crystal}"
+          }
+        },
+        {
+          "code": "C30B 15/007",
+          "title": {
+            "ko": null,
+            "en": "{Pulling on a substrate}"
+          }
+        },
+        {
+          "code": "C30B 15/02",
+          "title": {
+            "ko": null,
+            "en": "adding crystallising materials or reactants forming it in situ to the melt"
+          }
+        },
+        {
+          "code": "C30B 15/06",
+          "title": {
+            "ko": null,
+            "en": "Non-vertical pulling"
+          }
+        },
+        {
+          "code": "C30B 15/08",
+          "title": {
+            "ko": null,
+            "en": "Downward pulling"
+          }
+        },
+        {
+          "code": "C30B 15/10",
+          "title": {
+            "ko": null,
+            "en": "Crucibles or containers for supporting the melt"
+          }
+        },
+        {
+          "code": "C30B 15/14",
+          "title": {
+            "ko": null,
+            "en": "Heating of the melt or the crystallised materials"
+          }
+        },
+        {
+          "code": "C30B 15/20",
+          "title": {
+            "ko": null,
+            "en": "Controlling or regulating (controlling or regulating in general G05)"
+          }
+        },
+        {
+          "code": "C30B 15/30",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms for rotating or moving either the melt or the crystal (flotation methods C30B15/28)"
+          }
+        },
+        {
+          "code": "C30B 15/32",
+          "title": {
+            "ko": null,
+            "en": "Seed holders, e.g. chucks"
+          }
+        },
+        {
+          "code": "C30B 15/34",
+          "title": {
+            "ko": null,
+            "en": "Edge-defined film-fed crystal-growth using dies or slits"
+          }
+        },
+        {
+          "code": "C30B 15/36",
+          "title": {
+            "ko": null,
+            "en": "characterised by the seed, e.g. its crystallographic orientation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth onto a seed which remains in the melt during growth, e.g. Nacken-Kyropoulos method (C30B15/00 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C30B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Liquid-phase epitaxial-layer growth"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 19/02",
+          "title": {
+            "ko": null,
+            "en": "using molten solvents, e.g. flux"
+          }
+        },
+        {
+          "code": "C30B 19/06",
+          "title": {
+            "ko": null,
+            "en": "Reaction chambers; Boats for supporting the melt; Substrate holders"
+          }
+        },
+        {
+          "code": "C30B 19/08",
+          "title": {
+            "ko": null,
+            "en": "Heating of the reaction chamber or the substrate"
+          }
+        },
+        {
+          "code": "C30B 19/10",
+          "title": {
+            "ko": null,
+            "en": "Controlling or regulating (controlling or regulating in general G05)"
+          }
+        },
+        {
+          "code": "C30B 19/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by the substrate"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 21/00",
+      "title": {
+        "ko": null,
+        "en": "Unidirectional solidification of eutectic materials"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 21/02",
+          "title": {
+            "ko": null,
+            "en": "by normal casting or gradient freezing"
+          }
+        },
+        {
+          "code": "C30B 21/04",
+          "title": {
+            "ko": null,
+            "en": "by zone-melting"
+          }
+        },
+        {
+          "code": "C30B 21/06",
+          "title": {
+            "ko": null,
+            "en": "by pulling from a melt"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth by condensing evaporated or sublimed materials"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 23/002",
+          "title": {
+            "ko": null,
+            "en": "{Controlling or regulating}"
+          }
+        },
+        {
+          "code": "C30B 23/007",
+          "title": {
+            "ko": null,
+            "en": "{Growth of whiskers or needles}"
+          }
+        },
+        {
+          "code": "C30B 23/02",
+          "title": {
+            "ko": null,
+            "en": "Epitaxial-layer growth"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 25/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth by chemical reaction of reactive gases, e.g. chemical vapour-deposition growth"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 25/005",
+          "title": {
+            "ko": null,
+            "en": "{Growth of whiskers or needles}"
+          }
+        },
+        {
+          "code": "C30B 25/02",
+          "title": {
+            "ko": null,
+            "en": "Epitaxial-layer growth"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 27/00",
+      "title": {
+        "ko": null,
+        "en": "Single-crystal growth under a protective fluid"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 27/02",
+          "title": {
+            "ko": null,
+            "en": "by pulling from a melt"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 28/00",
+      "title": {
+        "ko": null,
+        "en": "Production of homogeneous polycrystalline material with defined structure"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 28/02",
+          "title": {
+            "ko": null,
+            "en": "directly from the solid state"
+          }
+        },
+        {
+          "code": "C30B 28/04",
+          "title": {
+            "ko": null,
+            "en": "from liquids"
+          }
+        },
+        {
+          "code": "C30B 28/12",
+          "title": {
+            "ko": null,
+            "en": "directly from the gas state"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 29/00",
+      "title": {
+        "ko": null,
+        "en": "Single crystals or homogeneous polycrystalline material with defined structure characterised by the material or by their shape"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 29/02",
+          "title": {
+            "ko": null,
+            "en": "Elements"
+          }
+        },
+        {
+          "code": "C30B 29/10",
+          "title": {
+            "ko": null,
+            "en": "Inorganic compounds or compositions"
+          }
+        },
+        {
+          "code": "C30B 29/54",
+          "title": {
+            "ko": null,
+            "en": "Organic compounds"
+          }
+        },
+        {
+          "code": "C30B 29/60",
+          "title": {
+            "ko": null,
+            "en": "characterised by shape"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 30/00",
+      "title": {
+        "ko": null,
+        "en": "Production of single crystals or homogeneous polycrystalline material with defined structure characterised by the action of electric or magnetic fields, wave energy or other specific physical conditions"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 30/02",
+          "title": {
+            "ko": null,
+            "en": "using electric fields, e.g. electrolysis"
+          }
+        },
+        {
+          "code": "C30B 30/04",
+          "title": {
+            "ko": null,
+            "en": "using magnetic fields"
+          }
+        },
+        {
+          "code": "C30B 30/06",
+          "title": {
+            "ko": null,
+            "en": "using mechanical vibrations"
+          }
+        },
+        {
+          "code": "C30B 30/08",
+          "title": {
+            "ko": null,
+            "en": "in conditions of zero-gravity or low gravity"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 31/00",
+      "title": {
+        "ko": null,
+        "en": "Diffusion or doping processes for single crystals or homogeneous polycrystalline material with defined structure; Apparatus therefor"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 31/02",
+          "title": {
+            "ko": null,
+            "en": "by contacting with diffusion materials in the solid state"
+          }
+        },
+        {
+          "code": "C30B 31/04",
+          "title": {
+            "ko": null,
+            "en": "by contacting with diffusion materials in the liquid state"
+          }
+        },
+        {
+          "code": "C30B 31/06",
+          "title": {
+            "ko": null,
+            "en": "by contacting with diffusion material in the gaseous state"
+          }
+        },
+        {
+          "code": "C30B 31/20",
+          "title": {
+            "ko": null,
+            "en": "Doping by irradiation with electromagnetic waves or by particle radiation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 33/00",
+      "title": {
+        "ko": null,
+        "en": "After-treatment of single crystals or homogeneous polycrystalline material with defined structure (C30B31/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 33/005",
+          "title": {
+            "ko": null,
+            "en": "{Oxydation}"
+          }
+        },
+        {
+          "code": "C30B 33/02",
+          "title": {
+            "ko": null,
+            "en": "Heat treatment (C30B33/04, C30B33/06 take precedence)"
+          }
+        },
+        {
+          "code": "C30B 33/04",
+          "title": {
+            "ko": null,
+            "en": "using electric or magnetic fields or particle radiation"
+          }
+        },
+        {
+          "code": "C30B 33/06",
+          "title": {
+            "ko": null,
+            "en": "Joining of crystals"
+          }
+        },
+        {
+          "code": "C30B 33/08",
+          "title": {
+            "ko": null,
+            "en": "Etching"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C30B 35/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus not otherwise provided for, specially adapted for the growth, production or after-treatment of single crystals or of a homogeneous polycrystalline material with defined structure"
+      },
+      "subgroups": [
+        {
+          "code": "C30B 35/002",
+          "title": {
+            "ko": null,
+            "en": "{Crucibles or containers}"
+          }
+        },
+        {
+          "code": "C30B 35/005",
+          "title": {
+            "ko": null,
+            "en": "{Transport systems}"
+          }
+        },
+        {
+          "code": "C30B 35/007",
+          "title": {
+            "ko": null,
+            "en": "{Apparatus for preparing, pre-treating the source material to be used for crystal growth}"
+          }
+        }
+      ]
+    }
+  ]
+}

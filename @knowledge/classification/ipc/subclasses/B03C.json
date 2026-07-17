@@ -1,0 +1,684 @@
+{
+  "subclass": "B03C",
+  "title": {
+    "ko": "고체물질 또는 유체로부터 고체물질의 자기 또는 정전기에 의한 분리; 고압 전계에 의한 분리 (동위원소의 분리 B01D59/00; 자기분리 또는 정전분리와 타의 방법에 의한 고체의 분리와의 조합 B03B, B07B)",
+    "en": "MAGNETIC OR ELECTROSTATIC SEPARATION OF SOLID MATERIALS FROM SOLID MATERIALS OR FLUIDS; SEPARATION BY HIGH-VOLTAGE ELECTRIC FIELDS (separating isotopes B01D0059000000;combinations of magnetic or electrostatic separation with separation of solids by other means B03B, B07B)"
+  },
+  "groups": [
+    {
+      "code": "B03C 1/00",
+      "title": {
+        "ko": "자기분리",
+        "en": "Magnetic separation"
+      },
+      "subgroups": [
+        {
+          "code": "B03C 1/005",
+          "title": {
+            "ko": null,
+            "en": "Pretreatment specially adapted for magnetic separation"
+          }
+        },
+        {
+          "code": "B03C 1/01",
+          "title": {
+            "ko": null,
+            "en": "by addition of magnetic adjuvants"
+          }
+        },
+        {
+          "code": "B03C 1/015",
+          "title": {
+            "ko": null,
+            "en": "by chemical treatment imparting magnetic properties to the material to be separated, e.g. roasting, reduction, oxidation"
+          }
+        },
+        {
+          "code": "B03C 1/02",
+          "title": {
+            "ko": "분리되어질 물질에 직접 작용하는 것",
+            "en": "acting directly on the substance being separated"
+          }
+        },
+        {
+          "code": "B03C 1/021",
+          "title": {
+            "ko": null,
+            "en": "Separation using Meissner effect, i.e. deflection of superconductive particles in a magnetic field"
+          }
+        },
+        {
+          "code": "B03C 1/023",
+          "title": {
+            "ko": null,
+            "en": "Separation using Lorentz force, i.e. deflection of electrically charged particles in a magnetic field"
+          }
+        },
+        {
+          "code": "B03C 1/025",
+          "title": {
+            "ko": null,
+            "en": "High gradient magnetic separators"
+          }
+        },
+        {
+          "code": "B03C 1/027",
+          "title": {
+            "ko": null,
+            "en": "with reciprocating canisters"
+          }
+        },
+        {
+          "code": "B03C 1/029",
+          "title": {
+            "ko": null,
+            "en": "with circulating matrix or matrix elements"
+          }
+        },
+        {
+          "code": "B03C 1/03",
+          "title": {
+            "ko": null,
+            "en": "rotating, e.g. of the carousel type"
+          }
+        },
+        {
+          "code": "B03C 1/031",
+          "title": {
+            "ko": null,
+            "en": "Component parts; Auxiliary operations"
+          }
+        },
+        {
+          "code": "B03C 1/032",
+          "title": {
+            "ko": null,
+            "en": "Matrix cleaning systems"
+          }
+        },
+        {
+          "code": "B03C 1/033",
+          "title": {
+            "ko": null,
+            "en": "characterised by the magnetic circuit"
+          }
+        },
+        {
+          "code": "B03C 1/034",
+          "title": {
+            "ko": null,
+            "en": "characterised by the matrix elements"
+          }
+        },
+        {
+          "code": "B03C 1/035",
+          "title": {
+            "ko": null,
+            "en": "Open gradient magnetic separators, i.e. separators in which the gap is unobstructed, characterised by the configuration of the gap"
+          }
+        },
+        {
+          "code": "B03C 1/0355",
+          "title": {
+            "ko": null,
+            "en": "using superconductive coils"
+          }
+        },
+        {
+          "code": "B03C 1/04",
+          "title": {
+            "ko": null,
+            "en": "with the material carriers in the form of trays or with tables"
+          }
+        },
+        {
+          "code": "B03C 1/06",
+          "title": {
+            "ko": null,
+            "en": "with magnets moving during operation"
+          }
+        },
+        {
+          "code": "B03C 1/08",
+          "title": {
+            "ko": null,
+            "en": "with non-movable magnets"
+          }
+        },
+        {
+          "code": "B03C 1/10",
+          "title": {
+            "ko": "원통상의 재료 운반 장치가 있는 것 (회전하는 자기 드럼에 의해 얻어진 이동 필드에 의해 운반되는 재료를 갖는 것 B03C1/247)",
+            "en": "with cylindrical material carriers (B03C0001247000 takes precedence)"
+          }
+        },
+        {
+          "code": "B03C 1/12",
+          "title": {
+            "ko": null,
+            "en": "with magnets moving during operation; with movable pole pieces"
+          }
+        },
+        {
+          "code": "B03C 1/14",
+          "title": {
+            "ko": null,
+            "en": "with non-movable magnets"
+          }
+        },
+        {
+          "code": "B03C 1/16",
+          "title": {
+            "ko": null,
+            "en": "with material carriers in the form of belts"
+          }
+        },
+        {
+          "code": "B03C 1/18",
+          "title": {
+            "ko": null,
+            "en": "with magnets moving during operation"
+          }
+        },
+        {
+          "code": "B03C 1/20",
+          "title": {
+            "ko": null,
+            "en": "in the form of belts, e.g. cross-belt type"
+          }
+        },
+        {
+          "code": "B03C 1/22",
+          "title": {
+            "ko": null,
+            "en": "with non-movable magnets"
+          }
+        },
+        {
+          "code": "B03C 1/23",
+          "title": {
+            "ko": null,
+            "en": "with material carried by oscillating fields; with material carried by travelling fields, e.g. generated by stationary magnetic coils; Eddy-current separators, e.g. sliding ramp"
+          }
+        },
+        {
+          "code": "B03C 1/24",
+          "title": {
+            "ko": null,
+            "en": "with material carried by travelling fields"
+          }
+        },
+        {
+          "code": "B03C 1/247",
+          "title": {
+            "ko": null,
+            "en": "obtained by a rotating magnetic drum"
+          }
+        },
+        {
+          "code": "B03C 1/253",
+          "title": {
+            "ko": null,
+            "en": "obtained by a linear motor"
+          }
+        },
+        {
+          "code": "B03C 1/26",
+          "title": {
+            "ko": "자유 낙하 재료 포함(B03C1/035가 우선)",
+            "en": "with free falling material (B03C0001035000 takes precedence)"
+          }
+        },
+        {
+          "code": "B03C 1/28",
+          "title": {
+            "ko": null,
+            "en": "Magnetic plugs and dipsticks"
+          }
+        },
+        {
+          "code": "B03C 1/30",
+          "title": {
+            "ko": null,
+            "en": "Combinations with other devices, not otherwise provided for"
+          }
+        },
+        {
+          "code": "B03C 1/32",
+          "title": {
+            "ko": null,
+            "en": "acting on the medium containing the substance being separated, e.g. magneto-gravimetric-, magnetohydrostatic-, or magnetohydrodynamic separation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B03C 3/00",
+      "title": {
+        "ko": "기체 또는 증기, 예. 공기, 로부터 분산입자의 정전효과에 의한 분리",
+        "en": "Separating dispersed particles from gases or vapour, e.g. air, by electrostatic effect"
+      },
+      "subgroups": [
+        {
+          "code": "B03C 3/01",
+          "title": {
+            "ko": null,
+            "en": "Pretreatment of the gases prior to electrostatic precipitation"
+          }
+        },
+        {
+          "code": "B03C 3/011",
+          "title": {
+            "ko": null,
+            "en": "Prefiltering; Flow controlling"
+          }
+        },
+        {
+          "code": "B03C 3/013",
+          "title": {
+            "ko": null,
+            "en": "Conditioning by chemical additives, e.g. with SO3"
+          }
+        },
+        {
+          "code": "B03C 3/014",
+          "title": {
+            "ko": null,
+            "en": "Addition of water; Heat exchange, e.g. by condensation"
+          }
+        },
+        {
+          "code": "B03C 3/016",
+          "title": {
+            "ko": null,
+            "en": "by acoustic or electromagnetic energy, e.g. ultraviolet light"
+          }
+        },
+        {
+          "code": "B03C 3/017",
+          "title": {
+            "ko": null,
+            "en": "Combinations of electrostatic separation with other processes, not otherwise provided for"
+          }
+        },
+        {
+          "code": "B03C 3/019",
+          "title": {
+            "ko": null,
+            "en": "Post-treatment of gases"
+          }
+        },
+        {
+          "code": "B03C 3/02",
+          "title": {
+            "ko": "외부전원이 있는 플랜트 또는 장치",
+            "en": "Plant or installations having external electricity supply"
+          }
+        },
+        {
+          "code": "B03C 3/04",
+          "title": {
+            "ko": "건식",
+            "en": "dry type"
+          }
+        },
+        {
+          "code": "B03C 3/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by presence of stationary tube electrodes"
+          }
+        },
+        {
+          "code": "B03C 3/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by presence of stationary flat electrodes arranged with their flat surfaces parallel to the gas stream"
+          }
+        },
+        {
+          "code": "B03C 3/09",
+          "title": {
+            "ko": null,
+            "en": "characterised by presence of stationary flat electrodes arranged with their flat surfaces at right angles to the gas stream"
+          }
+        },
+        {
+          "code": "B03C 3/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by presence of electrodes moving during separating action"
+          }
+        },
+        {
+          "code": "B03C 3/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by separation of ionising and collecting stations"
+          }
+        },
+        {
+          "code": "B03C 3/14",
+          "title": {
+            "ko": "기계적 효과를 부가적 사용하는 것을 특징으로 하는 것, 예. 중력(3/32가 우선)",
+            "en": "characterised by the additional use of mechanical effects, e.g. gravity (B03C0003320000 takes precedence)"
+          }
+        },
+        {
+          "code": "B03C 3/145",
+          "title": {
+            "ko": null,
+            "en": "Inertia"
+          }
+        },
+        {
+          "code": "B03C 3/15",
+          "title": {
+            "ko": null,
+            "en": "Centrifugal forces"
+          }
+        },
+        {
+          "code": "B03C 3/155",
+          "title": {
+            "ko": null,
+            "en": "Filtration"
+          }
+        },
+        {
+          "code": "B03C 3/16",
+          "title": {
+            "ko": null,
+            "en": "wet type"
+          }
+        },
+        {
+          "code": "B03C 3/28",
+          "title": {
+            "ko": null,
+            "en": "Plant or installations without electricity supply, e.g. using electrets"
+          }
+        },
+        {
+          "code": "B03C 3/30",
+          "title": {
+            "ko": null,
+            "en": "in which electrostatic charge is generated by passage of the gases, i.e. tribo-electricity"
+          }
+        },
+        {
+          "code": "B03C 3/32",
+          "title": {
+            "ko": null,
+            "en": "Transportable units, e.g. for cleaning room air"
+          }
+        },
+        {
+          "code": "B03C 3/34",
+          "title": {
+            "ko": "세부구조 또는 부속품 또는 그로부터의 조작",
+            "en": "Constructional details or accessories or operation thereof"
+          }
+        },
+        {
+          "code": "B03C 3/36",
+          "title": {
+            "ko": null,
+            "en": "Controlling flow of gases or vapour"
+          }
+        },
+        {
+          "code": "B03C 3/38",
+          "title": {
+            "ko": null,
+            "en": "Particle charging or ionising stations, e.g. using electric discharge, radioactive radiation or flames"
+          }
+        },
+        {
+          "code": "B03C 3/40",
+          "title": {
+            "ko": null,
+            "en": "Electrode constructions"
+          }
+        },
+        {
+          "code": "B03C 3/41",
+          "title": {
+            "ko": null,
+            "en": "Ionising-electrodes"
+          }
+        },
+        {
+          "code": "B03C 3/43",
+          "title": {
+            "ko": null,
+            "en": "radioactive"
+          }
+        },
+        {
+          "code": "B03C 3/45",
+          "title": {
+            "ko": null,
+            "en": "Collecting-electrodes"
+          }
+        },
+        {
+          "code": "B03C 3/47",
+          "title": {
+            "ko": null,
+            "en": "flat, e.g. plates, discs, gratings"
+          }
+        },
+        {
+          "code": "B03C 3/49",
+          "title": {
+            "ko": null,
+            "en": "tubular"
+          }
+        },
+        {
+          "code": "B03C 3/51",
+          "title": {
+            "ko": null,
+            "en": "Catch-space electrodes, e.g. slotted-box form"
+          }
+        },
+        {
+          "code": "B03C 3/53",
+          "title": {
+            "ko": null,
+            "en": "Liquid, or liquid-film, electrodes"
+          }
+        },
+        {
+          "code": "B03C 3/60",
+          "title": {
+            "ko": null,
+            "en": "Use of special materials other than liquids"
+          }
+        },
+        {
+          "code": "B03C 3/62",
+          "title": {
+            "ko": null,
+            "en": "ceramics"
+          }
+        },
+        {
+          "code": "B03C 3/64",
+          "title": {
+            "ko": null,
+            "en": "synthetic resins"
+          }
+        },
+        {
+          "code": "B03C 3/66",
+          "title": {
+            "ko": "전기공급방법",
+            "en": "Applications of electricity supply techniques"
+          }
+        },
+        {
+          "code": "B03C 3/68",
+          "title": {
+            "ko": null,
+            "en": "Control systems therefor"
+          }
+        },
+        {
+          "code": "B03C 3/70",
+          "title": {
+            "ko": "정전분리장치에서의 절연(3/53이 우선)",
+            "en": "insulating in electric separators (B03C0003530000 takes precedence)"
+          }
+        },
+        {
+          "code": "B03C 3/72",
+          "title": {
+            "ko": null,
+            "en": "Emergency control systems"
+          }
+        },
+        {
+          "code": "B03C 3/74",
+          "title": {
+            "ko": null,
+            "en": "Cleaning the electrodes"
+          }
+        },
+        {
+          "code": "B03C 3/76",
+          "title": {
+            "ko": null,
+            "en": "by using a mechanical vibrator, e.g. rapping gear"
+          }
+        },
+        {
+          "code": "B03C 3/78",
+          "title": {
+            "ko": null,
+            "en": "by washing"
+          }
+        },
+        {
+          "code": "B03C 3/80",
+          "title": {
+            "ko": null,
+            "en": "by gas or solid particle blasting"
+          }
+        },
+        {
+          "code": "B03C 3/82",
+          "title": {
+            "ko": null,
+            "en": "Housings"
+          }
+        },
+        {
+          "code": "B03C 3/84",
+          "title": {
+            "ko": null,
+            "en": "Protective coatings"
+          }
+        },
+        {
+          "code": "B03C 3/86",
+          "title": {
+            "ko": "전극반송장치(3/40이 우선)",
+            "en": "Electrode-carrying means (B03C0003400000 takes precedence)"
+          }
+        },
+        {
+          "code": "B03C 3/88",
+          "title": {
+            "ko": null,
+            "en": "Cleaning-out collected particles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B03C 5/00",
+      "title": {
+        "ko": "액체로부터 분산입자의 정전력에 의한 분리(원심분리기와 결합한 것 B04B 5/10)",
+        "en": "Separating dispersed particles from liquids by electrostatic effect (combined with centrifuges B04B0005100000)"
+      },
+      "subgroups": [
+        {
+          "code": "B03C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Separators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B03C 7/00",
+      "title": {
+        "ko": null,
+        "en": "Separating solids from solids by electrostatic effect"
+      },
+      "subgroups": [
+        {
+          "code": "B03C 7/02",
+          "title": {
+            "ko": null,
+            "en": "Separators"
+          }
+        },
+        {
+          "code": "B03C 7/04",
+          "title": {
+            "ko": null,
+            "en": "with material carriers in the form of trays, troughs, or tables"
+          }
+        },
+        {
+          "code": "B03C 7/06",
+          "title": {
+            "ko": null,
+            "en": "with cylindrical material carriers"
+          }
+        },
+        {
+          "code": "B03C 7/08",
+          "title": {
+            "ko": null,
+            "en": "with material carriers in the form of belts"
+          }
+        },
+        {
+          "code": "B03C 7/10",
+          "title": {
+            "ko": null,
+            "en": "with material falling in cascades"
+          }
+        },
+        {
+          "code": "B03C 7/12",
+          "title": {
+            "ko": null,
+            "en": "with material falling free"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B03C 9/00",
+      "title": {
+        "ko": null,
+        "en": "Electrostatic separation not provided for in any single one of the other main groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B03C 11/00",
+      "title": {
+        "ko": null,
+        "en": "Separation by high-voltage electrical fields, not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

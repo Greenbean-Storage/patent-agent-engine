@@ -1,0 +1,863 @@
+{
+  "subclass": "F04D",
+  "title": {
+    "ko": "비용적형 펌프 (엔진 연료 분사 펌프 F02M; 이온 펌프 H01J 41/12; 전기역학 펌프 H02K 44/02)",
+    "en": "NON-POSITIVE-DISPLACEMENT PUMPS (engine fuel-injection pumps F02M;ion pumps H01J0041120000;electrodynamic pumps H02K0044020000)"
+  },
+  "definition": {
+    "ko": "액체 및 압축성유체 또는 유체만을 위한 회전형펌프 흐름의 형; 반경 또는 나선원심형; 축방향형; 원주 또는 횡단형; 기타 F04D1/00; 3/00; 5/00; 11/00 특수한 유체를 취급하기 위한 것 F04D7/00 프라이밍, 증기폐색의 방지 F04D9/00 펌프장치 또는 시스템; 제어 F04D13/00; 5/00 압축성유체를 위한 회전형펌프 흐름의 형; 반경 또는 나선원심형; 축방 향형; 기타 F04D17/00; 19/00; 23/00 초음속 유체를 포함하는 것 F04D21/00 펌프장치; 제어 F04D25/00; 27/00 세부 또는 부속품 F04D29/00 기타 종류의 펌프 동시에 액체 및 압축성 유체를 펌핑하는 것 F04D31/00 순수한 회전형 이외의 것을 가지는 것 F04D33/00 파를 발생하는 것 F04D35/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F04D 1/00",
+      "title": {
+        "ko": "반경류펌프, 예. 원심펌프; 나선원심펌프(특수한 유체를 펌핑하기 위하여 적용되는 것 F04D 7/00; 프라이밍(priming) 또는 부스팅(boosting)하는 것 F04D 9/00; 동시에 유체 및 압축성 유체를 펌핑하는 것 F04D 31/00)",
+        "en": "Radial-flow pumps, e.g. centrifugal pumps; Helico-centrifugal pumps (adapted for pumping specific fluids F04D0007000000;priming or boosting F04D0009000000;pumping liquids and elastic fluids at the same time F04D0031000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 1/02",
+          "title": {
+            "ko": null,
+            "en": "having non-centrifugal stages, e.g. centripetal"
+          }
+        },
+        {
+          "code": "F04D 1/04",
+          "title": {
+            "ko": null,
+            "en": "Helico-centrifugal pumps"
+          }
+        },
+        {
+          "code": "F04D 1/06",
+          "title": {
+            "ko": "다단펌프(F04D 1/02가 우선)",
+            "en": "Multi-stage pumps (F04D0001020000 takes precedence)"
+          }
+        },
+        {
+          "code": "F04D 1/08",
+          "title": {
+            "ko": null,
+            "en": "the stages being situated concentrically"
+          }
+        },
+        {
+          "code": "F04D 1/10",
+          "title": {
+            "ko": null,
+            "en": "with means for changing the flow-path through the stages, e.g. series/parallel"
+          }
+        },
+        {
+          "code": "F04D 1/12",
+          "title": {
+            "ko": null,
+            "en": "Pumps with scoops or like paring members protruding in the fluid circulating in a bowl"
+          }
+        },
+        {
+          "code": "F04D 1/14",
+          "title": {
+            "ko": null,
+            "en": "Pumps raising fluids by centrifugal force within a conical rotary bowl with vertical axis"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 3/00",
+      "title": {
+        "ko": "축류펌프(프라이밍(priming) 또는 부스팅(boosting)하는 것 9/00; 동시에 유체 및 압축성 유체를 펌핑하는 것 F04D 31/00)",
+        "en": "Axial-flow pumps (priming or boosting F04D0009000000;pumping liquids and elastic fluids at the same time F04D0031000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 3/02",
+          "title": {
+            "ko": null,
+            "en": "of screw type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 5/00",
+      "title": {
+        "ko": "원주 또는 횡단류를 가진 펌프(동시에 유체 및 압축성 유체를 펌핑하는 것 F04D 31/00)",
+        "en": "Pumps with circumferential or transverse flow (pumping liquids and elastic fluids at the same time F04D0031000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 7/00",
+      "title": {
+        "ko": "특수한 유체를 취급하기위해 적용된 펌프, 예. 펌프 또는 펌프부재를 위하여 특수한 재질을 선택하는 것(동시에 유체 및 압축성 유체를 펌핑하는 것 F04D 31/00)",
+        "en": "Pumps adapted for handling specific fluids, e.g. by selection of specific materials for pumps or pump parts (pumping liquids and elastic fluids at the same time F04D0031000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 7/02",
+          "title": {
+            "ko": null,
+            "en": "of centrifugal type"
+          }
+        },
+        {
+          "code": "F04D 7/04",
+          "title": {
+            "ko": null,
+            "en": "the fluids being viscous or non-homogeneous"
+          }
+        },
+        {
+          "code": "F04D 7/06",
+          "title": {
+            "ko": null,
+            "en": "the fluids being hot or corrosive, e.g. liquid metal"
+          }
+        },
+        {
+          "code": "F04D 7/08",
+          "title": {
+            "ko": null,
+            "en": "the fluids being radioactive"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Priming; Preventing vapour lock"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Self-priming pumps"
+          }
+        },
+        {
+          "code": "F04D 9/04",
+          "title": {
+            "ko": null,
+            "en": "using priming pumps; using booster pumps to prevent vapour lock"
+          }
+        },
+        {
+          "code": "F04D 9/06",
+          "title": {
+            "ko": null,
+            "en": "of jet type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 11/00",
+      "title": {
+        "ko": "그외의 회전 비용적형 펌프(펌프장치 또는 시스템 F04D 13/00; 동시에 유체 및 압축성 유체를 펌핑하는 것 F04D 31/00)",
+        "en": "Other rotary non-positive-displacement pumps (pumping installations or systems F04D0013000000;pumping liquids and elastic fluids at the same time F04D0031000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 13/00",
+      "title": {
+        "ko": "펌프장치 또는 시스템(제어 F04D 15/00; 동시에 유체 및 압축성 유체를 펌핑하는 것 F04D 31/00)",
+        "en": "Pumping installations or systems (controlling F04D0015000000;pumping liquids and elastic fluids at the same time F04D0031000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 13/02",
+          "title": {
+            "ko": null,
+            "en": "Units comprising pumps and their driving means"
+          }
+        },
+        {
+          "code": "F04D 13/04",
+          "title": {
+            "ko": null,
+            "en": "the pump being fluid-driven"
+          }
+        },
+        {
+          "code": "F04D 13/06",
+          "title": {
+            "ko": null,
+            "en": "the pump being electrically driven"
+          }
+        },
+        {
+          "code": "F04D 13/08",
+          "title": {
+            "ko": null,
+            "en": "for submerged use"
+          }
+        },
+        {
+          "code": "F04D 13/10",
+          "title": {
+            "ko": null,
+            "en": "adapted for use in mining bore holes"
+          }
+        },
+        {
+          "code": "F04D 13/12",
+          "title": {
+            "ko": "2개이상의 펌프의 조합(프라이밍펌프 또는 증기폐색 을 방지하기 위한 부스터펌프와의 조합 F04D 9/04)",
+            "en": "Combinations of two or more pumps (combinations with priming pumps or booster pumps to counter-act vapour lock F04D0009040000)"
+          }
+        },
+        {
+          "code": "F04D 13/14",
+          "title": {
+            "ko": null,
+            "en": "the pumps being all of centrifugal type"
+          }
+        },
+        {
+          "code": "F04D 13/16",
+          "title": {
+            "ko": null,
+            "en": "with storage reservoirs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Control, e.g. regulation, of pumps, pumping installations, or systems"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Stopping of pumps, or operating valves, on occurrence of unwanted conditions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 17/00",
+      "title": {
+        "ko": "압축 유체용으로 특히 적합한 반경류펌프, 예. 원심펌프, 압축 유체용으로 특히 적합한 나선원심 펌프(F04D 21/00이 우선)",
+        "en": "Rotary pumps specially adapted for elastic fluids"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 17/00",
+      "title": {
+        "ko": "압축 유체용으로 특히 적합한 반경류펌프, 예. 원심펌프, 압축 유체용으로 특히 적합한 나선원심 펌프(F04D 21/00이 우선)",
+        "en": "Radial-flow pumps specially adapted for elastic fluids, e.g. centrifugal pumps; Helico-centrifugal pumps specially adapted for elastic fluids (F04D0021000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 17/02",
+          "title": {
+            "ko": null,
+            "en": "having non-centrifugal stages, e.g. centripetal"
+          }
+        },
+        {
+          "code": "F04D 17/04",
+          "title": {
+            "ko": null,
+            "en": "of transverse-flow type"
+          }
+        },
+        {
+          "code": "F04D 17/06",
+          "title": {
+            "ko": null,
+            "en": "Helico-centrifugal pumps"
+          }
+        },
+        {
+          "code": "F04D 17/08",
+          "title": {
+            "ko": "원심펌프",
+            "en": "Centrifugal pumps"
+          }
+        },
+        {
+          "code": "F04D 17/10",
+          "title": {
+            "ko": "압축 또는 배기하는 것",
+            "en": "for compressing or evacuating"
+          }
+        },
+        {
+          "code": "F04D 17/12",
+          "title": {
+            "ko": "다단펌프",
+            "en": "Multi-stage pumps"
+          }
+        },
+        {
+          "code": "F04D 17/14",
+          "title": {
+            "ko": "단에 통하는 유로를 변환하기 위한 장치를 가지는 것, 예. 직렬, 병렬(서어지제어 F04D 27/02)",
+            "en": "with means for changing the flow-path through the stages, e.g. series/parallel (surge control F04D0027020000)"
+          }
+        },
+        {
+          "code": "F04D 17/16",
+          "title": {
+            "ko": null,
+            "en": "for displacing without appreciable compression"
+          }
+        },
+        {
+          "code": "F04D 17/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by use of centrifugal force of liquids entrained in pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 19/00",
+      "title": {
+        "ko": "압축 유체용으로 특히 적합한 축류펌프(F04D 21/00이 우선)",
+        "en": "Axial-flow pumps specially adapted for elastic fluids (F04D0021000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 19/02",
+          "title": {
+            "ko": null,
+            "en": "Multi-stage pumps"
+          }
+        },
+        {
+          "code": "F04D 19/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted to the production of a high vacuum, e.g. molecular pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Pumps specially adapted for elastic fluids involving supersonic speed of pumped fluids"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 23/00",
+      "title": {
+        "ko": "그 외의 회전 비용적형펌프로 압축 유체용으로 특히 적합한 것(펌프장치 또는 시스템 F04D 25/00)",
+        "en": "Other rotary non-positive-displacement pumps specially adapted for elastic fluids (pumping installations or systems F04D0025000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 25/00",
+      "title": {
+        "ko": "압축 유체용으로 특히 적합한 펌프장치 또는 시스템(제어 F04D 27/00)",
+        "en": "Pumping installations or systems specially adapted for elastic fluids (controlling F04D0027000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 25/02",
+          "title": {
+            "ko": "펌프 및 그의 구동수단을 포함하는 유닛",
+            "en": "Units comprising pumps and their driving means"
+          }
+        },
+        {
+          "code": "F04D 25/04",
+          "title": {
+            "ko": null,
+            "en": "the pump being fluid-driven"
+          }
+        },
+        {
+          "code": "F04D 25/06",
+          "title": {
+            "ko": "전동펌프(F04D 25/08이 우선)",
+            "en": "the pump being electrically driven (F04D0025080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F04D 25/08",
+          "title": {
+            "ko": null,
+            "en": "the working fluid being air, e.g. for ventilation"
+          }
+        },
+        {
+          "code": "F04D 25/10",
+          "title": {
+            "ko": null,
+            "en": "the unit having provisions for automatically changing the direction of output air"
+          }
+        },
+        {
+          "code": "F04D 25/12",
+          "title": {
+            "ko": null,
+            "en": "the unit being adapted for mounting in apertures"
+          }
+        },
+        {
+          "code": "F04D 25/14",
+          "title": {
+            "ko": null,
+            "en": "and having shutters, e.g. automatically closed when not in use"
+          }
+        },
+        {
+          "code": "F04D 25/16",
+          "title": {
+            "ko": null,
+            "en": "Combinations of two or more pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Control, e.g. regulation, of pumps, pumping installations or pumping systems specially adapted for elastic fluids"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 27/02",
+          "title": {
+            "ko": null,
+            "en": "Surge control"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 29/00",
+      "title": {
+        "ko": "세부, 구성부재 또는 부속품(기계요소 일반 F16)",
+        "en": "Details, component parts, or accessories (machine elements in general F16)"
+      },
+      "subgroups": [
+        {
+          "code": "F04D 29/02",
+          "title": {
+            "ko": "특수한 재질의 선택(특수한 유체를 취급하기 위한 것 F04D 7/00)",
+            "en": "Selection of particular materials (for handling specific liquids F04D0007000000)"
+          }
+        },
+        {
+          "code": "F04D 29/04",
+          "title": {
+            "ko": "축 또는 베어링, 또는 그 조립물 (압축성 유체 펌프에 특히 적합한 것 F04D 29/05)",
+            "en": "Shafts or bearings, or assemblies thereof (specially adapted for elastic fluid pumps F04D0029050000)"
+          }
+        },
+        {
+          "code": "F04D 29/041",
+          "title": {
+            "ko": null,
+            "en": "Axial thrust balancing"
+          }
+        },
+        {
+          "code": "F04D 29/042",
+          "title": {
+            "ko": "축방향으로 위치변경 가능한 로터 (F04D 29/041이 우선)",
+            "en": "Axially shiftable rotors (F04D0029041000 takes precedence)"
+          }
+        },
+        {
+          "code": "F04D 29/043",
+          "title": {
+            "ko": null,
+            "en": "Shafts"
+          }
+        },
+        {
+          "code": "F04D 29/044",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for joining or assembling shafts"
+          }
+        },
+        {
+          "code": "F04D 29/046",
+          "title": {
+            "ko": null,
+            "en": "Bearings"
+          }
+        },
+        {
+          "code": "F04D 29/047",
+          "title": {
+            "ko": null,
+            "en": "hydrostatic; hydrodynamic"
+          }
+        },
+        {
+          "code": "F04D 29/048",
+          "title": {
+            "ko": null,
+            "en": "magnetic; electromagnetic"
+          }
+        },
+        {
+          "code": "F04D 29/049",
+          "title": {
+            "ko": null,
+            "en": "Roller bearings"
+          }
+        },
+        {
+          "code": "F04D 29/05",
+          "title": {
+            "ko": "압축성 유체 펌프에 특히 적합한 축 또는 베어링 또는 그 조립체",
+            "en": "Shafts or bearings, or assemblies thereof, specially adapted for elastic fluid pumps"
+          }
+        },
+        {
+          "code": "F04D 29/051",
+          "title": {
+            "ko": null,
+            "en": "Axial thrust balancing"
+          }
+        },
+        {
+          "code": "F04D 29/052",
+          "title": {
+            "ko": "축방향으로 위치변경 가능한 로터 (F04D 29/051이 우선)",
+            "en": "Axially shiftable rotors (F04D0029051000 takes precedence)"
+          }
+        },
+        {
+          "code": "F04D 29/053",
+          "title": {
+            "ko": null,
+            "en": "Shafts"
+          }
+        },
+        {
+          "code": "F04D 29/054",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for joining or assembling shafts"
+          }
+        },
+        {
+          "code": "F04D 29/056",
+          "title": {
+            "ko": null,
+            "en": "Bearings"
+          }
+        },
+        {
+          "code": "F04D 29/057",
+          "title": {
+            "ko": null,
+            "en": "hydrostatic; hydrodynamic"
+          }
+        },
+        {
+          "code": "F04D 29/058",
+          "title": {
+            "ko": null,
+            "en": "magnetic; electromagnetic"
+          }
+        },
+        {
+          "code": "F04D 29/059",
+          "title": {
+            "ko": null,
+            "en": "Roller bearings"
+          }
+        },
+        {
+          "code": "F04D 29/06",
+          "title": {
+            "ko": null,
+            "en": "Lubrication"
+          }
+        },
+        {
+          "code": "F04D 29/063",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for elastic fluid pumps"
+          }
+        },
+        {
+          "code": "F04D 29/08",
+          "title": {
+            "ko": null,
+            "en": "Sealings"
+          }
+        },
+        {
+          "code": "F04D 29/10",
+          "title": {
+            "ko": null,
+            "en": "Shaft sealings"
+          }
+        },
+        {
+          "code": "F04D 29/12",
+          "title": {
+            "ko": null,
+            "en": "using sealing-rings"
+          }
+        },
+        {
+          "code": "F04D 29/14",
+          "title": {
+            "ko": null,
+            "en": "operative only when pump is inoperative"
+          }
+        },
+        {
+          "code": "F04D 29/16",
+          "title": {
+            "ko": null,
+            "en": "between pressure and suction sides"
+          }
+        },
+        {
+          "code": "F04D 29/18",
+          "title": {
+            "ko": "로터 (압축성 유체에 특히 적합한 것 F04D 29/26)",
+            "en": "Rotors (specially adapted for elastic fluids F04D0029260000)"
+          }
+        },
+        {
+          "code": "F04D 29/20",
+          "title": {
+            "ko": null,
+            "en": "Mounting rotors on shafts"
+          }
+        },
+        {
+          "code": "F04D 29/22",
+          "title": {
+            "ko": null,
+            "en": "specially for centrifugal pumps"
+          }
+        },
+        {
+          "code": "F04D 29/24",
+          "title": {
+            "ko": null,
+            "en": "Vanes"
+          }
+        },
+        {
+          "code": "F04D 29/26",
+          "title": {
+            "ko": null,
+            "en": "Rotors specially adapted for elastic fluids"
+          }
+        },
+        {
+          "code": "F04D 29/28",
+          "title": {
+            "ko": null,
+            "en": "for centrifugal or helico-centrifugal pumps"
+          }
+        },
+        {
+          "code": "F04D 29/30",
+          "title": {
+            "ko": null,
+            "en": "Vanes"
+          }
+        },
+        {
+          "code": "F04D 29/32",
+          "title": {
+            "ko": null,
+            "en": "for axial-flow pumps"
+          }
+        },
+        {
+          "code": "F04D 29/34",
+          "title": {
+            "ko": null,
+            "en": "Blade mountings"
+          }
+        },
+        {
+          "code": "F04D 29/36",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F04D 29/38",
+          "title": {
+            "ko": null,
+            "en": "Blades"
+          }
+        },
+        {
+          "code": "F04D 29/40",
+          "title": {
+            "ko": null,
+            "en": "Casings; Connections for working fluid"
+          }
+        },
+        {
+          "code": "F04D 29/42",
+          "title": {
+            "ko": null,
+            "en": "for radial or helico-centrifugal pumps"
+          }
+        },
+        {
+          "code": "F04D 29/44",
+          "title": {
+            "ko": null,
+            "en": "Fluid-guiding means, e.g. diffusers"
+          }
+        },
+        {
+          "code": "F04D 29/46",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F04D 29/48",
+          "title": {
+            "ko": null,
+            "en": "for unidirectional fluid flow in reversible pumps"
+          }
+        },
+        {
+          "code": "F04D 29/50",
+          "title": {
+            "ko": null,
+            "en": "for reversing fluid flow"
+          }
+        },
+        {
+          "code": "F04D 29/52",
+          "title": {
+            "ko": null,
+            "en": "for axial pumps"
+          }
+        },
+        {
+          "code": "F04D 29/54",
+          "title": {
+            "ko": null,
+            "en": "Fluid-guiding means, e.g. diffusers"
+          }
+        },
+        {
+          "code": "F04D 29/56",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "F04D 29/58",
+          "title": {
+            "ko": "냉각(기계 또는 기관일반의 것 F01P); 가열; 열전달의 감소",
+            "en": "Cooling (of machines or engines in general F01P); Heating; Diminishing heat transfer"
+          }
+        },
+        {
+          "code": "F04D 29/60",
+          "title": {
+            "ko": null,
+            "en": "Mounting; Assembling; Disassembling"
+          }
+        },
+        {
+          "code": "F04D 29/62",
+          "title": {
+            "ko": null,
+            "en": "of radial or helico-centrifugal pumps"
+          }
+        },
+        {
+          "code": "F04D 29/64",
+          "title": {
+            "ko": null,
+            "en": "of axial pumps"
+          }
+        },
+        {
+          "code": "F04D 29/66",
+          "title": {
+            "ko": "캐비테이션, 와류, 소음, 진동 또는 유사의 것을 방지하는 것(기계 또는 기관일 반을 위한 기체용소음기 F01N); 평형(서지제어 F04D 27/02)",
+            "en": "Combating cavitation, whirls, noise, vibration, or the like (gas-flow silencers for machines or engines in general F01N); Balancing (surge control F04D0027020000)"
+          }
+        },
+        {
+          "code": "F04D 29/68",
+          "title": {
+            "ko": null,
+            "en": "by influencing boundary layers"
+          }
+        },
+        {
+          "code": "F04D 29/70",
+          "title": {
+            "ko": null,
+            "en": "Suction grids; Strainers; Dust separation; Cleaning"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F04D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Other non-positive-displacement pumps"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Pumping liquids and elastic fluids at the same time"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 33/00",
+      "title": {
+        "ko": "순수한 회전 이외에 의한 비용적형 펌프, 예. 요동형의 것(F04D 35/00이 우선; 부채 A45B)",
+        "en": "Non-positive-displacement pumps with other than pure rotation, e.g. of oscillating type (F04D0035000000 takes precedence;hand-held fans A45B)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F04D 35/00",
+      "title": {
+        "ko": "액체중에 파를 발생시키는 펌프, 즉 파발생장치(욕조용 A47K 3/10)",
+        "en": "Pumps producing waves in liquids, i.e. wave-producers (for bath tubs A47K0003100000)"
+      },
+      "subgroups": []
+    }
+  ]
+}

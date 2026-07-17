@@ -1,0 +1,954 @@
+{
+  "subclass": "E05F",
+  "title": {
+    "ko": "윙을 개폐(開閉)하는 수단; 윙용(用) 체크(Check); 타류에 속하지 않고 윙의 기능에 관계되는 윙의 부품",
+    "en": "DEVICES FOR MOVING WINGS INTO OPEN OR CLOSED POSITION; CHECKS FOR WINGS; WING FITTINGS NOT OTHERWISE PROVIDED FOR, CONCERNED WITH THE FUNCTIONING OF THE WING"
+  },
+  "definition": {
+    "ko": "윙용(用) 개폐기(開閉器) 또는 윙용(用) 체크 E05F1/00, E05F3/00, E05F5/00 윙용(用) 부속품 E05F7/00 윙용(用) 조작기구 E05F9/00 ~ E05F17/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "E05F 1/00",
+      "title": {
+        "ko": null,
+        "en": "Closers or openers for wings, not otherwise provided for in this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "E05F 1/02",
+          "title": {
+            "ko": null,
+            "en": "gravity-actuated"
+          }
+        },
+        {
+          "code": "E05F 1/04",
+          "title": {
+            "ko": null,
+            "en": "for wings which lift during movement"
+          }
+        },
+        {
+          "code": "E05F 1/06",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms in the shape of hinges or pivots, operated by the weight of the wing"
+          }
+        },
+        {
+          "code": "E05F 1/08",
+          "title": {
+            "ko": null,
+            "en": "spring-actuated"
+          }
+        },
+        {
+          "code": "E05F 1/10",
+          "title": {
+            "ko": null,
+            "en": "for swinging wings"
+          }
+        },
+        {
+          "code": "E05F 1/12",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms in the shape of hinges or pivots, operated by springs"
+          }
+        },
+        {
+          "code": "E05F 1/14",
+          "title": {
+            "ko": null,
+            "en": "with double-acting springs, e.g. for closing and opening or checking and closing"
+          }
+        },
+        {
+          "code": "E05F 1/16",
+          "title": {
+            "ko": null,
+            "en": "for sliding wings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05F 3/00",
+      "title": {
+        "ko": "제어장치를 갖는 개폐기(開閉器), 예. 체크; 공기압(空氣壓) 또는 액압(液壓)제어장치의 구조(비공기압(非空氣壓) 또는 비액압(非液壓)의 제동장치의 구조 E05F 5/00; 돌쩌귀의 마찰장치 E05D 11/08)",
+        "en": "Closers or openers with braking devices, e.g. checks; Construction of pneumatic or liquid braking devices (construction of non-pneumatic or non-liquid braking devices E05F0005000000;friction devices in hinges E05D0011080000)"
+      },
+      "subgroups": [
+        {
+          "code": "E05F 3/02",
+          "title": {
+            "ko": "공기압(空氣壓) 피스톤제동기(制動機)를 갖는 것(회전식(回轉式)의 것 E05F 3/14)",
+            "en": "with pneumatic piston brakes (rotary type E05F0003140000)"
+          }
+        },
+        {
+          "code": "E05F 3/04",
+          "title": {
+            "ko": "액압(液壓) 피스톤제동기(制動機)를 갖는 것(회전식(回轉式)의 것 E05F 3/14)",
+            "en": "with liquid piston brakes (rotary type E05F0003140000)"
+          }
+        },
+        {
+          "code": "E05F 3/06",
+          "title": {
+            "ko": null,
+            "en": "in which a torsion spring rotates a member around an axis perpendicular to the axis of the piston"
+          }
+        },
+        {
+          "code": "E05F 3/08",
+          "title": {
+            "ko": null,
+            "en": "in which a torsion spring rotates a member around an axis arranged in the direction of the axis of the piston"
+          }
+        },
+        {
+          "code": "E05F 3/10",
+          "title": {
+            "ko": null,
+            "en": "with a spring, other than a torsion spring, and a piston, the axes of which are the same or lie in the same direction"
+          }
+        },
+        {
+          "code": "E05F 3/12",
+          "title": {
+            "ko": "액체의 순환(循環)을 제어하는 특수장치, 예. 밸브, 장치(밸브 자체 F16K)",
+            "en": "Special devices controlling the circulation of the liquid, e.g. valve arrangement (valves per seF16K)"
+          }
+        },
+        {
+          "code": "E05F 3/14",
+          "title": {
+            "ko": null,
+            "en": "with fluid brakes of the rotary type"
+          }
+        },
+        {
+          "code": "E05F 3/16",
+          "title": {
+            "ko": null,
+            "en": "with friction brakes"
+          }
+        },
+        {
+          "code": "E05F 3/18",
+          "title": {
+            "ko": "반동(反動)용수철을 갖는 것(복식(複式)용수철 E05F 1/14)",
+            "en": "with counteracting springs (double-acting springs E05F0001140000)"
+          }
+        },
+        {
+          "code": "E05F 3/20",
+          "title": {
+            "ko": null,
+            "en": "in hinges"
+          }
+        },
+        {
+          "code": "E05F 3/22",
+          "title": {
+            "ko": null,
+            "en": "Additional arrangements for closers, e.g. for holding the wing in opened or other position"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05F 5/00",
+      "title": {
+        "ko": "제동장치, 예· 체크; 정지구(停止具); 완충구 (緩衝具) (공기압(空氣壓) 또는 액압제어장치 (液壓制御裝置)의 구조 E05F 3/00; 캐비닛 또는 이와 유사한 가구용 서랍의 완충기 또는 끝단 정지 장치 A47B 88/473; 윙을 열림상태로 보지(保持)하는 장치와 조합된 것 E05C 17/00; 틀과 윙사이에 돌출된 가동(可動)부재에 의해서 윙의 열림을 제한하거나, 윙을 열림상태로 보지(保持)하는 장치 E05C 17/04)",
+        "en": "Braking devices, e.g. checks; Stops; Buffers (construction of pneumatic or liquid braking devices E05F0003000000;braking devices, buffers or end stops on drawers for tables, cabinets or like furniture A47B0088473000;combined with devices for holding wings open E05C0017000000;devices for limiting opening of wings or for holding wings open by a movable member extending between frame and wing E05C0017040000)"
+      },
+      "subgroups": [
+        {
+          "code": "E05F 5/02",
+          "title": {
+            "ko": null,
+            "en": "specially for preventing the slamming of wings"
+          }
+        },
+        {
+          "code": "E05F 5/04",
+          "title": {
+            "ko": null,
+            "en": "hand-operated; operated by centrifugal action"
+          }
+        },
+        {
+          "code": "E05F 5/06",
+          "title": {
+            "ko": "완충기(緩衝器)(E05F 5/02가 우선)",
+            "en": "Buffers (E05F0005020000 takes precedence)"
+          }
+        },
+        {
+          "code": "E05F 5/08",
+          "title": {
+            "ko": null,
+            "en": "with springs"
+          }
+        },
+        {
+          "code": "E05F 5/10",
+          "title": {
+            "ko": null,
+            "en": "with piston brakes"
+          }
+        },
+        {
+          "code": "E05F 5/12",
+          "title": {
+            "ko": null,
+            "en": "specially for preventing the closing of a wing before another wing has been closed"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05F 7/00",
+      "title": {
+        "ko": "이 서브클래스의 다른 그룹으로 분류되지 않는 윙용의 부속품(특히 가구에 이용되는 것 A47B 95/00; 문 승강기 B66F, E04F21/00; 손잡이 또는 핸들 E05B)",
+        "en": "Accessories for wings not provided for in other groups of this subclass (specially adapted for furniture A47B0095000000;door-lifters B66F, E04F0021000000;knobs or handles E05B)"
+      },
+      "subgroups": [
+        {
+          "code": "E05F 7/02",
+          "title": {
+            "ko": null,
+            "en": "for raising wings before being turned"
+          }
+        },
+        {
+          "code": "E05F 7/04",
+          "title": {
+            "ko": "덜컥거리는 것을 방지하는 장치, 완충작업을 하는 것 5/00",
+            "en": "Arrangements affording protection against rattling (with buffering action E05F0005000000)"
+          }
+        },
+        {
+          "code": "E05F 7/06",
+          "title": {
+            "ko": null,
+            "en": "Devices for taking the weight of the wing, arranged away from the hinge axis"
+          }
+        },
+        {
+          "code": "E05F 7/08",
+          "title": {
+            "ko": "수직방향과 수평방향으로 미끄러져 움직이는 봉(棒), 막대 또는 케이블 사이의 운동을 전달하는 수단(윙을 고정하기 위하여 수평방향과 수직방향 으로 미끄러져 움직이는 봉(棒), 막대 또는 케이블 사이의 운동을 전달하는 수단 E05C 9/24)",
+            "en": "Means for transmitting movements between vertical and horizontal sliding bars, rods, or cables (means for transmitting movements between vertical and horizontal sliding bars, rods, or cables, for the fastening of wings E05C0009240000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05F 9/00",
+      "title": {
+        "ko": "고정구를 함께 조작하는 것도 포함하는 프레임의 내측 또는 외측에서 안내되지 않는 조작 로드에 의해 윙을 조작하는 수단(윙용의 볼트 또는 고정 장치 E05C)",
+        "en": "Operating mechanisms for wings"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E05F 9/00",
+      "title": {
+        "ko": "고정구를 함께 조작하는 것도 포함하는 프레임의 내측 또는 외측에서 안내되지 않는 조작 로드에 의해 윙을 조작하는 수단(윙용의 볼트 또는 고정 장치 E05C)",
+        "en": "Means for operating wings by hand rods not guided in or on the frame, including those which also operate the fastening (bolts or fastening devices for wings E05C)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E05F 11/00",
+      "title": {
+        "ko": "고정구를 함께 조작하는 것도 포함하는 윙의 조작을 위한 수동 기구(복수개(複數個)의 윙을 연결하는 기구 E05F 17/00)",
+        "en": "Man-operated mechanisms for operating wings, including those which also operate the fastening (connecting mechanisms for a plurality of wings E05F0017000000)"
+      },
+      "subgroups": [
+        {
+          "code": "E05F 11/02",
+          "title": {
+            "ko": "윙용(用)일반, 예. 채광창(採光窓)(E05F 11/36이 우선; 종(從)방향으로 낮추게하는 창용(窓用)의 것 E05F 11/38; 도어용(用)의 것 E05F 11/54)",
+            "en": "for wings in general, e.g. fanlights (E05F0011360000 takes precedence;for windows to be lowered vertically E05F0011380000;for doors E05F0011540000)"
+          }
+        },
+        {
+          "code": "E05F 11/04",
+          "title": {
+            "ko": null,
+            "en": "with cords, chains, or cables"
+          }
+        },
+        {
+          "code": "E05F 11/06",
+          "title": {
+            "ko": null,
+            "en": "in guide-channels"
+          }
+        },
+        {
+          "code": "E05F 11/08",
+          "title": {
+            "ko": null,
+            "en": "with longitudinally-moving bars guided, e.g. by pivoted links, in or on the frame"
+          }
+        },
+        {
+          "code": "E05F 11/10",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms by which a handle moves the bar"
+          }
+        },
+        {
+          "code": "E05F 11/12",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms by which the bar shifts the wing"
+          }
+        },
+        {
+          "code": "E05F 11/14",
+          "title": {
+            "ko": null,
+            "en": "directly, i.e. without links, shifting the wing, e.g. by rack-and-gear or pin-and-slot"
+          }
+        },
+        {
+          "code": "E05F 11/16",
+          "title": {
+            "ko": null,
+            "en": "shifting the wing by pivotally-connected members moving in a plane perpendicular to the pivot axis of the wing"
+          }
+        },
+        {
+          "code": "E05F 11/18",
+          "title": {
+            "ko": null,
+            "en": "consisting of a lever, e.g. an angle lever, only"
+          }
+        },
+        {
+          "code": "E05F 11/20",
+          "title": {
+            "ko": null,
+            "en": "consisting of a lever, e.g. an angle lever, and only one additional link"
+          }
+        },
+        {
+          "code": "E05F 11/22",
+          "title": {
+            "ko": null,
+            "en": "consisting of a lever, e.g. an angle lever, and two or more additional links in series"
+          }
+        },
+        {
+          "code": "E05F 11/24",
+          "title": {
+            "ko": null,
+            "en": "shifting the wing by pivotally-connected members moving in a plane parallel to the pivot axis of the wing"
+          }
+        },
+        {
+          "code": "E05F 11/26",
+          "title": {
+            "ko": null,
+            "en": "consisting of a lever, e.g. an angle lever, only"
+          }
+        },
+        {
+          "code": "E05F 11/28",
+          "title": {
+            "ko": null,
+            "en": "consisting of a lever, e.g. an angle lever, and one or more additional links"
+          }
+        },
+        {
+          "code": "E05F 11/30",
+          "title": {
+            "ko": null,
+            "en": "consisting of links in rhomb form"
+          }
+        },
+        {
+          "code": "E05F 11/32",
+          "title": {
+            "ko": "프레임에 안내되는 회전 강봉을 갖는 것(E05F 11/34가 우선)",
+            "en": "with rotary bars guided in the frame (E05F0011340000 takes precedence)"
+          }
+        },
+        {
+          "code": "E05F 11/34",
+          "title": {
+            "ko": null,
+            "en": "with screw mechanisms"
+          }
+        },
+        {
+          "code": "E05F 11/36",
+          "title": {
+            "ko": null,
+            "en": "specially designed for passing through a wall"
+          }
+        },
+        {
+          "code": "E05F 11/38",
+          "title": {
+            "ko": null,
+            "en": "for sliding windows, e.g. vehicle windows, to be opened or closed by vertical movement"
+          }
+        },
+        {
+          "code": "E05F 11/40",
+          "title": {
+            "ko": null,
+            "en": "operated by screw mechanism"
+          }
+        },
+        {
+          "code": "E05F 11/42",
+          "title": {
+            "ko": null,
+            "en": "operated by rack bars and toothed wheels"
+          }
+        },
+        {
+          "code": "E05F 11/44",
+          "title": {
+            "ko": null,
+            "en": "operated by one or more lifting arms"
+          }
+        },
+        {
+          "code": "E05F 11/46",
+          "title": {
+            "ko": null,
+            "en": "operated by lazy-tongs mechanism"
+          }
+        },
+        {
+          "code": "E05F 11/48",
+          "title": {
+            "ko": null,
+            "en": "operated by cords or chains"
+          }
+        },
+        {
+          "code": "E05F 11/50",
+          "title": {
+            "ko": null,
+            "en": "Crank gear with clutches or retaining brakes, for operating window mechanisms"
+          }
+        },
+        {
+          "code": "E05F 11/52",
+          "title": {
+            "ko": null,
+            "en": "combined with means for producing an additional movement, e.g. a horizontal or a rotary movement"
+          }
+        },
+        {
+          "code": "E05F 11/53",
+          "title": {
+            "ko": null,
+            "en": "for sliding windows, e.g. vehicle windows, to be opened or closed by horizontal movement"
+          }
+        },
+        {
+          "code": "E05F 11/54",
+          "title": {
+            "ko": null,
+            "en": "for doors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05F 13/00",
+      "title": {
+        "ko": "사람 또는 차량의 움직임 또는 중량에 의하여 조작되는, 윙용(用)의 조작 기구(동력에 의하여 조작되는 윙의 조작 기구 E05F 15/00)",
+        "en": "Operating mechanisms for wings, operated by the movement or weight of a person or vehicle (through power-operated wing-operating mechanisms E05F0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "E05F 13/02",
+          "title": {
+            "ko": null,
+            "en": "by devices, e.g. lever arms, affected by the movement of the user"
+          }
+        },
+        {
+          "code": "E05F 13/04",
+          "title": {
+            "ko": null,
+            "en": "by platforms lowered by the weight of the user"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05F 15/00",
+      "title": {
+        "ko": "윙(wing)의 동력구동 장치 (윙의 마감 또는 개봉을 위한 자물쇠에 모터로 작동되는 부속품 E05B 17/00 )",
+        "en": "Power-operated mechanisms for wings (motor-operated accessories in locks for completing closing or initiating opening of a wing E05B0017000000)"
+      },
+      "subgroups": [
+        {
+          "code": "E05F 15/40",
+          "title": {
+            "ko": "표면 커버(cover) 종이 또는 판지구조",
+            "en": "Safety devices, e.g. detection of obstructions or end positions"
+          }
+        },
+        {
+          "code": "E05F 15/41",
+          "title": {
+            "ko": "전도된 힘 또는 회전력(torque)을 모니터링(monitoring)함으로써 감지하는 것 (E05F 15/48 우선); 힘 또는 회전력에 의존하는 액티베이션(activation)을 보유한 안전결합",
+            "en": "Detection by monitoring transmitted force or torque (E05F0015480000 takes precedence); Safety couplings with activation dependent upon torque or force, e.g. slip couplings"
+          }
+        },
+        {
+          "code": "E05F 15/42",
+          "title": {
+            "ko": null,
+            "en": "Detection using safety edges"
+          }
+        },
+        {
+          "code": "E05F 15/43",
+          "title": {
+            "ko": null,
+            "en": "responsive to disruption of energy beams, e.g. light or sound"
+          }
+        },
+        {
+          "code": "E05F 15/44",
+          "title": {
+            "ko": null,
+            "en": "responsive to changes in electrical conductivity"
+          }
+        },
+        {
+          "code": "E05F 15/46",
+          "title": {
+            "ko": null,
+            "en": "responsive to changes in electrical capacitance"
+          }
+        },
+        {
+          "code": "E05F 15/47",
+          "title": {
+            "ko": null,
+            "en": "responsive to changes in fluid pressure"
+          }
+        },
+        {
+          "code": "E05F 15/48",
+          "title": {
+            "ko": null,
+            "en": "by transmission of mechanical forces, e.g. by rigid or movable members"
+          }
+        },
+        {
+          "code": "E05F 15/49",
+          "title": {
+            "ko": "유체 압력에 의해 작동된 기구에 특히 적합한 것, 예. 전도된 유체압력을 모니터링함으로써 감지",
+            "en": "specially adapted for mechanisms operated by fluid pressure, e.g. detection by monitoring transmitted fluid pressure (E05F0015470000 takes precedence)"
+          }
+        },
+        {
+          "code": "E05F 15/50",
+          "title": {
+            "ko": null,
+            "en": "using fluid-pressure actuators"
+          }
+        },
+        {
+          "code": "E05F 15/51",
+          "title": {
+            "ko": null,
+            "en": "for folding wings"
+          }
+        },
+        {
+          "code": "E05F 15/53",
+          "title": {
+            "ko": null,
+            "en": "for swinging wings"
+          }
+        },
+        {
+          "code": "E05F 15/54",
+          "title": {
+            "ko": null,
+            "en": "operated by linear actuators acting on a helical track coaxial with the swinging axis"
+          }
+        },
+        {
+          "code": "E05F 15/56",
+          "title": {
+            "ko": null,
+            "en": "for horizontally-sliding wings"
+          }
+        },
+        {
+          "code": "E05F 15/57",
+          "title": {
+            "ko": null,
+            "en": "for vertically-sliding wings"
+          }
+        },
+        {
+          "code": "E05F 15/59",
+          "title": {
+            "ko": null,
+            "en": "for overhead wings"
+          }
+        },
+        {
+          "code": "E05F 15/60",
+          "title": {
+            "ko": "전기 구동기를 사용하는 것",
+            "en": "using electrical actuators"
+          }
+        },
+        {
+          "code": "E05F 15/603",
+          "title": {
+            "ko": "회전식 전동기를 사용하는 것",
+            "en": "using rotary electromotors"
+          }
+        },
+        {
+          "code": "E05F 15/605",
+          "title": {
+            "ko": null,
+            "en": "for folding wings"
+          }
+        },
+        {
+          "code": "E05F 15/608",
+          "title": {
+            "ko": null,
+            "en": "for revolving wings"
+          }
+        },
+        {
+          "code": "E05F 15/611",
+          "title": {
+            "ko": "…윙(wing)을 요동(swing)시키기 위한 용도",
+            "en": "for swinging wings"
+          }
+        },
+        {
+          "code": "E05F 15/614",
+          "title": {
+            "ko": null,
+            "en": "operated by meshing gear wheels, one of which being mounted at the wing pivot axis; operated by a motor acting directly on the wing pivot axis"
+          }
+        },
+        {
+          "code": "E05F 15/616",
+          "title": {
+            "ko": null,
+            "en": "operated by push-pull mechanisms"
+          }
+        },
+        {
+          "code": "E05F 15/619",
+          "title": {
+            "ko": null,
+            "en": "using flexible or rigid rack-and-pinion arrangements"
+          }
+        },
+        {
+          "code": "E05F 15/622",
+          "title": {
+            "ko": null,
+            "en": "using screw-and-nut mechanisms"
+          }
+        },
+        {
+          "code": "E05F 15/624",
+          "title": {
+            "ko": null,
+            "en": "using friction wheels"
+          }
+        },
+        {
+          "code": "E05F 15/627",
+          "title": {
+            "ko": "신축성있고 가늘고 긴 당김 부분에 의해 작동되는 것, 예. 벨트, 체인 또는 케이블 (신축성있고 가늘고 긴 푸시풀(push-pull) 방식의 장치를 사용하는 것 E05F 15/619)",
+            "en": "operated by flexible elongated pulling elements, e.g. belts, chains or cables (using flexible elongated push-pull mechanisms E05F0015619000)"
+          }
+        },
+        {
+          "code": "E05F 15/63",
+          "title": {
+            "ko": null,
+            "en": "operated by swinging arms"
+          }
+        },
+        {
+          "code": "E05F 15/632",
+          "title": {
+            "ko": "…수직슬라이딩(horizontally-sliding)형 윙(wing)을 위한 것",
+            "en": "for horizontally-sliding wings"
+          }
+        },
+        {
+          "code": "E05F 15/635",
+          "title": {
+            "ko": "푸시풀(push-pull) 기구에 의해 작동되는 것, 예. 신축성있거나 단단한 랙앤피니언(rack-and-pinion) 장치 (E05F 15/652 우선)",
+            "en": "operated by push-pull mechanisms, e.g. flexible or rigid rack-and-pinion arrangements (E05F0015652000 takes precedence)"
+          }
+        },
+        {
+          "code": "E05F 15/638",
+          "title": {
+            "ko": null,
+            "en": "allowing or involving a secondary movement of the wing, e.g. rotational or transversal"
+          }
+        },
+        {
+          "code": "E05F 15/641",
+          "title": {
+            "ko": null,
+            "en": "operated by friction wheels"
+          }
+        },
+        {
+          "code": "E05F 15/643",
+          "title": {
+            "ko": "가늘고 긴 당김부분에 의해 작동되는 것, 예. 벨트, 체인 또는 케이블 (신축성있고 가늘고 긴 푸시풀(push-pull) 방식에 의한 것 E05F 15/635)",
+            "en": "operated by flexible elongated pulling elements, e.g. belts, chains or cables (by flexible elongated push-pull mechanisms E05F0015635000)"
+          }
+        },
+        {
+          "code": "E05F 15/646",
+          "title": {
+            "ko": null,
+            "en": "allowing or involving a secondary movement of the wing, e.g. rotational or transversal"
+          }
+        },
+        {
+          "code": "E05F 15/649",
+          "title": {
+            "ko": null,
+            "en": "operated by swinging arms"
+          }
+        },
+        {
+          "code": "E05F 15/652",
+          "title": {
+            "ko": null,
+            "en": "operated by screw-and-nut mechanisms"
+          }
+        },
+        {
+          "code": "E05F 15/655",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for vehicle wings"
+          }
+        },
+        {
+          "code": "E05F 15/657",
+          "title": {
+            "ko": null,
+            "en": "enabling manual drive, e.g. in case of power failure"
+          }
+        },
+        {
+          "code": "E05F 15/659",
+          "title": {
+            "ko": null,
+            "en": "Control circuits therefor"
+          }
+        },
+        {
+          "code": "E05F 15/662",
+          "title": {
+            "ko": null,
+            "en": "Motor units therefor, e.g. geared motors"
+          }
+        },
+        {
+          "code": "E05F 15/665",
+          "title": {
+            "ko": null,
+            "en": "for vertically-sliding wings"
+          }
+        },
+        {
+          "code": "E05F 15/668",
+          "title": {
+            "ko": null,
+            "en": "for overhead wings"
+          }
+        },
+        {
+          "code": "E05F 15/67",
+          "title": {
+            "ko": null,
+            "en": "operated by flexible or rigid rack-and-pinion arrangements"
+          }
+        },
+        {
+          "code": "E05F 15/673",
+          "title": {
+            "ko": null,
+            "en": "operated by screw-and-nut mechanisms"
+          }
+        },
+        {
+          "code": "E05F 15/676",
+          "title": {
+            "ko": null,
+            "en": "operated by friction wheels"
+          }
+        },
+        {
+          "code": "E05F 15/678",
+          "title": {
+            "ko": null,
+            "en": "operated by swinging lever arms"
+          }
+        },
+        {
+          "code": "E05F 15/681",
+          "title": {
+            "ko": null,
+            "en": "operated by flexible elongated pulling elements, e.g. belts"
+          }
+        },
+        {
+          "code": "E05F 15/684",
+          "title": {
+            "ko": null,
+            "en": "by chains"
+          }
+        },
+        {
+          "code": "E05F 15/686",
+          "title": {
+            "ko": null,
+            "en": "by cables or ropes"
+          }
+        },
+        {
+          "code": "E05F 15/689",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for vehicle windows"
+          }
+        },
+        {
+          "code": "E05F 15/692",
+          "title": {
+            "ko": null,
+            "en": "enabling manual drive, e.g. in case of power failure"
+          }
+        },
+        {
+          "code": "E05F 15/695",
+          "title": {
+            "ko": null,
+            "en": "Control circuits therefor"
+          }
+        },
+        {
+          "code": "E05F 15/697",
+          "title": {
+            "ko": null,
+            "en": "Motor units therefor, e.g. geared motors"
+          }
+        },
+        {
+          "code": "E05F 15/70",
+          "title": {
+            "ko": "자동구동을 가진 것",
+            "en": "with automatic actuation"
+          }
+        },
+        {
+          "code": "E05F 15/71",
+          "title": {
+            "ko": null,
+            "en": "responsive to temperature changes, rain, wind or noise"
+          }
+        },
+        {
+          "code": "E05F 15/72",
+          "title": {
+            "ko": null,
+            "en": "responsive to emergency conditions, e.g. fire"
+          }
+        },
+        {
+          "code": "E05F 15/73",
+          "title": {
+            "ko": "움직임 또는 사람 또는 물체의 존재에 즉시 반응하는 것",
+            "en": "responsive to movement or presence of persons or objects"
+          }
+        },
+        {
+          "code": "E05F 15/74",
+          "title": {
+            "ko": null,
+            "en": "using photoelectric cells"
+          }
+        },
+        {
+          "code": "E05F 15/75",
+          "title": {
+            "ko": null,
+            "en": "responsive to the weight or other physical contact of a person or object"
+          }
+        },
+        {
+          "code": "E05F 15/76",
+          "title": {
+            "ko": "…사람 또는 물체에 의해 옮겨진 장치에 즉시 반응하는 것, 예. 자석 또는 반사판(reflector) (E05F 15/77 우선)",
+            "en": "responsive to devices carried by persons or objects, e.g. magnets or reflectors (E05F0015770000 takes precedence)"
+          }
+        },
+        {
+          "code": "E05F 15/77",
+          "title": {
+            "ko": null,
+            "en": "using wireless control"
+          }
+        },
+        {
+          "code": "E05F 15/78",
+          "title": {
+            "ko": null,
+            "en": "using light beams"
+          }
+        },
+        {
+          "code": "E05F 15/79",
+          "title": {
+            "ko": null,
+            "en": "using time control"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05F 17/00",
+      "title": {
+        "ko": "동시에 조작되는 다수의 윙을 이동시키기 위한 특수 장치(다수의 상호 연결된 환기(換氣) 박판(薄板)을 동시에 움직이게 하기 위한 것 E06B 7/086)",
+        "en": "Special devices for shifting a plurality of wings operated simultaneously (for simultaneously moving a plurality of interconnected ventilating lamellae E06B0007086000)"
+      },
+      "subgroups": []
+    }
+  ]
+}

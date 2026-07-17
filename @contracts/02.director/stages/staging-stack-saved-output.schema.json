@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "description": "P02.R00.CONCEPT_MATURITY step 1 (staging.save) DRO tool step output.",
+  "required": ["ok"],
+  "properties": {
+    "ok": { "const": true }
+  }
+}

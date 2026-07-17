@@ -1,0 +1,758 @@
+{
+  "subclass": "B26D",
+  "title": {
+    "ko": "절단; 구멍뚫기, 펀칭, 잘라내기, 형빼기 또는 절삭을 위한 기계에 공통된 세부(천을 잘라서 조각을 내는 칼 또는 다른 절개수단 또는 찢음부에 의한 해체 B02C 18/00; 유체 분사에 의한 절단 B24C 5/02; 휴대절단 공구 B26B; )",
+    "en": "CUTTING; DETAILS COMMON TO MACHINES FOR PERFORATING, PUNCHING, CUTTING-OUT, STAMPING-OUT OR SEVERING (disintegrating by knives or other cutting or tearing members which chop material into fragments B02C0018000000;cutting by abrasive fluid jets B24C0005020000;hand-held cutting tools B26B)"
+  },
+  "definition": {
+    "ko": "절단날부 또는 절단가공의 종류에 특징이 있는 절단 B26D1/00, B26D3/00 조작 및 제어장치; 절단장치의 세부 B26D5/00; 7/00 조합장치 B26D9/00, B26D11/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B26D 1/00",
+      "title": {
+        "ko": "절단날부의 종류 또는 동작에 의해서 특정지워진 피가공재의 절단; 그를 위한 장치 기계; 그를 위한 절단날부",
+        "en": "Cutting through work characterised by the nature or movement of the cutting member; Apparatus or machines therefor; Cutting members therefor"
+      },
+      "subgroups": [
+        {
+          "code": "B26D 1/01",
+          "title": {
+            "ko": "피가공재와 함께 이동하지 않은 절단날부를 구비하는 것",
+            "en": "involving a cutting member which does not travel with the work"
+          }
+        },
+        {
+          "code": "B26D 1/02",
+          "title": {
+            "ko": "고정 절단날부를 가지고 있는 것(B26D 1/547이 우선)",
+            "en": "having a stationary cutting member (B26D0001547000 takes precedence)"
+          }
+        },
+        {
+          "code": "B26D 1/03",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of cutting members"
+          }
+        },
+        {
+          "code": "B26D 1/04",
+          "title": {
+            "ko": "직선상으로 움직일 수 있는 절단날부를 가지고 있는 것(B26D 1/46, B26D 1/547이 우선)",
+            "en": "having a linearly-movable cutting member (B26D0001460000, B26D0001547000 take precedence)"
+          }
+        },
+        {
+          "code": "B26D 1/06",
+          "title": {
+            "ko": null,
+            "en": "wherein the cutting member reciprocates"
+          }
+        },
+        {
+          "code": "B26D 1/08",
+          "title": {
+            "ko": null,
+            "en": "of the guillotine type"
+          }
+        },
+        {
+          "code": "B26D 1/09",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of cutting members"
+          }
+        },
+        {
+          "code": "B26D 1/10",
+          "title": {
+            "ko": null,
+            "en": "in, or substantially in, a direction parallel to the cutting edge"
+          }
+        },
+        {
+          "code": "B26D 1/11",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of cutting members"
+          }
+        },
+        {
+          "code": "B26D 1/12",
+          "title": {
+            "ko": "축 주위를 움직이는 절단날부가 있는 것(B26D 1/547 우선)",
+            "en": "having a cutting member moving about an axis (B26D0001547000 takes precedence)"
+          }
+        },
+        {
+          "code": "B26D 1/14",
+          "title": {
+            "ko": "원형 절단날부가 있는 것, 예. 원판 칼날",
+            "en": "with a circular cutting member, e.g. disc cutter"
+          }
+        },
+        {
+          "code": "B26D 1/143",
+          "title": {
+            "ko": "고정축의 주위를 회전하는 것(B26D 1/20~ B26D 1/24가 우선)",
+            "en": "rotating about a stationary axis (B26D0001200000-B26D0001240000 take precedence)"
+          }
+        },
+        {
+          "code": "B26D 1/147",
+          "title": {
+            "ko": null,
+            "en": "with horizontal cutting member"
+          }
+        },
+        {
+          "code": "B26D 1/15",
+          "title": {
+            "ko": null,
+            "en": "with vertical cutting member"
+          }
+        },
+        {
+          "code": "B26D 1/153",
+          "title": {
+            "ko": null,
+            "en": "with inclined cutting member"
+          }
+        },
+        {
+          "code": "B26D 1/157",
+          "title": {
+            "ko": "움직이는 축의 주위를 회전하는 것(B26D 1/20~ B26D 1/24가 우선)",
+            "en": "rotating about a movable axis (B26D0001200000-B26D0001240000 take precedence)"
+          }
+        },
+        {
+          "code": "B26D 1/16",
+          "title": {
+            "ko": null,
+            "en": "mounted on a movable arm or the like"
+          }
+        },
+        {
+          "code": "B26D 1/18",
+          "title": {
+            "ko": null,
+            "en": "mounted on a movable carriage"
+          }
+        },
+        {
+          "code": "B26D 1/20",
+          "title": {
+            "ko": null,
+            "en": "coacting with a fixed member"
+          }
+        },
+        {
+          "code": "B26D 1/22",
+          "title": {
+            "ko": "가동 부재와 협동하는 것, 예. 롤러(B26D 1/24가 우선)",
+            "en": "coacting with a movable member, e.g. a roller (B26D0001240000 takes precedence)"
+          }
+        },
+        {
+          "code": "B26D 1/24",
+          "title": {
+            "ko": null,
+            "en": "coacting with another disc cutter"
+          }
+        },
+        {
+          "code": "B26D 1/25",
+          "title": {
+            "ko": null,
+            "en": "with a non-circular cutting member"
+          }
+        },
+        {
+          "code": "B26D 1/26",
+          "title": {
+            "ko": null,
+            "en": "moving about an axis substantially perpendicular to the line of cut"
+          }
+        },
+        {
+          "code": "B26D 1/28",
+          "title": {
+            "ko": null,
+            "en": "and rotating continuously in one direction during cutting"
+          }
+        },
+        {
+          "code": "B26D 1/29",
+          "title": {
+            "ko": null,
+            "en": "with cutting member mounted in the plane of a rotating disc, e.g. for slicing beans"
+          }
+        },
+        {
+          "code": "B26D 1/30",
+          "title": {
+            "ko": null,
+            "en": "with limited pivotal movement to effect cut"
+          }
+        },
+        {
+          "code": "B26D 1/34",
+          "title": {
+            "ko": null,
+            "en": "moving about an axis parallel to the line of cut"
+          }
+        },
+        {
+          "code": "B26D 1/36",
+          "title": {
+            "ko": null,
+            "en": "and rotating continuously in one direction during cutting, e.g. mounted on a rotary cylinder"
+          }
+        },
+        {
+          "code": "B26D 1/38",
+          "title": {
+            "ko": null,
+            "en": "and coacting with a fixed blade or other fixed member"
+          }
+        },
+        {
+          "code": "B26D 1/40",
+          "title": {
+            "ko": null,
+            "en": "and coacting with a rotary member"
+          }
+        },
+        {
+          "code": "B26D 1/42",
+          "title": {
+            "ko": null,
+            "en": "and slidably mounted in a rotary member"
+          }
+        },
+        {
+          "code": "B26D 1/43",
+          "title": {
+            "ko": null,
+            "en": "moving about another axis, e.g. mounted on the surface of a cone or curved body"
+          }
+        },
+        {
+          "code": "B26D 1/44",
+          "title": {
+            "ko": null,
+            "en": "having a cup or like cutting member"
+          }
+        },
+        {
+          "code": "B26D 1/45",
+          "title": {
+            "ko": null,
+            "en": "having a cutting member the movement of which is not covered by any preceding group"
+          }
+        },
+        {
+          "code": "B26D 1/46",
+          "title": {
+            "ko": null,
+            "en": "having an endless band-knife or the like"
+          }
+        },
+        {
+          "code": "B26D 1/48",
+          "title": {
+            "ko": null,
+            "en": "with tensioning means"
+          }
+        },
+        {
+          "code": "B26D 1/50",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of band-knives or the like"
+          }
+        },
+        {
+          "code": "B26D 1/52",
+          "title": {
+            "ko": null,
+            "en": "having adjustable spacing between knives"
+          }
+        },
+        {
+          "code": "B26D 1/54",
+          "title": {
+            "ko": null,
+            "en": "Guides for band-knives or the like"
+          }
+        },
+        {
+          "code": "B26D 1/547",
+          "title": {
+            "ko": "와이어형 절단날부가 있는 것(무단 와이어 B26D 1/46; 가열 와이어를 사용한 절단 B26F 3/12)",
+            "en": "having a wire-like cutting member (endless wire B26D0001460000;severing using a heated wire B26F0003120000)"
+          }
+        },
+        {
+          "code": "B26D 1/553",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of wire-like cutting members"
+          }
+        },
+        {
+          "code": "B26D 1/56",
+          "title": {
+            "ko": null,
+            "en": "involving a cutting member which travels with the work, i.e. flying cutter"
+          }
+        },
+        {
+          "code": "B26D 1/58",
+          "title": {
+            "ko": null,
+            "en": "and is mounted on a movable arm or the like"
+          }
+        },
+        {
+          "code": "B26D 1/60",
+          "title": {
+            "ko": null,
+            "en": "and is mounted on a movable carriage"
+          }
+        },
+        {
+          "code": "B26D 1/62",
+          "title": {
+            "ko": null,
+            "en": "and is rotating about an axis parallel to the line of cut, e.g. mounted on a rotary cylinder"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B26D 3/00",
+      "title": {
+        "ko": "절단 가공의 종류에 따라서 특징지워진 절단 작업; 그를 위한 장치",
+        "en": "Cutting work characterised by the nature of the cut made; Apparatus therefor"
+      },
+      "subgroups": [
+        {
+          "code": "B26D 3/02",
+          "title": {
+            "ko": null,
+            "en": "Bevelling"
+          }
+        },
+        {
+          "code": "B26D 3/06",
+          "title": {
+            "ko": null,
+            "en": "Grooving involving removal of material from the surface of the work"
+          }
+        },
+        {
+          "code": "B26D 3/08",
+          "title": {
+            "ko": null,
+            "en": "Making a superficial cut in the surface of the work without removal of material, e.g. scoring, incising"
+          }
+        },
+        {
+          "code": "B26D 3/10",
+          "title": {
+            "ko": "단일 직선형 이외의 절단 가공(잘라뽑기 또는 형빼기 B26F 1/38)",
+            "en": "Making cuts of other than simple rectilinear form (cutting-out or stamping-out B26F0001380000)"
+          }
+        },
+        {
+          "code": "B26D 3/11",
+          "title": {
+            "ko": null,
+            "en": "to obtain pieces of spiral or helical form"
+          }
+        },
+        {
+          "code": "B26D 3/12",
+          "title": {
+            "ko": null,
+            "en": "Slitting marginal portions of the work, i.e. forming cuts, without removal of material, at an angle, e.g. a right angle, to the edge of the work"
+          }
+        },
+        {
+          "code": "B26D 3/14",
+          "title": {
+            "ko": null,
+            "en": "Forming notches in marginal portion of work by cutting"
+          }
+        },
+        {
+          "code": "B26D 3/16",
+          "title": {
+            "ko": null,
+            "en": "Cutting rods or tubes transversely"
+          }
+        },
+        {
+          "code": "B26D 3/18",
+          "title": {
+            "ko": null,
+            "en": "to obtain cubes or the like"
+          }
+        },
+        {
+          "code": "B26D 3/20",
+          "title": {
+            "ko": null,
+            "en": "using reciprocating knives"
+          }
+        },
+        {
+          "code": "B26D 3/22",
+          "title": {
+            "ko": null,
+            "en": "using rotating knives"
+          }
+        },
+        {
+          "code": "B26D 3/24",
+          "title": {
+            "ko": null,
+            "en": "to obtain segments other than slices, e.g. cutting pies"
+          }
+        },
+        {
+          "code": "B26D 3/26",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for cutting fruit or vegetables, e.g. for onions"
+          }
+        },
+        {
+          "code": "B26D 3/28",
+          "title": {
+            "ko": "피가공물을 층상으로 분할하는 것; 절단에 의해서 층상물로 상호 분리하는 것(B26D 3/30 우선)",
+            "en": "Splitting layers from work; Mutually separating layers by cutting (B26D0003300000 takes precedence)"
+          }
+        },
+        {
+          "code": "B26D 3/30",
+          "title": {
+            "ko": null,
+            "en": "Halving devices, e.g. for halving buns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B26D 5/00",
+      "title": {
+        "ko": "절단, 잘라 뽑기, 형 뽑기, 펀칭, 구멍 뚫기 또는 절단날 이외의 수단에 의한 절단 장치의 조작 및 제어 장치",
+        "en": "Arrangements for operating and controlling machines or devices for cutting, cutting-out, stamping-out, punching, perforating, or severing by means other than cutting"
+      },
+      "subgroups": [
+        {
+          "code": "B26D 5/02",
+          "title": {
+            "ko": null,
+            "en": "Means for moving the cutting member into its operative position for cutting"
+          }
+        },
+        {
+          "code": "B26D 5/04",
+          "title": {
+            "ko": null,
+            "en": "by fluid pressure"
+          }
+        },
+        {
+          "code": "B26D 5/06",
+          "title": {
+            "ko": null,
+            "en": "by electrical means"
+          }
+        },
+        {
+          "code": "B26D 5/08",
+          "title": {
+            "ko": "효과적인 절단을 위해 커팅부재를 작동시키는 수단",
+            "en": "Means for actuating the cutting member to effect the cut"
+          }
+        },
+        {
+          "code": "B26D 5/10",
+          "title": {
+            "ko": null,
+            "en": "Hand or foot actuated means"
+          }
+        },
+        {
+          "code": "B26D 5/12",
+          "title": {
+            "ko": null,
+            "en": "Fluid-pressure means"
+          }
+        },
+        {
+          "code": "B26D 5/14",
+          "title": {
+            "ko": null,
+            "en": "Crank and pin means"
+          }
+        },
+        {
+          "code": "B26D 5/16",
+          "title": {
+            "ko": null,
+            "en": "Cam means"
+          }
+        },
+        {
+          "code": "B26D 5/18",
+          "title": {
+            "ko": "토글-링크식(B26D 5/10~ B26D 5/16이 우선)",
+            "en": "Toggle-link means (B26D0005100000-B26D0005160000 take precedence)"
+          }
+        },
+        {
+          "code": "B26D 5/20",
+          "title": {
+            "ko": null,
+            "en": "with interrelated action between the cutting member and work feed"
+          }
+        },
+        {
+          "code": "B26D 5/22",
+          "title": {
+            "ko": null,
+            "en": "having the cutting member and work feed mechanically connected"
+          }
+        },
+        {
+          "code": "B26D 5/24",
+          "title": {
+            "ko": null,
+            "en": "including a metering device"
+          }
+        },
+        {
+          "code": "B26D 5/26",
+          "title": {
+            "ko": null,
+            "en": "wherein control means on the work feed means renders the cutting member operative"
+          }
+        },
+        {
+          "code": "B26D 5/28",
+          "title": {
+            "ko": null,
+            "en": "the control means being responsive to presence or absence of work"
+          }
+        },
+        {
+          "code": "B26D 5/30",
+          "title": {
+            "ko": null,
+            "en": "having the cutting member controlled by scanning a record carrier"
+          }
+        },
+        {
+          "code": "B26D 5/32",
+          "title": {
+            "ko": null,
+            "en": "with the record carrier formed by the work itself"
+          }
+        },
+        {
+          "code": "B26D 5/34",
+          "title": {
+            "ko": null,
+            "en": "scanning being effected by a photosensitive device"
+          }
+        },
+        {
+          "code": "B26D 5/36",
+          "title": {
+            "ko": null,
+            "en": "scanning being effected by magnetic means"
+          }
+        },
+        {
+          "code": "B26D 5/38",
+          "title": {
+            "ko": null,
+            "en": "with means operable by the moving work to initiate the cutting action"
+          }
+        },
+        {
+          "code": "B26D 5/40",
+          "title": {
+            "ko": null,
+            "en": "including a metering device"
+          }
+        },
+        {
+          "code": "B26D 5/42",
+          "title": {
+            "ko": null,
+            "en": "with interrelated action between work feed and clamp"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B26D 7/00",
+      "title": {
+        "ko": "절단, 잘라 뽑기, 형빼기, 펀칭, 구멍 뚫기 또는 절단날 이외의 수단에 의한 절단 장치의 세부",
+        "en": "Details of apparatus for cutting, cutting-out, stamping-out, punching, perforating, or severing by means other than cutting"
+      },
+      "subgroups": [
+        {
+          "code": "B26D 7/01",
+          "title": {
+            "ko": null,
+            "en": "Means for holding or positioning work"
+          }
+        },
+        {
+          "code": "B26D 7/02",
+          "title": {
+            "ko": null,
+            "en": "with clamping means"
+          }
+        },
+        {
+          "code": "B26D 7/04",
+          "title": {
+            "ko": null,
+            "en": "providing adjustable clamping pressure"
+          }
+        },
+        {
+          "code": "B26D 7/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for feeding or delivering work of other than sheet, web, or filamentary form"
+          }
+        },
+        {
+          "code": "B26D 7/08",
+          "title": {
+            "ko": "절단을 쉽게 하기 위한 재료 및 날부 처리 장치(긴장된 밴드커터 B26D 1/48)",
+            "en": "Means for treating work or cutting member to facilitate cutting (tensioning band cutters B26D0001480000)"
+          }
+        },
+        {
+          "code": "B26D 7/10",
+          "title": {
+            "ko": "가열에 의한 것(가열수단를 구비한 것 B26F 3/08)",
+            "en": "by heating (severing with heated members B26F0003080000)"
+          }
+        },
+        {
+          "code": "B26D 7/12",
+          "title": {
+            "ko": null,
+            "en": "by sharpening the cutting member"
+          }
+        },
+        {
+          "code": "B26D 7/14",
+          "title": {
+            "ko": null,
+            "en": "by tensioning the work"
+          }
+        },
+        {
+          "code": "B26D 7/18",
+          "title": {
+            "ko": null,
+            "en": "Means for removing cut-out material or waste"
+          }
+        },
+        {
+          "code": "B26D 7/20",
+          "title": {
+            "ko": null,
+            "en": "Cutting beds"
+          }
+        },
+        {
+          "code": "B26D 7/22",
+          "title": {
+            "ko": null,
+            "en": "Safety devices specially adapted for cutting machines"
+          }
+        },
+        {
+          "code": "B26D 7/24",
+          "title": {
+            "ko": null,
+            "en": "arranged to disable the operating means for the cutting member"
+          }
+        },
+        {
+          "code": "B26D 7/26",
+          "title": {
+            "ko": null,
+            "en": "Means for mounting or adjusting the cutting member; Means for adjusting the stroke of the cutting member"
+          }
+        },
+        {
+          "code": "B26D 7/27",
+          "title": {
+            "ko": "절단과 결합한 다른 조작을 하기 위한 수단(B26D 9/00이 우선)",
+            "en": "Means for performing other operations combined with cutting (B26D0009000000 takes precedence)"
+          }
+        },
+        {
+          "code": "B26D 7/28",
+          "title": {
+            "ko": "절단 횟수의 계산 또는 절단 길이의 측정을 하기 위한 것(B26D 5/24, B26D 5/40이 우선)",
+            "en": "for counting the number of cuts or measuring cut lengths (B26D0005240000, B26D0005400000 take precedence)"
+          }
+        },
+        {
+          "code": "B26D 7/30",
+          "title": {
+            "ko": null,
+            "en": "for weighing cut product"
+          }
+        },
+        {
+          "code": "B26D 7/32",
+          "title": {
+            "ko": "제품을 반송하고 또는 쌓아 포개기 위한 것(성형품 또는 폐물을 제거하는 수단 B26D 7/18)",
+            "en": "for conveying or stacking cut product (means for removing cut-out material or waste B26D0007180000)"
+          }
+        },
+        {
+          "code": "B26D 7/34",
+          "title": {
+            "ko": null,
+            "en": "for applying a coating, such as butter, to cut product"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B26D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Cutting apparatus combined with punching or perforating apparatus or with dissimilar cutting apparatus"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B26D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of several similar cutting apparatus"
+      },
+      "subgroups": []
+    }
+  ]
+}

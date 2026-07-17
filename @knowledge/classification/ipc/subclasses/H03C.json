@@ -1,0 +1,463 @@
+{
+  "subclass": "H03C",
+  "title": {
+    "ko": "변조 (메이저(masers), 레이저(lasers) H01S; 부호화, 복호화 혹은 부호변환 H03M)",
+    "en": "MODULATION (masers or lasers H01S;coding, decoding or code conversion H03M)"
+  },
+  "definition": {
+    "ko": "(1) 이 서브클래스는 정현파진동 또는 전자파에 대한 변조, 키잉(keying) 또는 단속만을 다룬다. 변조신호는 임의소망의 파형이라도 좋다 (2) 이 서브클래스에 있어서 변조기로서나 복조기로서도 사용할 수가 있는 회로는 그종류의 변조기를 다루는 서브클래스로 분류한다",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03C 1/00",
+      "title": {
+        "ko": "진폭변조(H03C 5/00, H03C 7/00이 우선)",
+        "en": "Amplitude modulation (H03C0005000000, H03C0007000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03C 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03C 1/04",
+          "title": {
+            "ko": null,
+            "en": "Means in, or combined with, modulating stage for reducing angle modulation"
+          }
+        },
+        {
+          "code": "H03C 1/06",
+          "title": {
+            "ko": null,
+            "en": "Modifications of modulator to reduce distortion, e.g. by feedback, and clearly applicable to more than one type of modulator"
+          }
+        },
+        {
+          "code": "H03C 1/08",
+          "title": {
+            "ko": "가변임피던스 소자에 의한 것(H03C 1/28～ H03C 1/34, H03C 1/46～ 1/52, H03C 1/62가 우선)",
+            "en": "by means of variable impedance element (H03C0001280000-H03C0001340000, H03C0001460000-H03C0001520000, H03C0001620000 take precedence)"
+          }
+        },
+        {
+          "code": "H03C 1/10",
+          "title": {
+            "ko": null,
+            "en": "the element being a current-dependent inductor"
+          }
+        },
+        {
+          "code": "H03C 1/12",
+          "title": {
+            "ko": null,
+            "en": "the element being a voltage-dependent capacitor"
+          }
+        },
+        {
+          "code": "H03C 1/14",
+          "title": {
+            "ko": null,
+            "en": "the element being a diode"
+          }
+        },
+        {
+          "code": "H03C 1/16",
+          "title": {
+            "ko": "적어도 3개의 전극이 있는 전자관에 의한 것(H03C 1/28～ H03C 1/34, H03C 1/50, H03C 1/52, H03C 1/62가 우선)",
+            "en": "by means of discharge device having at least three electrodes (H03C0001280000-H03C0001340000, H03C0001500000, H03C0001520000, H03C0001620000 take precedence)"
+          }
+        },
+        {
+          "code": "H03C 1/18",
+          "title": {
+            "ko": null,
+            "en": "carrier applied to control grid"
+          }
+        },
+        {
+          "code": "H03C 1/20",
+          "title": {
+            "ko": null,
+            "en": "modulating signal applied to anode"
+          }
+        },
+        {
+          "code": "H03C 1/22",
+          "title": {
+            "ko": null,
+            "en": "modulating signal applied to same grid"
+          }
+        },
+        {
+          "code": "H03C 1/24",
+          "title": {
+            "ko": null,
+            "en": "modulating signal applied to different grid"
+          }
+        },
+        {
+          "code": "H03C 1/26",
+          "title": {
+            "ko": null,
+            "en": "modulating signal applied to cathode"
+          }
+        },
+        {
+          "code": "H03C 1/28",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tube"
+          }
+        },
+        {
+          "code": "H03C 1/30",
+          "title": {
+            "ko": null,
+            "en": "by means of a magnetron"
+          }
+        },
+        {
+          "code": "H03C 1/32",
+          "title": {
+            "ko": null,
+            "en": "by deflection of electron beam in discharge tube"
+          }
+        },
+        {
+          "code": "H03C 1/34",
+          "title": {
+            "ko": null,
+            "en": "by means of light-sensitive element"
+          }
+        },
+        {
+          "code": "H03C 1/36",
+          "title": {
+            "ko": "적어도 3개의 전극이 있는 반도체 소자에 의한 것(H03C 1/34, H03C 1/50, H03C 1/52, H03C 1/62가 우선)",
+            "en": "by means of semiconductor device having at least three electrodes (H03C0001340000, H03C0001500000, H03C0001520000, H03C0001620000 take precedence)"
+          }
+        },
+        {
+          "code": "H03C 1/38",
+          "title": {
+            "ko": null,
+            "en": "carrier applied to base of a transistor"
+          }
+        },
+        {
+          "code": "H03C 1/40",
+          "title": {
+            "ko": null,
+            "en": "modulating signal applied to collector"
+          }
+        },
+        {
+          "code": "H03C 1/42",
+          "title": {
+            "ko": null,
+            "en": "modulating signal applied to base"
+          }
+        },
+        {
+          "code": "H03C 1/44",
+          "title": {
+            "ko": null,
+            "en": "modulating signal applied to emitter"
+          }
+        },
+        {
+          "code": "H03C 1/46",
+          "title": {
+            "ko": null,
+            "en": "Modulators with mechanically-driven or acoustically-driven parts"
+          }
+        },
+        {
+          "code": "H03C 1/48",
+          "title": {
+            "ko": null,
+            "en": "by means of Hall-effect devices"
+          }
+        },
+        {
+          "code": "H03C 1/50",
+          "title": {
+            "ko": "각도변조의 진폭변조에로의 변환에 의한 것(H03C 1/28～ H03C 1/34, H03C 1/46, H03C 1/48이 우선)",
+            "en": "by converting angle modulation to amplitude modulation (H03C0001280000-H03C0001340000, H03C0001460000, H03C0001480000 take precedence)"
+          }
+        },
+        {
+          "code": "H03C 1/52",
+          "title": {
+            "ko": "반송파 또는 한쪽의 측파대가 완전히 또는 부분적으로 억압되는 변조기(H03C 1/28～ H03C 1/34, H03C 1/46, H03C 1/48이 우선)",
+            "en": "Modulators in which carrier or one sideband is wholly or partially suppressed (H03C0001280000-H03C0001340000, H03C0001460000, H03C0001480000 take precedence)"
+          }
+        },
+        {
+          "code": "H03C 1/54",
+          "title": {
+            "ko": null,
+            "en": "Balanced modulators, e.g. bridge type, ring type or double balanced type"
+          }
+        },
+        {
+          "code": "H03C 1/56",
+          "title": {
+            "ko": null,
+            "en": "comprising variable two-pole elements only"
+          }
+        },
+        {
+          "code": "H03C 1/58",
+          "title": {
+            "ko": null,
+            "en": "comprising diodes"
+          }
+        },
+        {
+          "code": "H03C 1/60",
+          "title": {
+            "ko": null,
+            "en": "with one sideband wholly or partially suppressed"
+          }
+        },
+        {
+          "code": "H03C 1/62",
+          "title": {
+            "ko": "출력에 있어서의 반송파 성분의 진폭이 변조신호의 치에 관계하는 변조기, 예. 변조신호가 존재하지 않을 때에 반송파가 나오지 않는 것(H03C 1/28, H03C 1/34, H03C 1/46, H03C 1/48이 우선)",
+            "en": "Modulators in which amplitude of carrier component in output is dependent upon strength of modulating signal, e.g. no carrier output when no modulating signal is present (H03C0001280000-H03C0001340000, H03C0001460000, H03C0001480000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03C 3/00",
+      "title": {
+        "ko": "각도변조(H03C 5/00, H03C 7/00이 우선)",
+        "en": "Angle modulation (H03C0005000000, H03C0007000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03C 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03C 3/04",
+          "title": {
+            "ko": null,
+            "en": "Means in, or combined with, modulating stage for reducing amplitude modulation"
+          }
+        },
+        {
+          "code": "H03C 3/06",
+          "title": {
+            "ko": null,
+            "en": "Means for changing frequency deviation"
+          }
+        },
+        {
+          "code": "H03C 3/08",
+          "title": {
+            "ko": null,
+            "en": "Modifications of modulator to linearise modulation, e.g. by feedback, and clearly applicable to more than one type of modulator"
+          }
+        },
+        {
+          "code": "H03C 3/09",
+          "title": {
+            "ko": null,
+            "en": "Modifications of modulator for regulating the mean frequency"
+          }
+        },
+        {
+          "code": "H03C 3/10",
+          "title": {
+            "ko": "가변 임피턴스에 의한 것 (H03C 3/30～ H03C 3/38 이 우선)",
+            "en": "by means of variable impedance (H03C0003300000-H03C0003380000 take precedence)"
+          }
+        },
+        {
+          "code": "H03C 3/12",
+          "title": {
+            "ko": null,
+            "en": "by means of a variable reactive element"
+          }
+        },
+        {
+          "code": "H03C 3/14",
+          "title": {
+            "ko": null,
+            "en": "simulated by circuit comprising active element with at least three electrodes, e.g. reactance-tube circuit"
+          }
+        },
+        {
+          "code": "H03C 3/16",
+          "title": {
+            "ko": null,
+            "en": "in which the active element simultaneously serves as the active element of an oscillator"
+          }
+        },
+        {
+          "code": "H03C 3/18",
+          "title": {
+            "ko": null,
+            "en": "the element being a current-dependent inductor"
+          }
+        },
+        {
+          "code": "H03C 3/20",
+          "title": {
+            "ko": null,
+            "en": "the element being a voltage-dependent capacitor"
+          }
+        },
+        {
+          "code": "H03C 3/22",
+          "title": {
+            "ko": null,
+            "en": "the element being a semiconductor diode, e.g. varicap diode"
+          }
+        },
+        {
+          "code": "H03C 3/24",
+          "title": {
+            "ko": null,
+            "en": "by means of a variable resistive element, e.g. tube"
+          }
+        },
+        {
+          "code": "H03C 3/26",
+          "title": {
+            "ko": null,
+            "en": "comprising two elements controlled in push-pull by modulating signal"
+          }
+        },
+        {
+          "code": "H03C 3/28",
+          "title": {
+            "ko": null,
+            "en": "using variable impedance driven mechanically or acoustically"
+          }
+        },
+        {
+          "code": "H03C 3/30",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tube"
+          }
+        },
+        {
+          "code": "H03C 3/32",
+          "title": {
+            "ko": null,
+            "en": "the tube being a magnetron"
+          }
+        },
+        {
+          "code": "H03C 3/34",
+          "title": {
+            "ko": null,
+            "en": "by deflection of electron beam in discharge tube"
+          }
+        },
+        {
+          "code": "H03C 3/36",
+          "title": {
+            "ko": null,
+            "en": "by means of light-sensitive element"
+          }
+        },
+        {
+          "code": "H03C 3/38",
+          "title": {
+            "ko": null,
+            "en": "by converting amplitude modulation to angle modulation"
+          }
+        },
+        {
+          "code": "H03C 3/40",
+          "title": {
+            "ko": null,
+            "en": "using two signal paths the outputs of which have a predetermined phase difference and at least one output being amplitude-modulated"
+          }
+        },
+        {
+          "code": "H03C 3/42",
+          "title": {
+            "ko": "전기-기계소자에 의하는 것(H03C 3/28이 우선)",
+            "en": "by means of electromechanical devices (H03C0003280000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03C 5/00",
+      "title": {
+        "ko": "동일한 변조신호에 의해서 진폭변조 및 각도 변조를 동시에 또는 임의로 발생하게 하는 것(H03C 7/00이 우선)",
+        "en": "Amplitude modulation and angle modulation produced simultaneously or at will by the same modulating signal (H03C0007000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H03C 5/02",
+          "title": {
+            "ko": null,
+            "en": "by means of transit-time tube"
+          }
+        },
+        {
+          "code": "H03C 5/04",
+          "title": {
+            "ko": null,
+            "en": "the tube being a magnetron"
+          }
+        },
+        {
+          "code": "H03C 5/06",
+          "title": {
+            "ko": null,
+            "en": "by deflection of electron beam in discharge tube"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03C 7/00",
+      "title": {
+        "ko": "전자기파의 변조 (광의 변조를 위한 부품 혹은 장치 G02F 1/00)",
+        "en": "Modulating electromagnetic waves (devices or arrangements for the modulation of light G02F0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03C 7/02",
+          "title": {
+            "ko": null,
+            "en": "in transmission lines, waveguides, cavity resonators or radiation fields of antennas"
+          }
+        },
+        {
+          "code": "H03C 7/04",
+          "title": {
+            "ko": null,
+            "en": "Polarisation of transmitted wave being modulated"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

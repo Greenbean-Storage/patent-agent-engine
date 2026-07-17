@@ -1,0 +1,1327 @@
+{
+  "subclass": "G01F",
+  "title": {
+    "ko": "체적. 체적유량, 질량유량 또는 액위측정; 체적에 의한 계량",
+    "en": "MEASURING VOLUME, VOLUME FLOW, MASS FLOW, OR LIQUID LEVEL; METERING BY VOLUME"
+  },
+  "definition": {
+    "ko": "체적의 측정 G01F17/00, G01F19/00, G01F22/00 체적 유량의 측정 연속류에 있어서의 것; 불연속류에 있어서의 것; 유량의 비율에 의한 것 G01F1/00; G01F3/00; G01F5/00 다수의 측정범위를 가진 것 G01F7/00 다른 양과의 비교에 의한 것 G01F9/00 레벨 지시계 G01F23/00 체적에 의한 계량 G01F11/00, G01F13/00 세부, 부속물 G01F15/00 시험, 교정 G01F25/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01F 1/00",
+      "title": {
+        "ko": "연속적인 흐름에서 유체가 계량기를 통과하여 유체 또는 유동성 고체 물질의 체적 유량 또는 질량 유량을 측정(체적 유량의 비율 측정 G01F5/00)",
+        "en": "Measuring volume flow"
+      },
+      "definition": {
+        "ko": "그룹 G01F1/704 ~ G01F1/76은 그룹 G01F1/05 ~ G01F1/68에 우선함",
+        "en": null
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 1/00",
+      "title": {
+        "ko": "연속적인 흐름에서 유체가 계량기를 통과하여 유체 또는 유동성 고체 물질의 체적 유량 또는 질량 유량을 측정(체적 유량의 비율 측정 G01F5/00)",
+        "en": "Measuring the volume flow or mass flow of fluid or fluent solid material wherein the fluid passes through a meter in a continuous flow (measuring a proportion of the volume flow G01F0005000000)"
+      },
+      "definition": {
+        "ko": "그룹 G01F1/704 ~ G01F1/76은 그룹 G01F1/05 ~ G01F1/68에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G01F 1/002",
+          "title": {
+            "ko": null,
+            "en": "wherein the flow is in an open channel"
+          }
+        },
+        {
+          "code": "G01F 1/05",
+          "title": {
+            "ko": null,
+            "en": "by using mechanical effects"
+          }
+        },
+        {
+          "code": "G01F 1/06",
+          "title": {
+            "ko": null,
+            "en": "using rotating vanes with tangential admission"
+          }
+        },
+        {
+          "code": "G01F 1/07",
+          "title": {
+            "ko": null,
+            "en": "with mechanical coupling to the indicating device"
+          }
+        },
+        {
+          "code": "G01F 1/075",
+          "title": {
+            "ko": null,
+            "en": "with magnetic or electromagnetic coupling to the indicating device"
+          }
+        },
+        {
+          "code": "G01F 1/08",
+          "title": {
+            "ko": null,
+            "en": "Adjusting, correcting, or compensating means therefor"
+          }
+        },
+        {
+          "code": "G01F 1/10",
+          "title": {
+            "ko": null,
+            "en": "using rotating vanes with axial admission"
+          }
+        },
+        {
+          "code": "G01F 1/11",
+          "title": {
+            "ko": null,
+            "en": "with mechanical coupling to the indicating device"
+          }
+        },
+        {
+          "code": "G01F 1/115",
+          "title": {
+            "ko": null,
+            "en": "with magnetic or electromagnetic coupling to the indicating device"
+          }
+        },
+        {
+          "code": "G01F 1/12",
+          "title": {
+            "ko": null,
+            "en": "Adjusting, correcting, or compensating means therefor"
+          }
+        },
+        {
+          "code": "G01F 1/20",
+          "title": {
+            "ko": null,
+            "en": "by detection of dynamic effects of the flow"
+          }
+        },
+        {
+          "code": "G01F 1/22",
+          "title": {
+            "ko": null,
+            "en": "by variable-area meters"
+          }
+        },
+        {
+          "code": "G01F 1/24",
+          "title": {
+            "ko": null,
+            "en": "with magnetic or electric coupling to the indicating device"
+          }
+        },
+        {
+          "code": "G01F 1/26",
+          "title": {
+            "ko": null,
+            "en": "of the valve type"
+          }
+        },
+        {
+          "code": "G01F 1/28",
+          "title": {
+            "ko": null,
+            "en": "by drag-force, e.g. vane type or impact flowmeter"
+          }
+        },
+        {
+          "code": "G01F 1/30",
+          "title": {
+            "ko": null,
+            "en": "for fluent solid material"
+          }
+        },
+        {
+          "code": "G01F 1/32",
+          "title": {
+            "ko": null,
+            "en": "using swirl flowmeters"
+          }
+        },
+        {
+          "code": "G01F 1/325",
+          "title": {
+            "ko": null,
+            "en": "Means for detecting quantities used as proxy variables for swirl"
+          }
+        },
+        {
+          "code": "G01F 1/34",
+          "title": {
+            "ko": null,
+            "en": "by measuring pressure or differential pressure"
+          }
+        },
+        {
+          "code": "G01F 1/36",
+          "title": {
+            "ko": null,
+            "en": "the pressure or differential pressure being created by the use of flow constriction"
+          }
+        },
+        {
+          "code": "G01F 1/37",
+          "title": {
+            "ko": null,
+            "en": "the pressure or differential pressure being measured by means of communicating tubes or reservoirs with movable fluid levels, e.g. by U-tubes"
+          }
+        },
+        {
+          "code": "G01F 1/38",
+          "title": {
+            "ko": null,
+            "en": "the pressure or differential pressure being measured by means of a movable element, e.g. diaphragm, piston, Bourdon tube or flexible capsule"
+          }
+        },
+        {
+          "code": "G01F 1/40",
+          "title": {
+            "ko": null,
+            "en": "Details of construction of the flow constriction devices"
+          }
+        },
+        {
+          "code": "G01F 1/42",
+          "title": {
+            "ko": null,
+            "en": "Orifices or nozzles"
+          }
+        },
+        {
+          "code": "G01F 1/44",
+          "title": {
+            "ko": null,
+            "en": "Venturi tubes"
+          }
+        },
+        {
+          "code": "G01F 1/46",
+          "title": {
+            "ko": null,
+            "en": "Pitot tubes"
+          }
+        },
+        {
+          "code": "G01F 1/48",
+          "title": {
+            "ko": null,
+            "en": "the pressure or differential pressure being created by a capillary element"
+          }
+        },
+        {
+          "code": "G01F 1/50",
+          "title": {
+            "ko": null,
+            "en": "Correcting or compensating means"
+          }
+        },
+        {
+          "code": "G01F 1/52",
+          "title": {
+            "ko": null,
+            "en": "by measuring the height of the fluid level due to the lifting power of the fluid flow"
+          }
+        },
+        {
+          "code": "G01F 1/54",
+          "title": {
+            "ko": null,
+            "en": "by means of chains, flexible bands, or wires introduced into, and moved by, the flow"
+          }
+        },
+        {
+          "code": "G01F 1/56",
+          "title": {
+            "ko": "전기적 또는 자기적인 효과를 사용하는 것(G01F 1/66이 우선)",
+            "en": "by using electric or magnetic effects (G01F0001660000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01F 1/58",
+          "title": {
+            "ko": null,
+            "en": "by electromagnetic flowmeters"
+          }
+        },
+        {
+          "code": "G01F 1/60",
+          "title": {
+            "ko": null,
+            "en": "Circuits therefor"
+          }
+        },
+        {
+          "code": "G01F 1/64",
+          "title": {
+            "ko": "유체 유량을 통과하는 전류의 측정에 의한 것; 유체 유량에 의해 생성된 전위의 측정에 의한 것, 예. 전기화학적, 접촉, 또는 마찰 효과에 의한 것 (G01F1/58이 우선)",
+            "en": "by measuring electrical currents passing through the fluid flow; by measuring electrical potential generated by the fluid flow, e.g. by electrochemical, contact, or friction effects (G01F0001580000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01F 1/66",
+          "title": {
+            "ko": null,
+            "en": "by measuring frequency, phase shift or propagation time of electromagnetic or other waves, e.g. using ultrasonic flowmeters"
+          }
+        },
+        {
+          "code": "G01F 1/661",
+          "title": {
+            "ko": null,
+            "en": "using light"
+          }
+        },
+        {
+          "code": "G01F 1/663",
+          "title": {
+            "ko": null,
+            "en": "by measuring Doppler frequency shift"
+          }
+        },
+        {
+          "code": "G01F 1/667",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of transducers for ultrasonic flowmeters; Circuits for operating ultrasonic flowmeters"
+          }
+        },
+        {
+          "code": "G01F 1/68",
+          "title": {
+            "ko": null,
+            "en": "by using thermal effects"
+          }
+        },
+        {
+          "code": "G01F 1/684",
+          "title": {
+            "ko": null,
+            "en": "Structural arrangements; Mounting of elements, e.g. in relation to fluid flow"
+          }
+        },
+        {
+          "code": "G01F 1/688",
+          "title": {
+            "ko": null,
+            "en": "using a particular type of heating, cooling or sensing element"
+          }
+        },
+        {
+          "code": "G01F 1/69",
+          "title": {
+            "ko": null,
+            "en": "of resistive type"
+          }
+        },
+        {
+          "code": "G01F 1/692",
+          "title": {
+            "ko": null,
+            "en": "Thin-film arrangements"
+          }
+        },
+        {
+          "code": "G01F 1/696",
+          "title": {
+            "ko": null,
+            "en": "Circuits therefor, e.g. constant-current flow meters"
+          }
+        },
+        {
+          "code": "G01F 1/698",
+          "title": {
+            "ko": null,
+            "en": "Feedback or rebalancing circuits, e.g. self heated constant temperature flowmeters"
+          }
+        },
+        {
+          "code": "G01F 1/699",
+          "title": {
+            "ko": null,
+            "en": "by control of a separate heating or cooling element"
+          }
+        },
+        {
+          "code": "G01F 1/704",
+          "title": {
+            "ko": "유체 유량내에서 표시된 영역 또는 기존의 불균일성을 사용하는 것, 예. 유체 파라미터에서 통계적으로 발생하는 변동 (G01F1/76, G01F25/00이 우선)",
+            "en": "using marked regions or existing inhomogeneities within the fluid stream, e.g. statistically occurring variations in a fluid parameter (G01F0001760000, G01F0025000000 take precedence)"
+          }
+        },
+        {
+          "code": "G01F 1/708",
+          "title": {
+            "ko": null,
+            "en": "Measuring the time taken to traverse a fixed distance"
+          }
+        },
+        {
+          "code": "G01F 1/7082",
+          "title": {
+            "ko": null,
+            "en": "using acoustic detecting arrangements"
+          }
+        },
+        {
+          "code": "G01F 1/7084",
+          "title": {
+            "ko": null,
+            "en": "using thermal detecting arrangements"
+          }
+        },
+        {
+          "code": "G01F 1/7086",
+          "title": {
+            "ko": null,
+            "en": "using optical detecting arrangements"
+          }
+        },
+        {
+          "code": "G01F 1/7088",
+          "title": {
+            "ko": null,
+            "en": "using electrically charged particles as tracers"
+          }
+        },
+        {
+          "code": "G01F 1/712",
+          "title": {
+            "ko": null,
+            "en": "using auto-correlation or cross-correlation detection means"
+          }
+        },
+        {
+          "code": "G01F 1/716",
+          "title": {
+            "ko": null,
+            "en": "using electron paramagnetic resonance [EPR] or nuclear magnetic resonance [NMR]"
+          }
+        },
+        {
+          "code": "G01F 1/72",
+          "title": {
+            "ko": null,
+            "en": "Devices for measuring pulsing fluid flows"
+          }
+        },
+        {
+          "code": "G01F 1/74",
+          "title": {
+            "ko": null,
+            "en": "Devices for measuring flow of a fluid or flow of a fluent solid material in suspension in another fluid"
+          }
+        },
+        {
+          "code": "G01F 1/76",
+          "title": {
+            "ko": null,
+            "en": "Devices for measuring mass flow of a fluid or a fluent solid material"
+          }
+        },
+        {
+          "code": "G01F 1/78",
+          "title": {
+            "ko": null,
+            "en": "Direct mass flowmeters"
+          }
+        },
+        {
+          "code": "G01F 1/80",
+          "title": {
+            "ko": null,
+            "en": "operating by measuring pressure, force, momentum, or frequency of a fluid flow to which a rotational movement has been imparted"
+          }
+        },
+        {
+          "code": "G01F 1/82",
+          "title": {
+            "ko": null,
+            "en": "using a driven wheel as impeller and one or more other wheels or moving elements which are angularly restrained by a resilient member, e.g. spring member, as the measuring device"
+          }
+        },
+        {
+          "code": "G01F 1/84",
+          "title": {
+            "ko": null,
+            "en": "Coriolis or gyroscopic mass flowmeters"
+          }
+        },
+        {
+          "code": "G01F 1/86",
+          "title": {
+            "ko": null,
+            "en": "Indirect mass flowmeters, e.g. measuring volume flow and density, temperature, or pressure"
+          }
+        },
+        {
+          "code": "G01F 1/88",
+          "title": {
+            "ko": null,
+            "en": "with differential-pressure measurement to determine the volume flow"
+          }
+        },
+        {
+          "code": "G01F 1/90",
+          "title": {
+            "ko": null,
+            "en": "with positive-displacement meter or turbine meter to determine the volume flow"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01F 3/00",
+      "title": {
+        "ko": "유체가 연속적이고 다소 고립된 양으로 계량기를 통과하는 유체 또는 유동성 고체 물질의 체적 유량을 측정하는 것, 계량기는 유량에 의해 구동되는 것 (체적 유량의 비율을 측정하는 것 G01F5/00)",
+        "en": "Measuring the volume flow of fluids or fluent solid material wherein the fluid passes through the meter in successive and more or less isolated quantities, the meter being driven by the flow (measuring a proportion of the volume flow G01F0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01F 3/02",
+          "title": {
+            "ko": null,
+            "en": "with measuring chambers which expand or contract during measurement"
+          }
+        },
+        {
+          "code": "G01F 3/04",
+          "title": {
+            "ko": null,
+            "en": "having rigid movable walls"
+          }
+        },
+        {
+          "code": "G01F 3/06",
+          "title": {
+            "ko": null,
+            "en": "comprising members rotating in a fluid-tight or substantially fluid-tight manner in a housing"
+          }
+        },
+        {
+          "code": "G01F 3/08",
+          "title": {
+            "ko": null,
+            "en": "Rotary-piston or ring-piston meters"
+          }
+        },
+        {
+          "code": "G01F 3/10",
+          "title": {
+            "ko": null,
+            "en": "Geared or lobed impeller meters"
+          }
+        },
+        {
+          "code": "G01F 3/12",
+          "title": {
+            "ko": null,
+            "en": "Meters with nutating members, e.g. discs"
+          }
+        },
+        {
+          "code": "G01F 3/14",
+          "title": {
+            "ko": null,
+            "en": "comprising reciprocating pistons, e.g. reciprocating in a rotating body"
+          }
+        },
+        {
+          "code": "G01F 3/16",
+          "title": {
+            "ko": null,
+            "en": "in stationary cylinders"
+          }
+        },
+        {
+          "code": "G01F 3/18",
+          "title": {
+            "ko": null,
+            "en": "involving two or more cylinders"
+          }
+        },
+        {
+          "code": "G01F 3/20",
+          "title": {
+            "ko": null,
+            "en": "having flexible movable walls, e.g. diaphragms, bellows"
+          }
+        },
+        {
+          "code": "G01F 3/22",
+          "title": {
+            "ko": null,
+            "en": "for gases"
+          }
+        },
+        {
+          "code": "G01F 3/24",
+          "title": {
+            "ko": "작동중 움직이는 측정실을 가진 것(습식 가스메타 G01F 3/30)",
+            "en": "with measuring chambers moved during operation (wet gas-meters G01F0003300000)"
+          }
+        },
+        {
+          "code": "G01F 3/26",
+          "title": {
+            "ko": null,
+            "en": "Tilting-trap meters"
+          }
+        },
+        {
+          "code": "G01F 3/28",
+          "title": {
+            "ko": null,
+            "en": "on carriers rotated by the weight of the liquid in the measuring chambers"
+          }
+        },
+        {
+          "code": "G01F 3/30",
+          "title": {
+            "ko": null,
+            "en": "Wet gas-meters"
+          }
+        },
+        {
+          "code": "G01F 3/32",
+          "title": {
+            "ko": null,
+            "en": "comprising partitioned drums rotating or nutating in a liquid"
+          }
+        },
+        {
+          "code": "G01F 3/34",
+          "title": {
+            "ko": null,
+            "en": "comprising bells reciprocating in a liquid"
+          }
+        },
+        {
+          "code": "G01F 3/36",
+          "title": {
+            "ko": "측정중에 일정체적을 가지며 정지한 측정실을 가진 것(측정중에 팽창 또는 수축하는 측정실을 가진 것 G01F 3/02)",
+            "en": "with stationary measuring chambers having constant volume during measurement (with measuring chambers which expand or contract during measurement G01F0003020000)"
+          }
+        },
+        {
+          "code": "G01F 3/38",
+          "title": {
+            "ko": null,
+            "en": "having only one measuring chamber"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01F 5/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring a proportion of the volume flow"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 7/00",
+      "title": {
+        "ko": null,
+        "en": "Volume-flow measuring devices with two or more measuring ranges; Compound meters"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 9/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring volume flow relative to another variable, e.g. of liquid fuel for an engine"
+      },
+      "subgroups": [
+        {
+          "code": "G01F 9/02",
+          "title": {
+            "ko": null,
+            "en": "wherein the other variable is the speed of a vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01F 11/00",
+      "title": {
+        "ko": "중량에 관계없이 공급물 또는 용기로부터 유체 또는 유동성 고체의 정해진 체적을 측정하고 분리하고 반출하기 위해 각각 반복되고 동일한 조작하는데 적합한 외적 조작을 필요로 하는 장치",
+        "en": "Metering by volume"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 11/00",
+      "title": {
+        "ko": "중량에 관계없이 공급물 또는 용기로부터 유체 또는 유동성 고체의 정해진 체적을 측정하고 분리하고 반출하기 위해 각각 반복되고 동일한 조작하는데 적합한 외적 조작을 필요로 하는 장치",
+        "en": "Apparatus requiring external operation adapted at each repeated and identical operation to measure and separate a predetermined volume of fluid or fluent solid material from a supply or container, without regard to weight, and to deliver it"
+      },
+      "subgroups": [
+        {
+          "code": "G01F 11/02",
+          "title": {
+            "ko": null,
+            "en": "with measuring chambers which expand or contract during measurement"
+          }
+        },
+        {
+          "code": "G01F 11/04",
+          "title": {
+            "ko": null,
+            "en": "of the free-piston type"
+          }
+        },
+        {
+          "code": "G01F 11/06",
+          "title": {
+            "ko": null,
+            "en": "with provision for varying the stroke of the piston"
+          }
+        },
+        {
+          "code": "G01F 11/08",
+          "title": {
+            "ko": null,
+            "en": "of the diaphragm or bellows type"
+          }
+        },
+        {
+          "code": "G01F 11/10",
+          "title": {
+            "ko": "작동중에 움직이는 측정실을 가진 것",
+            "en": "with measuring chambers moved during operation"
+          }
+        },
+        {
+          "code": "G01F 11/12",
+          "title": {
+            "ko": "밸브형의 것, 즉. 유체 기밀하거나 분체 기밀한 운동에 의해 영향받는 분리(공급용기의 기울이거나 뒤집는 것을 포함한 것 G01F 11/26)",
+            "en": "of the valve type, i.e. the separating being effected by fluid-tight or powder-tight movements (involving the tilting or inverting of the supply vessel G01F0011260000)"
+          }
+        },
+        {
+          "code": "G01F 11/14",
+          "title": {
+            "ko": null,
+            "en": "wherein the measuring chamber reciprocates"
+          }
+        },
+        {
+          "code": "G01F 11/16",
+          "title": {
+            "ko": null,
+            "en": "for liquid or semiliquid"
+          }
+        },
+        {
+          "code": "G01F 11/18",
+          "title": {
+            "ko": null,
+            "en": "for fluent solid material"
+          }
+        },
+        {
+          "code": "G01F 11/20",
+          "title": {
+            "ko": null,
+            "en": "wherein the measuring chamber rotates or oscillates"
+          }
+        },
+        {
+          "code": "G01F 11/22",
+          "title": {
+            "ko": null,
+            "en": "for liquid or semiliquid"
+          }
+        },
+        {
+          "code": "G01F 11/24",
+          "title": {
+            "ko": null,
+            "en": "for fluent solid material"
+          }
+        },
+        {
+          "code": "G01F 11/26",
+          "title": {
+            "ko": null,
+            "en": "wherein the measuring chamber is filled and emptied by tilting or inverting the supply vessel, e.g. bottle-emptying apparatus"
+          }
+        },
+        {
+          "code": "G01F 11/28",
+          "title": {
+            "ko": null,
+            "en": "with stationary measuring chambers having constant volume during measurement"
+          }
+        },
+        {
+          "code": "G01F 11/30",
+          "title": {
+            "ko": null,
+            "en": "with supply and discharge valves of the lift or plug-lift type"
+          }
+        },
+        {
+          "code": "G01F 11/32",
+          "title": {
+            "ko": null,
+            "en": "for liquid or semiliquid"
+          }
+        },
+        {
+          "code": "G01F 11/34",
+          "title": {
+            "ko": null,
+            "en": "for fluent solid material"
+          }
+        },
+        {
+          "code": "G01F 11/36",
+          "title": {
+            "ko": null,
+            "en": "with supply or discharge valves of the rectilinearly-moved slide type"
+          }
+        },
+        {
+          "code": "G01F 11/38",
+          "title": {
+            "ko": null,
+            "en": "for liquid or semiliquid"
+          }
+        },
+        {
+          "code": "G01F 11/40",
+          "title": {
+            "ko": null,
+            "en": "for fluent or solid material"
+          }
+        },
+        {
+          "code": "G01F 11/42",
+          "title": {
+            "ko": null,
+            "en": "with supply or discharge valves of the rotary or oscillatory type"
+          }
+        },
+        {
+          "code": "G01F 11/44",
+          "title": {
+            "ko": null,
+            "en": "for liquid or semiliquid"
+          }
+        },
+        {
+          "code": "G01F 11/46",
+          "title": {
+            "ko": null,
+            "en": "for fluent solid material"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01F 13/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for measuring by volume and delivering fluids or fluent solid materials, not provided for in the preceding groups"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 15/00",
+      "title": {
+        "ko": "세부 또는 부속물이 이와 같은 장치의 특수한 형태에 적합하지 않은 한에 있어서 그룹 G01F 1/00부터 3/00의 장치의 세부 또는 부속물",
+        "en": "Details of, or accessories for, apparatus of groups G01F0001000000-G01F0013000000 insofar as such details or appliances are not adapted to particular types of such apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "G01F 15/02",
+          "title": {
+            "ko": null,
+            "en": "Compensating or correcting for variations in pressure, density, or temperature"
+          }
+        },
+        {
+          "code": "G01F 15/04",
+          "title": {
+            "ko": null,
+            "en": "of gases to be measured"
+          }
+        },
+        {
+          "code": "G01F 15/06",
+          "title": {
+            "ko": null,
+            "en": "Indicating or recording devices"
+          }
+        },
+        {
+          "code": "G01F 15/061",
+          "title": {
+            "ko": null,
+            "en": "for remote indication"
+          }
+        },
+        {
+          "code": "G01F 15/063",
+          "title": {
+            "ko": null,
+            "en": "using electrical means"
+          }
+        },
+        {
+          "code": "G01F 15/07",
+          "title": {
+            "ko": null,
+            "en": "Integration to give total flow, e.g. using mechanically-operated integrating mechanism"
+          }
+        },
+        {
+          "code": "G01F 15/075",
+          "title": {
+            "ko": null,
+            "en": "using electrically-operated integrating means"
+          }
+        },
+        {
+          "code": "G01F 15/08",
+          "title": {
+            "ko": null,
+            "en": "Air or gas separators in combination with liquid meters; Liquid separators in combination with gas-meters"
+          }
+        },
+        {
+          "code": "G01F 15/10",
+          "title": {
+            "ko": null,
+            "en": "Preventing damage by freezing or excess pressure or insufficient pressure"
+          }
+        },
+        {
+          "code": "G01F 15/12",
+          "title": {
+            "ko": null,
+            "en": "Cleaning arrangements; Filters"
+          }
+        },
+        {
+          "code": "G01F 15/14",
+          "title": {
+            "ko": null,
+            "en": "Casings, e.g. of special material"
+          }
+        },
+        {
+          "code": "G01F 15/16",
+          "title": {
+            "ko": null,
+            "en": "Diaphragms; Bellows; Mountings therefor"
+          }
+        },
+        {
+          "code": "G01F 15/18",
+          "title": {
+            "ko": null,
+            "en": "Supports or connecting means for meters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01F 17/00",
+      "title": {
+        "ko": "용기 또는 공중체(空中體)의 용적측정 또는 고체의 체적의 측정(체적을 측정하기 위해 길이 치수를 측정하는 것 G01B)",
+        "en": "Measuring volume"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 17/00",
+      "title": {
+        "ko": "용기 또는 공중체(空中體)의 용적측정 또는 고체의 체적의 측정(체적을 측정하기 위해 길이 치수를 측정하는 것 G01B)",
+        "en": "Methods or apparatus for determining the capacity of containers or cavities, or the volume of solid bodies (measuring linear dimensions to determine volume G01B)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 19/00",
+      "title": {
+        "ko": null,
+        "en": "Calibrated capacity measures for fluids or fluent solid material, e.g. measuring cups"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 22/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or apparatus for measuring volume of fluids or fluent solid material, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "G01F 22/02",
+          "title": {
+            "ko": null,
+            "en": "involving measurement of pressure"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01F 23/00",
+      "title": {
+        "ko": "액체 또는 유동성 고체의 레벨의 지시 또는 측정, 예. 부피에 관한 지시, 경보를 이용한 지시",
+        "en": "Level indicators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01F 23/00",
+      "title": {
+        "ko": "액체 또는 유동성 고체의 레벨의 지시 또는 측정, 예. 부피에 관한 지시, 경보를 이용한 지시",
+        "en": "Indicating or measuring liquid level or level of fluent solid material, e.g. indicating in terms of volume or indicating by means of an alarm"
+      },
+      "subgroups": [
+        {
+          "code": "G01F 23/02",
+          "title": {
+            "ko": null,
+            "en": "by gauge glasses or other apparatus involving a window or transparent tube for directly observing the level to be measured or the level of a liquid column in free communication with the main body of the liquid"
+          }
+        },
+        {
+          "code": "G01F 23/04",
+          "title": {
+            "ko": null,
+            "en": "by dip members, e.g. dip-sticks"
+          }
+        },
+        {
+          "code": "G01F 23/14",
+          "title": {
+            "ko": null,
+            "en": "by measurement of pressure"
+          }
+        },
+        {
+          "code": "G01F 23/16",
+          "title": {
+            "ko": null,
+            "en": "Indicating, recording, or alarm devices being actuated by mechanical or fluid means, e.g. using gas, mercury, or a diaphragm as transmitting element, or by a column of liquid"
+          }
+        },
+        {
+          "code": "G01F 23/18",
+          "title": {
+            "ko": null,
+            "en": "Indicating, recording, or alarm devices actuated electrically"
+          }
+        },
+        {
+          "code": "G01F 23/20",
+          "title": {
+            "ko": null,
+            "en": "by measurement of weight, e.g. to determine the level of stored liquefied gas"
+          }
+        },
+        {
+          "code": "G01F 23/22",
+          "title": {
+            "ko": "측정될 레벨(levels)에 근거한, 선형 치수, 압력 또는 무게를 제외한 물리적 변화량 측정에 의한 것, 예. 증기 또는 물의 열전달 차이에 의한(부유물의 이용을 포함한 것 G01F23/30)",
+            "en": "by measuring physical variables, other than linear dimensions, pressure or weight, dependent on the level to be measured, e.g. by difference of heat transfer of steam or water (involving the use of floats G01F0023300000)"
+          }
+        },
+        {
+          "code": "G01F 23/24",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations of resistance of resistors due to contact with conductor fluid"
+          }
+        },
+        {
+          "code": "G01F 23/26",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations of capacity or inductance of capacitors or inductors arising from the presence of liquid or fluent solid material in the electric or electromagnetic fields"
+          }
+        },
+        {
+          "code": "G01F 23/263",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations in capacitance of capacitors"
+          }
+        },
+        {
+          "code": "G01F 23/28",
+          "title": {
+            "ko": null,
+            "en": "by measuring the variations of parameters of electromagnetic or acoustic waves applied directly to the liquid or fluent solid material"
+          }
+        },
+        {
+          "code": "G01F 23/284",
+          "title": {
+            "ko": null,
+            "en": "Electromagnetic waves"
+          }
+        },
+        {
+          "code": "G01F 23/288",
+          "title": {
+            "ko": null,
+            "en": "X-rays; Gamma rays"
+          }
+        },
+        {
+          "code": "G01F 23/292",
+          "title": {
+            "ko": null,
+            "en": "Light"
+          }
+        },
+        {
+          "code": "G01F 23/296",
+          "title": {
+            "ko": null,
+            "en": "Acoustic waves"
+          }
+        },
+        {
+          "code": "G01F 23/2962",
+          "title": {
+            "ko": null,
+            "en": "Measuring transit time of reflected waves"
+          }
+        },
+        {
+          "code": "G01F 23/2965",
+          "title": {
+            "ko": null,
+            "en": "Measuring attenuation of transmitted waves"
+          }
+        },
+        {
+          "code": "G01F 23/30",
+          "title": {
+            "ko": null,
+            "en": "by floats"
+          }
+        },
+        {
+          "code": "G01F 23/32",
+          "title": {
+            "ko": null,
+            "en": "using rotatable arms or other pivotable transmission elements"
+          }
+        },
+        {
+          "code": "G01F 23/34",
+          "title": {
+            "ko": null,
+            "en": "using mechanically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/36",
+          "title": {
+            "ko": null,
+            "en": "using electrically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/38",
+          "title": {
+            "ko": null,
+            "en": "using magnetically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/40",
+          "title": {
+            "ko": null,
+            "en": "using bands or wires as transmission elements"
+          }
+        },
+        {
+          "code": "G01F 23/42",
+          "title": {
+            "ko": null,
+            "en": "using mechanically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/44",
+          "title": {
+            "ko": null,
+            "en": "using electrically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/46",
+          "title": {
+            "ko": null,
+            "en": "using magnetically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/48",
+          "title": {
+            "ko": null,
+            "en": "using twisted spindles as transmission elements"
+          }
+        },
+        {
+          "code": "G01F 23/50",
+          "title": {
+            "ko": null,
+            "en": "using mechanically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/52",
+          "title": {
+            "ko": null,
+            "en": "using electrically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/54",
+          "title": {
+            "ko": null,
+            "en": "using magnetically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/56",
+          "title": {
+            "ko": null,
+            "en": "using elements rigidly fixed to, and rectilinearly moving with, the floats as transmission elements"
+          }
+        },
+        {
+          "code": "G01F 23/58",
+          "title": {
+            "ko": null,
+            "en": "using mechanically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/60",
+          "title": {
+            "ko": null,
+            "en": "using electrically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/62",
+          "title": {
+            "ko": null,
+            "en": "using magnetically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/64",
+          "title": {
+            "ko": null,
+            "en": "of the free float type"
+          }
+        },
+        {
+          "code": "G01F 23/66",
+          "title": {
+            "ko": null,
+            "en": "using mechanically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/68",
+          "title": {
+            "ko": null,
+            "en": "using electrically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/70",
+          "title": {
+            "ko": null,
+            "en": "for sensing changes in level only at discrete points"
+          }
+        },
+        {
+          "code": "G01F 23/72",
+          "title": {
+            "ko": null,
+            "en": "using magnetically actuated indicating means"
+          }
+        },
+        {
+          "code": "G01F 23/74",
+          "title": {
+            "ko": null,
+            "en": "for sensing changes in level only at discrete points"
+          }
+        },
+        {
+          "code": "G01F 23/76",
+          "title": {
+            "ko": null,
+            "en": "characterised by the construction of the float"
+          }
+        },
+        {
+          "code": "G01F 23/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for signal processing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01F 25/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibration of apparatus for measuring volume, volume flow or liquid level or for metering by volume"
+      },
+      "subgroups": [
+        {
+          "code": "G01F 25/10",
+          "title": {
+            "ko": null,
+            "en": "of flowmeters"
+          }
+        },
+        {
+          "code": "G01F 25/17",
+          "title": {
+            "ko": null,
+            "en": "using calibrated reservoirs"
+          }
+        },
+        {
+          "code": "G01F 25/20",
+          "title": {
+            "ko": null,
+            "en": "of apparatus for measuring liquid level"
+          }
+        }
+      ]
+    }
+  ]
+}

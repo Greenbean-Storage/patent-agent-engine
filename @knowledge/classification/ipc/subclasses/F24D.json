@@ -1,0 +1,493 @@
+{
+  "subclass": "F24D",
+  "title": {
+    "ko": "가정용 또는 구역 난방방식, 예. 중앙난방방식; 가정용온수공급방식; 그를 위한 요소 또는 구성부재 (가열목적을 위하여 증기기관설비에서 압출 또는 배출된 증기 또는 복수의 이용 F01K17/02)",
+    "en": "DOMESTIC- OR SPACE-HEATING SYSTEMS, e.g. CENTRAL HEATING SYSTEMS; DOMESTIC HOT-WATER SUPPLY SYSTEMS; ELEMENTS OR COMPONENTS THEREFOR (using steam or condensate extracted or exhausted from steam engine plants for heating purposes F01K0017020000)"
+  },
+  "definition": {
+    "ko": "중앙난방방식 열전달유체를 가진 것; 증기; 온수; 온풍 또는 배기가스; 기타유체 F24D1/00; F24D3/00; F24D5/00; F24D7/00 조합 F24D9/00 지역난방방식 F24D10/00 축열에 의한 것 F24D11/00 다른 방식 F24D12/00 다른 가정용 또는 지역난방 방식 전기식; 기타 F24D13/00; F24D15/00 가정용 온수공급 F24D17/00 소규모 열병합 발전 시스템 F24D18/00 세부 F24D19/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F24D 1/00",
+      "title": {
+        "ko": "증기중앙난방방식 (지역 난방 시스템 F24D10/00; 저장 매체에 축적된 열을 사용하는 중앙 난방 시스템 F24D11/00)",
+        "en": "Central heating systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24D 1/00",
+      "title": {
+        "ko": "증기중앙난방방식 (지역 난방 시스템 F24D10/00; 저장 매체에 축적된 열을 사용하는 중앙 난방 시스템 F24D11/00)",
+        "en": "Steam central heating systems (district heating systems F24D0010000000;central heating systems using heat accumulated in storage masses F24D0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 1/02",
+          "title": {
+            "ko": null,
+            "en": "operating with live steam"
+          }
+        },
+        {
+          "code": "F24D 1/04",
+          "title": {
+            "ko": null,
+            "en": "operating with exhaust steam"
+          }
+        },
+        {
+          "code": "F24D 1/06",
+          "title": {
+            "ko": null,
+            "en": "operating with superheated steam"
+          }
+        },
+        {
+          "code": "F24D 1/08",
+          "title": {
+            "ko": null,
+            "en": "Feed-line arrangements, e.g. providing for one-pipe system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 3/00",
+      "title": {
+        "ko": "온수 중앙난방방식 (지역 난방 시스템F24D10/00; 저장 매체에 축적된 열을 사용하는 중앙 난방 시스템 F24D11/00)",
+        "en": "Hot-water central heating systems (district heating systems F24D0010000000;central heating systems using heat accumulated in storage masses F24D0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 3/02",
+          "title": {
+            "ko": "강제순환에 의한 것, 예. 펌프에 의한",
+            "en": "with forced circulation, e.g. by pumps"
+          }
+        },
+        {
+          "code": "F24D 3/04",
+          "title": {
+            "ko": null,
+            "en": "with the water under high pressure"
+          }
+        },
+        {
+          "code": "F24D 3/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or devices for maintaining high pressure"
+          }
+        },
+        {
+          "code": "F24D 3/08",
+          "title": {
+            "ko": null,
+            "en": "in combination with systems for domestic hot-water supply"
+          }
+        },
+        {
+          "code": "F24D 3/10",
+          "title": {
+            "ko": null,
+            "en": "Feed-line arrangements, e.g. providing for heat-accumulator tanks, expansion tanks"
+          }
+        },
+        {
+          "code": "F24D 3/12",
+          "title": {
+            "ko": "천정, 벽 또는 바닥난방용의 관 및 판넬(Panel) 장치 (전기적 바닥난방 F24D13/02)",
+            "en": "Tube and panel arrangements for ceiling, wall, or underfloor heating  (electric underfloor heating F24D0013020000)"
+          }
+        },
+        {
+          "code": "F24D 3/14",
+          "title": {
+            "ko": null,
+            "en": "incorporated in a ceiling, wall or floor"
+          }
+        },
+        {
+          "code": "F24D 3/16",
+          "title": {
+            "ko": null,
+            "en": "mounted on, or adjacent to, a ceiling, wall or floor"
+          }
+        },
+        {
+          "code": "F24D 3/18",
+          "title": {
+            "ko": null,
+            "en": "using heat pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 5/00",
+      "title": {
+        "ko": "뜨거운 공기 중앙 난방 시스템(지역 난방 시스템 F24D10/00, 저장 매스에 축적된 열을 사용하는 중앙 난방 시스템 F24D11/00, 에어컨 F24F) ; 배기 가스 중앙 난방 시스템",
+        "en": "Hot-air central heating systems (district heating systems F24D0010000000;central heating systems using heat accumulated in storage masses F24D0011000000;air conditioning F24F); Exhaust-gas central heating systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 5/02",
+          "title": {
+            "ko": null,
+            "en": "operating with discharge of hot air into the space or area to be heated"
+          }
+        },
+        {
+          "code": "F24D 5/04",
+          "title": {
+            "ko": null,
+            "en": "with return of the air to the air heater"
+          }
+        },
+        {
+          "code": "F24D 5/06",
+          "title": {
+            "ko": null,
+            "en": "operating without discharge of hot air into the space or area to be heated"
+          }
+        },
+        {
+          "code": "F24D 5/08",
+          "title": {
+            "ko": null,
+            "en": "with hot air led through radiators"
+          }
+        },
+        {
+          "code": "F24D 5/10",
+          "title": {
+            "ko": null,
+            "en": "with hot air led through heat-exchange ducts in the walls, floor, or ceiling"
+          }
+        },
+        {
+          "code": "F24D 5/12",
+          "title": {
+            "ko": null,
+            "en": "using heat pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 7/00",
+      "title": {
+        "ko": "그룹 F24D1/00 ~ F24D5/00에 포함되지 않는 열전달 유체를 사용하는 중앙 난방 시스템, 예. 기름, 소금 또는 가스(지역 난방 시스템 F24D10/00, 저장 질량에 축적된 열을 사용하는 중앙 난방 시스템 F24D11/00)",
+        "en": "Central heating systems employing heat-transfer fluids not covered by groups F24D0001000000-F24D0005000000, e.g. oil, salt or gas  (district heating systems F24D0010000000; central heating systems using heat accumulated in storage masses F24D0011000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24D 9/00",
+      "title": {
+        "ko": "그룹 F24D1/00 ～ F24D7/00 중에서 2 또는 그 이상에 포함되는 열전달 유체의 조합을 사용하는 중앙 난방 시스템(지역 난방 시스템 F24D10/00; 저장 매체에 축적된 열을 사용하는 중앙 난방 시스템 F24D11/00)",
+        "en": "Central heating systems employing combinations of heat-transfer fluids covered by two or more of groups F24D0001000000-F24D0007000000 (district heating systems F24D0010000000;central heating systems using heat accumulated in storage masses F24D0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Hot water and steam systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 10/00",
+      "title": {
+        "ko": null,
+        "en": "District heating systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24D 11/00",
+      "title": {
+        "ko": "축열체에 축적된 열을 사용하는 중앙 난방 시스템(자급식 저장 가열 장치 F24D15/02)",
+        "en": "Central heating systems using heat accumulated in storage masses (self-contained storage heating units F24D0015020000)"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 11/02",
+          "title": {
+            "ko": null,
+            "en": "using heat pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 12/00",
+      "title": {
+        "ko": "기타중앙난방방식",
+        "en": "Other central heating systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 12/02",
+          "title": {
+            "ko": "1개 이상의 가열원을 가지는 것 (수중 가열 시스템에서 열펌프 사용 F24D3/18; 공기 중앙 난방 시스템 F24D5/12; 축열 질량을 사용하는 시스템 F24D11/02)",
+            "en": "having more than one heat source  (using heat pumps, in water central heating systems F24D0003180000;in air central heating systems F24D0005120000;in systems using heat storage masses F24D0011020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Other domestic- or space-heating systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Electric heating systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 13/02",
+          "title": {
+            "ko": null,
+            "en": "solely using resistance heating, e.g. underfloor heating"
+          }
+        },
+        {
+          "code": "F24D 13/04",
+          "title": {
+            "ko": null,
+            "en": "using electric heating of heat-transfer fluid in separate units of the system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Other domestic- or space-heating systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 15/02",
+          "title": {
+            "ko": null,
+            "en": "consisting of self-contained heating units, e.g. storage heaters"
+          }
+        },
+        {
+          "code": "F24D 15/04",
+          "title": {
+            "ko": null,
+            "en": "using heat pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Domestic hot-water supply systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 17/02",
+          "title": {
+            "ko": null,
+            "en": "using heat pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 18/00",
+      "title": {
+        "ko": null,
+        "en": "Small-scale combined heat and power [CHP] generation systems specially adapted for domestic heating, space heating or domestic hot-water supply"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24D 19/00",
+      "title": {
+        "ko": "세부(물가열기 또는 공기가열기에 관한 것 F24H 9/00; 일반적인 열교환 및 열전달장치에 관한 것 F28F)",
+        "en": "Details (of water or air heaters F24H0009000000;of heat-exchange or heat-transfer apparatus, of general application F28F)"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 19/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of mountings or supports for radiators"
+          }
+        },
+        {
+          "code": "F24D 19/04",
+          "title": {
+            "ko": null,
+            "en": "in skirtings"
+          }
+        },
+        {
+          "code": "F24D 19/06",
+          "title": {
+            "ko": null,
+            "en": "Casings, cover lids or ornamental panels, for radiators"
+          }
+        },
+        {
+          "code": "F24D 19/08",
+          "title": {
+            "ko": "배수, 배기 또는 흡기하기 위한 장치 (배기 또는 흡기를 위한 밸브 F16K 24/00)",
+            "en": "Arrangements for drainage, venting or aerating   (valves for venting or aerating F16K0024000000)"
+          }
+        },
+        {
+          "code": "F24D 19/10",
+          "title": {
+            "ko": "제어 또는 안전장치의 배치 또는 부착 (단순히 그 가열기가 제어되어 있는 것 F24H9/20)",
+            "en": "Arrangement or mounting of control or safety devices  (only the heater being controlled F24H0009200000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with group F24D0018000000, relating to electric generators, thermal aspects and constructional aspects of small-scale combined heat and power [CHP] systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24D 101/00",
+      "title": {
+        "ko": null,
+        "en": "Electric generators of small-scale CHP systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 101/10",
+          "title": {
+            "ko": null,
+            "en": "Gas turbines; Steam engines or steam turbines; Water turbines, e.g. located in water pipes"
+          }
+        },
+        {
+          "code": "F24D 101/20",
+          "title": {
+            "ko": null,
+            "en": "Wind turbines"
+          }
+        },
+        {
+          "code": "F24D 101/30",
+          "title": {
+            "ko": null,
+            "en": "Fuel cells"
+          }
+        },
+        {
+          "code": "F24D 101/40",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic [PV] modules"
+          }
+        },
+        {
+          "code": "F24D 101/50",
+          "title": {
+            "ko": null,
+            "en": "Thermophotovoltaic [TPV] modules"
+          }
+        },
+        {
+          "code": "F24D 101/60",
+          "title": {
+            "ko": null,
+            "en": "Thermoelectric generators, e.g. Peltier or Seebeck elements"
+          }
+        },
+        {
+          "code": "F24D 101/70",
+          "title": {
+            "ko": null,
+            "en": "Electric generators driven by internal combustion engines [ICE]"
+          }
+        },
+        {
+          "code": "F24D 101/80",
+          "title": {
+            "ko": null,
+            "en": "Electric generators driven by external combustion engines, e.g. Stirling engines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 103/00",
+      "title": {
+        "ko": null,
+        "en": "Thermal aspects of small-scale CHP systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 103/10",
+          "title": {
+            "ko": null,
+            "en": "Small-scale CHP systems characterised by their heat recovery units"
+          }
+        },
+        {
+          "code": "F24D 103/13",
+          "title": {
+            "ko": null,
+            "en": "characterised by their heat exchangers"
+          }
+        },
+        {
+          "code": "F24D 103/17",
+          "title": {
+            "ko": null,
+            "en": "Storage tanks"
+          }
+        },
+        {
+          "code": "F24D 103/20",
+          "title": {
+            "ko": null,
+            "en": "Additional heat sources for supporting thermal peak loads"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24D 105/00",
+      "title": {
+        "ko": null,
+        "en": "Constructional aspects of small-scale CHP systems"
+      },
+      "subgroups": [
+        {
+          "code": "F24D 105/10",
+          "title": {
+            "ko": null,
+            "en": "Sound insulation"
+          }
+        }
+      ]
+    }
+  ]
+}

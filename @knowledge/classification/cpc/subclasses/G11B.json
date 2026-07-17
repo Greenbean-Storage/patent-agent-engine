@@ -1,0 +1,976 @@
+{
+  "subclass": "G11B",
+  "title": {
+    "ko": null,
+    "en": "INFORMATION STORAGE BASED ON RELATIVE MOVEMENT BETWEEN RECORD CARRIER AND TRANSDUCER (recording measured values in a way that does not require playback through a transducer G01D9/00; recording or playback apparatus using mechanically marked tape, e.g. punched paper tape, or using unit records, e.g. punched or magnetically marked cards G06K; transferring data from one type of record carrier to another G06K1/18; circuits for coupling output of reproducer to radio receiver H04B1/20; gramophone pick-ups or like acoustic electromechanical transducers or circuits therefor H04R)"
+  },
+  "groups": [
+    {
+      "code": "G11B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Recording by mechanical cutting, deforming or pressing, e.g. of grooves or pits; Reproducing by mechanical sensing; Record carriers therefor (G11B11/00, {G11B13/00} take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 3/001",
+          "title": {
+            "ko": null,
+            "en": "{with vibrating mechanical coupling means between pick-up element and sound producing element}"
+          }
+        },
+        {
+          "code": "G11B 3/003",
+          "title": {
+            "ko": null,
+            "en": "{Devices for transmitting, directing, amplifying sound (in general G10K11/18)}"
+          }
+        },
+        {
+          "code": "G11B 3/007",
+          "title": {
+            "ko": null,
+            "en": "{Devices for controlling sound, e.g. using acoustical impedances, using valves}"
+          }
+        },
+        {
+          "code": "G11B 3/008",
+          "title": {
+            "ko": null,
+            "en": "{for digital information}"
+          }
+        },
+        {
+          "code": "G11B 3/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of heads"
+          }
+        },
+        {
+          "code": "G11B 3/44",
+          "title": {
+            "ko": null,
+            "en": "Styli, e.g. sapphire, diamond"
+          }
+        },
+        {
+          "code": "G11B 3/58",
+          "title": {
+            "ko": null,
+            "en": "Cleaning record carriers or styli, e.g. removing shavings or dust {or electrostatic charges}"
+          }
+        },
+        {
+          "code": "G11B 3/60",
+          "title": {
+            "ko": null,
+            "en": "Turntables for record carriers"
+          }
+        },
+        {
+          "code": "G11B 3/64",
+          "title": {
+            "ko": null,
+            "en": "Re-recording, i.e. transcribing information from one grooved record carrier on to one or more similar or dissimilar record carriers {(by varying the order of the information G11B27/029, G11B27/036)}"
+          }
+        },
+        {
+          "code": "G11B 3/66",
+          "title": {
+            "ko": null,
+            "en": "Erasing information, e.g. for reuse of record carrier"
+          }
+        },
+        {
+          "code": "G11B 3/68",
+          "title": {
+            "ko": null,
+            "en": "Record carriers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Recording by magnetisation or demagnetisation of a record carrier; Reproducing by magnetic means; Record carriers therefor (G11B11/00 {and G11B13/00} take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 2005/0002",
+          "title": {
+            "ko": null,
+            "en": "{Special dispositions or recording techniques}"
+          }
+        },
+        {
+          "code": "G11B 5/004",
+          "title": {
+            "ko": null,
+            "en": "Recording on, or reproducing or erasing from, magnetic drums (G11B19/00 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/008",
+          "title": {
+            "ko": null,
+            "en": "Recording on, or reproducing or erasing from, magnetic tapes, {sheets, e.g. cards,} or wires (G11B15/00 {G11B19/00} take precedence; {bulk transferring of information magnetisation for re-recording G11B5/865; marking record carriers in digital fashion G06K})"
+          }
+        },
+        {
+          "code": "G11B 5/012",
+          "title": {
+            "ko": null,
+            "en": "Recording on, or reproducing or erasing from, magnetic disks (G11B17/00, G11B19/00 take precedence)"
+          }
+        },
+        {
+          "code": "G11B 5/02",
+          "title": {
+            "ko": null,
+            "en": "Recording, reproducing, or erasing methods; Read, write or erase circuits therefor"
+          }
+        },
+        {
+          "code": "G11B 5/10",
+          "title": {
+            "ko": null,
+            "en": "Structure or manufacture of housings or shields for heads"
+          }
+        },
+        {
+          "code": "G11B 5/127",
+          "title": {
+            "ko": null,
+            "en": "Structure or manufacture of heads, e.g. inductive"
+          }
+        },
+        {
+          "code": "G11B 5/40",
+          "title": {
+            "ko": null,
+            "en": "Protective measures on heads, e.g. against excessive temperature  (G11B5/31 takes precedence; protection against wear G11B5/255  {; protective structure of the head: see under structures, e.g. G11B5/3106})"
+          }
+        },
+        {
+          "code": "G11B 5/41",
+          "title": {
+            "ko": null,
+            "en": "Cleaning of heads {(of record carriers G11B23/50)}"
+          }
+        },
+        {
+          "code": "G11B 5/455",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for functional testing of heads; Measuring arrangements for heads"
+          }
+        },
+        {
+          "code": "G11B 5/465",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for demagnetisation of heads"
+          }
+        },
+        {
+          "code": "G11B 5/48",
+          "title": {
+            "ko": null,
+            "en": "Disposition or mounting of heads {or head supports} relative to record carriers {(mounting of head within housing G11B5/105); arrangements of heads, e.g. for scanning the record carrier to increase the relative speed (driving of both record carriers and head G11B15/18; guiding record carriers G11B15/60; head selecting circuits G11B15/12)}"
+          }
+        },
+        {
+          "code": "G11B 5/62",
+          "title": {
+            "ko": null,
+            "en": "Record carriers characterised by the selection of the material"
+          }
+        },
+        {
+          "code": "G11B 5/74",
+          "title": {
+            "ko": null,
+            "en": "Record carriers characterised by the form, e.g. sheet shaped to wrap around a drum"
+          }
+        },
+        {
+          "code": "G11B 5/84",
+          "title": {
+            "ko": null,
+            "en": "Processes or apparatus specially adapted for manufacturing record carriers"
+          }
+        },
+        {
+          "code": "G11B 5/86",
+          "title": {
+            "ko": null,
+            "en": "Re-recording, i.e. transcribing information from one magnetisable record carrier on to one or more similar or dissimilar record carriers {(by varying the order of the information G11B27/029, G11B27/036)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 7/00",
+      "title": {
+        "ko": null,
+        "en": "Recording or reproducing by optical means, e.g. recording using a thermal beam of optical radiation {by modifying optical properties or the physical structure}, reproducing using an optical beam at lower power {by sensing optical properties}; Record carriers therefor (G11B11/00, G11B13/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 2007/0003",
+          "title": {
+            "ko": null,
+            "en": "{Recording, reproducing or erasing systems characterised by the structure or type of the carrier}"
+          }
+        },
+        {
+          "code": "G11B 7/002",
+          "title": {
+            "ko": null,
+            "en": "Recording, reproducing or erasing systems characterised by the shape {or form} of the carrier"
+          }
+        },
+        {
+          "code": "G11B 7/004",
+          "title": {
+            "ko": null,
+            "en": "Recording, reproducing or erasing methods; Read, write or erase circuits therefor {(magneto-optical systems G11B11/105)}"
+          }
+        },
+        {
+          "code": "G11B 7/007",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of the information on the record carrier, e.g. form of tracks {, actual track shape, e.g. wobbled, or cross-section, e.g. v-shaped; Sequential information structures, e.g. sectoring or header formats within a track}"
+          }
+        },
+        {
+          "code": "G11B 7/08",
+          "title": {
+            "ko": null,
+            "en": "Disposition or mounting of heads or light sources relatively to record carriers"
+          }
+        },
+        {
+          "code": "G11B 7/12",
+          "title": {
+            "ko": null,
+            "en": "Heads, e.g. forming of the optical beam spot or modulation of the optical beam (disposition or mounting of head elements within housing or with provision for moving of light source, optical beam or detector, irrelevant to the transducing method G11B7/08  {; modulating lasers H01S3/10; controlling the intensity, colour, phase, polarisation or direction of light beams arriving from an independent light source, e.g. switching gating or modulating G02F1/00})"
+          }
+        },
+        {
+          "code": "G11B 7/24",
+          "title": {
+            "ko": null,
+            "en": "Record carriers characterised by shape, structure or physical properties, or by the selection of the material (characterised by the arrangement of information on the carrier G11B7/007)"
+          }
+        },
+        {
+          "code": "G11B 7/28",
+          "title": {
+            "ko": null,
+            "en": "Re-recording, i.e. transcribing information from one optical record carrier on to one or more similar or dissimilar record carriers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 9/00",
+      "title": {
+        "ko": null,
+        "en": "Recording or reproducing using a method not covered by one of the main groups G11B3/00 - G11B7/00; Record carriers therefor (G11B11/00 takes precedence {driving or moving of heads G11B21/02})"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 9/02",
+          "title": {
+            "ko": null,
+            "en": "using ferroelectric record carriers; Record carriers therefor"
+          }
+        },
+        {
+          "code": "G11B 9/04",
+          "title": {
+            "ko": null,
+            "en": "using record carriers having variable electric resistance; Record carriers therefor"
+          }
+        },
+        {
+          "code": "G11B 9/06",
+          "title": {
+            "ko": null,
+            "en": "using record carriers having variable electrical capacitance; Record carriers therefor (G11B9/02 takes precedence)"
+          }
+        },
+        {
+          "code": "G11B 9/08",
+          "title": {
+            "ko": null,
+            "en": "using electrostatic charge injection; Record carriers therefor"
+          }
+        },
+        {
+          "code": "G11B 9/10",
+          "title": {
+            "ko": null,
+            "en": "using electron beam; Record carriers therefor (G11B9/08 takes precedence {see provisional also G11B11/03})"
+          }
+        },
+        {
+          "code": "G11B 9/12",
+          "title": {
+            "ko": null,
+            "en": "using near-field interactions; Record carriers therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 11/00",
+      "title": {
+        "ko": null,
+        "en": "Recording on or reproducing from the same record carrier wherein for these two operations the methods are covered by different main groups of groups G11B3/00 - G11B7/00 or by different subgroups of group G11B9/00; Record carriers therefor {(driving or moving of heads G11B3/02, G11B5/48, G11B7/08, G11B21/02)}"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 11/002",
+          "title": {
+            "ko": null,
+            "en": "{using recording by perturbation of the physical or electrical structure}"
+          }
+        },
+        {
+          "code": "G11B 11/03",
+          "title": {
+            "ko": null,
+            "en": "using recording by deforming with non-mechanical means, e.g. laser, beam of particles {(G11B11/002 takes precedence; see proviosional also G11B3/68 - G11B3/72)}"
+          }
+        },
+        {
+          "code": "G11B 11/08",
+          "title": {
+            "ko": null,
+            "en": "using recording by electric charge or by variation of electric resistance or capacitance {(G11B11/002, G11B11/10 take precedence)}"
+          }
+        },
+        {
+          "code": "G11B 11/10",
+          "title": {
+            "ko": null,
+            "en": "using recording by magnetic means {or other means for magnetisation or demagnetisation of a record carrier, e.g. light induced spin magnetisation; Demagnetisation by thermal or stress means in the presence or not of an orienting magnetic field}"
+          }
+        },
+        {
+          "code": "G11B 11/12",
+          "title": {
+            "ko": null,
+            "en": "using recording by optical means (G11B11/03 takes precedence {G11B11/10 takes precedence})"
+          }
+        },
+        {
+          "code": "G11B 11/16",
+          "title": {
+            "ko": null,
+            "en": "using recording by mechanical cutting, deforming or pressing {(G11B11/002 takes precedence)}"
+          }
+        },
+        {
+          "code": "G11B 11/24",
+          "title": {
+            "ko": null,
+            "en": "using recording by near-field interactions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Recording simultaneously or selectively by methods covered by different main groups {among G11B3/00, G11B5/00, G11B7/00 and G11B9/00}; Record carriers therefor {not otherwise provided for}; Reproducing therefrom {not otherwise provided for (G11B9/14, G11B11/002 take precedence; driving or moving of heads G11B3/02, G11B5/48, G11B7/08, G11B21/02)}"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 13/02",
+          "title": {
+            "ko": null,
+            "en": "magnetically and by styli"
+          }
+        },
+        {
+          "code": "G11B 13/04",
+          "title": {
+            "ko": null,
+            "en": "magnetically {or by magnetisation} and optically {or by radiation, for changing or sensing optical properties}"
+          }
+        },
+        {
+          "code": "G11B 13/06",
+          "title": {
+            "ko": null,
+            "en": "optically and by styli"
+          }
+        },
+        {
+          "code": "G11B 13/08",
+          "title": {
+            "ko": null,
+            "en": "using near-field interactions or transducing means and at least one other method or means for recording or reproducing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Driving, starting or stopping record carriers of filamentary or web form; Driving both such record carriers and heads; Guiding such record carriers or containers therefor; Control thereof; Control of operating function (driving or guiding heads G11B3/00 - G11B7/00, G11B21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 15/005",
+          "title": {
+            "ko": null,
+            "en": "{Programmed access in sequence to indexed parts of tracks of operating tapes, by driving or guiding the tape (access by driving of both record carrier and head G11B15/1816; see prov. also G11B15/602)}"
+          }
+        },
+        {
+          "code": "G11B 15/02",
+          "title": {
+            "ko": null,
+            "en": "Control of operating function, e.g. switching from recording to reproducing"
+          }
+        },
+        {
+          "code": "G11B 15/18",
+          "title": {
+            "ko": null,
+            "en": "Driving; Starting; Stopping; Arrangements for control or regulation thereof {(G11B15/56 takes precedence)}"
+          }
+        },
+        {
+          "code": "G11B 15/56",
+          "title": {
+            "ko": null,
+            "en": "the record carrier having reserve loop, e.g. to minimise inertia during acceleration {measuring or control in connection therewith}"
+          }
+        },
+        {
+          "code": "G11B 15/60",
+          "title": {
+            "ko": null,
+            "en": "Guiding record carrier (guiding devices structurally associated with magazines or cassettes G11B23/04)"
+          }
+        },
+        {
+          "code": "G11B 15/675",
+          "title": {
+            "ko": null,
+            "en": "Guiding containers {, e.g. loading, ejecting cassettes}"
+          }
+        },
+        {
+          "code": "G11B 15/70",
+          "title": {
+            "ko": null,
+            "en": "the record carrier being an endless loop record carrier {(inside container G11B15/1891)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Guiding record carriers not specifically of filamentary or web form, or of supports therefor (guiding cards or sheets G06K13/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 17/005",
+          "title": {
+            "ko": null,
+            "en": "{Programmed access to indexed parts of tracks of operating discs, by guiding the disc}"
+          }
+        },
+        {
+          "code": "G11B 17/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G11B 17/08",
+          "title": {
+            "ko": null,
+            "en": "from consecutive-access magazine of disc records"
+          }
+        },
+        {
+          "code": "G11B 17/22",
+          "title": {
+            "ko": null,
+            "en": "from random access magazine of disc records"
+          }
+        },
+        {
+          "code": "G11B 17/32",
+          "title": {
+            "ko": null,
+            "en": "Maintaining desired spacing between record carrier and head, e.g. by fluid-dynamic spacing {(damping of vibrations of record carriers on turntables by fluid-dynamic means G11B19/2018)}"
+          }
+        },
+        {
+          "code": "G11B 17/34",
+          "title": {
+            "ko": null,
+            "en": "Guiding record carriers during transducing operation, e.g. for track following (G11B17/32 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Driving, starting, stopping record carriers not specifically of filamentary or web form, or of supports therefor; Control thereof; Control of operating function {; Driving both disc and head}"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 19/02",
+          "title": {
+            "ko": null,
+            "en": "Control of operating function, e.g. switching from recording to reproducing"
+          }
+        },
+        {
+          "code": "G11B 19/20",
+          "title": {
+            "ko": null,
+            "en": "Driving; Starting; Stopping; Control thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 20/00",
+      "title": {
+        "ko": null,
+        "en": "Signal processing not specific to the method of recording or reproducing; Circuits therefor"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 20/00007",
+          "title": {
+            "ko": null,
+            "en": "{Time or data compression or expansion (audio compression based on psychoacoustics G10L19/00; data processing for reproducing audio data at different playback speeds G10L21/04; video compression  H04N19/00; data compression per se H03M7/30)}"
+          }
+        },
+        {
+          "code": "G11B 20/00086",
+          "title": {
+            "ko": null,
+            "en": "{Circuits for prevention of unauthorised reproduction or copying, e.g. piracy (indicating unauthorised use of record carriers in general G11B23/28; scrambling for television signal recording H04N5/913; network architectures or network protocols for network security H04L63/00; cryptographic mechanisms or cryptographic arrangements for secret or secure communication H04L9/00)}"
+          }
+        },
+        {
+          "code": "G11B 20/00992",
+          "title": {
+            "ko": null,
+            "en": "{Circuits for stereophonic or quadraphonic recording or reproducing}"
+          }
+        },
+        {
+          "code": "G11B 20/02",
+          "title": {
+            "ko": null,
+            "en": "Analogue recording or reproducing"
+          }
+        },
+        {
+          "code": "G11B 20/10",
+          "title": {
+            "ko": null,
+            "en": "Digital recording or reproducing"
+          }
+        },
+        {
+          "code": "G11B 20/20",
+          "title": {
+            "ko": null,
+            "en": "for correction of skew for multitrack recording"
+          }
+        },
+        {
+          "code": "G11B 20/22",
+          "title": {
+            "ko": null,
+            "en": "for reducing distortions"
+          }
+        },
+        {
+          "code": "G11B 20/24",
+          "title": {
+            "ko": null,
+            "en": "for reducing noise {(control of amplification in general, e.g. dependent upon noise level H03G)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 21/00",
+      "title": {
+        "ko": null,
+        "en": "Head arrangements not specific to the method of recording or reproducing"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 21/003",
+          "title": {
+            "ko": null,
+            "en": "{Disposition of fixed heads, e.g. for scanning, selecting or following of tracks}"
+          }
+        },
+        {
+          "code": "G11B 21/02",
+          "title": {
+            "ko": null,
+            "en": "Driving or moving of heads"
+          }
+        },
+        {
+          "code": "G11B 21/16",
+          "title": {
+            "ko": null,
+            "en": "Supporting the heads; Supporting the sockets for plug-in heads"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 23/00",
+      "title": {
+        "ko": null,
+        "en": "Record carriers not specific to the method of recording or reproducing; Accessories, e.g. containers, specially adapted for co-operation with the recording or reproducing apparatus {; Intermediate mediums; Apparatus or processes specially adapted for their manufacture (processes involving a single technical art and for which provision exists elsewhere, see the relevant class, e.g. B29, B41M, B05D, C08L, F16N)}"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 23/0007",
+          "title": {
+            "ko": null,
+            "en": "{Circuits or methods for reducing noise, for correction of distortion, or for changing density of recorded information, (volume compression or expansion circuits per se H03G7/00)}"
+          }
+        },
+        {
+          "code": "G11B 23/0014",
+          "title": {
+            "ko": null,
+            "en": "{record carriers not specifically of filamentary or web form (G11B23/0057 takes precedence)}"
+          }
+        },
+        {
+          "code": "G11B 23/0057",
+          "title": {
+            "ko": null,
+            "en": "{Intermediate mediums, i.e. mediums provided with an information structure not specific to the method of reproducing or duplication such as matrixes for mechanical pressing of an information structure (for record carriers with directly readable mechanical information G11B3/685); record carriers having a relief information structure provided with or included in layers not specific for a single reproducing method; apparatus or processes specially adapted for their manufacture}"
+          }
+        },
+        {
+          "code": "G11B 23/02",
+          "title": {
+            "ko": null,
+            "en": "Containers; Storing means {both adapted to cooperate with the recording or reproducing means}"
+          }
+        },
+        {
+          "code": "G11B 23/14",
+          "title": {
+            "ko": null,
+            "en": "providing ability to repeat location, e.g. using sprocket holes"
+          }
+        },
+        {
+          "code": "G11B 23/16",
+          "title": {
+            "ko": null,
+            "en": "Record carriers with single-track for recording at spaced intervals along the track thereof, e.g. for speech or language training {contains no documents}"
+          }
+        },
+        {
+          "code": "G11B 23/18",
+          "title": {
+            "ko": null,
+            "en": "Record carriers with multiple tracks, e.g. with complementary and partial tracks such as paired \"stereo\" tracks {contains no documents}"
+          }
+        },
+        {
+          "code": "G11B 23/20",
+          "title": {
+            "ko": null,
+            "en": "with provision for splicing to provide permanent or temporary connections"
+          }
+        },
+        {
+          "code": "G11B 23/28",
+          "title": {
+            "ko": null,
+            "en": "Indicating {or preventing} prior or unauthorised use, {e.g. cassettes with sealing or locking means, write-protect devices for discs (write-protect devices for tapes G11B23/042, G11B23/08714; dummy cassettes for locking in the drive G11B33/005)}"
+          }
+        },
+        {
+          "code": "G11B 23/30",
+          "title": {
+            "ko": null,
+            "en": "with provision for auxiliary signals"
+          }
+        },
+        {
+          "code": "G11B 23/38",
+          "title": {
+            "ko": null,
+            "en": "Visual features other than those contained in record tracks or represented by sprocket holes {the visual signals being auxiliary signals}"
+          }
+        },
+        {
+          "code": "G11B 23/50",
+          "title": {
+            "ko": null,
+            "en": "Reconditioning of record carriers; Cleaning of record carriers {; Carrying-off electrostatic charges}(G11B3/58 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 25/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus characterised by the shape of record carrier employed but not specific to the method of recording or reproducing {, e.g. dictating apparatus; Combinations of such apparatus}"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 25/02",
+          "title": {
+            "ko": null,
+            "en": "using cylindrical record carriers"
+          }
+        },
+        {
+          "code": "G11B 25/04",
+          "title": {
+            "ko": null,
+            "en": "using flat record carriers, e.g. disc, card"
+          }
+        },
+        {
+          "code": "G11B 25/06",
+          "title": {
+            "ko": null,
+            "en": "using web-form record carriers, e.g. tape"
+          }
+        },
+        {
+          "code": "G11B 25/08",
+          "title": {
+            "ko": null,
+            "en": "using filamentary record carriers, e.g. wire"
+          }
+        },
+        {
+          "code": "G11B 25/10",
+          "title": {
+            "ko": null,
+            "en": "Apparatus capable of using record carriers defined in more than one of the sub-groups G11B25/02 - G11B25/08; {Adaptor devices therefor}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 27/00",
+      "title": {
+        "ko": null,
+        "en": "Editing; Indexing; Addressing; Timing or synchronising; Monitoring; Measuring tape travel"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 27/002",
+          "title": {
+            "ko": null,
+            "en": "{Programmed access in sequence to a plurality of record carriers or indexed parts, e.g. tracks, thereof, e.g. for editing; (transfer of record carriers from magazine G11B15/68, G11B17/10; G11B17/22)}"
+          }
+        },
+        {
+          "code": "G11B 27/005",
+          "title": {
+            "ko": null,
+            "en": "{Reproducing at a different information rate from the information rate of recording (for television signals H04N5/783)}"
+          }
+        },
+        {
+          "code": "G11B 27/02",
+          "title": {
+            "ko": null,
+            "en": "Editing, e.g. varying the order of information signals recorded on, or reproduced from, record carriers"
+          }
+        },
+        {
+          "code": "G11B 27/10",
+          "title": {
+            "ko": null,
+            "en": "Indexing; Addressing; Timing or synchronising; Measuring tape travel"
+          }
+        },
+        {
+          "code": "G11B 27/36",
+          "title": {
+            "ko": null,
+            "en": "Monitoring, i.e. supervising the progress of recording or reproducing {(for digital recording G11B20/00 and s.gr.; for monitoring, testing or measuring of TV recorders of the type covered by H04N5/76 and subgroups, see H04N17/06)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 31/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for the associated working of recording or reproducing apparatus with related apparatus (with cameras or projectors G03B31/00 {; recording/reproducing of music for electrophonic musical instruments G10H1/0033; automatic arrangements for answering calls or for recording messages for absent subscribers H04M1/64; telephonic communication systems adapted for combination with dictation recording and playback systems H04M11/10; connection of TV recorder with other related apparatus, e.g. TV camera or receiver, in which the TV signal is significantly involved H04N, e.g. H04N23/00, H04N5/765; combination of radio or TV with other apparatus, e.g. with vehicles H05K11/00})"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 31/003",
+          "title": {
+            "ko": null,
+            "en": "{with radio receiver}"
+          }
+        },
+        {
+          "code": "G11B 31/006",
+          "title": {
+            "ko": null,
+            "en": "{with video camera or receiver}"
+          }
+        },
+        {
+          "code": "G11B 31/02",
+          "title": {
+            "ko": null,
+            "en": "with automatic musical instruments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 33/00",
+      "title": {
+        "ko": null,
+        "en": "Constructional parts, details or accessories not provided for in the other groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 33/005",
+          "title": {
+            "ko": null,
+            "en": "{Means for locking the disc or cassette receiving slot, e.g. dummy cassettes locked in the slot}"
+          }
+        },
+        {
+          "code": "G11B 33/02",
+          "title": {
+            "ko": null,
+            "en": "Cabinets; Cases; Stands; Disposition of apparatus therein or thereon"
+          }
+        },
+        {
+          "code": "G11B 33/10",
+          "title": {
+            "ko": null,
+            "en": "Indicating arrangements; Warning arrangements {(G11B15/04, G11B19/04, G11B27/34, G11B27/36 take precedence)}"
+          }
+        },
+        {
+          "code": "G11B 33/12",
+          "title": {
+            "ko": null,
+            "en": "Disposition of constructional parts in the apparatus, e.g. of power supply, of modules"
+          }
+        },
+        {
+          "code": "G11B 33/14",
+          "title": {
+            "ko": null,
+            "en": "Reducing influence of physical parameters, e.g. temperature change, moisture, dust"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 2209/00",
+      "title": {
+        "ko": null,
+        "en": "Recording or reproducing using a method not covered elsewhere in this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 2209/02",
+          "title": {
+            "ko": null,
+            "en": "transducing on or investigating record carriers or information recording transducers or systems by using near-field interactions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11B 2220/00",
+      "title": {
+        "ko": null,
+        "en": "Record carriers by type"
+      },
+      "subgroups": [
+        {
+          "code": "G11B 2220/17",
+          "title": {
+            "ko": null,
+            "en": "Card-like record carriers"
+          }
+        },
+        {
+          "code": "G11B 2220/20",
+          "title": {
+            "ko": null,
+            "en": "Disc-shaped record carriers"
+          }
+        },
+        {
+          "code": "G11B 2220/40",
+          "title": {
+            "ko": null,
+            "en": "Combinations of multiple record carriers"
+          }
+        },
+        {
+          "code": "G11B 2220/60",
+          "title": {
+            "ko": null,
+            "en": "Solid state media"
+          }
+        },
+        {
+          "code": "G11B 2220/80",
+          "title": {
+            "ko": null,
+            "en": "Indexing information stored in optical or magnetic or other strip attached to cassette or disc, e.g. barcodes attached to a recording medium"
+          }
+        },
+        {
+          "code": "G11B 2220/90",
+          "title": {
+            "ko": null,
+            "en": "Tape-like record carriers"
+          }
+        }
+      ]
+    }
+  ]
+}

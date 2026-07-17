@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "checks": {
+      "type": "string"
+    },
+    "needs_revision": {
+      "type": "boolean"
+    },
+    "revision_comment": {
+      "type": "string"
+    },
+    "existing_claims_for_revision": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "checks",
+    "needs_revision",
+    "revision_comment",
+    "existing_claims_for_revision"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "description": "director(02번) 갭 분석 서브 파이프라인. central_agent gap_analysis 브랜치에서 호출. 알려진 사실로 patent-model을 채우고 gap/체크리스트를 생성한다.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [],
+      [
+        "P02.R99.CENTRAL_AGENT"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "현재까지 알려진 발명 사실을 IOM + conversation 에서 추출. analyze_gaps 의 비교 base.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R10/extract_known_facts.md"
+      },
+      "llm_tools": [],
+      "output_contract": "extract-known-facts-output"
+    },
+    {
+      "description": "거절 사례 자료를 KIPRIS 에서 fan_out 으로 로드 (필요 시). analyze_gaps 의 위험 분석 source.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "knowledge.load_rejections_section",
+      "params": {
+        "ipc_codes": "$.invention_object_model.bibliographic.classification.ipc"
+      },
+      "output_contract": "load_rejections_section-output"
+    },
+    {
+      "description": "known_facts 와 patent_model 의 필수 필드를 비교하여 명세서 완성도 gap 식별 + 우선순위 + 다음 질문 후보 도출.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R10/analyze_gaps.md"
+      },
+      "llm_tools": [],
+      "output_contract": "analyze-gaps-output"
+    }
+  ]
+}

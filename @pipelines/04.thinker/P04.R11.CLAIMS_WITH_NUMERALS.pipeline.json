@@ -1,0 +1,40 @@
+{
+  "description": "thinker(04번) GPT o3 청구항 작성. 모든 도면의 부호(all_numerals)를 통합 활용해 부호가 포함된 청구항(독립항·종속항·방법항)을 작성. drawing_orchestration Step 2에서 단일 호출. existing_claims + revision_comment가 있으면 보완 모드.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R12.DRAWING_ORCHESTRATION"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "추출된 참조부호와 발명 element 를 결합하여 청구항 초안 작성 — 부호 인용이 일관되게.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R11/draft.md"
+      },
+      "llm_tools": [],
+      "output_contract": "draft-claims-output"
+    },
+    {
+      "description": "draft 의 부호 인용 누락·중복·element 일치성·종속 관계 자체 검증 후 보정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R11/self_verify.md"
+      },
+      "llm_tools": [],
+      "output_contract": "self-check-output"
+    }
+  ]
+}

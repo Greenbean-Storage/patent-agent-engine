@@ -1,0 +1,120 @@
+{
+  "subclass": "F16S",
+  "title": {
+    "ko": "구조용 요소 일반; 이 요소로 조립된 구조물 일반",
+    "en": "CONSTRUCTIONAL ELEMENTS IN GENERAL; STRUCTURES BUILT-UP FROM SUCH ELEMENTS, IN GENERAL"
+  },
+  "definition": {
+    "ko": "이 서브클라스는 건축용으로 한정된 같은 모양의 요소 및 구조물을 포함하지 않는다. 단 이들은 서브클라스 E04C에 포함된다",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F16S 1/00",
+      "title": {
+        "ko": "시트(sheet), 패널(panel) 또는 이와 유사한 것들; 이들을 조합한 구조물(조립한 격자 F16S 3/00; 적층물 B32B)",
+        "en": "Sheets, panels, or other members of similar proportions; Constructions comprising assemblies of such members (built-up gratings F16S0003000000;layered products B32B)"
+      },
+      "definition": {
+        "ko": "부재는 대체로 평평하던가 또는 만곡되어 있지만 세부에 있어서는 부분 또는 전면이 그 형상으로부터 벗어나도 좋다. 예. 파형붙이, 리브(RIB)붙이, 플랜지(FLANGE)붙이; 리브, 플랜지 등은 따로따로 형성해도 좋다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F16S 1/02",
+          "title": {
+            "ko": null,
+            "en": "designed for being secured together edge to edge, e.g. at an angle; Assemblies thereof"
+          }
+        },
+        {
+          "code": "F16S 1/04",
+          "title": {
+            "ko": "평평한 박판을 변형하거나 또는 다른 공정에 의하여 만드는 것(적층물(layered product)용의 벌집형상체 또는 다른 심재 B32B 3/00, 예. B32B 3/12, B32B 3/24, B32B 3/26)",
+            "en": "produced by deforming or otherwise working a flat sheet (honeycomb or other core members for layered products B32B0003000000, e.g. B32B0003120000, B32B0003240000, B32B0003260000)"
+          }
+        },
+        {
+          "code": "F16S 1/06",
+          "title": {
+            "ko": null,
+            "en": "by deforming only"
+          }
+        },
+        {
+          "code": "F16S 1/08",
+          "title": {
+            "ko": null,
+            "en": "by cutting or perforating, with or without deformation"
+          }
+        },
+        {
+          "code": "F16S 1/10",
+          "title": {
+            "ko": "합성부재, 예. 리브 또는 플랜지가 부착된 것(F16S 1/02가 우선)",
+            "en": "Composite members, e.g. with ribs or flanges attached (F16S0001020000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16S 1/12",
+          "title": {
+            "ko": null,
+            "en": "of substantial thickness, e.g. with varying thickness, with channels"
+          }
+        },
+        {
+          "code": "F16S 1/14",
+          "title": {
+            "ko": "그룹 F16S 3/00 또는 F16S 5/00에 포함된 형상의 부재와의 조합(그러한 다른 부재가 이음용에 한하는 것 F16S 1/02)",
+            "en": "Assemblies of such members with members of forms covered by group F16S0003000000 or F16S0005000000 (such other members being for jointing only F16S0001020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16S 3/00",
+      "title": {
+        "ko": "길다란 부재, 예. 윤곽을 이룬 부재 그 조립체 격자류(시트 또는 유사한 물건으로 만든 격자 F16S 1/00, 특히 F16S 1/08; 문의 프레임, 창문 또는 그 유사물 E06B 1/00, E06B 3/00)",
+        "en": "Elongated members, e.g. profiled members; Assemblies thereof; Gratings or grilles (gratings or grilles formed from a sheet or the like F16S0001000000, particularly F16S0001080000;frames for doors, windows or the like E06B0001000000, E06B0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16S 3/02",
+          "title": {
+            "ko": null,
+            "en": "composed of two or more elongated members secured together side by side"
+          }
+        },
+        {
+          "code": "F16S 3/04",
+          "title": {
+            "ko": null,
+            "en": "designed for being joined to similar members in various relative positions"
+          }
+        },
+        {
+          "code": "F16S 3/06",
+          "title": {
+            "ko": "긴 부재의 조립체(F16S 3/02, F16S 3/04이 우선)",
+            "en": "Assemblies of elongated members (F16S0003020000, F16S0003040000 take precedence)"
+          }
+        },
+        {
+          "code": "F16S 3/08",
+          "title": {
+            "ko": null,
+            "en": "forming frameworks, e.g. gratings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16S 5/00",
+      "title": {
+        "ko": null,
+        "en": "Other constructional members not restricted to an application fully provided for in a single class"
+      },
+      "subgroups": []
+    }
+  ]
+}

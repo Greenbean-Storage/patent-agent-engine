@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConceptDiscoveryStack",
+  "description": "구체화 단계의 정보 stack — 사용자 말 차곡차곡 누적. 모델 아님 (IOM 의 precursor — IOM 은 CMM ≈ 0.9 도달 시점에 한 번에 합성). 7 필드는 CMM 의 7 sub-항목 (purpose / components / sequence / causality / embodiment / differentiation / effect) 과 1:1 매핑. sessions/{user_id}/{work_id}/models/concept-discovery-stack.json. writer: P02 director (구체화 단계 매 사이클).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "purpose",
+    "components",
+    "operation_sequence",
+    "causality",
+    "embodiments",
+    "differentiation",
+    "effects",
+    "last_updated"
+  ],
+  "properties": {
+    "purpose": {
+      "type": "string",
+      "description": "발명의 *목적* — 1-2 문장. clarity.purpose 평가의 input."
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "핵심 *구성요소* list. clarity.components 평가의 input."
+    },
+    "operation_sequence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "동작 *순서* — 단계별. completeness.sequence 평가의 input."
+    },
+    "causality": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "*인과* 관계 — 'X 가 일어나면 Y'. completeness.causality 평가의 input."
+    },
+    "embodiments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "*실시예* list. completeness.embodiment 평가의 input."
+    },
+    "differentiation": {
+      "type": "string",
+      "description": "종래기술 대비 *차별점*. potential.differentiation 평가의 input."
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "*효과* list. potential.effect 평가의 input."
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

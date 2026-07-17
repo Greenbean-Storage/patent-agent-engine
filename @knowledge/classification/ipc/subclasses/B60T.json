@@ -1,0 +1,1408 @@
+{
+  "subclass": "B60T",
+  "title": {
+    "ko": "차량 브레이크 제어 시스템 또는 그 부품; 브레이크 제어 시스템 또는 그 부품, 일반(전기 역학적 브레이크 시스템 제어 B60L7/00; 차량의 브레이크 및 기타 구동 장치 공동 제어 B60W) ; 일반적으로 차량의 제동 요소 배치; 차량의 원치 않는 움직임을 방지하기위한 휴대용 장치; 브레이크 냉각을 용이하게하기위한 차량 개조",
+    "en": "VEHICLE BRAKE CONTROL SYSTEMS OR PARTS THEREOF; BRAKE CONTROL SYSTEMS OR PARTS THEREOF, IN GENERAL (control of electrodynamic brake systems B60L0007000000;conjoint control of brakes and other drive units of vehicles B60W); ARRANGEMENT OF BRAKING ELEMENTS ON VEHICLES IN GENERAL; PORTABLE DEVICES FOR PREVENTING UNWANTED MOVEMENT OF VEHICLES; VEHICLE MODIFICATIONS TO FACILITATE COOLING OF BRAKES"
+  },
+  "definition": {
+    "ko": "잠금장치 휴대용 장치 B60T3/00 제동장치 제동 및 대응 조치의 종류 B60T1/00 제동장치 냉각을 위한 차량 개조 B60T5/00 제동 조종 장치의 종류 시동장치; 도로 또는 적재조건에 따른 그의 배치 또는 제동력을 변화시키는 것 B60T7/00; 8/00 연속 제동장치 B60T10/00 시동장치와 제동장치 간 변속 제어 B60T11/00, B60T13/00 유체압력 제동 조종 장치용 부품 또는 보조품 밸브 구조와 배치, 작동 B60T15/00 기타 부품 또는 보조품 B60T17/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B60T 1/00",
+      "title": {
+        "ko": "제동요소장치, 즉 제동효과를 일으키는 이들 부품의 구성",
+        "en": "Arrangements of braking elements, i.e. of those parts where braking effect occurs"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 1/02",
+          "title": {
+            "ko": null,
+            "en": "acting by retarding wheels"
+          }
+        },
+        {
+          "code": "B60T 1/04",
+          "title": {
+            "ko": null,
+            "en": "acting directly on tread"
+          }
+        },
+        {
+          "code": "B60T 1/06",
+          "title": {
+            "ko": null,
+            "en": "acting otherwise than on tread, e.g. employing rim, drum, disc, or transmission"
+          }
+        },
+        {
+          "code": "B60T 1/08",
+          "title": {
+            "ko": null,
+            "en": "using fluid or powdered medium"
+          }
+        },
+        {
+          "code": "B60T 1/087",
+          "title": {
+            "ko": null,
+            "en": "in hydrodynamic, i.e. non-positive displacement, retarders"
+          }
+        },
+        {
+          "code": "B60T 1/093",
+          "title": {
+            "ko": null,
+            "en": "in hydrostatic, i.e. positive displacement, retarders"
+          }
+        },
+        {
+          "code": "B60T 1/10",
+          "title": {
+            "ko": null,
+            "en": "by utilising wheel movement for accumulating energy, e.g. driving air compressors"
+          }
+        },
+        {
+          "code": "B60T 1/12",
+          "title": {
+            "ko": "차륜감속기구에 의하지 않고 동작하는 것, 예. 제트작용",
+            "en": "acting otherwise than by retarding wheels, e.g. jet- action"
+          }
+        },
+        {
+          "code": "B60T 1/14",
+          "title": {
+            "ko": "노면 위에 직접 행하는 것(손으로 운반할 수 있는 것, 예. 정지나무 B60T 3/00)",
+            "en": "directly on road (portable devices, e.g. chocks, B60T0003000000)"
+          }
+        },
+        {
+          "code": "B60T 1/16",
+          "title": {
+            "ko": null,
+            "en": "by increasing air resistance, e.g. flaps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60T 3/00",
+      "title": {
+        "ko": null,
+        "en": "Portable devices for preventing unwanted movement of vehicles, e.g. chocks"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B60T 5/00",
+      "title": {
+        "ko": null,
+        "en": "Vehicle modifications to facilitate cooling of brakes"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B60T 7/00",
+      "title": {
+        "ko": "제동을 일으키는 개시장치",
+        "en": "Brake control systems or parts thereof"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B60T 7/00",
+      "title": {
+        "ko": "제동을 일으키는 개시장치",
+        "en": "Brake-action initiating means"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 7/02",
+          "title": {
+            "ko": null,
+            "en": "for personal initiation"
+          }
+        },
+        {
+          "code": "B60T 7/04",
+          "title": {
+            "ko": null,
+            "en": "foot-actuated"
+          }
+        },
+        {
+          "code": "B60T 7/06",
+          "title": {
+            "ko": null,
+            "en": "Disposition of pedal"
+          }
+        },
+        {
+          "code": "B60T 7/08",
+          "title": {
+            "ko": null,
+            "en": "hand-actuated"
+          }
+        },
+        {
+          "code": "B60T 7/10",
+          "title": {
+            "ko": null,
+            "en": "Disposition of hand control"
+          }
+        },
+        {
+          "code": "B60T 7/12",
+          "title": {
+            "ko": "자동개시를 위하는 것; 운전자나 승객의 뜻에 관계없이 개시하기 위한 것",
+            "en": "for automatic initiation; for initiation not subject to will of driver or passenger"
+          }
+        },
+        {
+          "code": "B60T 7/14",
+          "title": {
+            "ko": null,
+            "en": "operated upon collapse of driver"
+          }
+        },
+        {
+          "code": "B60T 7/16",
+          "title": {
+            "ko": null,
+            "en": "operated by remote control, i.e. initiating means not mounted on vehicle"
+          }
+        },
+        {
+          "code": "B60T 7/18",
+          "title": {
+            "ko": null,
+            "en": "operated by wayside apparatus"
+          }
+        },
+        {
+          "code": "B60T 7/20",
+          "title": {
+            "ko": "트레일러용의 특별한 것, 예. 트레일러를 연결 해제할 경우(관성작동에 의한 오버런(overrun)제동 B60T 13/08)",
+            "en": "specially adapted for trailers, e.g. in case of uncoupling of trailer (inertia-actuated overrun brakes B60T0013080000)"
+          }
+        },
+        {
+          "code": "B60T 7/22",
+          "title": {
+            "ko": null,
+            "en": "initiated by contact of vehicle, e.g. bumper, with an external object, e.g. another vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60T 8/00",
+      "title": {
+        "ko": "가변적인 차량 또는 지표면 상태를 충족하기 위해 바퀴 제동력을 조절하기 위한 장치, 예. 제동력의 분배를 제한 또는 변화 (동력 제동 시스템 내에서의 유효 제동 실린더의 개수 변화에 의한 것 B60T17/10)",
+        "en": "Arrangements for adjusting wheel-braking force to meet varying vehicular or ground-surface conditions, e.g. limiting or varying distribution of braking force (by changing number of effective brake cylinders in power brake systems B60T0017100000)"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 8/17",
+          "title": {
+            "ko": "브레이크를 제어하기 위해서 전기 조정 수단 또는 전자 조정 수단을 이용하는 것",
+            "en": "Using electrical or electronic regulation means to control braking"
+          },
+          "definition": {
+            "ko": "그룹8/17으로 분류할 때에, 전자 제어 이외의 다른 관점이 중요한 경우는, 그룹B60T 8/18,B60T 8/24,B60T 8/26또는B60T 8/32의 적절한 개소에도 분류한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "B60T 8/171",
+          "title": {
+            "ko": null,
+            "en": "Detecting parameters used in the regulation; Measuring values used in the regulation"
+          }
+        },
+        {
+          "code": "B60T 8/172",
+          "title": {
+            "ko": null,
+            "en": "Determining control parameters used in the regulation, e.g. by calculations involving measured or detected parameters"
+          }
+        },
+        {
+          "code": "B60T 8/173",
+          "title": {
+            "ko": null,
+            "en": "Eliminating or reducing the effect of unwanted signals, e.g. due to vibrations or electrical noise"
+          }
+        },
+        {
+          "code": "B60T 8/174",
+          "title": {
+            "ko": null,
+            "en": "characterised by using special control logic, e.g. fuzzy logic"
+          }
+        },
+        {
+          "code": "B60T 8/175",
+          "title": {
+            "ko": null,
+            "en": "Brake regulation specially adapted to prevent excessive wheel spin during vehicle acceleration, e.g. for traction control"
+          }
+        },
+        {
+          "code": "B60T 8/1755",
+          "title": {
+            "ko": "차량의 안정성을 제어하는 데에 특히 적합한 제동 조정, 예. 요 레이트(yaw rate) 또는 커브가 있는 곳에서의 수평 가속을 고려하는 것 (특정한 서브유닛을 제어하는 것 이외에 주행 안정성 제어를 위한 도로 차량 구동 제어 시스템 B60W30/02)",
+            "en": "Brake regulation specially adapted to control the stability of the vehicle, e.g. taking into account yaw rate or transverse acceleration in a curve (road vehicle drive control systems for control of driving stability otherwise than by controlling a particular sub-unit B60W0030020000)"
+          }
+        },
+        {
+          "code": "B60T 8/176",
+          "title": {
+            "ko": "차량의 감속시의, 과도한 차륜의 슬립 방지에 특별히 적합한 브레이크 조정, 예.ABS(B60T 8/1755가 우선)",
+            "en": "Brake regulation specially adapted to prevent excessive wheel slip during vehicle deceleration, e.g. ABS (B60T0008175500 takes precedence)"
+          }
+        },
+        {
+          "code": "B60T 8/1761",
+          "title": {
+            "ko": null,
+            "en": "responsive to wheel or brake dynamics, e.g. wheel slip, wheel acceleration or rate of change of brake fluid pressure"
+          }
+        },
+        {
+          "code": "B60T 8/1763",
+          "title": {
+            "ko": "차륜와 지면과의 마찰 계수에 응하는 것(B60T 8/1764가 우선)",
+            "en": "responsive to the coefficient of friction between the wheels and the ground surface (B60T0008176400 takes precedence)"
+          }
+        },
+        {
+          "code": "B60T 8/1764",
+          "title": {
+            "ko": null,
+            "en": "Regulation during travel on surface with different coefficients of friction, e.g. between left and right sides, mu-split"
+          }
+        },
+        {
+          "code": "B60T 8/1766",
+          "title": {
+            "ko": null,
+            "en": "Proportioning of brake forces according to vehicle axle loads, e.g. front to rear of vehicle"
+          }
+        },
+        {
+          "code": "B60T 8/1769",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for vehicles having more than one driven axle, e.g. four-wheel drive vehicles"
+          }
+        },
+        {
+          "code": "B60T 8/18",
+          "title": {
+            "ko": "차량의 중량 또는 적하에 의한 것, 예. 적하의 분포상태(B60T 8/30 이 우선, 중량과 속도조건에 의한 것 B60T 8/58)",
+            "en": "responsive to vehicle weight or load, e.g. load distribution (B60T0008300000 takes precedence;responsive to weight and speed condition B60T0008580000)"
+          }
+        },
+        {
+          "code": "B60T 8/20",
+          "title": {
+            "ko": null,
+            "en": "with stepwise control action"
+          }
+        },
+        {
+          "code": "B60T 8/22",
+          "title": {
+            "ko": null,
+            "en": "with continuous control action"
+          }
+        },
+        {
+          "code": "B60T 8/24",
+          "title": {
+            "ko": null,
+            "en": "responsive to vehicle inclination or change of direction, e.g. negotiating bends"
+          }
+        },
+        {
+          "code": "B60T 8/26",
+          "title": {
+            "ko": null,
+            "en": "characterised by producing differential braking between front and rear wheels"
+          }
+        },
+        {
+          "code": "B60T 8/28",
+          "title": {
+            "ko": null,
+            "en": "responsive to deceleration"
+          }
+        },
+        {
+          "code": "B60T 8/30",
+          "title": {
+            "ko": null,
+            "en": "responsive to load"
+          }
+        },
+        {
+          "code": "B60T 8/32",
+          "title": {
+            "ko": "속도조건에 의한 것, 예. 가속도 또는 감속도(B60T 8/28이 우선)",
+            "en": "responsive to a speed condition, e.g. acceleration or deceleration (B60T0008280000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60T 8/34",
+          "title": {
+            "ko": null,
+            "en": "having a fluid pressure regulator responsive to a speed condition"
+          }
+        },
+        {
+          "code": "B60T 8/36",
+          "title": {
+            "ko": null,
+            "en": "including a pilot valve responding to an electromagnetic force"
+          }
+        },
+        {
+          "code": "B60T 8/38",
+          "title": {
+            "ko": null,
+            "en": "including valve means of the relay or driver controlled type"
+          }
+        },
+        {
+          "code": "B60T 8/40",
+          "title": {
+            "ko": null,
+            "en": "comprising an additional fluid circuit including fluid pressurising means for modifying the pressure of the braking fluid, e.g. including wheel driven pumps for detecting a speed condition, or pumps which are controlled by means independent of the braking system"
+          }
+        },
+        {
+          "code": "B60T 8/42",
+          "title": {
+            "ko": null,
+            "en": "having expanding chambers for controlling pressure"
+          }
+        },
+        {
+          "code": "B60T 8/44",
+          "title": {
+            "ko": null,
+            "en": "co-operating with a power-assist booster means associated with a master cylinder for controlling the release and reapplication of brake pressure through an interaction with the power assist device"
+          }
+        },
+        {
+          "code": "B60T 8/46",
+          "title": {
+            "ko": null,
+            "en": "the pressure being reduced by exhausting fluid"
+          }
+        },
+        {
+          "code": "B60T 8/48",
+          "title": {
+            "ko": null,
+            "en": "connecting the brake actuator to an alternative or additional source of fluid pressure"
+          }
+        },
+        {
+          "code": "B60T 8/50",
+          "title": {
+            "ko": null,
+            "en": "having means for controlling the rate at which pressure is reapplied to the brake"
+          }
+        },
+        {
+          "code": "B60T 8/52",
+          "title": {
+            "ko": null,
+            "en": "Torque sensing, i.e. wherein the braking action is controlled by forces producing or tending to produce a twisting or rotating motion on a braked rotating member"
+          }
+        },
+        {
+          "code": "B60T 8/54",
+          "title": {
+            "ko": null,
+            "en": "by mechanical means"
+          }
+        },
+        {
+          "code": "B60T 8/56",
+          "title": {
+            "ko": null,
+            "en": "having means for changing the coefficient of friction"
+          }
+        },
+        {
+          "code": "B60T 8/58",
+          "title": {
+            "ko": null,
+            "en": "responsive to speed and another condition or to plural speed conditions"
+          }
+        },
+        {
+          "code": "B60T 8/60",
+          "title": {
+            "ko": null,
+            "en": "using electrical circuitry for controlling the braking action, the circuitry deriving a control function relating to the dynamic of the braked vehicle or wheel"
+          }
+        },
+        {
+          "code": "B60T 8/62",
+          "title": {
+            "ko": null,
+            "en": "wherein the individual vehicle wheels are provided (i) with self-contained braking systems operating the individual wheels in accordance with its dynamic state or (ii) with a central processing unit which receives input from individual wheels or wheel groups and produces a plurality of control signals for separately operating individual wheels or groups of wheels"
+          }
+        },
+        {
+          "code": "B60T 8/64",
+          "title": {
+            "ko": null,
+            "en": "wherein the controlled braking action is characterised by the manner in which the braking fluid pressure is reduced or reapplied"
+          }
+        },
+        {
+          "code": "B60T 8/66",
+          "title": {
+            "ko": null,
+            "en": "wherein the braking action is responsive to the difference between a computed or other theoretical vehicle speed and an actual speed of a wheel thereof"
+          }
+        },
+        {
+          "code": "B60T 8/68",
+          "title": {
+            "ko": null,
+            "en": "wherein the braking action is controlled by a difference between the rate of change of vehicle velocity and the rate of change of wheel velocity"
+          }
+        },
+        {
+          "code": "B60T 8/70",
+          "title": {
+            "ko": null,
+            "en": "sensing both acceleration and deceleration of either the vehicle or the wheel"
+          }
+        },
+        {
+          "code": "B60T 8/72",
+          "title": {
+            "ko": "속도조건의 차에 의한 것, 예. 감속도와 설정한 기준치(B60T 8/66이 우선)",
+            "en": "responsive to a difference between a speed condition, e.g. deceleration, and a fixed reference (B60T0008660000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60T 8/74",
+          "title": {
+            "ko": null,
+            "en": "sensing a rate of change of velocity"
+          }
+        },
+        {
+          "code": "B60T 8/76",
+          "title": {
+            "ko": null,
+            "en": "two or more sensing means from different wheels indicative of the same type of speed condition"
+          }
+        },
+        {
+          "code": "B60T 8/78",
+          "title": {
+            "ko": null,
+            "en": "using electrical circuitry for controlling the braking action, the circuitry deriving a control function relating to the dynamics of the braked vehicle or wheel"
+          }
+        },
+        {
+          "code": "B60T 8/80",
+          "title": {
+            "ko": null,
+            "en": "Means sensing a rate of change of velocity"
+          }
+        },
+        {
+          "code": "B60T 8/82",
+          "title": {
+            "ko": null,
+            "en": "two or more sensing means from different wheels indicative of the same type of speed condition"
+          }
+        },
+        {
+          "code": "B60T 8/84",
+          "title": {
+            "ko": null,
+            "en": "wherein two wheels or wheel groups are controlled in dependence on the behaviour of a reference wheel or wheel group, with means for changing the reference wheel, e.g. \"select high, select low\" operation"
+          }
+        },
+        {
+          "code": "B60T 8/86",
+          "title": {
+            "ko": null,
+            "en": "wherein the brakes are automatically applied in accordance with a speed condition and having means for overriding the automatic braking device when a skid condition occurs"
+          }
+        },
+        {
+          "code": "B60T 8/88",
+          "title": {
+            "ko": null,
+            "en": "with failure responsive means, i.e. means for detecting and indicating faulty operation of the speed responsive control means"
+          }
+        },
+        {
+          "code": "B60T 8/90",
+          "title": {
+            "ko": null,
+            "en": "using a simulated speed signal to test speed responsive control means"
+          }
+        },
+        {
+          "code": "B60T 8/92",
+          "title": {
+            "ko": null,
+            "en": "automatically taking corrective action"
+          }
+        },
+        {
+          "code": "B60T 8/94",
+          "title": {
+            "ko": null,
+            "en": "on a fluid pressure regulator"
+          }
+        },
+        {
+          "code": "B60T 8/96",
+          "title": {
+            "ko": null,
+            "en": "on speed responsive control means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60T 10/00",
+      "title": {
+        "ko": null,
+        "en": "Control or regulation for continuous braking making use of fluid or powdered medium, e.g. for use when descending a long slope"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 10/02",
+          "title": {
+            "ko": null,
+            "en": "with hydrodynamic brake"
+          }
+        },
+        {
+          "code": "B60T 10/04",
+          "title": {
+            "ko": null,
+            "en": "with hydrostatic brake"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60T 11/00",
+      "title": {
+        "ko": "보조동력 또는 구동동력을 사용하지 않고 시동장치로부터 최종제동작동기로의 제동동작의 전달",
+        "en": "Transmitting braking action from initiating means to ultimate brake actuator without power assistance or drive or where such assistance or drive is irrelevant"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 11/04",
+          "title": {
+            "ko": null,
+            "en": "transmitting mechanically"
+          }
+        },
+        {
+          "code": "B60T 11/06",
+          "title": {
+            "ko": null,
+            "en": "Equalising arrangements"
+          }
+        },
+        {
+          "code": "B60T 11/08",
+          "title": {
+            "ko": null,
+            "en": "providing variable leverage"
+          }
+        },
+        {
+          "code": "B60T 11/10",
+          "title": {
+            "ko": "유체수단, 예. 유압에 의해 전달하는 것",
+            "en": "transmitting by fluid means, e.g. hydraulic"
+          }
+        },
+        {
+          "code": "B60T 11/12",
+          "title": {
+            "ko": "그 중에서 전달력이 변화하는 것(B60T 11/16～ B60T 11/26이 우선)",
+            "en": "the transmitted force being varied therein (B60T0011160000-B60T0011280000 take precedence)"
+          }
+        },
+        {
+          "code": "B60T 11/14",
+          "title": {
+            "ko": null,
+            "en": "the transmitted force being substantially unchanged"
+          }
+        },
+        {
+          "code": "B60T 11/16",
+          "title": {
+            "ko": "주제어, 예. 마스타 실린더",
+            "en": "Master control, e.g. master cylinders"
+          }
+        },
+        {
+          "code": "B60T 11/18",
+          "title": {
+            "ko": null,
+            "en": "Connection thereof to initiating means"
+          }
+        },
+        {
+          "code": "B60T 11/20",
+          "title": {
+            "ko": null,
+            "en": "Tandem, side-by-side, or other multiple master-cylinder units"
+          }
+        },
+        {
+          "code": "B60T 11/21",
+          "title": {
+            "ko": null,
+            "en": "with two pedals operating on respective circuits, pressures therein being equalised when both pedals are operated together, e.g. for steering"
+          }
+        },
+        {
+          "code": "B60T 11/22",
+          "title": {
+            "ko": null,
+            "en": "characterised by being integral with reservoir"
+          }
+        },
+        {
+          "code": "B60T 11/224",
+          "title": {
+            "ko": null,
+            "en": "with pressure-varying means, e.g. with two stage operation provided by use of different piston diameters including continuous variation from one diameter to another"
+          }
+        },
+        {
+          "code": "B60T 11/228",
+          "title": {
+            "ko": "압력유지설비, 예. 마스타 실린더 챔버에 저장기로부터 유체를 연속적으로 공급하는 것(B60T 11/232가 우선)",
+            "en": "Pressure-maintaining arrangements, e.g. for replenishing the master cylinder chamber with fluid from a reservoir (B60T0011232000 takes precedence)"
+          }
+        },
+        {
+          "code": "B60T 11/232",
+          "title": {
+            "ko": null,
+            "en": "Recuperation valves"
+          }
+        },
+        {
+          "code": "B60T 11/236",
+          "title": {
+            "ko": null,
+            "en": "Piston sealing arrangements"
+          }
+        },
+        {
+          "code": "B60T 11/24",
+          "title": {
+            "ko": "둘 이상의 회로에 동작하는 제동을 일으키는 시동장치 예. 듀얼회로 (다단 마스타 실린더장치 B60T 11/20)",
+            "en": "Single initiating means operating on more than one circuit, e.g. dual circuits (multiple master-cylinder units B60T0011200000)"
+          }
+        },
+        {
+          "code": "B60T 11/26",
+          "title": {
+            "ko": null,
+            "en": "Reservoirs (integral with master controls B60T0011220000)"
+          }
+        },
+        {
+          "code": "B60T 11/28",
+          "title": {
+            "ko": "밸브를 덧붙인 것(보충하기 위한 밸브 B60T 11/232)",
+            "en": "Valves specially adapted therefor (recuperation valves B60T0011232000)"
+          }
+        },
+        {
+          "code": "B60T 11/30",
+          "title": {
+            "ko": null,
+            "en": "Bleed valves for hydraulic brake systems"
+          }
+        },
+        {
+          "code": "B60T 11/32",
+          "title": {
+            "ko": null,
+            "en": "Automatic cut-off valves for defective pipes"
+          }
+        },
+        {
+          "code": "B60T 11/34",
+          "title": {
+            "ko": null,
+            "en": "Pressure-reducing or limiting valves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60T 13/00",
+      "title": {
+        "ko": "보조동력 또는 구동동력을 사용하여 시동장치 최종제동작동기에의 제동동작의 전달; 그와 같은 전달장치가 결합한 제동방식, 예. 공기압 제동방식",
+        "en": "Transmitting braking action from initiating means to ultimate brake actuator with power assistance or drive; Brake systems incorporating such transmitting means, e.g. air-pressure brake systems"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 13/02",
+          "title": {
+            "ko": "기계적 보조 또는 구동장치를 갖는 것",
+            "en": "with mechanical assistance or drive"
+          }
+        },
+        {
+          "code": "B60T 13/04",
+          "title": {
+            "ko": "스프링 또는 중량물에 의한 것(유체의 방출 B60T 13/10)",
+            "en": "by spring or weight (fluid-released B60T0013100000)"
+          }
+        },
+        {
+          "code": "B60T 13/06",
+          "title": {
+            "ko": null,
+            "en": "by inertia, e.g. flywheel"
+          }
+        },
+        {
+          "code": "B60T 13/08",
+          "title": {
+            "ko": null,
+            "en": "Overrun brakes"
+          }
+        },
+        {
+          "code": "B60T 13/10",
+          "title": {
+            "ko": null,
+            "en": "with fluid assistance, drive, or release"
+          }
+        },
+        {
+          "code": "B60T 13/12",
+          "title": {
+            "ko": null,
+            "en": "the fluid being liquid"
+          }
+        },
+        {
+          "code": "B60T 13/122",
+          "title": {
+            "ko": null,
+            "en": "Systems using both master cylinder and distributor valve; Structural associations of master cylinder with distributor valve"
+          }
+        },
+        {
+          "code": "B60T 13/125",
+          "title": {
+            "ko": null,
+            "en": "Systems using brake pressure distributor valve without master cylinder"
+          }
+        },
+        {
+          "code": "B60T 13/128",
+          "title": {
+            "ko": null,
+            "en": "Systems using booster hydraulically combined with master cylinder"
+          }
+        },
+        {
+          "code": "B60T 13/13",
+          "title": {
+            "ko": null,
+            "en": "with additional direct hydraulic output from booster to brake circuit"
+          }
+        },
+        {
+          "code": "B60T 13/132",
+          "title": {
+            "ko": null,
+            "en": "Systems using booster having mechanical output, e.g. to master cylinder"
+          }
+        },
+        {
+          "code": "B60T 13/135",
+          "title": {
+            "ko": null,
+            "en": "Boosters characterised by control valve in booster piston"
+          }
+        },
+        {
+          "code": "B60T 13/138",
+          "title": {
+            "ko": null,
+            "en": "Pressure supply arrangements"
+          }
+        },
+        {
+          "code": "B60T 13/14",
+          "title": {
+            "ko": null,
+            "en": "using accumulators or reservoirs"
+          }
+        },
+        {
+          "code": "B60T 13/16",
+          "title": {
+            "ko": null,
+            "en": "using pumps directly, i.e. without interposition of accumulators or reservoirs"
+          }
+        },
+        {
+          "code": "B60T 13/18",
+          "title": {
+            "ko": null,
+            "en": "with control of pump output delivery"
+          }
+        },
+        {
+          "code": "B60T 13/20",
+          "title": {
+            "ko": null,
+            "en": "with control of pump driving means"
+          }
+        },
+        {
+          "code": "B60T 13/22",
+          "title": {
+            "ko": null,
+            "en": "Brakes applied by springs or weights and released hydraulically"
+          }
+        },
+        {
+          "code": "B60T 13/24",
+          "title": {
+            "ko": null,
+            "en": "the fluid being gaseous"
+          }
+        },
+        {
+          "code": "B60T 13/26",
+          "title": {
+            "ko": null,
+            "en": "Compressed-air systems"
+          }
+        },
+        {
+          "code": "B60T 13/36",
+          "title": {
+            "ko": null,
+            "en": "direct, i.e. brakes applied directly by compressed air"
+          }
+        },
+        {
+          "code": "B60T 13/38",
+          "title": {
+            "ko": null,
+            "en": "Brakes applied by springs or weights and released by compressed air"
+          }
+        },
+        {
+          "code": "B60T 13/40",
+          "title": {
+            "ko": null,
+            "en": "indirect, i.e. compressed-air booster units"
+          }
+        },
+        {
+          "code": "B60T 13/44",
+          "title": {
+            "ko": null,
+            "en": "with two-chamber booster units"
+          }
+        },
+        {
+          "code": "B60T 13/45",
+          "title": {
+            "ko": null,
+            "en": "with multiple booster units, e.g. tandem booster units"
+          }
+        },
+        {
+          "code": "B60T 13/46",
+          "title": {
+            "ko": null,
+            "en": "Vacuum systems"
+          }
+        },
+        {
+          "code": "B60T 13/48",
+          "title": {
+            "ko": null,
+            "en": "direct, i.e. brakes applied directly by vacuum"
+          }
+        },
+        {
+          "code": "B60T 13/50",
+          "title": {
+            "ko": null,
+            "en": "Brakes applied by springs or weights and released by vacuum"
+          }
+        },
+        {
+          "code": "B60T 13/52",
+          "title": {
+            "ko": null,
+            "en": "indirect, i.e. vacuum booster units"
+          }
+        },
+        {
+          "code": "B60T 13/56",
+          "title": {
+            "ko": null,
+            "en": "with two-chamber booster units"
+          }
+        },
+        {
+          "code": "B60T 13/563",
+          "title": {
+            "ko": null,
+            "en": "with multiple booster units, e.g. tandem booster units"
+          }
+        },
+        {
+          "code": "B60T 13/565",
+          "title": {
+            "ko": null,
+            "en": "characterised by being associated with master cylinders, e.g. integrally formed"
+          }
+        },
+        {
+          "code": "B60T 13/567",
+          "title": {
+            "ko": null,
+            "en": "characterised by constructional features of the casing or by its strengthening or mounting arrangements"
+          }
+        },
+        {
+          "code": "B60T 13/569",
+          "title": {
+            "ko": null,
+            "en": "characterised by piston details, e.g. construction, mounting of diaphragm"
+          }
+        },
+        {
+          "code": "B60T 13/57",
+          "title": {
+            "ko": null,
+            "en": "characterised by constructional features of control valves"
+          }
+        },
+        {
+          "code": "B60T 13/573",
+          "title": {
+            "ko": null,
+            "en": "characterised by reaction devices"
+          }
+        },
+        {
+          "code": "B60T 13/575",
+          "title": {
+            "ko": null,
+            "en": "using resilient discs or pads"
+          }
+        },
+        {
+          "code": "B60T 13/577",
+          "title": {
+            "ko": null,
+            "en": "using levers"
+          }
+        },
+        {
+          "code": "B60T 13/58",
+          "title": {
+            "ko": null,
+            "en": "Combined or convertible systems"
+          }
+        },
+        {
+          "code": "B60T 13/60",
+          "title": {
+            "ko": null,
+            "en": "both fluid pressure and vacuum"
+          }
+        },
+        {
+          "code": "B60T 13/62",
+          "title": {
+            "ko": null,
+            "en": "both straight and automatic"
+          }
+        },
+        {
+          "code": "B60T 13/64",
+          "title": {
+            "ko": null,
+            "en": "both single and multiple, e.g. single and tandem"
+          }
+        },
+        {
+          "code": "B60T 13/66",
+          "title": {
+            "ko": null,
+            "en": "Electrical control in fluid-pressure brake systems"
+          }
+        },
+        {
+          "code": "B60T 13/68",
+          "title": {
+            "ko": null,
+            "en": "by electrically-controlled valves"
+          }
+        },
+        {
+          "code": "B60T 13/70",
+          "title": {
+            "ko": null,
+            "en": "by fluid-controlled switches"
+          }
+        },
+        {
+          "code": "B60T 13/72",
+          "title": {
+            "ko": null,
+            "en": "in vacuum systems"
+          }
+        },
+        {
+          "code": "B60T 13/74",
+          "title": {
+            "ko": null,
+            "en": "with electrical assistance or drive"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60T 15/00",
+      "title": {
+        "ko": "그룹 B60T 11/00, B60T 13/00 이외의 동력제동방식에 결합되는 밸브의 구조, 배치 또는 동작(속도조건에 응답하는 밸브 구조 B60T 8/34)",
+        "en": "Construction, arrangement, or operation of valves incorporated in power brake systems and not covered by groups B60T0011000000 or B60T0013000000 (valve structures responsive to a speed condition B60T0008340000)"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 15/02",
+          "title": {
+            "ko": null,
+            "en": "Application and release valves"
+          }
+        },
+        {
+          "code": "B60T 15/04",
+          "title": {
+            "ko": null,
+            "en": "Driver's valves"
+          }
+        },
+        {
+          "code": "B60T 15/06",
+          "title": {
+            "ko": null,
+            "en": "Single driver's valves for pressure brakes without automatic control"
+          }
+        },
+        {
+          "code": "B60T 15/08",
+          "title": {
+            "ko": null,
+            "en": "Driver's valves for pressure brakes having automatic control"
+          }
+        },
+        {
+          "code": "B60T 15/10",
+          "title": {
+            "ko": null,
+            "en": "for vacuum brakes"
+          }
+        },
+        {
+          "code": "B60T 15/12",
+          "title": {
+            "ko": null,
+            "en": "combined with relay valves or the like"
+          }
+        },
+        {
+          "code": "B60T 15/14",
+          "title": {
+            "ko": null,
+            "en": "influencing electric control means"
+          }
+        },
+        {
+          "code": "B60T 15/16",
+          "title": {
+            "ko": null,
+            "en": "Arrangements enabling systems to be controlled from two or more positions"
+          }
+        },
+        {
+          "code": "B60T 15/18",
+          "title": {
+            "ko": null,
+            "en": "Triple or other relay valves which allow step-wise application or release and which are actuated by brake-pipe pressure variation to connect brake cylinders or equivalent to compressed-air or vacuum source or atmosphere"
+          }
+        },
+        {
+          "code": "B60T 15/20",
+          "title": {
+            "ko": null,
+            "en": "controlled by two fluid pressures"
+          }
+        },
+        {
+          "code": "B60T 15/22",
+          "title": {
+            "ko": null,
+            "en": "with one or more auxiliary valves, for braking, releasing, filling reservoirs"
+          }
+        },
+        {
+          "code": "B60T 15/24",
+          "title": {
+            "ko": null,
+            "en": "controlled by three fluid pressures"
+          }
+        },
+        {
+          "code": "B60T 15/26",
+          "title": {
+            "ko": null,
+            "en": "without a quick braking action"
+          }
+        },
+        {
+          "code": "B60T 15/28",
+          "title": {
+            "ko": null,
+            "en": "and having auxiliary valves"
+          }
+        },
+        {
+          "code": "B60T 15/30",
+          "title": {
+            "ko": null,
+            "en": "with a quick braking action"
+          }
+        },
+        {
+          "code": "B60T 15/32",
+          "title": {
+            "ko": null,
+            "en": "and having auxiliary valves"
+          }
+        },
+        {
+          "code": "B60T 15/34",
+          "title": {
+            "ko": null,
+            "en": "controlled alternatively by two or three fluid pressures"
+          }
+        },
+        {
+          "code": "B60T 15/36",
+          "title": {
+            "ko": null,
+            "en": "Other control devices or valves characterised by definite functions"
+          }
+        },
+        {
+          "code": "B60T 15/38",
+          "title": {
+            "ko": null,
+            "en": "for quick take-up and heavy braking, e.g. with auxiliary reservoir for taking-up slack"
+          }
+        },
+        {
+          "code": "B60T 15/40",
+          "title": {
+            "ko": null,
+            "en": "with separate take-up and applying cylinders"
+          }
+        },
+        {
+          "code": "B60T 15/42",
+          "title": {
+            "ko": null,
+            "en": "with a quick braking action, i.e. with accelerating valves actuated by brake-pipe pressure variation"
+          }
+        },
+        {
+          "code": "B60T 15/44",
+          "title": {
+            "ko": null,
+            "en": "and operating independently of the main control device"
+          }
+        },
+        {
+          "code": "B60T 15/46",
+          "title": {
+            "ko": null,
+            "en": "for retarding braking action to prevent rear vehicles of a vehicle train from overtaking the forward ones"
+          }
+        },
+        {
+          "code": "B60T 15/48",
+          "title": {
+            "ko": null,
+            "en": "for filling reservoirs"
+          }
+        },
+        {
+          "code": "B60T 15/50",
+          "title": {
+            "ko": null,
+            "en": "with means for limiting or relieving pressure in reservoirs"
+          }
+        },
+        {
+          "code": "B60T 15/52",
+          "title": {
+            "ko": null,
+            "en": "for quick release of brakes, e.g. for influencing counter-pressure in triple valve or recirculating air from reservoir or brake cylinder to brake pipe"
+          }
+        },
+        {
+          "code": "B60T 15/54",
+          "title": {
+            "ko": null,
+            "en": "for controlling exhaust from triple valve or from brake cylinder"
+          }
+        },
+        {
+          "code": "B60T 15/56",
+          "title": {
+            "ko": null,
+            "en": "for filling reservoirs by means of a secondary supply pipe"
+          }
+        },
+        {
+          "code": "B60T 15/58",
+          "title": {
+            "ko": null,
+            "en": "for supplying control impulses through a secondary air pipe"
+          }
+        },
+        {
+          "code": "B60T 15/60",
+          "title": {
+            "ko": null,
+            "en": "for releasing or applying brakes when vehicles of a vehicle train are uncoupled"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B60T 17/00",
+      "title": {
+        "ko": "그룹 B60T 8/00, B60T 13/00 및 B60T 15/00 이외 또는 별도의 특징이 있는 동력제동방식의 구성부품 세부 또는 부속품",
+        "en": "Component parts, details, or accessories of brake systems not covered by groups B60T0008000000, B60T0013000000 or B60T0015000000, or presenting other characteristic features"
+      },
+      "subgroups": [
+        {
+          "code": "B60T 17/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of pumps or compressors, or control devices therefor"
+          }
+        },
+        {
+          "code": "B60T 17/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of piping, valves in the piping, e.g. cut-off valves, couplings or air hoses"
+          }
+        },
+        {
+          "code": "B60T 17/06",
+          "title": {
+            "ko": null,
+            "en": "Applications or arrangements of reservoirs"
+          }
+        },
+        {
+          "code": "B60T 17/08",
+          "title": {
+            "ko": null,
+            "en": "Brake cylinders other than ultimate actuators"
+          }
+        },
+        {
+          "code": "B60T 17/10",
+          "title": {
+            "ko": null,
+            "en": "Two or more cylinders acting on the same brake with means for rendering them effective selectively or successively, the number of effective cylinders being variable"
+          }
+        },
+        {
+          "code": "B60T 17/12",
+          "title": {
+            "ko": null,
+            "en": "according to vehicle weight"
+          }
+        },
+        {
+          "code": "B60T 17/14",
+          "title": {
+            "ko": null,
+            "en": "according to vehicle speed"
+          }
+        },
+        {
+          "code": "B60T 17/16",
+          "title": {
+            "ko": null,
+            "en": "Locking of brake cylinders"
+          }
+        },
+        {
+          "code": "B60T 17/18",
+          "title": {
+            "ko": null,
+            "en": "Safety devices; Monitoring"
+          }
+        },
+        {
+          "code": "B60T 17/20",
+          "title": {
+            "ko": null,
+            "en": "Safety devices operable by passengers other than the driver"
+          }
+        },
+        {
+          "code": "B60T 17/22",
+          "title": {
+            "ko": null,
+            "en": "Devices for monitoring or checking brake systems; Signal devices"
+          }
+        }
+      ]
+    }
+  ]
+}

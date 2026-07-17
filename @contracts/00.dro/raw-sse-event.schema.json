@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "raw-sse-event",
+  "title": "DRO→Nexus Raw Event (internal SSE)",
+  "description": "DRO→Nexus per-session SSE 채널 (GET /events/{user_id}/{work_id}) 의 raw 이벤트. Nexus 가 dial, RAW only — persona→channel·display_status 매핑은 Nexus event_mapper. (user_id, work_id) 태그로 Nexus 가 그 키의 client WS 로 broadcast. chain_id/rt_id 는 내부 식별자 — Nexus 가 클라에 비노출. **이벤트는 best-effort 알림(복구 대상 아님 — 진실은 CM, client refresh 로 복구).** maturity/roadmap 신호는 DRO 가 발사하지 않음 — Nexus 가 chain 완료 시 CM 에서 생성(#12). rt_error/error 는 Nexus event_mapper 가 client work.failed(사용자 안전 문구로 sanitize)로 매핑해 broadcast — rt_enqueued/rt_progress/rt_result 만 사용자 미노출. output_ready 는 DRO 가 발사 — POST /control/output(docx 빌드) 완료 시 1건, Nexus event_mapper 가 client WS output.ready 로 매핑(C6).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "user_id", "work_id", "seq", "timestamp", "payload"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "description": "raw 이벤트 타입.",
+      "enum": [
+        "rt_enqueued",
+        "rt_started",
+        "rt_progress",
+        "rt_result",
+        "rt_error",
+        "chain_completed",
+        "output_ready",
+        "error"
+      ]
+    },
+    "user_id": { "type": "string", "description": "WS 라우팅 키 (Nexus broadcast 대상)." },
+    "work_id": { "type": "string", "description": "WS 라우팅 키 (= work_id)." },
+    "persona": {
+      "type": ["integer", "null"],
+      "description": "1~6. Nexus 가 PERSONA_TO_CHANNEL 로 channel 라벨 부여. signal 이벤트는 null 가능."
+    },
+    "seq": { "type": "integer", "minimum": 1, "description": "(user,work) 키별 monotonic." },
+    "timestamp": { "type": "string", "description": "ISO-8601 UTC." },
+    "payload": {
+      "type": "object",
+      "description": "이벤트별 raw payload (chain_id/rt_id/data 등). Nexus 가 가공.",
+      "additionalProperties": true
+    },
+    "step": {
+      "type": ["object", "null"],
+      "description": "step 메타 (id, display_status) — 모든 RT 시작(progress) 시 Nexus 가 progress 의 display_status 채움. 없으면 fallback.",
+      "additionalProperties": true
+    }
+  }
+}

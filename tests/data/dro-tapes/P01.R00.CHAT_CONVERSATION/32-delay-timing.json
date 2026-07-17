@@ -1,0 +1,66 @@
+{
+ "description": "delay_ms 타이밍 — progress + reply",
+ "events": [
+  {
+   "type": "rt_started",
+   "persona": 1,
+   "payload": {},
+   "step": {
+    "id": "s0",
+    "display_status": {
+     "ko": "진행 중",
+     "en": "Working"
+    }
+   }
+  },
+  {
+   "type": "rt_result",
+   "persona": 1,
+   "payload": {
+    "text": "지연"
+   },
+   "delay_ms": 300
+  },
+  {
+   "type": "chain_completed",
+   "persona": 1,
+   "payload": {},
+   "delay_ms": 200
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.progress",
+   "message.reply"
+  ],
+  "forbidden": [
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed"
+  ],
+  "thinking_channels": [
+   "support"
+  ],
+  "client_event_counts": {
+   "work.progress": 1,
+   "message.reply": 1
+  },
+  "payload_contains": [
+   {
+    "type": "work.progress",
+    "data": {
+     "display_status": {
+      "ko": "진행 중"
+     }
+    }
+   },
+   {
+    "type": "message.reply",
+    "data": {
+     "text": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+# @deployment/media.config.yaml
+# 미디어 업로드/다운로드 운영 설정 (committed). Nexus(업로드 게이트)·CM(presigned 서명) 이 런타임 read.
+# 마운트: /etc/media.config.yaml (compose x-media-config-mount). 파일만 고치면 반영 (리빌드 불요).
+schema_version: 1
+max_file_bytes: 20971520          # 20 MiB — 파일 1개 최대 크기 (presigned POST content-length-range 로 S3 강제)
+allowed_mime:                     # 허용 MIME (presigned POST Content-Type 조건으로 S3 강제)
+  - image/jpeg
+  - image/png
+  - image/webp
+  - image/gif
+  - application/pdf
+max_files_per_work: 50            # work 1개당 최대 파일 수 (업로드 발급 시 Nexus 가 검사)
+presign:
+  put_ttl: 600                    # 업로드 presigned URL 유효시간 (초)
+  get_ttl: 300                    # 다운로드 presigned URL 유효시간 (초)

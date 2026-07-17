@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "description": "P02.R11.PATENT_EVALUATION 의 self-recursive evaluation step output. 다음 action 결정 (선행기술 추가/신규성/청구항 검증/self-iter/exit).",
+  "properties": {
+    "iteration": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "현재 iteration 회차 (0-indexed)."
+    },
+    "evaluation_summary": {
+      "type": "string",
+      "description": "이번 iteration 에서 확인된 사항 — 신규성/진보성/청구항 명확성 등."
+    },
+    "filing_recommendation": {
+      "type": "string",
+      "enum": ["proceed", "revise_claims", "more_prior_art", "needs_drawings", "not_filable"],
+      "description": "최종 출원 권고. proceed 외는 추가 작업 필요."
+    },
+    "dispatch_choice": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4,
+      "description": "0=evaluation 완료 (exit), 1=선행기술 추가 검색 (P03.R00), 2=신규성 평가 (P03.R11), 3=청구항 검증 (P04.R02), 4=추가 iteration (self-recursion, max 3)."
+    }
+  },
+  "required": ["iteration", "evaluation_summary", "filing_recommendation", "dispatch_choice"]
+}

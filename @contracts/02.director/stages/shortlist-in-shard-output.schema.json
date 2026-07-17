@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "ipc_candidates": {
+      "type": "string"
+    },
+    "cpc_candidates": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ipc_candidates",
+    "cpc_candidates"
+  ]
+}

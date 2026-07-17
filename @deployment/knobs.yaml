@@ -1,0 +1,17 @@
+# @deployment/knobs.yaml — 검증 knob 스키마 (committed, 단일 진실 원천).
+#
+# CLI(make deploy)·검증·applier(export)·하네스가 이 스키마를 generic 하게 읽는다.
+# knob 추가 = 여기 한 줄 (+ via:image 면 mock 이미지 제공) → 코드 0 수정.
+#
+# kind     : fidelity(의존을 real|fake) | behavior(real 제품 동작 토글)
+# realize  : via image(컨테이너 교체, build.target 멀티스테이지) | config(런타임 /etc/deployment.yaml read)
+# available: false = fake 미구현(NEXT-PLAN) → 선택 시 fail-loud
+knobs:
+  actor:  {kind: fidelity, values: [real, fake], default: real, realize: {via: image, services: [actor]}}  # unified 단일 actor (컨테이너 300.Actor, :59300)
+  dro:    {kind: fidelity, values: [real, fake], default: real, realize: {via: image, services: [dro]}}  # fake = tape player (tests/data/dro-tapes 재생 — Nexus 결정적 검증, CHUNK 4)
+  cm:     {kind: fidelity, values: [real, fake], default: real, available: false, realize: {via: image, services: [cm]}}
+  nexus:  {kind: fidelity, values: [real, fake], default: real, available: false, realize: {via: image, services: [nexus]}}
+  llm:    {kind: fidelity, values: [real, fake], default: real, realize: {via: config, reads: [actor, dro]}}
+  kipris: {kind: fidelity, values: [real, fake], default: real, realize: {via: config, reads: [actor]}}  # fake = canned (tests/data/kipris-fixtures — mock-actor canned 과 단일 소스, 3-C)
+  auth:   {kind: behavior, values: [open, secure],    default: secure, realize: {via: config, reads: [nexus]}}
+  engine: {kind: behavior, values: [full, smalltalk], default: full,   realize: {via: config, reads: [nexus]}}

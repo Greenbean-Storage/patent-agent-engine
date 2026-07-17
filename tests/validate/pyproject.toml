@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "validate"
+version = "0.1.0"
+description = "검증 track 1 — JSON 산출물의 schema · cross-ref · tool registry 정적 정합 검증"
+requires-python = ">=3.14"
+dependencies = [
+  "jsonschema>=4.23.0",
+  "pyyaml>=6.0",
+  "openapi-spec-validator>=0.7.1",  # Stage 9 — OpenAPI 3.1 풀 메타검증 (3.0/3.1 정확)
+]
+
+[project.scripts]
+validate = "validate.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["validate"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100

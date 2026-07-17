@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "drawings_with_figure": {
+      "type": "array"
+    },
+    "any_render_errors": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "drawings_with_figure",
+    "any_render_errors"
+  ]
+}

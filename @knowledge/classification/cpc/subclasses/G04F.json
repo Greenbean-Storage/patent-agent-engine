@@ -1,0 +1,254 @@
+{
+  "subclass": "G04F",
+  "title": {
+    "ko": null,
+    "en": "TIME-INTERVAL MEASURING (measuring pulse characteristics G01R, e.g. G01R29/02; in radar or like systems G01S)"
+  },
+  "groups": [
+    {
+      "code": "G04F 1/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus which can be set and started to measure-off predetermined or adjustably-fixed time intervals without driving mechanisms, e.g. egg timers"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 1/005",
+          "title": {
+            "ko": null,
+            "en": "{using electronic timing, e.g. counting means (pulse time delay arrangements H03K5/13; modifications of electronic switches for introducing a time delay before switching H03K17/28)}"
+          }
+        },
+        {
+          "code": "G04F 1/02",
+          "title": {
+            "ko": null,
+            "en": "by consuming prefixed quantities of materials, e.g. by burning candle"
+          }
+        },
+        {
+          "code": "G04F 1/04",
+          "title": {
+            "ko": null,
+            "en": "by movement or acceleration due to gravity"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 3/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus which can be set and started to measure-off predetermined or adjustably-fixed time intervals with driving mechanisms, e.g. dosimeters with clockwork"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 3/02",
+          "title": {
+            "ko": null,
+            "en": "with mechanical driving mechanisms"
+          }
+        },
+        {
+          "code": "G04F 3/06",
+          "title": {
+            "ko": null,
+            "en": "with electric driving mechanisms"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 5/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for producing preselected time intervals for use as timing standards (generating clock signals for electric digital computers G06F1/04)"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 5/02",
+          "title": {
+            "ko": null,
+            "en": "Metronomes"
+          }
+        },
+        {
+          "code": "G04F 5/04",
+          "title": {
+            "ko": null,
+            "en": "using oscillators with electromechanical resonators {producing electric oscillations or timing pulses}"
+          }
+        },
+        {
+          "code": "G04F 5/10",
+          "title": {
+            "ko": null,
+            "en": "using electric or electronic resonators (G04F5/14 takes precedence)"
+          }
+        },
+        {
+          "code": "G04F 5/12",
+          "title": {
+            "ko": null,
+            "en": "using fluidic devices"
+          }
+        },
+        {
+          "code": "G04F 5/14",
+          "title": {
+            "ko": null,
+            "en": "using atomic clocks"
+          }
+        },
+        {
+          "code": "G04F 5/16",
+          "title": {
+            "ko": null,
+            "en": "using pulses produced by radio-isotopes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 7/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for measuring unknown time intervals by non-electric means (using fluidic means G04F13/06)"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 7/02",
+          "title": {
+            "ko": null,
+            "en": "by measuring the distance of fall or the final velocity of a falling body"
+          }
+        },
+        {
+          "code": "G04F 7/04",
+          "title": {
+            "ko": null,
+            "en": "using a mechanical oscillator"
+          }
+        },
+        {
+          "code": "G04F 7/10",
+          "title": {
+            "ko": null,
+            "en": "Means used apart from the time-piece for starting or stopping same"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 8/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for measuring unknown time intervals by electromechanical means"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 8/003",
+          "title": {
+            "ko": null,
+            "en": "{using continuously running driving means}"
+          }
+        },
+        {
+          "code": "G04F 8/006",
+          "title": {
+            "ko": null,
+            "en": "{running only during the time interval to be measured, e.g. stopwatches}"
+          }
+        },
+        {
+          "code": "G04F 8/02",
+          "title": {
+            "ko": null,
+            "en": "using an electromechanical oscillator {(G04F5/00, G04F10/00 take precedence)}"
+          }
+        },
+        {
+          "code": "G04F 8/08",
+          "title": {
+            "ko": null,
+            "en": "Means used apart from the time-piece for starting or stopping same"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 10/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for measuring unknown time intervals by electric means"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 10/005",
+          "title": {
+            "ko": null,
+            "en": "{Time-to-digital converters [TDC] (analog-to-digital converters with intermediate conversion to time or phase H03M1/50, H03M1/60)}"
+          }
+        },
+        {
+          "code": "G04F 10/02",
+          "title": {
+            "ko": null,
+            "en": "using oscillators with passive electric resonator, e.g. lumped LC {(G04F10/04, G04F10/06 and G04F10/10 take precedence)}"
+          }
+        },
+        {
+          "code": "G04F 10/04",
+          "title": {
+            "ko": null,
+            "en": "by counting pulses or half-cycles of an AC {(G04F10/005 takes precedence)}"
+          }
+        },
+        {
+          "code": "G04F 10/06",
+          "title": {
+            "ko": null,
+            "en": "by measuring phase {(G04F10/005 takes precedence)}"
+          }
+        },
+        {
+          "code": "G04F 10/10",
+          "title": {
+            "ko": null,
+            "en": "by measuring electric or magnetic quantities changing in proportion to time"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04F 13/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for measuring unknown time intervals by means not provided for in groups G04F5/00 - G04F10/00"
+      },
+      "subgroups": [
+        {
+          "code": "G04F 13/02",
+          "title": {
+            "ko": null,
+            "en": "using optical means"
+          }
+        },
+        {
+          "code": "G04F 13/04",
+          "title": {
+            "ko": null,
+            "en": "using electrochemical means"
+          }
+        },
+        {
+          "code": "G04F 13/06",
+          "title": {
+            "ko": null,
+            "en": "using fluidic means"
+          }
+        }
+      ]
+    }
+  ]
+}

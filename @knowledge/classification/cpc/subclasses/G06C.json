@@ -1,0 +1,356 @@
+{
+  "subclass": "G06C",
+  "title": {
+    "ko": null,
+    "en": "DIGITAL COMPUTERS IN WHICH ALL THE COMPUTATION IS EFFECTED MECHANICALLY (score computers for card games A63F1/18)"
+  },
+  "groups": [
+    {
+      "code": "G06C 1/00",
+      "title": {
+        "ko": null,
+        "en": "Computing aids in which the computing members form at least part of the displayed result and are manipulated directly by hand, e.g. abacuses or pocket adding devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06C 3/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for table look-up, e.g. menstruation table"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06C 5/00",
+      "title": {
+        "ko": null,
+        "en": "Non-functional elements"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Housings; Frameworks"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 7/00",
+      "title": {
+        "ko": null,
+        "en": "Input mechanisms"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 7/02",
+          "title": {
+            "ko": null,
+            "en": "Keyboards"
+          }
+        },
+        {
+          "code": "G06C 7/09",
+          "title": {
+            "ko": null,
+            "en": "Transfer of data from record carrier to computing mechanisms"
+          }
+        },
+        {
+          "code": "G06C 7/10",
+          "title": {
+            "ko": null,
+            "en": "Transfer mechanisms, e.g. transfer of a figure from a ten-key keyboard into the pin carriage"
+          }
+        },
+        {
+          "code": "G06C 7/12",
+          "title": {
+            "ko": null,
+            "en": "Resetting devices, e.g. for the keyboard"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 9/00",
+      "title": {
+        "ko": null,
+        "en": "Transfer mechanisms, e.g. for transmitting figures from the input mechanism into the computing mechanism (G06C7/10, G06C11/00, G06C15/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 9/02",
+          "title": {
+            "ko": null,
+            "en": "Back-transfer arrangements, e.g. to transfer a value accumulated in a register back into the selection mechanism"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 11/00",
+      "title": {
+        "ko": null,
+        "en": "Output mechanisms"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 11/02",
+          "title": {
+            "ko": null,
+            "en": "with visual indication, e.g. counter drum"
+          }
+        },
+        {
+          "code": "G06C 11/04",
+          "title": {
+            "ko": null,
+            "en": "with printing mechanisms, e.g. for character-at-a-time or line-at-a-time printing"
+          }
+        },
+        {
+          "code": "G06C 11/08",
+          "title": {
+            "ko": null,
+            "en": "with punching mechanism"
+          }
+        },
+        {
+          "code": "G06C 11/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for feeding single sheets or continuous web or tape, e.g. ejection device; Line-spacing devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 13/00",
+      "title": {
+        "ko": null,
+        "en": "Storage mechanisms (mechanical counters with input only to the lowest order G06M1/04)"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 13/02",
+          "title": {
+            "ko": null,
+            "en": "Operand stores, e.g. pin carriage (input mechanisms G06C7/00)"
+          }
+        },
+        {
+          "code": "G06C 13/04",
+          "title": {
+            "ko": null,
+            "en": "Print buffer stores"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Computing mechanisms; Actuating devices therefor"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 15/02",
+          "title": {
+            "ko": null,
+            "en": "operating on the binary scale"
+          }
+        },
+        {
+          "code": "G06C 15/04",
+          "title": {
+            "ko": null,
+            "en": "Adding or subtracting devices (G06C15/08 takes precedence)"
+          }
+        },
+        {
+          "code": "G06C 15/08",
+          "title": {
+            "ko": null,
+            "en": "Multiplying or dividing devices; Devices for computing the exponent or root"
+          }
+        },
+        {
+          "code": "G06C 15/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for two or more computing devices; Arrangements for subdivision into two or more computing mechanisms, e.g. splitting"
+          }
+        },
+        {
+          "code": "G06C 15/24",
+          "title": {
+            "ko": null,
+            "en": "Devices for counting the cycles of operation in division or multiplication"
+          }
+        },
+        {
+          "code": "G06C 15/26",
+          "title": {
+            "ko": null,
+            "en": "Devices for transfer between orders, e.g. tens transfer device"
+          }
+        },
+        {
+          "code": "G06C 15/42",
+          "title": {
+            "ko": null,
+            "en": "Devices for resetting to zero or other datum"
+          }
+        },
+        {
+          "code": "G06C 15/44",
+          "title": {
+            "ko": null,
+            "en": "Devices for comparing numerical values, e.g. zero check"
+          }
+        },
+        {
+          "code": "G06C 15/46",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for rounding-off"
+          }
+        },
+        {
+          "code": "G06C 15/48",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for selection of one out of several counting registers (item-counting devices G06C25/02)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 17/00",
+      "title": {
+        "ko": null,
+        "en": "Mechanisms for converting from one notational system to another, i.e. radix conversion"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06C 19/00",
+      "title": {
+        "ko": null,
+        "en": "Decimal-point mechanisms; Analogous mechanisms for non-decimal notations"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 19/02",
+          "title": {
+            "ko": null,
+            "en": "Devices for indicating the point"
+          }
+        },
+        {
+          "code": "G06C 19/04",
+          "title": {
+            "ko": null,
+            "en": "Devices for printing the point"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 21/00",
+      "title": {
+        "ko": null,
+        "en": "Programming-mechanisms for determining the steps to be performed by the computing machine, e.g. when a key or certain keys are depressed (mechanisms merely for producing multiplication by repeated addition G06C15/08)"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 21/02",
+          "title": {
+            "ko": null,
+            "en": "in which the operation of the mechanism is determined by the position of the carriage"
+          }
+        },
+        {
+          "code": "G06C 21/04",
+          "title": {
+            "ko": null,
+            "en": "Conditional arrangements for controlling subsequent operating functions, e.g. control arrangement triggered by a function key and depending on the condition of the register (arrangements for selection of one out of several counting registers G06C15/48)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 23/00",
+      "title": {
+        "ko": null,
+        "en": "Driving mechanisms for functional elements"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 23/02",
+          "title": {
+            "ko": null,
+            "en": "of main shaft"
+          }
+        },
+        {
+          "code": "G06C 23/04",
+          "title": {
+            "ko": null,
+            "en": "of pin carriage, e.g. for step-by-step movement"
+          }
+        },
+        {
+          "code": "G06C 23/06",
+          "title": {
+            "ko": null,
+            "en": "of tabulation devices, e.g. of carriage skip"
+          }
+        },
+        {
+          "code": "G06C 23/08",
+          "title": {
+            "ko": null,
+            "en": "Hydraulic or pneumatic actuation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 25/00",
+      "title": {
+        "ko": null,
+        "en": "Auxiliary functional arrangements, e.g. interlocks (interlocks in keyboards G06C7/04)"
+      },
+      "subgroups": [
+        {
+          "code": "G06C 25/02",
+          "title": {
+            "ko": null,
+            "en": "Item-counting devices (devices for counting the cycles of operation in division or multiplication G06C15/24)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06C 27/00",
+      "title": {
+        "ko": null,
+        "en": "Computing machines characterised by the structural interrelation of their functional units, e.g. invoicing machines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G06C 29/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of computing machines with other machines, e.g. with typewriter, with money-changing apparatus"
+      },
+      "subgroups": []
+    }
+  ]
+}

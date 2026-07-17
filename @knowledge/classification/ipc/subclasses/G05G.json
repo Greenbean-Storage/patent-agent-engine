@@ -1,0 +1,612 @@
+{
+  "subclass": "G05G",
+  "title": {
+    "ko": "기계적 구성에만 특징이 있는 제어장치 제어계(보우덴(Bowden) 또는 유사한 기구; 이 목적에 특유하지 않는 전동장치 기구; 회전운동 전달용 변속 또는 역전 전동장치를 위한 것)",
+    "en": "CONTROL DEVICES OR SYSTEMS INSOFAR AS CHARACTERISED BY MECHANICAL FEATURES ONLY (\"Bowden\" or like mechanisms F16C0001100000;gearings or mechanisms not peculiar to this purpose F16H;speed changing or reversing mechanisms for gearings conveying rotary motion F16H0059000000-F16H0063000000)"
+  },
+  "definition": {
+    "ko": "수동제어기구, 1개이상의 피제어 부재를 조작하는 1개이상의 제어부재 G05G7/00, G05G9/00, G05G11/00, G05G13/00 자동운동개시장치; 트립(TRIP)기구 G05G15/00, G05G17/00 서보(SERVO)기구 G05G19/00 프로그램제어 장치 G05G21/00 쇄정(LOCKING) 수단, 제어수단; 위치를 정하는 수단 G05G5/00; 23/00 구성 부품 G05G1/00, G05G3/00, G05G25/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G05G 1/00",
+      "title": {
+        "ko": "제어부재, 예. 노브 또는 핸들; 그 조립체 또는 배열; 제어부재의 위치의 지시 (조이스틱 G05G9/04; 자동차용 스티어링 휠 B62D)",
+        "en": "Controlling members, e.g. knobs or handles; Assemblies or arrangements thereof; Indicating position of controlling members (joysticks G05G0009040000;steering wheels for motor vehicles B62D)"
+      },
+      "definition": {
+        "ko": "이 그룹에서는, 상반되는 지시가 없는 한, 최초개소 우선규칙이 적용되며, 즉. 각 계층적 레벨에서, 최초의 적절한 개소에 분류한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G05G 1/01",
+          "title": {
+            "ko": "다수의 제어부재간의 배열 (양발에 의한 제어, 예. 차량 운전 교습을 위한 것은 G05G1/34; 둘 또는 그 이상의 페달로 조립된 탑재 수단 G05G1/36)",
+            "en": "Arrangements of two or more controlling members with respect to one another (double foot control, e.g. for instruction vehicles G05G0001340000;mounting units comprising an assembly with two or more pedals G05G0001360000)"
+          }
+        },
+        {
+          "code": "G05G 1/015",
+          "title": {
+            "ko": "제어부재의 위치를 지시하기 위한 배열 (연속적으로 페달의 위치를 감지하는 수단은 G05G 1/38; 촉감으로 위치를 감지하는 수단은 G05G 5/03)",
+            "en": "Arrangements for indicating the position of a controlling member (means for continuously detecting pedal position G05G0001380000;means for detecting position through tactile feedback G05G0005030000)"
+          }
+        },
+        {
+          "code": "G05G 1/02",
+          "title": {
+            "ko": null,
+            "en": "Controlling members for hand-actuation by linear movement, e.g. push buttons"
+          }
+        },
+        {
+          "code": "G05G 1/04",
+          "title": {
+            "ko": null,
+            "en": "Controlling members for hand-actuation by pivoting movement, e.g. levers"
+          }
+        },
+        {
+          "code": "G05G 1/06",
+          "title": {
+            "ko": null,
+            "en": "Details of their grip parts"
+          }
+        },
+        {
+          "code": "G05G 1/08",
+          "title": {
+            "ko": null,
+            "en": "Controlling members for hand-actuation by rotary movement, e.g. hand wheels"
+          }
+        },
+        {
+          "code": "G05G 1/10",
+          "title": {
+            "ko": null,
+            "en": "Details, e.g. of discs, knobs, wheels or handles"
+          }
+        },
+        {
+          "code": "G05G 1/12",
+          "title": {
+            "ko": null,
+            "en": "Means for securing the members on rotatable spindles or the like"
+          }
+        },
+        {
+          "code": "G05G 1/30",
+          "title": {
+            "ko": null,
+            "en": "Controlling members actuated by foot"
+          }
+        },
+        {
+          "code": "G05G 1/32",
+          "title": {
+            "ko": null,
+            "en": "with means to prevent injury"
+          }
+        },
+        {
+          "code": "G05G 1/323",
+          "title": {
+            "ko": null,
+            "en": "means disconnecting the connection between pedal and controlled member, e.g. by breaking or bending the connecting rod"
+          }
+        },
+        {
+          "code": "G05G 1/327",
+          "title": {
+            "ko": null,
+            "en": "means disconnecting the pedal from its hinge or support, e.g. by breaking or bending the support"
+          }
+        },
+        {
+          "code": "G05G 1/34",
+          "title": {
+            "ko": null,
+            "en": "Double foot controls, e.g. for instruction vehicles"
+          }
+        },
+        {
+          "code": "G05G 1/36",
+          "title": {
+            "ko": null,
+            "en": "Mounting units comprising an assembly of two or more pedals, e.g. for facilitating mounting"
+          }
+        },
+        {
+          "code": "G05G 1/38",
+          "title": {
+            "ko": null,
+            "en": "comprising means to continuously detect pedal position"
+          }
+        },
+        {
+          "code": "G05G 1/40",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        },
+        {
+          "code": "G05G 1/405",
+          "title": {
+            "ko": null,
+            "en": "infinitely adjustable"
+          }
+        },
+        {
+          "code": "G05G 1/42",
+          "title": {
+            "ko": null,
+            "en": "non-pivoting, e.g. sliding"
+          }
+        },
+        {
+          "code": "G05G 1/44",
+          "title": {
+            "ko": null,
+            "en": "pivoting"
+          }
+        },
+        {
+          "code": "G05G 1/445",
+          "title": {
+            "ko": null,
+            "en": "about a central fulcrum"
+          }
+        },
+        {
+          "code": "G05G 1/46",
+          "title": {
+            "ko": null,
+            "en": "Means, e.g. links, for connecting the pedal to the controlled unit"
+          }
+        },
+        {
+          "code": "G05G 1/48",
+          "title": {
+            "ko": null,
+            "en": "Non-slip pedal treads; Pedal extensions or attachments characterised by mechanical features only"
+          }
+        },
+        {
+          "code": "G05G 1/483",
+          "title": {
+            "ko": null,
+            "en": "Non-slip treads"
+          }
+        },
+        {
+          "code": "G05G 1/487",
+          "title": {
+            "ko": null,
+            "en": "Pedal extensions"
+          }
+        },
+        {
+          "code": "G05G 1/50",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing of pedals; Pedals characterised by the material used"
+          }
+        },
+        {
+          "code": "G05G 1/52",
+          "title": {
+            "ko": null,
+            "en": "Controlling members specially adapted for actuation by other parts of the human body than hand or foot"
+          }
+        },
+        {
+          "code": "G05G 1/54",
+          "title": {
+            "ko": "보조 작동부 또는 연장부로 구동할 수 있도록 특별하게 맞춰진 제어 부재; 그 제어 부재를 위한 동작 부재 또는 연장부 (페달연장부 G05G 1/487)",
+            "en": "Controlling members specially adapted for actuation by auxiliary operating members or extensions; Operating members or extensions therefor (pedal extensions G05G0001487000)"
+          }
+        },
+        {
+          "code": "G05G 1/56",
+          "title": {
+            "ko": null,
+            "en": "Controlling members specially adapted for actuation by keys, screwdrivers or like tools"
+          }
+        },
+        {
+          "code": "G05G 1/58",
+          "title": {
+            "ko": null,
+            "en": "Rests or guides for relevant parts of the operator's body"
+          }
+        },
+        {
+          "code": "G05G 1/60",
+          "title": {
+            "ko": null,
+            "en": "Foot rests or foot guides"
+          }
+        },
+        {
+          "code": "G05G 1/62",
+          "title": {
+            "ko": null,
+            "en": "Arm rests"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05G 3/00",
+      "title": {
+        "ko": "피제어부재(치차 시프터 요오크(Shifter-yoke) F16H 63/32); 그 조립체 또는 배열(피제어부재의 연동 G05G 5/08)",
+        "en": "Controlled members (gear shifter yokes F16H0063320000); Assemblies or arrangements thereof (interlocking of controlled members G05G0005080000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G05G 5/00",
+      "title": {
+        "ko": "제어 메커니즘 부분의 움직임을 방지, 제한 또는 되돌리기 위한 수단, 예. 잠금 제어 멤버 (G05G17/00이 우선)",
+        "en": "Means for preventing, limiting or returning the movements of parts of a control mechanism, e.g. locking controlling member (G05G0017000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G05G 5/02",
+          "title": {
+            "ko": "두 개 이상의 개별 단계 또는 방식으로 이동할 수 있는 제어 구성원의 원치 않는 움직임을 방지하는 수단, 예. 단계적 이동 또는 특정 이동 순서로 제한(G05G5/28이 우선)",
+            "en": "Means preventing undesired movements of a controlling member which can be moved in two or more separate steps or ways, e.g. restricting to a stepwise movement or to a particular sequence of movements (G05G0005280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05G 5/03",
+          "title": {
+            "ko": "명령 지점 또는 기준점에서 제어부재의 도달에 대한 조작자의 감지를 향상시키기 위한 수단; 감각 부여, 예. 반발력을 일으키는 수단 (제어부재의 위치를 지시하는 조정은 G05G 1/015)",
+            "en": "Means for enhancing the operator's awareness of the arrival of the controlling member at a command or datum position; Providing feel, e.g. means for creating a counterforce (arrangements for indicating the position of the controlling member G05G0001015000)"
+          }
+        },
+        {
+          "code": "G05G 5/04",
+          "title": {
+            "ko": "부재와 운동을 제한하는 정지장치, 예. 가조정 정지장치 (G05G 5/03, G05G 5/05, G05G 5/28이 우선)",
+            "en": "Stops for limiting movement of members, e.g. adjustable stop (G05G0005030000, G05G0005050000, G05G0005280000 take precedence)"
+          }
+        },
+        {
+          "code": "G05G 5/05",
+          "title": {
+            "ko": "제어부재를 비조작 위치 또는 중위위치로 복귀시키 거나 또는 복귀되는 경향을 부여하는 수단, 예. 리턴스프링 또는 탄성 정지단을 가진 것(G05G 5/28이 우선)",
+            "en": "Means for returning or tending to return controlling members to an inoperative or neutral position, e.g. by providing return springs or resilient end-stops (G05G0005280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05G 5/06",
+          "title": {
+            "ko": "하나 또는 유한수의 소정위치에만 부재를 잡아주기 위한 것 (G05G 5/03, G05G 5/05, G05G 5/28이 우선)",
+            "en": "for holding members in one or a limited number of definite positions only (G05G0005030000, G05G0005050000, G05G0005280000 take precedence)"
+          }
+        },
+        {
+          "code": "G05G 5/08",
+          "title": {
+            "ko": null,
+            "en": "Interlocking of members, e.g. locking a member in a particular position before or during the movement of another member"
+          }
+        },
+        {
+          "code": "G05G 5/12",
+          "title": {
+            "ko": "불확정수의 위치에 부재를 잡아주기 위한 것, 예. 치가 있는 4분단에 의한 것(G05G 5/28이 우선)",
+            "en": "for holding members in an indefinite number of positions, e.g. by a toothed quadrant (G05G0005280000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05G 5/14",
+          "title": {
+            "ko": null,
+            "en": "by locking a member with respect to a fixed quadrant, rod, or the like"
+          }
+        },
+        {
+          "code": "G05G 5/16",
+          "title": {
+            "ko": null,
+            "en": "by friction"
+          }
+        },
+        {
+          "code": "G05G 5/18",
+          "title": {
+            "ko": null,
+            "en": "by positive interengagement, e.g. by a pawl"
+          }
+        },
+        {
+          "code": "G05G 5/20",
+          "title": {
+            "ko": null,
+            "en": "by locking a quadrant, rod, or the like carried by the member"
+          }
+        },
+        {
+          "code": "G05G 5/22",
+          "title": {
+            "ko": null,
+            "en": "by friction"
+          }
+        },
+        {
+          "code": "G05G 5/24",
+          "title": {
+            "ko": null,
+            "en": "by positive interengagement, e.g. by a pawl"
+          }
+        },
+        {
+          "code": "G05G 5/26",
+          "title": {
+            "ko": null,
+            "en": "by other means than a quadrant, rod, or the like"
+          }
+        },
+        {
+          "code": "G05G 5/28",
+          "title": {
+            "ko": null,
+            "en": "for preventing unauthorised access to the controlling member or its movement to a command position"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05G 7/00",
+      "title": {
+        "ko": "하나의 피제어부재와 공동하는 하나의 제어부재를 구비한 수동제어기구; 그 세부 (제어부재 G05G1/00)",
+        "en": "Manually-actuated control mechanisms provided with one single controlling member co-operating with one single controlled member; Details thereof (controlling members G05G0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G05G 7/02",
+          "title": {
+            "ko": "전달동작이나 변환동작을 위한 또는 원격적으로 작용하기 위한 특수한 수단에 특징이 있는 것",
+            "en": "characterised by special provisions for conveying or converting motion, or for acting at a distance"
+          }
+        },
+        {
+          "code": "G05G 7/04",
+          "title": {
+            "ko": null,
+            "en": "altering the ratio of motion or force between controlling member and controlled member as a function of the position of the controlling member"
+          }
+        },
+        {
+          "code": "G05G 7/06",
+          "title": {
+            "ko": "제어부재의 반복운동에 의하여 피제어부재의 운동을 증대시키는 것(G05G 7/08이 우선)",
+            "en": "in which repeated movement of the controlling member produces increments of movement of the controlled member (G05G0007080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G05G 7/08",
+          "title": {
+            "ko": null,
+            "en": "in which repeated movement of the controlling member moves the controlled member through a cycle of distinct positions"
+          }
+        },
+        {
+          "code": "G05G 7/10",
+          "title": {
+            "ko": "원격제어에 특히 적합되어진 것(G05G 7/04 - G05G 7/08까지 우선)",
+            "en": "specially adapted for remote control (G05G0007040000-G05G0007080000 take precedence)"
+          }
+        },
+        {
+          "code": "G05G 7/12",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for actuating a member on a system in motion with respect to the controlling member, e.g. on a rotating shaft"
+          }
+        },
+        {
+          "code": "G05G 7/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for delaying initiation of, or making more gradual throughout, the movement of the controlled member in response to a given input from the controlling member, e.g. by providing lost motion in the command train"
+          }
+        },
+        {
+          "code": "G05G 7/16",
+          "title": {
+            "ko": null,
+            "en": "Special provisions for reducing the effect of slight relative movement between supports of the mechanism, e.g. resulting from resilient mounting of a controlled mechanism"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05G 9/00",
+      "title": {
+        "ko": null,
+        "en": "Manually-actuated control mechanisms provided with one single controlling member co-operating with two or more controlled members, e.g. selectively, simultaneously"
+      },
+      "subgroups": [
+        {
+          "code": "G05G 9/02",
+          "title": {
+            "ko": null,
+            "en": "the controlling member being movable in different independent ways, movement in each individual way actuating one controlled member only"
+          }
+        },
+        {
+          "code": "G05G 9/04",
+          "title": {
+            "ko": null,
+            "en": "in which movement in two or more ways can occur simultaneously"
+          }
+        },
+        {
+          "code": "G05G 9/047",
+          "title": {
+            "ko": null,
+            "en": "the controlling member being movable by hand about orthogonal axes, e.g. joysticks"
+          }
+        },
+        {
+          "code": "G05G 9/053",
+          "title": {
+            "ko": null,
+            "en": "the controlling member comprising a ball"
+          }
+        },
+        {
+          "code": "G05G 9/06",
+          "title": {
+            "ko": null,
+            "en": "the controlled members being actuated successively by repeated movement of the controlling member"
+          }
+        },
+        {
+          "code": "G05G 9/08",
+          "title": {
+            "ko": null,
+            "en": "the controlled members being actuated successively by progressive movement of the controlling member"
+          }
+        },
+        {
+          "code": "G05G 9/10",
+          "title": {
+            "ko": null,
+            "en": "with preselection and subsequent movement of each controlled member by movement of the controlling member in two different ways, e.g. guided by a shift gate"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05G 11/00",
+      "title": {
+        "ko": null,
+        "en": "Manually-actuated control mechanisms provided with two or more controlling members co-operating with one single controlled member"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G05G 13/00",
+      "title": {
+        "ko": "둘 이상의 피제어부재와 둘 이상의 피제어부재를 구비한 수동제어기구(연동 G05G 5/08)",
+        "en": "Manually-actuated control mechanisms provided with two or more controlling members and also two or more controlled members (interlocking G05G0005080000)"
+      },
+      "subgroups": [
+        {
+          "code": "G05G 13/02",
+          "title": {
+            "ko": null,
+            "en": "with separate controlling members for preselection and shifting of controlled members"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05G 15/00",
+      "title": {
+        "ko": "특정한 원인에 연유하여 자동적으로 시동시키기 위한 기계적 장치",
+        "en": "Mechanical devices for initiating a movement automatically due to a specific cause"
+      },
+      "subgroups": [
+        {
+          "code": "G05G 15/02",
+          "title": {
+            "ko": null,
+            "en": "due to alteration of the sense of movement of a member"
+          }
+        },
+        {
+          "code": "G05G 15/04",
+          "title": {
+            "ko": null,
+            "en": "due to distance or angle travelled by a member"
+          }
+        },
+        {
+          "code": "G05G 15/06",
+          "title": {
+            "ko": "부재의 회전속도나 운동속도에 기인하는 것, 예. 상한 또는 하한의 통과(속도계 G01P)",
+            "en": "due to the speed of rotation or of bodily movement of a member, e.g. passing an upper or lower limit thereof (speedometers G01P)"
+          }
+        },
+        {
+          "code": "G05G 15/08",
+          "title": {
+            "ko": null,
+            "en": "due to the load or torque on a member, e.g. if exceeding a predetermined value thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05G 17/00",
+      "title": {
+        "ko": null,
+        "en": "Mechanical devices for moving a member after being released; Trip or release mechanisms characterised thereby"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G05G 19/00",
+      "title": {
+        "ko": null,
+        "en": "Servo-mechanisms with follow-up action, e.g. occurring in steps"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G05G 21/00",
+      "title": {
+        "ko": "일련의 조작을 제어하는 기계적 장치, 즉. 프로그램 제어, 예. 캠 세트를 포함하는 것 (G05G5/02가 우선)",
+        "en": "Mechanical apparatus for control of a series of operations, i.e. program control, e.g. involving a set of cams (G05G0005020000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G05G 23/00",
+      "title": {
+        "ko": null,
+        "en": "Means for ensuring the correct positioning of parts of control mechanisms, e.g. for taking-up play"
+      },
+      "subgroups": [
+        {
+          "code": "G05G 23/02",
+          "title": {
+            "ko": null,
+            "en": "self-adjusting"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G05G 25/00",
+      "title": {
+        "ko": null,
+        "en": "Other details, features or accessories of control mechanisms, e.g. supporting intermediate members elastically"
+      },
+      "subgroups": [
+        {
+          "code": "G05G 25/02",
+          "title": {
+            "ko": null,
+            "en": "Inhibiting the generation or transmission of noise"
+          }
+        },
+        {
+          "code": "G05G 25/04",
+          "title": {
+            "ko": null,
+            "en": "Sealing against entry of dust, weather or the like"
+          }
+        }
+      ]
+    }
+  ]
+}

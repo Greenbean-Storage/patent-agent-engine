@@ -1,0 +1,50 @@
+{
+ "description": "persona 2 → progress.channel=analysis",
+ "events": [
+  {
+   "type": "rt_started",
+   "persona": 2,
+   "payload": {},
+   "step": {
+    "id": "s0",
+    "display_status": {
+     "ko": "진행 중",
+     "en": "Working"
+    }
+   }
+  },
+  {
+   "type": "chain_completed",
+   "persona": 2,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.progress"
+  ],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed"
+  ],
+  "thinking_channels": [
+   "analysis"
+  ],
+  "client_event_counts": {
+   "work.progress": 1
+  },
+  "payload_contains": [
+   {
+    "type": "work.progress",
+    "data": {
+     "display_status": {
+      "ko": "진행 중"
+     }
+    }
+   }
+  ]
+ }
+}

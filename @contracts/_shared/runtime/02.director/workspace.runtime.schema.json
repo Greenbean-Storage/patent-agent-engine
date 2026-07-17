@@ -1,0 +1,103 @@
+{
+  "title": "DirectorWorkspaceRuntime",
+  "description": "세션 워킹 메모리: phase 진행 상태·현재 처리 요청·다음 대화 힌트. sessions/{user_id}/{work_id}/runtime/02.director/workspace.json. director(02) writer, buddy/gateway readers. (rename ← session.context.schema.json)",
+  "type": "object",
+  "required": [
+    "phase_status",
+    "last_updated"
+  ],
+  "properties": {
+    "phase_status": {
+      "type": "object",
+      "description": "각 단계의 완료 상태",
+      "properties": {
+        "conversation": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "in_progress",
+            "completed"
+          ]
+        },
+        "specification": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "in_progress",
+            "completed"
+          ]
+        },
+        "research": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "in_progress",
+            "completed"
+          ]
+        },
+        "evaluation": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "in_progress",
+            "completed"
+          ]
+        },
+        "document": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "in_progress",
+            "completed"
+          ]
+        }
+      },
+      "required": [
+        "conversation",
+        "specification",
+        "research",
+        "evaluation",
+        "document"
+      ]
+    },
+    "current_request": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "현재 처리 중인 요청 (없으면 null)",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "gap_analysis",
+            "prior_art_search",
+            "reasoning",
+            "drawing",
+            "evaluation",
+            "document_generation"
+          ]
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "params": {
+          "type": "object"
+        }
+      }
+    },
+    "message_to_chat": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "director(02)가 buddy(01)에게 전달할 다음 대화 방향 힌트"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

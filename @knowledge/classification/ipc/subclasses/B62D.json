@@ -1,0 +1,2139 @@
+{
+  "subclass": "B62D",
+  "title": {
+    "ko": "자동차; 트레일러 (농업 기계 또는 그 설비의 조향 및 안내 A01B 69/00; 차륜, 캐스터, 차축, 차륜의 점착력을 증가시키는 것 B60B; 차량 타이어, 타이어의 팽창, 타이어의 교환 또는 수리 B60C; 열차 또는 유사 차량간의 연결기 B60D; 철도 및 노면용 차량, 수육양용 또는 용도 전환 가능한 차량 B60F; 현가 장치 B60G; 난방, 냉방, 환기 또는 다른 공기 처리 장치 B60H; 창, 방풍 유리, 비고정식 루프, 도어 또는 유사한 장치, 비사용시의 차량커버 B60J; 추진장치, 보조추진장치, 전동장치, 제어장치, 계장 또는 계기판 B60K; 전동차량의 전동장치 또는 추진장치 B60L; 전동차량용 동력공급장치 B60M; 달리 분류되지 않는 여객설비 B60N; 하물수송 또는 특수한 하물 또는 대상물을 운반하는 데에 적합한 것 B60P; 조명, 신호장치의 배치, 그것의 또는 그것을 위한 회로의 부착 또는 지지 일반 B60Q; 달리 분류되지 않는 차량, 차량부속품 또는 차량부품 B60R; 달리 분류되지 않는 손질, 청소, 수리, 지지, 들어올리기 또는 이동 B60S; 제동장치, 제동제시스템 또는 그 부속품 B60T; 공기쿠션차량 B60V; 모우터사이클, 그 부속품 B60J, B60K; 차량의 시험 G01M)",
+    "en": "MOTOR VEHICLES; TRAILERS (steering, or guiding on a desired track, of agricultural machines or implements A01B0069000000;wheels, castors, axles, increasing wheel adhesion B60B;vehicle tyres, tyre inflation or tyre changing B60C;connections between vehicles of a train or the like B60D;vehicles for use on rail and road, amphibious or convertible vehicles B60F;suspension arrangements B60G;heating, cooling, ventilating or other air treating devices B60H;windows, windscreens, non-fixed roofs, doors or similar devices, protective coverings for vehicles not in use B60J;propulsion plant arrangements, auxiliary drives, transmissions, controls, instrumentation or dashboards B60K;electric equipment or propulsion of electrically-propelled vehicles B60L;power supply for electrically-propelled vehicles B60M;passenger accommodation not otherwise provided for B60N;adaptations for load transportation or to carry special loads or objects B60P;arrangement of signalling or lighting devices, the mounting or supporting thereof or circuits therefor, for vehicles in general B60Q;vehicles, vehicle fittings or vehicle parts, not otherwise provided for B60R;servicing, cleaning, repairing, supporting, lifting, or manoeuvring, not otherwise provided for B60S;brake arrangements, brake control systems or parts thereof B60T;air-cushion vehicles B60V;motorcycles, accessories therefor B62J, B62K;testing of vehicles G01M)"
+  },
+  "definition": {
+    "ko": "기능 또는 구조에 특징이 있는 것; 그 부품 또는 부속품으로서 달리 분류되지 않는 것 주로 여객용인 것; 하물운반용인 것 B62D31/00, B62D47/00; 33/00 트랙터; 트랙터와 트레일러와 연결된 것 또는 노면차량; 운반자용의 좌석을 갖지 않는 것 B62D49/00; 53/00; 51/00 무한궤도차 및 그것들의 궤도대; 궤도대 및 차륜 이외의 접지장치를 갖는 차량 B62D55/00; 57/00 구동차륜을 갖는 트레일러; 차륜의 수 또는 배열을 특징으로 하는 부수차 또는 구동차륜 B62D59/00 : 61/00 다른 형의 차륜; 그 설계, 제조 또는 조립 B62D63/00; 65/00; 67/00 차대(CHASSIS)의 프레임, 상부구조 및 차체 차대의 프레임; 단일 구조의 차체; 차체와 프레임의 연결 B62D21/00; 23/00; 24/00 상부구조 및 차체 재질에 특징이 있는 것 B62D29/00 차량의 기능에 관하여 특징이 있는 것 B62D31/00, B62D33/00 유선형상에 특징이 있는 것; 안전성에 특징이 있는 것 B62D35/00; 37/00; 17/00 상부구조의 구성체 및 그것의 결합; 예비차량용의 장치 B62D25/00; 27/00; 스페어 휠 장치 43/00 간격 부재 B62D19/00 기타 차체 B62D39/00 조향 초동장치; 전동장치; 운전조건적응; 링크기구; 조정장치 B62D1/00; 3/00; 6/00; 7/00; 17/00 동력보조장치; 무한궤도차용, 트레일러용 B62D5/00; 6/00; 11/00; 13/00 직렬로 연결되거나 일렬로 연결된 프레임 B62D12/00 다른 형의 것 B62D9/00, B62D11/00, B62D15/00 충돌할 때 표시를 위한 부속품 B62D41/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B62D 1/00",
+      "title": {
+        "ko": "조향 제어 장치, 즉 차량의 방향 변화를 일으키는 장치",
+        "en": "Steering of motor vehicles or trailers"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 1/00",
+      "title": {
+        "ko": "조향 제어 장치, 즉 차량의 방향 변화를 일으키는 장치",
+        "en": "Steering controls, i.e. means for initiating a change of direction of the vehicle"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 1/02",
+          "title": {
+            "ko": "차량에 설치된 것",
+            "en": "vehicle-mounted"
+          }
+        },
+        {
+          "code": "B62D 1/04",
+          "title": {
+            "ko": "핸들, 스티어링 휠",
+            "en": "Hand wheels"
+          }
+        },
+        {
+          "code": "B62D 1/06",
+          "title": {
+            "ko": "림, 예. 가열장치를 갖는 것; 림덮개(1/11이 우선)",
+            "en": "Rims, e.g. with heating means; Rim covers (B62D0001110000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 1/08",
+          "title": {
+            "ko": "스포우크, 예. 탄력성이 있는 것(1/11이 우선)",
+            "en": "Spokes, e.g. resilient (B62D0001110000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 1/10",
+          "title": {
+            "ko": "허브; 허브의 조향 컬럼에의 결합, 예. 조정 자재한 것(1/11이 우선)",
+            "en": "Hubs; Connecting hubs to steering columns, e.g. adjustable (B62D0001110000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 1/11",
+          "title": {
+            "ko": "에너지-흡수 장치와 결합된 것. 예. 굽혀지거나 절첩 가능한 것(스티어링 휠에 부착된 패드라이닝(padded lining) B60R 21/05; 부재의 가소성 변형을 이용한 충격흡수부재 일반 F16F 7/12)",
+            "en": "incorporating energy-absorbing arrangements, e.g. by being yieldable or collapsible (padded linings associated with the steering wheel B60R0021050000;shock absorbers using plastic deformation of members in general F16F0007120000)"
+          }
+        },
+        {
+          "code": "B62D 1/12",
+          "title": {
+            "ko": null,
+            "en": "Hand levers"
+          }
+        },
+        {
+          "code": "B62D 1/14",
+          "title": {
+            "ko": null,
+            "en": "Tillers, i.e. hand levers operating on steering columns"
+          }
+        },
+        {
+          "code": "B62D 1/16",
+          "title": {
+            "ko": "조향 컬럼",
+            "en": "Steering columns"
+          }
+        },
+        {
+          "code": "B62D 1/18",
+          "title": {
+            "ko": "굽힐 수 있거나 조정할 수 있는 것, 예. 기울임 가능한 것(스티어링휠에 부착된 패드라이닝 B60R 21/05)",
+            "en": "yieldable or adjustable, e.g. tiltable (padded linings associated with the steering column B60R0021050000)"
+          },
+          "definition": {
+            "ko": "그룹 B62D1/181는 그룹 B62D1/183 ~ B62D1/187에 우선함",
+            "en": null
+          }
+        },
+        {
+          "code": "B62D 1/181",
+          "title": {
+            "ko": null,
+            "en": "with power actuated adjustment, e.g. with position memory"
+          }
+        },
+        {
+          "code": "B62D 1/183",
+          "title": {
+            "ko": null,
+            "en": "adjustable between in-use and out-of-use positions, e.g. to improve access"
+          }
+        },
+        {
+          "code": "B62D 1/184",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms for locking columns at selected positions"
+          }
+        },
+        {
+          "code": "B62D 1/185",
+          "title": {
+            "ko": "축방향으로 조정할 수 있는 것, 예. 축방향으로 축소가능한 것(1/183, 1/187, 1/19가 우선)",
+            "en": "adjustable by axial displacement, e.g. telescopically (B62D0001183000, B62D0001187000, B62D0001190000 take precedence)"
+          }
+        },
+        {
+          "code": "B62D 1/187",
+          "title": {
+            "ko": "경사 조정장치를 갖는 것; 경사 조정장치와 축방향 조정장치를 갖는 것(1/183, 1/19가 우선)",
+            "en": "with tilt adjustment; with tilt and axial adjustment (B62D0001183000, B62D0001190000 take precedence)"
+          }
+        },
+        {
+          "code": "B62D 1/189",
+          "title": {
+            "ko": null,
+            "en": "the entire steering column being tiltable as a unit"
+          }
+        },
+        {
+          "code": "B62D 1/19",
+          "title": {
+            "ko": "에너지 흡수장치와 결합된 것. 예. 굽힐 수 있거나 절첩 가능한 것(부재의 가소성 변형을 이용한 충격흡수부재 일반 F16F 7/12)",
+            "en": "incorporating energy-absorbing arrangements, e.g. by being yieldable or collapsible (shock-absorbers using plastic deformation of members in general F16F0007120000)"
+          }
+        },
+        {
+          "code": "B62D 1/20",
+          "title": {
+            "ko": null,
+            "en": "Connecting steering column to steering gear"
+          }
+        },
+        {
+          "code": "B62D 1/22",
+          "title": {
+            "ko": null,
+            "en": "Alternative steering-control elements, e.g. for teaching purposes"
+          }
+        },
+        {
+          "code": "B62D 1/24",
+          "title": {
+            "ko": "차량에 부착되어 있지 않은 것",
+            "en": "not vehicle-mounted"
+          }
+        },
+        {
+          "code": "B62D 1/26",
+          "title": {
+            "ko": "기계적인 것, 예. 무하중 베어링의 안내에 의한 것(궤도 B61)",
+            "en": "mechanical, e.g. by a non-load-bearing guide (railways B61)"
+          }
+        },
+        {
+          "code": "B62D 1/28",
+          "title": {
+            "ko": null,
+            "en": "non-mechanical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 3/00",
+      "title": {
+        "ko": "조향 전동장치(Steering gear) (동력 또는 동력 보조장치에 의해 구동되는 것 5/00; 조향 링크 7/00; 전향할 수 없는 차륜용 11/00; 전동장치일반 F16H)",
+        "en": "Steering gears (power assisted or power driven B62D0005000000;steering linkages B62D0007000000;for non-deflectable wheels B62D0011000000;gearing in general F16H)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 3/02",
+          "title": {
+            "ko": null,
+            "en": "mechanical"
+          }
+        },
+        {
+          "code": "B62D 3/04",
+          "title": {
+            "ko": null,
+            "en": "of worm type"
+          }
+        },
+        {
+          "code": "B62D 3/06",
+          "title": {
+            "ko": null,
+            "en": "with screw and nut"
+          }
+        },
+        {
+          "code": "B62D 3/08",
+          "title": {
+            "ko": null,
+            "en": "using intermediate balls or the like"
+          }
+        },
+        {
+          "code": "B62D 3/10",
+          "title": {
+            "ko": null,
+            "en": "with worm engaging in sector or roller gear"
+          }
+        },
+        {
+          "code": "B62D 3/12",
+          "title": {
+            "ko": null,
+            "en": "of rack-and-pinion type"
+          }
+        },
+        {
+          "code": "B62D 3/14",
+          "title": {
+            "ko": null,
+            "en": "hydraulic"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 5/00",
+      "title": {
+        "ko": "동력 보조 또는 동력 구동되는 조향(전향할 수 없는 차륜용 11/00; 액압식 서보 모터 일반 F15B)",
+        "en": "Power-assisted or power-driven steering (for non-deflectable wheels B62D0011000000;fluid-pressure servomotors in general F15B)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 5/02",
+          "title": {
+            "ko": null,
+            "en": "mechanical, e.g. using a power-take-off mechanism for taking power from a rotating shaft of the vehicle and applying it to the steering gear"
+          }
+        },
+        {
+          "code": "B62D 5/04",
+          "title": {
+            "ko": null,
+            "en": "electrical, e.g. using an electric servo-motor connected to, or forming part of, the steering gear"
+          }
+        },
+        {
+          "code": "B62D 5/06",
+          "title": {
+            "ko": "유체를 사용하는 것, 즉 차량의 조향에 필요한 힘의 대부분 또는 그 전부를 가압류체의 공급을 통하여 가능하게 한 것",
+            "en": "fluid, i.e. using a pressurised fluid for most or all the force required for steering a vehicle"
+          }
+        },
+        {
+          "code": "B62D 5/065",
+          "title": {
+            "ko": null,
+            "en": "characterised by specially adapted means for varying pressurised fluid supply based on need, e.g. on-demand, variable assist"
+          }
+        },
+        {
+          "code": "B62D 5/07",
+          "title": {
+            "ko": null,
+            "en": "Supply of pressurised fluid for steering also supplying other consumers"
+          }
+        },
+        {
+          "code": "B62D 5/08",
+          "title": {
+            "ko": "사용되는 밸브의 형식에 의해 특징지워진 것(밸브 일반 F16K)",
+            "en": "characterised by type of valve used (valves in general F16K)"
+          }
+        },
+        {
+          "code": "B62D 5/083",
+          "title": {
+            "ko": null,
+            "en": "Rotary valves"
+          }
+        },
+        {
+          "code": "B62D 5/087",
+          "title": {
+            "ko": null,
+            "en": "Sliding spool valves"
+          }
+        },
+        {
+          "code": "B62D 5/09",
+          "title": {
+            "ko": "밸브 작동 장치에 특징이 있는 것",
+            "en": "characterised by means for actuating valves"
+          }
+        },
+        {
+          "code": "B62D 5/093",
+          "title": {
+            "ko": "조향 휠의 운동에 의해 구동되는 원격 조향 장치 (유압식 조향 전동 장치 3/14)",
+            "en": "Telemotor driven by steering wheel movement (hydraulic steering gear B62D0003140000)"
+          }
+        },
+        {
+          "code": "B62D 5/097",
+          "title": {
+            "ko": null,
+            "en": "gerotor type"
+          }
+        },
+        {
+          "code": "B62D 5/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by type of power unit"
+          }
+        },
+        {
+          "code": "B62D 5/12",
+          "title": {
+            "ko": null,
+            "en": "Piston and cylinder"
+          }
+        },
+        {
+          "code": "B62D 5/14",
+          "title": {
+            "ko": null,
+            "en": "Rotary motor"
+          }
+        },
+        {
+          "code": "B62D 5/16",
+          "title": {
+            "ko": null,
+            "en": "Expansible chamber with flexible wall"
+          }
+        },
+        {
+          "code": "B62D 5/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by power transmitting means"
+          }
+        },
+        {
+          "code": "B62D 5/20",
+          "title": {
+            "ko": "특별한 형식의 조향 전동 장치 또는 특별한 응용에 특히 적합한 것(조향전동장치 그 자체 3/00; 동력 보조 또는 동력 구동에 특징이 없는 조향링크장치 7/00)",
+            "en": "specially adapted for particular type of steering gear or particular application (steering gears per seB62D0003000000;steering linkages not characterised by being power-assisted or power-driven B62D0007000000)"
+          }
+        },
+        {
+          "code": "B62D 5/22",
+          "title": {
+            "ko": null,
+            "en": "for rack-and-pinion type"
+          }
+        },
+        {
+          "code": "B62D 5/24",
+          "title": {
+            "ko": null,
+            "en": "for worm type"
+          }
+        },
+        {
+          "code": "B62D 5/26",
+          "title": {
+            "ko": null,
+            "en": "for pivoted axles"
+          }
+        },
+        {
+          "code": "B62D 5/28",
+          "title": {
+            "ko": null,
+            "en": "for pivoted bogies"
+          }
+        },
+        {
+          "code": "B62D 5/30",
+          "title": {
+            "ko": null,
+            "en": "Safety devices, e.g. alternate emergency power supply or transmission means to ensure steering upon failure of the primary steering means"
+          }
+        },
+        {
+          "code": "B62D 5/32",
+          "title": {
+            "ko": null,
+            "en": "for telemotor systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 6/00",
+      "title": {
+        "ko": "주행상태를 감지 및 이에 응답하여 자동적으로 조향 장치를 제어하기 위한 장치, 예. 제어회로(차량의 방향 변화를 일으키는 장치 1/00; 조향 밸브 5/06; 곡선 노상에서 차체나 차륜을 경사 시키는 수단과의 결합 9/00)",
+        "en": "Arrangements for automatically controlling steering depending on driving conditions sensed and responded to, e.g. control circuits (means for initiating a change in direction B62D0001000000;steering valves B62D0005060000;combined with means for inclining the vehicle body or wheels on bends B62D0009000000)"
+      },
+      "definition": {
+        "ko": "1.이 그룹으로 분류할 때 조향 시스템의 다른 측면과 관련이 있다면 그룹 B62D 1/00-B62D 5/00 또는 B62D 7/00-B62D 19/00 중의 적절한 것 또한 분류되어야 한다. 2.메인 그룹 B62D 6/00에서는, 그 서브그룹이 제외되더라도, 인덱싱 코드 그룹 B62D 101/00-B62D 137/00이 부가되는 것이 바람직 하다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "B62D 6/02",
+          "title": {
+            "ko": null,
+            "en": "responsive only to vehicle speed"
+          }
+        },
+        {
+          "code": "B62D 6/04",
+          "title": {
+            "ko": null,
+            "en": "responsive only to forces disturbing the intended course of the vehicle, e.g. forces acting transversely to the direction of vehicle travel"
+          }
+        },
+        {
+          "code": "B62D 6/06",
+          "title": {
+            "ko": "차량의 진동 감쇠 장치에만 반응하는 것 (사이클용 스티어링 댐퍼 B62K21/08)",
+            "en": "responsive only to vehicle vibration dampening arrangements (steering dampers for cycles B62K0021080000)"
+          }
+        },
+        {
+          "code": "B62D 6/08",
+          "title": {
+            "ko": null,
+            "en": "responsive only to input torque"
+          }
+        },
+        {
+          "code": "B62D 6/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the means for sensing torque"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 7/00",
+      "title": {
+        "ko": "조향링크 스터브(stub)축 또는 그들의 부착구(B62D 13/00이 우선; 동력 보조 또는 동력 구동되는 조향장치 5/00)",
+        "en": "Steering linkage; Stub axles or their mountings (B62D0013000000 takes precedence;power-assisted or power-driven steering B62D0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 7/02",
+          "title": {
+            "ko": null,
+            "en": "for pivoted bogies"
+          }
+        },
+        {
+          "code": "B62D 7/04",
+          "title": {
+            "ko": null,
+            "en": "with more than one wheel"
+          }
+        },
+        {
+          "code": "B62D 7/06",
+          "title": {
+            "ko": "각각 별도로 회전하는 휠, 예. 킹-핀(King-pin)에 적용된 것",
+            "en": "for individually-pivoted wheels, e.g. on king-pins"
+          }
+        },
+        {
+          "code": "B62D 7/08",
+          "title": {
+            "ko": "차량의 길이방향의 중심선에 대하여 가로방향으로 위치하고 있는 회전주축",
+            "en": "the pivotal axes being situated in a single plane transverse to the longitudinal centre line of the vehicle"
+          }
+        },
+        {
+          "code": "B62D 7/09",
+          "title": {
+            "ko": "조향되는 차륜 각각의 조향 각도간의 비를 변화시키는 수단에 특징이 있는 것(구동상태에 따라 자동적으로 비를 변화시키는 것 6/00)",
+            "en": "characterised by means varying the ratio between the steering angles of the steered wheels (varying the ratio automatically depending on driving conditions B62D0006000000)"
+          }
+        },
+        {
+          "code": "B62D 7/10",
+          "title": {
+            "ko": null,
+            "en": "with single-output steering gear"
+          }
+        },
+        {
+          "code": "B62D 7/12",
+          "title": {
+            "ko": null,
+            "en": "with twin-output steering gear"
+          }
+        },
+        {
+          "code": "B62D 7/14",
+          "title": {
+            "ko": "차량의 길이방향 중심선을 가로지르는 2개 이상의 평면에 위치하고 있는 주축, 예. 전륜차 조향장치",
+            "en": "the pivotal axes being situated in more than one plane transverse to the longitudinal centre line of the vehicle, e.g. all-wheel steering"
+          }
+        },
+        {
+          "code": "B62D 7/15",
+          "title": {
+            "ko": "조향되는 차륜 각각의 조향 각도간의 비를 변화시키는 수단에 특징이 있는 것(구동상태에 따라 자동적으로 비를 변화시키는 것 6/00)",
+            "en": "characterised by means varying the ratio between the steering angles of the steered wheels (varying the ratio automatically depending on driving conditions B62D0006000000)"
+          }
+        },
+        {
+          "code": "B62D 7/16",
+          "title": {
+            "ko": "링크 연결구의 배치(피봇 그 자체 F16C)",
+            "en": "Arrangement of linkage connections (pivots per seF16C)"
+          }
+        },
+        {
+          "code": "B62D 7/18",
+          "title": {
+            "ko": null,
+            "en": "Steering knuckles; King-pins"
+          }
+        },
+        {
+          "code": "B62D 7/20",
+          "title": {
+            "ko": "링크, 예. 전륜 연결봉(캠버, 캐스터 또는 토오-인을 조정하기 위한 장치 17/00)",
+            "en": "Links, e.g. track rods (means for adjusting camber, castor, or toe-in B62D0017000000)"
+          }
+        },
+        {
+          "code": "B62D 7/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing or eliminating reaction, e.g. vibration, from parts, e.g. wheels, of the steering system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 9/00",
+      "title": {
+        "ko": "달리 분류되지 않는 전향 차륜의 조향(조향 위치 지시기 15/02)",
+        "en": "Steering deflectable wheels not otherwise provided for (steering-position indicators B62D0015020000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 9/02",
+          "title": {
+            "ko": null,
+            "en": "combined with means for inwardly-inclining vehicle body on bends"
+          }
+        },
+        {
+          "code": "B62D 9/04",
+          "title": {
+            "ko": "곡선로상에서 차량의 차륜을 경사 시키기 위한 수단과 결합된 것(9/02 우선)",
+            "en": "combined with means for inclining vehicle wheels on bends (B62D0009020000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 11/00",
+      "title": {
+        "ko": "전향할 수 없는 차륜의 조향; 무한궤도대 또는 유사한 것",
+        "en": "Steering non-deflectable wheels; Steering endless tracks or the like"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 11/02",
+          "title": {
+            "ko": null,
+            "en": "by differentially driving ground-engaging elements on opposite vehicle sides"
+          }
+        },
+        {
+          "code": "B62D 11/04",
+          "title": {
+            "ko": null,
+            "en": "by means of separate power sources"
+          }
+        },
+        {
+          "code": "B62D 11/06",
+          "title": {
+            "ko": null,
+            "en": "by means of a single main power source"
+          }
+        },
+        {
+          "code": "B62D 11/08",
+          "title": {
+            "ko": null,
+            "en": "using brakes or clutches as main steering-effecting means"
+          }
+        },
+        {
+          "code": "B62D 11/10",
+          "title": {
+            "ko": null,
+            "en": "using gearings with differential power outputs on opposite sides, e.g. twin- differential or epicyclic gears"
+          }
+        },
+        {
+          "code": "B62D 11/12",
+          "title": {
+            "ko": null,
+            "en": "using separate change-speed gearings"
+          }
+        },
+        {
+          "code": "B62D 11/14",
+          "title": {
+            "ko": null,
+            "en": "differential power outputs being effected by additional power supply to one side, e.g. power originating from secondary power source"
+          }
+        },
+        {
+          "code": "B62D 11/16",
+          "title": {
+            "ko": null,
+            "en": "the additional power supply being supplied mechanically"
+          }
+        },
+        {
+          "code": "B62D 11/18",
+          "title": {
+            "ko": null,
+            "en": "the additional power supply being supplied hydraulically"
+          }
+        },
+        {
+          "code": "B62D 11/20",
+          "title": {
+            "ko": "무한궤도를 지지하는 대차를 갖는 무한궤도의 조향(11/02이 우선)",
+            "en": "Endless-track steering having pivoted bogie carrying track (B62D0011020000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 11/22",
+          "title": {
+            "ko": null,
+            "en": "Endless-track steering being effected by deflecting endless-track rollers or the like"
+          }
+        },
+        {
+          "code": "B62D 11/24",
+          "title": {
+            "ko": null,
+            "en": "Endless-track steering specially adapted for vehicles having both steerable wheels and endless track"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 12/00",
+      "title": {
+        "ko": "직렬로 연결하여 작동되거나, 또는 일렬로 연결된 프레임을 갖는 차량에 특히 적용되는 조향(무한 궤도대 또는 유사한 것의 조향 11/08, 부수차에 특히 적용되는 조향 13/00)",
+        "en": "Steering specially adapted for vehicles operating in tandem or having pivotally connected frames (steering endless tracks or the like B62D0011000000;steering specially adapted for trailers B62D0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 12/02",
+          "title": {
+            "ko": null,
+            "en": "for vehicles operating in tandem"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 13/00",
+      "title": {
+        "ko": "트레일러에 특히 적용된 조향(조향 히치(hitch) B60D)",
+        "en": "Steering specially adapted for trailers (combined traction and steering hitches B60D)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 13/02",
+          "title": {
+            "ko": null,
+            "en": "for centrally-pivoted axles"
+          }
+        },
+        {
+          "code": "B62D 13/04",
+          "title": {
+            "ko": null,
+            "en": "for individually-pivoted wheels"
+          }
+        },
+        {
+          "code": "B62D 13/06",
+          "title": {
+            "ko": null,
+            "en": "for backing a normally-drawn trailer"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Steering not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Steering position indicators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Means on vehicle for adjusting camber, castor, or toe-in"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 19/00",
+      "title": {
+        "ko": null,
+        "en": "Radius rods, i.e. distance members"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 21/00",
+      "title": {
+        "ko": "하부 구조, 즉 차체를 얹히는 차대 프레임(프레임과 차체가 결합된 것 23/00)",
+        "en": "Understructures; Superstructures; Vehicle bodies"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 21/00",
+      "title": {
+        "ko": "하부 구조, 즉 차체를 얹히는 차대 프레임(프레임과 차체가 결합된 것 23/00)",
+        "en": "Understructures, i.e. chassis frame on which a vehicle body may be mounted (combined frame and vehicle body B62D0023000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 21/02",
+          "title": {
+            "ko": null,
+            "en": "comprising longitudinally or transversely arranged frame members"
+          }
+        },
+        {
+          "code": "B62D 21/03",
+          "title": {
+            "ko": null,
+            "en": "transverse members providing body support"
+          }
+        },
+        {
+          "code": "B62D 21/04",
+          "title": {
+            "ko": null,
+            "en": "single longitudinal type"
+          }
+        },
+        {
+          "code": "B62D 21/05",
+          "title": {
+            "ko": null,
+            "en": "pinched frame type, i.e. formed of at least two longitudinal frame sections connected by other longitudinal frame sections of lesser transverse dimension"
+          }
+        },
+        {
+          "code": "B62D 21/06",
+          "title": {
+            "ko": null,
+            "en": "of X-shaped or fork-shaped construction, i.e. having members which form an X or fork as the frame is seen in plan view"
+          }
+        },
+        {
+          "code": "B62D 21/07",
+          "title": {
+            "ko": null,
+            "en": "wide-hipped frame type, i.e. a wide box-shaped mid portion with narrower sections extending from said mid portion in both fore and aft directions"
+          }
+        },
+        {
+          "code": "B62D 21/08",
+          "title": {
+            "ko": null,
+            "en": "built-up with interlaced cross members (\"Fachwerkrahmen\")"
+          }
+        },
+        {
+          "code": "B62D 21/09",
+          "title": {
+            "ko": null,
+            "en": "Means for mounting load bearing surfaces"
+          }
+        },
+        {
+          "code": "B62D 21/10",
+          "title": {
+            "ko": null,
+            "en": "in which the main member is plate-like"
+          }
+        },
+        {
+          "code": "B62D 21/11",
+          "title": {
+            "ko": null,
+            "en": "with resilient means for suspension"
+          }
+        },
+        {
+          "code": "B62D 21/12",
+          "title": {
+            "ko": null,
+            "en": "assembled from readily-detachable parts"
+          }
+        },
+        {
+          "code": "B62D 21/14",
+          "title": {
+            "ko": null,
+            "en": "of adjustable length or width"
+          }
+        },
+        {
+          "code": "B62D 21/15",
+          "title": {
+            "ko": "충격 흡수 장치를 보유하는 것, 예. 다른 물체와의 충돌에 의해 그 형상 또는 치수를 영구적 또는 일시적으로 변화하도록 설계된 프레임(범퍼 B60R 19/02; 완충 장치 일반 F16F)",
+            "en": "having impact absorbing means, e.g. a frame designed to permanently or temporarily change shape or dimension upon impact with another body (bumpers B60R0019020000;shock absorbers in general F16F)"
+          }
+        },
+        {
+          "code": "B62D 21/16",
+          "title": {
+            "ko": null,
+            "en": "having fluid storage compartment"
+          }
+        },
+        {
+          "code": "B62D 21/17",
+          "title": {
+            "ko": null,
+            "en": "forming fluid or electrical conduit means or having other means to accommodate the transmission of a force or signal"
+          }
+        },
+        {
+          "code": "B62D 21/18",
+          "title": {
+            "ko": "그룹 21/02부터 21/17에 포함되지 않는 것으로 차량 형식에 의해 특징지워진 것",
+            "en": "characterised by the vehicle type and not provided for in groups B62D0021020000-B62D0021170000"
+          }
+        },
+        {
+          "code": "B62D 21/20",
+          "title": {
+            "ko": null,
+            "en": "trailer type, i.e. a frame specifically constructed for use in a non-powered vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 23/00",
+      "title": {
+        "ko": "상부 구조와 프레임이 결합된 것, 즉 단일 차체 구조인 것(상부구조의 구성체 25/00)",
+        "en": "Combined superstructure and frame, i.e. monocoque constructions (superstructure sub-units B62D0025000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 24/00",
+      "title": {
+        "ko": "차체와 차량 프레임과의 결합(23/00, 33/077이 우선)",
+        "en": "Connections between vehicle body and vehicle frame (B62D0023000000, B62D0033077000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 24/02",
+          "title": {
+            "ko": null,
+            "en": "Vehicle body, not intended to move relatively to the vehicle frame, and mounted on vibration absorbing mountings, e.g. rubber pads"
+          }
+        },
+        {
+          "code": "B62D 24/04",
+          "title": {
+            "ko": null,
+            "en": "Vehicle body mounted on resilient suspension for movement relative to the vehicle frame"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 25/00",
+      "title": {
+        "ko": "상부구조의 구성체; 달리 분류되지 않는 그들의 부품 또는 세부부품",
+        "en": "Superstructure sub-units; Parts or details thereof not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 25/02",
+          "title": {
+            "ko": null,
+            "en": "Side panels"
+          }
+        },
+        {
+          "code": "B62D 25/04",
+          "title": {
+            "ko": null,
+            "en": "Door pillars"
+          }
+        },
+        {
+          "code": "B62D 25/06",
+          "title": {
+            "ko": "고정식 루프(비 고정식 루프 또는 가동 패널을 보유하는 루프 B60J 7/00; 루프 라이너(liner) B60R 13/02; 단열 부품 B60R 13/08)",
+            "en": "Fixed roofs (non-fixed roofs or roofs with movable panels B60J0007000000;roof liners B60R0013020000;insulating elements B60R0013080000)"
+          }
+        },
+        {
+          "code": "B62D 25/07",
+          "title": {
+            "ko": null,
+            "en": "having water drainage or guide means integral with roof structure"
+          }
+        },
+        {
+          "code": "B62D 25/08",
+          "title": {
+            "ko": "전부(前部) 또는 후부(後部)의 부재",
+            "en": "Front or rear portions"
+          }
+        },
+        {
+          "code": "B62D 25/10",
+          "title": {
+            "ko": "본넷 또는 리드",
+            "en": "Bonnets or lids"
+          }
+        },
+        {
+          "code": "B62D 25/12",
+          "title": {
+            "ko": "그 부품 또는 세부 부품(잠금 장치 E05B; 힌지 E05D; 평형추 수단 E05F; 스프링 F16F)",
+            "en": "Parts or details thereof (locks E05B;hinges E05D;counterbalancing means E05F;springs F16F)"
+          }
+        },
+        {
+          "code": "B62D 25/13",
+          "title": {
+            "ko": null,
+            "en": "Water deflectors"
+          }
+        },
+        {
+          "code": "B62D 25/14",
+          "title": {
+            "ko": "상부 구조의 구성체인 대시 보드(다른 대시 보드 B60K)",
+            "en": "Dashboards as superstructure sub-unit (other dashboard aspects B60K)"
+          }
+        },
+        {
+          "code": "B62D 25/16",
+          "title": {
+            "ko": "흙받이 또는 흙받이판; 차륜 커버판(차륜 또는 타이어로부터 이물질을 제거하는 것 B60S)",
+            "en": "Mud-guards or wings; Wheel cover panels (equipped with means for freeing wheels or tyres from foreign matter B60S)"
+          }
+        },
+        {
+          "code": "B62D 25/18",
+          "title": {
+            "ko": null,
+            "en": "Parts or details thereof, e.g. mud-guard flaps"
+          }
+        },
+        {
+          "code": "B62D 25/20",
+          "title": {
+            "ko": null,
+            "en": "Floors or bottom sub-units"
+          }
+        },
+        {
+          "code": "B62D 25/22",
+          "title": {
+            "ko": "발판, 승강단, 또는 상부구조의 구성체로서 유사한 것(차량에 있어서 다른 승강단, 사다리, 또는 발판 B60R)",
+            "en": "Running-boards, steps, or the like, as superstructure sub-unit (other arrangements of steps, ladders, or running-boards in vehicles B60R)"
+          }
+        },
+        {
+          "code": "B62D 25/24",
+          "title": {
+            "ko": "가동 또는 제거 가능한 패쇄 부재를 갖는 입구가 있는 상부 구조의 구성체(차량의 연료 탱크를 위한 입구 커버 B60K 15/05)",
+            "en": "Superstructure sub-units with access openings having movable or removable closures (inlet covers for vehicle fuel tanks B60K0015050000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Connections between superstructure sub-units"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 27/02",
+          "title": {
+            "ko": null,
+            "en": "rigid"
+          }
+        },
+        {
+          "code": "B62D 27/04",
+          "title": {
+            "ko": null,
+            "en": "resilient"
+          }
+        },
+        {
+          "code": "B62D 27/06",
+          "title": {
+            "ko": null,
+            "en": "readily releasable"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 29/00",
+      "title": {
+        "ko": "그 재질에 특징이 있는 상부 구조",
+        "en": "Superstructures characterised by material thereof"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 29/02",
+          "title": {
+            "ko": null,
+            "en": "predominantly of wood"
+          }
+        },
+        {
+          "code": "B62D 29/04",
+          "title": {
+            "ko": "주로 합성재에 의한것(플라스틱 또는 소성변형 상태의 물질의 가공 B29)",
+            "en": "predominantly of synthetic material (working of plastics or substances in a plastic state B29)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 31/00",
+      "title": {
+        "ko": "여객 수송차의 상부 구조(항공기 또는 공항 설비를 연계하여 특별히 사용되는 여객 수송차 B64F 1/31)",
+        "en": "Superstructures for passenger vehicles (passenger vehicles specially adapted to co-operate with aircraft or terminal buildings B64F0001310000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 31/02",
+          "title": {
+            "ko": null,
+            "en": "for carrying large numbers of passengers, e.g. omnibus"
+          }
+        },
+        {
+          "code": "B62D 31/04",
+          "title": {
+            "ko": null,
+            "en": "with more than one deck"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 33/00",
+      "title": {
+        "ko": "화물 수송용의 상부구조(운반용 부재가 이동할 수 있는 것 B60P; 라이너(liners) B60R 13/00)",
+        "en": "Superstructures for load-carrying vehicles (in which a load-carrying element is movable B60P;liners B60R0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 33/02",
+          "title": {
+            "ko": null,
+            "en": "Platforms; Open load compartments"
+          }
+        },
+        {
+          "code": "B62D 33/023",
+          "title": {
+            "ko": null,
+            "en": "Sideboard or tailgate structures"
+          }
+        },
+        {
+          "code": "B62D 33/027",
+          "title": {
+            "ko": null,
+            "en": "movable"
+          }
+        },
+        {
+          "code": "B62D 33/03",
+          "title": {
+            "ko": null,
+            "en": "by swinging down"
+          }
+        },
+        {
+          "code": "B62D 33/033",
+          "title": {
+            "ko": null,
+            "en": "removable"
+          }
+        },
+        {
+          "code": "B62D 33/037",
+          "title": {
+            "ko": null,
+            "en": "Latching means therefor"
+          }
+        },
+        {
+          "code": "B62D 33/04",
+          "title": {
+            "ko": null,
+            "en": "Enclosed load compartments"
+          }
+        },
+        {
+          "code": "B62D 33/06",
+          "title": {
+            "ko": null,
+            "en": "Drivers' cabs"
+          }
+        },
+        {
+          "code": "B62D 33/063",
+          "title": {
+            "ko": null,
+            "en": "movable from one position into at least one other position, e.g. tiltable, pivotable about a vertical axis, displaceable from one side of the vehicle to the other"
+          }
+        },
+        {
+          "code": "B62D 33/067",
+          "title": {
+            "ko": null,
+            "en": "tiltable"
+          }
+        },
+        {
+          "code": "B62D 33/07",
+          "title": {
+            "ko": null,
+            "en": "characterised by the device for locking the cab in the tilted or in the driving position"
+          }
+        },
+        {
+          "code": "B62D 33/073",
+          "title": {
+            "ko": null,
+            "en": "characterised by special adaptations of vehicle control devices"
+          }
+        },
+        {
+          "code": "B62D 33/077",
+          "title": {
+            "ko": "상부 구조를 차대에 체결함에 특징이 있는 것",
+            "en": "characterised by the connection of the superstructure to the vehicle frame"
+          }
+        },
+        {
+          "code": "B62D 33/08",
+          "title": {
+            "ko": "조정 장치를 포함하는 것(33/10이 우선)",
+            "en": "comprising adjustable means (B62D0033100000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 33/10",
+          "title": {
+            "ko": null,
+            "en": "comprising means for the suspension of the superstructure on the frame"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 35/00",
+      "title": {
+        "ko": null,
+        "en": "Vehicle bodies characterised by streamlining"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 35/02",
+          "title": {
+            "ko": null,
+            "en": "Streamlining the undersurfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 37/00",
+      "title": {
+        "ko": null,
+        "en": "Stabilising vehicle bodies without controlling suspension arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 37/02",
+          "title": {
+            "ko": null,
+            "en": "by aerodynamic means"
+          }
+        },
+        {
+          "code": "B62D 37/04",
+          "title": {
+            "ko": null,
+            "en": "by means of movable masses"
+          }
+        },
+        {
+          "code": "B62D 37/06",
+          "title": {
+            "ko": null,
+            "en": "using gyroscopes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 39/00",
+      "title": {
+        "ko": null,
+        "en": "Vehicle bodies not otherwise provided for"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 41/00",
+      "title": {
+        "ko": null,
+        "en": "Fittings for identifying vehicles in case of collision; Fittings for marking or recording collision areas"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 43/00",
+      "title": {
+        "ko": null,
+        "en": "Spare wheel stowing, holding, or mounting arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 43/02",
+          "title": {
+            "ko": null,
+            "en": "external to the vehicle body"
+          }
+        },
+        {
+          "code": "B62D 43/04",
+          "title": {
+            "ko": null,
+            "en": "attached beneath the vehicle body"
+          }
+        },
+        {
+          "code": "B62D 43/06",
+          "title": {
+            "ko": null,
+            "en": "within the vehicle body"
+          }
+        },
+        {
+          "code": "B62D 43/08",
+          "title": {
+            "ko": null,
+            "en": "and arranged substantially vertical"
+          }
+        },
+        {
+          "code": "B62D 43/10",
+          "title": {
+            "ko": null,
+            "en": "and arranged substantially horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 47/00",
+      "title": {
+        "ko": "주로 여객 수송용 자동차 또는 트레일러(상부 구조 31/00)",
+        "en": "Motor vehicles or trailers classified according to type; Parts or accessories thereof not otherwise provided for"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 47/00",
+      "title": {
+        "ko": "주로 여객 수송용 자동차 또는 트레일러(상부 구조 31/00)",
+        "en": "Motor vehicles or trailers predominantly for carrying passengers (superstructures B62D0031000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 47/02",
+          "title": {
+            "ko": null,
+            "en": "for large numbers of passengers, e.g. omnibus"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 49/00",
+      "title": {
+        "ko": "트랙터(족답식(足踏式)의 것 51/04; 무한 궤도대를 특징으로 하는 것 55/00)",
+        "en": "Tractors (of walk type B62D0051040000;endless-track features B62D0055000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 49/02",
+          "title": {
+            "ko": null,
+            "en": "modified to take lifting devices"
+          }
+        },
+        {
+          "code": "B62D 49/04",
+          "title": {
+            "ko": null,
+            "en": "modified to take pushing devices"
+          }
+        },
+        {
+          "code": "B62D 49/06",
+          "title": {
+            "ko": null,
+            "en": "adapted for multi-purpose use"
+          }
+        },
+        {
+          "code": "B62D 49/08",
+          "title": {
+            "ko": "전복되거나 기울어지는 것을 방지하는 장치를 갖는 것(차량에 특히 적용되거나 배치되는 추진 장치 제어를 위한 안전장치 B60K 28/00)",
+            "en": "having means for preventing overturning or tipping (safety devices for propulsion-unit control, specially adapted for, or arranged in, vehicles B60K0028000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 51/00",
+      "title": {
+        "ko": null,
+        "en": "Motor vehicles characterised by the driver not being seated"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 51/02",
+          "title": {
+            "ko": null,
+            "en": "the driver standing in the vehicle"
+          }
+        },
+        {
+          "code": "B62D 51/04",
+          "title": {
+            "ko": null,
+            "en": "the driver walking"
+          }
+        },
+        {
+          "code": "B62D 51/06",
+          "title": {
+            "ko": null,
+            "en": "Uniaxle walk-type tractors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 53/00",
+      "title": {
+        "ko": "트랙터와 트레일러가 결합되어 있는 것 노면 차량(오차륜용 연결기 이외의 트랙터용 연결기 B60D)",
+        "en": "Tractor-trailer combinations; Road trains (traction couplings other than fifth-wheel couplings B60D)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 53/02",
+          "title": {
+            "ko": null,
+            "en": "comprising a uniaxle tractor unit and a uniaxle trailer unit"
+          }
+        },
+        {
+          "code": "B62D 53/04",
+          "title": {
+            "ko": null,
+            "en": "comprising a vehicle carrying an essential part of the other vehicle's load by having supporting means for the front or rear part of the other vehicle"
+          }
+        },
+        {
+          "code": "B62D 53/06",
+          "title": {
+            "ko": null,
+            "en": "Semi-trailers"
+          }
+        },
+        {
+          "code": "B62D 53/08",
+          "title": {
+            "ko": null,
+            "en": "Fifth-wheel traction couplings"
+          }
+        },
+        {
+          "code": "B62D 53/10",
+          "title": {
+            "ko": null,
+            "en": "with means for preventing accidental uncoupling"
+          }
+        },
+        {
+          "code": "B62D 53/12",
+          "title": {
+            "ko": null,
+            "en": "engaging automatically"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 55/00",
+      "title": {
+        "ko": "무한궤도차(조향부문 11/00)",
+        "en": "Endless-track vehicles (steering aspects B62D0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 55/02",
+          "title": {
+            "ko": null,
+            "en": "with tracks and additional ground wheels"
+          }
+        },
+        {
+          "code": "B62D 55/04",
+          "title": {
+            "ko": null,
+            "en": "with tracks and alternative ground wheels, e.g. changeable from endless-track vehicle into wheeled vehicle and vice versa"
+          }
+        },
+        {
+          "code": "B62D 55/06",
+          "title": {
+            "ko": "접지 차륜이 없고 궤도대를 갖는 것",
+            "en": "with tracks and without ground wheels"
+          }
+        },
+        {
+          "code": "B62D 55/065",
+          "title": {
+            "ko": null,
+            "en": "Multi-track vehicles, i.e. more than two tracks"
+          }
+        },
+        {
+          "code": "B62D 55/07",
+          "title": {
+            "ko": null,
+            "en": "Mono-track vehicles"
+          }
+        },
+        {
+          "code": "B62D 55/075",
+          "title": {
+            "ko": "계단을 오르거나 내려가기 위한 궤도 차량(자기(磁氣) 또는 공기압 지면 접촉부 55/265; 특별히 환자나 장애인에게 적합한 의자 또는 다궤도 운반차 A61G 5/00)",
+            "en": "Tracked vehicles for ascending or descending stairs (magnetic or pneumatic ground-engaging parts B62D0055265000;chairs or personal conveyances specially adapted for patients or disabled persons A61G0005000000)"
+          }
+        },
+        {
+          "code": "B62D 55/08",
+          "title": {
+            "ko": "무한 궤도대; 그 부품",
+            "en": "Endless-track units; Parts thereof"
+          }
+        },
+        {
+          "code": "B62D 55/084",
+          "title": {
+            "ko": "차량 상에 분리 및 조정이 가능하고, 확장성이 있는 무한궤도 장치 또는 캐리지(Carriage), 예. 휴대 가능한 궤도대 장치(55/07이 우선)",
+            "en": "Endless-track units or carriages mounted separably, adjustably or extensibly on vehicles, e.g. portable track units (B62D0055070000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 55/088",
+          "title": {
+            "ko": null,
+            "en": "with means to exclude or remove foreign matter e.g. sealing means, self-cleaning track links or sprockets, deflector plates or scrapers"
+          }
+        },
+        {
+          "code": "B62D 55/092",
+          "title": {
+            "ko": "윤활 장치를 가진 것(윤활 일반 F16N)",
+            "en": "with lubrication means (lubricating in general F16N)"
+          }
+        },
+        {
+          "code": "B62D 55/096",
+          "title": {
+            "ko": null,
+            "en": "with noise reducing means"
+          }
+        },
+        {
+          "code": "B62D 55/10",
+          "title": {
+            "ko": "보기(bogies); 프레임(궤도대의 장력장치(Tensioning means) 55/30)",
+            "en": "Bogies; Frames (track-tensioning means B62D0055300000)"
+          }
+        },
+        {
+          "code": "B62D 55/104",
+          "title": {
+            "ko": "차륜, 롤러(roller), 보기(bogie) 또는 프레임을 위한 현가 장치(차량 현가 장치 일반 B60G)",
+            "en": "Suspension devices for wheels, rollers, bogies or frames (vehicle suspension in general B60G)"
+          }
+        },
+        {
+          "code": "B62D 55/108",
+          "title": {
+            "ko": null,
+            "en": "with mechanical springs, e.g. torsion bars"
+          }
+        },
+        {
+          "code": "B62D 55/112",
+          "title": {
+            "ko": null,
+            "en": "with fluid springs, e.g. hydraulic, pneumatic"
+          }
+        },
+        {
+          "code": "B62D 55/116",
+          "title": {
+            "ko": null,
+            "en": "Attitude or position control of chassis by action on suspension, e.g. to compensate for a slope"
+          }
+        },
+        {
+          "code": "B62D 55/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangement, location, or adaptation of driving sprockets"
+          }
+        },
+        {
+          "code": "B62D 55/125",
+          "title": {
+            "ko": null,
+            "en": "Final drives"
+          }
+        },
+        {
+          "code": "B62D 55/13",
+          "title": {
+            "ko": null,
+            "en": "readily interchangeable modular type"
+          }
+        },
+        {
+          "code": "B62D 55/135",
+          "title": {
+            "ko": null,
+            "en": "with dismountable driving crown"
+          }
+        },
+        {
+          "code": "B62D 55/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangement, location, or adaptation of rollers"
+          }
+        },
+        {
+          "code": "B62D 55/15",
+          "title": {
+            "ko": null,
+            "en": "Mounting devices, e.g. bushings, axles, bearings, sealings"
+          }
+        },
+        {
+          "code": "B62D 55/18",
+          "title": {
+            "ko": "궤도대(스스로 청소할 수 있는 궤도대 링크 55/088)",
+            "en": "Tracks (self-cleaning track links B62D0055088000)"
+          }
+        },
+        {
+          "code": "B62D 55/20",
+          "title": {
+            "ko": null,
+            "en": "of articulated type, e.g. chains"
+          }
+        },
+        {
+          "code": "B62D 55/205",
+          "title": {
+            "ko": null,
+            "en": "Connections between track links"
+          }
+        },
+        {
+          "code": "B62D 55/21",
+          "title": {
+            "ko": null,
+            "en": "Links connected by transverse pivot pins"
+          }
+        },
+        {
+          "code": "B62D 55/215",
+          "title": {
+            "ko": null,
+            "en": "Resilient connections between links"
+          }
+        },
+        {
+          "code": "B62D 55/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing or modifying back-flexing"
+          }
+        },
+        {
+          "code": "B62D 55/24",
+          "title": {
+            "ko": "연속적으로 유연한것, 예. 고무대",
+            "en": "of continuously-flexible type, e.g. rubber belts"
+          }
+        },
+        {
+          "code": "B62D 55/247",
+          "title": {
+            "ko": "가스 충전 또는 확장 가능한 궤도대(탄성체의 확장을 위한 밸브와의 연결 구조 B60C 29/00)",
+            "en": "Gas filled or inflatable flexible tracks (connection of valves to inflatable elastic bodies B60C0029000000)"
+          }
+        },
+        {
+          "code": "B62D 55/253",
+          "title": {
+            "ko": null,
+            "en": "having elements interconnected by one or more cables or like elements"
+          }
+        },
+        {
+          "code": "B62D 55/26",
+          "title": {
+            "ko": null,
+            "en": "Ground-engaging parts or elements"
+          }
+        },
+        {
+          "code": "B62D 55/265",
+          "title": {
+            "ko": null,
+            "en": "having magnetic or pneumatic adhesion"
+          }
+        },
+        {
+          "code": "B62D 55/27",
+          "title": {
+            "ko": null,
+            "en": "having different types of crampons for progression over varying ground"
+          }
+        },
+        {
+          "code": "B62D 55/275",
+          "title": {
+            "ko": null,
+            "en": "with street plate, i.e. means to prevent tread from cutting into road surface"
+          }
+        },
+        {
+          "code": "B62D 55/28",
+          "title": {
+            "ko": null,
+            "en": "detachable"
+          }
+        },
+        {
+          "code": "B62D 55/30",
+          "title": {
+            "ko": null,
+            "en": "Track-tensioning means"
+          }
+        },
+        {
+          "code": "B62D 55/32",
+          "title": {
+            "ko": null,
+            "en": "Assembly, disassembly, repair or servicing of endless-track systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 57/00",
+      "title": {
+        "ko": "차륜 또는 궤도대 이외 또는 이와 함께 다른 추진 장치 또는 접지 장치를 특징으로 하는 차량(썰매 B62B; 자동썰매 B62M)",
+        "en": "Vehicles characterised by having other propulsion or other ground-engaging means than wheels or endless track, alone or in addition to wheels or endless track (sledges B62B;motor sledges B62M)"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 57/02",
+          "title": {
+            "ko": "접지 추진 장치를 갖는것, 예. 족답 부재",
+            "en": "with ground-engaging propulsion means, e.g. walking members"
+          }
+        },
+        {
+          "code": "B62D 57/024",
+          "title": {
+            "ko": "경사 또는 연직면 상을 이동하기 위해 특히 적합한 것(계단를 오르거나 내려가기 위한 무한궤도차 차량 55/075, 계단을 오르거나 내려갈 수 있는 장치를 갖는 손수레 B62B 5/02)",
+            "en": "specially adapted for moving on inclined or vertical surfaces (endless-track vehicles for ascending or descending stairs B62D0055075000;hand-carts with provision for travelling up or down stairs B62B0005020000)"
+          }
+        },
+        {
+          "code": "B62D 57/028",
+          "title": {
+            "ko": "차륜과 기계적인 연결부(Legs)를 갖는 것(57/024 우선; 접지 차량의 차량을 지지하거나 올리거나 조작하기 위한 부품 및 장비 B60S 9/00)",
+            "en": "having wheels and mechanical legs (B62D0057024000 takes precedence;ground-engaging vehicle fittings for supporting, lifting or manoeuvring the vehicle, wholly or in part B60S0009000000)"
+          }
+        },
+        {
+          "code": "B62D 57/032",
+          "title": {
+            "ko": "교대로 또는 연속적으로 상승하는 기반 및 지간; 교대로 또는 연속적인 상승 대(feets) 또는 짐받이대(skid) (57/024 우선)",
+            "en": "with alternately or sequentially lifted supporting base and leg; with alternately or sequentially lifted feet or skid (B62D0057024000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 57/036",
+          "title": {
+            "ko": "나사 형식, 예. 아르키메디안 나사(57/024 우선)",
+            "en": "screw type, e.g. Archimedian screw (B62D0057024000 takes precedence)"
+          }
+        },
+        {
+          "code": "B62D 57/04",
+          "title": {
+            "ko": "접지 추진 장치와는 별개의 장치를 갖는 것, 예. 프로펠러를 갖는 것(제트 추진 장치 B60K)",
+            "en": "having other than ground-engaging propulsion means, e.g. having propellers (arrangement of jet-propulsion units B60K)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 59/00",
+      "title": {
+        "ko": null,
+        "en": "Trailers with driven ground wheels or the like"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 59/02",
+          "title": {
+            "ko": null,
+            "en": "driven from external propulsion unit"
+          }
+        },
+        {
+          "code": "B62D 59/04",
+          "title": {
+            "ko": null,
+            "en": "driven from propulsion unit on trailer"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 61/00",
+      "title": {
+        "ko": "차륜의 배열 또는 수에 특징이 있는 구동 차량 또는 트레일러, 예 4개의 차륜을 다이아몬드형으로 배열한 것",
+        "en": "Motor vehicles or trailers, characterised by the arrangement or number of wheels, not otherwise provided for, e.g. four wheels in diamond pattern"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 61/02",
+          "title": {
+            "ko": null,
+            "en": "with two road wheels in tandem on the longitudinal centre line of the vehicle"
+          }
+        },
+        {
+          "code": "B62D 61/04",
+          "title": {
+            "ko": null,
+            "en": "with two other wheels which are coaxial"
+          }
+        },
+        {
+          "code": "B62D 61/06",
+          "title": {
+            "ko": null,
+            "en": "with only three wheels"
+          }
+        },
+        {
+          "code": "B62D 61/08",
+          "title": {
+            "ko": null,
+            "en": "with single front wheel"
+          }
+        },
+        {
+          "code": "B62D 61/10",
+          "title": {
+            "ko": null,
+            "en": "with more than four wheels"
+          }
+        },
+        {
+          "code": "B62D 61/12",
+          "title": {
+            "ko": "수의 변경이 자유로운 접지 차륜을 갖는 것, 예. 다른 차륜보다 높은곳에 배설된 수개의 차륜을 갖는 것, 또는 수납이 가능한 차륜을 갖는 것(이동시키는 목적만의 것 B60S)",
+            "en": "with variable number of ground-engaging wheels, e.g. with some wheels arranged higher than others, or with retractable wheels (for manoeuvring purposes only B60S)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 63/00",
+      "title": {
+        "ko": "자동차 또는 트레일러로서 달리 분류되지 않는 것",
+        "en": "Motor vehicles or trailers not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 63/02",
+          "title": {
+            "ko": null,
+            "en": "Motor vehicles"
+          }
+        },
+        {
+          "code": "B62D 63/04",
+          "title": {
+            "ko": null,
+            "en": "Component parts or accessories"
+          }
+        },
+        {
+          "code": "B62D 63/06",
+          "title": {
+            "ko": "트레일러(주거설비를 구비하는 차량, 예. 캐러번(Caravan), 캠핑 또는 그와 유사한 차량, B60P 3/32)",
+            "en": "Trailers (vehicles comprising living accommodation for people, e.g. caravans, camping or like vehicles, B60P0003320000)"
+          }
+        },
+        {
+          "code": "B62D 63/08",
+          "title": {
+            "ko": null,
+            "en": "Component parts or accessories"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 65/00",
+      "title": {
+        "ko": "달리 분류되지않은 설계나 제작. 예를 들면, 자동차나 트레일러의 조립과 용이한 분해 또는 구조 변경하기",
+        "en": "Designing, manufacturing, e.g. assembling, facilitating disassembly, or structurally modifying motor vehicles or trailers, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "B62D 65/02",
+          "title": {
+            "ko": "바디쉘, 다른 부그룹이나 요소들에 부그룹이나 요소들을 부착하거나, 부그룹이나 요소들을 바디쉘, 다른 부그룹이나 요소들에 관해 위치시키는 것",
+            "en": "Joining sub-units or components to, or positioning sub-units or components with respect to, body shell or other sub-units or components"
+          }
+        },
+        {
+          "code": "B62D 65/04",
+          "title": {
+            "ko": "여러 다른 기능을 하는 부그룹들로 구성되어 사전 조립된 모듈 그룹들을 결합시키는 것 예 엔진과 본넷(65/06 ～ 65/16 가 우선한다)",
+            "en": "Joining preassembled modular units composed of sub-units performing diverse functions, e.g. engine and bonnet (B62D0065060000-B62D0065160000 take precedence)"
+          }
+        },
+        {
+          "code": "B62D 65/06",
+          "title": {
+            "ko": null,
+            "en": "the sub-units or components being doors, windows, openable roofs, lids, bonnets, or weather strips or seals therefor"
+          }
+        },
+        {
+          "code": "B62D 65/08",
+          "title": {
+            "ko": null,
+            "en": "Weather strips or seals"
+          }
+        },
+        {
+          "code": "B62D 65/10",
+          "title": {
+            "ko": null,
+            "en": "the sub-units or components being engines, clutches or transmissions"
+          }
+        },
+        {
+          "code": "B62D 65/12",
+          "title": {
+            "ko": null,
+            "en": "the sub-units or components being suspensions, brakes or wheel units"
+          }
+        },
+        {
+          "code": "B62D 65/14",
+          "title": {
+            "ko": null,
+            "en": "the sub-units or components being passenger compartment fittings, e.g. seats, linings, trim, instrument panels"
+          }
+        },
+        {
+          "code": "B62D 65/16",
+          "title": {
+            "ko": null,
+            "en": "the sub-units or components being exterior fittings, e.g. bumpers, lights, wipers"
+          }
+        },
+        {
+          "code": "B62D 65/18",
+          "title": {
+            "ko": null,
+            "en": "Transportation, conveyor or haulage systems specially adapted for motor vehicle or trailer assembly lines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B62D 67/00",
+      "title": {
+        "ko": "재사용 가능한 부품의 회수를 위한 차량의 조직적인 분해 예 리사이클링을 위한 것. (파괴함으로써 차량의 처리를 위한 것이나 B09B 3/00 5/00의 변형)",
+        "en": "Systematic disassembly of vehicles for recovery of salvageable components, e.g. for recycling (for disposal of vehicles by destroying or transformation B09B0003000000, B09B0005000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with group B62D0006000000, with the exception of groups B62D0006020000-B62D0006100000, relating to driving conditions sensed and responded to."
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 101/00",
+      "title": {
+        "ko": null,
+        "en": "Road speed"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 103/00",
+      "title": {
+        "ko": null,
+        "en": "Acceleration or deceleration in the direction of travel"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 105/00",
+      "title": {
+        "ko": null,
+        "en": "Loss of traction, e.g. wheel spin or skid"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 107/00",
+      "title": {
+        "ko": null,
+        "en": "Temperature"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 109/00",
+      "title": {
+        "ko": null,
+        "en": "Presence, absence or inactivity of driver or operator, e.g. by sensing the operation of the clutch, brake or throttle"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 111/00",
+      "title": {
+        "ko": null,
+        "en": "Forces disturbing the intended course of the vehicle, e.g. forces acting transversely of the direction of travel"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 113/00",
+      "title": {
+        "ko": null,
+        "en": "Position of parts of the steering mechanism, e.g. the steered wheels or the steering wheel"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 115/00",
+      "title": {
+        "ko": null,
+        "en": "Angle of articulation of articulated vehicle; Angle of tow-bar to towing vehicle"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 117/00",
+      "title": {
+        "ko": null,
+        "en": "Angular velocity of steering wheel"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 119/00",
+      "title": {
+        "ko": null,
+        "en": "Steering wheel torque"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 121/00",
+      "title": {
+        "ko": null,
+        "en": "Force applied to the steering linkage"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 123/00",
+      "title": {
+        "ko": null,
+        "en": "Fluid pressure supply for vehicle equipment, e.g. for power-assisted steering; Presence, failure or threshold values thereof; Lubricating or other fluid capacities"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 125/00",
+      "title": {
+        "ko": null,
+        "en": "Particular gear ratio selected"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 127/00",
+      "title": {
+        "ko": null,
+        "en": "Engine speed"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 131/00",
+      "title": {
+        "ko": null,
+        "en": "Load, including height of vehicle dependent on load; State of vehicle vibration damping means"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 133/00",
+      "title": {
+        "ko": null,
+        "en": "Trim or inclination, including road gradient"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 135/00",
+      "title": {
+        "ko": null,
+        "en": "Air moisture content"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B62D 137/00",
+      "title": {
+        "ko": "101/00에서 135/00에 특정되지 않는 조건 상태",
+        "en": "Conditions not specified in groups B62D0101000000-B62D0135000000"
+      },
+      "subgroups": []
+    }
+  ]
+}

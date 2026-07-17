@@ -1,0 +1,999 @@
+{
+  "subclass": "G06T",
+  "title": {
+    "ko": null,
+    "en": "IMAGE DATA PROCESSING OR GENERATION, IN GENERAL"
+  },
+  "groups": [
+    {
+      "code": "G06T 1/00",
+      "title": {
+        "ko": null,
+        "en": "General purpose image data processing"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 1/0007",
+          "title": {
+            "ko": null,
+            "en": "{Image acquisition}"
+          }
+        },
+        {
+          "code": "G06T 1/0014",
+          "title": {
+            "ko": null,
+            "en": "{Image feed-back for automatic industrial control, e.g. robot with camera (robots B25J19/023)}"
+          }
+        },
+        {
+          "code": "G06T 1/0021",
+          "title": {
+            "ko": null,
+            "en": "{Image watermarking}"
+          }
+        },
+        {
+          "code": "G06T 1/20",
+          "title": {
+            "ko": null,
+            "en": "Processor architectures; Processor configuration, e.g. pipelining"
+          }
+        },
+        {
+          "code": "G06T 1/60",
+          "title": {
+            "ko": null,
+            "en": "Memory management"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 3/00",
+      "title": {
+        "ko": null,
+        "en": "Geometric image transformations in the plane of the image"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 3/02",
+          "title": {
+            "ko": null,
+            "en": "Affine transformations (for image registration G06T3/147; for image mosaicing G06T3/4038)"
+          }
+        },
+        {
+          "code": "G06T 3/04",
+          "title": {
+            "ko": null,
+            "en": "Context-preserving transformations, e.g. by using an importance map (panospheric to cylindrical image transformations G06T3/12)"
+          }
+        },
+        {
+          "code": "G06T 3/06",
+          "title": {
+            "ko": null,
+            "en": "Topological mapping of higher dimensional structures onto lower dimensional surfaces"
+          }
+        },
+        {
+          "code": "G06T 3/08",
+          "title": {
+            "ko": null,
+            "en": "Projecting images onto non-planar surfaces, e.g. geodetic screens"
+          }
+        },
+        {
+          "code": "G06T 3/10",
+          "title": {
+            "ko": null,
+            "en": "Selection of transformation methods according to the characteristics of the input images"
+          }
+        },
+        {
+          "code": "G06T 3/12",
+          "title": {
+            "ko": null,
+            "en": "Panospheric to cylindrical image transformations"
+          }
+        },
+        {
+          "code": "G06T 3/14",
+          "title": {
+            "ko": null,
+            "en": "Transformations for image registration, e.g. adjusting or mapping for alignment of images"
+          }
+        },
+        {
+          "code": "G06T 3/16",
+          "title": {
+            "ko": null,
+            "en": "Spatio-temporal transformations, e.g. video cubism"
+          }
+        },
+        {
+          "code": "G06T 3/18",
+          "title": {
+            "ko": null,
+            "en": "Image warping, e.g. rearranging pixels individually"
+          }
+        },
+        {
+          "code": "G06T 3/20",
+          "title": {
+            "ko": null,
+            "en": "Linear translation of whole images or parts thereof, e.g. panning"
+          }
+        },
+        {
+          "code": "G06T 3/40",
+          "title": {
+            "ko": null,
+            "en": "Scaling of whole images or parts thereof, e.g. expanding or contracting"
+          }
+        },
+        {
+          "code": "G06T 3/60",
+          "title": {
+            "ko": null,
+            "en": "Rotation of whole images or parts thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 5/00",
+      "title": {
+        "ko": null,
+        "en": "Image enhancement or restoration"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 5/10",
+          "title": {
+            "ko": null,
+            "en": "using non-spatial domain filtering"
+          }
+        },
+        {
+          "code": "G06T 5/20",
+          "title": {
+            "ko": null,
+            "en": "using local operators"
+          }
+        },
+        {
+          "code": "G06T 5/40",
+          "title": {
+            "ko": null,
+            "en": "using histogram techniques"
+          }
+        },
+        {
+          "code": "G06T 5/50",
+          "title": {
+            "ko": null,
+            "en": "using two or more images, e.g. averaging or subtraction"
+          }
+        },
+        {
+          "code": "G06T 5/60",
+          "title": {
+            "ko": null,
+            "en": "using machine learning, e.g. neural networks"
+          }
+        },
+        {
+          "code": "G06T 5/70",
+          "title": {
+            "ko": null,
+            "en": "Denoising; Smoothing"
+          }
+        },
+        {
+          "code": "G06T 5/73",
+          "title": {
+            "ko": null,
+            "en": "Deblurring; Sharpening"
+          }
+        },
+        {
+          "code": "G06T 5/77",
+          "title": {
+            "ko": null,
+            "en": "Retouching; Inpainting; Scratch removal"
+          }
+        },
+        {
+          "code": "G06T 5/80",
+          "title": {
+            "ko": null,
+            "en": "Geometric correction"
+          }
+        },
+        {
+          "code": "G06T 5/90",
+          "title": {
+            "ko": null,
+            "en": "Dynamic range modification of images or parts thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 7/00",
+      "title": {
+        "ko": null,
+        "en": "Image analysis"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 7/0002",
+          "title": {
+            "ko": null,
+            "en": "{Inspection of images, e.g. flaw detection}"
+          }
+        },
+        {
+          "code": "G06T 7/10",
+          "title": {
+            "ko": null,
+            "en": "Segmentation; Edge detection (motion-based segmentation G06T7/215)"
+          }
+        },
+        {
+          "code": "G06T 7/20",
+          "title": {
+            "ko": null,
+            "en": "Analysis of motion (motion estimation for coding, decoding, compressing or decompressing digital video signals H04N19/43, H04N19/51)"
+          }
+        },
+        {
+          "code": "G06T 7/30",
+          "title": {
+            "ko": null,
+            "en": "Determination of transform parameters for the alignment of images, i.e. image registration"
+          }
+        },
+        {
+          "code": "G06T 7/40",
+          "title": {
+            "ko": null,
+            "en": "Analysis of texture (depth or shape recovery from texture G06T7/529)"
+          }
+        },
+        {
+          "code": "G06T 7/50",
+          "title": {
+            "ko": null,
+            "en": "Depth or shape recovery"
+          }
+        },
+        {
+          "code": "G06T 7/60",
+          "title": {
+            "ko": null,
+            "en": "Analysis of geometric attributes"
+          }
+        },
+        {
+          "code": "G06T 7/70",
+          "title": {
+            "ko": null,
+            "en": "Determining position or orientation of objects or cameras (camera calibration G06T7/80)"
+          }
+        },
+        {
+          "code": "G06T 7/80",
+          "title": {
+            "ko": null,
+            "en": "Analysis of captured images to determine intrinsic or extrinsic camera parameters, i.e. camera calibration"
+          }
+        },
+        {
+          "code": "G06T 7/90",
+          "title": {
+            "ko": null,
+            "en": "Determination of colour characteristics"
+          }
+        },
+        {
+          "code": "G06T 7/97",
+          "title": {
+            "ko": null,
+            "en": "{Determining parameters from multiple pictures (depth or shape recovery from multiple images G06T7/55; stereo camera calibration G06T7/85)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 9/00",
+      "title": {
+        "ko": null,
+        "en": "Image coding (bandwidth or redundancy reduction for static pictures H04N1/41; coding or decoding of static colour picture signals H04N1/64; methods or arrangements for coding, decoding, compressing or decompressing digital video signals H04N19/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 9/001",
+          "title": {
+            "ko": null,
+            "en": "{Model-based coding, e.g. wire frame}"
+          }
+        },
+        {
+          "code": "G06T 9/002",
+          "title": {
+            "ko": null,
+            "en": "{using neural networks}"
+          }
+        },
+        {
+          "code": "G06T 9/004",
+          "title": {
+            "ko": null,
+            "en": "{Predictors, e.g. intraframe, interframe coding}"
+          }
+        },
+        {
+          "code": "G06T 9/005",
+          "title": {
+            "ko": null,
+            "en": "{Statistical coding, e.g. Huffman, run length coding}"
+          }
+        },
+        {
+          "code": "G06T 9/007",
+          "title": {
+            "ko": null,
+            "en": "{Transform coding, e.g. discrete cosine transform}"
+          }
+        },
+        {
+          "code": "G06T 9/008",
+          "title": {
+            "ko": null,
+            "en": "{Vector quantisation}"
+          }
+        },
+        {
+          "code": "G06T 9/20",
+          "title": {
+            "ko": null,
+            "en": "Contour coding, e.g. using detection of edges"
+          }
+        },
+        {
+          "code": "G06T 9/40",
+          "title": {
+            "ko": null,
+            "en": "Tree coding, e.g. quadtree, octree"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 11/00",
+      "title": {
+        "ko": null,
+        "en": "Two-dimensional [2D] image generation"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 11/10",
+          "title": {
+            "ko": null,
+            "en": "Texturing; Colouring; Generation of textures or colours (retouching, inpainting or scratch removal G06T5/77)"
+          }
+        },
+        {
+          "code": "G06T 11/20",
+          "title": {
+            "ko": null,
+            "en": "Drawing from basic elements"
+          }
+        },
+        {
+          "code": "G06T 11/40",
+          "title": {
+            "ko": null,
+            "en": "Filling planar surfaces by adding surface attributes, e.g. adding colours or textures"
+          }
+        },
+        {
+          "code": "G06T 11/60",
+          "title": {
+            "ko": null,
+            "en": "Creating or editing images; Combining images with text"
+          }
+        },
+        {
+          "code": "G06T 11/80",
+          "title": {
+            "ko": null,
+            "en": "{Creating or modifying a manually drawn or painted image using a manual input device, e.g. mouse, light pen, direction keys on keyboard}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 12/00",
+      "title": {
+        "ko": null,
+        "en": "Tomographic reconstruction from projections"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 12/10",
+          "title": {
+            "ko": null,
+            "en": "Image preprocessing, e.g. calibration, positioning of sources or scatter correction"
+          }
+        },
+        {
+          "code": "G06T 12/20",
+          "title": {
+            "ko": null,
+            "en": "Inverse problem, i.e. transformations from projection space into object space"
+          }
+        },
+        {
+          "code": "G06T 12/30",
+          "title": {
+            "ko": null,
+            "en": "Image post-processing, e.g. metal artefact correction"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 13/00",
+      "title": {
+        "ko": null,
+        "en": "Animation"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 13/20",
+          "title": {
+            "ko": null,
+            "en": "Three-dimensional [3D] animation"
+          }
+        },
+        {
+          "code": "G06T 13/80",
+          "title": {
+            "ko": null,
+            "en": "Two-dimensional [2D] animation, e.g. using sprites"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 15/00",
+      "title": {
+        "ko": null,
+        "en": "Three-dimensional [3D] image rendering"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 15/005",
+          "title": {
+            "ko": null,
+            "en": "{General purpose rendering architectures}"
+          }
+        },
+        {
+          "code": "G06T 15/02",
+          "title": {
+            "ko": null,
+            "en": "Non-photorealistic rendering"
+          }
+        },
+        {
+          "code": "G06T 15/04",
+          "title": {
+            "ko": null,
+            "en": "Texture mapping"
+          }
+        },
+        {
+          "code": "G06T 15/06",
+          "title": {
+            "ko": null,
+            "en": "Ray-tracing"
+          }
+        },
+        {
+          "code": "G06T 15/08",
+          "title": {
+            "ko": null,
+            "en": "Volume rendering"
+          }
+        },
+        {
+          "code": "G06T 15/10",
+          "title": {
+            "ko": null,
+            "en": "Geometric effects"
+          }
+        },
+        {
+          "code": "G06T 15/50",
+          "title": {
+            "ko": null,
+            "en": "Lighting effects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 17/00",
+      "title": {
+        "ko": null,
+        "en": "Three-dimensional [3D] modelling for computer graphics"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 17/005",
+          "title": {
+            "ko": null,
+            "en": "{Tree description, e.g. octree, quadtree}"
+          }
+        },
+        {
+          "code": "G06T 17/05",
+          "title": {
+            "ko": null,
+            "en": "Geographic models"
+          }
+        },
+        {
+          "code": "G06T 17/10",
+          "title": {
+            "ko": null,
+            "en": "Constructive solid geometry [CSG] using solid primitives, e.g. cylinders, cubes"
+          }
+        },
+        {
+          "code": "G06T 17/20",
+          "title": {
+            "ko": null,
+            "en": "Finite element generation, e.g. wire-frame surface description, {tesselation}"
+          }
+        },
+        {
+          "code": "G06T 17/30",
+          "title": {
+            "ko": null,
+            "en": "Polynomial surface description"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 19/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulating three-dimensional [3D] models or images for computer graphics"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 19/003",
+          "title": {
+            "ko": null,
+            "en": "{Navigation within 3D models or images}"
+          }
+        },
+        {
+          "code": "G06T 19/006",
+          "title": {
+            "ko": null,
+            "en": "{Mixed reality (object pose determination, tracking or camera calibration for mixed reality G06T7/00)}"
+          }
+        },
+        {
+          "code": "G06T 19/20",
+          "title": {
+            "ko": null,
+            "en": "Editing of three-dimensional [3D] images, e.g. changing shapes or colours, aligning objects or positioning parts"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2200/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme for image data processing or generation, in general"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2200/04",
+          "title": {
+            "ko": null,
+            "en": "involving 3D image data"
+          }
+        },
+        {
+          "code": "G06T 2200/08",
+          "title": {
+            "ko": null,
+            "en": "involving all processing steps from image acquisition to 3D model generation"
+          }
+        },
+        {
+          "code": "G06T 2200/12",
+          "title": {
+            "ko": null,
+            "en": "involving antialiasing"
+          }
+        },
+        {
+          "code": "G06T 2200/16",
+          "title": {
+            "ko": null,
+            "en": "involving adaptation to the client's capabilities"
+          }
+        },
+        {
+          "code": "G06T 2200/21",
+          "title": {
+            "ko": null,
+            "en": "involving computational photography"
+          }
+        },
+        {
+          "code": "G06T 2200/24",
+          "title": {
+            "ko": null,
+            "en": "involving graphical user interfaces [GUIs]"
+          }
+        },
+        {
+          "code": "G06T 2200/28",
+          "title": {
+            "ko": null,
+            "en": "involving image processing hardware"
+          }
+        },
+        {
+          "code": "G06T 2200/32",
+          "title": {
+            "ko": null,
+            "en": "involving image mosaicing"
+          }
+        },
+        {
+          "code": "G06T 2200/36",
+          "title": {
+            "ko": null,
+            "en": "Review paper; Tutorial; Survey"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2201/00",
+      "title": {
+        "ko": null,
+        "en": "General purpose image data processing"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2201/005",
+          "title": {
+            "ko": null,
+            "en": "Image watermarking"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme for image analysis or image enhancement"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2207/10",
+          "title": {
+            "ko": null,
+            "en": "Image acquisition modality"
+          }
+        },
+        {
+          "code": "G06T 2207/20",
+          "title": {
+            "ko": null,
+            "en": "Special algorithmic details"
+          }
+        },
+        {
+          "code": "G06T 2207/30",
+          "title": {
+            "ko": null,
+            "en": "Subject of image; Context of image processing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2210/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme for image generation or computer graphics"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2210/04",
+          "title": {
+            "ko": null,
+            "en": "Architectural design, interior design"
+          }
+        },
+        {
+          "code": "G06T 2210/08",
+          "title": {
+            "ko": null,
+            "en": "Bandwidth reduction"
+          }
+        },
+        {
+          "code": "G06T 2210/12",
+          "title": {
+            "ko": null,
+            "en": "Bounding box"
+          }
+        },
+        {
+          "code": "G06T 2210/16",
+          "title": {
+            "ko": null,
+            "en": "Cloth"
+          }
+        },
+        {
+          "code": "G06T 2210/21",
+          "title": {
+            "ko": null,
+            "en": "Collision detection, intersection"
+          }
+        },
+        {
+          "code": "G06T 2210/22",
+          "title": {
+            "ko": null,
+            "en": "Cropping"
+          }
+        },
+        {
+          "code": "G06T 2210/24",
+          "title": {
+            "ko": null,
+            "en": "Fluid dynamics"
+          }
+        },
+        {
+          "code": "G06T 2210/28",
+          "title": {
+            "ko": null,
+            "en": "Force feedback"
+          }
+        },
+        {
+          "code": "G06T 2210/32",
+          "title": {
+            "ko": null,
+            "en": "Image data format"
+          }
+        },
+        {
+          "code": "G06T 2210/36",
+          "title": {
+            "ko": null,
+            "en": "Level of detail"
+          }
+        },
+        {
+          "code": "G06T 2210/41",
+          "title": {
+            "ko": null,
+            "en": "Medical"
+          }
+        },
+        {
+          "code": "G06T 2210/44",
+          "title": {
+            "ko": null,
+            "en": "Morphing"
+          }
+        },
+        {
+          "code": "G06T 2210/52",
+          "title": {
+            "ko": null,
+            "en": "Parallel processing"
+          }
+        },
+        {
+          "code": "G06T 2210/56",
+          "title": {
+            "ko": null,
+            "en": "Particle system, point based geometry or rendering"
+          }
+        },
+        {
+          "code": "G06T 2210/61",
+          "title": {
+            "ko": null,
+            "en": "Scene description"
+          }
+        },
+        {
+          "code": "G06T 2210/62",
+          "title": {
+            "ko": null,
+            "en": "Semi-transparency"
+          }
+        },
+        {
+          "code": "G06T 2210/64",
+          "title": {
+            "ko": null,
+            "en": "Weathering"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2211/00",
+      "title": {
+        "ko": null,
+        "en": "Image generation"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2211/40",
+          "title": {
+            "ko": null,
+            "en": "Computed tomography"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2213/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme for animation"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2213/04",
+          "title": {
+            "ko": null,
+            "en": "Animation description language"
+          }
+        },
+        {
+          "code": "G06T 2213/08",
+          "title": {
+            "ko": null,
+            "en": "Animation software package"
+          }
+        },
+        {
+          "code": "G06T 2213/12",
+          "title": {
+            "ko": null,
+            "en": "Rule based animation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2215/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme for image rendering"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2215/06",
+          "title": {
+            "ko": null,
+            "en": "Curved planar reformation of 3D line structures"
+          }
+        },
+        {
+          "code": "G06T 2215/08",
+          "title": {
+            "ko": null,
+            "en": "Gnomonic or central projection"
+          }
+        },
+        {
+          "code": "G06T 2215/12",
+          "title": {
+            "ko": null,
+            "en": "Shadow map, environment map"
+          }
+        },
+        {
+          "code": "G06T 2215/16",
+          "title": {
+            "ko": null,
+            "en": "Using real world measurements to influence rendering"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 2219/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme for manipulating 3D models or images for computer graphics"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 2219/004",
+          "title": {
+            "ko": null,
+            "en": "Annotating, labelling"
+          }
+        },
+        {
+          "code": "G06T 2219/008",
+          "title": {
+            "ko": null,
+            "en": "Cut plane or projection plane definition"
+          }
+        },
+        {
+          "code": "G06T 2219/012",
+          "title": {
+            "ko": null,
+            "en": "Dimensioning, tolerancing"
+          }
+        },
+        {
+          "code": "G06T 2219/016",
+          "title": {
+            "ko": null,
+            "en": "Exploded view"
+          }
+        },
+        {
+          "code": "G06T 2219/021",
+          "title": {
+            "ko": null,
+            "en": "Flattening"
+          }
+        },
+        {
+          "code": "G06T 2219/024",
+          "title": {
+            "ko": null,
+            "en": "Multi-user, collaborative environment"
+          }
+        },
+        {
+          "code": "G06T 2219/028",
+          "title": {
+            "ko": null,
+            "en": "Multiple view windows (top-side-front-sagittal-orthogonal)"
+          }
+        },
+        {
+          "code": "G06T 2219/20",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme for editing of 3D models"
+          }
+        }
+      ]
+    }
+  ]
+}

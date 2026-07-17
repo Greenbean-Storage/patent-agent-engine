@@ -1,0 +1,955 @@
+{
+  "subclass": "E02D",
+  "title": {
+    "ko": null,
+    "en": "FOUNDATIONS; EXCAVATIONS; EMBANKMENTS (specially adapted for hydraulic engineering E02B); UNDERGROUND OR UNDERWATER STRUCTURES {(tunnels, tunnelling, mining E21)}"
+  },
+  "groups": [
+    {
+      "code": "E02D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Investigation of foundation soil in situ (investigation involving boring or specially adapted to earth drilling E21B25/00, E21B49/00; investigating or analysing materials by determining their chemical or physical properties, in general G01N, e.g. sampling G01N1/00)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 1/02",
+          "title": {
+            "ko": null,
+            "en": "before construction work"
+          }
+        },
+        {
+          "code": "E02D 1/08",
+          "title": {
+            "ko": null,
+            "en": "after finishing the foundation structure {(testing of piles E02D33/00)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Improving or preserving soil or rock, e.g. preserving permafrost soil (securing of slopes or inclines E02D17/20; damming or interrupting passage of underground water E02D19/12; improving soil for agricultural purposes A01; soil stabilisation for road building or like purposes E01C21/00, E01C23/10; setting rock anchoring bolts E21D)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 3/005",
+          "title": {
+            "ko": null,
+            "en": "{Soil-conditioning by mixing with fibrous materials, filaments, open mesh or the like}"
+          }
+        },
+        {
+          "code": "E02D 3/02",
+          "title": {
+            "ko": null,
+            "en": "Improving by compacting (E02D3/11 takes precedence; compacting soil locally before or while forming foundations E02D27/26, E02D27/28)"
+          }
+        },
+        {
+          "code": "E02D 3/11",
+          "title": {
+            "ko": null,
+            "en": "by thermal, electrical or electro-chemical means (freezing soil for interrupting passage of underground water E02D19/14)"
+          }
+        },
+        {
+          "code": "E02D 3/12",
+          "title": {
+            "ko": null,
+            "en": "Consolidating by placing solidifying or pore-filling substances in the soil (making piles E02D5/46; soil-conditioning or soil-stabilising materials C09K17/00; consolidation of ground around boreholes or wells  E21B43/025)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Bulkheads, piles, or other structural elements specially adapted to foundation engineering (engineering elements in general F16)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 5/02",
+          "title": {
+            "ko": null,
+            "en": "Sheet piles or sheet pile bulkheads {(foundations made with sheet pile bulkheads E02D27/30; cofferdams E02D19/04)}"
+          }
+        },
+        {
+          "code": "E02D 5/18",
+          "title": {
+            "ko": null,
+            "en": "Bulkheads or similar walls made solely of concrete in situ {(moulds therefor E02D5/68; making foundation slots E02D17/13; sealing diaphragms other than those made of concrete E02D19/18)}"
+          }
+        },
+        {
+          "code": "E02D 5/20",
+          "title": {
+            "ko": null,
+            "en": "Bulkheads or similar walls made of prefabricated parts and concrete, including reinforced concrete, in situ"
+          }
+        },
+        {
+          "code": "E02D 5/22",
+          "title": {
+            "ko": null,
+            "en": "Piles (sheet piles, {i.e. elements shaped to mutually lock or mate} E02D5/02; {pile shoes E02D5/72; foundations on piles E02D27/12, E02D27/20})"
+          }
+        },
+        {
+          "code": "E02D 5/66",
+          "title": {
+            "ko": null,
+            "en": "Mould-pipes or other moulds {(for plant use B28B)}"
+          }
+        },
+        {
+          "code": "E02D 5/72",
+          "title": {
+            "ko": null,
+            "en": "Pile shoes"
+          }
+        },
+        {
+          "code": "E02D 5/74",
+          "title": {
+            "ko": null,
+            "en": "Means for anchoring structural elements or bulkheads (anchoring piles E02D5/54  {; anchored foundations E02D27/50})"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or apparatus for placing sheet pile bulkheads, piles, mouldpipes, or other moulds (for both placing and removing E02D11/00; {accessories for coupling driver to piles or the like E02D13/10; for trees or other plants A01G17/16; placing posts E04H17/26})"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 7/02",
+          "title": {
+            "ko": null,
+            "en": "Placing by driving {(E02D7/18 - E02D7/24 take precedence)}"
+          }
+        },
+        {
+          "code": "E02D 7/18",
+          "title": {
+            "ko": null,
+            "en": "Placing by vibrating {(vibrators for soil compacting E02D3/046)}"
+          }
+        },
+        {
+          "code": "E02D 7/20",
+          "title": {
+            "ko": null,
+            "en": "Placing by pressure or pulling power"
+          }
+        },
+        {
+          "code": "E02D 7/22",
+          "title": {
+            "ko": null,
+            "en": "Placing by screwing down {(screw piles per se E02D5/56)}"
+          }
+        },
+        {
+          "code": "E02D 7/24",
+          "title": {
+            "ko": null,
+            "en": "Placing by using fluid jets {(prefabricated concrete piles with arrangements therefor E02D5/32)}"
+          }
+        },
+        {
+          "code": "E02D 7/26",
+          "title": {
+            "ko": null,
+            "en": "Placing by using several means simultaneously"
+          }
+        },
+        {
+          "code": "E02D 7/28",
+          "title": {
+            "ko": null,
+            "en": "Placing of hollow pipes or mould pipes by means arranged inside the piles or pipes {(E02D13/08 takes precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Removing sheet piles bulkheads, piles, mould-pipes or other moulds {or parts thereof}(for both placing and removing E02D11/00)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 9/005",
+          "title": {
+            "ko": null,
+            "en": "{removing the top of placed piles of sheet piles (E02D9/04 takes precedence)}"
+          }
+        },
+        {
+          "code": "E02D 9/02",
+          "title": {
+            "ko": null,
+            "en": "by withdrawing"
+          }
+        },
+        {
+          "code": "E02D 9/04",
+          "title": {
+            "ko": null,
+            "en": "by cutting-off under water"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or apparatus {specially adapted} for both placing and removing sheet pile bulkheads, piles, or mould-pipes (features relating to placing only E02D7/00, to removing only E02D9/00  {; placing apparatus which without special provisions, can be operated to remove, e.g. vibrating drivers E02D7/00})"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E02D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Accessories for placing or removing piles or bulkheads {, e.g. noise attenuating chambers}"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 13/005",
+          "title": {
+            "ko": null,
+            "en": "{Sound absorbing accessories in piling}"
+          }
+        },
+        {
+          "code": "E02D 13/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for placing or removing bulkheads"
+          }
+        },
+        {
+          "code": "E02D 13/04",
+          "title": {
+            "ko": null,
+            "en": "Guide devices; Guide frames {(as parts of the driver scaffold E02D7/16)}"
+          }
+        },
+        {
+          "code": "E02D 13/06",
+          "title": {
+            "ko": null,
+            "en": "for observation while placing"
+          }
+        },
+        {
+          "code": "E02D 13/08",
+          "title": {
+            "ko": null,
+            "en": "Removing obstacles"
+          }
+        },
+        {
+          "code": "E02D 13/10",
+          "title": {
+            "ko": null,
+            "en": "Follow-blocks of pile-drivers or like devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Handling building or like materials for hydraulic engineering or foundations ({soil-shifting E02F;} conveying or working-up concrete or similar masses in general E04G21/02)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Handling of bulk concrete specially for foundation {or hydraulic engineering} purposes {(lining canals E02B5/02; banks of the bodies of water E02B3/121)}"
+          }
+        },
+        {
+          "code": "E02D 15/08",
+          "title": {
+            "ko": null,
+            "en": "Sinking workpieces into water or soil {inasmuch as not provided for elsewhere}"
+          }
+        },
+        {
+          "code": "E02D 15/10",
+          "title": {
+            "ko": null,
+            "en": "Placing gravel or light material under water {inasmuch as not provided for elsewhere}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Excavations; Bordering of excavations; Making embankments (soil-shifting apparatus E02F; earth drilling E21)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 17/02",
+          "title": {
+            "ko": null,
+            "en": "Foundation pits"
+          }
+        },
+        {
+          "code": "E02D 17/06",
+          "title": {
+            "ko": null,
+            "en": "Foundation {trenches} ditches or narrow shafts"
+          }
+        },
+        {
+          "code": "E02D 17/13",
+          "title": {
+            "ko": null,
+            "en": "Foundation slots {or slits}; Implements for making these slots {or slits}"
+          }
+        },
+        {
+          "code": "E02D 17/16",
+          "title": {
+            "ko": null,
+            "en": "Loosening of soil or rock, under water (for correcting streams E02B3/02; by dredgers or excavators E02F)"
+          }
+        },
+        {
+          "code": "E02D 17/18",
+          "title": {
+            "ko": null,
+            "en": "Making embankments, {e.g. dikes, dams}(E02D17/20 takes precedence; {foundations for dams E02D27/40})"
+          }
+        },
+        {
+          "code": "E02D 17/20",
+          "title": {
+            "ko": null,
+            "en": "Securing of slopes or inclines {(by soil E02D3/12; protection against snowslides or avalanches E01F7/04, E01F15/00; securing banks or like surfaces facing on bodies of water E02B3/12)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 19/00",
+      "title": {
+        "ko": null,
+        "en": "Keeping dry foundation sites or other areas in the ground (sheet piles or bulkheads E02D5/02)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 19/02",
+          "title": {
+            "ko": null,
+            "en": "Restraining of open water"
+          }
+        },
+        {
+          "code": "E02D 19/06",
+          "title": {
+            "ko": null,
+            "en": "Restraining of underground water"
+          }
+        },
+        {
+          "code": "E02D 19/22",
+          "title": {
+            "ko": null,
+            "en": "Lining sumps in trenches {or other foundation pits}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 23/00",
+      "title": {
+        "ko": null,
+        "en": "Caissons; Construction or placing of caissons (tunnels submerged into or built in open water E02D29/063  {; moles, piers, quays, breakwaters incorporating caissons E02B3/06; foundation formed by caissons E02D27/18 - E02D27/22; caisson-like artificial islands E02B17/00})"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 23/02",
+          "title": {
+            "ko": null,
+            "en": "Caissons able to be floated on water and to be lowered into water in situ {(floating caisson foundations E02D27/06)}"
+          }
+        },
+        {
+          "code": "E02D 23/04",
+          "title": {
+            "ko": null,
+            "en": "Pneumatic caissons {(sinking of same E02D23/10)}"
+          }
+        },
+        {
+          "code": "E02D 23/08",
+          "title": {
+            "ko": null,
+            "en": "Lowering or sinking caissons {(sinking mine shaft E21D1/00)}"
+          }
+        },
+        {
+          "code": "E02D 23/16",
+          "title": {
+            "ko": null,
+            "en": "Jointing caissons to the foundation soil, specially to uneven foundation soil"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 25/00",
+      "title": {
+        "ko": null,
+        "en": "Joining caissons, sinkers, or other units to each other under water"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E02D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Foundations as substructures"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 27/01",
+          "title": {
+            "ko": null,
+            "en": "Flat foundations"
+          }
+        },
+        {
+          "code": "E02D 27/10",
+          "title": {
+            "ko": null,
+            "en": "Deep foundations"
+          }
+        },
+        {
+          "code": "E02D 27/24",
+          "title": {
+            "ko": null,
+            "en": "Foundations constructed by making use of diving-bells (equipment for dwelling or working under water B63C11/00)"
+          }
+        },
+        {
+          "code": "E02D 27/26",
+          "title": {
+            "ko": null,
+            "en": "Compacting soil locally before forming foundations; Construction of foundation structures by forcing binding substances into gravel fillings (consolidating foundation soil in general E02D3/02 - E02D3/12; {for piles E02D5/02, E02D5/46})"
+          }
+        },
+        {
+          "code": "E02D 27/28",
+          "title": {
+            "ko": null,
+            "en": "Stressing the soil or the foundation structure while forming foundations"
+          }
+        },
+        {
+          "code": "E02D 27/30",
+          "title": {
+            "ko": null,
+            "en": "Foundations made with permanent use of sheet pile bulkheads, walls of planks, or sheet piling boxes"
+          }
+        },
+        {
+          "code": "E02D 27/32",
+          "title": {
+            "ko": null,
+            "en": "Foundations for special purposes {(for paving of roads E01C3/00)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 29/00",
+      "title": {
+        "ko": null,
+        "en": "{Independent} underground or underwater structures (underground tanks B65D88/76; hydraulic engineering, e.g. sealings or joints, E02B; underground garages E04H6/00; underground air-raid shelters E04H9/12; burial vaults E04H13/00); Retaining walls"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 29/02",
+          "title": {
+            "ko": null,
+            "en": "Retaining or protecting walls (piers or quay walls E02B3/06)"
+          }
+        },
+        {
+          "code": "E02D 29/04",
+          "title": {
+            "ko": null,
+            "en": "{Making large underground spaces, e.g. for underground plants, e.g. stations of underground railways; Construction or layout thereof (E02D29/10 takes precedence; water-supply or sewerage plants E03; layout of water power plants E02B9/00; making large underground chambers by underground methods only E21D13/00)}"
+          }
+        },
+        {
+          "code": "E02D 29/045",
+          "title": {
+            "ko": null,
+            "en": "Underground structures, e.g. tunnels or galleries, built in the open air or by methods involving disturbance of the ground surface all along the location line; Methods of making them"
+          }
+        },
+        {
+          "code": "E02D 29/06",
+          "title": {
+            "ko": null,
+            "en": "{Constructions, or methods of constructing, in water (E02D15/00 takes precedence; submerged foundations E02D27/52)}"
+          }
+        },
+        {
+          "code": "E02D 29/063",
+          "title": {
+            "ko": null,
+            "en": "Tunnels submerged into, or built in, open water (construction or placing of caissons in general E02D23/00; joining caissons to each other under water, in general E02D25/00)"
+          }
+        },
+        {
+          "code": "E02D 29/08",
+          "title": {
+            "ko": null,
+            "en": "{Siphons (for sewerage E03F5/20; siphon weirs E02B7/18; siphons in general F04F10/00)}"
+          }
+        },
+        {
+          "code": "E02D 29/10",
+          "title": {
+            "ko": null,
+            "en": "{Tunnels or galleries specially adapted to house conduits, e.g. oil pipe-lines, sewer pipes (for pressure water conduits E02B9/06; for cables H02G9/02; layout of tunnels or galleries in general E21D9/14; road kerbs with housings for pipes or the like E01C11/222); Making conduits in situ, e.g. of concrete (combined with digging of trenches or ditches E02F5/10; making or lining tunnels or galleries E21D; constructing tunnels or galleries in open excavations E02D29/045; in open water E02D29/063); Casings, i.e. manhole shafts, access or inspection chambers or coverings of boreholes or narrow wells (wells for drinking water E03B3/08; boreholes or wells formed by deep drilling E21B; shafts E21D)}"
+          }
+        },
+        {
+          "code": "E02D 29/12",
+          "title": {
+            "ko": null,
+            "en": "Manhole shafts; Other inspection or access chambers; Accessories therefor (for underground tanks B65D90/10; for sewerage E03F5/02  {; climbing irons or ladders E06C9/00})"
+          }
+        },
+        {
+          "code": "E02D 29/16",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or construction of joints in foundation structures ({for hydraulic engineering E02B3/16}; sealing joints not restricted to foundation structures E04B1/68)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Protective arrangements for foundations or foundation structures {(protective casings for piles E02D5/60)}; Ground foundation measures for protecting the soil or the subsoil water, e.g. preventing or counteracting oil pollution (spillage retaining means for tanks B65D90/24)"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 31/002",
+          "title": {
+            "ko": null,
+            "en": "{Ground foundation measures for protecting the soil or subsoil water, e.g. preventing or counteracting oil pollution (not used, see subgroups and E02D31/00)}"
+          }
+        },
+        {
+          "code": "E02D 31/008",
+          "title": {
+            "ko": null,
+            "en": "{against entry of noxious gases, e.g. Radon}"
+          }
+        },
+        {
+          "code": "E02D 31/02",
+          "title": {
+            "ko": null,
+            "en": "against ground humidity or ground water {(E02D31/06 takes precedence; arrangements other than according to E02D31/04; against hydraulic pressure of groundwater E02D31/10)}"
+          }
+        },
+        {
+          "code": "E02D 31/06",
+          "title": {
+            "ko": null,
+            "en": "against corrosion by soil or water"
+          }
+        },
+        {
+          "code": "E02D 31/08",
+          "title": {
+            "ko": null,
+            "en": "against transmission of vibrations or movements in the foundation soil {(E02D27/34 takes precedence; foundations for machines, engines or ordnance E02D27/44; for road foundations E01C3/06)}"
+          }
+        },
+        {
+          "code": "E02D 31/10",
+          "title": {
+            "ko": null,
+            "en": "against soil pressure or hydraulic pressure {(anchored foundations E02D27/50; joint sealings for use under hydraulic pressure E02D31/04)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 33/00",
+      "title": {
+        "ko": null,
+        "en": "Testing foundations or foundation structures (testing methods and apparatus, see the relevant subclasses of class G01; testing structures or apparatus as regards function, in general, G01M; testing or determining chemical or physical properties, in general G01N)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E02D 35/00",
+      "title": {
+        "ko": null,
+        "en": "Straightening, lifting, or lowering of foundation structures or of constructions erected on foundations {(foundations for sinking territories with incorporated means for remedying settlement E02D27/34; lifting or moving buildings E04G23/06)}"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 35/005",
+          "title": {
+            "ko": null,
+            "en": "{Lowering or lifting of foundation structures}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 37/00",
+      "title": {
+        "ko": null,
+        "en": "Repair of damaged foundations or foundation structures {(renewing piles E02D5/64; roads E01C11/005; bridges E01D22/00; repairing buildings E04G23/02)}"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E02D 2200/00",
+      "title": {
+        "ko": null,
+        "en": "Geometrical or physical properties"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 2200/11",
+          "title": {
+            "ko": null,
+            "en": "Height being adjustable"
+          }
+        },
+        {
+          "code": "E02D 2200/12",
+          "title": {
+            "ko": null,
+            "en": "corrugated"
+          }
+        },
+        {
+          "code": "E02D 2200/13",
+          "title": {
+            "ko": null,
+            "en": "having at least a mesh portion"
+          }
+        },
+        {
+          "code": "E02D 2200/14",
+          "title": {
+            "ko": null,
+            "en": "resilient or elastic"
+          }
+        },
+        {
+          "code": "E02D 2200/15",
+          "title": {
+            "ko": null,
+            "en": "including at least a hinge"
+          }
+        },
+        {
+          "code": "E02D 2200/16",
+          "title": {
+            "ko": null,
+            "en": "Shapes"
+          }
+        },
+        {
+          "code": "E02D 2200/17",
+          "title": {
+            "ko": null,
+            "en": "including an electric conductive element"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 2220/00",
+      "title": {
+        "ko": null,
+        "en": "Temporary installations or constructions"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E02D 2250/00",
+      "title": {
+        "ko": null,
+        "en": "Production methods"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 2250/0007",
+          "title": {
+            "ko": null,
+            "en": "using a mold"
+          }
+        },
+        {
+          "code": "E02D 2250/0015",
+          "title": {
+            "ko": null,
+            "en": "using extrusion"
+          }
+        },
+        {
+          "code": "E02D 2250/0023",
+          "title": {
+            "ko": null,
+            "en": "Cast, i.e. in situ or in a mold or other formwork"
+          }
+        },
+        {
+          "code": "E02D 2250/003",
+          "title": {
+            "ko": null,
+            "en": "Injection of material"
+          }
+        },
+        {
+          "code": "E02D 2250/0038",
+          "title": {
+            "ko": null,
+            "en": "using an auger, i.e. continuous flight type"
+          }
+        },
+        {
+          "code": "E02D 2250/0046",
+          "title": {
+            "ko": null,
+            "en": "using prestressing techniques"
+          }
+        },
+        {
+          "code": "E02D 2250/0053",
+          "title": {
+            "ko": null,
+            "en": "using suction or vacuum techniques"
+          }
+        },
+        {
+          "code": "E02D 2250/0061",
+          "title": {
+            "ko": null,
+            "en": "for working underwater"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 2300/00",
+      "title": {
+        "ko": null,
+        "en": "Materials"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 2300/0001",
+          "title": {
+            "ko": null,
+            "en": "Rubbers"
+          }
+        },
+        {
+          "code": "E02D 2300/0004",
+          "title": {
+            "ko": null,
+            "en": "Synthetics"
+          }
+        },
+        {
+          "code": "E02D 2300/0026",
+          "title": {
+            "ko": null,
+            "en": "Metals"
+          }
+        },
+        {
+          "code": "E02D 2300/0037",
+          "title": {
+            "ko": null,
+            "en": "Clays"
+          }
+        },
+        {
+          "code": "E02D 2300/0045",
+          "title": {
+            "ko": null,
+            "en": "Composites"
+          }
+        },
+        {
+          "code": "E02D 2300/0046",
+          "title": {
+            "ko": null,
+            "en": "Foams"
+          }
+        },
+        {
+          "code": "E02D 2300/0051",
+          "title": {
+            "ko": null,
+            "en": "Including fibers"
+          }
+        },
+        {
+          "code": "E02D 2300/007",
+          "title": {
+            "ko": null,
+            "en": "Resins including glasfibers"
+          }
+        },
+        {
+          "code": "E02D 2300/0071",
+          "title": {
+            "ko": null,
+            "en": "Wood"
+          }
+        },
+        {
+          "code": "E02D 2300/0073",
+          "title": {
+            "ko": null,
+            "en": "Explosives"
+          }
+        },
+        {
+          "code": "E02D 2300/0075",
+          "title": {
+            "ko": null,
+            "en": "Textiles"
+          }
+        },
+        {
+          "code": "E02D 2300/0079",
+          "title": {
+            "ko": null,
+            "en": "Granulates"
+          }
+        },
+        {
+          "code": "E02D 2300/0081",
+          "title": {
+            "ko": null,
+            "en": "Ceramics"
+          }
+        },
+        {
+          "code": "E02D 2300/0082",
+          "title": {
+            "ko": null,
+            "en": "Cellulose"
+          }
+        },
+        {
+          "code": "E02D 2300/0084",
+          "title": {
+            "ko": null,
+            "en": "Geogrids"
+          }
+        },
+        {
+          "code": "E02D 2300/0085",
+          "title": {
+            "ko": null,
+            "en": "Geotextiles"
+          }
+        },
+        {
+          "code": "E02D 2300/0098",
+          "title": {
+            "ko": null,
+            "en": "Bitumen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 2450/00",
+      "title": {
+        "ko": null,
+        "en": "Gaskets"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 2450/10",
+          "title": {
+            "ko": null,
+            "en": "Membranes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E02D 2600/00",
+      "title": {
+        "ko": null,
+        "en": "Miscellaneous"
+      },
+      "subgroups": [
+        {
+          "code": "E02D 2600/10",
+          "title": {
+            "ko": null,
+            "en": "comprising sensor means"
+          }
+        },
+        {
+          "code": "E02D 2600/20",
+          "title": {
+            "ko": null,
+            "en": "comprising details of connection between elements"
+          }
+        },
+        {
+          "code": "E02D 2600/30",
+          "title": {
+            "ko": null,
+            "en": "comprising anchoring details"
+          }
+        },
+        {
+          "code": "E02D 2600/40",
+          "title": {
+            "ko": null,
+            "en": "comprising stabilising elements"
+          }
+        }
+      ]
+    }
+  ]
+}

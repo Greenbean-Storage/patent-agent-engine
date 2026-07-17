@@ -1,0 +1,813 @@
+{
+  "subclass": "H01C",
+  "title": {
+    "ko": "저항기",
+    "en": "RESISTORS"
+  },
+  "definition": {
+    "ko": "고정저항기 H01C3/00, H01C7/00, H01C8/00, H01C11/00 가변저항기 H01C10/00 기타 저항기 H01C13/00 세부 H01C1/00 제조 H01C17/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H01C 1/00",
+      "title": {
+        "ko": "세부",
+        "en": "Details"
+      },
+      "subgroups": [
+        {
+          "code": "H01C 1/01",
+          "title": {
+            "ko": "부착; 지지",
+            "en": "Mounting; Supporting"
+          }
+        },
+        {
+          "code": "H01C 1/012",
+          "title": {
+            "ko": "저항소자에 따라서 늘여지는 저항소자의 고정 또는 보강을 하는 기판(H01C 1/016이 우선; 2 또는 2이상의 코일 또는 루프(loop)로 1개의 소용돌이 형상, 선상 또는 환상의 권선을 형성하는 저항소자 H01C 3/18, H01C 3/20; 기판상에 1이상의 층 또는 피복상으로 형성된 저항소자 H01C 7/00))",
+            "en": "the base extending along, and imparting rigidity or reinforcement to, the resistive element (H01C0001016000 takes precedence;the resistive element being formed in two or more coils or loops as a spiral, helical, or toroidal winding H01C0003180000, H01C0003200000;the resistive element being formed as one or more layers or coatings on a base H01C0007000000)"
+          }
+        },
+        {
+          "code": "H01C 1/014",
+          "title": {
+            "ko": "2개의 지지부분간에 달아매어지고 지지되고 있는 저항기(H01C 1/016이 우선)",
+            "en": "the resistor being suspended between, and being supported by, two supporting sections (H01C0001016000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 1/016",
+          "title": {
+            "ko": null,
+            "en": "with compensation for resistor expansion or contraction"
+          }
+        },
+        {
+          "code": "H01C 1/02",
+          "title": {
+            "ko": "용기; 둘레; 매설; 용기 또는 둘레의 충전",
+            "en": "Housing; Enclosing; Embedding; Filling the housing or enclosure"
+          }
+        },
+        {
+          "code": "H01C 1/022",
+          "title": {
+            "ko": null,
+            "en": "the housing or enclosure being openable or separable from the resistive element"
+          }
+        },
+        {
+          "code": "H01C 1/024",
+          "title": {
+            "ko": "기밀밀폐된 용기 또는 둘레(H01C 1/028, H01C 1/032, H01C 1/034가 우선)",
+            "en": "the housing or enclosure being hermetically sealed (H01C0001028000, H01C0001032000, H01C0001034000 take precedence)"
+          }
+        },
+        {
+          "code": "H01C 1/026",
+          "title": {
+            "ko": null,
+            "en": "with gaseous or vacuum spacing between the resistive element and the housing or casing"
+          }
+        },
+        {
+          "code": "H01C 1/028",
+          "title": {
+            "ko": null,
+            "en": "the resistive element being embedded in insulation with outer enclosing sheath"
+          }
+        },
+        {
+          "code": "H01C 1/03",
+          "title": {
+            "ko": null,
+            "en": "with powdered insulation"
+          }
+        },
+        {
+          "code": "H01C 1/032",
+          "title": {
+            "ko": "저항소자를 복수의 층에서 포위하는 것(H01C 1/028이 우선)",
+            "en": "plural layers surrounding the resistive element (H01C0001028000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 1/034",
+          "title": {
+            "ko": "외부외장이 없이 피복 또는 몰드(mold)해서 형성된 용기 또는 둘레(H01C 1/032가 우선)",
+            "en": "the housing or enclosure being formed as coating or mould without outer sheath (H01C0001032000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 1/036",
+          "title": {
+            "ko": null,
+            "en": "on wound resistive element"
+          }
+        },
+        {
+          "code": "H01C 1/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of distinguishing marks, e.g. colour coding"
+          }
+        },
+        {
+          "code": "H01C 1/06",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic or electromagnetic shielding arrangements"
+          }
+        },
+        {
+          "code": "H01C 1/08",
+          "title": {
+            "ko": null,
+            "en": "Cooling, heating or ventilating arrangements"
+          }
+        },
+        {
+          "code": "H01C 1/082",
+          "title": {
+            "ko": null,
+            "en": "using forced fluid flow"
+          }
+        },
+        {
+          "code": "H01C 1/084",
+          "title": {
+            "ko": null,
+            "en": "using self-cooling, e.g. fins, heat sinks"
+          }
+        },
+        {
+          "code": "H01C 1/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of current collectors"
+          }
+        },
+        {
+          "code": "H01C 1/125",
+          "title": {
+            "ko": null,
+            "en": "of fluid contacts"
+          }
+        },
+        {
+          "code": "H01C 1/14",
+          "title": {
+            "ko": "저항기를 위하여 특히 적용되는 단자 또는 탭포인트(tap point); 저항기상의 단자 또는 탭포인트의 배열",
+            "en": "Terminals or tapping points specially adapted for resistors; Arrangements of terminals or tapping points on resistors"
+          }
+        },
+        {
+          "code": "H01C 1/142",
+          "title": {
+            "ko": null,
+            "en": "the terminals or tapping points being coated on the resistive element"
+          }
+        },
+        {
+          "code": "H01C 1/144",
+          "title": {
+            "ko": null,
+            "en": "the terminals or tapping points being welded or soldered"
+          }
+        },
+        {
+          "code": "H01C 1/146",
+          "title": {
+            "ko": null,
+            "en": "the resistive element surrounding the terminal"
+          }
+        },
+        {
+          "code": "H01C 1/148",
+          "title": {
+            "ko": "저항소자를 포함 또는 둘러싸는 단자(H01C 1/142가 우선)",
+            "en": "the terminals embracing or surrounding the resistive element (H01C0001142000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 1/16",
+          "title": {
+            "ko": null,
+            "en": "Resistor networks not otherwise provided for"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01C 3/00",
+      "title": {
+        "ko": "와이어(wire) 또는 띠(ribbon)으로 만들어진 비조정 금속저항기, 예. 코일상, 편조상 또는 그리드 (grid)상으로 형성된 것",
+        "en": "Non-adjustable metal resistors made of wire or ribbon, e.g. coiled, woven, or formed as grids"
+      },
+      "subgroups": [
+        {
+          "code": "H01C 3/02",
+          "title": {
+            "ko": null,
+            "en": "arranged or constructed for reducing self-induction, capacitance, or variation with frequency"
+          }
+        },
+        {
+          "code": "H01C 3/04",
+          "title": {
+            "ko": null,
+            "en": "Iron-filament ballast resistors; Other resistors having variable temperature coefficient"
+          }
+        },
+        {
+          "code": "H01C 3/06",
+          "title": {
+            "ko": null,
+            "en": "Flexible or folding resistors, whereby such a resistor can be looped or collapsed upon itself"
+          }
+        },
+        {
+          "code": "H01C 3/08",
+          "title": {
+            "ko": null,
+            "en": "Dimension or characteristic of resistive element changing gradually or in discrete steps from one terminal to another"
+          }
+        },
+        {
+          "code": "H01C 3/10",
+          "title": {
+            "ko": null,
+            "en": "the resistive element having zig-zag or sinusoidal configuration"
+          }
+        },
+        {
+          "code": "H01C 3/12",
+          "title": {
+            "ko": null,
+            "en": "lying in one plane"
+          }
+        },
+        {
+          "code": "H01C 3/14",
+          "title": {
+            "ko": "2이상의 코일 또는 루프로서 연속적으로 감겨서 1개의 와권상, 나선상 또는 환상의 권선(코일)을 형성하는 저항소자(H01C 3/02~ H01C 3/12가 우선)",
+            "en": "the resistive element being formed in two or more coils or loops continuously wound as a spiral, helical, or toroidal winding (H01C0003020000-H01C0003120000 take precedence)"
+          }
+        },
+        {
+          "code": "H01C 3/16",
+          "title": {
+            "ko": null,
+            "en": "including two or more distinct wound elements, or two or more winding patterns"
+          }
+        },
+        {
+          "code": "H01C 3/18",
+          "title": {
+            "ko": "평탄한 또는 띠상의 기판상에 감겨진 것(H01C 3/16이 우선)",
+            "en": "wound on a flat or ribbon base (H01C0003160000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 3/20",
+          "title": {
+            "ko": "원통상 또는 각주상의 기판에 감겨진 것(H01C 3/16이 우선)",
+            "en": "wound on cylindrical or prismatic base (H01C0003160000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01C 7/00",
+      "title": {
+        "ko": "1 이상의 층 또는 코팅으로 형성된 비조정 저항기; 절연 물질이 있거나 없는 분말 전도성 재료 또는 분말 반도체 재료로 만들어진 비조정 저항기 (루즈한 분말 또는 과립 재료로 구성된 것 H01C8/00; 전위 장벽이 있는 저항기, 예. 전계 효과 저항기 H10D1/40 ~ H10D1/43, H10K10/10; 전자기 또는 입자 방사선에 민감한 반도체 소자, 예. 광저항기, H10F30/00; 자기장 제어 저항기 H10N50/10; 벌크 부성저항 효과 소자 H10N80/00)",
+        "en": "Non-adjustable resistors formed as one or more layers or coatings; Non-adjustable resistors made from powdered conducting material or powdered semi-conducting material with or without insulating material   (consisting of loose powdered or granular material H01C0008000000;  resistors having potential barriers, e.g. field-effect resistors, H10D0001400000-H10D0001430000, H10K0010100000;  semiconductor devices sensitive to electromagnetic or corpuscular radiation, e.g. photoresistors, H10F0030000000;  magnetic field controlled resistors H10N0050100000;  bulk negative resistance effect devices H10N0080000000)"
+      },
+      "definition": {
+        "ko": "그룹 H01C7/02 ~ H01C7/13은 그룹 H01C7/18 ~ H01C7/22에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H01C 7/02",
+          "title": {
+            "ko": null,
+            "en": "having positive temperature coefficient"
+          }
+        },
+        {
+          "code": "H01C 7/04",
+          "title": {
+            "ko": null,
+            "en": "having negative temperature coefficient"
+          }
+        },
+        {
+          "code": "H01C 7/06",
+          "title": {
+            "ko": null,
+            "en": "including means to minimise changes in resistance with changes in temperature"
+          }
+        },
+        {
+          "code": "H01C 7/10",
+          "title": {
+            "ko": "전압에 응답하는 것 즉, 배리스터",
+            "en": "voltage responsive, i.e. varistors"
+          }
+        },
+        {
+          "code": "H01C 7/102",
+          "title": {
+            "ko": "배리스터 경계 예. 표면층(H01C 7/12가 우선)",
+            "en": "Varistor boundary, e.g. surface layers (H01C0007120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 7/105",
+          "title": {
+            "ko": "배리스터 코어(H01C 7/12가 우선)",
+            "en": "Varistor cores (H01C0007120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 7/108",
+          "title": {
+            "ko": null,
+            "en": "Metal oxide"
+          }
+        },
+        {
+          "code": "H01C 7/112",
+          "title": {
+            "ko": null,
+            "en": "ZnO type"
+          }
+        },
+        {
+          "code": "H01C 7/115",
+          "title": {
+            "ko": null,
+            "en": "Titanium dioxide- or titanate type"
+          }
+        },
+        {
+          "code": "H01C 7/118",
+          "title": {
+            "ko": null,
+            "en": "Carbide, e.g. SiC type"
+          }
+        },
+        {
+          "code": "H01C 7/12",
+          "title": {
+            "ko": null,
+            "en": "Overvoltage protection resistors; Arresters"
+          }
+        },
+        {
+          "code": "H01C 7/13",
+          "title": {
+            "ko": null,
+            "en": "current-responsive"
+          }
+        },
+        {
+          "code": "H01C 7/18",
+          "title": {
+            "ko": null,
+            "en": "comprising a plurality of layers stacked between terminals"
+          }
+        },
+        {
+          "code": "H01C 7/20",
+          "title": {
+            "ko": null,
+            "en": "the resistive layer or coating being tapered"
+          }
+        },
+        {
+          "code": "H01C 7/22",
+          "title": {
+            "ko": null,
+            "en": "Elongated resistive element being bent or curved, e.g. sinusoidal, helical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01C 8/00",
+      "title": {
+        "ko": null,
+        "en": "Non-adjustable resistors consisting of loose powdered or granular conducting, or powdered or granular semi-conducting material"
+      },
+      "subgroups": [
+        {
+          "code": "H01C 8/02",
+          "title": {
+            "ko": null,
+            "en": "Coherers or like imperfect resistors for detecting electromagnetic waves"
+          }
+        },
+        {
+          "code": "H01C 8/04",
+          "title": {
+            "ko": null,
+            "en": "Overvoltage protection resistors; Arresters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01C 10/00",
+      "title": {
+        "ko": "가조정저항기",
+        "en": "Adjustable resistors"
+      },
+      "definition": {
+        "ko": "그룹 H01C10/02 ~ H01C10/26은 그룹 H01C10/28 ~ H01C10/50에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H01C 10/02",
+          "title": {
+            "ko": null,
+            "en": "Liquid resistors"
+          }
+        },
+        {
+          "code": "H01C 10/04",
+          "title": {
+            "ko": null,
+            "en": "with specified mathematical relationship between movement of resistor actuating means and value of resistance, other than direct proportional relationship"
+          }
+        },
+        {
+          "code": "H01C 10/06",
+          "title": {
+            "ko": null,
+            "en": "adjustable by short-circuiting different amounts of the resistive element"
+          }
+        },
+        {
+          "code": "H01C 10/08",
+          "title": {
+            "ko": null,
+            "en": "with intervening conducting structure between the resistive element and the short-circuiting means, e.g. taps"
+          }
+        },
+        {
+          "code": "H01C 10/10",
+          "title": {
+            "ko": null,
+            "en": "adjustable by mechanical pressure or force"
+          }
+        },
+        {
+          "code": "H01C 10/12",
+          "title": {
+            "ko": null,
+            "en": "by changing surface pressure between resistive masses or resistive and conductive masses, e.g. pile type"
+          }
+        },
+        {
+          "code": "H01C 10/14",
+          "title": {
+            "ko": null,
+            "en": "adjustable by auxiliary driving means"
+          }
+        },
+        {
+          "code": "H01C 10/16",
+          "title": {
+            "ko": null,
+            "en": "including plural resistive elements"
+          }
+        },
+        {
+          "code": "H01C 10/18",
+          "title": {
+            "ko": null,
+            "en": "including coarse and fine resistive elements"
+          }
+        },
+        {
+          "code": "H01C 10/20",
+          "title": {
+            "ko": null,
+            "en": "Contact structure or movable resistive elements being ganged"
+          }
+        },
+        {
+          "code": "H01C 10/22",
+          "title": {
+            "ko": "1방향의 크기가 점차로 변화하는 저항소자, 예. 체변저항소자(H01C 10/04가 우선)",
+            "en": "resistive-element dimensions changing gradually in one direction, e.g. tapered resistive element (H01C0010040000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 10/23",
+          "title": {
+            "ko": null,
+            "en": "resistive-element dimensions changing in a series of discrete, progressive steps"
+          }
+        },
+        {
+          "code": "H01C 10/24",
+          "title": {
+            "ko": null,
+            "en": "the contact moving along turns of a helical resistive element, or vice versa"
+          }
+        },
+        {
+          "code": "H01C 10/26",
+          "title": {
+            "ko": "저항소자가 이동하는 것(H01C 10/16, H01C 10/24가 우선)",
+            "en": "resistive element moving (H01C0010160000, H01C0010240000 take precedence)"
+          }
+        },
+        {
+          "code": "H01C 10/28",
+          "title": {
+            "ko": null,
+            "en": "the contact rocking or rolling along resistive element or taps"
+          }
+        },
+        {
+          "code": "H01C 10/30",
+          "title": {
+            "ko": "저항소자에 따라서 활동하는 접점",
+            "en": "the contact sliding along resistive element"
+          }
+        },
+        {
+          "code": "H01C 10/32",
+          "title": {
+            "ko": null,
+            "en": "the contact moving in an arcuate path"
+          }
+        },
+        {
+          "code": "H01C 10/34",
+          "title": {
+            "ko": null,
+            "en": "the contact or the associated conducting structure riding on collector formed as a ring or portion thereof"
+          }
+        },
+        {
+          "code": "H01C 10/36",
+          "title": {
+            "ko": null,
+            "en": "structurally combined with switching arrangements"
+          }
+        },
+        {
+          "code": "H01C 10/38",
+          "title": {
+            "ko": "직선상의 통로를 이동하는 접점",
+            "en": "the contact moving along a straight path"
+          }
+        },
+        {
+          "code": "H01C 10/40",
+          "title": {
+            "ko": null,
+            "en": "screw-operated"
+          }
+        },
+        {
+          "code": "H01C 10/42",
+          "title": {
+            "ko": null,
+            "en": "the contact bridging and sliding along resistive element and parallel conducting bar or collector"
+          }
+        },
+        {
+          "code": "H01C 10/44",
+          "title": {
+            "ko": "저항소자와 평행의 도체봉 또는 집전체에 따라 브리징 또는 활동하는 접점(H01C 10/42가 우선)",
+            "en": "the contact bridging and sliding along resistive element and parallel conducting bar or collector (H01C0010420000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01C 10/46",
+          "title": {
+            "ko": "접속자, 예. 탭을 중간에 지니는 고정저항기의 배열(H01C 10/28, H01C 10/30이 우선)",
+            "en": "Arrangements of fixed resistors with intervening connectors, e.g. taps (H01C0010280000, H01C0010300000 take precedence)"
+          }
+        },
+        {
+          "code": "H01C 10/48",
+          "title": {
+            "ko": null,
+            "en": "including contact movable in an arcuate path"
+          }
+        },
+        {
+          "code": "H01C 10/50",
+          "title": {
+            "ko": "구조적으로 스위치 장치와 결합되는 것 (H01C 10/36이 우선)",
+            "en": "structurally combined with switching arrangement (H01C0010360000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01C 11/00",
+      "title": {
+        "ko": null,
+        "en": "Non-adjustable liquid resistors"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01C 13/00",
+      "title": {
+        "ko": null,
+        "en": "Resistors not provided for elsewhere"
+      },
+      "subgroups": [
+        {
+          "code": "H01C 13/02",
+          "title": {
+            "ko": null,
+            "en": "Structural combinations of resistors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01C 17/00",
+      "title": {
+        "ko": "저항기를 제조하기 위하여 특히 적용되는 장치 또는 방법(용기 또는 둘레에 충전물을 공급하는 것 H01C 1/02; 저항체를 둘러싸는 절연물을 분말로 변하게 하는 것, H01C 1/03; 열가변저항기의 제조 H01C 7/02, H01C 7/04)",
+        "en": "Apparatus or processes specially adapted for manufacturing resistors (providing fillings for housings or enclosures H01C0001020000;reducing insulation surrounding a resistor to powder H01C0001030000;manufacture of thermally variable resistors H01C0007020000, H01C0007040000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01C 17/02",
+          "title": {
+            "ko": "외피 또는 용기의 어느 저항기 제조에 적용 되는 것(가열소자 튜브에 절연재료를 적층 또는 압축하기 위한 장치 또는 공정 H05B 3/52)",
+            "en": "adapted for manufacturing resistors with envelope or housing (apparatus or processes for filling or compressing insulating material in heating element tubes H05B0003520000)"
+          }
+        },
+        {
+          "code": "H01C 17/04",
+          "title": {
+            "ko": null,
+            "en": "adapted for winding the resistive element"
+          }
+        },
+        {
+          "code": "H01C 17/06",
+          "title": {
+            "ko": null,
+            "en": "adapted for coating resistive material on a base"
+          }
+        },
+        {
+          "code": "H01C 17/065",
+          "title": {
+            "ko": null,
+            "en": "by thick-film techniques, e.g. serigraphy"
+          }
+        },
+        {
+          "code": "H01C 17/07",
+          "title": {
+            "ko": null,
+            "en": "by resistor foil bonding, e.g. cladding"
+          }
+        },
+        {
+          "code": "H01C 17/075",
+          "title": {
+            "ko": null,
+            "en": "by thin-film techniques"
+          }
+        },
+        {
+          "code": "H01C 17/08",
+          "title": {
+            "ko": null,
+            "en": "by vapour deposition"
+          }
+        },
+        {
+          "code": "H01C 17/10",
+          "title": {
+            "ko": null,
+            "en": "by flame spraying"
+          }
+        },
+        {
+          "code": "H01C 17/12",
+          "title": {
+            "ko": null,
+            "en": "by sputtering"
+          }
+        },
+        {
+          "code": "H01C 17/14",
+          "title": {
+            "ko": null,
+            "en": "by chemical deposition"
+          }
+        },
+        {
+          "code": "H01C 17/16",
+          "title": {
+            "ko": null,
+            "en": "using electric current"
+          }
+        },
+        {
+          "code": "H01C 17/18",
+          "title": {
+            "ko": null,
+            "en": "without using electric current"
+          }
+        },
+        {
+          "code": "H01C 17/20",
+          "title": {
+            "ko": null,
+            "en": "by pyrolytic processes"
+          }
+        },
+        {
+          "code": "H01C 17/22",
+          "title": {
+            "ko": "트리밍(trimming)에 의한 것",
+            "en": "adapted for trimming"
+          }
+        },
+        {
+          "code": "H01C 17/23",
+          "title": {
+            "ko": null,
+            "en": "by opening or closing resistor tracks of predetermined resistive values"
+          }
+        },
+        {
+          "code": "H01C 17/232",
+          "title": {
+            "ko": null,
+            "en": "Adjusting the temperature coefficient; Adjusting value of resistance by adjusting temperature coefficient"
+          }
+        },
+        {
+          "code": "H01C 17/235",
+          "title": {
+            "ko": null,
+            "en": "Initial adjustment of potentiometer parts for calibration"
+          }
+        },
+        {
+          "code": "H01C 17/24",
+          "title": {
+            "ko": "저항물질의 제거 또는 부가에 의한 것(H01C 17/23, H01C 17/232, H01C 17/235가 우선)",
+            "en": "by removing or adding resistive material (H01C0017230000, H01C0017232000, H01C0017235000 take precedence)"
+          }
+        },
+        {
+          "code": "H01C 17/242",
+          "title": {
+            "ko": null,
+            "en": "by laser"
+          }
+        },
+        {
+          "code": "H01C 17/245",
+          "title": {
+            "ko": null,
+            "en": "by mechanical means, e.g. sand-blasting, cutting or ultrasonic treatment"
+          }
+        },
+        {
+          "code": "H01C 17/26",
+          "title": {
+            "ko": null,
+            "en": "by converting resistive material"
+          }
+        },
+        {
+          "code": "H01C 17/28",
+          "title": {
+            "ko": null,
+            "en": "adapted for applying terminals"
+          }
+        },
+        {
+          "code": "H01C 17/30",
+          "title": {
+            "ko": null,
+            "en": "adapted for baking"
+          }
+        }
+      ]
+    }
+  ]
+}

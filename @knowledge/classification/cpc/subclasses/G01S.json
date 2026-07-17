@@ -1,0 +1,444 @@
+{
+  "subclass": "G01S",
+  "title": {
+    "ko": null,
+    "en": "RADIO DIRECTION-FINDING; RADIO NAVIGATION; DETERMINING DISTANCE OR VELOCITY BY USE OF RADIO WAVES; LOCATING OR PRESENCE-DETECTING BY USE OF THE REFLECTION OR RERADIATION OF RADIO WAVES; ANALOGOUS ARRANGEMENTS USING OTHER WAVES"
+  },
+  "groups": [
+    {
+      "code": "G01S 1/00",
+      "title": {
+        "ko": null,
+        "en": "Beacons or beacon systems transmitting signals having a characteristic or characteristics capable of being detected by non-directional receivers and defining directions, positions, or position lines fixed relatively to the beacon transmitters; Receivers co-operating therewith (position fixing by co-ordinating a plurality of determinations of direction or position lines G01S5/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 1/02",
+          "title": {
+            "ko": null,
+            "en": "using radio waves (G01S19/00 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 1/70",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 1/72",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 3/00",
+      "title": {
+        "ko": null,
+        "en": "Direction-finders for determining the direction from which infrasonic, sonic, ultrasonic or electromagnetic waves, or particle emission, not having a directional significance, are being received (position-fixing by co-ordinating a plurality of determinations of direction or position lines G01S5/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 3/02",
+          "title": {
+            "ko": null,
+            "en": "using radio waves"
+          }
+        },
+        {
+          "code": "G01S 3/78",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 3/80",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 5/00",
+      "title": {
+        "ko": null,
+        "en": "Position-fixing by co-ordinating two or more direction or position line determinations; Position-fixing by co-ordinating two or more distance determinations {(using active systems G01S13/00, G01S15/00, G01S17/00)}"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 5/0009",
+          "title": {
+            "ko": null,
+            "en": "{Transmission of position information to remote stations (involving assistance data G01S5/0236)}"
+          }
+        },
+        {
+          "code": "G01S 5/01",
+          "title": {
+            "ko": null,
+            "en": "{Determining conditions which influence positioning, e.g. radio environment, state of motion or energy consumption}"
+          }
+        },
+        {
+          "code": "G01S 5/02",
+          "title": {
+            "ko": null,
+            "en": "using radio waves (using satellite radio beacon systems for determining position G01S19/00)"
+          }
+        },
+        {
+          "code": "G01S 5/16",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 5/18",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 7/00",
+      "title": {
+        "ko": null,
+        "en": "Details of systems according to groups G01S13/00, G01S15/00, G01S17/00"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 7/003",
+          "title": {
+            "ko": null,
+            "en": "{Transmission of data between radar, sonar or lidar systems and remote stations}"
+          }
+        },
+        {
+          "code": "G01S 7/02",
+          "title": {
+            "ko": null,
+            "en": "of systems according to group G01S13/00"
+          }
+        },
+        {
+          "code": "G01S 7/48",
+          "title": {
+            "ko": null,
+            "en": "of systems according to group G01S17/00"
+          }
+        },
+        {
+          "code": "G01S 7/52",
+          "title": {
+            "ko": null,
+            "en": "of systems according to group G01S15/00"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 11/00",
+      "title": {
+        "ko": null,
+        "en": "Systems for determining distance or velocity not using reflection or reradiation (position-fixing by co-ordinating two or more distance determinations G01S5/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 11/02",
+          "title": {
+            "ko": null,
+            "en": "using radio waves (G01S19/00 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 11/12",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 11/14",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        },
+        {
+          "code": "G01S 11/16",
+          "title": {
+            "ko": null,
+            "en": "using difference in transit time between electrical and acoustic signals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 13/00",
+      "title": {
+        "ko": null,
+        "en": "Systems using the reflection or reradiation of radio waves, e.g. radar systems; Analogous systems using reflection or reradiation of waves whose nature or wavelength is irrelevant or unspecified"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 13/003",
+          "title": {
+            "ko": null,
+            "en": "{Bistatic radar systems; Multistatic radar systems}"
+          }
+        },
+        {
+          "code": "G01S 13/006",
+          "title": {
+            "ko": null,
+            "en": "{Theoretical aspects (G01S7/418, G01S13/9094, G01S13/958 take precedence)}"
+          }
+        },
+        {
+          "code": "G01S 13/02",
+          "title": {
+            "ko": null,
+            "en": "Systems using reflection of radio waves, e.g. primary radar systems; Analogous systems"
+          }
+        },
+        {
+          "code": "G01S 13/66",
+          "title": {
+            "ko": null,
+            "en": "Radar-tracking systems; Analogous systems"
+          }
+        },
+        {
+          "code": "G01S 13/74",
+          "title": {
+            "ko": null,
+            "en": "Systems using reradiation of radio waves, e.g. secondary radar systems; Analogous systems"
+          }
+        },
+        {
+          "code": "G01S 13/86",
+          "title": {
+            "ko": null,
+            "en": "Combinations of radar systems with non-radar systems, e.g. sonar, direction finder"
+          }
+        },
+        {
+          "code": "G01S 13/87",
+          "title": {
+            "ko": null,
+            "en": "Combinations of radar systems, e.g. primary radar and secondary radar"
+          }
+        },
+        {
+          "code": "G01S 13/88",
+          "title": {
+            "ko": null,
+            "en": "Radar or analogous systems specially adapted for specific applications (electromagnetic prospecting or detecting of objects, e.g. near-field detection, G01V3/00)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 15/00",
+      "title": {
+        "ko": null,
+        "en": "Systems using the reflection or reradiation of acoustic waves, e.g. sonar systems"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 15/003",
+          "title": {
+            "ko": null,
+            "en": "{Bistatic sonar systems; Multistatic sonar systems}"
+          }
+        },
+        {
+          "code": "G01S 15/006",
+          "title": {
+            "ko": null,
+            "en": "{Theoretical aspects}"
+          }
+        },
+        {
+          "code": "G01S 15/02",
+          "title": {
+            "ko": null,
+            "en": "using reflection of acoustic waves (G01S15/66 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 15/66",
+          "title": {
+            "ko": null,
+            "en": "Sonar tracking systems"
+          }
+        },
+        {
+          "code": "G01S 15/74",
+          "title": {
+            "ko": null,
+            "en": "Systems using reradiation of acoustic waves, e.g. IFF, i.e. identification of friend or foe"
+          }
+        },
+        {
+          "code": "G01S 15/86",
+          "title": {
+            "ko": null,
+            "en": "Combinations of sonar systems with lidar systems; Combinations of sonar systems with systems not using wave reflection"
+          }
+        },
+        {
+          "code": "G01S 15/87",
+          "title": {
+            "ko": null,
+            "en": "Combinations of sonar systems"
+          }
+        },
+        {
+          "code": "G01S 15/88",
+          "title": {
+            "ko": null,
+            "en": "Sonar systems specially adapted for specific applications (seismic or acoustic prospecting or detecting G01V1/00)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 17/00",
+      "title": {
+        "ko": null,
+        "en": "Systems using the reflection or reradiation of electromagnetic waves other than radio waves, e.g. lidar systems"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 17/003",
+          "title": {
+            "ko": null,
+            "en": "{Bistatic lidar systems; Multistatic lidar systems}"
+          }
+        },
+        {
+          "code": "G01S 17/006",
+          "title": {
+            "ko": null,
+            "en": "{Theoretical aspects}"
+          }
+        },
+        {
+          "code": "G01S 17/02",
+          "title": {
+            "ko": null,
+            "en": "Systems using the reflection of electromagnetic waves other than radio waves (G01S17/66 takes precedence)"
+          }
+        },
+        {
+          "code": "G01S 17/66",
+          "title": {
+            "ko": null,
+            "en": "Tracking systems using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 17/74",
+          "title": {
+            "ko": null,
+            "en": "Systems using reradiation of electromagnetic waves other than radio waves, e.g. IFF, i.e. identification of friend or foe"
+          }
+        },
+        {
+          "code": "G01S 17/86",
+          "title": {
+            "ko": null,
+            "en": "Combinations of lidar systems with systems other than lidar, radar or sonar, e.g. with direction finders"
+          }
+        },
+        {
+          "code": "G01S 17/87",
+          "title": {
+            "ko": null,
+            "en": "Combinations of systems using electromagnetic waves other than radio waves"
+          }
+        },
+        {
+          "code": "G01S 17/88",
+          "title": {
+            "ko": null,
+            "en": "Lidar systems specially adapted for specific applications"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 19/00",
+      "title": {
+        "ko": null,
+        "en": "Satellite radio beacon positioning systems; Determining position, velocity or attitude using signals transmitted by such systems"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 19/01",
+          "title": {
+            "ko": null,
+            "en": "Satellite radio beacon positioning systems transmitting time-stamped messages, e.g. GPS [Global Positioning System], GLONASS [Global Orbiting Navigation Satellite System] or GALILEO"
+          }
+        },
+        {
+          "code": "G01S 19/38",
+          "title": {
+            "ko": null,
+            "en": "Determining a navigation solution using signals transmitted by a satellite radio beacon positioning system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to beacons or beacon systems transmitting signals capable of being detected by non-directional receivers and defining directions, positions, or position lines fixed relatively to the beacon transmitters"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 2201/01",
+          "title": {
+            "ko": null,
+            "en": "adapted for specific applications or environments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01S 2205/00",
+      "title": {
+        "ko": null,
+        "en": "Position-fixing by co-ordinating two or more direction or position line determinations; Position-fixing by co-ordinating two or more distance determinations"
+      },
+      "subgroups": [
+        {
+          "code": "G01S 2205/001",
+          "title": {
+            "ko": null,
+            "en": "Transmission of position information to remote stations"
+          }
+        },
+        {
+          "code": "G01S 2205/01",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for specific applications"
+          }
+        }
+      ]
+    }
+  ]
+}

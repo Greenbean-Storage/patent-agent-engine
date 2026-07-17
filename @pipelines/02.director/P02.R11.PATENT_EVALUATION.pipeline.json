@@ -1,0 +1,51 @@
+{
+  "description": "director(02번) 등록가능성 종합 평가 서브 파이프라인. Claude가 finder MCP 도구를 agentic tool-use 루프로 호출해 신규성·진보성을 평가하고 출원 전략을 수립한다. research 재사용 또는 신규 탐색을 staleness 기반으로 판단.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [],
+      [
+        "P03.R00.PRIOR_ART_SEARCH_ANALYZE"
+      ],
+      [
+        "P03.R11.EVALUATE_NOVELTY"
+      ],
+      [
+        "P04.R02.VERIFY_CLAIM_LOGIC"
+      ],
+      [
+        "P02.R11.PATENT_EVALUATION"
+      ]
+    ],
+    "max_self_recursion": 3
+  },
+  "steps": [
+    {
+      "description": "IOM + research + completeness 를 종합하여 평가용 컨텍스트 압축. agentic_evaluation_loop 의 입력 정제.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R11/compress_context.md"
+      },
+      "llm_tools": [],
+      "output_contract": "prepare-evaluation-context-output"
+    },
+    {
+      "description": "Claude Opus 가 도구 호출(finder.evaluate_novelty, thinker.verify_claim_logic 등)을 반복하며 patentability_score / overall_grade / filing_recommendation 도출. agentic 루프.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R11/evaluate_loop.md"
+      },
+      "llm_tools": [],
+      "output_contract": "agentic-evaluation-loop-output"
+    }
+  ]
+}

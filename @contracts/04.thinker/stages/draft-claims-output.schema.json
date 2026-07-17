@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "claims": {
+      "type": "array"
+    },
+    "drafting_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "claims",
+    "drafting_notes"
+  ]
+}

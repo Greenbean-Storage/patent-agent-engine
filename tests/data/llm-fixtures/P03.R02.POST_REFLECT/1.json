@@ -1,0 +1,61 @@
+{
+  "claim_elements": [
+    {
+      "element": "NTC 서미스터를 이용한 음료 온도 측정",
+      "prior_art_match": "10-2018-0123456",
+      "match_title": "온도 표시 기능을 갖는 스마트 텀블러",
+      "similarity": "유사",
+      "matched_specifics": "NTC 서미스터 1개 + 4-bit LCD 디스플레이 (본 발명: NTC + RGB LED)",
+      "differentiation": "본 발명의 NTC 서미스터는 비선형 응답 곡선 보정 알고리즘과 결합되어 ±0.5°C 정확도를 명시하나, 선행기술은 보정 미명시 (±2°C 수준). 청구항에서 '비선형 보정' 한정으로 차별화 가능."
+    },
+    {
+      "element": "MCU 기반 온도-색상 매핑 알고리즘 (3-구간 임계값 분기)",
+      "prior_art_match": "10-2020-0987654",
+      "match_title": "RGB LED 기반 색상 제어 시스템",
+      "similarity": "유사",
+      "matched_specifics": "환경 센서 입력 → RGB LED 색상 가변 (본 발명: 음료 온도 → RGB LED). 매핑 방식이 동일한 3-구간 임계값 분기.",
+      "differentiation": "선행기술은 일반 조명용으로 음료 용기 응용이 없음. 청구항 1 을 '음료 용기 내 측정 온도' 로 한정하면 신규성 확보 가능. 또는 매핑 함수를 sigmoid 비선형으로 종속항에 한정."
+    },
+    {
+      "element": "RGB LED 3개를 이용한 색상 가변 발광부 (PWM 제어)",
+      "prior_art_match": "10-2017-0089234",
+      "match_title": "RGB LED 컨트롤러 회로",
+      "similarity": "동일",
+      "matched_specifics": "RGB LED 채널별 PWM 제어 회로 (본 발명과 회로 구성 동일).",
+      "differentiation": "회로 자체는 주지관용 — 음료 용기 적용이 응용 발명의 핵심. 단순 회로 한정은 진보성 부정 가능. 응용 (음료 온도 ↔ LED) 측면을 강조해야."
+    },
+    {
+      "element": "500ml 트라이탄 소재 음료 용기 본체",
+      "prior_art_match": "10-2016-0069447",
+      "match_title": "엘이디가 구비된 음료용기",
+      "similarity": "유사",
+      "matched_specifics": "트라이탄 소재 음료 용기 + LED 부착 (본 발명과 소재/형태 동일).",
+      "differentiation": "용기 본체 자체는 차별점 없음. 청구항에서 '본체' 는 광범위 한정으로 두고, 온도-LED 연동을 핵심으로."
+    },
+    {
+      "element": "USB-C 충전식 리튬이온 배터리 전원부",
+      "prior_art_match": "10-2021-0045678",
+      "match_title": "스마트 머그컵 및 그 제어 방법",
+      "similarity": "동일",
+      "matched_specifics": "USB-C 충전 + 리튬이온 배터리 내장 음료 용기 (본 발명과 동일).",
+      "differentiation": "전원부는 주지관용 — 청구항에서 부수적 한정으로만 사용. 핵심은 아님."
+    },
+    {
+      "element": "온도 센서 ↔ MCU ↔ RGB LED 의 시각 표시 신호 흐름 (closed-loop)",
+      "prior_art_match": "10-2022-0112233",
+      "match_title": "온도 감응형 변색 텀블러",
+      "similarity": "유사",
+      "matched_specifics": "온도 ↔ 색상 변경 흐름은 동일. 다만 선행기술은 무효 심결 진행 중 (청구항 광범위 사유).",
+      "differentiation": "선행기술의 청구항이 무효 가능성이 높아 침해 위험 낮음. 본 발명은 '비선형 매핑 함수' + '3-구간 임계값' 으로 구체화하여 무효 회피."
+    }
+  ],
+  "overall_novelty": "중간",
+  "novelty_rationale": "6개 element 중 1개 '상이' 없음 (모두 일부 매칭) — 단일 element 만 보면 신규성 약함. 그러나 'NTC 비선형 보정 + sigmoid 3-구간 매핑 + 음료 용기 응용' 의 결합 자체는 어디에도 없음. 결합 발명으로서 진보성 쟁점.",
+  "differentiation_points": [
+    "NTC 서미스터의 비선형 응답 곡선 보정 알고리즘 (±0.5°C 정확도)",
+    "온도-색상 매핑의 3-구간 임계값 분기 + sigmoid 보간 (선행 단순 임계값과 차별)",
+    "음료 용기 내 폐쇄 회로 (closed-loop) 로서의 실시간 응답 (1초 이내 색상 갱신)",
+    "트라이탄 본체 내장형 회로 (외장형 컵홀더와 차별)"
+  ],
+  "chart_notes": "ctx.context_manager.invention_object_model.claims 가 빈 상태이므로 본 step 의 claim_elements 는 technical_elements 기반으로 도출. claims_with_numerals (thinker W04.R11) 가 본 결과를 청구항 초안으로 재구성할 예정. 보수적 판단 — '동일' 2건 (RGB LED 회로 / USB-C 전원) 은 청구항 핵심 한정에서 배제 권장."
+}

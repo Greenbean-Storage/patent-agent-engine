@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "drawings_with_numerals": {
+      "type": "array"
+    },
+    "all_numerals": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "checks": {
+      "type": "string"
+    },
+    "needs_revision": {
+      "type": "boolean"
+    },
+    "revision_comment": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "drawings_with_numerals",
+    "all_numerals",
+    "checks",
+    "needs_revision",
+    "revision_comment"
+  ]
+}

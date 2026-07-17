@@ -1,0 +1,989 @@
+{
+  "subclass": "C02F",
+  "title": {
+    "ko": "물, 폐수, 하수 또는 오니(슬러지)의 처리(물질에서 화학적인 변화에 영향을 줌으로써 무해하거나 덜 유해한 해로운 화학물질을 만들기 위한 처리 A62D 3/00; 분리, 정화 탱크 또는 필터 장치 B01D; 물, 폐수 또는 하수를 처리하는 수송선박의 세부장치 예 담수생산 B63J; 부식방지 물질의 첨가 C23F; 방사성 오염액의 처리 G21F 9/04)",
+    "en": "TREATMENT OF WATER, WASTE WATER, SEWAGE, OR SLUDGE (processes for making harmful chemical substances harmless, or less harmful, by effecting a chemical change in the substances A62D0003000000;separation, settling tanks or filter devices  B01D;special arrangements on waterborne vessels of installations for treating water, waste water or sewage, e.g. for producing fresh water, B63J;adding materials to water to prevent corrosion C23F;treating radioactively-contaminated liquids G21F0009040000)"
+  },
+  "definition": {
+    "ko": "화학적 또는 물리적 처리 C02F1/00, C02F5/00 생물학적 처리 C02F3/00 수면 폭기 C02F7/00 다단계 처리 C02F9/00 슬러지 처리 C02F11/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "C02F 1/00",
+      "title": {
+        "ko": "물, 폐수 또는 하수의 처리 (C02F3/00 ~ C02F9/00이 우선)",
+        "en": "Treatment of water, waste water, or sewage (C02F0003000000-C02F0009000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "C02F 1/02",
+          "title": {
+            "ko": null,
+            "en": "by heating"
+          }
+        },
+        {
+          "code": "C02F 1/04",
+          "title": {
+            "ko": null,
+            "en": "by distillation or evaporation"
+          }
+        },
+        {
+          "code": "C02F 1/06",
+          "title": {
+            "ko": null,
+            "en": "Flash evaporation"
+          }
+        },
+        {
+          "code": "C02F 1/08",
+          "title": {
+            "ko": null,
+            "en": "Thin film evaporation"
+          }
+        },
+        {
+          "code": "C02F 1/10",
+          "title": {
+            "ko": null,
+            "en": "by direct contact with a particulate solid or with a fluid, as a heat transfer medium"
+          }
+        },
+        {
+          "code": "C02F 1/12",
+          "title": {
+            "ko": null,
+            "en": "Spray evaporation"
+          }
+        },
+        {
+          "code": "C02F 1/14",
+          "title": {
+            "ko": null,
+            "en": "using solar energy"
+          }
+        },
+        {
+          "code": "C02F 1/16",
+          "title": {
+            "ko": null,
+            "en": "using waste heat from other processes"
+          }
+        },
+        {
+          "code": "C02F 1/18",
+          "title": {
+            "ko": null,
+            "en": "Transportable devices to obtain potable water"
+          }
+        },
+        {
+          "code": "C02F 1/20",
+          "title": {
+            "ko": null,
+            "en": "by degassing, i.e. liberation of dissolved gases"
+          }
+        },
+        {
+          "code": "C02F 1/22",
+          "title": {
+            "ko": null,
+            "en": "by freezing"
+          }
+        },
+        {
+          "code": "C02F 1/24",
+          "title": {
+            "ko": "부상(flotation)에 의한 것 (C02F1/465가 우선)",
+            "en": "by flotation (C02F0001465000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 1/26",
+          "title": {
+            "ko": null,
+            "en": "by extraction"
+          }
+        },
+        {
+          "code": "C02F 1/28",
+          "title": {
+            "ko": "흡착에 의한 것 (이온 교환에 의한 것 C02F1/42; 흡착제 조성물 B01J)",
+            "en": "by sorption (using ion-exchange C02F0001420000;sorbent compositions B01J)"
+          }
+        },
+        {
+          "code": "C02F 1/30",
+          "title": {
+            "ko": null,
+            "en": "by irradiation"
+          }
+        },
+        {
+          "code": "C02F 1/32",
+          "title": {
+            "ko": null,
+            "en": "with ultraviolet light"
+          }
+        },
+        {
+          "code": "C02F 1/34",
+          "title": {
+            "ko": null,
+            "en": "with mechanical oscillations"
+          }
+        },
+        {
+          "code": "C02F 1/36",
+          "title": {
+            "ko": null,
+            "en": "ultrasonic vibrations"
+          }
+        },
+        {
+          "code": "C02F 1/38",
+          "title": {
+            "ko": null,
+            "en": "by centrifugal separation"
+          }
+        },
+        {
+          "code": "C02F 1/40",
+          "title": {
+            "ko": "지방, 유상 물질(oily substance) 또는 이와 유사한 부유 물질을 분리 또는 제거하는 장치 (개방 수면의 기름 또는 그 유사물의 청소 또는 청결 유지 E02B15/04; 하수로부터 액체 또는 고체 물질을 분리하기 위한 하수관에 설치하는 장치 E03F5/14)",
+            "en": "Devices for separating or removing fatty or oily substances or similar floating material (cleaning or keeping clear the surface of open water from oil or like materials E02B0015040000;devices in sewers for separating liquid or solid substances from sewage E03F0005140000)"
+          }
+        },
+        {
+          "code": "C02F 1/42",
+          "title": {
+            "ko": null,
+            "en": "by ion-exchange"
+          }
+        },
+        {
+          "code": "C02F 1/44",
+          "title": {
+            "ko": null,
+            "en": "by dialysis, osmosis or reverse osmosis"
+          }
+        },
+        {
+          "code": "C02F 1/46",
+          "title": {
+            "ko": null,
+            "en": "by electrochemical methods"
+          }
+        },
+        {
+          "code": "C02F 1/461",
+          "title": {
+            "ko": null,
+            "en": "by electrolysis"
+          }
+        },
+        {
+          "code": "C02F 1/463",
+          "title": {
+            "ko": null,
+            "en": "by electrocoagulation"
+          }
+        },
+        {
+          "code": "C02F 1/465",
+          "title": {
+            "ko": null,
+            "en": "by electroflotation"
+          }
+        },
+        {
+          "code": "C02F 1/467",
+          "title": {
+            "ko": null,
+            "en": "by electrochemical disinfection"
+          }
+        },
+        {
+          "code": "C02F 1/469",
+          "title": {
+            "ko": null,
+            "en": "by electrochemical separation, e.g. by electro-osmosis, electrodialysis, electrophoresis"
+          }
+        },
+        {
+          "code": "C02F 1/48",
+          "title": {
+            "ko": "자기장 또는 전기장에 의한 것 (C02F1/46이 우선)",
+            "en": "with magnetic or electric fields (C02F0001460000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 1/50",
+          "title": {
+            "ko": "살균제의 첨가 또는 적용에 의한 것 또는 올리고다이나믹 처리(oligodynamic treatment)에 의한 것 (C02F 1/467이 우선)",
+            "en": "by addition or application of a germicide or by oligodynamic treatment (C02F0001467000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 1/52",
+          "title": {
+            "ko": null,
+            "en": "by flocculation or precipitation of suspended impurities"
+          }
+        },
+        {
+          "code": "C02F 1/54",
+          "title": {
+            "ko": null,
+            "en": "using organic material"
+          }
+        },
+        {
+          "code": "C02F 1/56",
+          "title": {
+            "ko": null,
+            "en": "Macromolecular compounds"
+          }
+        },
+        {
+          "code": "C02F 1/58",
+          "title": {
+            "ko": "특정 용존 화합물의 제거에 의한 것 (이온 교환에 의한 것 C02F1/42; 물의 연화(軟化) C02F5/00)",
+            "en": "by removing specified dissolved compounds (using ion-exchange C02F0001420000;softening water C02F0005000000)"
+          }
+        },
+        {
+          "code": "C02F 1/60",
+          "title": {
+            "ko": null,
+            "en": "Silicon compounds"
+          }
+        },
+        {
+          "code": "C02F 1/62",
+          "title": {
+            "ko": null,
+            "en": "Heavy metal compounds"
+          }
+        },
+        {
+          "code": "C02F 1/64",
+          "title": {
+            "ko": null,
+            "en": "of iron or manganese"
+          }
+        },
+        {
+          "code": "C02F 1/66",
+          "title": {
+            "ko": "중화에 의한 것; pH 조정 (탈기(degassing)를 위한 것 C02F1/20; 이온교환에 의한 것 C02F1/42; 현탁 불순물의 응집 또는 침전을 위한 것 C02F1/52; 용존화합물의 제거를 위한 것 C02F1/58)",
+            "en": "by neutralisation; pH adjustment (for degassing C02F0001200000;using ion-exchange C02F0001420000;for flocculation or precipitation of suspended impurities C02F0001520000;for removing dissolved compounds C02F0001580000)"
+          }
+        },
+        {
+          "code": "C02F 1/68",
+          "title": {
+            "ko": null,
+            "en": "by addition of specified substances, e.g. trace elements, for ameliorating potable water"
+          }
+        },
+        {
+          "code": "C02F 1/70",
+          "title": {
+            "ko": null,
+            "en": "by reduction"
+          }
+        },
+        {
+          "code": "C02F 1/72",
+          "title": {
+            "ko": "산화에 의한 것",
+            "en": "by oxidation"
+          }
+        },
+        {
+          "code": "C02F 1/74",
+          "title": {
+            "ko": "공기에 의한 것 (수면의 폭기(aeration) C02F7/00)",
+            "en": "with air (aeration of stretches of water C02F0007000000)"
+          }
+        },
+        {
+          "code": "C02F 1/76",
+          "title": {
+            "ko": null,
+            "en": "with halogens or compounds of halogens"
+          }
+        },
+        {
+          "code": "C02F 1/78",
+          "title": {
+            "ko": null,
+            "en": "with ozone"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C02F 3/00",
+      "title": {
+        "ko": null,
+        "en": "Biological treatment of water, waste water, or sewage"
+      },
+      "subgroups": [
+        {
+          "code": "C02F 3/02",
+          "title": {
+            "ko": null,
+            "en": "Aerobic processes"
+          }
+        },
+        {
+          "code": "C02F 3/04",
+          "title": {
+            "ko": null,
+            "en": "using trickle filters"
+          }
+        },
+        {
+          "code": "C02F 3/06",
+          "title": {
+            "ko": null,
+            "en": "using submerged filters"
+          }
+        },
+        {
+          "code": "C02F 3/08",
+          "title": {
+            "ko": null,
+            "en": "using moving contact bodies"
+          }
+        },
+        {
+          "code": "C02F 3/10",
+          "title": {
+            "ko": null,
+            "en": "Packings; Fillings; Grids"
+          }
+        },
+        {
+          "code": "C02F 3/12",
+          "title": {
+            "ko": null,
+            "en": "Activated sludge processes"
+          }
+        },
+        {
+          "code": "C02F 3/14",
+          "title": {
+            "ko": null,
+            "en": "using surface aeration"
+          }
+        },
+        {
+          "code": "C02F 3/16",
+          "title": {
+            "ko": null,
+            "en": "the aerator having a vertical axis"
+          }
+        },
+        {
+          "code": "C02F 3/18",
+          "title": {
+            "ko": null,
+            "en": "the aerator having a horizontal axis"
+          }
+        },
+        {
+          "code": "C02F 3/20",
+          "title": {
+            "ko": null,
+            "en": "using diffusers"
+          }
+        },
+        {
+          "code": "C02F 3/22",
+          "title": {
+            "ko": null,
+            "en": "using circulation pipes"
+          }
+        },
+        {
+          "code": "C02F 3/24",
+          "title": {
+            "ko": null,
+            "en": "using free-fall aeration or spraying"
+          }
+        },
+        {
+          "code": "C02F 3/26",
+          "title": {
+            "ko": null,
+            "en": "using pure oxygen or oxygen-rich gas"
+          }
+        },
+        {
+          "code": "C02F 3/28",
+          "title": {
+            "ko": null,
+            "en": "Anaerobic digestion processes"
+          }
+        },
+        {
+          "code": "C02F 3/30",
+          "title": {
+            "ko": null,
+            "en": "Aerobic and anaerobic processes"
+          }
+        },
+        {
+          "code": "C02F 3/32",
+          "title": {
+            "ko": null,
+            "en": "characterised by the animals or plants used, e.g. algae"
+          }
+        },
+        {
+          "code": "C02F 3/34",
+          "title": {
+            "ko": null,
+            "en": "characterised by the microorganisms used"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C02F 5/00",
+      "title": {
+        "ko": "물의 연화(軟化); 스케일의 방지; 스케일 방지제 또는 스케일 제거제의 물에 대한 첨가, 예. 격리제(sequestering agent)의 첨가 (이온 교환에 의한 연화 (軟化) C02F1/42)",
+        "en": "Softening water; Preventing scale; Adding scale preventatives or scale removers to water, e.g. adding sequestering agents (softening using ion-exchange C02F0001420000)"
+      },
+      "subgroups": [
+        {
+          "code": "C02F 5/02",
+          "title": {
+            "ko": "경도(hardness) 성분의 침전에 의한 물의 연화(軟化)",
+            "en": "Softening water by precipitation of the hardness"
+          }
+        },
+        {
+          "code": "C02F 5/04",
+          "title": {
+            "ko": "인산염을 사용하는 것 (C02F5/06이 우선)",
+            "en": "using phosphates (C02F0005060000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 5/06",
+          "title": {
+            "ko": null,
+            "en": "using calcium compounds"
+          }
+        },
+        {
+          "code": "C02F 5/08",
+          "title": {
+            "ko": "연화(軟化), 스케일 방지 또는 스케일 제거를 위한 착화합물 또는 다른 가용화제에 의한 물의 처리, 예. 격리제(sequestering agent)의 첨가",
+            "en": "Treatment of water with complexing chemicals or other solubilising agents for softening, scale prevention or scale removal, e.g. adding sequestering agents"
+          }
+        },
+        {
+          "code": "C02F 5/10",
+          "title": {
+            "ko": "유기 물질을 사용하는 것",
+            "en": "using organic substances"
+          }
+        },
+        {
+          "code": "C02F 5/12",
+          "title": {
+            "ko": "질소를 함유한 것 (C02F5/14가 우선)",
+            "en": "containing nitrogen (C02F0005140000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 5/14",
+          "title": {
+            "ko": null,
+            "en": "containing phosphorus"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C02F 7/00",
+      "title": {
+        "ko": null,
+        "en": "Aeration of stretches of water"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C02F 9/00",
+      "title": {
+        "ko": null,
+        "en": "Multistage treatment of water, waste water or sewage"
+      },
+      "subgroups": [
+        {
+          "code": "C02F 9/20",
+          "title": {
+            "ko": null,
+            "en": "Portable or detachable small-scale multistage treatment devices, e.g. point of use or laboratory water purification systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C02F 11/00",
+      "title": {
+        "ko": "오니(슬러지)의 처리; 이를 위한 장치",
+        "en": "Treatment of sludge; Devices therefor"
+      },
+      "subgroups": [
+        {
+          "code": "C02F 11/02",
+          "title": {
+            "ko": null,
+            "en": "Biological treatment"
+          }
+        },
+        {
+          "code": "C02F 11/04",
+          "title": {
+            "ko": null,
+            "en": "Anaerobic treatment; Production of methane by such processes"
+          }
+        },
+        {
+          "code": "C02F 11/06",
+          "title": {
+            "ko": null,
+            "en": "by oxidation"
+          }
+        },
+        {
+          "code": "C02F 11/08",
+          "title": {
+            "ko": null,
+            "en": "Wet air oxidation"
+          }
+        },
+        {
+          "code": "C02F 11/10",
+          "title": {
+            "ko": null,
+            "en": "by pyrolysis"
+          }
+        },
+        {
+          "code": "C02F 11/12",
+          "title": {
+            "ko": "탈수, 건조 또는 농축에 의한 것",
+            "en": "by de-watering, drying or thickening"
+          }
+        },
+        {
+          "code": "C02F 11/121",
+          "title": {
+            "ko": "기계적 탈수에 의한 것",
+            "en": "by mechanical de-watering"
+          }
+        },
+        {
+          "code": "C02F 11/122",
+          "title": {
+            "ko": "필터 프레스를 사용하는 것",
+            "en": "using filter presses (C02F0011123000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 11/123",
+          "title": {
+            "ko": null,
+            "en": "using belt or band filters"
+          }
+        },
+        {
+          "code": "C02F 11/125",
+          "title": {
+            "ko": null,
+            "en": "using screw filters"
+          }
+        },
+        {
+          "code": "C02F 11/126",
+          "title": {
+            "ko": null,
+            "en": "using drum filters"
+          }
+        },
+        {
+          "code": "C02F 11/127",
+          "title": {
+            "ko": null,
+            "en": "by centrifugation"
+          }
+        },
+        {
+          "code": "C02F 11/128",
+          "title": {
+            "ko": null,
+            "en": "using batch processes"
+          }
+        },
+        {
+          "code": "C02F 11/13",
+          "title": {
+            "ko": null,
+            "en": "by heating"
+          }
+        },
+        {
+          "code": "C02F 11/131",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic or ultrasonic waves"
+          }
+        },
+        {
+          "code": "C02F 11/14",
+          "title": {
+            "ko": "화학 약품의 첨가에 의한 것",
+            "en": "with addition of chemical agents"
+          }
+        },
+        {
+          "code": "C02F 11/143",
+          "title": {
+            "ko": "무기 물질을 사용하는 것 (C0F11/148이 우선)",
+            "en": "using inorganic substances (C02F0011148000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 11/145",
+          "title": {
+            "ko": null,
+            "en": "using calcium compounds"
+          }
+        },
+        {
+          "code": "C02F 11/147",
+          "title": {
+            "ko": "유기 물질을 사용하는 것 (C02F11/148이 우선)",
+            "en": "using organic substances (C02F0011148000 takes precedence)"
+          }
+        },
+        {
+          "code": "C02F 11/148",
+          "title": {
+            "ko": null,
+            "en": "Combined use of inorganic and organic substances, being added in the same treatment step"
+          }
+        },
+        {
+          "code": "C02F 11/15",
+          "title": {
+            "ko": "전기장, 자기장 또는 전자기장 처리에 의한 것; 초음파 처리에 의한 것 (가열 목적용 C02F11/131)",
+            "en": "by treatment with electric, magnetic or electromagnetic fields; by treatment with ultrasonic waves (for the purpose of heating C02F0011131000)"
+          }
+        },
+        {
+          "code": "C02F 11/16",
+          "title": {
+            "ko": null,
+            "en": "using drying or composting beds"
+          }
+        },
+        {
+          "code": "C02F 11/18",
+          "title": {
+            "ko": "열적 조정에 의한 것(열분해에 의한 것 C02F 11/10)",
+            "en": "by thermal conditioning (by pyrolysis C02F0011100000)"
+          }
+        },
+        {
+          "code": "C02F 11/20",
+          "title": {
+            "ko": null,
+            "en": "by freezing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C02F 101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme associated with groups C02F0001000000-C02F0011000000 relating to the nature of the contaminant in the water, waste water, sewage or sludge."
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C02F 101/00",
+      "title": {
+        "ko": null,
+        "en": "Nature of the contaminant"
+      },
+      "subgroups": [
+        {
+          "code": "C02F 101/10",
+          "title": {
+            "ko": null,
+            "en": "Inorganic compounds"
+          }
+        },
+        {
+          "code": "C02F 101/12",
+          "title": {
+            "ko": null,
+            "en": "Halogens or halogen-containing compounds"
+          }
+        },
+        {
+          "code": "C02F 101/14",
+          "title": {
+            "ko": null,
+            "en": "Fluorine or fluorine-containing compounds"
+          }
+        },
+        {
+          "code": "C02F 101/16",
+          "title": {
+            "ko": null,
+            "en": "Nitrogen compounds, e.g. ammonia"
+          }
+        },
+        {
+          "code": "C02F 101/18",
+          "title": {
+            "ko": null,
+            "en": "Cyanides"
+          }
+        },
+        {
+          "code": "C02F 101/20",
+          "title": {
+            "ko": null,
+            "en": "Heavy metals or heavy metal compounds"
+          }
+        },
+        {
+          "code": "C02F 101/22",
+          "title": {
+            "ko": null,
+            "en": "Chromium or chromium compounds, e.g. chromates"
+          }
+        },
+        {
+          "code": "C02F 101/30",
+          "title": {
+            "ko": null,
+            "en": "Organic compounds"
+          }
+        },
+        {
+          "code": "C02F 101/32",
+          "title": {
+            "ko": null,
+            "en": "Hydrocarbons, e.g. oil"
+          }
+        },
+        {
+          "code": "C02F 101/34",
+          "title": {
+            "ko": null,
+            "en": "containing oxygen"
+          }
+        },
+        {
+          "code": "C02F 101/36",
+          "title": {
+            "ko": null,
+            "en": "containing halogen"
+          }
+        },
+        {
+          "code": "C02F 101/38",
+          "title": {
+            "ko": null,
+            "en": "containing nitrogen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "C02F 103/00",
+      "title": {
+        "ko": "처리된 물, 폐수, 하수 또는 오니(슬러지)의 성질",
+        "en": "Indexing scheme associated with groups C02F0001000000-C02F0011000000, relating to the nature of the water, waste water, sewage or sludge to be treated."
+      },
+      "subgroups": []
+    },
+    {
+      "code": "C02F 103/00",
+      "title": {
+        "ko": "처리된 물, 폐수, 하수 또는 오니(슬러지)의 성질",
+        "en": "Nature of the water, waste water, sewage or sludge to be treated"
+      },
+      "subgroups": [
+        {
+          "code": "C02F 103/02",
+          "title": {
+            "ko": null,
+            "en": "Non-contaminated water, e.g. for industrial water supply"
+          }
+        },
+        {
+          "code": "C02F 103/04",
+          "title": {
+            "ko": null,
+            "en": "for obtaining pure or ultra-pure water"
+          }
+        },
+        {
+          "code": "C02F 103/06",
+          "title": {
+            "ko": null,
+            "en": "Contaminated groundwater or leachate"
+          }
+        },
+        {
+          "code": "C02F 103/08",
+          "title": {
+            "ko": null,
+            "en": "Seawater, e.g. for desalination"
+          }
+        },
+        {
+          "code": "C02F 103/10",
+          "title": {
+            "ko": null,
+            "en": "from quarries or from mining activities"
+          }
+        },
+        {
+          "code": "C02F 103/12",
+          "title": {
+            "ko": null,
+            "en": "from the silicate or ceramic industries, e.g. waste waters from cement or glass factories"
+          }
+        },
+        {
+          "code": "C02F 103/14",
+          "title": {
+            "ko": null,
+            "en": "Paint wastes"
+          }
+        },
+        {
+          "code": "C02F 103/16",
+          "title": {
+            "ko": null,
+            "en": "from metallurgical processes, i.e. from the production, refining or treatment of metals, e.g. galvanic wastes"
+          }
+        },
+        {
+          "code": "C02F 103/18",
+          "title": {
+            "ko": null,
+            "en": "from the wet purification of gaseous effluents"
+          }
+        },
+        {
+          "code": "C02F 103/20",
+          "title": {
+            "ko": null,
+            "en": "from animal husbandry"
+          }
+        },
+        {
+          "code": "C02F 103/22",
+          "title": {
+            "ko": null,
+            "en": "from the processing of animals, e.g. poultry, fish, or parts thereof"
+          }
+        },
+        {
+          "code": "C02F 103/24",
+          "title": {
+            "ko": null,
+            "en": "from tanneries"
+          }
+        },
+        {
+          "code": "C02F 103/26",
+          "title": {
+            "ko": null,
+            "en": "from the processing of plants or parts thereof"
+          }
+        },
+        {
+          "code": "C02F 103/28",
+          "title": {
+            "ko": null,
+            "en": "from the paper or cellulose industry"
+          }
+        },
+        {
+          "code": "C02F 103/30",
+          "title": {
+            "ko": null,
+            "en": "from the textile industry"
+          }
+        },
+        {
+          "code": "C02F 103/32",
+          "title": {
+            "ko": null,
+            "en": "from the food or foodstuff industry, e.g. brewery waste waters"
+          }
+        },
+        {
+          "code": "C02F 103/34",
+          "title": {
+            "ko": "그룹 C02F 103/12에서 C02F 103/32에 속하지 않는 화학 공업으로부터의 것",
+            "en": "from the chemical industry not provided for in groups C02F0103120000-C02F0103320000"
+          }
+        },
+        {
+          "code": "C02F 103/36",
+          "title": {
+            "ko": null,
+            "en": "from the manufacture of organic compounds"
+          }
+        },
+        {
+          "code": "C02F 103/38",
+          "title": {
+            "ko": null,
+            "en": "Polymers"
+          }
+        },
+        {
+          "code": "C02F 103/40",
+          "title": {
+            "ko": null,
+            "en": "from the manufacture or use of photosensitive materials"
+          }
+        },
+        {
+          "code": "C02F 103/42",
+          "title": {
+            "ko": null,
+            "en": "from bathing facilities, e.g. swimming pools"
+          }
+        },
+        {
+          "code": "C02F 103/44",
+          "title": {
+            "ko": null,
+            "en": "from vehicle washing facilities"
+          }
+        }
+      ]
+    }
+  ]
+}

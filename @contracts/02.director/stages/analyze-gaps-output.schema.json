@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "patent_model_updates": {
+      "type": "object"
+    },
+    "changed_sections": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gap_analysis": {
+      "type": "object"
+    },
+    "dispatch_choice": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "다음 chain dispatch index. 0=gap 없음 (exit) / 1=gap 있음 → director 재호출"
+    }
+  },
+  "required": [
+    "patent_model_updates",
+    "changed_sections",
+    "gap_analysis",
+    "dispatch_choice"
+  ]
+}

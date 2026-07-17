@@ -1,0 +1,73 @@
+{
+  "description": "발명 → IPC + CPC 분류 자동 추론. 4-shard fan-out으로 후보 Subclass를 좁힌 뒤, 좁혀진 Subclass 산하 Group/Subgroup을 보고 최종 코드 결정. director gap-analysis가 completeness_score >= 0.4 도달 시 호출.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R99.CENTRAL_AGENT"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "IOM 을 IPC 분류 적합한 압축 표현으로 요약. shortlist_per_shard 의 입력.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R20/summarize_for_ipc.md"
+      },
+      "llm_tools": [],
+      "output_contract": "summarize-invention-output"
+    },
+    {
+      "description": "분류 shard A: 발명의 기술분야 + 응용분야 식별.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R20/classify_tech_field.md"
+      },
+      "llm_tools": [],
+      "output_contract": "classify-shard-a-output"
+    },
+    {
+      "description": "분류 shard B: 발명의 핵심 구성요소 + 효과 식별.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R20/classify_components_effects.md"
+      },
+      "llm_tools": [],
+      "output_contract": "classify-shard-b-output"
+    },
+    {
+      "description": "shortlist subclass 정의 로드 작업의 trigger.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R20/load_subclass_defs.md"
+      },
+      "llm_tools": [],
+      "output_contract": "subclass-load-plan-output"
+    },
+    {
+      "description": "subclass 정의와 발명 요약을 비교하여 최적 IPC group 1~3개 결정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R20/select_ipc_group.md"
+      },
+      "llm_tools": [],
+      "output_contract": "pinpoint-group-output"
+    }
+  ]
+}

@@ -1,0 +1,1340 @@
+{
+  "subclass": "G01C",
+  "title": {
+    "ko": "거리, 고저 또는 방위 측정; 측량; 항법; 자이로스코프 기구; 사진측량 또는 영상측량 (액위의 측정 G01F; 무선 내비게이션, 전파효과(propagation effects)를 이용하는 거리 또는 속도 결정, 예. 도플러 효과, 전파 시간, 무선파의 것, 다른 파를 이용하는 유사한 설비 G01S)",
+    "en": "MEASURING DISTANCES, LEVELS OR BEARINGS; SURVEYING; NAVIGATION; GYROSCOPIC INSTRUMENTS; PHOTOGRAMMETRY OR VIDEOGRAMMETRY (measuring liquid level G01F; radio navigation, determining distance or velocity by use of propagation effects, e.g. Doppler effect, propagation time, of radio waves, analogous arrangements using other waves G01S)"
+  },
+  "definition": {
+    "ko": "측정 기기 각도의 측정용; 경사의 측정용 G01C1/00; 9/00 거리의 측정용; 높이 또는 수평측정용 G01C3/00, G01C22/00; 5/00 컴퍼스(compasses); 자이로스코프; 기타 항법장치 G01C17/00; 19/00; 21/00 기타 측정기기 G01C15/00 조합된 기기 G01C23/00 제조, 교정 G01C25/00 프로파일의 추적 G01C7/00 사진측량 또는 영상측량 G01C11/00 개수면(開水面)의 측량 G01C13/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01C 1/00",
+      "title": {
+        "ko": "각도의 측량",
+        "en": "Measuring angles"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 1/02",
+          "title": {
+            "ko": null,
+            "en": "Theodolites"
+          }
+        },
+        {
+          "code": "G01C 1/04",
+          "title": {
+            "ko": null,
+            "en": "combined with cameras"
+          }
+        },
+        {
+          "code": "G01C 1/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reading scales"
+          }
+        },
+        {
+          "code": "G01C 1/08",
+          "title": {
+            "ko": "육분의(六分儀)",
+            "en": "Sextants"
+          }
+        },
+        {
+          "code": "G01C 1/10",
+          "title": {
+            "ko": "인공수평(人工水平)을 포함하는 것(G01C 1/14가 우선)",
+            "en": "including an artificial horizon (G01C0001140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 1/12",
+          "title": {
+            "ko": null,
+            "en": "with a stabilised mirror"
+          }
+        },
+        {
+          "code": "G01C 1/14",
+          "title": {
+            "ko": null,
+            "en": "Periscopic sextants"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 3/00",
+      "title": {
+        "ko": "시준선상의 거리측정; 광학적 거리계(길이 측정용 테이프, 체인 또는 바퀴(輪) G01B 3/00; 액티브 삼각측량 방식, 즉, 무선 전파 이외의 전자파의 송신 및 반사를 사용하는 방식, G01S 17/48)",
+        "en": "Measuring distances in line of sight; Optical rangefinders (tapes, chains, or wheels for measuring length G01B0003000000;active triangulation systems, i.e. using the transmission and reflection of electromagnetic waves other than radio waves, G01S0017480000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01C 3/04",
+          "title": {
+            "ko": null,
+            "en": "Adaptation of rangefinders for combination with telescopes or binoculars"
+          }
+        },
+        {
+          "code": "G01C 3/06",
+          "title": {
+            "ko": null,
+            "en": "Use of electric means to obtain final indication"
+          }
+        },
+        {
+          "code": "G01C 3/08",
+          "title": {
+            "ko": null,
+            "en": "Use of electric radiation detectors"
+          }
+        },
+        {
+          "code": "G01C 3/10",
+          "title": {
+            "ko": "가변각도와 관측지점에 고정길이의 기준선으로 된 시차 삼각형을 사용하는 것, 예. 기기 내에",
+            "en": "using a parallactic triangle with variable angles and a base of fixed length in the observation station, e.g. in the instrument"
+          }
+        },
+        {
+          "code": "G01C 3/12",
+          "title": {
+            "ko": "단일지점에서 단안경 관측하는 것, 예. 합치식(G01C 3/20이 우선)",
+            "en": "with monocular observation at a single point, e.g. coincidence type (G01C0003200000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 3/14",
+          "title": {
+            "ko": "단일지점에서 쌍안경 관측하는 것, 예. 합치식(G01C 3/20이 우선)",
+            "en": "with binocular observation at a single point, e.g. stereoscopic type (G01C0003200000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 3/16",
+          "title": {
+            "ko": null,
+            "en": "Measuring marks"
+          }
+        },
+        {
+          "code": "G01C 3/18",
+          "title": {
+            "ko": "기준선의 양단에서 하나의 관측점을 관측하는 것 (G01C 3/20이 우선)",
+            "en": "with one observation point at each end of the base (G01C0003200000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 3/20",
+          "title": {
+            "ko": null,
+            "en": "with adaptation to the measurement of the height of an object"
+          }
+        },
+        {
+          "code": "G01C 3/22",
+          "title": {
+            "ko": null,
+            "en": "using a parallactic triangle with variable angles and a base of fixed length at, near, or formed by, the object"
+          }
+        },
+        {
+          "code": "G01C 3/24",
+          "title": {
+            "ko": null,
+            "en": "using a parallactic triangle with fixed angles and a base of variable length in the observation station, e.g. in the instrument"
+          }
+        },
+        {
+          "code": "G01C 3/26",
+          "title": {
+            "ko": null,
+            "en": "using a parallactic triangle with fixed angles and a base of variable length at, near, or formed by, the object"
+          }
+        },
+        {
+          "code": "G01C 3/28",
+          "title": {
+            "ko": null,
+            "en": "with provision for reduction of the distance into the horizontal plane"
+          }
+        },
+        {
+          "code": "G01C 3/30",
+          "title": {
+            "ko": null,
+            "en": "with adaptation to the measurement of the height of an object, e.g. tacheometers"
+          }
+        },
+        {
+          "code": "G01C 3/32",
+          "title": {
+            "ko": null,
+            "en": "by focusing the object, e.g. on a ground glass screen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 5/00",
+      "title": {
+        "ko": "높이의 측정; 시준선에 직교하는 거리의 측정 떨어진 지점간의 수준측량; 측량용 수준의(G01C3/20, G01C 3/30이 우선)",
+        "en": "Measuring height; Measuring distances transverse to line of sight; Levelling between separated points; Surveyors' levels (G01C0003200000, G01C0003300000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 5/02",
+          "title": {
+            "ko": null,
+            "en": "involving automatic stabilisation of the line of sight"
+          }
+        },
+        {
+          "code": "G01C 5/04",
+          "title": {
+            "ko": null,
+            "en": "Hydrostatic levelling, i.e. by flexibly interconnected liquid containers at separated points"
+          }
+        },
+        {
+          "code": "G01C 5/06",
+          "title": {
+            "ko": null,
+            "en": "by using barometric means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 7/00",
+      "title": {
+        "ko": "프로파일의 추적(사진측량 또는 영상측량에 의한 것 G01C 11/00)",
+        "en": "Tracing profiles (by photogrammetry or videogrammetry G01C0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 7/02",
+          "title": {
+            "ko": null,
+            "en": "of land surfaces"
+          }
+        },
+        {
+          "code": "G01C 7/04",
+          "title": {
+            "ko": null,
+            "en": "involving a vehicle which moves along the profile to be traced"
+          }
+        },
+        {
+          "code": "G01C 7/06",
+          "title": {
+            "ko": null,
+            "en": "of cavities, e.g. tunnels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 9/00",
+      "title": {
+        "ko": "경사의 측정, 예. 경사계(clinometers) 또는 수준기에 의한 것",
+        "en": "Measuring inclination, e.g. by clinometers, by levels"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 9/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01C 9/04",
+          "title": {
+            "ko": null,
+            "en": "Transmission means between sensing element and final indicator for giving an enlarged reading"
+          }
+        },
+        {
+          "code": "G01C 9/06",
+          "title": {
+            "ko": null,
+            "en": "Electric or photoelectric indication or reading means"
+          }
+        },
+        {
+          "code": "G01C 9/08",
+          "title": {
+            "ko": null,
+            "en": "Means for compensating acceleration forces due to movement of instrument"
+          }
+        },
+        {
+          "code": "G01C 9/10",
+          "title": {
+            "ko": null,
+            "en": "by using rolling bodies"
+          }
+        },
+        {
+          "code": "G01C 9/12",
+          "title": {
+            "ko": "단일진자의 사용에 의한 것(측연선(測鉛線) G01C 15/00)",
+            "en": "by using a single pendulum (plumb lines G01C0015100000)"
+          }
+        },
+        {
+          "code": "G01C 9/14",
+          "title": {
+            "ko": null,
+            "en": "movable in more than one direction"
+          }
+        },
+        {
+          "code": "G01C 9/16",
+          "title": {
+            "ko": null,
+            "en": "by using more than one pendulum"
+          }
+        },
+        {
+          "code": "G01C 9/18",
+          "title": {
+            "ko": null,
+            "en": "by using liquids"
+          }
+        },
+        {
+          "code": "G01C 9/20",
+          "title": {
+            "ko": null,
+            "en": "the indication being based on the inclination of the surface of a liquid relative to its container"
+          }
+        },
+        {
+          "code": "G01C 9/22",
+          "title": {
+            "ko": null,
+            "en": "with interconnected containers in fixed relation to each other"
+          }
+        },
+        {
+          "code": "G01C 9/24",
+          "title": {
+            "ko": null,
+            "en": "in closed containers partially filled with liquid so as to leave a gas bubble"
+          }
+        },
+        {
+          "code": "G01C 9/26",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01C 9/28",
+          "title": {
+            "ko": null,
+            "en": "Mountings"
+          }
+        },
+        {
+          "code": "G01C 9/30",
+          "title": {
+            "ko": null,
+            "en": "Means for adjusting dimensions of bubble"
+          }
+        },
+        {
+          "code": "G01C 9/32",
+          "title": {
+            "ko": null,
+            "en": "Means for facilitating the observation of the position of the bubble, e.g. illuminating means"
+          }
+        },
+        {
+          "code": "G01C 9/34",
+          "title": {
+            "ko": null,
+            "en": "of the tubular type, i.e. for indicating the level in one direction only"
+          }
+        },
+        {
+          "code": "G01C 9/36",
+          "title": {
+            "ko": null,
+            "en": "of the spherical type, i.e. for indicating the level in all directions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 11/00",
+      "title": {
+        "ko": "사진측량 또는 영상측량, 예.스테레오법을 이용한 측량; 사진측량",
+        "en": "Photogrammetry or videogrammetry, e.g. stereogrammetry; Photographic surveying"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 11/02",
+          "title": {
+            "ko": null,
+            "en": "Picture-taking arrangements specially adapted for photogrammetry or photographic surveying, e.g. controlling overlapping of pictures"
+          }
+        },
+        {
+          "code": "G01C 11/04",
+          "title": {
+            "ko": "사진의 판독",
+            "en": "Interpretation of pictures"
+          }
+        },
+        {
+          "code": "G01C 11/06",
+          "title": {
+            "ko": "동일지역의 두 매 이상의 사진의 대비에 의한 것",
+            "en": "by comparison of two or more pictures of the same area"
+          }
+        },
+        {
+          "code": "G01C 11/08",
+          "title": {
+            "ko": null,
+            "en": "the pictures not being supported in the same relative position as when they were taken"
+          }
+        },
+        {
+          "code": "G01C 11/10",
+          "title": {
+            "ko": null,
+            "en": "using computers to control the position of the pictures"
+          }
+        },
+        {
+          "code": "G01C 11/12",
+          "title": {
+            "ko": "촬영되었을 때와 동일관계의 위치에 상을 지지하는 것",
+            "en": "the pictures being supported in the same relative position as when they were taken"
+          }
+        },
+        {
+          "code": "G01C 11/14",
+          "title": {
+            "ko": "광학투영 수단을 가진 것(G01C 11/26이 우선)",
+            "en": "with optical projection (G01C0011260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 11/16",
+          "title": {
+            "ko": null,
+            "en": "in a common plane"
+          }
+        },
+        {
+          "code": "G01C 11/18",
+          "title": {
+            "ko": null,
+            "en": "involving scanning means"
+          }
+        },
+        {
+          "code": "G01C 11/20",
+          "title": {
+            "ko": null,
+            "en": "in separate planes"
+          }
+        },
+        {
+          "code": "G01C 11/22",
+          "title": {
+            "ko": "기계적 투영수단을 가진 것(G01C 11/26이 우선)",
+            "en": "with mechanical projection (G01C0011260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 11/24",
+          "title": {
+            "ko": "광학적-기계적 투영수단을 가진 것(G01C 11/26이 우선)",
+            "en": "with optical-mechanical projection (G01C0011260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 11/26",
+          "title": {
+            "ko": null,
+            "en": "using computers to control the position of the pictures"
+          }
+        },
+        {
+          "code": "G01C 11/28",
+          "title": {
+            "ko": null,
+            "en": "Special adaptation for recording picture point data, e.g. for profiles"
+          }
+        },
+        {
+          "code": "G01C 11/30",
+          "title": {
+            "ko": null,
+            "en": "by triangulation"
+          }
+        },
+        {
+          "code": "G01C 11/32",
+          "title": {
+            "ko": null,
+            "en": "Radial triangulation"
+          }
+        },
+        {
+          "code": "G01C 11/34",
+          "title": {
+            "ko": null,
+            "en": "Aerial triangulation"
+          }
+        },
+        {
+          "code": "G01C 11/36",
+          "title": {
+            "ko": null,
+            "en": "Videogrammetry, i.e. electronic processing of video signals from different sources to give parallax or range information"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 13/00",
+      "title": {
+        "ko": "특히 개수면에 사용되는 측량, 예. 바다, 호수, 하천 또는 운하(유체의 수준의 측정 G01F)",
+        "en": "Surveying specially adapted to open water, e.g. sea, lake, river or canal (liquid level metering G01F)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01C 15/00",
+      "title": {
+        "ko": "그룹 1/00부터 13/00까지 분류되지 않는 또는 측량용 기계 또는 부속구",
+        "en": "Surveying instruments or accessories not provided for in groups G01C0001000000-G01C0013000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 15/02",
+          "title": {
+            "ko": null,
+            "en": "Means for marking measuring points"
+          }
+        },
+        {
+          "code": "G01C 15/04",
+          "title": {
+            "ko": null,
+            "en": "Permanent marks; Boundary markers"
+          }
+        },
+        {
+          "code": "G01C 15/06",
+          "title": {
+            "ko": null,
+            "en": "Surveyors' staffs; Movable markers"
+          }
+        },
+        {
+          "code": "G01C 15/08",
+          "title": {
+            "ko": null,
+            "en": "Plumbing or registering staffs or markers over ground marks"
+          }
+        },
+        {
+          "code": "G01C 15/10",
+          "title": {
+            "ko": null,
+            "en": "Plumb lines"
+          }
+        },
+        {
+          "code": "G01C 15/12",
+          "title": {
+            "ko": null,
+            "en": "Instruments for setting out fixed angles, e.g. right angles"
+          }
+        },
+        {
+          "code": "G01C 15/14",
+          "title": {
+            "ko": null,
+            "en": "Artificial horizons"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 17/00",
+      "title": {
+        "ko": "컴퍼스(compasses); 항법 또는 측량을 위해 진북 또는 자북을 탐지하는 장치(자이로 효과를 이용하는 것 G01C 19/00)",
+        "en": "Compasses; Devices for ascertaining true or magnetic north for navigation or surveying purposes (using gyroscopic effect G01C0019000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 17/02",
+          "title": {
+            "ko": "자기 컴퍼스",
+            "en": "Magnetic compasses"
+          }
+        },
+        {
+          "code": "G01C 17/04",
+          "title": {
+            "ko": null,
+            "en": "with north-seeking magnetic elements, e.g. needles"
+          }
+        },
+        {
+          "code": "G01C 17/06",
+          "title": {
+            "ko": null,
+            "en": "Suspending magnetic elements"
+          }
+        },
+        {
+          "code": "G01C 17/08",
+          "title": {
+            "ko": null,
+            "en": "by flotation"
+          }
+        },
+        {
+          "code": "G01C 17/10",
+          "title": {
+            "ko": null,
+            "en": "Comparing observed direction with north indication"
+          }
+        },
+        {
+          "code": "G01C 17/12",
+          "title": {
+            "ko": null,
+            "en": "by sighting means, e.g. for surveyors' compasses"
+          }
+        },
+        {
+          "code": "G01C 17/14",
+          "title": {
+            "ko": null,
+            "en": "by reference marks, e.g. for ships' compasses"
+          }
+        },
+        {
+          "code": "G01C 17/16",
+          "title": {
+            "ko": null,
+            "en": "by clinometers, e.g. for determining dip or strike of geological strata"
+          }
+        },
+        {
+          "code": "G01C 17/18",
+          "title": {
+            "ko": null,
+            "en": "Supporting or suspending compasses, e.g. by gimbal, by flotation"
+          }
+        },
+        {
+          "code": "G01C 17/20",
+          "title": {
+            "ko": null,
+            "en": "Observing the compass card or needle"
+          }
+        },
+        {
+          "code": "G01C 17/22",
+          "title": {
+            "ko": null,
+            "en": "by projection"
+          }
+        },
+        {
+          "code": "G01C 17/24",
+          "title": {
+            "ko": null,
+            "en": "Illumination"
+          }
+        },
+        {
+          "code": "G01C 17/26",
+          "title": {
+            "ko": null,
+            "en": "using electric pick-offs for transmission to final indicator, e.g. photocell"
+          }
+        },
+        {
+          "code": "G01C 17/28",
+          "title": {
+            "ko": "전기자기 컴퍼스(북쪽 탐색용 및 전기적 픽오프(Pick off) G01C 17/26)",
+            "en": "Electromagnetic compasses (with north-seeking magnetic elements and having electric pick-offs G01C0017260000)"
+          }
+        },
+        {
+          "code": "G01C 17/30",
+          "title": {
+            "ko": null,
+            "en": "Earth-inductor compasses"
+          }
+        },
+        {
+          "code": "G01C 17/32",
+          "title": {
+            "ko": null,
+            "en": "Electron compasses"
+          }
+        },
+        {
+          "code": "G01C 17/34",
+          "title": {
+            "ko": null,
+            "en": "Sun- or astro-compasses"
+          }
+        },
+        {
+          "code": "G01C 17/36",
+          "title": {
+            "ko": null,
+            "en": "Repeaters for remote indication of readings of a master compass"
+          }
+        },
+        {
+          "code": "G01C 17/38",
+          "title": {
+            "ko": null,
+            "en": "Testing, calibrating, or compensating of compasses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 19/00",
+      "title": {
+        "ko": "자이로스코프; 진동질량을 가지는 회전-감응 장치 ; 운동질량이 없는 회전-감응 장치",
+        "en": "Gyroscopes; Turn-sensitive devices using vibrating masses; Turn-sensitive devices without moving masses; Measuring angular rate using gyroscopic effects"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 19/02",
+          "title": {
+            "ko": "회전식 자이로스코프",
+            "en": "Rotary gyroscopes"
+          }
+        },
+        {
+          "code": "G01C 19/04",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01C 19/06",
+          "title": {
+            "ko": "회전체",
+            "en": "Rotors"
+          }
+        },
+        {
+          "code": "G01C 19/08",
+          "title": {
+            "ko": "전기적으로 구동되는 것(G01C 19/14가 우선)",
+            "en": "electrically driven (G01C0019140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 19/10",
+          "title": {
+            "ko": null,
+            "en": "Power supply"
+          }
+        },
+        {
+          "code": "G01C 19/12",
+          "title": {
+            "ko": "액체로서 구동되는 것(G01C 19/14가 우선)",
+            "en": "fluid driven (G01C0019140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 19/14",
+          "title": {
+            "ko": null,
+            "en": "Fluid rotors"
+          }
+        },
+        {
+          "code": "G01C 19/16",
+          "title": {
+            "ko": "현가수단; 베어링",
+            "en": "Suspensions; Bearings"
+          }
+        },
+        {
+          "code": "G01C 19/18",
+          "title": {
+            "ko": "그 회전축에 대하여 로터의 가동을 지지(G01C 19/20, G01C 19/24가 우선)",
+            "en": "providing movement of rotor with respect to its rotational axes (G01C0019200000, G01C0019240000 take precedence)"
+          }
+        },
+        {
+          "code": "G01C 19/20",
+          "title": {
+            "ko": null,
+            "en": "in fluid"
+          }
+        },
+        {
+          "code": "G01C 19/22",
+          "title": {
+            "ko": null,
+            "en": "torsional"
+          }
+        },
+        {
+          "code": "G01C 19/24",
+          "title": {
+            "ko": null,
+            "en": "using magnetic or electrostatic fields"
+          }
+        },
+        {
+          "code": "G01C 19/26",
+          "title": {
+            "ko": null,
+            "en": "Caging, i.e. immobilising moving parts, e.g. for transport"
+          }
+        },
+        {
+          "code": "G01C 19/28",
+          "title": {
+            "ko": null,
+            "en": "Pick-offs, i.e. devices for taking off an indication of the displacement of the rotor axis"
+          }
+        },
+        {
+          "code": "G01C 19/30",
+          "title": {
+            "ko": "구조물 장치, 즉. 원하는 위치에 로터축을 복원하는 장치(수직지시계기용 G01C 19/46)",
+            "en": "Erection devices, i.e. devices for restoring rotor axis to a desired position (for instrument indicating the vertical G01C0019460000)"
+          }
+        },
+        {
+          "code": "G01C 19/32",
+          "title": {
+            "ko": null,
+            "en": "Indicating or recording means specially adapted for rotary gyroscopes"
+          }
+        },
+        {
+          "code": "G01C 19/34",
+          "title": {
+            "ko": null,
+            "en": "for indicating a direction in the horizontal plane, e.g. directional gyroscopes"
+          }
+        },
+        {
+          "code": "G01C 19/36",
+          "title": {
+            "ko": null,
+            "en": "with north-seeking action by magnetic means, e.g. gyromagnetic compasses"
+          }
+        },
+        {
+          "code": "G01C 19/38",
+          "title": {
+            "ko": null,
+            "en": "with north-seeking action by other than magnetic means, e.g. gyrocompasses using earth's rotation"
+          }
+        },
+        {
+          "code": "G01C 19/40",
+          "title": {
+            "ko": null,
+            "en": "for control by signals from a master compass, i.e. repeater compasses"
+          }
+        },
+        {
+          "code": "G01C 19/42",
+          "title": {
+            "ko": null,
+            "en": "for indicating rate of turn; for integrating rate of turn"
+          }
+        },
+        {
+          "code": "G01C 19/44",
+          "title": {
+            "ko": "수직방향 지시용",
+            "en": "for indicating the vertical"
+          }
+        },
+        {
+          "code": "G01C 19/46",
+          "title": {
+            "ko": "원하는 위치에 로터축을 복원하기 위한 구조물 장치",
+            "en": "Erection devices for restoring rotor axis to a desired position"
+          }
+        },
+        {
+          "code": "G01C 19/48",
+          "title": {
+            "ko": "전기적 수단에 의해 작동하는 것(G01C 19/54가 우선)",
+            "en": "operating by electrical means (G01C0019540000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 19/50",
+          "title": {
+            "ko": "기계적 수단에 의해 작동하는 것(G01C 19/54가 우선)",
+            "en": "operating by mechanical means (G01C0019540000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 19/52",
+          "title": {
+            "ko": "유체수단에 의해 작동되는 것(G01C 19/54가 우선)",
+            "en": "operating by fluid means (G01C0019540000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 19/54",
+          "title": {
+            "ko": null,
+            "en": "with correction for acceleration forces due to movement of instrument"
+          }
+        },
+        {
+          "code": "G01C 19/56",
+          "title": {
+            "ko": "진동질량를 가지는 회전-감응 장치 예. 코리올리 힘에 기반한 진동성의 각속도 센서",
+            "en": "Turn-sensitive devices using vibrating masses, e.g. vibratory angular rate sensors based on Coriolis forces"
+          }
+        },
+        {
+          "code": "G01C 19/5607",
+          "title": {
+            "ko": "진동소리굽쇠를 이용하는 것(끝부분으로 연기된 평면 진동질량을 가지는 양구소리굽쇠 G01C 19/5719)",
+            "en": "using vibrating tuning forks (double-ended tuning forks using planar vibrating masses suspended at opposite ends G01C0019571900)"
+          }
+        },
+        {
+          "code": "G01C 19/5614",
+          "title": {
+            "ko": null,
+            "en": "Signal processing"
+          }
+        },
+        {
+          "code": "G01C 19/5621",
+          "title": {
+            "ko": null,
+            "en": "the devices involving a micromechanical structure"
+          }
+        },
+        {
+          "code": "G01C 19/5628",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing; Trimming; Mounting; Housings"
+          }
+        },
+        {
+          "code": "G01C 19/5635",
+          "title": {
+            "ko": null,
+            "en": "using vibrating wires or strings"
+          }
+        },
+        {
+          "code": "G01C 19/5642",
+          "title": {
+            "ko": null,
+            "en": "using vibrating bars or beams"
+          }
+        },
+        {
+          "code": "G01C 19/5649",
+          "title": {
+            "ko": null,
+            "en": "Signal processing"
+          }
+        },
+        {
+          "code": "G01C 19/5656",
+          "title": {
+            "ko": null,
+            "en": "the devices involving a micromechanical structure"
+          }
+        },
+        {
+          "code": "G01C 19/5663",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing; Trimming; Mounting; Housings"
+          }
+        },
+        {
+          "code": "G01C 19/567",
+          "title": {
+            "ko": null,
+            "en": "using the phase shift of a vibration node or antinode"
+          }
+        },
+        {
+          "code": "G01C 19/5677",
+          "title": {
+            "ko": null,
+            "en": "of essentially two-dimensional [2D] vibrators, e.g. ring-shaped vibrators"
+          }
+        },
+        {
+          "code": "G01C 19/5684",
+          "title": {
+            "ko": null,
+            "en": "the devices involving a micromechanical structure"
+          }
+        },
+        {
+          "code": "G01C 19/5691",
+          "title": {
+            "ko": null,
+            "en": "of essentially three-dimensional [3D] vibrators, e.g. wine glass-type vibrators"
+          }
+        },
+        {
+          "code": "G01C 19/5698",
+          "title": {
+            "ko": null,
+            "en": "using acoustic waves, e.g. surface acoustic wave gyros"
+          }
+        },
+        {
+          "code": "G01C 19/5705",
+          "title": {
+            "ko": null,
+            "en": "using masses driven in reciprocating rotary motion about an axis"
+          }
+        },
+        {
+          "code": "G01C 19/5712",
+          "title": {
+            "ko": null,
+            "en": "the devices involving a micromechanical structure"
+          }
+        },
+        {
+          "code": "G01C 19/5719",
+          "title": {
+            "ko": null,
+            "en": "using planar vibrating masses driven in a translation vibration along an axis"
+          }
+        },
+        {
+          "code": "G01C 19/5726",
+          "title": {
+            "ko": null,
+            "en": "Signal processing"
+          }
+        },
+        {
+          "code": "G01C 19/5733",
+          "title": {
+            "ko": null,
+            "en": "Structural details or topology"
+          }
+        },
+        {
+          "code": "G01C 19/574",
+          "title": {
+            "ko": null,
+            "en": "the devices having two sensing masses in anti-phase motion"
+          }
+        },
+        {
+          "code": "G01C 19/5747",
+          "title": {
+            "ko": null,
+            "en": "each sensing mass being connected to a driving mass, e.g. driving frames"
+          }
+        },
+        {
+          "code": "G01C 19/5755",
+          "title": {
+            "ko": null,
+            "en": "the devices having a single sensing mass"
+          }
+        },
+        {
+          "code": "G01C 19/5762",
+          "title": {
+            "ko": null,
+            "en": "the sensing mass being connected to a driving mass, e.g. driving frames"
+          }
+        },
+        {
+          "code": "G01C 19/5769",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing; Mounting; Housings"
+          }
+        },
+        {
+          "code": "G01C 19/5776",
+          "title": {
+            "ko": "그룹 G01C 19/5607에서 G01C 19/5719까지에 포함되는 장치에 대해 특정되지 않는 신호처리",
+            "en": "Signal processing not specific to any of the devices covered by groups G01C0019560700-G01C0019571900"
+          }
+        },
+        {
+          "code": "G01C 19/5783",
+          "title": {
+            "ko": "그룹 G01C 19/5607에서 G01C 19/5719까지에 포함되는 장치에 대해 특정되지 않는 설치 또는 하우징",
+            "en": "Mountings or housings not specific to any of the devices covered by groups G01C0019560700-G01C0019571900"
+          }
+        },
+        {
+          "code": "G01C 19/58",
+          "title": {
+            "ko": null,
+            "en": "Turn-sensitive devices without moving masses"
+          }
+        },
+        {
+          "code": "G01C 19/60",
+          "title": {
+            "ko": null,
+            "en": "Electronic or nuclear magnetic resonance gyrometers"
+          }
+        },
+        {
+          "code": "G01C 19/62",
+          "title": {
+            "ko": null,
+            "en": "with optical pumping"
+          }
+        },
+        {
+          "code": "G01C 19/64",
+          "title": {
+            "ko": null,
+            "en": "Gyrometers using the Sagnac effect, i.e. rotation-induced shifts between counter-rotating electromagnetic beams"
+          }
+        },
+        {
+          "code": "G01C 19/66",
+          "title": {
+            "ko": null,
+            "en": "Ring laser gyrometers"
+          }
+        },
+        {
+          "code": "G01C 19/68",
+          "title": {
+            "ko": null,
+            "en": "Lock-in prevention"
+          }
+        },
+        {
+          "code": "G01C 19/70",
+          "title": {
+            "ko": null,
+            "en": "by mechanical means"
+          }
+        },
+        {
+          "code": "G01C 19/72",
+          "title": {
+            "ko": null,
+            "en": "with counter-rotating light beams in a passive ring, e.g. fibre laser gyrometers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 21/00",
+      "title": {
+        "ko": "항법; G01C 1/00부터 G01C 19/00까지에 분류되어 있지 않은 항법 장치(운송수단에 의한 대지이동거리의 측정 G01R 22/00; 운송수단의 위치, 진로, 고도, 또는 자세의 제어 G05D 1/00; 차량으로의 운행정보 송신을 포함하는 도로 운송수단을 위한 교통제어 시스템 G08G 1/0968)",
+        "en": "Navigation; Navigational instruments not provided for in groups G01C0001000000-G01C0019000000 (measuring distance traversed on the ground by a vehicle G01C0022000000;control of position, course, altitude or attitude of vehicles G05D0001000000;traffic control systems for road vehicles involving transmission of navigation instructions to the vehicle G08G0001096800)"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 21/02",
+          "title": {
+            "ko": "천문학적 수단에 의한 것(G01C 21/24, G01C 21/26 이 우선)",
+            "en": "by astronomical means (G01C0021240000, G01C0021260000 take precedence)"
+          }
+        },
+        {
+          "code": "G01C 21/04",
+          "title": {
+            "ko": "지구상의 수단에 의한 것(G01C 21/24, G01C 21/26 이 우선)",
+            "en": "by terrestrial means (G01C0021240000, G01C0021260000 take precedence)"
+          }
+        },
+        {
+          "code": "G01C 21/06",
+          "title": {
+            "ko": null,
+            "en": "involving measuring of drift angle; involving correction for drift"
+          }
+        },
+        {
+          "code": "G01C 21/08",
+          "title": {
+            "ko": null,
+            "en": "involving use of the magnetic field of the earth"
+          }
+        },
+        {
+          "code": "G01C 21/10",
+          "title": {
+            "ko": "속도 또는 가속도의 측정을 사용하는 것(G01C 21/24, G01C 21/26이 우선)",
+            "en": "by using measurement of speed or acceleration (G01C0021240000, G01C0021260000 take precedence)"
+          }
+        },
+        {
+          "code": "G01C 21/12",
+          "title": {
+            "ko": "항행체상에서 실시되는 것; 추측항법(推測航法, dead reckoning)",
+            "en": "executed aboard the object being navigated; Dead reckoning"
+          }
+        },
+        {
+          "code": "G01C 21/14",
+          "title": {
+            "ko": "항행체가 통과하는 경로를 기록하는 것에 의한 것(G01C 21/16이 우선)",
+            "en": "by recording the course traversed by the object (G01C0021160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G01C 21/16",
+          "title": {
+            "ko": null,
+            "en": "by integrating acceleration or speed, i.e. inertial navigation"
+          }
+        },
+        {
+          "code": "G01C 21/18",
+          "title": {
+            "ko": null,
+            "en": "Stabilised platforms, e.g. by gyroscope"
+          }
+        },
+        {
+          "code": "G01C 21/20",
+          "title": {
+            "ko": "항법 계산을 하는 기기(G01C 21/24, G01C 21/26이 우선)",
+            "en": "Instruments for performing navigational calculations (G01C0021240000, G01C0021260000 take precedence)"
+          }
+        },
+        {
+          "code": "G01C 21/22",
+          "title": {
+            "ko": null,
+            "en": "Plotting boards"
+          }
+        },
+        {
+          "code": "G01C 21/24",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for cosmonautical navigation"
+          }
+        },
+        {
+          "code": "G01C 21/26",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for navigation in a road network"
+          }
+        },
+        {
+          "code": "G01C 21/28",
+          "title": {
+            "ko": null,
+            "en": "with correlation of data from several navigational instruments"
+          }
+        },
+        {
+          "code": "G01C 21/30",
+          "title": {
+            "ko": null,
+            "en": "Map- or contour-matching"
+          }
+        },
+        {
+          "code": "G01C 21/32",
+          "title": {
+            "ko": null,
+            "en": "Structuring or formatting of map data"
+          }
+        },
+        {
+          "code": "G01C 21/34",
+          "title": {
+            "ko": null,
+            "en": "Route searching; Route guidance"
+          }
+        },
+        {
+          "code": "G01C 21/36",
+          "title": {
+            "ko": null,
+            "en": "Input/output arrangements for on-board computers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 22/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring distance traversed on the ground by vehicles, persons, animals or other moving solid bodies, e.g. using odometers or using pedometers"
+      },
+      "subgroups": [
+        {
+          "code": "G01C 22/02",
+          "title": {
+            "ko": null,
+            "en": "by conversion into electric waveforms and subsequent integration, e.g. using tachometer generator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01C 23/00",
+      "title": {
+        "ko": null,
+        "en": "Combined instruments indicating more than one navigational value, e.g. for aircraft; Combined measuring devices for measuring two or more variables of movement, e.g. distance, speed or acceleration"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01C 25/00",
+      "title": {
+        "ko": "이 서브클래스의 다른 그룹에 관련된 계기 및 장치의 제조, 교정, 청소, 수리(컴퍼스 시험, 교정 또는 보상 G01C 17/38)",
+        "en": "Manufacturing, calibrating, cleaning, or repairing instruments or devices referred to in the other groups of this subclass (testing, calibrating, or compensating compasses G01C0017380000)"
+      },
+      "subgroups": []
+    }
+  ]
+}

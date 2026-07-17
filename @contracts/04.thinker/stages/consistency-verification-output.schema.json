@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "contradictions": {
+      "type": "array"
+    },
+    "verified_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mathematical_analysis": {
+      "type": "object"
+    },
+    "ambiguous_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "contradictions",
+    "verified_claims",
+    "mathematical_analysis",
+    "ambiguous_terms"
+  ]
+}

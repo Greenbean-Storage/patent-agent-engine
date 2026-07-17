@@ -1,0 +1,943 @@
+{
+  "subclass": "F02D",
+  "title": {
+    "ko": null,
+    "en": "CONTROLLING COMBUSTION ENGINES (vehicle fittings, acting on a single sub-unit only, for automatically controlling vehicle speed B60K31/00; conjoint control of vehicle sub-units of different type or different function, road vehicle drive control systems for purposes other than the control of a single sub-unit B60W)"
+  },
+  "groups": [
+    {
+      "code": "F02D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling fuel-injection pumps, e.g. of high pressure injection type (F02D3/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 2001/0005",
+          "title": {
+            "ko": null,
+            "en": "{Details, component parts or accessories of centrifugal governors}"
+          }
+        },
+        {
+          "code": "F02D 2001/007",
+          "title": {
+            "ko": null,
+            "en": "{Means for adjusting stops for minimum and maximum fuel delivery}"
+          }
+        },
+        {
+          "code": "F02D 2001/0085",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements using fuel pressure for controlling fuel delivery in quantity or timing}"
+          }
+        },
+        {
+          "code": "F02D 2001/0095",
+          "title": {
+            "ko": null,
+            "en": "{Mounting of control means with respect to injection apparatus or the engine}"
+          }
+        },
+        {
+          "code": "F02D 1/02",
+          "title": {
+            "ko": null,
+            "en": "not restricted to adjustment of injection timing, e.g. varying amount of fuel delivered"
+          }
+        },
+        {
+          "code": "F02D 1/16",
+          "title": {
+            "ko": null,
+            "en": "Adjustment of injection timing (F02D1/02 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling low-pressure fuel injection, i.e. where the fuel-air mixture containing fuel thus injected will be substantially compressed by the compression stroke of the engine, by means other than controlling only an injection pump"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 3/02",
+          "title": {
+            "ko": null,
+            "en": "with continuous injection or continuous flow upstream of the injection nozzle"
+          }
+        },
+        {
+          "code": "F02D 3/04",
+          "title": {
+            "ko": null,
+            "en": "Controlling fuel-injection and carburation, e.g. of alternative systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Other fuel-injection control"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 7/002",
+          "title": {
+            "ko": null,
+            "en": "{Throttling of fuel passages between pumps and injectors or overflow passages (low-pressure fuel injection F02M69/00)}"
+          }
+        },
+        {
+          "code": "F02D 7/02",
+          "title": {
+            "ko": null,
+            "en": "Controlling fuel injection where fuel is injected by compressed air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines by throttling air or fuel-and-air induction conduits or exhaust conduits"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 9/02",
+          "title": {
+            "ko": null,
+            "en": "concerning induction conduits (throttle valves, or arrangements thereof in conduits F02D9/08)"
+          }
+        },
+        {
+          "code": "F02D 9/04",
+          "title": {
+            "ko": null,
+            "en": "concerning exhaust conduits (throttle valves, or arrangements thereof in conduits F02D9/08)"
+          }
+        },
+        {
+          "code": "F02D 9/08",
+          "title": {
+            "ko": null,
+            "en": "Throttle valves specially adapted therefor; Arrangements of such valves in conduits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for, or adaptations to, non-automatic engine control initiation means, e.g. operator initiated (specially for reversing F02D27/00)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 11/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by hand, foot, or like operator controlled initiation means"
+          }
+        },
+        {
+          "code": "F02D 11/04",
+          "title": {
+            "ko": null,
+            "en": "characterised by mechanical control linkages (F02D11/06 takes precedence)"
+          }
+        },
+        {
+          "code": "F02D 11/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by non-mechanical control linkages, e.g. fluid control linkages or by control linkages with power drive or assistance"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling the engine output power by varying inlet or exhaust valve operating characteristics, e.g. timing"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 2013/005",
+          "title": {
+            "ko": null,
+            "en": "{of throttleless spark ignited engines}"
+          }
+        },
+        {
+          "code": "F02D 13/02",
+          "title": {
+            "ko": null,
+            "en": "during engine operation"
+          }
+        },
+        {
+          "code": "F02D 13/08",
+          "title": {
+            "ko": null,
+            "en": "for rendering engine inoperative or idling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Varying compression ratio"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 15/02",
+          "title": {
+            "ko": null,
+            "en": "by alteration or displacement of piston stroke"
+          }
+        },
+        {
+          "code": "F02D 15/04",
+          "title": {
+            "ko": null,
+            "en": "by alteration of volume of compression space without changing piston stroke"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 17/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines by cutting out individual cylinders; Rendering engines inoperative or idling (controlling or rendering inoperative by varying inlet or exhaust valve operating characteristics F02D13/00)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 17/02",
+          "title": {
+            "ko": null,
+            "en": "Cutting-out (cutting-out engines in multiple engine arrangements F02D25/04)"
+          }
+        },
+        {
+          "code": "F02D 17/04",
+          "title": {
+            "ko": null,
+            "en": "rendering engines inoperative or idling, e.g. caused by abnormal conditions (dependent on lubricating conditions F01M1/22; dependent on cooling F01P5/14)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 19/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines characterised by their use of non-liquid fuels, pluralities of fuels, or non-fuel substances added to the combustible mixtures (the non-fuel substances being gaseous F02D21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 19/02",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines working with gaseous fuels"
+          }
+        },
+        {
+          "code": "F02D 19/04",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines working with solid fuels, e.g. pulverised coal"
+          }
+        },
+        {
+          "code": "F02D 19/06",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines working with pluralities of fuels, e.g. alternatively with light and heavy fuel oil, other than engines indifferent to the fuel consumed"
+          }
+        },
+        {
+          "code": "F02D 19/12",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines working with non-fuel substances or with anti-knock agents, e.g. with anti-knock fuel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines characterised by their being supplied with non-airborne oxygen or other non-fuel gas"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 21/02",
+          "title": {
+            "ko": null,
+            "en": "peculiar to oxygen-fed engines"
+          }
+        },
+        {
+          "code": "F02D 21/06",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines having other non-fuel gas added to combustion air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 23/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines characterised by their being supercharged"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 23/005",
+          "title": {
+            "ko": null,
+            "en": "{with the supercharger being mechanically driven by the engine (supercharger drives F02B39/00)}"
+          }
+        },
+        {
+          "code": "F02D 23/02",
+          "title": {
+            "ko": null,
+            "en": "the engines being of fuel-injection type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 25/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling two or more co-operating engines"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 25/02",
+          "title": {
+            "ko": null,
+            "en": "to synchronise speed"
+          }
+        },
+        {
+          "code": "F02D 25/04",
+          "title": {
+            "ko": null,
+            "en": "by cutting-out engines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines characterised by their being reversible"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 27/02",
+          "title": {
+            "ko": null,
+            "en": "by performing a program"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 28/00",
+      "title": {
+        "ko": null,
+        "en": "Program control of engines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 29/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines, such controlling being peculiar to the devices driven thereby, the devices being other than parts or accessories essential to engine operation, e.g. controlling of engines by signals external thereto"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 29/02",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines driving vehicles; peculiar to engines driving variable pitch propellers"
+          }
+        },
+        {
+          "code": "F02D 29/04",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines driving pumps"
+          }
+        },
+        {
+          "code": "F02D 29/06",
+          "title": {
+            "ko": null,
+            "en": "peculiar to engines driving electric generators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Use of speed-sensing governors to control combustion engines, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 31/001",
+          "title": {
+            "ko": null,
+            "en": "{Electric control of rotation speed}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 33/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling delivery of fuel or combustion-air, not otherwise provided for {(using exhaust gas sensors F02D35/0023, F02D35/0046)}"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 33/003",
+          "title": {
+            "ko": null,
+            "en": "{Controlling the feeding of liquid fuel from storage containers to carburettors or fuel-injection apparatus (control of electrical fuel pumps F02D41/3082, controlling fuel flow to a common rail F02D41/3845); Failure or leakage prevention; Diagnosis or detection of failure; Arrangement of sensors in the fuel system; Electric wiring; Electrostatic discharge}"
+          }
+        },
+        {
+          "code": "F02D 33/02",
+          "title": {
+            "ko": null,
+            "en": "of combustion-air"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 35/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling engines, dependent on conditions exterior or interior to engines, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 35/0007",
+          "title": {
+            "ko": null,
+            "en": "{using electrical feedback (F02D35/0015 takes precedence)}"
+          }
+        },
+        {
+          "code": "F02D 35/0015",
+          "title": {
+            "ko": null,
+            "en": "{using exhaust gas sensors (F02D41/14 takes precedence)}"
+          }
+        },
+        {
+          "code": "F02D 35/02",
+          "title": {
+            "ko": null,
+            "en": "on interior conditions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 37/00",
+      "title": {
+        "ko": null,
+        "en": "Non-electrical conjoint control of two or more functions of engines, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 37/02",
+          "title": {
+            "ko": null,
+            "en": "one of the functions being ignition"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 39/00",
+      "title": {
+        "ko": null,
+        "en": "Other non-electrical control"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 39/02",
+          "title": {
+            "ko": null,
+            "en": "for four-stroke engines"
+          }
+        },
+        {
+          "code": "F02D 39/04",
+          "title": {
+            "ko": null,
+            "en": "for engines with other cycles than four-stroke, e.g. two-stroke"
+          }
+        },
+        {
+          "code": "F02D 39/06",
+          "title": {
+            "ko": null,
+            "en": "for engines adding the fuel substantially at the end of compression stroke"
+          }
+        },
+        {
+          "code": "F02D 39/08",
+          "title": {
+            "ko": null,
+            "en": "for engines adding the fuel substantially before compression stroke"
+          }
+        },
+        {
+          "code": "F02D 39/10",
+          "title": {
+            "ko": null,
+            "en": "for free-piston engines; for engines without rotary main shaft"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 41/00",
+      "title": {
+        "ko": null,
+        "en": "Electrical control of supply of combustible mixture or its constituents (F02D43/00 takes precedence {; control of engine starters F02N11/08, electrical control of engine ignition timing F02P5/145})"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 41/0002",
+          "title": {
+            "ko": null,
+            "en": "{Controlling intake air}"
+          }
+        },
+        {
+          "code": "F02D 41/0025",
+          "title": {
+            "ko": null,
+            "en": "{Controlling engines characterised by use of non-liquid fuels, pluralities of fuels, or non-fuel substances added to the combustible mixtures}"
+          }
+        },
+        {
+          "code": "F02D 41/008",
+          "title": {
+            "ko": null,
+            "en": "{Controlling each cylinder individually}"
+          }
+        },
+        {
+          "code": "F02D 41/009",
+          "title": {
+            "ko": null,
+            "en": "{using means for generating position or synchronisation signals}"
+          }
+        },
+        {
+          "code": "F02D 41/0097",
+          "title": {
+            "ko": null,
+            "en": "{using means for generating speed signals}"
+          }
+        },
+        {
+          "code": "F02D 41/02",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for generating control signals"
+          }
+        },
+        {
+          "code": "F02D 41/20",
+          "title": {
+            "ko": null,
+            "en": "Output circuits, e.g. for controlling currents in command coils"
+          }
+        },
+        {
+          "code": "F02D 41/22",
+          "title": {
+            "ko": null,
+            "en": "Safety or indicating devices for abnormal conditions {(in air/fuel ratio feedback systems F02D41/1495, in electric control linkage F02D11/107, in purge control systems F02M25/0809)}"
+          }
+        },
+        {
+          "code": "F02D 41/24",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of digital means"
+          }
+        },
+        {
+          "code": "F02D 41/30",
+          "title": {
+            "ko": null,
+            "en": "Controlling fuel injection {(F02D41/182,  F02D41/24 take precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 43/00",
+      "title": {
+        "ko": null,
+        "en": "Conjoint electrical control of two or more functions, e.g. ignition, fuel-air mixture, recirculation, supercharging or exhaust-gas treatment"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 43/02",
+          "title": {
+            "ko": null,
+            "en": "using only analogue means"
+          }
+        },
+        {
+          "code": "F02D 43/04",
+          "title": {
+            "ko": null,
+            "en": "using only digital means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 45/00",
+      "title": {
+        "ko": null,
+        "en": "Electrical control not provided for in groups F02D41/00 - F02D43/00"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02D 2200/00",
+      "title": {
+        "ko": null,
+        "en": "Input parameters for engine control"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 2200/02",
+          "title": {
+            "ko": null,
+            "en": "the parameters being related to the engine"
+          }
+        },
+        {
+          "code": "F02D 2200/50",
+          "title": {
+            "ko": null,
+            "en": "said parameters being related to the vehicle or its components"
+          }
+        },
+        {
+          "code": "F02D 2200/60",
+          "title": {
+            "ko": null,
+            "en": "said parameters being related to the driver demands or status"
+          }
+        },
+        {
+          "code": "F02D 2200/70",
+          "title": {
+            "ko": null,
+            "en": "said parameters being related to the vehicle exterior"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 2250/00",
+      "title": {
+        "ko": null,
+        "en": "Engine control related to specific problems or objectives"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 2250/02",
+          "title": {
+            "ko": null,
+            "en": "Fuel evaporation in fuel rails, e.g. in common rails"
+          }
+        },
+        {
+          "code": "F02D 2250/04",
+          "title": {
+            "ko": null,
+            "en": "Fuel pressure pulsation in common rails"
+          }
+        },
+        {
+          "code": "F02D 2250/06",
+          "title": {
+            "ko": null,
+            "en": "Reverse rotation of engine"
+          }
+        },
+        {
+          "code": "F02D 2250/08",
+          "title": {
+            "ko": null,
+            "en": "Engine blow-by from crankcase chamber"
+          }
+        },
+        {
+          "code": "F02D 2250/11",
+          "title": {
+            "ko": null,
+            "en": "Oil dilution, i.e. prevention thereof or special controls according thereto"
+          }
+        },
+        {
+          "code": "F02D 2250/12",
+          "title": {
+            "ko": null,
+            "en": "Timing of calculation, i.e. specific timing aspects when calculation or updating of engine parameter is performed"
+          }
+        },
+        {
+          "code": "F02D 2250/14",
+          "title": {
+            "ko": null,
+            "en": "Timing of measurement, e.g. synchronisation of measurements to the engine cycle"
+          }
+        },
+        {
+          "code": "F02D 2250/16",
+          "title": {
+            "ko": null,
+            "en": "End position calibration, i.e. calculation or measurement of actuator end positions, e.g. for throttle or its driving actuator"
+          }
+        },
+        {
+          "code": "F02D 2250/18",
+          "title": {
+            "ko": null,
+            "en": "Control of the engine output torque"
+          }
+        },
+        {
+          "code": "F02D 2250/28",
+          "title": {
+            "ko": null,
+            "en": "Control for reducing torsional vibrations, e.g. at acceleration"
+          }
+        },
+        {
+          "code": "F02D 2250/31",
+          "title": {
+            "ko": null,
+            "en": "Control of the fuel pressure"
+          }
+        },
+        {
+          "code": "F02D 2250/32",
+          "title": {
+            "ko": null,
+            "en": "Air-fuel ratio control in a diesel engine"
+          }
+        },
+        {
+          "code": "F02D 2250/34",
+          "title": {
+            "ko": null,
+            "en": "Control of exhaust back pressure, e.g. for turbocharged engines"
+          }
+        },
+        {
+          "code": "F02D 2250/36",
+          "title": {
+            "ko": null,
+            "en": "Control for minimising NOx emissions"
+          }
+        },
+        {
+          "code": "F02D 2250/38",
+          "title": {
+            "ko": null,
+            "en": "Control for minimising smoke emissions, e.g. by applying smoke limitations on the fuel injection amount"
+          }
+        },
+        {
+          "code": "F02D 2250/41",
+          "title": {
+            "ko": null,
+            "en": "Control to generate negative pressure in the intake manifold, e.g. for fuel vapor purging or brake booster"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 2400/00",
+      "title": {
+        "ko": null,
+        "en": "Control systems adapted for specific engine types; Special features of engine control systems not otherwise provided for; Power supply, connectors or cabling for engine control systems"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 2400/02",
+          "title": {
+            "ko": null,
+            "en": "Four-stroke combustion engines with electronic control"
+          }
+        },
+        {
+          "code": "F02D 2400/04",
+          "title": {
+            "ko": null,
+            "en": "Two-stroke combustion engines with electronic control"
+          }
+        },
+        {
+          "code": "F02D 2400/06",
+          "title": {
+            "ko": null,
+            "en": "Small engines with electronic control, e.g. for hand held tools"
+          }
+        },
+        {
+          "code": "F02D 2400/08",
+          "title": {
+            "ko": null,
+            "en": "Redundant elements, e.g. two sensors for measuring the same parameter"
+          }
+        },
+        {
+          "code": "F02D 2400/11",
+          "title": {
+            "ko": null,
+            "en": "After-sales modification devices designed to be used to modify an engine afterwards"
+          }
+        },
+        {
+          "code": "F02D 2400/12",
+          "title": {
+            "ko": null,
+            "en": "Engine control specially adapted for a transmission comprising a torque converter or for continuously variable transmissions"
+          }
+        },
+        {
+          "code": "F02D 2400/14",
+          "title": {
+            "ko": null,
+            "en": "Power supply for engine control systems"
+          }
+        },
+        {
+          "code": "F02D 2400/16",
+          "title": {
+            "ko": null,
+            "en": "Adaptation of engine control systems to a different battery voltages, e.g. for using high voltage batteries"
+          }
+        },
+        {
+          "code": "F02D 2400/18",
+          "title": {
+            "ko": null,
+            "en": "Packaging of the electronic circuit in a casing"
+          }
+        },
+        {
+          "code": "F02D 2400/21",
+          "title": {
+            "ko": null,
+            "en": "Engine cover with integrated cabling"
+          }
+        },
+        {
+          "code": "F02D 2400/22",
+          "title": {
+            "ko": null,
+            "en": "Connectors or cables specially adapted for engine management applications"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02D 2700/00",
+      "title": {
+        "ko": null,
+        "en": "Mechanical control of speed or power of a single cylinder piston engine"
+      },
+      "subgroups": [
+        {
+          "code": "F02D 2700/02",
+          "title": {
+            "ko": null,
+            "en": "Controlling by changing the air or fuel supply"
+          }
+        },
+        {
+          "code": "F02D 2700/03",
+          "title": {
+            "ko": null,
+            "en": "Controlling by changing the compression ratio"
+          }
+        },
+        {
+          "code": "F02D 2700/04",
+          "title": {
+            "ko": null,
+            "en": "Controlling by throttling the exhaust conduit"
+          }
+        },
+        {
+          "code": "F02D 2700/05",
+          "title": {
+            "ko": null,
+            "en": "Controlling by preventing combustion in one or more cylinders"
+          }
+        },
+        {
+          "code": "F02D 2700/07",
+          "title": {
+            "ko": null,
+            "en": "Automatic control systems according to one of the preceding groups in combination with control of the mechanism receiving the engine power"
+          }
+        },
+        {
+          "code": "F02D 2700/09",
+          "title": {
+            "ko": null,
+            "en": "Other ways of controlling"
+          }
+        },
+        {
+          "code": "F02D 2700/10",
+          "title": {
+            "ko": null,
+            "en": "Control of the timing of the fuel supply period with relation to the piston movement"
+          }
+        }
+      ]
+    }
+  ]
+}

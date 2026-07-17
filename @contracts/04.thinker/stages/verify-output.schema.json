@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "is_valid": {
+      "type": "boolean"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_scope": {
+      "type": "string"
+    },
+    "improved_claim": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "is_valid",
+    "issues",
+    "claim_scope",
+    "improved_claim"
+  ]
+}

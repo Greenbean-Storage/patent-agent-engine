@@ -1,0 +1,147 @@
+{
+  "title": "Pipeline Definition (P{NN} 포맷)",
+  "description": "DRC P{NN}.R{NN}.{UPPER_SNAKE} 포맷의 pipeline JSON. 구설계 (W{NN}, step.type, sub_pipeline, parallel_task 등) 폐기.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["description", "common", "steps"],
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "파이프라인 요약 — entry/sub 와 관계없이 1줄 설명."
+    },
+    "common": {
+      "type": "object",
+      "description": "pipeline 레벨 4-layer cascading 단위. 모든 step 에 자동 머지.",
+      "additionalProperties": false,
+      "properties": {
+        "inject_context": { "type": "object" },
+        "recommended_context": { "type": "object" },
+        "fragments": { "type": "object" },
+        "llm_tools": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "dispatch_to": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["actions"],
+          "properties": {
+            "actions": {
+              "type": "array",
+              "description": "각 enum 값에 매핑된 다음 chain pipeline_id 들. 빈 list = exit.",
+              "items": {
+                "type": "array",
+                "items": { "type": "string", "pattern": "^P\\d{2}\\.R\\d{2}\\.[A-Z][A-Z0-9_]*$" }
+              }
+            },
+            "max_self_recursion": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "self-recursion 가드 — 같은 pipeline_id 가 ancestor chain 에 N 회 이상 누적되면 dispatch 거부. optional, default 무한."
+            }
+          }
+        }
+      ]
+    },
+    "steps": {
+      "type": "array",
+      "description": "step list — dict (단일 step) 또는 nested list (정적 병렬 group).",
+      "items": {
+        "oneOf": [
+          { "$ref": "#/$defs/Step" },
+          {
+            "type": "array",
+            "items": { "$ref": "#/$defs/Step" }
+          }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "Step": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "step 식별자 (optional). 명시하면 loader 가 보존·walker 가 honor. 정적 병렬 묶음(nested list) sub 는 같은 위치 인덱스를 공유하므로 충돌 방지 위해 명시 필수 (stage 15 강제). 없으면 walker 가 위치 인덱스 부여."
+        },
+        "description": { "type": "string" },
+        "inject_context": { "type": "object" },
+        "recommended_context": { "type": "object" },
+        "fragments": { "type": "object" },
+        "instructions": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "LLM step 의 지시. inline (짧은 텍스트) XOR reference (@pipelines/.../*.md 경로) 중 정확히 1개. instructions 있으면 LLM step.",
+          "properties": {
+            "inline": {
+              "type": "string",
+              "description": "짧은 인라인 지침 텍스트."
+            },
+            "reference": {
+              "type": "string",
+              "pattern": "^@pipelines/[A-Za-z0-9_./]+\\.md$",
+              "description": "@pipelines/.../{step}.md 경로. composer 가 파일 read."
+            }
+          },
+          "oneOf": [
+            { "required": ["inline"] },
+            { "required": ["reference"] }
+          ]
+        },
+        "llm_tools": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "fetch_dialog",
+              "fetch_step_output",
+              "fetch_drawing",
+              "list_drawings",
+              "fetch_outputs",
+              "fetch_conversation"
+            ]
+          },
+          "description": "LLM 의 self-chain fetch tool — cross-persona 도구 금지."
+        },
+        "output_contract": {
+          "type": "string",
+          "description": "@contracts/<persona>/stages/<id>.schema.json 의 id (확장자 제외)."
+        },
+        "tool": {
+          "type": "string",
+          "description": "DRO direct tool — LLM 없는 빠른 경로. tool 있으면 tool step."
+        },
+        "params": {
+          "type": "object",
+          "description": "tool step 의 params (DRO 가 substitute_placeholders 처리)."
+        },
+        "bind": {
+          "type": "string",
+          "description": "tool step 결과 바인딩 key (optional)."
+        },
+        "max_iterations": {
+          "type": "integer",
+          "description": "LLM SDK 내부 iteration cap (optional)."
+        },
+        "display_status": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["ko"],
+          "description": "production WS 의 progress 이벤트로 forward 되는 사람-친화 상태 텍스트(모든 RT 시작 시). progress 쓰는 파이프라인은 전 RT step 필수(#6 — validate stage3 강제). 없으면 generic fallback(\"진행 중…\"). DRC 식별자(chain/rt/persona) 노출 방지의 핵심.",
+          "properties": {
+            "ko": { "type": "string", "description": "한글 상태 텍스트 (예: \"선행기술 검색 중…\")" },
+            "en": { "type": "string" }
+          }
+        }
+      },
+      "oneOf": [
+        { "required": ["instructions"] },
+        { "required": ["tool"] }
+      ]
+    }
+  }
+}

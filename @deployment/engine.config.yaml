@@ -1,0 +1,108 @@
+# engine.config.yaml — persona 정의 + LLM/tool 운영 설정의 단일 진실 원천 (SoT).
+#
+# - committed 파일. 빌드타임 COPY → Actor 이미지 /app/engine.config.yaml (Dockerfile).
+#   변경 반영 = make up 풀 rebuild (부분 반영 룰 없음).
+# - Actor 소스코드는 persona 를 모른다 (테이블/열거 0) — 이 파일이 유일한 출처.
+#   로더 = 300.Actor/src/engine_config.py (스키마 형태만 아는 범용 로더, fail-loud).
+# - 스키마 명세 = @deployment/engine-config.schema.json (JSON Schema Draft 7).
+#   검증 = validate stage 12 (스키마 + persona-id 4원 정합: channels.py · PERSONA_DIRS · @pipelines).
+# - channel/memory_dir 의 기계 소비자(Nexus event_mapper, CM/DRO 경로)는 코드 상수를 유지하되
+#   validate 가 본 파일과 일치를 강제한다 (개념 SoT = 이 파일, 코드 = 게이트로 묶인 미러).
+# - max_concurrency 류 cap 은 동시성 계약(재설계 CHUNK 3)에서 집행 — 그 전까지는 정의 데이터.
+# - effort 1급 공통 키 (claude→effort, openai→reasoning_effort, gemini→thinking 번역).
+#   vendor 전용 추가 옵션은 llm_settings (adapter 가 아는 키만 read — passthrough).
+#   초기값 = vendor default 동등 (claude high / openai medium / gemini 생략) — 도입 시점 동작 동등.
+
+schema_version: 1
+
+personas:
+  "1":
+    name: Buddy
+    role: 응대 — 사용자 대화 + 멀티모달 입력 직접 처리 + 발명 정보 누적
+    channel: support
+    memory_dir: 01.buddy
+    llm:
+      sdk: gemini
+      model: gemini-3.1-pro-preview
+      fallback_model: gemini-3-flash-preview
+    max_concurrency: 4
+  "2":
+    name: Director
+    role: 총괄 — 구체화 진단(CDS/CMM/UR) + IOM 소유 + 작업 지휘
+    channel: analysis
+    memory_dir: 02.director
+    llm:
+      sdk: claude
+      model: claude-opus-4-7
+      fallback_model: claude-opus-4-7
+      effort: high
+    max_concurrency: 2
+  "3":
+    name: Finder
+    role: 조사 — KIPRIS 선행기술 검색 + 커버리지 평가
+    channel: research
+    memory_dir: 03.finder
+    llm:
+      sdk: gemini
+      model: gemini-3.1-pro-preview
+      fallback_model: gemini-3-flash-preview
+    max_concurrency: 3
+  "4":
+    name: Thinker
+    role: 추론 — 신규성/배타성 비교 분석 + claim chart
+    channel: thinking
+    memory_dir: 04.thinker
+    llm:
+      sdk: openai
+      model: o3
+      fallback_model: o3
+      effort: medium
+    max_concurrency: 2
+  "5":
+    name: Crafter
+    role: 작성 — 도면 DL/명세 작성
+    channel: drafting
+    memory_dir: 05.crafter
+    llm:
+      sdk: claude
+      model: claude-opus-4-7
+      fallback_model: claude-opus-4-7
+      effort: high
+    max_concurrency: 2
+  "6":
+    name: Inspector
+    role: 검토 — 산출물(도면 등) 검수 + pass/fail 판정
+    channel: review
+    memory_dir: 06.inspector
+    llm:
+      sdk: gemini
+      model: gemini-3.1-pro-preview
+      fallback_model: gemini-3-flash-preview
+    max_concurrency: 3
+
+vendors:
+  claude:
+    retry: { max_attempts: 3, backoff_seconds: [2, 5, 10] }
+  gemini:
+    retry: { max_attempts: 3, backoff_seconds: [2, 5, 10] }
+  openai:
+    retry: { max_attempts: 3, backoff_seconds: [2, 5, 10] }
+
+tools:
+  max_concurrency: 4
+  media_describe:
+    model: gemini-3.1-pro-preview
+  kipris:
+    max_concurrency: 3
+    timeout_s: 30
+    max_results: 30
+    max_results_per_query: 10
+    base_url: http://plus.kipris.or.kr/kipo-api/kipi
+    cache: { max_size: 1024, ttl_s: 3600 }
+  drawing:
+    render_timeout_s: 120
+
+defaults:
+  max_iterations: 10
+  schema_retry: 1
+  cm_http_timeout_s: 60

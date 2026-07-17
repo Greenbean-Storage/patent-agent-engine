@@ -1,0 +1,74 @@
+{
+  "title": "ChatComposeOutput",
+  "description": "P01.R00.CHAT_CONVERSATION step 1 (compose) — step 0 의 assessment 보고 사용자 응답 작성. internal_analysis 는 meta 로만 보존, content 에 노출 X. nullable 패턴 회피 — special_case='none' 으로 정상 응대 표현, missing_aspect 빈 문자열로 미설정 표현.",
+  "type": "object",
+  "required": ["response_text", "assistant_turn"],
+  "additionalProperties": false,
+  "properties": {
+    "response_text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "사용자에게 표시될 응답 본문 (한국어). assistant_turn.content 와 동일."
+    },
+    "assistant_turn": {
+      "type": "object",
+      "required": ["role", "content", "meta"],
+      "additionalProperties": false,
+      "properties": {
+        "role": { "type": "string", "enum": ["assistant"] },
+        "content": {
+          "type": "string",
+          "minLength": 1,
+          "description": "사용자 응답 본문 (한국어, persona_prompt 톤 + guidelines.tone 적용)."
+        },
+        "meta": {
+          "type": "object",
+          "required": [
+            "intent_label",
+            "internal_analysis",
+            "iom_completeness_hint",
+            "special_case"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "intent_label": {
+              "type": "string",
+              "description": "step 0 의 intent_label 그대로 복사 — conversation 누적 시 P02 가 보고 참조."
+            },
+            "internal_analysis": {
+              "type": "string",
+              "description": "step 0 의 internal_analysis 그대로 복사 — conversation 누적 시 분석 자취 보존. 사용자에게 노출되지 않음 (별도 필드)."
+            },
+            "iom_completeness_hint": {
+              "type": "object",
+              "required": ["score", "missing_aspect"],
+              "additionalProperties": false,
+              "description": "step 0 의 iom_completeness 압축 (score + 핵심 missing 1개). missing_aspect 가 없으면 빈 문자열. P02 가 IOM patch 우선순위 단서로.",
+              "properties": {
+                "score": { "type": "number", "minimum": 0, "maximum": 1 },
+                "missing_aspect": {
+                  "type": "string",
+                  "description": "없으면 빈 문자열 ''."
+                }
+              }
+            },
+            "special_case": {
+              "type": "string",
+              "enum": [
+                "none",
+                "inappropriate",
+                "illegal_request",
+                "not_own_invention",
+                "creative_request",
+                "off_topic",
+                "system_intrusion",
+                "legal_advice"
+              ],
+              "description": "step 0 의 special_case 그대로. 'none' = 정상 응대."
+            }
+          }
+        }
+      }
+    }
+  }
+}

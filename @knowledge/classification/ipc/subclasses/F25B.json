@@ -1,0 +1,877 @@
+{
+  "subclass": "F25B",
+  "title": {
+    "ko": "냉동기계, 플랜트(Plants) 또는 시스템; 가열과 냉동을 조합한 시스템; 히트 펌프시스템",
+    "en": "REFRIGERATION MACHINES, PLANTS OR SYSTEMS; COMBINED HEATING AND REFRIGERATION SYSTEMS; HEAT PUMP SYSTEMS"
+  },
+  "definition": {
+    "ko": "작동방식 압축식 사이클에 특징이 있는 것 F25B1/00, F25B13/00 배열에 특징이 있는 것 압축기를 내장한 회전식의 것; 수개의 증발회로가 있는 것; 수개의 응축기 회로가 있는 것; 캐스케이드(CASCADE) 식에 의한 것 F25B3/00; 5/00; 6/00; 7/00 냉매(REFRIGERANT)에 특징이 있는 것 F25B9/00 터빈(TURBINE)을 이용하는 것 F25B11/00 수착(SORPTION)식 F25B15/00, F25B17/00 단일의 작동양식을 가지는 다른 형식의 것; 회수하지 않는 증발을 이용한 것; 전기 또는 자기효과를 이용한 것; 기타 효과 를 이용한 것 F25B19/00, F25B21/00, F25B23/00 조합; 작동양식의 조합; 가열과 냉동의 조합 F25B25/00; 29/00 히트펌프 F25B30/00 특수 에너지원의 사용 F25B27/00 세부, 배치 또는 구성부품 구성부품; 보일러(BOILER), 애너라이저(ANALYSER), 정류기; 수착식 기계용 보일러(BOILER ABSORBER); 흡수기,흡착기; 증발기, 응축기; 과냉각기, 디슈퍼히터(DESUPERHEATER), 슈퍼히이터(SUPERHEATER) F25B33/00; 35/00; 37/00; 39/00; 40/00 배치 압축기의 배치; 유체의 순환; 기체의 분리 또는 불순물 제거 F25B31/00; 41/00; 43/00 냉매의 충전 또는 배출을 위한 것; 부식 또는 부착물에 대한 대책을 위한 것 F25B45/00; 47/00 제어 및 안전장치의 마운팅 F25B49/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F25B 1/00",
+      "title": {
+        "ko": "비가역사이클에 의한 압축식 기계, 플랜트 및 시스템 (F25B 3/00, F25B 5/00, F25B 6/00, F25B 7/00, F25B 9/00이 우선)",
+        "en": "Compression machines, plants or systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 1/00",
+      "title": {
+        "ko": "비가역사이클에 의한 압축식 기계, 플랜트 및 시스템 (F25B 3/00, F25B 5/00, F25B 6/00, F25B 7/00, F25B 9/00이 우선)",
+        "en": "Compression machines, plants or systems with non-reversible cycle (F25B0003000000, F25B0005000000, F25B0006000000, F25B0007000000, F25B0009000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 1/02",
+          "title": {
+            "ko": "왕복피스톤식 압축기에 의한 것(F25B 1/10이 우선)",
+            "en": "with compressor of reciprocating-piston type (F25B0001100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 1/04",
+          "title": {
+            "ko": "회전식 압축기에 의한 것(F25B 1/10이 우선)",
+            "en": "with compressor of rotary type (F25B0001100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 1/047",
+          "title": {
+            "ko": null,
+            "en": "of screw type"
+          }
+        },
+        {
+          "code": "F25B 1/053",
+          "title": {
+            "ko": null,
+            "en": "of turbine type"
+          }
+        },
+        {
+          "code": "F25B 1/06",
+          "title": {
+            "ko": "제트(제트식 압축기에 의한 것, 예. 가압액체를 이용하는 것 F25B 1/10이 우선)",
+            "en": "with compressor of jet type, e.g. using liquid under pressure (F25B0001100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 1/08",
+          "title": {
+            "ko": null,
+            "en": "using vapour under pressure"
+          }
+        },
+        {
+          "code": "F25B 1/10",
+          "title": {
+            "ko": "다단압축에 의한 것(캐스케이드식 F25B 7/00)",
+            "en": "with multi-stage compression (with cascade operation F25B0007000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Self-contained rotary compression machines, i.e. with compressor, condenser and evaporator rotating as a single unit"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 5/00",
+      "title": {
+        "ko": "수 개의 증발기 회로, 예. 냉동용량이 가변인 것를 가진 압축식 기계, 플랜트 또는 시스템(캐스케이드식 F25B 7/00)",
+        "en": "Compression machines, plants or systems, with several evaporator circuits, e.g. for varying refrigerating capacity (with cascade operation F25B0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 5/02",
+          "title": {
+            "ko": null,
+            "en": "arranged in parallel"
+          }
+        },
+        {
+          "code": "F25B 5/04",
+          "title": {
+            "ko": null,
+            "en": "arranged in series"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 6/00",
+      "title": {
+        "ko": null,
+        "en": "Compression machines, plants or systems, with several condenser circuits"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 6/02",
+          "title": {
+            "ko": null,
+            "en": "arranged in parallel"
+          }
+        },
+        {
+          "code": "F25B 6/04",
+          "title": {
+            "ko": null,
+            "en": "arranged in series"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 7/00",
+      "title": {
+        "ko": "캐스케이드형의 압축식 기계, 플랜트 또는 시스템, 즉. 2개 이상의 회로가 있는 것으로서 1회로의 응축기 발생열이 다음 회로의 증발기에 흡수되는 것(F25B 9/00이 우선)",
+        "en": "Compression machines, plants or systems, with cascade operation, i.e. with two or more circuits, the heat from the condenser of one circuit being absorbed by the evaporator of the next circuit (F25B0009000000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 9/00",
+      "title": {
+        "ko": "공기등의 저비등점 기체를 냉매로 한 압축식 기계, 플랜트 또는 시스템",
+        "en": "Compression machines, plants or systems, in which the refrigerant is air or other gas of low boiling point"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 9/02",
+          "title": {
+            "ko": null,
+            "en": "using Joule-Thompson effect; using vortex effect"
+          }
+        },
+        {
+          "code": "F25B 9/04",
+          "title": {
+            "ko": null,
+            "en": "using vortex effect"
+          }
+        },
+        {
+          "code": "F25B 9/06",
+          "title": {
+            "ko": "팽창기를 이용하는 것(F25B 9/10이 우선)",
+            "en": "using expanders (F25B0009100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 9/08",
+          "title": {
+            "ko": "이젝터(ejector)를 이용하는 것(F25B 9/10이 우선)",
+            "en": "using ejectors (F25B0009100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 9/10",
+          "title": {
+            "ko": null,
+            "en": "with several cooling stages"
+          }
+        },
+        {
+          "code": "F25B 9/12",
+          "title": {
+            "ko": null,
+            "en": "using 3He-4He dilution"
+          }
+        },
+        {
+          "code": "F25B 9/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by the cycle used, e.g. Stirling cycle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 11/00",
+      "title": {
+        "ko": "터빈, 예. 가스 터빈을 이용한 압축식 기계, 플랜트 또는 시스템",
+        "en": "Compression machines, plants or systems, using turbines, e.g. gas turbines"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 11/02",
+          "title": {
+            "ko": "팽창기로 이용한 것(F25B 9/06이 우선)",
+            "en": "as expanders (F25B0009060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 11/04",
+          "title": {
+            "ko": null,
+            "en": "centrifugal type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 13/00",
+      "title": {
+        "ko": "가역사이클을 이용한 압축식 기계, 플랜트 또는 시스템 (제상 사이클 F25B47/02)",
+        "en": "Compression machines, plants or systems, with reversible cycle (defrosting cycles F25B0047020000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 15/00",
+      "title": {
+        "ko": "연속작동형 수착식 기계, 플랜트 또는 시스템, 예. 흡수식",
+        "en": "Sorption machines, plants or systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 15/00",
+      "title": {
+        "ko": "연속작동형 수착식 기계, 플랜트 또는 시스템, 예. 흡수식",
+        "en": "Sorption machines, plants or systems, operating continuously, e.g. absorption type"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 15/02",
+          "title": {
+            "ko": "불활성가스를 이용하지 않는 것(F02B 15/12, F02B 15/14, F02B 15/16이 우선)",
+            "en": "without inert gas (F25B0015120000, F25B0015140000, F25B0015160000 take precedence)"
+          }
+        },
+        {
+          "code": "F25B 15/04",
+          "title": {
+            "ko": null,
+            "en": "the refrigerant being ammonia evaporated from aqueous solution"
+          }
+        },
+        {
+          "code": "F25B 15/06",
+          "title": {
+            "ko": null,
+            "en": "the refrigerant being water vapour evaporated from a salt solution, e.g. lithium bromide"
+          }
+        },
+        {
+          "code": "F25B 15/08",
+          "title": {
+            "ko": null,
+            "en": "the refrigerant being sulfuric acid"
+          }
+        },
+        {
+          "code": "F25B 15/09",
+          "title": {
+            "ko": null,
+            "en": "the refrigerant being hydrogen desorbed from a hydride"
+          }
+        },
+        {
+          "code": "F25B 15/10",
+          "title": {
+            "ko": "불활성가스에 의한 것(F25B 15/12, F25B 15/14, F25B 15/16이 우선)",
+            "en": "with inert gas (F25B0015120000, F25B0015140000, F25B0015160000 take precedence)"
+          }
+        },
+        {
+          "code": "F25B 15/12",
+          "title": {
+            "ko": "재흡수기가 있는 것(F25B 15/14가 우선)",
+            "en": "with resorber (F25B0015140000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 15/14",
+          "title": {
+            "ko": null,
+            "en": "using osmosis"
+          }
+        },
+        {
+          "code": "F25B 15/16",
+          "title": {
+            "ko": null,
+            "en": "using desorption cycle"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 17/00",
+      "title": {
+        "ko": "간헐작동형 수착식 기계, 플랜트 또는 시스템, 예. 흡수 또는 흡착식",
+        "en": "Sorption machines, plants or systems, operating intermittently, e.g. absorption or adsorption type"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 17/02",
+          "title": {
+            "ko": "흡수제 또는 흡착제가 액상인 것, 예. 염수인 것F25B 17/10이 우선)",
+            "en": "the absorbent or adsorbent being a liquid, e.g. brine (F25B0017100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 17/04",
+          "title": {
+            "ko": null,
+            "en": "with two or more boilers operating alternately"
+          }
+        },
+        {
+          "code": "F25B 17/06",
+          "title": {
+            "ko": null,
+            "en": "with the boiler and evaporator built-up as a unit in a tiltable or revolving arrangement"
+          }
+        },
+        {
+          "code": "F25B 17/08",
+          "title": {
+            "ko": "흡수제 또는 흡착제가 고체인 것, 예. 염인 것(F25B 17/12가 우선)",
+            "en": "the absorbent or adsorbent being a solid, e.g. salt (F25B0017120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F25B 17/10",
+          "title": {
+            "ko": null,
+            "en": "using the endothermic solution of salt"
+          }
+        },
+        {
+          "code": "F25B 17/12",
+          "title": {
+            "ko": null,
+            "en": "using desorption of hydrogen from a hydride"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Machines, plants or systems, with a single mode of operation, not covered by groups F25B0001000000-F25B0017000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 19/00",
+      "title": {
+        "ko": null,
+        "en": "Machines, plants or systems, using evaporation of a refrigerant but without recovery of the vapour"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 19/02",
+          "title": {
+            "ko": null,
+            "en": "using fluid jet, e.g. of steam"
+          }
+        },
+        {
+          "code": "F25B 19/04",
+          "title": {
+            "ko": null,
+            "en": "using liquid jet, e.g. of water"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 21/00",
+      "title": {
+        "ko": null,
+        "en": "Machines, plants or systems, using electric or magnetic effects"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 21/02",
+          "title": {
+            "ko": null,
+            "en": "using Peltier effect; using Nernst-Ettinghausen effect"
+          }
+        },
+        {
+          "code": "F25B 21/04",
+          "title": {
+            "ko": null,
+            "en": "reversible"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 23/00",
+      "title": {
+        "ko": "그룹 F25B 1/00에서 F25B 21/00에 속하지 않는 단일의 작동양식, 예. 선택적인 축사효과를 이용하는 것을 가지는 플랜트 또는 시스템",
+        "en": "Machines, plants or systems, with a single mode of operation not covered by groups F25B0001000000-F25B0021000000, e.g. using selective radiation effect"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 25/00",
+      "title": {
+        "ko": "그룹 F25B 1/00에서 F25B 23/00중의 2개 이상의 그룹에 속하는 작동양식을 조합시킨 형식의 기계, 플랜트 또는 시스템",
+        "en": "Machines, plants or systems, using a combination of modes of operation covered by two or more of the groups F25B0001000000-F25B0023000000"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 25/02",
+          "title": {
+            "ko": null,
+            "en": "Compression-sorption machines, plants, or systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 27/00",
+      "title": {
+        "ko": "특수한 에너지원을 이용하는 기계, 플랜트 또는 시스템",
+        "en": "Machines, plants or systems, using particular sources of energy (F25B0030060000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 27/02",
+          "title": {
+            "ko": null,
+            "en": "using waste heat, e.g. from internal-combustion engines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 29/00",
+      "title": {
+        "ko": null,
+        "en": "Combined heating and refrigeration systems, e.g. operating alternately or simultaneously"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 30/00",
+      "title": {
+        "ko": "히트 펌프(heat pump) (F25B 1/00 ~ F25B 25/00, F25B 29/00이 우선)",
+        "en": "Heat pumps (F25B0001000000-F25B0025000000, F25B0029000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 30/02",
+          "title": {
+            "ko": null,
+            "en": "of the compression type"
+          }
+        },
+        {
+          "code": "F25B 30/04",
+          "title": {
+            "ko": null,
+            "en": "of the sorption type"
+          }
+        },
+        {
+          "code": "F25B 30/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by the source of low potential heat"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 31/00",
+      "title": {
+        "ko": null,
+        "en": "Component parts or details"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 31/00",
+      "title": {
+        "ko": null,
+        "en": "Compressor arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 31/02",
+          "title": {
+            "ko": null,
+            "en": "of motor-compressor units"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 33/00",
+      "title": {
+        "ko": "보일러; 애널라이저(analyser); 정유기(흡수기 겸용 보일러(boiler absorber)",
+        "en": "Boilers; Analysers; Rectifiers (boiler-absorbers F25B0035000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 35/00",
+      "title": {
+        "ko": null,
+        "en": "Boiler-absorbers, i.e. boilers usable for absorption or adsorption"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 35/02",
+          "title": {
+            "ko": null,
+            "en": "using a liquid as sorbent, e.g. brine"
+          }
+        },
+        {
+          "code": "F25B 35/04",
+          "title": {
+            "ko": null,
+            "en": "using a solid as sorbent"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 37/00",
+      "title": {
+        "ko": "흡수기; 흡착기 (흡수기 겸용 보일러 F25B 35/00)",
+        "en": "Absorbers; Adsorbers (boiler-absorbers F25B0035000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 39/00",
+      "title": {
+        "ko": null,
+        "en": "Evaporators; Condensers"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 39/02",
+          "title": {
+            "ko": null,
+            "en": "Evaporators"
+          }
+        },
+        {
+          "code": "F25B 39/04",
+          "title": {
+            "ko": null,
+            "en": "Condensers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 40/00",
+      "title": {
+        "ko": null,
+        "en": "Subcoolers, desuperheaters or superheaters"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 40/02",
+          "title": {
+            "ko": null,
+            "en": "Subcoolers"
+          }
+        },
+        {
+          "code": "F25B 40/04",
+          "title": {
+            "ko": null,
+            "en": "Desuperheaters"
+          }
+        },
+        {
+          "code": "F25B 40/06",
+          "title": {
+            "ko": null,
+            "en": "Superheaters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 41/00",
+      "title": {
+        "ko": "유체 순환 장치",
+        "en": "Fluid-circulation arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 41/10",
+          "title": {
+            "ko": null,
+            "en": "using electro-osmosis"
+          }
+        },
+        {
+          "code": "F25B 41/20",
+          "title": {
+            "ko": "밸브 처리, 예. on-off 밸브 또는 유량 제어 밸브 (확장 밸브 F25B41/31)",
+            "en": "Disposition of valves, e.g. of on-off valves or flow control valves  (expansion valves F25B0041310000)"
+          }
+        },
+        {
+          "code": "F25B 41/22",
+          "title": {
+            "ko": null,
+            "en": "between evaporator and compressor"
+          }
+        },
+        {
+          "code": "F25B 41/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of shut-off valves for disconnecting a part of the refrigerant cycle, e.g. an outdoor part"
+          }
+        },
+        {
+          "code": "F25B 41/26",
+          "title": {
+            "ko": null,
+            "en": "of fluid flow reversing valves"
+          }
+        },
+        {
+          "code": "F25B 41/28",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for sorption cycles"
+          }
+        },
+        {
+          "code": "F25B 41/30",
+          "title": {
+            "ko": null,
+            "en": "Expansion means; Dispositions thereof"
+          }
+        },
+        {
+          "code": "F25B 41/31",
+          "title": {
+            "ko": null,
+            "en": "Expansion valves"
+          }
+        },
+        {
+          "code": "F25B 41/315",
+          "title": {
+            "ko": null,
+            "en": "actuated by floats"
+          }
+        },
+        {
+          "code": "F25B 41/32",
+          "title": {
+            "ko": null,
+            "en": "having flow rate limiting means other than the valve member, e.g. having bypass orifices in the valve body"
+          }
+        },
+        {
+          "code": "F25B 41/325",
+          "title": {
+            "ko": null,
+            "en": "having two or more valve members"
+          }
+        },
+        {
+          "code": "F25B 41/33",
+          "title": {
+            "ko": null,
+            "en": "with the valve member being actuated by the fluid pressure, e.g. by the pressure of the refrigerant"
+          }
+        },
+        {
+          "code": "F25B 41/335",
+          "title": {
+            "ko": null,
+            "en": "via diaphragms"
+          }
+        },
+        {
+          "code": "F25B 41/34",
+          "title": {
+            "ko": null,
+            "en": "with the valve member being actuated by electric means, e.g. by piezoelectric actuators"
+          }
+        },
+        {
+          "code": "F25B 41/345",
+          "title": {
+            "ko": null,
+            "en": "by solenoids"
+          }
+        },
+        {
+          "code": "F25B 41/35",
+          "title": {
+            "ko": null,
+            "en": "by rotary motors, e.g. by stepping motors"
+          }
+        },
+        {
+          "code": "F25B 41/355",
+          "title": {
+            "ko": null,
+            "en": "by electric heating of bimetal elements, shape memory elements or heat expanding elements"
+          }
+        },
+        {
+          "code": "F25B 41/36",
+          "title": {
+            "ko": null,
+            "en": "with the valve member being actuated by bimetal elements or shape-memory elements influenced by fluids, e.g. by the refrigerant"
+          }
+        },
+        {
+          "code": "F25B 41/37",
+          "title": {
+            "ko": null,
+            "en": "Capillary tubes"
+          }
+        },
+        {
+          "code": "F25B 41/375",
+          "title": {
+            "ko": null,
+            "en": "characterised by a variable restriction, e.g. restrictors made of shape memory alloy"
+          }
+        },
+        {
+          "code": "F25B 41/38",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for reversible cycles, e.g. bidirectional expansion restrictors"
+          }
+        },
+        {
+          "code": "F25B 41/385",
+          "title": {
+            "ko": null,
+            "en": "Dispositions with two or more expansion means arranged in parallel on a refrigerant line leading to the same evaporator"
+          }
+        },
+        {
+          "code": "F25B 41/39",
+          "title": {
+            "ko": null,
+            "en": "Dispositions with two or more expansion means arranged in series, i.e. multi-stage expansion, on a refrigerant line leading to the same evaporator"
+          }
+        },
+        {
+          "code": "F25B 41/40",
+          "title": {
+            "ko": null,
+            "en": "Fluid line arrangements"
+          }
+        },
+        {
+          "code": "F25B 41/42",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for diverging or converging flows, e.g. branch lines or junctions"
+          }
+        },
+        {
+          "code": "F25B 41/45",
+          "title": {
+            "ko": null,
+            "en": "for flow control on the upstream side of the diverging point, e.g. with spiral structure for generating turbulence"
+          }
+        },
+        {
+          "code": "F25B 41/48",
+          "title": {
+            "ko": null,
+            "en": "for flow path resistance control on the downstream side of the diverging point, e.g. by an orifice"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 43/00",
+      "title": {
+        "ko": "기체 또는 액체의 분리 또는 정제장치(애널라이저 또는 정류기에 관한 것 F25B 33/00); 액체냉매의 찌꺼기를 증발시키는 장치, 예. 가열에 의한 것(F25B 40/00이 우선)",
+        "en": "Arrangements for separating or purifying gases or liquids (in analysers or rectifiers F25B0033000000); Arrangements for vaporising the residuum of liquid refrigerant, e.g. by heat (F25B0040000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 43/02",
+          "title": {
+            "ko": null,
+            "en": "for separating lubricants from the refrigerant"
+          }
+        },
+        {
+          "code": "F25B 43/04",
+          "title": {
+            "ko": null,
+            "en": "for withdrawing non-condensible gases"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 45/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for charging or discharging refrigerant"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F25B 47/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for preventing or removing deposits or corrosion, not provided for in another subclass"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 47/02",
+          "title": {
+            "ko": null,
+            "en": "Defrosting cycles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F25B 49/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangement or mounting of control or safety devices"
+      },
+      "subgroups": [
+        {
+          "code": "F25B 49/02",
+          "title": {
+            "ko": null,
+            "en": "for compression type machines, plants or systems"
+          }
+        },
+        {
+          "code": "F25B 49/04",
+          "title": {
+            "ko": null,
+            "en": "for sorption type machines, plants or systems"
+          }
+        }
+      ]
+    }
+  ]
+}

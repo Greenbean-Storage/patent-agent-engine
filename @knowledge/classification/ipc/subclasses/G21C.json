@@ -1,0 +1,1646 @@
+{
+  "subclass": "G21C",
+  "title": {
+    "ko": "원자로(핵융합로, 핵융합-분열노 G21B; 핵폭발 G21J)",
+    "en": "NUCLEAR REACTORS (fusion reactors, hybrid fission-fusion reactors G21B;nuclear explosives G21J)"
+  },
+  "definition": {
+    "ko": "원자로 G21C1/00 원자로 구성요소 연료; 감속재; 냉각; 용기; 차폐 G21C3/00; G21C5/00; G21C15/00; G21C13/00; G21C11/00 연료 또는 기타 물질의 취급 G21C19/00 제어; 모니터링, 검사 G21C7/00; G21C17/00 긴급 방호 G21C9/00 제조 G21C21/00 실험 또는 조사를 위한 원자로의 적용 G21C23/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G21C 1/00",
+      "title": {
+        "ko": "원자로의 종류",
+        "en": "Reactor types"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 1/02",
+          "title": {
+            "ko": null,
+            "en": "Fast fission reactors, i.e. reactors not using a moderator"
+          }
+        },
+        {
+          "code": "G21C 1/03",
+          "title": {
+            "ko": null,
+            "en": "cooled by a coolant not essentially pressurised, e.g. pool-type reactors"
+          }
+        },
+        {
+          "code": "G21C 1/04",
+          "title": {
+            "ko": "열중성자로",
+            "en": "Thermal reactors"
+          }
+        },
+        {
+          "code": "G21C 1/06",
+          "title": {
+            "ko": "비균질로, 즉 연료의 감속재가 분리하여 있는 것",
+            "en": "Heterogeneous reactors, i.e. in which fuel and moderator are separated"
+          }
+        },
+        {
+          "code": "G21C 1/07",
+          "title": {
+            "ko": null,
+            "en": "Pebble-bed reactors; Reactors with granular fuel"
+          }
+        },
+        {
+          "code": "G21C 1/08",
+          "title": {
+            "ko": "감속재가 고압으로 가압되어 있는 것, 예. 비등수형 원자로, 적분 과열형 원자로, 가압수형 원자로 (1/22가 우선)",
+            "en": "moderator being highly pressurised, e.g. boiling-water reactor, integral-superheat reactor, pressurised-water reactor (G21C0001220000 takes precedence)"
+          }
+        },
+        {
+          "code": "G21C 1/09",
+          "title": {
+            "ko": null,
+            "en": "Pressure regulating arrangements, i.e. pressurisers"
+          }
+        },
+        {
+          "code": "G21C 1/10",
+          "title": {
+            "ko": null,
+            "en": "moderator and coolant being different or separated"
+          }
+        },
+        {
+          "code": "G21C 1/12",
+          "title": {
+            "ko": null,
+            "en": "moderator being solid, e.g. Magnox reactor"
+          }
+        },
+        {
+          "code": "G21C 1/14",
+          "title": {
+            "ko": "감속재가 실질적으로 가압되어 있지 않는 것, 예. 수영푸울(pool)형 원자로(1/22가 우선)",
+            "en": "moderator being substantially not pressurised, e.g. swimming-pool reactor (G21C0001220000 takes precedence)"
+          }
+        },
+        {
+          "code": "G21C 1/16",
+          "title": {
+            "ko": null,
+            "en": "moderator and coolant being different or separated, e.g. sodium-graphite reactor"
+          }
+        },
+        {
+          "code": "G21C 1/18",
+          "title": {
+            "ko": null,
+            "en": "coolant being pressurised"
+          }
+        },
+        {
+          "code": "G21C 1/20",
+          "title": {
+            "ko": null,
+            "en": "moderator being liquid, e.g. pressure-tube reactor"
+          }
+        },
+        {
+          "code": "G21C 1/22",
+          "title": {
+            "ko": null,
+            "en": "using liquid or gaseous fuel"
+          }
+        },
+        {
+          "code": "G21C 1/24",
+          "title": {
+            "ko": null,
+            "en": "Homogeneous reactors, i.e. in which fuel and moderator present an effectively homogeneous medium to the neutrons"
+          }
+        },
+        {
+          "code": "G21C 1/26",
+          "title": {
+            "ko": null,
+            "en": "Single-region reactors"
+          }
+        },
+        {
+          "code": "G21C 1/28",
+          "title": {
+            "ko": null,
+            "en": "Two-region reactors"
+          }
+        },
+        {
+          "code": "G21C 1/30",
+          "title": {
+            "ko": null,
+            "en": "Subcritical reactors"
+          }
+        },
+        {
+          "code": "G21C 1/32",
+          "title": {
+            "ko": "적분형 원자로, 즉 기능적으로 원자로와 관련하고 있지만 반응에는 필수가 아닌 부분, 예. 열교환기의 내부에 배치되어 있는 원자로(1/02 ～ 1/30이 우선)",
+            "en": "Integral reactors, i.e. reactors wherein parts functionally associated with the reactor but not essential to the reaction, e.g. heat exchangers, are disposed inside the enclosure with the core (G21C0001020000-G21C0001300000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 3/00",
+      "title": {
+        "ko": "원자로 연료요소 또는 그 집합체; 원자로 연료요소로 사용하기 위한 물질의 선택",
+        "en": "Reactor fuel elements or their assemblies; Selection of substances for use as reactor fuel elements"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 3/02",
+          "title": {
+            "ko": "연료요소",
+            "en": "Fuel elements"
+          }
+        },
+        {
+          "code": "G21C 3/04",
+          "title": {
+            "ko": "구조의 세부",
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "G21C 3/06",
+          "title": {
+            "ko": null,
+            "en": "Casings; Jackets"
+          }
+        },
+        {
+          "code": "G21C 3/07",
+          "title": {
+            "ko": null,
+            "en": "characterised by their material, e.g. alloys"
+          }
+        },
+        {
+          "code": "G21C 3/08",
+          "title": {
+            "ko": null,
+            "en": "provided with external means to promote heat-transfer, e.g. fins, baffles, corrugations"
+          }
+        },
+        {
+          "code": "G21C 3/10",
+          "title": {
+            "ko": null,
+            "en": "End closures"
+          }
+        },
+        {
+          "code": "G21C 3/12",
+          "title": {
+            "ko": null,
+            "en": "Means forming part of the element for locating it within the reactor core; External spacers for this purpose"
+          }
+        },
+        {
+          "code": "G21C 3/14",
+          "title": {
+            "ko": null,
+            "en": "Means forming part of the element for inserting it into, or removing it from, the core; Means for coupling adjacent elements"
+          }
+        },
+        {
+          "code": "G21C 3/16",
+          "title": {
+            "ko": "연료피복관내의 세부구조",
+            "en": "Details of the construction within the casing"
+          }
+        },
+        {
+          "code": "G21C 3/17",
+          "title": {
+            "ko": null,
+            "en": "Means for storage or immobilisation of gases in fuel elements"
+          }
+        },
+        {
+          "code": "G21C 3/18",
+          "title": {
+            "ko": "내부에 시설되는 스페이서 또는 연료피복관내의 그외의 비활성물질, 예. 연료봉의 팽창의 보상 (중간층 3/20)",
+            "en": "Internal spacers or other non-active material within the casing, e.g. compensating for expansion of fuel rods or for compensating excess reactivity (interlayers G21C0003200000)"
+          }
+        },
+        {
+          "code": "G21C 3/20",
+          "title": {
+            "ko": null,
+            "en": "with coating on fuel or on inside of casing; with non-active interlayer between casing and active material"
+          }
+        },
+        {
+          "code": "G21C 3/22",
+          "title": {
+            "ko": null,
+            "en": "with fissile or breeder material in contact with coolant"
+          }
+        },
+        {
+          "code": "G21C 3/24",
+          "title": {
+            "ko": null,
+            "en": "with fissile or breeder material in fluid form within a non-active casing"
+          }
+        },
+        {
+          "code": "G21C 3/26",
+          "title": {
+            "ko": null,
+            "en": "with fissile or breeder material in powder form within a non-active casing"
+          }
+        },
+        {
+          "code": "G21C 3/28",
+          "title": {
+            "ko": null,
+            "en": "with fissile or breeder material in solid form within a non-active casing"
+          }
+        },
+        {
+          "code": "G21C 3/30",
+          "title": {
+            "ko": "고정유닛의 형상을 취하는 다수의 연료요소의 집합체",
+            "en": "Assemblies of a number of fuel elements in the form of a rigid unit"
+          }
+        },
+        {
+          "code": "G21C 3/32",
+          "title": {
+            "ko": "평형배열의 핀(pin)상 봉상 또는 관상의 연료요소의 다발(속)",
+            "en": "Bundles of parallel pin-, rod-, or tube-shaped fuel elements"
+          }
+        },
+        {
+          "code": "G21C 3/322",
+          "title": {
+            "ko": null,
+            "en": "Means to influence the coolant flow through or around the bundles"
+          }
+        },
+        {
+          "code": "G21C 3/324",
+          "title": {
+            "ko": null,
+            "en": "Coats or envelopes for the bundles"
+          }
+        },
+        {
+          "code": "G21C 3/326",
+          "title": {
+            "ko": null,
+            "en": "comprising fuel elements of different composition; Comprising, in addition to the fuel elements, other pin-, rod-, or tube-shaped elements, e.g. control rods, grid support rods, fertile rods, poison rods or dummy rods"
+          }
+        },
+        {
+          "code": "G21C 3/328",
+          "title": {
+            "ko": null,
+            "en": "Relative disposition of the elements in the bundle lattice"
+          }
+        },
+        {
+          "code": "G21C 3/33",
+          "title": {
+            "ko": "연료요소다발에서 연료요소를 지지하거나 현가하는 것(스페이서 격자 3/34); 노심으로부터 연료요소를 삽입하거나 제거하기 위하여 다발의 일부를 형성 하는 수단; 인접다발을 결합하기 위한 수단",
+            "en": "Supporting or hanging of elements in the bundle (spacer grids G21C0003340000); Means forming part of the bundle for inserting it into, or removing it from, the core; Means for coupling adjacent bundles"
+          }
+        },
+        {
+          "code": "G21C 3/332",
+          "title": {
+            "ko": null,
+            "en": "Supports for spacer grids"
+          }
+        },
+        {
+          "code": "G21C 3/334",
+          "title": {
+            "ko": null,
+            "en": "Assembling the bundles"
+          }
+        },
+        {
+          "code": "G21C 3/335",
+          "title": {
+            "ko": null,
+            "en": "Exchanging elements in irradiated bundles"
+          }
+        },
+        {
+          "code": "G21C 3/336",
+          "title": {
+            "ko": "연료요소의 다발에서 연료봉을 위한 스페이서 요소 (스페이서 그리드 3/34)",
+            "en": "Spacer elements for fuel rods in the bundle (spacer grids G21C0003340000)"
+          }
+        },
+        {
+          "code": "G21C 3/338",
+          "title": {
+            "ko": null,
+            "en": "Helicoidal spacer elements"
+          }
+        },
+        {
+          "code": "G21C 3/34",
+          "title": {
+            "ko": null,
+            "en": "Spacer grids"
+          }
+        },
+        {
+          "code": "G21C 3/344",
+          "title": {
+            "ko": null,
+            "en": "formed of assembled tubular elements"
+          }
+        },
+        {
+          "code": "G21C 3/348",
+          "title": {
+            "ko": null,
+            "en": "formed of assembled non-intersecting strips"
+          }
+        },
+        {
+          "code": "G21C 3/352",
+          "title": {
+            "ko": null,
+            "en": "formed of assembled intersecting strips"
+          }
+        },
+        {
+          "code": "G21C 3/356",
+          "title": {
+            "ko": null,
+            "en": "being provided with fuel element supporting members"
+          }
+        },
+        {
+          "code": "G21C 3/36",
+          "title": {
+            "ko": null,
+            "en": "Assemblies of plate-shaped fuel elements or coaxial tubes"
+          }
+        },
+        {
+          "code": "G21C 3/38",
+          "title": {
+            "ko": null,
+            "en": "Fuel units consisting of a single fuel element in a supporting sleeve"
+          }
+        },
+        {
+          "code": "G21C 3/40",
+          "title": {
+            "ko": "핵분열에 의한 열에서 직접 전기에너지를 발생시키기 위한 열전소자와 연료요소와의 조합(온도 조정 장치를 구비한 연료요소의 구조적 결합 G21C 17/112)",
+            "en": "Structural combination of fuel element with thermoelectric element for direct production of electric energy from fission heat (structural combination of fuel element with instruments for temperature measurement G21C0017112000)"
+          }
+        },
+        {
+          "code": "G21C 3/42",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for use as reactor fuel"
+          }
+        },
+        {
+          "code": "G21C 3/44",
+          "title": {
+            "ko": null,
+            "en": "Fluid or fluent reactor fuel"
+          }
+        },
+        {
+          "code": "G21C 3/46",
+          "title": {
+            "ko": null,
+            "en": "Aqueous compositions"
+          }
+        },
+        {
+          "code": "G21C 3/48",
+          "title": {
+            "ko": null,
+            "en": "True or colloidal solutions of the active constituent"
+          }
+        },
+        {
+          "code": "G21C 3/50",
+          "title": {
+            "ko": null,
+            "en": "Suspensions of the active constituent; Slurries"
+          }
+        },
+        {
+          "code": "G21C 3/52",
+          "title": {
+            "ko": null,
+            "en": "Liquid metal compositions"
+          }
+        },
+        {
+          "code": "G21C 3/54",
+          "title": {
+            "ko": null,
+            "en": "Fused salt, oxide, or hydroxide compositions"
+          }
+        },
+        {
+          "code": "G21C 3/56",
+          "title": {
+            "ko": null,
+            "en": "Gaseous compositions; Suspensions in a gaseous carrier"
+          }
+        },
+        {
+          "code": "G21C 3/58",
+          "title": {
+            "ko": null,
+            "en": "Solid reactor fuel"
+          }
+        },
+        {
+          "code": "G21C 3/60",
+          "title": {
+            "ko": null,
+            "en": "Metallic fuel; Intermetallic dispersions"
+          }
+        },
+        {
+          "code": "G21C 3/62",
+          "title": {
+            "ko": null,
+            "en": "Ceramic fuel"
+          }
+        },
+        {
+          "code": "G21C 3/64",
+          "title": {
+            "ko": null,
+            "en": "Ceramic dispersion fuel, e.g. cermet"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 5/00",
+      "title": {
+        "ko": null,
+        "en": "Moderator or core structure; Selection of materials for use as moderator"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G21C 5/04",
+          "title": {
+            "ko": null,
+            "en": "Spatial arrangements allowing for Wigner growth"
+          }
+        },
+        {
+          "code": "G21C 5/06",
+          "title": {
+            "ko": null,
+            "en": "Means for locating or supporting fuel elements"
+          }
+        },
+        {
+          "code": "G21C 5/08",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing undesired asymmetric expansion of the complete structure"
+          }
+        },
+        {
+          "code": "G21C 5/10",
+          "title": {
+            "ko": null,
+            "en": "Means for supporting the complete structure"
+          }
+        },
+        {
+          "code": "G21C 5/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by composition, e.g. the moderator containing additional substances which ensure improved heat resistance of the moderator"
+          }
+        },
+        {
+          "code": "G21C 5/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by shape"
+          }
+        },
+        {
+          "code": "G21C 5/16",
+          "title": {
+            "ko": null,
+            "en": "Shape of its constituent parts"
+          }
+        },
+        {
+          "code": "G21C 5/18",
+          "title": {
+            "ko": null,
+            "en": "characterised by the provision of more than one active zone"
+          }
+        },
+        {
+          "code": "G21C 5/20",
+          "title": {
+            "ko": null,
+            "en": "wherein one zone contains fissile material and another zone contains breeder material"
+          }
+        },
+        {
+          "code": "G21C 5/22",
+          "title": {
+            "ko": null,
+            "en": "wherein one zone is a superheating zone"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 7/00",
+      "title": {
+        "ko": "원자핵반응의 제어",
+        "en": "Control of nuclear reaction"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 7/02",
+          "title": {
+            "ko": "원자로재료의 자기 제어성을 사용하는 것 (온도안정성이 있는 배치 7/32)",
+            "en": "by using self-regulating properties of reactor materials (arrangements that involve temperature stability G21C0007320000)"
+          }
+        },
+        {
+          "code": "G21C 7/04",
+          "title": {
+            "ko": "가연성 독물을 사용하는 것(연료봉에 있어서 가연성 독물 3/326)",
+            "en": "of burnable poisons (burnable poisons in fuel rods G21C0003326000)"
+          }
+        },
+        {
+          "code": "G21C 7/06",
+          "title": {
+            "ko": "중성자 흡수재의 적용에 의한 것, 즉. 산란 단면적보다도 훨씬 큰 흡수면적을 지니는 재료",
+            "en": "by application of neutron-absorbing material, i.e. material with absorption cross-section very much in excess of reflection cross-section"
+          }
+        },
+        {
+          "code": "G21C 7/08",
+          "title": {
+            "ko": "고체제어요소의 변위에 의한 것, 예. 제어봉",
+            "en": "by displacement of solid control elements, e.g. control rods"
+          }
+        },
+        {
+          "code": "G21C 7/10",
+          "title": {
+            "ko": null,
+            "en": "Construction of control elements"
+          }
+        },
+        {
+          "code": "G21C 7/103",
+          "title": {
+            "ko": null,
+            "en": "Control assemblies containing one or more absorbants as well as other elements, e.g. fuel or moderator elements"
+          }
+        },
+        {
+          "code": "G21C 7/107",
+          "title": {
+            "ko": null,
+            "en": "Control elements adapted for pebble-bed reactors"
+          }
+        },
+        {
+          "code": "G21C 7/11",
+          "title": {
+            "ko": null,
+            "en": "Deformable control elements, e.g. flexible, telescopic, articulated"
+          }
+        },
+        {
+          "code": "G21C 7/113",
+          "title": {
+            "ko": null,
+            "en": "Control elements made of flat elements; Control elements having cruciform cross-section"
+          }
+        },
+        {
+          "code": "G21C 7/117",
+          "title": {
+            "ko": null,
+            "en": "Clusters of control rods; Spider construction"
+          }
+        },
+        {
+          "code": "G21C 7/12",
+          "title": {
+            "ko": "제어요소를 소망의 위치에 이동시키는 수단 (긴급상황에서 제어봉을 반응로에 강하하는 것 G21C 9/02)",
+            "en": "Means for moving control elements to desired position (dropping control rods into the reactor core in an emergency G21C0009020000)"
+          }
+        },
+        {
+          "code": "G21C 7/14",
+          "title": {
+            "ko": null,
+            "en": "Mechanical drive arrangements"
+          }
+        },
+        {
+          "code": "G21C 7/16",
+          "title": {
+            "ko": null,
+            "en": "Hydraulic or pneumatic drive arrangements"
+          }
+        },
+        {
+          "code": "G21C 7/18",
+          "title": {
+            "ko": null,
+            "en": "Means for obtaining differential movement of control elements"
+          }
+        },
+        {
+          "code": "G21C 7/20",
+          "title": {
+            "ko": null,
+            "en": "Disposition of shock-absorbing devices"
+          }
+        },
+        {
+          "code": "G21C 7/22",
+          "title": {
+            "ko": null,
+            "en": "by displacement of a fluid or fluent neutron-absorbing material"
+          }
+        },
+        {
+          "code": "G21C 7/24",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for use as neutron-absorbing material"
+          }
+        },
+        {
+          "code": "G21C 7/26",
+          "title": {
+            "ko": null,
+            "en": "by displacement of the moderator or parts thereof"
+          }
+        },
+        {
+          "code": "G21C 7/27",
+          "title": {
+            "ko": null,
+            "en": "Spectral shift control"
+          }
+        },
+        {
+          "code": "G21C 7/28",
+          "title": {
+            "ko": null,
+            "en": "by displacement of the reflector or parts thereof"
+          }
+        },
+        {
+          "code": "G21C 7/30",
+          "title": {
+            "ko": null,
+            "en": "by displacement of reactor fuel or fuel elements"
+          }
+        },
+        {
+          "code": "G21C 7/32",
+          "title": {
+            "ko": null,
+            "en": "by varying flow of coolant through the core"
+          }
+        },
+        {
+          "code": "G21C 7/34",
+          "title": {
+            "ko": null,
+            "en": "by utilisation of a primary neutron source"
+          }
+        },
+        {
+          "code": "G21C 7/36",
+          "title": {
+            "ko": null,
+            "en": "Control circuits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 9/00",
+      "title": {
+        "ko": "원자로와 구조상 관련하는 긴급방호를 위한 구성 (긴급냉각을 위한 구성 15/18)",
+        "en": "Emergency protection arrangements structurally associated with the reactor (emergency cooling arrangements G21C0015180000)"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 9/004",
+          "title": {
+            "ko": null,
+            "en": "Pressure suppression"
+          }
+        },
+        {
+          "code": "G21C 9/008",
+          "title": {
+            "ko": null,
+            "en": "by rupture-discs or -diaphragms"
+          }
+        },
+        {
+          "code": "G21C 9/012",
+          "title": {
+            "ko": null,
+            "en": "by thermal accumulation or by steam condensation, e.g. ice condensers"
+          }
+        },
+        {
+          "code": "G21C 9/016",
+          "title": {
+            "ko": null,
+            "en": "Core catchers"
+          }
+        },
+        {
+          "code": "G21C 9/02",
+          "title": {
+            "ko": null,
+            "en": "Means for effecting very rapid reduction of the reactivity factor under fault conditions, e.g. reactor fuse"
+          }
+        },
+        {
+          "code": "G21C 9/027",
+          "title": {
+            "ko": null,
+            "en": "by fast movement of a solid, e.g. pebbles"
+          }
+        },
+        {
+          "code": "G21C 9/033",
+          "title": {
+            "ko": null,
+            "en": "by an absorbent fluid"
+          }
+        },
+        {
+          "code": "G21C 9/04",
+          "title": {
+            "ko": null,
+            "en": "Means for suppressing fires"
+          }
+        },
+        {
+          "code": "G21C 9/06",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing accumulation of explosives gases, e.g. recombiners"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 11/00",
+      "title": {
+        "ko": null,
+        "en": "Shielding structurally associated with the reactor"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 11/02",
+          "title": {
+            "ko": null,
+            "en": "Biological shielding"
+          }
+        },
+        {
+          "code": "G21C 11/04",
+          "title": {
+            "ko": null,
+            "en": "on waterborne craft"
+          }
+        },
+        {
+          "code": "G21C 11/06",
+          "title": {
+            "ko": null,
+            "en": "Reflecting shields, i.e. for minimising loss of neutrons"
+          }
+        },
+        {
+          "code": "G21C 11/08",
+          "title": {
+            "ko": null,
+            "en": "Thermal shields; Thermal linings, i.e. for dissipating heat from gamma radiation which would otherwise heat an outer biological shield"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 13/00",
+      "title": {
+        "ko": null,
+        "en": "Pressure vessels; Containment vessels; Containment in general"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 13/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G21C 13/024",
+          "title": {
+            "ko": null,
+            "en": "Supporting constructions for pressure vessels or containment vessels"
+          }
+        },
+        {
+          "code": "G21C 13/028",
+          "title": {
+            "ko": null,
+            "en": "Seals, e.g. for pressure vessels or containment vessels"
+          }
+        },
+        {
+          "code": "G21C 13/032",
+          "title": {
+            "ko": null,
+            "en": "Joints between tubes and vessel walls, e.g. taking into account thermal stresses"
+          }
+        },
+        {
+          "code": "G21C 13/036",
+          "title": {
+            "ko": null,
+            "en": "the tube passing through the vessel wall, i.e. continuing on both sides of the wall"
+          }
+        },
+        {
+          "code": "G21C 13/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for expansion and contraction"
+          }
+        },
+        {
+          "code": "G21C 13/06",
+          "title": {
+            "ko": null,
+            "en": "Sealing-plugs"
+          }
+        },
+        {
+          "code": "G21C 13/067",
+          "title": {
+            "ko": null,
+            "en": "for tubes, e.g. standpipes; Locking devices for plugs"
+          }
+        },
+        {
+          "code": "G21C 13/073",
+          "title": {
+            "ko": null,
+            "en": "Closures for reactor-vessels, e.g. rotatable"
+          }
+        },
+        {
+          "code": "G21C 13/08",
+          "title": {
+            "ko": null,
+            "en": "Vessels characterised by the material; Selection of materials for pressure vessels"
+          }
+        },
+        {
+          "code": "G21C 13/087",
+          "title": {
+            "ko": null,
+            "en": "Metallic vessels"
+          }
+        },
+        {
+          "code": "G21C 13/093",
+          "title": {
+            "ko": null,
+            "en": "Concrete vessels"
+          }
+        },
+        {
+          "code": "G21C 13/10",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing contamination in event of leakage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 15/00",
+      "title": {
+        "ko": "노심을 지니는 압력용기내의 냉각계 특정의 냉각재의 선택",
+        "en": "Cooling arrangements within the pressure vessel containing the core; Selection of specific coolants"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 15/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or disposition of passages in which heat is transferred to the coolant, e.g. for coolant circulation through the supports of the fuel elements"
+          }
+        },
+        {
+          "code": "G21C 15/04",
+          "title": {
+            "ko": null,
+            "en": "from fissile or breeder material"
+          }
+        },
+        {
+          "code": "G21C 15/06",
+          "title": {
+            "ko": null,
+            "en": "in fuel elements"
+          }
+        },
+        {
+          "code": "G21C 15/08",
+          "title": {
+            "ko": null,
+            "en": "from moderating material"
+          }
+        },
+        {
+          "code": "G21C 15/10",
+          "title": {
+            "ko": null,
+            "en": "from reflector or thermal shield"
+          }
+        },
+        {
+          "code": "G21C 15/12",
+          "title": {
+            "ko": null,
+            "en": "from pressure vessel; from containment vessel"
+          }
+        },
+        {
+          "code": "G21C 15/14",
+          "title": {
+            "ko": null,
+            "en": "from ducts conducting a hot fluid; from ducts comprising auxiliary apparatus, e.g. pumps, cameras"
+          }
+        },
+        {
+          "code": "G21C 15/16",
+          "title": {
+            "ko": null,
+            "en": "comprising means for separating liquid and steam"
+          }
+        },
+        {
+          "code": "G21C 15/18",
+          "title": {
+            "ko": null,
+            "en": "Emergency cooling arrangements; Removing shut-down heat"
+          }
+        },
+        {
+          "code": "G21C 15/20",
+          "title": {
+            "ko": null,
+            "en": "Partitions or thermal insulation between fuel channel and moderator, e.g. in pressure tube reactors"
+          }
+        },
+        {
+          "code": "G21C 15/22",
+          "title": {
+            "ko": null,
+            "en": "Structural association of coolant tubes with headers or other pipes, e.g. in pressure tube reactors"
+          }
+        },
+        {
+          "code": "G21C 15/24",
+          "title": {
+            "ko": null,
+            "en": "Promoting flow of the coolant"
+          }
+        },
+        {
+          "code": "G21C 15/243",
+          "title": {
+            "ko": null,
+            "en": "for liquids"
+          }
+        },
+        {
+          "code": "G21C 15/247",
+          "title": {
+            "ko": null,
+            "en": "for liquid metals"
+          }
+        },
+        {
+          "code": "G21C 15/25",
+          "title": {
+            "ko": null,
+            "en": "using jet pumps"
+          }
+        },
+        {
+          "code": "G21C 15/253",
+          "title": {
+            "ko": null,
+            "en": "for gases, e.g. blowers"
+          }
+        },
+        {
+          "code": "G21C 15/257",
+          "title": {
+            "ko": null,
+            "en": "using heat-pipes"
+          }
+        },
+        {
+          "code": "G21C 15/26",
+          "title": {
+            "ko": null,
+            "en": "by convection, e.g. using chimneys, using divergent channels"
+          }
+        },
+        {
+          "code": "G21C 15/28",
+          "title": {
+            "ko": "특정의 냉각재의 선택(감속재로서 사용되고 있는 경우 G21C 5/12)",
+            "en": "Selection of specific coolants (if serving as the moderator G21C0005120000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 17/00",
+      "title": {
+        "ko": "감시; 시험",
+        "en": "Monitoring; Testing"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 17/003",
+          "title": {
+            "ko": null,
+            "en": "Remote inspection of vessels, e.g. pressure vessels"
+          }
+        },
+        {
+          "code": "G21C 17/007",
+          "title": {
+            "ko": null,
+            "en": "Inspection of the outer surfaces of vessels"
+          }
+        },
+        {
+          "code": "G21C 17/01",
+          "title": {
+            "ko": null,
+            "en": "Inspection of the inner surfaces of vessels"
+          }
+        },
+        {
+          "code": "G21C 17/013",
+          "title": {
+            "ko": null,
+            "en": "Inspection vehicles"
+          }
+        },
+        {
+          "code": "G21C 17/017",
+          "title": {
+            "ko": null,
+            "en": "Inspection or maintenance of pipe-lines or tubes in nuclear installations"
+          }
+        },
+        {
+          "code": "G21C 17/02",
+          "title": {
+            "ko": null,
+            "en": "Devices or arrangements for monitoring coolant or moderator"
+          }
+        },
+        {
+          "code": "G21C 17/022",
+          "title": {
+            "ko": null,
+            "en": "for monitoring liquid coolants or moderators"
+          }
+        },
+        {
+          "code": "G21C 17/025",
+          "title": {
+            "ko": null,
+            "en": "for monitoring liquid metal coolants"
+          }
+        },
+        {
+          "code": "G21C 17/028",
+          "title": {
+            "ko": null,
+            "en": "for monitoring gaseous coolants"
+          }
+        },
+        {
+          "code": "G21C 17/032",
+          "title": {
+            "ko": null,
+            "en": "Reactor-coolant flow measuring or monitoring"
+          }
+        },
+        {
+          "code": "G21C 17/035",
+          "title": {
+            "ko": null,
+            "en": "Moderator- or coolant-level detecting devices"
+          }
+        },
+        {
+          "code": "G21C 17/038",
+          "title": {
+            "ko": null,
+            "en": "Boiling detection in moderator or coolant"
+          }
+        },
+        {
+          "code": "G21C 17/04",
+          "title": {
+            "ko": null,
+            "en": "Detecting burst slugs"
+          }
+        },
+        {
+          "code": "G21C 17/06",
+          "title": {
+            "ko": "노심 외에 연료 또는 연료요소를 감시 또는 검사하기 위한 장치 또는 배치, 예. 완전 연소, 오염에 대한 것 (G21C17/08, G21C17/10 이 우선; 반응기 작동중 연료의 누설을 감지하는 것 G21C17/04)",
+            "en": "Devices or arrangements for monitoring or testing fuel or fuel elements outside the reactor core, e.g. for burn-up, for contamination (G21C0017080000, G21C0017100000 take precedence;detecting leaking fuel elements during reactor operation G21C0017040000)"
+          }
+        },
+        {
+          "code": "G21C 17/07",
+          "title": {
+            "ko": null,
+            "en": "Leak testing"
+          }
+        },
+        {
+          "code": "G21C 17/08",
+          "title": {
+            "ko": null,
+            "en": "Structural combination of reactor core or moderator structure with viewing means, e.g. with television camera, periscope, window"
+          }
+        },
+        {
+          "code": "G21C 17/10",
+          "title": {
+            "ko": null,
+            "en": "Structural combination of fuel element, control rod, reactor core, or moderator structure with sensitive instruments, e.g. for measuring radioactivity, strain"
+          }
+        },
+        {
+          "code": "G21C 17/104",
+          "title": {
+            "ko": null,
+            "en": "Measuring reactivity"
+          }
+        },
+        {
+          "code": "G21C 17/108",
+          "title": {
+            "ko": null,
+            "en": "Measuring reactor flux"
+          }
+        },
+        {
+          "code": "G21C 17/112",
+          "title": {
+            "ko": null,
+            "en": "Measuring temperature"
+          }
+        },
+        {
+          "code": "G21C 17/116",
+          "title": {
+            "ko": null,
+            "en": "Passages or insulators, e.g. for electric cables"
+          }
+        },
+        {
+          "code": "G21C 17/12",
+          "title": {
+            "ko": null,
+            "en": "Sensitive element forming part of control element"
+          }
+        },
+        {
+          "code": "G21C 17/14",
+          "title": {
+            "ko": null,
+            "en": "Period meters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 19/00",
+      "title": {
+        "ko": "원자로내, 예. 그 압력용기내에서 사용되는 연료 또는 기타 물질의 처리, 취급 또는 취급을 용이하게 하기 위한 수단",
+        "en": "Arrangements for treating, for handling, or for facilitating the handling of, fuel or other materials which are used within the reactor, e.g. within its pressure vessel"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 19/02",
+          "title": {
+            "ko": null,
+            "en": "Details of handling arrangements"
+          }
+        },
+        {
+          "code": "G21C 19/04",
+          "title": {
+            "ko": null,
+            "en": "Means for controlling flow of coolant over objects being handled; Means for controlling flow of coolant through channel being serviced"
+          }
+        },
+        {
+          "code": "G21C 19/06",
+          "title": {
+            "ko": null,
+            "en": "Means for supporting or storing fuel elements or control elements"
+          }
+        },
+        {
+          "code": "G21C 19/07",
+          "title": {
+            "ko": null,
+            "en": "Storage racks; Storage pools"
+          }
+        },
+        {
+          "code": "G21C 19/08",
+          "title": {
+            "ko": null,
+            "en": "Means for heating fuel elements before introduction into the core; Means for heating or cooling fuel elements after removal from the core"
+          }
+        },
+        {
+          "code": "G21C 19/10",
+          "title": {
+            "ko": null,
+            "en": "Lifting devices or pulling devices adapted for co-operation with fuel elements or with control elements"
+          }
+        },
+        {
+          "code": "G21C 19/105",
+          "title": {
+            "ko": null,
+            "en": "with grasping or spreading coupling elements"
+          }
+        },
+        {
+          "code": "G21C 19/11",
+          "title": {
+            "ko": null,
+            "en": "with revolving coupling elements, e.g. socket coupling"
+          }
+        },
+        {
+          "code": "G21C 19/115",
+          "title": {
+            "ko": null,
+            "en": "with latching devices and ball couplings"
+          }
+        },
+        {
+          "code": "G21C 19/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for exerting direct hydraulic or pneumatic force on fuel element or on control element"
+          }
+        },
+        {
+          "code": "G21C 19/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by their adaptation for use with horizontal channels in the reactor core"
+          }
+        },
+        {
+          "code": "G21C 19/16",
+          "title": {
+            "ko": null,
+            "en": "Articulated or telescopic chutes or tubes for connection to channels in the reactor core"
+          }
+        },
+        {
+          "code": "G21C 19/18",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for bringing fuel elements to the reactor charge area, e.g. from a storage place"
+          }
+        },
+        {
+          "code": "G21C 19/19",
+          "title": {
+            "ko": null,
+            "en": "Reactor parts specifically adapted to facilitate handling, e.g. to facilitate charging or discharging of fuel elements"
+          }
+        },
+        {
+          "code": "G21C 19/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for introducing objects into the pressure vessel; Arrangements for handling objects within the pressure vessel; Arrangements for removing objects from the pressure vessel"
+          }
+        },
+        {
+          "code": "G21C 19/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for obtaining access to the interior of a pressure vessel whilst the reactor is operating"
+          }
+        },
+        {
+          "code": "G21C 19/24",
+          "title": {
+            "ko": null,
+            "en": "by using an auxiliary vessel which is temporarily sealed to the pressure vessel"
+          }
+        },
+        {
+          "code": "G21C 19/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for removing jammed or damaged fuel elements or control elements; Arrangements for moving broken parts thereof"
+          }
+        },
+        {
+          "code": "G21C 19/28",
+          "title": {
+            "ko": "유체상 물질을 노심내에 도입하기 위한 구성; 노심에서 유체물질을 꺼내기 위한 구성",
+            "en": "Arrangements for introducing fluent material into the reactor core; Arrangements for removing fluent material from the reactor core"
+          }
+        },
+        {
+          "code": "G21C 19/30",
+          "title": {
+            "ko": "순환하는 유체물질을 예를 들면 핵분열생성물의 추출에 의해 연속적으로 정화하는 것",
+            "en": "with continuous purification of circulating fluent material, e.g. by extraction of fission products"
+          }
+        },
+        {
+          "code": "G21C 19/303",
+          "title": {
+            "ko": "특히 기체용에 적합한 것(기체의 오염제거 G21F 9/02)",
+            "en": "specially adapted for gases (decontamination of gases G21F0009020000)"
+          }
+        },
+        {
+          "code": "G21C 19/307",
+          "title": {
+            "ko": "특히 액체에 적합한 것(액체의 오염제거 G21F 9/04)",
+            "en": "specially adapted for liquids (decontamination of liquids G21F0009040000)"
+          }
+        },
+        {
+          "code": "G21C 19/31",
+          "title": {
+            "ko": null,
+            "en": "for molten metals"
+          }
+        },
+        {
+          "code": "G21C 19/313",
+          "title": {
+            "ko": null,
+            "en": "using cold traps"
+          }
+        },
+        {
+          "code": "G21C 19/317",
+          "title": {
+            "ko": null,
+            "en": "Recombination devices for radiolytic dissociation products"
+          }
+        },
+        {
+          "code": "G21C 19/32",
+          "title": {
+            "ko": "방사선물체 또는 물질의 원자로의 취출영역으로부터 예를 들면 저장소에 이송하기 위한 장치; 방사성물체 또는 재료를 저장소내에서 취급하든가 또는 저장소에서 꺼내는 장치(폐기물처리 G21F 9/00)",
+            "en": "Apparatus for removing radioactive objects or materials from the reactor discharge area, e.g. to a storage place; Apparatus for handling radioactive objects or materials within a storage place or removing them therefrom (disposal of waste material G21F0009000000)"
+          }
+        },
+        {
+          "code": "G21C 19/33",
+          "title": {
+            "ko": "사용후 연료요소의 스트링(string)을 분해하는 장치 또는 방법(19/34가 우선)",
+            "en": "Apparatus or processes for dismantling strings of spent fuel elements (G21C0019340000 takes precedence)"
+          }
+        },
+        {
+          "code": "G21C 19/34",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or processes for dismantling nuclear fuel, e.g. before reprocessing"
+          }
+        },
+        {
+          "code": "G21C 19/36",
+          "title": {
+            "ko": null,
+            "en": "Mechanical means only"
+          }
+        },
+        {
+          "code": "G21C 19/365",
+          "title": {
+            "ko": null,
+            "en": "Removing cannings or casings from fuel"
+          }
+        },
+        {
+          "code": "G21C 19/37",
+          "title": {
+            "ko": null,
+            "en": "by separating into pieces both the canning or the casing and the fuel element, e.g. by cutting or shearing"
+          }
+        },
+        {
+          "code": "G21C 19/375",
+          "title": {
+            "ko": null,
+            "en": "Compacting devices, e.g. for fuel assemblies"
+          }
+        },
+        {
+          "code": "G21C 19/38",
+          "title": {
+            "ko": null,
+            "en": "Chemical means only"
+          }
+        },
+        {
+          "code": "G21C 19/40",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing occurrence of critical conditions, e.g. during storage"
+          }
+        },
+        {
+          "code": "G21C 19/42",
+          "title": {
+            "ko": null,
+            "en": "Reprocessing of irradiated fuel"
+          }
+        },
+        {
+          "code": "G21C 19/44",
+          "title": {
+            "ko": null,
+            "en": "of irradiated solid fuel"
+          }
+        },
+        {
+          "code": "G21C 19/46",
+          "title": {
+            "ko": null,
+            "en": "Aqueous processes"
+          }
+        },
+        {
+          "code": "G21C 19/48",
+          "title": {
+            "ko": null,
+            "en": "Non-aqueous processes"
+          }
+        },
+        {
+          "code": "G21C 19/50",
+          "title": {
+            "ko": null,
+            "en": "of irradiated fluid fuel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 21/00",
+      "title": {
+        "ko": "원자로 또는 그 부분품의 제조를 위하여 특히 사용되는 장치 또는 방법",
+        "en": "Apparatus or processes specially adapted to the manufacture of reactors or parts thereof"
+      },
+      "subgroups": [
+        {
+          "code": "G21C 21/02",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of fuel elements or breeder elements contained in non-active casings"
+          }
+        },
+        {
+          "code": "G21C 21/04",
+          "title": {
+            "ko": null,
+            "en": "by vibrational compaction or tamping"
+          }
+        },
+        {
+          "code": "G21C 21/06",
+          "title": {
+            "ko": null,
+            "en": "by swaging"
+          }
+        },
+        {
+          "code": "G21C 21/08",
+          "title": {
+            "ko": null,
+            "en": "by a slip-fit cladding process"
+          }
+        },
+        {
+          "code": "G21C 21/10",
+          "title": {
+            "ko": null,
+            "en": "by extrusion, drawing, or stretching"
+          }
+        },
+        {
+          "code": "G21C 21/12",
+          "title": {
+            "ko": null,
+            "en": "by hydrostatic or thermo-pneumatic canning"
+          }
+        },
+        {
+          "code": "G21C 21/14",
+          "title": {
+            "ko": null,
+            "en": "by plating in a fluid"
+          }
+        },
+        {
+          "code": "G21C 21/16",
+          "title": {
+            "ko": null,
+            "en": "by casting or dipping techniques"
+          }
+        },
+        {
+          "code": "G21C 21/18",
+          "title": {
+            "ko": "그룹 7/00에 속하는 제어요소의 제조",
+            "en": "Manufacture of control elements covered by group G21C0007000000"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G21C 23/00",
+      "title": {
+        "ko": null,
+        "en": "Adaptations of reactors to facilitate experimentation or irradiation"
+      },
+      "subgroups": []
+    }
+  ]
+}

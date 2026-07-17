@@ -1,0 +1,42 @@
+{
+ "description": "rt_error + chain_completed[p1] → work.failed + message.reply (각각 독립 매핑).",
+ "events": [
+  {
+   "type": "rt_error",
+   "persona": 1,
+   "payload": {
+    "message": "err"
+   }
+  },
+  {
+   "type": "chain_completed",
+   "persona": 1,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.failed",
+   "message.reply"
+  ],
+  "forbidden": [
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "work.failed": 1,
+   "message.reply": 1
+  },
+  "payload_contains": [
+   {
+    "type": "message.reply",
+    "data": {
+     "text": null
+    }
+   }
+  ]
+ }
+}

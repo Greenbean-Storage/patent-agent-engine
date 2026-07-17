@@ -1,0 +1,73 @@
+{
+  "description": "thinker(04번) GPT o3 심층 추론 파이프라인. 5단계: 도메인 식별 → 논리 분해 → 일관성 검증 → 심층 허점 분석 → 질문 합성.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R99.CENTRAL_AGENT"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "발명이 속하는 기술 도메인 식별 — 후속 step 들이 도메인 특화 추론을 수행할 단서.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R00/identify_domain.md"
+      },
+      "llm_tools": [],
+      "output_contract": "domain-identification-output"
+    },
+    {
+      "description": "발명을 논리 element 로 분해 — 각 element 의 입력/출력/제약 명시. consistency_verification 의 평가 단위.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R00/decompose_elements.md"
+      },
+      "llm_tools": [],
+      "output_contract": "logical-decomposition-output"
+    },
+    {
+      "description": "decomposition 의 element 간 논리적 정합성 검증 — 모순 / 누락 / 순환 식별.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R00/verify_consistency.md"
+      },
+      "llm_tools": [],
+      "output_contract": "consistency-verification-output"
+    },
+    {
+      "description": "verification 에서 발견된 gap 을 심층 분석 — 무엇을 더 알아야 메우는지 question 후보 도출.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R00/analyze_gaps.md"
+      },
+      "llm_tools": [],
+      "output_contract": "gap-deepening-output"
+    },
+    {
+      "description": "gap 별로 구체적 follow-up 질문을 합성 — director 가 사용자에게 던지거나 자체 추론에 활용.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R00/synthesize_questions.md"
+      },
+      "llm_tools": [],
+      "output_contract": "question-synthesis-output"
+    }
+  ]
+}

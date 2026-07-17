@@ -1,0 +1,1855 @@
+{
+  "subclass": "F02B",
+  "title": {
+    "ko": "내연식 피스톤기관; 연소기관 일반(가스 터빈 플랜트 F02C; 고온 가스 또는 연소 생성물 양 변위 엔진 설비 F02G)",
+    "en": "INTERNAL-COMBUSTION PISTON ENGINES; COMBUSTION ENGINES IN GENERAL (gas-turbine plants F02C;hot-gas or combustion-product positive-displacement engine plants F02G)"
+  },
+  "definition": {
+    "ko": "유체연료를 이용하는 기관 가압유체를 특징으로 하는 것 또는 점화 에 특징이 있는 것 F02B1/00 ～ 11/00 연소, 흡입구 또는 급기, 또는 배기에 특징이 있는 것 연소 예연소실; 공기실; 연소실 F02B19/00; 21/00; 23/00 급기; 층상급기; 급기의 회전 F02B17/00; 31/00 연료공급 F02B13/00, F02B15/00, F02B49/00 흡입구 또는 급기, 또는 소기 일반적인 특징; 세부 F02B25/00 ～ 29/00; 29/00 펌프; 세부 F02B33/00 ～ 37/00; 39/00 효율개선을 위한 특수한 수단 F02B41/00 액체가 아닌 연료를 이용하는 기관; 연료 생성 장치와의 조합 F02B43/00; 45/00 연료, 공기, 혼합물의 처리 또는 전처리에 특징이 있는 조작 F02B7/00, F02B47/00, F02B49/00, F02B51/00 특수한 형 또는 그의 응용 기관의 종별 피스톤의 종별 : 회전식, 요동식; 회전식 기관 또는 가동실린더에서 왕복운동 하는 것; 피스톤이 없는 것 또는 회전하는 주축이 없는 것 F02B53/00, F02B55/00; 57/00; 59/00; 71/00 전용 또는 상호 교환될 수 있는 부품 F02B69/00 특수한 보조장치를 갖는 것 F02B67/00 그 밖의 종별; 구성부분, 세부 또는 부속부분 F02B75/00; 77/00 2개 또는 그 이상의 기관이 조합으로서 달리 분류되지 않는 것 F02B73/00 특별한 용도를 위한 기관, 그 외의 장치와의 조합 F02B61/00 ～ 67/00 운전 F02B79/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F02B 1/00",
+      "title": {
+        "ko": "연료-공기 혼합기의 압축에 특징이 있는 기관 (연료-공기혼합기의 압축 및 공기압축의 양쪽을 가지는 것에 특징이 있는 것, 또는 외부식 점화 및 압축점화 양쪽을 가지는 것에 특징이 있는 것 F02B 11/00)",
+        "en": "Engines characterised by the working fluid to be compressed or characterised by the type of ignition"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 1/00",
+      "title": {
+        "ko": "연료-공기 혼합기의 압축에 특징이 있는 기관 (연료-공기혼합기의 압축 및 공기압축의 양쪽을 가지는 것에 특징이 있는 것, 또는 외부식 점화 및 압축점화 양쪽을 가지는 것에 특징이 있는 것 F02B 11/00)",
+        "en": "Engines characterised by fuel-air mixture compression  (characterised by both fuel-air mixture compression and air compression, or characterised by both positive ignition and compression ignition F02B0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 1/02",
+          "title": {
+            "ko": "외부식 점화방식을 갖는 것(시기조정이 되지 않는 외부식 점화 F02B 9/06)",
+            "en": "with positive ignition (with non-timed positive ignition F02B0009060000)"
+          }
+        },
+        {
+          "code": "F02B 1/04",
+          "title": {
+            "ko": null,
+            "en": "with fuel-air mixture admission into cylinder"
+          }
+        },
+        {
+          "code": "F02B 1/06",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        },
+        {
+          "code": "F02B 1/08",
+          "title": {
+            "ko": null,
+            "en": "with separate admission of air and fuel into cylinder"
+          }
+        },
+        {
+          "code": "F02B 1/10",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        },
+        {
+          "code": "F02B 1/12",
+          "title": {
+            "ko": "압축점화 방식을 가진 것(부가된 연료의 압축점화에 의해 연료-공기의 급기를 점화하는 것 F02B 7/00)",
+            "en": "with compression ignition (with fuel-air charge ignited by compression ignition of an additional fuel F02B0007000000)"
+          }
+        },
+        {
+          "code": "F02B 1/14",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 3/00",
+      "title": {
+        "ko": "공기압축후 연료를 부가하는 것에 특징이 있는 기관 (연료-공기혼합기의 압축 및 공기압축의 양쪽을 가지는 것에 특징이 있는 것, 또는 외부식 점화 및 압축점화 양쪽을 가지는 것에 특징이 있는 것 F02B 11/00)",
+        "en": "Engines characterised by air compression and subsequent fuel addition  (characterised by both fuel-air mixture compression and air compression, or characterised by both positive ignition and compression ignition F02B0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 3/02",
+          "title": {
+            "ko": "외부식 점화방식을 가진 것(시기조정이 되지 않는 외부식 점화 F02B 9/06)",
+            "en": "with positive ignition (with non-timed positive ignition F02B0009060000)"
+          }
+        },
+        {
+          "code": "F02B 3/04",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        },
+        {
+          "code": "F02B 3/06",
+          "title": {
+            "ko": "압축점화방식을 가진 것(실린더 F02B13 / 02의 압축 공기로 연료를 분사하기 위해 공기 또는 가스를 사용하는 압축 점화 엔진)",
+            "en": "with compression ignition (compression ignition engines using air or gas for blowing fuel into compressed air in cylinder F02B0013020000)"
+          }
+        },
+        {
+          "code": "F02B 3/08",
+          "title": {
+            "ko": "그의 작동방법(F02B 3/12이 우선)",
+            "en": "Methods of operating (F02B0003120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02B 3/10",
+          "title": {
+            "ko": null,
+            "en": "with intermittent fuel introduction"
+          }
+        },
+        {
+          "code": "F02B 3/12",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 5/00",
+      "title": {
+        "ko": "외부식 점화에 특징이 있는 기관(포지티브 점화와 함께 연료-공기 혼합물 압축을 특징으로하는 엔진 F02B1/02; 공기 압축 및 후속 연료 첨가를 특징으로하는 엔진 F02B3/02; 시기조정이 되지 않는 외부식 점화 F02B 9/06; 연료-공기혼합기의 압축 및 공기압축의 양쪽을 가지는 것에 특징이 있는 것, 또는 외부식 점화 및 압축점화 양쪽을 가지는 것에 특징이 있는 것 F02B 11/00)",
+        "en": "Engines characterised by positive ignition   (engines characterised by fuel-air mixture compression with positive ignition F02B0001020000;engines characterised by air compression and subsequent fuel addition with positive ignition F02B0003020000; with non-timed positive ignition F02B0009060000;  characterised by both fuel-air mixture compression and air compression, or characterised by both positive ignition and compression ignition F02B0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 5/02",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 7/00",
+      "title": {
+        "ko": "부가된 연료의 압축점화에 의하여 연료-공기의 급기가 점화되는 것에 특징이 있는 기관(연료-공기혼합기의 압축 및 공기압축의 양쪽을 가지는 것에 특징이 있는 것, 또는 외부식 점화 및 압축점화 양쪽을 가지는 것에 특징이 있는 것 F02B 11/00)",
+        "en": "Engines characterised by the fuel-air charge being ignited by compression ignition of an additional fuel  (characterised by both fuel-air mixture compression and air compression, or characterised by both positive ignition and compression ignition F02B0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 7/02",
+          "title": {
+            "ko": null,
+            "en": "the fuel in the charge being liquid"
+          }
+        },
+        {
+          "code": "F02B 7/04",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        },
+        {
+          "code": "F02B 7/06",
+          "title": {
+            "ko": null,
+            "en": "the fuel in the charge being gaseous"
+          }
+        },
+        {
+          "code": "F02B 7/08",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 9/00",
+      "title": {
+        "ko": "그 외의 점화형식에 특징이 있는 기관 (연료-공기혼합기의 압축 및 공기압축의 양쪽을 가지는 것에 특징이 있는 것, 또는 외부식 점화 및 압축점화 양쪽을 가지는 것에 특징이 있는 것 F02B 11/00)",
+        "en": "Engines characterised by other types of ignition  (characterised by both fuel-air mixture compression and air compression, or characterised by both positive ignition and compression ignition F02B0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 9/02",
+          "title": {
+            "ko": "압축점화되는 것(압축 점화와 함께 연료-공기 혼합물 압축을 특징으로하는 엔진 F02B1/12; 압축 점화와 함께 공기 압축 및 후속 연료 첨가를 특징으로하는 엔진 F02B3/06)",
+            "en": "with compression ignition  (engines characterised by fuel-air mixture compression with compression ignition F02B0001120000;engines characterised by air compression and subsequent fuel addition with compression ignition F02B0003060000)"
+          }
+        },
+        {
+          "code": "F02B 9/04",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        },
+        {
+          "code": "F02B 9/06",
+          "title": {
+            "ko": null,
+            "en": "with non-timed positive ignition, e.g. with hot-spots"
+          }
+        },
+        {
+          "code": "F02B 9/08",
+          "title": {
+            "ko": null,
+            "en": "with incandescent chambers"
+          }
+        },
+        {
+          "code": "F02B 9/10",
+          "title": {
+            "ko": null,
+            "en": "Chamber shapes or constructions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 11/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by both fuel-air mixture compression and air compression, or characterised by both positive ignition and compression ignition, e.g. in different cylinders"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 11/02",
+          "title": {
+            "ko": null,
+            "en": "convertible from fuel-air mixture compression to air compression or vice versa"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by the method of introducing liquid fuel into cylinders"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by the introduction of liquid fuel into cylinders by use of auxiliary fluid"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Compression ignition engines using air or gas for blowing fuel into compressed air in cylinder"
+          }
+        },
+        {
+          "code": "F02B 13/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or adaptations of pumps"
+          }
+        },
+        {
+          "code": "F02B 13/06",
+          "title": {
+            "ko": null,
+            "en": "Engines having secondary air mixed with fuel in pump, compressed therein without ignition, and fuel-air mixture being injected into air in cylinder"
+          }
+        },
+        {
+          "code": "F02B 13/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or adaptations of pumps"
+          }
+        },
+        {
+          "code": "F02B 13/10",
+          "title": {
+            "ko": null,
+            "en": "Use of specific auxiliary fluids, e.g. steam, combustion gas"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by the method of introducing liquid fuel into cylinders and not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 15/02",
+          "title": {
+            "ko": null,
+            "en": "having means for sucking fuel directly into cylinder"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by means for effecting stratification of charge in cylinders"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 19/00",
+      "title": {
+        "ko": "예연소실에 특징이 있는 기관",
+        "en": "Engines characterised by precombustion chambers or air-storage chambers, or characterised by special shape or construction of combustion chambers to improve operation"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 19/00",
+      "title": {
+        "ko": "예연소실에 특징이 있는 기관",
+        "en": "Engines characterised by precombustion chambers"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 19/02",
+          "title": {
+            "ko": null,
+            "en": "the chamber being periodically isolated from its cylinder"
+          }
+        },
+        {
+          "code": "F02B 19/04",
+          "title": {
+            "ko": null,
+            "en": "the isolation being effected by a protuberance on piston or cylinder head"
+          }
+        },
+        {
+          "code": "F02B 19/06",
+          "title": {
+            "ko": null,
+            "en": "with auxiliary piston in chamber for transferring ignited charge to cylinder space"
+          }
+        },
+        {
+          "code": "F02B 19/08",
+          "title": {
+            "ko": null,
+            "en": "the chamber being of air-swirl type"
+          }
+        },
+        {
+          "code": "F02B 19/10",
+          "title": {
+            "ko": null,
+            "en": "with fuel introduced partly into pre-combustion chamber, and partly into cylinder"
+          }
+        },
+        {
+          "code": "F02B 19/12",
+          "title": {
+            "ko": "외부식 점화방식을 가지는 것(시간 제한없는 포지티브 점화 및 백열 챔버가있는 엔진 F02B9 /08)",
+            "en": "with positive ignition (engines with non-timed positive ignition, and with incandescent chambers F02B0009080000)"
+          }
+        },
+        {
+          "code": "F02B 19/14",
+          "title": {
+            "ko": null,
+            "en": "with compression ignition"
+          }
+        },
+        {
+          "code": "F02B 19/16",
+          "title": {
+            "ko": "서브클래스 19/02부터 19/10에 특유하지 않는 예연소실의 형상 또는 구조를 가지는 것",
+            "en": "Chamber shapes or constructions not specific to groups F02B0019020000-F02B0019100000"
+          }
+        },
+        {
+          "code": "F02B 19/18",
+          "title": {
+            "ko": null,
+            "en": "Transfer passages between chamber and cylinder"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 21/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by air-storage chambers"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 21/02",
+          "title": {
+            "ko": null,
+            "en": "Chamber shapes or constructions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 23/00",
+      "title": {
+        "ko": "작동개선을 위하여 연소실의 특수한 형상 또는 구조에 특징이 있는 그 외의 기관(열원실을 갖는 기관 F02B 9/08)",
+        "en": "Other engines characterised by special shape or construction of combustion chambers to improve operation (engines with incandescent chambers F02B0009080000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 23/02",
+          "title": {
+            "ko": "압축점화에 의한 것",
+            "en": "with compression ignition"
+          }
+        },
+        {
+          "code": "F02B 23/04",
+          "title": {
+            "ko": "연소공간이 2개 이상의 챔버로 나누어진 것 (예연소실을 가진 것 F02B19/00)",
+            "en": "the combustion space being subdivided into two or more chambers (with pre-combustion chambers F02B0019000000)"
+          }
+        },
+        {
+          "code": "F02B 23/06",
+          "title": {
+            "ko": "그 연소공간이 동작피스톤 내에 있는 것(F02B 23/04가 우선)",
+            "en": "the combustion space being arranged in working piston (F02B0023040000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02B 23/08",
+          "title": {
+            "ko": null,
+            "en": "with positive ignition"
+          }
+        },
+        {
+          "code": "F02B 23/10",
+          "title": {
+            "ko": null,
+            "en": "with separate admission of air and fuel into cylinder"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 25/00",
+      "title": {
+        "ko": "실린더 소기를 위하여 신기를 사용하는 것에 특징이 있는 기관",
+        "en": "Engines characterised by provision for charging or scavenging"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 25/00",
+      "title": {
+        "ko": "실린더 소기를 위하여 신기를 사용하는 것에 특징이 있는 기관",
+        "en": "Engines characterised by using fresh charge for scavenging cylinders"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 25/02",
+          "title": {
+            "ko": null,
+            "en": "using unidirectional scavenging"
+          }
+        },
+        {
+          "code": "F02B 25/04",
+          "title": {
+            "ko": null,
+            "en": "Engines having ports both in cylinder head and in cylinder wall near bottom of piston stroke"
+          }
+        },
+        {
+          "code": "F02B 25/06",
+          "title": {
+            "ko": null,
+            "en": "the cylinder-head ports being controlled by working pistons, e.g. by sleeve-shaped extensions thereof"
+          }
+        },
+        {
+          "code": "F02B 25/08",
+          "title": {
+            "ko": null,
+            "en": "Engines with oppositely-moving reciprocating working pistons"
+          }
+        },
+        {
+          "code": "F02B 25/10",
+          "title": {
+            "ko": null,
+            "en": "with one piston having a smaller diameter or shorter stroke than the other"
+          }
+        },
+        {
+          "code": "F02B 25/12",
+          "title": {
+            "ko": null,
+            "en": "Engines with U-shaped cylinders, having ports in each arm"
+          }
+        },
+        {
+          "code": "F02B 25/14",
+          "title": {
+            "ko": null,
+            "en": "using reverse-flow scavenging, e.g. with both inlet and outlet ports arranged near bottom of piston stroke"
+          }
+        },
+        {
+          "code": "F02B 25/16",
+          "title": {
+            "ko": null,
+            "en": "the charge flowing upward essentially along cylinder wall opposite the inlet ports"
+          }
+        },
+        {
+          "code": "F02B 25/18",
+          "title": {
+            "ko": null,
+            "en": "the charge flowing upward essentially along cylinder wall adjacent the inlet ports, e.g. by means of deflection rib on piston"
+          }
+        },
+        {
+          "code": "F02B 25/20",
+          "title": {
+            "ko": "급기와 연소 잔유물과의 혼합을 감소시키는 수단 또는 배출포트를 통한 신기(fresh charge)의 배출을 방지하기 위한 수단으로 그룹 F02B 25/02-F02B 25/18에 분류되어 있지 않은 것",
+            "en": "Means for reducing the mixing of charge and combustion residues or for preventing escape of fresh charge through outlet ports, not provided for in, or of interest apart from, groups F02B0025020000-F02B0025180000"
+          }
+        },
+        {
+          "code": "F02B 25/22",
+          "title": {
+            "ko": null,
+            "en": "by forming air cushion between charge and combustion residues"
+          }
+        },
+        {
+          "code": "F02B 25/24",
+          "title": {
+            "ko": null,
+            "en": "Inlet or outlet openings being timed asymmetrically relative to bottom dead-centre"
+          }
+        },
+        {
+          "code": "F02B 25/26",
+          "title": {
+            "ko": "그룹 F02B 25/02 - F02B 25/24로 분류되지 않고 또는 그 이외에 특징이 있는 다실린더기관(로터리 엔진 F02B57/00의 내부 연소 측면)",
+            "en": "Multi-cylinder engines other than those provided for in, or of interest apart from, groups F02B0025020000-F02B0025240000 (internal-combustion aspects of rotary engines F02B0057000000)"
+          }
+        },
+        {
+          "code": "F02B 25/28",
+          "title": {
+            "ko": null,
+            "en": "with V-, fan-, or star-arrangement of cylinders"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 27/00",
+      "title": {
+        "ko": "급기량을 개선하고, 또는 연소잔류물의 제거를 증대시키기 위하여, 흡입계통의 급기 또는 배기계통의 연소잔류물의 운동 또는 파동에너지의 이용",
+        "en": "Use of kinetic or wave energy of charge in induction systems, or of combustion residues in exhaust systems, for improving quantity of charge or for increasing removal of combustion residues"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 27/02",
+          "title": {
+            "ko": "가변적인, 즉 조정 가능한 횡단면적, 가변 용적의 실, 또한 그와 같은 가변수단을 가지는 계통(배기계통만의 것 F02B 27/06)",
+            "en": "the systems having variable, i.e. adjustable, cross-sectional areas, chambers of variable volume, or like variable means (in exhaust systems only F02B0027060000)"
+          }
+        },
+        {
+          "code": "F02B 27/04",
+          "title": {
+            "ko": null,
+            "en": "in exhaust systems only, e.g. for sucking-off combustion gases"
+          }
+        },
+        {
+          "code": "F02B 27/06",
+          "title": {
+            "ko": null,
+            "en": "the systems having variable, i.e. adjustable, cross-sectional areas, chambers of variable volume, or like variable means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 29/00",
+      "title": {
+        "ko": "급기용 또는 소기용에 특징이 있는 것으로, 그룹 F02B 25/00, F02B 27/00 또는 F02B 33/00-F02B 39/00으로 분류되지 않는 기관; 그 세부",
+        "en": "Engines characterised by provision for charging or scavenging not provided for in groups F02B0025000000, F02B0027000000 or F02B0033000000-F02B0039000000; Details thereof"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 29/02",
+          "title": {
+            "ko": "급기량을 개선하기 위하여 흡입계통에 타의 유체역학적인 특징이 있는 것(실린더내의 급기에 회전을 주는 것 F02B 31/00)",
+            "en": "Other fluid-dynamic features of induction systems for improving quantity of charge  (for also imparting a rotation to the charge in the cylinder F02B0031000000)"
+          }
+        },
+        {
+          "code": "F02B 29/04",
+          "title": {
+            "ko": null,
+            "en": "Cooling of air intake supply"
+          }
+        },
+        {
+          "code": "F02B 29/06",
+          "title": {
+            "ko": null,
+            "en": "After-charging, i.e. supplementary charging after scavenging"
+          }
+        },
+        {
+          "code": "F02B 29/08",
+          "title": {
+            "ko": "급기 목적을 위해 분배밸브 타이밍을 개량하는 것(F02B 29/06이 우선)",
+            "en": "Modifying distribution valve timing for charging purposes (F02B0029060000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 31/00",
+      "title": {
+        "ko": "실린더내의 급기에 회전을 주기 위하여 개량된 흡입계통(내연 기관 F02M35 / 10 용 공기 흡입구 또는 유도 시스템)",
+        "en": "Modifying induction systems for imparting a rotation to the charge in the cylinder   (air intakes or induction systems for internal-combustion engines F02M0035100000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 31/02",
+          "title": {
+            "ko": "실린더 축에 편심되도록 배열된 흡기밸브를 가진 기관에서의 것(F02B 31/08이 우선)",
+            "en": "in engines having inlet valves arranged eccentrically to cylinder axis (F02B0031080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02B 31/04",
+          "title": {
+            "ko": null,
+            "en": "by means within the induction channel, e.g. deflectors"
+          }
+        },
+        {
+          "code": "F02B 31/06",
+          "title": {
+            "ko": null,
+            "en": "Movable means, e.g. butterfly valves"
+          }
+        },
+        {
+          "code": "F02B 31/08",
+          "title": {
+            "ko": null,
+            "en": "having multiple air inlets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 33/00",
+      "title": {
+        "ko": "급기용 또는 소기용의 펌프에 특징이 있는 기관",
+        "en": "Engines characterised by provision of driven charging or scavenging pumps"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 33/00",
+      "title": {
+        "ko": "급기용 또는 소기용의 펌프에 특징이 있는 기관",
+        "en": "Engines characterised by provision of pumps for charging or scavenging"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 33/02",
+          "title": {
+            "ko": "왕복운동 피스톤식 펌프를 가진 기관; 크랭크케이스 의 펌프를 가진 기관",
+            "en": "Engines with reciprocating-piston pumps; Engines with crankcase pumps"
+          }
+        },
+        {
+          "code": "F02B 33/04",
+          "title": {
+            "ko": null,
+            "en": "with simple crankcase pumps, i.e. with the rear face of a non-stepped working piston acting as sole pumping member in co-operation with the crankcase"
+          }
+        },
+        {
+          "code": "F02B 33/06",
+          "title": {
+            "ko": null,
+            "en": "with reciprocating-piston pumps other than simple crankcase pumps"
+          }
+        },
+        {
+          "code": "F02B 33/08",
+          "title": {
+            "ko": null,
+            "en": "with the working-cylinder head arranged between working and pumping cylinders"
+          }
+        },
+        {
+          "code": "F02B 33/10",
+          "title": {
+            "ko": null,
+            "en": "with the pumping cylinder situated between working cylinder and crankcase, or with the pumping cylinder surrounding working cylinder"
+          }
+        },
+        {
+          "code": "F02B 33/12",
+          "title": {
+            "ko": null,
+            "en": "the rear face of working piston acting as pumping member and co-operating with a pumping chamber isolated from crankcase, the connecting-rod passing through the chamber and co-operating with movable isolating member"
+          }
+        },
+        {
+          "code": "F02B 33/14",
+          "title": {
+            "ko": null,
+            "en": "working and pumping pistons forming stepped piston"
+          }
+        },
+        {
+          "code": "F02B 33/16",
+          "title": {
+            "ko": null,
+            "en": "working and pumping pistons having differing movements"
+          }
+        },
+        {
+          "code": "F02B 33/18",
+          "title": {
+            "ko": null,
+            "en": "with crankshaft being arranged between working and pumping cylinders"
+          }
+        },
+        {
+          "code": "F02B 33/20",
+          "title": {
+            "ko": null,
+            "en": "with pumping-cylinder axis arranged at an angle to working-cylinder axis, e.g. at an angle of 90°"
+          }
+        },
+        {
+          "code": "F02B 33/22",
+          "title": {
+            "ko": null,
+            "en": "with pumping cylinder situated at side of working cylinder, e.g. the cylinders being parallel"
+          }
+        },
+        {
+          "code": "F02B 33/24",
+          "title": {
+            "ko": null,
+            "en": "with crankcase pumps other than with reciprocating pistons only"
+          }
+        },
+        {
+          "code": "F02B 33/26",
+          "title": {
+            "ko": null,
+            "en": "Four-stroke engines characterised by having crankcase pumps"
+          }
+        },
+        {
+          "code": "F02B 33/28",
+          "title": {
+            "ko": "크랭크케이스의 펌프의 구성요소, 세부 또는 부속품 으로서, 그룹 F02B 33/02 - F02B 33/26으로 분류되어 있지 않은 것",
+            "en": "Component parts, details, or accessories of crankcase pumps not provided for in, or of interest apart from, groups F02B0033020000-F02B0033260000"
+          }
+        },
+        {
+          "code": "F02B 33/30",
+          "title": {
+            "ko": null,
+            "en": "Control of inlet or outlet ports"
+          }
+        },
+        {
+          "code": "F02B 33/32",
+          "title": {
+            "ko": "왕복운동식 피스톤형 이외의 펌프가 있는 기관 (크랭크케이스의 펌프를 가지는 것 F02B 33/02)",
+            "en": "Engines with pumps other than of reciprocating-piston type (with crankcase pumps F02B0033020000)"
+          }
+        },
+        {
+          "code": "F02B 33/34",
+          "title": {
+            "ko": "회전식 펌프를 지니는 것(셀(cell)형 압력변환기 또는 그것에 유사한 것 F02B 33/42)",
+            "en": "with rotary pumps (with cell-type pressure exchangers or the like F02B0033420000)"
+          }
+        },
+        {
+          "code": "F02B 33/36",
+          "title": {
+            "ko": null,
+            "en": "of positive-displacement type"
+          }
+        },
+        {
+          "code": "F02B 33/38",
+          "title": {
+            "ko": null,
+            "en": "of Roots type"
+          }
+        },
+        {
+          "code": "F02B 33/40",
+          "title": {
+            "ko": null,
+            "en": "of non-positive-displacement type"
+          }
+        },
+        {
+          "code": "F02B 33/42",
+          "title": {
+            "ko": null,
+            "en": "with driven apparatus for immediate conversion of combustion gas pressure into pressure of fresh charge, e.g. with cell-type pressure exchangers"
+          }
+        },
+        {
+          "code": "F02B 33/44",
+          "title": {
+            "ko": null,
+            "en": "Passages conducting the charge from the pump to the engine inlet, e.g. reservoirs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 35/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by provision of pumps for sucking combustion residues from cylinders"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 35/02",
+          "title": {
+            "ko": null,
+            "en": "using rotary pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 37/00",
+      "title": {
+        "ko": "배기에 의해서 적어도 일시기 구동되는 펌프에 특징이 있는 기관",
+        "en": "Engines characterised by provision of pumps driven at least for part of the time by exhaust"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 37/007",
+          "title": {
+            "ko": null,
+            "en": "with exhaust-driven pumps arranged in parallel"
+          }
+        },
+        {
+          "code": "F02B 37/013",
+          "title": {
+            "ko": null,
+            "en": "with exhaust-driven pumps arranged in series"
+          }
+        },
+        {
+          "code": "F02B 37/02",
+          "title": {
+            "ko": null,
+            "en": "Gas passages between engine outlet and pump drive, e.g. reservoirs"
+          }
+        },
+        {
+          "code": "F02B 37/04",
+          "title": {
+            "ko": null,
+            "en": "Engines with exhaust drive and other drive of pumps, e.g. with exhaust-driven pump and mechanically-driven second pump"
+          }
+        },
+        {
+          "code": "F02B 37/10",
+          "title": {
+            "ko": null,
+            "en": "at least one pump being alternately driven by exhaust and other drive"
+          }
+        },
+        {
+          "code": "F02B 37/11",
+          "title": {
+            "ko": null,
+            "en": "driven by other drive at starting only"
+          }
+        },
+        {
+          "code": "F02B 37/12",
+          "title": {
+            "ko": "펌프의 제어",
+            "en": "Control of the pumps"
+          }
+        },
+        {
+          "code": "F02B 37/14",
+          "title": {
+            "ko": null,
+            "en": "of the alternation between exhaust drive and other drive of a pump, e.g. dependent on speed"
+          }
+        },
+        {
+          "code": "F02B 37/16",
+          "title": {
+            "ko": null,
+            "en": "by bypassing charging air"
+          }
+        },
+        {
+          "code": "F02B 37/18",
+          "title": {
+            "ko": null,
+            "en": "by bypassing exhaust"
+          }
+        },
+        {
+          "code": "F02B 37/20",
+          "title": {
+            "ko": null,
+            "en": "by increasing exhaust energy, e.g. using combustion chambers"
+          }
+        },
+        {
+          "code": "F02B 37/22",
+          "title": {
+            "ko": "배기통로 또는 공기통로의 단면을 변화시키는 것에 의한 것(F02B37/24 우선)",
+            "en": "by varying the cross-section of exhaust passages or air passages  (F02B0037240000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02B 37/24",
+          "title": {
+            "ko": null,
+            "en": "by using pumps or turbines with adjustable guide vanes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 39/00",
+      "title": {
+        "ko": "구동되는 급기 또는 소기 펌프에 관련하는 구성부품, 세부 또는 부속품으로서, 그룹 F02B 33/00 - F02B 37/00으로 분류되지 않는 것",
+        "en": "Component parts, details, or accessories relating to driven charging or scavenging pumps, not provided for in groups F02B0033000000-F02B0037000000"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 39/02",
+          "title": {
+            "ko": "펌프의 구동(배기구동 또는 배기와 타의 구동하는 것과의 조합 F02B 37/00); 다양한 펌프기어 구동비",
+            "en": "Drives of pumps  (exhaust drives or combined exhaust and other drives F02B0037000000); Varying pump drive gear ratio"
+          }
+        },
+        {
+          "code": "F02B 39/04",
+          "title": {
+            "ko": "기계적 구동; 가변 기어비 구동장치(가변 기어비를 갖는 비기계적 펌프구동 F02B 39/08)",
+            "en": "Mechanical drives; Variable-gear-ratio drives (non-mechanical pump drives having variable gear ratio F02B0039080000)"
+          }
+        },
+        {
+          "code": "F02B 39/06",
+          "title": {
+            "ko": null,
+            "en": "the engine torque being divided by a differential gear for driving a pump and the engine output shaft"
+          }
+        },
+        {
+          "code": "F02B 39/08",
+          "title": {
+            "ko": null,
+            "en": "Non-mechanical drives, e.g. fluid drives having variable gear ratio"
+          }
+        },
+        {
+          "code": "F02B 39/10",
+          "title": {
+            "ko": null,
+            "en": "electric"
+          }
+        },
+        {
+          "code": "F02B 39/12",
+          "title": {
+            "ko": "커플링 또는 클러치의 이용에 특징이 있는 구동장치(기어비를 변화시키기 위하여 유체 슬립 커플링을 이용하는 것 F02B 39/08)",
+            "en": "Drives characterised by use of couplings or clutches therein (using fluid slip couplings for varying gear ratio F02B0039080000)"
+          }
+        },
+        {
+          "code": "F02B 39/14",
+          "title": {
+            "ko": null,
+            "en": "Lubrication of pumps; Safety measures therefor"
+          }
+        },
+        {
+          "code": "F02B 39/16",
+          "title": {
+            "ko": null,
+            "en": "Other safety measures for, or other control of, pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 41/00",
+      "title": {
+        "ko": "열 또는 압력 에너지의 기계 동력으로의 변환을 개선하기 위한 특수한 수단에 특징이 있는 기관",
+        "en": "Engines characterised by special means for improving conversion of heat or pressure energy into mechanical power"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 41/02",
+          "title": {
+            "ko": "길어진 팽창을 갖는 엔진",
+            "en": "Engines with prolonged expansion"
+          }
+        },
+        {
+          "code": "F02B 41/04",
+          "title": {
+            "ko": null,
+            "en": "in main cylinders"
+          }
+        },
+        {
+          "code": "F02B 41/06",
+          "title": {
+            "ko": null,
+            "en": "in compound cylinders"
+          }
+        },
+        {
+          "code": "F02B 41/08",
+          "title": {
+            "ko": null,
+            "en": "Two-stroke compound engines"
+          }
+        },
+        {
+          "code": "F02B 41/10",
+          "title": {
+            "ko": "배기터빈을 사용하는 것(급기용으로 배기터빈을 이용하는 것 F02B 37/00)",
+            "en": "using exhaust turbines (use of exhaust turbines for charging F02B0037000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 43/00",
+      "title": {
+        "ko": "가스상의 연료로 작동하는 것에 특징이 있는 기관; 그와 같은 기관을 포함하는 설비(부가 연료의 압축점화에 의해 점화되는 가스-공기 급기를 갖는 기관 F02B 7/06; 가스로부터 다른 연료의 소비까지 변환되는 기관 F02B 69/04)",
+        "en": "Engines operating on non-liquid fuels; Plants including such engines, i.e. combinations of the engine with fuel-generating apparatus"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 43/00",
+      "title": {
+        "ko": "가스상의 연료로 작동하는 것에 특징이 있는 기관; 그와 같은 기관을 포함하는 설비(부가 연료의 압축점화에 의해 점화되는 가스-공기 급기를 갖는 기관 F02B 7/06; 가스로부터 다른 연료의 소비까지 변환되는 기관 F02B 69/04)",
+        "en": "Engines characterised by operating on gaseous fuels; Plants including such engines (engines characterised by the gas-air charge being ignited by compression ignition of an additional fuel F02B0007060000;engines convertible from gas to other fuel consumption F02B0069040000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 43/02",
+          "title": {
+            "ko": null,
+            "en": "Engines characterised by means for increasing operating efficiency"
+          }
+        },
+        {
+          "code": "F02B 43/04",
+          "title": {
+            "ko": null,
+            "en": "for improving efficiency of combustion"
+          }
+        },
+        {
+          "code": "F02B 43/06",
+          "title": {
+            "ko": null,
+            "en": "for enlarging charge"
+          }
+        },
+        {
+          "code": "F02B 43/08",
+          "title": {
+            "ko": null,
+            "en": "Plants characterised by the engines using gaseous fuel generated in the plant from solid fuel, e.g. wood"
+          }
+        },
+        {
+          "code": "F02B 43/10",
+          "title": {
+            "ko": null,
+            "en": "Engines or plants characterised by use of other specific gases, e.g. acetylene, oxyhydrogen"
+          }
+        },
+        {
+          "code": "F02B 43/12",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 45/00",
+      "title": {
+        "ko": "가스이외의 비액체연료로 작동하는 것에 특징이 있는 기관; 그와 같은 기관을 포함하는 설비(고체연료로부터 가스상 연료의 발생장치를 포함하는 설비 F02B 43/08; 가스를 다른 연료 소비로 바꿀수 있는 기관 F02B 69/04 )",
+        "en": "Engines characterised by operating on non-liquid fuels other than gas; Plants including such engines (plants involving generation of gaseous fuel from solid fuel F02B0043080000;engines convertible from gas to other fuel consumption F02B0069040000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 45/02",
+          "title": {
+            "ko": "분말연료, 예. 미분탄(powdered coal)으로 작동하는 것(산화제(oxidant)를 포함하는 연료로 작동하는 것 45/06)",
+            "en": "operating on powdered fuel, e.g. powdered coal (operating on fuel containing oxidant F02B0045060000)"
+          }
+        },
+        {
+          "code": "F02B 45/04",
+          "title": {
+            "ko": null,
+            "en": "Plants, e.g. having coal-grinding apparatus"
+          }
+        },
+        {
+          "code": "F02B 45/06",
+          "title": {
+            "ko": null,
+            "en": "operating on fuel containing oxidant"
+          }
+        },
+        {
+          "code": "F02B 45/08",
+          "title": {
+            "ko": null,
+            "en": "operating on other solid fuels"
+          }
+        },
+        {
+          "code": "F02B 45/10",
+          "title": {
+            "ko": null,
+            "en": "operating on mixtures of liquid and non-liquid fuels, e.g. in pasty or foamed state"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 47/00",
+      "title": {
+        "ko": "기관의 연소공기, 연료 또는 연료-공기의 혼합기에 비 연료물질 또는 안티노크제(anti-knock)를 첨가시키는 기관의 작동방법",
+        "en": "Methods of operating engines involving specific pre-treating of, or adding specific substances to, combustion air, fuel or fuel-air mixture of the engines, and not otherwise provided for"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 47/00",
+      "title": {
+        "ko": "기관의 연소공기, 연료 또는 연료-공기의 혼합기에 비 연료물질 또는 안티노크제(anti-knock)를 첨가시키는 기관의 작동방법",
+        "en": "Methods of operating engines involving adding non-fuel substances or anti-knock agents to combustion air, fuel, or fuel-air mixtures of engines"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 47/02",
+          "title": {
+            "ko": null,
+            "en": "the substances being water or steam"
+          }
+        },
+        {
+          "code": "F02B 47/04",
+          "title": {
+            "ko": "그 물질이 물 또는 수증기만이 아닌 것",
+            "en": "the substances being other than water or steam only"
+          }
+        },
+        {
+          "code": "F02B 47/06",
+          "title": {
+            "ko": "그 물질이 비공기중 산소를 포함하는 것(F02B 47/10이 우선)",
+            "en": "the substances including non-airborne oxygen (F02B0047100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02B 47/08",
+          "title": {
+            "ko": null,
+            "en": "the substances including exhaust gas"
+          }
+        },
+        {
+          "code": "F02B 47/10",
+          "title": {
+            "ko": null,
+            "en": "Circulation of exhaust gas in closed or semi-closed circuits, e.g. with simultaneous addition of oxygen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 49/00",
+      "title": {
+        "ko": null,
+        "en": "Methods of operating air-compressing compression-ignition engines involving introduction of small quantities of fuel in the form of a fine mist into the air in the engine's intake"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 51/00",
+      "title": {
+        "ko": null,
+        "en": "Other methods of operating engines involving pre-treating of, or adding substances to, combustion air, fuel, or fuel-air mixture of the engines"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 51/02",
+          "title": {
+            "ko": null,
+            "en": "involving catalysts"
+          }
+        },
+        {
+          "code": "F02B 51/04",
+          "title": {
+            "ko": null,
+            "en": "involving electricity or magnetism"
+          }
+        },
+        {
+          "code": "F02B 51/06",
+          "title": {
+            "ko": null,
+            "en": "involving rays or sound waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 53/00",
+      "title": {
+        "ko": "회전식 피스톤 또는 요동식 피스톤기관(회전피스톤 또는 그것과 공히 협동하는 외측부재 F02B 55/00)",
+        "en": "Internal-combustion aspects of rotary-piston or oscillating-piston engines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 53/00",
+      "title": {
+        "ko": "회전식 피스톤 또는 요동식 피스톤기관(회전피스톤 또는 그것과 공히 협동하는 외측부재 F02B 55/00)",
+        "en": "Internal-combustion aspects of rotary-piston or oscillating-piston engines (internal-combustion aspects of rotary pistons or outer members for co-operation therewith F02B0055000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 53/02",
+          "title": {
+            "ko": null,
+            "en": "Methods of operating"
+          }
+        },
+        {
+          "code": "F02B 53/04",
+          "title": {
+            "ko": null,
+            "en": "Charge admission or combustion-gas discharge"
+          }
+        },
+        {
+          "code": "F02B 53/06",
+          "title": {
+            "ko": null,
+            "en": "Valve control therefor"
+          }
+        },
+        {
+          "code": "F02B 53/08",
+          "title": {
+            "ko": null,
+            "en": "Charging, e.g. by means of rotary-piston pump"
+          }
+        },
+        {
+          "code": "F02B 53/10",
+          "title": {
+            "ko": null,
+            "en": "Fuel supply; Introducing fuel to combustion space"
+          }
+        },
+        {
+          "code": "F02B 53/12",
+          "title": {
+            "ko": null,
+            "en": "Ignition"
+          }
+        },
+        {
+          "code": "F02B 53/14",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of engines for driving, or engine combinations with, other devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 55/00",
+      "title": {
+        "ko": null,
+        "en": "Internal-combustion aspects of rotary pistons; Outer members for co-operation with rotary pistons"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 55/02",
+          "title": {
+            "ko": null,
+            "en": "Pistons"
+          }
+        },
+        {
+          "code": "F02B 55/04",
+          "title": {
+            "ko": null,
+            "en": "Cooling thereof"
+          }
+        },
+        {
+          "code": "F02B 55/06",
+          "title": {
+            "ko": null,
+            "en": "by air or other gas"
+          }
+        },
+        {
+          "code": "F02B 55/08",
+          "title": {
+            "ko": null,
+            "en": "Outer members for co-operation with rotary pistons; Casings"
+          }
+        },
+        {
+          "code": "F02B 55/10",
+          "title": {
+            "ko": null,
+            "en": "Cooling thereof"
+          }
+        },
+        {
+          "code": "F02B 55/12",
+          "title": {
+            "ko": null,
+            "en": "by air or other gas"
+          }
+        },
+        {
+          "code": "F02B 55/14",
+          "title": {
+            "ko": null,
+            "en": "Shapes or constructions of combustion chambers"
+          }
+        },
+        {
+          "code": "F02B 55/16",
+          "title": {
+            "ko": null,
+            "en": "Admission or exhaust passages in pistons or outer members"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 57/00",
+      "title": {
+        "ko": "연소된 가스가 하나 또는 그 이상의 왕복운동 피스톤을 대체하는 회전기관의 내부 연소에 관한 것",
+        "en": "Internal-combustion aspects of reciprocating-piston engines with movable cylinders"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 57/00",
+      "title": {
+        "ko": "연소된 가스가 하나 또는 그 이상의 왕복운동 피스톤을 대체하는 회전기관의 내부 연소에 관한 것",
+        "en": "Internal-combustion aspects of rotary engines in which the combusted gases displace one or more reciprocating pistons"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 57/02",
+          "title": {
+            "ko": "연료 또는 연소공기의 공급(실린더의 급기흡입 또는 배기를 제어하는 것 F02B 57/04)",
+            "en": "Fuel or combustion-air supply (cylinder-charge admission or exhaust control F02B0057040000)"
+          }
+        },
+        {
+          "code": "F02B 57/04",
+          "title": {
+            "ko": "실린더의 급기흡입 또는 배기의 제어(급기흡입 또는 배기에 제어된 동작피스톤을 가진 다른 기관 또는 2행정 기관에 특유한 것 F02B 57/06)",
+            "en": "Control of cylinder-charge admission or exhaust (peculiar to two-stroke engines or to other engines with working-piston-controlled charge admission or exhaust F02B0057060000)"
+          }
+        },
+        {
+          "code": "F02B 57/06",
+          "title": {
+            "ko": "급기흡입 또는 배기에 제어된 동작피스톤을 가진 다른 기관 또는 2행정 기관(성형의 중심의 연소공간을 가지는 것 F02B 57/10)",
+            "en": "Two-stroke engines or other engines with working-piston-controlled cylinder-charge admission or exhaust (with combustion space in centre of star F02B0057100000)"
+          }
+        },
+        {
+          "code": "F02B 57/08",
+          "title": {
+            "ko": null,
+            "en": "Engines with star-shaped cylinder arrangements"
+          }
+        },
+        {
+          "code": "F02B 57/10",
+          "title": {
+            "ko": null,
+            "en": "with combustion space in centre of star"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 59/00",
+      "title": {
+        "ko": "가동실린더가 있는 그 외의 왕복운동 피스톤식 기관, 예. 요동실린더(벽이 휘는 것 F02B 75/38)",
+        "en": "Internal-combustion aspects of other reciprocating-piston engines with movable, e.g. oscillating, cylinders (with yieldable walls F02B0075380000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 61/00",
+      "title": {
+        "ko": "차량의 구동 또는 추진기의 구동을 위한 기관의 응용; 전동장치와 기관의 조합(기관의 토크가 소기펌프 또는 급기펌프 및 그 기관의 출력축을 구동하기 위해 차동기어에 의하여 분배되는 것 F02B 39/06; 회전식 피스톤 또는 요동식 피스톤 기관의 응용 또는 조합 F02B 53/14)",
+        "en": "Adaptations of engines for special use; Combinations of engines with devices other than engine parts or auxiliaries"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 61/00",
+      "title": {
+        "ko": "차량의 구동 또는 추진기의 구동을 위한 기관의 응용; 전동장치와 기관의 조합(기관의 토크가 소기펌프 또는 급기펌프 및 그 기관의 출력축을 구동하기 위해 차동기어에 의하여 분배되는 것 F02B 39/06; 회전식 피스톤 또는 요동식 피스톤 기관의 응용 또는 조합 F02B 53/14)",
+        "en": "Adaptations of engines for driving vehicles or for driving propellers; Combinations of engines with gearing  (the engine torque being divided by a differential gear for driving a scavenging or charging pump and the engine output shaft F02B0039060000; adaptations or combinations of rotary-piston or oscillating-piston engines F02B0053140000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 61/02",
+          "title": {
+            "ko": null,
+            "en": "for driving cycles"
+          }
+        },
+        {
+          "code": "F02B 61/04",
+          "title": {
+            "ko": null,
+            "en": "for driving propellers"
+          }
+        },
+        {
+          "code": "F02B 61/06",
+          "title": {
+            "ko": "기관과 기계적 전동장치와의 조합(F02B 61/02, 61/04가 우선)",
+            "en": "Combinations of engines with mechanical gearing (F02B0061020000, F02B0061040000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 63/00",
+      "title": {
+        "ko": "펌프, 수동공구 또는 발전기를 구동하기 위한 기관의 응용; 기관에 의해 구동되는 장치가 있는 휴대 가능한 조합(회전식 피스톤 또는 요동식 피스톤 기관 F02B 53/14)",
+        "en": "Adaptations of engines for driving pumps, hand-held tools or electric generators; Portable combinations of engines with engine-driven devices (of rotary-piston or oscillating-piston engines F02B0053140000)"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 63/02",
+          "title": {
+            "ko": null,
+            "en": "for hand-held tools"
+          }
+        },
+        {
+          "code": "F02B 63/04",
+          "title": {
+            "ko": null,
+            "en": "for electric generators"
+          }
+        },
+        {
+          "code": "F02B 63/06",
+          "title": {
+            "ko": null,
+            "en": "for pumps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 65/00",
+      "title": {
+        "ko": "그룹 F02B 61/00 또는 F02B 63/00으로 분류되지 않는 특수 용도를 위한 엔진의 응용; 다른 장치와 엔진의 조합, 예. 비구동장치와의 조합 (회전식 피스톤 또는 요동식 피스톤 기관 F02B 35/14; 상호 추진 또는 공동 추진을 위한 전기모터와 내연 엔진으로 구성되는 원동기의 조합 B60K 6/20)",
+        "en": "Adaptations of engines for special uses not provided for in groups F02B0061000000 or F02B0063000000; Combinations of engines with other devices, e.g. with non-driven apparatus (of rotary-piston or oscillating-piston engines F02B0053140000;combinations of prime-movers consisting of electric motors and internal combustion engines for mutual or common propulsion B60K0006200000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 67/00",
+      "title": {
+        "ko": null,
+        "en": "Engines with pertinent characteristics other than those provided for in, or of interest apart from, preceding main groups"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 67/00",
+      "title": {
+        "ko": null,
+        "en": "Engines characterised by the arrangement of auxiliary apparatus not being otherwise provided for, e.g. the apparatus having different functions; Driving auxiliary apparatus from engines, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 67/04",
+          "title": {
+            "ko": null,
+            "en": "of mechanically-driven auxiliary apparatus"
+          }
+        },
+        {
+          "code": "F02B 67/06",
+          "title": {
+            "ko": null,
+            "en": "driven by means of chains, belts, or like endless members"
+          }
+        },
+        {
+          "code": "F02B 67/08",
+          "title": {
+            "ko": null,
+            "en": "of non-mechanically driven auxiliary apparatus"
+          }
+        },
+        {
+          "code": "F02B 67/10",
+          "title": {
+            "ko": null,
+            "en": "of charging or scavenging apparatus"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 69/00",
+      "title": {
+        "ko": null,
+        "en": "Internal-combustion engines convertible into other combustion-engine type, not provided for in group F02B0011000000; Internal-combustion engines of different types characterised by constructions facilitating use of same main engine-parts in different types"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 69/02",
+          "title": {
+            "ko": null,
+            "en": "for different fuel types, other than engines indifferent to fuel consumed, e.g. convertible from light to heavy fuel"
+          }
+        },
+        {
+          "code": "F02B 69/04",
+          "title": {
+            "ko": null,
+            "en": "for gaseous and non-gaseous fuels"
+          }
+        },
+        {
+          "code": "F02B 69/06",
+          "title": {
+            "ko": null,
+            "en": "for different cycles, e.g. convertible from two-stroke to four-stroke"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 71/00",
+      "title": {
+        "ko": null,
+        "en": "Free-piston engines; Engines without rotary main shaft"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 71/02",
+          "title": {
+            "ko": null,
+            "en": "Starting"
+          }
+        },
+        {
+          "code": "F02B 71/04",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of such engines for special use; Combinations of such engines with apparatus driven thereby"
+          }
+        },
+        {
+          "code": "F02B 71/06",
+          "title": {
+            "ko": null,
+            "en": "Free-piston combustion gas generators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 73/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of two or more engines, not otherwise provided for"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F02B 75/00",
+      "title": {
+        "ko": "그 외의 기관, 예. 단일 실린더 엔진",
+        "en": "Other engines, e.g. single-cylinder engines"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 75/02",
+          "title": {
+            "ko": null,
+            "en": "Engines characterised by their cycles, e.g. six-stroke"
+          }
+        },
+        {
+          "code": "F02B 75/04",
+          "title": {
+            "ko": null,
+            "en": "Engines with variable distances between pistons at top dead-centre positions and cylinder heads"
+          }
+        },
+        {
+          "code": "F02B 75/06",
+          "title": {
+            "ko": null,
+            "en": "Engines with means for equalising torque"
+          }
+        },
+        {
+          "code": "F02B 75/08",
+          "title": {
+            "ko": null,
+            "en": "Engines with means for preventing corrosion in gas-swept spaces"
+          }
+        },
+        {
+          "code": "F02B 75/10",
+          "title": {
+            "ko": "배기를 무해로 하기 위한 수단이 있는 기관(장치자체 F01N 3/00)",
+            "en": "Engines with means for rendering exhaust gases innocuous  (apparatus per seF01N0003000000)"
+          }
+        },
+        {
+          "code": "F02B 75/12",
+          "title": {
+            "ko": null,
+            "en": "Other methods of operation"
+          }
+        },
+        {
+          "code": "F02B 75/16",
+          "title": {
+            "ko": "실린더수에 특징이 있는 기관, 예. 단일 실린더 기관 (F02B 75/26이 우선)",
+            "en": "Engines characterised by number of cylinders, e.g. single-cylinder engines (F02B0075260000 takes precedence)"
+          }
+        },
+        {
+          "code": "F02B 75/18",
+          "title": {
+            "ko": "멀티실린더기관(소기장치 F02B 25/00)",
+            "en": "Multi-cylinder engines (scavenging aspects F02B0025000000)"
+          }
+        },
+        {
+          "code": "F02B 75/20",
+          "title": {
+            "ko": null,
+            "en": "with cylinders all in one line"
+          }
+        },
+        {
+          "code": "F02B 75/22",
+          "title": {
+            "ko": null,
+            "en": "with cylinders in V-, fan-, or star-arrangement"
+          }
+        },
+        {
+          "code": "F02B 75/24",
+          "title": {
+            "ko": null,
+            "en": "with cylinders arranged oppositely relative to main shaft and of \"flat\" type"
+          }
+        },
+        {
+          "code": "F02B 75/26",
+          "title": {
+            "ko": null,
+            "en": "Engines with cylinder axes coaxial with, or parallel or inclined to, main-shaft axis; Engines with cylinder axes arranged substantially tangentially to a circle centred on main-shaft axis"
+          }
+        },
+        {
+          "code": "F02B 75/28",
+          "title": {
+            "ko": "동일 실린더내 또는 본질적으로 동축의 실린더내에서 왕복운동 하는 2개 또는 2이상이 피스톤을 가진 기관(주축에 대하여 마주 보게 배열되어 있는 것 F02B 75/24)",
+            "en": "Engines with two or more pistons reciprocating within same cylinder or within essentially coaxial cylinders (arranged oppositely relative to main shaft F02B0075240000)"
+          }
+        },
+        {
+          "code": "F02B 75/30",
+          "title": {
+            "ko": null,
+            "en": "with one working piston sliding inside another"
+          }
+        },
+        {
+          "code": "F02B 75/32",
+          "title": {
+            "ko": null,
+            "en": "Engines characterised by connections between pistons and main shafts and not specific to preceding main groups"
+          }
+        },
+        {
+          "code": "F02B 75/34",
+          "title": {
+            "ko": null,
+            "en": "Ultra-small engines, e.g. for driving models"
+          }
+        },
+        {
+          "code": "F02B 75/36",
+          "title": {
+            "ko": "압력하에서 탄성변형하는 연소실 또는 작동실의 벽의 부분을 가진 기관",
+            "en": "Engines with parts of combustion- or working-chamber walls resiliently yielding under pressure"
+          }
+        },
+        {
+          "code": "F02B 75/38",
+          "title": {
+            "ko": "왕복운동 피스톤식 기관(F02B 75/04가 우선; 예 연소실의 속에 탄성적으로 눌리는 보조 피스톤을 가진 것 F02B 19/06)",
+            "en": "Reciprocating-piston engines (F02B0075040000 takes precedence;with resiliently-urged auxiliary piston in pre-combustion chamber F02B0019060000)"
+          }
+        },
+        {
+          "code": "F02B 75/40",
+          "title": {
+            "ko": null,
+            "en": "Other reciprocating-piston engines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 77/00",
+      "title": {
+        "ko": "구성부품, 세부 또는 부속품으로 달리 분류되지 않는 것",
+        "en": "Component parts, details, or accessories, not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F02B 77/02",
+          "title": {
+            "ko": "연소가스에 노출된 부분의 표면을 커버하는 것(피스톤 F02F3/10; 실린더 및 실린더 헤드 수 F02F1/00)",
+            "en": "Surface coverings of combustion-gas-swept parts  (of pistons F02F0003100000; of cylinders and cylinder heads F02F0001000000)"
+          }
+        },
+        {
+          "code": "F02B 77/04",
+          "title": {
+            "ko": null,
+            "en": "Cleaning of, preventing corrosion or erosion in, or preventing unwanted deposits in, combustion engines"
+          }
+        },
+        {
+          "code": "F02B 77/08",
+          "title": {
+            "ko": "안전장치, 지시장치 또는 관리장치(단열재에 대하여 F02B 77/11; 배기가스 처리장치의 감시 또는 진단장치 F01N 11/00)",
+            "en": "Safety, indicating, or supervising devices (thermal insulation F02B0077110000;monitoring or diagnostic devices for exhaust-gas treatment apparatus F01N0011000000)"
+          }
+        },
+        {
+          "code": "F02B 77/10",
+          "title": {
+            "ko": null,
+            "en": "Safety means relating to crankcase explosions"
+          }
+        },
+        {
+          "code": "F02B 77/11",
+          "title": {
+            "ko": null,
+            "en": "Thermal or acoustic insulation"
+          }
+        },
+        {
+          "code": "F02B 77/13",
+          "title": {
+            "ko": null,
+            "en": "Acoustic insulation"
+          }
+        },
+        {
+          "code": "F02B 77/14",
+          "title": {
+            "ko": null,
+            "en": "Engine-driven auxiliary devices combined into units"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F02B 79/00",
+      "title": {
+        "ko": "내연기관의 운전(그들의 윤활 F01M7/00)",
+        "en": "Running-in of internal-combustion engines  (lubrication thereof F01M0007000000)"
+      },
+      "subgroups": []
+    }
+  ]
+}

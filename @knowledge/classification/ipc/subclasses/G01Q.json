@@ -1,0 +1,468 @@
+{
+  "subclass": "G01Q",
+  "title": {
+    "ko": "스캐닝 프로브 기술 혹은 장치; 스캐닝 프로브 기술의 적용 예. 스캔 프로브 현미경[SPM]",
+    "en": "SCANNING-PROBE TECHNIQUES OR APPARATUS; APPLICATIONS OF SCANNING-PROBE TECHNIQUES, e.g. SCANNING-PROBE MICROSCOPY [SPM]"
+  },
+  "definition": {
+    "ko": "이 서브클래스에서, 상반되는 지시가 없는 한, 최초개소 우선규칙이 적용되며, 즉. 각 계층적 레벨에서, 최초의 적절한 개소에 분류한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G01Q 10/00",
+      "title": {
+        "ko": null,
+        "en": "Scanning or positioning arrangements, i.e. arrangements for actively controlling the movement or position of the probe"
+      },
+      "subgroups": [
+        {
+          "code": "G01Q 10/02",
+          "title": {
+            "ko": null,
+            "en": "Coarse scanning or positioning"
+          }
+        },
+        {
+          "code": "G01Q 10/04",
+          "title": {
+            "ko": null,
+            "en": "Fine scanning or positioning"
+          }
+        },
+        {
+          "code": "G01Q 10/06",
+          "title": {
+            "ko": null,
+            "en": "Circuits or algorithms therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01Q 20/00",
+      "title": {
+        "ko": null,
+        "en": "Monitoring the movement or position of the probe"
+      },
+      "subgroups": [
+        {
+          "code": "G01Q 20/02",
+          "title": {
+            "ko": null,
+            "en": "by optical means"
+          }
+        },
+        {
+          "code": "G01Q 20/04",
+          "title": {
+            "ko": null,
+            "en": "Self-detecting probes, i.e. wherein the probe itself generates a signal representative of its position, e.g. piezoelectric gauge"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01Q 30/00",
+      "title": {
+        "ko": null,
+        "en": "Auxiliary means serving to assist or improve the scanning probe techniques or apparatus, e.g. display or data processing devices"
+      },
+      "subgroups": [
+        {
+          "code": "G01Q 30/02",
+          "title": {
+            "ko": null,
+            "en": "Non-SPM analysing devices, e.g. SEM [Scanning Electron Microscope], spectrometer or optical microscope"
+          }
+        },
+        {
+          "code": "G01Q 30/04",
+          "title": {
+            "ko": null,
+            "en": "Display or data processing devices"
+          }
+        },
+        {
+          "code": "G01Q 30/06",
+          "title": {
+            "ko": null,
+            "en": "for error compensation"
+          }
+        },
+        {
+          "code": "G01Q 30/08",
+          "title": {
+            "ko": null,
+            "en": "Means for establishing or regulating a desired environmental condition within a sample chamber"
+          }
+        },
+        {
+          "code": "G01Q 30/10",
+          "title": {
+            "ko": null,
+            "en": "Thermal environment"
+          }
+        },
+        {
+          "code": "G01Q 30/12",
+          "title": {
+            "ko": null,
+            "en": "Fluid environment"
+          }
+        },
+        {
+          "code": "G01Q 30/14",
+          "title": {
+            "ko": null,
+            "en": "Liquid environment"
+          }
+        },
+        {
+          "code": "G01Q 30/16",
+          "title": {
+            "ko": null,
+            "en": "Vacuum environment"
+          }
+        },
+        {
+          "code": "G01Q 30/18",
+          "title": {
+            "ko": null,
+            "en": "Means for protecting or isolating the interior of a sample chamber from external environmental conditions or influences, e.g. vibrations or electromagnetic fields"
+          }
+        },
+        {
+          "code": "G01Q 30/20",
+          "title": {
+            "ko": null,
+            "en": "Sample handling devices or methods"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01Q 40/00",
+      "title": {
+        "ko": null,
+        "en": "Calibration, e.g. of probes"
+      },
+      "subgroups": [
+        {
+          "code": "G01Q 40/02",
+          "title": {
+            "ko": null,
+            "en": "Calibration standards or methods of fabrication thereof"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01Q 60/00",
+      "title": {
+        "ko": null,
+        "en": "Particular types of SPM [Scanning-Probe Microscopy] or apparatus therefor; Essential components thereof"
+      },
+      "subgroups": [
+        {
+          "code": "G01Q 60/02",
+          "title": {
+            "ko": null,
+            "en": "Multiple-type SPM, i.e. involving two or more SPM techniques"
+          }
+        },
+        {
+          "code": "G01Q 60/04",
+          "title": {
+            "ko": null,
+            "en": "STM [Scanning Tunnelling Microscopy] combined with AFM [Atomic Force Microscopy]"
+          }
+        },
+        {
+          "code": "G01Q 60/06",
+          "title": {
+            "ko": null,
+            "en": "SNOM [Scanning Near-field Optical Microscopy] combined with AFM [Atomic Force Microscopy]"
+          }
+        },
+        {
+          "code": "G01Q 60/08",
+          "title": {
+            "ko": null,
+            "en": "MFM [Magnetic Force Microscopy] combined with AFM [Atomic Force Microscopy]"
+          }
+        },
+        {
+          "code": "G01Q 60/10",
+          "title": {
+            "ko": null,
+            "en": "STM [Scanning Tunnelling Microscopy] or apparatus therefor, e.g. STM probes"
+          }
+        },
+        {
+          "code": "G01Q 60/12",
+          "title": {
+            "ko": null,
+            "en": "STS [Scanning Tunnelling Spectroscopy]"
+          }
+        },
+        {
+          "code": "G01Q 60/14",
+          "title": {
+            "ko": null,
+            "en": "STP [Scanning Tunnelling Potentiometry]"
+          }
+        },
+        {
+          "code": "G01Q 60/16",
+          "title": {
+            "ko": null,
+            "en": "Probes, their manufacture or their related instrumentation, e.g. holders"
+          }
+        },
+        {
+          "code": "G01Q 60/18",
+          "title": {
+            "ko": null,
+            "en": "SNOM [Scanning Near-Field Optical Microscopy] or apparatus therefor, e.g. SNOM probes"
+          }
+        },
+        {
+          "code": "G01Q 60/20",
+          "title": {
+            "ko": null,
+            "en": "Fluorescence"
+          }
+        },
+        {
+          "code": "G01Q 60/22",
+          "title": {
+            "ko": null,
+            "en": "Probes, their manufacture or their related instrumentation, e.g. holders"
+          }
+        },
+        {
+          "code": "G01Q 60/24",
+          "title": {
+            "ko": null,
+            "en": "AFM [Atomic Force Microscopy] or apparatus therefor, e.g. AFM probes"
+          }
+        },
+        {
+          "code": "G01Q 60/26",
+          "title": {
+            "ko": null,
+            "en": "Friction force microscopy"
+          }
+        },
+        {
+          "code": "G01Q 60/28",
+          "title": {
+            "ko": null,
+            "en": "Adhesion force microscopy"
+          }
+        },
+        {
+          "code": "G01Q 60/30",
+          "title": {
+            "ko": null,
+            "en": "Scanning potential microscopy"
+          }
+        },
+        {
+          "code": "G01Q 60/32",
+          "title": {
+            "ko": null,
+            "en": "AC mode"
+          }
+        },
+        {
+          "code": "G01Q 60/34",
+          "title": {
+            "ko": null,
+            "en": "Tapping mode"
+          }
+        },
+        {
+          "code": "G01Q 60/36",
+          "title": {
+            "ko": null,
+            "en": "DC mode"
+          }
+        },
+        {
+          "code": "G01Q 60/38",
+          "title": {
+            "ko": null,
+            "en": "Probes, their manufacture or their related instrumentation, e.g. holders"
+          }
+        },
+        {
+          "code": "G01Q 60/40",
+          "title": {
+            "ko": null,
+            "en": "Conductive probes"
+          }
+        },
+        {
+          "code": "G01Q 60/42",
+          "title": {
+            "ko": null,
+            "en": "Functionalisation"
+          }
+        },
+        {
+          "code": "G01Q 60/44",
+          "title": {
+            "ko": null,
+            "en": "SICM [Scanning Ion-Conductance Microscopy] or apparatus therefor, e.g. SICM probes"
+          }
+        },
+        {
+          "code": "G01Q 60/46",
+          "title": {
+            "ko": null,
+            "en": "SCM [Scanning Capacitance Microscopy] or apparatus therefor, e.g. SCM probes"
+          }
+        },
+        {
+          "code": "G01Q 60/48",
+          "title": {
+            "ko": null,
+            "en": "Probes, their manufacture or their related instrumentation, e.g. holders"
+          }
+        },
+        {
+          "code": "G01Q 60/50",
+          "title": {
+            "ko": null,
+            "en": "MFM [Magnetic Force Microscopy] or apparatus therefor, e.g. MFM probes"
+          }
+        },
+        {
+          "code": "G01Q 60/52",
+          "title": {
+            "ko": null,
+            "en": "Resonance"
+          }
+        },
+        {
+          "code": "G01Q 60/54",
+          "title": {
+            "ko": null,
+            "en": "Probes, their manufacture or their related instrumentation, e.g. holders"
+          }
+        },
+        {
+          "code": "G01Q 60/56",
+          "title": {
+            "ko": null,
+            "en": "Probes with magnetic coating"
+          }
+        },
+        {
+          "code": "G01Q 60/58",
+          "title": {
+            "ko": null,
+            "en": "SThM [Scanning Thermal Microscopy] or apparatus therefor, e.g. SThM probes"
+          }
+        },
+        {
+          "code": "G01Q 60/60",
+          "title": {
+            "ko": null,
+            "en": "SECM [Scanning Electro-Chemical Microscopy] or apparatus therefor, e.g. SECM probes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01Q 70/00",
+      "title": {
+        "ko": "그룹 G01Q 60/00에 포함되는 단일 SPM 기술이 특별히 적용되지 않는 SPM 프로브의 일반적인 형태, 그 제조 또는 관련 장비",
+        "en": "General aspects of SPM probes, their manufacture or their related instrumentation, insofar as they are not specially adapted to a single SPM technique covered by group G01Q0060000000"
+      },
+      "subgroups": [
+        {
+          "code": "G01Q 70/02",
+          "title": {
+            "ko": null,
+            "en": "Probe holders"
+          }
+        },
+        {
+          "code": "G01Q 70/04",
+          "title": {
+            "ko": null,
+            "en": "with compensation for temperature or vibration induced errors"
+          }
+        },
+        {
+          "code": "G01Q 70/06",
+          "title": {
+            "ko": null,
+            "en": "Probe tip arrays"
+          }
+        },
+        {
+          "code": "G01Q 70/08",
+          "title": {
+            "ko": null,
+            "en": "Probe characteristics"
+          }
+        },
+        {
+          "code": "G01Q 70/10",
+          "title": {
+            "ko": null,
+            "en": "Shape or taper"
+          }
+        },
+        {
+          "code": "G01Q 70/12",
+          "title": {
+            "ko": null,
+            "en": "Nanotube tips"
+          }
+        },
+        {
+          "code": "G01Q 70/14",
+          "title": {
+            "ko": null,
+            "en": "Particular materials"
+          }
+        },
+        {
+          "code": "G01Q 70/16",
+          "title": {
+            "ko": null,
+            "en": "Probe manufacture"
+          }
+        },
+        {
+          "code": "G01Q 70/18",
+          "title": {
+            "ko": null,
+            "en": "Functionalisation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01Q 80/00",
+      "title": {
+        "ko": "스캐닝 탐촉 기술의 적용 (마이크로구조의 제조 혹은 처리 B81C; 나노구조의 제조 혹은 처리 B82B 3/00; 근접장(near-field) 상호작용에 사용하는 기록 혹은 재생산 정보 G11B 9/12, G11B 11/24, G11B 13/08)",
+        "en": "Applications, other than SPM, of scanning-probe techniques (manufacture or treatment of microstructures B81C;manufacture or treatment of nanostructures B82B0003000000;recording or reproducing information using near-field interaction G11B0009120000, G11B0011240000 or G11B0013080000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01Q 90/00",
+      "title": {
+        "ko": null,
+        "en": "Scanning-probe techniques or apparatus not otherwise provided for"
+      },
+      "subgroups": []
+    }
+  ]
+}

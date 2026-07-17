@@ -1,0 +1,60 @@
+{
+  "subclass": "B81B",
+  "title": {
+    "ko": "미세 구조 장치 또는 시스템, 예. 미세 기계 장치(압전, 정전기 또는 자기 변형 소자 자체 H10N30/00, H10N35/00)",
+    "en": "MICROSTRUCTURAL DEVICES OR SYSTEMS, e.g. MICROMECHANICAL DEVICES  (piezoelectric, electrostrictive or magnetostrictive elements per seH10N0030000000, H10N0035000000)"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스는 다음을 포함하지 않는다. - 섹션 H에 포함되는 순수 전기 또는 전자 장치 그 자체, 예. 클래스 H10; - 서브클래스 G02B 또는 G02F에 포함되는 순수 광학 장치 그 자체; - 기본적으로 2차원 [2D] 구조물, 예. 서브클래스 B32B에 포함되는 적층체 제품; - 섹션 C에 포함되는 화학적 또는 생물학적 구조물 그 자체; - 그룹 B82B1/00에 포함되는 단일의 원자 또는 분자를 조작하여 만들어지는 원자 스케일의 구조물. 2. 이 서브클래스에 분류되는 장치 또는 시스템은, 구조적 또는 기능적 특징이 중요한 경우, 구조적 또는 기능적 특징을 규정한 해당 서브클래스에도 분류된다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B81B 1/00",
+      "title": {
+        "ko": null,
+        "en": "Devices without movable or flexible elements, e.g. microcapillary devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B81B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Devices comprising flexible or deformable elements, e.g. comprising elastic tongues or membranes (B81B0005000000 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B81B 5/00",
+      "title": {
+        "ko": null,
+        "en": "Devices comprising elements which are movable in relation to each other, e.g. comprising slidable or rotatable elements"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B81B 7/00",
+      "title": {
+        "ko": "마이크로 구조 시스템",
+        "en": "Microstructural systems"
+      },
+      "subgroups": [
+        {
+          "code": "B81B 7/02",
+          "title": {
+            "ko": "해당 기능과 특별히 관련성이 있는 고유한 전기 또는 광학 장치를 포함, 예. 초소형 전자 기계 시스템[MEMS](B81B7/04 우선 적용)",
+            "en": "containing distinct electrical or optical devices of particular relevance for their function, e.g. microelectro-mechanical systems [MEMS] (B81B0007040000 takes precedence)"
+          }
+        },
+        {
+          "code": "B81B 7/04",
+          "title": {
+            "ko": null,
+            "en": "Networks or arrays of similar microstructural devices"
+          }
+        }
+      ]
+    }
+  ]
+}

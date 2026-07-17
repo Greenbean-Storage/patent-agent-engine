@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "wipo_ipc",
+      "url": "https://www.wipo.int/classifications/ipc/en/ITsupport/Version20260101/",
+      "fetched_at": "2026-05-04T16:43:57.897148+00:00",
+      "cache_path": "/home/ubuntu/workspace/repository/engine-prototype/tools/classification-indexer/.cache/wipo_ipc-20260101.json"
+    },
+    {
+      "id": "kipi_ipc",
+      "url": "https://cls.kipro.or.kr/api/ipc/search/listByText",
+      "fetched_at": "2026-05-04T16:44:48.239299+00:00",
+      "cache_path": "/home/ubuntu/workspace/repository/engine-prototype/tools/classification-indexer/.cache/kipi_ipc.json"
+    },
+    {
+      "id": "wipo_cpc",
+      "url": "https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions/bulk",
+      "fetched_at": "2026-05-04T16:44:49.669333+00:00",
+      "cache_path": "/home/ubuntu/workspace/repository/engine-prototype/tools/classification-indexer/.cache/wipo_cpc-202605.json"
+    }
+  ],
+  "built_at": "2026-05-04T16:44:50.154445+00:00"
+}

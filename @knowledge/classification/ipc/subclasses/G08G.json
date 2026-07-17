@@ -1,0 +1,556 @@
+{
+  "subclass": "G08G",
+  "title": {
+    "ko": "교통제어시스템(철도교통의 안내, 철도교통의 안전확보 B61L; 교통제어용 레이더(radar) 및 유사 시스템, 소나시스템 또는 라이더(lidar)시스템 G01S 13/91, G01S 15/88, G01S 17/88; 충돌방지용 레이더 및 유사 시스템, 소나시스템 또는 라이더시스템 G01S 13/93, G01S 15/93, G01S 17/93; 교통 환경에 특정되지 않는 육상, 수상, 항공, 우주 선체의 위치, 경로, 고도 또는 자세의 제어 G05D 1/00)",
+    "en": "TRAFFIC CONTROL SYSTEMS (guiding railway traffic, ensuring the safety of railway traffic B61L;radar or analogous systems, sonar systems or lidar systems specially adapted for traffic control G01S0013910000, G01S0015880000, G01S0017880000;radar or analogous systems, sonar systems or lidar systems specially adapted for anti-collision purposes G01S0013930000, G01S0015930000, G01S0017930000;control of position, course, altitude or attitude of land, water, air or space vehicles, not being specific to a traffic environment G05D0001000000)"
+  },
+  "definition": {
+    "ko": "이 서브클래스는 이하의 것을 포함한다. - 교통위반차량의 인식 - 교통제어를 목적으로 하는 차량의 위치표시 - 교통제어를 목적으로 하는 항법시스템, 즉. 항법이 차량내부 또는 차량에 의해서 자동적으로 미리 결정되는 것이 아니라 차량에 전달되는 명령에 의해서 차량이 유도되는 시스템 - 주차장의 빈 자리 표시",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G08G 1/00",
+      "title": {
+        "ko": "도로 차량을 위한 교통 제어 시스템(도로표시 또는 교통신호의 배치 E01F 9/00)",
+        "en": "Traffic control systems for road vehicles (arrangement of road signs or traffic signals E01F0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G08G 1/005",
+          "title": {
+            "ko": null,
+            "en": "including pedestrian guidance indicator"
+          }
+        },
+        {
+          "code": "G08G 1/01",
+          "title": {
+            "ko": "계수 또는 제어되는 교통량의 검출(G08G 1/07-G08G 1/14가 우선; 차량 또는 차량 사용자에 대한 통행료 또는 혼잡통행료 징수 G07B 15/06)",
+            "en": "Detecting movement of traffic to be counted or controlled (G08G0001070000-G08G0001140000 take precedence;road pricing or congestion charging of vehicles or vehicle users G07B0015060000)"
+          }
+        },
+        {
+          "code": "G08G 1/015",
+          "title": {
+            "ko": null,
+            "en": "with provision for distinguishing between motor cars and cycles"
+          }
+        },
+        {
+          "code": "G08G 1/017",
+          "title": {
+            "ko": "차량을 구별하는 것 (G08G1/015, G08G1/054 우선)",
+            "en": "identifying vehicles (G08G0001015000, G08G0001054000 take precedence)"
+          }
+        },
+        {
+          "code": "G08G 1/02",
+          "title": {
+            "ko": null,
+            "en": "using treadles built into the road"
+          }
+        },
+        {
+          "code": "G08G 1/04",
+          "title": {
+            "ko": null,
+            "en": "using optical or ultrasonic detectors"
+          }
+        },
+        {
+          "code": "G08G 1/042",
+          "title": {
+            "ko": null,
+            "en": "using inductive or magnetic detectors"
+          }
+        },
+        {
+          "code": "G08G 1/048",
+          "title": {
+            "ko": null,
+            "en": "with provision for compensation of environmental or other condition, e.g. snow, vehicle stopped at detector"
+          }
+        },
+        {
+          "code": "G08G 1/052",
+          "title": {
+            "ko": null,
+            "en": "with provision for determining speed or overspeed"
+          }
+        },
+        {
+          "code": "G08G 1/054",
+          "title": {
+            "ko": null,
+            "en": "photographing overspeeding vehicles"
+          }
+        },
+        {
+          "code": "G08G 1/056",
+          "title": {
+            "ko": null,
+            "en": "with provision for distinguishing direction of travel"
+          }
+        },
+        {
+          "code": "G08G 1/065",
+          "title": {
+            "ko": "도로의 일정구간 내의 차량 또는 주차구역에 있는 차량을 계수하는 것에 의한 것, 즉 들어오는 수와 나가는 수의 비교 (차량 또는 차량 사용자에 대한G07B 15/06)",
+            "en": "by counting the vehicles in a section of the road or in a parking area, i.e. comparing incoming count with outgoing count (road pricing or congestion charging of vehicles or vehicle users G07B0015060000)"
+          }
+        },
+        {
+          "code": "G08G 1/07",
+          "title": {
+            "ko": null,
+            "en": "Controlling traffic signals"
+          }
+        },
+        {
+          "code": "G08G 1/08",
+          "title": {
+            "ko": null,
+            "en": "according to detected number or speed of vehicles"
+          }
+        },
+        {
+          "code": "G08G 1/081",
+          "title": {
+            "ko": null,
+            "en": "Plural intersections under common control"
+          }
+        },
+        {
+          "code": "G08G 1/082",
+          "title": {
+            "ko": null,
+            "en": "Controlling the time between beginning of the same phase of a cycle at adjacent intersections"
+          }
+        },
+        {
+          "code": "G08G 1/083",
+          "title": {
+            "ko": null,
+            "en": "Controlling the allocation of time between phases of a cycle"
+          }
+        },
+        {
+          "code": "G08G 1/085",
+          "title": {
+            "ko": null,
+            "en": "using a free-running cyclic timer"
+          }
+        },
+        {
+          "code": "G08G 1/087",
+          "title": {
+            "ko": null,
+            "en": "Override of traffic control, e.g. by signal transmitted by an emergency vehicle"
+          }
+        },
+        {
+          "code": "G08G 1/09",
+          "title": {
+            "ko": "가변 교통지령을 지시하기 위한 장치",
+            "en": "Arrangements for giving variable traffic instructions"
+          }
+        },
+        {
+          "code": "G08G 1/095",
+          "title": {
+            "ko": null,
+            "en": "Traffic lights"
+          }
+        },
+        {
+          "code": "G08G 1/0955",
+          "title": {
+            "ko": null,
+            "en": "transportable"
+          }
+        },
+        {
+          "code": "G08G 1/096",
+          "title": {
+            "ko": null,
+            "en": "provided with indicators in which a mark progresses showing the time elapsed, e.g. of green phase"
+          }
+        },
+        {
+          "code": "G08G 1/0962",
+          "title": {
+            "ko": "차량 내에 장치된 지시수단을 가지는 것, 예. 음성안내를 하는 것",
+            "en": "having an indicator mounted inside the vehicle, e.g. giving voice messages"
+          }
+        },
+        {
+          "code": "G08G 1/0965",
+          "title": {
+            "ko": null,
+            "en": "responding to signals from another vehicle, e.g. emergency vehicle"
+          }
+        },
+        {
+          "code": "G08G 1/0967",
+          "title": {
+            "ko": "고속도로 정보의 송신을 포함하는 시스템, 예. 날씨, 제한속도 (G08G1/0968이 우선)",
+            "en": "Systems involving transmission of highway information, e.g. weather, speed limits (G08G0001096800 takes precedence)"
+          }
+        },
+        {
+          "code": "G08G 1/0968",
+          "title": {
+            "ko": null,
+            "en": "Systems involving transmission of navigation instructions to the vehicle"
+          }
+        },
+        {
+          "code": "G08G 1/0969",
+          "title": {
+            "ko": null,
+            "en": "having a display in the form of a map"
+          }
+        },
+        {
+          "code": "G08G 1/097",
+          "title": {
+            "ko": null,
+            "en": "Supervising of traffic control systems, e.g. by giving an alarm if two crossing streets have green light simultaneously"
+          }
+        },
+        {
+          "code": "G08G 1/123",
+          "title": {
+            "ko": null,
+            "en": "indicating the position of vehicles, e.g. scheduled vehicles"
+          }
+        },
+        {
+          "code": "G08G 1/127",
+          "title": {
+            "ko": null,
+            "en": "to a central station"
+          }
+        },
+        {
+          "code": "G08G 1/13",
+          "title": {
+            "ko": null,
+            "en": "the indicator being in the form of a map"
+          }
+        },
+        {
+          "code": "G08G 1/133",
+          "title": {
+            "ko": null,
+            "en": "within the vehicle"
+          }
+        },
+        {
+          "code": "G08G 1/137",
+          "title": {
+            "ko": null,
+            "en": "the indicator being in the form of a map"
+          }
+        },
+        {
+          "code": "G08G 1/14",
+          "title": {
+            "ko": null,
+            "en": "indicating individual free spaces in parking areas"
+          }
+        },
+        {
+          "code": "G08G 1/16",
+          "title": {
+            "ko": null,
+            "en": "Anti-collision systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08G 3/00",
+      "title": {
+        "ko": "선박에 대한 교통제어시스템 (운항 경로의 표시 B63B22/16, B63B51/00)",
+        "en": "Traffic control systems for marine craft (marking of navigational route B63B0051000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G08G 3/02",
+          "title": {
+            "ko": null,
+            "en": "Anti-collision systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08G 5/00",
+      "title": {
+        "ko": "항공기를 위한 교통 제어 시스템",
+        "en": "Traffic control systems for aircraft"
+      },
+      "subgroups": [
+        {
+          "code": "G08G 5/20",
+          "title": {
+            "ko": "교통 정보를 취득, 생성, 공유 또는 표시하기 위한 장치 (교통을 모니터링하기 위한 장치 G08G5/72)",
+            "en": "Arrangements for acquiring, generating, sharing or displaying traffic information  (arrangements for monitoring traffic G08G0005720000)"
+          }
+        },
+        {
+          "code": "G08G 5/21",
+          "title": {
+            "ko": null,
+            "en": "located onboard the aircraft"
+          }
+        },
+        {
+          "code": "G08G 5/22",
+          "title": {
+            "ko": null,
+            "en": "located on the ground"
+          }
+        },
+        {
+          "code": "G08G 5/23",
+          "title": {
+            "ko": null,
+            "en": "Details of user output interfaces, e.g. information presented"
+          }
+        },
+        {
+          "code": "G08G 5/24",
+          "title": {
+            "ko": null,
+            "en": "Details of user input interfaces, e.g. use of speech recognition or specific text formats"
+          }
+        },
+        {
+          "code": "G08G 5/25",
+          "title": {
+            "ko": null,
+            "en": "Transmission of traffic-related information between aircraft"
+          }
+        },
+        {
+          "code": "G08G 5/26",
+          "title": {
+            "ko": null,
+            "en": "Transmission of traffic-related information between aircraft and ground stations"
+          }
+        },
+        {
+          "code": "G08G 5/265",
+          "title": {
+            "ko": null,
+            "en": "for managing air traffic control [ATC] clearance"
+          }
+        },
+        {
+          "code": "G08G 5/27",
+          "title": {
+            "ko": null,
+            "en": "for managing network coverage, e.g. ensuring transmission connections for UAVs"
+          }
+        },
+        {
+          "code": "G08G 5/30",
+          "title": {
+            "ko": null,
+            "en": "Flight plan management"
+          }
+        },
+        {
+          "code": "G08G 5/32",
+          "title": {
+            "ko": null,
+            "en": "for flight plan preparation"
+          }
+        },
+        {
+          "code": "G08G 5/34",
+          "title": {
+            "ko": null,
+            "en": "for flight plan modification"
+          }
+        },
+        {
+          "code": "G08G 5/36",
+          "title": {
+            "ko": null,
+            "en": "for identification of authorised pilots"
+          }
+        },
+        {
+          "code": "G08G 5/38",
+          "title": {
+            "ko": null,
+            "en": "for identification of landing sites, e.g. of diversion airports"
+          }
+        },
+        {
+          "code": "G08G 5/50",
+          "title": {
+            "ko": null,
+            "en": "Navigation or guidance aids"
+          }
+        },
+        {
+          "code": "G08G 5/51",
+          "title": {
+            "ko": null,
+            "en": "for control when on the ground, e.g. taxiing or rolling"
+          }
+        },
+        {
+          "code": "G08G 5/52",
+          "title": {
+            "ko": null,
+            "en": "for take-off"
+          }
+        },
+        {
+          "code": "G08G 5/53",
+          "title": {
+            "ko": null,
+            "en": "for cruising"
+          }
+        },
+        {
+          "code": "G08G 5/54",
+          "title": {
+            "ko": null,
+            "en": "for approach or landing"
+          }
+        },
+        {
+          "code": "G08G 5/55",
+          "title": {
+            "ko": null,
+            "en": "for a single aircraft"
+          }
+        },
+        {
+          "code": "G08G 5/56",
+          "title": {
+            "ko": null,
+            "en": "for two or more aircraft"
+          }
+        },
+        {
+          "code": "G08G 5/57",
+          "title": {
+            "ko": null,
+            "en": "for unmanned aircraft"
+          }
+        },
+        {
+          "code": "G08G 5/58",
+          "title": {
+            "ko": null,
+            "en": "for emergency situations, e.g. hijacking or bird strikes"
+          }
+        },
+        {
+          "code": "G08G 5/59",
+          "title": {
+            "ko": null,
+            "en": "in accordance with predefined flight zones, e.g. to avoid prohibited zones"
+          }
+        },
+        {
+          "code": "G08G 5/70",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for monitoring traffic-related situations or conditions"
+          }
+        },
+        {
+          "code": "G08G 5/72",
+          "title": {
+            "ko": null,
+            "en": "for monitoring traffic"
+          }
+        },
+        {
+          "code": "G08G 5/74",
+          "title": {
+            "ko": null,
+            "en": "for monitoring terrain"
+          }
+        },
+        {
+          "code": "G08G 5/76",
+          "title": {
+            "ko": null,
+            "en": "for monitoring atmospheric conditions"
+          }
+        },
+        {
+          "code": "G08G 5/78",
+          "title": {
+            "ko": null,
+            "en": "for monitoring wake turbulence"
+          }
+        },
+        {
+          "code": "G08G 5/80",
+          "title": {
+            "ko": null,
+            "en": "Anti-collision systems"
+          }
+        },
+        {
+          "code": "G08G 5/90",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for urban air mobility [UAM]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08G 7/00",
+      "title": {
+        "ko": null,
+        "en": "Traffic control systems for simultaneous control of two or more different kinds of craft"
+      },
+      "subgroups": [
+        {
+          "code": "G08G 7/02",
+          "title": {
+            "ko": null,
+            "en": "Anti-collision systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08G 9/00",
+      "title": {
+        "ko": null,
+        "en": "Traffic control systems for craft where the kind of craft is irrelevant or unspecified"
+      },
+      "subgroups": [
+        {
+          "code": "G08G 9/02",
+          "title": {
+            "ko": null,
+            "en": "Anti-collision systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G08G 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

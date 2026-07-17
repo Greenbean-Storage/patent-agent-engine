@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "invention_description": {
+      "type": "string"
+    },
+    "claims_summary": {
+      "type": "string"
+    },
+    "needs_new_search": {
+      "type": "boolean"
+    },
+    "search_rationale": {
+      "type": "string"
+    },
+    "refined_search_focus": {
+      "type": "string"
+    },
+    "exclude_known": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prior_research_summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "invention_description",
+    "claims_summary",
+    "needs_new_search",
+    "search_rationale",
+    "refined_search_focus",
+    "exclude_known",
+    "prior_research_summary"
+  ]
+}

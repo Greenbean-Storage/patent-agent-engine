@@ -1,0 +1,345 @@
+{
+  "subclass": "G04G",
+  "title": {
+    "ko": null,
+    "en": "ELECTRONIC TIME-PIECES"
+  },
+  "groups": [
+    {
+      "code": "G04G 3/00",
+      "title": {
+        "ko": null,
+        "en": "Producing timing pulses (driving circuits for stepping motors G04C3/14; producing preselected time intervals for use as timing standards G04F5/00; pulse technique in general H03K; control, synchronisation, or stabilisation of generators in general H03L)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 3/02",
+          "title": {
+            "ko": null,
+            "en": "Circuits for deriving low frequency timing pulses from pulses of higher frequency (pulse frequency dividers in general H03K23/00 - H03K29/00)"
+          }
+        },
+        {
+          "code": "G04G 3/04",
+          "title": {
+            "ko": null,
+            "en": "Temperature-compensating arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 5/00",
+      "title": {
+        "ko": null,
+        "en": "Setting, i.e. correcting or changing, the time-indication (radio-controlled time-pieces G04R)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 5/002",
+          "title": {
+            "ko": null,
+            "en": "{brought into action by radio}"
+          }
+        },
+        {
+          "code": "G04G 5/005",
+          "title": {
+            "ko": null,
+            "en": "{Debouncing circuits}"
+          }
+        },
+        {
+          "code": "G04G 5/007",
+          "title": {
+            "ko": null,
+            "en": "{by using a separate register into which the entire correct setting is introduced, which is thereafter transferred to the time counters}"
+          }
+        },
+        {
+          "code": "G04G 5/02",
+          "title": {
+            "ko": null,
+            "en": "by temporarily changing the number of pulses per unit time, e.g. quick-feed method"
+          }
+        },
+        {
+          "code": "G04G 5/04",
+          "title": {
+            "ko": null,
+            "en": "by setting each of the displayed values, e.g. date, hour, independently"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 7/00",
+      "title": {
+        "ko": null,
+        "en": "Synchronisation (radio-controlled time-pieces G04R)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 7/005",
+          "title": {
+            "ko": null,
+            "en": "{provided with arrangements to prevent synchronisation by interfering signals (G04G7/023 takes precedence)}"
+          }
+        },
+        {
+          "code": "G04G 7/02",
+          "title": {
+            "ko": null,
+            "en": "{by radio}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 9/00",
+      "title": {
+        "ko": null,
+        "en": "Visual time or date indication means"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 9/0005",
+          "title": {
+            "ko": null,
+            "en": "{Transmission of control signals}"
+          }
+        },
+        {
+          "code": "G04G 9/0017",
+          "title": {
+            "ko": null,
+            "en": "{in which the light emitting display elements may be activated at will or are controlled in accordance with the ambient light}"
+          }
+        },
+        {
+          "code": "G04G 9/0023",
+          "title": {
+            "ko": null,
+            "en": "{by light valves in general (G04G9/06, G04G9/12 takes precedence; electro-, magneto- or acousto-optic devices in general G02F1/00)}"
+          }
+        },
+        {
+          "code": "G04G 9/0058",
+          "title": {
+            "ko": null,
+            "en": "{using a cathode ray tube as display device (displaying supplementary informative, e.g. time on TV screen H04N5/445)}"
+          }
+        },
+        {
+          "code": "G04G 9/0064",
+          "title": {
+            "ko": null,
+            "en": "{in which functions not related to time can be displayed (digital output to display devices of digital computers G06F3/14)}"
+          }
+        },
+        {
+          "code": "G04G 9/0076",
+          "title": {
+            "ko": null,
+            "en": "{in which the time in another time-zone or in another city can be displayed at will}"
+          }
+        },
+        {
+          "code": "G04G 9/0082",
+          "title": {
+            "ko": null,
+            "en": "{by building-up characters using a combination of indicating elements and by selecting desired characters out of a number of characters or by selecting indicating elements the positions of which represents the time, i.e. combinations of G04G9/02 and G04G9/08}"
+          }
+        },
+        {
+          "code": "G04G 9/02",
+          "title": {
+            "ko": null,
+            "en": "by selecting desired characters out of a number of characters or by selecting indicating elements the position of which represent the time, e.g. by using multiplexing techniques {(G04G9/0082 takes precedence)}"
+          }
+        },
+        {
+          "code": "G04G 9/08",
+          "title": {
+            "ko": null,
+            "en": "by building-up characters using a combination of indicating elements, e.g. by using multiplexing techniques {(G04G9/0082 takes precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 11/00",
+      "title": {
+        "ko": null,
+        "en": "Producing optical signals at preselected times"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G04G 13/00",
+      "title": {
+        "ko": null,
+        "en": "Producing acoustic time signals"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 13/02",
+          "title": {
+            "ko": null,
+            "en": "at preselected times, e.g. alarm clocks"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 15/00",
+      "title": {
+        "ko": null,
+        "en": "Time-pieces comprising means to be operated at preselected times or after preselected time intervals (G04G11/00, G04G13/00 take precedence; {electronic timers G04F1/005}; pulse delay circuits H03K5/13; electronic time-delay switches H03K17/28; electronic time-programme switches which automatically terminate their operation after the programme is completed H03K17/296)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 15/003",
+          "title": {
+            "ko": null,
+            "en": "{acting only at one preselected time or during one adjustable time interval}"
+          }
+        },
+        {
+          "code": "G04G 15/006",
+          "title": {
+            "ko": null,
+            "en": "{for operating at a number of different times (cigar or cigarette receptacles or boxes with means for limiting the frequency of smoking A24F15/005)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 17/00",
+      "title": {
+        "ko": null,
+        "en": "Structural details; Housings (constructional details of radio-controlled time-pieces, e.g. antennas G04R60/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 17/005",
+          "title": {
+            "ko": null,
+            "en": "{Time-pieces combined with games}"
+          }
+        },
+        {
+          "code": "G04G 17/02",
+          "title": {
+            "ko": null,
+            "en": "Component assemblies"
+          }
+        },
+        {
+          "code": "G04G 17/08",
+          "title": {
+            "ko": null,
+            "en": "Housings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 19/00",
+      "title": {
+        "ko": null,
+        "en": "Electric power supply circuits specially adapted for use in electronic time-pieces"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 19/02",
+          "title": {
+            "ko": null,
+            "en": "Conversion or regulation of current or voltage"
+          }
+        },
+        {
+          "code": "G04G 19/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing voltage drop due to overloading the power supply"
+          }
+        },
+        {
+          "code": "G04G 19/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supplying back-up power"
+          }
+        },
+        {
+          "code": "G04G 19/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing power consumption during storage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 21/00",
+      "title": {
+        "ko": null,
+        "en": "Input or output devices integrated in time-pieces"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 21/02",
+          "title": {
+            "ko": null,
+            "en": "Detectors of external physical values, e.g. temperature"
+          }
+        },
+        {
+          "code": "G04G 21/04",
+          "title": {
+            "ko": null,
+            "en": "using radio waves (radio-controlled time-pieces G04R)"
+          }
+        },
+        {
+          "code": "G04G 21/06",
+          "title": {
+            "ko": null,
+            "en": "using voice"
+          }
+        },
+        {
+          "code": "G04G 21/08",
+          "title": {
+            "ko": null,
+            "en": "Touch switches specially adapted for time-pieces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G04G 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "G04G 99/003",
+          "title": {
+            "ko": null,
+            "en": "{Pulse shaping; Amplification}"
+          }
+        },
+        {
+          "code": "G04G 99/006",
+          "title": {
+            "ko": null,
+            "en": "{Electronic time-pieces using a microcomputer, e.g. for multi-function clocks}"
+          }
+        }
+      ]
+    }
+  ]
+}

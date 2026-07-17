@@ -1,0 +1,720 @@
+{
+  "subclass": "G01D",
+  "title": {
+    "ko": null,
+    "en": "MEASURING NOT SPECIALLY ADAPTED FOR A SPECIFIC VARIABLE; ARRANGEMENTS FOR MEASURING TWO OR MORE VARIABLES NOT COVERED IN A SINGLE OTHER SUBCLASS; TARIFF METERING APPARATUS; MEASURING OR TESTING NOT OTHERWISE PROVIDED FOR"
+  },
+  "groups": [
+    {
+      "code": "G01D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring arrangements giving results other than momentary value of variable, of general application (G01D3/00 takes precedence; in tariff metering apparatus G01D4/00; transducers not specially adapted for a specific variable G01D5/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 1/02",
+          "title": {
+            "ko": null,
+            "en": "giving mean values, e.g. root means square values (measuring root mean square values of currents or voltages G01R19/02)"
+          }
+        },
+        {
+          "code": "G01D 1/04",
+          "title": {
+            "ko": null,
+            "en": "giving integrated values (giving mean values G01D1/02)"
+          }
+        },
+        {
+          "code": "G01D 1/10",
+          "title": {
+            "ko": null,
+            "en": "giving differentiated values"
+          }
+        },
+        {
+          "code": "G01D 1/12",
+          "title": {
+            "ko": null,
+            "en": "giving a maximum or minimum of a value"
+          }
+        },
+        {
+          "code": "G01D 1/14",
+          "title": {
+            "ko": null,
+            "en": "giving a distribution function of a value, i.e. number of times the value comes within specified ranges of amplitude"
+          }
+        },
+        {
+          "code": "G01D 1/16",
+          "title": {
+            "ko": null,
+            "en": "giving a value which is a function of two or more values, e.g. product or ratio"
+          }
+        },
+        {
+          "code": "G01D 1/18",
+          "title": {
+            "ko": null,
+            "en": "with arrangements for signalling that a predetermined value of an unspecified parameter has been exceeded (G01D1/14 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Indicating or recording apparatus with provision for the special purposes referred to in the subgroups"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 3/02",
+          "title": {
+            "ko": null,
+            "en": "with provision for altering or correcting the law of variation"
+          }
+        },
+        {
+          "code": "G01D 3/028",
+          "title": {
+            "ko": null,
+            "en": "mitigating undesired influences, e.g. temperature, pressure"
+          }
+        },
+        {
+          "code": "G01D 3/06",
+          "title": {
+            "ko": null,
+            "en": "with provision for operation by a null method"
+          }
+        },
+        {
+          "code": "G01D 3/08",
+          "title": {
+            "ko": null,
+            "en": "with provision for safeguarding the apparatus, e.g. against abnormal operation, against breakdown"
+          }
+        },
+        {
+          "code": "G01D 3/10",
+          "title": {
+            "ko": null,
+            "en": "with provision for switching-in of additional or auxiliary indicators or recorders"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 4/00",
+      "title": {
+        "ko": null,
+        "en": "Tariff metering apparatus (in taximeters G07B13/00; apparatus actuated by coins, cards or the like with meter-controlled dispensing of liquid, gas, or electricity G07F15/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 4/002",
+          "title": {
+            "ko": null,
+            "en": "{Remote reading of utility meters}"
+          }
+        },
+        {
+          "code": "G01D 4/008",
+          "title": {
+            "ko": null,
+            "en": "{Modifications to installed utility meters to enable remote reading}"
+          }
+        },
+        {
+          "code": "G01D 4/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "G01D 4/10",
+          "title": {
+            "ko": null,
+            "en": "Maximum indicating or recording apparatus, i.e. where the tariff for a period is based on a maximum demand within that period"
+          }
+        },
+        {
+          "code": "G01D 4/16",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for indicating or recording maximum or minimum load hours"
+          }
+        },
+        {
+          "code": "G01D 4/18",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for indicating or recording overconsumption with opposing torque which comes into effect when a predetermined level is exceeded, e.g. subtraction meters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Mechanical means for transferring the output of a sensing member; Means for converting the output of a sensing member to another variable where the form or nature of the sensing member does not constrain the means for converting; Transducers not specially adapted for a specific variable (G01D3/00 takes precedence; specially adapted for apparatus giving results other than momentary value of variable G01D1/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 5/02",
+          "title": {
+            "ko": null,
+            "en": "using mechanical means"
+          }
+        },
+        {
+          "code": "G01D 5/12",
+          "title": {
+            "ko": null,
+            "en": "using electric or magnetic means (G01D5/06 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 5/26",
+          "title": {
+            "ko": null,
+            "en": "characterised by optical transfer means, i.e. using infrared, visible, or ultraviolet light"
+          }
+        },
+        {
+          "code": "G01D 5/42",
+          "title": {
+            "ko": null,
+            "en": "using fluid means"
+          }
+        },
+        {
+          "code": "G01D 5/48",
+          "title": {
+            "ko": null,
+            "en": "using wave or particle radiation means (G01D5/26 takes precedence)"
+          }
+        },
+        {
+          "code": "G01D 5/54",
+          "title": {
+            "ko": null,
+            "en": "using means specified in two or more of groups G01D5/02, G01D5/12, G01D5/26, G01D5/42, and G01D5/48"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 7/00",
+      "title": {
+        "ko": null,
+        "en": "Indicating measured values"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 7/002",
+          "title": {
+            "ko": null,
+            "en": "{giving both analog and numerical indication}"
+          }
+        },
+        {
+          "code": "G01D 7/005",
+          "title": {
+            "ko": null,
+            "en": "{Indication of measured value by colour change}"
+          }
+        },
+        {
+          "code": "G01D 7/007",
+          "title": {
+            "ko": null,
+            "en": "{Indication of measured value by tactile means}"
+          }
+        },
+        {
+          "code": "G01D 7/02",
+          "title": {
+            "ko": null,
+            "en": "Indicating value of two or more variables simultaneously"
+          }
+        },
+        {
+          "code": "G01D 7/12",
+          "title": {
+            "ko": null,
+            "en": "Audible indication of meter readings, e.g. for the blind"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Recording measured values"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 9/005",
+          "title": {
+            "ko": null,
+            "en": "{Solid-state data loggers}"
+          }
+        },
+        {
+          "code": "G01D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Producing one or more recordings of the values of a single variable"
+          }
+        },
+        {
+          "code": "G01D 9/28",
+          "title": {
+            "ko": null,
+            "en": "Producing one or more recordings, each recording being of the values of two or more different variables (G01D9/38, G01D9/40 take precedence)"
+          }
+        },
+        {
+          "code": "G01D 9/38",
+          "title": {
+            "ko": null,
+            "en": "Producing one or more recordings, each recording being produced by controlling the recording element, e.g. stylus, in accordance with one variable and controlling the recording medium, e.g. paper roll, in accordance with another variable"
+          }
+        },
+        {
+          "code": "G01D 9/40",
+          "title": {
+            "ko": null,
+            "en": "Producing one or more recordings, each recording being produced by controlling either the recording element, e.g. stylus or the recording medium, e.g. paper roll, in accordance with two or more variables"
+          }
+        },
+        {
+          "code": "G01D 9/42",
+          "title": {
+            "ko": null,
+            "en": "Recording indications of measuring instruments by photographic means, e.g. of counters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Component parts of measuring arrangements not specially adapted for a specific variable (G01D13/00, G01D15/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 11/02",
+          "title": {
+            "ko": null,
+            "en": "Bearings or suspensions for moving parts"
+          }
+        },
+        {
+          "code": "G01D 11/08",
+          "title": {
+            "ko": null,
+            "en": "Elements for balancing moving parts"
+          }
+        },
+        {
+          "code": "G01D 11/10",
+          "title": {
+            "ko": null,
+            "en": "Elements for damping the movement of parts"
+          }
+        },
+        {
+          "code": "G01D 11/16",
+          "title": {
+            "ko": null,
+            "en": "Elements for restraining, or preventing the movement of, parts, e.g. for zeroising (caging of moving parts when not in use G01D11/20)"
+          }
+        },
+        {
+          "code": "G01D 11/20",
+          "title": {
+            "ko": null,
+            "en": "Caging devices for moving parts when not in use"
+          }
+        },
+        {
+          "code": "G01D 11/24",
+          "title": {
+            "ko": null,
+            "en": "Housings {; Casings for instruments}"
+          }
+        },
+        {
+          "code": "G01D 11/28",
+          "title": {
+            "ko": null,
+            "en": "Structurally-combined illuminating devices"
+          }
+        },
+        {
+          "code": "G01D 11/30",
+          "title": {
+            "ko": null,
+            "en": "Supports specially adapted for an instrument; Supports specially adapted for a set of instruments"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Component parts of indicators for measuring arrangements not specially adapted for a specific variable"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 13/02",
+          "title": {
+            "ko": null,
+            "en": "Scales; Dials"
+          }
+        },
+        {
+          "code": "G01D 13/22",
+          "title": {
+            "ko": null,
+            "en": "Pointers, e.g. settable pointer"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 15/00",
+      "title": {
+        "ko": null,
+        "en": "Component parts of recorders for measuring arrangements not specially adapted for a specific variable"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 15/005",
+          "title": {
+            "ko": null,
+            "en": "{Effaceable recording}"
+          }
+        },
+        {
+          "code": "G01D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Styli or other recording elements acting to mechanically deform or perforate the recording surface (printing recording elements G01D15/20)"
+          }
+        },
+        {
+          "code": "G01D 15/06",
+          "title": {
+            "ko": null,
+            "en": "Electric recording elements, e.g. electrolytic"
+          }
+        },
+        {
+          "code": "G01D 15/10",
+          "title": {
+            "ko": null,
+            "en": "Heated recording elements acting on heatsensitive layers"
+          }
+        },
+        {
+          "code": "G01D 15/12",
+          "title": {
+            "ko": null,
+            "en": "Magnetic recording elements"
+          }
+        },
+        {
+          "code": "G01D 15/14",
+          "title": {
+            "ko": null,
+            "en": "Optical recording elements; Recording elements using X-or nuclear radiation"
+          }
+        },
+        {
+          "code": "G01D 15/16",
+          "title": {
+            "ko": null,
+            "en": "Recording elements transferring recording material, e.g. ink, to the recording surface (printing recording elements G01D15/20)"
+          }
+        },
+        {
+          "code": "G01D 15/20",
+          "title": {
+            "ko": null,
+            "en": "Recording elements for printing with ink or for printing by deformation or perforation of the recording surface, e.g. embossing"
+          }
+        },
+        {
+          "code": "G01D 15/22",
+          "title": {
+            "ko": null,
+            "en": "Chopper bars for bringing recording element into contact with recording surface"
+          }
+        },
+        {
+          "code": "G01D 15/24",
+          "title": {
+            "ko": null,
+            "en": "Drives for recording elements and surfaces not covered by G01D5/00"
+          }
+        },
+        {
+          "code": "G01D 15/28",
+          "title": {
+            "ko": null,
+            "en": "Holding means for recording surfaces; Guiding means for recording surfaces; Exchanging means for recording surfaces"
+          }
+        },
+        {
+          "code": "G01D 15/34",
+          "title": {
+            "ko": null,
+            "en": "Recording surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 18/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating apparatus or arrangements provided for in groups G01D1/00 - G01D15/00"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 18/001",
+          "title": {
+            "ko": null,
+            "en": "{Calibrating encoders}"
+          }
+        },
+        {
+          "code": "G01D 18/002",
+          "title": {
+            "ko": null,
+            "en": "{Automatic recalibration (G01D18/008 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01D 18/008",
+          "title": {
+            "ko": null,
+            "en": "{with calibration coefficients stored in memory}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring or testing not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 21/02",
+          "title": {
+            "ko": null,
+            "en": "Measuring two or more variables by means not covered by a single other subclass"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 2204/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of tariff-metering apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 2204/10",
+          "title": {
+            "ko": null,
+            "en": "Analysing; Displaying"
+          }
+        },
+        {
+          "code": "G01D 2204/20",
+          "title": {
+            "ko": null,
+            "en": "Monitoring; Controlling"
+          }
+        },
+        {
+          "code": "G01D 2204/30",
+          "title": {
+            "ko": null,
+            "en": "Remote utility meter reading systems specially adapted for metering the generated energy or power"
+          }
+        },
+        {
+          "code": "G01D 2204/40",
+          "title": {
+            "ko": null,
+            "en": "Networks; Topology"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 2205/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of means for transferring or converting the output of a sensing member"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 2205/10",
+          "title": {
+            "ko": null,
+            "en": "Detecting linear movement"
+          }
+        },
+        {
+          "code": "G01D 2205/20",
+          "title": {
+            "ko": null,
+            "en": "Detecting rotary movement"
+          }
+        },
+        {
+          "code": "G01D 2205/40",
+          "title": {
+            "ko": null,
+            "en": "Position sensors comprising arrangements for concentrating or redirecting magnetic flux"
+          }
+        },
+        {
+          "code": "G01D 2205/50",
+          "title": {
+            "ko": null,
+            "en": "Grounding or electrostatically shielding a position sensor or encoder"
+          }
+        },
+        {
+          "code": "G01D 2205/60",
+          "title": {
+            "ko": null,
+            "en": "Means for precisely aligning or centering the disk of a rotary encoder, e.g. fitting jigs"
+          }
+        },
+        {
+          "code": "G01D 2205/70",
+          "title": {
+            "ko": null,
+            "en": "Position sensors comprising a moving target with particular shapes, e.g. of soft magnetic targets"
+          }
+        },
+        {
+          "code": "G01D 2205/80",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing details of magnetic targets for magnetic encoders"
+          }
+        },
+        {
+          "code": "G01D 2205/85",
+          "title": {
+            "ko": null,
+            "en": "Determining the direction of movement of an encoder, e.g. of an incremental encoder"
+          }
+        },
+        {
+          "code": "G01D 2205/90",
+          "title": {
+            "ko": null,
+            "en": "Two-dimensional encoders, i.e. having one or two codes extending in two directions"
+          }
+        },
+        {
+          "code": "G01D 2205/95",
+          "title": {
+            "ko": null,
+            "en": "Three-dimensional encoders, i.e. having codes extending in three directions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of indicating measuring values"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 2207/10",
+          "title": {
+            "ko": null,
+            "en": "Displays which are primarily used in aircraft or display aircraft-specific information"
+          }
+        },
+        {
+          "code": "G01D 2207/20",
+          "title": {
+            "ko": null,
+            "en": "Displays for vehicles in which information is superimposed on an external view, e.g. heads-up displays or enhanced reality displays"
+          }
+        },
+        {
+          "code": "G01D 2207/30",
+          "title": {
+            "ko": null,
+            "en": "Displays providing further information, in addition to measured values, e.g. status"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 2213/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to constructional details of indicators"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 2213/10",
+          "title": {
+            "ko": null,
+            "en": "Drivers for gauges"
+          }
+        },
+        {
+          "code": "G01D 2213/20",
+          "title": {
+            "ko": null,
+            "en": "Gauges having a single pointer and two or more scales"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01D 2218/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of testing or calibration"
+      },
+      "subgroups": [
+        {
+          "code": "G01D 2218/10",
+          "title": {
+            "ko": null,
+            "en": "Testing of sensors or measuring arrangements"
+          }
+        }
+      ]
+    }
+  ]
+}

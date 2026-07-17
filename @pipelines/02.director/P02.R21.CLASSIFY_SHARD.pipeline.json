@@ -1,0 +1,38 @@
+{
+  "description": "한 shard(Section 2개) 안에서 IPC + CPC Subclass 후보를 좁힌다. classify-invention(W02.R20)의 sub_pipeline. 4-shard fan-out 중 1개.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      []
+    ]
+  },
+  "steps": [
+    {
+      "description": "단일 shard 분류 작업 (P02.R20 의 sub).",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R21/classify.md"
+      },
+      "llm_tools": [],
+      "output_contract": "classify-shard-output"
+    },
+    {
+      "description": "shard 내에서 본 발명과 관련성 높은 IPC 후보 분류 list 추출 — parent 의 merge_candidates 입력.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R21/shard_classify.md"
+      },
+      "llm_tools": [],
+      "output_contract": "shortlist-in-shard-output"
+    }
+  ]
+}

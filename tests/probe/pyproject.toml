@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "probe"
+version = "0.1.0"
+description = "검증 track 4 — CM 관찰/구성/제어 sub-command tree (검증 환경 라이브러리)"
+requires-python = ">=3.14"
+dependencies = [
+  "httpx>=0.28.0",
+  "rich>=13.0.0",
+  "pyjwt>=2.13.0",         # SECURE: 공유 secret 으로 JWT mint (dev-token 폐기 대체)
+  "venezia-shared",
+]
+
+[tool.uv.sources]
+# editable — probe CLI(host)가 shared 소스 변경(레이아웃 상수 등)을 즉시 반영하도록.
+# (비-editable 이면 venezia_memory 신규 상수가 venv 재설치 전까지 stale.)
+venezia-shared = { path = "../../shared", editable = true }
+
+[project.scripts]
+probe = "probe.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["probe"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100

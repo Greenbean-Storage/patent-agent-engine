@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "invention_summary": {
+      "type": "string",
+      "description": "발명 요약 한 문장 — '<주체>가 <수단>으로 <효과>를 달성하는 <대상>'"
+    },
+    "technical_elements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3,
+      "maxItems": 7,
+      "description": "청구항 element 후보 — 기능 + 수단 명사구"
+    },
+    "search_queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "ipc_hint": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 3
+          }
+        },
+        "required": [
+          "text",
+          "priority"
+        ]
+      },
+      "description": "1차 초안 검색 쿼리"
+    },
+    "ipc_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 4,
+      "maxItems": 8,
+      "description": "IPC/CPC 후보 (예: G01K1/02)"
+    },
+    "search_strategy": {
+      "type": "string",
+      "description": "검색 전략 한 단락"
+    }
+  },
+  "required": [
+    "invention_summary",
+    "technical_elements",
+    "search_queries",
+    "ipc_codes",
+    "search_strategy"
+  ]
+}

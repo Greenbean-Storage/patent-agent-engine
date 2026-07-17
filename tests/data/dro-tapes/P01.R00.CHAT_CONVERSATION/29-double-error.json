@@ -1,0 +1,36 @@
+{
+ "description": "rt_error + error → work.failed ×2 (발생마다 매핑).",
+ "events": [
+  {
+   "type": "rt_error",
+   "persona": 1,
+   "payload": {
+    "message": "e1"
+   }
+  },
+  {
+   "type": "error",
+   "persona": 1,
+   "payload": {
+    "message": "e2"
+   }
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.failed"
+  ],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "work.failed": 2
+  },
+  "payload_contains": []
+ }
+}

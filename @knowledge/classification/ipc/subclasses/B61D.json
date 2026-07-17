@@ -1,0 +1,712 @@
+{
+  "subclass": "B61D",
+  "title": {
+    "ko": "철도 차량의 종류와 차체 세부 (차량 일반 B60; 특수 기구의 차량 B61B; 태프레임 B61F)",
+    "en": "BODY DETAILS OR KINDS OF RAILWAY VEHICLES (vehicles in general B60; adaptation of vehicles to special systems B61B; underframes B61F)"
+  },
+  "definition": {
+    "ko": "차량의 종류 객차; 화물; 탱크차; 광차 B61D1/00; 3/00; 5/00; 11/00 호퍼차; 티플러 B61D7/00; 9/00 시가철도차량 B61D13/00 기타 B61D15/00 차체 세부와 부속품 세부 차체구조; 일반; 도어; 스탭; 창문; 가동지붕; 적재장치 B61D17/00; 19/00; 23/00; 25/00; 39/00; 47/00 내부 가구 : 침대; 좌석; 위생; 공기조화; 조명; 기타 B61D31/00; 33/00; 35/00; 27/00; 29/00; 37/00 차량의 운동에너지를 사용하는 장치 B61D43/00 기타 B61D49/00 부속품 기호, 티켓홀더(HOLDERS) B61D41/00 덮개; 화물체결장치 B61D39/00; 45/00 기타 B61D49/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B61D 1/00",
+      "title": {
+        "ko": "일반적인 철도객차(광차 B61D 11/00 ; 시가 철도 차량 B61D 13/00 )",
+        "en": "Kinds of railway or tramway vehicles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 1/00",
+      "title": {
+        "ko": "일반적인 철도객차(광차 B61D 11/00 ; 시가 철도 차량 B61D 13/00 )",
+        "en": "Carriages for ordinary railway passenger traffic (mine cars B61D0011000000;tramcars B61D0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 1/02",
+          "title": {
+            "ko": "침대차의 일반적 장치(B61D 1/08이 우선)",
+            "en": "General arrangements in sleeping or couchette carriages (B61D0001080000 takes precedence)"
+          }
+        },
+        {
+          "code": "B61D 1/04",
+          "title": {
+            "ko": "좌석의 일반적 장치(B61D 1/06이 우선; 좌석 그 자체 B61D 3/00 )",
+            "en": "General arrangements of seats (B61D0001060000 takes precedence;seats per seB61D0033000000)"
+          }
+        },
+        {
+          "code": "B61D 1/06",
+          "title": {
+            "ko": null,
+            "en": "with multiple deck arrangement"
+          }
+        },
+        {
+          "code": "B61D 1/08",
+          "title": {
+            "ko": null,
+            "en": "of sleeping carriages"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 3/00",
+      "title": {
+        "ko": "무개화차 또는 유개화차(탱크차 B61D 5/00; 호퍼식 화물차 B61D 7/00; 티플러 B61D 9/00; 광차 B61D 11/00; 동물 수송용 차량 B60P 3/04)",
+        "en": "Wagons or vans (tank wagons B61D0005000000;hopper wagons B61D0007000000;tipping wagons B61D0009000000;mine cars B61D0011000000;vehicles adapted for animal transportation B60P0003040000)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 3/02",
+          "title": {
+            "ko": "다수한 덱 장치를 갖는 것 (차량을 운반하는 것 B61D 3/18)",
+            "en": "with multiple deck arrangements (for carrying vehicles B61D0003180000)"
+          }
+        },
+        {
+          "code": "B61D 3/04",
+          "title": {
+            "ko": null,
+            "en": "with movable floors, e.g. rotatable or floors which can be raised or lowered"
+          }
+        },
+        {
+          "code": "B61D 3/06",
+          "title": {
+            "ko": null,
+            "en": "Flat-bottomed cars convertible into hoppers"
+          }
+        },
+        {
+          "code": "B61D 3/08",
+          "title": {
+            "ko": null,
+            "en": "Flat wagons including posts or standards"
+          }
+        },
+        {
+          "code": "B61D 3/10",
+          "title": {
+            "ko": null,
+            "en": "Articulated vehicles"
+          }
+        },
+        {
+          "code": "B61D 3/12",
+          "title": {
+            "ko": null,
+            "en": "comprising running gear interconnected by loads"
+          }
+        },
+        {
+          "code": "B61D 3/14",
+          "title": {
+            "ko": null,
+            "en": "comprising running gear interconnected by load supports facilitating low-level load transport"
+          }
+        },
+        {
+          "code": "B61D 3/16",
+          "title": {
+            "ko": null,
+            "en": "adapted for carrying special loads"
+          }
+        },
+        {
+          "code": "B61D 3/18",
+          "title": {
+            "ko": null,
+            "en": "for vehicles"
+          }
+        },
+        {
+          "code": "B61D 3/20",
+          "title": {
+            "ko": null,
+            "en": "for forwarding containers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 5/00",
+      "title": {
+        "ko": "유체 운반용 탱크차(탱크 형상 B65D 88/00, B65D 90/00, F17C)",
+        "en": "Tank wagons for carrying fluent materials (tank aspects B65D0088000000, B65D0090000000, F17C)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 5/02",
+          "title": {
+            "ko": null,
+            "en": "having more than one tank"
+          }
+        },
+        {
+          "code": "B61D 5/06",
+          "title": {
+            "ko": null,
+            "en": "Mounting of tanks; Integral bodies and frames"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 7/00",
+      "title": {
+        "ko": "호퍼차(호퍼차로 변환될 수 있는 평저 화차 B61D 3/06)",
+        "en": "Hopper cars (flat-bottomed cars convertible into hoppers B61D0003060000)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 7/02",
+          "title": {
+            "ko": "저부에 배출구가 있는 것(2개의 부분의 차체를 가지고, 그 2개 부분을 경사시킴으로써 배출하는 것 B61D 9/00)",
+            "en": "with discharge openings in the bottoms (with body in two halves and discharge by tipping the halves B61D0009000000)"
+          }
+        },
+        {
+          "code": "B61D 7/04",
+          "title": {
+            "ko": null,
+            "en": "the openings being above axle level during discharge"
+          }
+        },
+        {
+          "code": "B61D 7/06",
+          "title": {
+            "ko": null,
+            "en": "with openings capable of discharging both between and outside the wheels"
+          }
+        },
+        {
+          "code": "B61D 7/08",
+          "title": {
+            "ko": null,
+            "en": "with openings capable of discharging only outside the wheels"
+          }
+        },
+        {
+          "code": "B61D 7/10",
+          "title": {
+            "ko": null,
+            "en": "the discharge being assisted by tipping the bottom"
+          }
+        },
+        {
+          "code": "B61D 7/12",
+          "title": {
+            "ko": "가동 호퍼차(B61D 9/00 이 우선)",
+            "en": "the hoppers being movable (B61D0009000000 takes precedence)"
+          }
+        },
+        {
+          "code": "B61D 7/14",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of hopper elements to railways"
+          }
+        },
+        {
+          "code": "B61D 7/16",
+          "title": {
+            "ko": null,
+            "en": "Closure elements for discharge openings"
+          }
+        },
+        {
+          "code": "B61D 7/18",
+          "title": {
+            "ko": null,
+            "en": "pivoted"
+          }
+        },
+        {
+          "code": "B61D 7/20",
+          "title": {
+            "ko": null,
+            "en": "sliding"
+          }
+        },
+        {
+          "code": "B61D 7/22",
+          "title": {
+            "ko": null,
+            "en": "Sealing means thereof"
+          }
+        },
+        {
+          "code": "B61D 7/24",
+          "title": {
+            "ko": null,
+            "en": "Opening or closing means"
+          }
+        },
+        {
+          "code": "B61D 7/26",
+          "title": {
+            "ko": null,
+            "en": "mechanical"
+          }
+        },
+        {
+          "code": "B61D 7/28",
+          "title": {
+            "ko": null,
+            "en": "hydraulic or pneumatic"
+          }
+        },
+        {
+          "code": "B61D 7/30",
+          "title": {
+            "ko": null,
+            "en": "controlled by means external to cars"
+          }
+        },
+        {
+          "code": "B61D 7/32",
+          "title": {
+            "ko": null,
+            "en": "Means for assisting charge or discharge"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Tipping wagons"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 9/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by operating means for tipping"
+          }
+        },
+        {
+          "code": "B61D 9/04",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of rail vehicle elements to tipping wagons"
+          }
+        },
+        {
+          "code": "B61D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Bodies"
+          }
+        },
+        {
+          "code": "B61D 9/08",
+          "title": {
+            "ko": null,
+            "en": "Frames; Supporting or guiding means for the bodies"
+          }
+        },
+        {
+          "code": "B61D 9/10",
+          "title": {
+            "ko": null,
+            "en": "Devices preventing overturning when tipping"
+          }
+        },
+        {
+          "code": "B61D 9/12",
+          "title": {
+            "ko": null,
+            "en": "Body fitments or devices facilitating or controlling outflow on discharge"
+          }
+        },
+        {
+          "code": "B61D 9/14",
+          "title": {
+            "ko": null,
+            "en": "Tipping systems controlled by trackside means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 11/00",
+      "title": {
+        "ko": "광차(5/00 ～ 9/00 이 우선)",
+        "en": "Mine cars (B61D0005000000-B61D0009000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 11/02",
+          "title": {
+            "ko": null,
+            "en": "Body construction"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 13/00",
+      "title": {
+        "ko": null,
+        "en": "Tramway vehicles"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 13/02",
+          "title": {
+            "ko": null,
+            "en": "Double-deckers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 15/00",
+      "title": {
+        "ko": "다른 철도 차량, 예 발판차; 레일 위에서 사용하기 위한 차량에 관한 응용(궤도상을 움직이도록 부착된 컨베이어 프레임 B65G 41/02; 궤도의 건설 또는 보수에 사용되는 차륜붙이 기계 E01B)",
+        "en": "Other railway vehicles, e.g. scaffold cars; Adaptations of vehicles for use on railways (conveyor frames mounted for movement on rail tracks B65G0041020000;wheeled machines used in permanent-way construction or maintenance E01B)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 15/02",
+          "title": {
+            "ko": "응급 크레인차(크레인 장치 B66C)",
+            "en": "Breakdown cranes (crane gear B66C)"
+          }
+        },
+        {
+          "code": "B61D 15/04",
+          "title": {
+            "ko": null,
+            "en": "convertible into other non-vehicular apparatus, e.g. exhibition stands"
+          }
+        },
+        {
+          "code": "B61D 15/06",
+          "title": {
+            "ko": "완충 기차; 충돌시 이것들을 보호하기 위한 철도 차량의 구조 또는 장치(완충기 B61G 11/00 )",
+            "en": "Buffer cars; Arrangements or construction of railway vehicles for protecting them in case of collisions (buffers B61G0011000000)"
+          }
+        },
+        {
+          "code": "B61D 15/08",
+          "title": {
+            "ko": null,
+            "en": "Railway inspection trolleys"
+          }
+        },
+        {
+          "code": "B61D 15/10",
+          "title": {
+            "ko": null,
+            "en": "hand or foot-propelled"
+          }
+        },
+        {
+          "code": "B61D 15/12",
+          "title": {
+            "ko": null,
+            "en": "power-propelled"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 17/00",
+      "title": {
+        "ko": "차체 구조의 세부(탱크차용 B61D 5/00; 호퍼차용 B61D 7/00; 특히 티플러 차체 세부 B61D 9/06; 광차용 B61D 11/00 )",
+        "en": "Body details of railway or tramway vehicles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 17/00",
+      "title": {
+        "ko": "차체 구조의 세부(탱크차용 B61D 5/00; 호퍼차용 B61D 7/00; 특히 티플러 차체 세부 B61D 9/06; 광차용 B61D 11/00 )",
+        "en": "Construction details of vehicle bodies (for tank wagons B61D0005000000;for hopper cars B61D0007000000;body details specially adapted for tipping wagons B61D0009060000;for mine cars B61D0011000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 17/02",
+          "title": {
+            "ko": null,
+            "en": "reducing air resistance by modifying contour"
+          }
+        },
+        {
+          "code": "B61D 17/04",
+          "title": {
+            "ko": "금속성 차체를 갖는 것; 합성된 것, 예. 금속과 목재의 차체 구조",
+            "en": "with bodies of metal; with composite, e.g. metal and wood, body structures"
+          }
+        },
+        {
+          "code": "B61D 17/06",
+          "title": {
+            "ko": null,
+            "en": "End walls"
+          }
+        },
+        {
+          "code": "B61D 17/08",
+          "title": {
+            "ko": null,
+            "en": "Sides"
+          }
+        },
+        {
+          "code": "B61D 17/10",
+          "title": {
+            "ko": null,
+            "en": "Floors"
+          }
+        },
+        {
+          "code": "B61D 17/12",
+          "title": {
+            "ko": "지붕(가동 또는 접을 수 있는 지붕, 덮개 또는 방수포 B61D 39/00 )",
+            "en": "Roofs (movable or foldable roofs, covers, or tarpaulins B61D0039000000)"
+          }
+        },
+        {
+          "code": "B61D 17/14",
+          "title": {
+            "ko": null,
+            "en": "with gangways"
+          }
+        },
+        {
+          "code": "B61D 17/16",
+          "title": {
+            "ko": null,
+            "en": "Hatches in roofs"
+          }
+        },
+        {
+          "code": "B61D 17/18",
+          "title": {
+            "ko": null,
+            "en": "Internal lining, e.g. insulating"
+          }
+        },
+        {
+          "code": "B61D 17/20",
+          "title": {
+            "ko": null,
+            "en": "Communication passages between coaches; Adaptation of coach ends therefor"
+          }
+        },
+        {
+          "code": "B61D 17/22",
+          "title": {
+            "ko": null,
+            "en": "flexible, e.g. bellows"
+          }
+        },
+        {
+          "code": "B61D 17/24",
+          "title": {
+            "ko": null,
+            "en": "with body structures of wood"
+          }
+        },
+        {
+          "code": "B61D 17/26",
+          "title": {
+            "ko": null,
+            "en": "with body structures of concrete"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 19/00",
+      "title": {
+        "ko": "철도 차량에 특히 적합한 도어 장치 (차량용 자물쇠 E05B77/00-E05B85/00; 도어 조작 기구 E05F)",
+        "en": "Door arrangements specially adapted for rail vehicles  (locks for vehicles E05B0077000000-E05B0085000000; door-operating mechanisms E05F)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 19/02",
+          "title": {
+            "ko": null,
+            "en": "for carriages"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 23/00",
+      "title": {
+        "ko": "철도 차량용 스텝 구조 (사다리 일반 E06C)",
+        "en": "Construction of steps for railway vehicles (ladders in general E06C)"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 23/02",
+          "title": {
+            "ko": null,
+            "en": "Folding steps for railway vehicles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 25/00",
+      "title": {
+        "ko": "철도 차량을 위한 독특한 창 장치(차량창 장치 일반 B60J; 차량창 청소 일반 B60S; 차량창등의 투명도 유지를 위한 가열 장치의 특수 부품 H05B 3/84",
+        "en": "Window arrangements peculiar to rail vehicles (vehicle window arrangements in general B60J;cleaning vehicle windows B60S;heating arrangements specially adapted for transparent or reflecting areas H05B0003840000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Heating, cooling, ventilating, lighting, or air-conditioning, peculiar to rail vehicles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 27/00",
+      "title": {
+        "ko": null,
+        "en": "Heating, cooling, ventilating, or air-conditioning"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 29/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangement of lighting devices for rail vehicles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Furniture or furnishings peculiar to rail vehicles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 31/00",
+      "title": {
+        "ko": null,
+        "en": "Sleeping accommodation"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 33/00",
+      "title": {
+        "ko": null,
+        "en": "Seats"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 35/00",
+      "title": {
+        "ko": null,
+        "en": "Sanitation"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 37/00",
+      "title": {
+        "ko": null,
+        "en": "Other furniture or furnishings"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 39/00",
+      "title": {
+        "ko": null,
+        "en": "Other details peculiar to rail vehicles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 39/00",
+      "title": {
+        "ko": null,
+        "en": "Wagon or like covers; Tarpaulins; Movable or foldable roofs"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 41/00",
+      "title": {
+        "ko": null,
+        "en": "Indicators for reserved seats; Warning or like signs; Devices or arrangements in connection with tickets, e.g. ticket holders; Holders for cargo tickets or the like"
+      },
+      "subgroups": [
+        {
+          "code": "B61D 41/02",
+          "title": {
+            "ko": null,
+            "en": "Holders or devices for cargo tickets or the like"
+          }
+        },
+        {
+          "code": "B61D 41/04",
+          "title": {
+            "ko": null,
+            "en": "Indicators for reserved seats"
+          }
+        },
+        {
+          "code": "B61D 41/06",
+          "title": {
+            "ko": null,
+            "en": "Holders for fare tickets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B61D 43/00",
+      "title": {
+        "ko": null,
+        "en": "Devices for using the energy of the movements of the vehicles"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 45/00",
+      "title": {
+        "ko": null,
+        "en": "Means or devices for securing or supporting the cargo, including protection against shocks"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 47/00",
+      "title": {
+        "ko": "차량에 부착된 적하, 제하 장치, 예. 적하용 플랫폼(차량과 연결되는 것 일반 B60P)",
+        "en": "Loading or unloading devices combined with vehicles, e.g. loading platforms (combined with vehicles in general B60P)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B61D 49/00",
+      "title": {
+        "ko": null,
+        "en": "Other details"
+      },
+      "subgroups": []
+    }
+  ]
+}

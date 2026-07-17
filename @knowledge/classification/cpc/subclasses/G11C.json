@@ -1,0 +1,846 @@
+{
+  "subclass": "G11C",
+  "title": {
+    "ko": null,
+    "en": "STATIC STORES (semiconductor memory devices H10B)"
+  },
+  "groups": [
+    {
+      "code": "G11C 5/00",
+      "title": {
+        "ko": null,
+        "en": "Details of stores covered by group G11C11/00"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 5/005",
+          "title": {
+            "ko": null,
+            "en": "{Circuit means for protection against loss of information of semiconductor storage devices}"
+          }
+        },
+        {
+          "code": "G11C 5/02",
+          "title": {
+            "ko": null,
+            "en": "Disposition of storage elements, e.g. in the form of a matrix array"
+          }
+        },
+        {
+          "code": "G11C 5/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for interconnecting storage elements electrically, e.g. by wiring"
+          }
+        },
+        {
+          "code": "G11C 5/12",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or processes for interconnecting storage elements, e.g. for threading magnetic cores"
+          }
+        },
+        {
+          "code": "G11C 5/14",
+          "title": {
+            "ko": null,
+            "en": "Power supply arrangements {, e.g. power down, chip selection or deselection, layout of wirings or power grids, or multiple supply levels}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 7/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for writing information into, or reading information out from, a digital store (G11C5/00 takes precedence; auxiliary circuits for stores using semiconductor devices G11C11/4063, G11C11/413)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 7/005",
+          "title": {
+            "ko": null,
+            "en": "{with combined beam-and individual cell access}"
+          }
+        },
+        {
+          "code": "G11C 7/02",
+          "title": {
+            "ko": null,
+            "en": "with means for avoiding parasitic signals"
+          }
+        },
+        {
+          "code": "G11C 7/04",
+          "title": {
+            "ko": null,
+            "en": "with means for avoiding disturbances due to temperature effects"
+          }
+        },
+        {
+          "code": "G11C 7/06",
+          "title": {
+            "ko": null,
+            "en": "Sense amplifiers; Associated circuits {, e.g. timing or triggering circuits}"
+          }
+        },
+        {
+          "code": "G11C 7/10",
+          "title": {
+            "ko": null,
+            "en": "Input/output [I/O] data interface arrangements, e.g. I/O data control circuits, I/O data buffers"
+          }
+        },
+        {
+          "code": "G11C 7/12",
+          "title": {
+            "ko": null,
+            "en": "Bit line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, equalising circuits, for bit lines"
+          }
+        },
+        {
+          "code": "G11C 7/14",
+          "title": {
+            "ko": null,
+            "en": "Dummy cell management; Sense reference voltage generators"
+          }
+        },
+        {
+          "code": "G11C 7/16",
+          "title": {
+            "ko": null,
+            "en": "Storage of analogue signals in digital stores using an arrangement comprising analogue/digital [A/D] converters, digital memories and digital/analogue [D/A] converters"
+          }
+        },
+        {
+          "code": "G11C 7/18",
+          "title": {
+            "ko": null,
+            "en": "Bit line organisation; Bit line lay-out"
+          }
+        },
+        {
+          "code": "G11C 7/20",
+          "title": {
+            "ko": null,
+            "en": "Memory cell initialisation circuits, e.g. when powering up or down, memory clear, latent image memory"
+          }
+        },
+        {
+          "code": "G11C 7/22",
+          "title": {
+            "ko": null,
+            "en": "Read-write [R-W] timing or clocking circuits; Read-write [R-W] control signal generators or management"
+          }
+        },
+        {
+          "code": "G11C 7/24",
+          "title": {
+            "ko": null,
+            "en": "Memory cell safety or protection circuits, e.g. arrangements for preventing inadvertent reading or writing; Status cells; Test cells"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 8/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for selecting an address in a digital store (for stores using transistors G11C11/407, G11C11/413)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 8/005",
+          "title": {
+            "ko": null,
+            "en": "{with travelling wave access}"
+          }
+        },
+        {
+          "code": "G11C 8/04",
+          "title": {
+            "ko": null,
+            "en": "using a sequential addressing device, e.g. shift register, counter"
+          }
+        },
+        {
+          "code": "G11C 8/06",
+          "title": {
+            "ko": null,
+            "en": "Address interface arrangements, e.g. address buffers"
+          }
+        },
+        {
+          "code": "G11C 8/08",
+          "title": {
+            "ko": null,
+            "en": "Word line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, for word lines"
+          }
+        },
+        {
+          "code": "G11C 8/10",
+          "title": {
+            "ko": null,
+            "en": "Decoders"
+          }
+        },
+        {
+          "code": "G11C 8/12",
+          "title": {
+            "ko": null,
+            "en": "Group selection circuits, e.g. for memory block selection, chip selection, array selection"
+          }
+        },
+        {
+          "code": "G11C 8/14",
+          "title": {
+            "ko": null,
+            "en": "Word line organisation; Word line lay-out"
+          }
+        },
+        {
+          "code": "G11C 8/16",
+          "title": {
+            "ko": null,
+            "en": "Multiple access memory array, e.g. addressing one storage element via at least two independent addressing line groups"
+          }
+        },
+        {
+          "code": "G11C 8/18",
+          "title": {
+            "ko": null,
+            "en": "Address timing or clocking circuits; Address control signal generation or management, e.g. for row address strobe [RAS] or column address strobe [CAS] signals"
+          }
+        },
+        {
+          "code": "G11C 8/20",
+          "title": {
+            "ko": null,
+            "en": "Address safety or protection circuits, i.e. arrangements for preventing unauthorized or accidental access"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 11/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by the use of particular electric or magnetic storage elements; Storage elements therefor (G11C14/00 - G11C21/00 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 11/005",
+          "title": {
+            "ko": null,
+            "en": "{comprising combined but independently operative RAM-ROM, RAM-PROM, RAM-EPROM cells}"
+          }
+        },
+        {
+          "code": "G11C 11/02",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements"
+          }
+        },
+        {
+          "code": "G11C 11/18",
+          "title": {
+            "ko": null,
+            "en": "using Hall-effect devices"
+          }
+        },
+        {
+          "code": "G11C 11/19",
+          "title": {
+            "ko": null,
+            "en": "using non-linear reactive devices in resonant circuits"
+          }
+        },
+        {
+          "code": "G11C 11/21",
+          "title": {
+            "ko": null,
+            "en": "using electric elements"
+          }
+        },
+        {
+          "code": "G11C 11/46",
+          "title": {
+            "ko": null,
+            "en": "using thermoplastic elements"
+          }
+        },
+        {
+          "code": "G11C 11/48",
+          "title": {
+            "ko": null,
+            "en": "using displaceable coupling elements, e.g. ferromagnetic cores, to produce change between different states of mutual or self-inductance {(contains no documents; see G11C17/00 and subgroups)}"
+          }
+        },
+        {
+          "code": "G11C 11/50",
+          "title": {
+            "ko": null,
+            "en": "using actuation of electric contacts to store the information"
+          }
+        },
+        {
+          "code": "G11C 11/54",
+          "title": {
+            "ko": null,
+            "en": "using elements simulating biological cells, e.g. neuron"
+          }
+        },
+        {
+          "code": "G11C 11/56",
+          "title": {
+            "ko": null,
+            "en": "using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 13/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by the use of storage elements not covered by groups G11C11/00, G11C23/00, or G11C25/00"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 13/0002",
+          "title": {
+            "ko": null,
+            "en": "{using resistive RAM [RRAM] elements}"
+          }
+        },
+        {
+          "code": "G11C 13/02",
+          "title": {
+            "ko": null,
+            "en": "using elements whose operation depends upon chemical change {(G11C13/0009 takes precedence)}"
+          }
+        },
+        {
+          "code": "G11C 13/04",
+          "title": {
+            "ko": null,
+            "en": "using optical elements {; using other beam accessed elements, e.g. electron or ion beam}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 14/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by arrangements of cells having volatile and non-volatile storage properties for back-up when the power is down"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 14/0009",
+          "title": {
+            "ko": null,
+            "en": "{in which the volatile element is a DRAM cell}"
+          }
+        },
+        {
+          "code": "G11C 14/0054",
+          "title": {
+            "ko": null,
+            "en": "{in which the volatile element is a SRAM cell}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores in which information comprising one or more characteristic parts is written into the store and in which information is read-out by searching for one or more of these characteristic parts, i.e. associative or content-addressed stores"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 15/02",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements"
+          }
+        },
+        {
+          "code": "G11C 15/04",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor elements"
+          }
+        },
+        {
+          "code": "G11C 15/06",
+          "title": {
+            "ko": null,
+            "en": "using cryogenic elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 16/00",
+      "title": {
+        "ko": null,
+        "en": "Erasable programmable read-only memories (G11C14/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 16/02",
+          "title": {
+            "ko": null,
+            "en": "electrically programmable"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 17/00",
+      "title": {
+        "ko": null,
+        "en": "Read-only memories programmable only once; Semi-permanent stores, e.g. manually-replaceable information cards"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 17/005",
+          "title": {
+            "ko": null,
+            "en": "{with a storage element common to a large number of data, e.g. perforated card (G11C17/02, G11C17/04 take precedence)}"
+          }
+        },
+        {
+          "code": "G11C 17/02",
+          "title": {
+            "ko": null,
+            "en": "using magnetic or inductive elements (G11C17/14 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/04",
+          "title": {
+            "ko": null,
+            "en": "using capacitive elements (G11C17/06, G11C17/14 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/06",
+          "title": {
+            "ko": null,
+            "en": "using diode elements (G11C17/14 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/08",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices, e.g. bipolar elements (G11C17/06, G11C17/14 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 17/14",
+          "title": {
+            "ko": null,
+            "en": "in which contents are determined by selectively establishing, breaking or modifying connecting links by permanently altering the state of coupling elements, e.g. PROM"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 19/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores in which the information is moved stepwise, e.g. shift registers"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 19/005",
+          "title": {
+            "ko": null,
+            "en": "{with ferro-electric elements (condensers)}"
+          }
+        },
+        {
+          "code": "G11C 19/02",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements (G11C19/14 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 19/12",
+          "title": {
+            "ko": null,
+            "en": "using non-linear reactive devices in resonant circuits {, e.g. parametrons; magnetic amplifiers with overcritical feedback}"
+          }
+        },
+        {
+          "code": "G11C 19/14",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements in combination with active elements, e.g. discharge tubes, semiconductor elements {(contains no documents, see provisionally G11C19/02 - G11C19/10)}"
+          }
+        },
+        {
+          "code": "G11C 19/18",
+          "title": {
+            "ko": null,
+            "en": "using capacitors as main elements of the stages {(if capacitors are used as auxiliary stage in between main stages with other elements, the latter take precedence; G11C19/005 takes precedence)}"
+          }
+        },
+        {
+          "code": "G11C 19/20",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes (G11C19/14 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 19/28",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor elements (G11C19/14, G11C19/36 take precedence)"
+          }
+        },
+        {
+          "code": "G11C 19/30",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled"
+          }
+        },
+        {
+          "code": "G11C 19/32",
+          "title": {
+            "ko": null,
+            "en": "using super-conductive elements"
+          }
+        },
+        {
+          "code": "G11C 19/34",
+          "title": {
+            "ko": null,
+            "en": "using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency"
+          }
+        },
+        {
+          "code": "G11C 19/38",
+          "title": {
+            "ko": null,
+            "en": "two-dimensional [2D], e.g. horizontal and vertical shift registers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 21/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores in which the information circulates {continuously}(stepwise G11C19/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 21/005",
+          "title": {
+            "ko": null,
+            "en": "{using electrical delay lines}"
+          }
+        },
+        {
+          "code": "G11C 21/02",
+          "title": {
+            "ko": null,
+            "en": "using electromechanical delay lines, e.g. using a mercury tank"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 23/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by movement of mechanical parts to effect storage, e.g. using balls; Storage elements therefor"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G11C 25/00",
+      "title": {
+        "ko": null,
+        "en": "Digital stores characterised by the use of flowing media; Storage elements therefor"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G11C 27/00",
+      "title": {
+        "ko": null,
+        "en": "Electric analogue stores, e.g. for storing instantaneous values"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 27/005",
+          "title": {
+            "ko": null,
+            "en": "{with non-volatile charge storage, e.g. on floating gate or MNOS}"
+          }
+        },
+        {
+          "code": "G11C 27/02",
+          "title": {
+            "ko": null,
+            "en": "Sample-and-hold arrangements (G11C27/04 takes precedence)"
+          }
+        },
+        {
+          "code": "G11C 27/04",
+          "title": {
+            "ko": null,
+            "en": "Shift registers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 29/00",
+      "title": {
+        "ko": null,
+        "en": "Checking stores for correct operation {; Subsequent repair}; Testing stores during standby or offline operation"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 29/003",
+          "title": {
+            "ko": null,
+            "en": "{in serial memories}"
+          }
+        },
+        {
+          "code": "G11C 29/006",
+          "title": {
+            "ko": null,
+            "en": "{at wafer scale level, i.e. wafer scale integration [WSI]}"
+          }
+        },
+        {
+          "code": "G11C 29/02",
+          "title": {
+            "ko": null,
+            "en": "Detection or location of defective auxiliary circuits, e.g. defective refresh counters"
+          }
+        },
+        {
+          "code": "G11C 29/04",
+          "title": {
+            "ko": null,
+            "en": "Detection or location of defective memory elements {, e.g. cell constructio details, timing of test signals}"
+          }
+        },
+        {
+          "code": "G11C 29/52",
+          "title": {
+            "ko": null,
+            "en": "Protection of memory contents; Detection of errors in memory contents"
+          }
+        },
+        {
+          "code": "G11C 29/54",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for designing test circuits, e.g. design for test [DFT] tools"
+          }
+        },
+        {
+          "code": "G11C 29/56",
+          "title": {
+            "ko": null,
+            "en": "External testing equipment for static stores, e.g. automatic test equipment [ATE]; Interfaces therefor"
+          }
+        },
+        {
+          "code": "G11C 29/70",
+          "title": {
+            "ko": null,
+            "en": "{Masking faults in memories by using spares or by reconfiguring}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G11C 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to arrangements for writing information into, or reading information out from, a digital store"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 2207/002",
+          "title": {
+            "ko": null,
+            "en": "Isolation gates, i.e. gates coupling bit lines to the sense amplifier"
+          }
+        },
+        {
+          "code": "G11C 2207/005",
+          "title": {
+            "ko": null,
+            "en": "Transfer gates, i.e. gates coupling the sense amplifier output to data lines, I/O lines or global bit lines"
+          }
+        },
+        {
+          "code": "G11C 2207/007",
+          "title": {
+            "ko": null,
+            "en": "Register arrays"
+          }
+        },
+        {
+          "code": "G11C 2207/06",
+          "title": {
+            "ko": null,
+            "en": "Sense amplifier related aspects"
+          }
+        },
+        {
+          "code": "G11C 2207/10",
+          "title": {
+            "ko": null,
+            "en": "Aspects relating to interfaces of memory device to external buses"
+          }
+        },
+        {
+          "code": "G11C 2207/12",
+          "title": {
+            "ko": null,
+            "en": "Equalization of bit lines"
+          }
+        },
+        {
+          "code": "G11C 2207/16",
+          "title": {
+            "ko": null,
+            "en": "Solid state audio"
+          }
+        },
+        {
+          "code": "G11C 2207/22",
+          "title": {
+            "ko": null,
+            "en": "Control and timing of internal memory operations"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 2211/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to digital stores characterized by the use of particular electric or magnetic storage elements; Storage elements therefor"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 2211/401",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to cells needing refreshing or charge regeneration, i.e. dynamic cells"
+          }
+        },
+        {
+          "code": "G11C 2211/56",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G11C11/56 and sub-groups for features not covered by these groups"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 2213/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to G11C13/00 for features not covered by this group"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 2213/10",
+          "title": {
+            "ko": null,
+            "en": "Resistive cells; Technology aspects"
+          }
+        },
+        {
+          "code": "G11C 2213/30",
+          "title": {
+            "ko": null,
+            "en": "Resistive cell, memory material aspects"
+          }
+        },
+        {
+          "code": "G11C 2213/50",
+          "title": {
+            "ko": null,
+            "en": "Resistive cell structure aspects"
+          }
+        },
+        {
+          "code": "G11C 2213/70",
+          "title": {
+            "ko": null,
+            "en": "Resistive array aspects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 2216/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to G11C16/00 and subgroups, for features not directly covered by these groups"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 2216/02",
+          "title": {
+            "ko": null,
+            "en": "Structural aspects of erasable programmable read-only memories"
+          }
+        },
+        {
+          "code": "G11C 2216/12",
+          "title": {
+            "ko": null,
+            "en": "Reading and writing aspects of erasable programmable read-only memories"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G11C 2229/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to checking stores for correct operation, subsequent repair or testing stores during standby or offline operation"
+      },
+      "subgroups": [
+        {
+          "code": "G11C 2229/70",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G11C29/70, for implementation aspects of redundancy repair"
+          }
+        }
+      ]
+    }
+  ]
+}

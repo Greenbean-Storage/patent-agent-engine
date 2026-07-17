@@ -1,0 +1,133 @@
+{
+  "title": "ConversationRuntime",
+  "description": "사용자·assistant 대화·구조화된 입력 기록. sessions/{user_id}/{work_id}/runtime/00.dro/conversation.json. writer: DRO (사용자 turn 및 페르소나 응답 누적). 이전엔 buddy 가 append 했으나 P-A v3 에서 DRO 단일 writer 로 정정. director(02)가 분석 시 read.",
+  "type": "object",
+  "required": [
+    "messages",
+    "last_updated"
+  ],
+  "properties": {
+    "messages": {
+      "type": "array",
+      "description": "대화·구조화 입력 전체 기록. 시간 순.",
+      "items": {
+        "type": "object",
+        "description": "1 turn (저장형). 메시지 id 는 저장하지 않고 API 경계에서 0-based 위치로 파생(A-4) — append-only 라 위치가 안정 커서.",
+        "required": [
+          "role",
+          "timestamp"
+        ],
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": [
+              "user",
+              "assistant"
+            ]
+          },
+          "content": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "채팅 텍스트. 구조화된 입력(structured_input)만 있을 경우 null."
+          },
+          "structured_input": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "체크리스트 항목에 대한 구조화된 응답. content가 null일 때 존재. director(02)가 IOM 업데이트 판단 시 이 필드를 읽음.",
+            "properties": {
+              "checklist_item_id": {
+                "type": "string",
+                "description": "GapAnalysis.gaps[].field 값과 대응"
+              },
+              "input_type": {
+                "type": "string",
+                "enum": [
+                  "selection",
+                  "checkbox",
+                  "keyword"
+                ]
+              },
+              "value": {
+                "description": "selection/keyword → string, checkbox → array of strings"
+              }
+            },
+            "required": [
+              "checklist_item_id",
+              "input_type",
+              "value"
+            ]
+          },
+          "intent": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "greeting",
+              "invention_describe",
+              "technical_detail",
+              "question",
+              "depth_analysis",
+              "document_request",
+              "unclear",
+              null
+            ],
+            "description": "intent_classifier가 분류한 사용자 의도 (user 채팅 메시지에만)"
+          },
+          "media": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "mime_type",
+                "data"
+              ],
+              "properties": {
+                "mime_type": {
+                  "type": "string"
+                },
+                "data": {
+                  "type": "string",
+                  "description": "base64 encoded"
+                }
+              }
+            }
+          },
+          "image_analyses": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "document_analyses": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "audio_analyses": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "total_user_turns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "writer_policy": {
+    "chat_messages": "buddy(01) — role=user/assistant 채팅 턴",
+    "structured_inputs": "gateway(00) — 체크리스트 항목 응답, content=null",
+    "iom_updates": "오직 director(02)만 IOM/contexts에 쓰기 가능 — conversation을 읽고 판단"
+  }
+}

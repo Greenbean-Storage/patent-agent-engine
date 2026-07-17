@@ -1,0 +1,1431 @@
+{
+  "subclass": "H02M",
+  "title": {
+    "ko": "교류-교류, 교류-직류 또는 직류-직류 변환장치 및 주전원 또는 유사한 전력 공급 시스템과 함께 사용하기 위한 장치; 직류 또는 교류입력의 서지 출력변환; 그것을 제어 또는 조정 (변압기 H01F, 회전 변환기 H02K 47/00; 변압기, 원자로 또는 초크 코일 제어, 전기 모터, 발전기 또는 발전기-전기 변환기의 제어 또는 조절 H02P)",
+    "en": "APPARATUS FOR CONVERSION BETWEEN AC AND AC, BETWEEN AC AND DC, OR BETWEEN DC AND DC, AND FOR USE WITH MAINS OR SIMILAR POWER SUPPLY SYSTEMS; CONVERSION OF DC OR AC INPUT POWER INTO SURGE OUTPUT POWER; CONTROL OR REGULATION THEREOF  (transformers H01F; dynamo-electric converters H02K0047000000; controlling transformers, reactors or choke coils, control or regulation of electric motors, generators or dynamo-electric converters H02P)"
+  },
+  "definition": {
+    "ko": "세부 H02M1/00 변환 양식 직류에서 직류로 H02M3/00 교류에서 교류로 H02M5/00 교류에서 직류 및 직류에서 교류로 H02M7/00 직류 또는 교류에서 서지(surge) 출력으로 H02M9/00 기타 전력 변환 시스템 H02M11/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H02M 1/00",
+      "title": {
+        "ko": "변환 장치의 세부",
+        "en": "Details of apparatus for conversion"
+      },
+      "subgroups": [
+        {
+          "code": "H02M 1/02",
+          "title": {
+            "ko": null,
+            "en": "Circuits specially adapted for the generation of grid-control or igniter-control voltages for discharge tubes incorporated in static converters"
+          }
+        },
+        {
+          "code": "H02M 1/04",
+          "title": {
+            "ko": null,
+            "en": "for tubes with grid control"
+          }
+        },
+        {
+          "code": "H02M 1/06",
+          "title": {
+            "ko": null,
+            "en": "Circuits specially adapted for rendering non-conductive gas discharge tubes or equivalent semiconductor devices, e.g. thyratrons, thyristors"
+          }
+        },
+        {
+          "code": "H02M 1/08",
+          "title": {
+            "ko": "정지형변환기에 이용되는 반도체장치의 제어전압의 발생에 이용되는 회로",
+            "en": "Circuits specially adapted for the generation of control voltages for semiconductor devices incorporated in static converters"
+          }
+        },
+        {
+          "code": "H02M 1/084",
+          "title": {
+            "ko": null,
+            "en": "using a control circuit common to several phases of a multi-phase system"
+          }
+        },
+        {
+          "code": "H02M 1/088",
+          "title": {
+            "ko": "직렬 또는 병렬 접속된 반도체장치의 동시제어 하기 위한 것",
+            "en": "for the simultaneous control of series or parallel connected semiconductor devices"
+          }
+        },
+        {
+          "code": "H02M 1/092",
+          "title": {
+            "ko": null,
+            "en": "the control signals being transmitted optically"
+          }
+        },
+        {
+          "code": "H02M 1/096",
+          "title": {
+            "ko": "주 스위칭 소자에 병렬 접속된 제어회로의 급전(H02M 1/092가 우선)",
+            "en": "the power supply of the control circuit being connected in parallel to the main switching element (H02M0001092000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02M 1/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements incorporating converting means for enabling loads to be operated at will from different kinds of power supplies, e.g. from AC or DC"
+          }
+        },
+        {
+          "code": "H02M 1/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing harmonics from AC input or output"
+          }
+        },
+        {
+          "code": "H02M 1/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for reducing ripples from DC input or output"
+          }
+        },
+        {
+          "code": "H02M 1/15",
+          "title": {
+            "ko": null,
+            "en": "using active elements"
+          }
+        },
+        {
+          "code": "H02M 1/16",
+          "title": {
+            "ko": null,
+            "en": "Means for providing current step on switching, e.g. with saturable reactor"
+          }
+        },
+        {
+          "code": "H02M 1/20",
+          "title": {
+            "ko": null,
+            "en": "Contact mechanisms of dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 1/22",
+          "title": {
+            "ko": null,
+            "en": "incorporating collectors and brushes"
+          }
+        },
+        {
+          "code": "H02M 1/24",
+          "title": {
+            "ko": null,
+            "en": "incorporating rolling or tumbling contacts"
+          }
+        },
+        {
+          "code": "H02M 1/26",
+          "title": {
+            "ko": null,
+            "en": "incorporating cam-operated contacts"
+          }
+        },
+        {
+          "code": "H02M 1/28",
+          "title": {
+            "ko": null,
+            "en": "incorporating electromagnetically-operated vibrating contacts"
+          }
+        },
+        {
+          "code": "H02M 1/30",
+          "title": {
+            "ko": null,
+            "en": "incorporating liquid contacts"
+          }
+        },
+        {
+          "code": "H02M 1/32",
+          "title": {
+            "ko": null,
+            "en": "Means for protecting converters other than by automatic disconnection"
+          }
+        },
+        {
+          "code": "H02M 1/34",
+          "title": {
+            "ko": null,
+            "en": "Snubber circuits"
+          }
+        },
+        {
+          "code": "H02M 1/36",
+          "title": {
+            "ko": null,
+            "en": "Means for starting or stopping converters"
+          }
+        },
+        {
+          "code": "H02M 1/38",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing simultaneous conduction of switches"
+          }
+        },
+        {
+          "code": "H02M 1/40",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing magnetic saturation"
+          }
+        },
+        {
+          "code": "H02M 1/42",
+          "title": {
+            "ko": null,
+            "en": "Circuits or arrangements for compensating for or adjusting power factor in converters or inverters"
+          }
+        },
+        {
+          "code": "H02M 1/44",
+          "title": {
+            "ko": null,
+            "en": "Circuits or arrangements for compensating for electromagnetic interference in converters or inverters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02M 3/00",
+      "title": {
+        "ko": "직류 전원 입력을 직류 전원 출력으로 변환",
+        "en": "Conversion of DC power input into DC power output"
+      },
+      "subgroups": [
+        {
+          "code": "H02M 3/02",
+          "title": {
+            "ko": "교류로 중간 변환하지 않는 것",
+            "en": "without intermediate conversion into AC"
+          }
+        },
+        {
+          "code": "H02M 3/04",
+          "title": {
+            "ko": "정지형 변환기에 의한 것",
+            "en": "by static converters"
+          }
+        },
+        {
+          "code": "H02M 3/06",
+          "title": {
+            "ko": null,
+            "en": "using resistors or capacitors, e.g. potential divider"
+          }
+        },
+        {
+          "code": "H02M 3/07",
+          "title": {
+            "ko": null,
+            "en": "using capacitors charged and discharged alternately by semiconductor devices with control electrode"
+          }
+        },
+        {
+          "code": "H02M 3/08",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes without control electrode or semiconductor devices without control electrode"
+          }
+        },
+        {
+          "code": "H02M 3/10",
+          "title": {
+            "ko": "제어전극이 있는 방전관 또는 제어전극이 있는 반도체 장치를 사용하는 것(H02M 3/07이 우선)",
+            "en": "using discharge tubes with control electrode or semiconductor devices with control electrode (H02M0003070000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02M 3/125",
+          "title": {
+            "ko": null,
+            "en": "using devices of a thyratron or thyristor type requiring extinguishing means"
+          }
+        },
+        {
+          "code": "H02M 3/13",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 3/135",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 3/137",
+          "title": {
+            "ko": null,
+            "en": "with automatic control of output voltage or current, e.g. switching regulators"
+          }
+        },
+        {
+          "code": "H02M 3/139",
+          "title": {
+            "ko": null,
+            "en": "with digital control"
+          }
+        },
+        {
+          "code": "H02M 3/142",
+          "title": {
+            "ko": null,
+            "en": "including plural semiconductor devices as final control devices for a single load"
+          }
+        },
+        {
+          "code": "H02M 3/145",
+          "title": {
+            "ko": null,
+            "en": "using devices of a triode or transistor type requiring continuous application of a control signal"
+          }
+        },
+        {
+          "code": "H02M 3/15",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 3/155",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 3/156",
+          "title": {
+            "ko": null,
+            "en": "with automatic control of output voltage or current, e.g. switching regulators"
+          }
+        },
+        {
+          "code": "H02M 3/157",
+          "title": {
+            "ko": null,
+            "en": "with digital control"
+          }
+        },
+        {
+          "code": "H02M 3/158",
+          "title": {
+            "ko": null,
+            "en": "including plural semiconductor devices as final control devices for a single load"
+          }
+        },
+        {
+          "code": "H02M 3/16",
+          "title": {
+            "ko": null,
+            "en": "by dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 3/18",
+          "title": {
+            "ko": null,
+            "en": "using capacitors or batteries which are alternately charged and discharged, e.g. charged in parallel and discharged in series"
+          }
+        },
+        {
+          "code": "H02M 3/20",
+          "title": {
+            "ko": null,
+            "en": "by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters"
+          }
+        },
+        {
+          "code": "H02M 3/22",
+          "title": {
+            "ko": "교류로 중간 변환하는 것",
+            "en": "with intermediate conversion into AC"
+          }
+        },
+        {
+          "code": "H02M 3/24",
+          "title": {
+            "ko": "정적 컨버터에 의한 것",
+            "en": "by static converters"
+          }
+        },
+        {
+          "code": "H02M 3/26",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes without control electrode or semiconductor devices without control electrode to produce the intermediate AC"
+          }
+        },
+        {
+          "code": "H02M 3/28",
+          "title": {
+            "ko": "제어전극이 있는 방전관 또는 제어전극이 있는 반도체장치를 사용하여 중간 교류를 발생시키는 것",
+            "en": "using discharge tubes with control electrode or semiconductor devices with control electrode to produce the intermediate AC"
+          }
+        },
+        {
+          "code": "H02M 3/305",
+          "title": {
+            "ko": null,
+            "en": "using devices of a thyratron or thyristor type requiring extinguishing means"
+          }
+        },
+        {
+          "code": "H02M 3/31",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 3/315",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 3/325",
+          "title": {
+            "ko": "제어신호의 연속적 인가를 필요로 하는 3극관 또는 트랜지스터 형식의 장치를 이용하는 것",
+            "en": "using devices of a triode or a transistor type requiring continuous application of a control signal"
+          }
+        },
+        {
+          "code": "H02M 3/33",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 3/335",
+          "title": {
+            "ko": "반도체장치만을 이용하는 것",
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 3/337",
+          "title": {
+            "ko": null,
+            "en": "in push-pull configuration"
+          }
+        },
+        {
+          "code": "H02M 3/338",
+          "title": {
+            "ko": "자려발진장치인 것(H02M 3/337이 우선)",
+            "en": "in a self-oscillating arrangement (H02M0003337000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02M 3/34",
+          "title": {
+            "ko": null,
+            "en": "by dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 3/36",
+          "title": {
+            "ko": null,
+            "en": "using mechanical parts to select progressively or to vary continuously the input potential"
+          }
+        },
+        {
+          "code": "H02M 3/38",
+          "title": {
+            "ko": null,
+            "en": "using mechanical contact-making and -breaking parts to interrupt a single potential"
+          }
+        },
+        {
+          "code": "H02M 3/40",
+          "title": {
+            "ko": null,
+            "en": "wherein the parts are rotating and collectors co-operate with brushes or rollers"
+          }
+        },
+        {
+          "code": "H02M 3/42",
+          "title": {
+            "ko": null,
+            "en": "with electromagnetically-operated vibrating contacts, e.g. chopper"
+          }
+        },
+        {
+          "code": "H02M 3/44",
+          "title": {
+            "ko": null,
+            "en": "by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02M 5/00",
+      "title": {
+        "ko": "교류 전원 입력을 교류 전원 출력으로 변환, 예. 전압 변경용, 주파수 변경용, 위상수 변경용",
+        "en": "Conversion of AC power input into AC power output, e.g. for change of voltage, for change of frequency, for change of number of phases"
+      },
+      "subgroups": [
+        {
+          "code": "H02M 5/02",
+          "title": {
+            "ko": "직류로 중간 변환이 없는 것",
+            "en": "without intermediate conversion into DC"
+          }
+        },
+        {
+          "code": "H02M 5/04",
+          "title": {
+            "ko": "정지형 변환기에 의한 것(변성기, 리액터 또는 토크 코일의 제어, 예. 탭의 절환의 것 H01P 13/00)",
+            "en": "by static converters (controlling transformers, reactors or choke coils, e.g. by tap changing, H02P0013000000)"
+          }
+        },
+        {
+          "code": "H02M 5/06",
+          "title": {
+            "ko": null,
+            "en": "using impedances"
+          }
+        },
+        {
+          "code": "H02M 5/08",
+          "title": {
+            "ko": null,
+            "en": "using capacitors only"
+          }
+        },
+        {
+          "code": "H02M 5/10",
+          "title": {
+            "ko": null,
+            "en": "using transformers"
+          }
+        },
+        {
+          "code": "H02M 5/12",
+          "title": {
+            "ko": null,
+            "en": "for conversion of voltage or current amplitude only"
+          }
+        },
+        {
+          "code": "H02M 5/14",
+          "title": {
+            "ko": null,
+            "en": "for conversion between circuits of different phase number"
+          }
+        },
+        {
+          "code": "H02M 5/16",
+          "title": {
+            "ko": null,
+            "en": "for conversion of frequency"
+          }
+        },
+        {
+          "code": "H02M 5/18",
+          "title": {
+            "ko": null,
+            "en": "for conversion of waveform"
+          }
+        },
+        {
+          "code": "H02M 5/20",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes without control electrode or semiconductor devices without control electrode"
+          }
+        },
+        {
+          "code": "H02M 5/22",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes with control electrode or semiconductor devices with control electrode"
+          }
+        },
+        {
+          "code": "H02M 5/25",
+          "title": {
+            "ko": null,
+            "en": "using devices of a thyratron or thyristor type requiring extinguishing means"
+          }
+        },
+        {
+          "code": "H02M 5/253",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 5/257",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 5/27",
+          "title": {
+            "ko": null,
+            "en": "for conversion of frequency"
+          }
+        },
+        {
+          "code": "H02M 5/275",
+          "title": {
+            "ko": null,
+            "en": "using devices of a triode or transistor type requiring continuous application of a control signal"
+          }
+        },
+        {
+          "code": "H02M 5/29",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 5/293",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 5/297",
+          "title": {
+            "ko": null,
+            "en": "for conversion of frequency"
+          }
+        },
+        {
+          "code": "H02M 5/32",
+          "title": {
+            "ko": null,
+            "en": "by dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 5/34",
+          "title": {
+            "ko": null,
+            "en": "using mechanical contact-making and -breaking parts"
+          }
+        },
+        {
+          "code": "H02M 5/36",
+          "title": {
+            "ko": null,
+            "en": "wherein the parts are rotating and collectors co-operate with brushes or rollers"
+          }
+        },
+        {
+          "code": "H02M 5/38",
+          "title": {
+            "ko": null,
+            "en": "by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters"
+          }
+        },
+        {
+          "code": "H02M 5/40",
+          "title": {
+            "ko": null,
+            "en": "with intermediate conversion into DC"
+          }
+        },
+        {
+          "code": "H02M 5/42",
+          "title": {
+            "ko": null,
+            "en": "by static converters"
+          }
+        },
+        {
+          "code": "H02M 5/44",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes or semiconductor devices to convert the intermediate DC into AC"
+          }
+        },
+        {
+          "code": "H02M 5/443",
+          "title": {
+            "ko": null,
+            "en": "using devices of a thyratron or thyristor type requiring extinguishing means"
+          }
+        },
+        {
+          "code": "H02M 5/447",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 5/45",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 5/451",
+          "title": {
+            "ko": null,
+            "en": "with automatic control of output voltage or frequency"
+          }
+        },
+        {
+          "code": "H02M 5/452",
+          "title": {
+            "ko": null,
+            "en": "with automatic control of output waveform"
+          }
+        },
+        {
+          "code": "H02M 5/453",
+          "title": {
+            "ko": null,
+            "en": "using devices of a triode or transistor type requiring continuous application of a control signal"
+          }
+        },
+        {
+          "code": "H02M 5/456",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 5/458",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 5/46",
+          "title": {
+            "ko": null,
+            "en": "by dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 5/48",
+          "title": {
+            "ko": null,
+            "en": "by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02M 7/00",
+      "title": {
+        "ko": "교류 전원 입력을 직류 전원 출력으로 변환; 직류 전원 입력을 교류 전원 출력으로 변환",
+        "en": "Conversion of AC power input into DC power output; Conversion of DC power input into AC power output"
+      },
+      "subgroups": [
+        {
+          "code": "H02M 7/02",
+          "title": {
+            "ko": null,
+            "en": "Conversion of AC power input into DC power output without possibility of reversal"
+          }
+        },
+        {
+          "code": "H02M 7/04",
+          "title": {
+            "ko": null,
+            "en": "by static converters"
+          }
+        },
+        {
+          "code": "H02M 7/06",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes without control electrode or semiconductor devices without control electrode"
+          }
+        },
+        {
+          "code": "H02M 7/08",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in parallel"
+          }
+        },
+        {
+          "code": "H02M 7/10",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in series, e.g. for multiplication of voltage"
+          }
+        },
+        {
+          "code": "H02M 7/12",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes with control electrode or semiconductor devices with control electrode"
+          }
+        },
+        {
+          "code": "H02M 7/145",
+          "title": {
+            "ko": null,
+            "en": "using devices of a thyratron or thyristor type requiring extinguishing means"
+          }
+        },
+        {
+          "code": "H02M 7/15",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 7/155",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 7/162",
+          "title": {
+            "ko": null,
+            "en": "in a bridge configuration"
+          }
+        },
+        {
+          "code": "H02M 7/17",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in parallel"
+          }
+        },
+        {
+          "code": "H02M 7/19",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in series, e.g. for voltage multiplication"
+          }
+        },
+        {
+          "code": "H02M 7/21",
+          "title": {
+            "ko": null,
+            "en": "using devices of a triode or transistor type requiring continuous application of a control signal"
+          }
+        },
+        {
+          "code": "H02M 7/213",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 7/217",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 7/219",
+          "title": {
+            "ko": null,
+            "en": "in a bridge configuration"
+          }
+        },
+        {
+          "code": "H02M 7/23",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in parallel"
+          }
+        },
+        {
+          "code": "H02M 7/25",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in series, e.g. for multiplication of voltage"
+          }
+        },
+        {
+          "code": "H02M 7/26",
+          "title": {
+            "ko": null,
+            "en": "using open-spark devices, e.g. Marx rectifier"
+          }
+        },
+        {
+          "code": "H02M 7/28",
+          "title": {
+            "ko": null,
+            "en": "using electrolytic rectifiers"
+          }
+        },
+        {
+          "code": "H02M 7/30",
+          "title": {
+            "ko": null,
+            "en": "by dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 7/32",
+          "title": {
+            "ko": null,
+            "en": "using mechanical contact-making and -breaking parts"
+          }
+        },
+        {
+          "code": "H02M 7/34",
+          "title": {
+            "ko": null,
+            "en": "wherein the parts are rotating and collectors co-operate with brushes or rollers"
+          }
+        },
+        {
+          "code": "H02M 7/36",
+          "title": {
+            "ko": null,
+            "en": "with electromagnetically-operated vibrating contacts, e.g. chopper"
+          }
+        },
+        {
+          "code": "H02M 7/38",
+          "title": {
+            "ko": null,
+            "en": "using one or more sparking electrodes rotating over counterelectrodes"
+          }
+        },
+        {
+          "code": "H02M 7/40",
+          "title": {
+            "ko": null,
+            "en": "by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters"
+          }
+        },
+        {
+          "code": "H02M 7/42",
+          "title": {
+            "ko": "비가역적으로 직류 전원 입력을 교류 전원 출력으로 변환",
+            "en": "Conversion of DC power input into AC power output without possibility of reversal"
+          }
+        },
+        {
+          "code": "H02M 7/44",
+          "title": {
+            "ko": "정지형 변환기에 의한 것",
+            "en": "by static converters"
+          }
+        },
+        {
+          "code": "H02M 7/46",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes without control electrode or semiconductor devices without control electrode"
+          }
+        },
+        {
+          "code": "H02M 7/48",
+          "title": {
+            "ko": "제어전극이 있는 방전관을 사용하는 정지형 컨버터 또는 제어전극이 있는 반도체장치를 사용하는 정지형 컨버터에 의한 것",
+            "en": "using discharge tubes with control electrode or semiconductor devices with control electrode"
+          }
+        },
+        {
+          "code": "H02M 7/483",
+          "title": {
+            "ko": null,
+            "en": "Converters with outputs that each can have more than two voltage levels"
+          }
+        },
+        {
+          "code": "H02M 7/487",
+          "title": {
+            "ko": null,
+            "en": "Neutral point clamped inverters"
+          }
+        },
+        {
+          "code": "H02M 7/49",
+          "title": {
+            "ko": null,
+            "en": "Combination of the output voltage waveforms of a plurality of converters"
+          }
+        },
+        {
+          "code": "H02M 7/493",
+          "title": {
+            "ko": null,
+            "en": "the static converters being arranged for operation in parallel"
+          }
+        },
+        {
+          "code": "H02M 7/497",
+          "title": {
+            "ko": null,
+            "en": "sinusoidal output voltages being obtained by combination of several voltages being out of phase"
+          }
+        },
+        {
+          "code": "H02M 7/501",
+          "title": {
+            "ko": null,
+            "en": "sinusoidal output voltages being obtained by the combination of several pulse-voltages having different amplitude and width"
+          }
+        },
+        {
+          "code": "H02M 7/505",
+          "title": {
+            "ko": "소호수단을 필요로 하는 사이라트론 또는 사이리스터형식의 장치를 이용하는 것",
+            "en": "using devices of a thyratron or thyristor type requiring extinguishing means"
+          }
+        },
+        {
+          "code": "H02M 7/51",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 7/515",
+          "title": {
+            "ko": "반도체 장치만을 이용하는 것",
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 7/516",
+          "title": {
+            "ko": null,
+            "en": "Self-oscillating arrangements"
+          }
+        },
+        {
+          "code": "H02M 7/517",
+          "title": {
+            "ko": null,
+            "en": "with special starting equipment"
+          }
+        },
+        {
+          "code": "H02M 7/519",
+          "title": {
+            "ko": "푸쉬풀 구성인 것(7/517가 우선)",
+            "en": "in a push-pull configuration (H02M0007517000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02M 7/521",
+          "title": {
+            "ko": null,
+            "en": "in a bridge configuration"
+          }
+        },
+        {
+          "code": "H02M 7/523",
+          "title": {
+            "ko": null,
+            "en": "with LC-resonance circuit in the main circuit"
+          }
+        },
+        {
+          "code": "H02M 7/525",
+          "title": {
+            "ko": "출력파형 또는 주파수의 자동제어를 가진 것(H02M 7/517～ H02M 7/523가 우선)",
+            "en": "with automatic control of output waveform or frequency (H02M0007517000-H02M0007523000 take precedence)"
+          }
+        },
+        {
+          "code": "H02M 7/527",
+          "title": {
+            "ko": null,
+            "en": "by pulse width modulation"
+          }
+        },
+        {
+          "code": "H02M 7/529",
+          "title": {
+            "ko": null,
+            "en": "using digital control"
+          }
+        },
+        {
+          "code": "H02M 7/53",
+          "title": {
+            "ko": "제어신호의 연속적 인가를 필요로 하는 3극관 또는 트랜지스터 형식의 장치를 이용하는 것",
+            "en": "using devices of a triode or transistor type requiring continuous application of a control signal"
+          }
+        },
+        {
+          "code": "H02M 7/533",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 7/537",
+          "title": {
+            "ko": "반도체장치만을 이용하는 것, 예. 싱글 스위치 펄스 인버터",
+            "en": "using semiconductor devices only, e.g. single switched pulse inverters"
+          }
+        },
+        {
+          "code": "H02M 7/5375",
+          "title": {
+            "ko": null,
+            "en": "with special starting equipment"
+          }
+        },
+        {
+          "code": "H02M 7/538",
+          "title": {
+            "ko": "푸쉬풀 구성인 것(H02M 7/5375가 우선)",
+            "en": "in a push-pull configuration (H02M0007537500 takes precedence)"
+          }
+        },
+        {
+          "code": "H02M 7/5381",
+          "title": {
+            "ko": null,
+            "en": "Parallel type"
+          }
+        },
+        {
+          "code": "H02M 7/5383",
+          "title": {
+            "ko": "자려 발진 장치(H02M 7/538이 우선)",
+            "en": "in a self-oscillating arrangement (H02M0007538000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02M 7/53838",
+          "title": {
+            "ko": null,
+            "en": "using a single commutation path"
+          }
+        },
+        {
+          "code": "H02M 7/53846",
+          "title": {
+            "ko": null,
+            "en": "Control circuits"
+          }
+        },
+        {
+          "code": "H02M 7/53854",
+          "title": {
+            "ko": null,
+            "en": "using thyristor type converters"
+          }
+        },
+        {
+          "code": "H02M 7/53862",
+          "title": {
+            "ko": null,
+            "en": "using transistor type converters"
+          }
+        },
+        {
+          "code": "H02M 7/5387",
+          "title": {
+            "ko": null,
+            "en": "in a bridge configuration"
+          }
+        },
+        {
+          "code": "H02M 7/5388",
+          "title": {
+            "ko": null,
+            "en": "with asymmetrical configuration of switches"
+          }
+        },
+        {
+          "code": "H02M 7/539",
+          "title": {
+            "ko": "출력파형 또는 주파수의 자동제어를 가진 것(H02M 7/5375～ H02M 7/5387이 우선)",
+            "en": "with automatic control of output wave form or frequency (H02M0007537500-H02M0007538700 take precedence)"
+          }
+        },
+        {
+          "code": "H02M 7/5395",
+          "title": {
+            "ko": null,
+            "en": "by pulse-width modulation"
+          }
+        },
+        {
+          "code": "H02M 7/54",
+          "title": {
+            "ko": null,
+            "en": "by dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 7/56",
+          "title": {
+            "ko": null,
+            "en": "using mechanical parts to select progressively, or to vary continuously, the input potential"
+          }
+        },
+        {
+          "code": "H02M 7/58",
+          "title": {
+            "ko": null,
+            "en": "using mechanical contact-making and -breaking parts to interrupt a single potential"
+          }
+        },
+        {
+          "code": "H02M 7/60",
+          "title": {
+            "ko": null,
+            "en": "wherein the parts are rotating and collectors co-operate with brushes or rollers"
+          }
+        },
+        {
+          "code": "H02M 7/62",
+          "title": {
+            "ko": null,
+            "en": "with electromagnetically-operated vibrating contacts, e.g. chopper"
+          }
+        },
+        {
+          "code": "H02M 7/64",
+          "title": {
+            "ko": null,
+            "en": "by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters"
+          }
+        },
+        {
+          "code": "H02M 7/66",
+          "title": {
+            "ko": null,
+            "en": "with possibility of reversal"
+          }
+        },
+        {
+          "code": "H02M 7/68",
+          "title": {
+            "ko": null,
+            "en": "by static converters"
+          }
+        },
+        {
+          "code": "H02M 7/70",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes without control electrode or semiconductor devices without control electrode"
+          }
+        },
+        {
+          "code": "H02M 7/72",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes with control electrode or semiconductor devices with control electrode"
+          }
+        },
+        {
+          "code": "H02M 7/75",
+          "title": {
+            "ko": null,
+            "en": "using devices of a thyratron or thyristor type requiring extinguishing means"
+          }
+        },
+        {
+          "code": "H02M 7/753",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 7/757",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 7/758",
+          "title": {
+            "ko": null,
+            "en": "with automatic control of output waveform or frequency"
+          }
+        },
+        {
+          "code": "H02M 7/77",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in parallel"
+          }
+        },
+        {
+          "code": "H02M 7/79",
+          "title": {
+            "ko": null,
+            "en": "using devices of a triode or transistor type requiring continuous application of a control signal"
+          }
+        },
+        {
+          "code": "H02M 7/793",
+          "title": {
+            "ko": null,
+            "en": "using discharge tubes only"
+          }
+        },
+        {
+          "code": "H02M 7/797",
+          "title": {
+            "ko": null,
+            "en": "using semiconductor devices only"
+          }
+        },
+        {
+          "code": "H02M 7/81",
+          "title": {
+            "ko": null,
+            "en": "arranged for operation in parallel"
+          }
+        },
+        {
+          "code": "H02M 7/82",
+          "title": {
+            "ko": null,
+            "en": "using open-spark devices, e.g. Marx rectifier"
+          }
+        },
+        {
+          "code": "H02M 7/84",
+          "title": {
+            "ko": null,
+            "en": "using electrolytic rectifiers"
+          }
+        },
+        {
+          "code": "H02M 7/86",
+          "title": {
+            "ko": null,
+            "en": "by dynamic converters"
+          }
+        },
+        {
+          "code": "H02M 7/88",
+          "title": {
+            "ko": null,
+            "en": "using mechanical parts to select progressively or to vary continuously the input potential"
+          }
+        },
+        {
+          "code": "H02M 7/90",
+          "title": {
+            "ko": null,
+            "en": "using mechanical contact-making and -breaking parts to interrupt a single potential"
+          }
+        },
+        {
+          "code": "H02M 7/92",
+          "title": {
+            "ko": null,
+            "en": "wherein the parts are rotating and collectors co-operate with brushes or rollers"
+          }
+        },
+        {
+          "code": "H02M 7/94",
+          "title": {
+            "ko": null,
+            "en": "wherein the parts are operated by rotating cams or cam-like devices"
+          }
+        },
+        {
+          "code": "H02M 7/95",
+          "title": {
+            "ko": null,
+            "en": "with electromagnetically-operated vibrating contacts, e.g. chopper"
+          }
+        },
+        {
+          "code": "H02M 7/96",
+          "title": {
+            "ko": null,
+            "en": "with moving liquid contacts"
+          }
+        },
+        {
+          "code": "H02M 7/98",
+          "title": {
+            "ko": null,
+            "en": "by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02M 9/00",
+      "title": {
+        "ko": null,
+        "en": "Conversion of DC or AC input power into surge output power"
+      },
+      "subgroups": [
+        {
+          "code": "H02M 9/02",
+          "title": {
+            "ko": null,
+            "en": "with DC input power"
+          }
+        },
+        {
+          "code": "H02M 9/04",
+          "title": {
+            "ko": null,
+            "en": "using capacitative stores"
+          }
+        },
+        {
+          "code": "H02M 9/06",
+          "title": {
+            "ko": null,
+            "en": "with AC input power"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02M 11/00",
+      "title": {
+        "ko": null,
+        "en": "Power conversion systems not covered by the other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

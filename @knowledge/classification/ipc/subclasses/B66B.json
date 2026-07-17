@@ -1,0 +1,1056 @@
+{
+  "subclass": "B66B",
+  "title": {
+    "ko": "엘리베이터; 에스컬레이터 또는 이동 보도(일반적인 출구 수단의 대체품으로 사용되는 인명 구조 장치, 예. 계단, 케이지에서 아래에 있는 사람을 구조, 가방 또는 건물 또는 다른 구조로부터 유사한 지원 A62B 1/02; 항공기와 같은 또는 승객 탑승을 가능하게 하기 위한 또는 비행을 조작하기 위한 장치 B64D 9/00; 리프팅 또는 호이스팅 장치에의 응용을 특징으로 하는 브레이크 또는 래칫장치 B66D 5/00)",
+    "en": "ELEVATORS; ESCALATORS OR MOVING WALKWAYS (life-saving devices used as an alternative to normal egress means, e.g. stairs, during rescue to lower persons in cages, bags, or similar supports from buildings or other structures  A62B0001020000; equipment for handling freight or for facilitating passenger embarkation or the like to aircraft B64D0009000000;braking or detent devices characterised by their application to lifting or hoisting gear B66D0005000000)"
+  },
+  "definition": {
+    "ko": "엘리베이터의 일반적 특징 B66B 제어; 신호; 검사; 안전; 기타 B66B1/00; 3/00; 5/00; 7/00 건물용 리프트 B66B 종류; 기구부품; 문 B66B9/00; 11/00; 13/00 광산용 리프트 B66B 종류; 승강로 설비; 구성부품 B66B17/00; 19/00; 15/00 그 외의 엘리베이터 B66B20/00 에스컬레이터; 이동보도 B66B 종류; 구성부품; 부속장치 B66B21/00; 23/00; 31/00 제어; 작동상태의 지시; 안전장치 B66B25/00; 27/00; 29/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B66B 1/00",
+      "title": {
+        "ko": "엘리베이터 제어장치의 일반(안전장치 B66B 5/00; 문이나 게이트의 조작을 제어하는 것 B66B 13/00)",
+        "en": "Common features of elevators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66B 1/00",
+      "title": {
+        "ko": "엘리베이터 제어장치의 일반(안전장치 B66B 5/00; 문이나 게이트의 조작을 제어하는 것 B66B 13/00)",
+        "en": "Control systems of elevators in general (safety devices B66B0005000000;controlling door or gate operation B66B0013000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 1/02",
+          "title": {
+            "ko": null,
+            "en": "Control systems without regulation, i.e. without retroactive action"
+          }
+        },
+        {
+          "code": "B66B 1/04",
+          "title": {
+            "ko": null,
+            "en": "hydraulic"
+          }
+        },
+        {
+          "code": "B66B 1/06",
+          "title": {
+            "ko": null,
+            "en": "electric"
+          }
+        },
+        {
+          "code": "B66B 1/08",
+          "title": {
+            "ko": null,
+            "en": "with devices, e.g. handles or levers, in the cars or cages for direct control of movements"
+          }
+        },
+        {
+          "code": "B66B 1/10",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for mining hoists"
+          }
+        },
+        {
+          "code": "B66B 1/12",
+          "title": {
+            "ko": null,
+            "en": "with devices, e.g. handles or levers, located at a control station for direct control of movements, e.g. electric mining-hoist control systems"
+          }
+        },
+        {
+          "code": "B66B 1/14",
+          "title": {
+            "ko": null,
+            "en": "with devices, e.g. push-buttons, for indirect control of movements"
+          }
+        },
+        {
+          "code": "B66B 1/16",
+          "title": {
+            "ko": null,
+            "en": "with means for storing pulses controlling the movements of a single car or cage"
+          }
+        },
+        {
+          "code": "B66B 1/18",
+          "title": {
+            "ko": null,
+            "en": "with means for storing pulses controlling the movements of several cars or cages"
+          }
+        },
+        {
+          "code": "B66B 1/20",
+          "title": {
+            "ko": null,
+            "en": "and for varying the manner of operation to suit particular traffic conditions, e.g. \"one-way rush-hour traffic\""
+          }
+        },
+        {
+          "code": "B66B 1/22",
+          "title": {
+            "ko": null,
+            "en": "with means for taking account of delayed calls"
+          }
+        },
+        {
+          "code": "B66B 1/24",
+          "title": {
+            "ko": "주행 속도, 가속도 또는 감속도에 영향을 미치는 조정 수단, 즉 반작용동 작을 가진 제어계",
+            "en": "Control systems with regulation, i.e. with retroactive action, for influencing travelling speed, acceleration, or deceleration"
+          }
+        },
+        {
+          "code": "B66B 1/26",
+          "title": {
+            "ko": null,
+            "en": "mechanical"
+          }
+        },
+        {
+          "code": "B66B 1/28",
+          "title": {
+            "ko": "전기적인 것(과속도를 검지하는 것 B66B 5/04)",
+            "en": "electrical (detecting excessive speed B66B0005040000)"
+          }
+        },
+        {
+          "code": "B66B 1/30",
+          "title": {
+            "ko": null,
+            "en": "effective on driving gear"
+          }
+        },
+        {
+          "code": "B66B 1/32",
+          "title": {
+            "ko": null,
+            "en": "effective on braking devices"
+          }
+        },
+        {
+          "code": "B66B 1/34",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "B66B 1/36",
+          "title": {
+            "ko": null,
+            "en": "Means for stopping the cars, cages, or skips at predetermined levels"
+          }
+        },
+        {
+          "code": "B66B 1/38",
+          "title": {
+            "ko": null,
+            "en": "and for returning the controlling handle or lever to its neutral position"
+          }
+        },
+        {
+          "code": "B66B 1/40",
+          "title": {
+            "ko": null,
+            "en": "and for correct levelling at landings"
+          }
+        },
+        {
+          "code": "B66B 1/42",
+          "title": {
+            "ko": null,
+            "en": "separate from the main drive"
+          }
+        },
+        {
+          "code": "B66B 1/44",
+          "title": {
+            "ko": null,
+            "en": "and for taking account of disturbance factors, e.g. variation of load weight"
+          }
+        },
+        {
+          "code": "B66B 1/46",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of switches or switchgear"
+          }
+        },
+        {
+          "code": "B66B 1/48",
+          "title": {
+            "ko": null,
+            "en": "Adaptations of mechanically-operated limit switches"
+          }
+        },
+        {
+          "code": "B66B 1/50",
+          "title": {
+            "ko": null,
+            "en": "with operating or control mechanisms mounted in the car or cage or in the lift well or hoistway"
+          }
+        },
+        {
+          "code": "B66B 1/52",
+          "title": {
+            "ko": null,
+            "en": "Floor selectors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 3/00",
+      "title": {
+        "ko": null,
+        "en": "Applications of devices for indicating or signalling operating conditions  of elevators"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 3/02",
+          "title": {
+            "ko": null,
+            "en": "Position or depth indicators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 5/00",
+      "title": {
+        "ko": "엘리베이터의 검사, 오차 정정 또는 안전장치 응용",
+        "en": "Applications of checking, fault-correcting or safety devices in elevators"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 5/02",
+          "title": {
+            "ko": "이상한 조작 상태에 응답하는 것",
+            "en": "responsive to abnormal operating conditions"
+          }
+        },
+        {
+          "code": "B66B 5/04",
+          "title": {
+            "ko": null,
+            "en": "for detecting excessive speed"
+          }
+        },
+        {
+          "code": "B66B 5/06",
+          "title": {
+            "ko": null,
+            "en": "electrical"
+          }
+        },
+        {
+          "code": "B66B 5/08",
+          "title": {
+            "ko": null,
+            "en": "for preventing overwinding"
+          }
+        },
+        {
+          "code": "B66B 5/10",
+          "title": {
+            "ko": null,
+            "en": "electrical"
+          }
+        },
+        {
+          "code": "B66B 5/12",
+          "title": {
+            "ko": null,
+            "en": "in case of rope or cable slack"
+          }
+        },
+        {
+          "code": "B66B 5/14",
+          "title": {
+            "ko": null,
+            "en": "in case of excessive loads"
+          }
+        },
+        {
+          "code": "B66B 5/16",
+          "title": {
+            "ko": "승강로내 또는 입항내의 고정 안내 부재 또는 고정 표면과 차, 케이지 또 는 무개차(skip)와의 사이에서 조작하는 브레이크 또는 캐취장치(catch devices)",
+            "en": "Braking or catch devices operating between cars, cages, or skips and fixed guide elements or surfaces in hoistway or well"
+          }
+        },
+        {
+          "code": "B66B 5/18",
+          "title": {
+            "ko": "마찰 조지력을 쓰는 것",
+            "en": "and applying frictional retarding forces"
+          }
+        },
+        {
+          "code": "B66B 5/20",
+          "title": {
+            "ko": "회전되는 편심력으로 부재에 의한 것(B66B 5/24가 우선)",
+            "en": "by means of rotatable eccentrically- mounted members (B66B0005240000 takes precedence)"
+          }
+        },
+        {
+          "code": "B66B 5/22",
+          "title": {
+            "ko": "직선으로 이동 가능한 쐐기에 의한 것(B66B 5/24가 우선)",
+            "en": "by means of linearly-movable wedges (B66B0005240000 takes precedence)"
+          }
+        },
+        {
+          "code": "B66B 5/24",
+          "title": {
+            "ko": null,
+            "en": "by acting on guide ropes or cables"
+          }
+        },
+        {
+          "code": "B66B 5/26",
+          "title": {
+            "ko": null,
+            "en": "Positively-acting devices, e.g. latches, knives"
+          }
+        },
+        {
+          "code": "B66B 5/28",
+          "title": {
+            "ko": null,
+            "en": "Buffer-stops for cars, cages, or skips"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 7/00",
+      "title": {
+        "ko": null,
+        "en": "Other common features of elevators"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 7/02",
+          "title": {
+            "ko": null,
+            "en": "Guideways; Guides"
+          }
+        },
+        {
+          "code": "B66B 7/04",
+          "title": {
+            "ko": null,
+            "en": "Shoes; Rollers"
+          }
+        },
+        {
+          "code": "B66B 7/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of ropes or cables"
+          }
+        },
+        {
+          "code": "B66B 7/08",
+          "title": {
+            "ko": null,
+            "en": "for connection to the cars or cages, e.g. couplings"
+          }
+        },
+        {
+          "code": "B66B 7/10",
+          "title": {
+            "ko": null,
+            "en": "for equalising rope or cable tension"
+          }
+        },
+        {
+          "code": "B66B 7/12",
+          "title": {
+            "ko": null,
+            "en": "Checking, lubricating, or cleaning means for ropes, cables, or guides"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 9/00",
+      "title": {
+        "ko": "건물 또는 다른 구조물내 또는 그 건물과 구조물에 부설되는 리프트lifts 종류 및 형태(제어계를 특징으로 하는 것 B66B 1/00)",
+        "en": "Lifts in, or associated with, buildings"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66B 9/00",
+      "title": {
+        "ko": "건물 또는 다른 구조물내 또는 그 건물과 구조물에 부설되는 리프트lifts 종류 및 형태(제어계를 특징으로 하는 것 B66B 1/00)",
+        "en": "Kinds or types of lifts in, or associated with, buildings or other structures (characterised by control systems B66B0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 9/02",
+          "title": {
+            "ko": null,
+            "en": "actuated mechanically otherwise than by rope or cable"
+          }
+        },
+        {
+          "code": "B66B 9/04",
+          "title": {
+            "ko": "공기압적으로나 또는 액압적으로 작동되는 것(단거리 승강을 위한 플랫폼 B66F 7/00 )",
+            "en": "actuated pneumatically or hydraulically (platforms for lifting or lowering through short distances B66F0007000000)"
+          }
+        },
+        {
+          "code": "B66B 9/06",
+          "title": {
+            "ko": null,
+            "en": "inclined, e.g. serving blast furnaces"
+          }
+        },
+        {
+          "code": "B66B 9/08",
+          "title": {
+            "ko": null,
+            "en": "associated with stairways, e.g. for transporting disabled persons"
+          }
+        },
+        {
+          "code": "B66B 9/10",
+          "title": {
+            "ko": null,
+            "en": "paternoster type"
+          }
+        },
+        {
+          "code": "B66B 9/16",
+          "title": {
+            "ko": "건물 또는 다른 구조물 내의 한 부분에서 다른 부분 또는 다른 건물 또는 다른 구조물로 이동되기 위하여 특별히 적용되는 이동용 또는 운송 가능한 리프트",
+            "en": "Mobile or transportable lifts specially adapted to be shifted from one part of a building or other structure to another part or to another building or structure"
+          }
+        },
+        {
+          "code": "B66B 9/187",
+          "title": {
+            "ko": "건물 또는 다른 구조물에 일시적으로 결합하는데 특별히 적용되는 승강로(B66B 9/193이 우선)",
+            "en": "with liftway specially adapted for temporary connection to a building or other structure (B66B0009193000 takes precedence)"
+          }
+        },
+        {
+          "code": "B66B 9/193",
+          "title": {
+            "ko": null,
+            "en": "with inclined liftways"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 11/00",
+      "title": {
+        "ko": "건물 또는 다른 구조물내에 또는 이것들에 부설되는 리프트의 주 구성 부재",
+        "en": "Main component parts of lifts in, or associated with, buildings or other structures"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 11/02",
+          "title": {
+            "ko": "케이지(케이지로부터 또는 그것에로의 출입을 제어하는 문, 게이트 또 는 기타의 장치 B66B 13/00 )",
+            "en": "Cages (doors, gates, or other apparatus controlling access to, or exit from, cages B66B0013000000)"
+          }
+        },
+        {
+          "code": "B66B 11/04",
+          "title": {
+            "ko": null,
+            "en": "Driving gear"
+          }
+        },
+        {
+          "code": "B66B 11/06",
+          "title": {
+            "ko": null,
+            "en": "with hoisting rope or cable positively attached to a winding drum"
+          }
+        },
+        {
+          "code": "B66B 11/08",
+          "title": {
+            "ko": null,
+            "en": "with hoisting rope or cable operated by frictional engagement with a winding drum or sheave"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 13/00",
+      "title": {
+        "ko": null,
+        "en": "Doors, gates, or other apparatus controlling access to, or exit from, cages or lift-well landings"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 13/02",
+          "title": {
+            "ko": null,
+            "en": "Door or gate operation"
+          }
+        },
+        {
+          "code": "B66B 13/04",
+          "title": {
+            "ko": null,
+            "en": "of swinging doors"
+          }
+        },
+        {
+          "code": "B66B 13/06",
+          "title": {
+            "ko": null,
+            "en": "of sliding doors"
+          }
+        },
+        {
+          "code": "B66B 13/08",
+          "title": {
+            "ko": null,
+            "en": "guided for horizontal movement"
+          }
+        },
+        {
+          "code": "B66B 13/10",
+          "title": {
+            "ko": null,
+            "en": "by car or cage movement"
+          }
+        },
+        {
+          "code": "B66B 13/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for effecting simultaneous opening or closing of cage and landing doors"
+          }
+        },
+        {
+          "code": "B66B 13/14",
+          "title": {
+            "ko": null,
+            "en": "Control systems or devices"
+          }
+        },
+        {
+          "code": "B66B 13/16",
+          "title": {
+            "ko": null,
+            "en": "Door or gate locking devices controlled or primarily controlled by condition of cage, e.g. movement or position"
+          }
+        },
+        {
+          "code": "B66B 13/18",
+          "title": {
+            "ko": null,
+            "en": "without manually-operable devices for completing locking or unlocking of doors"
+          }
+        },
+        {
+          "code": "B66B 13/20",
+          "title": {
+            "ko": null,
+            "en": "Lock mechanisms actuated mechanically by abutments or projections on the cages"
+          }
+        },
+        {
+          "code": "B66B 13/22",
+          "title": {
+            "ko": null,
+            "en": "Operation of door or gate contacts"
+          }
+        },
+        {
+          "code": "B66B 13/24",
+          "title": {
+            "ko": null,
+            "en": "Safety devices in passenger lifts, not otherwise provided for, for preventing trapping of passengers"
+          }
+        },
+        {
+          "code": "B66B 13/26",
+          "title": {
+            "ko": null,
+            "en": "between closing doors"
+          }
+        },
+        {
+          "code": "B66B 13/28",
+          "title": {
+            "ko": null,
+            "en": "between car or cage and wells"
+          }
+        },
+        {
+          "code": "B66B 13/30",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of doors or gates"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Lifts in hoistways of mines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66B 15/00",
+      "title": {
+        "ko": null,
+        "en": "Main component parts of mining-hoist winding devices"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 15/02",
+          "title": {
+            "ko": null,
+            "en": "Rope or cable carriers"
+          }
+        },
+        {
+          "code": "B66B 15/04",
+          "title": {
+            "ko": null,
+            "en": "Friction sheaves; \"Koepe\" pulleys"
+          }
+        },
+        {
+          "code": "B66B 15/06",
+          "title": {
+            "ko": null,
+            "en": "Drums"
+          }
+        },
+        {
+          "code": "B66B 15/08",
+          "title": {
+            "ko": null,
+            "en": "Driving gear"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 17/00",
+      "title": {
+        "ko": null,
+        "en": "Hoistway equipment"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 17/02",
+          "title": {
+            "ko": null,
+            "en": "mounted in head-frames"
+          }
+        },
+        {
+          "code": "B66B 17/04",
+          "title": {
+            "ko": null,
+            "en": "Mining-hoist cars or cages"
+          }
+        },
+        {
+          "code": "B66B 17/06",
+          "title": {
+            "ko": null,
+            "en": "with tiltable platforms"
+          }
+        },
+        {
+          "code": "B66B 17/08",
+          "title": {
+            "ko": null,
+            "en": "Mining skips"
+          }
+        },
+        {
+          "code": "B66B 17/10",
+          "title": {
+            "ko": null,
+            "en": "adapted for passenger transport"
+          }
+        },
+        {
+          "code": "B66B 17/12",
+          "title": {
+            "ko": null,
+            "en": "Counterpoises"
+          }
+        },
+        {
+          "code": "B66B 17/14",
+          "title": {
+            "ko": null,
+            "en": "Applications of loading or unloading equipment"
+          }
+        },
+        {
+          "code": "B66B 17/16",
+          "title": {
+            "ko": null,
+            "en": "for loading or unloading mining-hoist cars or cages"
+          }
+        },
+        {
+          "code": "B66B 17/18",
+          "title": {
+            "ko": null,
+            "en": "Swinging bridges, e.g. for compensating for differences in level between car or cage and landing"
+          }
+        },
+        {
+          "code": "B66B 17/20",
+          "title": {
+            "ko": null,
+            "en": "by moving vehicles into, or out of, the cars or cages"
+          }
+        },
+        {
+          "code": "B66B 17/22",
+          "title": {
+            "ko": null,
+            "en": "Securing vehicles in cars or cages"
+          }
+        },
+        {
+          "code": "B66B 17/24",
+          "title": {
+            "ko": null,
+            "en": "mounted on the car or cage"
+          }
+        },
+        {
+          "code": "B66B 17/26",
+          "title": {
+            "ko": null,
+            "en": "for loading or unloading mining-hoist skips"
+          }
+        },
+        {
+          "code": "B66B 17/28",
+          "title": {
+            "ko": null,
+            "en": "electrically controlled"
+          }
+        },
+        {
+          "code": "B66B 17/30",
+          "title": {
+            "ko": null,
+            "en": "for cars or cages"
+          }
+        },
+        {
+          "code": "B66B 17/32",
+          "title": {
+            "ko": null,
+            "en": "for skips"
+          }
+        },
+        {
+          "code": "B66B 17/34",
+          "title": {
+            "ko": null,
+            "en": "Safe lift clips; Keps"
+          }
+        },
+        {
+          "code": "B66B 17/36",
+          "title": {
+            "ko": null,
+            "en": "Gates or other apparatus controlling access to, or exit from, cars, cages, or hoistway landings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 19/00",
+      "title": {
+        "ko": "광산용 호이스트의 조작",
+        "en": "Mining-hoist operation"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 19/02",
+          "title": {
+            "ko": null,
+            "en": "Installing or exchanging ropes or cables"
+          }
+        },
+        {
+          "code": "B66B 19/04",
+          "title": {
+            "ko": null,
+            "en": "Installing or removing mining-hoist cars, cages, or skips"
+          }
+        },
+        {
+          "code": "B66B 19/06",
+          "title": {
+            "ko": "신호 장치의 응용(깊이 표시 장치 B66B 3/02)",
+            "en": "Applications of signalling devices (depth indicators B66B0003020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 20/00",
+      "title": {
+        "ko": "그룹 B66B 1/00 ~ B66B 19/00 으로 분류되지 않는 엘리베이터",
+        "en": "Elevators not provided for in groups B66B0001000000-B66B0019000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66B 21/00",
+      "title": {
+        "ko": "에스컬레이터 또는 이동 보도의 종류 또는 형",
+        "en": "Escalators or moving walkways"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66B 21/00",
+      "title": {
+        "ko": "에스컬레이터 또는 이동 보도의 종류 또는 형",
+        "en": "Kinds or types of escalators or moving walkways"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 21/02",
+          "title": {
+            "ko": "에스컬레이터",
+            "en": "Escalators"
+          }
+        },
+        {
+          "code": "B66B 21/04",
+          "title": {
+            "ko": null,
+            "en": "linear type"
+          }
+        },
+        {
+          "code": "B66B 21/06",
+          "title": {
+            "ko": null,
+            "en": "spiral type"
+          }
+        },
+        {
+          "code": "B66B 21/08",
+          "title": {
+            "ko": "순환형, 즉 에스컬레이터가 상승 및 하강과 동시에 사용되어지는 것(B66B 21/06이 우선)",
+            "en": "paternoster type, i.e. the escalator being used simultaneously for climbing and descending (B66B0021060000 takes precedence)"
+          }
+        },
+        {
+          "code": "B66B 21/10",
+          "title": {
+            "ko": null,
+            "en": "Moving walkways"
+          }
+        },
+        {
+          "code": "B66B 21/12",
+          "title": {
+            "ko": null,
+            "en": "of variable speed type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 23/00",
+      "title": {
+        "ko": "에스컬레이터 또는 이동 보도의 구성 부품",
+        "en": "Component parts of escalators or moving walkways"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 23/02",
+          "title": {
+            "ko": null,
+            "en": "Driving gear"
+          }
+        },
+        {
+          "code": "B66B 23/04",
+          "title": {
+            "ko": null,
+            "en": "for handrails"
+          }
+        },
+        {
+          "code": "B66B 23/06",
+          "title": {
+            "ko": null,
+            "en": "with means synchronising the operation of the steps or the carrying belts and the handrails"
+          }
+        },
+        {
+          "code": "B66B 23/08",
+          "title": {
+            "ko": null,
+            "en": "Carrying surfaces"
+          }
+        },
+        {
+          "code": "B66B 23/10",
+          "title": {
+            "ko": null,
+            "en": "Carrying belts"
+          }
+        },
+        {
+          "code": "B66B 23/12",
+          "title": {
+            "ko": null,
+            "en": "Steps"
+          }
+        },
+        {
+          "code": "B66B 23/14",
+          "title": {
+            "ko": null,
+            "en": "Guiding means for carrying surfaces"
+          }
+        },
+        {
+          "code": "B66B 23/16",
+          "title": {
+            "ko": null,
+            "en": "Means allowing tensioning of the endless member"
+          }
+        },
+        {
+          "code": "B66B 23/18",
+          "title": {
+            "ko": null,
+            "en": "for carrying surfaces"
+          }
+        },
+        {
+          "code": "B66B 23/20",
+          "title": {
+            "ko": null,
+            "en": "for handrails"
+          }
+        },
+        {
+          "code": "B66B 23/22",
+          "title": {
+            "ko": "난간",
+            "en": "Balustrades"
+          }
+        },
+        {
+          "code": "B66B 23/24",
+          "title": {
+            "ko": "핸드 레일(그를 위한 구동 장치 B66B 23/02; 그를 위한 긴장장치 B66B 23/16; 그 이물에 의하여 작동정지를 방지하는 것 B66B 29/04; 그를 위한 부속 장치 B66B 31/02)",
+            "en": "Handrails (driving gear therefor B66B0023020000;tensioning means therefor B66B0023160000;preventing jamming thereof by foreign objects B66B0029040000;accessories therefor B66B0031020000)"
+          }
+        },
+        {
+          "code": "B66B 23/26",
+          "title": {
+            "ko": null,
+            "en": "of variable speed type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 25/00",
+      "title": {
+        "ko": "에스컬레이터 또는 이동 보도의 제어 (가변속도형 이동 보도 B66B 21/12; 가변속도형 핸드 레일 B66B 23/26)",
+        "en": "Control of escalators or moving walkways (walkways of variable speed type B66B0021120000;handrails of variable speed type B66B0023260000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66B 27/00",
+      "title": {
+        "ko": null,
+        "en": "Indicating operating conditions of escalators or moving walkways"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B66B 29/00",
+      "title": {
+        "ko": "에스컬레이터 또는 이동 보도의 안전장치",
+        "en": "Safety devices of escalators or moving walkways"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 29/02",
+          "title": {
+            "ko": null,
+            "en": "responsive to, or preventing, jamming by foreign objects"
+          }
+        },
+        {
+          "code": "B66B 29/04",
+          "title": {
+            "ko": null,
+            "en": "for balustrades or handrails"
+          }
+        },
+        {
+          "code": "B66B 29/06",
+          "title": {
+            "ko": null,
+            "en": "Combplates"
+          }
+        },
+        {
+          "code": "B66B 29/08",
+          "title": {
+            "ko": "승객의 승강을 용이하게 하기 위한 장치(이동 핸드레일 B66B 23/24)",
+            "en": "Means to facilitate passenger entry or exit (moving handrails B66B0023240000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B66B 31/00",
+      "title": {
+        "ko": "에스컬레이터, 또는 무빙 워크의 부속 장치, 예. 살균용; 또는 청소용(안전용 B66B 29/00 )",
+        "en": "Accessories for escalators, or moving walkways, e.g. for sterilising or cleaning (for safety B66B0029000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B66B 31/02",
+          "title": {
+            "ko": null,
+            "en": "for handrails"
+          }
+        }
+      ]
+    }
+  ]
+}

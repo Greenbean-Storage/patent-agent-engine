@@ -1,0 +1,32 @@
+{
+  "description": "P06 Inspector — 단일 도면 Vision 검수. multimodal Gemini 가 figure_b64 + drawing_meta + numerals 보고 pass/fail + 보완 지시 생성. caller (drawing_orchestration) 가 결과 보고 회귀 결정.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R12.DRAWING_ORCHESTRATION"
+      ],
+      [
+        "P05.R00.GENERATE_DL"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "Gemini Vision multimodal 호출: 도면 이미지 + drawing_meta + numerals → 6 항목 검수표 + overall_pass + revision_comment 생성.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/06.inspector/P06.R00/review.md"
+      },
+      "llm_tools": [],
+      "output_contract": "review-drawing-output"
+    }
+  ]
+}

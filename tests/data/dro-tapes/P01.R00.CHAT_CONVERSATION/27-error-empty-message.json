@@ -1,0 +1,29 @@
+{
+ "description": "rt_error(빈 message) → work.failed (generic 메시지).",
+ "events": [
+  {
+   "type": "rt_error",
+   "persona": 1,
+   "payload": {
+    "message": ""
+   }
+  }
+ ],
+ "expected": {
+  "client_events": [
+   "work.failed"
+  ],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {
+   "work.failed": 1
+  },
+  "payload_contains": []
+ }
+}

@@ -1,0 +1,109 @@
+{
+  "subclass": "E05G",
+  "title": {
+    "ko": "금고(金庫) 또는 귀중품 보관실(保管室); 은행(銀行) 방호(防護) 장치; 보안(保安) 격벽(隔璧) (경보장치(警報裝置) 그 자체 G08B)",
+    "en": "SAFES OR STRONG-ROOMS FOR VALUABLES; BANK PROTECTION DEVICES; SAFETY TRANSACTION PARTITIONS (alarm arrangements per seG08B)"
+  },
+  "definition": {
+    "ko": "이 서브클래스에서 다음의 용어는 이하에 기재되어 있는 의미로 사용된다. -\"은행(銀行)\"은 귀중품을 안전하게 보관하고 또는 은행(銀行)과 고객(顧客)과의 사이에 귀중품을 교환하기 위하여 제공되는 건물 또는 건물의 일부를 말한다. -\"은행방호장치(銀行防護裝置)\"는 귀중품을 보관하고 또는 도난(盜難)이나 폭력을 물리치기 위하여 은행(銀行)안이나 또는 밖에 설치된 장치를 말한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "E05G 1/00",
+      "title": {
+        "ko": "귀중품을 위한 금고 또는 귀중품실 (저금통 A45C1/12; 부상 가능한 안전 장치 B63C7/30; 공격 또는 불을 방지하는 성질을 가지지 않는 보관 용기 B65D; 은행 건물 일반, 예. 모듈 구조, 평면 계획, E04H1/06; 지진 또는 전시 때에 견딜 수 있는 건물 E04H9/00)",
+        "en": "Safes or strong-rooms for valuables (savings boxes A45C0001120000;floatable safes B63C0007300000;storage containers without attack or fire-retardant features B65D;bank buildings in general, e.g. modular construction or floor plan, E04H0001060000;buildings resistant to earthquake or war action E04H0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "E05G 1/02",
+          "title": {
+            "ko": "세부(細部)(금고용(金庫用)의 힌지 E05D 7/14)",
+            "en": "Details (safe hinges E05D0007140000)"
+          }
+        },
+        {
+          "code": "E05G 1/024",
+          "title": {
+            "ko": null,
+            "en": "Wall or panel structure"
+          }
+        },
+        {
+          "code": "E05G 1/026",
+          "title": {
+            "ko": "폐쇄(閉鎖) 부재(공습(空襲) 기타 전란(戰亂)에 대한 방호 문, 창 기타 폐쇄(閉鎖) 부재 E06B 5/10; 셔터, 가동(可動) 격자(格子) 또는 다른 안전 폐쇄(閉鎖) 수단 E06B 9/02)",
+            "en": "Closures (protective doors, windows, or like closures against air-raid or other war-like action E06B0005100000;shutters, movable grilles, other safety closures E06B0009020000)"
+          }
+        },
+        {
+          "code": "E05G 1/04",
+          "title": {
+            "ko": "폐쇄(閉鎖) 부재 체결 용구(자물쇠 E05B)",
+            "en": "Closure fasteners (locks E05B)"
+          }
+        },
+        {
+          "code": "E05G 1/06",
+          "title": {
+            "ko": null,
+            "en": "having provision for multiple compartments"
+          }
+        },
+        {
+          "code": "E05G 1/08",
+          "title": {
+            "ko": null,
+            "en": "secured individually"
+          }
+        },
+        {
+          "code": "E05G 1/10",
+          "title": {
+            "ko": "경보, 신호 또는 표시기를 가지는 것 (절도, 도난 또는 침입 경보 자체 G08B13/00; 화재 또는 폭발 경보 자체 G08B17/00)",
+            "en": "with alarm, signal, or indicator  (burglar, theft, or intruder alarm per seG08B0013000000; fire or explosion alarm per seG08B0017000000)"
+          }
+        },
+        {
+          "code": "E05G 1/12",
+          "title": {
+            "ko": "유체(流體)를 방출, 발생 또는 살포하는 장치를 갖는 것, 예. 방화 또는 소화 (E05G1/14가 우선; 연기, 가스, 가루 또는 액체로 절도범, 도둑 또는 침입자를 식별, 위협 또는 무력하게 만드는 것 G08B 15/02)",
+            "en": "with fluent-material releasing, generating or distributing means, e.g. fire-retardant or fire extinguishing means (E05G0001140000 takes precedence;identifying, scaring or incapacitating burglars, thieves or intruders with smoke, gas, powder or liquid G08B0015020000)"
+          }
+        },
+        {
+          "code": "E05G 1/14",
+          "title": {
+            "ko": null,
+            "en": "with means for marking or destroying the valuables, e.g. in case of theft"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05G 5/00",
+      "title": {
+        "ko": "은행(銀行) 방호(防護) 장치(E05G 1/12, E05G 7/00이 우선; 폐쇄(閉鎖) 회로(回路) 텔레비전 방식 H04N 7/18)",
+        "en": "Bank protection devices (E05G0001120000, E05G0007000000 take precedence;closed-circuit television systems H04N0007180000)"
+      },
+      "subgroups": [
+        {
+          "code": "E05G 5/02",
+          "title": {
+            "ko": "함정 또는 감금(監禁) 기구(밤 도둑 또는 도둑 행위를 할 수 없게 하는 수단 일반 G08B 15/00)",
+            "en": "Trapping or confining mechanisms (thief or burglar incapacitating means in general G08B0015000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E05G 7/00",
+      "title": {
+        "ko": "보안(保安) 격벽(隔璧), 예. 가동(可動) 지불판 (支拂板)(안전 장치가 없는 지불(支拂) 카운터, 예. 슈퍼마켓용 A47F 9/02)",
+        "en": "Safety transaction partitions, e.g. movable payplates (non-safety paying counters, e.g. for supermarkets, A47F0009020000)"
+      },
+      "subgroups": []
+    }
+  ]
+}

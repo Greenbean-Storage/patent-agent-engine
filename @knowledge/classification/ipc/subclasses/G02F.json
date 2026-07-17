@@ -1,0 +1,678 @@
+{
+  "subclass": "G02F",
+  "title": {
+    "ko": "관련된 요소 매체의 광학적 특성을 수정하여 빛을 제어하기 위한 광학 장치 또는 배열; 비선형 광학; 광의 주파수 변화; 광학 논리 요소; 광학 아날로그/디지털 컨버터",
+    "en": "OPTICAL DEVICES OR ARRANGEMENTS FOR THE CONTROL OF LIGHT BY MODIFICATION OF THE OPTICAL PROPERTIES OF THE MEDIA OF THE ELEMENTS INVOLVED THEREIN; NON-LINEAR OPTICS; FREQUENCY-CHANGING OF LIGHT; OPTICAL LOGIC ELEMENTS; OPTICAL ANALOGUE/DIGITAL CONVERTERS"
+  },
+  "groups": [
+    {
+      "code": "G02F 1/00",
+      "title": {
+        "ko": "독립된 광원으로부터 도달한 광의 강도, 색, 위상, 편광 또는 방향의 제어를 위한 장치 또는 배치, 예. 스위칭, 게이팅 또는 변조; 비선형 광학",
+        "en": "Devices or arrangements for the control of the intensity, colour, phase, polarisation or direction of light arriving from an independent light source, e.g. switching, gating or modulating; Non-linear optics"
+      },
+      "definition": {
+        "ko": "이 그룹은 이하의 것만을 포함한다. - 물리적 파라미터, 예. 전장, 전류, 자장,소리 또는 기계적 진동, 응력 또는 열적효과, 의 영향 또는 제어에 의한 장치 또는 배치, 예. 셀, 의 매체의 광학적 성질의 변화에 의한 광학적 작용이 변화하는 장치 또는 배치; - 광빔의 전장 또는 자장성분이 매체의 광학적 성질에 영향을 끼치는 장치 또는 배치, 즉 비선형 광학; - 전자파(전자파), 예. 무선파, 또는 전자 혹은 기타 소립자에 의한 광의 제어",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G02F 1/01",
+          "title": {
+            "ko": "강도, 위상, 편광 또는 색의 제어를 위한 것(G02F 1/29, G02F 1/35가 우선)",
+            "en": "for the control of the intensity, phase, polarisation or colour (G02F0001290000, G02F0001350000 take precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/015",
+          "title": {
+            "ko": "적어도 하나의 전위장벽을 갖는 반도체 소자에 기초한 것, 예. PN, PIN 접합(G02F1/03이 우선)",
+            "en": "based on semiconductor elements having potential barriers, e.g. having a PN or PIN junction  (G02F0001030000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/017",
+          "title": {
+            "ko": null,
+            "en": "Structures with periodic or quasi periodic potential variation, e.g. superlattices, quantum wells"
+          }
+        },
+        {
+          "code": "G02F 1/025",
+          "title": {
+            "ko": "광도파로 구조의 것(G02F 1/017이 우선)",
+            "en": "in an optical waveguide structure (G02F0001017000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/03",
+          "title": {
+            "ko": "세라믹 또는 전기광학적 결정에 기초한 것, 예. 포켈효과(Pockels effect) 또는 커어효과(Kerr effect)를 나타내는 것(G02F 1/061이 우선)",
+            "en": "based on ceramics or electro-optical crystals, e.g. exhibiting Pockels or Kerr effect (G02F0001061000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/035",
+          "title": {
+            "ko": null,
+            "en": "in an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/05",
+          "title": {
+            "ko": "강유전적 성질을 갖는 것(G02F 1/035, G02F 1/055가 우선)",
+            "en": "with ferro-electric properties (G02F0001035000, G02F0001055000 take precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/055",
+          "title": {
+            "ko": "능동물질이 세라믹인 것(G02F 1/035가 우선)",
+            "en": "the active material being a ceramic (G02F0001035000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/061",
+          "title": {
+            "ko": "전기광학적 유기물질에 기초한 것(G02F 1/07이 우선)",
+            "en": "based on electro-optical organic material (G02F0001070000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/065",
+          "title": {
+            "ko": null,
+            "en": "in an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/07",
+          "title": {
+            "ko": null,
+            "en": "based on electro-optical liquids exhibiting Kerr effect"
+          }
+        },
+        {
+          "code": "G02F 1/09",
+          "title": {
+            "ko": null,
+            "en": "based on magneto-optical elements, e.g. exhibiting Faraday effect"
+          }
+        },
+        {
+          "code": "G02F 1/095",
+          "title": {
+            "ko": null,
+            "en": "in an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/11",
+          "title": {
+            "ko": "음향광학소자에 기초한 것, 예. 음파 또는 그와 유사한 기계적인 파에 의한 가변회절을 이용하는 것(음향광학적 편향 G02F 1/33)",
+            "en": "based on acousto-optical elements, e.g. using variable diffraction by sound or like mechanical waves (acousto-optical deflection G02F0001330000)"
+          }
+        },
+        {
+          "code": "G02F 1/125",
+          "title": {
+            "ko": null,
+            "en": "in an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/13",
+          "title": {
+            "ko": "액정에 기초한 것, 예. 하나의 액정 표시 셀",
+            "en": "based on liquid crystals, e.g. single liquid crystal display cells"
+          }
+        },
+        {
+          "code": "G02F 1/133",
+          "title": {
+            "ko": "구조배치 ; 액정셀의 작동 ; 회로배치(매트릭스 형태에서 액정소자의 제어를 위한 배치 또는 회로, 이들 소자에 구조적으로 결합되지 않은 것 G09G 3/36)",
+            "en": "Constructional arrangements; Operation of liquid crystal cells; Circuit arrangements (arrangements or circuits for control of liquid crystal elements in a matrix, not structurally associated with these elements G09G0003360000)"
+          }
+        },
+        {
+          "code": "G02F 1/1333",
+          "title": {
+            "ko": "구조배치(G02F 1/135, G02F 1/136이 우선)",
+            "en": "Constructional arrangements (G02F0001135000, G02F0001136000 take precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/1334",
+          "title": {
+            "ko": null,
+            "en": "based on polymer-dispersed liquid crystals, e.g. microencapsulated liquid crystals"
+          }
+        },
+        {
+          "code": "G02F 1/1335",
+          "title": {
+            "ko": null,
+            "en": "Structural association of cells with optical devices, e.g. polarisers or reflectors"
+          }
+        },
+        {
+          "code": "G02F 1/13357",
+          "title": {
+            "ko": null,
+            "en": "Illuminating devices"
+          }
+        },
+        {
+          "code": "G02F 1/13363",
+          "title": {
+            "ko": null,
+            "en": "Birefringent elements, e.g. for optical compensation"
+          }
+        },
+        {
+          "code": "G02F 1/1337",
+          "title": {
+            "ko": null,
+            "en": "Surface-induced orientation of the liquid crystal molecules, e.g. by alignment layers"
+          }
+        },
+        {
+          "code": "G02F 1/1339",
+          "title": {
+            "ko": null,
+            "en": "Gaskets; Spacers; Sealing of cells"
+          }
+        },
+        {
+          "code": "G02F 1/1341",
+          "title": {
+            "ko": null,
+            "en": "Filling or closing of cells"
+          }
+        },
+        {
+          "code": "G02F 1/1343",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "G02F 1/1345",
+          "title": {
+            "ko": null,
+            "en": "Conductors connecting electrodes to cell terminals"
+          }
+        },
+        {
+          "code": "G02F 1/1347",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of liquid crystal layers or cells in which the final condition of one light beam is achieved by the addition of the effects of two or more layers or cells"
+          }
+        },
+        {
+          "code": "G02F 1/135",
+          "title": {
+            "ko": null,
+            "en": "Liquid crystal cells structurally associated with a photoconducting or a ferro-electric layer, the properties of which can be optically or electrically varied"
+          }
+        },
+        {
+          "code": "G02F 1/136",
+          "title": {
+            "ko": "반도체층 또는 기판과 구조적으로 결합된 액정셀, 예. 집적회로의 일부를 구성하는 셀(G02F1/135가 우선)",
+            "en": "Liquid crystal cells structurally associated with a semi-conducting layer or substrate, e.g. cells forming part of an integrated circuit (G02F0001135000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/1362",
+          "title": {
+            "ko": null,
+            "en": "Active matrix addressed cells"
+          }
+        },
+        {
+          "code": "G02F 1/1365",
+          "title": {
+            "ko": null,
+            "en": "in which the switching element is a two-electrode device"
+          }
+        },
+        {
+          "code": "G02F 1/1368",
+          "title": {
+            "ko": null,
+            "en": "in which the switching element is a three-electrode device"
+          }
+        },
+        {
+          "code": "G02F 1/137",
+          "title": {
+            "ko": null,
+            "en": "characterised by the electro-optical or magneto-optical effect, e.g. field-induced phase transition, orientation effect, guest-host interaction or dynamic scattering"
+          }
+        },
+        {
+          "code": "G02F 1/139",
+          "title": {
+            "ko": null,
+            "en": "based on orientation effects in which the liquid crystal remains transparent"
+          }
+        },
+        {
+          "code": "G02F 1/141",
+          "title": {
+            "ko": null,
+            "en": "using ferroelectric liquid crystals"
+          }
+        },
+        {
+          "code": "G02F 1/15",
+          "title": {
+            "ko": null,
+            "en": "based on an electrochromic effect"
+          }
+        },
+        {
+          "code": "G02F 1/1503",
+          "title": {
+            "ko": null,
+            "en": "caused by oxidation-reduction reactions in organic liquid solutions, e.g. viologen solutions"
+          }
+        },
+        {
+          "code": "G02F 1/1506",
+          "title": {
+            "ko": null,
+            "en": "based on electrodeposition, e.g. electrolytic deposition of an inorganic material on or close to an electrode"
+          }
+        },
+        {
+          "code": "G02F 1/1514",
+          "title": {
+            "ko": null,
+            "en": "characterised by the electrochromic material, e.g. by the electrodeposited material"
+          }
+        },
+        {
+          "code": "G02F 1/1516",
+          "title": {
+            "ko": null,
+            "en": "comprising organic material"
+          }
+        },
+        {
+          "code": "G02F 1/1523",
+          "title": {
+            "ko": null,
+            "en": "comprising inorganic material"
+          }
+        },
+        {
+          "code": "G02F 1/1524",
+          "title": {
+            "ko": null,
+            "en": "Transition metal compounds"
+          }
+        },
+        {
+          "code": "G02F 1/153",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "G02F 1/155",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "G02F 1/157",
+          "title": {
+            "ko": null,
+            "en": "Structural association of cells with optical devices, e.g. reflectors or illuminating devices"
+          }
+        },
+        {
+          "code": "G02F 1/161",
+          "title": {
+            "ko": null,
+            "en": "Gaskets; Spacers; Sealing of cells; Filling or closing of cells"
+          }
+        },
+        {
+          "code": "G02F 1/163",
+          "title": {
+            "ko": null,
+            "en": "Operation of electrochromic cells, e.g. electrodeposition cells; Circuit arrangements therefor"
+          }
+        },
+        {
+          "code": "G02F 1/165",
+          "title": {
+            "ko": null,
+            "en": "based on translational movement of particles in a fluid under the influence of an applied field"
+          }
+        },
+        {
+          "code": "G02F 1/166",
+          "title": {
+            "ko": null,
+            "en": "characterised by the electro-optical or magneto-optical effect"
+          }
+        },
+        {
+          "code": "G02F 1/167",
+          "title": {
+            "ko": null,
+            "en": "by electrophoresis"
+          }
+        },
+        {
+          "code": "G02F 1/1671",
+          "title": {
+            "ko": null,
+            "en": "involving dry toners"
+          }
+        },
+        {
+          "code": "G02F 1/1673",
+          "title": {
+            "ko": null,
+            "en": "by magnetophoresis"
+          }
+        },
+        {
+          "code": "G02F 1/1675",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "G02F 1/16753",
+          "title": {
+            "ko": null,
+            "en": "Structures for supporting or mounting cells, e.g. frames or bezels"
+          }
+        },
+        {
+          "code": "G02F 1/16755",
+          "title": {
+            "ko": null,
+            "en": "Substrates"
+          }
+        },
+        {
+          "code": "G02F 1/16756",
+          "title": {
+            "ko": null,
+            "en": "Insulating layers"
+          }
+        },
+        {
+          "code": "G02F 1/16757",
+          "title": {
+            "ko": null,
+            "en": "Microcapsules"
+          }
+        },
+        {
+          "code": "G02F 1/1676",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "G02F 1/16761",
+          "title": {
+            "ko": null,
+            "en": "Side-by-side arrangement of working electrodes and counter-electrodes"
+          }
+        },
+        {
+          "code": "G02F 1/16762",
+          "title": {
+            "ko": null,
+            "en": "having three or more electrodes per pixel"
+          }
+        },
+        {
+          "code": "G02F 1/16766",
+          "title": {
+            "ko": null,
+            "en": "for active matrices"
+          }
+        },
+        {
+          "code": "G02F 1/1677",
+          "title": {
+            "ko": null,
+            "en": "Structural association of cells with optical devices, e.g. reflectors or illuminating devices"
+          }
+        },
+        {
+          "code": "G02F 1/1679",
+          "title": {
+            "ko": null,
+            "en": "Gaskets; Spacers; Sealing of cells; Filling or closing of cells"
+          }
+        },
+        {
+          "code": "G02F 1/1681",
+          "title": {
+            "ko": null,
+            "en": "having two or more microcells partitioned by walls, e.g. of microcup type"
+          }
+        },
+        {
+          "code": "G02F 1/1685",
+          "title": {
+            "ko": null,
+            "en": "Operation of cells; Circuit arrangements affecting the entire cell"
+          }
+        },
+        {
+          "code": "G02F 1/169",
+          "title": {
+            "ko": null,
+            "en": "based on orientable non-spherical particles having a common optical characteristic, e.g. suspended particles of reflective metal flakes"
+          }
+        },
+        {
+          "code": "G02F 1/17",
+          "title": {
+            "ko": "G02F 1/015 ～ G02F 1/16 에 포함되지 않는 가변흡수 요소에 기반한 것",
+            "en": "based on variable-absorption elements not provided for in groups G02F0001015000-G02F0001169000"
+          }
+        },
+        {
+          "code": "G02F 1/19",
+          "title": {
+            "ko": "G02F 1/015 ～ G02F 1/169 에 포함되지 않는 가변-반사 또는 가변-굴절 요소에 기반한 것",
+            "en": "based on variable-reflection or variable-refraction elements not provided for in groups G02F0001015000-G02F0001169000"
+          }
+        },
+        {
+          "code": "G02F 1/21",
+          "title": {
+            "ko": null,
+            "en": "by interference"
+          }
+        },
+        {
+          "code": "G02F 1/225",
+          "title": {
+            "ko": null,
+            "en": "in an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/23",
+          "title": {
+            "ko": "색의 제어를 위한 것(G02F 1/03 ～ G02F 1/21이 우선)",
+            "en": "for the control of the colour (G02F0001030000-G02F0001210000 take precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/25",
+          "title": {
+            "ko": null,
+            "en": "as to hue or predominant wavelength"
+          }
+        },
+        {
+          "code": "G02F 1/29",
+          "title": {
+            "ko": "광빔의 위치 또는 방향의 제어를 위한 것, 즉 편향",
+            "en": "for the control of the position or the direction of light beams, i.e. deflection"
+          }
+        },
+        {
+          "code": "G02F 1/295",
+          "title": {
+            "ko": "광도파로 구조의 것(G02F 1/313,G02F 1/335가 우선)",
+            "en": "in an optical waveguide structure (G02F0001313000, G02F0001335000 take precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/31",
+          "title": {
+            "ko": "디지털 편향장치(G02F 1/33이 우선)",
+            "en": "Digital deflection devices (G02F0001330000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/313",
+          "title": {
+            "ko": null,
+            "en": "in an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/315",
+          "title": {
+            "ko": null,
+            "en": "based on the use of controlled total internal reflection"
+          }
+        },
+        {
+          "code": "G02F 1/33",
+          "title": {
+            "ko": null,
+            "en": "Acousto-optical deflection devices"
+          }
+        },
+        {
+          "code": "G02F 1/335",
+          "title": {
+            "ko": null,
+            "en": "having an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/35",
+          "title": {
+            "ko": "비선형광학",
+            "en": "Non-linear optics"
+          }
+        },
+        {
+          "code": "G02F 1/355",
+          "title": {
+            "ko": null,
+            "en": "characterised by the materials used"
+          }
+        },
+        {
+          "code": "G02F 1/361",
+          "title": {
+            "ko": null,
+            "en": "Organic materials"
+          }
+        },
+        {
+          "code": "G02F 1/365",
+          "title": {
+            "ko": "광도파로 구조의 것(G02F1/377이 우선)",
+            "en": "in an optical waveguide structure (G02F0001377000 takes precedence)"
+          }
+        },
+        {
+          "code": "G02F 1/37",
+          "title": {
+            "ko": null,
+            "en": "for second-harmonic generation"
+          }
+        },
+        {
+          "code": "G02F 1/377",
+          "title": {
+            "ko": null,
+            "en": "in an optical waveguide structure"
+          }
+        },
+        {
+          "code": "G02F 1/383",
+          "title": {
+            "ko": null,
+            "en": "of the optical fibre type"
+          }
+        },
+        {
+          "code": "G02F 1/39",
+          "title": {
+            "ko": "광, 적외, 또는 자외파의 파라메트릭 발진 또는 증폭을 위한 것",
+            "en": "for parametric generation or amplification of light, infrared, or ultraviolet waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02F 2/00",
+      "title": {
+        "ko": "광의 복조; 변조광의 변조전이; 광의 주파수변환(G02F 1/35가 우선)",
+        "en": "Demodulating light; Transferring the modulation of modulated light; Frequency-changing of light (G02F0001350000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G02F 2/02",
+          "title": {
+            "ko": null,
+            "en": "Frequency-changing of light, e.g. by quantum counters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02F 3/00",
+      "title": {
+        "ko": null,
+        "en": "Optical logic elements; Optical bistable devices"
+      },
+      "subgroups": [
+        {
+          "code": "G02F 3/02",
+          "title": {
+            "ko": null,
+            "en": "Optical bistable devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G02F 7/00",
+      "title": {
+        "ko": null,
+        "en": "Optical analogue/digital converters"
+      },
+      "subgroups": []
+    }
+  ]
+}

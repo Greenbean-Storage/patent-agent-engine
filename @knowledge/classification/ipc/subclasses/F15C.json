@@ -1,0 +1,192 @@
+{
+  "subclass": "F15C",
+  "title": {
+    "ko": "주로 계산(computing) 또는 제어(control) 목적에 쓰이는 유체회로소자(변환기 F15B 5/00; 유체동역학 일반 F15D; 유체소자로 구성되는 계산장치 G06D, G06G)",
+    "en": "FLUID-CIRCUIT ELEMENTS PREDOMINANTLY USED FOR COMPUTING OR CONTROL PURPOSES (transducers F15B0005000000;fluid dynamics in general F15D;computers comprising fluid elements G06D, G06G)"
+  },
+  "definition": {
+    "ko": "\"마이크로 구조장치' 및 '마이크로 구조시스템'에 관한 클라스 B81 및 서브클라스 B81B의 '주'에 주의한다",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F15C 1/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit elements having no moving parts"
+      },
+      "subgroups": [
+        {
+          "code": "F15C 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "F15C 1/04",
+          "title": {
+            "ko": null,
+            "en": "Means for controlling fluid streams to fluid devices, e.g. by electric signals"
+          }
+        },
+        {
+          "code": "F15C 1/06",
+          "title": {
+            "ko": null,
+            "en": "Constructional details; Selection of specified materials"
+          }
+        },
+        {
+          "code": "F15C 1/08",
+          "title": {
+            "ko": null,
+            "en": "Boundary-layer devices, e.g. wall-attachment amplifiers"
+          }
+        },
+        {
+          "code": "F15C 1/10",
+          "title": {
+            "ko": null,
+            "en": "for digital operation, e.g. to form a logical flip-flop, OR-gate, NOR-gate"
+          }
+        },
+        {
+          "code": "F15C 1/12",
+          "title": {
+            "ko": null,
+            "en": "Multiple arrangements thereof for performing operations of the same kind, e.g. majority gates, identity gates"
+          }
+        },
+        {
+          "code": "F15C 1/14",
+          "title": {
+            "ko": null,
+            "en": "Stream-interaction devices; Momentum-exchange devices, e.g. operating by exchange between two orthogonal fluid jets"
+          }
+        },
+        {
+          "code": "F15C 1/16",
+          "title": {
+            "ko": null,
+            "en": "Vortex devices, i.e. devices in which use is made of the pressure drop associated with vortex motion in a fluid"
+          }
+        },
+        {
+          "code": "F15C 1/18",
+          "title": {
+            "ko": null,
+            "en": "Turbulence devices, i.e. devices in which a controlling stream will cause a laminar flow to become turbulent"
+          }
+        },
+        {
+          "code": "F15C 1/20",
+          "title": {
+            "ko": null,
+            "en": "Direct-impact devices, i.e. devices in which two collinear opposing power streams are impacted"
+          }
+        },
+        {
+          "code": "F15C 1/22",
+          "title": {
+            "ko": null,
+            "en": "Oscillators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15C 3/00",
+      "title": {
+        "ko": "가동부분이 있는 회로소자(밸브, 밸브의 구조 F16K)",
+        "en": "Circuit elements having moving parts (valves, construction of valves F16K)"
+      },
+      "definition": {
+        "ko": "그룹 F15C3/16은 그룹 F15C3/02 ~ F15C3/10에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F15C 3/02",
+          "title": {
+            "ko": null,
+            "en": "using spool valves"
+          }
+        },
+        {
+          "code": "F15C 3/04",
+          "title": {
+            "ko": "다이어프램을 이용하는 것(밸브를 팽창가능한 탄성체에 연결 B60C 29/00(3/06.구체(ball)를 이용하는 것)",
+            "en": "using diaphragms (connection of valves to inflatable elastic bodies B60C0029000000)"
+          }
+        },
+        {
+          "code": "F15C 3/06",
+          "title": {
+            "ko": null,
+            "en": "using balls"
+          }
+        },
+        {
+          "code": "F15C 3/08",
+          "title": {
+            "ko": null,
+            "en": "using reeds"
+          }
+        },
+        {
+          "code": "F15C 3/10",
+          "title": {
+            "ko": null,
+            "en": "using nozzles or jet pipes"
+          }
+        },
+        {
+          "code": "F15C 3/12",
+          "title": {
+            "ko": null,
+            "en": "the nozzle or jet pipe being movable"
+          }
+        },
+        {
+          "code": "F15C 3/14",
+          "title": {
+            "ko": null,
+            "en": "the jet from the nozzle being intercepted by a flap"
+          }
+        },
+        {
+          "code": "F15C 3/16",
+          "title": {
+            "ko": null,
+            "en": "Oscillators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F15C 4/00",
+      "title": {
+        "ko": null,
+        "en": "Circuit elements characterised by their special functions"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15C 5/00",
+      "title": {
+        "ko": null,
+        "en": "Manufacture of fluid-circuit elements; Manufacture of assemblages of such elements"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F15C 7/00",
+      "title": {
+        "ko": "혼성소자(hybrid element), 즉 그룹 F15C 1/00에서 F15C 3/00에 따른 특징들을 가진 회로소자",
+        "en": "Hybrid elements, i.e. circuit elements having features according to groups F15C0001000000 and F15C0003000000"
+      },
+      "subgroups": []
+    }
+  ]
+}

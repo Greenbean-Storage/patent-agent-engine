@@ -1,0 +1,857 @@
+{
+  "subclass": "F01D",
+  "title": {
+    "ko": "비용적형의 기계 또는 기관, 예. 증기터빈(연소기관 F02; 액체용 기계 또는 기관 F03, F04; 비용적형 펌프 F04D)",
+    "en": "NON-POSITIVE-DISPLACEMENT MACHINES OR ENGINES, e.g. STEAM TURBINES (combustion engines F02;machines or engines for liquids F03, F04;non-positive-displacement pumps F04D)"
+  },
+  "definition": {
+    "ko": "비체적용 기계 또는 기관 일반적 특징; 축추력 평형 장치; 순수한 회전과는 다른 방식을 가진 것 F01D1/00; 3/00; 23/00 구성 부품 브레이드와 그의 지지부재, 브레이드 보호 부재; 가조정 브레이드를 가진 로터; 고정자 F01D5/00; 7/00; 9/00 내부 누출에 대한 수단 F01D11/00 기계나 기관의 조합 또는 결합 F01D13/00, F01D15/00 조정, 제어, 안전장치 F01D17/00, F01D19/00; 21/00 시동; 정지 F01D21/00 기타 부품과 부속품 F01D19/00, F01D25/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F01D 1/00",
+      "title": {
+        "ko": "비용적형 기계 또는 기관, 예. 증기터빈(축추력과 평형시키기 위하여 작동유체를 축방향의 서로 반대 측으로부터 도입하도록 한 것 F01D 3/02; 순수한 회전과는 다른 방식을 가진 것 F01D 23/00; 특수한 증기계통, 사이틀 작동, 조속장치를 가진 터빈 F01K)",
+        "en": "Non-positive-displacement machines or engines, e.g. steam turbines (with working-fluid flows in opposite axial directions for balancing axial thrust F01D0003020000;with other than pure rotation F01D0023000000;turbines characterised by their use in special steam systems, cycles, or processes, regulating devices therefor F01K)"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 1/02",
+          "title": {
+            "ko": "안내수단과 블레이드 또는 로터를 갖는 정지상의 작동유체의 것(F01D 1/24가 우선); 작동유체 안내수단이 없는 것 F01D 1/18)",
+            "en": "with stationary working-fluid guiding means and bladed or like rotor (F01D0001240000 takes precedence;without working-fluid guiding means F01D0001180000)"
+          }
+        },
+        {
+          "code": "F01D 1/04",
+          "title": {
+            "ko": null,
+            "en": "traversed by the working-fluid substantially axially"
+          }
+        },
+        {
+          "code": "F01D 1/06",
+          "title": {
+            "ko": null,
+            "en": "traversed by the working-fluid substantially radially"
+          }
+        },
+        {
+          "code": "F01D 1/08",
+          "title": {
+            "ko": null,
+            "en": "having inward flow"
+          }
+        },
+        {
+          "code": "F01D 1/10",
+          "title": {
+            "ko": "실질적인 중간압력의 변화없이 작동유체의 흐름을 맞이 하는 2개 이상의 단(stage)을 가진 것, 즉. 속도단을 가진 것 (F01D1/12 우선)",
+            "en": "having two or more stages subjected to working-fluid flow without essential intermediate pressure change, i.e. with velocity stages (F01D0001120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F01D 1/12",
+          "title": {
+            "ko": null,
+            "en": "with repeated action on same blade ring"
+          }
+        },
+        {
+          "code": "F01D 1/14",
+          "title": {
+            "ko": null,
+            "en": "traversed by the working-fluid substantially radially"
+          }
+        },
+        {
+          "code": "F01D 1/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by having both reaction stages and impulse stages"
+          }
+        },
+        {
+          "code": "F01D 1/18",
+          "title": {
+            "ko": "작동유체 안내편이 없는 것(F01D 1/24, 1/32, 1/34이 우선)",
+            "en": "without working-fluid guiding means (F01D0001240000, F01D0001320000, F01D0001340000 take precedence)"
+          }
+        },
+        {
+          "code": "F01D 1/20",
+          "title": {
+            "ko": null,
+            "en": "traversed by the working-fluid substantially axially"
+          }
+        },
+        {
+          "code": "F01D 1/22",
+          "title": {
+            "ko": null,
+            "en": "traversed by the working-fluid substantially radially"
+          }
+        },
+        {
+          "code": "F01D 1/24",
+          "title": {
+            "ko": null,
+            "en": "characterised by counter-rotating rotors subjected to same working-fluid stream without intermediate stator blades or the like"
+          }
+        },
+        {
+          "code": "F01D 1/26",
+          "title": {
+            "ko": null,
+            "en": "traversed by the working-fluid substantially axially"
+          }
+        },
+        {
+          "code": "F01D 1/28",
+          "title": {
+            "ko": null,
+            "en": "traversed by the working-fluid substantially radially"
+          }
+        },
+        {
+          "code": "F01D 1/30",
+          "title": {
+            "ko": "양방향 회전작동용 단일 로터를 특징으로 하는 것, 예. 블레이드의 역전에 의한 것(기계와 기관의 조합 F01D 13/00)",
+            "en": "characterised by having a single rotor operable in either direction of rotation, e.g. by reversing of blades (combinations of machines or engines F01D0013000000)"
+          }
+        },
+        {
+          "code": "F01D 1/32",
+          "title": {
+            "ko": null,
+            "en": "with pressure/velocity transformation exclusively in rotor, e.g. the rotor rotating under the influence of jets issuing from the rotor"
+          }
+        },
+        {
+          "code": "F01D 1/34",
+          "title": {
+            "ko": "블레이드 없는 로터를 특징으로 하는 것, 예. 천공된 구멍을 가진 것(F01D 1/32이 우선; 사이렌 G01K 7/00)",
+            "en": "characterised by non-bladed rotor, e.g. with drilled holes (F01D0001320000 takes precedence;sirens G10K0007000000)"
+          }
+        },
+        {
+          "code": "F01D 1/36",
+          "title": {
+            "ko": null,
+            "en": "using fluid friction"
+          }
+        },
+        {
+          "code": "F01D 1/38",
+          "title": {
+            "ko": null,
+            "en": "of the screw type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Machines or engines with axial-thrust balancing effected by working fluid"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 3/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by having one fluid flow in one axial direction and another fluid flow in the opposite direction"
+          }
+        },
+        {
+          "code": "F01D 3/04",
+          "title": {
+            "ko": null,
+            "en": "axial thrust being compensated by thrust-balancing dummy piston or the like"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 5/00",
+      "title": {
+        "ko": "블레이드; 블레이드 지지부재(노즐 상자 F01D 9/02) 블레이드 등에 장치된 가열, 단열, 냉각 또는 진동방지 수단",
+        "en": "Blades; Blade-carrying members (nozzle boxes F01D0009020000); Heating, heat-insulating, cooling, or antivibration means on the blades or the members"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 5/02",
+          "title": {
+            "ko": "블레이드지지부재, 예. 로터(블레이드가 없는 로터 F01D 1/34; 고정자 F01D 9/00)",
+            "en": "Blade-carrying members, e.g. rotors (rotors of non-bladed type F01D0001340000;stators F01D0009000000)"
+          }
+        },
+        {
+          "code": "F01D 5/03",
+          "title": {
+            "ko": null,
+            "en": "Annular blade-carrying members having blades on the inner periphery of the annulus and extending inwardly radially, i.e. inverted rotors"
+          }
+        },
+        {
+          "code": "F01D 5/04",
+          "title": {
+            "ko": null,
+            "en": "for radial-flow machines or engines"
+          }
+        },
+        {
+          "code": "F01D 5/06",
+          "title": {
+            "ko": null,
+            "en": "Rotors for more than one axial stage, e.g. of drum or multiple-disc type; Details thereof, e.g. shafts, shaft connections"
+          }
+        },
+        {
+          "code": "F01D 5/08",
+          "title": {
+            "ko": null,
+            "en": "Heating, heat-insulating, or cooling means"
+          }
+        },
+        {
+          "code": "F01D 5/10",
+          "title": {
+            "ko": null,
+            "en": "Antivibration means"
+          }
+        },
+        {
+          "code": "F01D 5/12",
+          "title": {
+            "ko": "블레이드(블레이드의 뿌리 부분 F01D 5/30; 작동시 조정가능한 블레이드를 가진 로터 F01D 7/00; 고정자 블레이드 F01D 9/02)",
+            "en": "Blades (blade roots F01D0005300000;rotors with blades adjustable in operation F01D0007000000;stator blades F01D0009020000)"
+          }
+        },
+        {
+          "code": "F01D 5/14",
+          "title": {
+            "ko": "형상 또는 구조(부식, 침식에 대처하기 위한 재질과 수단의 선정 F01D 5/28)",
+            "en": "Form or construction (selecting particular materials, measures against erosion or corrosion F01D0005280000)"
+          }
+        },
+        {
+          "code": "F01D 5/16",
+          "title": {
+            "ko": null,
+            "en": "for counteracting blade vibration"
+          }
+        },
+        {
+          "code": "F01D 5/18",
+          "title": {
+            "ko": null,
+            "en": "Hollow blades; Heating, heat-insulating, or cooling means on blades"
+          }
+        },
+        {
+          "code": "F01D 5/20",
+          "title": {
+            "ko": null,
+            "en": "Specially-shaped blade tips to seal space between tips and stator"
+          }
+        },
+        {
+          "code": "F01D 5/22",
+          "title": {
+            "ko": null,
+            "en": "Blade-to-blade connections, e.g. by shrouding"
+          }
+        },
+        {
+          "code": "F01D 5/24",
+          "title": {
+            "ko": null,
+            "en": "using wire or the like"
+          }
+        },
+        {
+          "code": "F01D 5/26",
+          "title": {
+            "ko": null,
+            "en": "Antivibration means not restricted to blade form or construction or to blade-to-blade connections"
+          }
+        },
+        {
+          "code": "F01D 5/28",
+          "title": {
+            "ko": null,
+            "en": "Selecting particular materials; Measures against erosion or corrosion"
+          }
+        },
+        {
+          "code": "F01D 5/30",
+          "title": {
+            "ko": null,
+            "en": "Fixing blades to rotors; Blade roots"
+          }
+        },
+        {
+          "code": "F01D 5/32",
+          "title": {
+            "ko": null,
+            "en": "Locking, e.g. by final locking-blades or keys"
+          }
+        },
+        {
+          "code": "F01D 5/34",
+          "title": {
+            "ko": null,
+            "en": "Rotor-blade aggregates of unitary construction"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 7/00",
+      "title": {
+        "ko": "작동중에 조정가능한 블레이드를 가진 로터 그의 제어(역전을 위한것 F01D 1/30)",
+        "en": "Rotors with blades adjustable in operation; Control thereof (for reversing F01D0001300000)"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 7/02",
+          "title": {
+            "ko": null,
+            "en": "having adjustment responsive to speed"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 9/00",
+      "title": {
+        "ko": null,
+        "en": "Stators"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Nozzles; Nozzle boxes; Stator blades; Guide conduits"
+          }
+        },
+        {
+          "code": "F01D 9/04",
+          "title": {
+            "ko": null,
+            "en": "forming ring or sector"
+          }
+        },
+        {
+          "code": "F01D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Fluid supply conduits to nozzles or the like"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 11/00",
+      "title": {
+        "ko": "작동유체의 내부 누설을 방지 또는 감소하기 위한 장치, 예. 각단계의 누설방지(씰링 일반 F16J)",
+        "en": "Preventing or minimising internal leakage of working fluid, e.g. between stages (sealings in general F16J)"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 11/02",
+          "title": {
+            "ko": "비접촉식의 씰링에 의한 것, 예 라비린스(labyrinch) (로터블레이드팁과 고정자간의 밀폐 F01D 11/18)",
+            "en": "by non-contact sealings, e.g. of labyrinth type (for sealing space between rotor blade tips and stator F01D0011080000)"
+          }
+        },
+        {
+          "code": "F01D 11/04",
+          "title": {
+            "ko": null,
+            "en": "using sealing fluid, e.g. steam"
+          }
+        },
+        {
+          "code": "F01D 11/06",
+          "title": {
+            "ko": null,
+            "en": "Control thereof"
+          }
+        },
+        {
+          "code": "F01D 11/08",
+          "title": {
+            "ko": "로터블레이드 팁과 고정자간과 사이의 공간 실링 (특수형상의 블레이드팁 F01D 5/20)",
+            "en": "for sealing space between rotor blade tips and stator (specially-shaped blade tips therefor F01D0005200000)"
+          }
+        },
+        {
+          "code": "F01D 11/10",
+          "title": {
+            "ko": null,
+            "en": "using sealing fluid, e.g. steam"
+          }
+        },
+        {
+          "code": "F01D 11/12",
+          "title": {
+            "ko": null,
+            "en": "using a rubstrip, e.g. erodible, deformable or resiliently biased part"
+          }
+        },
+        {
+          "code": "F01D 11/14",
+          "title": {
+            "ko": "팁의 간격을 조정하거나 맞추는 것, 즉. 로터 블레이드 팁(rotor-blade tips)과 고정자 케이싱과의 거리(작동중 블레이드를 가진 로터를 조정하는 것 F01D 7/00)",
+            "en": "Adjusting or regulating tip-clearance, i.e. distance between rotor-blade tips and stator casing (rotors with blades adjustable in operation F01D0007000000)"
+          }
+        },
+        {
+          "code": "F01D 11/16",
+          "title": {
+            "ko": "자체 조정수단에 의한 것(F01D 11/12 우선)",
+            "en": "by self-adjusting means (F01D0011120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F01D 11/18",
+          "title": {
+            "ko": null,
+            "en": "using stator or rotor components with predetermined thermal response, e.g. selective insulation, thermal inertia, differential expansion"
+          }
+        },
+        {
+          "code": "F01D 11/20",
+          "title": {
+            "ko": null,
+            "en": "Actively adjusting tip-clearance"
+          }
+        },
+        {
+          "code": "F01D 11/22",
+          "title": {
+            "ko": null,
+            "en": "by mechanically actuating the stator or rotor components, e.g. moving shroud sections relative to the rotor"
+          }
+        },
+        {
+          "code": "F01D 11/24",
+          "title": {
+            "ko": null,
+            "en": "by selectively cooling or heating stator or rotor components"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 13/00",
+      "title": {
+        "ko": "둘 이상의 기계 또는 기관의 조합 (F01D15/00 이 우선; 둘 이상의 펌프의 조합 F04; 유체 전동장치 F16H)",
+        "en": "Combinations of two or more machines or engines (F01D0015000000 takes precedence;combinations of two or more pumps F04;fluid gearing F16H)"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 13/02",
+          "title": {
+            "ko": null,
+            "en": "Working-fluid interconnection of machines or engines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 15/00",
+      "title": {
+        "ko": "특별한 사용을 위한 기계 또는 기관의 적용; 그것에 의해 구동되는 장치를 가지는 기관의 조합",
+        "en": "Adaptations of machines or engines for special use; Combinations of engines with devices driven thereby"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Adaptations for driving vehicles, e.g. locomotives"
+          }
+        },
+        {
+          "code": "F01D 15/04",
+          "title": {
+            "ko": null,
+            "en": "the vehicles being waterborne vessels"
+          }
+        },
+        {
+          "code": "F01D 15/06",
+          "title": {
+            "ko": null,
+            "en": "Adaptations for driving, or combinations with, hand-held tools or the like"
+          }
+        },
+        {
+          "code": "F01D 15/08",
+          "title": {
+            "ko": null,
+            "en": "Adaptations for driving, or combinations with, pumps"
+          }
+        },
+        {
+          "code": "F01D 15/10",
+          "title": {
+            "ko": null,
+            "en": "Adaptations for driving, or combinations with, electric generators"
+          }
+        },
+        {
+          "code": "F01D 15/12",
+          "title": {
+            "ko": "기계적 전동장치와의 조합(멀티기관에 의한 구동 F01D 13/00)",
+            "en": "Combinations with mechanical gearing (driven by multiple engines F01D0013000000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 17/00",
+      "title": {
+        "ko": "흐름의 변화에 의한 조속 또는 제어(역전용 F01D 1/30; 로터 블레이드 위치의 변경에 의한 것 F01D 7/00; 시동용 19/00; 정지용 F01D 21/00; 조정 또는 제어 일반 G05)",
+        "en": "Regulating or controlling by varying flow (for reversing F01D0001300000;by varying rotor blade position F01D0007000000;specially for starting F01D0019000000;shutting-down F01D0021000000;regulating or controlling in general G05)"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 17/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of sensing elements"
+          }
+        },
+        {
+          "code": "F01D 17/04",
+          "title": {
+            "ko": null,
+            "en": "responsive to load"
+          }
+        },
+        {
+          "code": "F01D 17/06",
+          "title": {
+            "ko": null,
+            "en": "responsive to speed"
+          }
+        },
+        {
+          "code": "F01D 17/08",
+          "title": {
+            "ko": null,
+            "en": "responsive to condition of working fluid, e.g. pressure"
+          }
+        },
+        {
+          "code": "F01D 17/10",
+          "title": {
+            "ko": "최종적 액튜에이터(밸브 일반 F16K)",
+            "en": "Final actuators (valves in general F16K)"
+          }
+        },
+        {
+          "code": "F01D 17/12",
+          "title": {
+            "ko": null,
+            "en": "arranged in stator parts"
+          }
+        },
+        {
+          "code": "F01D 17/14",
+          "title": {
+            "ko": null,
+            "en": "varying effective cross-sectional area of nozzles or guide conduits"
+          }
+        },
+        {
+          "code": "F01D 17/16",
+          "title": {
+            "ko": null,
+            "en": "by means of nozzle vanes"
+          }
+        },
+        {
+          "code": "F01D 17/18",
+          "title": {
+            "ko": null,
+            "en": "varying effective number of nozzles or guide conduits"
+          }
+        },
+        {
+          "code": "F01D 17/20",
+          "title": {
+            "ko": "검출요소 또는 최종 액튜에이터(finial actuetor)와 관련하는 장치 또는 양자사이의 전달수단(검출요소 자체 F01D 17/02; 최종 액튜에이터(finial actuators) F01D 17/10)",
+            "en": "Devices dealing with sensing elements or final actuators or transmitting means between them, e.g. power-assisted (sensing elements alone F01D0017020000;final actuators alone F01D0017100000)"
+          }
+        },
+        {
+          "code": "F01D 17/22",
+          "title": {
+            "ko": null,
+            "en": "the operation or power assistance being predominantly non-mechanical"
+          }
+        },
+        {
+          "code": "F01D 17/24",
+          "title": {
+            "ko": null,
+            "en": "electrical"
+          }
+        },
+        {
+          "code": "F01D 17/26",
+          "title": {
+            "ko": null,
+            "en": "fluid, e.g. hydraulic"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 19/00",
+      "title": {
+        "ko": "기계 또는 기관이 시동 그것에 장치되는 조정, 제어 또는 안전장치(시동 전의 워밍업 F01D 25/10; 미동 장치 F01D 25/34)",
+        "en": "Starting of machines or engines; Regulating, controlling, or safety means in connection therewith (warming-up before starting F01D0025100000;turning or inching gear F01D0025340000)"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 19/02",
+          "title": {
+            "ko": null,
+            "en": "dependent on temperature of component parts, e.g. of turbine casing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Shutting-down of machines or engines, e.g. in emergency; Regulating, controlling, or safety means not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 21/02",
+          "title": {
+            "ko": null,
+            "en": "Shutting-down responsive to overspeed"
+          }
+        },
+        {
+          "code": "F01D 21/04",
+          "title": {
+            "ko": null,
+            "en": "responsive to undesired position of rotor relative to stator, e.g. indicating such position"
+          }
+        },
+        {
+          "code": "F01D 21/06",
+          "title": {
+            "ko": null,
+            "en": "Shutting-down"
+          }
+        },
+        {
+          "code": "F01D 21/08",
+          "title": {
+            "ko": null,
+            "en": "Restoring position"
+          }
+        },
+        {
+          "code": "F01D 21/10",
+          "title": {
+            "ko": null,
+            "en": "responsive to unwanted deposits on blades, in working-fluid conduits, or the like"
+          }
+        },
+        {
+          "code": "F01D 21/12",
+          "title": {
+            "ko": null,
+            "en": "responsive to temperature"
+          }
+        },
+        {
+          "code": "F01D 21/14",
+          "title": {
+            "ko": null,
+            "en": "responsive to other specific conditions"
+          }
+        },
+        {
+          "code": "F01D 21/16",
+          "title": {
+            "ko": null,
+            "en": "Trip gear"
+          }
+        },
+        {
+          "code": "F01D 21/18",
+          "title": {
+            "ko": null,
+            "en": "involving hydraulic means"
+          }
+        },
+        {
+          "code": "F01D 21/20",
+          "title": {
+            "ko": null,
+            "en": "Checking operation of shut-down devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F01D 23/00",
+      "title": {
+        "ko": null,
+        "en": "Non-positive-displacement machines or engines with movement other than pure rotation, e.g. of endless-chain type"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F01D 25/00",
+      "title": {
+        "ko": "타의 그룹으로 분류되지 않은 구성부품, 세부, 또는 부속품",
+        "en": "Component parts, details, or accessories, not provided for in, or of interest apart from, other groups"
+      },
+      "subgroups": [
+        {
+          "code": "F01D 25/02",
+          "title": {
+            "ko": null,
+            "en": "De-icing means for engines having icing phenomena"
+          }
+        },
+        {
+          "code": "F01D 25/04",
+          "title": {
+            "ko": "방진장치",
+            "en": "Antivibration arrangements"
+          }
+        },
+        {
+          "code": "F01D 25/06",
+          "title": {
+            "ko": "블레이드의 방진장치(블레이드 또는 블레이드 지지부재상에 마련된것 F01D 5/00)",
+            "en": "for preventing blade vibration (means on blade-carrying members or blades F01D0005000000)"
+          }
+        },
+        {
+          "code": "F01D 25/08",
+          "title": {
+            "ko": "냉각(기계 또는 기관의 냉각 일반 F01P); 가열; 단열(블레이드 또는 블레이드 지지부재의 단열 F01D 5/00)",
+            "en": "Cooling (of machines or engines in general F01P); Heating; Heat insulation (of blade-carrying members, of blades F01D0005000000)"
+          }
+        },
+        {
+          "code": "F01D 25/10",
+          "title": {
+            "ko": null,
+            "en": "Heating, e.g. warming-up before starting"
+          }
+        },
+        {
+          "code": "F01D 25/12",
+          "title": {
+            "ko": null,
+            "en": "Cooling"
+          }
+        },
+        {
+          "code": "F01D 25/14",
+          "title": {
+            "ko": "케이싱의 개량(더블케이싱 F01D 25/26)",
+            "en": "Casings modified therefor (double casings F01D0025260000)"
+          }
+        },
+        {
+          "code": "F01D 25/16",
+          "title": {
+            "ko": "축수(베어링)의 배열; 케이싱내에서의 베어링의 지지 또는 부착(축수 그 자체 F16C)",
+            "en": "Arrangement of bearings; Supporting or mounting bearings in casings (bearings per seF16C)"
+          }
+        },
+        {
+          "code": "F01D 25/18",
+          "title": {
+            "ko": "윤활장치(기계 또는 기관의 윤활 일반 F01M)",
+            "en": "Lubricating arrangements (of machines or engines in general F01M)"
+          }
+        },
+        {
+          "code": "F01D 25/20",
+          "title": {
+            "ko": null,
+            "en": "using lubrication pumps"
+          }
+        },
+        {
+          "code": "F01D 25/22",
+          "title": {
+            "ko": null,
+            "en": "using working fluid or other gaseous fluid as lubricant"
+          }
+        },
+        {
+          "code": "F01D 25/24",
+          "title": {
+            "ko": "케이싱(가열 또는 냉각을 위한 개량 F01D 25/14); 케이싱의 부분품, 예. 다이어프램, 케이싱 고착구 (회전식 기계 또는 기관용 케이싱 일반 F16M)",
+            "en": "Casings (modified for heating or cooling F01D0025140000); Casing parts, e.g. diaphragms, casing fastenings (casings for rotary machines or engines in general F16M)"
+          }
+        },
+        {
+          "code": "F01D 25/26",
+          "title": {
+            "ko": null,
+            "en": "Double casings; Measures against temperature strain in casings"
+          }
+        },
+        {
+          "code": "F01D 25/28",
+          "title": {
+            "ko": null,
+            "en": "Supporting or mounting arrangements, e.g. for turbine casing"
+          }
+        },
+        {
+          "code": "F01D 25/30",
+          "title": {
+            "ko": null,
+            "en": "Exhaust heads, chambers, or the like"
+          }
+        },
+        {
+          "code": "F01D 25/32",
+          "title": {
+            "ko": null,
+            "en": "Collecting of condensation water; Drainage"
+          }
+        },
+        {
+          "code": "F01D 25/34",
+          "title": {
+            "ko": null,
+            "en": "Turning or inching gear"
+          }
+        },
+        {
+          "code": "F01D 25/36",
+          "title": {
+            "ko": null,
+            "en": "using electric motors"
+          }
+        }
+      ]
+    }
+  ]
+}

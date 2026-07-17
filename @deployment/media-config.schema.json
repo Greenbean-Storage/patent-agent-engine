@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "media.config.yaml — 미디어 업로드/다운로드 운영 설정 SoT",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "max_file_bytes", "allowed_mime", "max_files_per_work", "presign"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "max_file_bytes": { "type": "integer", "minimum": 1 },
+    "allowed_mime": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9.+-]+/[a-z0-9.+-]+$" }
+    },
+    "max_files_per_work": { "type": "integer", "minimum": 1 },
+    "presign": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["put_ttl", "get_ttl"],
+      "properties": {
+        "put_ttl": { "type": "integer", "minimum": 1 },
+        "get_ttl": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

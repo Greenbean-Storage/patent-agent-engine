@@ -1,0 +1,757 @@
+{
+  "subclass": "H10F",
+  "title": {
+    "ko": "적외선, 빛, 단파장의 전자기파 또는 입자 방사선에 감응하는 무기 반도체 소자",
+    "en": "INORGANIC SEMICONDUCTOR DEVICES SENSITIVE TO INFRARED RADIATION, LIGHT, ELECTROMAGNETIC RADIATION OF SHORTER WAVELENGTH OR CORPUSCULAR RADIATION"
+  },
+  "definition": {
+    "ko": "광전지 개별 광전지 셀 H10F10/00 광전지 모듈 또는 집적 소자 H10F19/00 방사선 제어 소자 개별 포토레지스터, 포토다이오드, 포토트랜지스터 또는 이와 유사한 소자 H10F30/00 집적 소자 또는 다중 소자의 조립체 H10F39/00 기타 소자 전기 광원에 결합된 방사선 감응 소자 H10F55/00 제조 또는 처리; 구조적 세부 제조 또는 처리 H10F71/00 구조적 세부 H10F77/00 이 서브클래스의 다른 그룹에 분류되지 않는 주제 사항 H10F99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H10F 10/00",
+      "title": {
+        "ko": "개별 광전지, 예. 태양 전지 (전해 광감응 소자, 예. 염료 감응형 태양전지, H01G9/20)",
+        "en": "Photovoltaics"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10F 10/00",
+      "title": {
+        "ko": "개별 광전지, 예. 태양 전지 (전해 광감응 소자, 예. 염료 감응형 태양전지, H01G9/20)",
+        "en": "Individual photovoltaic cells, e.g. solar cells (electrolytic light-sensitive devices, e.g. dye-sensitised solar cells, H01G0009200000)"
+      },
+      "subgroups": [
+        {
+          "code": "H10F 10/10",
+          "title": {
+            "ko": "전위 장벽을 가지는 것",
+            "en": "having potential barriers"
+          }
+        },
+        {
+          "code": "H10F 10/11",
+          "title": {
+            "ko": "점 접촉 전위 장벽을 갖는 광전지 셀(H10F10/18이 우선)",
+            "en": "Photovoltaic cells having point contact potential barriers (H10F0010180000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10F 10/12",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic cells having only metal-insulator-semiconductor [MIS] potential barriers"
+          }
+        },
+        {
+          "code": "H10F 10/13",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic cells having absorbing layers comprising graded bandgaps"
+          }
+        },
+        {
+          "code": "H10F 10/14",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic cells having only PN homojunction potential barriers"
+          }
+        },
+        {
+          "code": "H10F 10/142",
+          "title": {
+            "ko": null,
+            "en": "comprising multiple PN homojunctions, e.g. tandem cells"
+          }
+        },
+        {
+          "code": "H10F 10/144",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group III-V materials, e.g. GaAs,AlGaAs, or InP photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 10/16",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic cells having only PN heterojunction potential barriers"
+          }
+        },
+        {
+          "code": "H10F 10/161",
+          "title": {
+            "ko": null,
+            "en": "comprising multiple PN heterojunctions, e.g. tandem cells"
+          }
+        },
+        {
+          "code": "H10F 10/162",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group II-VI materials, e.g. CdS/CdTe photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 10/163",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group III-V materials, e.g. GaAs/AlGaAs or InP/GaInAs photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 10/164",
+          "title": {
+            "ko": null,
+            "en": "comprising heterojunctions with Group IV materials, e.g. ITO/Si or GaAs/SiGe photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 10/165",
+          "title": {
+            "ko": null,
+            "en": "the heterojunctions being Group IV-IV heterojunctions, e.g. Si/Ge, SiGe/Si or Si/SiC photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 10/166",
+          "title": {
+            "ko": null,
+            "en": "the Group IV-IV heterojunctions being heterojunctions of crystalline and amorphous materials, e.g. silicon heterojunction [SHJ] photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 10/167",
+          "title": {
+            "ko": null,
+            "en": "comprising Group I-III-VI materials, e.g. CdS/CuInSe2 [CIS] heterojunction photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 10/17",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic cells having only PIN junction potential barriers"
+          }
+        },
+        {
+          "code": "H10F 10/172",
+          "title": {
+            "ko": null,
+            "en": "comprising multiple PIN junctions, e.g. tandem cells"
+          }
+        },
+        {
+          "code": "H10F 10/174",
+          "title": {
+            "ko": null,
+            "en": "comprising monocrystalline or polycrystalline materials"
+          }
+        },
+        {
+          "code": "H10F 10/18",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic cells having only Schottky potential barriers"
+          }
+        },
+        {
+          "code": "H10F 10/19",
+          "title": {
+            "ko": null,
+            "en": "Photovoltaic cells having multiple potential barriers of different types, e.g. tandem cells having both PN and PIN junctions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10F 19/00",
+      "title": {
+        "ko": "그룹 H10F10/00에 포함된 적어도 하나의 광전지를 포함하는 집적 소자 또는 다중 소자 조립체, 예. 광전지 모듈",
+        "en": "Integrated devices, or assemblies of multiple devices, comprising at least one photovoltaic cell covered by group H10F0010000000, e.g. photovoltaic modules"
+      },
+      "subgroups": [
+        {
+          "code": "H10F 19/10",
+          "title": {
+            "ko": null,
+            "en": "comprising photovoltaic cells in arrays in a single semiconductor substrate, the photovoltaic cells having vertical junctions or V-groove junctions"
+          }
+        },
+        {
+          "code": "H10F 19/20",
+          "title": {
+            "ko": "단일 반도체 기판 내 또는 기판 위에 배열하는 광전지 셀로 구성된 것, 광전지 셀은 평면 접합을 가지는 것 (동일한 기판에 증착된 다수의 박막 광전지 셀을 갖는 것 H10F19/31)",
+            "en": "comprising photovoltaic cells in arrays in or on a single semiconductor substrate, the photovoltaic cells having planar junctions (having multiple thin-film photovoltaic cells deposited on the same substrate H10F0019310000)"
+          }
+        },
+        {
+          "code": "H10F 19/30",
+          "title": {
+            "ko": null,
+            "en": "comprising thin-film photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 19/31",
+          "title": {
+            "ko": null,
+            "en": "having multiple laterally adjacent thin-film photovoltaic cells deposited on the same substrate"
+          }
+        },
+        {
+          "code": "H10F 19/33",
+          "title": {
+            "ko": null,
+            "en": "Patterning processes to connect the photovoltaic cells, e.g. laser cutting of conductive or active layers"
+          }
+        },
+        {
+          "code": "H10F 19/35",
+          "title": {
+            "ko": null,
+            "en": "Structures for the connecting of adjacent photovoltaic cells, e.g. interconnections or insulating spacers"
+          }
+        },
+        {
+          "code": "H10F 19/37",
+          "title": {
+            "ko": null,
+            "en": "comprising means for obtaining partial light transmission through the integrated devices, or the assemblies of multiple devices, e.g. partially transparent thin-film photovoltaic modules for windows"
+          }
+        },
+        {
+          "code": "H10F 19/40",
+          "title": {
+            "ko": null,
+            "en": "comprising photovoltaic cells in a mechanically stacked configuration"
+          }
+        },
+        {
+          "code": "H10F 19/50",
+          "title": {
+            "ko": "적어도 하나의 광전지 셀과 다른 유형의 반도체 또는 고체 상태 구성 요소로 구성된 집적 소자 (H10F19/75가 우선)",
+            "en": "Integrated devices comprising at least one photovoltaic cell and other types of semiconductor or solid-state components  (H10F0019750000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10F 19/70",
+          "title": {
+            "ko": "바이패스 다이오드로 구성된 것 (접속배선함의 바이패스 다이오드 H02S40/34)",
+            "en": "comprising bypass diodes (bypass diodes in a junction box H02S0040340000)"
+          }
+        },
+        {
+          "code": "H10F 19/75",
+          "title": {
+            "ko": null,
+            "en": "the bypass diodes being integrated or directly associated with the photovoltaic cells, e.g. formed in or on the same substrate"
+          }
+        },
+        {
+          "code": "H10F 19/80",
+          "title": {
+            "ko": null,
+            "en": "Encapsulations or containers for integrated devices, or assemblies of multiple devices, having photovoltaic cells"
+          }
+        },
+        {
+          "code": "H10F 19/85",
+          "title": {
+            "ko": null,
+            "en": "Protective back sheets"
+          }
+        },
+        {
+          "code": "H10F 19/90",
+          "title": {
+            "ko": "광전지 셀을 연결하기 위한 구조체, 예. 상호 연결 또는 절연 스페이서 (단일 기판 위의 박막 광전지 셀 사이 H10F19/35)",
+            "en": "Structures for connecting between photovoltaic cells, e.g. interconnections or insulating spacers (between thin-film photovoltaic cells on a single substrate H10F0019350000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10F 30/00",
+      "title": {
+        "ko": null,
+        "en": "Radiation-controlled devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10F 30/00",
+      "title": {
+        "ko": null,
+        "en": "Individual radiation-sensitive semiconductor devices in which radiation controls the flow of current through the devices, e.g. photodetectors"
+      },
+      "subgroups": [
+        {
+          "code": "H10F 30/10",
+          "title": {
+            "ko": null,
+            "en": "the devices being sensitive to infrared radiation, visible or ultraviolet radiation, and having no potential barriers, e.g. photoresistors"
+          }
+        },
+        {
+          "code": "H10F 30/20",
+          "title": {
+            "ko": null,
+            "en": "the devices having potential barriers, e.g. phototransistors"
+          }
+        },
+        {
+          "code": "H10F 30/21",
+          "title": {
+            "ko": null,
+            "en": "the devices being sensitive to infrared, visible or ultraviolet radiation"
+          }
+        },
+        {
+          "code": "H10F 30/22",
+          "title": {
+            "ko": null,
+            "en": "the devices having only one potential barrier, e.g. photodiodes"
+          }
+        },
+        {
+          "code": "H10F 30/221",
+          "title": {
+            "ko": null,
+            "en": "the potential barrier being a PN homojunction"
+          }
+        },
+        {
+          "code": "H10F 30/222",
+          "title": {
+            "ko": null,
+            "en": "the potential barrier being a PN heterojunction"
+          }
+        },
+        {
+          "code": "H10F 30/223",
+          "title": {
+            "ko": null,
+            "en": "the potential barrier being a PIN barrier"
+          }
+        },
+        {
+          "code": "H10F 30/225",
+          "title": {
+            "ko": null,
+            "en": "the potential barrier working in avalanche mode, e.g. avalanche photodiodes"
+          }
+        },
+        {
+          "code": "H10F 30/227",
+          "title": {
+            "ko": null,
+            "en": "the potential barrier being a Schottky barrier"
+          }
+        },
+        {
+          "code": "H10F 30/24",
+          "title": {
+            "ko": null,
+            "en": "the devices having only two potential barriers, e.g. bipolar phototransistors"
+          }
+        },
+        {
+          "code": "H10F 30/26",
+          "title": {
+            "ko": null,
+            "en": "the devices having three or more potential barriers, e.g. photothyristors"
+          }
+        },
+        {
+          "code": "H10F 30/28",
+          "title": {
+            "ko": null,
+            "en": "the devices being characterised by field-effect operation, e.g. junction field-effect phototransistors"
+          }
+        },
+        {
+          "code": "H10F 30/282",
+          "title": {
+            "ko": null,
+            "en": "Insulated-gate field-effect transistors [IGFET], e.g. MISFET [metal-insulator-semiconductor field-effect transistor] phototransistors"
+          }
+        },
+        {
+          "code": "H10F 30/29",
+          "title": {
+            "ko": null,
+            "en": "the devices being sensitive to radiation having very short wavelengths, e.g. X-rays, gamma-rays or corpuscular radiation"
+          }
+        },
+        {
+          "code": "H10F 30/292",
+          "title": {
+            "ko": null,
+            "en": "Bulk-effect radiation detectors, e.g. Ge-Li compensated PIN gamma-ray detectors"
+          }
+        },
+        {
+          "code": "H10F 30/295",
+          "title": {
+            "ko": null,
+            "en": "Surface barrier or shallow PN junction radiation detectors, e.g. surface barrier alpha-particle detectors"
+          }
+        },
+        {
+          "code": "H10F 30/298",
+          "title": {
+            "ko": null,
+            "en": "the devices being characterised by field-effect operation, e.g. MIS type detectors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10F 39/00",
+      "title": {
+        "ko": "그룹 H10F30/00에 포함되는 적어도 하나의 요소를 포함하는, 집적 소자, 또는 다중 소자로 이루어진 조립체, 예. 광다이오드 어레이를 포함하는 방사선 검출기",
+        "en": "Integrated devices, or assemblies of multiple devices, comprising at least one element covered by group H10F0030000000, e.g. radiation detectors comprising photodiode arrays"
+      },
+      "subgroups": [
+        {
+          "code": "H10F 39/10",
+          "title": {
+            "ko": null,
+            "en": "Integrated devices"
+          }
+        },
+        {
+          "code": "H10F 39/12",
+          "title": {
+            "ko": null,
+            "en": "Image sensors"
+          }
+        },
+        {
+          "code": "H10F 39/15",
+          "title": {
+            "ko": null,
+            "en": "Charge-coupled device [CCD] image sensors"
+          }
+        },
+        {
+          "code": "H10F 39/18",
+          "title": {
+            "ko": null,
+            "en": "Complementary metal-oxide-semiconductor [CMOS] image sensors; Photodiode array image sensors"
+          }
+        },
+        {
+          "code": "H10F 39/90",
+          "title": {
+            "ko": "다중 소자 조립체",
+            "en": "Assemblies of multiple devices"
+          }
+        },
+        {
+          "code": "H10F 39/95",
+          "title": {
+            "ko": "그룹 H10F39/10에 포함된 적어도 하나의 집적 소자를 포함하는 것, 예. 통합 이미지 센서를 포함하는 것",
+            "en": "comprising at least one integrated device covered by group H10F0039100000, e.g. comprising integrated image sensors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10F 55/00",
+      "title": {
+        "ko": "그룹 H10F10/00, H10F19/00 또는 H10F30/00에 포함되고, 전기 광원과 구조적으로 결합되어 있고 전기적으로 또는 광학적으로 연결되는 방사선 감응 반도체 소자",
+        "en": "Other devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10F 55/00",
+      "title": {
+        "ko": "그룹 H10F10/00, H10F19/00 또는 H10F30/00에 포함되고, 전기 광원과 구조적으로 결합되어 있고 전기적으로 또는 광학적으로 연결되는 방사선 감응 반도체 소자",
+        "en": "Radiation-sensitive semiconductor devices covered by groups H10F0010000000, H10F0019000000 or H10F0030000000 being structurally associated with electric light sources and electrically or optically coupled thereto"
+      },
+      "subgroups": [
+        {
+          "code": "H10F 55/10",
+          "title": {
+            "ko": null,
+            "en": "wherein the radiation-sensitive semiconductor devices control the electric light source, e.g. image converters, image amplifiers or image storage devices"
+          }
+        },
+        {
+          "code": "H10F 55/15",
+          "title": {
+            "ko": null,
+            "en": "wherein the radiation-sensitive devices and the electric light source are all semiconductor devices"
+          }
+        },
+        {
+          "code": "H10F 55/155",
+          "title": {
+            "ko": null,
+            "en": "formed in, or on, a common substrate"
+          }
+        },
+        {
+          "code": "H10F 55/20",
+          "title": {
+            "ko": null,
+            "en": "wherein the electric light source controls the radiation-sensitive semiconductor devices, e.g. optocouplers"
+          }
+        },
+        {
+          "code": "H10F 55/25",
+          "title": {
+            "ko": null,
+            "en": "wherein the radiation-sensitive devices and the electric light source are all semiconductor devices"
+          }
+        },
+        {
+          "code": "H10F 55/255",
+          "title": {
+            "ko": null,
+            "en": "formed in, or on, a common substrate"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10F 71/00",
+      "title": {
+        "ko": "이 서브클래스에 포함된 소자의 제조 또는 처리 (집적 소자 또는 다중 소자 조립체에서 박막 광전지 셀을 연결하는 패터닝 공정 H10F19/33; 광전지 셀을 포함하는 집적 소자 또는 다중 소자 조립체에서 캡슐화 또는 용기의 제조 또는 처리 H10F19/80; 방사선이 전류 흐름을 제어하는 적어도 하나의 요소를 포함하는 집적 소자 또는 다중 소자 조립체의 제조 또는 처리 H10F39/00)",
+        "en": "Manufacture or treatment; Constructional details"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10F 71/00",
+      "title": {
+        "ko": "이 서브클래스에 포함된 소자의 제조 또는 처리 (집적 소자 또는 다중 소자 조립체에서 박막 광전지 셀을 연결하는 패터닝 공정 H10F19/33; 광전지 셀을 포함하는 집적 소자 또는 다중 소자 조립체에서 캡슐화 또는 용기의 제조 또는 처리 H10F19/80; 방사선이 전류 흐름을 제어하는 적어도 하나의 요소를 포함하는 집적 소자 또는 다중 소자 조립체의 제조 또는 처리 H10F39/00)",
+        "en": "Manufacture or treatment of devices covered by this subclass  (patterning processes to connect thin photovoltaic cells in integrated devices, or assemblies of multiple devices, having photovoltaic cells H10F0019330000; manufacture or treatment of encapsulations or containers for integrated devices, or assemblies of multiple devices, having photovoltaic cells H10F0019800000; manufacture or treatment of integrated devices, or assemblies of multiple devices, comprising at least one element in which radiation controls the flow of current H10F0039000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H10F 71/10",
+          "title": {
+            "ko": null,
+            "en": "the devices comprising amorphous semiconductor material"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10F 77/00",
+      "title": {
+        "ko": "이 서브클래스에 포함된 소자의 구조적 세부 (방사선이 전류 흐름을 제어하는 적어도 하나의 요소를 포함한 집적 소자 또는 다중 소자 조립체의 구조적 세부 H10F39/00)",
+        "en": "Constructional details of devices covered by this subclass (constructional details of integrated devices, or assemblies of multiple devices, comprising at least one element in which radiation controls the flow of current H10F0039000000)"
+      },
+      "definition": {
+        "ko": "이 그룹으로 분류할 때, 소자 유형 자체가 신규하고 비자명하다고 판단될 경우 그룹 H10F10/00, H10F19/00, H10F30/00 또는 H10F55/00으로 분류해야 한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H10F 77/10",
+          "title": {
+            "ko": "반도체 본체",
+            "en": "Semiconductor bodies"
+          }
+        },
+        {
+          "code": "H10F 77/12",
+          "title": {
+            "ko": null,
+            "en": "Active materials"
+          }
+        },
+        {
+          "code": "H10F 77/121",
+          "title": {
+            "ko": null,
+            "en": "comprising only selenium or only tellurium"
+          }
+        },
+        {
+          "code": "H10F 77/122",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group IV materials"
+          }
+        },
+        {
+          "code": "H10F 77/1223",
+          "title": {
+            "ko": null,
+            "en": "characterised by the dopants"
+          }
+        },
+        {
+          "code": "H10F 77/1226",
+          "title": {
+            "ko": null,
+            "en": "comprising multiple Group IV elements, e.g. SiC"
+          }
+        },
+        {
+          "code": "H10F 77/123",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group II-VI materials, e.g. CdS, ZnS or HgCdTe"
+          }
+        },
+        {
+          "code": "H10F 77/124",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group III-V materials, e.g. GaAs"
+          }
+        },
+        {
+          "code": "H10F 77/14",
+          "title": {
+            "ko": null,
+            "en": "Shape of semiconductor bodies; Shapes, relative sizes or dispositions of semiconductor regions within semiconductor bodies"
+          }
+        },
+        {
+          "code": "H10F 77/16",
+          "title": {
+            "ko": "재료 구조, 예. 결정 구조, 필름 구조 또는 결정면 방향",
+            "en": "Material structures, e.g. crystalline structures, film structures or crystal plane orientations"
+          }
+        },
+        {
+          "code": "H10F 77/162",
+          "title": {
+            "ko": "비단결정 물질, 예. 절연 물질에 내장된 반도체 입자 (H10F77/169가 우선)",
+            "en": "Non-monocrystalline materials, e.g. semiconductor particles embedded in insulating materials (H10F0077169000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10F 77/164",
+          "title": {
+            "ko": null,
+            "en": "Polycrystalline semiconductors"
+          }
+        },
+        {
+          "code": "H10F 77/166",
+          "title": {
+            "ko": null,
+            "en": "Amorphous semiconductors"
+          }
+        },
+        {
+          "code": "H10F 77/169",
+          "title": {
+            "ko": null,
+            "en": "Thin semiconductor films on metallic or insulating substrates"
+          }
+        },
+        {
+          "code": "H10F 77/20",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "H10F 77/30",
+          "title": {
+            "ko": "코팅 (미립자 방사선에 의한 태양전지 손상을 방지하기 위한 장치 H10F77/80)",
+            "en": "Coatings (arrangements for preventing damage to photovoltaic cells caused by corpuscular radiation H10F0077800000)"
+          }
+        },
+        {
+          "code": "H10F 77/40",
+          "title": {
+            "ko": "광학 요소 또는 장치 (표면 텍스처 H10F77/70)",
+            "en": "Optical elements or arrangements (surface textures H10F0077700000)"
+          }
+        },
+        {
+          "code": "H10F 77/42",
+          "title": {
+            "ko": null,
+            "en": "directly associated or integrated with photovoltaic cells, e.g. light-reflecting means or light-concentrating means"
+          }
+        },
+        {
+          "code": "H10F 77/45",
+          "title": {
+            "ko": null,
+            "en": "Wavelength conversion means, e.g. by using luminescent material, fluorescent concentrators or up-conversion arrangements"
+          }
+        },
+        {
+          "code": "H10F 77/48",
+          "title": {
+            "ko": null,
+            "en": "Back surface reflectors [BSR]"
+          }
+        },
+        {
+          "code": "H10F 77/50",
+          "title": {
+            "ko": "캡슐화 또는 용기 (태양광 모듈을 위한 것 H10F19/80)",
+            "en": "Encapsulations or containers (for photovoltaic modules H10F0019800000)"
+          }
+        },
+        {
+          "code": "H10F 77/60",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for cooling, heating, ventilating or compensating for temperature fluctuations"
+          }
+        },
+        {
+          "code": "H10F 77/63",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for cooling directly associated or integrated with photovoltaic cells, e.g. heat sinks directly associated with the photovoltaic cells or integrated Peltier elements for active cooling"
+          }
+        },
+        {
+          "code": "H10F 77/67",
+          "title": {
+            "ko": null,
+            "en": "including means to utilise heat energy directly associated with the photovoltaic cells, e.g. integrated Seebeck elements"
+          }
+        },
+        {
+          "code": "H10F 77/70",
+          "title": {
+            "ko": null,
+            "en": "Surface textures, e.g. pyramid structures"
+          }
+        },
+        {
+          "code": "H10F 77/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing damage to photovoltaic cells caused by corpuscular radiation, e.g. for space applications"
+          }
+        },
+        {
+          "code": "H10F 77/90",
+          "title": {
+            "ko": null,
+            "en": "Energy storage means directly associated or integrated with photovoltaic cells, e.g. capacitors integrated with photovoltaic cells"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10F 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

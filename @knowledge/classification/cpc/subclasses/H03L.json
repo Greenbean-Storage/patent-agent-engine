@@ -1,0 +1,166 @@
+{
+  "subclass": "H03L",
+  "title": {
+    "ko": null,
+    "en": "AUTOMATIC CONTROL, STARTING, SYNCHRONISATION OR STABILISATION OF GENERATORS OF ELECTRONIC OSCILLATIONS OR PULSES (generation of oscillations H03B)"
+  },
+  "groups": [
+    {
+      "code": "H03L 1/00",
+      "title": {
+        "ko": null,
+        "en": "Stabilisation of generator output against variations of physical values, e.g. power supply"
+      },
+      "subgroups": [
+        {
+          "code": "H03L 1/02",
+          "title": {
+            "ko": null,
+            "en": "against variations of temperature only"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03L 3/00",
+      "title": {
+        "ko": null,
+        "en": "Starting of generators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03L 5/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic control of voltage, current, or power"
+      },
+      "subgroups": [
+        {
+          "code": "H03L 5/02",
+          "title": {
+            "ko": null,
+            "en": "of power"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03L 7/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic control of frequency or phase; Synchronisation"
+      },
+      "subgroups": [
+        {
+          "code": "H03L 7/02",
+          "title": {
+            "ko": null,
+            "en": "using a frequency discriminator comprising a passive frequency-determining element"
+          }
+        },
+        {
+          "code": "H03L 7/06",
+          "title": {
+            "ko": null,
+            "en": "using a reference signal applied to a frequency- or phase-locked loop"
+          }
+        },
+        {
+          "code": "H03L 7/24",
+          "title": {
+            "ko": null,
+            "en": "using a reference signal directly applied to the generator"
+          }
+        },
+        {
+          "code": "H03L 7/26",
+          "title": {
+            "ko": null,
+            "en": "using energy levels of molecules, atoms, or subatomic particles as a frequency reference"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03L 9/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic control not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03L 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to automatic control of frequency or phase and to synchronisation"
+      },
+      "subgroups": [
+        {
+          "code": "H03L 2207/04",
+          "title": {
+            "ko": null,
+            "en": "Modifications for maintaining constant the phase-locked loop damping factor when other loop parameters change"
+          }
+        },
+        {
+          "code": "H03L 2207/05",
+          "title": {
+            "ko": null,
+            "en": "Compensating for non-linear characteristics of the controlled oscillator"
+          }
+        },
+        {
+          "code": "H03L 2207/06",
+          "title": {
+            "ko": null,
+            "en": "Phase locked loops with a controlled oscillator having at least two frequency control terminals"
+          }
+        },
+        {
+          "code": "H03L 2207/08",
+          "title": {
+            "ko": null,
+            "en": "Modifications of the phase-locked loop for ensuring constant frequency when the power supply fails or is interrupted, e.g. for saving power"
+          }
+        },
+        {
+          "code": "H03L 2207/10",
+          "title": {
+            "ko": null,
+            "en": "Indirect frequency synthesis using a frequency multiplier in the phase-locked loop or in the reference signal path"
+          }
+        },
+        {
+          "code": "H03L 2207/12",
+          "title": {
+            "ko": null,
+            "en": "Indirect frequency synthesis using a mixer in the phase-locked loop"
+          }
+        },
+        {
+          "code": "H03L 2207/14",
+          "title": {
+            "ko": null,
+            "en": "Preventing false-lock or pseudo-lock of the PLL"
+          }
+        },
+        {
+          "code": "H03L 2207/18",
+          "title": {
+            "ko": null,
+            "en": "Temporarily disabling, deactivating or stopping the frequency counter or divider"
+          }
+        },
+        {
+          "code": "H03L 2207/50",
+          "title": {
+            "ko": null,
+            "en": "All digital phase-locked loop"
+          }
+        }
+      ]
+    }
+  ]
+}

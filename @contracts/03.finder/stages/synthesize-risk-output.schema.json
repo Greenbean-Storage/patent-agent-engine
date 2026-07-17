@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "overall_risk": {
+      "type": "object"
+    },
+    "top_risks": {
+      "type": "string"
+    },
+    "avoidance_recommendations": {
+      "type": "string"
+    },
+    "matched_cases": {
+      "type": "number"
+    },
+    "confidence_score": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "overall_risk",
+    "top_risks",
+    "avoidance_recommendations",
+    "matched_cases",
+    "confidence_score"
+  ]
+}

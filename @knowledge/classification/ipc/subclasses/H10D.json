@@ -1,0 +1,1110 @@
+{
+  "subclass": "H10D",
+  "title": {
+    "ko": "무기 전기 반도체 소자",
+    "en": "INORGANIC ELECTRIC SEMICONDUCTOR DEVICES"
+  },
+  "definition": {
+    "ko": "개별 소자 저항기; 커패시터; 인덕터 H10D1/00 다이오드 H10D8/00 양극 접합 트랜지스터 H10D10/00 전계 효과에 의해 제어되는 양극 소자 H10D12/00 사이리스터(thyristor) H10D18/00 FETs H10D30/00 전하 전달 소자 H10D44/00 기타 개별 소자 H10D48/00 구조적 세부 본체 H10D62/00 전극 H10D64/00 집적 소자; 다중 소자의 조립체 다중 소자의 조립체 H10D80/00 반도체 층만 포함하는 반도체 기판에 또는 그 위에 형성된 집적 소자 H10D84/00 절연 또는 전도성 기판에 또는 그 위에 형성된 집적 소자 H10D86/00 동일한 기판 상의 벌크 소자와 SOI 또는 SOS 소자를 모두 포함하는 집적 소자 H10D87/00 3D 집적 소자 H10D88/00 집적 소자의 기타 측면 H10D89/00 이 서브클래스의 다른 그룹에서 분류되지 않는 주제사항 H10D99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H10D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Individual devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Resistors, capacitors or inductors"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 1/20",
+          "title": {
+            "ko": null,
+            "en": "Inductors"
+          }
+        },
+        {
+          "code": "H10D 1/40",
+          "title": {
+            "ko": null,
+            "en": "Resistors"
+          }
+        },
+        {
+          "code": "H10D 1/43",
+          "title": {
+            "ko": null,
+            "en": "Resistors having PN junctions"
+          }
+        },
+        {
+          "code": "H10D 1/47",
+          "title": {
+            "ko": null,
+            "en": "Resistors having no potential barriers"
+          }
+        },
+        {
+          "code": "H10D 1/60",
+          "title": {
+            "ko": null,
+            "en": "Capacitors"
+          }
+        },
+        {
+          "code": "H10D 1/62",
+          "title": {
+            "ko": null,
+            "en": "Capacitors having potential barriers"
+          }
+        },
+        {
+          "code": "H10D 1/64",
+          "title": {
+            "ko": null,
+            "en": "Variable-capacitance diodes, e.g. varactors"
+          }
+        },
+        {
+          "code": "H10D 1/66",
+          "title": {
+            "ko": null,
+            "en": "Conductor-insulator-semiconductor capacitors, e.g. MOS capacitors"
+          }
+        },
+        {
+          "code": "H10D 1/68",
+          "title": {
+            "ko": null,
+            "en": "Capacitors having no potential barriers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 8/00",
+      "title": {
+        "ko": "다이오드 (가변 용량 다이오드 H10D1/64; 게이트 다이오드 H10D12/00)",
+        "en": "Diodes  (variable-capacitance diodes H10D0001640000; gated diodes H10D0012000000)"
+      },
+      "definition": {
+        "ko": "이 그룹에서는 소자의 제조 또는 처리가 신규하고 비자명한 것으로 판단되는 경우 소자 자체도 분류된다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H10D 8/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 8/20",
+          "title": {
+            "ko": null,
+            "en": "Breakdown diodes, e.g. avalanche diodes"
+          }
+        },
+        {
+          "code": "H10D 8/25",
+          "title": {
+            "ko": null,
+            "en": "Zener diodes"
+          }
+        },
+        {
+          "code": "H10D 8/30",
+          "title": {
+            "ko": null,
+            "en": "Point-contact diodes"
+          }
+        },
+        {
+          "code": "H10D 8/40",
+          "title": {
+            "ko": null,
+            "en": "Transit-time diodes, e.g. IMPATT or TRAPATT diodes"
+          }
+        },
+        {
+          "code": "H10D 8/50",
+          "title": {
+            "ko": null,
+            "en": "PIN diodes"
+          }
+        },
+        {
+          "code": "H10D 8/60",
+          "title": {
+            "ko": null,
+            "en": "Schottky-barrier diodes"
+          }
+        },
+        {
+          "code": "H10D 8/70",
+          "title": {
+            "ko": null,
+            "en": "Tunnel-effect diodes"
+          }
+        },
+        {
+          "code": "H10D 8/75",
+          "title": {
+            "ko": null,
+            "en": "Tunnel-effect PN diodes, e.g. Esaki diodes"
+          }
+        },
+        {
+          "code": "H10D 8/80",
+          "title": {
+            "ko": null,
+            "en": "PNPN diodes, e.g. Shockley diodes or break-over diodes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 10/00",
+      "title": {
+        "ko": null,
+        "en": "Bipolar junction transistors [BJT]"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 10/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 10/40",
+          "title": {
+            "ko": null,
+            "en": "Vertical BJTs"
+          }
+        },
+        {
+          "code": "H10D 10/60",
+          "title": {
+            "ko": null,
+            "en": "Lateral BJTs"
+          }
+        },
+        {
+          "code": "H10D 10/80",
+          "title": {
+            "ko": null,
+            "en": "Heterojunction BJTs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 12/00",
+      "title": {
+        "ko": null,
+        "en": "Bipolar devices controlled by the field effect, e.g. insulated-gate bipolar transistors [IGBT]"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 12/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 18/00",
+      "title": {
+        "ko": null,
+        "en": "Thyristors"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 18/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 18/40",
+          "title": {
+            "ko": null,
+            "en": "with turn-on by field effect"
+          }
+        },
+        {
+          "code": "H10D 18/60",
+          "title": {
+            "ko": null,
+            "en": "Gate-turn-off devices"
+          }
+        },
+        {
+          "code": "H10D 18/65",
+          "title": {
+            "ko": null,
+            "en": "with turn-off by field effect"
+          }
+        },
+        {
+          "code": "H10D 18/80",
+          "title": {
+            "ko": null,
+            "en": "Bidirectional devices, e.g. triacs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 30/00",
+      "title": {
+        "ko": "전계 효과 트랜지스터 [FET] (절연 게이트 양극 트랜지스터 H10D12/00)",
+        "en": "Field-effect transistors [FET] (insulated-gate bipolar transistors H10D0012000000)"
+      },
+      "definition": {
+        "ko": "이 그룹에서는 소자의 제조 또는 처리가 신규하고 비자명한 것으로 판단되는 경우 소자 자체도 분류된다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H10D 30/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 30/40",
+          "title": {
+            "ko": null,
+            "en": "FETs having zero-dimensional [0D], one-dimensional [1D] or two-dimensional [2D] charge carrier gas channels"
+          }
+        },
+        {
+          "code": "H10D 30/43",
+          "title": {
+            "ko": null,
+            "en": "having one-dimensional [1D] charge carrier gas channels, e.g. quantum wire FETs or transistors having 1D quantum-confined channels"
+          }
+        },
+        {
+          "code": "H10D 30/47",
+          "title": {
+            "ko": null,
+            "en": "having two-dimensional [2D] charge carrier gas channels, e.g. nanoribbon FETs or high electron mobility transistors [HEMT]"
+          }
+        },
+        {
+          "code": "H10D 30/60",
+          "title": {
+            "ko": "절연 게이트 전계 효과 트랜지스터 [IGFET] (H10D30/40이 우선)",
+            "en": "Insulated-gate field-effect transistors [IGFET] (H10D0030400000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10D 30/62",
+          "title": {
+            "ko": null,
+            "en": "Fin field-effect transistors [FinFET]"
+          }
+        },
+        {
+          "code": "H10D 30/63",
+          "title": {
+            "ko": "수직형 IGFET (H10D30/66이 우선)",
+            "en": "Vertical IGFETs (H10D0030660000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10D 30/64",
+          "title": {
+            "ko": null,
+            "en": "Double-diffused metal-oxide semiconductor [DMOS] FETs"
+          }
+        },
+        {
+          "code": "H10D 30/65",
+          "title": {
+            "ko": null,
+            "en": "Lateral DMOS [LDMOS] FETs"
+          }
+        },
+        {
+          "code": "H10D 30/66",
+          "title": {
+            "ko": null,
+            "en": "Vertical DMOS [VDMOS] FETs"
+          }
+        },
+        {
+          "code": "H10D 30/67",
+          "title": {
+            "ko": null,
+            "en": "Thin-film transistors [TFT]"
+          }
+        },
+        {
+          "code": "H10D 30/68",
+          "title": {
+            "ko": null,
+            "en": "Floating-gate IGFETs"
+          }
+        },
+        {
+          "code": "H10D 30/69",
+          "title": {
+            "ko": null,
+            "en": "IGFETs having charge trapping gate insulators, e.g. MNOS transistors"
+          }
+        },
+        {
+          "code": "H10D 30/80",
+          "title": {
+            "ko": "정류 접합 게이트 전극을 가지는 FET (H10D30/40이 우선)",
+            "en": "FETs having rectifying junction gate electrodes (H10D0030400000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10D 30/83",
+          "title": {
+            "ko": null,
+            "en": "FETs having PN junction gate electrodes"
+          }
+        },
+        {
+          "code": "H10D 30/87",
+          "title": {
+            "ko": null,
+            "en": "FETs having Schottky gate electrodes, e.g. metal-semiconductor FETs [MESFET]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 44/00",
+      "title": {
+        "ko": null,
+        "en": "Charge transfer devices"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 44/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 44/40",
+          "title": {
+            "ko": null,
+            "en": "Charge-coupled devices [CCD]"
+          }
+        },
+        {
+          "code": "H10D 44/45",
+          "title": {
+            "ko": null,
+            "en": "having field effect produced by insulated gate electrodes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 48/00",
+      "title": {
+        "ko": "그룹 H10D1/00 ~ H10D44/00으로 분류되지 않는 개별 소자",
+        "en": "Individual devices not covered by groups H10D0001000000-H10D0044000000"
+      },
+      "definition": {
+        "ko": "이 그룹에서는 소자의 제조 또는 처리가 신규하고 비자명한 것으로 판단되는 경우 소자 자체도 분류된다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H10D 48/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 48/04",
+          "title": {
+            "ko": null,
+            "en": "of devices having bodies comprising selenium or tellurium in uncombined form"
+          }
+        },
+        {
+          "code": "H10D 48/042",
+          "title": {
+            "ko": null,
+            "en": "Preparation of foundation plates"
+          }
+        },
+        {
+          "code": "H10D 48/043",
+          "title": {
+            "ko": null,
+            "en": "Preliminary treatment of the selenium or tellurium, its application to foundation plates or the subsequent treatment of the combination"
+          }
+        },
+        {
+          "code": "H10D 48/044",
+          "title": {
+            "ko": null,
+            "en": "Conversion of the selenium or tellurium to the conductive state"
+          }
+        },
+        {
+          "code": "H10D 48/045",
+          "title": {
+            "ko": null,
+            "en": "Treatment of the surface of the selenium or tellurium layer after having been made conductive"
+          }
+        },
+        {
+          "code": "H10D 48/046",
+          "title": {
+            "ko": null,
+            "en": "Provision of discrete insulating layers"
+          }
+        },
+        {
+          "code": "H10D 48/047",
+          "title": {
+            "ko": null,
+            "en": "Application of an electrode to the exposed surface of the selenium or tellurium after the selenium or tellurium has been applied to foundation plates"
+          }
+        },
+        {
+          "code": "H10D 48/048",
+          "title": {
+            "ko": null,
+            "en": "Treatment of the complete device, e.g. by electroforming to form a barrier"
+          }
+        },
+        {
+          "code": "H10D 48/049",
+          "title": {
+            "ko": null,
+            "en": "Ageing"
+          }
+        },
+        {
+          "code": "H10D 48/07",
+          "title": {
+            "ko": null,
+            "en": "of devices having bodies comprising cuprous oxide [Cu2O] or cuprous iodide [CuI]"
+          }
+        },
+        {
+          "code": "H10D 48/30",
+          "title": {
+            "ko": null,
+            "en": "Devices controlled by electric currents or voltages"
+          }
+        },
+        {
+          "code": "H10D 48/32",
+          "title": {
+            "ko": null,
+            "en": "Devices controlled by only the electric current supplied, or only the electric potential applied, to an electrode which does not carry the current to be rectified, amplified or switched"
+          }
+        },
+        {
+          "code": "H10D 48/34",
+          "title": {
+            "ko": null,
+            "en": "Bipolar devices"
+          }
+        },
+        {
+          "code": "H10D 48/36",
+          "title": {
+            "ko": null,
+            "en": "Unipolar devices"
+          }
+        },
+        {
+          "code": "H10D 48/38",
+          "title": {
+            "ko": null,
+            "en": "Devices controlled only by variation of the electric current supplied, or only the electric potential applied, to one or more of the electrodes carrying the current to be rectified, amplified, oscillated or switched"
+          }
+        },
+        {
+          "code": "H10D 48/40",
+          "title": {
+            "ko": null,
+            "en": "Devices controlled by magnetic fields"
+          }
+        },
+        {
+          "code": "H10D 48/50",
+          "title": {
+            "ko": null,
+            "en": "Devices controlled by mechanical forces, e.g. pressure"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 62/00",
+      "title": {
+        "ko": "전위 장벽을 가진 소자의 반도체 본체 또는 그 영역",
+        "en": "Constructional details"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10D 62/00",
+      "title": {
+        "ko": "전위 장벽을 가진 소자의 반도체 본체 또는 그 영역",
+        "en": "Semiconductor bodies, or regions thereof, of devices having potential barriers"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 62/10",
+          "title": {
+            "ko": null,
+            "en": "Shapes, relative sizes or dispositions of the regions of the semiconductor bodies; Shapes of the semiconductor bodies"
+          }
+        },
+        {
+          "code": "H10D 62/13",
+          "title": {
+            "ko": null,
+            "en": "Semiconductor regions connected to electrodes carrying current to be rectified, amplified or switched, e.g. source or drain regions"
+          }
+        },
+        {
+          "code": "H10D 62/17",
+          "title": {
+            "ko": null,
+            "en": "Semiconductor regions connected to electrodes not carrying current to be rectified, amplified or switched, e.g. channel regions"
+          }
+        },
+        {
+          "code": "H10D 62/40",
+          "title": {
+            "ko": null,
+            "en": "Crystalline structures"
+          }
+        },
+        {
+          "code": "H10D 62/50",
+          "title": {
+            "ko": null,
+            "en": "Physical imperfections"
+          }
+        },
+        {
+          "code": "H10D 62/53",
+          "title": {
+            "ko": null,
+            "en": "the imperfections being within the semiconductor body"
+          }
+        },
+        {
+          "code": "H10D 62/57",
+          "title": {
+            "ko": null,
+            "en": "the imperfections being on the surface of the semiconductor body, e.g. the body having a roughened surface"
+          }
+        },
+        {
+          "code": "H10D 62/60",
+          "title": {
+            "ko": null,
+            "en": "Impurity distributions or concentrations"
+          }
+        },
+        {
+          "code": "H10D 62/80",
+          "title": {
+            "ko": "재료에 특징이 있는 것",
+            "en": "characterised by the materials"
+          },
+          "definition": {
+            "ko": "1. 이 그룹으로 분류할 때, 재료의 구성 요소는 도펀트나 다른 불순물과 상관없이 고려된다. 2. 이 그룹에서: ㆍ양자 또는 초격자 구조를 포함하는 그룹 H10D62/81 ~ H10D62/815는 이종접합을 포함하는 그룹 H10D62/82 ~ H10D62/826 보다 우선한다. ㆍ 이종접합을 포함하는 그룹 H10D62/82 ~ H10D62/826은 다른 재료를 포함하는 그룹 H10D62/83 ~ H10D62/864 보다 우선한다.",
+            "en": null
+          }
+        },
+        {
+          "code": "H10D 62/81",
+          "title": {
+            "ko": null,
+            "en": "of structures exhibiting quantum-confinement effects, e.g. single quantum wells; of structures having periodic or quasi-periodic potential variation"
+          }
+        },
+        {
+          "code": "H10D 62/815",
+          "title": {
+            "ko": null,
+            "en": "of structures having periodic or quasi-periodic potential variation, e.g. superlattices or multiple quantum wells [MQW]"
+          }
+        },
+        {
+          "code": "H10D 62/82",
+          "title": {
+            "ko": null,
+            "en": "Heterojunctions"
+          }
+        },
+        {
+          "code": "H10D 62/822",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group IV materials heterojunctions, e.g. Si/Ge heterojunctions"
+          }
+        },
+        {
+          "code": "H10D 62/824",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group III-V materials heterojunctions, e.g. GaN/AlGaN heterojunctions"
+          }
+        },
+        {
+          "code": "H10D 62/826",
+          "title": {
+            "ko": null,
+            "en": "comprising only Group II-VI materials heterojunctions, e.g. CdTe/HgTe heterojunctions"
+          }
+        },
+        {
+          "code": "H10D 62/83",
+          "title": {
+            "ko": "IV족 물질인 것, 예. B-도핑된 Si 또는 도핑되지 않은 Ge",
+            "en": "being Group IV materials, e.g. B-doped Si or undoped Ge"
+          }
+        },
+        {
+          "code": "H10D 62/832",
+          "title": {
+            "ko": null,
+            "en": "being Group IV materials comprising two or more elements, e.g. SiGe"
+          }
+        },
+        {
+          "code": "H10D 62/834",
+          "title": {
+            "ko": null,
+            "en": "further characterised by the dopants"
+          }
+        },
+        {
+          "code": "H10D 62/84",
+          "title": {
+            "ko": null,
+            "en": "being selenium or tellurium only"
+          }
+        },
+        {
+          "code": "H10D 62/85",
+          "title": {
+            "ko": null,
+            "en": "being Group III-V materials, e.g. GaAs"
+          }
+        },
+        {
+          "code": "H10D 62/852",
+          "title": {
+            "ko": null,
+            "en": "being Group III-V materials comprising three or more elements, e.g. AlGaN or InAsSbP"
+          }
+        },
+        {
+          "code": "H10D 62/854",
+          "title": {
+            "ko": null,
+            "en": "further characterised by the dopants"
+          }
+        },
+        {
+          "code": "H10D 62/86",
+          "title": {
+            "ko": null,
+            "en": "being Group II-VI materials, e.g. ZnO"
+          }
+        },
+        {
+          "code": "H10D 62/862",
+          "title": {
+            "ko": null,
+            "en": "being Group II-VI materials comprising three or more elements, e.g. CdZnTe"
+          }
+        },
+        {
+          "code": "H10D 62/864",
+          "title": {
+            "ko": null,
+            "en": "further characterised by the dopants"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 64/00",
+      "title": {
+        "ko": null,
+        "en": "Electrodes of devices having potential barriers"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 64/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 64/20",
+          "title": {
+            "ko": null,
+            "en": "Electrodes characterised by their shapes, relative sizes or dispositions"
+          }
+        },
+        {
+          "code": "H10D 64/23",
+          "title": {
+            "ko": null,
+            "en": "Electrodes carrying the current to be rectified, amplified, oscillated or switched, e.g. sources, drains, anodes or cathodes"
+          }
+        },
+        {
+          "code": "H10D 64/27",
+          "title": {
+            "ko": null,
+            "en": "Electrodes not carrying the current to be rectified, amplified, oscillated or switched, e.g. gates"
+          }
+        },
+        {
+          "code": "H10D 64/60",
+          "title": {
+            "ko": null,
+            "en": "Electrodes characterised by their materials"
+          }
+        },
+        {
+          "code": "H10D 64/62",
+          "title": {
+            "ko": null,
+            "en": "Electrodes ohmically coupled to a semiconductor"
+          }
+        },
+        {
+          "code": "H10D 64/64",
+          "title": {
+            "ko": null,
+            "en": "Electrodes comprising a Schottky barrier to a semiconductor"
+          }
+        },
+        {
+          "code": "H10D 64/66",
+          "title": {
+            "ko": null,
+            "en": "Electrodes having a conductor capacitively coupled to a semiconductor by an insulator, e.g. MIS electrodes"
+          }
+        },
+        {
+          "code": "H10D 64/68",
+          "title": {
+            "ko": null,
+            "en": "characterised by the insulator, e.g. by the gate insulator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 80/00",
+      "title": {
+        "ko": "이 서브클래스에 포함되는 적어도 하나의 소자를 포함하는 다중 소자 조립체",
+        "en": "Integrated devices; Assemblies of multiple devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10D 80/00",
+      "title": {
+        "ko": "이 서브클래스에 포함되는 적어도 하나의 소자를 포함하는 다중 소자 조립체",
+        "en": "Assemblies of multiple devices comprising at least one device covered by this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 80/20",
+          "title": {
+            "ko": "그룹 H10D1/00 ~ H10D48/00에 포함되는 적어도 하나의 소자, 예. 캐패시터, 전력 FET 또는 쇼트키 다이오드로 구성된 조립체",
+            "en": "the at least one device being covered by groups H10D0001000000-H10D0048000000, e.g. assemblies comprising capacitors, power FETs or Schottky diodes"
+          }
+        },
+        {
+          "code": "H10D 80/30",
+          "title": {
+            "ko": "그룹 H10D84/00 ~ H10D86/00에 포함되는 적어도 하나의 소자, 예. 집적 회로 프로세스 칩으로 구성된 조립체",
+            "en": "the at least one device being covered by groups H10D0084000000-H10D0086000000, e.g. assemblies comprising integrated circuit processor chips"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 84/00",
+      "title": {
+        "ko": "반도체 층으로만 구성된 반도체 기판 내에 또는 그 위에 형성된 집적 소자, 예. Si 웨이퍼 또는 GaAs-on-Si 웨이퍼 위에 형성된 소자",
+        "en": "Integrated devices formed in or on semiconductor substrates that comprise only semiconducting layers, e.g. on Si wafers or on GaAs-on-Si wafers"
+      },
+      "definition": {
+        "ko": "이 그룹에서는 소자의 제조 또는 처리가 신규하고 비자명한 것으로 판단되는 경우 소자 자체도 분류된다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H10D 84/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 84/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by using material-based technologies"
+          }
+        },
+        {
+          "code": "H10D 84/03",
+          "title": {
+            "ko": null,
+            "en": "using Group IV technology, e.g. silicon technology or silicon-carbide [SiC] technology"
+          }
+        },
+        {
+          "code": "H10D 84/05",
+          "title": {
+            "ko": null,
+            "en": "using Group III-V technology"
+          }
+        },
+        {
+          "code": "H10D 84/07",
+          "title": {
+            "ko": null,
+            "en": "using Group II-VI technology"
+          }
+        },
+        {
+          "code": "H10D 84/08",
+          "title": {
+            "ko": null,
+            "en": "using combinations of technologies, e.g. using both Si and SiC technologies or using both Si and Group III-V technologies"
+          }
+        },
+        {
+          "code": "H10D 84/40",
+          "title": {
+            "ko": "그룹 H10D12/00 또는 H10D30/00에 포함되는 최소한 하나의 구성요소와 그룹 H10D10/00 또는 H10D18/00에 포함되는 최소한 하나의 구성요소의 통합에 특징이 있는 것. 예. BJT와 IGFET의 통합",
+            "en": "characterised by the integration of at least one component covered by groups H10D0012000000 or H10D0030000000 with at least one component covered by groups H10D0010000000 or H10D0018000000, e.g. integration of IGFETs with BJTs"
+          }
+        },
+        {
+          "code": "H10D 84/60",
+          "title": {
+            "ko": "그룹 H10D10/00 또는 H10D18/00에 포함되는 최소 하나의 구성 요소의 통합에 특징이 있는 것, 예. BJT의 통합 (H10D84/40이 우선)",
+            "en": "characterised by the integration of at least one component covered by groups H10D0010000000 or H10D0018000000, e.g. integration of BJTs (H10D0084400000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10D 84/63",
+          "title": {
+            "ko": null,
+            "en": "Combinations of vertical and lateral BJTs"
+          }
+        },
+        {
+          "code": "H10D 84/65",
+          "title": {
+            "ko": null,
+            "en": "Integrated injection logic"
+          }
+        },
+        {
+          "code": "H10D 84/67",
+          "title": {
+            "ko": null,
+            "en": "Complementary BJTs"
+          }
+        },
+        {
+          "code": "H10D 84/80",
+          "title": {
+            "ko": "그룹 H10D12/00 또는 H10D30/00을 포함하는 적어도 하나의 구성요소의 통합에 특징이 있는 것, 예. IGFET의 통합 (H10D84/40이 우선)",
+            "en": "characterised by the integration of at least one component covered by groups H10D0012000000 or H10D0030000000, e.g. integration of IGFETs (H10D0084400000 takes precedence)"
+          }
+        },
+        {
+          "code": "H10D 84/82",
+          "title": {
+            "ko": null,
+            "en": "of only field-effect components"
+          }
+        },
+        {
+          "code": "H10D 84/83",
+          "title": {
+            "ko": null,
+            "en": "of only insulated-gate FETs [IGFET]"
+          }
+        },
+        {
+          "code": "H10D 84/84",
+          "title": {
+            "ko": null,
+            "en": "Combinations of enhancement-mode IGFETs and depletion-mode IGFETs"
+          }
+        },
+        {
+          "code": "H10D 84/85",
+          "title": {
+            "ko": null,
+            "en": "Complementary IGFETs, e.g. CMOS"
+          }
+        },
+        {
+          "code": "H10D 84/86",
+          "title": {
+            "ko": null,
+            "en": "of Schottky-barrier gate FETs"
+          }
+        },
+        {
+          "code": "H10D 84/87",
+          "title": {
+            "ko": null,
+            "en": "of PN-junction gate FETs"
+          }
+        },
+        {
+          "code": "H10D 84/90",
+          "title": {
+            "ko": null,
+            "en": "Masterslice integrated circuits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 86/00",
+      "title": {
+        "ko": null,
+        "en": "Integrated devices formed in or on insulating or conducting substrates, e.g. formed in silicon-on-insulator [SOI] substrates or on stainless steel or glass substrates"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 86/01",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or treatment"
+          }
+        },
+        {
+          "code": "H10D 86/03",
+          "title": {
+            "ko": null,
+            "en": "wherein the substrate comprises sapphire, e.g. silicon-on-sapphire [SOS]"
+          }
+        },
+        {
+          "code": "H10D 86/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by multiple TFTs"
+          }
+        },
+        {
+          "code": "H10D 86/60",
+          "title": {
+            "ko": null,
+            "en": "wherein the TFTs are in active matrices"
+          }
+        },
+        {
+          "code": "H10D 86/80",
+          "title": {
+            "ko": null,
+            "en": "characterised by multiple passive components, e.g. resistors, capacitors or inductors"
+          }
+        },
+        {
+          "code": "H10D 86/85",
+          "title": {
+            "ko": null,
+            "en": "characterised by only passive components"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 87/00",
+      "title": {
+        "ko": null,
+        "en": "Integrated devices comprising both bulk components and either SOI or SOS components on the same substrate"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10D 88/00",
+      "title": {
+        "ko": null,
+        "en": "Three-dimensional [3D] integrated devices"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H10D 89/00",
+      "title": {
+        "ko": "그룹 H10D84/00 ~ H10D88/00에 포함되지 않는 집적 소자의 측면",
+        "en": "Aspects of integrated devices not covered by groups H10D0084000000-H10D0088000000"
+      },
+      "subgroups": [
+        {
+          "code": "H10D 89/10",
+          "title": {
+            "ko": null,
+            "en": "Integrated device layouts"
+          }
+        },
+        {
+          "code": "H10D 89/60",
+          "title": {
+            "ko": null,
+            "en": "Integrated devices comprising arrangements for electrical or thermal protection, e.g. protection circuits against electrostatic discharge [ESD]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H10D 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

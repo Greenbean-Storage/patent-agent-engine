@@ -1,0 +1,3253 @@
+{
+  "subclass": "H02K",
+  "title": {
+    "ko": "회전-전기 기계 (회전-전기 계전기 H01H 53/00; 직류 또는 교류입력을 서지 출력으로 변환하는 것 H02M 9/00)",
+    "en": "DYNAMO-ELECTRIC MACHINES (dynamo-electric relays H01H0053000000;conversion of DC or AC input power into surge output power H02M0009000000)"
+  },
+  "definition": {
+    "ko": "발전기 또는 전동기 연속적으로 회전하는 것 교류기; 비동기기; 기계적 정류자가 있는 것 H02K17/00; H10K19/00; H10K21/00; H10K27/00 직류기 또는 교/직류양용기: 기계적 정류자가 있는 것; 단속기가 있는 것 H02K23/00; H02K25/00 비기계적 정류자가 있는 것 H02K29/00 비주기적인 장치; 진동 장치; 모터 H02K31/00; 33/00; 35/00; 37/00 스텝회전 전동기 31/00; 33/00, 35/00; 37/00 H02K39/00 비정현 파형을 발생하는 발전기 H02K39/00 하나 이상의 회전자 또는 고정자를 가지는 기계 H02K16/00 특수한 발전-전기 장치 회전각위치를 전송하는 장치; 토크(Torque) 모터 H02K24/00; H02K26/00 플라스마(Plasma) 또는 도전성 액체의 흐름이나 또는 전도성 또는 자성입자와의 발전-전기 상호작용에 의한 기계 H02K44/00 고체를 경로에 따라서 이동시키는 방식 H02K41/00 변환기 H02K47/00 다이나모 전기 클러치 또는 브레이크; 다이나모 전기 기어 H02K49/00; H02K51/00 영구운동이라 주장하는 것 H02K53/00 극저온에서 작동하는 기계 H02K55/00 세부 자기회로; 권선; 외상(casing) H02K1/00; H02K3/00; H02K5/00 기계적 에너지를 취급하기 위한 기계와 구조적으로 관련된 장치; 냉각; 측정 또는 보호 장치; 전류 수집 또는 정류 H02K7/00; H02K9/00; H02K11/00; H02K13/00 제조 H02K15/00 이 하위 클래스의 다른 그룹에는 제공되지 않는 주제 H02K99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H02K 1/00",
+      "title": {
+        "ko": "자기회로의 세부(계전기를 위한 자기회로 H01H 50/16)",
+        "en": "Details of the magnetic circuit (magnetic circuits for relays H01H0050160000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 1/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the magnetic material"
+          }
+        },
+        {
+          "code": "H02K 1/04",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material used for insulating the magnetic circuit or parts thereof"
+          }
+        },
+        {
+          "code": "H02K 1/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape, form or construction"
+          }
+        },
+        {
+          "code": "H02K 1/08",
+          "title": {
+            "ko": null,
+            "en": "Salient poles"
+          }
+        },
+        {
+          "code": "H02K 1/10",
+          "title": {
+            "ko": null,
+            "en": "Commutating poles"
+          }
+        },
+        {
+          "code": "H02K 1/12",
+          "title": {
+            "ko": null,
+            "en": "Stationary parts of the magnetic circuit"
+          }
+        },
+        {
+          "code": "H02K 1/14",
+          "title": {
+            "ko": null,
+            "en": "Stator cores with salient poles"
+          }
+        },
+        {
+          "code": "H02K 1/16",
+          "title": {
+            "ko": null,
+            "en": "Stator cores with slots for windings"
+          }
+        },
+        {
+          "code": "H02K 1/17",
+          "title": {
+            "ko": null,
+            "en": "Stator cores with permanent magnets"
+          }
+        },
+        {
+          "code": "H02K 1/18",
+          "title": {
+            "ko": null,
+            "en": "Means for mounting or fastening magnetic stationary parts on to, or to, the stator structures"
+          }
+        },
+        {
+          "code": "H02K 1/20",
+          "title": {
+            "ko": null,
+            "en": "with channels or ducts for flow of cooling medium"
+          }
+        },
+        {
+          "code": "H02K 1/22",
+          "title": {
+            "ko": null,
+            "en": "Rotating parts of the magnetic circuit"
+          }
+        },
+        {
+          "code": "H02K 1/24",
+          "title": {
+            "ko": null,
+            "en": "Rotor cores with salient poles"
+          }
+        },
+        {
+          "code": "H02K 1/26",
+          "title": {
+            "ko": null,
+            "en": "Rotor cores with slots for windings"
+          }
+        },
+        {
+          "code": "H02K 1/27",
+          "title": {
+            "ko": null,
+            "en": "Rotor cores with permanent magnets"
+          }
+        },
+        {
+          "code": "H02K 1/2706",
+          "title": {
+            "ko": null,
+            "en": "Inner rotors"
+          }
+        },
+        {
+          "code": "H02K 1/2713",
+          "title": {
+            "ko": null,
+            "en": "the magnetisation axis of the magnets being axial, e.g. claw-pole type"
+          }
+        },
+        {
+          "code": "H02K 1/272",
+          "title": {
+            "ko": null,
+            "en": "the magnetisation axis of the magnets being perpendicular to the rotor axis"
+          }
+        },
+        {
+          "code": "H02K 1/2726",
+          "title": {
+            "ko": null,
+            "en": "the rotor consisting of a single magnet or two or more axially juxtaposed single magnets"
+          }
+        },
+        {
+          "code": "H02K 1/2733",
+          "title": {
+            "ko": null,
+            "en": "Annular magnets"
+          }
+        },
+        {
+          "code": "H02K 1/274",
+          "title": {
+            "ko": null,
+            "en": "the rotor consisting of two or more circumferentially positioned magnets"
+          }
+        },
+        {
+          "code": "H02K 1/2746",
+          "title": {
+            "ko": null,
+            "en": "the rotor consisting of magnets arranged with the same polarity, e.g. consequent pole type"
+          }
+        },
+        {
+          "code": "H02K 1/2753",
+          "title": {
+            "ko": null,
+            "en": "the rotor consisting of magnets or groups of magnets arranged with alternating polarity"
+          }
+        },
+        {
+          "code": "H02K 1/276",
+          "title": {
+            "ko": null,
+            "en": "Magnets embedded in the magnetic core, e.g. interior permanent magnets [IPM]"
+          }
+        },
+        {
+          "code": "H02K 1/278",
+          "title": {
+            "ko": null,
+            "en": "Surface mounted magnets; Inset magnets"
+          }
+        },
+        {
+          "code": "H02K 1/2781",
+          "title": {
+            "ko": null,
+            "en": "Magnets shaped to vary the mechanical air gap between the magnets and the stator"
+          }
+        },
+        {
+          "code": "H02K 1/2783",
+          "title": {
+            "ko": null,
+            "en": "with magnets arranged in Halbach arrays"
+          }
+        },
+        {
+          "code": "H02K 1/2786",
+          "title": {
+            "ko": null,
+            "en": "Outer rotors"
+          }
+        },
+        {
+          "code": "H02K 1/2787",
+          "title": {
+            "ko": null,
+            "en": "the magnetisation axis of the magnets being perpendicular to the rotor axis"
+          }
+        },
+        {
+          "code": "H02K 1/2788",
+          "title": {
+            "ko": null,
+            "en": "the rotor consisting of a single magnet or two or more axially juxtaposed single magnets"
+          }
+        },
+        {
+          "code": "H02K 1/2789",
+          "title": {
+            "ko": null,
+            "en": "the rotor consisting of two or more circumferentially positioned magnets"
+          }
+        },
+        {
+          "code": "H02K 1/279",
+          "title": {
+            "ko": null,
+            "en": "Magnets embedded in the magnetic core"
+          }
+        },
+        {
+          "code": "H02K 1/2791",
+          "title": {
+            "ko": null,
+            "en": "Surface mounted magnets; Inset magnets"
+          }
+        },
+        {
+          "code": "H02K 1/27915",
+          "title": {
+            "ko": null,
+            "en": "Magnets shaped to vary the mechanical air gap between the magnets and the stator"
+          }
+        },
+        {
+          "code": "H02K 1/2792",
+          "title": {
+            "ko": null,
+            "en": "with magnets arranged in Halbach arrays"
+          }
+        },
+        {
+          "code": "H02K 1/2793",
+          "title": {
+            "ko": null,
+            "en": "Rotors axially facing stators"
+          }
+        },
+        {
+          "code": "H02K 1/2795",
+          "title": {
+            "ko": null,
+            "en": "the rotor consisting of two or more circumferentially positioned magnets"
+          }
+        },
+        {
+          "code": "H02K 1/2796",
+          "title": {
+            "ko": null,
+            "en": "where both axial sides of the rotor face a stator"
+          }
+        },
+        {
+          "code": "H02K 1/2798",
+          "title": {
+            "ko": null,
+            "en": "where both axial sides of the stator face a rotor"
+          }
+        },
+        {
+          "code": "H02K 1/28",
+          "title": {
+            "ko": null,
+            "en": "Means for mounting or fastening rotating magnetic parts on to, or to, the rotor structures"
+          }
+        },
+        {
+          "code": "H02K 1/30",
+          "title": {
+            "ko": null,
+            "en": "using intermediate parts, e.g. spiders"
+          }
+        },
+        {
+          "code": "H02K 1/32",
+          "title": {
+            "ko": null,
+            "en": "with channels or ducts for flow of cooling medium"
+          }
+        },
+        {
+          "code": "H02K 1/34",
+          "title": {
+            "ko": null,
+            "en": "Reciprocating, oscillating or vibrating parts of the magnetic circuit"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 3/00",
+      "title": {
+        "ko": "권선의 세부",
+        "en": "Details of windings"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 3/02",
+          "title": {
+            "ko": null,
+            "en": "Windings characterised by the conductor material"
+          }
+        },
+        {
+          "code": "H02K 3/04",
+          "title": {
+            "ko": "도체의 형태, 구성 또는 구조를 특징으로 하는 권선, 예. 봉도체가 있는 것",
+            "en": "Windings characterised by the conductor shape, form or construction, e.g. with bar conductors"
+          }
+        },
+        {
+          "code": "H02K 3/12",
+          "title": {
+            "ko": null,
+            "en": "arranged in slots"
+          }
+        },
+        {
+          "code": "H02K 3/14",
+          "title": {
+            "ko": null,
+            "en": "with transposed conductors, e.g. twisted conductors"
+          }
+        },
+        {
+          "code": "H02K 3/16",
+          "title": {
+            "ko": null,
+            "en": "for auxiliary purposes, e.g. damping or commutating"
+          }
+        },
+        {
+          "code": "H02K 3/18",
+          "title": {
+            "ko": null,
+            "en": "Windings for salient poles"
+          }
+        },
+        {
+          "code": "H02K 3/20",
+          "title": {
+            "ko": null,
+            "en": "for auxiliary purposes, e.g. damping or commutating"
+          }
+        },
+        {
+          "code": "H02K 3/22",
+          "title": {
+            "ko": null,
+            "en": "consisting of hollow conductors"
+          }
+        },
+        {
+          "code": "H02K 3/24",
+          "title": {
+            "ko": null,
+            "en": "with channels or ducts for cooling medium between the conductors"
+          }
+        },
+        {
+          "code": "H02K 3/26",
+          "title": {
+            "ko": null,
+            "en": "consisting of printed conductors"
+          }
+        },
+        {
+          "code": "H02K 3/28",
+          "title": {
+            "ko": "권선 또는 권선간의 접속의 설계(극수변환용 권선 H02K 17/06, H02K 17/14, H02K 19/12, H02K 19/32)",
+            "en": "Layout of windings or of connections between windings (windings for pole-changing H02K0017060000, H02K0017140000, H02K0019120000, H02K0019320000)"
+          }
+        },
+        {
+          "code": "H02K 3/30",
+          "title": {
+            "ko": null,
+            "en": "Windings characterised by the insulating material"
+          }
+        },
+        {
+          "code": "H02K 3/32",
+          "title": {
+            "ko": null,
+            "en": "Windings characterised by the shape, form or construction of the insulation"
+          }
+        },
+        {
+          "code": "H02K 3/34",
+          "title": {
+            "ko": null,
+            "en": "between conductors or between conductor and core, e.g. slot insulation"
+          }
+        },
+        {
+          "code": "H02K 3/38",
+          "title": {
+            "ko": null,
+            "en": "around winding heads, equalising connectors, or connections thereto"
+          }
+        },
+        {
+          "code": "H02K 3/40",
+          "title": {
+            "ko": null,
+            "en": "for high voltage, e.g. affording protection against corona discharges"
+          }
+        },
+        {
+          "code": "H02K 3/42",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing or reducing eddy-current losses in the winding heads, e.g. by shielding"
+          }
+        },
+        {
+          "code": "H02K 3/44",
+          "title": {
+            "ko": null,
+            "en": "Protection against moisture or chemical attack; Windings specially adapted for operation in liquid or gas"
+          }
+        },
+        {
+          "code": "H02K 3/46",
+          "title": {
+            "ko": null,
+            "en": "Fastening of windings on the stator or rotor structure"
+          }
+        },
+        {
+          "code": "H02K 3/47",
+          "title": {
+            "ko": null,
+            "en": "Air-gap windings, i.e. iron-free windings"
+          }
+        },
+        {
+          "code": "H02K 3/48",
+          "title": {
+            "ko": null,
+            "en": "in slots"
+          }
+        },
+        {
+          "code": "H02K 3/487",
+          "title": {
+            "ko": null,
+            "en": "Slot-closing devices"
+          }
+        },
+        {
+          "code": "H02K 3/493",
+          "title": {
+            "ko": null,
+            "en": "magnetic"
+          }
+        },
+        {
+          "code": "H02K 3/50",
+          "title": {
+            "ko": null,
+            "en": "Fastening of winding heads, equalising connectors, or connections thereto"
+          }
+        },
+        {
+          "code": "H02K 3/51",
+          "title": {
+            "ko": null,
+            "en": "applicable to rotors only"
+          }
+        },
+        {
+          "code": "H02K 3/52",
+          "title": {
+            "ko": null,
+            "en": "Fastening salient pole windings or connections thereto"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 5/00",
+      "title": {
+        "ko": "케이싱(Casings); 외부포장(Enclosures); 지지체 (Supports)",
+        "en": "Casings; Enclosures; Supports"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 5/02",
+          "title": {
+            "ko": null,
+            "en": "Casings or enclosures characterised by the material thereof"
+          }
+        },
+        {
+          "code": "H02K 5/04",
+          "title": {
+            "ko": "형태, 구성 또는 구조를 특징으로하는 케이스 또는 포장(Enclosures)",
+            "en": "Casings or enclosures characterised by the shape, form or construction thereof"
+          }
+        },
+        {
+          "code": "H02K 5/06",
+          "title": {
+            "ko": null,
+            "en": "Cast metal casings"
+          }
+        },
+        {
+          "code": "H02K 5/08",
+          "title": {
+            "ko": null,
+            "en": "Insulating casings"
+          }
+        },
+        {
+          "code": "H02K 5/10",
+          "title": {
+            "ko": null,
+            "en": "with arrangements for protection from ingress, e.g. of water or fingers"
+          }
+        },
+        {
+          "code": "H02K 5/12",
+          "title": {
+            "ko": "액체 또는 가스 속에서의 가동에 대처하는 것 (냉각장치와 조합시킨 것 H02K 9/00)",
+            "en": "specially adapted for operating in liquid or gas (combined with cooling arrangements H02K0009000000)"
+          }
+        },
+        {
+          "code": "H02K 5/124",
+          "title": {
+            "ko": null,
+            "en": "Sealing of shafts"
+          }
+        },
+        {
+          "code": "H02K 5/128",
+          "title": {
+            "ko": null,
+            "en": "using air-gap sleeves or air-gap discs"
+          }
+        },
+        {
+          "code": "H02K 5/132",
+          "title": {
+            "ko": "· 잠수전동기 (H02K 5/128 우선)",
+            "en": "Submersible electric motors (H02K0005128000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 5/136",
+          "title": {
+            "ko": null,
+            "en": "explosion-proof"
+          }
+        },
+        {
+          "code": "H02K 5/14",
+          "title": {
+            "ko": null,
+            "en": "Means for supporting or protecting brushes or brush holders"
+          }
+        },
+        {
+          "code": "H02K 5/15",
+          "title": {
+            "ko": null,
+            "en": "Mounting arrangements for bearing-shields or end plates"
+          }
+        },
+        {
+          "code": "H02K 5/16",
+          "title": {
+            "ko": "베어링 지지장치, 예. 절연 지지기, 베어링 밀봉장치에서 베어링을 결합시키는 장치 (자기 베어링 H02K 7/09)",
+            "en": "Means for supporting bearings, e.g. insulating supports or means for fitting bearings in the bearing-shields (magnetic bearings H02K0007090000)"
+          }
+        },
+        {
+          "code": "H02K 5/167",
+          "title": {
+            "ko": null,
+            "en": "using sliding-contact or spherical cap bearings"
+          }
+        },
+        {
+          "code": "H02K 5/173",
+          "title": {
+            "ko": null,
+            "en": "using bearings with rolling contact, e.g. ball bearings"
+          }
+        },
+        {
+          "code": "H02K 5/18",
+          "title": {
+            "ko": null,
+            "en": "with ribs or fins for improving heat transfer"
+          }
+        },
+        {
+          "code": "H02K 5/20",
+          "title": {
+            "ko": null,
+            "en": "with channels or ducts for flow of cooling medium"
+          }
+        },
+        {
+          "code": "H02K 5/22",
+          "title": {
+            "ko": "그룹 H02K 5/06-H02K 5/20에 포함되지 않는 케이스의 보조 부분, 예. 접속박스 또는 단자박스를 형성하는 것",
+            "en": "Auxiliary parts of casings not covered by groups H02K0005060000-H02K0005200000, e.g. shaped to form connection boxes or terminal boxes"
+          }
+        },
+        {
+          "code": "H02K 5/24",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for suppression or reduction of noise or vibrations"
+          }
+        },
+        {
+          "code": "H02K 5/26",
+          "title": {
+            "ko": null,
+            "en": "Means for adjusting casings relative to their supports"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 7/00",
+      "title": {
+        "ko": "회전-전기기계와 구조적으로 결합되어 기계적 에너지를 다루는 장치, 예. 기계적 구동모터 또는 보조 회전-전기기계와 구조적으로 결합된 것",
+        "en": "Arrangements for handling mechanical energy structurally associated with dynamo-electric machines, e.g. structural association with mechanical driving motors or auxiliary dynamo-electric machines"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 7/02",
+          "title": {
+            "ko": null,
+            "en": "Additional mass for increasing inertia, e.g. flywheels"
+          }
+        },
+        {
+          "code": "H02K 7/04",
+          "title": {
+            "ko": null,
+            "en": "Balancing means"
+          }
+        },
+        {
+          "code": "H02K 7/06",
+          "title": {
+            "ko": null,
+            "en": "Means for converting reciprocating motion into rotary motion or vice versa"
+          }
+        },
+        {
+          "code": "H02K 7/065",
+          "title": {
+            "ko": null,
+            "en": "Electromechanical oscillators; Vibrating magnetic drives"
+          }
+        },
+        {
+          "code": "H02K 7/07",
+          "title": {
+            "ko": null,
+            "en": "using pawls and ratchet wheels"
+          }
+        },
+        {
+          "code": "H02K 7/075",
+          "title": {
+            "ko": null,
+            "en": "using crankshafts or eccentrics"
+          }
+        },
+        {
+          "code": "H02K 7/08",
+          "title": {
+            "ko": null,
+            "en": "Structural association with bearings"
+          }
+        },
+        {
+          "code": "H02K 7/09",
+          "title": {
+            "ko": null,
+            "en": "with magnetic bearings"
+          }
+        },
+        {
+          "code": "H02K 7/10",
+          "title": {
+            "ko": null,
+            "en": "Structural association with clutches, brakes, gears, pulleys or mechanical starters"
+          }
+        },
+        {
+          "code": "H02K 7/102",
+          "title": {
+            "ko": null,
+            "en": "with friction brakes"
+          }
+        },
+        {
+          "code": "H02K 7/104",
+          "title": {
+            "ko": null,
+            "en": "with eddy-current brakes"
+          }
+        },
+        {
+          "code": "H02K 7/106",
+          "title": {
+            "ko": null,
+            "en": "with dynamo-electric brakes"
+          }
+        },
+        {
+          "code": "H02K 7/108",
+          "title": {
+            "ko": null,
+            "en": "with friction clutches"
+          }
+        },
+        {
+          "code": "H02K 7/11",
+          "title": {
+            "ko": null,
+            "en": "with dynamo-electric clutches"
+          }
+        },
+        {
+          "code": "H02K 7/112",
+          "title": {
+            "ko": null,
+            "en": "with friction clutches in combination with brakes"
+          }
+        },
+        {
+          "code": "H02K 7/114",
+          "title": {
+            "ko": null,
+            "en": "with dynamo-electric clutches in combination with brakes"
+          }
+        },
+        {
+          "code": "H02K 7/116",
+          "title": {
+            "ko": null,
+            "en": "with gears"
+          }
+        },
+        {
+          "code": "H02K 7/118",
+          "title": {
+            "ko": null,
+            "en": "with starting devices"
+          }
+        },
+        {
+          "code": "H02K 7/12",
+          "title": {
+            "ko": null,
+            "en": "with auxiliary limited movement of stators, rotors or core parts, e.g. rotors axially movable for the purpose of clutching or braking"
+          }
+        },
+        {
+          "code": "H02K 7/14",
+          "title": {
+            "ko": "기계적 부하에 관련된 구조, 예. 휴대 가능한 기계 도구 또는 팬(fans)을 가지는 것 (기계의 냉각용 팬 또는 임펠러 H02K 9/06)",
+            "en": "Structural association with mechanical loads, e.g. with hand-held machine tools or fans (with fan or impeller for cooling the machine H02K0009060000)"
+          }
+        },
+        {
+          "code": "H02K 7/16",
+          "title": {
+            "ko": null,
+            "en": "for operation above the critical speed of vibration of the rotating parts"
+          }
+        },
+        {
+          "code": "H02K 7/18",
+          "title": {
+            "ko": null,
+            "en": "Structural association of electric generators with mechanical driving motors, e.g.with turbines"
+          }
+        },
+        {
+          "code": "H02K 7/20",
+          "title": {
+            "ko": null,
+            "en": "Structural association with auxiliary dynamo-electric machines, e.g. with electric starter motors or exciters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 9/00",
+      "title": {
+        "ko": "냉각 또는 환기장치 (자기회로 부분의 경로(channel) 또는 배관(duct) H02K 1/20, H02K 1/32; 도체 속 또는 도체 간의 경로(channel) 또는 배관(duct) H02K 3/22, H02K 3/24)",
+        "en": "Arrangements for cooling or ventilating (channels or ducts in parts of the magnetic circuit H02K0001200000, H02K0001320000;channels or ducts in or between conductors H02K0003220000, H02K0003240000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 9/02",
+          "title": {
+            "ko": null,
+            "en": "by ambient air flowing through the machine"
+          }
+        },
+        {
+          "code": "H02K 9/04",
+          "title": {
+            "ko": null,
+            "en": "having means for generating a flow of cooling medium"
+          }
+        },
+        {
+          "code": "H02K 9/06",
+          "title": {
+            "ko": null,
+            "en": "with fans or impellers driven by the machine shaft"
+          }
+        },
+        {
+          "code": "H02K 9/08",
+          "title": {
+            "ko": "장치 케이싱 내 전체를 순환하는 가스 냉각매체에 의한 것(H02K 9/10이 우선)",
+            "en": "by gaseous cooling medium circulating wholly within the machine casing (H02K0009100000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 9/10",
+          "title": {
+            "ko": null,
+            "en": "by gaseous cooling medium flowing in closed circuit, a part of which is external to the machine casing"
+          }
+        },
+        {
+          "code": "H02K 9/12",
+          "title": {
+            "ko": null,
+            "en": "wherein the cooling medium circulates freely within the casing"
+          }
+        },
+        {
+          "code": "H02K 9/14",
+          "title": {
+            "ko": null,
+            "en": "wherein gaseous cooling medium circulates between the machine casing and a surrounding mantle"
+          }
+        },
+        {
+          "code": "H02K 9/16",
+          "title": {
+            "ko": null,
+            "en": "wherein the cooling medium circulates through ducts or tubes within the casing"
+          }
+        },
+        {
+          "code": "H02K 9/18",
+          "title": {
+            "ko": null,
+            "en": "wherein the external part of the closed circuit comprises a heat exchanger structurally associated with the machine casing"
+          }
+        },
+        {
+          "code": "H02K 9/19",
+          "title": {
+            "ko": null,
+            "en": "for machines with closed casing and closed-circuit cooling using a liquid cooling medium, e.g. oil"
+          }
+        },
+        {
+          "code": "H02K 9/193",
+          "title": {
+            "ko": null,
+            "en": "with provision for replenishing the cooling medium; with means for preventing leakage of the cooling medium"
+          }
+        },
+        {
+          "code": "H02K 9/197",
+          "title": {
+            "ko": null,
+            "en": "in which the rotor or stator space is fluid-tight, e.g. to provide for different cooling media for rotor and stator"
+          }
+        },
+        {
+          "code": "H02K 9/20",
+          "title": {
+            "ko": null,
+            "en": "wherein the cooling medium vaporises within the machine casing"
+          }
+        },
+        {
+          "code": "H02K 9/22",
+          "title": {
+            "ko": null,
+            "en": "by solid heat conducting material embedded in, or arranged in contact with, the stator or rotor, e.g. heat bridges"
+          }
+        },
+        {
+          "code": "H02K 9/24",
+          "title": {
+            "ko": null,
+            "en": "Protection against failure of cooling arrangements, e.g. due to loss of cooling medium or due to interruption of the circulation of cooling medium"
+          }
+        },
+        {
+          "code": "H02K 9/26",
+          "title": {
+            "ko": null,
+            "en": "Structural association of machines with devices for cleaning or drying cooling medium, e.g. with filters"
+          }
+        },
+        {
+          "code": "H02K 9/28",
+          "title": {
+            "ko": null,
+            "en": "Cooling of commutators, slip-rings or brushes, e.g. by ventilating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 11/00",
+      "title": {
+        "ko": "차폐, 모니터링, 또는 보호를 위한 전기 구성품 또는 장치를 가지는 발전기의 구조적인 결합(케이싱, 외부포장 또는 지지체 H02K 5/00)",
+        "en": "Structural association of dynamo-electric machines with electric components or with devices for shielding, monitoring or protection (casings, enclosures or supports H02K0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 11/01",
+          "title": {
+            "ko": "전자기 분야로 부터의 차폐을 위한 것(보호를 위한 것 또는 차폐에 의하여 권선 머리부분에 전류의 손실을 감소 H02K 3/42 )",
+            "en": "for shielding from electromagnetic fields (means for preventing or reducing eddy-current losses in the winding heads by shielding H02K0003420000)"
+          }
+        },
+        {
+          "code": "H02K 11/02",
+          "title": {
+            "ko": null,
+            "en": "for suppression of electromagnetic interference"
+          }
+        },
+        {
+          "code": "H02K 11/026",
+          "title": {
+            "ko": null,
+            "en": "Suppressors associated with brushes, brush holders or their supports"
+          }
+        },
+        {
+          "code": "H02K 11/028",
+          "title": {
+            "ko": null,
+            "en": "Suppressors associated with the rotor"
+          }
+        },
+        {
+          "code": "H02K 11/04",
+          "title": {
+            "ko": null,
+            "en": "for rectification"
+          }
+        },
+        {
+          "code": "H02K 11/042",
+          "title": {
+            "ko": null,
+            "en": "Rectifiers associated with rotating parts, e.g. rotor cores or rotary shafts"
+          }
+        },
+        {
+          "code": "H02K 11/049",
+          "title": {
+            "ko": null,
+            "en": "Rectifiers associated with stationary parts, e.g. stator cores"
+          }
+        },
+        {
+          "code": "H02K 11/05",
+          "title": {
+            "ko": null,
+            "en": "Rectifiers associated with casings, enclosures or brackets"
+          }
+        },
+        {
+          "code": "H02K 11/20",
+          "title": {
+            "ko": "측정, 모니터링, 테스팅, 보호 또는 스위칭을 위한 것 (정류기 H02K 11/04; 전력 전자 H02K 11/33 )",
+            "en": "for measuring, monitoring, testing, protecting or switching (rectifiers H02K0011040000;power electronics H02K0011330000)"
+          }
+        },
+        {
+          "code": "H02K 11/21",
+          "title": {
+            "ko": "속도나 위치에 의해 작동하는 것 또는 감지하는 것 (비 기계적 정류 장치를 갖는 기계에 특히 적합한 것 H02K29/06, H02K29/14)",
+            "en": "Devices for sensing speed or position, or actuated thereby (specially adapted for machines having non-mechanical commutating devices H02K0029060000, H02K0029140000)"
+          }
+        },
+        {
+          "code": "H02K 11/215",
+          "title": {
+            "ko": null,
+            "en": "Magnetic effect devices, e.g. Hall-effect or magneto-resistive elements"
+          }
+        },
+        {
+          "code": "H02K 11/22",
+          "title": {
+            "ko": null,
+            "en": "Optical devices"
+          }
+        },
+        {
+          "code": "H02K 11/225",
+          "title": {
+            "ko": null,
+            "en": "Detecting coils"
+          }
+        },
+        {
+          "code": "H02K 11/23",
+          "title": {
+            "ko": null,
+            "en": "Mechanically-actuated centrifugal switches"
+          }
+        },
+        {
+          "code": "H02K 11/24",
+          "title": {
+            "ko": "토크 감지, 또는 그것에 의해 작동하는 장치(H02K 11/27 우선 )",
+            "en": "Devices for sensing torque, or actuated thereby (H02K0011270000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 11/25",
+          "title": {
+            "ko": null,
+            "en": "Devices for sensing temperature, or actuated thereby"
+          }
+        },
+        {
+          "code": "H02K 11/26",
+          "title": {
+            "ko": null,
+            "en": "Devices for sensing voltage, or actuated thereby, e.g. overvoltage protection devices"
+          }
+        },
+        {
+          "code": "H02K 11/27",
+          "title": {
+            "ko": "전류 감지, 또는 그것에 의해 작동하는 장치(기계의 온도 또는 그것의 부분에 대한 과전류 보호, 예. 권선, H02K 11/25 )",
+            "en": "Devices for sensing current, or actuated thereby (overcurrent protection responsive to temperature of the machines or parts thereof, e.g. windings, H02K0011250000)"
+          }
+        },
+        {
+          "code": "H02K 11/28",
+          "title": {
+            "ko": null,
+            "en": "Manual switches"
+          }
+        },
+        {
+          "code": "H02K 11/30",
+          "title": {
+            "ko": "제어 회로 또는 구동 회로와 연결된 것",
+            "en": "Structural association with control circuits or drive circuits"
+          }
+        },
+        {
+          "code": "H02K 11/33",
+          "title": {
+            "ko": "드라이브 회로, 예. 전력 전자 (H02K 11/38 우선 )",
+            "en": "Drive circuits, e.g. power electronics (H02K0011380000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 11/35",
+          "title": {
+            "ko": null,
+            "en": "Devices for recording or transmitting machine parameters, e.g. memory chips or radio transmitters for diagnosis"
+          }
+        },
+        {
+          "code": "H02K 11/38",
+          "title": {
+            "ko": null,
+            "en": "Control circuits or drive circuits associated with geared commutator motors of the worm-and-wheel type"
+          }
+        },
+        {
+          "code": "H02K 11/40",
+          "title": {
+            "ko": null,
+            "en": "Structural association with grounding devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 13/00",
+      "title": {
+        "ko": "전동기 또는 발전기와 집전장치의 구조적 결합, 예, 브러시(Brush) 기판, 권선과의 접속(모터 케이스 또는 봉합에서 브러시 혹은 브러시 지지체의 지지 또는 보호 H02K 5/14); 전동기 또는 발전기 집전장치의 배치; 정류를 개선하기 위한 장치",
+        "en": "Structural associations of current collectors with motors or generators, e.g. brush mounting plates or connections to windings (supporting or protecting brushes or brush holders in motor casings or enclosures H02K0005140000); Disposition of current collectors in motors or generators; Arrangements for improving commutation"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 13/02",
+          "title": {
+            "ko": null,
+            "en": "Connections between slip-rings and windings"
+          }
+        },
+        {
+          "code": "H02K 13/04",
+          "title": {
+            "ko": null,
+            "en": "Connections between commutator segments and windings"
+          }
+        },
+        {
+          "code": "H02K 13/06",
+          "title": {
+            "ko": null,
+            "en": "Resistive connections, e.g. by high-resistance chokes or by transistors"
+          }
+        },
+        {
+          "code": "H02K 13/08",
+          "title": {
+            "ko": null,
+            "en": "Segments formed by extensions of the winding"
+          }
+        },
+        {
+          "code": "H02K 13/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of brushes or commutators specially adapted for improving commutation"
+          }
+        },
+        {
+          "code": "H02K 13/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for producing an axial reciprocation of the rotor and its associated current collector part, e.g. for polishing commutator surfaces"
+          }
+        },
+        {
+          "code": "H02K 13/14",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for improvement of commutation, e.g. by use of unidirectionally conductive elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 15/00",
+      "title": {
+        "ko": "발전기의 제조, 조립, 유지 관리 또는 수리에 특히 적합한 공정 또는 장치",
+        "en": "Processes or apparatus specially adapted for manufacturing, assembling, maintaining or repairing of dynamo-electric machines"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 15/02",
+          "title": {
+            "ko": null,
+            "en": "of stator or rotor bodies"
+          }
+        },
+        {
+          "code": "H02K 15/021",
+          "title": {
+            "ko": null,
+            "en": "Magnetic cores"
+          }
+        },
+        {
+          "code": "H02K 15/022",
+          "title": {
+            "ko": null,
+            "en": "with salient poles"
+          }
+        },
+        {
+          "code": "H02K 15/0225",
+          "title": {
+            "ko": null,
+            "en": "with claw-shaped poles"
+          }
+        },
+        {
+          "code": "H02K 15/023",
+          "title": {
+            "ko": null,
+            "en": "Cage rotors"
+          }
+        },
+        {
+          "code": "H02K 15/025",
+          "title": {
+            "ko": null,
+            "en": "characterised by skewed structures in cores"
+          }
+        },
+        {
+          "code": "H02K 15/026",
+          "title": {
+            "ko": null,
+            "en": "Wound cores"
+          }
+        },
+        {
+          "code": "H02K 15/027",
+          "title": {
+            "ko": null,
+            "en": "Punching the cores"
+          }
+        },
+        {
+          "code": "H02K 15/0273",
+          "title": {
+            "ko": null,
+            "en": "Laminating the cores"
+          }
+        },
+        {
+          "code": "H02K 15/0275",
+          "title": {
+            "ko": null,
+            "en": "Annealing the cores"
+          }
+        },
+        {
+          "code": "H02K 15/0278",
+          "title": {
+            "ko": null,
+            "en": "Welding the cores"
+          }
+        },
+        {
+          "code": "H02K 15/028",
+          "title": {
+            "ko": null,
+            "en": "Fastening stator or rotor bodies to casings, supports, shafts or hubs"
+          }
+        },
+        {
+          "code": "H02K 15/03",
+          "title": {
+            "ko": null,
+            "en": "having permanent magnets"
+          }
+        },
+        {
+          "code": "H02K 15/035",
+          "title": {
+            "ko": null,
+            "en": "on the rotor"
+          }
+        },
+        {
+          "code": "H02K 15/038",
+          "title": {
+            "ko": null,
+            "en": "Polarising or magnetising the permanent magnets"
+          }
+        },
+        {
+          "code": "H02K 15/04",
+          "title": {
+            "ko": "기계에 장착하기 전 권선의 것 (권선을 절연하는 것 H02K15/10, H02K15/12)",
+            "en": "of windings prior to their mounting into the machines (insulating windings H02K0015100000, H02K0015120000)"
+          }
+        },
+        {
+          "code": "H02K 15/0407",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing of windings by etching, printing or stamping the complete coils"
+          }
+        },
+        {
+          "code": "H02K 15/0414",
+          "title": {
+            "ko": null,
+            "en": "the windings consisting of separate elements, e.g. bars, segments or half coils"
+          }
+        },
+        {
+          "code": "H02K 15/0421",
+          "title": {
+            "ko": null,
+            "en": "and consisting of single conductors, e.g. hairpins"
+          }
+        },
+        {
+          "code": "H02K 15/0428",
+          "title": {
+            "ko": null,
+            "en": "Processes or apparatus for simultaneously twisting two or more hairpins"
+          }
+        },
+        {
+          "code": "H02K 15/043",
+          "title": {
+            "ko": null,
+            "en": "winding flat conductive wires or sheets"
+          }
+        },
+        {
+          "code": "H02K 15/044",
+          "title": {
+            "ko": null,
+            "en": "winding non-flat conductive wires, e.g. cables or cords"
+          }
+        },
+        {
+          "code": "H02K 15/046",
+          "title": {
+            "ko": null,
+            "en": "Concentrated windings"
+          }
+        },
+        {
+          "code": "H02K 15/047",
+          "title": {
+            "ko": null,
+            "en": "Distributed windings"
+          }
+        },
+        {
+          "code": "H02K 15/048",
+          "title": {
+            "ko": null,
+            "en": "of the wave winding type"
+          }
+        },
+        {
+          "code": "H02K 15/06",
+          "title": {
+            "ko": null,
+            "en": "Embedding prefabricated windings in the machines"
+          }
+        },
+        {
+          "code": "H02K 15/061",
+          "title": {
+            "ko": null,
+            "en": "Air-gap windings"
+          }
+        },
+        {
+          "code": "H02K 15/062",
+          "title": {
+            "ko": null,
+            "en": "Windings in slots; Salient pole windings"
+          }
+        },
+        {
+          "code": "H02K 15/064",
+          "title": {
+            "ko": null,
+            "en": "Windings consisting of separate segments"
+          }
+        },
+        {
+          "code": "H02K 15/0643",
+          "title": {
+            "ko": null,
+            "en": "Hairpin windings"
+          }
+        },
+        {
+          "code": "H02K 15/0646",
+          "title": {
+            "ko": null,
+            "en": "Bar windings consisting of pre-assembled multiple conductors, e.g. Roebel bars"
+          }
+        },
+        {
+          "code": "H02K 15/065",
+          "title": {
+            "ko": null,
+            "en": "Windings consisting of complete sections, e.g. coils or waves"
+          }
+        },
+        {
+          "code": "H02K 15/066",
+          "title": {
+            "ko": null,
+            "en": "inserted perpendicularly to the axis of the slots or inter-polar channels"
+          }
+        },
+        {
+          "code": "H02K 15/067",
+          "title": {
+            "ko": null,
+            "en": "inserted in parallel to the axis of the slots or inter-polar channels"
+          }
+        },
+        {
+          "code": "H02K 15/068",
+          "title": {
+            "ko": null,
+            "en": "Strippers; Embedding windings by strippers"
+          }
+        },
+        {
+          "code": "H02K 15/08",
+          "title": {
+            "ko": null,
+            "en": "Forming windings by laying conductors into or around core parts"
+          }
+        },
+        {
+          "code": "H02K 15/085",
+          "title": {
+            "ko": null,
+            "en": "by laying conductors into slotted stators"
+          }
+        },
+        {
+          "code": "H02K 15/09",
+          "title": {
+            "ko": null,
+            "en": "by laying conductors into slotted rotors"
+          }
+        },
+        {
+          "code": "H02K 15/095",
+          "title": {
+            "ko": null,
+            "en": "by laying conductors around salient poles"
+          }
+        },
+        {
+          "code": "H02K 15/10",
+          "title": {
+            "ko": null,
+            "en": "Applying solid insulation to windings, stators or rotors, e.g. applying insulating tapes"
+          }
+        },
+        {
+          "code": "H02K 15/104",
+          "title": {
+            "ko": null,
+            "en": "Insulating between conductors"
+          }
+        },
+        {
+          "code": "H02K 15/106",
+          "title": {
+            "ko": null,
+            "en": "Insulating between conductors and cores"
+          }
+        },
+        {
+          "code": "H02K 15/108",
+          "title": {
+            "ko": null,
+            "en": "with slot liners"
+          }
+        },
+        {
+          "code": "H02K 15/12",
+          "title": {
+            "ko": null,
+            "en": "Impregnating, moulding insulation, heating or drying of windings, stators, rotors or machines"
+          }
+        },
+        {
+          "code": "H02K 15/121",
+          "title": {
+            "ko": null,
+            "en": "of cores"
+          }
+        },
+        {
+          "code": "H02K 15/122",
+          "title": {
+            "ko": null,
+            "en": "of windings"
+          }
+        },
+        {
+          "code": "H02K 15/123",
+          "title": {
+            "ko": null,
+            "en": "of casings or enclosures"
+          }
+        },
+        {
+          "code": "H02K 15/125",
+          "title": {
+            "ko": null,
+            "en": "Heating or drying of machines in operational state, e.g. standstill heating"
+          }
+        },
+        {
+          "code": "H02K 15/13",
+          "title": {
+            "ko": null,
+            "en": "Applying slot closure means in the cores; Manufacture of slot closure means"
+          }
+        },
+        {
+          "code": "H02K 15/14",
+          "title": {
+            "ko": "케이싱, 인클로저; 지지체",
+            "en": "Casings; Enclosures; Supports"
+          }
+        },
+        {
+          "code": "H02K 15/142",
+          "title": {
+            "ko": null,
+            "en": "by moulding"
+          }
+        },
+        {
+          "code": "H02K 15/144",
+          "title": {
+            "ko": null,
+            "en": "of shafts, bearings or supports therefor"
+          }
+        },
+        {
+          "code": "H02K 15/146",
+          "title": {
+            "ko": null,
+            "en": "of brush holders"
+          }
+        },
+        {
+          "code": "H02K 15/148",
+          "title": {
+            "ko": "단열 케이스 또는 인클로저 (H02K15/123이 우선)",
+            "en": "Insulating casings or enclosures (H02K0015123000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 15/16",
+          "title": {
+            "ko": null,
+            "en": "Centring rotors within the stators"
+          }
+        },
+        {
+          "code": "H02K 15/165",
+          "title": {
+            "ko": null,
+            "en": "Balancing the rotors"
+          }
+        },
+        {
+          "code": "H02K 15/20",
+          "title": {
+            "ko": "권심 또는 기계에 권선을 설치한 후에 도체 또는 권선 헤드를 성형 또는 압축하는 것; 권선 헤드에 체결 수단을 적용하는 것",
+            "en": "Shaping or compacting conductors or winding heads after the installation of the winding in the cores or machines; Applying fastening means on winding heads"
+          }
+        },
+        {
+          "code": "H02K 15/22",
+          "title": {
+            "ko": "슬롯 또는 돌출극 주위의 도체의 성형 또는 압축 (H02K15/28이 우선)",
+            "en": "Shaping or compacting conductors in slots or around salient poles (H02K0015280000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 15/24",
+          "title": {
+            "ko": "권선 헤드의 성형 또는 압축 (H02K15/0428, H02K15/28, H02K15/36이 우선)",
+            "en": "Shaping or compacting winding heads (H02K0015042800, H02K0015280000, H02K0015360000 take precedence)"
+          }
+        },
+        {
+          "code": "H02K 15/26",
+          "title": {
+            "ko": null,
+            "en": "Applying fastening means on winding heads"
+          }
+        },
+        {
+          "code": "H02K 15/28",
+          "title": {
+            "ko": null,
+            "en": "using electrodynamic forces"
+          }
+        },
+        {
+          "code": "H02K 15/30",
+          "title": {
+            "ko": "권선 연결의 제조",
+            "en": "Manufacture of winding connections"
+          }
+        },
+        {
+          "code": "H02K 15/32",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of terminal arrangements; Connecting the terminals to external circuits"
+          }
+        },
+        {
+          "code": "H02K 15/33",
+          "title": {
+            "ko": "권선 부분 연결; 리드 형성; 단자에 리드를 연결",
+            "en": "Connecting winding sections; Forming leads; Connecting leads to terminals"
+          }
+        },
+        {
+          "code": "H02K 15/34",
+          "title": {
+            "ko": null,
+            "en": "Connecting the neutral point"
+          }
+        },
+        {
+          "code": "H02K 15/35",
+          "title": {
+            "ko": "형태 권선",
+            "en": "Form-wound windings"
+          }
+        },
+        {
+          "code": "H02K 15/36",
+          "title": {
+            "ko": "기계에 삽입된 후에 헤어핀의 2 이상의 개방 단부를 동시에 비틀기 위한 공정 또는 장치 (기계에 장착하기 전에 2 이상의 헤어핀을 동시에 비틀기 위한 것 H02K15/0428)",
+            "en": "Processes or apparatus for simultaneously twisting two or more open ends of hairpins after their insertion into the machine (for simultaneously twisting two or more hairpins prior to mounting into the machine H02K0015042800)"
+          }
+        },
+        {
+          "code": "H02K 15/38",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing or repairing cooling fluid boxes, e.g. ensuring both electrical and fluid connection of terminals of fluid cooled windings"
+          }
+        },
+        {
+          "code": "H02K 15/40",
+          "title": {
+            "ko": "발전기-전기 기계의 조립 (H02K15/16이 우선)",
+            "en": "Assembling dynamo-electric machines (H02K0015160000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 15/50",
+          "title": {
+            "ko": "발전기 전기 기계의 분해, 수리 또는 수정 (냉각 유체 박스의 수리 H02K15/38)",
+            "en": "Disassembling, repairing or modifying dynamo-electric machines (repairing of cooling fluid boxes H02K0015380000)"
+          }
+        },
+        {
+          "code": "H02K 15/60",
+          "title": {
+            "ko": null,
+            "en": "Hoisting or moving dynamo-electric machines"
+          }
+        },
+        {
+          "code": "H02K 15/70",
+          "title": {
+            "ko": null,
+            "en": "Cleaning dynamo-electric machines"
+          }
+        },
+        {
+          "code": "H02K 15/80",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing lines specially adapted for dynamo-electrical machines, e.g. feeding or unloading"
+          }
+        },
+        {
+          "code": "H02K 15/90",
+          "title": {
+            "ko": null,
+            "en": "Positioning or clamping dynamo-electric machines, e.g. jigs"
+          }
+        },
+        {
+          "code": "H02K 15/95",
+          "title": {
+            "ko": null,
+            "en": "Installation of current collectors, e.g. commutators, slip-rings or brushes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 16/00",
+      "title": {
+        "ko": null,
+        "en": "Machines with more than one rotor or stator"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 16/02",
+          "title": {
+            "ko": null,
+            "en": "Machines with one stator and two rotors"
+          }
+        },
+        {
+          "code": "H02K 16/04",
+          "title": {
+            "ko": null,
+            "en": "Machines with one rotor and two stators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 17/00",
+      "title": {
+        "ko": "유도전동기, 유도발전기",
+        "en": "Asynchronous induction motors; Asynchronous induction generators"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 17/02",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous induction motors"
+          }
+        },
+        {
+          "code": "H02K 17/04",
+          "title": {
+            "ko": null,
+            "en": "for single phase current"
+          }
+        },
+        {
+          "code": "H02K 17/06",
+          "title": {
+            "ko": null,
+            "en": "having windings arranged for permitting pole-changing"
+          }
+        },
+        {
+          "code": "H02K 17/08",
+          "title": {
+            "ko": null,
+            "en": "Motors with auxiliary phase obtained by externally fed auxiliary windings, e.g. capacitor motors"
+          }
+        },
+        {
+          "code": "H02K 17/10",
+          "title": {
+            "ko": null,
+            "en": "Motors with auxiliary phase obtained by split-pole carrying short-circuited windings"
+          }
+        },
+        {
+          "code": "H02K 17/12",
+          "title": {
+            "ko": null,
+            "en": "for multi-phase current"
+          }
+        },
+        {
+          "code": "H02K 17/14",
+          "title": {
+            "ko": null,
+            "en": "having windings arranged for permitting pole-changing"
+          }
+        },
+        {
+          "code": "H02K 17/16",
+          "title": {
+            "ko": null,
+            "en": "having rotors with internally short-circuited windings, e.g. cage rotors"
+          }
+        },
+        {
+          "code": "H02K 17/18",
+          "title": {
+            "ko": null,
+            "en": "having double-cage or multiple-cage rotors"
+          }
+        },
+        {
+          "code": "H02K 17/20",
+          "title": {
+            "ko": null,
+            "en": "having deep-bar rotors"
+          }
+        },
+        {
+          "code": "H02K 17/22",
+          "title": {
+            "ko": null,
+            "en": "having rotors with windings connected to slip-rings"
+          }
+        },
+        {
+          "code": "H02K 17/24",
+          "title": {
+            "ko": null,
+            "en": "in which both stator and rotor are fed with AC"
+          }
+        },
+        {
+          "code": "H02K 17/26",
+          "title": {
+            "ko": null,
+            "en": "having rotors or stators designed to permit synchronous operation"
+          }
+        },
+        {
+          "code": "H02K 17/28",
+          "title": {
+            "ko": null,
+            "en": "having compensating winding for improving phase angle"
+          }
+        },
+        {
+          "code": "H02K 17/30",
+          "title": {
+            "ko": null,
+            "en": "Structural association of asynchronous induction motors with auxiliary electric devices influencing the characteristics of the motor or controlling the motor, e.g. with impedances or switches"
+          }
+        },
+        {
+          "code": "H02K 17/32",
+          "title": {
+            "ko": null,
+            "en": "Structural association of asynchronous induction motors with auxiliary mechanical devices, e.g. with clutches or brakes"
+          }
+        },
+        {
+          "code": "H02K 17/34",
+          "title": {
+            "ko": null,
+            "en": "Cascade arrangement of an asynchronous motor with another dynamo-electric motor or converter"
+          }
+        },
+        {
+          "code": "H02K 17/36",
+          "title": {
+            "ko": null,
+            "en": "with another asynchronous induction motor"
+          }
+        },
+        {
+          "code": "H02K 17/38",
+          "title": {
+            "ko": null,
+            "en": "with a commutator machine"
+          }
+        },
+        {
+          "code": "H02K 17/40",
+          "title": {
+            "ko": null,
+            "en": "with a rotary AC/DC converter"
+          }
+        },
+        {
+          "code": "H02K 17/42",
+          "title": {
+            "ko": "유도발전기(H02K 17/02가 우선)",
+            "en": "Asynchronous induction generators (H02K0017020000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 17/44",
+          "title": {
+            "ko": null,
+            "en": "Structural association with exciting machines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 19/00",
+      "title": {
+        "ko": "동기전동기 또는 발전기 (영구자석이 있는 것 H02K 21/00)",
+        "en": "Synchronous motors or generators (having permanent magnets H02K0021000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 19/02",
+          "title": {
+            "ko": null,
+            "en": "Synchronous motors"
+          }
+        },
+        {
+          "code": "H02K 19/04",
+          "title": {
+            "ko": null,
+            "en": "for single-phase current"
+          }
+        },
+        {
+          "code": "H02K 19/06",
+          "title": {
+            "ko": null,
+            "en": "Motors having windings on the stator and a variable-reluctance soft-iron rotor without windings, e.g. inductor motors"
+          }
+        },
+        {
+          "code": "H02K 19/08",
+          "title": {
+            "ko": null,
+            "en": "Motors having windings on the stator and a smooth rotor without windings of material with large hysteresis, e.g. hysteresis motors"
+          }
+        },
+        {
+          "code": "H02K 19/10",
+          "title": {
+            "ko": null,
+            "en": "for multi-phase current"
+          }
+        },
+        {
+          "code": "H02K 19/12",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of exciting windings, e.g. for self-excitation, compounding or pole-changing"
+          }
+        },
+        {
+          "code": "H02K 19/14",
+          "title": {
+            "ko": null,
+            "en": "having additional short-circuited windings for starting as asynchronous motors"
+          }
+        },
+        {
+          "code": "H02K 19/16",
+          "title": {
+            "ko": null,
+            "en": "Synchronous generators"
+          }
+        },
+        {
+          "code": "H02K 19/18",
+          "title": {
+            "ko": null,
+            "en": "having windings each turn of which co-operates only with poles of one polarity, e.g. homopolar generators"
+          }
+        },
+        {
+          "code": "H02K 19/20",
+          "title": {
+            "ko": null,
+            "en": "with variable-reluctance soft-iron rotors without winding"
+          }
+        },
+        {
+          "code": "H02K 19/22",
+          "title": {
+            "ko": null,
+            "en": "having windings each turn of which co-operates alternately with poles of opposite polarity, e.g. heteropolar generators"
+          }
+        },
+        {
+          "code": "H02K 19/24",
+          "title": {
+            "ko": null,
+            "en": "with variable-reluctance soft-iron rotors without winding"
+          }
+        },
+        {
+          "code": "H02K 19/26",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of exciting windings"
+          }
+        },
+        {
+          "code": "H02K 19/28",
+          "title": {
+            "ko": null,
+            "en": "for self-excitation"
+          }
+        },
+        {
+          "code": "H02K 19/30",
+          "title": {
+            "ko": null,
+            "en": "for compounding"
+          }
+        },
+        {
+          "code": "H02K 19/32",
+          "title": {
+            "ko": null,
+            "en": "for pole-changing"
+          }
+        },
+        {
+          "code": "H02K 19/34",
+          "title": {
+            "ko": null,
+            "en": "Generators with two or more outputs"
+          }
+        },
+        {
+          "code": "H02K 19/36",
+          "title": {
+            "ko": null,
+            "en": "Structural association of synchronous generators with auxiliary electric devices influencing the characteristic of the generator or controlling the generator, e.g. with impedances or switches"
+          }
+        },
+        {
+          "code": "H02K 19/38",
+          "title": {
+            "ko": null,
+            "en": "Structural association of synchronous generators with exciting machines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 21/00",
+      "title": {
+        "ko": "영구자석이 있는 동기전동기; 영구자석이 있는 동기발전기",
+        "en": "Synchronous motors having permanent magnets; Synchronous generators having permanent magnets"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 21/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H02K 21/04",
+          "title": {
+            "ko": null,
+            "en": "Windings on magnets for additional excitation"
+          }
+        },
+        {
+          "code": "H02K 21/10",
+          "title": {
+            "ko": null,
+            "en": "Rotating armatures"
+          }
+        },
+        {
+          "code": "H02K 21/12",
+          "title": {
+            "ko": "고정전기자와 회전영구자석이 있는 것",
+            "en": "with stationary armatures and rotating magnets"
+          }
+        },
+        {
+          "code": "H02K 21/14",
+          "title": {
+            "ko": "전기자내에 영구자석이 회전하는 것",
+            "en": "with magnets rotating within the armatures"
+          }
+        },
+        {
+          "code": "H02K 21/16",
+          "title": {
+            "ko": "· 돌출 극 환상 전기자철심이 있는 것(단극과 관련하는 것 H02K 21/20)",
+            "en": "having annular armature cores with salient poles (with homopolar co-operation H02K0021200000)"
+          }
+        },
+        {
+          "code": "H02K 21/18",
+          "title": {
+            "ko": "· U 자형 전기자철심이 있는 것(단극과 관련하는 것 H02K 21/20)",
+            "en": "having horse-shoe armature cores (with homopolar co-operation H02K0021200000)"
+          }
+        },
+        {
+          "code": "H02K 21/20",
+          "title": {
+            "ko": null,
+            "en": "having windings each turn of which co-operates only with poles of one polarity, e.g. homopolar machine"
+          }
+        },
+        {
+          "code": "H02K 21/22",
+          "title": {
+            "ko": null,
+            "en": "with magnets rotating around the armatures, e.g. flywheel magnetos"
+          }
+        },
+        {
+          "code": "H02K 21/24",
+          "title": {
+            "ko": null,
+            "en": "with magnets axially facing the armatures, e.g. hub-type cycle dynamos"
+          }
+        },
+        {
+          "code": "H02K 21/26",
+          "title": {
+            "ko": "회전전기자와 고정영구자석이 있는 것",
+            "en": "with rotating armatures and stationary magnets"
+          }
+        },
+        {
+          "code": "H02K 21/28",
+          "title": {
+            "ko": "영구자석에서 전기자가 회전하는 것",
+            "en": "with armatures rotating within the magnets"
+          }
+        },
+        {
+          "code": "H02K 21/30",
+          "title": {
+            "ko": "· 돌출 극 환상 전기자철심이 있는 것(단극과 관련하는 것 H02K 21/36)",
+            "en": "having annular armature cores with salient poles (with homopolar co-operation H02K0021360000)"
+          }
+        },
+        {
+          "code": "H02K 21/32",
+          "title": {
+            "ko": "· U 자형 영구자석이 있는 것 (단극과 관련하는 것 H02K 21/36)",
+            "en": "having horse-shoe magnets (with homopolar co-operation H02K0021360000)"
+          }
+        },
+        {
+          "code": "H02K 21/34",
+          "title": {
+            "ko": "· 중공원통형 또는 봉상영구자석이 있는 것, 예. 자전거 조명용 (단극과 관련하는 것 H02K 21/36)",
+            "en": "having bell-shaped or bar-shaped magnets, e.g. for cycle lighting (with homopolar co-operation H02K0021360000)"
+          }
+        },
+        {
+          "code": "H02K 21/36",
+          "title": {
+            "ko": null,
+            "en": "with homopolar co-operation"
+          }
+        },
+        {
+          "code": "H02K 21/38",
+          "title": {
+            "ko": null,
+            "en": "with rotating flux distributors, and armatures and magnets both stationary"
+          }
+        },
+        {
+          "code": "H02K 21/40",
+          "title": {
+            "ko": null,
+            "en": "with flux distributors rotating around the magnets and within the armatures"
+          }
+        },
+        {
+          "code": "H02K 21/42",
+          "title": {
+            "ko": null,
+            "en": "with flux distributors rotating around the armatures and within the magnets"
+          }
+        },
+        {
+          "code": "H02K 21/44",
+          "title": {
+            "ko": null,
+            "en": "with armature windings wound upon the magnets"
+          }
+        },
+        {
+          "code": "H02K 21/46",
+          "title": {
+            "ko": null,
+            "en": "Motors having additional short-circuited winding for starting as an asynchronous motor"
+          }
+        },
+        {
+          "code": "H02K 21/48",
+          "title": {
+            "ko": null,
+            "en": "Generators with two or more outputs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 23/00",
+      "title": {
+        "ko": null,
+        "en": "DC commutator motors or generators having mechanical commutator; Universal AC/DC commutator motors"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 23/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by arrangement for exciting"
+          }
+        },
+        {
+          "code": "H02K 23/04",
+          "title": {
+            "ko": null,
+            "en": "having permanent magnet excitation"
+          }
+        },
+        {
+          "code": "H02K 23/06",
+          "title": {
+            "ko": null,
+            "en": "having shunt connection of excitation windings"
+          }
+        },
+        {
+          "code": "H02K 23/08",
+          "title": {
+            "ko": null,
+            "en": "having series connection of excitation windings"
+          }
+        },
+        {
+          "code": "H02K 23/10",
+          "title": {
+            "ko": null,
+            "en": "having compound connection of excitation windings"
+          }
+        },
+        {
+          "code": "H02K 23/12",
+          "title": {
+            "ko": null,
+            "en": "having excitation produced by current sources independent of the armature circuit"
+          }
+        },
+        {
+          "code": "H02K 23/14",
+          "title": {
+            "ko": null,
+            "en": "having high-speed excitation or de-excitation, e.g. by neutralising the remanent excitation field"
+          }
+        },
+        {
+          "code": "H02K 23/16",
+          "title": {
+            "ko": null,
+            "en": "having angularly adjustable excitation field, e.g. by pole reversing or pole switching"
+          }
+        },
+        {
+          "code": "H02K 23/18",
+          "title": {
+            "ko": null,
+            "en": "having displaceable main or auxiliary brushes"
+          }
+        },
+        {
+          "code": "H02K 23/20",
+          "title": {
+            "ko": null,
+            "en": "having additional brushes spaced intermediately of the main brushes on the commutator, e.g. cross-field machines, metadynes, amplidynes or other armature-reaction excited machines"
+          }
+        },
+        {
+          "code": "H02K 23/22",
+          "title": {
+            "ko": null,
+            "en": "having compensating or damping windings"
+          }
+        },
+        {
+          "code": "H02K 23/24",
+          "title": {
+            "ko": null,
+            "en": "having commutating-pole windings"
+          }
+        },
+        {
+          "code": "H02K 23/26",
+          "title": {
+            "ko": null,
+            "en": "characterised by the armature windings"
+          }
+        },
+        {
+          "code": "H02K 23/28",
+          "title": {
+            "ko": null,
+            "en": "having open windings, i.e. not closed within the armatures"
+          }
+        },
+        {
+          "code": "H02K 23/30",
+          "title": {
+            "ko": null,
+            "en": "having lap or loop windings"
+          }
+        },
+        {
+          "code": "H02K 23/32",
+          "title": {
+            "ko": null,
+            "en": "having wave or undulating winding"
+          }
+        },
+        {
+          "code": "H02K 23/34",
+          "title": {
+            "ko": null,
+            "en": "having mixed windings"
+          }
+        },
+        {
+          "code": "H02K 23/36",
+          "title": {
+            "ko": null,
+            "en": "having two or more windings; having two or more commutators; having two or more stators"
+          }
+        },
+        {
+          "code": "H02K 23/38",
+          "title": {
+            "ko": null,
+            "en": "having winding or connection for improving commutation, e.g. equipotential connection"
+          }
+        },
+        {
+          "code": "H02K 23/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by the arrangement of the magnet circuits"
+          }
+        },
+        {
+          "code": "H02K 23/42",
+          "title": {
+            "ko": null,
+            "en": "having split poles, i.e. zones for varying reluctance by gaps in poles or by poles with different spacing of the air gap"
+          }
+        },
+        {
+          "code": "H02K 23/44",
+          "title": {
+            "ko": null,
+            "en": "having movable, e.g. turnable, iron parts"
+          }
+        },
+        {
+          "code": "H02K 23/46",
+          "title": {
+            "ko": null,
+            "en": "having stationary shunts, i.e. magnetic cross flux"
+          }
+        },
+        {
+          "code": "H02K 23/48",
+          "title": {
+            "ko": null,
+            "en": "having adjustable armatures"
+          }
+        },
+        {
+          "code": "H02K 23/50",
+          "title": {
+            "ko": null,
+            "en": "Generators with two or more outputs"
+          }
+        },
+        {
+          "code": "H02K 23/52",
+          "title": {
+            "ko": null,
+            "en": "Motors acting also as generators, e.g. starting motors used as generators for ignition or lighting"
+          }
+        },
+        {
+          "code": "H02K 23/54",
+          "title": {
+            "ko": null,
+            "en": "Disc armature motors or generators"
+          }
+        },
+        {
+          "code": "H02K 23/56",
+          "title": {
+            "ko": null,
+            "en": "Motors or generators having iron cores separated from armature winding"
+          }
+        },
+        {
+          "code": "H02K 23/58",
+          "title": {
+            "ko": null,
+            "en": "Motors or generators without iron cores"
+          }
+        },
+        {
+          "code": "H02K 23/60",
+          "title": {
+            "ko": null,
+            "en": "Motors or generators having rotating armatures and rotating excitation field"
+          }
+        },
+        {
+          "code": "H02K 23/62",
+          "title": {
+            "ko": null,
+            "en": "Motors or generators with stationary armatures and rotating excitation field"
+          }
+        },
+        {
+          "code": "H02K 23/64",
+          "title": {
+            "ko": null,
+            "en": "Motors specially adapted for running on DC or AC by choice"
+          }
+        },
+        {
+          "code": "H02K 23/66",
+          "title": {
+            "ko": null,
+            "en": "Structural association with auxiliary electric devices influencing the characteristic of, or controlling, the machine, e.g. with impedances or switches"
+          }
+        },
+        {
+          "code": "H02K 23/68",
+          "title": {
+            "ko": null,
+            "en": "Structural association with auxiliary mechanical devices, e.g. with clutches or brakes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 24/00",
+      "title": {
+        "ko": null,
+        "en": "Machines adapted for the instantaneous transmission or reception of the angular displacement of rotating parts, e.g. synchro, selsyn"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02K 25/00",
+      "title": {
+        "ko": null,
+        "en": "DC interrupter motors or generators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02K 26/00",
+      "title": {
+        "ko": null,
+        "en": "Machines adapted to function as torque motors, i.e. to exert a torque when stalled"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02K 27/00",
+      "title": {
+        "ko": null,
+        "en": "AC commutator motors or generators having mechanical commutator"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 27/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the armature winding"
+          }
+        },
+        {
+          "code": "H02K 27/04",
+          "title": {
+            "ko": null,
+            "en": "having single-phase operation in series or shunt connection"
+          }
+        },
+        {
+          "code": "H02K 27/06",
+          "title": {
+            "ko": null,
+            "en": "with a single or multiple short-circuited commutator, e.g. repulsion motor"
+          }
+        },
+        {
+          "code": "H02K 27/08",
+          "title": {
+            "ko": null,
+            "en": "with multiple-fed armature"
+          }
+        },
+        {
+          "code": "H02K 27/10",
+          "title": {
+            "ko": null,
+            "en": "with switching devices for different modes of operation, e.g. repulsion-induction motor"
+          }
+        },
+        {
+          "code": "H02K 27/12",
+          "title": {
+            "ko": null,
+            "en": "having multi-phase operation"
+          }
+        },
+        {
+          "code": "H02K 27/14",
+          "title": {
+            "ko": null,
+            "en": "in series connection"
+          }
+        },
+        {
+          "code": "H02K 27/16",
+          "title": {
+            "ko": null,
+            "en": "in shunt connection with stator feeding"
+          }
+        },
+        {
+          "code": "H02K 27/18",
+          "title": {
+            "ko": null,
+            "en": "in shunt connection with rotor feeding"
+          }
+        },
+        {
+          "code": "H02K 27/20",
+          "title": {
+            "ko": null,
+            "en": "Structural association with a speed regulating device"
+          }
+        },
+        {
+          "code": "H02K 27/22",
+          "title": {
+            "ko": null,
+            "en": "having means for improving commutation, e.g. auxiliary fields, double windings, double brushes"
+          }
+        },
+        {
+          "code": "H02K 27/24",
+          "title": {
+            "ko": null,
+            "en": "having two or more commutators"
+          }
+        },
+        {
+          "code": "H02K 27/26",
+          "title": {
+            "ko": null,
+            "en": "having disc armature"
+          }
+        },
+        {
+          "code": "H02K 27/28",
+          "title": {
+            "ko": null,
+            "en": "Structural association with auxiliary electric devices influencing the characteristic of the machine or controlling the machine"
+          }
+        },
+        {
+          "code": "H02K 27/30",
+          "title": {
+            "ko": null,
+            "en": "Structural association with auxiliary mechanical devices, e.g. with clutches or brakes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 29/00",
+      "title": {
+        "ko": "비기계적 정류장치를 갖는 전동기 또는 발전기, 예. 방전관, 반도체소자",
+        "en": "Motors or generators having non-mechanical commutating devices, e.g. discharge tubes or semiconductor devices"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 29/03",
+          "title": {
+            "ko": null,
+            "en": "with a magnetic circuit specially adapted for avoiding torque ripples or self-starting problems"
+          }
+        },
+        {
+          "code": "H02K 29/06",
+          "title": {
+            "ko": "위치검지기를 가진 것(H02K 29/03이 우선)",
+            "en": "with position sensing devices (H02K0029030000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 29/08",
+          "title": {
+            "ko": "자기 효과 소자를 사용하는 것, 예. 홀-플레이트 또는 자기-저항 (H02K29/12가 우선)",
+            "en": "using magnetic effect devices, e.g. Hall-plates or magneto-resistors (H02K0029120000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 29/10",
+          "title": {
+            "ko": null,
+            "en": "using light effect devices"
+          }
+        },
+        {
+          "code": "H02K 29/12",
+          "title": {
+            "ko": null,
+            "en": "using detecting coils"
+          }
+        },
+        {
+          "code": "H02K 29/14",
+          "title": {
+            "ko": "속도 검지기를 가진 것(H02K 29/03이 우선)",
+            "en": "with speed sensing devices (H02K0029030000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 31/00",
+      "title": {
+        "ko": null,
+        "en": "Acyclic motors or generators, i.e. DC machines having drum or disc armatures with continuous current collectors"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 31/02",
+          "title": {
+            "ko": null,
+            "en": "with solid-contact collectors"
+          }
+        },
+        {
+          "code": "H02K 31/04",
+          "title": {
+            "ko": null,
+            "en": "with at least one liquid-contact collector"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 33/00",
+      "title": {
+        "ko": "왕복운동 또는 진동(oscillating, vibrating)하는 자석, 전기자 또는 코일을 갖는 전동기 (전동기와 구조적으로 결합되어 기계적 에너지 취급하는 장치 H02K 7/00, 예. H02K 7/06)",
+        "en": "Motors with reciprocating, oscillating or vibrating magnet, armature or coil system (arrangements for handling mechanical energy structurally associated with motors H02K0007000000, e.g. H02K0007060000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 33/02",
+          "title": {
+            "ko": null,
+            "en": "with armatures moved one way by energisation of a single coil system and returned by mechanical force, e.g. by springs"
+          }
+        },
+        {
+          "code": "H02K 33/04",
+          "title": {
+            "ko": null,
+            "en": "wherein the frequency of operation is determined by the frequency of uninterrupted AC energisation"
+          }
+        },
+        {
+          "code": "H02K 33/06",
+          "title": {
+            "ko": null,
+            "en": "with polarised armatures"
+          }
+        },
+        {
+          "code": "H02K 33/08",
+          "title": {
+            "ko": null,
+            "en": "with DC energisation superimposed on AC energisation"
+          }
+        },
+        {
+          "code": "H02K 33/10",
+          "title": {
+            "ko": null,
+            "en": "wherein the alternate energisation and de-energisation of the single coil system is effected or controlled by movement of the armatures"
+          }
+        },
+        {
+          "code": "H02K 33/12",
+          "title": {
+            "ko": null,
+            "en": "with armatures moving in alternate directions by alternate energisation of two coil systems"
+          }
+        },
+        {
+          "code": "H02K 33/14",
+          "title": {
+            "ko": null,
+            "en": "wherein the alternate energisation and de-energisation of the two coil systems are effected or controlled by movement of the armatures"
+          }
+        },
+        {
+          "code": "H02K 33/16",
+          "title": {
+            "ko": null,
+            "en": "with polarised armatures moving in alternate directions by reversal or energisation of a single coil system"
+          }
+        },
+        {
+          "code": "H02K 33/18",
+          "title": {
+            "ko": null,
+            "en": "with coil systems moving upon intermittent or reversed energisation thereof by interaction with a fixed field system, e.g. permanent magnets"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 35/00",
+      "title": {
+        "ko": "왕복 운동 또는 진동(oscillating, vibrating)하는 코일, 자석, 전기자 또는 기타 자기회로부분을 갖는 발전기 (발전기와 구조적으로 결합해서 기계적 에너지 취급하는 장치 H02K 7/00, 예. H02K 7/06)",
+        "en": "Generators with reciprocating, oscillating or vibrating coil system, magnet, armature or other part of the magnetic circuit (arrangements for handling mechanical energy structurally associated with generators H02K0007000000, e.g. H02K0007060000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 35/02",
+          "title": {
+            "ko": null,
+            "en": "with moving magnets and stationary coil systems"
+          }
+        },
+        {
+          "code": "H02K 35/04",
+          "title": {
+            "ko": null,
+            "en": "with moving coil systems and stationary magnets"
+          }
+        },
+        {
+          "code": "H02K 35/06",
+          "title": {
+            "ko": null,
+            "en": "with moving flux distributors, and both coil systems and magnets stationary"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 37/00",
+      "title": {
+        "ko": "전기자로 진동되는 단속기 또는 정류자가 없는 계동회전전기자가 있는 전동기, 예. 스텝핑모터 (stepping Motor)",
+        "en": "Motors with rotor rotating step by step and without interrupter or commutator driven by the rotor, e.g. stepping motors"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 37/02",
+          "title": {
+            "ko": null,
+            "en": "of variable reluctance type"
+          }
+        },
+        {
+          "code": "H02K 37/04",
+          "title": {
+            "ko": null,
+            "en": "with rotors situated within the stators"
+          }
+        },
+        {
+          "code": "H02K 37/06",
+          "title": {
+            "ko": null,
+            "en": "with rotors situated around the stators"
+          }
+        },
+        {
+          "code": "H02K 37/08",
+          "title": {
+            "ko": null,
+            "en": "with rotors axially facing the stators"
+          }
+        },
+        {
+          "code": "H02K 37/10",
+          "title": {
+            "ko": "영구자석형(H02K 37/02가 우선)",
+            "en": "of permanent magnet type (H02K0037020000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 37/12",
+          "title": {
+            "ko": null,
+            "en": "with stationary armatures and rotating magnets"
+          }
+        },
+        {
+          "code": "H02K 37/14",
+          "title": {
+            "ko": null,
+            "en": "with magnets rotating within the armatures"
+          }
+        },
+        {
+          "code": "H02K 37/16",
+          "title": {
+            "ko": null,
+            "en": "having horseshoe armature cores"
+          }
+        },
+        {
+          "code": "H02K 37/18",
+          "title": {
+            "ko": null,
+            "en": "of homopolar type"
+          }
+        },
+        {
+          "code": "H02K 37/20",
+          "title": {
+            "ko": null,
+            "en": "with rotating flux distributors, the armatures and magnets both being stationary"
+          }
+        },
+        {
+          "code": "H02K 37/22",
+          "title": {
+            "ko": null,
+            "en": "Damping units"
+          }
+        },
+        {
+          "code": "H02K 37/24",
+          "title": {
+            "ko": null,
+            "en": "Structural association with auxiliary mechanical devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 39/00",
+      "title": {
+        "ko": null,
+        "en": "Generators specially adapted for producing a desired non-sinusoidal waveform"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02K 41/00",
+      "title": {
+        "ko": "고체와 그 이동통로에 따라서 이동하는 자계간의 전자력으로 고체를 움직이는 구동장치",
+        "en": "Propulsion systems in which a rigid body is moved along a path due to dynamo-electric interaction between the body and a magnetic field travelling along the path"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 41/02",
+          "title": {
+            "ko": "직선운동 전동기(Linear Motors); 부분전자형 전동기(Sectional Motors)",
+            "en": "Linear motors; Sectional motors"
+          }
+        },
+        {
+          "code": "H02K 41/025",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous motors"
+          }
+        },
+        {
+          "code": "H02K 41/03",
+          "title": {
+            "ko": "동기전동기; 계동이동전동기; 자기저항의 변화를 이용한 전동기(H02K 41/035가 우선)",
+            "en": "Synchronous motors; Motors moving step by step; Reluctance motors (H02K0041035000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02K 41/035",
+          "title": {
+            "ko": null,
+            "en": "DC motors; Unipolar motors"
+          }
+        },
+        {
+          "code": "H02K 41/06",
+          "title": {
+            "ko": null,
+            "en": "Rolling motors, i.e. motors having the rotor axis parallel to the stator axis and following a circular path as the rotor rolls around the inside or outside of the stator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 44/00",
+      "title": {
+        "ko": "플라스마(Plasma) 또는 도전성 액체의 흐름 또는 자성입자가 있는 유체의 흐름과 코일장치 또는 자계의 사이의 동전적 상호작용으로 유체 질량의 에너지 전기에너지 또는 그 역으로 변환하는 발전기 또는 전동기",
+        "en": "Machines in which the dynamo-electric interaction between a plasma or flow of conductive liquid or of fluid-borne conductive or magnetic particles and a coil system or magnetic field converts energy of mass flow into electrical energy or vice versa"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 44/02",
+          "title": {
+            "ko": null,
+            "en": "Electrodynamic pumps"
+          }
+        },
+        {
+          "code": "H02K 44/04",
+          "title": {
+            "ko": null,
+            "en": "Conduction pumps"
+          }
+        },
+        {
+          "code": "H02K 44/06",
+          "title": {
+            "ko": null,
+            "en": "Induction pumps"
+          }
+        },
+        {
+          "code": "H02K 44/08",
+          "title": {
+            "ko": null,
+            "en": "Magnetohydrodynamic [MHD] generators"
+          }
+        },
+        {
+          "code": "H02K 44/10",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of electrodes"
+          }
+        },
+        {
+          "code": "H02K 44/12",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of fluid channels"
+          }
+        },
+        {
+          "code": "H02K 44/14",
+          "title": {
+            "ko": null,
+            "en": "Circular or screw-shaped channels"
+          }
+        },
+        {
+          "code": "H02K 44/16",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of the magnetic circuits"
+          }
+        },
+        {
+          "code": "H02K 44/18",
+          "title": {
+            "ko": null,
+            "en": "for generating AC power"
+          }
+        },
+        {
+          "code": "H02K 44/20",
+          "title": {
+            "ko": null,
+            "en": "by changing the polarity of the magnetic field"
+          }
+        },
+        {
+          "code": "H02K 44/22",
+          "title": {
+            "ko": null,
+            "en": "by changing the conductivity of the fluid"
+          }
+        },
+        {
+          "code": "H02K 44/24",
+          "title": {
+            "ko": null,
+            "en": "by reversing the direction of fluid"
+          }
+        },
+        {
+          "code": "H02K 44/26",
+          "title": {
+            "ko": null,
+            "en": "by creating a travelling magnetic field"
+          }
+        },
+        {
+          "code": "H02K 44/28",
+          "title": {
+            "ko": "MHD 발전기와 종래형 발전기와의 결합(MHD 발전기를 포함하는 원자력기비 G21D 7/02)",
+            "en": "Association of MHD generators with conventional generators (nuclear power plants including a MHD generator G21D0007020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 47/00",
+      "title": {
+        "ko": null,
+        "en": "Dynamo-electric converters"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 47/02",
+          "title": {
+            "ko": null,
+            "en": "AC/DC converters or vice versa"
+          }
+        },
+        {
+          "code": "H02K 47/04",
+          "title": {
+            "ko": null,
+            "en": "Motor/generators"
+          }
+        },
+        {
+          "code": "H02K 47/06",
+          "title": {
+            "ko": null,
+            "en": "Cascade converters"
+          }
+        },
+        {
+          "code": "H02K 47/08",
+          "title": {
+            "ko": null,
+            "en": "Single-armature converters"
+          }
+        },
+        {
+          "code": "H02K 47/10",
+          "title": {
+            "ko": null,
+            "en": "with booster machines on the AC side"
+          }
+        },
+        {
+          "code": "H02K 47/12",
+          "title": {
+            "ko": null,
+            "en": "DC/DC converters"
+          }
+        },
+        {
+          "code": "H02K 47/14",
+          "title": {
+            "ko": null,
+            "en": "Motor/generators"
+          }
+        },
+        {
+          "code": "H02K 47/16",
+          "title": {
+            "ko": null,
+            "en": "Single-armature converters, e.g. metadyne"
+          }
+        },
+        {
+          "code": "H02K 47/18",
+          "title": {
+            "ko": null,
+            "en": "AC/AC converters"
+          }
+        },
+        {
+          "code": "H02K 47/20",
+          "title": {
+            "ko": null,
+            "en": "Motor/generators"
+          }
+        },
+        {
+          "code": "H02K 47/22",
+          "title": {
+            "ko": null,
+            "en": "Single-armature frequency converters with or without phase-number conversion"
+          }
+        },
+        {
+          "code": "H02K 47/24",
+          "title": {
+            "ko": null,
+            "en": "having windings for different numbers of poles"
+          }
+        },
+        {
+          "code": "H02K 47/26",
+          "title": {
+            "ko": null,
+            "en": "operating as under- or over-synchronously running asynchronous induction machines, e.g. cascade arrangement of asynchronous and synchronous machines"
+          }
+        },
+        {
+          "code": "H02K 47/28",
+          "title": {
+            "ko": null,
+            "en": "operating as commutator machines with added slip-rings"
+          }
+        },
+        {
+          "code": "H02K 47/30",
+          "title": {
+            "ko": null,
+            "en": "Single-armature phase-number converters without frequency conversion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 49/00",
+      "title": {
+        "ko": null,
+        "en": "Dynamo-electric clutches; Dynamo-electric brakes"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 49/02",
+          "title": {
+            "ko": null,
+            "en": "of the asynchronous induction type"
+          }
+        },
+        {
+          "code": "H02K 49/04",
+          "title": {
+            "ko": null,
+            "en": "of the eddy-current hysteresis type"
+          }
+        },
+        {
+          "code": "H02K 49/06",
+          "title": {
+            "ko": null,
+            "en": "of the synchronous type"
+          }
+        },
+        {
+          "code": "H02K 49/08",
+          "title": {
+            "ko": null,
+            "en": "of the collector armature type"
+          }
+        },
+        {
+          "code": "H02K 49/10",
+          "title": {
+            "ko": null,
+            "en": "of the permanent-magnet type"
+          }
+        },
+        {
+          "code": "H02K 49/12",
+          "title": {
+            "ko": null,
+            "en": "of the acyclic type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 51/00",
+      "title": {
+        "ko": null,
+        "en": "Dynamo-electric gears, i.e. dynamo-electric means for transmitting mechanical power from a driving shaft to a driven shaft and comprising structurally interrelated motor and generator parts"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02K 53/00",
+      "title": {
+        "ko": null,
+        "en": "Alleged dynamo-electric perpetua mobilia"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02K 55/00",
+      "title": {
+        "ko": null,
+        "en": "Dynamo-electric machines having windings operating at cryogenic temperatures"
+      },
+      "subgroups": [
+        {
+          "code": "H02K 55/02",
+          "title": {
+            "ko": null,
+            "en": "of the synchronous type"
+          }
+        },
+        {
+          "code": "H02K 55/04",
+          "title": {
+            "ko": null,
+            "en": "with rotating field windings"
+          }
+        },
+        {
+          "code": "H02K 55/06",
+          "title": {
+            "ko": null,
+            "en": "of the homopolar type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02K 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

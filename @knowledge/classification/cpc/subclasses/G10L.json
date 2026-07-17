@@ -1,0 +1,379 @@
+{
+  "subclass": "G10L",
+  "title": {
+    "ko": null,
+    "en": "SPEECH ANALYSIS TECHNIQUES OR SPEECH SYNTHESIS; SPEECH RECOGNITION; SPEECH OR VOICE PROCESSING TECHNIQUES; SPEECH OR AUDIO CODING OR DECODING"
+  },
+  "groups": [
+    {
+      "code": "G10L 13/00",
+      "title": {
+        "ko": null,
+        "en": "Speech synthesis; Text to speech systems"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 13/02",
+          "title": {
+            "ko": null,
+            "en": "Methods for producing synthetic speech; Speech synthesisers"
+          }
+        },
+        {
+          "code": "G10L 13/06",
+          "title": {
+            "ko": null,
+            "en": "Elementary speech units used in speech synthesisers; Concatenation rules"
+          }
+        },
+        {
+          "code": "G10L 13/08",
+          "title": {
+            "ko": null,
+            "en": "Text analysis or generation of parameters for speech synthesis out of text, e.g. grapheme to phoneme translation, prosody generation or stress or intonation determination"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 15/00",
+      "title": {
+        "ko": null,
+        "en": "Speech recognition (G10L17/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 15/005",
+          "title": {
+            "ko": null,
+            "en": "{Language recognition}"
+          }
+        },
+        {
+          "code": "G10L 15/01",
+          "title": {
+            "ko": null,
+            "en": "Assessment or evaluation of speech recognition systems"
+          }
+        },
+        {
+          "code": "G10L 15/02",
+          "title": {
+            "ko": null,
+            "en": "Feature extraction for speech recognition; Selection of recognition unit"
+          }
+        },
+        {
+          "code": "G10L 15/04",
+          "title": {
+            "ko": null,
+            "en": "Segmentation; Word boundary detection"
+          }
+        },
+        {
+          "code": "G10L 15/06",
+          "title": {
+            "ko": null,
+            "en": "Creation of reference templates; Training of speech recognition systems, e.g. adaptation to the characteristics of the speaker's voice (G10L15/14 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 15/08",
+          "title": {
+            "ko": null,
+            "en": "Speech classification or search"
+          }
+        },
+        {
+          "code": "G10L 15/20",
+          "title": {
+            "ko": null,
+            "en": "Speech recognition techniques specially adapted for robustness in adverse environments, e.g. in noise, of stress induced speech (G10L21/02 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 15/22",
+          "title": {
+            "ko": null,
+            "en": "Procedures used during a speech recognition process, e.g. man-machine dialogue"
+          }
+        },
+        {
+          "code": "G10L 15/24",
+          "title": {
+            "ko": null,
+            "en": "Speech recognition using non-acoustical features"
+          }
+        },
+        {
+          "code": "G10L 15/26",
+          "title": {
+            "ko": null,
+            "en": "Speech to text systems (G10L15/08 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 15/28",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of speech recognition systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 17/00",
+      "title": {
+        "ko": null,
+        "en": "Speaker identification or verification techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 17/02",
+          "title": {
+            "ko": null,
+            "en": "Preprocessing operations, e.g. segment selection; Pattern representation or modelling, e.g. based on linear discriminant analysis [LDA] or principal components; Feature selection or extraction"
+          }
+        },
+        {
+          "code": "G10L 17/04",
+          "title": {
+            "ko": null,
+            "en": "Training, enrolment or model building"
+          }
+        },
+        {
+          "code": "G10L 17/06",
+          "title": {
+            "ko": null,
+            "en": "Decision making techniques; Pattern matching strategies"
+          }
+        },
+        {
+          "code": "G10L 17/16",
+          "title": {
+            "ko": null,
+            "en": "Hidden Markov models [HMM]"
+          }
+        },
+        {
+          "code": "G10L 17/18",
+          "title": {
+            "ko": null,
+            "en": "Artificial neural networks; Connectionist approaches"
+          }
+        },
+        {
+          "code": "G10L 17/20",
+          "title": {
+            "ko": null,
+            "en": "Pattern transformations or operations aimed at increasing system robustness, e.g. against channel noise or different working conditions"
+          }
+        },
+        {
+          "code": "G10L 17/22",
+          "title": {
+            "ko": null,
+            "en": "Interactive procedures; Man-machine interfaces"
+          }
+        },
+        {
+          "code": "G10L 17/26",
+          "title": {
+            "ko": null,
+            "en": "Recognition of special voice characteristics, e.g. for use in lie detectors; Recognition of animal voices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 19/00",
+      "title": {
+        "ko": null,
+        "en": "Speech or audio signals analysis-synthesis techniques for redundancy reduction, e.g. in vocoders; Coding or decoding of speech or audio signals, using source filter models or psychoacoustic analysis (in musical instruments G10H)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 2019/0001",
+          "title": {
+            "ko": null,
+            "en": "{Codebooks}"
+          }
+        },
+        {
+          "code": "G10L 19/0017",
+          "title": {
+            "ko": null,
+            "en": "{Lossless audio signal coding; Perfect reconstruction of coded audio signal by transmission of coding error (G10L19/24 takes precedence)}"
+          }
+        },
+        {
+          "code": "G10L 19/0018",
+          "title": {
+            "ko": null,
+            "en": "{Speech coding using phonetic or linguistical decoding of the source; Reconstruction using text-to-speech synthesis}"
+          }
+        },
+        {
+          "code": "G10L 19/002",
+          "title": {
+            "ko": null,
+            "en": "Dynamic bit allocation (for perceptual audio coders G10L19/032)"
+          }
+        },
+        {
+          "code": "G10L 19/005",
+          "title": {
+            "ko": null,
+            "en": "Correction of errors induced by the transmission channel, if related to the coding algorithm"
+          }
+        },
+        {
+          "code": "G10L 19/008",
+          "title": {
+            "ko": null,
+            "en": "Multichannel audio signal coding or decoding using interchannel correlation to reduce redundancy, e.g. joint-stereo, intensity-coding or matrixing"
+          }
+        },
+        {
+          "code": "G10L 19/012",
+          "title": {
+            "ko": null,
+            "en": "Comfort noise or silence coding"
+          }
+        },
+        {
+          "code": "G10L 19/018",
+          "title": {
+            "ko": null,
+            "en": "Audio watermarking, i.e. embedding inaudible data in the audio signal"
+          }
+        },
+        {
+          "code": "G10L 19/02",
+          "title": {
+            "ko": null,
+            "en": "using spectral analysis, e.g. transform vocoders or subband vocoders"
+          }
+        },
+        {
+          "code": "G10L 19/04",
+          "title": {
+            "ko": null,
+            "en": "using predictive techniques"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 21/00",
+      "title": {
+        "ko": null,
+        "en": "Speech or voice signal processing techniques to produce another audible or non-audible signal, e.g. visual or tactile, in order to modify its quality or its intelligibility (G10L19/00 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 21/003",
+          "title": {
+            "ko": null,
+            "en": "Changing voice quality, e.g. pitch or formants"
+          }
+        },
+        {
+          "code": "G10L 21/02",
+          "title": {
+            "ko": null,
+            "en": "Speech enhancement, e.g. noise reduction or echo cancellation (reducing echo effects in line transmission systems H04B3/20; echo suppression in hands-free telephones H04M9/08)"
+          }
+        },
+        {
+          "code": "G10L 21/04",
+          "title": {
+            "ko": null,
+            "en": "Time compression or expansion"
+          }
+        },
+        {
+          "code": "G10L 21/06",
+          "title": {
+            "ko": null,
+            "en": "Transformation of speech into a non-audible representation, e.g. speech visualisation or speech processing for tactile aids (G10L15/26 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 25/00",
+      "title": {
+        "ko": null,
+        "en": "Speech or voice analysis techniques not restricted to a single one of groups G10L15/00 - G10L21/00 (muting semiconductor-based amplifiers when some special characteristics of a signal are sensed by a speech detector, e.g. sensing when no signal is present, H03G3/34)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 25/03",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of extracted parameters"
+          }
+        },
+        {
+          "code": "G10L 25/27",
+          "title": {
+            "ko": null,
+            "en": "characterised by the analysis technique"
+          }
+        },
+        {
+          "code": "G10L 25/45",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of analysis window"
+          }
+        },
+        {
+          "code": "G10L 25/48",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for particular use"
+          }
+        },
+        {
+          "code": "G10L 25/75",
+          "title": {
+            "ko": null,
+            "en": "for modelling vocal tract parameters"
+          }
+        },
+        {
+          "code": "G10L 25/78",
+          "title": {
+            "ko": null,
+            "en": "Detection of presence or absence of voice signals (switching of direction of transmission by voice frequency in two-way loud-speaking telephone systems H04M9/10)"
+          }
+        },
+        {
+          "code": "G10L 25/90",
+          "title": {
+            "ko": null,
+            "en": "Pitch determination of speech signals"
+          }
+        },
+        {
+          "code": "G10L 25/93",
+          "title": {
+            "ko": null,
+            "en": "Discriminating between voiced and unvoiced parts of speech signals (G10L25/90 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "subclass": "G06V",
+  "title": {
+    "ko": null,
+    "en": "IMAGE OR VIDEO RECOGNITION OR UNDERSTANDING"
+  },
+  "groups": [
+    {
+      "code": "G06V 10/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for image or video recognition or understanding (character recognition in images or video G06V30/10)"
+      },
+      "subgroups": [
+        {
+          "code": "G06V 10/10",
+          "title": {
+            "ko": null,
+            "en": "Image acquisition (document image scanning and transmission H04N1/00; control of digital cameras H04N23/60)"
+          }
+        },
+        {
+          "code": "G06V 10/20",
+          "title": {
+            "ko": null,
+            "en": "Image preprocessing"
+          }
+        },
+        {
+          "code": "G06V 10/40",
+          "title": {
+            "ko": null,
+            "en": "Extraction of image or video features"
+          }
+        },
+        {
+          "code": "G06V 10/70",
+          "title": {
+            "ko": null,
+            "en": "using pattern recognition or machine learning (optical pattern recognition or electronic computations therefor G06V10/88)"
+          }
+        },
+        {
+          "code": "G06V 10/88",
+          "title": {
+            "ko": null,
+            "en": "Image or video recognition using optical means, e.g. reference filters, holographic masks, frequency domain filters or spatial domain filters"
+          }
+        },
+        {
+          "code": "G06V 10/94",
+          "title": {
+            "ko": null,
+            "en": "Hardware or software architectures specially adapted for image or video understanding"
+          }
+        },
+        {
+          "code": "G06V 10/96",
+          "title": {
+            "ko": null,
+            "en": "Management of image or video recognition tasks"
+          }
+        },
+        {
+          "code": "G06V 10/98",
+          "title": {
+            "ko": null,
+            "en": "Detection or correction of errors, e.g. by rescanning the pattern or by human intervention; Evaluation of the quality of the acquired patterns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06V 20/00",
+      "title": {
+        "ko": null,
+        "en": "Scenes; Scene-specific elements (control of digital cameras H04N23/60)"
+      },
+      "subgroups": [
+        {
+          "code": "G06V 20/05",
+          "title": {
+            "ko": null,
+            "en": "Underwater scenes"
+          }
+        },
+        {
+          "code": "G06V 20/10",
+          "title": {
+            "ko": null,
+            "en": "Terrestrial scenes (scenes under surveillance with static cameras G06V20/52; scenes perceived from the exterior of a vehicle G06V20/56; scenes perceived from the interior of a vehicle G06V20/59)"
+          }
+        },
+        {
+          "code": "G06V 20/20",
+          "title": {
+            "ko": null,
+            "en": "in augmented reality scenes"
+          }
+        },
+        {
+          "code": "G06V 20/30",
+          "title": {
+            "ko": null,
+            "en": "in albums, collections or shared content, e.g. social network photos or video"
+          }
+        },
+        {
+          "code": "G06V 20/35",
+          "title": {
+            "ko": null,
+            "en": "{Categorising the entire scene, e.g. birthday party or wedding scene}"
+          }
+        },
+        {
+          "code": "G06V 20/40",
+          "title": {
+            "ko": null,
+            "en": "in video content (extracting overlay text G06V20/62; video retrieval G06F16/70; processing of video elementary streams in video servers H04N21/234; processing of video elementary streams in video clients H04N21/44)"
+          }
+        },
+        {
+          "code": "G06V 20/50",
+          "title": {
+            "ko": null,
+            "en": "Context or environment of the image"
+          }
+        },
+        {
+          "code": "G06V 20/60",
+          "title": {
+            "ko": null,
+            "en": "Type of objects"
+          }
+        },
+        {
+          "code": "G06V 20/70",
+          "title": {
+            "ko": null,
+            "en": "Labelling scene content, e.g. deriving syntactic or semantic representations"
+          }
+        },
+        {
+          "code": "G06V 20/80",
+          "title": {
+            "ko": null,
+            "en": "Recognising image objects characterised by unique random patterns"
+          }
+        },
+        {
+          "code": "G06V 20/90",
+          "title": {
+            "ko": null,
+            "en": "Identifying an image sensor based on its output data"
+          }
+        },
+        {
+          "code": "G06V 20/95",
+          "title": {
+            "ko": null,
+            "en": "{Pattern authentication; Markers therefor; Forgery detection}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06V 30/00",
+      "title": {
+        "ko": null,
+        "en": "Character recognition; Recognising digital ink; Document-oriented image-based pattern recognition (scanning, transmission or reproduction of documents or the like H04N1/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06V 30/10",
+          "title": {
+            "ko": null,
+            "en": "Character recognition"
+          }
+        },
+        {
+          "code": "G06V 30/40",
+          "title": {
+            "ko": null,
+            "en": "Document-oriented image-based pattern recognition"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06V 40/00",
+      "title": {
+        "ko": null,
+        "en": "Recognition of biometric, human-related or animal-related patterns in image or video data"
+      },
+      "subgroups": [
+        {
+          "code": "G06V 40/10",
+          "title": {
+            "ko": null,
+            "en": "Human or animal bodies, e.g. vehicle occupants or pedestrians; Body parts, e.g. hands"
+          }
+        },
+        {
+          "code": "G06V 40/20",
+          "title": {
+            "ko": null,
+            "en": "Movements or behaviour, e.g. gesture recognition (recognition of facial expressions G06V40/16)"
+          }
+        },
+        {
+          "code": "G06V 40/30",
+          "title": {
+            "ko": null,
+            "en": "Writer recognition; Reading and verifying signatures"
+          }
+        },
+        {
+          "code": "G06V 40/40",
+          "title": {
+            "ko": null,
+            "en": "Spoof detection, e.g. liveness detection"
+          }
+        },
+        {
+          "code": "G06V 40/50",
+          "title": {
+            "ko": null,
+            "en": "Maintenance of biometric data or enrolment thereof"
+          }
+        },
+        {
+          "code": "G06V 40/60",
+          "title": {
+            "ko": null,
+            "en": "Static or dynamic means for assisting the user to position a body part for biometric acquisition"
+          }
+        },
+        {
+          "code": "G06V 40/70",
+          "title": {
+            "ko": null,
+            "en": "Multimodal biometrics, e.g. combining information from different biometric modalities"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06V 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to image or video recognition or understanding"
+      },
+      "subgroups": [
+        {
+          "code": "G06V 2201/01",
+          "title": {
+            "ko": null,
+            "en": "Solutions for problems related to non-uniform document background"
+          }
+        },
+        {
+          "code": "G06V 2201/02",
+          "title": {
+            "ko": null,
+            "en": "Recognising information on displays, dials, clocks"
+          }
+        },
+        {
+          "code": "G06V 2201/03",
+          "title": {
+            "ko": null,
+            "en": "Recognition of patterns in medical or anatomical images"
+          }
+        },
+        {
+          "code": "G06V 2201/04",
+          "title": {
+            "ko": null,
+            "en": "Recognition of patterns in DNA microarrays"
+          }
+        },
+        {
+          "code": "G06V 2201/05",
+          "title": {
+            "ko": null,
+            "en": "Recognition of patterns representing particular kinds of hidden objects, e.g. weapons, explosives, drugs"
+          }
+        },
+        {
+          "code": "G06V 2201/06",
+          "title": {
+            "ko": null,
+            "en": "Recognition of objects for industrial automation"
+          }
+        },
+        {
+          "code": "G06V 2201/07",
+          "title": {
+            "ko": null,
+            "en": "Target detection"
+          }
+        },
+        {
+          "code": "G06V 2201/08",
+          "title": {
+            "ko": null,
+            "en": "Detecting or categorising vehicles"
+          }
+        },
+        {
+          "code": "G06V 2201/09",
+          "title": {
+            "ko": null,
+            "en": "Recognition of logos"
+          }
+        },
+        {
+          "code": "G06V 2201/10",
+          "title": {
+            "ko": null,
+            "en": "Recognition assisted with metadata"
+          }
+        },
+        {
+          "code": "G06V 2201/11",
+          "title": {
+            "ko": null,
+            "en": "Technique with transformation invariance effect"
+          }
+        },
+        {
+          "code": "G06V 2201/12",
+          "title": {
+            "ko": null,
+            "en": "Acquisition of 3D measurements of objects"
+          }
+        },
+        {
+          "code": "G06V 2201/13",
+          "title": {
+            "ko": null,
+            "en": "Type of disclosure document"
+          }
+        }
+      ]
+    }
+  ]
+}

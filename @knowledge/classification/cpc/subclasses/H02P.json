@@ -1,0 +1,1253 @@
+{
+  "subclass": "H02P",
+  "title": {
+    "ko": null,
+    "en": "CONTROL OR REGULATION OF ELECTRIC MOTORS, ELECTRIC GENERATORS OR DYNAMO-ELECTRIC CONVERTERS; CONTROLLING TRANSFORMERS, REACTORS OR CHOKE COILS"
+  },
+  "groups": [
+    {
+      "code": "H02P 1/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for starting electric motors or dynamo-electric converters (starting of synchronous motors with electronic commutators H02P6/20, H02P6/22; starting dynamo-electric motors rotating step by step H02P8/04; vector control H02P21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details {of starting control}"
+          }
+        },
+        {
+          "code": "H02P 1/16",
+          "title": {
+            "ko": null,
+            "en": "for starting dynamo-electric motors or dynamo-electric converters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 3/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for stopping or slowing electric motors, generators, or dynamo-electric converters (stopping of synchronous motors with electronic commutators H02P6/24; stopping dynamo-electric motors rotating step by step H02P8/24; vector control H02P21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details {of stopping control}"
+          }
+        },
+        {
+          "code": "H02P 3/06",
+          "title": {
+            "ko": null,
+            "en": "for stopping or slowing an individual dynamo-electric motor or dynamo-electric converter"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 4/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements specially adapted for regulating or controlling the speed or torque of electric motors that can be connected to two or more different electric power supplies (vector control H02P21/00)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02P 5/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements specially adapted for regulating or controlling the speed or torque of two or more electric motors (H02P6/04, H02P8/40 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 5/46",
+          "title": {
+            "ko": null,
+            "en": "for speed regulation of two or more dynamo-electric motors in relation to one another"
+          }
+        },
+        {
+          "code": "H02P 5/60",
+          "title": {
+            "ko": null,
+            "en": "controlling combinations of DC and AC dynamo-electric motors (H02P5/46 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 5/68",
+          "title": {
+            "ko": null,
+            "en": "controlling two or more DC dynamo-electric motors (H02P5/46, H02P5/60 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 5/74",
+          "title": {
+            "ko": null,
+            "en": "controlling two or more AC dynamo-electric motors (H02P5/46, H02P5/60 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 6/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling synchronous motors or other dynamo-electric motors using electronic commutation dependent on the rotor position; Electronic commutators therefor (vector control H02P21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 6/005",
+          "title": {
+            "ko": null,
+            "en": "{Arrangements for controlling doubly fed motors}"
+          }
+        },
+        {
+          "code": "H02P 6/006",
+          "title": {
+            "ko": null,
+            "en": "{Controlling linear motors}"
+          }
+        },
+        {
+          "code": "H02P 6/007",
+          "title": {
+            "ko": null,
+            "en": "{wherein the position is detected using the ripple of the current caused by the commutation}"
+          }
+        },
+        {
+          "code": "H02P 6/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling or regulating the speed or torque of more than one motor (H02P6/10 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for speed regulation of a single motor wherein the motor speed is measured and compared with a given physical value so as to adjust the motor speed"
+          }
+        },
+        {
+          "code": "H02P 6/08",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling the speed or torque of a single motor (H02P6/10, H02P6/28 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling torque ripple, e.g. providing reduced torque ripple"
+          }
+        },
+        {
+          "code": "H02P 6/12",
+          "title": {
+            "ko": null,
+            "en": "Monitoring commutation; Providing indication of commutation failure"
+          }
+        },
+        {
+          "code": "H02P 6/14",
+          "title": {
+            "ko": null,
+            "en": "Electronic commutators"
+          }
+        },
+        {
+          "code": "H02P 6/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for starting (H02P6/08 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for stopping"
+          }
+        },
+        {
+          "code": "H02P 6/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling single phase motors"
+          }
+        },
+        {
+          "code": "H02P 6/28",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling current (H02P6/10 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/30",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling the direction of rotation (H02P6/22 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 6/32",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling wound field motors, e.g. motors with exciter coils"
+          }
+        },
+        {
+          "code": "H02P 6/34",
+          "title": {
+            "ko": null,
+            "en": "Modelling or simulation for control purposes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 7/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for regulating or controlling the speed or torque of electric DC motors"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 7/0094",
+          "title": {
+            "ko": null,
+            "en": "{wherein the position is detected using the ripple of the current caused by the commutator}"
+          }
+        },
+        {
+          "code": "H02P 7/02",
+          "title": {
+            "ko": null,
+            "en": "the DC motors being of the linear type"
+          }
+        },
+        {
+          "code": "H02P 7/03",
+          "title": {
+            "ko": null,
+            "en": "for controlling the direction of rotation of DC motors"
+          }
+        },
+        {
+          "code": "H02P 7/06",
+          "title": {
+            "ko": null,
+            "en": "for regulating or controlling an individual DC dynamo-electric motor by varying field or armature current"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 8/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling dynamo-electric motors rotating step by step"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 8/005",
+          "title": {
+            "ko": null,
+            "en": "{of linear motors}"
+          }
+        },
+        {
+          "code": "H02P 8/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for single-phase or bi-pole stepper motors, e.g. watch-motors, clock-motors"
+          }
+        },
+        {
+          "code": "H02P 8/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for starting"
+          }
+        },
+        {
+          "code": "H02P 8/12",
+          "title": {
+            "ko": null,
+            "en": "Control or stabilisation of current"
+          }
+        },
+        {
+          "code": "H02P 8/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling speed or speed and torque (H02P8/12, H02P8/22 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 8/22",
+          "title": {
+            "ko": null,
+            "en": "Control of step size; Intermediate stepping, e.g. microstepping"
+          }
+        },
+        {
+          "code": "H02P 8/24",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for stopping (H02P8/32 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 8/32",
+          "title": {
+            "ko": null,
+            "en": "Reducing overshoot or oscillation, e.g. damping"
+          }
+        },
+        {
+          "code": "H02P 8/34",
+          "title": {
+            "ko": null,
+            "en": "Monitoring operation (H02P8/36 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 8/36",
+          "title": {
+            "ko": null,
+            "en": "Protection against faults, e.g. against overheating or step-out; Indicating faults"
+          }
+        },
+        {
+          "code": "H02P 8/40",
+          "title": {
+            "ko": null,
+            "en": "Special adaptations for controlling two or more stepping motors"
+          }
+        },
+        {
+          "code": "H02P 8/42",
+          "title": {
+            "ko": null,
+            "en": "characterised by non-stepper motors being operated step by step"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 9/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling electric generators for the purpose of obtaining a desired output"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 9/006",
+          "title": {
+            "ko": null,
+            "en": "{Means for protecting the generator by using control (control effected upon generator excitation circuit to reduce harmful effects of overloads or transients H02P9/10)}"
+          }
+        },
+        {
+          "code": "H02P 9/007",
+          "title": {
+            "ko": null,
+            "en": "{Control circuits for doubly fed generators}"
+          }
+        },
+        {
+          "code": "H02P 9/008",
+          "title": {
+            "ko": null,
+            "en": "{wherein the generator is controlled by the requirements of the prime mover}"
+          }
+        },
+        {
+          "code": "H02P 9/009",
+          "title": {
+            "ko": null,
+            "en": "{Circuit arrangements for detecting rotor position}"
+          }
+        },
+        {
+          "code": "H02P 9/02",
+          "title": {
+            "ko": null,
+            "en": "Details {of the control}"
+          }
+        },
+        {
+          "code": "H02P 9/04",
+          "title": {
+            "ko": null,
+            "en": "Control effected upon non-electric prime mover and dependent upon electric output value of the generator"
+          }
+        },
+        {
+          "code": "H02P 9/06",
+          "title": {
+            "ko": null,
+            "en": "Control effected upon clutch or other mechanical power transmission means and dependent upon electric output value of the generator"
+          }
+        },
+        {
+          "code": "H02P 9/08",
+          "title": {
+            "ko": null,
+            "en": "Control of generator circuit during starting or stopping of driving means, e.g. for initiating excitation"
+          }
+        },
+        {
+          "code": "H02P 9/10",
+          "title": {
+            "ko": null,
+            "en": "Control effected upon generator excitation circuit to reduce harmful effects of overloads or transients, e.g. sudden application of load, sudden removal of load, sudden change of load"
+          }
+        },
+        {
+          "code": "H02P 9/14",
+          "title": {
+            "ko": null,
+            "en": "by variation of field (H02P9/08, H02P9/10 take precedence)"
+          }
+        },
+        {
+          "code": "H02P 9/40",
+          "title": {
+            "ko": null,
+            "en": "by variation of reluctance of magnetic circuit of generator"
+          }
+        },
+        {
+          "code": "H02P 9/42",
+          "title": {
+            "ko": null,
+            "en": "to obtain desired frequency without varying speed of the generator"
+          }
+        },
+        {
+          "code": "H02P 9/44",
+          "title": {
+            "ko": null,
+            "en": "Control of frequency and voltage in predetermined relation, e.g. constant ratio"
+          }
+        },
+        {
+          "code": "H02P 9/46",
+          "title": {
+            "ko": null,
+            "en": "Control of asynchronous generator by variation of capacitor"
+          }
+        },
+        {
+          "code": "H02P 9/48",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for obtaining a constant output value at varying speed of the generator, e.g. on vehicle (H02P9/04 - H02P9/46 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 11/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling dynamo-electric converters"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 11/04",
+          "title": {
+            "ko": null,
+            "en": "for controlling dynamo-electric converters having a DC output"
+          }
+        },
+        {
+          "code": "H02P 11/06",
+          "title": {
+            "ko": null,
+            "en": "for controlling dynamo-electric converters having an AC output"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 13/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling transformers, reactors or choke coils, for the purpose of obtaining a desired output"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 13/06",
+          "title": {
+            "ko": null,
+            "en": "by tap-changing; by rearranging interconnections of windings"
+          }
+        },
+        {
+          "code": "H02P 13/08",
+          "title": {
+            "ko": null,
+            "en": "by sliding current collector along winding"
+          }
+        },
+        {
+          "code": "H02P 13/10",
+          "title": {
+            "ko": null,
+            "en": "by moving core, coil winding, or shield, e.g. by induction regulator"
+          }
+        },
+        {
+          "code": "H02P 13/12",
+          "title": {
+            "ko": null,
+            "en": "by varying magnetic bias"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 15/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling dynamo-electric brakes or clutches (vector control H02P21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 15/02",
+          "title": {
+            "ko": null,
+            "en": "Conjoint control of brakes and clutches"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 17/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling dynamo-electric gears (vector control H02P21/00)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02P 21/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements or methods for the control of electric machines by vector control, e.g. by control of field orientation"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 21/0003",
+          "title": {
+            "ko": null,
+            "en": "{Control strategies in general, e.g. linear type, e.g. P, PI, PID, using robust control}"
+          }
+        },
+        {
+          "code": "H02P 21/0085",
+          "title": {
+            "ko": null,
+            "en": "{specially adapted for high speeds, e.g. above nominal speed}"
+          }
+        },
+        {
+          "code": "H02P 21/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for optimising the efficiency at low load"
+          }
+        },
+        {
+          "code": "H02P 21/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for very low speeds"
+          }
+        },
+        {
+          "code": "H02P 21/05",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for damping motor oscillations, e.g. for reducing hunting"
+          }
+        },
+        {
+          "code": "H02P 21/06",
+          "title": {
+            "ko": null,
+            "en": "Rotor flux based control involving the use of rotor position or rotor speed sensors"
+          }
+        },
+        {
+          "code": "H02P 21/12",
+          "title": {
+            "ko": null,
+            "en": "Stator flux based control involving the use of rotor position or rotor speed sensors"
+          }
+        },
+        {
+          "code": "H02P 21/13",
+          "title": {
+            "ko": null,
+            "en": "Observer control, e.g. using Luenberger observers or Kalman filters"
+          }
+        },
+        {
+          "code": "H02P 21/14",
+          "title": {
+            "ko": null,
+            "en": "Estimation or adaptation of machine parameters, e.g. flux, current or voltage"
+          }
+        },
+        {
+          "code": "H02P 21/22",
+          "title": {
+            "ko": null,
+            "en": "Current control, e.g. using a current control loop"
+          }
+        },
+        {
+          "code": "H02P 21/24",
+          "title": {
+            "ko": null,
+            "en": "Vector control not involving the use of rotor position or rotor speed sensors"
+          }
+        },
+        {
+          "code": "H02P 21/34",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for starting"
+          }
+        },
+        {
+          "code": "H02P 21/36",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for braking or slowing; Four quadrant control"
+          }
+        },
+        {
+          "code": "H02P 21/50",
+          "title": {
+            "ko": null,
+            "en": "{Vector control arrangements or methods not otherwise provided for in H02P21/00- H02P21/36}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 23/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements or methods for the control of AC motors characterised by a control method other than vector control"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 23/0004",
+          "title": {
+            "ko": null,
+            "en": "{Control strategies in general, e.g. linear type, e.g. P, PI, PID, using robust control}"
+          }
+        },
+        {
+          "code": "H02P 23/0077",
+          "title": {
+            "ko": null,
+            "en": "{Characterised by the use of a particular software algorithm}"
+          }
+        },
+        {
+          "code": "H02P 23/0086",
+          "title": {
+            "ko": null,
+            "en": "{specially adapted for high speeds, e.g. above nominal speed}"
+          }
+        },
+        {
+          "code": "H02P 23/02",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for optimising the efficiency at low load"
+          }
+        },
+        {
+          "code": "H02P 23/03",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for very low speeds"
+          }
+        },
+        {
+          "code": "H02P 23/04",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for damping motor oscillations, e.g. for reducing hunting"
+          }
+        },
+        {
+          "code": "H02P 23/06",
+          "title": {
+            "ko": null,
+            "en": "Controlling the motor in four quadrants"
+          }
+        },
+        {
+          "code": "H02P 23/08",
+          "title": {
+            "ko": null,
+            "en": "Controlling based on slip frequency, e.g. adding slip frequency and speed proportional frequency"
+          }
+        },
+        {
+          "code": "H02P 23/10",
+          "title": {
+            "ko": null,
+            "en": "Controlling by adding a DC current"
+          }
+        },
+        {
+          "code": "H02P 23/12",
+          "title": {
+            "ko": null,
+            "en": "Observer control, e.g. using Luenberger observers or Kalman filters"
+          }
+        },
+        {
+          "code": "H02P 23/14",
+          "title": {
+            "ko": null,
+            "en": "Estimation or adaptation of motor parameters, e.g. rotor time constant, flux, speed, current or voltage"
+          }
+        },
+        {
+          "code": "H02P 23/16",
+          "title": {
+            "ko": null,
+            "en": "Controlling the angular speed of one shaft (H02P23/18 takes precedence)"
+          }
+        },
+        {
+          "code": "H02P 23/18",
+          "title": {
+            "ko": null,
+            "en": "Controlling the angular speed together with angular position or phase"
+          }
+        },
+        {
+          "code": "H02P 23/20",
+          "title": {
+            "ko": null,
+            "en": "Controlling the acceleration or deceleration"
+          }
+        },
+        {
+          "code": "H02P 23/22",
+          "title": {
+            "ko": null,
+            "en": "Controlling the speed digitally using a reference oscillator, a speed proportional pulse rate feedback and a digital comparator"
+          }
+        },
+        {
+          "code": "H02P 23/24",
+          "title": {
+            "ko": null,
+            "en": "Controlling the direction, e.g. clockwise or counterclockwise"
+          }
+        },
+        {
+          "code": "H02P 23/26",
+          "title": {
+            "ko": null,
+            "en": "Power factor control [PFC]"
+          }
+        },
+        {
+          "code": "H02P 23/28",
+          "title": {
+            "ko": null,
+            "en": "Controlling the motor by varying the switching frequency of switches connected to a DC supply and the motor phases"
+          }
+        },
+        {
+          "code": "H02P 23/30",
+          "title": {
+            "ko": null,
+            "en": "Direct torque control [DTC] or field acceleration method [FAM]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 25/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements or methods for the control of AC motors characterised by the kind of AC motor or by structural details"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 25/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the kind of motor"
+          }
+        },
+        {
+          "code": "H02P 25/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by the circuit arrangement or by the kind of wiring"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 27/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements or methods for the control of AC motors characterised by the kind of supply voltage (of two or more motors H02P5/00; of synchronous motors with electronic commutators H02P6/00; of DC motors H02P7/00; of stepping motors H02P8/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 27/02",
+          "title": {
+            "ko": null,
+            "en": "using supply voltage with constant frequency and variable amplitude"
+          }
+        },
+        {
+          "code": "H02P 27/04",
+          "title": {
+            "ko": null,
+            "en": "using variable-frequency supply voltage, e.g. inverter or converter supply voltage"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 29/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for regulating or controlling electric motors, appropriate for both AC and DC motors (arrangements for starting electric motors H02P1/00; arrangements for stopping or slowing electric motors H02P3/00; control of motors that can be connected to two or more different electric power supplies H02P4/00; regulating or controlling the speed or torque of two or more electric motors H02P5/00; vector control H02P21/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 29/0016",
+          "title": {
+            "ko": null,
+            "en": "{Control of angular speed of one shaft without controlling the prime mover}"
+          }
+        },
+        {
+          "code": "H02P 29/02",
+          "title": {
+            "ko": null,
+            "en": "Providing protection against overload without automatic interruption of supply (protection against faults of stepper motors H02P8/36)"
+          }
+        },
+        {
+          "code": "H02P 29/04",
+          "title": {
+            "ko": null,
+            "en": "by means of a separate brake"
+          }
+        },
+        {
+          "code": "H02P 29/10",
+          "title": {
+            "ko": null,
+            "en": "for preventing overspeed or under speed"
+          }
+        },
+        {
+          "code": "H02P 29/20",
+          "title": {
+            "ko": null,
+            "en": "for controlling one motor used for different sequential operations"
+          }
+        },
+        {
+          "code": "H02P 29/40",
+          "title": {
+            "ko": null,
+            "en": "Regulating or controlling the amount of current drawn or delivered by the motor for controlling the mechanical load"
+          }
+        },
+        {
+          "code": "H02P 29/50",
+          "title": {
+            "ko": null,
+            "en": "Reduction of harmonics"
+          }
+        },
+        {
+          "code": "H02P 29/60",
+          "title": {
+            "ko": null,
+            "en": "Controlling or determining the temperature of the motor or of the drive (H02P29/02 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 31/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for regulating or controlling electric motors not provided for in groups H02P1/00 - H02P5/00, H02P7/00 or H02P21/00 - H02P29/00"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02P 2101/00",
+      "title": {
+        "ko": null,
+        "en": "Special adaptation of control arrangements for generators"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 2101/10",
+          "title": {
+            "ko": null,
+            "en": "for water-driven turbines"
+          }
+        },
+        {
+          "code": "H02P 2101/15",
+          "title": {
+            "ko": null,
+            "en": "for wind-driven turbines"
+          }
+        },
+        {
+          "code": "H02P 2101/20",
+          "title": {
+            "ko": null,
+            "en": "for steam-driven turbines"
+          }
+        },
+        {
+          "code": "H02P 2101/25",
+          "title": {
+            "ko": null,
+            "en": "for combustion engines"
+          }
+        },
+        {
+          "code": "H02P 2101/30",
+          "title": {
+            "ko": null,
+            "en": "for aircraft"
+          }
+        },
+        {
+          "code": "H02P 2101/35",
+          "title": {
+            "ko": null,
+            "en": "for ships"
+          }
+        },
+        {
+          "code": "H02P 2101/40",
+          "title": {
+            "ko": null,
+            "en": "for railway vehicles"
+          }
+        },
+        {
+          "code": "H02P 2101/45",
+          "title": {
+            "ko": null,
+            "en": "for motor vehicles, e.g. car alternators"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 2103/00",
+      "title": {
+        "ko": null,
+        "en": "Controlling arrangements characterised by the type of generator"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 2103/10",
+          "title": {
+            "ko": null,
+            "en": "of the asynchronous type"
+          }
+        },
+        {
+          "code": "H02P 2103/20",
+          "title": {
+            "ko": null,
+            "en": "of the synchronous type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to controlling arrangements characterised by the converter used"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 2201/01",
+          "title": {
+            "ko": null,
+            "en": "AC-AC converter stage controlled to provide a defined AC voltage"
+          }
+        },
+        {
+          "code": "H02P 2201/03",
+          "title": {
+            "ko": null,
+            "en": "AC-DC converter stage controlled to provide a defined DC link voltage"
+          }
+        },
+        {
+          "code": "H02P 2201/05",
+          "title": {
+            "ko": null,
+            "en": "Capacitive half bridge, i.e. resonant inverter having two capacitors and two switches"
+          }
+        },
+        {
+          "code": "H02P 2201/07",
+          "title": {
+            "ko": null,
+            "en": "DC-DC step-up or step-down converter inserted between the power supply and the inverter supplying the motor, e.g. to control voltage source fluctuations, to vary the motor speed"
+          }
+        },
+        {
+          "code": "H02P 2201/09",
+          "title": {
+            "ko": null,
+            "en": "Boost converter, i.e. DC-DC step up converter increasing the voltage between the supply and the inverter driving the motor"
+          }
+        },
+        {
+          "code": "H02P 2201/11",
+          "title": {
+            "ko": null,
+            "en": "Buck converter, i.e. DC-DC step down converter decreasing the voltage between the supply and the inverter driving the motor"
+          }
+        },
+        {
+          "code": "H02P 2201/13",
+          "title": {
+            "ko": null,
+            "en": "DC-link of current link type, e.g. typically for thyristor bridges, having an inductor in series with rectifier"
+          }
+        },
+        {
+          "code": "H02P 2201/15",
+          "title": {
+            "ko": null,
+            "en": "Power factor correction [PFC] circuit generating the DC link voltage for motor driving inverter"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 2203/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to controlling arrangements characterised by the means for detecting the position of the rotor"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 2203/01",
+          "title": {
+            "ko": null,
+            "en": "Motor rotor position determination based on the detected or calculated phase inductance, e.g. for a Switched Reluctance Motor"
+          }
+        },
+        {
+          "code": "H02P 2203/03",
+          "title": {
+            "ko": null,
+            "en": "Determination of the rotor position, e.g. initial rotor position, during standstill or low speed operation"
+          }
+        },
+        {
+          "code": "H02P 2203/05",
+          "title": {
+            "ko": null,
+            "en": "Determination of the rotor position by using two different methods and/or motor models"
+          }
+        },
+        {
+          "code": "H02P 2203/07",
+          "title": {
+            "ko": null,
+            "en": "Motor variable determination based on the ON-resistance of a power switch, i.e. the voltage across the switch is measured during the ON state of the switch and used to determine the current in the motor and to calculate the speed"
+          }
+        },
+        {
+          "code": "H02P 2203/09",
+          "title": {
+            "ko": null,
+            "en": "Motor speed determination based on the current and/or voltage without using a tachogenerator or a physical encoder"
+          }
+        },
+        {
+          "code": "H02P 2203/11",
+          "title": {
+            "ko": null,
+            "en": "Determination or estimation of the rotor position or other motor parameters based on the analysis of high-frequency signals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 2205/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to controlling arrangements characterised by the control loops"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 2205/01",
+          "title": {
+            "ko": null,
+            "en": "Current loop, i.e. comparison of the motor current with a current reference"
+          }
+        },
+        {
+          "code": "H02P 2205/03",
+          "title": {
+            "ko": null,
+            "en": "Power loop, i.e. comparison of the motor power with a power reference"
+          }
+        },
+        {
+          "code": "H02P 2205/05",
+          "title": {
+            "ko": null,
+            "en": "Torque loop, i.e. comparison of the motor torque with a torque reference"
+          }
+        },
+        {
+          "code": "H02P 2205/07",
+          "title": {
+            "ko": null,
+            "en": "Speed loop, i.e. comparison of the motor speed with a speed reference"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to controlling arrangements characterised by the type of motor"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 2207/01",
+          "title": {
+            "ko": null,
+            "en": "Asynchronous machines"
+          }
+        },
+        {
+          "code": "H02P 2207/03",
+          "title": {
+            "ko": null,
+            "en": "Double rotor motors or generators, i.e. electromagnetic transmissions having double rotor with motor and generator functions, e.g. for electrical variable transmission"
+          }
+        },
+        {
+          "code": "H02P 2207/05",
+          "title": {
+            "ko": null,
+            "en": "Synchronous machines, e.g. with permanent magnets or DC excitation"
+          }
+        },
+        {
+          "code": "H02P 2207/07",
+          "title": {
+            "ko": null,
+            "en": "Doubly fed machines receiving two supplies both on the stator only wherein the power supply is fed to different sets of stator windings or to rotor and stator windings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02P 2209/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to controlling arrangements characterised by the waveform of the supplied voltage or current"
+      },
+      "subgroups": [
+        {
+          "code": "H02P 2209/01",
+          "title": {
+            "ko": null,
+            "en": "Motors with neutral point connected to the power supply"
+          }
+        },
+        {
+          "code": "H02P 2209/03",
+          "title": {
+            "ko": null,
+            "en": "Motors with neutral point disassociated, i.e. the windings ends are not connected directly to a common point"
+          }
+        },
+        {
+          "code": "H02P 2209/05",
+          "title": {
+            "ko": null,
+            "en": "Polyphase motors supplied from a single-phase power supply or a DC power supply"
+          }
+        },
+        {
+          "code": "H02P 2209/07",
+          "title": {
+            "ko": null,
+            "en": "Trapezoidal waveform"
+          }
+        },
+        {
+          "code": "H02P 2209/09",
+          "title": {
+            "ko": null,
+            "en": "PWM with fixed limited number of pulses per period"
+          }
+        },
+        {
+          "code": "H02P 2209/11",
+          "title": {
+            "ko": null,
+            "en": "Sinusoidal waveform"
+          }
+        },
+        {
+          "code": "H02P 2209/13",
+          "title": {
+            "ko": null,
+            "en": "Different type of waveforms depending on the mode of operation"
+          }
+        }
+      ]
+    }
+  ]
+}

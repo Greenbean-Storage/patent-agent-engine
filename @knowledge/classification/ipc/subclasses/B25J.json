@@ -1,0 +1,399 @@
+{
+  "subclass": "B25J",
+  "title": {
+    "ko": "메니플레이터(manipulater); 메니플레이터 장치를 갖는 실(室) (과일, 야채, 열매 등을 개별적으로 수확하는 로봇 장치 A01D46/30; 수술용 침 매니플레이터 A61B17/062; 회전 압연과 연관된 매니플레이터 B21B39/20; 단조 기계와 연관된 매니플레이터 B21J13/10; 차륜 또는 그의 부분을 지지하기 위한 매니플레이터 B60B30/00; 크레인 B66C; 원자로내 사용되는 연료 또는 기타 물질의 처리 수단 G21C19/00; 열에 대한 보호막을 갖는 공간이 형성된 매니퓰레이터의 결합 G21F7/06)",
+    "en": "MANIPULATORS; CHAMBERS PROVIDED WITH MANIPULATION DEVICES (robotic devices for individually picking fruits, vegetables, hops or the like A01D0046300000;needle manipulators for surgery A61B0017062000;manipulators associated with rolling mills B21B0039200000;manipulators associated with forging machines B21J0013100000;means for holding wheels or parts thereof B60B0030000000;cranes B66C;arrangements for handling fuel or other materials which are used within nuclear reactors G21C0019000000;structural combination of manipulators with cells or rooms shielded against radiation G21F0007060000)"
+  },
+  "definition": {
+    "ko": "매니퓰레이터의 종류 또는 유형 B25J1/00, B25J3/00 휠 또는 차량에 장착된 매니퓰레이터 B25J5/00 마이크로 매니퓰레이터 B25J7/00 프로그램으로 제어되는 매니퓰레이터 B25J9/00 다른 매니퓰레이터, 글러브 박스 B25J11/00, B25J21/00 제어 B25J13/00 손잡이부, 접속부, 암 B25J15/00, B25J17/00, B25J18/00 부속장치; 안전 B25J19/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B25J 1/00",
+      "title": {
+        "ko": "손으로 공간에 배치되는 매니퓰레이터 (리더-팔로워 유형 B25J3/00; 마이크로매니퓰레이터 B25J7/00)",
+        "en": "Manipulators positioned in space by hand  (of leader-follower type B25J0003000000; micromanipulators B25J0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 1/02",
+          "title": {
+            "ko": null,
+            "en": "articulated or flexible"
+          }
+        },
+        {
+          "code": "B25J 1/04",
+          "title": {
+            "ko": null,
+            "en": "rigid, e.g. shelf-reachers"
+          }
+        },
+        {
+          "code": "B25J 1/06",
+          "title": {
+            "ko": null,
+            "en": "of the lazy-tongs type"
+          }
+        },
+        {
+          "code": "B25J 1/08",
+          "title": {
+            "ko": null,
+            "en": "movably mounted in a wall"
+          }
+        },
+        {
+          "code": "B25J 1/10",
+          "title": {
+            "ko": null,
+            "en": "Sleeve and pivot mountings therefor"
+          }
+        },
+        {
+          "code": "B25J 1/12",
+          "title": {
+            "ko": null,
+            "en": "having means for attachment to a support stand"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 3/00",
+      "title": {
+        "ko": "주종형 메니플레이터, 즉. 제어 유닛과 제어되는 유닛 모두 해당 공간 이동을 수행하는 것",
+        "en": "Manipulators of leader-follower type, i.e. both controlling unit and controlled unit perform corresponding spatial movements"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 3/02",
+          "title": {
+            "ko": "마스터 및 슬레이브 유닛이 평행사변형 결합을 포함하는 것 (팬터그래픽 장치 B43L13/00)",
+            "en": "involving a parallelogram coupling of the leader and follower units  (pantographic instruments B43L0013000000)"
+          }
+        },
+        {
+          "code": "B25J 3/04",
+          "title": {
+            "ko": "서보 기구를 포함하는 것(서보 작동 헤드 B25J 15/02)",
+            "en": "involving servo mechanisms (servo-actuated heads B25J0015020000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 5/00",
+      "title": {
+        "ko": "차 또는 휠에 설치되어 있는 메니플레이터(B25J 1/00이 우선; 프로그램 제어 메니플레이터 B25J 9/00)",
+        "en": "Manipulators mounted on wheels or on carriages  (B25J0001000000 takes precedence; program-controlled manipulators B25J0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 5/02",
+          "title": {
+            "ko": null,
+            "en": "travelling along a guideway"
+          }
+        },
+        {
+          "code": "B25J 5/04",
+          "title": {
+            "ko": null,
+            "en": "wherein the guideway is also moved, e.g. travelling crane bridge type"
+          }
+        },
+        {
+          "code": "B25J 5/06",
+          "title": {
+            "ko": null,
+            "en": "Manipulators combined with a control cab for the operator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 7/00",
+      "title": {
+        "ko": null,
+        "en": "Micromanipulators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B25J 9/00",
+      "title": {
+        "ko": "프로그램 제어 매니퓰레이터",
+        "en": "Program-controlled manipulators"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 9/02",
+          "title": {
+            "ko": "암의 운동에 의해 특징지어진 것, 예. 직교 좌표형(B25J 9/06이 우선)",
+            "en": "characterised by movement of the arms, e.g. cartesian co-ordinate type (B25J0009060000 takes precedence)"
+          }
+        },
+        {
+          "code": "B25J 9/04",
+          "title": {
+            "ko": null,
+            "en": "by rotating at least one arm, excluding the head movement itself, e.g. cylindrical co-ordinate type or polar co-ordinate type"
+          }
+        },
+        {
+          "code": "B25J 9/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by multi-articulated arms"
+          }
+        },
+        {
+          "code": "B25J 9/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by modular constructions"
+          }
+        },
+        {
+          "code": "B25J 9/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by positioning means for manipulator elements"
+          }
+        },
+        {
+          "code": "B25J 9/12",
+          "title": {
+            "ko": null,
+            "en": "electric"
+          }
+        },
+        {
+          "code": "B25J 9/14",
+          "title": {
+            "ko": null,
+            "en": "fluid"
+          }
+        },
+        {
+          "code": "B25J 9/16",
+          "title": {
+            "ko": "프로그램 제어 (전체 공장 관리, 즉. 다수의 기계를 중앙에서 제어하는 것 G05B19/418)",
+            "en": "Program controls (total factory control, i.e. centrally controlling a plurality of machines, G05B0019418000)"
+          }
+        },
+        {
+          "code": "B25J 9/18",
+          "title": {
+            "ko": null,
+            "en": "electric"
+          }
+        },
+        {
+          "code": "B25J 9/20",
+          "title": {
+            "ko": null,
+            "en": "fluidic"
+          }
+        },
+        {
+          "code": "B25J 9/22",
+          "title": {
+            "ko": "기록 또는 재생 시스템(일반 G05B 19/42)",
+            "en": "Recording or playback systems (in general G05B0019420000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 11/00",
+      "title": {
+        "ko": null,
+        "en": "Manipulators not otherwise provided for"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "B25J 13/00",
+      "title": {
+        "ko": "메니플레이터 제어(프로그램 제어 B25J 9/16)",
+        "en": "Controls for manipulators  (program controls B25J0009160000)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 13/02",
+          "title": {
+            "ko": null,
+            "en": "Hand grip control means"
+          }
+        },
+        {
+          "code": "B25J 13/04",
+          "title": {
+            "ko": null,
+            "en": "Foot-operated control means"
+          }
+        },
+        {
+          "code": "B25J 13/06",
+          "title": {
+            "ko": null,
+            "en": "Control stands, e.g. consoles, switchboards"
+          }
+        },
+        {
+          "code": "B25J 13/08",
+          "title": {
+            "ko": null,
+            "en": "by means of sensing devices, e.g. viewing or touching devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 15/00",
+      "title": {
+        "ko": "손잡이부(gripping head)",
+        "en": "Gripping heads"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 15/02",
+          "title": {
+            "ko": null,
+            "en": "servo-actuated"
+          }
+        },
+        {
+          "code": "B25J 15/04",
+          "title": {
+            "ko": null,
+            "en": "with provision for the remote detachment or exchange of the head or parts thereof"
+          }
+        },
+        {
+          "code": "B25J 15/06",
+          "title": {
+            "ko": null,
+            "en": "with vacuum or magnetic holding means"
+          }
+        },
+        {
+          "code": "B25J 15/08",
+          "title": {
+            "ko": "손가락 부재(finger memember)를 가지는 것(B25J 15/02, B25J 15/04가 우선)",
+            "en": "having finger members (B25J0015020000, B25J0015040000 take precedence)"
+          }
+        },
+        {
+          "code": "B25J 15/10",
+          "title": {
+            "ko": null,
+            "en": "with three or more finger members"
+          }
+        },
+        {
+          "code": "B25J 15/12",
+          "title": {
+            "ko": null,
+            "en": "with flexible finger members"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 17/00",
+      "title": {
+        "ko": null,
+        "en": "Joints"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 17/02",
+          "title": {
+            "ko": null,
+            "en": "Wrist joints"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 18/00",
+      "title": {
+        "ko": null,
+        "en": "Arms"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 18/02",
+          "title": {
+            "ko": null,
+            "en": "extensible"
+          }
+        },
+        {
+          "code": "B25J 18/04",
+          "title": {
+            "ko": null,
+            "en": "rotatable"
+          }
+        },
+        {
+          "code": "B25J 18/06",
+          "title": {
+            "ko": null,
+            "en": "flexible"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 19/00",
+      "title": {
+        "ko": "메니플레이터에 적합한 부속 장치, 예. 탐지기, 감시기 메니플레이터와 관련하여 사용하기 위하여 결합 또는 특히 적용되는 안전 장치(안전 장치 일반 F16P; 방사능에 대한 보호 장치 일반 G21F)",
+        "en": "Accessories fitted to manipulators, e.g. for monitoring, for viewing; Safety devices combined with or specially adapted for use in connection with manipulators (safety devices in general F16P;protection against radiation in general G21F)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 19/02",
+          "title": {
+            "ko": null,
+            "en": "Sensing devices"
+          }
+        },
+        {
+          "code": "B25J 19/04",
+          "title": {
+            "ko": null,
+            "en": "Viewing devices"
+          }
+        },
+        {
+          "code": "B25J 19/06",
+          "title": {
+            "ko": null,
+            "en": "Safety devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B25J 21/00",
+      "title": {
+        "ko": "메니플레이터 장치를 가지는 실(Chamber) (벽에 메니플레이터를 설치한 것의 구조적 특징 B25J 1/08)",
+        "en": "Chambers provided with manipulation devices (constructional features of the mounting of the manipulator in the wall B25J0001080000)"
+      },
+      "subgroups": [
+        {
+          "code": "B25J 21/02",
+          "title": {
+            "ko": null,
+            "en": "Glove-boxes, i.e. chambers in which manipulations are performed by the human hands in gloves built into the chamber walls; Gloves therefor"
+          }
+        }
+      ]
+    }
+  ]
+}

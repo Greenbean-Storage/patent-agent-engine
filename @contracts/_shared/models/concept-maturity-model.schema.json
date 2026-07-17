@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConceptMaturityModel",
+  "description": "구체화 단계의 발명 성숙도 모델 — 3 지표 (각자 sub-항목 가중 평균) + 종합 게이지. sessions/{user_id}/{work_id}/models/concept-maturity-model.json. writer: P02 director (구체화 단계, 매 사이클). P = 0.30·clarity + 0.45·completeness + 0.25·potential. 각 지표 = sub × sub_weights 합. 지표 의미(A-2 짧은 키 통일): clarity=개념 명료성(concept clarity) · completeness=명세 완성도(description completeness) · potential=특허성 잠재력(patentability potential).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "overall_score",
+    "scores",
+    "sub_scores",
+    "weights",
+    "sub_weights",
+    "rationales",
+    "last_updated"
+  ],
+  "properties": {
+    "overall_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "multipleOf": 0.01
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "completeness",
+        "potential"
+      ],
+      "properties": {
+        "clarity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "multipleOf": 0.01
+        },
+        "completeness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "multipleOf": 0.01
+        },
+        "potential": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "multipleOf": 0.01
+        }
+      }
+    },
+    "sub_scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "completeness",
+        "potential"
+      ],
+      "properties": {
+        "clarity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "purpose",
+            "components"
+          ],
+          "properties": {
+            "purpose": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "multipleOf": 0.01
+            },
+            "components": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "multipleOf": 0.01
+            }
+          }
+        },
+        "completeness": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sequence",
+            "causality",
+            "embodiment"
+          ],
+          "properties": {
+            "sequence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "multipleOf": 0.01
+            },
+            "causality": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "multipleOf": 0.01
+            },
+            "embodiment": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "multipleOf": 0.01
+            }
+          }
+        },
+        "potential": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "differentiation",
+            "effect"
+          ],
+          "properties": {
+            "differentiation": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "multipleOf": 0.01
+            },
+            "effect": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "multipleOf": 0.01
+            }
+          }
+        }
+      }
+    },
+    "weights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "completeness",
+        "potential"
+      ],
+      "properties": {
+        "clarity": {
+          "const": 0.3
+        },
+        "completeness": {
+          "const": 0.45
+        },
+        "potential": {
+          "const": 0.25
+        }
+      }
+    },
+    "sub_weights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "completeness",
+        "potential"
+      ],
+      "properties": {
+        "clarity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "purpose",
+            "components"
+          ],
+          "properties": {
+            "purpose": {
+              "const": 0.4
+            },
+            "components": {
+              "const": 0.6
+            }
+          }
+        },
+        "completeness": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sequence",
+            "causality",
+            "embodiment"
+          ],
+          "properties": {
+            "sequence": {
+              "const": 0.3
+            },
+            "causality": {
+              "const": 0.3
+            },
+            "embodiment": {
+              "const": 0.4
+            }
+          }
+        },
+        "potential": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "differentiation",
+            "effect"
+          ],
+          "properties": {
+            "differentiation": {
+              "const": 0.5
+            },
+            "effect": {
+              "const": 0.5
+            }
+          }
+        }
+      }
+    },
+    "rationales": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "completeness",
+        "potential"
+      ],
+      "properties": {
+        "clarity": {
+          "type": "string",
+          "minLength": 20
+        },
+        "completeness": {
+          "type": "string",
+          "minLength": 20
+        },
+        "potential": {
+          "type": "string",
+          "minLength": 20
+        }
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,2218 @@
+{
+  "subclass": "G06F",
+  "title": {
+    "ko": null,
+    "en": "ELECTRIC DIGITAL DATA PROCESSING (computer systems based on specific computational models G06N)"
+  },
+  "groups": [
+    {
+      "code": "G06F 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details not covered by groups G06F3/00 - G06F13/00 and G06F21/00 (architectures of general purpose stored program computers G06F15/76)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 1/02",
+          "title": {
+            "ko": null,
+            "en": "Digital function generators"
+          }
+        },
+        {
+          "code": "G06F 1/04",
+          "title": {
+            "ko": null,
+            "en": "Generating or distributing clock signals or signals derived directly therefrom"
+          }
+        },
+        {
+          "code": "G06F 1/16",
+          "title": {
+            "ko": null,
+            "en": "Constructional details or arrangements"
+          }
+        },
+        {
+          "code": "G06F 1/22",
+          "title": {
+            "ko": null,
+            "en": "Means for limiting or controlling the pin/gate ratio"
+          }
+        },
+        {
+          "code": "G06F 1/24",
+          "title": {
+            "ko": null,
+            "en": "Resetting means"
+          }
+        },
+        {
+          "code": "G06F 1/26",
+          "title": {
+            "ko": null,
+            "en": "Power supply means, e.g. regulation thereof (for memories G11C)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 3/00",
+      "title": {
+        "ko": null,
+        "en": "Input arrangements for transferring data to be processed into a form capable of being handled by the computer; Output arrangements for transferring data from processing unit to output unit, e.g. interface arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 3/002",
+          "title": {
+            "ko": null,
+            "en": "{Specific input/output arrangements not covered by G06F3/01 - G06F3/16 (other optical apparatus G02B27/00)}"
+          }
+        },
+        {
+          "code": "G06F 3/007",
+          "title": {
+            "ko": null,
+            "en": "{Digital input from or digital output to memories of the shift register type}"
+          }
+        },
+        {
+          "code": "G06F 3/01",
+          "title": {
+            "ko": null,
+            "en": "Input arrangements or combined input and output arrangements for interaction between user and computer (G06F3/16 takes precedence)"
+          }
+        },
+        {
+          "code": "G06F 3/05",
+          "title": {
+            "ko": null,
+            "en": "Digital input using the sampling of an analogue quantity at regular intervals of time {, input from a/d converter or output to d/a converter}"
+          }
+        },
+        {
+          "code": "G06F 3/06",
+          "title": {
+            "ko": null,
+            "en": "Digital input from, or digital output to, record carriers {, e.g. RAID, emulated record carriers or networked record carriers}"
+          }
+        },
+        {
+          "code": "G06F 3/09",
+          "title": {
+            "ko": null,
+            "en": "Digital output to typewriters"
+          }
+        },
+        {
+          "code": "G06F 3/12",
+          "title": {
+            "ko": null,
+            "en": "Digital output to print unit {, e.g. line printer, chain printer}"
+          }
+        },
+        {
+          "code": "G06F 3/13",
+          "title": {
+            "ko": null,
+            "en": "Digital output to plotter {; Cooperation and interconnection of the plotter with other functional units}"
+          }
+        },
+        {
+          "code": "G06F 3/14",
+          "title": {
+            "ko": null,
+            "en": "Digital output to display device {; Cooperation and interconnection of the display device with other functional units}"
+          }
+        },
+        {
+          "code": "G06F 3/16",
+          "title": {
+            "ko": null,
+            "en": "Sound input; Sound output (speech processing G10L)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 5/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for data conversion without changing the order or content of the data handled"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 5/01",
+          "title": {
+            "ko": null,
+            "en": "for shifting, e.g. justifying, scaling, normalising {(digital stores in which the information is moved stepwise, e.g. shift-registers G11C19/00; digital stores in which the information circulates G11C21/00)}"
+          }
+        },
+        {
+          "code": "G06F 5/06",
+          "title": {
+            "ko": null,
+            "en": "for changing the speed of data flow, i.e. speed regularising {or timing, e.g. delay lines, FIFO buffers; over- or underrun control therefor (G06F7/78 takes precedence)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 7/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or arrangements for processing data by operating upon the order or content of the data handled (logic circuits H03K19/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 7/02",
+          "title": {
+            "ko": null,
+            "en": "Comparing digital values (G06F7/06, {G06F7/22,} G06F7/38 take precedence)"
+          }
+        },
+        {
+          "code": "G06F 7/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for sorting, selecting, merging, or comparing data on individual record carriers"
+          }
+        },
+        {
+          "code": "G06F 7/22",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for sorting or merging computer data on continuous record carriers, e.g. tape, drum, disc"
+          }
+        },
+        {
+          "code": "G06F 7/38",
+          "title": {
+            "ko": null,
+            "en": "Methods or arrangements for performing computations using exclusively denominational number representation, e.g. using binary, ternary, decimal representation"
+          }
+        },
+        {
+          "code": "G06F 7/58",
+          "title": {
+            "ko": null,
+            "en": "Random or pseudo-random number generators"
+          }
+        },
+        {
+          "code": "G06F 7/60",
+          "title": {
+            "ko": null,
+            "en": "Methods or arrangements for performing computations using a digital non-denominational number representation, i.e. number representation without radix; Computing devices using combinations of denominational and non-denominational quantity representations {, e.g. using difunction pulse trains, STEELE computers, phase computers (conversion of digital data to or from non-denominational form H03M5/00, H03M7/00)}"
+          }
+        },
+        {
+          "code": "G06F 7/74",
+          "title": {
+            "ko": null,
+            "en": "Selecting or encoding within a word the position of one or more bits having a specified value, e.g. most or least significant one or zero detection, priority encoders {(with shifting G06F5/01)}"
+          }
+        },
+        {
+          "code": "G06F 7/76",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for rearranging, permuting or selecting data according to predetermined rules, independently of the content of the data"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 8/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for software engineering (testing or debugging G06F11/36; administrative, planning or organisation aspects of software project management G06Q10/06)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 8/10",
+          "title": {
+            "ko": null,
+            "en": "Requirements analysis; Specification techniques"
+          }
+        },
+        {
+          "code": "G06F 8/20",
+          "title": {
+            "ko": null,
+            "en": "Software design"
+          }
+        },
+        {
+          "code": "G06F 8/30",
+          "title": {
+            "ko": null,
+            "en": "Creation or generation of source code"
+          }
+        },
+        {
+          "code": "G06F 8/40",
+          "title": {
+            "ko": null,
+            "en": "Transformation of program code"
+          }
+        },
+        {
+          "code": "G06F 8/60",
+          "title": {
+            "ko": null,
+            "en": "Software deployment"
+          }
+        },
+        {
+          "code": "G06F 8/70",
+          "title": {
+            "ko": null,
+            "en": "Software maintenance or management"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 9/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for program control, e.g. control units (program control for peripheral devices G06F13/10)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 9/02",
+          "title": {
+            "ko": null,
+            "en": "using wired connections, e.g. plugboards"
+          }
+        },
+        {
+          "code": "G06F 9/04",
+          "title": {
+            "ko": null,
+            "en": "using record carriers containing only program instructions (G06F9/06 takes precedence)"
+          }
+        },
+        {
+          "code": "G06F 9/06",
+          "title": {
+            "ko": null,
+            "en": "using stored programs, i.e. using an internal store of processing equipment to receive or retain programs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 11/00",
+      "title": {
+        "ko": null,
+        "en": "Error detection; Error correction; Monitoring (error detection, correction or monitoring in information storage based on relative movement between record carrier and transducer G11B20/18; monitoring, i.e. supervising the progress of recording or reproducing G11B27/36; in static stores G11C29/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 11/002",
+          "title": {
+            "ko": null,
+            "en": "{protecting against parasitic influences, e.g. noise, temperatures}"
+          }
+        },
+        {
+          "code": "G06F 11/004",
+          "title": {
+            "ko": null,
+            "en": "{Error avoidance (G06F11/07 and subgroups take precedence)}"
+          }
+        },
+        {
+          "code": "G06F 11/006",
+          "title": {
+            "ko": null,
+            "en": "{Identification (G06F11/2289 takes precedence)}"
+          }
+        },
+        {
+          "code": "G06F 11/008",
+          "title": {
+            "ko": null,
+            "en": "{Reliability or availability analysis}"
+          }
+        },
+        {
+          "code": "G06F 11/07",
+          "title": {
+            "ko": null,
+            "en": "Responding to the occurrence of a fault, e.g. fault tolerance"
+          }
+        },
+        {
+          "code": "G06F 11/22",
+          "title": {
+            "ko": null,
+            "en": "Detection or location of defective computer hardware by testing during standby operation or during idle time, e.g. start-up testing"
+          }
+        },
+        {
+          "code": "G06F 11/28",
+          "title": {
+            "ko": null,
+            "en": "by checking the correct order of processing (G06F11/08 - G06F11/26 take precedence; monitoring patterns of pulse trains H03K5/19)"
+          }
+        },
+        {
+          "code": "G06F 11/30",
+          "title": {
+            "ko": null,
+            "en": "Monitoring"
+          }
+        },
+        {
+          "code": "G06F 11/36",
+          "title": {
+            "ko": null,
+            "en": "Prevention of errors by analysis, debugging or testing of software"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 12/00",
+      "title": {
+        "ko": null,
+        "en": "Accessing, addressing or allocating within memory systems or architectures (digital input from, or digital output to record carriers, e.g. to disk storage units, G06F3/06)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 12/02",
+          "title": {
+            "ko": null,
+            "en": "Addressing or allocation; Relocation (program address sequencing G06F9/00; arrangements for selecting an address in a digital store G11C8/00)"
+          }
+        },
+        {
+          "code": "G06F 12/14",
+          "title": {
+            "ko": null,
+            "en": "Protection against unauthorised use of memory {or access to memory}"
+          }
+        },
+        {
+          "code": "G06F 12/16",
+          "title": {
+            "ko": null,
+            "en": "Protection against loss of memory contents {(contains no material, see G06F11/00)}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 13/00",
+      "title": {
+        "ko": null,
+        "en": "Interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units (interface circuits for specific input/output devices G06F3/00 {; multiprogram control therefor  G06F9/46}; multiprocessor systems  G06F15/16 )"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 13/10",
+          "title": {
+            "ko": null,
+            "en": "Program control for peripheral devices (G06F13/14 - G06F13/42 take precedence)"
+          }
+        },
+        {
+          "code": "G06F 13/14",
+          "title": {
+            "ko": null,
+            "en": "Handling requests for interconnection or transfer"
+          }
+        },
+        {
+          "code": "G06F 13/38",
+          "title": {
+            "ko": null,
+            "en": "Information transfer, e.g. on bus (G06F13/14 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 15/00",
+      "title": {
+        "ko": null,
+        "en": "Digital computers in general (details G06F1/00 – G06F13/00); Data processing equipment in general"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 15/02",
+          "title": {
+            "ko": null,
+            "en": "manually operated with input through keyboard and computation using a built-in program, e.g. pocket calculators"
+          }
+        },
+        {
+          "code": "G06F 15/04",
+          "title": {
+            "ko": null,
+            "en": "programmed simultaneously with the introduction of data to be processed, e.g. on the same record carrier"
+          }
+        },
+        {
+          "code": "G06F 15/08",
+          "title": {
+            "ko": null,
+            "en": "using a plugboard for programming"
+          }
+        },
+        {
+          "code": "G06F 15/16",
+          "title": {
+            "ko": null,
+            "en": "Combinations of two or more digital computers each having at least an arithmetic unit, a program unit and a register, e.g. for a simultaneous processing of several programs {(coordinating program control therefor G06F9/52; in regulating and control system G05B)}"
+          }
+        },
+        {
+          "code": "G06F 15/76",
+          "title": {
+            "ko": null,
+            "en": "Architectures of general purpose stored program computers (with program plugboard G06F15/08; multicomputers G06F15/16)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 16/00",
+      "title": {
+        "ko": null,
+        "en": "Information retrieval; Database structures therefor; File system structures therefor"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 16/10",
+          "title": {
+            "ko": null,
+            "en": "File systems; File servers"
+          }
+        },
+        {
+          "code": "G06F 16/20",
+          "title": {
+            "ko": null,
+            "en": "of structured data, e.g. relational data"
+          }
+        },
+        {
+          "code": "G06F 16/30",
+          "title": {
+            "ko": null,
+            "en": "of unstructured textual data (document management systems G06F16/93)"
+          }
+        },
+        {
+          "code": "G06F 16/40",
+          "title": {
+            "ko": null,
+            "en": "of multimedia data, e.g. slideshows comprising image and additional audio data (retrieval of still image data G06F16/50; retrieval of audio data G06F16/60; retrieval of video data G06F16/70)"
+          }
+        },
+        {
+          "code": "G06F 16/50",
+          "title": {
+            "ko": null,
+            "en": "of still image data"
+          }
+        },
+        {
+          "code": "G06F 16/60",
+          "title": {
+            "ko": null,
+            "en": "of audio data"
+          }
+        },
+        {
+          "code": "G06F 16/70",
+          "title": {
+            "ko": null,
+            "en": "of video data"
+          }
+        },
+        {
+          "code": "G06F 16/80",
+          "title": {
+            "ko": null,
+            "en": "of semi-structured data, e.g. markup language structured data such as SGML, XML or HTML (content-based retrieval of web data G06F16/95)"
+          }
+        },
+        {
+          "code": "G06F 16/90",
+          "title": {
+            "ko": null,
+            "en": "Details of database functions independent of the retrieved data types"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 17/00",
+      "title": {
+        "ko": null,
+        "en": "Digital computing or data processing equipment or methods, specially adapted for specific functions (information retrieval, database structures or file system structures therefor G06F16/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 17/10",
+          "title": {
+            "ko": null,
+            "en": "Complex mathematical operations {(function generation by table look-up G06F1/03; evaluation of elementary functions by calculation G06F7/544)}"
+          }
+        },
+        {
+          "code": "G06F 17/40",
+          "title": {
+            "ko": null,
+            "en": "Data acquisition and logging (for input to computer G06F3/00)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 18/00",
+      "title": {
+        "ko": null,
+        "en": "Pattern recognition"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 18/10",
+          "title": {
+            "ko": null,
+            "en": "Pre-processing; Data cleansing"
+          }
+        },
+        {
+          "code": "G06F 18/20",
+          "title": {
+            "ko": null,
+            "en": "Analysing"
+          }
+        },
+        {
+          "code": "G06F 18/30",
+          "title": {
+            "ko": null,
+            "en": "Post-processing"
+          }
+        },
+        {
+          "code": "G06F 18/40",
+          "title": {
+            "ko": null,
+            "en": "Software arrangements specially adapted for pattern recognition, e.g. user interfaces or toolboxes therefor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 21/00",
+      "title": {
+        "ko": null,
+        "en": "Security arrangements for protecting computers, components thereof, programs or data against unauthorised activity"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 21/10",
+          "title": {
+            "ko": null,
+            "en": "Protecting distributed programs or content, e.g. vending or licensing of copyrighted material (protection in video systems or pay television H04N7/16) {; Digital rights management [DRM]}"
+          }
+        },
+        {
+          "code": "G06F 21/30",
+          "title": {
+            "ko": null,
+            "en": "Authentication, i.e. establishing the identity or authorisation of security principals"
+          }
+        },
+        {
+          "code": "G06F 21/50",
+          "title": {
+            "ko": null,
+            "en": "Monitoring users, programs or devices to maintain the integrity of platforms, e.g. of processors, firmware or operating systems"
+          }
+        },
+        {
+          "code": "G06F 21/60",
+          "title": {
+            "ko": null,
+            "en": "Protecting data"
+          }
+        },
+        {
+          "code": "G06F 21/70",
+          "title": {
+            "ko": null,
+            "en": "Protecting specific internal or peripheral components, in which the protection of a component leads to protection of the entire computer"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 30/00",
+      "title": {
+        "ko": null,
+        "en": "Computer-aided design [CAD]"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 30/10",
+          "title": {
+            "ko": null,
+            "en": "Geometric CAD"
+          }
+        },
+        {
+          "code": "G06F 30/20",
+          "title": {
+            "ko": null,
+            "en": "Design optimisation, verification or simulation (optimisation, verification or simulation of circuit designs G06F30/30)"
+          }
+        },
+        {
+          "code": "G06F 30/30",
+          "title": {
+            "ko": null,
+            "en": "Circuit design"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 40/00",
+      "title": {
+        "ko": null,
+        "en": "Handling natural language data (speech analysis or synthesis, speech recognition G10L)"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 40/10",
+          "title": {
+            "ko": null,
+            "en": "Text processing (natural language analysis G06F40/20; semantic analysis G06F40/30; processing or translation of natural language G06F40/40)"
+          }
+        },
+        {
+          "code": "G06F 40/20",
+          "title": {
+            "ko": null,
+            "en": "Natural language analysis (semantic analysis of natural language G06F40/30)"
+          }
+        },
+        {
+          "code": "G06F 40/30",
+          "title": {
+            "ko": null,
+            "en": "Semantic analysis"
+          }
+        },
+        {
+          "code": "G06F 40/40",
+          "title": {
+            "ko": null,
+            "en": "Processing or translation of natural language (natural language analysis G06F40/20; semantic analysis G06F40/30)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2101/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to the type of digital function generated"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2101/02",
+          "title": {
+            "ko": null,
+            "en": "Linear multivariable functions, i.e. sum of products"
+          }
+        },
+        {
+          "code": "G06F 2101/04",
+          "title": {
+            "ko": null,
+            "en": "Trigonometric functions"
+          }
+        },
+        {
+          "code": "G06F 2101/06",
+          "title": {
+            "ko": null,
+            "en": "Co-ordinate transformations"
+          }
+        },
+        {
+          "code": "G06F 2101/08",
+          "title": {
+            "ko": null,
+            "en": "Powers or roots"
+          }
+        },
+        {
+          "code": "G06F 2101/10",
+          "title": {
+            "ko": null,
+            "en": "Logarithmic or exponential functions"
+          }
+        },
+        {
+          "code": "G06F 2101/12",
+          "title": {
+            "ko": null,
+            "en": "Reciprocal functions"
+          }
+        },
+        {
+          "code": "G06F 2101/14",
+          "title": {
+            "ko": null,
+            "en": "Probability distribution functions"
+          }
+        },
+        {
+          "code": "G06F 2101/16",
+          "title": {
+            "ko": null,
+            "en": "PCM companding functions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2111/00",
+      "title": {
+        "ko": null,
+        "en": "Details relating to CAD techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2111/02",
+          "title": {
+            "ko": null,
+            "en": "CAD in a network environment, e.g. collaborative CAD or distributed simulation"
+          }
+        },
+        {
+          "code": "G06F 2111/04",
+          "title": {
+            "ko": null,
+            "en": "Constraint-based CAD"
+          }
+        },
+        {
+          "code": "G06F 2111/06",
+          "title": {
+            "ko": null,
+            "en": "Multi-objective optimisation, e.g. Pareto optimisation using simulated annealing [SA], ant colony algorithms or genetic algorithms [GA]"
+          }
+        },
+        {
+          "code": "G06F 2111/08",
+          "title": {
+            "ko": null,
+            "en": "Probabilistic or stochastic CAD"
+          }
+        },
+        {
+          "code": "G06F 2111/10",
+          "title": {
+            "ko": null,
+            "en": "Numerical modelling"
+          }
+        },
+        {
+          "code": "G06F 2111/12",
+          "title": {
+            "ko": null,
+            "en": "Symbolic schematics"
+          }
+        },
+        {
+          "code": "G06F 2111/14",
+          "title": {
+            "ko": null,
+            "en": "related to nanotechnology"
+          }
+        },
+        {
+          "code": "G06F 2111/16",
+          "title": {
+            "ko": null,
+            "en": "Customisation or personalisation"
+          }
+        },
+        {
+          "code": "G06F 2111/18",
+          "title": {
+            "ko": null,
+            "en": "using virtual or augmented reality"
+          }
+        },
+        {
+          "code": "G06F 2111/20",
+          "title": {
+            "ko": null,
+            "en": "Configuration CAD, e.g. designing by assembling or positioning modules selected from libraries of predesigned modules"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2113/00",
+      "title": {
+        "ko": null,
+        "en": "Details relating to the application field"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2113/02",
+          "title": {
+            "ko": null,
+            "en": "Data centres"
+          }
+        },
+        {
+          "code": "G06F 2113/04",
+          "title": {
+            "ko": null,
+            "en": "Power grid distribution networks"
+          }
+        },
+        {
+          "code": "G06F 2113/06",
+          "title": {
+            "ko": null,
+            "en": "Wind turbines or wind farms"
+          }
+        },
+        {
+          "code": "G06F 2113/08",
+          "title": {
+            "ko": null,
+            "en": "Fluids"
+          }
+        },
+        {
+          "code": "G06F 2113/10",
+          "title": {
+            "ko": null,
+            "en": "Additive manufacturing, e.g. three-dimensional [3D] printing"
+          }
+        },
+        {
+          "code": "G06F 2113/12",
+          "title": {
+            "ko": null,
+            "en": "Cloth"
+          }
+        },
+        {
+          "code": "G06F 2113/14",
+          "title": {
+            "ko": null,
+            "en": "Pipes"
+          }
+        },
+        {
+          "code": "G06F 2113/16",
+          "title": {
+            "ko": null,
+            "en": "Cables, cable trees or wire harnesses"
+          }
+        },
+        {
+          "code": "G06F 2113/18",
+          "title": {
+            "ko": null,
+            "en": "Chip packaging"
+          }
+        },
+        {
+          "code": "G06F 2113/20",
+          "title": {
+            "ko": null,
+            "en": "Packaging, e.g. boxes or containers"
+          }
+        },
+        {
+          "code": "G06F 2113/22",
+          "title": {
+            "ko": null,
+            "en": "Moulding"
+          }
+        },
+        {
+          "code": "G06F 2113/24",
+          "title": {
+            "ko": null,
+            "en": "Sheet material"
+          }
+        },
+        {
+          "code": "G06F 2113/26",
+          "title": {
+            "ko": null,
+            "en": "Composites"
+          }
+        },
+        {
+          "code": "G06F 2113/28",
+          "title": {
+            "ko": null,
+            "en": "Fuselage, exterior or interior"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2115/00",
+      "title": {
+        "ko": null,
+        "en": "Details relating to the type of the circuit"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2115/02",
+          "title": {
+            "ko": null,
+            "en": "System on chip [SoC] design"
+          }
+        },
+        {
+          "code": "G06F 2115/04",
+          "title": {
+            "ko": null,
+            "en": "Micro electro-mechanical systems [MEMS]"
+          }
+        },
+        {
+          "code": "G06F 2115/06",
+          "title": {
+            "ko": null,
+            "en": "Structured ASICs"
+          }
+        },
+        {
+          "code": "G06F 2115/08",
+          "title": {
+            "ko": null,
+            "en": "Intellectual property [IP] blocks or IP cores"
+          }
+        },
+        {
+          "code": "G06F 2115/10",
+          "title": {
+            "ko": null,
+            "en": "Processors"
+          }
+        },
+        {
+          "code": "G06F 2115/12",
+          "title": {
+            "ko": null,
+            "en": "Printed circuit boards [PCB] or multi-chip modules [MCM]"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2117/00",
+      "title": {
+        "ko": null,
+        "en": "Details relating to the type or aim of the circuit design"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2117/02",
+          "title": {
+            "ko": null,
+            "en": "Fault tolerance, e.g. for transient fault suppression"
+          }
+        },
+        {
+          "code": "G06F 2117/04",
+          "title": {
+            "ko": null,
+            "en": "Clock gating"
+          }
+        },
+        {
+          "code": "G06F 2117/06",
+          "title": {
+            "ko": null,
+            "en": "Spare resources, e.g. for permanent fault suppression"
+          }
+        },
+        {
+          "code": "G06F 2117/08",
+          "title": {
+            "ko": null,
+            "en": "HW-SW co-design, e.g. HW-SW partitioning"
+          }
+        },
+        {
+          "code": "G06F 2117/10",
+          "title": {
+            "ko": null,
+            "en": "Buffer insertion"
+          }
+        },
+        {
+          "code": "G06F 2117/12",
+          "title": {
+            "ko": null,
+            "en": "Sizing, e.g. of transistors or gates"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2119/00",
+      "title": {
+        "ko": null,
+        "en": "Details relating to the type or aim of the analysis or the optimisation"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2119/02",
+          "title": {
+            "ko": null,
+            "en": "Reliability analysis or reliability optimisation; Failure analysis, e.g. worst case scenario performance, failure mode and effects analysis [FMEA]"
+          }
+        },
+        {
+          "code": "G06F 2119/04",
+          "title": {
+            "ko": null,
+            "en": "Ageing analysis or optimisation against ageing"
+          }
+        },
+        {
+          "code": "G06F 2119/06",
+          "title": {
+            "ko": null,
+            "en": "Power analysis or power optimisation"
+          }
+        },
+        {
+          "code": "G06F 2119/08",
+          "title": {
+            "ko": null,
+            "en": "Thermal analysis or thermal optimisation"
+          }
+        },
+        {
+          "code": "G06F 2119/10",
+          "title": {
+            "ko": null,
+            "en": "Noise analysis or noise optimisation"
+          }
+        },
+        {
+          "code": "G06F 2119/12",
+          "title": {
+            "ko": null,
+            "en": "Timing analysis or timing optimisation"
+          }
+        },
+        {
+          "code": "G06F 2119/14",
+          "title": {
+            "ko": null,
+            "en": "Force analysis or force optimisation, e.g. static or dynamic forces"
+          }
+        },
+        {
+          "code": "G06F 2119/16",
+          "title": {
+            "ko": null,
+            "en": "Equivalence checking"
+          }
+        },
+        {
+          "code": "G06F 2119/18",
+          "title": {
+            "ko": null,
+            "en": "Manufacturability analysis or optimisation for manufacturability"
+          }
+        },
+        {
+          "code": "G06F 2119/20",
+          "title": {
+            "ko": null,
+            "en": "Design reuse, reusability analysis or reusability optimisation"
+          }
+        },
+        {
+          "code": "G06F 2119/22",
+          "title": {
+            "ko": null,
+            "en": "Yield analysis or yield optimisation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2123/00",
+      "title": {
+        "ko": null,
+        "en": "Data types"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2123/02",
+          "title": {
+            "ko": null,
+            "en": "in the time domain, e.g. time-series data"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2200/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to G06F1/04 - G06F1/32"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2200/16",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F1/16 - G06F1/18"
+          }
+        },
+        {
+          "code": "G06F 2200/20",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F1/20"
+          }
+        },
+        {
+          "code": "G06F 2200/26",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F1/26"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to error detection, to error correction, and to monitoring"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2201/80",
+          "title": {
+            "ko": null,
+            "en": "Database-specific techniques"
+          }
+        },
+        {
+          "code": "G06F 2201/805",
+          "title": {
+            "ko": null,
+            "en": "Real-time"
+          }
+        },
+        {
+          "code": "G06F 2201/81",
+          "title": {
+            "ko": null,
+            "en": "Threshold"
+          }
+        },
+        {
+          "code": "G06F 2201/815",
+          "title": {
+            "ko": null,
+            "en": "Virtual"
+          }
+        },
+        {
+          "code": "G06F 2201/82",
+          "title": {
+            "ko": null,
+            "en": "Solving problems relating to consistency"
+          }
+        },
+        {
+          "code": "G06F 2201/825",
+          "title": {
+            "ko": null,
+            "en": "the problem or solution involving locking"
+          }
+        },
+        {
+          "code": "G06F 2201/83",
+          "title": {
+            "ko": null,
+            "en": "the solution involving signatures"
+          }
+        },
+        {
+          "code": "G06F 2201/835",
+          "title": {
+            "ko": null,
+            "en": "Timestamp"
+          }
+        },
+        {
+          "code": "G06F 2201/84",
+          "title": {
+            "ko": null,
+            "en": "Using snapshots, i.e. a logical point-in-time copy of the data"
+          }
+        },
+        {
+          "code": "G06F 2201/845",
+          "title": {
+            "ko": null,
+            "en": "Systems in which the redundancy can be transformed in increased performance"
+          }
+        },
+        {
+          "code": "G06F 2201/85",
+          "title": {
+            "ko": null,
+            "en": "Active fault masking without idle spares"
+          }
+        },
+        {
+          "code": "G06F 2201/855",
+          "title": {
+            "ko": null,
+            "en": "Details of asynchronous mirroring using a journal to transfer not-yet-mirrored changes"
+          }
+        },
+        {
+          "code": "G06F 2201/86",
+          "title": {
+            "ko": null,
+            "en": "Event-based monitoring"
+          }
+        },
+        {
+          "code": "G06F 2201/865",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of software"
+          }
+        },
+        {
+          "code": "G06F 2201/87",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of transactions"
+          }
+        },
+        {
+          "code": "G06F 2201/875",
+          "title": {
+            "ko": null,
+            "en": "Monitoring of systems including the internet"
+          }
+        },
+        {
+          "code": "G06F 2201/88",
+          "title": {
+            "ko": null,
+            "en": "Monitoring involving counting"
+          }
+        },
+        {
+          "code": "G06F 2201/885",
+          "title": {
+            "ko": null,
+            "en": "Monitoring specific for caches"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2203/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to G06F3/00 - G06F3/048"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2203/01",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F3/01"
+          }
+        },
+        {
+          "code": "G06F 2203/033",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F3/033"
+          }
+        },
+        {
+          "code": "G06F 2203/038",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F3/038"
+          }
+        },
+        {
+          "code": "G06F 2203/041",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F3/041 - G06F3/045"
+          }
+        },
+        {
+          "code": "G06F 2203/048",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F3/048"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2205/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to group G06F5/00; Methods or arrangements for data conversion without changing the order or content of the data handled"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2205/003",
+          "title": {
+            "ko": null,
+            "en": "Reformatting, i.e. changing the format of data representation"
+          }
+        },
+        {
+          "code": "G06F 2205/06",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F5/06 - G06F5/16"
+          }
+        },
+        {
+          "code": "G06F 2205/10",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F5/10 - G06F5/14"
+          }
+        },
+        {
+          "code": "G06F 2205/12",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F5/12 - G06F5/14"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2206/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme related to dedicated interfaces for computers"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2206/10",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme related to storage interfaces for computers, indexing schema related to group G06F3/06"
+          }
+        },
+        {
+          "code": "G06F 2206/15",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme related to printer interfaces for computers, indexing schema related to group G06F3/12"
+          }
+        },
+        {
+          "code": "G06F 2206/20",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme related to audio interfaces for computers, indexing schema related to group G06F3/16"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to methods or arrangements for processing data by operating upon the order or content of the data handled"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2207/02",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/02 - G06F7/026"
+          }
+        },
+        {
+          "code": "G06F 2207/22",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/22 - G06F7/36"
+          }
+        },
+        {
+          "code": "G06F 2207/38",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/38 - G06F7/575"
+          }
+        },
+        {
+          "code": "G06F 2207/483",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to group G06F7/483"
+          }
+        },
+        {
+          "code": "G06F 2207/491",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/491 - G06F7/4917"
+          }
+        },
+        {
+          "code": "G06F 2207/492",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/492 - G06F7/496"
+          }
+        },
+        {
+          "code": "G06F 2207/506",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/506 - G06F7/508"
+          }
+        },
+        {
+          "code": "G06F 2207/535",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/535 - G06F7/5375"
+          }
+        },
+        {
+          "code": "G06F 2207/544",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to group G06F7/544"
+          }
+        },
+        {
+          "code": "G06F 2207/552",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/552 - G06F7/5525"
+          }
+        },
+        {
+          "code": "G06F 2207/556",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to group G06F7/556"
+          }
+        },
+        {
+          "code": "G06F 2207/58",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/58 - G06F7/588"
+          }
+        },
+        {
+          "code": "G06F 2207/72",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to groups G06F7/72 - G06F7/729"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2209/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to G06F9/00"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2209/46",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F9/46"
+          }
+        },
+        {
+          "code": "G06F 2209/48",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F9/48"
+          }
+        },
+        {
+          "code": "G06F 2209/50",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F9/50"
+          }
+        },
+        {
+          "code": "G06F 2209/52",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F9/52"
+          }
+        },
+        {
+          "code": "G06F 2209/54",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F9/54"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2211/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to details of data-processing equipment not covered by groups G06F3/00 - G06F13/00"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2211/001",
+          "title": {
+            "ko": null,
+            "en": "In-Line Device"
+          }
+        },
+        {
+          "code": "G06F 2211/002",
+          "title": {
+            "ko": null,
+            "en": "Bus"
+          }
+        },
+        {
+          "code": "G06F 2211/003",
+          "title": {
+            "ko": null,
+            "en": "Mutual Authentication Bi-Directional Authentication, Dialogue, Handshake"
+          }
+        },
+        {
+          "code": "G06F 2211/004",
+          "title": {
+            "ko": null,
+            "en": "Notarisation, Time-Stamp, Date-Stamp"
+          }
+        },
+        {
+          "code": "G06F 2211/005",
+          "title": {
+            "ko": null,
+            "en": "Network, LAN, Remote Access, Distributed System"
+          }
+        },
+        {
+          "code": "G06F 2211/007",
+          "title": {
+            "ko": null,
+            "en": "Encryption, En-/decode, En-/decipher, En-/decypher, Scramble, (De-)compress"
+          }
+        },
+        {
+          "code": "G06F 2211/009",
+          "title": {
+            "ko": null,
+            "en": "Trust"
+          }
+        },
+        {
+          "code": "G06F 2211/10",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F11/10"
+          }
+        },
+        {
+          "code": "G06F 2211/1097",
+          "title": {
+            "ko": null,
+            "en": "Boot, Start, Initialise, Power"
+          }
+        },
+        {
+          "code": "G06F 2211/902",
+          "title": {
+            "ko": null,
+            "en": "Spectral purity improvement for digital function generators by adding a dither signal, e.g. noise"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2212/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to accessing, addressing or allocation within memory systems or architectures"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2212/10",
+          "title": {
+            "ko": null,
+            "en": "Providing a specific technical effect"
+          }
+        },
+        {
+          "code": "G06F 2212/15",
+          "title": {
+            "ko": null,
+            "en": "Use in a specific computing environment"
+          }
+        },
+        {
+          "code": "G06F 2212/16",
+          "title": {
+            "ko": null,
+            "en": "General purpose computing application"
+          }
+        },
+        {
+          "code": "G06F 2212/17",
+          "title": {
+            "ko": null,
+            "en": "Embedded application"
+          }
+        },
+        {
+          "code": "G06F 2212/20",
+          "title": {
+            "ko": null,
+            "en": "Employing a main memory using a specific memory technology"
+          }
+        },
+        {
+          "code": "G06F 2212/21",
+          "title": {
+            "ko": null,
+            "en": "Employing a record carrier using a specific recording technology"
+          }
+        },
+        {
+          "code": "G06F 2212/22",
+          "title": {
+            "ko": null,
+            "en": "Employing cache memory using specific memory technology"
+          }
+        },
+        {
+          "code": "G06F 2212/25",
+          "title": {
+            "ko": null,
+            "en": "Using a specific main memory architecture"
+          }
+        },
+        {
+          "code": "G06F 2212/26",
+          "title": {
+            "ko": null,
+            "en": "Using a specific storage system architecture"
+          }
+        },
+        {
+          "code": "G06F 2212/27",
+          "title": {
+            "ko": null,
+            "en": "Using a specific cache architecture"
+          }
+        },
+        {
+          "code": "G06F 2212/28",
+          "title": {
+            "ko": null,
+            "en": "Using a specific disk cache architecture"
+          }
+        },
+        {
+          "code": "G06F 2212/30",
+          "title": {
+            "ko": null,
+            "en": "Providing cache or TLB in specific location of a processing system"
+          }
+        },
+        {
+          "code": "G06F 2212/31",
+          "title": {
+            "ko": null,
+            "en": "Providing disk cache in a specific location of a storage system"
+          }
+        },
+        {
+          "code": "G06F 2212/40",
+          "title": {
+            "ko": null,
+            "en": "Specific encoding of data in memory or cache"
+          }
+        },
+        {
+          "code": "G06F 2212/45",
+          "title": {
+            "ko": null,
+            "en": "Caching of specific data in cache memory"
+          }
+        },
+        {
+          "code": "G06F 2212/46",
+          "title": {
+            "ko": null,
+            "en": "Caching storage objects of specific type in disk cache"
+          }
+        },
+        {
+          "code": "G06F 2212/50",
+          "title": {
+            "ko": null,
+            "en": "Control mechanisms for virtual memory, cache or TLB"
+          }
+        },
+        {
+          "code": "G06F 2212/60",
+          "title": {
+            "ko": null,
+            "en": "Details of cache memory"
+          }
+        },
+        {
+          "code": "G06F 2212/62",
+          "title": {
+            "ko": null,
+            "en": "Details of cache specific to multiprocessor cache arrangements"
+          }
+        },
+        {
+          "code": "G06F 2212/65",
+          "title": {
+            "ko": null,
+            "en": "Details of virtual memory and virtual address translation"
+          }
+        },
+        {
+          "code": "G06F 2212/68",
+          "title": {
+            "ko": null,
+            "en": "Details of translation look-aside buffer [TLB]"
+          }
+        },
+        {
+          "code": "G06F 2212/70",
+          "title": {
+            "ko": null,
+            "en": "Details relating to dynamic memory management"
+          }
+        },
+        {
+          "code": "G06F 2212/72",
+          "title": {
+            "ko": null,
+            "en": "Details relating to flash memory management"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2213/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2213/0002",
+          "title": {
+            "ko": null,
+            "en": "Serial port, e.g. RS232C"
+          }
+        },
+        {
+          "code": "G06F 2213/0004",
+          "title": {
+            "ko": null,
+            "en": "Parallel ports, e.g. centronics"
+          }
+        },
+        {
+          "code": "G06F 2213/0006",
+          "title": {
+            "ko": null,
+            "en": "Extension to the industry standard architecture [EISA]"
+          }
+        },
+        {
+          "code": "G06F 2213/0008",
+          "title": {
+            "ko": null,
+            "en": "High speed serial bus, e.g. Fiber channel"
+          }
+        },
+        {
+          "code": "G06F 2213/0012",
+          "title": {
+            "ko": null,
+            "en": "High speed serial bus, e.g. IEEE P1394"
+          }
+        },
+        {
+          "code": "G06F 2213/0014",
+          "title": {
+            "ko": null,
+            "en": "Futurebus"
+          }
+        },
+        {
+          "code": "G06F 2213/0016",
+          "title": {
+            "ko": null,
+            "en": "Inter-integrated circuit (I2C)"
+          }
+        },
+        {
+          "code": "G06F 2213/0018",
+          "title": {
+            "ko": null,
+            "en": "Industry standard architecture [ISA]"
+          }
+        },
+        {
+          "code": "G06F 2213/0022",
+          "title": {
+            "ko": null,
+            "en": "Multibus"
+          }
+        },
+        {
+          "code": "G06F 2213/0024",
+          "title": {
+            "ko": null,
+            "en": "Peripheral component interconnect [PCI]"
+          }
+        },
+        {
+          "code": "G06F 2213/0026",
+          "title": {
+            "ko": null,
+            "en": "PCI express"
+          }
+        },
+        {
+          "code": "G06F 2213/0028",
+          "title": {
+            "ko": null,
+            "en": "Serial attached SCSI [SAS]"
+          }
+        },
+        {
+          "code": "G06F 2213/0032",
+          "title": {
+            "ko": null,
+            "en": "Serial ATA [SATA]"
+          }
+        },
+        {
+          "code": "G06F 2213/0034",
+          "title": {
+            "ko": null,
+            "en": "Sun microsystems bus [SBus]"
+          }
+        },
+        {
+          "code": "G06F 2213/0036",
+          "title": {
+            "ko": null,
+            "en": "Small computer system interface [SCSI]"
+          }
+        },
+        {
+          "code": "G06F 2213/0038",
+          "title": {
+            "ko": null,
+            "en": "System on Chip"
+          }
+        },
+        {
+          "code": "G06F 2213/0042",
+          "title": {
+            "ko": null,
+            "en": "Universal serial bus [USB]"
+          }
+        },
+        {
+          "code": "G06F 2213/0044",
+          "title": {
+            "ko": null,
+            "en": "Versatile modular eurobus [VME]"
+          }
+        },
+        {
+          "code": "G06F 2213/0052",
+          "title": {
+            "ko": null,
+            "en": "Assignment of addresses or identifiers to the modules of a bus system"
+          }
+        },
+        {
+          "code": "G06F 2213/0054",
+          "title": {
+            "ko": null,
+            "en": "Split transaction bus"
+          }
+        },
+        {
+          "code": "G06F 2213/0056",
+          "title": {
+            "ko": null,
+            "en": "Use of address and non-data lines as data lines for specific data transfers to temporarily enlarge the data bus and increase information transfer rate"
+          }
+        },
+        {
+          "code": "G06F 2213/0058",
+          "title": {
+            "ko": null,
+            "en": "Bus-related hardware virtualisation"
+          }
+        },
+        {
+          "code": "G06F 2213/0062",
+          "title": {
+            "ko": null,
+            "en": "Bandwidth consumption reduction during transfers"
+          }
+        },
+        {
+          "code": "G06F 2213/0064",
+          "title": {
+            "ko": null,
+            "en": "Latency reduction in handling transfers"
+          }
+        },
+        {
+          "code": "G06F 2213/16",
+          "title": {
+            "ko": null,
+            "en": "Memory access"
+          }
+        },
+        {
+          "code": "G06F 2213/24",
+          "title": {
+            "ko": null,
+            "en": "Interrupt"
+          }
+        },
+        {
+          "code": "G06F 2213/28",
+          "title": {
+            "ko": null,
+            "en": "DMA"
+          }
+        },
+        {
+          "code": "G06F 2213/36",
+          "title": {
+            "ko": null,
+            "en": "Arbitration"
+          }
+        },
+        {
+          "code": "G06F 2213/38",
+          "title": {
+            "ko": null,
+            "en": "Universal adapter"
+          }
+        },
+        {
+          "code": "G06F 2213/40",
+          "title": {
+            "ko": null,
+            "en": "Bus coupling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2216/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to additional aspects of information retrieval not explicitly covered by G06F16/00 and subgroups"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2216/01",
+          "title": {
+            "ko": null,
+            "en": "Automatic library building"
+          }
+        },
+        {
+          "code": "G06F 2216/03",
+          "title": {
+            "ko": null,
+            "en": "Data mining"
+          }
+        },
+        {
+          "code": "G06F 2216/05",
+          "title": {
+            "ko": null,
+            "en": "Energy-efficient information retrieval"
+          }
+        },
+        {
+          "code": "G06F 2216/07",
+          "title": {
+            "ko": null,
+            "en": "Guided tours"
+          }
+        },
+        {
+          "code": "G06F 2216/09",
+          "title": {
+            "ko": null,
+            "en": "Obsolescence"
+          }
+        },
+        {
+          "code": "G06F 2216/11",
+          "title": {
+            "ko": null,
+            "en": "Patent retrieval"
+          }
+        },
+        {
+          "code": "G06F 2216/13",
+          "title": {
+            "ko": null,
+            "en": "Prefetching"
+          }
+        },
+        {
+          "code": "G06F 2216/15",
+          "title": {
+            "ko": null,
+            "en": "Synchronised browsing"
+          }
+        },
+        {
+          "code": "G06F 2216/17",
+          "title": {
+            "ko": null,
+            "en": "Web printing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2218/00",
+      "title": {
+        "ko": null,
+        "en": "Aspects of pattern recognition specially adapted for signal processing"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2218/02",
+          "title": {
+            "ko": null,
+            "en": "Preprocessing"
+          }
+        },
+        {
+          "code": "G06F 2218/08",
+          "title": {
+            "ko": null,
+            "en": "Feature extraction"
+          }
+        },
+        {
+          "code": "G06F 2218/12",
+          "title": {
+            "ko": null,
+            "en": "Classification; Matching"
+          }
+        },
+        {
+          "code": "G06F 2218/22",
+          "title": {
+            "ko": null,
+            "en": "Source localisation; Inverse modelling"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2219/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to application aspects of data processing equipment or methods"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2219/10",
+          "title": {
+            "ko": null,
+            "en": "Environmental application, e.g. waste reduction, pollution control, compliance with environmental legislation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06F 2221/00",
+      "title": {
+        "ko": null,
+        "en": "Indexing scheme relating to security arrangements for protecting computers, components thereof, programs or data against unauthorised activity"
+      },
+      "subgroups": [
+        {
+          "code": "G06F 2221/03",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F21/50, monitoring users, programs or devices to maintain the integrity of platforms"
+          }
+        },
+        {
+          "code": "G06F 2221/21",
+          "title": {
+            "ko": null,
+            "en": "Indexing scheme relating to G06F21/00 and subgroups addressing additional information or applications relating to security arrangements for protecting computers, components thereof, programs or data against unauthorised activity"
+          }
+        }
+      ]
+    }
+  ]
+}

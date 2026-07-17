@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "drawing_id": {
+      "type": "string"
+    },
+    "dl_code": {
+      "type": "string"
+    },
+    "render_hint": {
+      "type": "object",
+      "properties": {
+        "suggested_width": {
+          "type": "integer"
+        },
+        "suggested_height": {
+          "type": "integer"
+        },
+        "orientation": {
+          "enum": [
+            "landscape",
+            "portrait"
+          ],
+          "type": "string"
+        }
+      }
+    },
+    "generation_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "drawing_id",
+    "dl_code",
+    "generation_notes"
+  ]
+}

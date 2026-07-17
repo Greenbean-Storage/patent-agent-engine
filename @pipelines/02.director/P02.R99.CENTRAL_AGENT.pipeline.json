@@ -1,0 +1,47 @@
+{
+  "description": "director(02번) 중앙 판단 루프. gateway의 needs_analysis 플래그마다 실행. Claude가 전략을 결정하고 sub-pipeline을 조건부 순차 실행한다.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R10.DIRECTOR_GAP_ANALYSIS"
+      ],
+      [
+        "P03.R20.ANALYZE_REJECTION_RISK"
+      ],
+      [
+        "P02.R20.CLASSIFY_INVENTION"
+      ],
+      [
+        "P03.R00.PRIOR_ART_SEARCH_ANALYZE"
+      ],
+      [
+        "P04.R00.INVENTION_REASONING"
+      ],
+      [
+        "P02.R12.DRAWING_ORCHESTRATION"
+      ],
+      [
+        "P02.R11.PATENT_EVALUATION"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "Claude Opus 4.7 이 queued_turns + 9 종 컨텍스트를 검토하여 (a) IOM 업데이트 patch, (b) 다음 액션 plan(어느 sub_pipeline 을 어떤 순서로 호출할지), (c) message_to_chat 결정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R99/decide.md"
+      },
+      "llm_tools": [],
+      "output_contract": "validate-and-plan-output"
+    }
+  ]
+}

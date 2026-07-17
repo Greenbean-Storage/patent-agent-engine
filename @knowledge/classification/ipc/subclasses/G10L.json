@@ -1,0 +1,1111 @@
+{
+  "subclass": "G10L",
+  "title": {
+    "ko": "음성분석 또는 합성; 음성 인식; 음성(speech) 또는 음성(voice) 처리; 음성(speech) 또는 오디오(audio) 부호화 또는 복호화",
+    "en": "SPEECH ANALYSIS TECHNIQUES OR SPEECH SYNTHESIS; SPEECH RECOGNITION; SPEECH OR VOICE PROCESSING TECHNIQUES; SPEECH OR AUDIO CODING OR DECODING"
+  },
+  "definition": {
+    "ko": "이 하위 클래스에는 다음이 포함되지 않는다. ㆍ하위 클래스 G11B 및 G11C에 포함되는 음성 또는 오디오 신호 저장용 장치; ㆍ그룹 H03M7/30에 포함되는 전송 또는 저장을 위한 압축 음성 신호 인코딩.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G10L 13/00",
+      "title": {
+        "ko": "음성합성 문장에서 음성 발생장치",
+        "en": "Speech synthesis; Text to speech systems"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 13/02",
+          "title": {
+            "ko": "합성 음성(speech)의 생성을 위한 방법; 음성(speech) 합성기",
+            "en": "Methods for producing synthetic speech; Speech synthesisers"
+          }
+        },
+        {
+          "code": "G10L 13/027",
+          "title": {
+            "ko": "음성(speech) 합성을 위한 개념(concept); 기계 기반 개념(concept)들로부터 자연 문장의 생성(텍스트로부터 음성을 합성하기 위한 파라미터의 생성 G10L 13/08)",
+            "en": "Concept to speech synthesisers; Generation of natural phrases from machine-based concepts (generation of parameters for speech synthesis out of text G10L0013080000)"
+          }
+        },
+        {
+          "code": "G10L 13/033",
+          "title": {
+            "ko": null,
+            "en": "Voice editing, e.g. manipulating the voice of the synthesiser"
+          }
+        },
+        {
+          "code": "G10L 13/04",
+          "title": {
+            "ko": null,
+            "en": "Details of speech synthesis systems, e.g. synthesiser structure or memory management"
+          }
+        },
+        {
+          "code": "G10L 13/047",
+          "title": {
+            "ko": null,
+            "en": "Architecture of speech synthesisers"
+          }
+        },
+        {
+          "code": "G10L 13/06",
+          "title": {
+            "ko": null,
+            "en": "Elementary speech units used in speech synthesisers; Concatenation rules"
+          }
+        },
+        {
+          "code": "G10L 13/07",
+          "title": {
+            "ko": null,
+            "en": "Concatenation rules"
+          }
+        },
+        {
+          "code": "G10L 13/08",
+          "title": {
+            "ko": null,
+            "en": "Text analysis or generation of parameters for speech synthesis out of text, e.g. grapheme to phoneme translation, prosody generation or stress or intonation determination"
+          }
+        },
+        {
+          "code": "G10L 13/10",
+          "title": {
+            "ko": null,
+            "en": "Prosody rules derived from text; Stress or intonation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 15/00",
+      "title": {
+        "ko": "음성(speech) 인식 (G10L17/00 우선)",
+        "en": "Speech recognition (G10L0017000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 15/01",
+          "title": {
+            "ko": null,
+            "en": "Assessment or evaluation of speech recognition systems"
+          }
+        },
+        {
+          "code": "G10L 15/02",
+          "title": {
+            "ko": null,
+            "en": "Feature extraction for speech recognition; Selection of recognition unit"
+          }
+        },
+        {
+          "code": "G10L 15/04",
+          "title": {
+            "ko": null,
+            "en": "Segmentation; Word boundary detection"
+          }
+        },
+        {
+          "code": "G10L 15/05",
+          "title": {
+            "ko": null,
+            "en": "Word boundary detection"
+          }
+        },
+        {
+          "code": "G10L 15/06",
+          "title": {
+            "ko": "기준 형판(templates)의 생성; 음성(speech) 인식 장치의 훈련, 예, 화자의 음성 특징에 적응(15/14 우선)",
+            "en": "Creation of reference templates; Training of speech recognition systems, e.g. adaptation to the characteristics of the speaker's voice (G10L0015140000 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 15/065",
+          "title": {
+            "ko": null,
+            "en": "Adaptation"
+          }
+        },
+        {
+          "code": "G10L 15/07",
+          "title": {
+            "ko": null,
+            "en": "to the speaker"
+          }
+        },
+        {
+          "code": "G10L 15/08",
+          "title": {
+            "ko": "음성의 분류 또는 조사",
+            "en": "Speech classification or search"
+          }
+        },
+        {
+          "code": "G10L 15/10",
+          "title": {
+            "ko": null,
+            "en": "using distance or distortion measures between unknown speech and reference templates"
+          }
+        },
+        {
+          "code": "G10L 15/12",
+          "title": {
+            "ko": null,
+            "en": "using dynamic programming techniques, e.g. dynamic time warping [DTW]"
+          }
+        },
+        {
+          "code": "G10L 15/14",
+          "title": {
+            "ko": "통계적 모델 사용, 예, 은닉 마르코프 모델(Hidden Markov Model, HMM) (G10L15/18이 우선)",
+            "en": "using statistical models, e.g. Hidden Markov Models [HMM] (G10L0015180000 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 15/16",
+          "title": {
+            "ko": null,
+            "en": "using artificial neural networks"
+          }
+        },
+        {
+          "code": "G10L 15/18",
+          "title": {
+            "ko": null,
+            "en": "using natural language modelling"
+          }
+        },
+        {
+          "code": "G10L 15/183",
+          "title": {
+            "ko": null,
+            "en": "using context dependencies, e.g. language models"
+          }
+        },
+        {
+          "code": "G10L 15/187",
+          "title": {
+            "ko": null,
+            "en": "Phonemic context, e.g. pronunciation rules, phonotactical constraints or phoneme n-grams"
+          }
+        },
+        {
+          "code": "G10L 15/19",
+          "title": {
+            "ko": null,
+            "en": "Grammatical context, e.g. disambiguation of recognition hypotheses based on word sequence rules"
+          }
+        },
+        {
+          "code": "G10L 15/193",
+          "title": {
+            "ko": null,
+            "en": "Formal grammars, e.g. finite state automata, context free grammars or word networks"
+          }
+        },
+        {
+          "code": "G10L 15/197",
+          "title": {
+            "ko": null,
+            "en": "Probabilistic grammars, e.g. word n-grams"
+          }
+        },
+        {
+          "code": "G10L 15/20",
+          "title": {
+            "ko": "열악한 환경하에서 강인성을 갖기 위한 음성인식 기술, 예, 소음속, 스트레스가 작용된 음성(G10L 21/02가 우선)",
+            "en": "Speech recognition techniques specially adapted for robustness in adverse environments, e.g. in noise or of stress induced speech (G10L0021020000 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 15/22",
+          "title": {
+            "ko": null,
+            "en": "Procedures used during a speech recognition process, e.g. man-machine dialog"
+          }
+        },
+        {
+          "code": "G10L 15/24",
+          "title": {
+            "ko": null,
+            "en": "Speech recognition using non-acoustical features"
+          }
+        },
+        {
+          "code": "G10L 15/25",
+          "title": {
+            "ko": null,
+            "en": "using position of the lips, movement of the lips or face analysis"
+          }
+        },
+        {
+          "code": "G10L 15/26",
+          "title": {
+            "ko": "음성으로부터 문장 변환 장치 (G10L15/08 이 우선)",
+            "en": "Speech to text systems (G10L0015080000 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 15/28",
+          "title": {
+            "ko": null,
+            "en": "Constructional details of speech recognition systems"
+          }
+        },
+        {
+          "code": "G10L 15/30",
+          "title": {
+            "ko": null,
+            "en": "Distributed recognition, e.g. in client-server systems, for mobile phones or network applications"
+          }
+        },
+        {
+          "code": "G10L 15/32",
+          "title": {
+            "ko": null,
+            "en": "Multiple recognisers used in sequence or in parallel; Score combination systems therefor, e.g. voting systems"
+          }
+        },
+        {
+          "code": "G10L 15/34",
+          "title": {
+            "ko": null,
+            "en": "Adaptation of a single recogniser for parallel processing, e.g. by use of multiple processors or cloud computing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 17/00",
+      "title": {
+        "ko": null,
+        "en": "Speaker identification or verification techniques"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 17/02",
+          "title": {
+            "ko": null,
+            "en": "Preprocessing operations, e.g. segment selection; Pattern representation or modelling, e.g. based on linear discriminant analysis [LDA] or principal components; Feature selection or extraction"
+          }
+        },
+        {
+          "code": "G10L 17/04",
+          "title": {
+            "ko": null,
+            "en": "Training, enrolment or model building"
+          }
+        },
+        {
+          "code": "G10L 17/06",
+          "title": {
+            "ko": null,
+            "en": "Decision making techniques; Pattern matching strategies"
+          }
+        },
+        {
+          "code": "G10L 17/08",
+          "title": {
+            "ko": null,
+            "en": "Use of distortion metrics or a particular distance between probe pattern and reference templates"
+          }
+        },
+        {
+          "code": "G10L 17/10",
+          "title": {
+            "ko": null,
+            "en": "Multimodal systems, i.e. based on the integration of multiple recognition engines or fusion of expert systems"
+          }
+        },
+        {
+          "code": "G10L 17/12",
+          "title": {
+            "ko": null,
+            "en": "Score normalisation"
+          }
+        },
+        {
+          "code": "G10L 17/14",
+          "title": {
+            "ko": null,
+            "en": "Use of phonemic categorisation or speech recognition prior to speaker recognition or verification"
+          }
+        },
+        {
+          "code": "G10L 17/16",
+          "title": {
+            "ko": null,
+            "en": "Hidden Markov models [HMM]"
+          }
+        },
+        {
+          "code": "G10L 17/18",
+          "title": {
+            "ko": null,
+            "en": "Artificial neural networks; Connectionist approaches"
+          }
+        },
+        {
+          "code": "G10L 17/20",
+          "title": {
+            "ko": null,
+            "en": "Pattern transformations or operations aimed at increasing system robustness, e.g. against channel noise or different working conditions"
+          }
+        },
+        {
+          "code": "G10L 17/22",
+          "title": {
+            "ko": null,
+            "en": "Interactive procedures; Man-machine interfaces"
+          }
+        },
+        {
+          "code": "G10L 17/24",
+          "title": {
+            "ko": null,
+            "en": "the user being prompted to utter a password or a predefined phrase"
+          }
+        },
+        {
+          "code": "G10L 17/26",
+          "title": {
+            "ko": null,
+            "en": "Recognition of special voice characteristics, e.g. for use in lie detectors; Recognition of animal voices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 19/00",
+      "title": {
+        "ko": "여유치 감소를 위한 음성 또는 오디오 분석-합성 기술, 예, 보코더(vocoder)에서의 것; 음성 또는 오디오의 부호화 또는 복호화, 음향심리학(psychoacoustic) 분석 또는 소스필터(source filter) 모델을 사용하는 것 (악기에서는 G10H)",
+        "en": "Speech or audio signal analysis-synthesis techniques for redundancy reduction, e.g. in vocoders; Coding or decoding of speech or audio signals, using source filter models or psychoacoustic analysis (in musical instruments G10H)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 19/002",
+          "title": {
+            "ko": "동적 비트(bit) 할당 (지각의 오디오 부호기를 위한 것 G10L19/032)",
+            "en": "Dynamic bit allocation (for perceptual audio coders G10L0019032000)"
+          }
+        },
+        {
+          "code": "G10L 19/005",
+          "title": {
+            "ko": null,
+            "en": "Correction of errors induced by the transmission channel, if related to the coding algorithm"
+          }
+        },
+        {
+          "code": "G10L 19/008",
+          "title": {
+            "ko": null,
+            "en": "Multichannel audio signal coding or decoding using interchannel correlation to reduce redundancy, e.g. joint-stereo, intensity-coding or matrixing"
+          }
+        },
+        {
+          "code": "G10L 19/012",
+          "title": {
+            "ko": null,
+            "en": "Comfort noise or silence coding"
+          }
+        },
+        {
+          "code": "G10L 19/018",
+          "title": {
+            "ko": null,
+            "en": "Audio watermarking, i.e. embedding inaudible data in the audio signal"
+          }
+        },
+        {
+          "code": "G10L 19/02",
+          "title": {
+            "ko": "스펙트럼 분석법 사용, 예, 보코더 변환 또는 서브밴드 (subband) 보코더",
+            "en": "using spectral analysis, e.g. transform vocoders or subband vocoders"
+          }
+        },
+        {
+          "code": "G10L 19/022",
+          "title": {
+            "ko": null,
+            "en": "Blocking, i.e. grouping of samples in time; Choice of analysis windows; Overlap factoring"
+          }
+        },
+        {
+          "code": "G10L 19/025",
+          "title": {
+            "ko": null,
+            "en": "Detection of transients or attacks for time/frequency resolution switching"
+          }
+        },
+        {
+          "code": "G10L 19/028",
+          "title": {
+            "ko": "소음 대체, 예. 소음원에 의한 비음색(non-tonal)의 스펙트럼 요소를 대체하는 것 (불연속적인 음성(speech) 전송을 위한 콤포트(comport) 소음 G10L19/012)",
+            "en": "Noise substitution, e.g. substituting non-tonal spectral components by noisy source (comfort noise for discontinuous speech transmission G10L0019012000)"
+          }
+        },
+        {
+          "code": "G10L 19/03",
+          "title": {
+            "ko": null,
+            "en": "Spectral prediction for preventing pre-echo; Temporary noise shaping [TNS], e.g. in MPEG2 or MPEG4"
+          }
+        },
+        {
+          "code": "G10L 19/032",
+          "title": {
+            "ko": null,
+            "en": "Quantisation or dequantisation of spectral components"
+          }
+        },
+        {
+          "code": "G10L 19/035",
+          "title": {
+            "ko": null,
+            "en": "Scalar quantisation"
+          }
+        },
+        {
+          "code": "G10L 19/038",
+          "title": {
+            "ko": null,
+            "en": "Vector quantisation, e.g. TwinVQ audio"
+          }
+        },
+        {
+          "code": "G10L 19/04",
+          "title": {
+            "ko": "예측기술을 사용하는 것",
+            "en": "using predictive techniques"
+          }
+        },
+        {
+          "code": "G10L 19/06",
+          "title": {
+            "ko": null,
+            "en": "Determination or coding of the spectral characteristics, e.g. of the short-term prediction coefficients"
+          }
+        },
+        {
+          "code": "G10L 19/07",
+          "title": {
+            "ko": null,
+            "en": "Line spectrum pair [LSP] vocoders"
+          }
+        },
+        {
+          "code": "G10L 19/08",
+          "title": {
+            "ko": "여기(excitation) 함수의 결정 또는 부호화; 장기 예측 파라미터의 결정 또는 부호화",
+            "en": "Determination or coding of the excitation function; Determination or coding of the long-term prediction parameters"
+          }
+        },
+        {
+          "code": "G10L 19/083",
+          "title": {
+            "ko": "여기(excitation) 이득(gain)이 되는 여기(excitation) 함수(G10L 25/90 우선)",
+            "en": "the excitation function being an excitation gain (G10L0025900000 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 19/087",
+          "title": {
+            "ko": null,
+            "en": "using mixed excitation models, e.g. MELP, MBE, split band LPC or HVXC"
+          }
+        },
+        {
+          "code": "G10L 19/09",
+          "title": {
+            "ko": null,
+            "en": "Long term prediction, i.e. removing periodical redundancies, e.g. by using adaptive codebook or pitch predictor"
+          }
+        },
+        {
+          "code": "G10L 19/093",
+          "title": {
+            "ko": null,
+            "en": "using sinusoidal excitation models"
+          }
+        },
+        {
+          "code": "G10L 19/097",
+          "title": {
+            "ko": null,
+            "en": "using prototype waveform decomposition or prototype waveform interpolative [PWI] coders"
+          }
+        },
+        {
+          "code": "G10L 19/10",
+          "title": {
+            "ko": null,
+            "en": "the excitation function being a multipulse excitation"
+          }
+        },
+        {
+          "code": "G10L 19/107",
+          "title": {
+            "ko": null,
+            "en": "Sparse pulse excitation, e.g. by using algebraic codebook"
+          }
+        },
+        {
+          "code": "G10L 19/113",
+          "title": {
+            "ko": null,
+            "en": "Regular pulse excitation"
+          }
+        },
+        {
+          "code": "G10L 19/12",
+          "title": {
+            "ko": null,
+            "en": "the excitation function being a code excitation, e.g. in code excited linear prediction [CELP] vocoders"
+          }
+        },
+        {
+          "code": "G10L 19/125",
+          "title": {
+            "ko": null,
+            "en": "Pitch excitation, e.g. pitch synchronous innovation CELP [PSI-CELP]"
+          }
+        },
+        {
+          "code": "G10L 19/13",
+          "title": {
+            "ko": null,
+            "en": "Residual excited linear prediction [RELP]"
+          }
+        },
+        {
+          "code": "G10L 19/135",
+          "title": {
+            "ko": null,
+            "en": "Vector sum excited linear prediction [VSELP]"
+          }
+        },
+        {
+          "code": "G10L 19/16",
+          "title": {
+            "ko": null,
+            "en": "Vocoder architecture"
+          }
+        },
+        {
+          "code": "G10L 19/18",
+          "title": {
+            "ko": null,
+            "en": "Vocoders using multiple modes"
+          }
+        },
+        {
+          "code": "G10L 19/20",
+          "title": {
+            "ko": null,
+            "en": "using sound class specific coding, hybrid encoders or object based coding"
+          }
+        },
+        {
+          "code": "G10L 19/22",
+          "title": {
+            "ko": null,
+            "en": "Mode decision, i.e. based on audio signal content versus external parameters"
+          }
+        },
+        {
+          "code": "G10L 19/24",
+          "title": {
+            "ko": null,
+            "en": "Variable rate codecs, e.g. for generating different qualities using a scalable representation such as hierarchical encoding or layered encoding"
+          }
+        },
+        {
+          "code": "G10L 19/26",
+          "title": {
+            "ko": null,
+            "en": "Pre-filtering or post-filtering"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 21/00",
+      "title": {
+        "ko": "가청 또는 비가청 신호를 생성하기 위한 음성(speech) 또는 음성(voice) 신호의 처리, 예. 음성의 질과 명료도를 수정하기 위한 시각적, 촉각적 처리 (G10L19/00 우선)",
+        "en": "Speech or voice signal processing techniques to produce another audible or non-audible signal, e.g. visual or tactile, in order to modify its quality or its intelligibility  (G10L0019000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 21/003",
+          "title": {
+            "ko": null,
+            "en": "Changing voice quality, e.g. pitch or formants"
+          }
+        },
+        {
+          "code": "G10L 21/007",
+          "title": {
+            "ko": null,
+            "en": "characterised by the process used"
+          }
+        },
+        {
+          "code": "G10L 21/01",
+          "title": {
+            "ko": null,
+            "en": "Correction of time axis"
+          }
+        },
+        {
+          "code": "G10L 21/013",
+          "title": {
+            "ko": null,
+            "en": "Adapting to target pitch"
+          }
+        },
+        {
+          "code": "G10L 21/02",
+          "title": {
+            "ko": "음성의 증진, 예, 소음감소 또는 반향 제거(라인 전송 시스템에서 에코 효과를 감소하는 것 H04B 3/20; 핸드프리(hands-free) 전화기의 반향 억제 H04M 9/08)",
+            "en": "Speech enhancement, e.g. noise reduction or echo cancellation (reducing echo effects in line transmission systems H04B0003200000;echo suppression in hands-free telephones H04M0009080000)"
+          }
+        },
+        {
+          "code": "G10L 21/0208",
+          "title": {
+            "ko": null,
+            "en": "Noise filtering"
+          }
+        },
+        {
+          "code": "G10L 21/0216",
+          "title": {
+            "ko": null,
+            "en": "characterised by the method used for estimating noise"
+          }
+        },
+        {
+          "code": "G10L 21/0224",
+          "title": {
+            "ko": null,
+            "en": "Processing in the time domain"
+          }
+        },
+        {
+          "code": "G10L 21/0232",
+          "title": {
+            "ko": null,
+            "en": "Processing in the frequency domain"
+          }
+        },
+        {
+          "code": "G10L 21/0264",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques"
+          }
+        },
+        {
+          "code": "G10L 21/0272",
+          "title": {
+            "ko": null,
+            "en": "Voice signal separating"
+          }
+        },
+        {
+          "code": "G10L 21/028",
+          "title": {
+            "ko": null,
+            "en": "using properties of sound source"
+          }
+        },
+        {
+          "code": "G10L 21/0308",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques"
+          }
+        },
+        {
+          "code": "G10L 21/0316",
+          "title": {
+            "ko": null,
+            "en": "by changing the amplitude"
+          }
+        },
+        {
+          "code": "G10L 21/0324",
+          "title": {
+            "ko": null,
+            "en": "Details of processing therefor"
+          }
+        },
+        {
+          "code": "G10L 21/0332",
+          "title": {
+            "ko": null,
+            "en": "involving modification of waveforms"
+          }
+        },
+        {
+          "code": "G10L 21/034",
+          "title": {
+            "ko": null,
+            "en": "Automatic adjustment"
+          }
+        },
+        {
+          "code": "G10L 21/0356",
+          "title": {
+            "ko": null,
+            "en": "for synchronising with other signals, e.g. video signals"
+          }
+        },
+        {
+          "code": "G10L 21/0364",
+          "title": {
+            "ko": null,
+            "en": "for improving intelligibility"
+          }
+        },
+        {
+          "code": "G10L 21/038",
+          "title": {
+            "ko": null,
+            "en": "using band spreading techniques"
+          }
+        },
+        {
+          "code": "G10L 21/0388",
+          "title": {
+            "ko": null,
+            "en": "Details of processing therefor"
+          }
+        },
+        {
+          "code": "G10L 21/04",
+          "title": {
+            "ko": null,
+            "en": "Time compression or expansion"
+          }
+        },
+        {
+          "code": "G10L 21/043",
+          "title": {
+            "ko": null,
+            "en": "by changing speed"
+          }
+        },
+        {
+          "code": "G10L 21/045",
+          "title": {
+            "ko": null,
+            "en": "using thinning out or insertion of a waveform"
+          }
+        },
+        {
+          "code": "G10L 21/047",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of waveform to be thinned out or inserted"
+          }
+        },
+        {
+          "code": "G10L 21/049",
+          "title": {
+            "ko": null,
+            "en": "characterised by the interconnection of waveforms"
+          }
+        },
+        {
+          "code": "G10L 21/055",
+          "title": {
+            "ko": null,
+            "en": "for synchronising with other signals, e.g. video signals"
+          }
+        },
+        {
+          "code": "G10L 21/057",
+          "title": {
+            "ko": null,
+            "en": "for improving intelligibility"
+          }
+        },
+        {
+          "code": "G10L 21/06",
+          "title": {
+            "ko": "음성(speech) 신호를 비청취 형태로 변환, 예, 음성(speech) 가시화 또는 촉각 보조 장치를 위한 음성(speech) 처리(G10L 15/26 우선)",
+            "en": "Transformation of speech into a non-audible representation, e.g. speech visualisation or speech processing for tactile aids (G10L0015260000 takes precedence)"
+          }
+        },
+        {
+          "code": "G10L 21/10",
+          "title": {
+            "ko": null,
+            "en": "Transforming into visible information"
+          }
+        },
+        {
+          "code": "G10L 21/12",
+          "title": {
+            "ko": null,
+            "en": "by displaying time domain information"
+          }
+        },
+        {
+          "code": "G10L 21/14",
+          "title": {
+            "ko": null,
+            "en": "by displaying frequency domain information"
+          }
+        },
+        {
+          "code": "G10L 21/16",
+          "title": {
+            "ko": "비가시적 형태로 변환(다른 종류의 직접적인 청각 인식을 대체하는 귀 환자를 활성화하는 장치 또는 방법 A61F 11/04)",
+            "en": "Transforming into a non-visible representation (devices or methods enabling ear patients to replace direct auditory perception by another kind of perception A61F0011040000)"
+          }
+        },
+        {
+          "code": "G10L 21/18",
+          "title": {
+            "ko": null,
+            "en": "Details of the transformation process"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 25/00",
+      "title": {
+        "ko": "G10L15/00 ~ G10L21/00 그룹의 어느 하나에 국한되지 않는 음성(speech) 또는 음성(voice) 분석 기술 (이득 또는 주파수 제어를 위한 반도체 기반 증폭기의 뮤팅, 예. 신호의 특별한 특징이 음성 검출기의 사용에 의해 감지되는 경우의 뮤팅 H03G3/34)",
+        "en": "Speech or voice analysis techniques not restricted to a single one of groups G10L0015000000-G10L0021000000 (muting semiconductor-based amplifiers when some special characteristics of a signal are sensed by a speech detector, e.g. sensing when no signal is present, H03G0003340000)"
+      },
+      "subgroups": [
+        {
+          "code": "G10L 25/03",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of extracted parameters"
+          }
+        },
+        {
+          "code": "G10L 25/06",
+          "title": {
+            "ko": null,
+            "en": "the extracted parameters being correlation coefficients"
+          }
+        },
+        {
+          "code": "G10L 25/09",
+          "title": {
+            "ko": null,
+            "en": "the extracted parameters being zero crossing rates"
+          }
+        },
+        {
+          "code": "G10L 25/12",
+          "title": {
+            "ko": null,
+            "en": "the extracted parameters being prediction coefficients"
+          }
+        },
+        {
+          "code": "G10L 25/15",
+          "title": {
+            "ko": null,
+            "en": "the extracted parameters being formant information"
+          }
+        },
+        {
+          "code": "G10L 25/18",
+          "title": {
+            "ko": null,
+            "en": "the extracted parameters being spectral information of each sub-band"
+          }
+        },
+        {
+          "code": "G10L 25/21",
+          "title": {
+            "ko": null,
+            "en": "the extracted parameters being power information"
+          }
+        },
+        {
+          "code": "G10L 25/24",
+          "title": {
+            "ko": null,
+            "en": "the extracted parameters being the cepstrum"
+          }
+        },
+        {
+          "code": "G10L 25/27",
+          "title": {
+            "ko": null,
+            "en": "characterised by the analysis technique"
+          }
+        },
+        {
+          "code": "G10L 25/30",
+          "title": {
+            "ko": null,
+            "en": "using neural networks"
+          }
+        },
+        {
+          "code": "G10L 25/33",
+          "title": {
+            "ko": null,
+            "en": "using fuzzy logic"
+          }
+        },
+        {
+          "code": "G10L 25/36",
+          "title": {
+            "ko": null,
+            "en": "using chaos theory"
+          }
+        },
+        {
+          "code": "G10L 25/39",
+          "title": {
+            "ko": null,
+            "en": "using genetic algorithms"
+          }
+        },
+        {
+          "code": "G10L 25/45",
+          "title": {
+            "ko": null,
+            "en": "characterised by the type of analysis window"
+          }
+        },
+        {
+          "code": "G10L 25/48",
+          "title": {
+            "ko": "특히 특정 사용을 위해 적용되는 것",
+            "en": "specially adapted for particular use"
+          }
+        },
+        {
+          "code": "G10L 25/51",
+          "title": {
+            "ko": "비교 또는 식별을 위한 것",
+            "en": "for comparison or discrimination"
+          }
+        },
+        {
+          "code": "G10L 25/54",
+          "title": {
+            "ko": null,
+            "en": "for retrieval"
+          }
+        },
+        {
+          "code": "G10L 25/57",
+          "title": {
+            "ko": null,
+            "en": "for processing of video signals"
+          }
+        },
+        {
+          "code": "G10L 25/60",
+          "title": {
+            "ko": null,
+            "en": "for measuring the quality of voice signals"
+          }
+        },
+        {
+          "code": "G10L 25/63",
+          "title": {
+            "ko": null,
+            "en": "for estimating an emotional state"
+          }
+        },
+        {
+          "code": "G10L 25/66",
+          "title": {
+            "ko": "건강 상태에 관련된 파라미터를 추출하기 위한 것(진단 목적으로의 검출 또는 측정 A61B 5/00)",
+            "en": "for extracting parameters related to health condition (detecting or measuring for diagnostic purposes A61B0005000000)"
+          }
+        },
+        {
+          "code": "G10L 25/69",
+          "title": {
+            "ko": null,
+            "en": "for evaluating synthetic or decoded voice signals"
+          }
+        },
+        {
+          "code": "G10L 25/72",
+          "title": {
+            "ko": null,
+            "en": "for transmitting results of analysis"
+          }
+        },
+        {
+          "code": "G10L 25/75",
+          "title": {
+            "ko": null,
+            "en": "for modelling vocal tract parameters"
+          }
+        },
+        {
+          "code": "G10L 25/78",
+          "title": {
+            "ko": "음성(voice) 신호의 존재 유무의 검출(양방향 송수화 전화 시스템에서 음성(voice) 주파수에 의한 전송 검출 스위칭 H04M 9/10)",
+            "en": "Detection of presence or absence of voice signals (switching of direction of transmission by voice frequency in two-way loud-speaking telephone systems H04M0009100000)"
+          }
+        },
+        {
+          "code": "G10L 25/81",
+          "title": {
+            "ko": null,
+            "en": "for discriminating voice from music"
+          }
+        },
+        {
+          "code": "G10L 25/84",
+          "title": {
+            "ko": null,
+            "en": "for discriminating voice from noise"
+          }
+        },
+        {
+          "code": "G10L 25/87",
+          "title": {
+            "ko": null,
+            "en": "Detection of discrete points within a voice signal"
+          }
+        },
+        {
+          "code": "G10L 25/90",
+          "title": {
+            "ko": null,
+            "en": "Pitch determination of speech signals"
+          }
+        },
+        {
+          "code": "G10L 25/93",
+          "title": {
+            "ko": "음성(speech) 신호의 유성음 또는 무성음간의 식별 (G10L25/90 우선)",
+            "en": "Discriminating between voiced and unvoiced parts of speech signals (G10L0025900000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G10L 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

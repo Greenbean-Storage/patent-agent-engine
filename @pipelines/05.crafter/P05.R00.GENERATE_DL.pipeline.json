@@ -1,0 +1,40 @@
+{
+  "description": "P05 Crafter — 단일 도면 DL 생성. 2 step: select_tool (PlantUML/OpenSCAD/schemdraw 결정) → generate_dl_code (도구별 코드). caller (drawing_orchestration) 가 dispatch 로 호출, 결과는 render 단계로.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P05.R10.RENDER_DRAWING"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "도면 type/title/key_elements/format_hint 기반 적합한 DL 도구 결정 + file_extension + figure_format.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/05.crafter/P05.R00/choose_tool.md"
+      },
+      "llm_tools": [],
+      "output_contract": "select-tool-output"
+    },
+    {
+      "description": "chosen_tool 의 DSL 코드 생성. key_elements + numerals 모두 표현, patent_model 본문 반영, existing_dl 보완 모드 지원.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/05.crafter/P05.R00/generate_dl_code.md"
+      },
+      "llm_tools": [],
+      "output_contract": "generate-dl-code-output"
+    }
+  ]
+}

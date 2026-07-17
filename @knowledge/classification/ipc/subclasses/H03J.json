@@ -1,0 +1,492 @@
+{
+  "subclass": "H03J",
+  "title": {
+    "ko": "동조공진회로; 공진회로선택",
+    "en": "TUNING RESONANT CIRCUITS; SELECTING RESONANT CIRCUITS"
+  },
+  "definition": {
+    "ko": "동조 연속 H03J3/00 비연속 H03J5/00 자동주파수 제어 H03J7/00 원격제어 H03J9/00 자동주파수 스캐닝 H03J7/00 세부 H03J1/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03J 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details of adjusting, driving, indicating, or mechanical control arrangements for resonant circuits in general"
+      },
+      "subgroups": [
+        {
+          "code": "H03J 1/02",
+          "title": {
+            "ko": null,
+            "en": "Indicating arrangements"
+          }
+        },
+        {
+          "code": "H03J 1/04",
+          "title": {
+            "ko": null,
+            "en": "with optical indicating means"
+          }
+        },
+        {
+          "code": "H03J 1/06",
+          "title": {
+            "ko": null,
+            "en": "Driving or adjusting arrangements; combined with other driving or adjusting arrangements, e.g. of gain control"
+          }
+        },
+        {
+          "code": "H03J 1/08",
+          "title": {
+            "ko": null,
+            "en": "Toothed-gear drive; Worm drive"
+          }
+        },
+        {
+          "code": "H03J 1/10",
+          "title": {
+            "ko": null,
+            "en": "Rope drive; Chain drive"
+          }
+        },
+        {
+          "code": "H03J 1/12",
+          "title": {
+            "ko": null,
+            "en": "Friction drive"
+          }
+        },
+        {
+          "code": "H03J 1/14",
+          "title": {
+            "ko": null,
+            "en": "Special arrangements for fine and coarse tuning"
+          }
+        },
+        {
+          "code": "H03J 1/16",
+          "title": {
+            "ko": null,
+            "en": "Single control means independently performing two or more functions"
+          }
+        },
+        {
+          "code": "H03J 1/18",
+          "title": {
+            "ko": null,
+            "en": "Control by auxiliary power"
+          }
+        },
+        {
+          "code": "H03J 1/20",
+          "title": {
+            "ko": null,
+            "en": "the auxiliary power being switched on as long as controlling current is switched on"
+          }
+        },
+        {
+          "code": "H03J 1/22",
+          "title": {
+            "ko": null,
+            "en": "with stepping arrangements actuated by control pulses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03J 3/00",
+      "title": {
+        "ko": "연속동조(H03J 7/00, H03J 9/00이 우선; 밴드스프레드(Bandspreading 이외의 연속동조 및 비연속동조의 조합 5/00)",
+        "en": "Continuous tuning (H03J0007000000, H03J0009000000 take precedence;combination of continuous and discontinuous tuning other than for bandspreading H03J0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03J 3/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03J 3/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for compensating for variations of physical values, e.g. temperature"
+          }
+        },
+        {
+          "code": "H03J 3/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for obtaining constant bandwidth or gain throughout tuning range or ranges"
+          }
+        },
+        {
+          "code": "H03J 3/08",
+          "title": {
+            "ko": null,
+            "en": "by varying a second parameter simultaneously with the tuning, e.g. coupling bandpass filter"
+          }
+        },
+        {
+          "code": "H03J 3/10",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for fine tuning, e.g. bandspreading"
+          }
+        },
+        {
+          "code": "H03J 3/12",
+          "title": {
+            "ko": null,
+            "en": "Electrically-operated arrangements for indicating correct tuning"
+          }
+        },
+        {
+          "code": "H03J 3/14",
+          "title": {
+            "ko": null,
+            "en": "Visual indication, e.g. magic eye"
+          }
+        },
+        {
+          "code": "H03J 3/16",
+          "title": {
+            "ko": null,
+            "en": "Tuning without displacement of reactive element, e.g. by varying permeability"
+          }
+        },
+        {
+          "code": "H03J 3/18",
+          "title": {
+            "ko": null,
+            "en": "by discharge tube or semiconductor device simulating variable reactance"
+          }
+        },
+        {
+          "code": "H03J 3/20",
+          "title": {
+            "ko": null,
+            "en": "of single resonant circuit by varying inductance only or capacitance only"
+          }
+        },
+        {
+          "code": "H03J 3/22",
+          "title": {
+            "ko": null,
+            "en": "of single resonant circuit by varying inductance and capacitance simultaneously"
+          }
+        },
+        {
+          "code": "H03J 3/24",
+          "title": {
+            "ko": null,
+            "en": "of more than one resonant circuit simultaneously, the circuits being tuned to substantially the same frequency, e.g. for single-knob tuning"
+          }
+        },
+        {
+          "code": "H03J 3/26",
+          "title": {
+            "ko": null,
+            "en": "the circuits being coupled so as to form a bandpass filter"
+          }
+        },
+        {
+          "code": "H03J 3/28",
+          "title": {
+            "ko": null,
+            "en": "of more than one resonant circuit simultaneously, the tuning frequencies of the circuits having a substantially constant difference throughout the tuning range"
+          }
+        },
+        {
+          "code": "H03J 3/30",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for ensuring tracking with variable inductors"
+          }
+        },
+        {
+          "code": "H03J 3/32",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for ensuring tracking with variable capacitors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03J 5/00",
+      "title": {
+        "ko": "비연속동조; 소정주파수의 선택; 1 또는 그 이상의 대역에 있어서의 연속동조의 유무에 관계없는 주파수대역의 선택, 예. 푸시-버튼동조, 터렛튜너(H03J 7/00, H03J 9/00이 우선; 밴드스프레드용 H03J 3/10)",
+        "en": "Discontinuous tuning; Selecting predetermined frequencies; Selecting frequency bands with or without continuous tuning in one or more of the bands, e.g. push-button tuning, turret tuner (H03J0007000000, H03J0009000000 take precedence;for bandspreading H03J0003100000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03J 5/02",
+          "title": {
+            "ko": null,
+            "en": "with variable tuning element having a number of predetermined settings and adjustable to a desired one of these settings"
+          }
+        },
+        {
+          "code": "H03J 5/04",
+          "title": {
+            "ko": null,
+            "en": "operated by hand"
+          }
+        },
+        {
+          "code": "H03J 5/06",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by single indexing means with snap action"
+          }
+        },
+        {
+          "code": "H03J 5/08",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by a number of separately-actuated positioning means"
+          }
+        },
+        {
+          "code": "H03J 5/10",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by a number of positioning means mounted on a common support, which is adjustable to desired positions, a different positioning means being in operation in each position"
+          }
+        },
+        {
+          "code": "H03J 5/12",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by a number of separately-actuated driving means which adjust the tuning element directly to desired settings"
+          }
+        },
+        {
+          "code": "H03J 5/14",
+          "title": {
+            "ko": null,
+            "en": "operated by auxiliary power"
+          }
+        },
+        {
+          "code": "H03J 5/16",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by a number of separate positioning means actuated by hand"
+          }
+        },
+        {
+          "code": "H03J 5/18",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by a number of separate positioning means actuated by electromagnets"
+          }
+        },
+        {
+          "code": "H03J 5/20",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by a number of positioning means actuated by a second means adjustable to different positions by the same or by a second auxiliary power"
+          }
+        },
+        {
+          "code": "H03J 5/22",
+          "title": {
+            "ko": null,
+            "en": "Settings determined by a number of separately actuated driving means which adjust the tuning element directly to desired settings"
+          }
+        },
+        {
+          "code": "H03J 5/24",
+          "title": {
+            "ko": null,
+            "en": "with a number of separate pretuned tuning circuits or separate tuning elements selectively brought into circuit, e.g. for waveband selection or for television channel selection"
+          }
+        },
+        {
+          "code": "H03J 5/26",
+          "title": {
+            "ko": null,
+            "en": "operated by hand"
+          }
+        },
+        {
+          "code": "H03J 5/28",
+          "title": {
+            "ko": null,
+            "en": "Tuning circuits or elements supported on a revolving member with contacts arranged in a plane perpendicular to the axis"
+          }
+        },
+        {
+          "code": "H03J 5/30",
+          "title": {
+            "ko": null,
+            "en": "Tuning circuits or elements supported on a revolving member with contacts arranged in lines parallel to the axis"
+          }
+        },
+        {
+          "code": "H03J 5/32",
+          "title": {
+            "ko": null,
+            "en": "Stationary tuning circuits or elements selected by push-button"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03J 7/00",
+      "title": {
+        "ko": "자동 주파수 제어; 주파수 대역 자동 스캐닝",
+        "en": "Automatic frequency control; Automatic scanning over a band of frequencies"
+      },
+      "subgroups": [
+        {
+          "code": "H03J 7/02",
+          "title": {
+            "ko": "자동 주파수 제어 (H03J7/18이 우선)",
+            "en": "Automatic frequency control (H03J0007180000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03J 7/04",
+          "title": {
+            "ko": "비기계적인 조정 소자의 전기적인 특성 또는 유의하지 않는 주파수 제어 소자의 특성을 변화시키는 것에 의해 완성되는 주파수 제어",
+            "en": "where the frequency control is accomplished by varying the electrical characteristics of a non-mechanically adjustable element or where the nature of the frequency controlling element is not significant"
+          }
+        },
+        {
+          "code": "H03J 7/06",
+          "title": {
+            "ko": null,
+            "en": "using counters or frequency dividers"
+          }
+        },
+        {
+          "code": "H03J 7/08",
+          "title": {
+            "ko": "바랙터 즉 전압가변용량 리액티브 다이오드를 사용하는 것(H03J 7/06이 우선)",
+            "en": "using varactors, i.e. voltage variable reactive diodes (H03J0007060000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03J 7/10",
+          "title": {
+            "ko": null,
+            "en": "Modification of automatic frequency control sensitivity or linearising automatic frequency control operation"
+          }
+        },
+        {
+          "code": "H03J 7/12",
+          "title": {
+            "ko": null,
+            "en": "Combination of automatic frequency control voltage with stabilised varactor supply voltage"
+          }
+        },
+        {
+          "code": "H03J 7/14",
+          "title": {
+            "ko": "유도철심내의 자속을 제어하는 것(H03J 7/06이 우선)",
+            "en": "Controlling the magnetic state of inductor cores (H03J0007060000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03J 7/16",
+          "title": {
+            "ko": null,
+            "en": "where the frequency control is accomplished by mechanical means, e.g. by a motor"
+          }
+        },
+        {
+          "code": "H03J 7/18",
+          "title": {
+            "ko": "전대역에 걸치는 자동주파수 스캐닝(Scanning)",
+            "en": "Automatic scanning over a band of frequencies"
+          }
+        },
+        {
+          "code": "H03J 7/20",
+          "title": {
+            "ko": "스캐닝이 비기계적 조정소자의 전기특성의 변화에 의해서 달성되는 것",
+            "en": "where the scanning is accomplished by varying the electrical characteristics of a non-mechanically adjustable element"
+          }
+        },
+        {
+          "code": "H03J 7/22",
+          "title": {
+            "ko": "자동주파수 제어회로가 스캐닝 조작정지후에 동작상태로 되는 것(H03J 7/24가 우선)",
+            "en": "in which an automatic frequency control circuit is brought into action after the scanning action has been stopped (H03J0007240000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03J 7/24",
+          "title": {
+            "ko": "바랙터 즉 전압가변용량다이오드를 사용하는 것(H03J 7/28이 우선)",
+            "en": "using varactors, i.e. voltage variable reactive diodes (H03J0007280000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03J 7/26",
+          "title": {
+            "ko": null,
+            "en": "in which an automatic frequency control circuit is brought into action after the scanning action has been stopped"
+          }
+        },
+        {
+          "code": "H03J 7/28",
+          "title": {
+            "ko": null,
+            "en": "using counters or frequency dividers"
+          }
+        },
+        {
+          "code": "H03J 7/30",
+          "title": {
+            "ko": null,
+            "en": "where the scanning is accomplished by mechanical means, e.g. by a motor"
+          }
+        },
+        {
+          "code": "H03J 7/32",
+          "title": {
+            "ko": null,
+            "en": "with simultaneous display of received frequencies, e.g. panoramic receivers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03J 9/00",
+      "title": {
+        "ko": "튜닝된 회로의 원격 제어; 튜닝과 다른 기능의 원격제어가 결합된 것, 예. 밝기, 증폭 (기계적 원격제어 장치 H03J1/00",
+        "en": "Remote-control of tuned circuits; Combined remote-control of tuning and other functions, e.g. brightness, amplification (mechanical remote-control arrangements H03J0001000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03J 9/02",
+          "title": {
+            "ko": null,
+            "en": "using radio transmission; using near-field transmission"
+          }
+        },
+        {
+          "code": "H03J 9/04",
+          "title": {
+            "ko": null,
+            "en": "using ultrasonic, sonic or infrasonic waves"
+          }
+        },
+        {
+          "code": "H03J 9/06",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic waves other than radio waves, e.g. light"
+          }
+        }
+      ]
+    }
+  ]
+}

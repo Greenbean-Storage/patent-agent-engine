@@ -1,0 +1,670 @@
+{
+  "subclass": "G09G",
+  "title": {
+    "ko": "가변 정보를 제공하기 위해 정적 수단을 사용하는 표시 장치의 제어를 위한 장치 또는 회로 (디지털 컴퓨터 및 디스플레이 간 데이터를 전송하기 위한 장치 G06F3/14; 여러 개의 개별 소스 또는 광 제어 셀의 조합으로 구성된 정적 표시 장치 G09F9/00; 여러 개의 광원의 통합 결합으로 구성된 정적 표시 장치 H01J, H01K, H05B33/12, H10H; 문서 또는 그와 유사한 것의 스캔, 전송 또는 복제, 예. 팩스 전송, 이의 세부 H04N1/00)",
+    "en": "ARRANGEMENTS OR CIRCUITS FOR CONTROL OF INDICATING DEVICES USING STATIC MEANS TO PRESENT VARIABLE INFORMATION  (arrangements for transferring data between digital computers and displays G06F0003140000; static indicating arrangements comprising an association of a number of separate sources or light control cells G09F0009000000; static indicating arrangements comprising integral associations of a number of light sources H01J, H01K, H05B0033120000, H10H; scanning, transmission or reproduction of documents or the like, e.g. facsimile transmission, details thereof H04N0001000000)"
+  },
+  "definition": {
+    "ko": "1. 이 서브클래스는 표시기 콘솔, 즉. 제어 신호를 처리하여 디스플레이를 달성하기 위한 배열 또는 회로, 예. 제어 신호의 호출, 수신, 저장, 재생성, 코딩, 디코딩, 주소 지정, 를 포함한다. 2. 이 서브클래스는 패널 또는 튜브 자체 같은 표시 장치의 구조적 세부나 개별 광원의 조립품을 포함하지 않으며, 이는 관련 서브클래스, 예. G02F, G09F, H01J, H01K, H05B, H10H, H10K, 에 포함된다. 3. 연속적인 밝기 값 스케일을 표시할 수 있는 디스플레이 장치가 분류되는 서브클래스 H04N과 달리, 이 서브클래스는 불연속적인 수의 밝기 값, 예. 가시/비가시, 만을 사용하는 장치로 한정된다. 4. 시각적 효과는 전자빔에 의해 주사된 발광 스크린, 제어 광원에 의해 직접 스캔하거나, 제어 광원에서 지지대에 그려진 문자, 기호 또는 그 요소에 빛을 투사하거나, 독립 광원에서 광선의 매개 변수를 전기, 자기 또는 음향 제어하여 생성될 수 있다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G09G 1/00",
+      "title": {
+        "ko": "음극선관 표시기에만 관련된 제어장치 또는 회로",
+        "en": "Control arrangements or circuits, of interest only in connection with cathode-ray tube indicators"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 1/02",
+          "title": {
+            "ko": "축적회로(G09G 1/06 ～ G09G 1/28이 우선)",
+            "en": "Storage circuits (G09G0001060000-G09G0001280000 take precedence)"
+          }
+        },
+        {
+          "code": "G09G 1/04",
+          "title": {
+            "ko": null,
+            "en": "Deflection circuits"
+          }
+        },
+        {
+          "code": "G09G 1/06",
+          "title": {
+            "ko": "단일 빔관을 사용하는 것 (G09G1/26, G09G1/28이 우선)",
+            "en": "using single beam tubes (G09G0001260000, G09G0001280000 take precedence)"
+          }
+        },
+        {
+          "code": "G09G 1/07",
+          "title": {
+            "ko": null,
+            "en": "with combined raster scan and calligraphic display"
+          }
+        },
+        {
+          "code": "G09G 1/08",
+          "title": {
+            "ko": null,
+            "en": "the beam directly tracing characters, the information to be displayed controlling the deflection as a function of time in two spatial co-ordinates, e.g. according to a cartesian co-ordinate system"
+          }
+        },
+        {
+          "code": "G09G 1/10",
+          "title": {
+            "ko": null,
+            "en": "the deflection signals being produced by essentially digital means, e.g. incrementally"
+          }
+        },
+        {
+          "code": "G09G 1/12",
+          "title": {
+            "ko": null,
+            "en": "the deflection signals being produced by essentially analogue means"
+          }
+        },
+        {
+          "code": "G09G 1/14",
+          "title": {
+            "ko": null,
+            "en": "the beam tracing a pattern independent of the information to be displayed, this latter determining the parts of the pattern rendered respectively visible and invisible"
+          }
+        },
+        {
+          "code": "G09G 1/16",
+          "title": {
+            "ko": null,
+            "en": "the pattern of rectangular co-ordinates extending over the whole area of the screen, i.e. television type raster"
+          }
+        },
+        {
+          "code": "G09G 1/18",
+          "title": {
+            "ko": null,
+            "en": "a small local pattern covering only a single character, and stepping to a position for the following character, e.g. in rectangular or polar co-ordinates, or in the form of a framed star"
+          }
+        },
+        {
+          "code": "G09G 1/20",
+          "title": {
+            "ko": "다중빔관을 사용하는 것 (G09G1/26, G09G1/28이 우선)",
+            "en": "using multi-beam tubes (G09G0001260000, G09G0001280000 take precedence)"
+          }
+        },
+        {
+          "code": "G09G 1/22",
+          "title": {
+            "ko": null,
+            "en": "using tubes permitting selection of a complete character from a number of characters"
+          }
+        },
+        {
+          "code": "G09G 1/24",
+          "title": {
+            "ko": null,
+            "en": "using tubes permitting selection of individual elements forming in combination a character"
+          }
+        },
+        {
+          "code": "G09G 1/26",
+          "title": {
+            "ko": null,
+            "en": "using storage tubes"
+          }
+        },
+        {
+          "code": "G09G 1/28",
+          "title": {
+            "ko": null,
+            "en": "using colour tubes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 3/00",
+      "title": {
+        "ko": null,
+        "en": "Control arrangements or circuits, of interest only in connection with visual indicators other than cathode-ray tubes"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 3/02",
+          "title": {
+            "ko": null,
+            "en": "by tracing or scanning a light beam on a screen"
+          }
+        },
+        {
+          "code": "G09G 3/04",
+          "title": {
+            "ko": null,
+            "en": "for presentation of a single character by selection from a plurality of characters, or by composing the character by combination of individual elements, e.g. segments"
+          }
+        },
+        {
+          "code": "G09G 3/06",
+          "title": {
+            "ko": null,
+            "en": "using controlled light sources"
+          }
+        },
+        {
+          "code": "G09G 3/08",
+          "title": {
+            "ko": null,
+            "en": "using incandescent filaments"
+          }
+        },
+        {
+          "code": "G09G 3/10",
+          "title": {
+            "ko": null,
+            "en": "using gas tubes"
+          }
+        },
+        {
+          "code": "G09G 3/12",
+          "title": {
+            "ko": null,
+            "en": "using electroluminescent elements"
+          }
+        },
+        {
+          "code": "G09G 3/14",
+          "title": {
+            "ko": null,
+            "en": "Semiconductor devices, e.g. diodes"
+          }
+        },
+        {
+          "code": "G09G 3/16",
+          "title": {
+            "ko": null,
+            "en": "by control of light from an independent source"
+          }
+        },
+        {
+          "code": "G09G 3/18",
+          "title": {
+            "ko": null,
+            "en": "using liquid crystals"
+          }
+        },
+        {
+          "code": "G09G 3/19",
+          "title": {
+            "ko": null,
+            "en": "using electrochromic devices"
+          }
+        },
+        {
+          "code": "G09G 3/20",
+          "title": {
+            "ko": null,
+            "en": "for presentation of an assembly of a number of characters, e.g. a page, by composing the assembly by combination of individual elements arranged in a matrix"
+          }
+        },
+        {
+          "code": "G09G 3/22",
+          "title": {
+            "ko": null,
+            "en": "using controlled light sources"
+          }
+        },
+        {
+          "code": "G09G 3/24",
+          "title": {
+            "ko": null,
+            "en": "using incandescent filaments"
+          }
+        },
+        {
+          "code": "G09G 3/26",
+          "title": {
+            "ko": null,
+            "en": "to give the appearance of moving signs"
+          }
+        },
+        {
+          "code": "G09G 3/28",
+          "title": {
+            "ko": null,
+            "en": "using luminous gas-discharge panels, e.g. plasma panels"
+          }
+        },
+        {
+          "code": "G09G 3/2807",
+          "title": {
+            "ko": null,
+            "en": "with discharge activated by high-frequency signals specially adapted therefor"
+          }
+        },
+        {
+          "code": "G09G 3/2813",
+          "title": {
+            "ko": null,
+            "en": "using alternating current [AC] - direct current [DC] hybrid-type panels"
+          }
+        },
+        {
+          "code": "G09G 3/282",
+          "title": {
+            "ko": null,
+            "en": "using DC panels"
+          }
+        },
+        {
+          "code": "G09G 3/285",
+          "title": {
+            "ko": null,
+            "en": "using self-scanning"
+          }
+        },
+        {
+          "code": "G09G 3/288",
+          "title": {
+            "ko": null,
+            "en": "using AC panels"
+          }
+        },
+        {
+          "code": "G09G 3/29",
+          "title": {
+            "ko": null,
+            "en": "using self-shift panels"
+          }
+        },
+        {
+          "code": "G09G 3/291",
+          "title": {
+            "ko": null,
+            "en": "controlling the gas discharge to control a cell condition, e.g. by means of specific pulse shapes"
+          }
+        },
+        {
+          "code": "G09G 3/292",
+          "title": {
+            "ko": null,
+            "en": "for reset discharge, priming discharge or erase discharge occurring in a phase other than addressing"
+          }
+        },
+        {
+          "code": "G09G 3/293",
+          "title": {
+            "ko": null,
+            "en": "for address discharge"
+          }
+        },
+        {
+          "code": "G09G 3/294",
+          "title": {
+            "ko": null,
+            "en": "for lighting or sustain discharge"
+          }
+        },
+        {
+          "code": "G09G 3/296",
+          "title": {
+            "ko": null,
+            "en": "Driving circuits for producing the waveforms applied to the driving electrodes"
+          }
+        },
+        {
+          "code": "G09G 3/297",
+          "title": {
+            "ko": null,
+            "en": "using opposed discharge type panels"
+          }
+        },
+        {
+          "code": "G09G 3/298",
+          "title": {
+            "ko": null,
+            "en": "using surface discharge panels"
+          }
+        },
+        {
+          "code": "G09G 3/299",
+          "title": {
+            "ko": null,
+            "en": "using alternate lighting of surface-type panels"
+          }
+        },
+        {
+          "code": "G09G 3/30",
+          "title": {
+            "ko": null,
+            "en": "using electroluminescent panels"
+          }
+        },
+        {
+          "code": "G09G 3/32",
+          "title": {
+            "ko": null,
+            "en": "semiconductive, e.g. using light-emitting diodes [LED]"
+          }
+        },
+        {
+          "code": "G09G 3/3208",
+          "title": {
+            "ko": null,
+            "en": "organic, e.g. using organic light-emitting diodes [OLED]"
+          }
+        },
+        {
+          "code": "G09G 3/3216",
+          "title": {
+            "ko": null,
+            "en": "using a passive matrix"
+          }
+        },
+        {
+          "code": "G09G 3/3225",
+          "title": {
+            "ko": null,
+            "en": "using an active matrix"
+          }
+        },
+        {
+          "code": "G09G 3/3233",
+          "title": {
+            "ko": null,
+            "en": "with pixel circuitry controlling the current through the light-emitting element"
+          }
+        },
+        {
+          "code": "G09G 3/3241",
+          "title": {
+            "ko": null,
+            "en": "the current through the light-emitting element being set using a data current provided by the data driver, e.g. by using a two-transistor current mirror"
+          }
+        },
+        {
+          "code": "G09G 3/325",
+          "title": {
+            "ko": null,
+            "en": "the data current flowing through the driving transistor during a setting phase, e.g. by using a switch for connecting the driving transistor to the data driver"
+          }
+        },
+        {
+          "code": "G09G 3/3258",
+          "title": {
+            "ko": null,
+            "en": "with pixel circuitry controlling the voltage across the light-emitting element"
+          }
+        },
+        {
+          "code": "G09G 3/3266",
+          "title": {
+            "ko": null,
+            "en": "Details of drivers for scan electrodes"
+          }
+        },
+        {
+          "code": "G09G 3/3275",
+          "title": {
+            "ko": null,
+            "en": "Details of drivers for data electrodes"
+          }
+        },
+        {
+          "code": "G09G 3/3283",
+          "title": {
+            "ko": null,
+            "en": "in which the data driver supplies a variable data current for setting the current through, or the voltage across, the light-emitting elements"
+          }
+        },
+        {
+          "code": "G09G 3/3291",
+          "title": {
+            "ko": null,
+            "en": "in which the data driver supplies a variable data voltage for setting the current through, or the voltage across, the light-emitting elements"
+          }
+        },
+        {
+          "code": "G09G 3/34",
+          "title": {
+            "ko": null,
+            "en": "by control of light from an independent source"
+          }
+        },
+        {
+          "code": "G09G 3/36",
+          "title": {
+            "ko": null,
+            "en": "using liquid crystals"
+          }
+        },
+        {
+          "code": "G09G 3/38",
+          "title": {
+            "ko": null,
+            "en": "using electrochromic devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G09G 5/00",
+      "title": {
+        "ko": "음극선관표시기 및 기타 가시표시기에 공통의 가시표시기용의 제어장치 또는 회로",
+        "en": "Control arrangements or circuits for visual indicators common to cathode-ray tube indicators and other visual indicators"
+      },
+      "subgroups": [
+        {
+          "code": "G09G 5/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the way in which colour is displayed"
+          }
+        },
+        {
+          "code": "G09G 5/04",
+          "title": {
+            "ko": null,
+            "en": "using circuits for interfacing with colour displays"
+          }
+        },
+        {
+          "code": "G09G 5/06",
+          "title": {
+            "ko": null,
+            "en": "using colour palettes, e.g. look-up tables"
+          }
+        },
+        {
+          "code": "G09G 5/08",
+          "title": {
+            "ko": null,
+            "en": "Cursor circuits"
+          }
+        },
+        {
+          "code": "G09G 5/10",
+          "title": {
+            "ko": null,
+            "en": "Intensity circuits"
+          }
+        },
+        {
+          "code": "G09G 5/12",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation between the display unit and other units, e.g. other display units, video-disc players"
+          }
+        },
+        {
+          "code": "G09G 5/14",
+          "title": {
+            "ko": null,
+            "en": "Display of multiple viewports"
+          }
+        },
+        {
+          "code": "G09G 5/16",
+          "title": {
+            "ko": null,
+            "en": "Display of right-to-left language"
+          }
+        },
+        {
+          "code": "G09G 5/18",
+          "title": {
+            "ko": "라스터(raster)주사표시용 타이밍회로(특별히 텔레비전에 적합한 것 H04N)",
+            "en": "Timing circuits for raster scan displays (specially adapted for television H04N)"
+          }
+        },
+        {
+          "code": "G09G 5/20",
+          "title": {
+            "ko": null,
+            "en": "Function-generator circuits, e.g. circle generators"
+          }
+        },
+        {
+          "code": "G09G 5/22",
+          "title": {
+            "ko": "문자-코드 메모리를 갖는 문자 또는 표시를 표시하는 부호화된 신호로부터 유도된 표시제어신호를 사용한 개별적인 문자 또는 표시를 표시하는 것에 특징이 있는 것(G09G 5/42가 우선)",
+            "en": "characterised by the display of individual characters or indicia using display control signals derived from coded signals representing the characters or indicia with a character-code memory (G09G0005420000 takes precedence)"
+          }
+        },
+        {
+          "code": "G09G 5/24",
+          "title": {
+            "ko": null,
+            "en": "Generation of individual character patterns"
+          }
+        },
+        {
+          "code": "G09G 5/26",
+          "title": {
+            "ko": null,
+            "en": "for modifying the character dimension, e.g. double width, double height"
+          }
+        },
+        {
+          "code": "G09G 5/28",
+          "title": {
+            "ko": null,
+            "en": "for enhancement of character form, e.g. smoothing"
+          }
+        },
+        {
+          "code": "G09G 5/30",
+          "title": {
+            "ko": null,
+            "en": "Control of display attribute"
+          }
+        },
+        {
+          "code": "G09G 5/32",
+          "title": {
+            "ko": null,
+            "en": "with means for controlling the display position"
+          }
+        },
+        {
+          "code": "G09G 5/34",
+          "title": {
+            "ko": null,
+            "en": "for rolling or scrolling"
+          }
+        },
+        {
+          "code": "G09G 5/36",
+          "title": {
+            "ko": "비트맵(bit-map) 메모리를 사용한 개별적인 그래픽 패턴의 표시에 특징이 있는 것(G09G 5/42가 우선)",
+            "en": "characterised by the display of individual graphic patterns using a bit-mapped memory (G09G0005420000 takes precedence)"
+          }
+        },
+        {
+          "code": "G09G 5/37",
+          "title": {
+            "ko": "그래픽 패턴에서의 작동 세부(G09G 5/38이 우선)",
+            "en": "Details of the operation on graphic patterns (G09G0005380000 takes precedence)"
+          }
+        },
+        {
+          "code": "G09G 5/373",
+          "title": {
+            "ko": null,
+            "en": "for modifying the size of the graphic pattern"
+          }
+        },
+        {
+          "code": "G09G 5/377",
+          "title": {
+            "ko": "둘 이상의 그래픽 패턴을 혼합하거나 오버레이 (overlay)하기 위한 것(G09G 5/02, G09G 5/397이 우선)",
+            "en": "for mixing or overlaying two or more graphic patterns (G09G0005020000, G09G0005397000 take precedence)"
+          }
+        },
+        {
+          "code": "G09G 5/38",
+          "title": {
+            "ko": null,
+            "en": "with means for controlling the display position"
+          }
+        },
+        {
+          "code": "G09G 5/39",
+          "title": {
+            "ko": "비트맵 메모리의 제어",
+            "en": "Control of the bit-mapped memory"
+          }
+        },
+        {
+          "code": "G09G 5/391",
+          "title": {
+            "ko": null,
+            "en": "Resolution modifying circuits, e.g. variable screen formats"
+          }
+        },
+        {
+          "code": "G09G 5/393",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for updating the contents of the bit-mapped memory"
+          }
+        },
+        {
+          "code": "G09G 5/395",
+          "title": {
+            "ko": "비트맵 메모리의 내용을 스크린으로 전송하기 위해 특별히 적용된 배치 (G09G5/399가 우선)",
+            "en": "Arrangements specially adapted for transferring the contents of the bit-mapped memory to the screen (G09G0005399000 takes precedence)"
+          }
+        },
+        {
+          "code": "G09G 5/397",
+          "title": {
+            "ko": "둘 이상의 비트맵 메모리의 내용을 스크린으로 동시에 전송하기 위해 특별히 적용된 배치, 예. 혼합하거나 오버레이(overlay)하기 위한 것(G09G 5/02가 우선)",
+            "en": "Arrangements specially adapted for transferring the contents of two or more bit-mapped memories to the screen simultaneously, e.g. for mixing or overlay (G09G0005020000 takes precedence)"
+          }
+        },
+        {
+          "code": "G09G 5/399",
+          "title": {
+            "ko": null,
+            "en": "using two or more bit-mapped memories, the operations of which are switched in time, e.g. ping-pong buffers"
+          }
+        },
+        {
+          "code": "G09G 5/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by the way in which both a pattern determined by character code and another pattern are displayed simultaneously, or either pattern is displayed selectively, e.g. with character code memory and a bit-mapped memory"
+          }
+        },
+        {
+          "code": "G09G 5/42",
+          "title": {
+            "ko": null,
+            "en": "characterised by the display of patterns using a display memory without fixed position correspondence between the display memory contents and the display position on the screen"
+          }
+        }
+      ]
+    }
+  ]
+}

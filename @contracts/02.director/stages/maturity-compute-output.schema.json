@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "description": "P02.R00.CONCEPT_MATURITY step 5 (maturity.compute) DRO tool step output. 가중 합산 결과 + WS push payload.",
+  "required": ["overall_score", "scores", "sub_scores", "weights", "sub_weights", "rationales"],
+  "properties": {
+    "overall_score": { "type": "number", "minimum": 0, "maximum": 1, "multipleOf": 0.01 },
+    "scores":        { "type": "object" },
+    "sub_scores":    { "type": "object" },
+    "weights":       { "type": "object" },
+    "sub_weights":   { "type": "object" },
+    "rationales":    { "type": "object" }
+  }
+}

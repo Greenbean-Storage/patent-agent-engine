@@ -1,0 +1,772 @@
+{
+  "subclass": "G03H",
+  "title": {
+    "ko": null,
+    "en": "HOLOGRAPHIC PROCESSES OR APPARATUS (holograms, e.g. point holograms, used as ordinary optical elements G02B5/32; producing stereoscopic or other three-dimensional effects G02B30/00; diffraction-grating systems G02B27/44; systems using moiré fringes G02B27/60; optical logic elements G02F3/00; stereo-photography G03B35/00; photosensitive materials or processes for photographic purposes G03C; {stereo-photographic or similar processes G03C9/00}; apparatus for processing exposed photographic materials G03D; analogue computers performing mathematical operations with the aid of optical elements G06E3/00; authentication by radiation, of concealed information carried by holograms or diffraction gratings G06K19/16; holographic storage G11B7/0065, G11C13/04; {stereoscopic or other three dimensional effects in television systems H04N13/00})"
+  },
+  "groups": [
+    {
+      "code": "G03H 1/00",
+      "title": {
+        "ko": null,
+        "en": "Holographic processes or apparatus using light, infrared or ultraviolet waves for obtaining holograms or for obtaining an image from them; Details peculiar thereto"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 1/0005",
+          "title": {
+            "ko": null,
+            "en": "{Adaptation of holography to specific applications (holographic optical element G02B5/32; holographic scanner G02B26/106; recognition using holographic mask G06V10/88; holographic memories G11B7/0065, G11C13/042)}"
+          }
+        },
+        {
+          "code": "G03H 1/02",
+          "title": {
+            "ko": null,
+            "en": "Details {of features involved during the holographic process; Replication of holograms without interference recording}"
+          }
+        },
+        {
+          "code": "G03H 1/04",
+          "title": {
+            "ko": null,
+            "en": "Processes or apparatus for producing holograms (G03H1/26 takes precedence)"
+          }
+        },
+        {
+          "code": "G03H 1/22",
+          "title": {
+            "ko": null,
+            "en": "Processes or apparatus for obtaining an optical image from holograms (G03H1/26 - G03H1/34 take precedence)"
+          }
+        },
+        {
+          "code": "G03H 1/26",
+          "title": {
+            "ko": null,
+            "en": "Processes or apparatus specially adapted to produce multiple {sub-} holograms or to obtain images from them, e.g. multicolour technique"
+          }
+        },
+        {
+          "code": "G03H 1/32",
+          "title": {
+            "ko": null,
+            "en": "Systems for obtaining speckle elimination"
+          }
+        },
+        {
+          "code": "G03H 1/34",
+          "title": {
+            "ko": null,
+            "en": "Systems for reducing the space-spatial bandwidth product"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 3/00",
+      "title": {
+        "ko": null,
+        "en": "Holographic processes or apparatus using ultrasonic, sonic or infrasonic waves for obtaining holograms; Processes or apparatus for obtaining an optical image from them (G03H1/22 takes precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G03H 5/00",
+      "title": {
+        "ko": null,
+        "en": "Holographic processes or apparatus using particles or using waves other than those covered by groups G03H1/00 or G03H3/00 for obtaining holograms; Processes or apparatus for obtaining an optical image from them (G03H1/22 takes precedence; construction of electron microscopes H01J37/26; {investigating or analysing materials by the use of microwaves G01N22/00, by the use of particles wave or X-rays G01N23/00, G21K7/00})"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G03H 2210/00",
+      "title": {
+        "ko": null,
+        "en": "Object characteristics"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2210/10",
+          "title": {
+            "ko": null,
+            "en": "Modulation characteristics, e.g. amplitude, phase, polarisation"
+          }
+        },
+        {
+          "code": "G03H 2210/20",
+          "title": {
+            "ko": null,
+            "en": "2D object"
+          }
+        },
+        {
+          "code": "G03H 2210/30",
+          "title": {
+            "ko": null,
+            "en": "3D object"
+          }
+        },
+        {
+          "code": "G03H 2210/40",
+          "title": {
+            "ko": null,
+            "en": "Synthetic representation, i.e. digital or optical object decomposition"
+          }
+        },
+        {
+          "code": "G03H 2210/50",
+          "title": {
+            "ko": null,
+            "en": "Nature of the object"
+          }
+        },
+        {
+          "code": "G03H 2210/62",
+          "title": {
+            "ko": null,
+            "en": "Moving object"
+          }
+        },
+        {
+          "code": "G03H 2210/63",
+          "title": {
+            "ko": null,
+            "en": "Environment affecting the recording, e.g. underwater (G03H2001/0432 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2222/00",
+      "title": {
+        "ko": null,
+        "en": "Light sources or light beam properties"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2222/10",
+          "title": {
+            "ko": null,
+            "en": "Spectral composition"
+          }
+        },
+        {
+          "code": "G03H 2222/20",
+          "title": {
+            "ko": null,
+            "en": "Coherence of the light source"
+          }
+        },
+        {
+          "code": "G03H 2222/31",
+          "title": {
+            "ko": null,
+            "en": "Polarised light"
+          }
+        },
+        {
+          "code": "G03H 2222/32",
+          "title": {
+            "ko": null,
+            "en": "Unpolarised light"
+          }
+        },
+        {
+          "code": "G03H 2222/33",
+          "title": {
+            "ko": null,
+            "en": "Pulsed light beam"
+          }
+        },
+        {
+          "code": "G03H 2222/34",
+          "title": {
+            "ko": null,
+            "en": "Multiple light sources"
+          }
+        },
+        {
+          "code": "G03H 2222/35",
+          "title": {
+            "ko": null,
+            "en": "Transverse intensity distribution of the light beam"
+          }
+        },
+        {
+          "code": "G03H 2222/36",
+          "title": {
+            "ko": null,
+            "en": "Scanning light beam"
+          }
+        },
+        {
+          "code": "G03H 2222/40",
+          "title": {
+            "ko": null,
+            "en": "Particular irradiation beam not otherwise provided for"
+          }
+        },
+        {
+          "code": "G03H 2222/50",
+          "title": {
+            "ko": null,
+            "en": "Geometrical property of the irradiating beam"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2223/00",
+      "title": {
+        "ko": null,
+        "en": "Optical components"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2223/12",
+          "title": {
+            "ko": null,
+            "en": "Amplitude mask, e.g. diaphragm, Louver filter"
+          }
+        },
+        {
+          "code": "G03H 2223/13",
+          "title": {
+            "ko": null,
+            "en": "Phase mask"
+          }
+        },
+        {
+          "code": "G03H 2223/14",
+          "title": {
+            "ko": null,
+            "en": "Diffuser, e.g. lens array, random phase mask"
+          }
+        },
+        {
+          "code": "G03H 2223/15",
+          "title": {
+            "ko": null,
+            "en": "Colour filter, e.g. interferential colour filter"
+          }
+        },
+        {
+          "code": "G03H 2223/16",
+          "title": {
+            "ko": null,
+            "en": "Optical waveguide, e.g. optical fibre, rod"
+          }
+        },
+        {
+          "code": "G03H 2223/17",
+          "title": {
+            "ko": null,
+            "en": "Element having optical power"
+          }
+        },
+        {
+          "code": "G03H 2223/18",
+          "title": {
+            "ko": null,
+            "en": "Prism"
+          }
+        },
+        {
+          "code": "G03H 2223/19",
+          "title": {
+            "ko": null,
+            "en": "Microoptic array, e.g. lens array"
+          }
+        },
+        {
+          "code": "G03H 2223/20",
+          "title": {
+            "ko": null,
+            "en": "Birefringent optical element, e.g. wave plate"
+          }
+        },
+        {
+          "code": "G03H 2223/21",
+          "title": {
+            "ko": null,
+            "en": "Anamorphic optical element, e.g. cylindrical"
+          }
+        },
+        {
+          "code": "G03H 2223/22",
+          "title": {
+            "ko": null,
+            "en": "Polariser"
+          }
+        },
+        {
+          "code": "G03H 2223/23",
+          "title": {
+            "ko": null,
+            "en": "Diffractive element"
+          }
+        },
+        {
+          "code": "G03H 2223/24",
+          "title": {
+            "ko": null,
+            "en": "Reflector; Mirror"
+          }
+        },
+        {
+          "code": "G03H 2223/25",
+          "title": {
+            "ko": null,
+            "en": "Index matching material"
+          }
+        },
+        {
+          "code": "G03H 2223/26",
+          "title": {
+            "ko": null,
+            "en": "Means providing optical delay, e.g. for path length matching"
+          }
+        },
+        {
+          "code": "G03H 2223/50",
+          "title": {
+            "ko": null,
+            "en": "Particular location or purpose of optical element"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2224/00",
+      "title": {
+        "ko": null,
+        "en": "Writing means other than actinic light wave"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2224/02",
+          "title": {
+            "ko": null,
+            "en": "Mechanical means, e.g. diamond tool"
+          }
+        },
+        {
+          "code": "G03H 2224/04",
+          "title": {
+            "ko": null,
+            "en": "Particle beam, e.g. e-beam"
+          }
+        },
+        {
+          "code": "G03H 2224/06",
+          "title": {
+            "ko": null,
+            "en": "Thermal or photo-thermal means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2225/00",
+      "title": {
+        "ko": null,
+        "en": "Active addressable light modulator"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2225/10",
+          "title": {
+            "ko": null,
+            "en": "Shape or geometry"
+          }
+        },
+        {
+          "code": "G03H 2225/20",
+          "title": {
+            "ko": null,
+            "en": "Nature, e.g. e-beam addressed"
+          }
+        },
+        {
+          "code": "G03H 2225/30",
+          "title": {
+            "ko": null,
+            "en": "Modulation"
+          }
+        },
+        {
+          "code": "G03H 2225/52",
+          "title": {
+            "ko": null,
+            "en": "Reflective modulator"
+          }
+        },
+        {
+          "code": "G03H 2225/55",
+          "title": {
+            "ko": null,
+            "en": "Having optical element registered to each pixel"
+          }
+        },
+        {
+          "code": "G03H 2225/60",
+          "title": {
+            "ko": null,
+            "en": "Multiple SLMs"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2226/00",
+      "title": {
+        "ko": null,
+        "en": "Electro-optic or electronic components relating to digital holography"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2226/02",
+          "title": {
+            "ko": null,
+            "en": "Computing or processing means, e.g. digital signal processor [DSP]"
+          }
+        },
+        {
+          "code": "G03H 2226/04",
+          "title": {
+            "ko": null,
+            "en": "Transmission or communication means, e.g. internet protocol"
+          }
+        },
+        {
+          "code": "G03H 2226/05",
+          "title": {
+            "ko": null,
+            "en": "Means for tracking the observer"
+          }
+        },
+        {
+          "code": "G03H 2226/11",
+          "title": {
+            "ko": null,
+            "en": "Electro-optic recording means, e.g. CCD, pyroelectric sensors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2227/00",
+      "title": {
+        "ko": null,
+        "en": "Mechanical components or mechanical aspects not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2227/02",
+          "title": {
+            "ko": null,
+            "en": "Handheld portable device, e.g. holographic camera, mobile holographic display"
+          }
+        },
+        {
+          "code": "G03H 2227/03",
+          "title": {
+            "ko": null,
+            "en": "Means for moving one component (G03H1/0476, G03H2001/2695 take precedence)"
+          }
+        },
+        {
+          "code": "G03H 2227/04",
+          "title": {
+            "ko": null,
+            "en": "Production line for mass production"
+          }
+        },
+        {
+          "code": "G03H 2227/05",
+          "title": {
+            "ko": null,
+            "en": "Support holding the holographic record"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2230/00",
+      "title": {
+        "ko": null,
+        "en": "Form or shape of the hologram when not registered to the substrate"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2230/10",
+          "title": {
+            "ko": null,
+            "en": "Microhologram not registered to the substrate"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2240/00",
+      "title": {
+        "ko": null,
+        "en": "Hologram nature or properties"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2240/10",
+          "title": {
+            "ko": null,
+            "en": "Physical parameter modulated by the hologram (G03H2001/0224 takes precedence)"
+          }
+        },
+        {
+          "code": "G03H 2240/20",
+          "title": {
+            "ko": null,
+            "en": "Details of physical variations exhibited in the hologram"
+          }
+        },
+        {
+          "code": "G03H 2240/50",
+          "title": {
+            "ko": null,
+            "en": "Parameters or numerical values associated with holography, e.g. peel strength"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2250/00",
+      "title": {
+        "ko": null,
+        "en": "Laminate comprising a hologram layer"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2250/10",
+          "title": {
+            "ko": null,
+            "en": "arranged to be transferred onto a carrier body"
+          }
+        },
+        {
+          "code": "G03H 2250/12",
+          "title": {
+            "ko": null,
+            "en": "Special arrangement of layers"
+          }
+        },
+        {
+          "code": "G03H 2250/14",
+          "title": {
+            "ko": null,
+            "en": "Forming layer onto which a surface relief hologram is formed (G03H2270/52 takes precedence)"
+          }
+        },
+        {
+          "code": "G03H 2250/32",
+          "title": {
+            "ko": null,
+            "en": "Antireflective layer"
+          }
+        },
+        {
+          "code": "G03H 2250/33",
+          "title": {
+            "ko": null,
+            "en": "Absorbing layer"
+          }
+        },
+        {
+          "code": "G03H 2250/34",
+          "title": {
+            "ko": null,
+            "en": "Colour layer"
+          }
+        },
+        {
+          "code": "G03H 2250/35",
+          "title": {
+            "ko": null,
+            "en": "Adhesive layer"
+          }
+        },
+        {
+          "code": "G03H 2250/36",
+          "title": {
+            "ko": null,
+            "en": "Conform enhancement layer"
+          }
+        },
+        {
+          "code": "G03H 2250/37",
+          "title": {
+            "ko": null,
+            "en": "Enclosing the photosensitive material"
+          }
+        },
+        {
+          "code": "G03H 2250/38",
+          "title": {
+            "ko": null,
+            "en": "Liquid crystal"
+          }
+        },
+        {
+          "code": "G03H 2250/39",
+          "title": {
+            "ko": null,
+            "en": "Protective layer"
+          }
+        },
+        {
+          "code": "G03H 2250/40",
+          "title": {
+            "ko": null,
+            "en": "Printed information overlapped with the hologram"
+          }
+        },
+        {
+          "code": "G03H 2250/41",
+          "title": {
+            "ko": null,
+            "en": "Polarisation active layer"
+          }
+        },
+        {
+          "code": "G03H 2250/42",
+          "title": {
+            "ko": null,
+            "en": "Reflective layer (G03H2250/36 takes precedence)"
+          }
+        },
+        {
+          "code": "G03H 2250/43",
+          "title": {
+            "ko": null,
+            "en": "One layer having dispersed particles (G03H2260/33 takes precedence)"
+          }
+        },
+        {
+          "code": "G03H 2250/44",
+          "title": {
+            "ko": null,
+            "en": "Colour tuning layer"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2260/00",
+      "title": {
+        "ko": null,
+        "en": "Recording materials or recording processes"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2260/10",
+          "title": {
+            "ko": null,
+            "en": "Dichromated gelatine or equivalents"
+          }
+        },
+        {
+          "code": "G03H 2260/12",
+          "title": {
+            "ko": null,
+            "en": "Photopolymer"
+          }
+        },
+        {
+          "code": "G03H 2260/14",
+          "title": {
+            "ko": null,
+            "en": "Photoresist"
+          }
+        },
+        {
+          "code": "G03H 2260/16",
+          "title": {
+            "ko": null,
+            "en": "Silver halide emulsion"
+          }
+        },
+        {
+          "code": "G03H 2260/30",
+          "title": {
+            "ko": null,
+            "en": "Details of photosensitive recording material not otherwise provided for"
+          }
+        },
+        {
+          "code": "G03H 2260/50",
+          "title": {
+            "ko": null,
+            "en": "Reactivity or recording processes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G03H 2270/00",
+      "title": {
+        "ko": null,
+        "en": "Substrate bearing the hologram"
+      },
+      "subgroups": [
+        {
+          "code": "G03H 2270/10",
+          "title": {
+            "ko": null,
+            "en": "Composition"
+          }
+        },
+        {
+          "code": "G03H 2270/20",
+          "title": {
+            "ko": null,
+            "en": "Shape"
+          }
+        },
+        {
+          "code": "G03H 2270/30",
+          "title": {
+            "ko": null,
+            "en": "Nature"
+          }
+        },
+        {
+          "code": "G03H 2270/52",
+          "title": {
+            "ko": null,
+            "en": "Integrated surface relief hologram without forming layer"
+          }
+        },
+        {
+          "code": "G03H 2270/53",
+          "title": {
+            "ko": null,
+            "en": "Recording material dispersed into porous substrate"
+          }
+        },
+        {
+          "code": "G03H 2270/54",
+          "title": {
+            "ko": null,
+            "en": "Recording material filed in recessed substrate"
+          }
+        },
+        {
+          "code": "G03H 2270/55",
+          "title": {
+            "ko": null,
+            "en": "being an optical element, e.g. spectacles"
+          }
+        }
+      ]
+    }
+  ]
+}

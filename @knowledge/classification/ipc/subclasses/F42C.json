@@ -1,0 +1,645 @@
+{
+  "subclass": "F42C",
+  "title": {
+    "ko": "탄약 신관(폭파약포의 기폭구 F42B 3/10; 화학적 사항 C06C); 기폭정비 또는 그에 따른 안전기구(신관을 채우는 것 F42B 33/02; 신관에서 또는 신관으로의 외관을 설치 또는 제거 F42B 33/04; 신관용기 F42B 39/30)",
+    "en": "AMMUNITION FUZES (blasting cartridge initiators F42B0003100000;chemical aspects C06C); ARMING OR SAFETY MEANS THEREFOR (filling fuzes F42B0033020000;fitting or extracting primers in or from fuzes F42B0033040000;containers for fuzes F42B0039300000)"
+  },
+  "definition": {
+    "ko": "신관작동의 원리 충격 F42C1/00 액체의 접촉 F42C3/00 액체의 압력 F42C5/00 기계적 힘 F42C7/00 비전기시한신관 F42C9/00 전기신관 F42C11/00 근접신관 F42C13/00 복합신관 F42C9/00 탄약의 형에 특징이 있는 신관 F42C14/00 기폭정비 또는 안전기구 F42C15/00 신관조정 F42C17/00 그 밖의 세부 F42C19/00 검사, 시험 F42C21/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제 사항 F42C99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F42C 1/00",
+      "title": {
+        "ko": "충격신관, 즉 탄약충격에 의해서만 작동하는 신관",
+        "en": "Impact fuzes, i.e. fuzes actuated only by ammunition impact"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 1/02",
+          "title": {
+            "ko": "신관과 구조적으로 조합된 격침이 있는 것",
+            "en": "with firing pin structurally combined with fuze"
+          }
+        },
+        {
+          "code": "F42C 1/04",
+          "title": {
+            "ko": null,
+            "en": "operating by inertia of members on impact"
+          }
+        },
+        {
+          "code": "F42C 1/06",
+          "title": {
+            "ko": null,
+            "en": "for any direction of impact"
+          }
+        },
+        {
+          "code": "F42C 1/08",
+          "title": {
+            "ko": "신관의 점화후 지연작동을 하는 것(시한신관 F42C 9/00)",
+            "en": "with delayed action after ignition of fuze (time fuzes F42C0009000000)"
+          }
+        },
+        {
+          "code": "F42C 1/09",
+          "title": {
+            "ko": null,
+            "en": "the fuze activating a propulsive charge for propelling the ammunition or the warhead into the air, e.g. in rebounding projectiles"
+          }
+        },
+        {
+          "code": "F42C 1/10",
+          "title": {
+            "ko": "격침이 없는 것",
+            "en": "without firing pin"
+          }
+        },
+        {
+          "code": "F42C 1/12",
+          "title": {
+            "ko": "신관의 점화후 지연동작이 있는 것(시한신관 F42C 9/00)",
+            "en": "with delayed action after ignition of fuze (time fuzes F42C0009000000)"
+          }
+        },
+        {
+          "code": "F42C 1/14",
+          "title": {
+            "ko": null,
+            "en": "operating at a predetermined distance from ground or target by means of a protruding member"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 3/00",
+      "title": {
+        "ko": "액체, 예. 해수에 접촉하므로써 작동하는 신관(F42C 5/00이 우선; 시한신관 F42C 9/00)",
+        "en": "Fuzes actuated by exposure to a liquid, e.g. sea-water (F42C0005000000 takes precedence;time fuzes F42C0009000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F42C 5/00",
+      "title": {
+        "ko": null,
+        "en": "Fuzes actuated by exposure to a predetermined ambient fluid pressure"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 5/02",
+          "title": {
+            "ko": null,
+            "en": "barometric pressure"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 7/00",
+      "title": {
+        "ko": "정해진 기계력, 예. 장력, 비트는 힘, 압력에 의해서 작동하는 신관(탄약의 충격에 의한 것 F42C 1/00; 정해진 유체압력에 의한 것 F42C 5/00)",
+        "en": "Fuzes actuated by application of a predetermined mechanical force, e.g. tension, torsion, pressure (by ammunition impact F42C0001000000;by exposure to a predetermined ambient fluid pressure F42C0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 7/02",
+          "title": {
+            "ko": "접촉신관, 즉 미리 설치된 탄약, 예. 지뢰 와 이동표적,예. 인간 간의 기계적 접촉에 의해서 작동하는 신관(F42C 7/04가 우선)",
+            "en": "Contact fuzes, i.e. fuzes actuated by mechanical contact between a stationary ammunition, e.g. a land mine, and a moving target, e.g. a person (F42C0007120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 7/04",
+          "title": {
+            "ko": null,
+            "en": "actuated by applying pressure on the ammunition head"
+          }
+        },
+        {
+          "code": "F42C 7/06",
+          "title": {
+            "ko": null,
+            "en": "and comprising pneumatic or hydraulic retarding means"
+          }
+        },
+        {
+          "code": "F42C 7/08",
+          "title": {
+            "ko": null,
+            "en": "of release type, i.e. actuated by releasing pressure from the ammunition head"
+          }
+        },
+        {
+          "code": "F42C 7/10",
+          "title": {
+            "ko": null,
+            "en": "of antenna type"
+          }
+        },
+        {
+          "code": "F42C 7/12",
+          "title": {
+            "ko": "이중작동형의 격발신관, 즉 단일동작으로 발포준비와 발포가 이루어지는 신관 예. 내장된 격침 또는 타격해머를 잡아당기므로써 작동하는 것(총용 전관 F42C 19/10)",
+            "en": "Percussion fuzes of the double-action type, i.e. fuzes cocked and fired in a single movement, e.g. by pulling an incorporated percussion pin or hammer (percussion caps F42C0019100000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 9/00",
+      "title": {
+        "ko": null,
+        "en": "Time fuzes; Combined time- and percussion- or pressure-actuated fuzes; Fuzes for timed self-destruction of ammunition"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 9/02",
+          "title": {
+            "ko": null,
+            "en": "the timing being caused by mechanical means"
+          }
+        },
+        {
+          "code": "F42C 9/04",
+          "title": {
+            "ko": null,
+            "en": "by spring motor"
+          }
+        },
+        {
+          "code": "F42C 9/06",
+          "title": {
+            "ko": null,
+            "en": "by flow of fluent material, e.g. shot, fluids"
+          }
+        },
+        {
+          "code": "F42C 9/08",
+          "title": {
+            "ko": null,
+            "en": "the timing being caused by chemical action, e.g. of acids"
+          }
+        },
+        {
+          "code": "F42C 9/10",
+          "title": {
+            "ko": null,
+            "en": "the timing being caused by combustion"
+          }
+        },
+        {
+          "code": "F42C 9/12",
+          "title": {
+            "ko": null,
+            "en": "with ring combustion elements"
+          }
+        },
+        {
+          "code": "F42C 9/14",
+          "title": {
+            "ko": null,
+            "en": "Double fuzes; Multiple fuzes"
+          }
+        },
+        {
+          "code": "F42C 9/16",
+          "title": {
+            "ko": null,
+            "en": "for self-destruction of ammunition"
+          }
+        },
+        {
+          "code": "F42C 9/18",
+          "title": {
+            "ko": null,
+            "en": "when the spin rate falls below a predetermined limit, e.g. a spring force being stronger than the locking action of a centrifugally-operated lock"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 11/00",
+      "title": {
+        "ko": "전기신관(근접신관 F42C 13/00; 전기점화구 F42C 19/12)",
+        "en": "Electric fuzes (proximity fuzes F42C0013000000;electric igniters F42C0019120000)"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 11/02",
+          "title": {
+            "ko": null,
+            "en": "with piezo-crystal"
+          }
+        },
+        {
+          "code": "F42C 11/04",
+          "title": {
+            "ko": null,
+            "en": "with current induction"
+          }
+        },
+        {
+          "code": "F42C 11/06",
+          "title": {
+            "ko": null,
+            "en": "with time delay by electric circuitry"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 13/00",
+      "title": {
+        "ko": null,
+        "en": "Proximity fuzes; Fuzes for remote detonation"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 13/02",
+          "title": {
+            "ko": null,
+            "en": "operated by intensity of light or similar radiation"
+          }
+        },
+        {
+          "code": "F42C 13/04",
+          "title": {
+            "ko": null,
+            "en": "operated by radio waves"
+          }
+        },
+        {
+          "code": "F42C 13/06",
+          "title": {
+            "ko": null,
+            "en": "operated by sound waves"
+          }
+        },
+        {
+          "code": "F42C 13/08",
+          "title": {
+            "ko": null,
+            "en": "operated by variations in magnetic field"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 14/00",
+      "title": {
+        "ko": "탄약의 종별 또는 형식에 특징이 있는 것(F42C 1/00, F42C 13/00, F42C 15/00이 우선)",
+        "en": "Fuzes characterised by the ammunition class or type (F42C0001000000, F42C0013000000, F42C0015000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 14/02",
+          "title": {
+            "ko": null,
+            "en": "for hand grenades"
+          }
+        },
+        {
+          "code": "F42C 14/04",
+          "title": {
+            "ko": "어뢰, 기뢰 또는 폭뢰용(감응기뢰 F42B 22/04)",
+            "en": "for torpedoes, marine mines or depth charges (influenced marine mines F42B0022040000)"
+          }
+        },
+        {
+          "code": "F42C 14/06",
+          "title": {
+            "ko": null,
+            "en": "for fall bombs"
+          }
+        },
+        {
+          "code": "F42C 14/08",
+          "title": {
+            "ko": null,
+            "en": "for land mines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 15/00",
+      "title": {
+        "ko": "신관의 기폭정비기구; 신관 또는 장약의 조발방지용 안전기구",
+        "en": "Arming-means in fuzes; Safety means for preventing premature detonation of fuzes or charges"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 15/16",
+          "title": {
+            "ko": "안전을 위하여 격침류를 작동부로부터 떼는 것",
+            "en": "wherein the firing pin is displaced out of the action line for safety (F42C0015400000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/18",
+          "title": {
+            "ko": "화공품 또는 화약계열의 부재용 캐리어가 작동되는 것(F42C 15/40이 우선)",
+            "en": "wherein a carrier for an element of the pyrotechnic or explosive train is moved (F42C0015400000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/184",
+          "title": {
+            "ko": null,
+            "en": "using a slidable carrier"
+          }
+        },
+        {
+          "code": "F42C 15/188",
+          "title": {
+            "ko": null,
+            "en": "using a rotatable carrier"
+          }
+        },
+        {
+          "code": "F42C 15/192",
+          "title": {
+            "ko": null,
+            "en": "rotatable in a plane which is parallel to the longitudinal axis of the projectile"
+          }
+        },
+        {
+          "code": "F42C 15/196",
+          "title": {
+            "ko": null,
+            "en": "by the action of centrifugal or inertia forces on the carrier body, e.g. the carrier having eccentrically mounted weights or eccentric centre of gravity"
+          }
+        },
+        {
+          "code": "F42C 15/20",
+          "title": {
+            "ko": "신관을 기폭정비하기 위하여 안전침 또는 빗장을 빼는 것, 예. 격침에서 빼는 것(F42C 15/40이 우선)",
+            "en": "wherein a securing-pin or latch is removed to arm the fuze, e.g. removed from the firing pin (F42C0015400000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/21",
+          "title": {
+            "ko": "용수철작용의 사용(F42C 15/23이 우선)",
+            "en": "using spring action (F42C0015230000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/22",
+          "title": {
+            "ko": "원심력의 사용",
+            "en": "using centrifugal force (F42C0015230000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/23",
+          "title": {
+            "ko": null,
+            "en": "by unwinding a flexible ribbon or tape"
+          }
+        },
+        {
+          "code": "F42C 15/24",
+          "title": {
+            "ko": "안전 또는 기폭정비작용이 관성에 의해서 행하여지는 것(F42C 15/196, F42C 15/20이 우선)",
+            "en": "wherein the safety or arming action is effected by inertia means (F42C0015196000, F42C0015200000 take precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/26",
+          "title": {
+            "ko": null,
+            "en": "using centrifugal force"
+          }
+        },
+        {
+          "code": "F42C 15/28",
+          "title": {
+            "ko": "유동물질, 예. 발사물, 유체의 흐름에 의해서 작동하는 것(F42C 15/26이 우선)",
+            "en": "operated by flow of fluent material, e.g. shot, fluids (F42C0015260000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/285",
+          "title": {
+            "ko": null,
+            "en": "stored within the fuze housing"
+          }
+        },
+        {
+          "code": "F42C 15/29",
+          "title": {
+            "ko": null,
+            "en": "operated by fluidic oscillators; operated by dynamic fluid pressure, e.g. ram-air operated"
+          }
+        },
+        {
+          "code": "F42C 15/295",
+          "title": {
+            "ko": null,
+            "en": "operated by a turbine or a propeller; Mounting means therefor"
+          }
+        },
+        {
+          "code": "F42C 15/30",
+          "title": {
+            "ko": null,
+            "en": "of propellant gases, i.e. derived from propulsive charge or rocket motor"
+          }
+        },
+        {
+          "code": "F42C 15/31",
+          "title": {
+            "ko": null,
+            "en": "generated by the combustion of a pyrotechnic or explosive charge within the fuze"
+          }
+        },
+        {
+          "code": "F42C 15/32",
+          "title": {
+            "ko": "유체압력의 변화에 의해 작동하는 것(F42C 5/00, F42C 15/29가 우선)",
+            "en": "operated by change of fluid pressure (F42C0005000000, F42C0015290000 take precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/33",
+          "title": {
+            "ko": null,
+            "en": "by breaking a vacuum or pressure container"
+          }
+        },
+        {
+          "code": "F42C 15/34",
+          "title": {
+            "ko": "안전 또는 기폭정비작동이 뇌관장치와 주장약과의 사이에서 불꽃 또는 연속폭발의 차단부품에 의해 행해지는 것(F42C 15/18, F42C 15/40이 우선)",
+            "en": "wherein the safety or arming action is effected by a blocking-member in the pyrotechnic or explosive train between primer and main charge (F42C0015180000, F42C0015400000 take precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/36",
+          "title": {
+            "ko": "기폭정비가 요소의 연소 또는 용융에 의해서 행해지는 것(F42C 15/31이 우선)",
+            "en": "wherein arming is effected by combustion or fusion of an element (F42C0015310000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/38",
+          "title": {
+            "ko": "기폭정비가 화학작용에 의해서 행해지는 것",
+            "en": "wherein arming is effected by chemical action (F42C0003000000 takes precedence)"
+          }
+        },
+        {
+          "code": "F42C 15/40",
+          "title": {
+            "ko": null,
+            "en": "wherein the safety or arming action is effected electrically"
+          }
+        },
+        {
+          "code": "F42C 15/42",
+          "title": {
+            "ko": null,
+            "en": "from a remote location, e.g. for controlled mines or mine fields"
+          }
+        },
+        {
+          "code": "F42C 15/44",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for disarming, or for rendering harmless, fuzes after arming, e.g. after launch"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 17/00",
+      "title": {
+        "ko": null,
+        "en": "Fuze-setting apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 17/02",
+          "title": {
+            "ko": null,
+            "en": "Fuze-setting keys"
+          }
+        },
+        {
+          "code": "F42C 17/04",
+          "title": {
+            "ko": null,
+            "en": "for electric fuzes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 19/00",
+      "title": {
+        "ko": "신관의 세부(조기 폭파를 방지하기 위한 무장 수단, 안전 수단 F42C 15/00)",
+        "en": "Details of fuzes (arming means, safety means for preventing premature detonation F42C0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F42C 19/02",
+          "title": {
+            "ko": null,
+            "en": "Fuze bodies; Fuze housings"
+          }
+        },
+        {
+          "code": "F42C 19/04",
+          "title": {
+            "ko": null,
+            "en": "Protective caps"
+          }
+        },
+        {
+          "code": "F42C 19/06",
+          "title": {
+            "ko": null,
+            "en": "Electric contact parts specially adapted for use with electric fuzes"
+          }
+        },
+        {
+          "code": "F42C 19/07",
+          "title": {
+            "ko": null,
+            "en": "Nose-contacts for projectiles or missiles"
+          }
+        },
+        {
+          "code": "F42C 19/08",
+          "title": {
+            "ko": "뇌관장치(폭파약포용 기폭구 F42B 3/10) 기폭장치",
+            "en": "Primers (initiators for blasting cartridges F42B0003100000); Detonators"
+          }
+        },
+        {
+          "code": "F42C 19/085",
+          "title": {
+            "ko": null,
+            "en": "Primers for caseless ammunition"
+          }
+        },
+        {
+          "code": "F42C 19/09",
+          "title": {
+            "ko": null,
+            "en": "Primers or detonators containing a hollow charge"
+          }
+        },
+        {
+          "code": "F42C 19/095",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of a multiplicity of primers or detonators, dispersed around a warhead, one of the primers or detonators being selected for directional detonation effects"
+          }
+        },
+        {
+          "code": "F42C 19/10",
+          "title": {
+            "ko": null,
+            "en": "Percussion caps"
+          }
+        },
+        {
+          "code": "F42C 19/12",
+          "title": {
+            "ko": null,
+            "en": "electric"
+          }
+        },
+        {
+          "code": "F42C 19/14",
+          "title": {
+            "ko": null,
+            "en": "operable also in the percussion mode"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F42C 21/00",
+      "title": {
+        "ko": null,
+        "en": "Checking fuzes; Testing fuzes"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F42C 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

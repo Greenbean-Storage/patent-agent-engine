@@ -1,0 +1,152 @@
+{
+  "title": "DrawingManifest",
+  "description": "도면 manifest. sessions/{user_id}/{work_id}/drawings/manifest.drawing.yaml 에 YAML로 저장. 도면 목록·메타·렌더 상태의 single source of truth. director(02)가 writer.",
+  "type": "object",
+  "required": [
+    "drawings",
+    "last_updated"
+  ],
+  "properties": {
+    "drawings": {
+      "type": "array",
+      "description": "도면 목록. 본문(numerals/dl/figure)은 drawings/{drawing_id}/ 하위 파일에 저장.",
+      "items": {
+        "type": "object",
+        "required": [
+          "drawing_id",
+          "figure_label",
+          "source"
+        ],
+        "properties": {
+          "drawing_id": {
+            "type": "string",
+            "description": "내부 식별자. 예: fig-001 (drawings/{drawing_id}/ 디렉토리명과 일치)"
+          },
+          "figure_label": {
+            "type": "string",
+            "description": "출원서 표기. 예: 도 1"
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "도면 제목"
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "도면 설명 (specification.brief_description_of_drawings와 1:1)"
+          },
+          "diagram_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "block_diagram",
+              "flow_diagram",
+              "sequence_diagram",
+              "detail_diagram",
+              "structure_diagram",
+              "circuit_diagram",
+              "user_sketch",
+              null
+            ]
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "user_upload",
+              "ai_generated",
+              "converted"
+            ]
+          },
+          "source_code_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "plantuml",
+              "openscad",
+              "schemdraw",
+              "smiles",
+              "mermaid",
+              "cadquery",
+              null
+            ]
+          },
+          "render_status": {
+            "type": "string",
+            "enum": [
+              "none",
+              "pending",
+              "rendered",
+              "failed"
+            ],
+            "default": "none"
+          },
+          "render_error": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mime_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "image/png",
+              "image/jpeg",
+              "image/svg+xml",
+              "application/pdf",
+              null
+            ]
+          },
+          "is_representative": {
+            "type": "boolean",
+            "default": false,
+            "description": "대표도 여부 (전체 도면 중 정확히 1개)"
+          },
+          "key_elements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "도면에서 표현하는 핵심 요소 목록"
+          },
+          "uploaded_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "generated_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "generation_notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "도면 세트 생성 메모 (예: drawing_orchestration 파이프라인이 남긴 결정 근거)"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

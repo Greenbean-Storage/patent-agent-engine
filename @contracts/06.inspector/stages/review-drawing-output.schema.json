@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "description": "P06.R00.REVIEW_DRAWING — Inspector (Gemini Vision) 의 도면 1개 검수 결과.",
+  "properties": {
+    "drawing_id": {"type": "string", "description": "검수 대상 도면 ID."},
+    "review": {
+      "type": "object",
+      "description": "Vision 검수 세부 결과.",
+      "properties": {
+        "overall_pass": {"type": "boolean"},
+        "numerals_visible": {"type": "boolean", "description": "도면 부호가 시각적으로 식별 가능한지."},
+        "label_clarity": {"type": "boolean", "description": "라벨 텍스트 가독성."},
+        "claim_coverage": {"type": "boolean", "description": "청구항 element 가 도면에 표현되는지."},
+        "revision_comment": {"type": "string", "description": "재생성 시 보완 지시."}
+      },
+      "required": ["overall_pass"]
+    },
+    "dispatch_choice": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "0=검수 통과 → director.drawing_orchestration (P02.R12) 재개, 1=검수 실패 → DL 재생성 (P05.R00)."
+    }
+  },
+  "required": ["drawing_id", "review", "dispatch_choice"]
+}

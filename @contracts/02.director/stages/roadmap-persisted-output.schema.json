@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RoadmapPersistedOutput",
+  "description": "P02.R00.CONCEPT_MATURITY step 7 (roadmap.persist) DRO tool step 의 반환 형태.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["ok", "count"],
+  "properties": {
+    "ok":    { "const": true },
+    "count": { "type": "integer", "minimum": 0, "description": "저장된 items 수 (= top-level array 길이)." }
+  }
+}

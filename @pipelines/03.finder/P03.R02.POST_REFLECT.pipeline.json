@@ -1,0 +1,47 @@
+{
+  "description": "P03 Finder — 검색 결과 후처리: 중복 제거·랭킹 → 청구항 대비표 → 최종 신규성·진보성·배타성 평가 (synthesis).",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": []
+  },
+  "steps": [
+    {
+      "description": "fan-out 검색 결과 application_number 단위 dedupe + 의미적 relevance 로 ranking. 상위 30개 압축.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R02/rank_results.md"
+      },
+      "llm_tools": [],
+      "output_contract": "dedupe-rank-output"
+    },
+    {
+      "description": "발명 element 와 ranked patent 1:1 매칭 + 동일/유사/상이 판정 + 차별화 포인트.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R02/match_elements.md"
+      },
+      "llm_tools": [],
+      "output_contract": "claim-chart-output"
+    },
+    {
+      "description": "신규성·진보성·배타성 3축 평가 + 청구항 전략 + 위험 + confidence 종합. 최종 보고.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/03.finder/P03.R02/synthesize.md"
+      },
+      "llm_tools": [],
+      "output_contract": "synthesis-output"
+    }
+  ]
+}

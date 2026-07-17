@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "components": {
+      "type": "array"
+    },
+    "causal_chain": {
+      "type": "string"
+    },
+    "operating_sequence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preconditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "operating_boundaries": {
+      "type": "object"
+    },
+    "implicit_components": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "components",
+    "causal_chain",
+    "operating_sequence",
+    "preconditions",
+    "operating_boundaries",
+    "implicit_components"
+  ]
+}

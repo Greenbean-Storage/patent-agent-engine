@@ -1,0 +1,5227 @@
+{
+  "subclass": "H01J",
+  "title": {
+    "ko": "전자관 또는 방전 램프 (스파크-갭 H01T; 전기 아크 램프 H05B31/00; 입자가속기 H05H)",
+    "en": "ELECTRIC DISCHARGE TUBES OR DISCHARGE LAMPS (spark-gaps H01T;electric arc lamps H05B0031000000;particle accelerators H05H)"
+  },
+  "definition": {
+    "ko": "가스충전 관 관내에 전극이 없는 것; 액체음극; 가스 상음극; 고체음극 H01J11/00; 13/00; 15/00 17/00 진공관 고전적인 진공관; 관; 세부 H01J21/00; 19/00 주행시간형 전자관; 관; 세부 H01J25/00, H01J23/00 이온빔 관 H01J27/00 음극선관; 관; 세부 H01J31/00; 29/00 X선관 H01J35/00 재료 또는 목적물을 처리 또는 시험하기 위한 관 H01J37/00 특수한 관(TUBE) 전자 또는 이온을 끌어내기 위한 것; 입자 분광계 및 분리기 H01J33/00, H01J49/00 진공 게이지, 이온의 확산에 의한 배기; 2차 전자방출관; 전자 증배관; 열전자 발생기 H01J41/00; 43/00; 45/00 광전자; 방사선과 입자검출기 H01J40/00; 47/00 방전램프 가스 방전램프; 음극선 또는 전자램프; 관내 에 전극이 없는 램프 H01J61/00; 63/00; 65/00 세부 전극; 전자광학; 용기; 기타 세부 H01J1/00; 3/00; 5/00; 7/00 제조; 수리; 재생; 재료의 회수 H01J9/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 주제사항 H01J99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H01J 1/00",
+      "title": {
+        "ko": "2 이상의 기본 유형의 방전관 또는 램프에 공통되는 전극, 자기 제어 수단, 스크린, 또는 그 장착 또는 간격 유지에 대한 세부 (전자 광학 장치 또는 이온 트랩의 세부 H01J3/00)",
+        "en": "Details of electrodes, of magnetic control means, of screens, or of the mounting or spacing thereof, common to two or more basic types of discharge tubes or lamps (details of electron-optical or ion-optical arrangements H01J0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 1/02",
+          "title": {
+            "ko": "주전극",
+            "en": "Main electrodes"
+          }
+        },
+        {
+          "code": "H01J 1/04",
+          "title": {
+            "ko": null,
+            "en": "Liquid electrodes, e.g. liquid cathode"
+          }
+        },
+        {
+          "code": "H01J 1/05",
+          "title": {
+            "ko": null,
+            "en": "characterised by material"
+          }
+        },
+        {
+          "code": "H01J 1/06",
+          "title": {
+            "ko": null,
+            "en": "Containers for liquid-pool electrodes; Arrangement or mounting thereof"
+          }
+        },
+        {
+          "code": "H01J 1/08",
+          "title": {
+            "ko": null,
+            "en": "Positioning or moving the cathode spot on the surface of a liquid-pool cathode"
+          }
+        },
+        {
+          "code": "H01J 1/10",
+          "title": {
+            "ko": null,
+            "en": "Cooling, heating, circulating, filtering, or controlling level of liquid in a liquid-pool electrode"
+          }
+        },
+        {
+          "code": "H01J 1/12",
+          "title": {
+            "ko": null,
+            "en": "Cathodes having mercury or liquid alkali metal deposited on the cathode surface during operation of the tube"
+          }
+        },
+        {
+          "code": "H01J 1/13",
+          "title": {
+            "ko": null,
+            "en": "Solid thermionic cathodes"
+          }
+        },
+        {
+          "code": "H01J 1/14",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "H01J 1/142",
+          "title": {
+            "ko": null,
+            "en": "with alkaline-earth metal oxides, or such oxides used in conjunction with reducing agents, as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 1/144",
+          "title": {
+            "ko": null,
+            "en": "with other metal oxides as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 1/146",
+          "title": {
+            "ko": null,
+            "en": "with metals or alloys as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 1/148",
+          "title": {
+            "ko": null,
+            "en": "with compounds having metallic conductive properties, e.g. lanthanum boride, as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 1/15",
+          "title": {
+            "ko": null,
+            "en": "Cathodes heated directly by an electric current"
+          }
+        },
+        {
+          "code": "H01J 1/16",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape"
+          }
+        },
+        {
+          "code": "H01J 1/18",
+          "title": {
+            "ko": null,
+            "en": "Supports; Vibration-damping arrangements"
+          }
+        },
+        {
+          "code": "H01J 1/20",
+          "title": {
+            "ko": null,
+            "en": "Cathodes heated indirectly by an electric current; Cathodes heated by electron or ion bombardment"
+          }
+        },
+        {
+          "code": "H01J 1/22",
+          "title": {
+            "ko": null,
+            "en": "Heaters"
+          }
+        },
+        {
+          "code": "H01J 1/24",
+          "title": {
+            "ko": null,
+            "en": "Insulating layer or body located between heater and emissive material"
+          }
+        },
+        {
+          "code": "H01J 1/26",
+          "title": {
+            "ko": null,
+            "en": "Supports for the emissive material"
+          }
+        },
+        {
+          "code": "H01J 1/28",
+          "title": {
+            "ko": null,
+            "en": "Dispenser-type cathodes, e.g. L-cathode"
+          }
+        },
+        {
+          "code": "H01J 1/30",
+          "title": {
+            "ko": null,
+            "en": "Cold cathodes"
+          }
+        },
+        {
+          "code": "H01J 1/304",
+          "title": {
+            "ko": null,
+            "en": "Field-emissive cathodes"
+          }
+        },
+        {
+          "code": "H01J 1/308",
+          "title": {
+            "ko": null,
+            "en": "Semiconductor cathodes, e.g. cathodes with PN junction layers"
+          }
+        },
+        {
+          "code": "H01J 1/312",
+          "title": {
+            "ko": null,
+            "en": "having an electric field perpendicular to the surface, e.g. tunnel-effect cathodes of metal-insulator-metal [MIM] type"
+          }
+        },
+        {
+          "code": "H01J 1/316",
+          "title": {
+            "ko": null,
+            "en": "having an electric field parallel to the surface, e.g. thin film cathodes"
+          }
+        },
+        {
+          "code": "H01J 1/32",
+          "title": {
+            "ko": "2차 전자방사 전극(H01J 1/35 우선)",
+            "en": "Secondary-electron emitting electrodes (H01J0001350000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 1/34",
+          "title": {
+            "ko": "광전자 방사 음극(H01J 1/35 우선)",
+            "en": "Photo-emissive cathodes (H01J0001350000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 1/35",
+          "title": {
+            "ko": null,
+            "en": "Electrodes exhibiting both secondary emission and photo-emission"
+          }
+        },
+        {
+          "code": "H01J 1/36",
+          "title": {
+            "ko": "고체양극; 방전유지용 고체보조양극",
+            "en": "Solid anodes; Solid auxiliary anodes for maintaining a discharge"
+          }
+        },
+        {
+          "code": "H01J 1/38",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "H01J 1/40",
+          "title": {
+            "ko": null,
+            "en": "forming part of the envelope of the tube or lamp"
+          }
+        },
+        {
+          "code": "H01J 1/42",
+          "title": {
+            "ko": "양극의 냉각(H01J 1/44 우선); 양극의 가열",
+            "en": "Cooling of anodes (H01J0001440000 takes precedence); Heating of anodes"
+          }
+        },
+        {
+          "code": "H01J 1/44",
+          "title": {
+            "ko": null,
+            "en": "Rotary anodes; Arrangements for rotating anodes; Cooling rotary anodes"
+          }
+        },
+        {
+          "code": "H01J 1/46",
+          "title": {
+            "ko": "제어전극, 예. 그리드(점호장치 H01J 7/30); 보조전극(방전유지용 보조양극 H01J 1/36)",
+            "en": "Control electrodes, e.g. grid (for igniting arrangements H01J0007300000); Auxiliary electrodes (auxiliary anodes for maintaining a discharge H01J0001360000)"
+          }
+        },
+        {
+          "code": "H01J 1/48",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "H01J 1/50",
+          "title": {
+            "ko": null,
+            "en": "Magnetic means for controlling the discharge"
+          }
+        },
+        {
+          "code": "H01J 1/52",
+          "title": {
+            "ko": null,
+            "en": "Screens for shielding; Guides for influencing the discharge; Masks interposed in the electron stream"
+          }
+        },
+        {
+          "code": "H01J 1/53",
+          "title": {
+            "ko": null,
+            "en": "Electrodes intimately associated with a screen on or from which an image or pattern is formed, picked-up, converted, or stored"
+          }
+        },
+        {
+          "code": "H01J 1/54",
+          "title": {
+            "ko": null,
+            "en": "Screens on or from which an image or pattern is formed, picked-up, converted, or stored; Luminescent coatings on vessels"
+          }
+        },
+        {
+          "code": "H01J 1/56",
+          "title": {
+            "ko": null,
+            "en": "acting as light valves by shutter operation, e.g. for eidophor"
+          }
+        },
+        {
+          "code": "H01J 1/58",
+          "title": {
+            "ko": null,
+            "en": "acting by discolouration, e.g. halide screen"
+          }
+        },
+        {
+          "code": "H01J 1/60",
+          "title": {
+            "ko": null,
+            "en": "Incandescent screens"
+          }
+        },
+        {
+          "code": "H01J 1/62",
+          "title": {
+            "ko": null,
+            "en": "Luminescent screens; Selection of materials for luminescent coatings on vessels"
+          }
+        },
+        {
+          "code": "H01J 1/63",
+          "title": {
+            "ko": null,
+            "en": "characterised by the luminescent material"
+          }
+        },
+        {
+          "code": "H01J 1/64",
+          "title": {
+            "ko": null,
+            "en": "characterised by the binder or adhesive for securing the luminescent material to its support"
+          }
+        },
+        {
+          "code": "H01J 1/66",
+          "title": {
+            "ko": null,
+            "en": "Supports for luminescent material"
+          }
+        },
+        {
+          "code": "H01J 1/68",
+          "title": {
+            "ko": null,
+            "en": "with superimposed luminescent layers"
+          }
+        },
+        {
+          "code": "H01J 1/70",
+          "title": {
+            "ko": null,
+            "en": "with protective, conductive, or reflective layers"
+          }
+        },
+        {
+          "code": "H01J 1/72",
+          "title": {
+            "ko": null,
+            "en": "with luminescent material discontinuously arranged, e.g. in dots or lines"
+          }
+        },
+        {
+          "code": "H01J 1/74",
+          "title": {
+            "ko": null,
+            "en": "with adjacent dots or lines of different luminescent material"
+          }
+        },
+        {
+          "code": "H01J 1/76",
+          "title": {
+            "ko": null,
+            "en": "provided with permanent marks or references"
+          }
+        },
+        {
+          "code": "H01J 1/78",
+          "title": {
+            "ko": null,
+            "en": "Photoelectric screens; Charge-storage screens"
+          }
+        },
+        {
+          "code": "H01J 1/88",
+          "title": {
+            "ko": null,
+            "en": "Mounting, supporting, spacing, or insulating of electrodes or of electrode assemblies"
+          }
+        },
+        {
+          "code": "H01J 1/90",
+          "title": {
+            "ko": null,
+            "en": "Insulation between electrodes or supports within the vacuum space"
+          }
+        },
+        {
+          "code": "H01J 1/92",
+          "title": {
+            "ko": null,
+            "en": "Mountings for the electrode assembly as a whole"
+          }
+        },
+        {
+          "code": "H01J 1/94",
+          "title": {
+            "ko": null,
+            "en": "Mountings for individual electrodes"
+          }
+        },
+        {
+          "code": "H01J 1/96",
+          "title": {
+            "ko": null,
+            "en": "Spacing members extending to the envelope"
+          }
+        },
+        {
+          "code": "H01J 1/98",
+          "title": {
+            "ko": null,
+            "en": "without fixed connection between spacing member and envelope"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 3/00",
+      "title": {
+        "ko": "2 이상의 기본 방전관 또는 램프 유형에 공통적인 전자 광학 또는 이온 광학 장치의 세부",
+        "en": "Details of electron-optical or ion-optical arrangements common to two or more basic types of discharge tubes or lamps"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 3/02",
+          "title": {
+            "ko": null,
+            "en": "Electron guns"
+          }
+        },
+        {
+          "code": "H01J 3/04",
+          "title": {
+            "ko": null,
+            "en": "Ion guns"
+          }
+        },
+        {
+          "code": "H01J 3/06",
+          "title": {
+            "ko": "단일진공공간에 배치된 2이상의 총, 예. 복수의 입자선을 이용하는 관(H01J 3/07이 우선)",
+            "en": "two or more guns being arranged in a single vacuum space, e.g. for plural-ray tubes (H01J0003070000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 3/07",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling convergence of a plurality of beams"
+          }
+        },
+        {
+          "code": "H01J 3/08",
+          "title": {
+            "ko": "(하전)입자선 또는 빔의 강도를 제어하는 장치 (H01J 3/02, H01J 3/04가 우선)",
+            "en": "Arrangements for controlling intensity of ray or beam (H01J0003020000, H01J0003040000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 3/10",
+          "title": {
+            "ko": "(하전)입자선 또는 빔을 집중시키는 장치(H01J 3/02, H01J 3/04가 우선)",
+            "en": "Arrangements for centering ray or beam (H01J0003020000, H01J0003040000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 3/12",
+          "title": {
+            "ko": "(하전)입자선 또는 빔의 단면을 제어하는 장치; 빔의 수차를 보정하는 장치, 예. 렌즈에 의하는 것(H01J 3/02, H01J 3/04가 우선)",
+            "en": "Arrangements for controlling cross-section of ray or beam; Arrangements for correcting aberration of beam, e.g. due to lenses (H01J0003020000, H01J0003040000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 3/14",
+          "title": {
+            "ko": "(하전)입자선 또는 빔을 반사시키는 장치(H01J 3/02, H01J 3/04가 우선)",
+            "en": "Arrangements for focusing or reflecting ray or beam (H01J0003020000, H01J0003040000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 3/16",
+          "title": {
+            "ko": null,
+            "en": "Mirrors"
+          }
+        },
+        {
+          "code": "H01J 3/18",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic lenses"
+          }
+        },
+        {
+          "code": "H01J 3/20",
+          "title": {
+            "ko": null,
+            "en": "Magnetic lenses"
+          }
+        },
+        {
+          "code": "H01J 3/22",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic means only"
+          }
+        },
+        {
+          "code": "H01J 3/24",
+          "title": {
+            "ko": null,
+            "en": "using permanent magnets only"
+          }
+        },
+        {
+          "code": "H01J 3/26",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for deflecting ray or beam"
+          }
+        },
+        {
+          "code": "H01J 3/28",
+          "title": {
+            "ko": null,
+            "en": "along one straight line or along two perpendicular straight lines"
+          }
+        },
+        {
+          "code": "H01J 3/30",
+          "title": {
+            "ko": null,
+            "en": "by electric fields only"
+          }
+        },
+        {
+          "code": "H01J 3/32",
+          "title": {
+            "ko": null,
+            "en": "by magnetic fields only"
+          }
+        },
+        {
+          "code": "H01J 3/34",
+          "title": {
+            "ko": null,
+            "en": "along a circle, spiral, or rotating radial line"
+          }
+        },
+        {
+          "code": "H01J 3/36",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling the ray or beam after passing the main deflection system, e.g. for post-acceleration or post-concentration"
+          }
+        },
+        {
+          "code": "H01J 3/38",
+          "title": {
+            "ko": null,
+            "en": "Mounting, supporting, spacing, or insulating electron-optical or ion-optical arrangements"
+          }
+        },
+        {
+          "code": "H01J 3/40",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for removing or diverting unwanted particles, e.g. for negative ions or fringing electrons; Arrangements for velocity or mass selection"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 5/00",
+      "title": {
+        "ko": "전자관 또는 방전램프의 2이상의 기본적인 형에 공통인 용기 또는 도입선에 관련되는 세부",
+        "en": "Details relating to vessels or to leading-in conductors common to two or more basic types of discharge tubes or lamps"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 5/02",
+          "title": {
+            "ko": "그릇(vessels); 용기(containers); 그것들과 관련 하는 차폐; 진공봉함(vacuum locks)",
+            "en": "Vessels; Containers; Shields associated therewith; Vacuum locks"
+          }
+        },
+        {
+          "code": "H01J 5/03",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing or mitigating effects of implosion of vessels or containers"
+          }
+        },
+        {
+          "code": "H01J 5/04",
+          "title": {
+            "ko": null,
+            "en": "Vessels or containers characterised by the material thereof"
+          }
+        },
+        {
+          "code": "H01J 5/06",
+          "title": {
+            "ko": null,
+            "en": "Vessels or containers specially adapted for operation at high tension, e.g. by improved potential distribution over surface of vessel"
+          }
+        },
+        {
+          "code": "H01J 5/08",
+          "title": {
+            "ko": "그 벽상에 피복이 있는 것; 피복재료의 선택 (형광피복 H01J 1/62)",
+            "en": "provided with coatings on the walls thereof; Selection of materials for the coatings (luminescent coatings H01J0001620000)"
+          }
+        },
+        {
+          "code": "H01J 5/10",
+          "title": {
+            "ko": null,
+            "en": "on internal surfaces"
+          }
+        },
+        {
+          "code": "H01J 5/12",
+          "title": {
+            "ko": null,
+            "en": "Double-wall vessels or containers"
+          }
+        },
+        {
+          "code": "H01J 5/14",
+          "title": {
+            "ko": null,
+            "en": "Dismountable vessels or containers, e.g. for replacing cathode heater"
+          }
+        },
+        {
+          "code": "H01J 5/16",
+          "title": {
+            "ko": null,
+            "en": "Optical or photographic arrangements structurally combined with the vessel"
+          }
+        },
+        {
+          "code": "H01J 5/18",
+          "title": {
+            "ko": null,
+            "en": "Windows permeable to X-rays, gamma-rays, or particles"
+          }
+        },
+        {
+          "code": "H01J 5/20",
+          "title": {
+            "ko": null,
+            "en": "Seals between parts of vessels"
+          }
+        },
+        {
+          "code": "H01J 5/22",
+          "title": {
+            "ko": null,
+            "en": "Vacuum-tight joints between parts of vessel"
+          }
+        },
+        {
+          "code": "H01J 5/24",
+          "title": {
+            "ko": null,
+            "en": "between insulating parts of vessel"
+          }
+        },
+        {
+          "code": "H01J 5/26",
+          "title": {
+            "ko": null,
+            "en": "between insulating and conductive parts of vessel"
+          }
+        },
+        {
+          "code": "H01J 5/28",
+          "title": {
+            "ko": null,
+            "en": "between conductive parts of vessel"
+          }
+        },
+        {
+          "code": "H01J 5/30",
+          "title": {
+            "ko": null,
+            "en": "using packing material, e.g. sealing liquid or elastic insert"
+          }
+        },
+        {
+          "code": "H01J 5/32",
+          "title": {
+            "ko": "도입선의 봉함",
+            "en": "Seals for leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 5/34",
+          "title": {
+            "ko": "개개의 도체에 대한 것(핀치스템봉함 (pinched - stemseals) H01J 5/38; 엔드디스크(end-disc) 봉합 H01J 5/40; 윤형(annular) 봉합 H01J 5/44)",
+            "en": "for an individual conductor (pinched-stem seals H01J0005380000;end-disc seals H01J0005400000;annular seals H01J0005440000)"
+          }
+        },
+        {
+          "code": "H01J 5/36",
+          "title": {
+            "ko": null,
+            "en": "using intermediate part"
+          }
+        },
+        {
+          "code": "H01J 5/38",
+          "title": {
+            "ko": null,
+            "en": "Pinched-stem or analogous seals"
+          }
+        },
+        {
+          "code": "H01J 5/40",
+          "title": {
+            "ko": null,
+            "en": "End-disc seals, e.g. flat header"
+          }
+        },
+        {
+          "code": "H01J 5/42",
+          "title": {
+            "ko": null,
+            "en": "using intermediate part"
+          }
+        },
+        {
+          "code": "H01J 5/44",
+          "title": {
+            "ko": null,
+            "en": "Annular seals disposed between the ends of the vessel"
+          }
+        },
+        {
+          "code": "H01J 5/46",
+          "title": {
+            "ko": null,
+            "en": "Leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 5/48",
+          "title": {
+            "ko": null,
+            "en": "Means forming part of the tube or lamp for the purpose of supporting it"
+          }
+        },
+        {
+          "code": "H01J 5/50",
+          "title": {
+            "ko": null,
+            "en": "Means forming part of the tube or lamp for the purpose of providing electrical connection to it"
+          }
+        },
+        {
+          "code": "H01J 5/52",
+          "title": {
+            "ko": null,
+            "en": "directly applied to, or forming part of, the vessel"
+          }
+        },
+        {
+          "code": "H01J 5/54",
+          "title": {
+            "ko": null,
+            "en": "supported by a separate part, e.g. base"
+          }
+        },
+        {
+          "code": "H01J 5/56",
+          "title": {
+            "ko": null,
+            "en": "Shape of the separate part"
+          }
+        },
+        {
+          "code": "H01J 5/58",
+          "title": {
+            "ko": null,
+            "en": "Means for fastening the separate part to the vessel, e.g. by cement"
+          }
+        },
+        {
+          "code": "H01J 5/60",
+          "title": {
+            "ko": null,
+            "en": "for fastening by mechanical means"
+          }
+        },
+        {
+          "code": "H01J 5/62",
+          "title": {
+            "ko": null,
+            "en": "Connection of wires protruding from the vessel to connectors carried by the separate part"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 7/00",
+      "title": {
+        "ko": "그룹 H01J 1/00에서 H01J 5/00으로 분류되지 않고, 전자관 또는 방전 램프의 2이상의 기본적인 형태에 공통된 세부",
+        "en": "Details not provided for in groups H01J0001000000-H01J0005000000 and common to two or more basic types of discharge tubes or lamps"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 7/02",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for gas fillings; Specified operating pressure or temperature"
+          }
+        },
+        {
+          "code": "H01J 7/04",
+          "title": {
+            "ko": null,
+            "en": "having one or more carbon compounds as the principal constituent"
+          }
+        },
+        {
+          "code": "H01J 7/06",
+          "title": {
+            "ko": null,
+            "en": "having helium, argon, neon, krypton, or xenon as the principal constituent"
+          }
+        },
+        {
+          "code": "H01J 7/08",
+          "title": {
+            "ko": null,
+            "en": "having a metallic vapour as the principal constituent"
+          }
+        },
+        {
+          "code": "H01J 7/10",
+          "title": {
+            "ko": null,
+            "en": "mercury vapour"
+          }
+        },
+        {
+          "code": "H01J 7/12",
+          "title": {
+            "ko": null,
+            "en": "vapour of an alkali metal"
+          }
+        },
+        {
+          "code": "H01J 7/14",
+          "title": {
+            "ko": null,
+            "en": "Means for obtaining or maintaining the desired pressure within the vessel"
+          }
+        },
+        {
+          "code": "H01J 7/16",
+          "title": {
+            "ko": null,
+            "en": "Means for permitting pumping during operation of the tube or lamp"
+          }
+        },
+        {
+          "code": "H01J 7/18",
+          "title": {
+            "ko": null,
+            "en": "Means for absorbing or adsorbing gas, e.g. by gettering"
+          }
+        },
+        {
+          "code": "H01J 7/20",
+          "title": {
+            "ko": null,
+            "en": "Means for producing, introducing, or replenishing gas or vapour during operation of the tube or lamp"
+          }
+        },
+        {
+          "code": "H01J 7/22",
+          "title": {
+            "ko": null,
+            "en": "Tubulations therefor, e.g. for exhausting; Closures therefor"
+          }
+        },
+        {
+          "code": "H01J 7/24",
+          "title": {
+            "ko": null,
+            "en": "Cooling arrangements; Heating arrangements; Means for circulating gas or vapour within the discharge space"
+          }
+        },
+        {
+          "code": "H01J 7/26",
+          "title": {
+            "ko": null,
+            "en": "by flow of fluid through passages associated with tube or lamp"
+          }
+        },
+        {
+          "code": "H01J 7/28",
+          "title": {
+            "ko": null,
+            "en": "by latent heat or evaporation of cooling liquid"
+          }
+        },
+        {
+          "code": "H01J 7/30",
+          "title": {
+            "ko": null,
+            "en": "Igniting arrangements"
+          }
+        },
+        {
+          "code": "H01J 7/32",
+          "title": {
+            "ko": null,
+            "en": "having resistive or capacitative igniter"
+          }
+        },
+        {
+          "code": "H01J 7/34",
+          "title": {
+            "ko": null,
+            "en": "having resistive igniter only"
+          }
+        },
+        {
+          "code": "H01J 7/36",
+          "title": {
+            "ko": null,
+            "en": "Igniting by movement of a solid electrode"
+          }
+        },
+        {
+          "code": "H01J 7/38",
+          "title": {
+            "ko": null,
+            "en": "Igniting by movement of vessel as a whole, e.g. tilting"
+          }
+        },
+        {
+          "code": "H01J 7/40",
+          "title": {
+            "ko": null,
+            "en": "Igniting by associated radioactive materials or fillings"
+          }
+        },
+        {
+          "code": "H01J 7/42",
+          "title": {
+            "ko": null,
+            "en": "Means structurally associated with the tube or lamp for indicating defects or previous use"
+          }
+        },
+        {
+          "code": "H01J 7/44",
+          "title": {
+            "ko": null,
+            "en": "One or more circuit elements structurally associated with the tube or lamp"
+          }
+        },
+        {
+          "code": "H01J 7/46",
+          "title": {
+            "ko": null,
+            "en": "Structurally associated resonator having distributed inductance and capacitance"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 9/00",
+      "title": {
+        "ko": "전자관, 방전램프 또는 그 부품의 제조에 특히 적용되는 장치 또는 방법; 전자관(전자관)이나 방전램프 재료의 재생",
+        "en": "Apparatus or processes specially adapted for the manufacture of electric discharge tubes, discharge lamps, or parts thereof; Recovery of material from discharge tubes or lamps"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 9/02",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of electrodes or electrode systems"
+          }
+        },
+        {
+          "code": "H01J 9/04",
+          "title": {
+            "ko": null,
+            "en": "of thermionic cathodes"
+          }
+        },
+        {
+          "code": "H01J 9/06",
+          "title": {
+            "ko": null,
+            "en": "Machines therefor"
+          }
+        },
+        {
+          "code": "H01J 9/08",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of heaters for indirectly-heated cathodes"
+          }
+        },
+        {
+          "code": "H01J 9/10",
+          "title": {
+            "ko": null,
+            "en": "Machines therefor"
+          }
+        },
+        {
+          "code": "H01J 9/12",
+          "title": {
+            "ko": null,
+            "en": "of photo-emissive cathodes; of secondary-emission electrodes"
+          }
+        },
+        {
+          "code": "H01J 9/14",
+          "title": {
+            "ko": null,
+            "en": "of non-emitting electrodes"
+          }
+        },
+        {
+          "code": "H01J 9/16",
+          "title": {
+            "ko": null,
+            "en": "Machines for making wire grids"
+          }
+        },
+        {
+          "code": "H01J 9/18",
+          "title": {
+            "ko": null,
+            "en": "Assembling together the component parts of electrode systems"
+          }
+        },
+        {
+          "code": "H01J 9/20",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of screens on or from which an image or pattern is formed, picked-up, converted or stored; Applying coatings to the vessel"
+          }
+        },
+        {
+          "code": "H01J 9/22",
+          "title": {
+            "ko": null,
+            "en": "Applying luminescent coatings"
+          }
+        },
+        {
+          "code": "H01J 9/227",
+          "title": {
+            "ko": null,
+            "en": "with luminescent material discontinuously arranged, e.g. in dots or lines"
+          }
+        },
+        {
+          "code": "H01J 9/233",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of photoelectric screens or charge-storage screens"
+          }
+        },
+        {
+          "code": "H01J 9/236",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of magnetic deflecting devices for cathode-ray tubes"
+          }
+        },
+        {
+          "code": "H01J 9/24",
+          "title": {
+            "ko": null,
+            "en": "Manufacture or joining of vessels, leading-in conductors, or bases"
+          }
+        },
+        {
+          "code": "H01J 9/26",
+          "title": {
+            "ko": null,
+            "en": "Sealing together parts of vessels"
+          }
+        },
+        {
+          "code": "H01J 9/28",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 9/30",
+          "title": {
+            "ko": null,
+            "en": "Manufacture of bases"
+          }
+        },
+        {
+          "code": "H01J 9/32",
+          "title": {
+            "ko": null,
+            "en": "Sealing leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 9/34",
+          "title": {
+            "ko": null,
+            "en": "Joining base to vessel"
+          }
+        },
+        {
+          "code": "H01J 9/36",
+          "title": {
+            "ko": null,
+            "en": "Joining connectors to internal electrode system"
+          }
+        },
+        {
+          "code": "H01J 9/38",
+          "title": {
+            "ko": null,
+            "en": "Exhausting, degassing, filling, or cleaning vessels"
+          }
+        },
+        {
+          "code": "H01J 9/385",
+          "title": {
+            "ko": null,
+            "en": "Exhausting vessels"
+          }
+        },
+        {
+          "code": "H01J 9/39",
+          "title": {
+            "ko": null,
+            "en": "Degassing vessels"
+          }
+        },
+        {
+          "code": "H01J 9/395",
+          "title": {
+            "ko": null,
+            "en": "Filling vessels"
+          }
+        },
+        {
+          "code": "H01J 9/40",
+          "title": {
+            "ko": null,
+            "en": "Closing vessels"
+          }
+        },
+        {
+          "code": "H01J 9/42",
+          "title": {
+            "ko": null,
+            "en": "Measurement or testing during manufacture"
+          }
+        },
+        {
+          "code": "H01J 9/44",
+          "title": {
+            "ko": null,
+            "en": "Factory adjustment of completed discharge tubes or lamps to comply with desired tolerances"
+          }
+        },
+        {
+          "code": "H01J 9/46",
+          "title": {
+            "ko": null,
+            "en": "Machines having sequentially-arranged operating stations"
+          }
+        },
+        {
+          "code": "H01J 9/48",
+          "title": {
+            "ko": null,
+            "en": "with automatic transfer of workpieces between operating stations"
+          }
+        },
+        {
+          "code": "H01J 9/50",
+          "title": {
+            "ko": null,
+            "en": "Repairing or regenerating used or defective discharge tubes, lamps or their salvageable components"
+          }
+        },
+        {
+          "code": "H01J 9/52",
+          "title": {
+            "ko": "전자관 또는 방전램프로부터 재료의 회수(H01J 9/50이 우선)",
+            "en": "Recovery of material from discharge tubes or lamps (H01J0009500000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 11/00",
+      "title": {
+        "ko": "방전의 교류 유도가 있는 가스 충전 방전관, 예. 교류 플라즈마 디스플레이 패널[AC-PDP](PDP 구동하기 위한 회로 또는 방법 G09G3/28) ; 용기 내부에 주전극이 없는 가스로 채워진 방전관; 용기 외부에 적어도 하나의 주 전극이 있는 가스 충전 방전관",
+        "en": "Gas-filled discharge tubes with alternating current induction of the discharge, e.g. alternating current plasma display panels [AC-PDP] (circuits or methods for driving PDPs G09G0003280000); Gas-filled discharge tubes without any main electrode inside the vessel; Gas-filled discharge tubes with at least one main electrode outside the vessel"
+      },
+      "definition": {
+        "ko": "(1) 이 그룹에 분류할 때 분류는 모든 적절한 개소에 부여된다. (2) 이 그룹에서, 다음 용어는 다음과 같은 의미를 지시한다. . “메인전극“은 유지, 주사, 어드레스 전극 중 적어도 어느 하나를 의미함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H01J 11/10",
+          "title": {
+            "ko": null,
+            "en": "AC-PDPs with at least one main electrode being out of contact with the plasma"
+          }
+        },
+        {
+          "code": "H01J 11/12",
+          "title": {
+            "ko": null,
+            "en": "with main electrodes provided on both sides of the discharge space"
+          }
+        },
+        {
+          "code": "H01J 11/14",
+          "title": {
+            "ko": null,
+            "en": "with main electrodes provided only on one side of the discharge space"
+          }
+        },
+        {
+          "code": "H01J 11/16",
+          "title": {
+            "ko": null,
+            "en": "with main electrodes provided inside or on the side face of the spacers"
+          }
+        },
+        {
+          "code": "H01J 11/18",
+          "title": {
+            "ko": null,
+            "en": "containing a plurality of independent closed structures for containing the gas, e.g. plasma tube array [PTA] display panels"
+          }
+        },
+        {
+          "code": "H01J 11/20",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "H01J 11/22",
+          "title": {
+            "ko": null,
+            "en": "Electrodes, e.g. special shape, material or configuration"
+          }
+        },
+        {
+          "code": "H01J 11/24",
+          "title": {
+            "ko": null,
+            "en": "Sustain electrodes or scan electrodes"
+          }
+        },
+        {
+          "code": "H01J 11/26",
+          "title": {
+            "ko": null,
+            "en": "Address electrodes"
+          }
+        },
+        {
+          "code": "H01J 11/28",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary electrodes, e.g. priming electrodes or trigger electrodes"
+          }
+        },
+        {
+          "code": "H01J 11/30",
+          "title": {
+            "ko": null,
+            "en": "Floating electrodes"
+          }
+        },
+        {
+          "code": "H01J 11/32",
+          "title": {
+            "ko": null,
+            "en": "Disposition of the electrodes"
+          }
+        },
+        {
+          "code": "H01J 11/34",
+          "title": {
+            "ko": null,
+            "en": "Vessels, containers or parts thereof, e.g. substrates"
+          }
+        },
+        {
+          "code": "H01J 11/36",
+          "title": {
+            "ko": null,
+            "en": "Spacers, barriers, ribs, partitions or the like"
+          }
+        },
+        {
+          "code": "H01J 11/38",
+          "title": {
+            "ko": null,
+            "en": "Dielectric or insulating layers"
+          }
+        },
+        {
+          "code": "H01J 11/40",
+          "title": {
+            "ko": null,
+            "en": "Layers for protecting or enhancing the electron emission, e.g. MgO layers"
+          }
+        },
+        {
+          "code": "H01J 11/42",
+          "title": {
+            "ko": null,
+            "en": "Fluorescent layers"
+          }
+        },
+        {
+          "code": "H01J 11/44",
+          "title": {
+            "ko": null,
+            "en": "Optical arrangements or shielding arrangements, e.g. filters, black matrices, light reflecting means or electromagnetic shielding means"
+          }
+        },
+        {
+          "code": "H01J 11/46",
+          "title": {
+            "ko": null,
+            "en": "Connecting or feeding means, e.g. leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 11/48",
+          "title": {
+            "ko": null,
+            "en": "Sealing, e.g. seals specially adapted for leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 11/50",
+          "title": {
+            "ko": null,
+            "en": "Filling, e.g. selection of gas mixture"
+          }
+        },
+        {
+          "code": "H01J 11/52",
+          "title": {
+            "ko": null,
+            "en": "Means for absorbing or adsorbing the gas mixture, e.g. by gettering"
+          }
+        },
+        {
+          "code": "H01J 11/54",
+          "title": {
+            "ko": null,
+            "en": "Means for exhausting the gas"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 13/00",
+      "title": {
+        "ko": "액류음극이 있는 전자관, 예. 금속증기정류관",
+        "en": "Discharge tubes with liquid-pool cathodes, e.g. metal-vapour rectifying tubes"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 13/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 13/04",
+          "title": {
+            "ko": null,
+            "en": "Main electrodes; Auxiliary anodes"
+          }
+        },
+        {
+          "code": "H01J 13/06",
+          "title": {
+            "ko": null,
+            "en": "Cathodes"
+          }
+        },
+        {
+          "code": "H01J 13/08",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "H01J 13/10",
+          "title": {
+            "ko": null,
+            "en": "Containers for the liquid pool; Arrangement or mounting thereof"
+          }
+        },
+        {
+          "code": "H01J 13/12",
+          "title": {
+            "ko": null,
+            "en": "Positioning or moving the cathode spot on the surface of the pool"
+          }
+        },
+        {
+          "code": "H01J 13/14",
+          "title": {
+            "ko": null,
+            "en": "Cooling, heating, circulating, filtering, or controlling level of the liquid"
+          }
+        },
+        {
+          "code": "H01J 13/16",
+          "title": {
+            "ko": null,
+            "en": "Anodes; Auxiliary anodes for maintaining the discharge"
+          }
+        },
+        {
+          "code": "H01J 13/18",
+          "title": {
+            "ko": null,
+            "en": "Cooling or heating of anodes"
+          }
+        },
+        {
+          "code": "H01J 13/20",
+          "title": {
+            "ko": "제어전극, 예. 그리드(기동장치용 H01J 13/34)",
+            "en": "Control electrodes, e.g. grid (for igniting arrangements H01J0013340000)"
+          }
+        },
+        {
+          "code": "H01J 13/22",
+          "title": {
+            "ko": null,
+            "en": "Screens, e.g. for preventing or eliminating arcing-back"
+          }
+        },
+        {
+          "code": "H01J 13/24",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Containers"
+          }
+        },
+        {
+          "code": "H01J 13/26",
+          "title": {
+            "ko": null,
+            "en": "Seals between parts of vessels; Seals for leading-in conductors; Leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 13/28",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for gas filling; Means for obtaining or maintaining the desired pressure within the tube"
+          }
+        },
+        {
+          "code": "H01J 13/30",
+          "title": {
+            "ko": null,
+            "en": "Means for permitting pumping during operation of the tube"
+          }
+        },
+        {
+          "code": "H01J 13/32",
+          "title": {
+            "ko": "냉각장치; 가열장치(음극용 H01J 13/14; 양극용 H01J 13/18)",
+            "en": "Cooling arrangements; Heating arrangements (for cathodes H01J0013140000;for anodes H01J0013180000)"
+          }
+        },
+        {
+          "code": "H01J 13/34",
+          "title": {
+            "ko": null,
+            "en": "Igniting arrangements"
+          }
+        },
+        {
+          "code": "H01J 13/36",
+          "title": {
+            "ko": null,
+            "en": "having resistive or capacitative igniter"
+          }
+        },
+        {
+          "code": "H01J 13/38",
+          "title": {
+            "ko": null,
+            "en": "having resistive igniter only"
+          }
+        },
+        {
+          "code": "H01J 13/40",
+          "title": {
+            "ko": null,
+            "en": "Igniting by movement of a solid electrode"
+          }
+        },
+        {
+          "code": "H01J 13/42",
+          "title": {
+            "ko": null,
+            "en": "Igniting by movement of vessel as a whole, e.g. tilting"
+          }
+        },
+        {
+          "code": "H01J 13/44",
+          "title": {
+            "ko": null,
+            "en": "Devices for preventing or eliminating arcing-back"
+          }
+        },
+        {
+          "code": "H01J 13/46",
+          "title": {
+            "ko": null,
+            "en": "One or more circuit elements structurally associated with the tube"
+          }
+        },
+        {
+          "code": "H01J 13/48",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        },
+        {
+          "code": "H01J 13/50",
+          "title": {
+            "ko": null,
+            "en": "Tubes having a single main anode"
+          }
+        },
+        {
+          "code": "H01J 13/52",
+          "title": {
+            "ko": null,
+            "en": "with control by one or more intermediate control electrodes"
+          }
+        },
+        {
+          "code": "H01J 13/54",
+          "title": {
+            "ko": null,
+            "en": "with control by igniter, e.g. single-anode ignitron"
+          }
+        },
+        {
+          "code": "H01J 13/56",
+          "title": {
+            "ko": null,
+            "en": "Tubes having two or more main anodes"
+          }
+        },
+        {
+          "code": "H01J 13/58",
+          "title": {
+            "ko": null,
+            "en": "with control by one or more intermediate control electrodes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 15/00",
+      "title": {
+        "ko": null,
+        "en": "Gas-filled discharge tubes with gaseous cathodes, e.g. plasma cathodes"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 15/02",
+          "title": {
+            "ko": null,
+            "en": "Details, e.g. electrode, gas filling, shape of vessel"
+          }
+        },
+        {
+          "code": "H01J 15/04",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 17/00",
+      "title": {
+        "ko": "고체 음극(cathodes)이 있는 가스입전자관(H01J 25/00, H01J 27/00, H01J 31/00에서 H01J 41/00 우선; 스파크-갭(spark gaps)이 채워진 가스 H01T; 마르크스(marx) 변환기 H02M 7/26)",
+        "en": "Gas-filled discharge tubes with solid cathodes (H01J0025000000, H01J0027000000, H01J0031000000-H01J0041000000 take precedence;gas filled spark gaps H01T;Marx converters H02M0007260000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 17/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 17/04",
+          "title": {
+            "ko": null,
+            "en": "Electrodes; Screens"
+          }
+        },
+        {
+          "code": "H01J 17/06",
+          "title": {
+            "ko": null,
+            "en": "Cathodes"
+          }
+        },
+        {
+          "code": "H01J 17/08",
+          "title": {
+            "ko": null,
+            "en": "having mercury or liquid alkali metal deposited on the cathode surface during operation of the tube"
+          }
+        },
+        {
+          "code": "H01J 17/10",
+          "title": {
+            "ko": null,
+            "en": "Anodes"
+          }
+        },
+        {
+          "code": "H01J 17/12",
+          "title": {
+            "ko": null,
+            "en": "Control electrodes"
+          }
+        },
+        {
+          "code": "H01J 17/14",
+          "title": {
+            "ko": null,
+            "en": "Magnetic means for controlling the discharge"
+          }
+        },
+        {
+          "code": "H01J 17/16",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Containers"
+          }
+        },
+        {
+          "code": "H01J 17/18",
+          "title": {
+            "ko": null,
+            "en": "Seals between parts of vessels; Seals for leading-in conductors; Leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 17/20",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for gas fillings; Specified operating pressures or temperatures"
+          }
+        },
+        {
+          "code": "H01J 17/22",
+          "title": {
+            "ko": null,
+            "en": "Means for obtaining or maintaining the desired pressure within the tube"
+          }
+        },
+        {
+          "code": "H01J 17/24",
+          "title": {
+            "ko": null,
+            "en": "Means for absorbing or adsorbing gas, e.g. by gettering"
+          }
+        },
+        {
+          "code": "H01J 17/26",
+          "title": {
+            "ko": null,
+            "en": "Means for producing, introducing, or replenishing gas or vapour during operation of the tube"
+          }
+        },
+        {
+          "code": "H01J 17/28",
+          "title": {
+            "ko": null,
+            "en": "Cooling arrangements"
+          }
+        },
+        {
+          "code": "H01J 17/30",
+          "title": {
+            "ko": null,
+            "en": "Igniting arrangements"
+          }
+        },
+        {
+          "code": "H01J 17/32",
+          "title": {
+            "ko": null,
+            "en": "Igniting by associated radioactive materials or fillings"
+          }
+        },
+        {
+          "code": "H01J 17/34",
+          "title": {
+            "ko": null,
+            "en": "One or more circuit elements structurally associated with the tube"
+          }
+        },
+        {
+          "code": "H01J 17/36",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        },
+        {
+          "code": "H01J 17/38",
+          "title": {
+            "ko": null,
+            "en": "Cold-cathode tubes"
+          }
+        },
+        {
+          "code": "H01J 17/40",
+          "title": {
+            "ko": null,
+            "en": "with one cathode and one anode, e.g. glow tubes, tuning-indicator glow tubes, voltage-stabiliser tubes or voltage-indicator tubes"
+          }
+        },
+        {
+          "code": "H01J 17/42",
+          "title": {
+            "ko": null,
+            "en": "having one or more probe electrodes, e.g. for potential dividing"
+          }
+        },
+        {
+          "code": "H01J 17/44",
+          "title": {
+            "ko": null,
+            "en": "having one or more control electrodes"
+          }
+        },
+        {
+          "code": "H01J 17/46",
+          "title": {
+            "ko": null,
+            "en": "for preventing and then permitting ignition, but thereafter having no control"
+          }
+        },
+        {
+          "code": "H01J 17/48",
+          "title": {
+            "ko": null,
+            "en": "with more than one cathode or anode, e.g. sequence-discharge tube, counting tube, dekatron"
+          }
+        },
+        {
+          "code": "H01J 17/49",
+          "title": {
+            "ko": null,
+            "en": "Display panels, e.g. with crossed electrodes"
+          }
+        },
+        {
+          "code": "H01J 17/50",
+          "title": {
+            "ko": null,
+            "en": "Thermionic-cathode tubes"
+          }
+        },
+        {
+          "code": "H01J 17/52",
+          "title": {
+            "ko": null,
+            "en": "with one cathode and one anode"
+          }
+        },
+        {
+          "code": "H01J 17/54",
+          "title": {
+            "ko": null,
+            "en": "having one or more control electrodes"
+          }
+        },
+        {
+          "code": "H01J 17/56",
+          "title": {
+            "ko": null,
+            "en": "for preventing and then permitting ignition, but thereafter having no control"
+          }
+        },
+        {
+          "code": "H01J 17/58",
+          "title": {
+            "ko": null,
+            "en": "with more than one cathode or anode"
+          }
+        },
+        {
+          "code": "H01J 17/60",
+          "title": {
+            "ko": null,
+            "en": "the discharge paths priming each other in a predetermined sequence, e.g. counting tube"
+          }
+        },
+        {
+          "code": "H01J 17/62",
+          "title": {
+            "ko": null,
+            "en": "with independent discharge paths controlled by intermediate electrodes, e.g. polyphase rectifier"
+          }
+        },
+        {
+          "code": "H01J 17/64",
+          "title": {
+            "ko": null,
+            "en": "Tubes specially designed for switching or modulating in a waveguide, e.g. TR box"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 19/00",
+      "title": {
+        "ko": "그룹 H01J 21/00에 포함되어 있는 형의 진공관의 세부",
+        "en": "Details of vacuum tubes of the types covered by group H01J0021000000"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 19/02",
+          "title": {
+            "ko": null,
+            "en": "Electron-emitting electrodes; Cathodes"
+          }
+        },
+        {
+          "code": "H01J 19/04",
+          "title": {
+            "ko": null,
+            "en": "Thermionic cathodes"
+          }
+        },
+        {
+          "code": "H01J 19/06",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "H01J 19/062",
+          "title": {
+            "ko": null,
+            "en": "with alkaline-earth metal oxides, or such oxides used in conjunction with reducing agents, as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 19/064",
+          "title": {
+            "ko": null,
+            "en": "with other metal oxides as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 19/066",
+          "title": {
+            "ko": null,
+            "en": "with metals or alloys as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 19/068",
+          "title": {
+            "ko": null,
+            "en": "with compounds having metallic conductive properties, e.g. lanthanum boride, as an emissive material"
+          }
+        },
+        {
+          "code": "H01J 19/08",
+          "title": {
+            "ko": null,
+            "en": "Cathodes heated directly by an electric current"
+          }
+        },
+        {
+          "code": "H01J 19/10",
+          "title": {
+            "ko": null,
+            "en": "characterised by the shape"
+          }
+        },
+        {
+          "code": "H01J 19/12",
+          "title": {
+            "ko": null,
+            "en": "Supports; Vibration-damping arrangements"
+          }
+        },
+        {
+          "code": "H01J 19/14",
+          "title": {
+            "ko": null,
+            "en": "Cathodes heated indirectly by an electric current; Cathodes heated by electron or ion bombardment"
+          }
+        },
+        {
+          "code": "H01J 19/16",
+          "title": {
+            "ko": null,
+            "en": "Heaters"
+          }
+        },
+        {
+          "code": "H01J 19/18",
+          "title": {
+            "ko": null,
+            "en": "Insulating layer or body located between heater and emissive material"
+          }
+        },
+        {
+          "code": "H01J 19/20",
+          "title": {
+            "ko": null,
+            "en": "Supports for the emissive material"
+          }
+        },
+        {
+          "code": "H01J 19/22",
+          "title": {
+            "ko": null,
+            "en": "Dispenser-type cathodes, e.g. L-cathode"
+          }
+        },
+        {
+          "code": "H01J 19/24",
+          "title": {
+            "ko": null,
+            "en": "Cold cathodes, e.g. field-emissive cathode"
+          }
+        },
+        {
+          "code": "H01J 19/28",
+          "title": {
+            "ko": null,
+            "en": "Non-electron-emitting electrodes; Screens"
+          }
+        },
+        {
+          "code": "H01J 19/30",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "H01J 19/32",
+          "title": {
+            "ko": null,
+            "en": "Anodes"
+          }
+        },
+        {
+          "code": "H01J 19/34",
+          "title": {
+            "ko": null,
+            "en": "forming part of the envelope"
+          }
+        },
+        {
+          "code": "H01J 19/36",
+          "title": {
+            "ko": null,
+            "en": "Cooling of anodes"
+          }
+        },
+        {
+          "code": "H01J 19/38",
+          "title": {
+            "ko": null,
+            "en": "Control electrodes, e.g. grid"
+          }
+        },
+        {
+          "code": "H01J 19/40",
+          "title": {
+            "ko": null,
+            "en": "Screens for shielding"
+          }
+        },
+        {
+          "code": "H01J 19/42",
+          "title": {
+            "ko": null,
+            "en": "Mounting, supporting, spacing, or insulating of electrodes or of electrode assemblies"
+          }
+        },
+        {
+          "code": "H01J 19/44",
+          "title": {
+            "ko": null,
+            "en": "Insulation between electrodes or supports within the vacuum space"
+          }
+        },
+        {
+          "code": "H01J 19/46",
+          "title": {
+            "ko": null,
+            "en": "Mountings for the electrode assembly as a whole"
+          }
+        },
+        {
+          "code": "H01J 19/48",
+          "title": {
+            "ko": null,
+            "en": "Mountings for individual electrodes"
+          }
+        },
+        {
+          "code": "H01J 19/50",
+          "title": {
+            "ko": null,
+            "en": "Spacing members extending to the envelope"
+          }
+        },
+        {
+          "code": "H01J 19/52",
+          "title": {
+            "ko": null,
+            "en": "without fixed connection between spacing member and envelope"
+          }
+        },
+        {
+          "code": "H01J 19/54",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Containers; Shields associated therewith"
+          }
+        },
+        {
+          "code": "H01J 19/56",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material of the vessel or container"
+          }
+        },
+        {
+          "code": "H01J 19/57",
+          "title": {
+            "ko": null,
+            "en": "provided with coatings on the walls thereof; Selection of materials for the coatings"
+          }
+        },
+        {
+          "code": "H01J 19/58",
+          "title": {
+            "ko": null,
+            "en": "Seals between parts of vessels"
+          }
+        },
+        {
+          "code": "H01J 19/60",
+          "title": {
+            "ko": null,
+            "en": "Seals for leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 19/62",
+          "title": {
+            "ko": null,
+            "en": "Leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 19/64",
+          "title": {
+            "ko": null,
+            "en": "Means forming part of the tube for the purpose of supporting it"
+          }
+        },
+        {
+          "code": "H01J 19/66",
+          "title": {
+            "ko": null,
+            "en": "Means forming part of the tube for the purpose of providing electrical connection to it"
+          }
+        },
+        {
+          "code": "H01J 19/68",
+          "title": {
+            "ko": null,
+            "en": "Specified gas introduced into the tube at low pressure, e.g. for reducing or influencing space charge"
+          }
+        },
+        {
+          "code": "H01J 19/70",
+          "title": {
+            "ko": null,
+            "en": "Means for obtaining or maintaining the vacuum, e.g. by gettering"
+          }
+        },
+        {
+          "code": "H01J 19/72",
+          "title": {
+            "ko": null,
+            "en": "Tubulations therefor, e.g. for exhausting; Closures therefor"
+          }
+        },
+        {
+          "code": "H01J 19/74",
+          "title": {
+            "ko": "냉각장치(양극의 냉각 H01J 19/36)",
+            "en": "Cooling arrangements (cooling of anodes H01J0019360000)"
+          }
+        },
+        {
+          "code": "H01J 19/76",
+          "title": {
+            "ko": null,
+            "en": "Means structurally associated with the tube for indicating defects or previous use"
+          }
+        },
+        {
+          "code": "H01J 19/78",
+          "title": {
+            "ko": null,
+            "en": "One or more circuit elements structurally associated with the tube"
+          }
+        },
+        {
+          "code": "H01J 19/80",
+          "title": {
+            "ko": null,
+            "en": "Structurally associated resonator having distributed inductance and capacitance"
+          }
+        },
+        {
+          "code": "H01J 19/82",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 21/00",
+      "title": {
+        "ko": "진공관(H01J 25/00, H01J 31/00~ H01J 41/00, H01J 43/00, H01J 47/00, H01J 49/00 우선; 진공관의 세부 H01J 19/00)",
+        "en": "Vacuum tubes (H01J0025000000, H01J0031000000-H01J0040000000, H01J0043000000, H01J0047000000, H01J0049000000 take precedence;details of vacuum tubes H01J0019000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 21/02",
+          "title": {
+            "ko": null,
+            "en": "Tubes with a single discharge path"
+          }
+        },
+        {
+          "code": "H01J 21/04",
+          "title": {
+            "ko": null,
+            "en": "without control means, i.e. diodes"
+          }
+        },
+        {
+          "code": "H01J 21/06",
+          "title": {
+            "ko": null,
+            "en": "having electrostatic control means only"
+          }
+        },
+        {
+          "code": "H01J 21/08",
+          "title": {
+            "ko": null,
+            "en": "with movable electrode or electrodes"
+          }
+        },
+        {
+          "code": "H01J 21/10",
+          "title": {
+            "ko": null,
+            "en": "with one or more immovable internal control electrodes, e.g. triode, pentode, octode"
+          }
+        },
+        {
+          "code": "H01J 21/12",
+          "title": {
+            "ko": null,
+            "en": "Tubes with variable amplification factor"
+          }
+        },
+        {
+          "code": "H01J 21/14",
+          "title": {
+            "ko": null,
+            "en": "Tubes with means for concentrating the electron stream, e.g. beam tetrode"
+          }
+        },
+        {
+          "code": "H01J 21/16",
+          "title": {
+            "ko": null,
+            "en": "with external electrostatic control means and with or without internal control electrodes"
+          }
+        },
+        {
+          "code": "H01J 21/18",
+          "title": {
+            "ko": null,
+            "en": "having magnetic control means; having both magnetic and electrostatic control means"
+          }
+        },
+        {
+          "code": "H01J 21/20",
+          "title": {
+            "ko": null,
+            "en": "Tubes with more than one discharge path; Multiple tubes, e.g. double diode or triode-hexode"
+          }
+        },
+        {
+          "code": "H01J 21/22",
+          "title": {
+            "ko": null,
+            "en": "with movable electrode or electrodes"
+          }
+        },
+        {
+          "code": "H01J 21/24",
+          "title": {
+            "ko": null,
+            "en": "with variable amplification factor"
+          }
+        },
+        {
+          "code": "H01J 21/26",
+          "title": {
+            "ko": null,
+            "en": "with means for concentrating the electron stream"
+          }
+        },
+        {
+          "code": "H01J 21/34",
+          "title": {
+            "ko": "주행시간효과를 제거하도록 배치되고 치수 매겨진 전극시스템이 있는 관(평면전극이 있는 것 H01J 21/36)",
+            "en": "Tubes with electrode system arranged or dimensioned so as to eliminate transit-time effect (with flat electrodes H01J0021360000)"
+          }
+        },
+        {
+          "code": "H01J 21/36",
+          "title": {
+            "ko": null,
+            "en": "Tubes with flat electrodes, e.g. disc electrode"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 23/00",
+      "title": {
+        "ko": "그룹 H01J 25/00에 포함되어 있는 형의 주행시간형 전자관의 세부",
+        "en": "Details of transit-time tubes of the types covered by group H01J0025000000"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 23/02",
+          "title": {
+            "ko": "전극; 자기적 제어수단; 스크린(공진기 또는 지연 시스템과 결합한 것 H01J 23/16)",
+            "en": "Electrodes; Magnetic control means; Screens (associated with resonator or delay system H01J0023160000)"
+          }
+        },
+        {
+          "code": "H01J 23/027",
+          "title": {
+            "ko": null,
+            "en": "Collectors"
+          }
+        },
+        {
+          "code": "H01J 23/033",
+          "title": {
+            "ko": null,
+            "en": "Collector cooling devices"
+          }
+        },
+        {
+          "code": "H01J 23/04",
+          "title": {
+            "ko": null,
+            "en": "Cathodes"
+          }
+        },
+        {
+          "code": "H01J 23/05",
+          "title": {
+            "ko": null,
+            "en": "having a cylindrical emissive surface, e.g. cathodes for magnetrons"
+          }
+        },
+        {
+          "code": "H01J 23/06",
+          "title": {
+            "ko": "전자총 또는 이온총",
+            "en": "Electron or ion guns"
+          }
+        },
+        {
+          "code": "H01J 23/065",
+          "title": {
+            "ko": "원통형 빔을 형성하는 것(H01J 23/075가 우선)",
+            "en": "producing a solid cylindrical beam (H01J0023075000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 23/07",
+          "title": {
+            "ko": "중공원통형 빔을 형성하는 것(H01J 23/075가 우선)",
+            "en": "producing a hollow cylindrical beam (H01J0023075000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 23/075",
+          "title": {
+            "ko": null,
+            "en": "Magnetron injection guns"
+          }
+        },
+        {
+          "code": "H01J 23/08",
+          "title": {
+            "ko": null,
+            "en": "Focusing arrangements, e.g. for concentrating stream of electrons, for preventing spreading of stream"
+          }
+        },
+        {
+          "code": "H01J 23/083",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic focusing arrangements"
+          }
+        },
+        {
+          "code": "H01J 23/087",
+          "title": {
+            "ko": null,
+            "en": "Magnetic focusing arrangements"
+          }
+        },
+        {
+          "code": "H01J 23/09",
+          "title": {
+            "ko": "하전입자(선)을 소망의 통로에 따르도록 방향짓고 또는 편향하기 위한 전기적 시스템(집속장치 H01J 23/08)",
+            "en": "Electric systems for directing or deflecting the discharge along a desired path, e.g. E-type (focusing arrangements H01J0023080000)"
+          }
+        },
+        {
+          "code": "H01J 23/10",
+          "title": {
+            "ko": "하전입자(선)을 소망의 통로에 따르도록 방향짓고 또는 편향하기 위한 자석계, 예. 류선통로(자기집속장치 H01J 23/08)",
+            "en": "Magnet systems for directing or deflecting the discharge along a desired path, e.g. a spiral path (magnetic focusing arrangements H01J0023080000)"
+          }
+        },
+        {
+          "code": "H01J 23/11",
+          "title": {
+            "ko": "잡음을 감소하기 위한 수단(전자총 또는 이온총에 이용하는 것 H01J 23/06)",
+            "en": "Means for reducing noise (in electron or ion gun H01J0023060000)"
+          }
+        },
+        {
+          "code": "H01J 23/12",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Containers"
+          }
+        },
+        {
+          "code": "H01J 23/14",
+          "title": {
+            "ko": null,
+            "en": "Leading-in arrangements; Seals therefor"
+          }
+        },
+        {
+          "code": "H01J 23/15",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing wave energy leakage structurally associated with tube leading-in arrangements, e.g. filters, chokes, attenuating devices"
+          }
+        },
+        {
+          "code": "H01J 23/16",
+          "title": {
+            "ko": null,
+            "en": "Circuit elements, having distributed capacitance and inductance, structurally associated with the tube and interacting with the discharge"
+          }
+        },
+        {
+          "code": "H01J 23/18",
+          "title": {
+            "ko": null,
+            "en": "Resonators"
+          }
+        },
+        {
+          "code": "H01J 23/20",
+          "title": {
+            "ko": null,
+            "en": "Cavity resonators; Adjustment or tuning thereof"
+          }
+        },
+        {
+          "code": "H01J 23/207",
+          "title": {
+            "ko": null,
+            "en": "Tuning of single resonator"
+          }
+        },
+        {
+          "code": "H01J 23/213",
+          "title": {
+            "ko": null,
+            "en": "Simultaneous tuning of more than one resonator, e.g. resonant cavities of a magnetron"
+          }
+        },
+        {
+          "code": "H01J 23/22",
+          "title": {
+            "ko": null,
+            "en": "Connections between resonators, e.g. strapping for connecting resonators of a magnetron"
+          }
+        },
+        {
+          "code": "H01J 23/24",
+          "title": {
+            "ko": null,
+            "en": "Slow-wave structures"
+          }
+        },
+        {
+          "code": "H01J 23/26",
+          "title": {
+            "ko": null,
+            "en": "Helical slow-wave structures; Adjustment therefor"
+          }
+        },
+        {
+          "code": "H01J 23/27",
+          "title": {
+            "ko": null,
+            "en": "Helix-derived slow-wave structures"
+          }
+        },
+        {
+          "code": "H01J 23/28",
+          "title": {
+            "ko": null,
+            "en": "Interdigital slow-wave structures; Adjustment therefor"
+          }
+        },
+        {
+          "code": "H01J 23/30",
+          "title": {
+            "ko": null,
+            "en": "Damping arrangements associated with slow-wave structures, e.g. for suppression of unwanted oscillations"
+          }
+        },
+        {
+          "code": "H01J 23/34",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        },
+        {
+          "code": "H01J 23/36",
+          "title": {
+            "ko": "전자에너지 도입하거나 꺼내기 위한 관과 구조적 으로 결합된 분포용량 및 분포인덕턴스를 갖는 결합장치",
+            "en": "Coupling devices having distributed capacitance and inductance, structurally associated with the tube, for introducing or removing wave energy"
+          }
+        },
+        {
+          "code": "H01J 23/38",
+          "title": {
+            "ko": null,
+            "en": "to or from the discharge"
+          }
+        },
+        {
+          "code": "H01J 23/40",
+          "title": {
+            "ko": "상호작용회로에 또는 그 회로로 부터 꺼내기도 하고 도입하기도 하는 것",
+            "en": "to or from the interaction circuit"
+          }
+        },
+        {
+          "code": "H01J 23/42",
+          "title": {
+            "ko": "나선 또는 나선으로부터 유도되는 지파구조와의 상호작용회로(H01J 23/44～ H01J 23/48이 우선)",
+            "en": "the interaction circuit being a helix or a helix-derived slow-wave structure (H01J0023440000-H01J0023480000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 23/44",
+          "title": {
+            "ko": "로드형(rod-type) 결합장치(H01J 23/46, H01J 23/48, H01J 23/54가 우선)",
+            "en": "Rod-type coupling devices (H01J0023460000, H01J0023480000, H01J0023540000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 23/46",
+          "title": {
+            "ko": null,
+            "en": "Loop coupling devices"
+          }
+        },
+        {
+          "code": "H01J 23/48",
+          "title": {
+            "ko": "동축선과 상호작용회로를 연결하기 위한 것; 한 쌍으로된 나선형식의 장치(H01J 23/46이 우선)",
+            "en": "for linking interaction circuit with coaxial lines; Devices of the coupled helices type (H01J0023460000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 23/50",
+          "title": {
+            "ko": "나선 또는 나선으로부터 유도되는 상호작용 회로(H01J 23/52가 우선)",
+            "en": "the interaction circuit being a helix or derived from a helix (H01J0023520000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 23/52",
+          "title": {
+            "ko": null,
+            "en": "the coupled helices being disposed coaxially around one another"
+          }
+        },
+        {
+          "code": "H01J 23/54",
+          "title": {
+            "ko": null,
+            "en": "Filtering devices preventing unwanted frequencies or modes to be coupled to, or out of, the interaction circuit; Prevention of high frequency leakage in the environment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 25/00",
+      "title": {
+        "ko": "주행시간형 전자관, 예. 속도변조관, 진행파관, 자전관(주행시간형 전자관의 세부 H01J 23/00; 입자가속기 H05H)",
+        "en": "Transit-time tubes, e.g. klystrons, travelling-wave tubes, magnetrons (details of transit-time tubes H01J0023000000;particle accelerators H05H)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 25/02",
+          "title": {
+            "ko": null,
+            "en": "Tubes with electron stream modulated in velocity or density in a modulator zone and thereafter giving-up energy in an inducing zone, the zones being associated with one or more resonators"
+          }
+        },
+        {
+          "code": "H01J 25/04",
+          "title": {
+            "ko": null,
+            "en": "Tubes having one or more resonators, without reflection of the electron stream, and in which the modulation produced in the modulator zone is mainly density modulation, e.g. Haeff tube"
+          }
+        },
+        {
+          "code": "H01J 25/06",
+          "title": {
+            "ko": null,
+            "en": "Tubes having only one resonator, without reflection of the electron stream, and in which the modulation produced in the modulator zone is mainly velocity modulation, e.g. Lüdi klystron"
+          }
+        },
+        {
+          "code": "H01J 25/08",
+          "title": {
+            "ko": null,
+            "en": "with electron stream perpendicular to the axis of the resonator"
+          }
+        },
+        {
+          "code": "H01J 25/10",
+          "title": {
+            "ko": null,
+            "en": "Klystrons, i.e. tubes having two or more resonators, without reflection of the electron stream, and in which the stream is modulated mainly by velocity in the zone of the input resonator"
+          }
+        },
+        {
+          "code": "H01J 25/11",
+          "title": {
+            "ko": null,
+            "en": "Extended interaction klystrons"
+          }
+        },
+        {
+          "code": "H01J 25/12",
+          "title": {
+            "ko": null,
+            "en": "with pencil-like electron stream in the axis of the resonators"
+          }
+        },
+        {
+          "code": "H01J 25/14",
+          "title": {
+            "ko": null,
+            "en": "with tube-like electron stream coaxial with the axis of the resonators"
+          }
+        },
+        {
+          "code": "H01J 25/16",
+          "title": {
+            "ko": null,
+            "en": "with pencil-like electron stream perpendicular to the axis of the resonators"
+          }
+        },
+        {
+          "code": "H01J 25/18",
+          "title": {
+            "ko": null,
+            "en": "with radial or disc-like electron stream perpendicular to the axis of the resonators"
+          }
+        },
+        {
+          "code": "H01J 25/20",
+          "title": {
+            "ko": null,
+            "en": "having special arrangements in the space between resonators, e.g. resistive-wall amplifier tube, space-charge amplifier tube, velocity-jump tube"
+          }
+        },
+        {
+          "code": "H01J 25/22",
+          "title": {
+            "ko": null,
+            "en": "Reflex klystrons, i.e. tubes having one or more resonators, with a single reflection of the electron stream, and in which the stream is modulated mainly by velocity in the modulator zone"
+          }
+        },
+        {
+          "code": "H01J 25/24",
+          "title": {
+            "ko": null,
+            "en": "in which the electron stream is in the axis of the resonator or resonators and is pencil-like before reflection"
+          }
+        },
+        {
+          "code": "H01J 25/26",
+          "title": {
+            "ko": null,
+            "en": "in which the electron stream is coaxial with the axis of the resonator or resonators and is tube-like before reflection"
+          }
+        },
+        {
+          "code": "H01J 25/28",
+          "title": {
+            "ko": null,
+            "en": "in which the electron stream is perpendicular to the axis of the resonator or resonators and is pencil-like before reflection"
+          }
+        },
+        {
+          "code": "H01J 25/30",
+          "title": {
+            "ko": null,
+            "en": "in which the electron stream is perpendicular to the axis of the resonator or resonators and is radial or disc-like before reflection"
+          }
+        },
+        {
+          "code": "H01J 25/32",
+          "title": {
+            "ko": null,
+            "en": "Tubes with plural reflection, e.g. Coeterier tube"
+          }
+        },
+        {
+          "code": "H01J 25/34",
+          "title": {
+            "ko": "진행파관; 진행파가 공극간에 나타나는 것",
+            "en": "Travelling-wave tubes; Tubes in which a travelling wave is simulated at spaced gaps"
+          }
+        },
+        {
+          "code": "H01J 25/36",
+          "title": {
+            "ko": "전자류가 지연선 또는 등가임피던스소자의 예에 따라서 진행하는 파와 상호작용하고 한편 전계와 교차되는 자계를 만드는 자석시스템이 없는 관",
+            "en": "Tubes in which an electron stream interacts with a wave travelling along a delay line or equivalent sequence of impedance elements, and without magnet system producing an H-field crossing the E-field"
+          }
+        },
+        {
+          "code": "H01J 25/38",
+          "title": {
+            "ko": null,
+            "en": "the forward-travelling wave being utilised"
+          }
+        },
+        {
+          "code": "H01J 25/40",
+          "title": {
+            "ko": null,
+            "en": "the backward-travelling wave being utilised"
+          }
+        },
+        {
+          "code": "H01J 25/42",
+          "title": {
+            "ko": "전자류가 지연선 또는 등가임피던스소자의 예에 따라서 진행하는 파와 상호작용하고 한편 전계와 교차되는 자계를 만드는 자석시스템이 있는 것(전자공간의 주위를 진행파가 완전하게 움직이는 것 H01J 25/50)",
+            "en": "Tubes in which an electron stream interacts with a wave travelling along a delay line or equivalent sequence of impedance elements, and with a magnet system producing an H-field crossing the E-field (with travelling wave moving completely around the electron space H01J0025500000)"
+          }
+        },
+        {
+          "code": "H01J 25/44",
+          "title": {
+            "ko": null,
+            "en": "the forward-travelling wave being utilised"
+          }
+        },
+        {
+          "code": "H01J 25/46",
+          "title": {
+            "ko": null,
+            "en": "the backward-travelling wave being utilised"
+          }
+        },
+        {
+          "code": "H01J 25/48",
+          "title": {
+            "ko": null,
+            "en": "Tubes in which two electron streams of different velocities interact with one another, e.g. electron-wave tube"
+          }
+        },
+        {
+          "code": "H01J 25/49",
+          "title": {
+            "ko": null,
+            "en": "Tubes using the parametric principle, e.g. for parametric amplification"
+          }
+        },
+        {
+          "code": "H01J 25/50",
+          "title": {
+            "ko": "자전관 즉 전계와 교차하는 자계를 만드는 자석시스템이 있는 관(전자공간의 주위를 진행파가 완전하게는 움직이지 않는 것 H01J 25/42; 복수의 반사 또는 역사이클로트론(reversed cyclotron) 동작으로 작용하는 것 H01J 25/62, H01J 25/64)",
+            "en": "Magnetrons, i.e. tubes with a magnet system producing an H-field crossing the E-field (with travelling wave not moving completely around the electron space H01J0025420000;functioning with plural reflection or with reversed cyclotron action H01J0025620000, H01J0025640000)"
+          }
+        },
+        {
+          "code": "H01J 25/52",
+          "title": {
+            "ko": null,
+            "en": "with an electron space having a shape that does not prevent any electron from moving completely around the cathode or guide electrode"
+          }
+        },
+        {
+          "code": "H01J 25/54",
+          "title": {
+            "ko": null,
+            "en": "having only one cavity or other resonator, e.g. neutrode tubes"
+          }
+        },
+        {
+          "code": "H01J 25/55",
+          "title": {
+            "ko": null,
+            "en": "Coaxial-cavity magnetrons"
+          }
+        },
+        {
+          "code": "H01J 25/56",
+          "title": {
+            "ko": null,
+            "en": "with interdigital arrangement of anodes, e.g. turbator tube"
+          }
+        },
+        {
+          "code": "H01J 25/58",
+          "title": {
+            "ko": null,
+            "en": "having a number of resonators; having a composite resonator, e.g. a helix"
+          }
+        },
+        {
+          "code": "H01J 25/587",
+          "title": {
+            "ko": null,
+            "en": "Multi-cavity magnetrons"
+          }
+        },
+        {
+          "code": "H01J 25/593",
+          "title": {
+            "ko": null,
+            "en": "Rising-sun magnetrons"
+          }
+        },
+        {
+          "code": "H01J 25/60",
+          "title": {
+            "ko": null,
+            "en": "with an electron space having a shape that prevents any electron from moving completely around the cathode or guide electrode; Linear magnetrons"
+          }
+        },
+        {
+          "code": "H01J 25/61",
+          "title": {
+            "ko": null,
+            "en": "Hybrid tubes, i.e. tubes comprising a klystron section and a travelling-wave section"
+          }
+        },
+        {
+          "code": "H01J 25/62",
+          "title": {
+            "ko": "스트로포트론(strophotrons), 즉 전계와 교차되는 자계가 있고 한편 복수반사의 작용을 하는 관",
+            "en": "Strophotrons, i.e. tubes with H-field crossing the E-field and functioning with plural reflection"
+          }
+        },
+        {
+          "code": "H01J 25/64",
+          "title": {
+            "ko": "터빈(turbine)관 , 즉 전계와 교차하는 자계가 있고, 한편 역사이클로트론 동작의 작용을 하는 관",
+            "en": "Turbine tubes, i.e. tubes with H-field crossing the E-field and functioning with reversed cyclotron action"
+          }
+        },
+        {
+          "code": "H01J 25/66",
+          "title": {
+            "ko": null,
+            "en": "Tubes with electron stream crossing itself and thereby interrupting, or interfering with, itself"
+          }
+        },
+        {
+          "code": "H01J 25/68",
+          "title": {
+            "ko": "정격자와 감속계가 있고 발진기로서 동작하도록 특별히 설계된 관, 예. 바르크하우젠 쿠르쯔(Barkh-ausen Kurz)발진기(2차 전자방사가 있는 것 H01J 25/76)",
+            "en": "Tubes specially designed to act as oscillator with positive grid and retarding field, e.g. for Barkhausen-Kurz oscillators (with secondary emission H01J0025760000)"
+          }
+        },
+        {
+          "code": "H01J 25/70",
+          "title": {
+            "ko": null,
+            "en": "with resonator having distributed inductance and capacitance, e.g. Pintsch tube"
+          }
+        },
+        {
+          "code": "H01J 25/72",
+          "title": {
+            "ko": "정재파 또는 그것의 적지 않은 부분이 전극에 따라서 만들어지고 있는 것, 예. 클라비엘(clavier) 관(분포인덕턴스와 분포용량이 있는 공진기가 있는 것 H01J 25/70)",
+            "en": "in which a standing wave or a considerable part thereof is produced along an electrode, e.g. Clavier tube (with resonator having distributed inductance and capacitance H01J0025700000)"
+          }
+        },
+        {
+          "code": "H01J 25/74",
+          "title": {
+            "ko": null,
+            "en": "Tubes specially designed to act as transit-time diode oscillators, e.g. monotrons"
+          }
+        },
+        {
+          "code": "H01J 25/76",
+          "title": {
+            "ko": null,
+            "en": "Dynamic electron-multiplier tubes, e.g. Farnsworth multiplier tube, multipactor"
+          }
+        },
+        {
+          "code": "H01J 25/78",
+          "title": {
+            "ko": null,
+            "en": "Tubes with electron stream modulated by deflection in a resonator"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 27/00",
+      "title": {
+        "ko": "이온빔(Ion beam)관(H01J 25/00, H01J 33/00이 우선; 입자가속기 H05H)",
+        "en": "Ion beam tubes (H01J0025000000, H01J0033000000, H01J0037000000 take precedence;particle accelerators H05H)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 27/02",
+          "title": {
+            "ko": "이온원; 이온총",
+            "en": "Ion sources; Ion guns"
+          }
+        },
+        {
+          "code": "H01J 27/04",
+          "title": {
+            "ko": null,
+            "en": "using reflex discharge, e.g. Penning ion sources"
+          }
+        },
+        {
+          "code": "H01J 27/06",
+          "title": {
+            "ko": null,
+            "en": "without applied magnetic field"
+          }
+        },
+        {
+          "code": "H01J 27/08",
+          "title": {
+            "ko": null,
+            "en": "using arc discharge"
+          }
+        },
+        {
+          "code": "H01J 27/10",
+          "title": {
+            "ko": null,
+            "en": "Duoplasmatrons"
+          }
+        },
+        {
+          "code": "H01J 27/12",
+          "title": {
+            "ko": null,
+            "en": "provided with an expansion cup"
+          }
+        },
+        {
+          "code": "H01J 27/14",
+          "title": {
+            "ko": null,
+            "en": "Other arc discharge ion sources using an applied magnetic field"
+          }
+        },
+        {
+          "code": "H01J 27/16",
+          "title": {
+            "ko": null,
+            "en": "using high-frequency excitation, e.g. microwave excitation"
+          }
+        },
+        {
+          "code": "H01J 27/18",
+          "title": {
+            "ko": null,
+            "en": "with an applied axial magnetic field"
+          }
+        },
+        {
+          "code": "H01J 27/20",
+          "title": {
+            "ko": null,
+            "en": "using particle bombardment, e.g. ionisers"
+          }
+        },
+        {
+          "code": "H01J 27/22",
+          "title": {
+            "ko": null,
+            "en": "Metal ion sources"
+          }
+        },
+        {
+          "code": "H01J 27/24",
+          "title": {
+            "ko": null,
+            "en": "using photo-ionisation, e.g. using laser beam"
+          }
+        },
+        {
+          "code": "H01J 27/26",
+          "title": {
+            "ko": "표면전리를 이용하는 것, 예. 전계효과이온원, 열이온원(H01J 27/20 H01J 27/24가 우선)",
+            "en": "using surface ionisation, e.g. field effect ion sources, thermionic ion sources (H01J0027200000, H01J0027240000 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 29/00",
+      "title": {
+        "ko": "그룹 H01J 31/00에 포함되어 있는 형의 음극선관 또는 전자빔관의 세부",
+        "en": "Details of cathode-ray tubes or of electron-beam tubes of the types covered by group H01J0031000000"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 29/02",
+          "title": {
+            "ko": null,
+            "en": "Electrodes; Screens; Mounting, supporting, spacing, or insulating thereof"
+          }
+        },
+        {
+          "code": "H01J 29/04",
+          "title": {
+            "ko": null,
+            "en": "Cathodes"
+          }
+        },
+        {
+          "code": "H01J 29/06",
+          "title": {
+            "ko": null,
+            "en": "Screens for shielding; Masks interposed in the electron stream"
+          }
+        },
+        {
+          "code": "H01J 29/07",
+          "title": {
+            "ko": null,
+            "en": "Shadow masks for colour-television tubes"
+          }
+        },
+        {
+          "code": "H01J 29/08",
+          "title": {
+            "ko": null,
+            "en": "Electrodes intimately associated with a screen on or from which an image or pattern is formed, picked-up, converted or stored, e.g. backing-plates for storage tubes or electrodes for collecting secondary electrons"
+          }
+        },
+        {
+          "code": "H01J 29/10",
+          "title": {
+            "ko": null,
+            "en": "Screens on, or from, which an image or pattern is formed, picked-up, converted, or stored"
+          }
+        },
+        {
+          "code": "H01J 29/12",
+          "title": {
+            "ko": null,
+            "en": "acting as light valves by shutter operation, e.g. for eidophor"
+          }
+        },
+        {
+          "code": "H01J 29/14",
+          "title": {
+            "ko": null,
+            "en": "acting by discolouration, e.g. halide screen"
+          }
+        },
+        {
+          "code": "H01J 29/16",
+          "title": {
+            "ko": null,
+            "en": "Incandescent screens"
+          }
+        },
+        {
+          "code": "H01J 29/18",
+          "title": {
+            "ko": null,
+            "en": "Luminescent screens"
+          }
+        },
+        {
+          "code": "H01J 29/20",
+          "title": {
+            "ko": null,
+            "en": "characterised by the luminescent material"
+          }
+        },
+        {
+          "code": "H01J 29/22",
+          "title": {
+            "ko": null,
+            "en": "characterised by the binder or adhesive for securing the luminescent material to its support, e.g. vessel"
+          }
+        },
+        {
+          "code": "H01J 29/24",
+          "title": {
+            "ko": null,
+            "en": "Supports for luminescent material"
+          }
+        },
+        {
+          "code": "H01J 29/26",
+          "title": {
+            "ko": null,
+            "en": "with superimposed luminescent layers"
+          }
+        },
+        {
+          "code": "H01J 29/28",
+          "title": {
+            "ko": null,
+            "en": "with protective, conductive, or reflective layers"
+          }
+        },
+        {
+          "code": "H01J 29/30",
+          "title": {
+            "ko": null,
+            "en": "with luminescent material discontinuously arranged, e.g. in dots or lines"
+          }
+        },
+        {
+          "code": "H01J 29/32",
+          "title": {
+            "ko": null,
+            "en": "with adjacent dots or lines of different luminescent material, e.g. for colour television"
+          }
+        },
+        {
+          "code": "H01J 29/34",
+          "title": {
+            "ko": null,
+            "en": "provided with permanent marks or references"
+          }
+        },
+        {
+          "code": "H01J 29/36",
+          "title": {
+            "ko": null,
+            "en": "Photoelectric screens; Charge-storage screens"
+          }
+        },
+        {
+          "code": "H01J 29/38",
+          "title": {
+            "ko": null,
+            "en": "not using charge storage, e.g. photo-emissive screen, extended cathode"
+          }
+        },
+        {
+          "code": "H01J 29/39",
+          "title": {
+            "ko": null,
+            "en": "Charge-storage screens"
+          }
+        },
+        {
+          "code": "H01J 29/41",
+          "title": {
+            "ko": null,
+            "en": "using secondary emission, e.g. for supericonoscope"
+          }
+        },
+        {
+          "code": "H01J 29/43",
+          "title": {
+            "ko": null,
+            "en": "using photo-emissive mosaic, e.g. for orthicon, for iconoscope"
+          }
+        },
+        {
+          "code": "H01J 29/44",
+          "title": {
+            "ko": null,
+            "en": "exhibiting internal electric effects caused by particle radiation, e.g. bombardment-induced conductivity"
+          }
+        },
+        {
+          "code": "H01J 29/45",
+          "title": {
+            "ko": null,
+            "en": "exhibiting internal electric effects caused by electromagnetic radiation, e.g. photoconductive screen, photodielectric screen, photovoltaic screen"
+          }
+        },
+        {
+          "code": "H01J 29/46",
+          "title": {
+            "ko": "전자선 도는 빔을 발생 또는 제어하기 위한 전극장치 및 관련부품, 예. 전자광학장치",
+            "en": "Arrangements of electrodes and associated parts for generating or controlling the ray or beam, e.g. electron-optical arrangement"
+          },
+          "definition": {
+            "ko": "그룹 H01J29/48은 그룹 H01J29/52 ~ H01J29/58에 우선함",
+            "en": null
+          }
+        },
+        {
+          "code": "H01J 29/48",
+          "title": {
+            "ko": "전자총",
+            "en": "Electron guns"
+          }
+        },
+        {
+          "code": "H01J 29/50",
+          "title": {
+            "ko": "단일의 진공공간에 배치된 2개이상의 총, 예. 다중전자선관(H01J 29/51이 우선)",
+            "en": "two or more guns being arranged in a single vacuum space, e.g. for plural-ray tubes (H01J0029510000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 29/51",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling convergence of a plurality of beams"
+          }
+        },
+        {
+          "code": "H01J 29/52",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling intensity of ray or beam, e.g. for modulation"
+          }
+        },
+        {
+          "code": "H01J 29/54",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for centring ray or beam"
+          }
+        },
+        {
+          "code": "H01J 29/56",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling cross-section of ray or beam; Arrangements for correcting aberration of beam, e.g. due to lenses"
+          }
+        },
+        {
+          "code": "H01J 29/58",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for focusing or reflecting ray or beam"
+          }
+        },
+        {
+          "code": "H01J 29/60",
+          "title": {
+            "ko": null,
+            "en": "Mirrors"
+          }
+        },
+        {
+          "code": "H01J 29/62",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic lenses"
+          }
+        },
+        {
+          "code": "H01J 29/64",
+          "title": {
+            "ko": null,
+            "en": "Magnetic lenses"
+          }
+        },
+        {
+          "code": "H01J 29/66",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic means only"
+          }
+        },
+        {
+          "code": "H01J 29/68",
+          "title": {
+            "ko": null,
+            "en": "using permanent magnets only"
+          }
+        },
+        {
+          "code": "H01J 29/70",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for deflecting ray or beam"
+          }
+        },
+        {
+          "code": "H01J 29/72",
+          "title": {
+            "ko": null,
+            "en": "along one straight line or along two perpendicular straight lines"
+          }
+        },
+        {
+          "code": "H01J 29/74",
+          "title": {
+            "ko": null,
+            "en": "Deflecting by electric fields only"
+          }
+        },
+        {
+          "code": "H01J 29/76",
+          "title": {
+            "ko": null,
+            "en": "Deflecting by magnetic fields only"
+          }
+        },
+        {
+          "code": "H01J 29/78",
+          "title": {
+            "ko": null,
+            "en": "along a circle, spiral, or rotating radial line, e.g. for radar display"
+          }
+        },
+        {
+          "code": "H01J 29/80",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for controlling the ray or beam after passing the main deflection system, e.g. for post-acceleration or post-concentration, for colour switching"
+          }
+        },
+        {
+          "code": "H01J 29/81",
+          "title": {
+            "ko": null,
+            "en": "using shadow masks"
+          }
+        },
+        {
+          "code": "H01J 29/82",
+          "title": {
+            "ko": null,
+            "en": "Mounting, supporting, spacing, or insulating electron-optical or ion-optical arrangements"
+          }
+        },
+        {
+          "code": "H01J 29/84",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for removing or diverting unwanted particles, e.g. for negative ions or fringing electrons; Arrangements for velocity or mass selection"
+          }
+        },
+        {
+          "code": "H01J 29/86",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Containers; Vacuum locks"
+          }
+        },
+        {
+          "code": "H01J 29/87",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing or mitigating effects of implosion of vessels or containers"
+          }
+        },
+        {
+          "code": "H01J 29/88",
+          "title": {
+            "ko": null,
+            "en": "provided with coatings on the walls thereof; Selection of materials for the coatings"
+          }
+        },
+        {
+          "code": "H01J 29/89",
+          "title": {
+            "ko": null,
+            "en": "Optical or photographic arrangements structurally combined with the vessel"
+          }
+        },
+        {
+          "code": "H01J 29/90",
+          "title": {
+            "ko": null,
+            "en": "Leading-in arrangements; Seals therefor"
+          }
+        },
+        {
+          "code": "H01J 29/92",
+          "title": {
+            "ko": null,
+            "en": "Means forming part of the tube for the purpose of providing electrical connection to it"
+          }
+        },
+        {
+          "code": "H01J 29/94",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for gas fillings; Means for obtaining or maintaining the desired pressure within the tube, e.g. by gettering"
+          }
+        },
+        {
+          "code": "H01J 29/96",
+          "title": {
+            "ko": null,
+            "en": "One or more circuit elements structurally associated with the tube"
+          }
+        },
+        {
+          "code": "H01J 29/98",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 31/00",
+      "title": {
+        "ko": "음극선관; 전자빔관 (H01J 25/00, H01J 33/00, H01J 35/00, H01J 37/00 우선; 음극선관 또는 전자류 램프 H01J63/00; 음극선관 또는 전자빔관의 세부 29/00)",
+        "en": "Cathode-ray tubes; Electron-beam tubes (H01J0025000000, H01J0033000000, H01J0035000000, H01J0037000000 take precedence; details of cathode-ray tubes or of electron-beam tubes H01J0029000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 31/02",
+          "title": {
+            "ko": null,
+            "en": "having one or more output electrodes which may be impacted selectively by the ray or beam, and onto, from, or over which the ray or beam may be deflected or de-focused"
+          }
+        },
+        {
+          "code": "H01J 31/04",
+          "title": {
+            "ko": null,
+            "en": "with only one or two output electrodes"
+          }
+        },
+        {
+          "code": "H01J 31/06",
+          "title": {
+            "ko": null,
+            "en": "with more than two output electrodes, e.g. for multiple switching or counting"
+          }
+        },
+        {
+          "code": "H01J 31/08",
+          "title": {
+            "ko": "그 위에 또는 거기로부터 상 또는 패턴이 형성되고 포착, 변환되며 또는 축적되는 스크린이 있는 것",
+            "en": "having a screen on or from which an image or pattern is formed, picked-up, converted, or stored"
+          }
+        },
+        {
+          "code": "H01J 31/10",
+          "title": {
+            "ko": null,
+            "en": "Image or pattern display tubes, i.e. having electrical input and optical output; Flying-spot tubes for scanning purposes"
+          }
+        },
+        {
+          "code": "H01J 31/12",
+          "title": {
+            "ko": null,
+            "en": "with luminescent screen"
+          }
+        },
+        {
+          "code": "H01J 31/14",
+          "title": {
+            "ko": null,
+            "en": "Magic-eye or analogous tuning indicators"
+          }
+        },
+        {
+          "code": "H01J 31/15",
+          "title": {
+            "ko": null,
+            "en": "with ray or beam selectively directed to luminescent anode segments"
+          }
+        },
+        {
+          "code": "H01J 31/16",
+          "title": {
+            "ko": null,
+            "en": "with mask carrying a number of selectively displayable signs, e.g. numeroscope"
+          }
+        },
+        {
+          "code": "H01J 31/18",
+          "title": {
+            "ko": null,
+            "en": "with image written by a ray or beam on a grid-like charge-accumulating screen, and with a ray or beam passing through, and influenced by, this screen before striking the luminescent screen, e.g. direct-view storage tube"
+          }
+        },
+        {
+          "code": "H01J 31/20",
+          "title": {
+            "ko": null,
+            "en": "for displaying images or patterns in two or more colours"
+          }
+        },
+        {
+          "code": "H01J 31/22",
+          "title": {
+            "ko": null,
+            "en": "for stereoscopic displays"
+          }
+        },
+        {
+          "code": "H01J 31/24",
+          "title": {
+            "ko": null,
+            "en": "with screen acting as light valve by shutter operation, e.g. eidophor"
+          }
+        },
+        {
+          "code": "H01J 31/26",
+          "title": {
+            "ko": "가시광선의 입력과 전기출력이 있는 촬상관(한정된 전자빔 없이 광전자방사 스크린을 광선으로 주사하는 관 H01J 40/20)",
+            "en": "Image pick-up tubes having an input of visible light and electric output (tubes without defined electron beams and having a light ray scanning a photo-emissive screen H01J0040200000)"
+          }
+        },
+        {
+          "code": "H01J 31/28",
+          "title": {
+            "ko": null,
+            "en": "with electron ray scanning the image screen"
+          }
+        },
+        {
+          "code": "H01J 31/30",
+          "title": {
+            "ko": null,
+            "en": "having regulation of screen potential at anode potential, e.g. iconoscope"
+          }
+        },
+        {
+          "code": "H01J 31/32",
+          "title": {
+            "ko": null,
+            "en": "Tubes with image-amplification section, e.g. image-iconoscope, supericonoscope"
+          }
+        },
+        {
+          "code": "H01J 31/34",
+          "title": {
+            "ko": null,
+            "en": "having regulation of screen potential at cathode potential, e.g. orthicon"
+          }
+        },
+        {
+          "code": "H01J 31/36",
+          "title": {
+            "ko": null,
+            "en": "Tubes with image-amplification section, e.g. image-orthicon"
+          }
+        },
+        {
+          "code": "H01J 31/38",
+          "title": {
+            "ko": null,
+            "en": "Tubes with photoconductive screen, e.g. vidicon"
+          }
+        },
+        {
+          "code": "H01J 31/40",
+          "title": {
+            "ko": null,
+            "en": "having grid-like image screen through which the electron ray passes and by which the ray is influenced before striking the output electrode, i.e. having \"triode action\""
+          }
+        },
+        {
+          "code": "H01J 31/42",
+          "title": {
+            "ko": null,
+            "en": "with image screen generating a composite electron beam which is deflected as a whole past a stationary probe to simulate a scanning effect, e.g. Farnsworth pick-up tube"
+          }
+        },
+        {
+          "code": "H01J 31/44",
+          "title": {
+            "ko": null,
+            "en": "Tubes with image-amplification section"
+          }
+        },
+        {
+          "code": "H01J 31/46",
+          "title": {
+            "ko": null,
+            "en": "Tubes in which electrical output represents both intensity and colour of image"
+          }
+        },
+        {
+          "code": "H01J 31/48",
+          "title": {
+            "ko": null,
+            "en": "Tubes with amplification of output effected by electron-multiplier arrangements within the vacuum space"
+          }
+        },
+        {
+          "code": "H01J 31/49",
+          "title": {
+            "ko": null,
+            "en": "Pick-up tubes adapted for an input of electromagnetic radiation other than visible light and having an electric output, e.g. for an input of X-rays, for an input of infrared radiation"
+          }
+        },
+        {
+          "code": "H01J 31/495",
+          "title": {
+            "ko": null,
+            "en": "Pick-up tubes adapted for an input of sonic, ultrasonic or mechanical vibrations and having an electric output"
+          }
+        },
+        {
+          "code": "H01J 31/50",
+          "title": {
+            "ko": null,
+            "en": "Image-conversion or image-amplification tubes, i.e. having optical, X-ray, or analogous input, and optical output"
+          }
+        },
+        {
+          "code": "H01J 31/52",
+          "title": {
+            "ko": null,
+            "en": "having grid-like image screen through which the electron ray or beam passes and by which the ray or beam is influenced before striking the luminescent output screen, i.e. having \"triode action\""
+          }
+        },
+        {
+          "code": "H01J 31/54",
+          "title": {
+            "ko": null,
+            "en": "in which the electron ray or beam is reflected by the image input screen on to the image output screen"
+          }
+        },
+        {
+          "code": "H01J 31/56",
+          "title": {
+            "ko": null,
+            "en": "for converting or amplifying images in two or more colours"
+          }
+        },
+        {
+          "code": "H01J 31/58",
+          "title": {
+            "ko": "상 또는 정보패턴의 축적을 위한 또는 텔레비전 또는 동일한 영상의 선명도의 변환을 위한 관, 즉 전기적 입력과 전기적 출력이 있는 것",
+            "en": "Tubes for storage of image or information pattern or for conversion of definition of television or like images, i.e. having electrical input and electrical output"
+          }
+        },
+        {
+          "code": "H01J 31/60",
+          "title": {
+            "ko": "스크린의 분리된 표면소자상에 전자선을 선택적 으로든 연속적으로든 편향하는 수단이 있는 것(회로만의 것 H01J 29/98)",
+            "en": "having means for deflecting, either selectively or sequentially, an electron ray on to separate surface elements of the screen (by circuitry alone H01J0029980000)"
+          }
+        },
+        {
+          "code": "H01J 31/62",
+          "title": {
+            "ko": null,
+            "en": "with separate reading and writing rays"
+          }
+        },
+        {
+          "code": "H01J 31/64",
+          "title": {
+            "ko": null,
+            "en": "on opposite sides of screen, e.g. for conversion of definition"
+          }
+        },
+        {
+          "code": "H01J 31/66",
+          "title": {
+            "ko": null,
+            "en": "having means for allowing all but selected cross-section elements of a homogeneous electron beam to reach corresponding elements of the screen, e.g. selectron"
+          }
+        },
+        {
+          "code": "H01J 31/68",
+          "title": {
+            "ko": null,
+            "en": "in which the information pattern represents two or more colours"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 33/00",
+      "title": {
+        "ko": "그릇에서 전자 또는 이온을 끌어내는 설비가 있는 방전관(입자가속기 H05H); 레나드(Lenard)관",
+        "en": "Discharge tubes with provision for emergence of electrons or ions from the vessel (particle accelerators H05H); Lenard tubes"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 33/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 33/04",
+          "title": {
+            "ko": null,
+            "en": "Windows"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 35/00",
+      "title": {
+        "ko": null,
+        "en": "X-ray tubes"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 35/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 35/04",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "H01J 35/06",
+          "title": {
+            "ko": null,
+            "en": "Cathodes"
+          }
+        },
+        {
+          "code": "H01J 35/08",
+          "title": {
+            "ko": null,
+            "en": "Anodes; Anticathodes"
+          }
+        },
+        {
+          "code": "H01J 35/10",
+          "title": {
+            "ko": null,
+            "en": "Rotary anodes; Arrangements for rotating anodes; Cooling rotary anodes"
+          }
+        },
+        {
+          "code": "H01J 35/12",
+          "title": {
+            "ko": null,
+            "en": "Cooling non-rotary anodes"
+          }
+        },
+        {
+          "code": "H01J 35/14",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for concentrating, focusing, or directing the cathode ray"
+          }
+        },
+        {
+          "code": "H01J 35/16",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Containers; Shields associated therewith"
+          }
+        },
+        {
+          "code": "H01J 35/18",
+          "title": {
+            "ko": null,
+            "en": "Windows"
+          }
+        },
+        {
+          "code": "H01J 35/20",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for gas fillings; Means for obtaining or maintaining the desired pressure within the tube, e.g. by gettering"
+          }
+        },
+        {
+          "code": "H01J 35/22",
+          "title": {
+            "ko": null,
+            "en": "specially designed for passing a very high current for a very short time, e.g. for flash operation"
+          }
+        },
+        {
+          "code": "H01J 35/24",
+          "title": {
+            "ko": null,
+            "en": "Tubes wherein the point of impact of the cathode ray on the anode or anticathode is movable relative to the surface thereof"
+          }
+        },
+        {
+          "code": "H01J 35/26",
+          "title": {
+            "ko": null,
+            "en": "by rotation of the anode or anticathode"
+          }
+        },
+        {
+          "code": "H01J 35/28",
+          "title": {
+            "ko": null,
+            "en": "by vibration, oscillation, reciprocation, or swash-plate motion of the anode or anticathode"
+          }
+        },
+        {
+          "code": "H01J 35/30",
+          "title": {
+            "ko": null,
+            "en": "by deflection of the cathode ray"
+          }
+        },
+        {
+          "code": "H01J 35/32",
+          "title": {
+            "ko": null,
+            "en": "Tubes wherein the X-rays are produced at or near the end of the tube or a part thereof, which tube or part has a small cross-section to facilitate introduction into a small hole or cavity"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 37/00",
+      "title": {
+        "ko": "방전에 노출되는(exposed) 물체 또는 재료를 도입하는 설비가 있는 전자관, 예. 그 시험 또는 처리를 위한 것(H01J 33/00, H01J 40/00, H01J 41/00, H01J 47/00, H01J 49/00 우선)",
+        "en": "Discharge tubes with provision for introducing objects or material to be exposed to the discharge, e.g. for the purpose of examination or processing thereof (H01J0033000000, H01J0040000000, H01J0041000000, H01J0047000000, H01J0049000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 37/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 37/04",
+          "title": {
+            "ko": "전극장치 및 방전을 발생하고 또는 제어하기 위한 관련부품, 예. 전자광학장치, 이온광학장치",
+            "en": "Arrangements of electrodes and associated parts for generating or controlling the discharge, e.g. electron-optical arrangement, ion-optical arrangement"
+          }
+        },
+        {
+          "code": "H01J 37/05",
+          "title": {
+            "ko": "전자 또는 이온을 그것들의 에너지 따라서 분리하기 위한 전자광학적 또는 이온광학적 장치(분자분리관 H01J 49/00)",
+            "en": "Electron- or ion-optical arrangements for separating electrons or ions according to their energy (particle separator tubes H01J0049000000)"
+          }
+        },
+        {
+          "code": "H01J 37/06",
+          "title": {
+            "ko": "전자원; 전자총",
+            "en": "Electron sources; Electron guns"
+          }
+        },
+        {
+          "code": "H01J 37/063",
+          "title": {
+            "ko": null,
+            "en": "Geometrical arrangement of electrodes for beam-forming"
+          }
+        },
+        {
+          "code": "H01J 37/065",
+          "title": {
+            "ko": "총의 구조 또는 그것을 위한 부품(H01J 37/067～ H01J 37/077이 우선)",
+            "en": "Construction of guns or parts thereof (H01J0037067000-H01J0037077000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 37/067",
+          "title": {
+            "ko": "총의 부품의 교환; 전극간의 상호조정(H01J 37/033～ H01J 37/077이 우선; 진공봉함 H01J 37/18)",
+            "en": "Replacing parts of guns; Mutual adjustment of electrodes (H01J0037073000-H01J0037077000 take precedence;vacuum locks H01J0037180000)"
+          }
+        },
+        {
+          "code": "H01J 37/07",
+          "title": {
+            "ko": null,
+            "en": "Eliminating deleterious effects due to thermal effects or electric or magnetic fields  (H01J0037073000-H01J0037077000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 37/073",
+          "title": {
+            "ko": null,
+            "en": "Electron guns using field emission, photo emission, or secondary emission electron sources"
+          }
+        },
+        {
+          "code": "H01J 37/075",
+          "title": {
+            "ko": null,
+            "en": "Electron guns using thermionic emission from cathodes heated by particle bombardment or by irradiation, e.g. by laser"
+          }
+        },
+        {
+          "code": "H01J 37/077",
+          "title": {
+            "ko": null,
+            "en": "Electron guns using discharge in gases or vapours as electron sources"
+          }
+        },
+        {
+          "code": "H01J 37/08",
+          "title": {
+            "ko": null,
+            "en": "Ion sources; Ion guns"
+          }
+        },
+        {
+          "code": "H01J 37/09",
+          "title": {
+            "ko": null,
+            "en": "Diaphragms; Shields associated with electron- or ion-optical arrangements; Compensation of disturbing fields"
+          }
+        },
+        {
+          "code": "H01J 37/10",
+          "title": {
+            "ko": null,
+            "en": "Lenses"
+          }
+        },
+        {
+          "code": "H01J 37/12",
+          "title": {
+            "ko": null,
+            "en": "electrostatic"
+          }
+        },
+        {
+          "code": "H01J 37/14",
+          "title": {
+            "ko": null,
+            "en": "magnetic"
+          }
+        },
+        {
+          "code": "H01J 37/141",
+          "title": {
+            "ko": null,
+            "en": "Electromagnetic lenses"
+          }
+        },
+        {
+          "code": "H01J 37/143",
+          "title": {
+            "ko": null,
+            "en": "Permanent magnetic lenses"
+          }
+        },
+        {
+          "code": "H01J 37/145",
+          "title": {
+            "ko": null,
+            "en": "Combinations of electrostatic and magnetic lenses"
+          }
+        },
+        {
+          "code": "H01J 37/147",
+          "title": {
+            "ko": "희망하는 통로에 따라서 방전을 직진하고 또는 편향하기 위한 장치(렌즈 H01J 37/10)",
+            "en": "Arrangements for directing or deflecting the discharge along a desired path (lenses H01J0037100000)"
+          }
+        },
+        {
+          "code": "H01J 37/15",
+          "title": {
+            "ko": "전자광학적 또는 이온광학적 구성체의 외부로부터의 기계적 조정(H01J 37/067, H01J 37/20이 우선)",
+            "en": "External mechanical adjustment of electron- or ion-optical components (H01J0037067000, H01J0037200000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 37/153",
+          "title": {
+            "ko": null,
+            "en": "Electron-optical or ion-optical arrangements for the correction of image defects, e.g. stigmators"
+          }
+        },
+        {
+          "code": "H01J 37/16",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Containers"
+          }
+        },
+        {
+          "code": "H01J 37/18",
+          "title": {
+            "ko": null,
+            "en": "Vacuum locks"
+          }
+        },
+        {
+          "code": "H01J 37/20",
+          "title": {
+            "ko": null,
+            "en": "Means for supporting or positioning the object or the material; Means for adjusting diaphragms or lenses associated with the support"
+          }
+        },
+        {
+          "code": "H01J 37/21",
+          "title": {
+            "ko": null,
+            "en": "Means for adjusting the focus"
+          }
+        },
+        {
+          "code": "H01J 37/22",
+          "title": {
+            "ko": null,
+            "en": "Optical or photographic arrangements associated with the tube"
+          }
+        },
+        {
+          "code": "H01J 37/24",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        },
+        {
+          "code": "H01J 37/244",
+          "title": {
+            "ko": null,
+            "en": "Detectors; Associated components or circuits therefor"
+          }
+        },
+        {
+          "code": "H01J 37/248",
+          "title": {
+            "ko": null,
+            "en": "Components associated with high voltage supply"
+          }
+        },
+        {
+          "code": "H01J 37/252",
+          "title": {
+            "ko": null,
+            "en": "Tubes for spot-analysing by electron or ion beams; Microanalysers"
+          }
+        },
+        {
+          "code": "H01J 37/256",
+          "title": {
+            "ko": null,
+            "en": "using scanning beams"
+          }
+        },
+        {
+          "code": "H01J 37/26",
+          "title": {
+            "ko": null,
+            "en": "Electron or ion microscopes; Electron- or ion-diffraction tubes"
+          }
+        },
+        {
+          "code": "H01J 37/27",
+          "title": {
+            "ko": null,
+            "en": "Shadow microscopy"
+          }
+        },
+        {
+          "code": "H01J 37/28",
+          "title": {
+            "ko": null,
+            "en": "with scanning beams"
+          }
+        },
+        {
+          "code": "H01J 37/285",
+          "title": {
+            "ko": null,
+            "en": "Emission microscopes, e.g. field-emission microscopes"
+          }
+        },
+        {
+          "code": "H01J 37/29",
+          "title": {
+            "ko": null,
+            "en": "Reflection microscopes"
+          }
+        },
+        {
+          "code": "H01J 37/295",
+          "title": {
+            "ko": null,
+            "en": "Electron- or ion-diffraction tubes"
+          }
+        },
+        {
+          "code": "H01J 37/30",
+          "title": {
+            "ko": "물체의 국부적 처리에 한정된 전자빔 또는 이온 빔관",
+            "en": "Electron-beam or ion-beam tubes for localised treatment of objects"
+          }
+        },
+        {
+          "code": "H01J 37/301",
+          "title": {
+            "ko": null,
+            "en": "Arrangements enabling beams to pass between regions of different pressure"
+          }
+        },
+        {
+          "code": "H01J 37/302",
+          "title": {
+            "ko": "외부정보에 의한 튜브 제어, 예. 프로그램 제어 (H01J37/304 우선)",
+            "en": "Controlling tubes by external information, e.g. program control  (H01J0037304000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 37/304",
+          "title": {
+            "ko": null,
+            "en": "Controlling tubes by information coming from the objects, e.g. correction signals"
+          }
+        },
+        {
+          "code": "H01J 37/305",
+          "title": {
+            "ko": null,
+            "en": "for casting, melting, evaporating, or etching"
+          }
+        },
+        {
+          "code": "H01J 37/31",
+          "title": {
+            "ko": null,
+            "en": "for cutting or drilling"
+          }
+        },
+        {
+          "code": "H01J 37/315",
+          "title": {
+            "ko": null,
+            "en": "for welding"
+          }
+        },
+        {
+          "code": "H01J 37/317",
+          "title": {
+            "ko": "물체의 특성을 바꾸기 위한 것 또는 그 위에 박층을 형성하기 위한 것, 예. 이온주입(H01J 37/36이 우선)",
+            "en": "for changing properties of the objects or for applying thin layers thereon, e.g. ion implantation (H01J0037360000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 37/32",
+          "title": {
+            "ko": "가스 넣는 방전관(방전에 의해서 가열되는 것 H05B)",
+            "en": "Gas-filled discharge tubes (heating by discharge H05B)"
+          }
+        },
+        {
+          "code": "H01J 37/34",
+          "title": {
+            "ko": "음극스퍼터를 수반해서 동작하는 것(H01J 37/36이 우선)",
+            "en": "operating with cathodic sputtering (H01J0037360000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 37/36",
+          "title": {
+            "ko": null,
+            "en": "for cleaning surfaces while plating with ions of materials introduced into the discharge, e.g. introduced by evaporation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 40/00",
+      "title": {
+        "ko": "가스의 전리를 포함하지 않은 광전관(H01J 49/10 우선)",
+        "en": "Photoelectric discharge tubes not involving the ionisation of a gas (H01J0049000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 40/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 40/04",
+          "title": {
+            "ko": null,
+            "en": "Electrodes"
+          }
+        },
+        {
+          "code": "H01J 40/06",
+          "title": {
+            "ko": null,
+            "en": "Photo-emissive cathodes"
+          }
+        },
+        {
+          "code": "H01J 40/08",
+          "title": {
+            "ko": null,
+            "en": "Magnetic means for controlling discharge"
+          }
+        },
+        {
+          "code": "H01J 40/10",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for gas fillings"
+          }
+        },
+        {
+          "code": "H01J 40/12",
+          "title": {
+            "ko": null,
+            "en": "One or more circuit elements structurally associated with the tube"
+          }
+        },
+        {
+          "code": "H01J 40/14",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        },
+        {
+          "code": "H01J 40/16",
+          "title": {
+            "ko": "광전자방출음극을 갖는 것, 예. 알칼리 광전지(2차전자방출동작이 있는 것 H01J 43/00)",
+            "en": "having photo-emissive cathode, e.g. alkaline photoelectric cell (operating with secondary emission H01J0043000000)"
+          }
+        },
+        {
+          "code": "H01J 40/18",
+          "title": {
+            "ko": null,
+            "en": "with luminescent coatings for influencing the sensitivity of the tube, e.g. by converting the input wavelength"
+          }
+        },
+        {
+          "code": "H01J 40/20",
+          "title": {
+            "ko": null,
+            "en": "wherein a light-ray scans a photo-emissive screen"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 41/00",
+      "title": {
+        "ko": "가스의 압력을 측정하기 위한 방전관 및 방전 장치; 이온의 확산에 의해서 배기하기 위한 방전관",
+        "en": "Discharge tubes and means integral therewith for measuring gas pressure; Discharge tubes for evacuation by diffusion of ions"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 41/02",
+          "title": {
+            "ko": "가스의 압력을 측정하기 위한 방전관 및 방전장치",
+            "en": "Discharge tubes and means integral therewith for measuring gas pressure"
+          }
+        },
+        {
+          "code": "H01J 41/04",
+          "title": {
+            "ko": null,
+            "en": "with ionisation by means of thermionic cathodes"
+          }
+        },
+        {
+          "code": "H01J 41/06",
+          "title": {
+            "ko": null,
+            "en": "with ionisation by means of cold cathodes"
+          }
+        },
+        {
+          "code": "H01J 41/08",
+          "title": {
+            "ko": null,
+            "en": "with ionisation by means of radioactive substances, e.g. alphatrons"
+          }
+        },
+        {
+          "code": "H01J 41/10",
+          "title": {
+            "ko": "입자분광기형의 것(일반적인 입자분광기 H01J 49/00)",
+            "en": "of particle-spectrometer type (particle spectrometers in general H01J0049000000)"
+          }
+        },
+        {
+          "code": "H01J 41/12",
+          "title": {
+            "ko": null,
+            "en": "Discharge tubes for evacuating by diffusion of ions, e.g. ion pumps, getter ion pumps"
+          }
+        },
+        {
+          "code": "H01J 41/14",
+          "title": {
+            "ko": null,
+            "en": "with ionisation by means of thermionic cathodes"
+          }
+        },
+        {
+          "code": "H01J 41/16",
+          "title": {
+            "ko": null,
+            "en": "using gettering substances"
+          }
+        },
+        {
+          "code": "H01J 41/18",
+          "title": {
+            "ko": null,
+            "en": "with ionisation by means of cold cathodes"
+          }
+        },
+        {
+          "code": "H01J 41/20",
+          "title": {
+            "ko": null,
+            "en": "using gettering substances"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 43/00",
+      "title": {
+        "ko": "2차전자방출관; 전자증폭관(동적전자증폭관 H01J 25/7)",
+        "en": "Secondary-emission tubes; Electron-multiplier tubes (dynamic electron-multiplier tubes H01J0025760000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 43/02",
+          "title": {
+            "ko": null,
+            "en": "Tubes in which one or a few electrodes are secondary-electron-emitting electrodes"
+          }
+        },
+        {
+          "code": "H01J 43/04",
+          "title": {
+            "ko": "전자증배기",
+            "en": "Electron multipliers"
+          }
+        },
+        {
+          "code": "H01J 43/06",
+          "title": {
+            "ko": "전극장치",
+            "en": "Electrode arrangements"
+          }
+        },
+        {
+          "code": "H01J 43/08",
+          "title": {
+            "ko": "음극장치(광전음극의 구조 H01J 40/06, H01J 40/16, H01J 47/00, H01J 49/08)",
+            "en": "Cathode arrangements (construction of photo cathodes H01J0040060000, H01J0040160000, H01J0047000000, H01J0049080000)"
+          }
+        },
+        {
+          "code": "H01J 43/10",
+          "title": {
+            "ko": "2차전자방출전극(H01J 43/24, H01J 43/26 우선)",
+            "en": "Dynodes (H01J0043240000, H01J0043260000 take precedence)"
+          }
+        },
+        {
+          "code": "H01J 43/12",
+          "title": {
+            "ko": null,
+            "en": "Anode arrangements"
+          }
+        },
+        {
+          "code": "H01J 43/14",
+          "title": {
+            "ko": null,
+            "en": "Control of electron beam by magnetic field"
+          }
+        },
+        {
+          "code": "H01J 43/16",
+          "title": {
+            "ko": null,
+            "en": "Electrode arrangements using essentially one dynode"
+          }
+        },
+        {
+          "code": "H01J 43/18",
+          "title": {
+            "ko": null,
+            "en": "Electrode arrangements using essentially more than one dynode"
+          }
+        },
+        {
+          "code": "H01J 43/20",
+          "title": {
+            "ko": null,
+            "en": "Dynodes consisting of sheet material, e.g. plane, bent"
+          }
+        },
+        {
+          "code": "H01J 43/22",
+          "title": {
+            "ko": null,
+            "en": "Dynodes consisting of electron-permeable material, e.g. foil, grid, tube, venetian blind"
+          }
+        },
+        {
+          "code": "H01J 43/24",
+          "title": {
+            "ko": null,
+            "en": "Dynodes having potential gradient along their surfaces"
+          }
+        },
+        {
+          "code": "H01J 43/26",
+          "title": {
+            "ko": null,
+            "en": "Box dynodes"
+          }
+        },
+        {
+          "code": "H01J 43/28",
+          "title": {
+            "ko": null,
+            "en": "Vessels; Windows; Screens; Suppressing undesired discharges or currents"
+          }
+        },
+        {
+          "code": "H01J 43/30",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 45/00",
+      "title": {
+        "ko": null,
+        "en": "Discharge tubes functioning as thermionic generators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01J 47/00",
+      "title": {
+        "ko": "복사선 입자의 존재, 강도, 밀도 혹은 에너지 결정하기 위한 관(가스의 전리를 포함하지 않는 광전관 H01J 40/00)",
+        "en": "Tubes for determining the presence, intensity, density or energy of radiation or particles (photoelectric discharge tubes not involving the ionisation of a gas H01J0040000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 47/02",
+          "title": {
+            "ko": null,
+            "en": "Ionisation chambers"
+          }
+        },
+        {
+          "code": "H01J 47/04",
+          "title": {
+            "ko": null,
+            "en": "Capacitive ionisation chambers, e.g. the electrodes of which are used as electrometers"
+          }
+        },
+        {
+          "code": "H01J 47/06",
+          "title": {
+            "ko": null,
+            "en": "Proportional counter tubes"
+          }
+        },
+        {
+          "code": "H01J 47/08",
+          "title": {
+            "ko": null,
+            "en": "Geiger-Müller counter tubes"
+          }
+        },
+        {
+          "code": "H01J 47/10",
+          "title": {
+            "ko": "스파크 카운터(H01J 47/14가 우선 스파크 갭 H01T)",
+            "en": "Spark counters (H01J0047140000 takes precedence;spark gaps H01T)"
+          }
+        },
+        {
+          "code": "H01J 47/12",
+          "title": {
+            "ko": null,
+            "en": "Neutron detector tubes, e.g. BF3 tubes"
+          }
+        },
+        {
+          "code": "H01J 47/14",
+          "title": {
+            "ko": "평행전극형 스파크 또는 스트리머챔버; 선형 스파크 또는 스트리머챔버",
+            "en": "Parallel electrode spark or streamer chambers; Wire spark or streamer chambers"
+          }
+        },
+        {
+          "code": "H01J 47/16",
+          "title": {
+            "ko": "개개의 와이어의 독출에 의하여 특징지워지는 것",
+            "en": "characterised by readout of each individual wire"
+          }
+        },
+        {
+          "code": "H01J 47/18",
+          "title": {
+            "ko": "독출이 전기적인 것(H01J 47/20이 우선)",
+            "en": "the readout being electrical (H01J0047200000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 47/20",
+          "title": {
+            "ko": null,
+            "en": "the readout employing electrical or mechanical delay lines, e.g. magnetostrictive delay lines"
+          }
+        },
+        {
+          "code": "H01J 47/22",
+          "title": {
+            "ko": null,
+            "en": "characterised by another type of readout"
+          }
+        },
+        {
+          "code": "H01J 47/24",
+          "title": {
+            "ko": null,
+            "en": "the readout being acoustical"
+          }
+        },
+        {
+          "code": "H01J 47/26",
+          "title": {
+            "ko": null,
+            "en": "the readout being optical"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 49/00",
+      "title": {
+        "ko": "입자분광기 또는 입자분리관",
+        "en": "Particle spectrometers or separator tubes"
+      },
+      "definition": {
+        "ko": "입자분광기의 분류에 있어서 분광기술과 분광사진기술과의 사이에 구별이 없고, 그 차는 분광기술은 검지방법이 전기적인데 대하여 분광사진기술은 검지방법이 사진필림에 의한 것인 점 만이다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H01J 49/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 49/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for introducing or extracting samples to be analysed, e.g. vacuum locks; Arrangements for external adjustment of electron- or ion-optical components"
+          }
+        },
+        {
+          "code": "H01J 49/06",
+          "title": {
+            "ko": "전자광학적 또는 이온광학적 장치(H01J 49/04가 우선)",
+            "en": "Electron- or ion-optical arrangements (H01J0049040000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 49/08",
+          "title": {
+            "ko": null,
+            "en": "Electron sources, e.g. for generating photo-electrons, secondary electrons or Auger electrons"
+          }
+        },
+        {
+          "code": "H01J 49/10",
+          "title": {
+            "ko": null,
+            "en": "Ion sources; Ion guns"
+          }
+        },
+        {
+          "code": "H01J 49/12",
+          "title": {
+            "ko": null,
+            "en": "using an arc discharge, e.g. of the duoplasmatron type"
+          }
+        },
+        {
+          "code": "H01J 49/14",
+          "title": {
+            "ko": null,
+            "en": "using particle bombardment, e.g. ionisation chambers"
+          }
+        },
+        {
+          "code": "H01J 49/16",
+          "title": {
+            "ko": null,
+            "en": "using surface ionisation, e.g. field-, thermionic- or photo-emission"
+          }
+        },
+        {
+          "code": "H01J 49/18",
+          "title": {
+            "ko": null,
+            "en": "using spark ionisation"
+          }
+        },
+        {
+          "code": "H01J 49/20",
+          "title": {
+            "ko": null,
+            "en": "Magnetic deflection"
+          }
+        },
+        {
+          "code": "H01J 49/22",
+          "title": {
+            "ko": null,
+            "en": "Electrostatic deflection"
+          }
+        },
+        {
+          "code": "H01J 49/24",
+          "title": {
+            "ko": null,
+            "en": "Vacuum systems, e.g. maintaining desired pressures"
+          }
+        },
+        {
+          "code": "H01J 49/26",
+          "title": {
+            "ko": "질량분광기 또는 질량분리관",
+            "en": "Mass spectrometers or separator tubes"
+          }
+        },
+        {
+          "code": "H01J 49/28",
+          "title": {
+            "ko": null,
+            "en": "Static spectrometers"
+          }
+        },
+        {
+          "code": "H01J 49/30",
+          "title": {
+            "ko": null,
+            "en": "using magnetic analysers"
+          }
+        },
+        {
+          "code": "H01J 49/32",
+          "title": {
+            "ko": null,
+            "en": "using double focusing"
+          }
+        },
+        {
+          "code": "H01J 49/34",
+          "title": {
+            "ko": "동적 분광기",
+            "en": "Dynamic spectrometers"
+          }
+        },
+        {
+          "code": "H01J 49/36",
+          "title": {
+            "ko": null,
+            "en": "Radio frequency spectrometers, e.g. Bennett-type spectrometers;  Redhead-type spectrometers"
+          }
+        },
+        {
+          "code": "H01J 49/38",
+          "title": {
+            "ko": null,
+            "en": "Omegatrons"
+          }
+        },
+        {
+          "code": "H01J 49/40",
+          "title": {
+            "ko": "비행시간형 분광기(H01J 49/36이 우선)",
+            "en": "Time-of-flight spectrometers (H01J0049360000 takes precedence)"
+          }
+        },
+        {
+          "code": "H01J 49/42",
+          "title": {
+            "ko": null,
+            "en": "Stability-of-path spectrometers, e.g. monopole, quadrupole, multipole, farvitrons"
+          }
+        },
+        {
+          "code": "H01J 49/44",
+          "title": {
+            "ko": null,
+            "en": "Energy spectrometers, e.g. alpha-, beta-spectrometers"
+          }
+        },
+        {
+          "code": "H01J 49/46",
+          "title": {
+            "ko": null,
+            "en": "Static spectrometers"
+          }
+        },
+        {
+          "code": "H01J 49/48",
+          "title": {
+            "ko": null,
+            "en": "using electrostatic analysers, e.g. cylindrical sector, Wien filter"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 61/00",
+      "title": {
+        "ko": "기체-방전(Gas‐discharge) 또는 증기방전램프(소모하는 전극이 있는 아크(arc) 램프 H05B; 전계발광램프(electroluminescent lamps) H05B)",
+        "en": "Discharge lamps"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H01J 61/00",
+      "title": {
+        "ko": "기체-방전(Gas‐discharge) 또는 증기방전램프(소모하는 전극이 있는 아크(arc) 램프 H05B; 전계발광램프(electroluminescent lamps) H05B)",
+        "en": "Gas-discharge or vapour-discharge lamps (arc lamps with consumable electrodes H05B;electroluminescent lamps H05B)"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 61/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H01J 61/04",
+          "title": {
+            "ko": "전극(점호용의 것 H01J 61/54); 스크린; 쉴드",
+            "en": "Electrodes (for igniting H01J0061540000); Screens; Shields"
+          }
+        },
+        {
+          "code": "H01J 61/06",
+          "title": {
+            "ko": null,
+            "en": "Main electrodes"
+          }
+        },
+        {
+          "code": "H01J 61/067",
+          "title": {
+            "ko": null,
+            "en": "for low-pressure discharge lamps"
+          }
+        },
+        {
+          "code": "H01J 61/073",
+          "title": {
+            "ko": null,
+            "en": "for high-pressure discharge lamps"
+          }
+        },
+        {
+          "code": "H01J 61/09",
+          "title": {
+            "ko": null,
+            "en": "Hollow cathodes"
+          }
+        },
+        {
+          "code": "H01J 61/10",
+          "title": {
+            "ko": null,
+            "en": "Shield, screens, or guides for influencing the discharge"
+          }
+        },
+        {
+          "code": "H01J 61/12",
+          "title": {
+            "ko": null,
+            "en": "Selection of substances for gas fillings; Specified operating pressure or temperature"
+          }
+        },
+        {
+          "code": "H01J 61/14",
+          "title": {
+            "ko": null,
+            "en": "having one or more carbon compounds as the principal constituents"
+          }
+        },
+        {
+          "code": "H01J 61/16",
+          "title": {
+            "ko": null,
+            "en": "having helium, argon, neon, krypton, or xenon as the principle constituent"
+          }
+        },
+        {
+          "code": "H01J 61/18",
+          "title": {
+            "ko": null,
+            "en": "having a metallic vapour as the principal constituent"
+          }
+        },
+        {
+          "code": "H01J 61/20",
+          "title": {
+            "ko": null,
+            "en": "mercury vapour"
+          }
+        },
+        {
+          "code": "H01J 61/22",
+          "title": {
+            "ko": null,
+            "en": "vapour of an alkali metal"
+          }
+        },
+        {
+          "code": "H01J 61/24",
+          "title": {
+            "ko": null,
+            "en": "Means for obtaining or maintaining the desired pressure within the vessel"
+          }
+        },
+        {
+          "code": "H01J 61/26",
+          "title": {
+            "ko": null,
+            "en": "Means for absorbing or adsorbing gas, e.g. by gettering; Means for preventing blackening of the envelope"
+          }
+        },
+        {
+          "code": "H01J 61/28",
+          "title": {
+            "ko": null,
+            "en": "Means for producing, introducing, or replenishing gas or vapour during operation of the lamp"
+          }
+        },
+        {
+          "code": "H01J 61/30",
+          "title": {
+            "ko": "그릇(vessel); 용기",
+            "en": "Vessels; Containers"
+          }
+        },
+        {
+          "code": "H01J 61/32",
+          "title": {
+            "ko": null,
+            "en": "Special longitudinal shape, e.g. for advertising purposes"
+          }
+        },
+        {
+          "code": "H01J 61/33",
+          "title": {
+            "ko": null,
+            "en": "Special shape of cross-section, e.g. for producing cool spot"
+          }
+        },
+        {
+          "code": "H01J 61/34",
+          "title": {
+            "ko": null,
+            "en": "Double-wall vessels or containers"
+          }
+        },
+        {
+          "code": "H01J 61/35",
+          "title": {
+            "ko": "그 벽상에 코팅이 있는 것; 코팅을 위한 물질의 선택 (색채가 있는 코팅을 이용한 것 H01J61/40; 형광 코팅을 이용한 것 H01J61/42)",
+            "en": "provided with coatings on the walls thereof; Selection of materials for the coatings  (using coloured coatings H01J0061400000; using luminescent coatings H01J0061420000)"
+          }
+        },
+        {
+          "code": "H01J 61/36",
+          "title": {
+            "ko": null,
+            "en": "Seals between parts of vessels; Seals for leading-in conductors; Leading-in conductors"
+          }
+        },
+        {
+          "code": "H01J 61/38",
+          "title": {
+            "ko": null,
+            "en": "Devices for influencing the colour or wavelength of the light"
+          }
+        },
+        {
+          "code": "H01J 61/40",
+          "title": {
+            "ko": null,
+            "en": "by light-filters; by coloured coatings in or on the envelope"
+          }
+        },
+        {
+          "code": "H01J 61/42",
+          "title": {
+            "ko": null,
+            "en": "by transforming the wavelength of the light by luminescence"
+          }
+        },
+        {
+          "code": "H01J 61/44",
+          "title": {
+            "ko": null,
+            "en": "Devices characterised by the luminescent material"
+          }
+        },
+        {
+          "code": "H01J 61/46",
+          "title": {
+            "ko": null,
+            "en": "Devices characterised by the binder or other non-luminescent constituent of the luminescent material, e.g. for obtaining desired pouring or drying properties"
+          }
+        },
+        {
+          "code": "H01J 61/48",
+          "title": {
+            "ko": null,
+            "en": "Separate coatings of different luminous materials"
+          }
+        },
+        {
+          "code": "H01J 61/50",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary parts or solid material within the envelope for reducing risk of explosion upon breakage of the envelope, e.g. for use in mines"
+          }
+        },
+        {
+          "code": "H01J 61/52",
+          "title": {
+            "ko": null,
+            "en": "Cooling arrangements; Heating arrangements; Means for circulating gas or vapour within the discharge space"
+          }
+        },
+        {
+          "code": "H01J 61/54",
+          "title": {
+            "ko": null,
+            "en": "Igniting arrangements, e.g. promoting ionisation for starting"
+          }
+        },
+        {
+          "code": "H01J 61/56",
+          "title": {
+            "ko": null,
+            "en": "One or more circuit elements structurally associated with the lamp"
+          }
+        },
+        {
+          "code": "H01J 61/58",
+          "title": {
+            "ko": null,
+            "en": "Lamps with both liquid anode and liquid cathode"
+          }
+        },
+        {
+          "code": "H01J 61/60",
+          "title": {
+            "ko": null,
+            "en": "Lamps in which the discharge space is substantially filled with mercury before ignition"
+          }
+        },
+        {
+          "code": "H01J 61/62",
+          "title": {
+            "ko": null,
+            "en": "Lamps with gaseous, e.g. plasma cathode"
+          }
+        },
+        {
+          "code": "H01J 61/64",
+          "title": {
+            "ko": null,
+            "en": "Cathode glow lamps"
+          }
+        },
+        {
+          "code": "H01J 61/66",
+          "title": {
+            "ko": null,
+            "en": "having one or more specially shaped cathodes, e.g. for advertising purposes"
+          }
+        },
+        {
+          "code": "H01J 61/68",
+          "title": {
+            "ko": null,
+            "en": "Lamps in which the main discharge is between parts of a current-carrying guide, e.g. halo lamp"
+          }
+        },
+        {
+          "code": "H01J 61/70",
+          "title": {
+            "ko": null,
+            "en": "Lamps with low-pressure unconstricted discharge"
+          }
+        },
+        {
+          "code": "H01J 61/72",
+          "title": {
+            "ko": null,
+            "en": "having a main light-emitting filling of easily vaporisable metal vapour, e.g. mercury"
+          }
+        },
+        {
+          "code": "H01J 61/74",
+          "title": {
+            "ko": null,
+            "en": "having a main light-emitting filling of difficult vaporisable metal vapour, e.g. sodium"
+          }
+        },
+        {
+          "code": "H01J 61/76",
+          "title": {
+            "ko": null,
+            "en": "having a filling of permanent gas or gases only"
+          }
+        },
+        {
+          "code": "H01J 61/78",
+          "title": {
+            "ko": null,
+            "en": "with cold cathode; with cathode heated only by discharge, e.g. high-tension lamp for advertising"
+          }
+        },
+        {
+          "code": "H01J 61/80",
+          "title": {
+            "ko": null,
+            "en": "Lamps suitable only for intermittent operation, e.g. flash lamp"
+          }
+        },
+        {
+          "code": "H01J 61/82",
+          "title": {
+            "ko": null,
+            "en": "Lamps with high-pressure unconstricted discharge"
+          }
+        },
+        {
+          "code": "H01J 61/84",
+          "title": {
+            "ko": null,
+            "en": "Lamps with discharge constricted by high pressure"
+          }
+        },
+        {
+          "code": "H01J 61/86",
+          "title": {
+            "ko": null,
+            "en": "with discharge additionally constricted by close spacing of electrodes, e.g. for optical projection"
+          }
+        },
+        {
+          "code": "H01J 61/88",
+          "title": {
+            "ko": null,
+            "en": "with discharge additionally constricted by envelope"
+          }
+        },
+        {
+          "code": "H01J 61/90",
+          "title": {
+            "ko": null,
+            "en": "Lamps suitable only for intermittent operation, e.g. flash lamp"
+          }
+        },
+        {
+          "code": "H01J 61/92",
+          "title": {
+            "ko": null,
+            "en": "Lamps with more than one main discharge path"
+          }
+        },
+        {
+          "code": "H01J 61/94",
+          "title": {
+            "ko": null,
+            "en": "Paths producing light of different wavelengths, e.g. for simulating daylight"
+          }
+        },
+        {
+          "code": "H01J 61/95",
+          "title": {
+            "ko": null,
+            "en": "Lamps with control electrode for varying intensity or wavelength of the light, e.g. for producing modulated light"
+          }
+        },
+        {
+          "code": "H01J 61/96",
+          "title": {
+            "ko": null,
+            "en": "Lamps with light-emitting discharge path and separately-heated incandescent body within a common envelope, e.g. for simulating daylight"
+          }
+        },
+        {
+          "code": "H01J 61/98",
+          "title": {
+            "ko": null,
+            "en": "Lamps with closely spaced electrodes heated to incandescence by light-emitting discharge, e.g. tungsten arc lamp"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 63/00",
+      "title": {
+        "ko": null,
+        "en": "Cathode-ray or electron-stream lamps"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 63/02",
+          "title": {
+            "ko": null,
+            "en": "Details, e.g. electrode, gas filling, shape of vessel"
+          }
+        },
+        {
+          "code": "H01J 63/04",
+          "title": {
+            "ko": null,
+            "en": "Vessels provided with luminescent coatings; Selection of materials for the coatings"
+          }
+        },
+        {
+          "code": "H01J 63/06",
+          "title": {
+            "ko": null,
+            "en": "Lamps with luminescent screen excited by the ray or stream"
+          }
+        },
+        {
+          "code": "H01J 63/08",
+          "title": {
+            "ko": null,
+            "en": "Lamps with gas plasma excited by the ray or stream"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 65/00",
+      "title": {
+        "ko": null,
+        "en": "Lamps without any electrode inside the vessel; Lamps with at least one main electrode outside the vessel"
+      },
+      "subgroups": [
+        {
+          "code": "H01J 65/04",
+          "title": {
+            "ko": null,
+            "en": "Lamps in which a gas filling is excited to luminesce by an external electromagnetic field or by external corpuscular radiation, e.g. for indicating"
+          }
+        },
+        {
+          "code": "H01J 65/06",
+          "title": {
+            "ko": null,
+            "en": "Lamps in which a gas filling is excited to luminesce by radioactive material structurally associated with the lamp, e.g. inside the vessel"
+          }
+        },
+        {
+          "code": "H01J 65/08",
+          "title": {
+            "ko": null,
+            "en": "Lamps in which a screen or coating is excited to luminesce by radioactive material located inside the vessel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H01J 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+version: 2
+description: "Contract manifest — DRC P{NN} 전용. 각 persona 의 stage output schemas + 공용 contracts."
+
+# Top-level shared schemas
+shared:
+  - file: _shared/chain_manifest.schema.json
+  - file: _shared/drawing-manifest.schema.json
+  - file: _shared/health.schema.json
+  - file: _shared/invention-object-model.schema.json
+  - file: _shared/pipeline-definition.schema.json
+  - file: _shared/reasoning_task.schema.json
+  - file: _shared/manifest.context.schema.json
+
+# Per-persona stage output schemas
+personas:
+  - id: 1
+    name: buddy
+    stages:
+      - id: append-conversation-output
+        file: 01.buddy/stages/append-conversation-output.schema.json
+      - id: chat-assess-output
+        file: 01.buddy/stages/chat-assess-output.schema.json
+      - id: chat-compose-output
+        file: 01.buddy/stages/chat-compose-output.schema.json
+  - id: 2
+    name: director
+    stages:
+      - id: agentic-evaluation-loop-output
+        file: 02.director/stages/agentic-evaluation-loop-output.schema.json
+      - id: aggregate-inspect-output
+        file: 02.director/stages/aggregate-inspect-output.schema.json
+      - id: analyze-gaps-output
+        file: 02.director/stages/analyze-gaps-output.schema.json
+      - id: claims-mapping-plan-output
+        file: 02.director/stages/claims-mapping-plan-output.schema.json
+      - id: classify-shard-a-output
+        file: 02.director/stages/classify-shard-a-output.schema.json
+      - id: classify-shard-b-output
+        file: 02.director/stages/classify-shard-b-output.schema.json
+      - id: classify-shard-output
+        file: 02.director/stages/classify-shard-output.schema.json
+      - id: dl-batch-decision-output
+        file: 02.director/stages/dl-batch-decision-output.schema.json
+      - id: dl-generation-plan-output
+        file: 02.director/stages/dl-generation-plan-output.schema.json
+      - id: drawings-for-numerals-plan-output
+        file: 02.director/stages/drawings-for-numerals-plan-output.schema.json
+      - id: drawings-summary-output
+        file: 02.director/stages/drawings-summary-output.schema.json
+      - id: extract-known-facts-output
+        file: 02.director/stages/extract-known-facts-output.schema.json
+      - id: generate-drawing-list-output
+        file: 02.director/stages/generate-drawing-list-output.schema.json
+      - id: inspect-plan-output
+        file: 02.director/stages/inspect-plan-output.schema.json
+      - id: inspect-targets-output
+        file: 02.director/stages/inspect-targets-output.schema.json
+      - id: load_rejections_section-output
+        file: 02.director/stages/load_rejections_section-output.schema.json
+      - id: merge-candidates-output
+        file: 02.director/stages/merge-candidates-output.schema.json
+      - id: merge-renders-output
+        file: 02.director/stages/merge-renders-output.schema.json
+      - id: numerals-batch-decision-output
+        file: 02.director/stages/numerals-batch-decision-output.schema.json
+      - id: pinpoint-group-output
+        file: 02.director/stages/pinpoint-group-output.schema.json
+      - id: prepare-evaluation-context-output
+        file: 02.director/stages/prepare-evaluation-context-output.schema.json
+      - id: render-plan-output
+        file: 02.director/stages/render-plan-output.schema.json
+      - id: review-claims-output
+        file: 02.director/stages/review-claims-output.schema.json
+      - id: review-dl-batch-output
+        file: 02.director/stages/review-dl-batch-output.schema.json
+      - id: review-drawing-list-output
+        file: 02.director/stages/review-drawing-list-output.schema.json
+      - id: review-numerals-batch-output
+        file: 02.director/stages/review-numerals-batch-output.schema.json
+      - id: save-drawing-artifacts-output
+        file: 02.director/stages/save-drawing-artifacts-output.schema.json
+      - id: shortlist-in-shard-output
+        file: 02.director/stages/shortlist-in-shard-output.schema.json
+      - id: subclass-load-plan-output
+        file: 02.director/stages/subclass-load-plan-output.schema.json
+      - id: summarize-invention-output
+        file: 02.director/stages/summarize-invention-output.schema.json
+      - id: validate-and-plan-output
+        file: 02.director/stages/validate-and-plan-output.schema.json
+  - id: 3
+    name: finder
+    stages:
+      - id: analyze-output
+        file: 03.finder/stages/analyze-output.schema.json
+      - id: claim-chart-output
+        file: 03.finder/stages/claim-chart-output.schema.json
+      - id: dedupe-rank-output
+        file: 03.finder/stages/dedupe-rank-output.schema.json
+      - id: fetch_patents-output
+        file: 03.finder/stages/fetch_patents-output.schema.json
+      - id: query-plan-output
+        file: 03.finder/stages/query-plan-output.schema.json
+      - id: reflect-output
+        file: 03.finder/stages/reflect-output.schema.json
+      - id: search-output
+        file: 03.finder/stages/search-output.schema.json
+      - id: synthesis-output
+        file: 03.finder/stages/synthesis-output.schema.json
+      - id: synthesize-risk-output
+        file: 03.finder/stages/synthesize-risk-output.schema.json
+  - id: 4
+    name: thinker
+    stages:
+      - id: consistency-verification-output
+        file: 04.thinker/stages/consistency-verification-output.schema.json
+      - id: domain-identification-output
+        file: 04.thinker/stages/domain-identification-output.schema.json
+      - id: draft-claims-output
+        file: 04.thinker/stages/draft-claims-output.schema.json
+      - id: extract-output
+        file: 04.thinker/stages/extract-output.schema.json
+      - id: gap-deepening-output
+        file: 04.thinker/stages/gap-deepening-output.schema.json
+      - id: logical-decomposition-output
+        file: 04.thinker/stages/logical-decomposition-output.schema.json
+      - id: question-synthesis-output
+        file: 04.thinker/stages/question-synthesis-output.schema.json
+      - id: self-check-output
+        file: 04.thinker/stages/self-check-output.schema.json
+      - id: verify-output
+        file: 04.thinker/stages/verify-output.schema.json
+  - id: 5
+    name: crafter
+    stages:
+      - id: generate-dl-code-output
+        file: 05.crafter/stages/generate-dl-code-output.schema.json
+      - id: render-drawing-output
+        file: 05.crafter/stages/render-drawing-output.schema.json
+      - id: select-tool-output
+        file: 05.crafter/stages/select-tool-output.schema.json
+  - id: 6
+    name: inspector
+    stages:
+      - id: review-drawing-output
+        file: 06.inspector/stages/review-drawing-output.schema.json

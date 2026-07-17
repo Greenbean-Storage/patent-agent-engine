@@ -1,0 +1,1173 @@
+{
+  "subclass": "G06T",
+  "title": {
+    "ko": "이미지 데이터 처리 또는 발생, 일반",
+    "en": "IMAGE DATA PROCESSING OR GENERATION, IN GENERAL"
+  },
+  "definition": {
+    "ko": "범용 이미지 데이터 처리 G06T1/00 이미지 평면의 기하학적 이미지 변환 G06T3/00 이미지 향상 또는 복원 G06T5/00 이미지 분석 G06T7/00 이미지 코딩 G06T9/00 2D [2차원] 이미지 생성 G06T11/00 애니메이션 G06T13/00 3D [3차원] 이미지 렌더링 G06T15/00 컴퓨터 그래픽을 위한 3D 모델링 G06T17/00 컴퓨터 그래픽용 3D 모델 또는 이미지 조작 G06T19/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G06T 1/00",
+      "title": {
+        "ko": null,
+        "en": "General purpose image data processing"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 1/20",
+          "title": {
+            "ko": null,
+            "en": "Processor architectures; Processor configuration, e.g. pipelining"
+          }
+        },
+        {
+          "code": "G06T 1/40",
+          "title": {
+            "ko": null,
+            "en": "Neural networks"
+          }
+        },
+        {
+          "code": "G06T 1/60",
+          "title": {
+            "ko": null,
+            "en": "Memory management"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 3/00",
+      "title": {
+        "ko": "이미지 평면의 기하학적 이미지 변환",
+        "en": "Geometric image transformations in the plane of the image"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 3/02",
+          "title": {
+            "ko": "아핀 변환(이미지 등록용 G06T3/147, 이미지 모자이크용 G06T3/4038)",
+            "en": "Affine transformations (for image registration G06T0003147000;for image mosaicing G06T0003403800)"
+          }
+        },
+        {
+          "code": "G06T 3/04",
+          "title": {
+            "ko": "컨텍스트 보존 변환, 예. 중요도 맵 사용(파노스피어에서 원통형 이미지 변환 G06T3/12)",
+            "en": "Context-preserving transformations, e.g. by using an importance map (panospheric to cylindrical image transformations G06T0003120000)"
+          }
+        },
+        {
+          "code": "G06T 3/047",
+          "title": {
+            "ko": null,
+            "en": "Fisheye or wide-angle transformations"
+          }
+        },
+        {
+          "code": "G06T 3/053",
+          "title": {
+            "ko": "상황에 맞는 세부 프레젠테이션(어안 또는 광각 변환 G06T3/047)",
+            "en": "Detail-in-context presentations (fisheye or wide-angle transformations G06T0003047000)"
+          }
+        },
+        {
+          "code": "G06T 3/06",
+          "title": {
+            "ko": null,
+            "en": "Topological mapping of higher dimensional structures onto lower dimensional surfaces"
+          }
+        },
+        {
+          "code": "G06T 3/067",
+          "title": {
+            "ko": null,
+            "en": "Reshaping or unfolding three-dimensional [3D] tree structures onto two-dimensional [2D] planes"
+          }
+        },
+        {
+          "code": "G06T 3/073",
+          "title": {
+            "ko": null,
+            "en": "Transforming surfaces of revolution to planar images, e.g. cylindrical surfaces to planar images"
+          }
+        },
+        {
+          "code": "G06T 3/08",
+          "title": {
+            "ko": null,
+            "en": "Projecting images onto non-planar surfaces, e.g. geodetic screens"
+          }
+        },
+        {
+          "code": "G06T 3/10",
+          "title": {
+            "ko": null,
+            "en": "Selection of transformation methods according to the characteristics of the input images"
+          }
+        },
+        {
+          "code": "G06T 3/12",
+          "title": {
+            "ko": null,
+            "en": "Panospheric to cylindrical image transformations"
+          }
+        },
+        {
+          "code": "G06T 3/14",
+          "title": {
+            "ko": null,
+            "en": "Transformations for image registration, e.g. adjusting or mapping for alignment of images"
+          }
+        },
+        {
+          "code": "G06T 3/147",
+          "title": {
+            "ko": null,
+            "en": "using affine transformations"
+          }
+        },
+        {
+          "code": "G06T 3/153",
+          "title": {
+            "ko": null,
+            "en": "using elastic snapping"
+          }
+        },
+        {
+          "code": "G06T 3/16",
+          "title": {
+            "ko": null,
+            "en": "Spatio-temporal transformations, e.g. video cubism"
+          }
+        },
+        {
+          "code": "G06T 3/18",
+          "title": {
+            "ko": null,
+            "en": "Image warping, e.g. rearranging pixels individually"
+          }
+        },
+        {
+          "code": "G06T 3/20",
+          "title": {
+            "ko": null,
+            "en": "Linear translation of whole images or parts thereof, e.g. panning"
+          }
+        },
+        {
+          "code": "G06T 3/40",
+          "title": {
+            "ko": "전체 이미지 또는 그 일부의 크기 조정, 예. 확장 또는 축소",
+            "en": "Scaling of whole images or parts thereof, e.g. expanding or contracting"
+          }
+        },
+        {
+          "code": "G06T 3/4007",
+          "title": {
+            "ko": "보간법 기반, 예. 이중선형 보간(이미지 디모자이크 G06T3/4015, 에지 중심 또는 에지 기반 스케일링 G06T3/403)",
+            "en": "based on interpolation, e.g. bilinear interpolation (image demosaicing G06T0003401500;edge-driven or edge-based scaling G06T0003403000)"
+          }
+        },
+        {
+          "code": "G06T 3/4015",
+          "title": {
+            "ko": null,
+            "en": "Image demosaicing, e.g. colour filter arrays [CFA] or Bayer patterns"
+          }
+        },
+        {
+          "code": "G06T 3/4023",
+          "title": {
+            "ko": null,
+            "en": "based on decimating pixels or lines of pixels; based on inserting pixels or lines of pixels"
+          }
+        },
+        {
+          "code": "G06T 3/403",
+          "title": {
+            "ko": null,
+            "en": "Edge-driven scaling; Edge-based scaling"
+          }
+        },
+        {
+          "code": "G06T 3/4038",
+          "title": {
+            "ko": null,
+            "en": "Image mosaicing, e.g. composing plane images from plane sub-images"
+          }
+        },
+        {
+          "code": "G06T 3/4046",
+          "title": {
+            "ko": null,
+            "en": "using neural networks"
+          }
+        },
+        {
+          "code": "G06T 3/4053",
+          "title": {
+            "ko": null,
+            "en": "based on super-resolution, i.e. the output image resolution being higher than the sensor resolution"
+          }
+        },
+        {
+          "code": "G06T 3/4061",
+          "title": {
+            "ko": null,
+            "en": "by injecting details from different spectral ranges"
+          }
+        },
+        {
+          "code": "G06T 3/4069",
+          "title": {
+            "ko": null,
+            "en": "by subpixel displacements"
+          }
+        },
+        {
+          "code": "G06T 3/4076",
+          "title": {
+            "ko": null,
+            "en": "using the original low-resolution images to iteratively correct the high-resolution images"
+          }
+        },
+        {
+          "code": "G06T 3/4084",
+          "title": {
+            "ko": null,
+            "en": "in the transform domain, e.g. fast Fourier transform [FFT] domain scaling"
+          }
+        },
+        {
+          "code": "G06T 3/4092",
+          "title": {
+            "ko": null,
+            "en": "Image resolution transcoding, e.g. by using client-server architectures"
+          }
+        },
+        {
+          "code": "G06T 3/60",
+          "title": {
+            "ko": null,
+            "en": "Rotation of whole images or parts thereof"
+          }
+        },
+        {
+          "code": "G06T 3/602",
+          "title": {
+            "ko": null,
+            "en": "by block rotation, e.g. by recursive reversal or rotation"
+          }
+        },
+        {
+          "code": "G06T 3/604",
+          "title": {
+            "ko": null,
+            "en": "using coordinate rotation digital computer [CORDIC] devices"
+          }
+        },
+        {
+          "code": "G06T 3/606",
+          "title": {
+            "ko": null,
+            "en": "by memory addressing or mapping"
+          }
+        },
+        {
+          "code": "G06T 3/608",
+          "title": {
+            "ko": null,
+            "en": "by skew deformation, e.g. two-pass or three-pass rotation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 5/00",
+      "title": {
+        "ko": null,
+        "en": "Image enhancement or restoration"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 5/10",
+          "title": {
+            "ko": null,
+            "en": "using non-spatial domain filtering"
+          }
+        },
+        {
+          "code": "G06T 5/20",
+          "title": {
+            "ko": null,
+            "en": "using local operators"
+          }
+        },
+        {
+          "code": "G06T 5/30",
+          "title": {
+            "ko": null,
+            "en": "Erosion or dilatation, e.g. thinning"
+          }
+        },
+        {
+          "code": "G06T 5/40",
+          "title": {
+            "ko": null,
+            "en": "using histogram techniques"
+          }
+        },
+        {
+          "code": "G06T 5/50",
+          "title": {
+            "ko": null,
+            "en": "using two or more images, e.g. averaging or subtraction"
+          }
+        },
+        {
+          "code": "G06T 5/60",
+          "title": {
+            "ko": null,
+            "en": "using machine learning, e.g. neural networks"
+          }
+        },
+        {
+          "code": "G06T 5/70",
+          "title": {
+            "ko": null,
+            "en": "Denoising; Smoothing"
+          }
+        },
+        {
+          "code": "G06T 5/73",
+          "title": {
+            "ko": null,
+            "en": "Deblurring; Sharpening"
+          }
+        },
+        {
+          "code": "G06T 5/75",
+          "title": {
+            "ko": null,
+            "en": "Unsharp masking"
+          }
+        },
+        {
+          "code": "G06T 5/77",
+          "title": {
+            "ko": null,
+            "en": "Retouching; Inpainting; Scratch removal"
+          }
+        },
+        {
+          "code": "G06T 5/80",
+          "title": {
+            "ko": null,
+            "en": "Geometric correction"
+          }
+        },
+        {
+          "code": "G06T 5/90",
+          "title": {
+            "ko": null,
+            "en": "Dynamic range modification of images or parts thereof"
+          }
+        },
+        {
+          "code": "G06T 5/92",
+          "title": {
+            "ko": null,
+            "en": "based on global image properties"
+          }
+        },
+        {
+          "code": "G06T 5/94",
+          "title": {
+            "ko": null,
+            "en": "based on local image properties, e.g. for local contrast enhancement"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 7/00",
+      "title": {
+        "ko": "이미지 분석",
+        "en": "Image analysis"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 7/10",
+          "title": {
+            "ko": "분할; 엣지 검출(모션-기반 분할 G06T 7/125)",
+            "en": "Segmentation; Edge detection  (motion-based segmentation G06T0007215000)"
+          },
+          "definition": {
+            "ko": "G06T7/11 ~ G06T7/13 그룹으로 분류할 때 G06T7/136 ~ G06T7/194의 관련 그룹에서도 분류됩니다.",
+            "en": null
+          }
+        },
+        {
+          "code": "G06T 7/11",
+          "title": {
+            "ko": null,
+            "en": "Region-based segmentation"
+          }
+        },
+        {
+          "code": "G06T 7/12",
+          "title": {
+            "ko": null,
+            "en": "Edge-based segmentation"
+          }
+        },
+        {
+          "code": "G06T 7/13",
+          "title": {
+            "ko": null,
+            "en": "Edge detection"
+          }
+        },
+        {
+          "code": "G06T 7/136",
+          "title": {
+            "ko": null,
+            "en": "involving thresholding"
+          }
+        },
+        {
+          "code": "G06T 7/143",
+          "title": {
+            "ko": null,
+            "en": "involving probabilistic approaches, e.g. Markov random field [MRF] modelling"
+          }
+        },
+        {
+          "code": "G06T 7/149",
+          "title": {
+            "ko": null,
+            "en": "involving deformable models, e.g. active contour models"
+          }
+        },
+        {
+          "code": "G06T 7/155",
+          "title": {
+            "ko": null,
+            "en": "involving morphological operators"
+          }
+        },
+        {
+          "code": "G06T 7/162",
+          "title": {
+            "ko": null,
+            "en": "involving graph-based methods"
+          }
+        },
+        {
+          "code": "G06T 7/168",
+          "title": {
+            "ko": null,
+            "en": "involving transform domain methods"
+          }
+        },
+        {
+          "code": "G06T 7/174",
+          "title": {
+            "ko": null,
+            "en": "involving the use of two or more images"
+          }
+        },
+        {
+          "code": "G06T 7/181",
+          "title": {
+            "ko": null,
+            "en": "involving edge growing; involving edge linking"
+          }
+        },
+        {
+          "code": "G06T 7/187",
+          "title": {
+            "ko": null,
+            "en": "involving region growing; involving region merging; involving connected component labelling"
+          }
+        },
+        {
+          "code": "G06T 7/194",
+          "title": {
+            "ko": null,
+            "en": "involving foreground-background segmentation"
+          }
+        },
+        {
+          "code": "G06T 7/20",
+          "title": {
+            "ko": "모션분석 (디지털 비디오 신호의 코딩, 디코딩, 압축 또는 압축 해제를위한 모션 추정 H04N 19/43, H04N 19/51)",
+            "en": "Analysis of motion   (motion estimation for coding, decoding, compressing or decompressing digital video signals H04N0019430000, H04N0019510000)"
+          }
+        },
+        {
+          "code": "G06T 7/207",
+          "title": {
+            "ko": "해상도의 체계상의 모션 측정 (디지털 비디오 신호의 코딩, 디코딩, 압축 또는 압축 해제를위한 다중 해상도 모션 추정 또는 계층 적 모션 추정 H04N19/53)",
+            "en": "for motion estimation over a hierarchy of resolutions  (multi-resolution motion estimation or hierarchical motion estimation for coding, decoding, compressing or decompressing digital video signals H04N0019530000)"
+          }
+        },
+        {
+          "code": "G06T 7/215",
+          "title": {
+            "ko": null,
+            "en": "Motion-based segmentation"
+          }
+        },
+        {
+          "code": "G06T 7/223",
+          "title": {
+            "ko": null,
+            "en": "using block-matching"
+          }
+        },
+        {
+          "code": "G06T 7/231",
+          "title": {
+            "ko": null,
+            "en": "using full search"
+          }
+        },
+        {
+          "code": "G06T 7/238",
+          "title": {
+            "ko": null,
+            "en": "using non-full search, e.g. three-step search"
+          }
+        },
+        {
+          "code": "G06T 7/246",
+          "title": {
+            "ko": null,
+            "en": "using feature-based methods, e.g. the tracking of corners or segments"
+          }
+        },
+        {
+          "code": "G06T 7/254",
+          "title": {
+            "ko": null,
+            "en": "involving subtraction of images"
+          }
+        },
+        {
+          "code": "G06T 7/262",
+          "title": {
+            "ko": null,
+            "en": "using transform domain methods, e.g. Fourier domain methods"
+          }
+        },
+        {
+          "code": "G06T 7/269",
+          "title": {
+            "ko": null,
+            "en": "using gradient-based methods"
+          }
+        },
+        {
+          "code": "G06T 7/277",
+          "title": {
+            "ko": null,
+            "en": "involving stochastic approaches, e.g. using Kalman filters"
+          }
+        },
+        {
+          "code": "G06T 7/285",
+          "title": {
+            "ko": null,
+            "en": "using a sequence of stereo image pairs"
+          }
+        },
+        {
+          "code": "G06T 7/292",
+          "title": {
+            "ko": null,
+            "en": "Multi-camera tracking"
+          }
+        },
+        {
+          "code": "G06T 7/30",
+          "title": {
+            "ko": null,
+            "en": "Determination of transform parameters for the alignment of images, i.e. image registration"
+          }
+        },
+        {
+          "code": "G06T 7/32",
+          "title": {
+            "ko": null,
+            "en": "using correlation-based methods"
+          }
+        },
+        {
+          "code": "G06T 7/33",
+          "title": {
+            "ko": null,
+            "en": "using feature-based methods"
+          }
+        },
+        {
+          "code": "G06T 7/35",
+          "title": {
+            "ko": null,
+            "en": "using statistical methods"
+          }
+        },
+        {
+          "code": "G06T 7/37",
+          "title": {
+            "ko": null,
+            "en": "using transform domain methods"
+          }
+        },
+        {
+          "code": "G06T 7/38",
+          "title": {
+            "ko": null,
+            "en": "Registration of image sequences"
+          }
+        },
+        {
+          "code": "G06T 7/40",
+          "title": {
+            "ko": "텍스처(texture)의 분석 (텍스쳐로부터의 깊이 또는 형태 회복 G06T7/529)",
+            "en": "Analysis of texture  (depth or shape recovery from texture G06T0007529000)"
+          }
+        },
+        {
+          "code": "G06T 7/41",
+          "title": {
+            "ko": null,
+            "en": "based on statistical description of texture"
+          }
+        },
+        {
+          "code": "G06T 7/42",
+          "title": {
+            "ko": null,
+            "en": "using transform domain methods"
+          }
+        },
+        {
+          "code": "G06T 7/44",
+          "title": {
+            "ko": null,
+            "en": "using image operators, e.g. filters, edge density metrics or local histograms"
+          }
+        },
+        {
+          "code": "G06T 7/45",
+          "title": {
+            "ko": null,
+            "en": "using co-occurrence matrix computation"
+          }
+        },
+        {
+          "code": "G06T 7/46",
+          "title": {
+            "ko": null,
+            "en": "using random fields"
+          }
+        },
+        {
+          "code": "G06T 7/48",
+          "title": {
+            "ko": null,
+            "en": "using fractals"
+          }
+        },
+        {
+          "code": "G06T 7/49",
+          "title": {
+            "ko": null,
+            "en": "based on structural texture description, e.g. using primitives or placement rules"
+          }
+        },
+        {
+          "code": "G06T 7/50",
+          "title": {
+            "ko": "깊이 또는 형태 복구",
+            "en": "Depth or shape recovery"
+          }
+        },
+        {
+          "code": "G06T 7/507",
+          "title": {
+            "ko": "음영으로부터의 것(G06T 7/586 takes precedence)",
+            "en": "from shading  (G06T0007586000 takes precedence)"
+          }
+        },
+        {
+          "code": "G06T 7/514",
+          "title": {
+            "ko": null,
+            "en": "from specularities"
+          }
+        },
+        {
+          "code": "G06T 7/521",
+          "title": {
+            "ko": null,
+            "en": "from laser ranging, e.g. using interferometry; from the projection of structured light"
+          }
+        },
+        {
+          "code": "G06T 7/529",
+          "title": {
+            "ko": null,
+            "en": "from texture"
+          }
+        },
+        {
+          "code": "G06T 7/536",
+          "title": {
+            "ko": null,
+            "en": "from perspective effects, e.g. by using vanishing points"
+          }
+        },
+        {
+          "code": "G06T 7/543",
+          "title": {
+            "ko": null,
+            "en": "from line drawings"
+          }
+        },
+        {
+          "code": "G06T 7/55",
+          "title": {
+            "ko": null,
+            "en": "from multiple images"
+          }
+        },
+        {
+          "code": "G06T 7/557",
+          "title": {
+            "ko": null,
+            "en": "from light fields, e.g. from plenoptic cameras"
+          }
+        },
+        {
+          "code": "G06T 7/564",
+          "title": {
+            "ko": null,
+            "en": "from contours"
+          }
+        },
+        {
+          "code": "G06T 7/571",
+          "title": {
+            "ko": null,
+            "en": "from focus"
+          }
+        },
+        {
+          "code": "G06T 7/579",
+          "title": {
+            "ko": null,
+            "en": "from motion"
+          }
+        },
+        {
+          "code": "G06T 7/586",
+          "title": {
+            "ko": null,
+            "en": "from multiple light sources, e.g. photometric stereo"
+          }
+        },
+        {
+          "code": "G06T 7/593",
+          "title": {
+            "ko": null,
+            "en": "from stereo images"
+          }
+        },
+        {
+          "code": "G06T 7/60",
+          "title": {
+            "ko": null,
+            "en": "Analysis of geometric attributes"
+          }
+        },
+        {
+          "code": "G06T 7/62",
+          "title": {
+            "ko": null,
+            "en": "of area, perimeter, diameter or volume"
+          }
+        },
+        {
+          "code": "G06T 7/64",
+          "title": {
+            "ko": null,
+            "en": "of convexity or concavity"
+          }
+        },
+        {
+          "code": "G06T 7/66",
+          "title": {
+            "ko": null,
+            "en": "of image moments or centre of gravity"
+          }
+        },
+        {
+          "code": "G06T 7/68",
+          "title": {
+            "ko": null,
+            "en": "of symmetry"
+          }
+        },
+        {
+          "code": "G06T 7/70",
+          "title": {
+            "ko": "물체 또는 카메라의 위치 또는 방향 결정 (카메라 보정 G06T7/80)",
+            "en": "Determining position or orientation of objects or cameras (camera calibration G06T0007800000)"
+          }
+        },
+        {
+          "code": "G06T 7/73",
+          "title": {
+            "ko": null,
+            "en": "using feature-based methods"
+          }
+        },
+        {
+          "code": "G06T 7/77",
+          "title": {
+            "ko": null,
+            "en": "using statistical methods"
+          }
+        },
+        {
+          "code": "G06T 7/80",
+          "title": {
+            "ko": null,
+            "en": "Analysis of captured images to determine intrinsic or extrinsic camera parameters, i.e. camera calibration"
+          }
+        },
+        {
+          "code": "G06T 7/90",
+          "title": {
+            "ko": null,
+            "en": "Determination of colour characteristics"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 9/00",
+      "title": {
+        "ko": "이미지 부호화 (정지화상을 위한 대역 또는 중복도의 감소 H04N1/41; 정지 컬러 화상 신호의 부호화 또는 복호화 H04N1/64; 디지털 비디오 신호를 부호화, 복호화, 압축 또는 신장하기 위한 방법 또는 장치 H04N19/00)",
+        "en": "Image coding  (bandwidth or redundancy reduction for static pictures H04N0001410000;  coding or decoding of static colour picture signals H04N0001640000;  methods or arrangements for coding, decoding, compressing or decompressing digital video signals H04N0019000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 9/20",
+          "title": {
+            "ko": null,
+            "en": "Contour coding, e.g. using detection of edges"
+          }
+        },
+        {
+          "code": "G06T 9/40",
+          "title": {
+            "ko": null,
+            "en": "Tree coding, e.g. quadtree, octree"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 11/00",
+      "title": {
+        "ko": "2차원 [2D] 이미지 생성",
+        "en": "Two-dimensional [2D] image generation"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 11/10",
+          "title": {
+            "ko": null,
+            "en": "Texturing; Colouring; Generation of textures or colours  (retouching, inpainting or scratch removal G06T0005770000)"
+          }
+        },
+        {
+          "code": "G06T 11/20",
+          "title": {
+            "ko": null,
+            "en": "Drawing from basic elements"
+          }
+        },
+        {
+          "code": "G06T 11/23",
+          "title": {
+            "ko": null,
+            "en": "using straight lines or curves"
+          }
+        },
+        {
+          "code": "G06T 11/26",
+          "title": {
+            "ko": null,
+            "en": "Drawing of charts or graphs"
+          }
+        },
+        {
+          "code": "G06T 11/40",
+          "title": {
+            "ko": null,
+            "en": "Filling planar surfaces by adding surface attributes, e.g. adding colours or textures"
+          }
+        },
+        {
+          "code": "G06T 11/60",
+          "title": {
+            "ko": null,
+            "en": "Creating or editing images; Combining images with text"
+          }
+        },
+        {
+          "code": "G06T 11/65",
+          "title": {
+            "ko": null,
+            "en": "on geographic maps"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 12/00",
+      "title": {
+        "ko": null,
+        "en": "Tomographic reconstruction from projections"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 12/10",
+          "title": {
+            "ko": null,
+            "en": "Image preprocessing, e.g. calibration, positioning of sources or scatter correction"
+          }
+        },
+        {
+          "code": "G06T 12/20",
+          "title": {
+            "ko": null,
+            "en": "Inverse problem, i.e. transformations from projection space into object space"
+          }
+        },
+        {
+          "code": "G06T 12/30",
+          "title": {
+            "ko": null,
+            "en": "Image post-processing, e.g. metal artefact correction"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 13/00",
+      "title": {
+        "ko": "애니메이션",
+        "en": "Animation"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 13/20",
+          "title": {
+            "ko": "3차원 [3D] 애니메이션",
+            "en": "Three-dimensional [3D] animation"
+          }
+        },
+        {
+          "code": "G06T 13/40",
+          "title": {
+            "ko": null,
+            "en": "of characters, e.g. humans, animals or virtual beings"
+          }
+        },
+        {
+          "code": "G06T 13/60",
+          "title": {
+            "ko": null,
+            "en": "of natural phenomena, e.g. rain, snow, water or plants"
+          }
+        },
+        {
+          "code": "G06T 13/80",
+          "title": {
+            "ko": "2차원 [2D] 애니메이션, 예. 스프라이트를 사용하는 것",
+            "en": "Two-dimensional [2D] animation, e.g. using sprites"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 15/00",
+      "title": {
+        "ko": "3차원 [3D] 영상 렌더링",
+        "en": "Three-dimensional [3D] image rendering"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 15/02",
+          "title": {
+            "ko": null,
+            "en": "Non-photorealistic rendering"
+          }
+        },
+        {
+          "code": "G06T 15/04",
+          "title": {
+            "ko": null,
+            "en": "Texture mapping"
+          }
+        },
+        {
+          "code": "G06T 15/06",
+          "title": {
+            "ko": null,
+            "en": "Ray-tracing"
+          }
+        },
+        {
+          "code": "G06T 15/08",
+          "title": {
+            "ko": null,
+            "en": "Volume rendering"
+          }
+        },
+        {
+          "code": "G06T 15/10",
+          "title": {
+            "ko": null,
+            "en": "Geometric effects"
+          }
+        },
+        {
+          "code": "G06T 15/20",
+          "title": {
+            "ko": null,
+            "en": "Perspective computation"
+          }
+        },
+        {
+          "code": "G06T 15/30",
+          "title": {
+            "ko": null,
+            "en": "Clipping"
+          }
+        },
+        {
+          "code": "G06T 15/40",
+          "title": {
+            "ko": null,
+            "en": "Hidden part removal"
+          }
+        },
+        {
+          "code": "G06T 15/50",
+          "title": {
+            "ko": null,
+            "en": "Lighting effects"
+          }
+        },
+        {
+          "code": "G06T 15/55",
+          "title": {
+            "ko": null,
+            "en": "Radiosity"
+          }
+        },
+        {
+          "code": "G06T 15/60",
+          "title": {
+            "ko": null,
+            "en": "Shadow generation"
+          }
+        },
+        {
+          "code": "G06T 15/80",
+          "title": {
+            "ko": null,
+            "en": "Shading"
+          }
+        },
+        {
+          "code": "G06T 15/83",
+          "title": {
+            "ko": null,
+            "en": "Phong shading"
+          }
+        },
+        {
+          "code": "G06T 15/87",
+          "title": {
+            "ko": null,
+            "en": "Gouraud shading"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 17/00",
+      "title": {
+        "ko": "컴퓨터 그래픽용 3차원 [3D] 모델링",
+        "en": "Three-dimensional [3D] modelling for computer graphics"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 17/05",
+          "title": {
+            "ko": null,
+            "en": "Geographic models"
+          }
+        },
+        {
+          "code": "G06T 17/10",
+          "title": {
+            "ko": null,
+            "en": "Volume description, e.g. cylinders, cubes or using CSG [Constructive Solid Geometry]"
+          }
+        },
+        {
+          "code": "G06T 17/20",
+          "title": {
+            "ko": null,
+            "en": "Wire-frame description, e.g. polygonalisation or tessellation"
+          }
+        },
+        {
+          "code": "G06T 17/30",
+          "title": {
+            "ko": null,
+            "en": "Surface description, e.g. polynomial surface description"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G06T 19/00",
+      "title": {
+        "ko": "컴퓨터 그래픽을 위한 3차원 [3D] 모델 또는 이미지 조작",
+        "en": "Manipulating three-dimensional [3D] models or images for computer graphics"
+      },
+      "subgroups": [
+        {
+          "code": "G06T 19/20",
+          "title": {
+            "ko": "3차원 [3D] 이미지 편집, 예. 모양 또는 색 변화, 객체 정렬 또는 부품 배치",
+            "en": "Editing of three-dimensional [3D] images, e.g. changing shapes or colours, aligning objects or positioning parts"
+          }
+        }
+      ]
+    }
+  ]
+}

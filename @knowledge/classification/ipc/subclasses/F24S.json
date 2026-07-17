@@ -1,0 +1,1013 @@
+{
+  "subclass": "F24S",
+  "title": {
+    "ko": "태양열 집열기; 태양열 시스템 (태양열로부터 기계적인 힘을 생산하기위한 것 F03G 6/00)",
+    "en": "SOLAR HEAT COLLECTORS; SOLAR HEAT SYSTEMS (for producing mechanical power from solar energy F03G0006000000)"
+  },
+  "definition": {
+    "ko": "이 서브클래스에서, 다음 용어 또는 표현은 표시된 의미로 사용됩니다. · 종종 \"모듈\"이라고 불리는 \"태양 집열기 모듈\"은 다음을 포함합니다 : b. 전체 태양 집열기; c. 태양 집열기 요소, 예. 반사경, 렌즈 또는 축열 요소; · \"흡수 요소“는 태양 광선을 흡수하는 요소와 그것을 열로 전환하는 요소를 포함합니다. · \"태양열 시스템\"은 태양 집열기를 구성 요소로 하고, 수집된 열을 사용하는 시스템을 포함합니다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F24S 10/00",
+      "title": {
+        "ko": "작동 유체를 사용하는 태양열 집열기",
+        "en": "Solar heat collectors using working fluids"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 10/10",
+          "title": {
+            "ko": null,
+            "en": "the working fluids forming pools or ponds"
+          }
+        },
+        {
+          "code": "F24S 10/13",
+          "title": {
+            "ko": null,
+            "en": "Salt-gradient ponds"
+          }
+        },
+        {
+          "code": "F24S 10/17",
+          "title": {
+            "ko": null,
+            "en": "using covers or floating solar absorbing elements"
+          }
+        },
+        {
+          "code": "F24S 10/20",
+          "title": {
+            "ko": "2 개 이상의 작동 유체를 사용하는 회로를 갖는 것 (2 개 이상의 유체 사이에서 열교환하는 수단을 가지는 것 F24S 10/30)",
+            "en": "having circuits for two or more working fluids (with means for exchanging heat between two or more fluids F24S0010300000)"
+          }
+        },
+        {
+          "code": "F24S 10/25",
+          "title": {
+            "ko": null,
+            "en": "having two or more passages for the same working fluid layered in the direction of solar rays, e.g. having upper circulation channels connected with lower circulation channels"
+          }
+        },
+        {
+          "code": "F24S 10/30",
+          "title": {
+            "ko": null,
+            "en": "with means for exchanging heat between two or more working fluids"
+          }
+        },
+        {
+          "code": "F24S 10/40",
+          "title": {
+            "ko": null,
+            "en": "in absorbing elements surrounded by transparent enclosures, e.g. evacuated solar heat collectors"
+          }
+        },
+        {
+          "code": "F24S 10/50",
+          "title": {
+            "ko": "작동 유체가 판사이로 유도된 것",
+            "en": "the working fluids being conveyed between plates"
+          }
+        },
+        {
+          "code": "F24S 10/55",
+          "title": {
+            "ko": "확대된 표면이 있는 것, 예. 돌출부 또는 주름이 있는 것 (작동유체와 직접 접촉하는 다공성 물질 또는 투과성 물질을 포함하는 집열체 F24S 10/80)",
+            "en": "with enlarged surfaces, e.g. with protrusions or corrugations  (collectors comprising porous materials or permeable masses directly contacting the working fluids F24S0010800000)"
+          }
+        },
+        {
+          "code": "F24S 10/60",
+          "title": {
+            "ko": null,
+            "en": "the working fluids trickling freely over absorbing elements"
+          }
+        },
+        {
+          "code": "F24S 10/70",
+          "title": {
+            "ko": "작동 유체가 관형 흡수 도관으로 유되는 것",
+            "en": "the working fluids being conveyed through tubular absorbing conduits"
+          }
+        },
+        {
+          "code": "F24S 10/75",
+          "title": {
+            "ko": "확대된 표면이 있는 것, 예. 돌출부 또는 주름이 있는 것 (작동유체와 직접 접촉하는 다공성 물질 또는 투과성 물질을 포함하는 집열체 F24S 10/80)",
+            "en": "with enlarged surfaces, e.g. with protrusions or corrugations (collectors comprising porous material or permeable masses directly contacting the working fluids F24S0010800000)"
+          }
+        },
+        {
+          "code": "F24S 10/80",
+          "title": {
+            "ko": "작동 유체와 직접 접촉하는 다공성 물질 또는 투과성 물질을 포함하는 것 (모세관 효과에 의해서, 액화된 작동 유체를 증발기 섹션으로부터 응축기 섹션으로 운반하기 위한 것 F24S 10/95)",
+            "en": "comprising porous material or permeable masses directly contacting the working fluids  (for conveying liquefied working fluid from evaporator sections to condenser sections with capillary force F24S0010950000)"
+          }
+        },
+        {
+          "code": "F24S 10/90",
+          "title": {
+            "ko": null,
+            "en": "using internal thermosiphonic circulation"
+          }
+        },
+        {
+          "code": "F24S 10/95",
+          "title": {
+            "ko": null,
+            "en": "having evaporator sections and condenser sections, e.g. heat pipes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 20/00",
+      "title": {
+        "ko": "특정 용도 또는 환경에 특히 적합한 태양열 집열기",
+        "en": "Solar heat collectors specially adapted for particular uses or environments"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 20/20",
+          "title": {
+            "ko": null,
+            "en": "Solar heat collectors for receiving concentrated solar energy, e.g. receivers for solar power plants"
+          }
+        },
+        {
+          "code": "F24S 20/25",
+          "title": {
+            "ko": null,
+            "en": "using direct solar radiation in combination with concentrated radiation"
+          }
+        },
+        {
+          "code": "F24S 20/30",
+          "title": {
+            "ko": null,
+            "en": "Solar heat collectors for heating objects, e.g. solar cookers or solar furnaces"
+          }
+        },
+        {
+          "code": "F24S 20/40",
+          "title": {
+            "ko": null,
+            "en": "Solar heat collectors combined with other heat sources, e.g. using electrical heating or heat from ambient air"
+          }
+        },
+        {
+          "code": "F24S 20/50",
+          "title": {
+            "ko": null,
+            "en": "Rollable or foldable solar heat collector modules"
+          }
+        },
+        {
+          "code": "F24S 20/55",
+          "title": {
+            "ko": null,
+            "en": "made of flexible materials"
+          }
+        },
+        {
+          "code": "F24S 20/60",
+          "title": {
+            "ko": "고정 구조물(fixed constructions)에 결합된 태양열 집열기, 예. 건물 안에",
+            "en": "Solar heat collectors integrated in fixed constructions, e.g. in buildings"
+          }
+        },
+        {
+          "code": "F24S 20/61",
+          "title": {
+            "ko": null,
+            "en": "Passive solar heat collectors, e.g. operated without external energy sources"
+          }
+        },
+        {
+          "code": "F24S 20/62",
+          "title": {
+            "ko": null,
+            "en": "in the form of fences, balustrades or handrails"
+          }
+        },
+        {
+          "code": "F24S 20/63",
+          "title": {
+            "ko": null,
+            "en": "in the form of windows"
+          }
+        },
+        {
+          "code": "F24S 20/64",
+          "title": {
+            "ko": null,
+            "en": "in the form of floor constructions, grounds or roads"
+          }
+        },
+        {
+          "code": "F24S 20/66",
+          "title": {
+            "ko": "외관 구조물의 형태인 것, 예. 벽 구조 (지붕널 또는 타일의 형태인 것 F24S 20/69)",
+            "en": "in the form of facade constructions, e.g. wall constructions (in the form of shingles or tiles F24S0020690000)"
+          }
+        },
+        {
+          "code": "F24S 20/67",
+          "title": {
+            "ko": "지붕 구조물 형태인 것 (지붕널 또는 타일 형태인 것 F24S 20/69)",
+            "en": "in the form of roof constructions (in the form of shingles or tiles F24S0020690000)"
+          }
+        },
+        {
+          "code": "F24S 20/69",
+          "title": {
+            "ko": null,
+            "en": "in the form of shingles or tiles"
+          }
+        },
+        {
+          "code": "F24S 20/70",
+          "title": {
+            "ko": "수인성 태양열 집열 모듈 (풀 또는 연못을 형성하는 작동 유체용 F24S 10/10)",
+            "en": "Waterborne solar heat collector modules  (for working fluids forming pools or ponds F24S0010100000)"
+          }
+        },
+        {
+          "code": "F24S 20/80",
+          "title": {
+            "ko": null,
+            "en": "Airborne solar heat collector modules, e.g. inflatable structures"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 21/00",
+      "title": {
+        "ko": "F24S 10 / 00-F24S 20/00에 포함되지 않는 태양열 집열기",
+        "en": "Solar heat collectors not provided for in groups F24S0010000000-F24S0020000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F24S 23/00",
+      "title": {
+        "ko": "태양열 집열기를위한 태양 광선 집광 장치",
+        "en": "Arrangements for concentrating solar rays for solar heat collectors"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 23/30",
+          "title": {
+            "ko": null,
+            "en": "with lenses"
+          }
+        },
+        {
+          "code": "F24S 23/70",
+          "title": {
+            "ko": "반사경을 포함하는 것",
+            "en": "with reflectors"
+          }
+        },
+        {
+          "code": "F24S 23/71",
+          "title": {
+            "ko": "포물선 모양의 반사면(parabolic reflective surfaces)을 포함하는 것 (원통형-포물면 반사면이 있는 것 F24S 3/74)",
+            "en": "with parabolic reflective surfaces (with cylindro-parabolic reflective surfaces F24S0023740000)"
+          }
+        },
+        {
+          "code": "F24S 23/72",
+          "title": {
+            "ko": null,
+            "en": "with hemispherical reflective surfaces"
+          }
+        },
+        {
+          "code": "F24S 23/74",
+          "title": {
+            "ko": null,
+            "en": "with trough-shaped or cylindro-parabolic reflective surfaces"
+          }
+        },
+        {
+          "code": "F24S 23/75",
+          "title": {
+            "ko": null,
+            "en": "with conical reflective surfaces"
+          }
+        },
+        {
+          "code": "F24S 23/77",
+          "title": {
+            "ko": null,
+            "en": "with flat reflective plates"
+          }
+        },
+        {
+          "code": "F24S 23/79",
+          "title": {
+            "ko": null,
+            "en": "with spaced and opposed interacting reflective surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 25/00",
+      "title": {
+        "ko": "태양열 수집 모듈을 위한, 고정식 마운팅 또는 지지대의 배열",
+        "en": "Arrangement of stationary mountings or supports for solar heat collector modules"
+      },
+      "definition": {
+        "ko": "광전지 모듈과 함께 사용하기 위한 장치도 서브클래스 H02S의 관련 그룹에도 분류해야 합니다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F24S 25/10",
+          "title": {
+            "ko": "지지면으로부터 멀어지는 방향으로 연장된 것",
+            "en": "extending in directions away from a supporting surface"
+          }
+        },
+        {
+          "code": "F24S 25/11",
+          "title": {
+            "ko": null,
+            "en": "using shaped bodies, e.g. concrete elements, foamed elements or moulded box-like elements"
+          }
+        },
+        {
+          "code": "F24S 25/12",
+          "title": {
+            "ko": null,
+            "en": "using posts in combination with upper profiles"
+          }
+        },
+        {
+          "code": "F24S 25/13",
+          "title": {
+            "ko": "프로파일의 배치, 예. 트러스 (F24S 25/12 우선)",
+            "en": "Profile arrangements, e.g. trusses (F24S0025120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F24S 25/15",
+          "title": {
+            "ko": null,
+            "en": "using bent plates; using assemblies of plates"
+          }
+        },
+        {
+          "code": "F24S 25/16",
+          "title": {
+            "ko": null,
+            "en": "Arrangement of interconnected standing structures; Standing structures having separate supporting portions for adjacent modules"
+          }
+        },
+        {
+          "code": "F24S 25/20",
+          "title": {
+            "ko": null,
+            "en": "Peripheral frames for modules"
+          }
+        },
+        {
+          "code": "F24S 25/30",
+          "title": {
+            "ko": "장착면을 따라 실질적으로 연장되는긴 강성 장착 요소를 사용는 것, 예. 태양열 집열기로써 건물을 덮기위한 것 (지지면으로부터 멀어지는 방향으로 연장된 것 F24S 25/10; 모듈 주변의 프레임 F24S 25/20)",
+            "en": "using elongate rigid mounting elements extending substantially along the mounting surface, e.g. for covering buildings with solar heat collectors (extending in directions away from the supporting surface F24S0025100000;peripheral frames for modules F24S0025200000)"
+          }
+        },
+        {
+          "code": "F24S 25/33",
+          "title": {
+            "ko": null,
+            "en": "forming substantially planar assemblies, e.g. of coplanar or stacked profiles"
+          }
+        },
+        {
+          "code": "F24S 25/35",
+          "title": {
+            "ko": null,
+            "en": "by means of profiles with a cross-section defining separate supporting portions for adjacent modules"
+          }
+        },
+        {
+          "code": "F24S 25/37",
+          "title": {
+            "ko": null,
+            "en": "forming coplanar grids comprising longitudinal and transversal profiles"
+          }
+        },
+        {
+          "code": "F24S 25/40",
+          "title": {
+            "ko": "플레이트형 장착 요소를 사용는 것, 예. 프로파일 또는 골판; 플레이트형 모듈 프레임 (지지 표면으로부터 멀어지는 방향으로 연장된 것 F24S 25/10)",
+            "en": "using plate-like mounting elements, e.g. profiled or corrugated plates; Plate-like module frames  (extending in directions away from a supporting surface F24S0025100000)"
+          }
+        },
+        {
+          "code": "F24S 25/50",
+          "title": {
+            "ko": null,
+            "en": "comprising elongate non-rigid elements, e.g. straps, wires or ropes"
+          }
+        },
+        {
+          "code": "F24S 25/60",
+          "title": {
+            "ko": "고정 수단, 예. 태양열 집열기 모듈을지지하도록 특별히 고안된 잠금 장치",
+            "en": "Fixation means, e.g. fasteners, specially adapted for supporting solar heat collector modules"
+          }
+        },
+        {
+          "code": "F24S 25/61",
+          "title": {
+            "ko": null,
+            "en": "for fixing to the ground or to building structures"
+          }
+        },
+        {
+          "code": "F24S 25/613",
+          "title": {
+            "ko": null,
+            "en": "in the form of bent strips or assemblies of strips; Hook-like connectors; Connectors to be mounted between building-covering elements"
+          }
+        },
+        {
+          "code": "F24S 25/615",
+          "title": {
+            "ko": null,
+            "en": "for fixing to protruding parts of buildings, e.g. to corrugations or to standing seams"
+          }
+        },
+        {
+          "code": "F24S 25/617",
+          "title": {
+            "ko": null,
+            "en": "Elements driven into the ground, e.g. anchor-piles; Foundations for supporting elements; Connectors for connecting supporting structures to the ground or to flat horizontal surfaces"
+          }
+        },
+        {
+          "code": "F24S 25/63",
+          "title": {
+            "ko": null,
+            "en": "for fixing modules or their peripheral frames to supporting elements"
+          }
+        },
+        {
+          "code": "F24S 25/632",
+          "title": {
+            "ko": null,
+            "en": "Side connectors; Base connectors"
+          }
+        },
+        {
+          "code": "F24S 25/634",
+          "title": {
+            "ko": null,
+            "en": "Clamps; Clips"
+          }
+        },
+        {
+          "code": "F24S 25/636",
+          "title": {
+            "ko": null,
+            "en": "clamping by screw-threaded elements"
+          }
+        },
+        {
+          "code": "F24S 25/65",
+          "title": {
+            "ko": null,
+            "en": "for coupling adjacent supporting elements, e.g. for connecting profiles together"
+          }
+        },
+        {
+          "code": "F24S 25/67",
+          "title": {
+            "ko": "인접 모듈 또는 그 주변 프레임을 결합하기 위한 것 (모듈 또는 그 주변 프레임을 지지체에 고정하기 위한 것 F24S 25/63)",
+            "en": "for coupling adjacent modules or their peripheral frames (for fixing modules or their peripheral frames to supporting elements F24S0025630000)"
+          }
+        },
+        {
+          "code": "F24S 25/70",
+          "title": {
+            "ko": null,
+            "en": "with means for adjusting the final position or orientation of supporting elements in relation to each other or to a mounting surface; with means for compensating mounting tolerances"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 30/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for moving or orienting solar heat collector modules"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 30/20",
+          "title": {
+            "ko": null,
+            "en": "for linear movement"
+          }
+        },
+        {
+          "code": "F24S 30/40",
+          "title": {
+            "ko": null,
+            "en": "for rotary movement"
+          }
+        },
+        {
+          "code": "F24S 30/42",
+          "title": {
+            "ko": null,
+            "en": "with only one rotation axis"
+          }
+        },
+        {
+          "code": "F24S 30/422",
+          "title": {
+            "ko": null,
+            "en": "Vertical axis"
+          }
+        },
+        {
+          "code": "F24S 30/425",
+          "title": {
+            "ko": null,
+            "en": "Horizontal axis"
+          }
+        },
+        {
+          "code": "F24S 30/428",
+          "title": {
+            "ko": null,
+            "en": "with inclined axis"
+          }
+        },
+        {
+          "code": "F24S 30/45",
+          "title": {
+            "ko": null,
+            "en": "with two rotation axes"
+          }
+        },
+        {
+          "code": "F24S 30/452",
+          "title": {
+            "ko": null,
+            "en": "with vertical primary axis"
+          }
+        },
+        {
+          "code": "F24S 30/455",
+          "title": {
+            "ko": null,
+            "en": "with horizontal primary axis"
+          }
+        },
+        {
+          "code": "F24S 30/458",
+          "title": {
+            "ko": null,
+            "en": "with inclined primary axis"
+          }
+        },
+        {
+          "code": "F24S 30/48",
+          "title": {
+            "ko": null,
+            "en": "with three or more rotation axes or with multiple degrees of freedom"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 40/00",
+      "title": {
+        "ko": "태양열 집열기의 안전 또는 보호 장치; 태양열 집열기의 오작동 방지 (제어 장치 F24S 50/00)",
+        "en": "Safety or protection arrangements of solar heat collectors; Preventing malfunction of solar heat collectors (control arrangements  F24S0050000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 40/10",
+          "title": {
+            "ko": "보호 커버 또는 슈라우드; 폐쇄 부재, 예. 뚜껑 (투명한 외피 F24S 80/50)",
+            "en": "Protective covers or shrouds; Closure members, e.g. lids  (transparent coverings F24S0080500000)"
+          }
+        },
+        {
+          "code": "F24S 40/20",
+          "title": {
+            "ko": null,
+            "en": "Cleaning; Removing snow"
+          }
+        },
+        {
+          "code": "F24S 40/40",
+          "title": {
+            "ko": "부식 방지; 오염이나 오염으로부터 보호",
+            "en": "Preventing corrosion; Protecting against dirt or contamination"
+          }
+        },
+        {
+          "code": "F24S 40/42",
+          "title": {
+            "ko": "태양 전지 모듈 내부에서의 응축 방지 (배출에 의한 것 F24S 40/53)",
+            "en": "Preventing condensation inside solar modules (by venting F24S0040530000)"
+          }
+        },
+        {
+          "code": "F24S 40/44",
+          "title": {
+            "ko": null,
+            "en": "Draining rainwater or condensation"
+          }
+        },
+        {
+          "code": "F24S 40/46",
+          "title": {
+            "ko": null,
+            "en": "Maintaining vacuum, e.g. by using getters"
+          }
+        },
+        {
+          "code": "F24S 40/48",
+          "title": {
+            "ko": null,
+            "en": "Deaerating or degassing the working fluid"
+          }
+        },
+        {
+          "code": "F24S 40/50",
+          "title": {
+            "ko": "과열 또는 과압 방지 (작동유의 배출에 의한 것 F20S 40/60)",
+            "en": "Preventing overheating or overpressure (by draining the working fluid F24S0040600000)"
+          }
+        },
+        {
+          "code": "F24S 40/52",
+          "title": {
+            "ko": null,
+            "en": "by modifying the heat collection, e.g. by defocusing or by changing the position of heat-receiving elements"
+          }
+        },
+        {
+          "code": "F24S 40/53",
+          "title": {
+            "ko": null,
+            "en": "by venting solar heat collector enclosures"
+          }
+        },
+        {
+          "code": "F24S 40/55",
+          "title": {
+            "ko": "냉각을 위한 장치, 예. 외부 열 방출 수단 또는 내부 냉각 회로 (배출에 의한 것 F24S 40/53)",
+            "en": "Arrangements for cooling, e.g. by using  external heat dissipating means or internal cooling circuits (by venting F24S0040530000)"
+          }
+        },
+        {
+          "code": "F24S 40/57",
+          "title": {
+            "ko": "태양열 집열기 인클로저의 과압 방지 (배출에 의한 것 F24S 40/53)",
+            "en": "Preventing overpressure in solar heat collector enclosures (by venting F24S0040530000)"
+          }
+        },
+        {
+          "code": "F24S 40/58",
+          "title": {
+            "ko": null,
+            "en": "Preventing overpressure in working fluid circuits"
+          }
+        },
+        {
+          "code": "F24S 40/60",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for draining the working fluid"
+          }
+        },
+        {
+          "code": "F24S 40/70",
+          "title": {
+            "ko": "동결 방지 (작동 유체 배출 장치 F24S 40/60)",
+            "en": "Preventing freezing (arrangements for draining the working fluid F24S0040600000)"
+          }
+        },
+        {
+          "code": "F24S 40/80",
+          "title": {
+            "ko": null,
+            "en": "Accommodating differential expansion of solar heat collector elements"
+          }
+        },
+        {
+          "code": "F24S 40/90",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for testing solar heat collectors"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 50/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for controlling solar heat collectors"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 50/20",
+          "title": {
+            "ko": null,
+            "en": "for tracking"
+          }
+        },
+        {
+          "code": "F24S 50/40",
+          "title": {
+            "ko": null,
+            "en": "responsive to temperature"
+          }
+        },
+        {
+          "code": "F24S 50/60",
+          "title": {
+            "ko": null,
+            "en": "responsive to wind"
+          }
+        },
+        {
+          "code": "F24S 50/80",
+          "title": {
+            "ko": null,
+            "en": "for controlling collection or absorption of solar radiation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 60/00",
+      "title": {
+        "ko": "태양열 집열기에 의해 수집된 열을 저장하기위한 장치 (풀 또는 연못을 형성하는 작동 유체에서의 것 F24S 10/10)",
+        "en": "Arrangements for storing heat collected by solar heat collectors (in working fluids forming pools or ponds F24S0010100000)"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 60/10",
+          "title": {
+            "ko": null,
+            "en": "using latent heat"
+          }
+        },
+        {
+          "code": "F24S 60/20",
+          "title": {
+            "ko": null,
+            "en": "using chemical reactions, e.g. thermochemical reactions or isomerisation reactions"
+          }
+        },
+        {
+          "code": "F24S 60/30",
+          "title": {
+            "ko": null,
+            "en": "storing heat in liquids"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 70/00",
+      "title": {
+        "ko": "흡수 요소의 세부",
+        "en": "Details of absorbing elements"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 70/10",
+          "title": {
+            "ko": "흡수 물질에 특징이 있는 것 (흡수성을 증가시키기위한 코팅 또는 표면 처리 F24S 70/20)",
+            "en": "characterised by the absorbing material (absorbing coatings or surface treatment for increasing absorption F24S0070200000)"
+          }
+        },
+        {
+          "code": "F24S 70/12",
+          "title": {
+            "ko": null,
+            "en": "made of metallic material"
+          }
+        },
+        {
+          "code": "F24S 70/14",
+          "title": {
+            "ko": null,
+            "en": "made of plastics"
+          }
+        },
+        {
+          "code": "F24S 70/16",
+          "title": {
+            "ko": null,
+            "en": "made of ceramic; made of concrete; made of natural stone"
+          }
+        },
+        {
+          "code": "F24S 70/20",
+          "title": {
+            "ko": null,
+            "en": "characterised by absorbing coatings; characterised by surface treatment for increasing absorption"
+          }
+        },
+        {
+          "code": "F24S 70/225",
+          "title": {
+            "ko": null,
+            "en": "for spectrally selective absorption"
+          }
+        },
+        {
+          "code": "F24S 70/25",
+          "title": {
+            "ko": null,
+            "en": "Coatings made of metallic material"
+          }
+        },
+        {
+          "code": "F24S 70/275",
+          "title": {
+            "ko": null,
+            "en": "Coatings made of plastics"
+          }
+        },
+        {
+          "code": "F24S 70/30",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary coatings, e.g. anti-reflective coatings"
+          }
+        },
+        {
+          "code": "F24S 70/60",
+          "title": {
+            "ko": "구조(structure or construction)에 특징이 있는 것 (흡수를 증가시키기 위한 코팅 또는 표면 처리 F24S 70/20; 보조 코팅 F24S 70/30)",
+            "en": "characterised by the structure or construction (absorbing coatings or surface treatment for increasing absorption F24S0070200000;auxiliary coatings F24S0070300000)"
+          }
+        },
+        {
+          "code": "F24S 70/65",
+          "title": {
+            "ko": null,
+            "en": "Combinations of  two or more absorbing elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 80/00",
+      "title": {
+        "ko": "그룹 F24S 10/00-F24S 70/00에 포함되지 않는 태양열 집열기의 세부, 부속품(accessories) 또는 구성요소(component parts)",
+        "en": "Details, accessories or component parts of solar heat collectors  not provided for in groups F24S0010000000-F24S0070000000"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 80/10",
+          "title": {
+            "ko": null,
+            "en": "Materials for heat-exchange conduits"
+          }
+        },
+        {
+          "code": "F24S 80/20",
+          "title": {
+            "ko": null,
+            "en": "Working fluids specially adapted for solar heat collectors"
+          }
+        },
+        {
+          "code": "F24S 80/30",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for connecting the fluid circuits of solar heat collectors with each other or with other components, e.g. pipe connections; Fluid distributing means, e.g. headers"
+          }
+        },
+        {
+          "code": "F24S 80/40",
+          "title": {
+            "ko": null,
+            "en": "Casings"
+          }
+        },
+        {
+          "code": "F24S 80/45",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "F24S 80/453",
+          "title": {
+            "ko": null,
+            "en": "made of metallic material"
+          }
+        },
+        {
+          "code": "F24S 80/457",
+          "title": {
+            "ko": null,
+            "en": "made of plastics"
+          }
+        },
+        {
+          "code": "F24S 80/50",
+          "title": {
+            "ko": "투명한 커버; 들어오는 태양 광선을 전송하고 나가는 열 방사선을 차단하기위한 요소",
+            "en": "Transparent coverings; Elements for transmitting incoming solar rays and preventing outgoing heat radiation"
+          }
+        },
+        {
+          "code": "F24S 80/52",
+          "title": {
+            "ko": "재료에 특징이 있는 것 (열 손실 방지를 위한 것 F24S 80/56) ]",
+            "en": "characterised by the material  (for preventing heat loss F24S0080560000)"
+          }
+        },
+        {
+          "code": "F24S 80/525",
+          "title": {
+            "ko": null,
+            "en": "made of plastics"
+          }
+        },
+        {
+          "code": "F24S 80/54",
+          "title": {
+            "ko": null,
+            "en": "using evacuated elements"
+          }
+        },
+        {
+          "code": "F24S 80/56",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for preventing heat loss"
+          }
+        },
+        {
+          "code": "F24S 80/58",
+          "title": {
+            "ko": null,
+            "en": "characterised by their mountings or fixing means"
+          }
+        },
+        {
+          "code": "F24S 80/60",
+          "title": {
+            "ko": "단열 (투명 커버링 F24S 80/50)",
+            "en": "Thermal insulation (transparent coverings F24S0080500000)"
+          }
+        },
+        {
+          "code": "F24S 80/65",
+          "title": {
+            "ko": null,
+            "en": "characterised by the material"
+          }
+        },
+        {
+          "code": "F24S 80/70",
+          "title": {
+            "ko": null,
+            "en": "Sealing means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F24S 90/00",
+      "title": {
+        "ko": null,
+        "en": "Solar heat systems not otherwise provided for"
+      },
+      "subgroups": [
+        {
+          "code": "F24S 90/10",
+          "title": {
+            "ko": null,
+            "en": "using thermosiphonic circulation"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "subclass": "G01K",
+  "title": {
+    "ko": null,
+    "en": "MEASURING TEMPERATURE; MEASURING QUANTITY OF HEAT; THERMALLY-SENSITIVE ELEMENTS NOT OTHERWISE PROVIDED FOR (radiation pyrometry G01J5/00)"
+  },
+  "groups": [
+    {
+      "code": "G01K 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details of thermometers not specially adapted for particular types of thermometer (circuits for reducing thermal inertia G01K7/42)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 1/02",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating or recording specially adapted for thermometers"
+          }
+        },
+        {
+          "code": "G01K 1/08",
+          "title": {
+            "ko": null,
+            "en": "Protective devices, e.g. casings"
+          }
+        },
+        {
+          "code": "G01K 1/14",
+          "title": {
+            "ko": null,
+            "en": "Supports; Fastening devices; Arrangements for mounting thermometers in particular locations"
+          }
+        },
+        {
+          "code": "G01K 1/16",
+          "title": {
+            "ko": null,
+            "en": "Special arrangements for conducting heat from the object to the sensitive element"
+          }
+        },
+        {
+          "code": "G01K 1/20",
+          "title": {
+            "ko": null,
+            "en": "Compensating for effects of temperature changes other than those to be measured, e.g. changes in ambient temperature"
+          }
+        },
+        {
+          "code": "G01K 1/26",
+          "title": {
+            "ko": null,
+            "en": "Compensating for effects of pressure changes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 3/00",
+      "title": {
+        "ko": null,
+        "en": "Thermometers giving results other than momentary value of temperature (G01K7/42 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 3/005",
+          "title": {
+            "ko": null,
+            "en": "{Circuits arrangements for indicating a predetermined temperature (fire detection G08B17/00)}"
+          }
+        },
+        {
+          "code": "G01K 3/02",
+          "title": {
+            "ko": null,
+            "en": "giving means values; giving integrated values"
+          }
+        },
+        {
+          "code": "G01K 3/08",
+          "title": {
+            "ko": null,
+            "en": "giving differences of values (using thermoelectric elements G01K7/02); giving differentiated values"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 5/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring temperature based on the expansion or contraction of a material (G01K9/00 takes precedence; giving other than momentary value of temperature G01K3/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 5/02",
+          "title": {
+            "ko": null,
+            "en": "the material being a liquid (contained in a hollow body having parts which are deformable or displaceable under the pressure developed by the material G01K5/32)"
+          }
+        },
+        {
+          "code": "G01K 5/28",
+          "title": {
+            "ko": null,
+            "en": "the material being a gas (contained in a hollow body having parts which are deformable or displaceable under the pressure developed by the material G01K5/32)"
+          }
+        },
+        {
+          "code": "G01K 5/32",
+          "title": {
+            "ko": null,
+            "en": "the material being a fluid contained in a hollow body having parts which are deformable or displaceable (under pressure developed by evaporation G01K11/04; pressure measuring devices in general G01L)"
+          }
+        },
+        {
+          "code": "G01K 5/48",
+          "title": {
+            "ko": null,
+            "en": "the material being a solid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 7/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring temperature based on the use of electric or magnetic elements directly sensitive to heat (giving results other than momentary value of temperature G01K3/00) {; Power supply therefor, e.g. using thermoelectric elements}"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 7/003",
+          "title": {
+            "ko": null,
+            "en": "{using pyroelectric elements (radiation pyrometers G01J5/00)}"
+          }
+        },
+        {
+          "code": "G01K 7/006",
+          "title": {
+            "ko": null,
+            "en": "{using superconductive elements}"
+          }
+        },
+        {
+          "code": "G01K 7/01",
+          "title": {
+            "ko": null,
+            "en": "using semiconducting elements having PN junctions (G01K7/02, G01K7/16, G01K7/30 take precedence)"
+          }
+        },
+        {
+          "code": "G01K 7/02",
+          "title": {
+            "ko": null,
+            "en": "using thermoelectric elements, e.g. thermocouples"
+          }
+        },
+        {
+          "code": "G01K 7/16",
+          "title": {
+            "ko": null,
+            "en": "using resistive elements"
+          }
+        },
+        {
+          "code": "G01K 7/30",
+          "title": {
+            "ko": null,
+            "en": "using thermal noise of resistances or conductors"
+          }
+        },
+        {
+          "code": "G01K 7/32",
+          "title": {
+            "ko": null,
+            "en": "using change of resonant frequency of a crystal"
+          }
+        },
+        {
+          "code": "G01K 7/34",
+          "title": {
+            "ko": null,
+            "en": "using capacitative elements (capacitors per se H01G)"
+          }
+        },
+        {
+          "code": "G01K 7/36",
+          "title": {
+            "ko": null,
+            "en": "using magnetic elements, e.g. magnets, coils (magnetic elements per se H01F)"
+          }
+        },
+        {
+          "code": "G01K 7/40",
+          "title": {
+            "ko": null,
+            "en": "using ionisation of gases"
+          }
+        },
+        {
+          "code": "G01K 7/42",
+          "title": {
+            "ko": null,
+            "en": "Circuits effecting compensation of thermal inertia; Circuits for predicting the stationary value of a temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 9/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring temperature based on movements caused by redistribution of weight, e.g. tilting thermometer (not giving momentary value of temperature G01K3/00)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 11/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring temperature based upon physical or chemical changes not covered by groups G01K3/00, G01K5/00, G01K7/00 or G01K9/00"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 11/003",
+          "title": {
+            "ko": null,
+            "en": "{using absorption or generation of gas, e.g. hydrogen}"
+          }
+        },
+        {
+          "code": "G01K 11/006",
+          "title": {
+            "ko": null,
+            "en": "{using measurement of the effect of a material on microwaves or longer electromagnetic waves, e.g. measuring temperature via microwaves emitted by the object (G01K17/003, G01J5/00 take precedence; measuring the effect of a material on X-, gamma- or particle radiation G01K11/30)}"
+          }
+        },
+        {
+          "code": "G01K 11/02",
+          "title": {
+            "ko": null,
+            "en": "using evaporation or sublimation, e.g. by observing boiling"
+          }
+        },
+        {
+          "code": "G01K 11/06",
+          "title": {
+            "ko": null,
+            "en": "using melting, freezing, or softening"
+          }
+        },
+        {
+          "code": "G01K 11/10",
+          "title": {
+            "ko": null,
+            "en": "using sintering"
+          }
+        },
+        {
+          "code": "G01K 11/12",
+          "title": {
+            "ko": null,
+            "en": "using changes in colour, translucency or reflectance"
+          }
+        },
+        {
+          "code": "G01K 11/20",
+          "title": {
+            "ko": null,
+            "en": "using thermoluminescent materials (G01K11/32 takes precedence)"
+          }
+        },
+        {
+          "code": "G01K 11/22",
+          "title": {
+            "ko": null,
+            "en": "using measurement of acoustic effects"
+          }
+        },
+        {
+          "code": "G01K 11/28",
+          "title": {
+            "ko": null,
+            "en": "using measurements of density {(measuring density in general G01N9/00)}"
+          }
+        },
+        {
+          "code": "G01K 11/30",
+          "title": {
+            "ko": null,
+            "en": "using measurement of the effect of a material on X-radiation, gamma radiation or particle radiation"
+          }
+        },
+        {
+          "code": "G01K 11/32",
+          "title": {
+            "ko": null,
+            "en": "using changes in transmittance, scattering or luminescence in optical fibres"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 13/00",
+      "title": {
+        "ko": null,
+        "en": "Thermometers specially adapted for specific purposes"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 13/006",
+          "title": {
+            "ko": null,
+            "en": "{for cryogenic purposes}"
+          }
+        },
+        {
+          "code": "G01K 13/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring temperature of moving fluids or granular materials capable of flow"
+          }
+        },
+        {
+          "code": "G01K 13/04",
+          "title": {
+            "ko": null,
+            "en": "for measuring temperature of moving solid bodies"
+          }
+        },
+        {
+          "code": "G01K 13/10",
+          "title": {
+            "ko": null,
+            "en": "for measuring temperature within piled or stacked materials (by special arrangements for conducting heat from the object to the sensitive heat element G01K1/16)"
+          }
+        },
+        {
+          "code": "G01K 13/12",
+          "title": {
+            "ko": null,
+            "en": "combined with sampling devices for measuring temperatures of samples of materials"
+          }
+        },
+        {
+          "code": "G01K 13/20",
+          "title": {
+            "ko": null,
+            "en": "Clinical contact thermometers for use with humans or animals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 15/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating of thermometers"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 15/002",
+          "title": {
+            "ko": null,
+            "en": "{Calibrated temperature sources, temperature standards therefor (arrangements with respect to the cold junction of thermo-electric elements G01K7/12)}"
+          }
+        },
+        {
+          "code": "G01K 15/005",
+          "title": {
+            "ko": null,
+            "en": "{Calibration}"
+          }
+        },
+        {
+          "code": "G01K 15/007",
+          "title": {
+            "ko": null,
+            "en": "{Testing}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 17/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring quantity of heat (measuring temperature by calorimetry G01K3/00 - G01K11/00; specially adapted for measuring thermal properties of materials, e.g. specific heat, heat of combustion G01N)"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 17/003",
+          "title": {
+            "ko": null,
+            "en": "{for measuring the power of light beams, e.g. laser beams}"
+          }
+        },
+        {
+          "code": "G01K 17/006",
+          "title": {
+            "ko": null,
+            "en": "{Microcalorimeters, e.g. using silicon microstructures}"
+          }
+        },
+        {
+          "code": "G01K 17/02",
+          "title": {
+            "ko": null,
+            "en": "Calorimeters using transport of an indicating substances, e.g. evaporation calorimeters"
+          }
+        },
+        {
+          "code": "G01K 17/04",
+          "title": {
+            "ko": null,
+            "en": "Calorimeters using compensation methods {, i.e. where the absorbed or released quantity of heat to be measured is compensated by a measured quantity of heating or cooling}"
+          }
+        },
+        {
+          "code": "G01K 17/06",
+          "title": {
+            "ko": null,
+            "en": "Measuring quantity of heat conveyed by flowing media, e.g. in heating systems (G01K17/02, G01K17/04 take precedence){e.g. the quantity of heat in a transporting medium, delivered to or consumed in an expenditure device}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 19/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating calorimeters"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 2201/00",
+      "title": {
+        "ko": null,
+        "en": "Application of thermometers in air-conditioning systems"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 2201/02",
+          "title": {
+            "ko": null,
+            "en": "in vehicles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 2203/00",
+      "title": {
+        "ko": null,
+        "en": "Application of thermometers in cryogenics"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 2205/00",
+      "title": {
+        "ko": null,
+        "en": "Application of thermometers in motors, e.g. of a vehicle"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 2205/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring inlet gas temperature"
+          }
+        },
+        {
+          "code": "G01K 2205/04",
+          "title": {
+            "ko": null,
+            "en": "for measuring exhaust gas temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 2207/00",
+      "title": {
+        "ko": null,
+        "en": "Application of thermometers in household appliances"
+      },
+      "subgroups": [
+        {
+          "code": "G01K 2207/02",
+          "title": {
+            "ko": null,
+            "en": "for measuring food temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01K 2211/00",
+      "title": {
+        "ko": null,
+        "en": "Thermometers based on nanotechnology"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 2213/00",
+      "title": {
+        "ko": null,
+        "en": "Temperature mapping"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 2215/00",
+      "title": {
+        "ko": null,
+        "en": "Details concerning sensor power supply"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 2217/00",
+      "title": {
+        "ko": null,
+        "en": "Temperature measurement using electric or magnetic components already present in the system to be measured"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01K 2219/00",
+      "title": {
+        "ko": null,
+        "en": "Thermometers with dedicated analog to digital converters"
+      },
+      "subgroups": []
+    }
+  ]
+}

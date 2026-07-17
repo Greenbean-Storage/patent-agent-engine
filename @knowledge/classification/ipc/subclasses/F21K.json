@@ -1,0 +1,283 @@
+{
+  "subclass": "F21K",
+  "title": {
+    "ko": "발광체를 이용하는 비-전기 광원; 전계화학발광을 사용하는 광원; 인화성 물질의 충진을 이용한 광원; 광 생성 요소로서 반도체 장치를 사용하는 광원; 달리 제공되지 않는 광원",
+    "en": "NON-ELECTRIC LIGHT SOURCES USING LUMINESCENCE; LIGHT SOURCES USING ELECTROCHEMILUMINESCENCE; LIGHT SOURCES USING CHARGES OF COMBUSTIBLE MATERIAL; LIGHT SOURCES USING SEMICONDUCTOR DEVICES AS LIGHT-GENERATING ELEMENTS; LIGHT SOURCES NOT OTHERWISE PROVIDED FOR"
+  },
+  "definition": {
+    "ko": "주(注). 이 서브클래스에서는, 서브클래스 F21W와 F21Y의 인덱싱 코드를 추가하는 것이 바람직하다",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F21K 2/00",
+      "title": {
+        "ko": "발광을 이용한 비-전기 광원 (방사능에 의한 활성을 이용하는 것 G21H 3/02, H01J 65/06, H01J 65/08; 외부 전자기장 또는 외부 미립자 방사에 의한 활성의 이용 H01J 65/04); 전계화학발광을 이용하는 광원",
+        "en": "Non-electric light sources using luminescence (using excitation by radioactivity G21H0003020000, H01J0065060000, H01J0065080000;using excitation by an external electromagnetic field or by external corpuscular radiation H01J0065040000); Light sources using electrochemiluminescence"
+      },
+      "subgroups": [
+        {
+          "code": "F21K 2/04",
+          "title": {
+            "ko": null,
+            "en": "using triboluminescence; using thermoluminescence"
+          }
+        },
+        {
+          "code": "F21K 2/06",
+          "title": {
+            "ko": null,
+            "en": "using chemiluminescence"
+          }
+        },
+        {
+          "code": "F21K 2/08",
+          "title": {
+            "ko": null,
+            "en": "activated by an electric field, i.e. electrochemiluminescence"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F21K 5/00",
+      "title": {
+        "ko": "가연성 물질의 충전물을 사용하는 광원, 예. 플래쉬 발광 기구",
+        "en": "Light sources using charges of combustible material, e.g. illuminating flash devices"
+      },
+      "subgroups": [
+        {
+          "code": "F21K 5/04",
+          "title": {
+            "ko": "복수의 장약(charge), 예. 연속적인 점화에 관련된 것(F21K 5/06, F21K 5/12가 우선)",
+            "en": "Plural charges, e.g. associated for sequential ignition (F21K0005060000, F21K0005120000 take precedence)"
+          }
+        },
+        {
+          "code": "F21K 5/06",
+          "title": {
+            "ko": null,
+            "en": "Charge containment"
+          }
+        },
+        {
+          "code": "F21K 5/08",
+          "title": {
+            "ko": null,
+            "en": "Charge held in non-disrupting container, e.g. photo-flash bulb"
+          }
+        },
+        {
+          "code": "F21K 5/10",
+          "title": {
+            "ko": null,
+            "en": "bearing a coating"
+          }
+        },
+        {
+          "code": "F21K 5/12",
+          "title": {
+            "ko": "장약의 점화",
+            "en": "Charge ignition"
+          }
+        },
+        {
+          "code": "F21K 5/14",
+          "title": {
+            "ko": null,
+            "en": "percussive"
+          }
+        },
+        {
+          "code": "F21K 5/16",
+          "title": {
+            "ko": "전기에 의한 것 (회로장치 H05B46/00)",
+            "en": "electrical  (circuit arrangements H05B0046000000)"
+          }
+        },
+        {
+          "code": "F21K 5/18",
+          "title": {
+            "ko": null,
+            "en": "Electrically-ignited primers"
+          }
+        },
+        {
+          "code": "F21K 5/20",
+          "title": {
+            "ko": null,
+            "en": "Charge feeding means"
+          }
+        },
+        {
+          "code": "F21K 5/22",
+          "title": {
+            "ko": null,
+            "en": "Protective light shields"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F21K 9/00",
+      "title": {
+        "ko": "광 발생 요소로써 반도체 장치를 이용하는 광원, 예. 발광다이오드 [LED] 또는 레이저를 이용하는 것",
+        "en": "Light sources using semiconductor devices as light-generating elements, e.g. using light-emitting diodes [LED] or lasers"
+      },
+      "definition": {
+        "ko": "1. 이 그룹에서 다음 표현은 지시된 의미로 사용된다. ㆍ\"광원\"은 조명 장치에 통합된 피팅 또는 홀더에 설치하도록 의도된 광 생성 구성 요소를 의미한다. ㆍ\"후속 광원\"은 백열등 또는 형광등과 실질적으로 동일한 부착 수단을 포함하는 광원을 의미한다. \"후속 광원\"은 이러한 램프를 교체하거나 대체하기 위해 특히 적합하다. 2. 반도체 소자 그 자체 또는 그 조립체, 예. 광원에 사용하기 위해 특히 발광용으로 개조된 반도체 소자 (노트 (1)의 의미에서), 는 서브클래스 H01S (예. H01S5/00), H10H (예. H10H20/00 및 H10H29/20) 및 H10K (예. H10K50/00 및 H10K59/00)에 포함된다. 3. 광원이 사용되는 조명 장치 또는 시스템은 서브클래스 F21L 또는 F21S에 포함된다. 4. 이 그룹으로 분류할 때 해당 서브클래스에서 다루는 세부 측면이 관심 있는 경우 서브클래스 F21V에도 분류한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F21K 9/20",
+          "title": {
+            "ko": "부착 수단을 포함하는 광원",
+            "en": "Light sources comprising attachment means"
+          }
+        },
+        {
+          "code": "F21K 9/23",
+          "title": {
+            "ko": "각각의 광원을 위해 단일의 고정장치를 갖는 조명장치의 재장착 광원, 예. 베이어닛(총검) 또는 나사산 고정을 갖는 백열등의 교체를 위한 것",
+            "en": "Retrofit light sources for lighting devices with a single fitting for each light source, e.g. for substitution of incandescent lamps with bayonet or threaded fittings"
+          }
+        },
+        {
+          "code": "F21K 9/232",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for generating an essentially omnidirectional light distribution, e.g. with a glass bulb"
+          }
+        },
+        {
+          "code": "F21K 9/233",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for generating a spot light distribution, e.g. for substitution of reflector lamps"
+          }
+        },
+        {
+          "code": "F21K 9/235",
+          "title": {
+            "ko": "베이스 또는 캡(caps)의 세부, 즉. 광원을 고정장치에 접속하기 위한 부품; 베이스 또는 캡(cap) 내부에서 구성요소의 배치 (F21K 9/238 우선 )",
+            "en": "Details of bases or caps, i.e. the parts that connect the light source to a fitting; Arrangement of components within bases or caps (F21K0009238000 takes precedence)"
+          }
+        },
+        {
+          "code": "F21K 9/237",
+          "title": {
+            "ko": "하우징 또는 케이스의 세부, 즉. 광 발생 요소와 베이스 사이의 부품; 하우징 또는 케이스 내부에서 요소의 배치 (F21K 9/238 우선 )",
+            "en": "Details of housings or cases, i.e. the parts between the light-generating element and the bases; Arrangement of components within housings or cases (F21K0009238000 takes precedence)"
+          }
+        },
+        {
+          "code": "F21K 9/238",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting of circuit elements integrated in the light source"
+          }
+        },
+        {
+          "code": "F21K 9/27",
+          "title": {
+            "ko": "각각의 광원을 위해 두개의 고정장치를 갖는 조명을 위한 재장착 광원, 예. 형광등의 교체를 위한 것",
+            "en": "Retrofit light sources for lighting devices with two fittings for each light source, e.g. for substitution of fluorescent tubes"
+          }
+        },
+        {
+          "code": "F21K 9/272",
+          "title": {
+            "ko": "단부 부품의 세부, 즉. 광원을 고정장치에 접속하는 부품; 단부 부품안에서 구성요소의 배치 (F21K 9/278 우선 )",
+            "en": "Details of end parts, i.e. the parts that connect the light source to a fitting; Arrangement of components within end parts (F21K0009278000 takes precedence)"
+          }
+        },
+        {
+          "code": "F21K 9/275",
+          "title": {
+            "ko": "베이스 또는 하우징의 세부, 즉. 광 발생 요소와 단부 캡(cap) 사이의 부품; 베이스 또는 하우징 안에서 구성요소의 배치 (F21K 9/278 우선 )",
+            "en": "Details of bases or housings, i.e. the parts between the light-generating element and the end caps; Arrangement of components within bases or housings (F21K0009278000 takes precedence)"
+          }
+        },
+        {
+          "code": "F21K 9/278",
+          "title": {
+            "ko": null,
+            "en": "Arrangement or mounting of circuit elements integrated in the light source"
+          }
+        },
+        {
+          "code": "F21K 9/60",
+          "title": {
+            "ko": null,
+            "en": "Optical arrangements integrated in the light source, e.g. for improving the colour rendering index or the light extraction"
+          }
+        },
+        {
+          "code": "F21K 9/61",
+          "title": {
+            "ko": null,
+            "en": "using light guides"
+          }
+        },
+        {
+          "code": "F21K 9/62",
+          "title": {
+            "ko": null,
+            "en": "using mixing chambers, e.g. housings with reflective walls"
+          }
+        },
+        {
+          "code": "F21K 9/64",
+          "title": {
+            "ko": null,
+            "en": "using wavelength conversion means distinct or spaced from the light-generating element, e.g. a remote phosphor layer"
+          }
+        },
+        {
+          "code": "F21K 9/65",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for changing the characteristics or the distribution of the light, e.g. by adjustment of parts"
+          }
+        },
+        {
+          "code": "F21K 9/66",
+          "title": {
+            "ko": null,
+            "en": "Details of globes or covers forming part of the light source"
+          }
+        },
+        {
+          "code": "F21K 9/68",
+          "title": {
+            "ko": null,
+            "en": "Details of reflectors forming part of the light source"
+          }
+        },
+        {
+          "code": "F21K 9/69",
+          "title": {
+            "ko": null,
+            "en": "Details of refractors forming part of the light source"
+          }
+        },
+        {
+          "code": "F21K 9/90",
+          "title": {
+            "ko": null,
+            "en": "Methods of manufacture"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F21K 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

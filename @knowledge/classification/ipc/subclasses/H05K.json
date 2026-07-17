@@ -1,0 +1,622 @@
+{
+  "subclass": "H05K",
+  "title": {
+    "ko": "인쇄 회로; 전기 장치의 케이싱 또는 구조적 세부; 전기 부품 조립체의 제조",
+    "en": "PRINTED CIRCUITS; CASINGS OR CONSTRUCTIONAL DETAILS OF ELECTRIC APPARATUS; MANUFACTURE OF ASSEMBLAGES OF ELECTRICAL COMPONENTS"
+  },
+  "definition": {
+    "ko": "인쇄된 것이 아닌 전기소자의 유무에 관계 되지 않는 인쇄회로 형식, 제조 H05K1/00, H05K3/00 케이싱, 캐비넷 또는 서랍; 구조적 세부 H05K5/00; 7/00 차폐 H05K9/00 라디오 수신기 또는 텔레비전 수상기와 다른 장치와의 조합 H05K11/00 전자적 조합체의 제조 H05K13/00 동작의 신뢰성을 개선하기 위한 장치 H05K10/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H05K 1/00",
+      "title": {
+        "ko": "인쇄 회로",
+        "en": "Printed circuits"
+      },
+      "subgroups": [
+        {
+          "code": "H05K 1/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H05K 1/03",
+          "title": {
+            "ko": null,
+            "en": "Use of materials for the substrate"
+          }
+        },
+        {
+          "code": "H05K 1/05",
+          "title": {
+            "ko": null,
+            "en": "Insulated metal substrate"
+          }
+        },
+        {
+          "code": "H05K 1/09",
+          "title": {
+            "ko": null,
+            "en": "Use of materials for the metallic pattern"
+          }
+        },
+        {
+          "code": "H05K 1/11",
+          "title": {
+            "ko": null,
+            "en": "Printed elements for providing electric connections to or between printed circuits"
+          }
+        },
+        {
+          "code": "H05K 1/14",
+          "title": {
+            "ko": "2개이상의 인쇄회로의 구조적 결합(인쇄회로에 대한 또는 인쇄회로간의 전기적 접속을 위한 것, H05K 1/11, H01R 12/00)",
+            "en": "Structural association of two or more printed circuits (providing electric connection to or between printed circuits H05K0001110000, H01R0012000000)"
+          }
+        },
+        {
+          "code": "H05K 1/16",
+          "title": {
+            "ko": null,
+            "en": "incorporating printed electric components, e.g. printed resistors, capacitors or inductors"
+          }
+        },
+        {
+          "code": "H05K 1/18",
+          "title": {
+            "ko": "비-인쇄 전기 부품과 구조적으로 결합된 것 (H05K 1/16이 우선)",
+            "en": "structurally associated with non-printed electric components  (H05K0001160000 takes precedence)"
+          }
+        },
+        {
+          "code": "H05K 1/181",
+          "title": {
+            "ko": null,
+            "en": "associated with surface mounted components"
+          }
+        },
+        {
+          "code": "H05K 1/182",
+          "title": {
+            "ko": null,
+            "en": "associated with components mounted in printed circuit boards [PCB], e.g. insert-mounted components [IMC]"
+          }
+        },
+        {
+          "code": "H05K 1/183",
+          "title": {
+            "ko": null,
+            "en": "associated with components mounted in and supported by recessed areas of the PCBs"
+          }
+        },
+        {
+          "code": "H05K 1/184",
+          "title": {
+            "ko": null,
+            "en": "associated with components inserted in holes through the PCBs and wherein terminals of the components are connected to printed contacts on the walls of the holes or at the edges thereof or protruding over or into the holes"
+          }
+        },
+        {
+          "code": "H05K 1/185",
+          "title": {
+            "ko": null,
+            "en": "associated with components encapsulated in the insulating substrate of the PCBs; associated with components  incorporated in internal layers of multilayer circuit boards"
+          }
+        },
+        {
+          "code": "H05K 1/189",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of flexible or folded printed circuits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H05K 3/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes for manufacturing printed circuits"
+      },
+      "subgroups": [
+        {
+          "code": "H05K 3/02",
+          "title": {
+            "ko": null,
+            "en": "in which the conductive material is applied to the surface of the insulating support and is thereafter removed from such areas of the surface which are not intended for current conducting or shielding"
+          }
+        },
+        {
+          "code": "H05K 3/04",
+          "title": {
+            "ko": null,
+            "en": "the conductive material being removed mechanically, e.g. by punching"
+          }
+        },
+        {
+          "code": "H05K 3/06",
+          "title": {
+            "ko": null,
+            "en": "the conductive material being removed chemically or electrolytically, e.g. by photo-etch process"
+          }
+        },
+        {
+          "code": "H05K 3/07",
+          "title": {
+            "ko": null,
+            "en": "being removed electrolytically"
+          }
+        },
+        {
+          "code": "H05K 3/08",
+          "title": {
+            "ko": null,
+            "en": "the conductive material being removed by electric discharge, e.g. by spark erosion"
+          }
+        },
+        {
+          "code": "H05K 3/10",
+          "title": {
+            "ko": null,
+            "en": "in which conductive material is applied to the insulating support in such a manner as to form the desired conductive pattern"
+          }
+        },
+        {
+          "code": "H05K 3/12",
+          "title": {
+            "ko": null,
+            "en": "using printing techniques to apply the conductive material"
+          }
+        },
+        {
+          "code": "H05K 3/14",
+          "title": {
+            "ko": null,
+            "en": "using spraying techniques to apply the conductive material"
+          }
+        },
+        {
+          "code": "H05K 3/16",
+          "title": {
+            "ko": null,
+            "en": "by cathodic sputtering"
+          }
+        },
+        {
+          "code": "H05K 3/18",
+          "title": {
+            "ko": null,
+            "en": "using precipitation techniques to apply the conductive material"
+          }
+        },
+        {
+          "code": "H05K 3/20",
+          "title": {
+            "ko": null,
+            "en": "by affixing prefabricated conductor pattern"
+          }
+        },
+        {
+          "code": "H05K 3/22",
+          "title": {
+            "ko": null,
+            "en": "Secondary treatment of printed circuits"
+          }
+        },
+        {
+          "code": "H05K 3/24",
+          "title": {
+            "ko": null,
+            "en": "Reinforcing of the conductive pattern"
+          }
+        },
+        {
+          "code": "H05K 3/26",
+          "title": {
+            "ko": null,
+            "en": "Cleaning or polishing of the conductive pattern"
+          }
+        },
+        {
+          "code": "H05K 3/28",
+          "title": {
+            "ko": null,
+            "en": "Applying non-metallic protective coatings"
+          }
+        },
+        {
+          "code": "H05K 3/30",
+          "title": {
+            "ko": null,
+            "en": "Assembling printed circuits with electric components, e.g. with resistors"
+          }
+        },
+        {
+          "code": "H05K 3/303",
+          "title": {
+            "ko": null,
+            "en": "with surface mounted components (H05K0003320000 takes precedence)"
+          }
+        },
+        {
+          "code": "H05K 3/306",
+          "title": {
+            "ko": null,
+            "en": "with lead-in-hole components (H05K0003320000 takes precedence)"
+          }
+        },
+        {
+          "code": "H05K 3/32",
+          "title": {
+            "ko": null,
+            "en": "electrically connecting electric components or wires to printed circuits"
+          }
+        },
+        {
+          "code": "H05K 3/321",
+          "title": {
+            "ko": null,
+            "en": "by conductive adhesives"
+          }
+        },
+        {
+          "code": "H05K 3/325",
+          "title": {
+            "ko": null,
+            "en": "by abutting or pinching;  Mechanical auxiliary parts therefor"
+          }
+        },
+        {
+          "code": "H05K 3/328",
+          "title": {
+            "ko": null,
+            "en": "by welding"
+          }
+        },
+        {
+          "code": "H05K 3/34",
+          "title": {
+            "ko": null,
+            "en": "by soldering"
+          }
+        },
+        {
+          "code": "H05K 3/341",
+          "title": {
+            "ko": null,
+            "en": "Surface mounted components"
+          }
+        },
+        {
+          "code": "H05K 3/3447",
+          "title": {
+            "ko": null,
+            "en": "Lead-in-hole components"
+          }
+        },
+        {
+          "code": "H05K 3/3452",
+          "title": {
+            "ko": null,
+            "en": "Solder masks"
+          }
+        },
+        {
+          "code": "H05K 3/346",
+          "title": {
+            "ko": null,
+            "en": "Solder materials or compositions specially adapted therefor"
+          }
+        },
+        {
+          "code": "H05K 3/3465",
+          "title": {
+            "ko": null,
+            "en": "Application of solder"
+          }
+        },
+        {
+          "code": "H05K 3/3468",
+          "title": {
+            "ko": null,
+            "en": "Application of molten solder, e.g. dip soldering"
+          }
+        },
+        {
+          "code": "H05K 3/3473",
+          "title": {
+            "ko": null,
+            "en": "Plating of solder"
+          }
+        },
+        {
+          "code": "H05K 3/3478",
+          "title": {
+            "ko": null,
+            "en": "Application of solder preforms; Transferring prefabricated solder patterns"
+          }
+        },
+        {
+          "code": "H05K 3/3485",
+          "title": {
+            "ko": null,
+            "en": "Application of solder paste, slurry or powder (using printing techniques to form the desired conductive pattern of the printed circuit by applying conductive material H05K0003120000)"
+          }
+        },
+        {
+          "code": "H05K 3/3489",
+          "title": {
+            "ko": null,
+            "en": "Composition of fluxes; Application thereof; Other processes of activating the contact surfaces"
+          }
+        },
+        {
+          "code": "H05K 3/3494",
+          "title": {
+            "ko": null,
+            "en": "Heating processes for reflow soldering"
+          }
+        },
+        {
+          "code": "H05K 3/36",
+          "title": {
+            "ko": null,
+            "en": "Assembling printed circuits with other printed circuits"
+          }
+        },
+        {
+          "code": "H05K 3/38",
+          "title": {
+            "ko": null,
+            "en": "Improvement of the adhesion between the insulating substrate and the metal"
+          }
+        },
+        {
+          "code": "H05K 3/40",
+          "title": {
+            "ko": null,
+            "en": "Forming printed elements for providing electric connections to or between printed circuits"
+          }
+        },
+        {
+          "code": "H05K 3/42",
+          "title": {
+            "ko": null,
+            "en": "Plated through-holes"
+          }
+        },
+        {
+          "code": "H05K 3/44",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing insulated metal core circuits"
+          }
+        },
+        {
+          "code": "H05K 3/46",
+          "title": {
+            "ko": null,
+            "en": "Manufacturing multi-layer circuits"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H05K 5/00",
+      "title": {
+        "ko": null,
+        "en": "Casings, cabinets or drawers for electric apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "H05K 5/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H05K 5/03",
+          "title": {
+            "ko": null,
+            "en": "Covers"
+          }
+        },
+        {
+          "code": "H05K 5/04",
+          "title": {
+            "ko": null,
+            "en": "Metal casings"
+          }
+        },
+        {
+          "code": "H05K 5/06",
+          "title": {
+            "ko": null,
+            "en": "Hermetically-sealed casings"
+          }
+        },
+        {
+          "code": "H05K 5/10",
+          "title": {
+            "ko": null,
+            "en": "comprising several parts forming a closed casing"
+          }
+        },
+        {
+          "code": "H05K 5/13",
+          "title": {
+            "ko": null,
+            "en": "assembled by screws"
+          }
+        },
+        {
+          "code": "H05K 5/15",
+          "title": {
+            "ko": null,
+            "en": "assembled by resilient members"
+          }
+        },
+        {
+          "code": "H05K 5/30",
+          "title": {
+            "ko": null,
+            "en": "Side-by-side or stacked arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H05K 7/00",
+      "title": {
+        "ko": "상이한 형의 전기장치에 공통된 구조적 세부(케이스, 케비넷트, 서랍 5/00)",
+        "en": "Constructional details common to different types of electric apparatus (casings, cabinets, drawers H05K0005000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H05K 7/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of circuit components or wiring on supporting structure"
+          }
+        },
+        {
+          "code": "H05K 7/04",
+          "title": {
+            "ko": null,
+            "en": "on conductive chassis"
+          }
+        },
+        {
+          "code": "H05K 7/06",
+          "title": {
+            "ko": null,
+            "en": "on insulating boards"
+          }
+        },
+        {
+          "code": "H05K 7/08",
+          "title": {
+            "ko": null,
+            "en": "on perforated boards"
+          }
+        },
+        {
+          "code": "H05K 7/10",
+          "title": {
+            "ko": null,
+            "en": "Plug-in assemblages of components"
+          }
+        },
+        {
+          "code": "H05K 7/12",
+          "title": {
+            "ko": null,
+            "en": "Resilient or clamping means for holding component to structure"
+          }
+        },
+        {
+          "code": "H05K 7/14",
+          "title": {
+            "ko": null,
+            "en": "Mounting supporting structure in casing or on frame or rack"
+          }
+        },
+        {
+          "code": "H05K 7/16",
+          "title": {
+            "ko": null,
+            "en": "on hinges or pivots"
+          }
+        },
+        {
+          "code": "H05K 7/18",
+          "title": {
+            "ko": null,
+            "en": "Construction of rack or frame"
+          }
+        },
+        {
+          "code": "H05K 7/20",
+          "title": {
+            "ko": null,
+            "en": "Modifications to facilitate cooling, ventilating, or heating"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H05K 9/00",
+      "title": {
+        "ko": "전장 또는 자장에 대한 장치 또는 부품의 차폐 (안테나로 부터 복사열을 흡수하는 장치 H01Q 17/00)",
+        "en": "Screening of apparatus or components against electric or magnetic fields (devices for absorbing radiation from an antenna H01Q0017000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H05K 10/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements for improving the operating reliability of electronic equipment, e.g. by providing a similar stand-by unit"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H05K 11/00",
+      "title": {
+        "ko": null,
+        "en": "Combinations of a radio or television receiver with apparatus having a different main function"
+      },
+      "subgroups": [
+        {
+          "code": "H05K 11/02",
+          "title": {
+            "ko": null,
+            "en": "with vehicles"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H05K 13/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus or processes specially adapted for manufacturing or adjusting assemblages of electric components"
+      },
+      "subgroups": [
+        {
+          "code": "H05K 13/02",
+          "title": {
+            "ko": null,
+            "en": "Feeding of components"
+          }
+        },
+        {
+          "code": "H05K 13/04",
+          "title": {
+            "ko": null,
+            "en": "Mounting of components"
+          }
+        },
+        {
+          "code": "H05K 13/06",
+          "title": {
+            "ko": null,
+            "en": "Wiring by machine"
+          }
+        },
+        {
+          "code": "H05K 13/08",
+          "title": {
+            "ko": null,
+            "en": "Monitoring manufacture of assemblages"
+          }
+        }
+      ]
+    }
+  ]
+}

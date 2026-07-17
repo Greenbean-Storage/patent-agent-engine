@@ -1,0 +1,176 @@
+{
+  "description": "director(02번) 도면 생성 orchestrate. 4 step. Step 0: 도면 리스트 (self-check). Step 1: 부호 추출 per drawing (Thinker peer-review). Step 2: 청구항 작성 (Thinker peer-review). Step 3: DL 생성 → 렌더링 → Inspector Vision 검수 per drawing (Director peer-review + Inspector). 검수 fail 시 즉전 stage로 회귀, max_review_retries 횟수 가드. Inspector fail은 DL 단계로 회귀.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P02.R99.CENTRAL_AGENT"
+      ],
+      [
+        "P02.R12.DRAWING_ORCHESTRATION"
+      ]
+    ],
+    "max_self_recursion": 2
+  },
+  "steps": [
+    {
+      "description": "IOM 의 부품·구조·기능 정보를 토대로 필요한 도면 목록(Figure 번호·역할·범위) 생성. 후속 fanout 의 단위.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/list_figures.md"
+      },
+      "llm_tools": [],
+      "output_contract": "generate-drawing-list-output"
+    },
+    {
+      "description": "도면 목록의 누락·중복·청구항 적합성 검토 후 최종 list 확정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/review_figures.md"
+      },
+      "llm_tools": [],
+      "output_contract": "review-drawing-list-output"
+    },
+    {
+      "description": "도면별 numerals 추출 작업의 trigger + 결과 consolidation.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/trigger_numerals.md"
+      },
+      "llm_tools": [],
+      "output_contract": "drawings-for-numerals-plan-output"
+    },
+    {
+      "description": "수집된 numerals 의 일관성·중복·신규 부호 부여 적정성 검토. 표준화.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/review_numerals.md"
+      },
+      "llm_tools": [],
+      "output_contract": "review-numerals-batch-output"
+    },
+    {
+      "description": "도면별 numerals review 결과 → 다음 step 으로 진행 결정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/numerals_decision.md"
+      },
+      "llm_tools": [],
+      "output_contract": "numerals-batch-decision-output"
+    },
+    {
+      "description": "청구항-부호 매핑 작업의 trigger + 결과 consolidation.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/trigger_claims_mapping.md"
+      },
+      "llm_tools": [],
+      "output_contract": "claims-mapping-plan-output"
+    },
+    {
+      "description": "청구항 초안의 부호 인용·element 일치성 검토.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/review_claims_mapping.md"
+      },
+      "llm_tools": [],
+      "output_contract": "review-claims-output"
+    },
+    {
+      "description": "도면 DL 코드 생성 작업의 trigger + 결과 consolidation.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/trigger_dl_codegen.md"
+      },
+      "llm_tools": [],
+      "output_contract": "dl-generation-plan-output"
+    },
+    {
+      "description": "생성된 도면 코드의 청구항 부합성·시각 가독성 검토.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/review_dl_code.md"
+      },
+      "llm_tools": [],
+      "output_contract": "review-dl-batch-output"
+    },
+    {
+      "description": "도면 렌더링 작업의 trigger + 결과 consolidation.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/trigger_render.md"
+      },
+      "llm_tools": [],
+      "output_contract": "render-plan-output"
+    },
+    {
+      "description": "도면 렌더링 결과 review 후 다음 단계 결정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/review_render.md"
+      },
+      "llm_tools": [],
+      "output_contract": "dl-batch-decision-output"
+    },
+    {
+      "description": "vision 검수 작업의 trigger.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/trigger_vision_check.md"
+      },
+      "llm_tools": [],
+      "output_contract": "inspect-plan-output"
+    },
+    {
+      "description": "도면 검수 결과 통합 review.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/consolidate_inspection.md"
+      },
+      "llm_tools": [],
+      "output_contract": "inspect-targets-output"
+    },
+    {
+      "description": "도면 작업 최종 저장 + IOM 갱신 결정.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/02.director/P02.R12/finalize.md"
+      },
+      "llm_tools": [],
+      "output_contract": "drawings-summary-output"
+    }
+  ]
+}

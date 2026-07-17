@@ -1,0 +1,381 @@
+{
+  "subclass": "B23H",
+  "title": {
+    "ko": "공구의 전극을 사용, 공작물에 고밀도의 전류를 사용하는 것에 의해서 행해지는 금속 가공; 이와같은 가공과 다른 형식의 금속 가공을 복합한 것 (전해 또는 전기영동에 의한 피복의 형성 방법, 전기 형성, 또는 그를 위한 장치 C25D; 대상물에서 재료의 전해제법방법 C25F; 소망도전성 재료 침전기술을 사용한 인쇄 회로의 제조 H05K3/18)",
+    "en": "WORKING OF METAL BY THE ACTION OF A HIGH CONCENTRATION OF ELECTRIC CURRENT ON A WORKPIECE USING AN ELECTRODE WHICH TAKES THE PLACE OF A TOOL; SUCH WORKING COMBINED WITH OTHER FORMS OF WORKING OF METAL (processes for the electrolytic or electrophoretic production of coatings, electroforming, or apparatus therefor C25D;processes for the electrolytic removal of material from objects C25F;manufacturing printed circuits using precipitation techniques to apply the conductive material to form the desired conductive pattern H05K0003180000)"
+  },
+  "definition": {
+    "ko": "방전가공 B23H1/00 전해가공 B23H3/00 복합가공 B23H5/00 방법 또는 장치 B23H7/00 특정대상물의 가공 또는 특별한 효과 또는 결과의 달성 B23H9/00 보조장치 또는 세부 B23H11/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "B23H 1/00",
+      "title": {
+        "ko": "방전 가공, 즉 유전성 유체 중에 놓여진 전극과 공작물 사이에 방전을 고속으로 반복하는 것에 의해서 이루어지는 금속의 제거",
+        "en": "Electrical discharge machining, i.e. removing metal with a series of rapidly recurring electrical discharges between an electrode and a workpiece in the presence of a fluid dielectric"
+      },
+      "subgroups": [
+        {
+          "code": "B23H 1/02",
+          "title": {
+            "ko": null,
+            "en": "Electric circuits specially adapted therefor, e.g. power supply, control, preventing short circuits or other abnormal discharges"
+          }
+        },
+        {
+          "code": "B23H 1/04",
+          "title": {
+            "ko": "특히 그것에 적용된 전극 또는 그 제조(B23H 9/00이 우선)",
+            "en": "Electrodes specially adapted therefor or their manufacture (B23H0009000000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23H 1/06",
+          "title": {
+            "ko": null,
+            "en": "Electrode material"
+          }
+        },
+        {
+          "code": "B23H 1/08",
+          "title": {
+            "ko": null,
+            "en": "Working media"
+          }
+        },
+        {
+          "code": "B23H 1/10",
+          "title": {
+            "ko": null,
+            "en": "Supply or regeneration of working media"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23H 3/00",
+      "title": {
+        "ko": "전해 가공, 즉 전해액 중에 놓여진 전극과 공작물 사이에 전류의 흐름에 의해서 이루어지는 금속의 제거",
+        "en": "Electrochemical machining, i.e. removing metal by passing current between an electrode and a workpiece in the presence of an electrolyte"
+      },
+      "subgroups": [
+        {
+          "code": "B23H 3/02",
+          "title": {
+            "ko": null,
+            "en": "Electric circuits specially adapted therefor, e.g. power supply, control, preventing short circuits"
+          }
+        },
+        {
+          "code": "B23H 3/04",
+          "title": {
+            "ko": "특히 그것에 적용된 전극 또는 제조(B23H 19/00이 우선)",
+            "en": "Electrodes specially adapted therefor or their manufacture (B23H0009000000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23H 3/06",
+          "title": {
+            "ko": null,
+            "en": "Electrode material"
+          }
+        },
+        {
+          "code": "B23H 3/08",
+          "title": {
+            "ko": null,
+            "en": "Working media"
+          }
+        },
+        {
+          "code": "B23H 3/10",
+          "title": {
+            "ko": null,
+            "en": "Supply or regeneration of working media"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23H 5/00",
+      "title": {
+        "ko": "복합 가공",
+        "en": "Combined machining"
+      },
+      "subgroups": [
+        {
+          "code": "B23H 5/02",
+          "title": {
+            "ko": null,
+            "en": "Electrical discharge machining combined with electrochemical machining"
+          }
+        },
+        {
+          "code": "B23H 5/04",
+          "title": {
+            "ko": null,
+            "en": "Electrical discharge machining combined with mechanical working"
+          }
+        },
+        {
+          "code": "B23H 5/06",
+          "title": {
+            "ko": null,
+            "en": "Electrochemical machining combined with mechanical working, e.g. grinding or honing"
+          }
+        },
+        {
+          "code": "B23H 5/08",
+          "title": {
+            "ko": null,
+            "en": "Electrolytic grinding"
+          }
+        },
+        {
+          "code": "B23H 5/10",
+          "title": {
+            "ko": "특히 그것에 적용된 전극 또는 그 제조(B23H 1/04, B23H 3/04가 우선)",
+            "en": "Electrodes specially adapted therefor or their manufacture (B23H0001040000, B23H0003040000 take precedence)"
+          }
+        },
+        {
+          "code": "B23H 5/12",
+          "title": {
+            "ko": null,
+            "en": "Working media"
+          }
+        },
+        {
+          "code": "B23H 5/14",
+          "title": {
+            "ko": null,
+            "en": "Supply or regeneration of working media"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23H 7/00",
+      "title": {
+        "ko": "방전 가공 및 전해 가공에 공통으로 적용된 방법 및 장치",
+        "en": "Processes or apparatus applicable to both electrical discharge machining and electrochemical machining"
+      },
+      "subgroups": [
+        {
+          "code": "B23H 7/02",
+          "title": {
+            "ko": null,
+            "en": "Wire-cutting"
+          }
+        },
+        {
+          "code": "B23H 7/04",
+          "title": {
+            "ko": null,
+            "en": "Apparatus for supplying current to working gap; Electric circuits specially adapted therefor"
+          }
+        },
+        {
+          "code": "B23H 7/06",
+          "title": {
+            "ko": null,
+            "en": "Control of the travel curve of the relative movement between electrode and workpiece"
+          }
+        },
+        {
+          "code": "B23H 7/08",
+          "title": {
+            "ko": null,
+            "en": "Wire electrodes"
+          }
+        },
+        {
+          "code": "B23H 7/10",
+          "title": {
+            "ko": null,
+            "en": "Supporting, winding or electrical connection of wire-electrode"
+          }
+        },
+        {
+          "code": "B23H 7/12",
+          "title": {
+            "ko": null,
+            "en": "Rotating-disc electrodes"
+          }
+        },
+        {
+          "code": "B23H 7/14",
+          "title": {
+            "ko": null,
+            "en": "Electric circuits specially adapted therefor, e.g. power supply"
+          }
+        },
+        {
+          "code": "B23H 7/16",
+          "title": {
+            "ko": null,
+            "en": "for preventing short circuits or other abnormal discharges"
+          }
+        },
+        {
+          "code": "B23H 7/18",
+          "title": {
+            "ko": null,
+            "en": "for maintaining or controlling the desired spacing between electrode and workpiece"
+          }
+        },
+        {
+          "code": "B23H 7/20",
+          "title": {
+            "ko": null,
+            "en": "for program control, e.g. adaptive"
+          }
+        },
+        {
+          "code": "B23H 7/22",
+          "title": {
+            "ko": "특히 그것에 적용된 전극 또는 그 제조, 예. 수정 또는 조정(B23H 7/08, B23H 7/12, B23H 9/00이 우선)",
+            "en": "Electrodes specially adapted therefor or their manufacture (B23H0007080000, B23H0007120000, B23H0009000000 take precedence)"
+          }
+        },
+        {
+          "code": "B23H 7/24",
+          "title": {
+            "ko": null,
+            "en": "Electrode material"
+          }
+        },
+        {
+          "code": "B23H 7/26",
+          "title": {
+            "ko": "공작물에 대하여 전극을 이동 또는 위치를 결정하는 장치; 전극의 부착",
+            "en": "Apparatus for moving or positioning electrode relatively to workpiece; Mounting of electrode"
+          }
+        },
+        {
+          "code": "B23H 7/28",
+          "title": {
+            "ko": null,
+            "en": "Moving electrode in a plane normal to the feed direction, e.g. orbiting"
+          }
+        },
+        {
+          "code": "B23H 7/30",
+          "title": {
+            "ko": "이송방향에서 전극의 이동(B23H 7/32가 우선)",
+            "en": "Moving electrode in the feed direction (B23H0007320000 takes precedence)"
+          }
+        },
+        {
+          "code": "B23H 7/32",
+          "title": {
+            "ko": null,
+            "en": "Maintaining desired spacing between electrode and workpiece"
+          }
+        },
+        {
+          "code": "B23H 7/34",
+          "title": {
+            "ko": null,
+            "en": "Working media"
+          }
+        },
+        {
+          "code": "B23H 7/36",
+          "title": {
+            "ko": null,
+            "en": "Supply or regeneration of working media"
+          }
+        },
+        {
+          "code": "B23H 7/38",
+          "title": {
+            "ko": null,
+            "en": "Influencing metal working by using specially adapted means not directly involved in the removal of metal, e.g. ultrasonic waves, magnetic fields or laser irradiation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23H 9/00",
+      "title": {
+        "ko": "특정의 금속 대상물을 취급 또는 금속 대상물에 특별한 효과 또는 결과를 달성하기 위해 특히 적용된 기계 가공(음극 방전에 의한 열처리 C21D 1/38)",
+        "en": "Machining specially adapted for treating particular metal objects or for obtaining special effects or results on metal objects (heat treatment by cathodic discharge C21D0001380000)"
+      },
+      "subgroups": [
+        {
+          "code": "B23H 9/02",
+          "title": {
+            "ko": null,
+            "en": "Trimming or deburring"
+          }
+        },
+        {
+          "code": "B23H 9/04",
+          "title": {
+            "ko": null,
+            "en": "Treating surfaces of rolls"
+          }
+        },
+        {
+          "code": "B23H 9/06",
+          "title": {
+            "ko": null,
+            "en": "Marking or engraving"
+          }
+        },
+        {
+          "code": "B23H 9/08",
+          "title": {
+            "ko": null,
+            "en": "Sharpening"
+          }
+        },
+        {
+          "code": "B23H 9/10",
+          "title": {
+            "ko": null,
+            "en": "Working turbine blades or nozzles"
+          }
+        },
+        {
+          "code": "B23H 9/12",
+          "title": {
+            "ko": null,
+            "en": "Forming parts of complementary shape, e.g. punch-and-die"
+          }
+        },
+        {
+          "code": "B23H 9/14",
+          "title": {
+            "ko": null,
+            "en": "Making holes"
+          }
+        },
+        {
+          "code": "B23H 9/16",
+          "title": {
+            "ko": null,
+            "en": "using an electrolytic jet"
+          }
+        },
+        {
+          "code": "B23H 9/18",
+          "title": {
+            "ko": "외부 원추면 또는 스파이크의 제조(B23H 9/08이 우선)",
+            "en": "Producing external conical surfaces or spikes (B23H0009080000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "B23H 11/00",
+      "title": {
+        "ko": null,
+        "en": "Auxiliary apparatus or details, not otherwise provided for"
+      },
+      "subgroups": []
+    }
+  ]
+}

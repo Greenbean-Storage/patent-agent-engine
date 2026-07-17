@@ -1,0 +1,272 @@
+{
+  "subclass": "G16H",
+  "title": {
+    "ko": "건강 정보학, 즉. 의료 또는 건강 관리 데이터의 취급 또는 처리에 특히 적합한 정보통신 기술 [ICT]",
+    "en": "HEALTHCARE INFORMATICS, i.e. INFORMATION AND COMMUNICATION TECHNOLOGY [ICT] SPECIALLY ADAPTED FOR THE HANDLING OR PROCESSING OF MEDICAL OR HEALTHCARE DATA"
+  },
+  "definition": {
+    "ko": "1. 어 서브클래스는, 컴퓨터, 정보 또는 통신과학과 의학 또는 건강관리과학과의 횡단적인 관점을 포함하는 것이고, 의학 또는 건관관리과학에 특히 적합한, 디지털 계산 또는 데이터처리 시스템 또는 방법에 명확히 초점이 맞춰져 있다. 2. 이 서브클래스에서는 이하의 것을 포함하지 않는다 : a. 의료 기기, 의료 방법, 진단 방법; 치료 방법 혹은 치료, 임상 케어 혹은 외과 수기 그 자체에 있어서, 클래스 A1의 관련 서브클래스로 분류되는 것 : b. 그룹 A61B 5/00으로 분류 되고, 진단 측정에 관련하는 신호처리 또는 신호 전송, 예. 신호파형 분석 3. 의학 또는 건강관리과학에 관련하는 기술적 주제가 이 서브클래스 또는 A61의 관련 서브클래스로 분류되는지 안되는지를 결정하기 위하여, 다음의 것이 지켜져야 한다 : a. 이 서브클래스에 있어서 기술적 주제를 분류하기 위해서는, 주제의 본질적인 기술적 특징이 디지털 계산 또는 데이터처리 시스템 또는 방법에 초점을 갖고있는것이 요구된다; b. 기술적 주제가 의학, 예. 생리신호 또는 의학적 상태에 초점을 맞추고있는 경우, 또는, 주제가 환자와의 현저한 상호 작용, 예. 진단 측정의 세부를 포함하는 경우에는, 클래스 A61의 적절한 서브클래스로 분류되는 것으로 한다; c. 의료장치 또는 수속(절차)에 관련하는 \"컴퓨터\" 또는 \"플로우차트\"가 단순히 존재하는 것 만으로는, 이 서브클래스로의 분류가 주요한 요소로 되지 않는다. 이 경우, 의료장치또는 수속(절차)을 커버하는 적절한 서브클래스로 분류되는 것이다",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G16H 10/00",
+      "title": {
+        "ko": "환자와 관련된 의료 또는 건강관리 데이터의 취급 또는 처리에 특히 적합한 ICT (의료 보고서를 위한 것 G16H15/00; 치료법 또는 건강 증진 계획 G16H20/00; 의료 이미지의 취급 또는 처리 G16H30/00)",
+        "en": "ICT specially adapted for the handling or processing of patient-related medical or healthcare data (for medical reports G16H0015000000;  for therapies or health-improving plans G16H0020000000;  for the handling or processing of medical images G16H0030000000)"
+      },
+      "subgroups": [
+        {
+          "code": "G16H 10/20",
+          "title": {
+            "ko": null,
+            "en": "for electronic clinical trials or questionnaires"
+          }
+        },
+        {
+          "code": "G16H 10/40",
+          "title": {
+            "ko": null,
+            "en": "for data related to laboratory analysis, e.g. patient specimen analysis"
+          }
+        },
+        {
+          "code": "G16H 10/60",
+          "title": {
+            "ko": null,
+            "en": "for patient-specific data, e.g. for electronic patient records"
+          }
+        },
+        {
+          "code": "G16H 10/65",
+          "title": {
+            "ko": null,
+            "en": "stored on portable record carriers, e.g. on smartcards, RFID tags or CD"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G16H 15/00",
+      "title": {
+        "ko": null,
+        "en": "ICT specially adapted for medical reports, e.g. generation or transmission thereof"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G16H 20/00",
+      "title": {
+        "ko": null,
+        "en": "ICT specially adapted for therapies or health-improving plans, e.g. for handling prescriptions, for steering therapy or for monitoring patient compliance"
+      },
+      "subgroups": [
+        {
+          "code": "G16H 20/10",
+          "title": {
+            "ko": null,
+            "en": "relating to drugs or medications, e.g. for ensuring correct administration to patients"
+          }
+        },
+        {
+          "code": "G16H 20/13",
+          "title": {
+            "ko": null,
+            "en": "delivered from dispensers"
+          }
+        },
+        {
+          "code": "G16H 20/17",
+          "title": {
+            "ko": null,
+            "en": "delivered via infusion or injection"
+          }
+        },
+        {
+          "code": "G16H 20/30",
+          "title": {
+            "ko": null,
+            "en": "relating to physical therapies or activities, e.g. physiotherapy, acupressure or exercising"
+          }
+        },
+        {
+          "code": "G16H 20/40",
+          "title": {
+            "ko": null,
+            "en": "relating to mechanical, radiation or invasive therapies, e.g. surgery, laser therapy, dialysis or acupuncture"
+          }
+        },
+        {
+          "code": "G16H 20/60",
+          "title": {
+            "ko": null,
+            "en": "relating to nutrition control, e.g. diets"
+          }
+        },
+        {
+          "code": "G16H 20/70",
+          "title": {
+            "ko": null,
+            "en": "relating to mental therapies, e.g. psychological therapy or autogenous training"
+          }
+        },
+        {
+          "code": "G16H 20/90",
+          "title": {
+            "ko": null,
+            "en": "relating to alternative medicines, e.g. homeopathy or oriental medicines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G16H 30/00",
+      "title": {
+        "ko": "의료 영상의 취급 또는 처리에 특히 적합한 ICT (컴퓨터단층촬영(CT) A61B6/03)",
+        "en": "ICT specially adapted for the handling or processing of medical images  (computed tomography A61B0006030000)"
+      },
+      "subgroups": [
+        {
+          "code": "G16H 30/20",
+          "title": {
+            "ko": null,
+            "en": "for handling medical images, e.g. DICOM, HL7 or PACS"
+          }
+        },
+        {
+          "code": "G16H 30/40",
+          "title": {
+            "ko": null,
+            "en": "for processing medical images, e.g. editing"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G16H 40/00",
+      "title": {
+        "ko": null,
+        "en": "ICT specially adapted for the management or administration of healthcare resources or facilities; ICT specially adapted for the management or operation of medical equipment or devices"
+      },
+      "subgroups": [
+        {
+          "code": "G16H 40/20",
+          "title": {
+            "ko": null,
+            "en": "for the management or administration of healthcare resources or facilities, e.g. managing hospital staff or surgery rooms"
+          }
+        },
+        {
+          "code": "G16H 40/40",
+          "title": {
+            "ko": null,
+            "en": "for the management of medical equipment or devices, e.g. scheduling maintenance or upgrades"
+          }
+        },
+        {
+          "code": "G16H 40/60",
+          "title": {
+            "ko": null,
+            "en": "for the operation of medical equipment or devices"
+          }
+        },
+        {
+          "code": "G16H 40/63",
+          "title": {
+            "ko": null,
+            "en": "for local operation"
+          }
+        },
+        {
+          "code": "G16H 40/67",
+          "title": {
+            "ko": null,
+            "en": "for remote operation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G16H 50/00",
+      "title": {
+        "ko": null,
+        "en": "ICT specially adapted for medical diagnosis, medical simulation or medical data mining; ICT specially adapted for detecting, monitoring or modelling epidemics or pandemics"
+      },
+      "subgroups": [
+        {
+          "code": "G16H 50/20",
+          "title": {
+            "ko": null,
+            "en": "for computer-aided diagnosis, e.g. based on medical expert systems"
+          }
+        },
+        {
+          "code": "G16H 50/30",
+          "title": {
+            "ko": null,
+            "en": "for calculating health indices; for individual health risk assessment"
+          }
+        },
+        {
+          "code": "G16H 50/50",
+          "title": {
+            "ko": null,
+            "en": "for simulation or modelling of medical disorders"
+          }
+        },
+        {
+          "code": "G16H 50/70",
+          "title": {
+            "ko": null,
+            "en": "for mining of medical data, e.g. analysing previous cases of other patients"
+          }
+        },
+        {
+          "code": "G16H 50/80",
+          "title": {
+            "ko": null,
+            "en": "for detecting, monitoring or modelling epidemics or pandemics, e.g. flu"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G16H 70/00",
+      "title": {
+        "ko": null,
+        "en": "ICT specially adapted for the handling or processing of medical references"
+      },
+      "subgroups": [
+        {
+          "code": "G16H 70/20",
+          "title": {
+            "ko": null,
+            "en": "relating to practices or guidelines"
+          }
+        },
+        {
+          "code": "G16H 70/40",
+          "title": {
+            "ko": null,
+            "en": "relating to drugs, e.g. their side effects or intended usage"
+          }
+        },
+        {
+          "code": "G16H 70/60",
+          "title": {
+            "ko": null,
+            "en": "relating to pathologies"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G16H 80/00",
+      "title": {
+        "ko": null,
+        "en": "ICT specially adapted for facilitating communication between medical practitioners or patients, e.g. for collaborative diagnosis, therapy or health monitoring"
+      },
+      "subgroups": []
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "subclass": "H03L",
+  "title": {
+    "ko": "전자식 진동 또는 펄스의 발생기의 자동 제어, 시작, 동기화 또는 안정화 (진동의 발생 H03B)",
+    "en": "AUTOMATIC CONTROL, STARTING, SYNCHRONISATION OR STABILISATION OF GENERATORS OF ELECTRONIC OSCILLATIONS OR PULSES (generation of oscillations H03B)"
+  },
+  "definition": {
+    "ko": "1. 이 서브클라스는 다음의 것을 포함한다. • 전자 진동 또는 펄스의 발생기를 위한 자동 제어 회로; • 발전기의 유형이 부적절하거나 불특정인 발전기를 위한 시작, 동기화 또는 안정화 회로. 2. 이 하위 클래스에서는 다음과 같은 표현식이 표시된 의미로 사용됩니다. • \"자동 제어\"는 닫힌 루프 시스템만을 포함합니다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03L 1/00",
+      "title": {
+        "ko": null,
+        "en": "Stabilisation of generator output against variations of physical values, e.g. power supply"
+      },
+      "subgroups": [
+        {
+          "code": "H03L 1/02",
+          "title": {
+            "ko": null,
+            "en": "against variations of temperature only"
+          }
+        },
+        {
+          "code": "H03L 1/04",
+          "title": {
+            "ko": null,
+            "en": "Constructional details for maintaining temperature constant"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03L 3/00",
+      "title": {
+        "ko": null,
+        "en": "Starting of generators"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03L 5/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic control of voltage, current, or power"
+      },
+      "subgroups": [
+        {
+          "code": "H03L 5/02",
+          "title": {
+            "ko": null,
+            "en": "of power"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03L 7/00",
+      "title": {
+        "ko": "주파수 또는 위상의 자동 제어; 동기화",
+        "en": "Automatic control of frequency or phase; Synchronisation"
+      },
+      "subgroups": [
+        {
+          "code": "H03L 7/02",
+          "title": {
+            "ko": null,
+            "en": "using a frequency discriminator comprising a passive frequency-determining element"
+          }
+        },
+        {
+          "code": "H03L 7/04",
+          "title": {
+            "ko": null,
+            "en": "wherein the frequency-determining element comprises distributed inductance and capacitance"
+          }
+        },
+        {
+          "code": "H03L 7/06",
+          "title": {
+            "ko": "주파수 또는 위상동기루프에 가해지는 기준신호를 사용하는 것",
+            "en": "using a reference signal applied to a frequency- or phase-locked loop"
+          }
+        },
+        {
+          "code": "H03L 7/07",
+          "title": {
+            "ko": null,
+            "en": "using several loops, e.g. for redundant clock signal generation"
+          }
+        },
+        {
+          "code": "H03L 7/08",
+          "title": {
+            "ko": "위상동기루프의 세부",
+            "en": "Details of the phase-locked loop"
+          }
+        },
+        {
+          "code": "H03L 7/081",
+          "title": {
+            "ko": null,
+            "en": "provided with an additional controlled phase shifter"
+          }
+        },
+        {
+          "code": "H03L 7/083",
+          "title": {
+            "ko": null,
+            "en": "the reference signal being additionally directly applied to the generator"
+          }
+        },
+        {
+          "code": "H03L 7/085",
+          "title": {
+            "ko": "주로 그것의 출력 신호의 필터링 또는 증폭을 포함하는 주파수 또는 위상 검출 장치에 관한 것 (H03L7/10이 우선; 두 상호 독립적인 진동의 위상 또는 주파수를 비교하기 위한 회로 H03D13/00)",
+            "en": "concerning mainly the frequency- or phase-detection arrangement including the filtering or amplification of its output signal   (H03L0007100000 takes precedence; circuits for comparing the phase or frequency of two mutually-independent oscillations H03D0013000000)"
+          }
+        },
+        {
+          "code": "H03L 7/087",
+          "title": {
+            "ko": null,
+            "en": "using at least two phase detectors or a frequency and phase detector in the loop"
+          }
+        },
+        {
+          "code": "H03L 7/089",
+          "title": {
+            "ko": "상하펄스를 발생시키는 위상 또는 주파수검출기(H03L 7/087이 우선)",
+            "en": "the phase or frequency detector generating up-down pulses (H03L0007087000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/091",
+          "title": {
+            "ko": "샘플링 장치를 사용한 위상 또는 주파수검출기(H03L 7/087이 우선)",
+            "en": "the phase or frequency detector using a sampling device (H03L0007087000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/093",
+          "title": {
+            "ko": "루프내에서 특수한 여파나 증폭특성을 사용하는 것(H03L 7/087～ H03L 7/091이 우선)",
+            "en": "using special filtering or amplification characteristics in the loop (H03L0007087000-H03L0007091000 take precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/095",
+          "title": {
+            "ko": "동기검출기를 사용하는 것(H03L 7/087이 우선)",
+            "en": "using a lock detector (H03L0007087000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/097",
+          "title": {
+            "ko": null,
+            "en": "using a comparator for comparing the voltages obtained from two frequency to voltage converters"
+          }
+        },
+        {
+          "code": "H03L 7/099",
+          "title": {
+            "ko": null,
+            "en": "concerning mainly the controlled oscillator of the loop"
+          }
+        },
+        {
+          "code": "H03L 7/10",
+          "title": {
+            "ko": null,
+            "en": "for assuring initial synchronisation or for broadening the capture range"
+          }
+        },
+        {
+          "code": "H03L 7/107",
+          "title": {
+            "ko": null,
+            "en": "using a variable transfer function for the loop, e.g. low pass filter having a variable bandwidth"
+          }
+        },
+        {
+          "code": "H03L 7/113",
+          "title": {
+            "ko": null,
+            "en": "using frequency discriminator"
+          }
+        },
+        {
+          "code": "H03L 7/12",
+          "title": {
+            "ko": null,
+            "en": "using a scanning signal"
+          }
+        },
+        {
+          "code": "H03L 7/14",
+          "title": {
+            "ko": null,
+            "en": "for assuring constant frequency when supply or correction voltages fail"
+          }
+        },
+        {
+          "code": "H03L 7/16",
+          "title": {
+            "ko": "간접적인 주파수의 합성, 즉 주파수 또는 위상동기루프를 사용하다 미리 정해진 다수의 주파수의 소망의 1개를 발생하는 것",
+            "en": "Indirect frequency synthesis, i.e. generating a desired one of a number of predetermined frequencies using a frequency- or phase-locked loop"
+          }
+        },
+        {
+          "code": "H03L 7/18",
+          "title": {
+            "ko": "루프 중에 주파수분할기 또는 계수기를 사용하는 것(H03L 7/20, H03L 7/22가 우선)",
+            "en": "using a frequency divider or counter in the loop (H03L0007200000, H03L0007220000 take precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/181",
+          "title": {
+            "ko": null,
+            "en": "a numerical count result being used for locking the loop, the counter counting during fixed time intervals"
+          }
+        },
+        {
+          "code": "H03L 7/183",
+          "title": {
+            "ko": "루프나 고정된 수사이에서 계수하는 계수기, 또는 고정된 수를 분할하는 주파수분할기의 잠금에 사용되는 시간차이",
+            "en": "a time difference being used for locking the loop, the counter counting between fixed numbers or the frequency divider dividing by a fixed number"
+          }
+        },
+        {
+          "code": "H03L 7/185",
+          "title": {
+            "ko": "루프내에 믹서를 사용하는 것(H03L 7/187～ H03L 7/195가 우선)",
+            "en": "using a mixer in the loop (H03L0007187000-H03L0007195000 take precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/187",
+          "title": {
+            "ko": "루프의 전압제어발진기를 조동조하기 위한 수단을 사용하는 것(H03L 7/191～ H03L 7/195가 우선)",
+            "en": "using means for coarse tuning the voltage controlled oscillator of the loop (H03L0007191000-H03L0007195000 take precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/189",
+          "title": {
+            "ko": "거친 전압조정을 발진하기 위한 D/A 변환기를 포함하는 것",
+            "en": "comprising a D/A converter for generating a coarse tuning voltage"
+          }
+        },
+        {
+          "code": "H03L 7/191",
+          "title": {
+            "ko": "시간차를 결정하기 위한 계수기나 주파수 분할기로부터 나오는 서로 다른 최소한 두개의 신호를 사용하는 것",
+            "en": "using at least two different signals from the frequency divider or the counter for determining the time difference (H03L0007193000, H03L0007195000 take precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/193",
+          "title": {
+            "ko": null,
+            "en": "the frequency divider/counter comprising a commutable pre-divider, e.g. a two modulus divider"
+          }
+        },
+        {
+          "code": "H03L 7/195",
+          "title": {
+            "ko": "루프의 카운터가 두 개의 서로 다른 0이 아닌 숫자 사이에서 카운트되는 것, 예를 들어.오프셋 주파수를 생성하기 위한 것 (H03L7/193 이 우선)",
+            "en": "in which the counter of the loop counts between two different non zero numbers, e.g. for generating an offset frequency  (H03L0007193000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/197",
+          "title": {
+            "ko": null,
+            "en": "a time difference being used for locking the loop, the counter counting between numbers which are variable in time or the frequency divider dividing by a factor variable in time, e.g. for obtaining fractional frequency division"
+          }
+        },
+        {
+          "code": "H03L 7/199",
+          "title": {
+            "ko": null,
+            "en": "with reset of the frequency divider or the counter, e.g. for assuring initial synchronisation"
+          }
+        },
+        {
+          "code": "H03L 7/20",
+          "title": {
+            "ko": "고주파위상동기루프, 즉 공급된 다수의 고주파 관련에 있는 주파수내의 1개의 동기될 수 있는 루프를 사용하는 것(H03L 7/22가 우선)",
+            "en": "using a harmonic phase-locked loop, i.e. a loop which can be locked to one of a number of harmonically related frequencies applied to it (H03L0007220000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03L 7/22",
+          "title": {
+            "ko": null,
+            "en": "using more than one loop"
+          }
+        },
+        {
+          "code": "H03L 7/23",
+          "title": {
+            "ko": null,
+            "en": "with pulse counters or frequency dividers"
+          }
+        },
+        {
+          "code": "H03L 7/24",
+          "title": {
+            "ko": null,
+            "en": "using a reference signal directly applied to the generator"
+          }
+        },
+        {
+          "code": "H03L 7/26",
+          "title": {
+            "ko": null,
+            "en": "using energy levels of molecules, atoms, or subatomic particles as a frequency reference"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03L 9/00",
+      "title": {
+        "ko": null,
+        "en": "Automatic control not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

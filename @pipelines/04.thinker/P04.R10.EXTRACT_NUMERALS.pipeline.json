@@ -1,0 +1,29 @@
+{
+  "description": "thinker(04번) GPT o3 단일 도면 부호(numerals) 추출. drawing_orchestration Step 1에서 drawing 별로 fan_out 호출. existing_numerals + revision_comment 입력이 있으면 보완(추가/수정) 모드로 동작.",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [
+      [
+        "P04.R11.CLAIMS_WITH_NUMERALS"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "description": "도면 또는 명세서에서 참조부호 후보(숫자+라벨 짝) 를 추출 + 표준화 + 누락 부호 신규 부여 제안.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "instructions": {
+        "reference": "@pipelines/04.thinker/P04.R10/extract.md"
+      },
+      "llm_tools": [],
+      "output_contract": "extract-output"
+    }
+  ]
+}

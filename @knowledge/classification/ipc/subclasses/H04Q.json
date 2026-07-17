@@ -1,0 +1,779 @@
+{
+  "subclass": "H04Q",
+  "title": {
+    "ko": "선택(스위치, 계전기, 셀렉터 H01H; 무선통신망 H04W)",
+    "en": "SELECTING (switches, relays, selectors H01H; wireless communication networks H04W)"
+  },
+  "definition": {
+    "ko": "선택 배치 일반; 선로에 의한 것; 무선 또는 유도링크에 의한 것; 다중화 H04Q3/00; 5/00; 7/00; 11/00 원격제어 또는 원격계측 H04Q9/00 세부 H04Q1/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H04Q 1/00",
+      "title": {
+        "ko": "장치 또는 배치 선택의 세부 사항",
+        "en": "Details of selecting apparatus or arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 1/02",
+          "title": {
+            "ko": null,
+            "en": "Constructional details"
+          }
+        },
+        {
+          "code": "H04Q 1/04",
+          "title": {
+            "ko": null,
+            "en": "Frames or mounting racks for selector switches; Accessories therefor, e.g. frame cover"
+          }
+        },
+        {
+          "code": "H04Q 1/06",
+          "title": {
+            "ko": null,
+            "en": "Cable ducts or mountings specially adapted for exchange installations"
+          }
+        },
+        {
+          "code": "H04Q 1/08",
+          "title": {
+            "ko": null,
+            "en": "Frames or mounting racks for relays; Accessories therefor"
+          }
+        },
+        {
+          "code": "H04Q 1/10",
+          "title": {
+            "ko": null,
+            "en": "Exchange station construction"
+          }
+        },
+        {
+          "code": "H04Q 1/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements of multiple bars with or without pivotable frames"
+          }
+        },
+        {
+          "code": "H04Q 1/14",
+          "title": {
+            "ko": null,
+            "en": "Distribution frames"
+          }
+        },
+        {
+          "code": "H04Q 1/16",
+          "title": {
+            "ko": null,
+            "en": "Wiring arrangements for selector switches or relays in frames"
+          }
+        },
+        {
+          "code": "H04Q 1/18",
+          "title": {
+            "ko": "전기적 세부",
+            "en": "Electrical details"
+          }
+        },
+        {
+          "code": "H04Q 1/20",
+          "title": {
+            "ko": null,
+            "en": "Testing circuits or apparatus; Circuits or apparatus for detecting, indicating, or signalling faults or troubles"
+          }
+        },
+        {
+          "code": "H04Q 1/22",
+          "title": {
+            "ko": null,
+            "en": "Automatic arrangements"
+          }
+        },
+        {
+          "code": "H04Q 1/24",
+          "title": {
+            "ko": null,
+            "en": "for connection devices"
+          }
+        },
+        {
+          "code": "H04Q 1/26",
+          "title": {
+            "ko": null,
+            "en": "for signalling trouble in unoccupied sub-exchanges"
+          }
+        },
+        {
+          "code": "H04Q 1/28",
+          "title": {
+            "ko": null,
+            "en": "Current-supply circuits or arrangements for selection equipment at exchanges"
+          }
+        },
+        {
+          "code": "H04Q 1/30",
+          "title": {
+            "ko": "신호 장치; 신호 전류의 조작 (호출 또는 감시 신호를 제공하는 다중 시스템 H04J1/14, H04J3/12)",
+            "en": "Signalling arrangements; Manipulation of signalling currents (multiplex systems providing for calling or supervisory signals H04J0001140000, H04J0003120000)"
+          }
+        },
+        {
+          "code": "H04Q 1/32",
+          "title": {
+            "ko": "직류 펄스열을 사용하는 것 (H04Q1/39가 우선)",
+            "en": "using trains of DC pulses (H04Q0001390000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04Q 1/34",
+          "title": {
+            "ko": null,
+            "en": "Impulse regenerators with mechanical or other non-electrical marking arrangements"
+          }
+        },
+        {
+          "code": "H04Q 1/36",
+          "title": {
+            "ko": null,
+            "en": "Pulse-correcting arrangements, e.g. for reducing effects due to interference"
+          }
+        },
+        {
+          "code": "H04Q 1/38",
+          "title": {
+            "ko": null,
+            "en": "using combinations of direct currents of different amplitudes or polarities over line conductors or combination of line conductors"
+          }
+        },
+        {
+          "code": "H04Q 1/39",
+          "title": {
+            "ko": null,
+            "en": "using coded pulse groups"
+          }
+        },
+        {
+          "code": "H04Q 1/40",
+          "title": {
+            "ko": null,
+            "en": "whereby duration of pulse or interval between two pulses is variable"
+          }
+        },
+        {
+          "code": "H04Q 1/42",
+          "title": {
+            "ko": null,
+            "en": "involving the position of a pulse in a cycle"
+          }
+        },
+        {
+          "code": "H04Q 1/44",
+          "title": {
+            "ko": "교류를 사용하는 것(H04Q 1/50이 우선)",
+            "en": "using AC (H04Q0001500000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04Q 1/442",
+          "title": {
+            "ko": null,
+            "en": "with out-of-voice band signalling frequencies"
+          }
+        },
+        {
+          "code": "H04Q 1/444",
+          "title": {
+            "ko": "음성대역 주파수신호를 사용하는 것",
+            "en": "with voice-band signalling frequencies"
+          }
+        },
+        {
+          "code": "H04Q 1/446",
+          "title": {
+            "ko": "단일주파수신호를 사용하는 것(H04Q 1/46이 우선)",
+            "en": "using one signalling frequency (H04Q0001460000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04Q 1/448",
+          "title": {
+            "ko": null,
+            "en": "with conversion of a single frequency signal into a digital signal"
+          }
+        },
+        {
+          "code": "H04Q 1/45",
+          "title": {
+            "ko": "다주파수신호를 사용하는 것(H04Q 1/46이 우선)",
+            "en": "using multi-frequency signalling (H04Q0001460000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04Q 1/453",
+          "title": {
+            "ko": null,
+            "en": "in which m-out-of-n signalling frequencies are transmitted"
+          }
+        },
+        {
+          "code": "H04Q 1/457",
+          "title": {
+            "ko": null,
+            "en": "with conversion of multi-frequency signals into digital signals"
+          }
+        },
+        {
+          "code": "H04Q 1/46",
+          "title": {
+            "ko": null,
+            "en": "comprising means for distinguishing between a signalling current of predetermined frequency and a complex current containing that frequency, e.g. speech current"
+          }
+        },
+        {
+          "code": "H04Q 1/48",
+          "title": {
+            "ko": null,
+            "en": "Induced-current signalling arrangements"
+          }
+        },
+        {
+          "code": "H04Q 1/50",
+          "title": {
+            "ko": null,
+            "en": "Conversion between different kinds of signals"
+          }
+        },
+        {
+          "code": "H04Q 1/54",
+          "title": {
+            "ko": null,
+            "en": "Amplifier switched-on automatically in dependence on automatically selected lines"
+          }
+        },
+        {
+          "code": "H04Q 1/56",
+          "title": {
+            "ko": null,
+            "en": "Balancing circuitry switched-on automatically in dependence on automatically selected lines"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 3/00",
+      "title": {
+        "ko": "선택배치(H04Q 5/00 ～ H04Q 11/00이 우선)",
+        "en": "Selecting arrangements (H04Q0005000000-H04Q0011000000 take precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 3/02",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for selectors responsive to a permutation code"
+          }
+        },
+        {
+          "code": "H04Q 3/04",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for receivers of routing digits"
+          }
+        },
+        {
+          "code": "H04Q 3/06",
+          "title": {
+            "ko": null,
+            "en": "for group or trunk group selectors"
+          }
+        },
+        {
+          "code": "H04Q 3/08",
+          "title": {
+            "ko": null,
+            "en": "for local or long-distance selectors"
+          }
+        },
+        {
+          "code": "H04Q 3/10",
+          "title": {
+            "ko": null,
+            "en": "for PBX selectors, i.e. private branch exchange selectors"
+          }
+        },
+        {
+          "code": "H04Q 3/12",
+          "title": {
+            "ko": null,
+            "en": "for line selectors providing transfer of routing digits"
+          }
+        },
+        {
+          "code": "H04Q 3/14",
+          "title": {
+            "ko": null,
+            "en": "for two-way operation selectors"
+          }
+        },
+        {
+          "code": "H04Q 3/16",
+          "title": {
+            "ko": null,
+            "en": "for marking-switches"
+          }
+        },
+        {
+          "code": "H04Q 3/18",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for first stage of hunting switching"
+          }
+        },
+        {
+          "code": "H04Q 3/20",
+          "title": {
+            "ko": null,
+            "en": "for preselectors"
+          }
+        },
+        {
+          "code": "H04Q 3/22",
+          "title": {
+            "ko": null,
+            "en": "comprising common calling and disconnecting circuit"
+          }
+        },
+        {
+          "code": "H04Q 3/24",
+          "title": {
+            "ko": null,
+            "en": "for line finders"
+          }
+        },
+        {
+          "code": "H04Q 3/26",
+          "title": {
+            "ko": null,
+            "en": "comprising common calling and disconnecting circuit"
+          }
+        },
+        {
+          "code": "H04Q 3/28",
+          "title": {
+            "ko": null,
+            "en": "comprising main groups and subgroups"
+          }
+        },
+        {
+          "code": "H04Q 3/30",
+          "title": {
+            "ko": null,
+            "en": "Selector finders, i.e. allotters"
+          }
+        },
+        {
+          "code": "H04Q 3/32",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for second or subsequent stages of hunting switching"
+          }
+        },
+        {
+          "code": "H04Q 3/34",
+          "title": {
+            "ko": null,
+            "en": "for the second preselection stage"
+          }
+        },
+        {
+          "code": "H04Q 3/36",
+          "title": {
+            "ko": null,
+            "en": "for the second line-finder stage"
+          }
+        },
+        {
+          "code": "H04Q 3/38",
+          "title": {
+            "ko": null,
+            "en": "for stages after the group-selector stage"
+          }
+        },
+        {
+          "code": "H04Q 3/40",
+          "title": {
+            "ko": null,
+            "en": "for stages after the line selector, e.g. for extension selector"
+          }
+        },
+        {
+          "code": "H04Q 3/42",
+          "title": {
+            "ko": null,
+            "en": "Circuit arrangements for indirect selecting controlled by common circuits, e.g. register controller, marker"
+          }
+        },
+        {
+          "code": "H04Q 3/44",
+          "title": {
+            "ko": null,
+            "en": "using revertive control"
+          }
+        },
+        {
+          "code": "H04Q 3/46",
+          "title": {
+            "ko": null,
+            "en": "using signals other than revertive impulses"
+          }
+        },
+        {
+          "code": "H04Q 3/47",
+          "title": {
+            "ko": null,
+            "en": "using translators"
+          }
+        },
+        {
+          "code": "H04Q 3/48",
+          "title": {
+            "ko": null,
+            "en": "using markers"
+          }
+        },
+        {
+          "code": "H04Q 3/49",
+          "title": {
+            "ko": null,
+            "en": "for end-to-end marking"
+          }
+        },
+        {
+          "code": "H04Q 3/495",
+          "title": {
+            "ko": null,
+            "en": "for routing connecting paths"
+          }
+        },
+        {
+          "code": "H04Q 3/52",
+          "title": {
+            "ko": null,
+            "en": "using static devices in switching stages, e.g. electronic switching arrangements"
+          }
+        },
+        {
+          "code": "H04Q 3/54",
+          "title": {
+            "ko": null,
+            "en": "in which the logic circuitry controlling the exchange is centralised"
+          }
+        },
+        {
+          "code": "H04Q 3/545",
+          "title": {
+            "ko": null,
+            "en": "using a stored program"
+          }
+        },
+        {
+          "code": "H04Q 3/55",
+          "title": {
+            "ko": null,
+            "en": "using wired logic circuitry"
+          }
+        },
+        {
+          "code": "H04Q 3/555",
+          "title": {
+            "ko": null,
+            "en": "being comprised by electro-magnetic devices"
+          }
+        },
+        {
+          "code": "H04Q 3/56",
+          "title": {
+            "ko": null,
+            "en": "in which the control signals are multiplexed"
+          }
+        },
+        {
+          "code": "H04Q 3/58",
+          "title": {
+            "ko": null,
+            "en": "Arrangements providing connection between main exchange and sub-exchange or satellite"
+          }
+        },
+        {
+          "code": "H04Q 3/60",
+          "title": {
+            "ko": null,
+            "en": "for connecting to satellites or concentrators which connect one or more exchange lines with a group of local lines"
+          }
+        },
+        {
+          "code": "H04Q 3/62",
+          "title": {
+            "ko": null,
+            "en": "for connecting to private branch exchanges"
+          }
+        },
+        {
+          "code": "H04Q 3/64",
+          "title": {
+            "ko": null,
+            "en": "Distributing or queuing"
+          }
+        },
+        {
+          "code": "H04Q 3/66",
+          "title": {
+            "ko": null,
+            "en": "Traffic distributors"
+          }
+        },
+        {
+          "code": "H04Q 3/68",
+          "title": {
+            "ko": null,
+            "en": "Grouping or interlacing selector groups or stages"
+          }
+        },
+        {
+          "code": "H04Q 3/70",
+          "title": {
+            "ko": null,
+            "en": "Identification of class of calling subscriber"
+          }
+        },
+        {
+          "code": "H04Q 3/72",
+          "title": {
+            "ko": null,
+            "en": "Finding out and indicating number of calling subscriber"
+          }
+        },
+        {
+          "code": "H04Q 3/74",
+          "title": {
+            "ko": null,
+            "en": "Identification of subscriber calling from a party-line"
+          }
+        },
+        {
+          "code": "H04Q 3/76",
+          "title": {
+            "ko": null,
+            "en": "Translation from the called subscriber's number to the outgoing or incoming control information"
+          }
+        },
+        {
+          "code": "H04Q 3/78",
+          "title": {
+            "ko": "호출 또는 피호가입자 정보의 임시저장 (전신통신에서 중간축적수단은 H04L 13/08)",
+            "en": "Temporary storage of information of calling or called subscriber (intermediate storage means for telegraphic communication H04L0013080000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 5/00",
+      "title": {
+        "ko": "2개 이상의 가입자국이 교환기에 동일한 회선으로 연결되는 선택 장치",
+        "en": "Selecting arrangements wherein two or more subscriber stations are connected by the same line to the exchange"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 5/02",
+          "title": {
+            "ko": "모든 가입자를 위한 직접 연결이 있는 것, 즉. 파티라인 시스템 (H04Q5/24가 우선)",
+            "en": "with direct connection for all subscribers, i.e. party-line system (H04Q0005240000 takes precedence)"
+          }
+        },
+        {
+          "code": "H04Q 5/04",
+          "title": {
+            "ko": null,
+            "en": "Signalling by currents in one or other or both line wires or additional wires"
+          }
+        },
+        {
+          "code": "H04Q 5/06",
+          "title": {
+            "ko": null,
+            "en": "Signalling by amplitude or polarity of DC"
+          }
+        },
+        {
+          "code": "H04Q 5/08",
+          "title": {
+            "ko": null,
+            "en": "Signalling by continuous AC"
+          }
+        },
+        {
+          "code": "H04Q 5/10",
+          "title": {
+            "ko": null,
+            "en": "using single frequencies for different subscribers"
+          }
+        },
+        {
+          "code": "H04Q 5/12",
+          "title": {
+            "ko": null,
+            "en": "using combinations of frequencies"
+          }
+        },
+        {
+          "code": "H04Q 5/14",
+          "title": {
+            "ko": null,
+            "en": "Signalling by pulses"
+          }
+        },
+        {
+          "code": "H04Q 5/16",
+          "title": {
+            "ko": null,
+            "en": "by predetermined number of pulses"
+          }
+        },
+        {
+          "code": "H04Q 5/18",
+          "title": {
+            "ko": null,
+            "en": "with indirect connection, i.e. through subordinate switching centre"
+          }
+        },
+        {
+          "code": "H04Q 5/20",
+          "title": {
+            "ko": null,
+            "en": "the subordinate centre permitting interconnection of subscribers connected thereto"
+          }
+        },
+        {
+          "code": "H04Q 5/22",
+          "title": {
+            "ko": null,
+            "en": "the subordinate centre not permitting interconnection of subscribers connected thereto"
+          }
+        },
+        {
+          "code": "H04Q 5/24",
+          "title": {
+            "ko": null,
+            "en": "for two-party-line systems"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 9/00",
+      "title": {
+        "ko": null,
+        "en": "Arrangements in telecontrol or telemetry systems for selectively calling a substation from a main station, in which substation desired apparatus is selected for applying a control signal thereto or for obtaining measured values therefrom"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 9/02",
+          "title": {
+            "ko": null,
+            "en": "Automatically-operated arrangements"
+          }
+        },
+        {
+          "code": "H04Q 9/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for synchronous operation"
+          }
+        },
+        {
+          "code": "H04Q 9/06",
+          "title": {
+            "ko": null,
+            "en": "Calling by using amplitude or polarity of DC"
+          }
+        },
+        {
+          "code": "H04Q 9/08",
+          "title": {
+            "ko": null,
+            "en": "Calling by using continuous AC"
+          }
+        },
+        {
+          "code": "H04Q 9/10",
+          "title": {
+            "ko": null,
+            "en": "using single different frequencies"
+          }
+        },
+        {
+          "code": "H04Q 9/12",
+          "title": {
+            "ko": null,
+            "en": "using combinations of frequencies"
+          }
+        },
+        {
+          "code": "H04Q 9/14",
+          "title": {
+            "ko": null,
+            "en": "Calling by using pulses"
+          }
+        },
+        {
+          "code": "H04Q 9/16",
+          "title": {
+            "ko": null,
+            "en": "by predetermined number of pulses"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H04Q 11/00",
+      "title": {
+        "ko": "다중화 시스템을 위한 선택배치(다중화 시스템 H04J)",
+        "en": "Selecting arrangements for multiplex systems (multiplex systems H04J)"
+      },
+      "subgroups": [
+        {
+          "code": "H04Q 11/02",
+          "title": {
+            "ko": null,
+            "en": "for frequency-division multiplexing"
+          }
+        },
+        {
+          "code": "H04Q 11/04",
+          "title": {
+            "ko": null,
+            "en": "for time-division multiplexing"
+          }
+        },
+        {
+          "code": "H04Q 11/06",
+          "title": {
+            "ko": null,
+            "en": "Time-space-time switching"
+          }
+        },
+        {
+          "code": "H04Q 11/08",
+          "title": {
+            "ko": null,
+            "en": "Time only switching"
+          }
+        }
+      ]
+    }
+  ]
+}

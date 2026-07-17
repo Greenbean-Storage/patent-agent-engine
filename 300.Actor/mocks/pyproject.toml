@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "actor-mock"
+version = "0.1.0"
+description = "actor:fake mock — 최소 FastAPI (CHUNK 3.0: /health 스텁; /dispatch·/tool·fixture replay = CHUNK 3)"
+requires-python = ">=3.14"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "httpx>=0.28.0",
+  "pyyaml>=6.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["actor_app"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100

@@ -1,0 +1,352 @@
+{
+  "subclass": "H03M",
+  "title": {
+    "ko": null,
+    "en": "CODING; DECODING; CODE CONVERSION IN GENERAL (using fluidic means F15C4/00; optical analogue/digital converters G02F7/00; coding, decoding or code conversion, specially adapted for particular applications, see the relevant subclasses, e.g. G01D, G01R, G06F, G06T, G09G, G10L, G11B, G11C, H04B, H04L, H04M, H04N; ciphering or deciphering for cryptography or other purposes involving the need for secrecy G09C)"
+  },
+  "groups": [
+    {
+      "code": "H03M 1/00",
+      "title": {
+        "ko": null,
+        "en": "Analogue/digital conversion; Digital/analogue conversion (conversion of analogue values to or from differential modulation H03M3/00)"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 1/001",
+          "title": {
+            "ko": null,
+            "en": "{Analogue/digital/analogue conversion}"
+          }
+        },
+        {
+          "code": "H03M 1/002",
+          "title": {
+            "ko": null,
+            "en": "{Provisions or arrangements for saving power, e.g. by allowing a sleep mode, using lower supply voltage for downstream stages, using multiple clock domains or by selectively turning on stages when needed}"
+          }
+        },
+        {
+          "code": "H03M 1/004",
+          "title": {
+            "ko": null,
+            "en": "{Reconfigurable analogue/digital or digital/analogue converters (H03M1/02 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03M 1/02",
+          "title": {
+            "ko": null,
+            "en": "Reversible analogue/digital converters"
+          }
+        },
+        {
+          "code": "H03M 1/04",
+          "title": {
+            "ko": null,
+            "en": "using stochastic techniques"
+          }
+        },
+        {
+          "code": "H03M 1/06",
+          "title": {
+            "ko": null,
+            "en": "Continuously compensating for, or preventing, undesired influence of physical parameters (periodically, {e.g. by using stored correction values,} H03M1/10)"
+          }
+        },
+        {
+          "code": "H03M 1/10",
+          "title": {
+            "ko": null,
+            "en": "Calibration or testing"
+          }
+        },
+        {
+          "code": "H03M 1/12",
+          "title": {
+            "ko": null,
+            "en": "Analogue/digital converters ({H03M1/001 – } H03M1/10 take precedence)"
+          }
+        },
+        {
+          "code": "H03M 1/66",
+          "title": {
+            "ko": null,
+            "en": "Digital/analogue converters ({H03M1/001 – } H03M1/10 take precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 3/00",
+      "title": {
+        "ko": null,
+        "en": "Conversion of analogue values to or from differential modulation"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 3/02",
+          "title": {
+            "ko": null,
+            "en": "Delta modulation, i.e. one-bit differential modulation {(H03M3/30 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03M 3/04",
+          "title": {
+            "ko": null,
+            "en": "Differential modulation with several bits {, e.g. differential pulse code modulation [DPCM] (H03M3/30 takes precedence)}"
+          }
+        },
+        {
+          "code": "H03M 3/30",
+          "title": {
+            "ko": null,
+            "en": "{Delta-sigma modulation}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 5/00",
+      "title": {
+        "ko": null,
+        "en": "Conversion of the form of the representation of individual digits"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 5/02",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from representation by pulses"
+          }
+        },
+        {
+          "code": "H03M 5/22",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from representation by sinusoidal signals"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 7/00",
+      "title": {
+        "ko": null,
+        "en": "Conversion of a code where information is represented by a given sequence or number of digits to a code where the same {, similar or subset of} information is represented by a different sequence or number of digits"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 7/001",
+          "title": {
+            "ko": null,
+            "en": "{characterised by the elements used}"
+          }
+        },
+        {
+          "code": "H03M 7/02",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from weighted codes, i.e. the weight given to a digit depending on the position of the digit within the block or code word"
+          }
+        },
+        {
+          "code": "H03M 7/14",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from non-weighted codes"
+          }
+        },
+        {
+          "code": "H03M 7/26",
+          "title": {
+            "ko": null,
+            "en": "Conversion to or from stochastic codes"
+          }
+        },
+        {
+          "code": "H03M 7/28",
+          "title": {
+            "ko": null,
+            "en": "Programmable structures, i.e. where the code converter contains apparatus which is operator-changeable to modify the conversion process"
+          }
+        },
+        {
+          "code": "H03M 7/30",
+          "title": {
+            "ko": null,
+            "en": "Compression (speech analysis-synthesis for redundancy reduction G10L19/00; for image communication H04N); Expansion; Suppression of unnecessary data, e.g. redundancy reduction"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 9/00",
+      "title": {
+        "ko": null,
+        "en": "Parallel/series conversion or vice versa (digital stores in which the information is moved stepwise per se G11C19/00)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03M 11/00",
+      "title": {
+        "ko": null,
+        "en": "Coding in connection with keyboards or like devices, i.e. coding of the position of operated keys (keyboard switch arrangements, structural association of coders and keyboards H01H13/70, H03K17/94)"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 11/003",
+          "title": {
+            "ko": null,
+            "en": "{Phantom keys detection and prevention}"
+          }
+        },
+        {
+          "code": "H03M 11/006",
+          "title": {
+            "ko": null,
+            "en": "{Measures for preventing unauthorised decoding of keyboards}"
+          }
+        },
+        {
+          "code": "H03M 11/02",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03M 11/20",
+          "title": {
+            "ko": null,
+            "en": "Dynamic coding, i.e. by key scanning (H03M11/26 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 11/22",
+          "title": {
+            "ko": null,
+            "en": "Static coding (H03M11/26 takes precedence)"
+          }
+        },
+        {
+          "code": "H03M 11/26",
+          "title": {
+            "ko": null,
+            "en": "using opto-electronic means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 13/00",
+      "title": {
+        "ko": null,
+        "en": "Coding, decoding or code conversion, for error detection or error correction; Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes (error detection or error correction for analogue/digital, digital/analogue or code conversion H03M1/00 – H03M11/00; specially adapted for digital computers G06F11/08; for information storage based on relative movement between record carrier and transducer G11B, e.g. G11B20/18; for static stores G11C)"
+      },
+      "subgroups": [
+        {
+          "code": "H03M 13/01",
+          "title": {
+            "ko": null,
+            "en": "Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes"
+          }
+        },
+        {
+          "code": "H03M 13/03",
+          "title": {
+            "ko": null,
+            "en": "Error detection or forward error correction by redundancy in data representation, i.e. code words containing more digits than the source words"
+          }
+        },
+        {
+          "code": "H03M 13/25",
+          "title": {
+            "ko": null,
+            "en": "Error detection or forward error correction by signal space coding, i.e. adding redundancy in the signal constellation, e.g. Trellis Coded Modulation [TCM] {(modulation codes H03M13/31)}"
+          }
+        },
+        {
+          "code": "H03M 13/27",
+          "title": {
+            "ko": null,
+            "en": "using interleaving techniques"
+          }
+        },
+        {
+          "code": "H03M 13/29",
+          "title": {
+            "ko": null,
+            "en": "combining two or more codes or code structures, e.g. product codes, generalised product codes, concatenated codes, inner and outer codes"
+          }
+        },
+        {
+          "code": "H03M 13/31",
+          "title": {
+            "ko": null,
+            "en": "combining coding for error detection or correction and efficient use of the spectrum (without error detection or correction H03M5/14  {, H03M5/145})"
+          }
+        },
+        {
+          "code": "H03M 13/33",
+          "title": {
+            "ko": null,
+            "en": "Synchronisation based on error coding or decoding"
+          }
+        },
+        {
+          "code": "H03M 13/35",
+          "title": {
+            "ko": null,
+            "en": "Unequal or adaptive error protection, e.g. by providing a different level of protection according to significance of source information or by adapting the coding according to the change of transmission channel characteristics"
+          }
+        },
+        {
+          "code": "H03M 13/37",
+          "title": {
+            "ko": null,
+            "en": "Decoding methods or techniques, not specific to the particular type of coding provided for in groups H03M13/03 - H03M13/35"
+          }
+        },
+        {
+          "code": "H03M 13/47",
+          "title": {
+            "ko": null,
+            "en": "Error detection, forward error correction or error protection, not provided for in groups H03M13/01 - H03M13/37"
+          }
+        },
+        {
+          "code": "H03M 13/61",
+          "title": {
+            "ko": null,
+            "en": "{Aspects and characteristics of methods and arrangements for error correction or error detection, not provided for otherwise}"
+          }
+        },
+        {
+          "code": "H03M 13/63",
+          "title": {
+            "ko": null,
+            "en": "{Joint error correction and other techniques (H03M13/31 and H03M13/33 take precedence)}"
+          }
+        },
+        {
+          "code": "H03M 13/65",
+          "title": {
+            "ko": null,
+            "en": "{Purpose and implementation aspects}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03M 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

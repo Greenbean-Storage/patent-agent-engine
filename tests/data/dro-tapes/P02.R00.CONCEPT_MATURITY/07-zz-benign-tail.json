@@ -1,0 +1,24 @@
+{
+ "description": "마지막 — 소진 반복 무해(model.* dro:fake skip, 불변)",
+ "events": [
+  {
+   "type": "chain_completed",
+   "persona": 2,
+   "payload": {}
+  }
+ ],
+ "expected": {
+  "client_events": [],
+  "forbidden": [
+   "message.reply",
+   "model.maturity",
+   "model.roadmap",
+   "output.ready",
+   "work.failed",
+   "work.progress"
+  ],
+  "thinking_channels": [],
+  "client_event_counts": {},
+  "payload_contains": []
+ }
+}

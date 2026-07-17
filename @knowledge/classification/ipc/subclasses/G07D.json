@@ -1,0 +1,646 @@
+{
+  "subclass": "G07D",
+  "title": {
+    "ko": "동전이나 지폐의 취급, 예. 검사, 금액에 의한 분류, 계수, 분배, 환전 또는 수납",
+    "en": "HANDLING OF COINS OR OF VALUABLE PAPERS, e.g. TESTING, SORTING BY DENOMINATIONS, COUNTING, DISPENSING, CHANGING OR DEPOSITING"
+  },
+  "definition": {
+    "ko": "이 서브클래스에 있어서는 아래의 용어나 표현은 이하에 지시된 의미로 사용된다.: • \"동전\"은 비슷한 성질의 토큰도 포함한다; • \"지폐\"는 측정 또는 확인할 수 있는 금전적 가치를 나타내는 종이 통화, 은행권, 수표, 바우처, 유가 증권, 채권 또는 이와 유사한 유가 종이(이들에 사용 된 재료와 상관없이)를 의미한다.",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "G07D 1/00",
+      "title": {
+        "ko": null,
+        "en": "Coin dispensers"
+      },
+      "subgroups": [
+        {
+          "code": "G07D 1/02",
+          "title": {
+            "ko": null,
+            "en": "giving change"
+          }
+        },
+        {
+          "code": "G07D 1/04",
+          "title": {
+            "ko": null,
+            "en": "dispensing change equal to a sum deposited"
+          }
+        },
+        {
+          "code": "G07D 1/06",
+          "title": {
+            "ko": null,
+            "en": "dispensing the difference between a sum paid and a sum charged"
+          }
+        },
+        {
+          "code": "G07D 1/08",
+          "title": {
+            "ko": null,
+            "en": "hand actuated"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07D 3/00",
+      "title": {
+        "ko": null,
+        "en": "Sorting a mixed bulk of coins into denominations"
+      },
+      "subgroups": [
+        {
+          "code": "G07D 3/02",
+          "title": {
+            "ko": null,
+            "en": "Sorting coins by means of graded apertures"
+          }
+        },
+        {
+          "code": "G07D 3/04",
+          "title": {
+            "ko": null,
+            "en": "arranged on an inclined rail"
+          }
+        },
+        {
+          "code": "G07D 3/06",
+          "title": {
+            "ko": null,
+            "en": "arranged along a circular path"
+          }
+        },
+        {
+          "code": "G07D 3/08",
+          "title": {
+            "ko": null,
+            "en": "arranged on a helix"
+          }
+        },
+        {
+          "code": "G07D 3/10",
+          "title": {
+            "ko": null,
+            "en": "provided by sieves arranged in series"
+          }
+        },
+        {
+          "code": "G07D 3/12",
+          "title": {
+            "ko": null,
+            "en": "Sorting coins by means of stepped deflectors"
+          }
+        },
+        {
+          "code": "G07D 3/14",
+          "title": {
+            "ko": null,
+            "en": "Apparatus driven under control of coin-sensing elements"
+          }
+        },
+        {
+          "code": "G07D 3/16",
+          "title": {
+            "ko": null,
+            "en": "in combination with coin-counting"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07D 5/00",
+      "title": {
+        "ko": null,
+        "en": "Testing specially adapted to determine the identity or genuineness of coins, e.g. for segregating coins which are unacceptable or alien to a currency"
+      },
+      "subgroups": [
+        {
+          "code": "G07D 5/02",
+          "title": {
+            "ko": null,
+            "en": "Testing the dimensions, e.g. thickness, diameter; Testing the deformation"
+          }
+        },
+        {
+          "code": "G07D 5/04",
+          "title": {
+            "ko": null,
+            "en": "Testing the weight"
+          }
+        },
+        {
+          "code": "G07D 5/06",
+          "title": {
+            "ko": null,
+            "en": "Testing the hardness or elasticity"
+          }
+        },
+        {
+          "code": "G07D 5/08",
+          "title": {
+            "ko": null,
+            "en": "Testing the magnetic or electric properties"
+          }
+        },
+        {
+          "code": "G07D 5/10",
+          "title": {
+            "ko": null,
+            "en": "Testing the rim, e.g. the milling of the rim"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07D 7/00",
+      "title": {
+        "ko": "지폐의 진위를 가려내는 데 특별히 적합한 검사 또는 받아들일 수 없는 것들을 분리하기 위한 것, 예. 통화에 이질적인 은행권",
+        "en": "Testing specially adapted to determine the identity or genuineness of valuable papers or for segregating those which are unacceptable, e.g. banknotes that are alien to a currency"
+      },
+      "definition": {
+        "ko": "그룹 G07D7/16 ~ G07D7/20은 그룹 G07D7/02 ~ G07D7/14에 우선함",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "G07D 7/004",
+          "title": {
+            "ko": null,
+            "en": "using digital security elements, e.g. information coded on a magnetic thread or strip"
+          }
+        },
+        {
+          "code": "G07D 7/0043",
+          "title": {
+            "ko": null,
+            "en": "using barcodes"
+          }
+        },
+        {
+          "code": "G07D 7/0047",
+          "title": {
+            "ko": null,
+            "en": "using checkcodes, e.g. coded numbers derived from serial number and denomination"
+          }
+        },
+        {
+          "code": "G07D 7/005",
+          "title": {
+            "ko": null,
+            "en": "Testing security markings invisible to the naked eye, e.g. verifying thickened lines or unobtrusive markings or alterations"
+          }
+        },
+        {
+          "code": "G07D 7/01",
+          "title": {
+            "ko": null,
+            "en": "Testing electronic circuits therein"
+          }
+        },
+        {
+          "code": "G07D 7/02",
+          "title": {
+            "ko": "그 재료의 전기적 성질 검사 (G07D7/01 우선)",
+            "en": "Testing electrical properties of the materials thereof (G07D0007010000 takes precedence)"
+          }
+        },
+        {
+          "code": "G07D 7/023",
+          "title": {
+            "ko": null,
+            "en": "Measuring conductivity by direct contact"
+          }
+        },
+        {
+          "code": "G07D 7/026",
+          "title": {
+            "ko": null,
+            "en": "using capacitive sensors"
+          }
+        },
+        {
+          "code": "G07D 7/04",
+          "title": {
+            "ko": "그 재료의 자기적 성질을 검사, 예. 자기적 각인(imprint)의 검출에 의한 것 (G07D7/01 우선)",
+            "en": "Testing magnetic properties of the materials thereof, e.g. by detection of magnetic imprint (G07D0007010000 takes precedence)"
+          }
+        },
+        {
+          "code": "G07D 7/06",
+          "title": {
+            "ko": null,
+            "en": "using wave or particle radiation"
+          }
+        },
+        {
+          "code": "G07D 7/08",
+          "title": {
+            "ko": null,
+            "en": "Acoustic waves"
+          }
+        },
+        {
+          "code": "G07D 7/10",
+          "title": {
+            "ko": null,
+            "en": "Microwaves"
+          }
+        },
+        {
+          "code": "G07D 7/12",
+          "title": {
+            "ko": null,
+            "en": "Visible light, infrared or ultraviolet radiation"
+          }
+        },
+        {
+          "code": "G07D 7/1205",
+          "title": {
+            "ko": null,
+            "en": "Testing spectral properties"
+          }
+        },
+        {
+          "code": "G07D 7/121",
+          "title": {
+            "ko": null,
+            "en": "Apparatus characterised by sensor details"
+          }
+        },
+        {
+          "code": "G07D 7/128",
+          "title": {
+            "ko": null,
+            "en": "Viewing devices"
+          }
+        },
+        {
+          "code": "G07D 7/14",
+          "title": {
+            "ko": null,
+            "en": "using chemical means"
+          }
+        },
+        {
+          "code": "G07D 7/15",
+          "title": {
+            "ko": null,
+            "en": "using heating means"
+          }
+        },
+        {
+          "code": "G07D 7/16",
+          "title": {
+            "ko": null,
+            "en": "Testing the dimensions"
+          }
+        },
+        {
+          "code": "G07D 7/162",
+          "title": {
+            "ko": null,
+            "en": "Length or width"
+          }
+        },
+        {
+          "code": "G07D 7/164",
+          "title": {
+            "ko": null,
+            "en": "Thickness"
+          }
+        },
+        {
+          "code": "G07D 7/17",
+          "title": {
+            "ko": null,
+            "en": "Apparatus characterised by positioning means or by means responsive to positioning"
+          }
+        },
+        {
+          "code": "G07D 7/181",
+          "title": {
+            "ko": "기계적 성질 또는 상태 검사, 예. 마모 또는 찢어짐 (G07D7/16 우선)",
+            "en": "Testing mechanical properties or condition, e.g. wear or tear (G07D0007160000 takes precedence)"
+          }
+        },
+        {
+          "code": "G07D 7/182",
+          "title": {
+            "ko": null,
+            "en": "Testing stiffness"
+          }
+        },
+        {
+          "code": "G07D 7/183",
+          "title": {
+            "ko": null,
+            "en": "Detecting folds or doubles"
+          }
+        },
+        {
+          "code": "G07D 7/185",
+          "title": {
+            "ko": null,
+            "en": "Detecting holes or pores"
+          }
+        },
+        {
+          "code": "G07D 7/187",
+          "title": {
+            "ko": null,
+            "en": "Detecting defacement or contamination, e.g. dirt"
+          }
+        },
+        {
+          "code": "G07D 7/189",
+          "title": {
+            "ko": "부착된 물체 검출, 예. 테이프 또는 클립 (G07D 7/187 우선 )",
+            "en": "Detecting attached objects, e.g. tapes or clips (G07D0007187000 takes precedence)"
+          }
+        },
+        {
+          "code": "G07D 7/20",
+          "title": {
+            "ko": "패턴 검사 (G07D 7/004, G07D 7/005 우선 )",
+            "en": "Testing patterns thereon (G07D0007004000, G07D0007005000 take precedence)"
+          }
+        },
+        {
+          "code": "G07D 7/202",
+          "title": {
+            "ko": null,
+            "en": "using pattern matching"
+          }
+        },
+        {
+          "code": "G07D 7/2033",
+          "title": {
+            "ko": null,
+            "en": "Matching unique patterns, i.e. patterns that are unique to each individual paper"
+          }
+        },
+        {
+          "code": "G07D 7/206",
+          "title": {
+            "ko": null,
+            "en": "Matching template patterns"
+          }
+        },
+        {
+          "code": "G07D 7/207",
+          "title": {
+            "ko": null,
+            "en": "Matching patterns that are created by the interaction of two or more layers, e.g. moiré patterns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07D 9/00",
+      "title": {
+        "ko": "동전의 계수(동전 분류와 결합 G07D 3/16); 이 서브클래스의 다른 그룹에 속하지 않는 동전의 처리",
+        "en": "Counting coins (in combination with coin-sorting G07D0003160000); Handling of coins not provided for in the other groups of this subclass"
+      },
+      "subgroups": [
+        {
+          "code": "G07D 9/02",
+          "title": {
+            "ko": null,
+            "en": "Change trays"
+          }
+        },
+        {
+          "code": "G07D 9/04",
+          "title": {
+            "ko": null,
+            "en": "Hand- or motor-driven devices for counting coins"
+          }
+        },
+        {
+          "code": "G07D 9/06",
+          "title": {
+            "ko": null,
+            "en": "Devices for stacking or otherwise arranging coins on a support, e.g. apertured plate for use in counting coins"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07D 11/00",
+      "title": {
+        "ko": "동전을 수납하는 장치; 지폐를 수납, 분배, 분류 또는 계수하는 장치",
+        "en": "Devices accepting coins; Devices accepting, dispensing, sorting or counting valuable papers"
+      },
+      "subgroups": [
+        {
+          "code": "G07D 11/10",
+          "title": {
+            "ko": "기계 세부",
+            "en": "Mechanical details"
+          }
+        },
+        {
+          "code": "G07D 11/12",
+          "title": {
+            "ko": null,
+            "en": "Containers for valuable papers"
+          }
+        },
+        {
+          "code": "G07D 11/125",
+          "title": {
+            "ko": null,
+            "en": "Secure containers"
+          }
+        },
+        {
+          "code": "G07D 11/13",
+          "title": {
+            "ko": null,
+            "en": "with internal means for handling valuable papers"
+          }
+        },
+        {
+          "code": "G07D 11/14",
+          "title": {
+            "ko": null,
+            "en": "Inlet or outlet ports"
+          }
+        },
+        {
+          "code": "G07D 11/16",
+          "title": {
+            "ko": "지폐의 취급 (용기 내 G07D11/13)",
+            "en": "Handling of valuable papers (within containers G07D0011130000)"
+          }
+        },
+        {
+          "code": "G07D 11/165",
+          "title": {
+            "ko": null,
+            "en": "Picking"
+          }
+        },
+        {
+          "code": "G07D 11/17",
+          "title": {
+            "ko": null,
+            "en": "Aligning"
+          }
+        },
+        {
+          "code": "G07D 11/175",
+          "title": {
+            "ko": null,
+            "en": "Flattening, e.g. straightening out folds"
+          }
+        },
+        {
+          "code": "G07D 11/18",
+          "title": {
+            "ko": null,
+            "en": "Diverting into different paths or containers"
+          }
+        },
+        {
+          "code": "G07D 11/20",
+          "title": {
+            "ko": "장치의 조작 제어 또는 감시; 데이터 처리",
+            "en": "Controlling or monitoring the operation of devices; Data handling"
+          }
+        },
+        {
+          "code": "G07D 11/22",
+          "title": {
+            "ko": null,
+            "en": "Means for sensing or detection"
+          }
+        },
+        {
+          "code": "G07D 11/225",
+          "title": {
+            "ko": null,
+            "en": "for detecting or indicating tampering"
+          }
+        },
+        {
+          "code": "G07D 11/23",
+          "title": {
+            "ko": null,
+            "en": "for sensing the quantity of valuable papers in containers"
+          }
+        },
+        {
+          "code": "G07D 11/235",
+          "title": {
+            "ko": null,
+            "en": "for monitoring or indicating operating conditions; for detecting malfunctions"
+          }
+        },
+        {
+          "code": "G07D 11/237",
+          "title": {
+            "ko": null,
+            "en": "for detecting transport malfunctions, e.g. jams or misfeeds"
+          }
+        },
+        {
+          "code": "G07D 11/24",
+          "title": {
+            "ko": null,
+            "en": "Managing the inventory of valuable papers"
+          }
+        },
+        {
+          "code": "G07D 11/245",
+          "title": {
+            "ko": null,
+            "en": "Replenishment"
+          }
+        },
+        {
+          "code": "G07D 11/25",
+          "title": {
+            "ko": null,
+            "en": "Relocation of valuable papers within devices"
+          }
+        },
+        {
+          "code": "G07D 11/26",
+          "title": {
+            "ko": null,
+            "en": "Servicing, repairing or coping with irregularities, e.g. power failure or vandalism"
+          }
+        },
+        {
+          "code": "G07D 11/28",
+          "title": {
+            "ko": null,
+            "en": "Setting of parameters; Software updates"
+          }
+        },
+        {
+          "code": "G07D 11/30",
+          "title": {
+            "ko": null,
+            "en": "Tracking or tracing valuable papers or cassettes"
+          }
+        },
+        {
+          "code": "G07D 11/32",
+          "title": {
+            "ko": "기록 보관 (거래 측면 G07F19/00)",
+            "en": "Record keeping (transaction aspects G07F0019000000)"
+          }
+        },
+        {
+          "code": "G07D 11/34",
+          "title": {
+            "ko": null,
+            "en": "Monitoring the contents of devices, e.g. the number of stored valuable papers"
+          }
+        },
+        {
+          "code": "G07D 11/36",
+          "title": {
+            "ko": null,
+            "en": "Auditing of activities"
+          }
+        },
+        {
+          "code": "G07D 11/40",
+          "title": {
+            "ko": null,
+            "en": "Device architecture, e.g. modular construction"
+          }
+        },
+        {
+          "code": "G07D 11/50",
+          "title": {
+            "ko": null,
+            "en": "Sorting or counting valuable papers"
+          }
+        },
+        {
+          "code": "G07D 11/60",
+          "title": {
+            "ko": null,
+            "en": "User-interface arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G07D 13/00",
+      "title": {
+        "ko": "그룹 G07D 1/00-G07D 11/00의 어느 하나에 포함되지 않는 기구와 결합에 의하여 특정되는 동전 또는 지폐의 취급",
+        "en": "Handling of coins or of valuable papers, characterised by a combination of mechanisms not covered by a single one of groups G07D0001000000-G07D0011000000"
+      },
+      "subgroups": []
+    }
+  ]
+}

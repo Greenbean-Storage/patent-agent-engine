@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "engine-config",
+  "title": "Engine Config (@deployment/engine.config.yaml)",
+  "description": "persona 정의 + LLM/tool 운영 설정의 SoT 명세. Actor 의 범용 로더(300.Actor/src/engine_config.py)는 이 형태만 알고, persona 는 전부 데이터. 검증 = validate stage 12 (본 스키마 + persona-id 4원 정합 게이트). @contracts 와 별개 계열 — 시스템 간 데이터 계약이 아니라 배포 설정 명세 (knobs.yaml 선례).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "personas", "vendors", "tools", "defaults"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "personas": {
+      "type": "object",
+      "description": "persona 정의 — 키 = persona id (문자열 숫자). 집합은 channels.py·PERSONA_DIRS·@pipelines 와 validate 가 정합 강제.",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "role", "channel", "memory_dir", "llm", "max_concurrency"],
+          "properties": {
+            "name": { "type": "string", "minLength": 1 },
+            "role": { "type": "string", "minLength": 1 },
+            "channel": {
+              "type": "string",
+              "minLength": 1,
+              "description": "WS message.thinking.data.channel 라벨 — 미러 SoT 는 venezia_contracts channels.py 와 validate 로 일치 강제. 메타5: AI/persona 명 금지"
+            },
+            "memory_dir": {
+              "type": "string",
+              "pattern": "^[0-9]{2}\\.[a-z_]+$",
+              "description": "S3 runtime/{persona_dir} segment — venezia_memory PERSONA_DIRS 와 validate 로 일치 강제"
+            },
+            "llm": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["sdk", "model", "fallback_model"],
+              "properties": {
+                "sdk": { "enum": ["claude", "gemini", "openai"] },
+                "model": { "type": "string", "minLength": 1 },
+                "fallback_model": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "primary 실패 시 같은 vendor 의 1회 fallback 모델 (동일 값 = 같은 모델 retry)"
+                },
+                "effort": {
+                  "enum": ["low", "medium", "high", "xhigh", "max"],
+                  "description": "1급 공통 키 — claude→effort, openai→reasoning_effort, gemini→thinking 번역. 생략 = vendor default"
+                },
+                "llm_settings": {
+                  "type": "object",
+                  "description": "vendor 전용 추가 옵션 passthrough — adapter 가 아는 키만 read"
+                }
+              }
+            },
+            "max_concurrency": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "persona 별 동시 요청 한도 — 동시성 계약(CHUNK 3)에서 Actor 세마포어가 집행"
+            }
+          }
+        }
+      }
+    },
+    "vendors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claude", "gemini", "openai"],
+      "properties": {
+        "claude": { "$ref": "#/definitions/vendor" },
+        "gemini": { "$ref": "#/definitions/vendor" },
+        "openai": { "$ref": "#/definitions/vendor" }
+      }
+    },
+    "tools": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_concurrency", "media_describe", "kipris", "drawing"],
+      "properties": {
+        "max_concurrency": { "type": "integer", "minimum": 1 },
+        "media_describe": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["model"],
+          "properties": { "model": { "type": "string", "minLength": 1 } }
+        },
+        "kipris": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["max_concurrency", "timeout_s", "max_results", "max_results_per_query", "base_url", "cache"],
+          "properties": {
+            "max_concurrency": { "type": "integer", "minimum": 1 },
+            "timeout_s": { "type": "number", "exclusiveMinimum": 0 },
+            "max_results": { "type": "integer", "minimum": 1 },
+            "max_results_per_query": { "type": "integer", "minimum": 1 },
+            "base_url": { "type": "string", "minLength": 1 },
+            "cache": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["max_size", "ttl_s"],
+              "properties": {
+                "max_size": { "type": "integer", "minimum": 1 },
+                "ttl_s": { "type": "integer", "minimum": 1 }
+              }
+            }
+          }
+        },
+        "drawing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["render_timeout_s"],
+          "properties": { "render_timeout_s": { "type": "number", "exclusiveMinimum": 0 } }
+        }
+      }
+    },
+    "defaults": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_iterations", "schema_retry", "cm_http_timeout_s"],
+      "properties": {
+        "max_iterations": { "type": "integer", "minimum": 1 },
+        "schema_retry": { "type": "integer", "minimum": 0 },
+        "cm_http_timeout_s": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    }
+  },
+  "definitions": {
+    "vendor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["retry"],
+      "properties": {
+        "retry": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["max_attempts", "backoff_seconds"],
+          "properties": {
+            "max_attempts": { "type": "integer", "minimum": 1 },
+            "backoff_seconds": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "number", "exclusiveMinimum": 0 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "subclass": "G01L",
+  "title": {
+    "ko": null,
+    "en": "MEASURING FORCE, STRESS, TORQUE, WORK, MECHANICAL POWER, MECHANICAL EFFICIENCY, OR FLUID PRESSURE (weighing G01G)"
+  },
+  "groups": [
+    {
+      "code": "G01L 1/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring force or stress, in general (measuring force due to impact G01L5/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 1/005",
+          "title": {
+            "ko": null,
+            "en": "{by electrical means and not provided for in G01L1/06 - G01L1/22}"
+          }
+        },
+        {
+          "code": "G01L 1/02",
+          "title": {
+            "ko": null,
+            "en": "by hydraulic or pneumatic means"
+          }
+        },
+        {
+          "code": "G01L 1/04",
+          "title": {
+            "ko": null,
+            "en": "by measuring elastic deformation of gauges, e.g. of springs"
+          }
+        },
+        {
+          "code": "G01L 1/06",
+          "title": {
+            "ko": null,
+            "en": "by measuring the permanent deformation of gauges, e.g. of compressed bodies"
+          }
+        },
+        {
+          "code": "G01L 1/08",
+          "title": {
+            "ko": null,
+            "en": "by the use of counterbalancing forces"
+          }
+        },
+        {
+          "code": "G01L 1/10",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations of frequency of stressed vibrating elements, e.g. of stressed strings (using resistance strain gauges G01L1/22)"
+          }
+        },
+        {
+          "code": "G01L 1/12",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations in the magnetic properties of materials resulting from the application of stress"
+          }
+        },
+        {
+          "code": "G01L 1/14",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations in capacitance or inductance of electrical elements, e.g. by measuring variations of frequency of electrical oscillators"
+          }
+        },
+        {
+          "code": "G01L 1/16",
+          "title": {
+            "ko": null,
+            "en": "using properties of piezoelectric devices"
+          }
+        },
+        {
+          "code": "G01L 1/18",
+          "title": {
+            "ko": null,
+            "en": "using properties of piezo-resistive materials, i.e. materials of which the ohmic resistance varies according to changes in magnitude or direction of force applied to the material"
+          }
+        },
+        {
+          "code": "G01L 1/20",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations in ohmic resistance of solid materials or of electrically-conductive fluids (of piezo-resistive materials G01L1/18); by making use of electrokinetic cells, i.e. liquid-containing cells wherein an electrical potential is produced or varied upon the application of stress"
+          }
+        },
+        {
+          "code": "G01L 1/24",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations of optical properties of material when it is stressed, e.g. by photoelastic stress analysis {using infrared, visible light, ultraviolet}"
+          }
+        },
+        {
+          "code": "G01L 1/25",
+          "title": {
+            "ko": null,
+            "en": "using wave or particle radiation, e.g. X-rays {, microwaves}, neutrons (G01L1/24 takes precedence)"
+          }
+        },
+        {
+          "code": "G01L 1/26",
+          "title": {
+            "ko": null,
+            "en": "Auxiliary measures taken, or devices used, in connection with the measurement of force, e.g. for preventing influence of transverse components of force, for preventing overload"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 3/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring torque, work, mechanical power, or mechanical efficiency, in general"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 3/02",
+          "title": {
+            "ko": null,
+            "en": "Rotary-transmission dynamometers"
+          }
+        },
+        {
+          "code": "G01L 3/16",
+          "title": {
+            "ko": null,
+            "en": "Rotary-absorption dynamometers, e.g. of brake type"
+          }
+        },
+        {
+          "code": "G01L 3/24",
+          "title": {
+            "ko": null,
+            "en": "Devices for determining the value of power, e.g. by measuring and simultaneously multiplying the values of torque and revolutions per unit of time, by multiplying the values of tractive or propulsive force and velocity"
+          }
+        },
+        {
+          "code": "G01L 3/26",
+          "title": {
+            "ko": null,
+            "en": "Devices for measuring efficiency, i.e. the ratio of power output to power input"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 5/00",
+      "title": {
+        "ko": null,
+        "en": "Apparatus for, or methods of, measuring force, work, mechanical power, or torque, specially adapted for specific purposes"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 5/0004",
+          "title": {
+            "ko": null,
+            "en": "{Force transducers adapted for mounting in a bore of the force receiving structure (G01L5/0009 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 5/0009",
+          "title": {
+            "ko": null,
+            "en": "{Force sensors associated with a bearing (testing of bearings G01M13/04)}"
+          }
+        },
+        {
+          "code": "G01L 5/0028",
+          "title": {
+            "ko": null,
+            "en": "{Force sensors associated with force applying means (G01L5/0052, G01L5/0057, G01L5/0061 take precedence)}"
+          }
+        },
+        {
+          "code": "G01L 5/0047",
+          "title": {
+            "ko": null,
+            "en": "{measuring forces due to residual stresses}"
+          }
+        },
+        {
+          "code": "G01L 5/0052",
+          "title": {
+            "ko": null,
+            "en": "{measuring forces due to impact (G01L5/0061, G01L5/14 take precedence; impact testing of structures G01M7/08; impact testing of material G01N3/00)}"
+          }
+        },
+        {
+          "code": "G01L 5/0057",
+          "title": {
+            "ko": null,
+            "en": "{measuring forces due to spring-shaped elements}"
+          }
+        },
+        {
+          "code": "G01L 5/0061",
+          "title": {
+            "ko": null,
+            "en": "{Force sensors associated with industrial machines or actuators (for the specific machine or actuator involved see relevant class, e.g. F01, F04, F16, B66, E21)}"
+          }
+        },
+        {
+          "code": "G01L 5/0095",
+          "title": {
+            "ko": null,
+            "en": "{measuring work or mechanical power}"
+          }
+        },
+        {
+          "code": "G01L 5/03",
+          "title": {
+            "ko": null,
+            "en": "for measuring release force of ski safety bindings"
+          }
+        },
+        {
+          "code": "G01L 5/04",
+          "title": {
+            "ko": null,
+            "en": "for measuring tension in flexible members, e.g. ropes, cables, wires, threads, belts or bands {(G01L5/0004 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 5/12",
+          "title": {
+            "ko": null,
+            "en": "for measuring axial thrust in a rotary shaft, e.g. of propulsion plants"
+          }
+        },
+        {
+          "code": "G01L 5/13",
+          "title": {
+            "ko": null,
+            "en": "for measuring the tractive or propulsive power of vehicles"
+          }
+        },
+        {
+          "code": "G01L 5/14",
+          "title": {
+            "ko": null,
+            "en": "for measuring the force of explosions; for measuring the energy of projectiles"
+          }
+        },
+        {
+          "code": "G01L 5/16",
+          "title": {
+            "ko": null,
+            "en": "for measuring several components of force"
+          }
+        },
+        {
+          "code": "G01L 5/18",
+          "title": {
+            "ko": null,
+            "en": "for measuring ratios of force"
+          }
+        },
+        {
+          "code": "G01L 5/20",
+          "title": {
+            "ko": null,
+            "en": "for measuring wheel side-thrust"
+          }
+        },
+        {
+          "code": "G01L 5/22",
+          "title": {
+            "ko": null,
+            "en": "for measuring the force applied to control members, e.g. control members of vehicles, triggers"
+          }
+        },
+        {
+          "code": "G01L 5/24",
+          "title": {
+            "ko": null,
+            "en": "for determining value of torque or twisting moment for tightening a nut or other member which is similarly stressed"
+          }
+        },
+        {
+          "code": "G01L 5/26",
+          "title": {
+            "ko": null,
+            "en": "for determining the characteristic of torque in relation to revolutions per unit of time"
+          }
+        },
+        {
+          "code": "G01L 5/28",
+          "title": {
+            "ko": null,
+            "en": "for testing brakes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 7/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring the steady or quasi-steady pressure of a fluid or a fluent solid material by mechanical or fluid pressure-sensitive elements ({G01L11/004 takes precedence;} transmitting or indicating the displacement of mechanical pressure-sensitive elements by electric {, e.g., photoelectric} or magnetic means G01L9/00; measuring differences of two or more pressure values G01L13/00; measuring two or more pressure values simultaneously G01L15/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 7/02",
+          "title": {
+            "ko": null,
+            "en": "in the form of elastically-deformable gauges"
+          }
+        },
+        {
+          "code": "G01L 7/16",
+          "title": {
+            "ko": null,
+            "en": "in the form of pistons"
+          }
+        },
+        {
+          "code": "G01L 7/18",
+          "title": {
+            "ko": null,
+            "en": "using liquid as the pressure-sensitive medium, e.g. liquid-column gauges"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 9/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring steady of quasi-steady pressure of fluid or fluent solid material by electric or magnetic pressure-sensitive elements {(G01L11/004 takes precedence)}; Transmitting or indicating the displacement of mechanical pressure-sensitive elements, used to measure the steady or quasi-steady pressure of a fluid or fluent solid material, by electric or magnetic means (measuring differences of two or more pressure values G01L13/00; measuring two or more pressure values simultaneously G01L15/00)"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 9/0001",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting or indicating the displacement of elastically deformable gauges by electric, electro-mechanical, magnetic or electro-magnetic means (G01L9/0026, G01L9/0033, G01L9/0082, G01L9/0089, G01L9/0091 take precedence)}"
+          }
+        },
+        {
+          "code": "G01L 9/0026",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting or indicating the displacement of flexible, deformable tubes by electric, electromechanical, magnetic or electromagnetic means (G01L9/0008 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 9/0033",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting or indicating the displacement of bellows by electric, electromechanical, magnetic, or electromagnetic means (G01L9/0008 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 9/0041",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting or indicating the displacement of flexible diaphragms}"
+          }
+        },
+        {
+          "code": "G01L 9/0082",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting or indicating the displacement of capsules by electric, electromechanical, magnetic, or electromechanical means (G01L9/0008 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 9/0089",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting or indicating the displacement of pistons by electrical, electromechanical, magnetic or electromagnetic means (G01L9/0008 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 9/0091",
+          "title": {
+            "ko": null,
+            "en": "{Transmitting or indicating the displacement of liquid mediums by electrical, electromechanical, magnetic or electromagnetic means (G01L9/0008 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 9/0098",
+          "title": {
+            "ko": null,
+            "en": "{using semiconductor body comprising at least one PN junction as detecting element}"
+          }
+        },
+        {
+          "code": "G01L 9/02",
+          "title": {
+            "ko": null,
+            "en": "by making use of variations in ohmic resistance, e.g. of potentiometers {, electric circuits therefor, e.g. bridges, amplifiers or signal conditioning}"
+          }
+        },
+        {
+          "code": "G01L 9/08",
+          "title": {
+            "ko": null,
+            "en": "by making use of piezoelectric devices {, i.e. electric circuits therefor}"
+          }
+        },
+        {
+          "code": "G01L 9/10",
+          "title": {
+            "ko": null,
+            "en": "by making use of variations in inductance {, i.e. electric circuits therefor}"
+          }
+        },
+        {
+          "code": "G01L 9/12",
+          "title": {
+            "ko": null,
+            "en": "by making use of variations in capacitance {, i.e. electric circuits therefor}"
+          }
+        },
+        {
+          "code": "G01L 9/14",
+          "title": {
+            "ko": null,
+            "en": "involving the displacement of magnets, e.g. electromagnets"
+          }
+        },
+        {
+          "code": "G01L 9/16",
+          "title": {
+            "ko": null,
+            "en": "by making use of variations in the magnetic properties of material resulting from the application of stress"
+          }
+        },
+        {
+          "code": "G01L 9/18",
+          "title": {
+            "ko": null,
+            "en": "by making use of electrokinetic cells, i.e. liquid-containing cells wherein an electric potential is produced or varied upon the application of stress"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 11/00",
+      "title": {
+        "ko": null,
+        "en": "Measuring steady or quasi-steady pressure of a fluid or a fluent solid material by means not provided for in group G01L7/00 or G01L9/00"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 11/002",
+          "title": {
+            "ko": null,
+            "en": "{by thermal means, e.g. hypsometer}"
+          }
+        },
+        {
+          "code": "G01L 11/004",
+          "title": {
+            "ko": null,
+            "en": "{by the use of counterbalancing forces (measuring force by the use of counterbalancing forces G01L1/08)}"
+          }
+        },
+        {
+          "code": "G01L 11/02",
+          "title": {
+            "ko": null,
+            "en": "by optical means"
+          }
+        },
+        {
+          "code": "G01L 11/04",
+          "title": {
+            "ko": null,
+            "en": "by acoustic means"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 13/00",
+      "title": {
+        "ko": null,
+        "en": "Devices or apparatus for measuring differences of two or more fluid pressure values"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 13/02",
+          "title": {
+            "ko": null,
+            "en": "using elastically-deformable members or pistons as sensing elements"
+          }
+        },
+        {
+          "code": "G01L 13/04",
+          "title": {
+            "ko": null,
+            "en": "using floats or liquids as sensing elements"
+          }
+        },
+        {
+          "code": "G01L 13/06",
+          "title": {
+            "ko": null,
+            "en": "using electric or magnetic pressure-sensitive elements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 15/00",
+      "title": {
+        "ko": null,
+        "en": "Devices or apparatus for measuring two or more fluid pressure values simultaneously"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "G01L 17/00",
+      "title": {
+        "ko": null,
+        "en": "Devices or apparatus for measuring tyre pressure or the pressure in other inflated bodies"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 17/005",
+          "title": {
+            "ko": null,
+            "en": "{using a sensor contacting the exterior surface, e.g. for measuring deformation}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 19/00",
+      "title": {
+        "ko": null,
+        "en": "Details of, or accessories for, apparatus for measuring steady or quasi-steady pressure of a fluent medium insofar as such details or accessories are not special to particular types of pressure gauges"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 19/0007",
+          "title": {
+            "ko": null,
+            "en": "{Fluidic connecting means}"
+          }
+        },
+        {
+          "code": "G01L 2019/0053",
+          "title": {
+            "ko": null,
+            "en": "{Pressure sensors associated with other sensors, e.g. for measuring acceleration, temperature}"
+          }
+        },
+        {
+          "code": "G01L 19/0061",
+          "title": {
+            "ko": null,
+            "en": "{Electrical connection means}"
+          }
+        },
+        {
+          "code": "G01L 19/0092",
+          "title": {
+            "ko": null,
+            "en": "{Pressure sensor associated with other sensors, e.g. for measuring acceleration or temperature (G01L9/025, G01L9/045, G01L9/065, G01L9/085, G01L9/105, G01L9/125, G01L19/02, G01L19/04 take precedence; measuring two or more variable G01D21/02; temperature sensors with pressure compensation G01K1/26)}"
+          }
+        },
+        {
+          "code": "G01L 19/02",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing, or for compensating for, effects of inclination or acceleration of the measuring device; Zero-setting means (for aneroid barometers G01L7/14)"
+          }
+        },
+        {
+          "code": "G01L 19/04",
+          "title": {
+            "ko": null,
+            "en": "Means for compensating for effects of changes of temperature {, i.e. other than electric compensation}"
+          }
+        },
+        {
+          "code": "G01L 19/06",
+          "title": {
+            "ko": null,
+            "en": "Means for preventing overload or deleterious influence of the measured medium on the measuring device or vice versa"
+          }
+        },
+        {
+          "code": "G01L 19/08",
+          "title": {
+            "ko": null,
+            "en": "Means for indicating or recording, e.g. for remote indication"
+          }
+        },
+        {
+          "code": "G01L 19/14",
+          "title": {
+            "ko": null,
+            "en": "Housings {(G01L19/0007, G01L19/0084, G01L19/0092, G01L19/04, G01L19/06 take precedence)}"
+          }
+        },
+        {
+          "code": "G01L 19/16",
+          "title": {
+            "ko": null,
+            "en": "Dials; Mounting of dials"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 21/00",
+      "title": {
+        "ko": null,
+        "en": "Vacuum gauges"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 21/02",
+          "title": {
+            "ko": null,
+            "en": "having a compression chamber in which gas, whose pressure is to be measured, is compressed"
+          }
+        },
+        {
+          "code": "G01L 21/08",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations in the transmission of acoustic waves through the medium, the pressure of which is to be measured"
+          }
+        },
+        {
+          "code": "G01L 21/10",
+          "title": {
+            "ko": null,
+            "en": "by measuring variations in the heat conductivity of the medium, the pressure of which is to be measured"
+          }
+        },
+        {
+          "code": "G01L 21/16",
+          "title": {
+            "ko": null,
+            "en": "by measuring variation of frictional resistance of gases"
+          }
+        },
+        {
+          "code": "G01L 21/26",
+          "title": {
+            "ko": null,
+            "en": "by making use of radiometer action, i.e. of the pressure caused by the momentum of molecules passing from a hotter to a cooler member; Vacuum gauges of the Knudsen type"
+          }
+        },
+        {
+          "code": "G01L 21/30",
+          "title": {
+            "ko": null,
+            "en": "by making use of ionisation effects"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 23/00",
+      "title": {
+        "ko": null,
+        "en": "Devices or apparatus for measuring or indicating or recording rapid changes, such as oscillations, in the pressure of steam, gas, or liquid; Indicators for determining work or energy of steam, internal-combustion, or other fluid-pressure engines from the condition of the working fluid"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 23/02",
+          "title": {
+            "ko": null,
+            "en": "mechanically indicating or recording and involving loaded or return springs"
+          }
+        },
+        {
+          "code": "G01L 23/04",
+          "title": {
+            "ko": null,
+            "en": "involving means subjected to known counteracting pressure"
+          }
+        },
+        {
+          "code": "G01L 23/06",
+          "title": {
+            "ko": null,
+            "en": "Indicating or recording by optical means"
+          }
+        },
+        {
+          "code": "G01L 23/08",
+          "title": {
+            "ko": null,
+            "en": "operated electrically {(G01L23/22 takes precedence)}"
+          }
+        },
+        {
+          "code": "G01L 23/20",
+          "title": {
+            "ko": null,
+            "en": "combined with planimeters or integrators"
+          }
+        },
+        {
+          "code": "G01L 23/22",
+          "title": {
+            "ko": null,
+            "en": "for detecting or indicating knocks in internal-combustion engines; Units comprising pressure-sensitive members combined with ignitors for firing internal-combustion engines"
+          }
+        },
+        {
+          "code": "G01L 23/24",
+          "title": {
+            "ko": null,
+            "en": "{specially adapted} for measuring pressure in inlet or exhaust ducts of internal-combustion engines"
+          }
+        },
+        {
+          "code": "G01L 23/26",
+          "title": {
+            "ko": null,
+            "en": "Details or accessories"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 25/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating of apparatus for measuring force, torque, work, mechanical power, or mechanical efficiency"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 25/003",
+          "title": {
+            "ko": null,
+            "en": "{for measuring torque}"
+          }
+        },
+        {
+          "code": "G01L 25/006",
+          "title": {
+            "ko": null,
+            "en": "{for measuring work or mechanical power or mechanical efficiency}"
+          }
+        }
+      ]
+    },
+    {
+      "code": "G01L 27/00",
+      "title": {
+        "ko": null,
+        "en": "Testing or calibrating of apparatus for measuring fluid pressure"
+      },
+      "subgroups": [
+        {
+          "code": "G01L 27/002",
+          "title": {
+            "ko": null,
+            "en": "{Calibrating, i.e. establishing true relation between transducer output value and value to be measured, zeroing, linearising or span error determination}"
+          }
+        },
+        {
+          "code": "G01L 27/007",
+          "title": {
+            "ko": null,
+            "en": "{Malfunction diagnosis, i.e. diagnosing a sensor defect}"
+          }
+        },
+        {
+          "code": "G01L 27/02",
+          "title": {
+            "ko": null,
+            "en": "of indicators"
+          }
+        }
+      ]
+    }
+  ]
+}

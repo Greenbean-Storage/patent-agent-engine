@@ -1,0 +1,3764 @@
+{
+  "subclass": "F16H",
+  "title": {
+    "ko": "전동장치(Gearing)",
+    "en": "GEARING"
+  },
+  "definition": {
+    "ko": "회전 운동에 제한되지 않는 전동장치 전동장치 레버, 링크 또는 캠 사용 F16H21/00 ~ F16H25/00 간헐 구동 부재를 사용하는 것 F16H27/00 ~ F16H31/00 다른 기어; 기어의 결합 F16H19/00, F16H33/00, F16H35/00; F16H37/00 세부 F16H51/00 ~ F16H57/00 유체 전동장치 F16H43/00 회전 운동 전달용 전동장치 톱니 기어 F16H1/00, F16H3/00 무한 가요성 부재 F16H7/00, F16H9/00 기타 마찰 기어 F16H13/00, F16H15/00 유체 기어 F16H39/00, F16H41/00, F16H45/00 간헐 구동 부재를 이용하는 것 F16H29/00 제어 회전 움직임을 전달하는 속도 변화 또는 역 회전 기어 작동 F16H59/00 ~ F16H63/00 기어 조합; 차동 기어; 기타 기어 F16H47/00; F16H48/00; F16H49/00 전동장치의 일반 세부 F16H57/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F16H 1/00",
+      "title": {
+        "ko": "회전운동전달용 치차전동장치(가변속도비를 갖는 회전운동의 전달 또는 역전운동에 특유한 것 3/00)",
+        "en": "Toothed gearings for conveying rotary motion"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 1/00",
+      "title": {
+        "ko": "회전운동전달용 치차전동장치(가변속도비를 갖는 회전운동의 전달 또는 역전운동에 특유한 것 3/00)",
+        "en": "Toothed gearings for conveying rotary motion (specific for conveying rotary motion with variable gear ratio or for reversing rotary motion F16H0003000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 1/02",
+          "title": {
+            "ko": "유성운동(orbital motion)을 하는 치차가 없는 것",
+            "en": "without gears having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 1/04",
+          "title": {
+            "ko": "단지 2개의 서로 물리는 부재를 포함하는 것",
+            "en": "involving only two intermeshing members"
+          }
+        },
+        {
+          "code": "F16H 1/06",
+          "title": {
+            "ko": null,
+            "en": "with parallel axes"
+          }
+        },
+        {
+          "code": "F16H 1/08",
+          "title": {
+            "ko": null,
+            "en": "the members having helical, herring-bone, or like teeth"
+          }
+        },
+        {
+          "code": "F16H 1/10",
+          "title": {
+            "ko": null,
+            "en": "one of the members being internally toothed"
+          }
+        },
+        {
+          "code": "F16H 1/12",
+          "title": {
+            "ko": "평행하지 않은 축을 갖는 것",
+            "en": "with non-parallel axes"
+          }
+        },
+        {
+          "code": "F16H 1/14",
+          "title": {
+            "ko": null,
+            "en": "comprising conical gears only"
+          }
+        },
+        {
+          "code": "F16H 1/16",
+          "title": {
+            "ko": null,
+            "en": "comprising worm and worm-wheel"
+          }
+        },
+        {
+          "code": "F16H 1/18",
+          "title": {
+            "ko": "부재가 헬리컬, 이중헬리컬 또는 이것과 동일한 치를 가지고 있는 것(F16H 1/14이 우선)",
+            "en": "the members having helical, herring-bone, or like teeth (F16H0001140000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 1/20",
+          "title": {
+            "ko": null,
+            "en": "involving more than two intermeshing members"
+          }
+        },
+        {
+          "code": "F16H 1/22",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of driving or driven shafts; with arrangements for dividing torque between two or more intermediate shafts"
+          }
+        },
+        {
+          "code": "F16H 1/24",
+          "title": {
+            "ko": "인볼류트 또는 사이클로이드와 이와는 다른 서로 물리는 요소를 본질적으로 가지고 있는 치차를 포함하는 것 (F16H 1/16이 우선)",
+            "en": "involving gears essentially having intermeshing elements other than involute or cycloidal teeth (F16H0001160000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 1/26",
+          "title": {
+            "ko": null,
+            "en": "Special means compensating for misalignment of axes"
+          }
+        },
+        {
+          "code": "F16H 1/28",
+          "title": {
+            "ko": "유성운동(orbital motion)을 하는 치차가 있는 것",
+            "en": "with gears having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 1/30",
+          "title": {
+            "ko": null,
+            "en": "in which an orbital gear has an axis crossing the main axis of the gearing and has helical teeth or is a worm"
+          }
+        },
+        {
+          "code": "F16H 1/32",
+          "title": {
+            "ko": null,
+            "en": "in which the central axis of the gearing lies inside the periphery of an orbital gear"
+          }
+        },
+        {
+          "code": "F16H 1/34",
+          "title": {
+            "ko": "인볼류트 또는 사이클로이드 이와는 다른 서로 물리는 요소를 본질적으로 가지고 있는 치차를 포함한 것(웜전동장치 (F16H 1/30)",
+            "en": "involving gears essentially having intermeshing elements other than involute or cycloidal teeth (in worm gearing F16H0001300000)"
+          }
+        },
+        {
+          "code": "F16H 1/36",
+          "title": {
+            "ko": null,
+            "en": "with two central gears coupled by intermeshing orbital gears"
+          }
+        },
+        {
+          "code": "F16H 1/46",
+          "title": {
+            "ko": null,
+            "en": "Systems consisting of a plurality of gear trains, each with orbital gears"
+          }
+        },
+        {
+          "code": "F16H 1/48",
+          "title": {
+            "ko": null,
+            "en": "Special means compensating for misalignment of axes"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 3/00",
+      "title": {
+        "ko": "가변속도비를 가진 회전운동 전달용 또는 역전용 치차장치(변속기구 또는 역전기구 (F16H 59/00-F16H 63/00)",
+        "en": "Toothed gearings for conveying rotary motion with variable gear ratio or for reversing rotary motion (speed-changing or reversing mechanisms F16H0059000000-F16H0063000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 3/02",
+          "title": {
+            "ko": "유성운동을 하는 치차가 없는 것",
+            "en": "without gears having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 3/04",
+          "title": {
+            "ko": null,
+            "en": "with internally-toothed gears"
+          }
+        },
+        {
+          "code": "F16H 3/06",
+          "title": {
+            "ko": null,
+            "en": "with worm and worm-wheel or gears essentially having helical or herring-bone teeth"
+          }
+        },
+        {
+          "code": "F16H 3/08",
+          "title": {
+            "ko": "모두 또는 본질적으로 축으로부터 떼어낼 수 있으며 항상 물리고 있는 치차를 갖는 것",
+            "en": "exclusively or essentially with continuously- meshing gears, that can be disengaged from their shafts"
+          },
+          "definition": {
+            "ko": "이 그룹에서는, 이가 맞물릴 수 없는 치차가 역전에만 사용되는 경우에는 고려하지 않음",
+            "en": null
+          }
+        },
+        {
+          "code": "F16H 3/083",
+          "title": {
+            "ko": null,
+            "en": "with radially acting and axially controlled clutching members, e.g. sliding keys"
+          }
+        },
+        {
+          "code": "F16H 3/085",
+          "title": {
+            "ko": null,
+            "en": "with more than one output shaft"
+          }
+        },
+        {
+          "code": "F16H 3/087",
+          "title": {
+            "ko": "치차의 배치에 특징이 있는 것((F16H 3/083, (F16H 3/085가 우선)",
+            "en": "characterised by the disposition of the gears (F16H0003083000, F16H0003085000 take precedence)"
+          },
+          "definition": {
+            "ko": "카운터축(COUNTER SHAFT)을 고려하는 경우에 역전용 카운터축은 그것이 역전동에만 사용되는 경우에는 계산하지 않는다.",
+            "en": null
+          }
+        },
+        {
+          "code": "F16H 3/089",
+          "title": {
+            "ko": null,
+            "en": "all of the meshing gears being supported by a pair of parallel shafts, one being the input shaft and the other the output shaft, there being no countershaft involved"
+          }
+        },
+        {
+          "code": "F16H 3/091",
+          "title": {
+            "ko": null,
+            "en": "including a single countershaft"
+          }
+        },
+        {
+          "code": "F16H 3/093",
+          "title": {
+            "ko": null,
+            "en": "with two or more countershafts"
+          }
+        },
+        {
+          "code": "F16H 3/095",
+          "title": {
+            "ko": null,
+            "en": "with means for ensuring an even distribution of torque between the countershafts"
+          }
+        },
+        {
+          "code": "F16H 3/097",
+          "title": {
+            "ko": null,
+            "en": "the input and output shafts being aligned on the same axis"
+          }
+        },
+        {
+          "code": "F16H 3/10",
+          "title": {
+            "ko": null,
+            "en": "with one or more one-way clutches as an essential feature"
+          }
+        },
+        {
+          "code": "F16H 3/12",
+          "title": {
+            "ko": null,
+            "en": "with means for synchronisation not incorporated in the clutches"
+          }
+        },
+        {
+          "code": "F16H 3/14",
+          "title": {
+            "ko": null,
+            "en": "Gearings for reversal only"
+          }
+        },
+        {
+          "code": "F16H 3/16",
+          "title": {
+            "ko": null,
+            "en": "essentially with both gears that can be put out of gear and continuously-meshing gears that can be disengaged from their shafts"
+          }
+        },
+        {
+          "code": "F16H 3/18",
+          "title": {
+            "ko": null,
+            "en": "Gearings for reversal only"
+          }
+        },
+        {
+          "code": "F16H 3/20",
+          "title": {
+            "ko": null,
+            "en": "exclusively or essentially using gears that can be moved out of gear"
+          }
+        },
+        {
+          "code": "F16H 3/22",
+          "title": {
+            "ko": null,
+            "en": "with gears shiftable only axially"
+          }
+        },
+        {
+          "code": "F16H 3/24",
+          "title": {
+            "ko": null,
+            "en": "with driving and driven shafts coaxial"
+          }
+        },
+        {
+          "code": "F16H 3/26",
+          "title": {
+            "ko": null,
+            "en": "and two or more additional shafts"
+          }
+        },
+        {
+          "code": "F16H 3/28",
+          "title": {
+            "ko": null,
+            "en": "an additional shaft being coaxial with the main shafts"
+          }
+        },
+        {
+          "code": "F16H 3/30",
+          "title": {
+            "ko": null,
+            "en": "with driving and driven shafts not coaxial"
+          }
+        },
+        {
+          "code": "F16H 3/32",
+          "title": {
+            "ko": null,
+            "en": "and an additional shaft"
+          }
+        },
+        {
+          "code": "F16H 3/34",
+          "title": {
+            "ko": null,
+            "en": "with gears shiftable otherwise than only axially"
+          }
+        },
+        {
+          "code": "F16H 3/36",
+          "title": {
+            "ko": null,
+            "en": "with a single gear meshable with any of a set of coaxial gears of different diameters"
+          }
+        },
+        {
+          "code": "F16H 3/38",
+          "title": {
+            "ko": null,
+            "en": "with synchro-meshing"
+          }
+        },
+        {
+          "code": "F16H 3/40",
+          "title": {
+            "ko": null,
+            "en": "Gearings for reversal only"
+          }
+        },
+        {
+          "code": "F16H 3/42",
+          "title": {
+            "ko": null,
+            "en": "with gears having teeth formed or arranged for obtaining multiple gear ratios, e.g. nearly infinitely variable"
+          }
+        },
+        {
+          "code": "F16H 3/44",
+          "title": {
+            "ko": "유성운동을 하는 치차가 있는 것",
+            "en": "using gears having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 3/46",
+          "title": {
+            "ko": "유성치차에 의하여 연결된 단지 2개의 중심치차를 가지고 있는 전동장치(3/68 ~ 3/78이 우선)",
+            "en": "Gearings having only two central gears, connected by orbital gears (F16H0003680000-F16H0003780000 take precedence)"
+          }
+        },
+        {
+          "code": "F16H 3/48",
+          "title": {
+            "ko": null,
+            "en": "with single orbital gears or pairs of rigidly-connected orbital gears"
+          }
+        },
+        {
+          "code": "F16H 3/50",
+          "title": {
+            "ko": null,
+            "en": "comprising orbital conical gears"
+          }
+        },
+        {
+          "code": "F16H 3/52",
+          "title": {
+            "ko": null,
+            "en": "comprising orbital spur gears"
+          }
+        },
+        {
+          "code": "F16H 3/54",
+          "title": {
+            "ko": null,
+            "en": "one of the central gears being internally toothed and the other externally toothed"
+          }
+        },
+        {
+          "code": "F16H 3/56",
+          "title": {
+            "ko": null,
+            "en": "both central gears being sun gears"
+          }
+        },
+        {
+          "code": "F16H 3/58",
+          "title": {
+            "ko": null,
+            "en": "with sets of orbital gears, each consisting of two or more intermeshing orbital gears"
+          }
+        },
+        {
+          "code": "F16H 3/60",
+          "title": {
+            "ko": null,
+            "en": "Gearings for reversal only"
+          }
+        },
+        {
+          "code": "F16H 3/62",
+          "title": {
+            "ko": "3개 이상의 중심치차를 갖는 전동장치(F16H 3/68 ～ F16H 3/78이 우선)",
+            "en": "Gearings having three or more central gears (F16H0003680000-F16H0003780000 take precedence)"
+          }
+        },
+        {
+          "code": "F16H 3/64",
+          "title": {
+            "ko": null,
+            "en": "composed of a number of gear trains, the drive always passing through all the trains, each train having not more than one connection for driving another train"
+          }
+        },
+        {
+          "code": "F16H 3/66",
+          "title": {
+            "ko": null,
+            "en": "composed of a number of gear trains without drive passing from one train to another"
+          }
+        },
+        {
+          "code": "F16H 3/68",
+          "title": {
+            "ko": null,
+            "en": "in which an orbital gear has an axis crossing the main axis of the gearing and has helical teeth or is a worm"
+          }
+        },
+        {
+          "code": "F16H 3/70",
+          "title": {
+            "ko": null,
+            "en": "in which the central axis of the gearing lies inside the periphery of an orbital gear"
+          }
+        },
+        {
+          "code": "F16H 3/72",
+          "title": {
+            "ko": null,
+            "en": "with a secondary drive, e.g. regulating motor, in order to vary speed continuously"
+          }
+        },
+        {
+          "code": "F16H 3/74",
+          "title": {
+            "ko": null,
+            "en": "Complexes, not using actuatable speed-changing or regulating members, e.g. with gear ratio determined by free play of frictional or other forces"
+          }
+        },
+        {
+          "code": "F16H 3/76",
+          "title": {
+            "ko": null,
+            "en": "with an orbital gear having teeth formed or arranged for obtaining multiple gear ratios, e.g. nearly infinitely variable"
+          }
+        },
+        {
+          "code": "F16H 3/78",
+          "title": {
+            "ko": null,
+            "en": "Special adaptation of synchronisation mechanisms to these gearings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 7/00",
+      "title": {
+        "ko": "무한 가요성부재(endless flexible member)에 의한 회전운동전달장치(가변변속비를 갖는 회전운동기구 또는 역전기구에 특유한 것 F16H 9/00)",
+        "en": "Gearing for conveying rotary motion by endless flexible members"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 7/00",
+      "title": {
+        "ko": "무한 가요성부재(endless flexible member)에 의한 회전운동전달장치(가변변속비를 갖는 회전운동기구 또는 역전기구에 특유한 것 F16H 9/00)",
+        "en": "Gearings for conveying rotary motion by endless flexible members (specific for conveying rotary motion with variable gear ratio or for reversing rotary motion F16H0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 7/02",
+          "title": {
+            "ko": null,
+            "en": "with belts; with V-belts"
+          }
+        },
+        {
+          "code": "F16H 7/04",
+          "title": {
+            "ko": null,
+            "en": "with ropes"
+          }
+        },
+        {
+          "code": "F16H 7/06",
+          "title": {
+            "ko": null,
+            "en": "with chains"
+          }
+        },
+        {
+          "code": "F16H 7/08",
+          "title": {
+            "ko": "벨트, 로프 또는 체인의 장력변경수단(조정가능 구조의 풀리 F16H 55/52)",
+            "en": "Means for varying tension of belts, ropes, or chains (pulleys of adjustable construction F16H0055520000)"
+          }
+        },
+        {
+          "code": "F16H 7/10",
+          "title": {
+            "ko": null,
+            "en": "by adjusting the axis of a pulley"
+          }
+        },
+        {
+          "code": "F16H 7/12",
+          "title": {
+            "ko": null,
+            "en": "of an idle pulley"
+          }
+        },
+        {
+          "code": "F16H 7/14",
+          "title": {
+            "ko": null,
+            "en": "of a driving or driven pulley"
+          }
+        },
+        {
+          "code": "F16H 7/16",
+          "title": {
+            "ko": null,
+            "en": "without adjusting the driving or driven shaft"
+          }
+        },
+        {
+          "code": "F16H 7/18",
+          "title": {
+            "ko": "벨트, 로프 또는 체인의 안내 또한 지지수단(풀리의 구조 F16H 55/36)",
+            "en": "Means for guiding or supporting belts, ropes, or chains (construction of pulleys F16H0055360000)"
+          }
+        },
+        {
+          "code": "F16H 7/20",
+          "title": {
+            "ko": null,
+            "en": "Mountings for rollers or pulleys"
+          }
+        },
+        {
+          "code": "F16H 7/22",
+          "title": {
+            "ko": null,
+            "en": "Belt, rope, or chain shifters"
+          }
+        },
+        {
+          "code": "F16H 7/24",
+          "title": {
+            "ko": null,
+            "en": "Equipment for mounting belts, ropes, or chains"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 9/00",
+      "title": {
+        "ko": "가변 기어비로 회전 운동을 전달하거나 회전 운동을 역전시키기위한 기어링, 무한 유연 부재(회전 운동을 전달하는 변경 속도 또는 리버스 기어링 제어 F16H59/00~F16H63/00)",
+        "en": "Gearings for conveying rotary motion with variable gear ratio, or for reversing rotary motion, by endless flexible members (control of change-speed or reversing-gearings conveying rotary motion F16H0059000000-F16H0063000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 9/02",
+          "title": {
+            "ko": "유성운동을 하는 부재가 없는 것",
+            "en": "without members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 9/04",
+          "title": {
+            "ko": "벨트, V 벨트 또는 로프를 사용하는 것(이가 있는 벨트 9/24; 조정할 수 있는 구조의 풀리 F16H 55/24)",
+            "en": "using belts, V-belts, or ropes (with toothed belts F16H0009240000;pulleys of adjustable construction F16H0055520000)"
+          }
+        },
+        {
+          "code": "F16H 9/06",
+          "title": {
+            "ko": null,
+            "en": "engaging a stepped pulley"
+          }
+        },
+        {
+          "code": "F16H 9/08",
+          "title": {
+            "ko": "원추형드럼과 계합(engaging)하는 것(F16H 9/12이 우선)",
+            "en": "engaging a conical drum (F16H0009120000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 9/10",
+          "title": {
+            "ko": null,
+            "en": "engaging a pulley provided with radially-actuatable elements carrying the belt"
+          }
+        },
+        {
+          "code": "F16H 9/12",
+          "title": {
+            "ko": null,
+            "en": "engaging a pulley built-up out of relatively axially-adjustable parts in which the belt engages the opposite flanges of the pulley directly without interposed belt-supporting members"
+          }
+        },
+        {
+          "code": "F16H 9/14",
+          "title": {
+            "ko": null,
+            "en": "using only one pulley built-up out of adjustable conical parts"
+          }
+        },
+        {
+          "code": "F16H 9/16",
+          "title": {
+            "ko": null,
+            "en": "using two pulleys, both built-up out of adjustable conical parts"
+          }
+        },
+        {
+          "code": "F16H 9/18",
+          "title": {
+            "ko": null,
+            "en": "only one flange of each pulley being adjustable"
+          }
+        },
+        {
+          "code": "F16H 9/20",
+          "title": {
+            "ko": null,
+            "en": "both flanges of the pulleys being adjustable"
+          }
+        },
+        {
+          "code": "F16H 9/22",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for ropes"
+          }
+        },
+        {
+          "code": "F16H 9/24",
+          "title": {
+            "ko": null,
+            "en": "using chains, toothed belts, belts in the form of links; Chains or belts specially adapted to such gearing"
+          }
+        },
+        {
+          "code": "F16H 9/26",
+          "title": {
+            "ko": null,
+            "en": "with members having orbital motion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 13/00",
+      "title": {
+        "ko": "회전부재사이의 마찰에 의한 일정변속비를 갖는 회전운동전동용 전동장치",
+        "en": "Other friction gearing for conveying rotary motion"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 13/00",
+      "title": {
+        "ko": "회전부재사이의 마찰에 의한 일정변속비를 갖는 회전운동전동용 전동장치",
+        "en": "Gearing for conveying rotary motion with constant gear ratio by friction between rotary members"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 13/02",
+          "title": {
+            "ko": null,
+            "en": "without members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 13/04",
+          "title": {
+            "ko": null,
+            "en": "with balls or with rollers acting in a similar manner"
+          }
+        },
+        {
+          "code": "F16H 13/06",
+          "title": {
+            "ko": null,
+            "en": "with members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 13/08",
+          "title": {
+            "ko": null,
+            "en": "with balls or with rollers acting in a similar manner"
+          }
+        },
+        {
+          "code": "F16H 13/10",
+          "title": {
+            "ko": null,
+            "en": "Means for influencing the pressure between the members"
+          }
+        },
+        {
+          "code": "F16H 13/12",
+          "title": {
+            "ko": null,
+            "en": "by magnetic forces"
+          }
+        },
+        {
+          "code": "F16H 13/14",
+          "title": {
+            "ko": null,
+            "en": "for automatically varying the pressure mechanically"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 15/00",
+      "title": {
+        "ko": "회전부재사이의 마찰에 의한 가변변속비를 가진 회전운동전달용 또는 역전용 전동장치(변속 또는 역전기구 F16H 17/00)",
+        "en": "Gearings for conveying rotary motion with variable gear ratio, or for reversing rotary motion, by friction between rotary members (control of change-speed or reversing-gearings conveying rotary motion F16H0059000000-F16H0063000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 15/01",
+          "title": {
+            "ko": null,
+            "en": "characterised by the use of a magnetisable powder or liquid as friction medium between the rotary members"
+          }
+        },
+        {
+          "code": "F16H 15/02",
+          "title": {
+            "ko": "유성운동을 하는 부재가 없는 것",
+            "en": "without members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 15/04",
+          "title": {
+            "ko": "연속적인 변속비를 갖는 전동장치",
+            "en": "Gearings providing a continuous range of gear ratios"
+          }
+        },
+        {
+          "code": "F16H 15/06",
+          "title": {
+            "ko": "일정한 유효지름의 축에 부착된 부재 A가 부재 B의 다른 부분과 함께 움직이는 것",
+            "en": "in which a member A of uniform effective diameter mounted on a shaft may co-operate with different parts of a member B"
+          }
+        },
+        {
+          "code": "F16H 15/08",
+          "title": {
+            "ko": "부재 B가 평탄한 또는 평탄에 가까운 마찰면을 갖는 것",
+            "en": "in which the member B is a disc with a flat or approximately-flat friction surface"
+          }
+        },
+        {
+          "code": "F16H 15/10",
+          "title": {
+            "ko": null,
+            "en": "in which the axes of the two members cross or intersect"
+          }
+        },
+        {
+          "code": "F16H 15/12",
+          "title": {
+            "ko": null,
+            "en": "in which one or each member is duplicated, e.g. for obtaining better transmission, for lessening the reaction forces on the bearings"
+          }
+        },
+        {
+          "code": "F16H 15/14",
+          "title": {
+            "ko": null,
+            "en": "in which the axes of the members are parallel or approximately parallel"
+          }
+        },
+        {
+          "code": "F16H 15/16",
+          "title": {
+            "ko": "부재 B가 원뿔 모양의 마찰면을 갖는 것",
+            "en": "in which the member B has a conical friction surface"
+          }
+        },
+        {
+          "code": "F16H 15/18",
+          "title": {
+            "ko": "바깥쪽에 마찰면을 갖는 것",
+            "en": "externally"
+          }
+        },
+        {
+          "code": "F16H 15/20",
+          "title": {
+            "ko": "부재 B의 마찰면에 수직 또는 수직에 가까운 상태인 부재A의 바깥쪽 림과 함께 움직이는 것",
+            "en": "co-operating with the outer rim of the member A, which is perpendicular or nearly perpendicular to the friction surface of the member B"
+          }
+        },
+        {
+          "code": "F16H 15/22",
+          "title": {
+            "ko": null,
+            "en": "the axes of the members being parallel or approximately parallel"
+          }
+        },
+        {
+          "code": "F16H 15/24",
+          "title": {
+            "ko": null,
+            "en": "internally"
+          }
+        },
+        {
+          "code": "F16H 15/26",
+          "title": {
+            "ko": "부재 B가 회전축선을 중심으로 하는 구상마찰면을 갖는 것",
+            "en": "in which the member B has a spherical friction surface centered on its axis of revolution"
+          }
+        },
+        {
+          "code": "F16H 15/28",
+          "title": {
+            "ko": null,
+            "en": "with external friction surface"
+          }
+        },
+        {
+          "code": "F16H 15/30",
+          "title": {
+            "ko": null,
+            "en": "with internal friction surface"
+          }
+        },
+        {
+          "code": "F16H 15/32",
+          "title": {
+            "ko": "부재 B의 마찰면이 회전축선을 중심으로 하는 원호 및 직선이외의 곡선의 회전체의 표면으로서 형성되는 것",
+            "en": "in which the member B has a curved friction surface formed as a surface of a body of revolution generated by a curve which is neither a circular arc centered on its axis of revolution nor a straight line"
+          }
+        },
+        {
+          "code": "F16H 15/34",
+          "title": {
+            "ko": null,
+            "en": "with convex friction surface"
+          }
+        },
+        {
+          "code": "F16H 15/36",
+          "title": {
+            "ko": "오목형의 마찰면을 갖는 것, 예. 오목형의 트로이드(toroid) 면",
+            "en": "with concave friction surface, e.g. a hollow toroid surface"
+          }
+        },
+        {
+          "code": "F16H 15/38",
+          "title": {
+            "ko": "2개의 부재 B에 맞서는 오목형 트로이드 면사이에 부재 또는 부재 A를 조정할 수 있게 설치한 것",
+            "en": "with two members B having hollow toroid surfaces opposite to each other, the member or members A being adjustably mounted between the surfaces"
+          }
+        },
+        {
+          "code": "F16H 15/40",
+          "title": {
+            "ko": null,
+            "en": "in which two members co-operate by means of balls, or rollers of uniform effective diameter, not mounted on shafts"
+          }
+        },
+        {
+          "code": "F16H 15/42",
+          "title": {
+            "ko": null,
+            "en": "in which two members co-operate by means of rings or by means of parts of endless flexible members pressed between the first-mentioned members"
+          }
+        },
+        {
+          "code": "F16H 15/44",
+          "title": {
+            "ko": null,
+            "en": "in which two members of non-uniform effective diameter directly co-operate with one another"
+          }
+        },
+        {
+          "code": "F16H 15/46",
+          "title": {
+            "ko": null,
+            "en": "Gearings providing a discontinuous or stepped range of gear ratios"
+          }
+        },
+        {
+          "code": "F16H 15/48",
+          "title": {
+            "ko": null,
+            "en": "with members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 15/50",
+          "title": {
+            "ko": null,
+            "en": "Gearings providing a continuous range of gear ratios"
+          }
+        },
+        {
+          "code": "F16H 15/52",
+          "title": {
+            "ko": null,
+            "en": "in which a member of uniform effective diameter mounted on a shaft may co-operate with different parts of another member"
+          }
+        },
+        {
+          "code": "F16H 15/54",
+          "title": {
+            "ko": null,
+            "en": "in which two members co-operate by means of rings or by means of parts of endless flexible members pressed between the first-mentioned members"
+          }
+        },
+        {
+          "code": "F16H 15/56",
+          "title": {
+            "ko": null,
+            "en": "Gearings providing a discontinuous or stepped range of gear ratios"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 19/00",
+      "title": {
+        "ko": "본질적으로 치차 또는 마찰부재만으로 구성되어 있고, 무한히 계속되는 회전운동을 전달할 수 없는 전동장치 (간헐 구동부재를 사용한 것 F16H 27/00 - F16H 31/00)",
+        "en": "Gearings comprising essentially only toothed gears or friction members and not capable of conveying indefinitely-continuing rotary motion (with intermittently-driving members F16H0027000000-F16H0031000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 19/02",
+          "title": {
+            "ko": null,
+            "en": "for interconverting rotary motion and reciprocating motion"
+          }
+        },
+        {
+          "code": "F16H 19/04",
+          "title": {
+            "ko": null,
+            "en": "comprising a rack"
+          }
+        },
+        {
+          "code": "F16H 19/06",
+          "title": {
+            "ko": null,
+            "en": "comprising an endless flexible member"
+          }
+        },
+        {
+          "code": "F16H 19/08",
+          "title": {
+            "ko": null,
+            "en": "for interconverting rotary motion and oscillating motion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 21/00",
+      "title": {
+        "ko": "주로 링크 또는 레버만으로 구성되어 있고 미끄럼부를 갖거나 또는 갖지 않는 전동장치",
+        "en": "Gearing for conveying or converting motion by means of levers, links, cams or screw-and-nut mechanisms"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 21/00",
+      "title": {
+        "ko": "주로 링크 또는 레버만으로 구성되어 있고 미끄럼부를 갖거나 또는 갖지 않는 전동장치",
+        "en": "Gearings comprising primarily only links or levers, with or without slides (F16H0023000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 21/02",
+          "title": {
+            "ko": null,
+            "en": "the movements of two or more independently-moving members being combined into a single movement"
+          }
+        },
+        {
+          "code": "F16H 21/04",
+          "title": {
+            "ko": null,
+            "en": "Guiding mechanisms, e.g. for straight-line guidance"
+          }
+        },
+        {
+          "code": "F16H 21/06",
+          "title": {
+            "ko": null,
+            "en": "which can be made ineffective when desired"
+          }
+        },
+        {
+          "code": "F16H 21/08",
+          "title": {
+            "ko": null,
+            "en": "by pushing a reciprocating rod out of its operative position"
+          }
+        },
+        {
+          "code": "F16H 21/10",
+          "title": {
+            "ko": null,
+            "en": "all movement being in, or parallel to, a single plane"
+          }
+        },
+        {
+          "code": "F16H 21/12",
+          "title": {
+            "ko": null,
+            "en": "for conveying rotary motion"
+          }
+        },
+        {
+          "code": "F16H 21/14",
+          "title": {
+            "ko": null,
+            "en": "by means of cranks, eccentrics, or like members fixed to one rotary member and guided along tracks on the other"
+          }
+        },
+        {
+          "code": "F16H 21/16",
+          "title": {
+            "ko": null,
+            "en": "for interconverting rotary motion and reciprocating motion"
+          }
+        },
+        {
+          "code": "F16H 21/18",
+          "title": {
+            "ko": null,
+            "en": "Crank gearings; Eccentric gearings"
+          }
+        },
+        {
+          "code": "F16H 21/20",
+          "title": {
+            "ko": null,
+            "en": "with adjustment of throw"
+          }
+        },
+        {
+          "code": "F16H 21/22",
+          "title": {
+            "ko": null,
+            "en": "with one connecting-rod and one guided slide to each crank or eccentric"
+          }
+        },
+        {
+          "code": "F16H 21/24",
+          "title": {
+            "ko": null,
+            "en": "without further links or guides"
+          }
+        },
+        {
+          "code": "F16H 21/26",
+          "title": {
+            "ko": null,
+            "en": "with toggle action"
+          }
+        },
+        {
+          "code": "F16H 21/28",
+          "title": {
+            "ko": null,
+            "en": "with cams or additional guides"
+          }
+        },
+        {
+          "code": "F16H 21/30",
+          "title": {
+            "ko": null,
+            "en": "with members having rolling contact"
+          }
+        },
+        {
+          "code": "F16H 21/32",
+          "title": {
+            "ko": null,
+            "en": "with additional members comprising only pivoted links or arms"
+          }
+        },
+        {
+          "code": "F16H 21/34",
+          "title": {
+            "ko": null,
+            "en": "with two or more connecting-rods to each crank or eccentric"
+          }
+        },
+        {
+          "code": "F16H 21/36",
+          "title": {
+            "ko": null,
+            "en": "without swinging connecting-rod, e.g. with epicyclic parallel motion, slot-and- crank motion"
+          }
+        },
+        {
+          "code": "F16H 21/38",
+          "title": {
+            "ko": null,
+            "en": "with means for temporary energy accumulation, e.g. to overcome dead-centre positions"
+          }
+        },
+        {
+          "code": "F16H 21/40",
+          "title": {
+            "ko": null,
+            "en": "for interconverting rotary motion and oscillating motion"
+          }
+        },
+        {
+          "code": "F16H 21/42",
+          "title": {
+            "ko": null,
+            "en": "with adjustable throw"
+          }
+        },
+        {
+          "code": "F16H 21/44",
+          "title": {
+            "ko": null,
+            "en": "for conveying or interconverting oscillating or reciprocating motions"
+          }
+        },
+        {
+          "code": "F16H 21/46",
+          "title": {
+            "ko": null,
+            "en": "with movements in three dimensions [3D]"
+          }
+        },
+        {
+          "code": "F16H 21/48",
+          "title": {
+            "ko": null,
+            "en": "for conveying rotary motion"
+          }
+        },
+        {
+          "code": "F16H 21/50",
+          "title": {
+            "ko": null,
+            "en": "for interconverting rotary motion and reciprocating motion"
+          }
+        },
+        {
+          "code": "F16H 21/52",
+          "title": {
+            "ko": null,
+            "en": "for interconverting rotary motion and oscillating motion"
+          }
+        },
+        {
+          "code": "F16H 21/54",
+          "title": {
+            "ko": null,
+            "en": "for conveying or interconverting oscillating or reciprocating motions"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 23/00",
+      "title": {
+        "ko": "요동판 전동장치(wobble-plate gearing) 경사크랭크 전동장치(oblique-crank gearing)",
+        "en": "Wobble-plate gearings; Oblique-crank gearings"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 23/02",
+          "title": {
+            "ko": "요동부재의 위치의 변경에 의하여 행정을 조정하는 것 (흔들리는 판의 조정으로 변속비율이 변경되는 기어 F16H 29/04; 자이로스코프 동작이 있는 기어, 예. 동요판을 포함하는 것 F16H 33/10)",
+            "en": "with adjustment of throw by changing the position of the wobble-member  (gearings in which the transmission ratio is changed by adjustment of a wobble-plate F16H0029040000;gearings with gyroscopic action, e.g. comprising wobble-plates F16H0033100000)"
+          }
+        },
+        {
+          "code": "F16H 23/04",
+          "title": {
+            "ko": null,
+            "en": "with non-rotary wobble-members"
+          }
+        },
+        {
+          "code": "F16H 23/06",
+          "title": {
+            "ko": null,
+            "en": "with sliding members hinged to reciprocating members"
+          }
+        },
+        {
+          "code": "F16H 23/08",
+          "title": {
+            "ko": null,
+            "en": "connected to reciprocating members by connecting-rods"
+          }
+        },
+        {
+          "code": "F16H 23/10",
+          "title": {
+            "ko": null,
+            "en": "with rotary wobble-plates with plane surfaces"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 25/00",
+      "title": {
+        "ko": "주로 캠, 캠종동체 및 나사-너트에 의한 기구만으로 되어 있는 전동장치",
+        "en": "Gearings comprising primarily only cams, cam-followers and screw-and-nut mechanisms"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 25/02",
+          "title": {
+            "ko": null,
+            "en": "the movements of two or more independently-moving members being combined into a single movement"
+          }
+        },
+        {
+          "code": "F16H 25/04",
+          "title": {
+            "ko": null,
+            "en": "for conveying rotary motion"
+          }
+        },
+        {
+          "code": "F16H 25/06",
+          "title": {
+            "ko": null,
+            "en": "with intermediate members guided along tracks on both rotary members"
+          }
+        },
+        {
+          "code": "F16H 25/08",
+          "title": {
+            "ko": "회전운동과 왕복운동의 상호 변환용(F16H 23/00이 우선)",
+            "en": "for interconverting rotary motion and reciprocating motion (F16H0023000000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 25/10",
+          "title": {
+            "ko": null,
+            "en": "with adjustable throw"
+          }
+        },
+        {
+          "code": "F16H 25/12",
+          "title": {
+            "ko": null,
+            "en": "with reciprocation along the axis of rotation, e.g. gearings with helical grooves and automatic reversal"
+          }
+        },
+        {
+          "code": "F16H 25/14",
+          "title": {
+            "ko": "회전축에 수직으로 왕복운동하는 것(스윙 연결로드가없는 크랭크 또는 편심 기어링 F16H21/36)",
+            "en": "with reciprocation perpendicular to the axis of rotation  (crank or eccentric gearings without swinging connecting-rod F16H0021360000)"
+          }
+        },
+        {
+          "code": "F16H 25/16",
+          "title": {
+            "ko": null,
+            "en": "for interconverting rotary motion and oscillating motion"
+          }
+        },
+        {
+          "code": "F16H 25/18",
+          "title": {
+            "ko": "진동 또는 왕복운동을 전달하거나 상호변환을 하는 것",
+            "en": "for conveying or interconverting oscillating or reciprocating motions"
+          }
+        },
+        {
+          "code": "F16H 25/20",
+          "title": {
+            "ko": "나사기구(자동반전하는 것 F16H 25/12)",
+            "en": "Screw mechanisms (with automatic reversal F16H0025120000)"
+          }
+        },
+        {
+          "code": "F16H 25/22",
+          "title": {
+            "ko": null,
+            "en": "with balls, rollers, or similar members between the co-operating parts; Elements essential to the use of such members"
+          }
+        },
+        {
+          "code": "F16H 25/24",
+          "title": {
+            "ko": "이러한 기구에 본질적인 요소, 예. 나사, 너트(F16H 25/22이 우선)",
+            "en": "Elements essential to such mechanisms, e.g. screws, nuts (F16H0025220000 takes precedence)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 27/00",
+      "title": {
+        "ko": "프리휠 부재를 갖지 않는 순차기구(step-by-step mechanism), 예. 제네바 구동장치(Geneva drive)",
+        "en": "Gearings with intermittently-driving members"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 27/00",
+      "title": {
+        "ko": "프리휠 부재를 갖지 않는 순차기구(step-by-step mechanism), 예. 제네바 구동장치(Geneva drive)",
+        "en": "Step-by-step mechanisms without freewheel members, e.g. Geneva drives"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 27/02",
+          "title": {
+            "ko": null,
+            "en": "with at least one reciprocating or oscillating transmission member"
+          }
+        },
+        {
+          "code": "F16H 27/04",
+          "title": {
+            "ko": "연속회전을 순차 회전운동(step-by-step rotary movement)으로 변환하는 것",
+            "en": "for converting continuous rotation into a step-by-step rotary movement"
+          }
+        },
+        {
+          "code": "F16H 27/06",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms with driving pins in driven slots, e.g. Geneva drives"
+          }
+        },
+        {
+          "code": "F16H 27/08",
+          "title": {
+            "ko": null,
+            "en": "with driving toothed gears with interrupted toothing"
+          }
+        },
+        {
+          "code": "F16H 27/10",
+          "title": {
+            "ko": "이탈식의 전동부재에 의하여 얻어지며, 그룹 F16H 27/06 또는 F16H 27/08의 기구와 조합되거나 또는 조합되지 않는 것",
+            "en": "obtained by means of disengageable transmission members, combined or not combined with mechanisms according to group F16H0027060000 or F16H0027080000"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 29/00",
+      "title": {
+        "ko": "간헐구동부재를 갖는 회전운동 전달용 전동장치, 예. 프리휠 작용을 갖는 것",
+        "en": "Gearings for conveying rotary motion with intermittently-driving members, e.g. with freewheel action"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 29/02",
+          "title": {
+            "ko": "한쪽의 축과 진동 또는 왕복운동을 하는 중간부재 사이에 있으며 양쪽의 축과 함께 회전하지 않는 것(F16H 29/00, F16H 29/22이 우선)",
+            "en": "between one of the shafts and an oscillating or reciprocating intermediate member, not rotating with either of the shafts (F16H0029200000, F16H0029220000 take precedence)"
+          }
+        },
+        {
+          "code": "F16H 29/04",
+          "title": {
+            "ko": null,
+            "en": "in which the transmission ratio is changed by adjustment of a crank, an eccentric, a wobble-plate, or a cam, on one of the shafts"
+          }
+        },
+        {
+          "code": "F16H 29/06",
+          "title": {
+            "ko": null,
+            "en": "with concentric shafts, an annular intermediate member moving around and being supported on an adjustable crank or eccentric"
+          }
+        },
+        {
+          "code": "F16H 29/08",
+          "title": {
+            "ko": null,
+            "en": "in which the transmission ratio is changed by adjustment of the path of movement, the location of the pivot, or the effective length, of an oscillating connecting member"
+          }
+        },
+        {
+          "code": "F16H 29/10",
+          "title": {
+            "ko": null,
+            "en": "in which the transmission ratio is changed by directly acting on the intermittently driving members"
+          }
+        },
+        {
+          "code": "F16H 29/12",
+          "title": {
+            "ko": "회전하는 구동부재 및 피동부재의 사이에 있는 것(F16H 29/00, F16H 29/22이 우선)",
+            "en": "between rotary driving and driven members (F16H0029200000, F16H0029220000 take precedence)"
+          }
+        },
+        {
+          "code": "F16H 29/14",
+          "title": {
+            "ko": null,
+            "en": "in which the transmission ratio is changed by adjustment of an otherwise stationary guide member for the intermittently-driving members"
+          }
+        },
+        {
+          "code": "F16H 29/16",
+          "title": {
+            "ko": null,
+            "en": "in which the transmission ratio is changed by adjustment of the distance between the axes of the rotary members"
+          }
+        },
+        {
+          "code": "F16H 29/18",
+          "title": {
+            "ko": null,
+            "en": "in which the intermittently-driving members slide along approximately radial guides while rotating with one of the rotary members"
+          }
+        },
+        {
+          "code": "F16H 29/20",
+          "title": {
+            "ko": null,
+            "en": "the intermittently-acting members being shaped as worms, screws, or racks"
+          }
+        },
+        {
+          "code": "F16H 29/22",
+          "title": {
+            "ko": null,
+            "en": "with automatic speed change"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 31/00",
+      "title": {
+        "ko": "프리휠 부재 또는 다른 간헐구동부재를 갖는 그 밖의 전동장치(F16H 21/00, F16H 23/00, F16H 25/00이 우선)",
+        "en": "Other gearings with freewheeling members or other intermittently-driving members  (F16H0021000000, F16H0023000000, F16H0025000000 take precedence)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 33/00",
+      "title": {
+        "ko": null,
+        "en": "Gearings based on repeated accumulation and delivery of energy"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 33/02",
+          "title": {
+            "ko": null,
+            "en": "Rotary transmissions with mechanical accumulators, e.g. weights, springs, intermittently-connected flywheels"
+          }
+        },
+        {
+          "code": "F16H 33/04",
+          "title": {
+            "ko": null,
+            "en": "Gearings for conveying rotary motion with variable velocity ratio, in which self-regulation is sought"
+          }
+        },
+        {
+          "code": "F16H 33/06",
+          "title": {
+            "ko": null,
+            "en": "based essentially on spring action"
+          }
+        },
+        {
+          "code": "F16H 33/08",
+          "title": {
+            "ko": null,
+            "en": "based essentially on inertia"
+          }
+        },
+        {
+          "code": "F16H 33/10",
+          "title": {
+            "ko": null,
+            "en": "with gyroscopic action, e.g. comprising wobble-plates, oblique cranks"
+          }
+        },
+        {
+          "code": "F16H 33/12",
+          "title": {
+            "ko": null,
+            "en": "with a driving member connected differentially with both a driven member and an oscillatory member with large resistance to movement, e.g. Constantinesco gearing"
+          }
+        },
+        {
+          "code": "F16H 33/14",
+          "title": {
+            "ko": null,
+            "en": "having orbital members influenced by regulating masses"
+          }
+        },
+        {
+          "code": "F16H 33/16",
+          "title": {
+            "ko": null,
+            "en": "which have their own free motion, or consist of fluid"
+          }
+        },
+        {
+          "code": "F16H 33/18",
+          "title": {
+            "ko": null,
+            "en": "of which the motion is constrained"
+          }
+        },
+        {
+          "code": "F16H 33/20",
+          "title": {
+            "ko": null,
+            "en": "for interconversion, based essentially on inertia, of rotary motion and reciprocating or oscillating motion"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 35/00",
+      "title": {
+        "ko": "그 밖의 특수한 기능적 특징을 가진 전동장치 또는 기구",
+        "en": "Gearings or mechanisms with other special functional features"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 35/02",
+          "title": {
+            "ko": null,
+            "en": "for conveying rotary motion with cyclically-varying velocity ratio"
+          }
+        },
+        {
+          "code": "F16H 35/06",
+          "title": {
+            "ko": "지지부분사이의 상대적인 이동을 허용하여 나쁜 영향을 방지하도록 설계된 전동장치 (축의 오정렬에 대한 보정의 특별한 수단 F16H 1/26, F16H 1/48)",
+            "en": "Gearings designed to allow relative movement between supports thereof without ill effects  (special means compensating for misalignment of axes F16H0001260000,  F16H0001480000)"
+          }
+        },
+        {
+          "code": "F16H 35/08",
+          "title": {
+            "ko": null,
+            "en": "for adjustment of members on moving parts from a stationary place"
+          }
+        },
+        {
+          "code": "F16H 35/10",
+          "title": {
+            "ko": null,
+            "en": "Arrangements or devices for absorbing overload or preventing damage by overload"
+          }
+        },
+        {
+          "code": "F16H 35/12",
+          "title": {
+            "ko": null,
+            "en": "Transmitting mechanisms with delayed effect"
+          }
+        },
+        {
+          "code": "F16H 35/14",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms with only two stable positions, e.g. acting at definite angular positions"
+          }
+        },
+        {
+          "code": "F16H 35/16",
+          "title": {
+            "ko": null,
+            "en": "Mechanisms for movements or movement relations conforming to mathematical formulae"
+          }
+        },
+        {
+          "code": "F16H 35/18",
+          "title": {
+            "ko": null,
+            "en": "Turning devices for rotatable members, e.g. shafts"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 37/00",
+      "title": {
+        "ko": "그룹 F16H 1/00-F16H 35/00으로 분류되지 않는 기계적인 전동장치의 조합 (기계적인 전동장치와 유체 클러치 또는 규체 전동장치와의 조합 F16H 47/00)",
+        "en": "Combinations of mechanical gearings, not provided for in groups F16H0001000000-F16H0035000000 (combinations of mechanical gearing with fluid clutches or fluid gearing F16H0047000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 37/02",
+          "title": {
+            "ko": "본질적으로 치차전달장치 또는 마찰전동장치만으로 되어 있는 것",
+            "en": "comprising essentially only toothed or friction gearings"
+          }
+        },
+        {
+          "code": "F16H 37/04",
+          "title": {
+            "ko": "치차전동장치만으로 조합된 것(F16H 37/06이 우선)",
+            "en": "Combinations of toothed gearings only (F16H0037060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 37/06",
+          "title": {
+            "ko": null,
+            "en": "with a plurality of driving or driven shafts; with arrangements for dividing torque between two or more intermediate shafts"
+          }
+        },
+        {
+          "code": "F16H 37/08",
+          "title": {
+            "ko": null,
+            "en": "with differential gearing"
+          }
+        },
+        {
+          "code": "F16H 37/10",
+          "title": {
+            "ko": null,
+            "en": "at both ends of intermediate shafts"
+          }
+        },
+        {
+          "code": "F16H 37/12",
+          "title": {
+            "ko": "주로 치차 또는 마찰전동장치, 링크 또는 레버, 캠 또는 전기한 3가지 형식 중 적어도 2가지이상으로 구성되어 있는 전동장치(크랭크, 편심 또는 유사한 부재가 하나의 회전 부재에 고정되고 다른 회전 부재의 트랙을 따라 안내되는 기어링 F16H21/14; 캠 또는 추가 가이드가있는 크랭크 또는 편심 기어링 또는 구름 접촉이있는 부재 F16H21/28, F16H21/30)",
+            "en": "Gearings comprising primarily toothed or friction gearing, links or levers, and cams, or members of at least two of these three types   (gearings with cranks, eccentrics, or like members fixed to one rotary member and guided along tracks on the other F16H0021140000;crank or eccentric gearings with cams or additional guides, or with members having rolling contact F16H0021280000, F16H0021300000)"
+          }
+        },
+        {
+          "code": "F16H 37/14",
+          "title": {
+            "ko": null,
+            "en": "the movements of two or more independently-moving members being combined into a single movement"
+          }
+        },
+        {
+          "code": "F16H 37/16",
+          "title": {
+            "ko": null,
+            "en": "with a driving or driven member which both rotates or oscillates on its axis and reciprocates"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 39/00",
+      "title": {
+        "ko": "용적형의 펌프 및 모터를 사용한 회전유체 전동장치, 즉 회전마다 미리 결정된 용량의 유체를 통과시키는 것(유체전동장치의 제어 F16H 61/38)",
+        "en": "Fluid gearing"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 39/00",
+      "title": {
+        "ko": "용적형의 펌프 및 모터를 사용한 회전유체 전동장치, 즉 회전마다 미리 결정된 용량의 유체를 통과시키는 것(유체전동장치의 제어 F16H 61/38)",
+        "en": "Rotary fluid gearing using pumps and motors of the volumetric type, i.e. passing a predetermined volume of fluid per revolution (control of exclusively fluid gearing F16H0061380000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 39/01",
+          "title": {
+            "ko": null,
+            "en": "Pneumatic gearing; Gearing working with subatmospheric pressure"
+          }
+        },
+        {
+          "code": "F16H 39/02",
+          "title": {
+            "ko": null,
+            "en": "with liquid motors at a distance from liquid pumps"
+          }
+        },
+        {
+          "code": "F16H 39/04",
+          "title": {
+            "ko": null,
+            "en": "with liquid motor and pump combined in one unit"
+          }
+        },
+        {
+          "code": "F16H 39/06",
+          "title": {
+            "ko": null,
+            "en": "pump and motor being of the same type"
+          }
+        },
+        {
+          "code": "F16H 39/08",
+          "title": {
+            "ko": null,
+            "en": "each with one main shaft and provided with pistons reciprocating in cylinders"
+          }
+        },
+        {
+          "code": "F16H 39/10",
+          "title": {
+            "ko": null,
+            "en": "with cylinders arranged around, and parallel or approximately parallel to, the main axis of the gearing"
+          }
+        },
+        {
+          "code": "F16H 39/12",
+          "title": {
+            "ko": null,
+            "en": "with stationary cylinders"
+          }
+        },
+        {
+          "code": "F16H 39/14",
+          "title": {
+            "ko": null,
+            "en": "with cylinders carried in rotary cylinder blocks or cylinder-bearing members"
+          }
+        },
+        {
+          "code": "F16H 39/16",
+          "title": {
+            "ko": null,
+            "en": "with cylinders arranged perpendicular to the main axis of the gearing"
+          }
+        },
+        {
+          "code": "F16H 39/18",
+          "title": {
+            "ko": null,
+            "en": "the connections of the pistons being at the outer ends of the cylinders"
+          }
+        },
+        {
+          "code": "F16H 39/20",
+          "title": {
+            "ko": null,
+            "en": "the connections of the pistons being at the inner ends of the cylinders"
+          }
+        },
+        {
+          "code": "F16H 39/22",
+          "title": {
+            "ko": null,
+            "en": "with liquid chambers shaped as bodies of revolution concentric with the main axis of the gearing"
+          }
+        },
+        {
+          "code": "F16H 39/24",
+          "title": {
+            "ko": null,
+            "en": "with rotary displacement members, e.g. provided with axially or radially movable vanes passing movable sealing members"
+          }
+        },
+        {
+          "code": "F16H 39/26",
+          "title": {
+            "ko": null,
+            "en": "with liquid chambers not shaped as bodies of revolution or shaped as bodies of revolution eccentric to the main axis of the gearing"
+          }
+        },
+        {
+          "code": "F16H 39/28",
+          "title": {
+            "ko": null,
+            "en": "with liquid chambers formed in rotary members"
+          }
+        },
+        {
+          "code": "F16H 39/30",
+          "title": {
+            "ko": null,
+            "en": "with liquid chambers formed in stationary members"
+          }
+        },
+        {
+          "code": "F16H 39/32",
+          "title": {
+            "ko": null,
+            "en": "with sliding vanes carried by the rotor"
+          }
+        },
+        {
+          "code": "F16H 39/34",
+          "title": {
+            "ko": null,
+            "en": "in which a rotor on one shaft co-operates with a rotor on another shaft"
+          }
+        },
+        {
+          "code": "F16H 39/36",
+          "title": {
+            "ko": null,
+            "en": "toothed-gear type"
+          }
+        },
+        {
+          "code": "F16H 39/38",
+          "title": {
+            "ko": null,
+            "en": "Displacement screw-pump type"
+          }
+        },
+        {
+          "code": "F16H 39/40",
+          "title": {
+            "ko": null,
+            "en": "Hydraulic differential gearings, e.g. having a rotary input housing with interconnected liquid chambers for both outputs"
+          }
+        },
+        {
+          "code": "F16H 39/42",
+          "title": {
+            "ko": null,
+            "en": "pump and motor being of different types"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 41/00",
+      "title": {
+        "ko": "유체동력형의 회전유체 전동장치(유체전동장치만의 제어 F16D 61/38)",
+        "en": "Rotary fluid gearing of the hydrokinetic type (control of exclusively fluid gearing F16H0061380000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 41/02",
+          "title": {
+            "ko": null,
+            "en": "with pump and turbine connected by conduits or ducts"
+          }
+        },
+        {
+          "code": "F16H 41/04",
+          "title": {
+            "ko": null,
+            "en": "Combined pump-turbine units"
+          }
+        },
+        {
+          "code": "F16H 41/22",
+          "title": {
+            "ko": null,
+            "en": "Gearing systems consisting of a plurality of hydrokinetic units operating alternatively, e.g. made effective or ineffective by filling or emptying or by mechanical clutches"
+          }
+        },
+        {
+          "code": "F16H 41/24",
+          "title": {
+            "ko": null,
+            "en": "Details"
+          }
+        },
+        {
+          "code": "F16H 41/26",
+          "title": {
+            "ko": null,
+            "en": "Shape of runner blades or channels with respect to function"
+          }
+        },
+        {
+          "code": "F16H 41/28",
+          "title": {
+            "ko": null,
+            "en": "with respect to manufacture, e.g. blade attachment"
+          }
+        },
+        {
+          "code": "F16H 41/30",
+          "title": {
+            "ko": null,
+            "en": "relating to venting, lubrication, cooling, circulation of the cooling medium"
+          }
+        },
+        {
+          "code": "F16H 41/32",
+          "title": {
+            "ko": null,
+            "en": "Selection of working fluids"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 43/00",
+      "title": {
+        "ko": null,
+        "en": "Other fluid gearing, e.g. with oscillating input or output"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 43/02",
+          "title": {
+            "ko": null,
+            "en": "Fluid gearing actuated by pressure waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 45/00",
+      "title": {
+        "ko": "회전운동전달용 유체전동장치와 커플링 또는 클러치와의 조합(교대로 작동하는 복수의 유체 동력 장치로 구성된 기어링 시스템 F16H41/22)",
+        "en": "Combinations of fluid gearings for conveying rotary motion with couplings or clutches  (gearing systems consisting of a plurality of hydrokinetic units operating alternatively F16H0041220000)"
+      },
+      "definition": {
+        "ko": "유체토크 변환기(TORQUE CONVERTER)의 작동상태를 변경하는 목적을 가진 클러치는 뒤의 부분에 관계한다",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F16H 45/02",
+          "title": {
+            "ko": "유체동력형 유체전동장치를 연락하는 기계적 클러치를 갖는 것(토크컨버터 록업클러치의 제어 F16H 61/14)",
+            "en": "with mechanical clutches for bridging a fluid gearing of the hydrokinetic type (control of torque converter lock-up clutches F16H0061140000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 47/00",
+      "title": {
+        "ko": "기계적 전동장치와 유체 클러치 또는 유체 전동 장치와의 조합",
+        "en": "Combinations of mechanical gearing with fluid clutches or fluid gearing"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 47/02",
+          "title": {
+            "ko": null,
+            "en": "the fluid gearing being of the volumetric type"
+          }
+        },
+        {
+          "code": "F16H 47/04",
+          "title": {
+            "ko": null,
+            "en": "the mechanical gearing being of the type with members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 47/06",
+          "title": {
+            "ko": "유체전동장치가 유체동력학(hydrokinetic)형인 것",
+            "en": "the fluid gearing being of the hydrokinetic type"
+          }
+        },
+        {
+          "code": "F16H 47/07",
+          "title": {
+            "ko": "2개이상의 동력 전달 유체 회로를 사용하는 것(F16H 47/10이 우선)",
+            "en": "using two or more power-transmitting fluid circuits (F16H0047100000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 47/08",
+          "title": {
+            "ko": null,
+            "en": "the mechanical gearing being of the type with members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 47/10",
+          "title": {
+            "ko": null,
+            "en": "using two or more power-transmitting fluid circuits"
+          }
+        },
+        {
+          "code": "F16H 47/12",
+          "title": {
+            "ko": null,
+            "en": "the members with orbital motion having vanes interacting with the fluid"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 48/00",
+      "title": {
+        "ko": "차동 전동장치(차동 전동장치의 냉각 또는 윤활 F16H 57/04)",
+        "en": "Differential gearings (cooling or lubricating of differential gearing F16H0057040000)"
+      },
+      "definition": {
+        "ko": "이 그룹에 분류할 때 다른 상반된 지시가 없는 한, 분류는 모든 적절한 개소에 한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "F16H 48/05",
+          "title": {
+            "ko": null,
+            "en": "Multiple interconnected differential sets"
+          }
+        },
+        {
+          "code": "F16H 48/06",
+          "title": {
+            "ko": null,
+            "en": "with gears having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 48/08",
+          "title": {
+            "ko": null,
+            "en": "with orbital conical gears"
+          }
+        },
+        {
+          "code": "F16H 48/10",
+          "title": {
+            "ko": null,
+            "en": "with orbital spur gears"
+          }
+        },
+        {
+          "code": "F16H 48/11",
+          "title": {
+            "ko": null,
+            "en": "having intermeshing planet gears"
+          }
+        },
+        {
+          "code": "F16H 48/12",
+          "title": {
+            "ko": null,
+            "en": "without gears having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 48/14",
+          "title": {
+            "ko": null,
+            "en": "with cams"
+          }
+        },
+        {
+          "code": "F16H 48/16",
+          "title": {
+            "ko": null,
+            "en": "with freewheels"
+          }
+        },
+        {
+          "code": "F16H 48/18",
+          "title": {
+            "ko": null,
+            "en": "with fluid gearing"
+          }
+        },
+        {
+          "code": "F16H 48/19",
+          "title": {
+            "ko": null,
+            "en": "consisting of two linked clutches"
+          }
+        },
+        {
+          "code": "F16H 48/20",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for suppressing or influencing the differential action, e.g. locking devices"
+          }
+        },
+        {
+          "code": "F16H 48/22",
+          "title": {
+            "ko": null,
+            "en": "using friction clutches or brakes"
+          }
+        },
+        {
+          "code": "F16H 48/24",
+          "title": {
+            "ko": null,
+            "en": "using positive clutches or brakes"
+          }
+        },
+        {
+          "code": "F16H 48/26",
+          "title": {
+            "ko": null,
+            "en": "using fluid action, e.g. viscous clutches"
+          }
+        },
+        {
+          "code": "F16H 48/27",
+          "title": {
+            "ko": null,
+            "en": "using internally-actuatable fluid pressure, e.g. internal pump types"
+          }
+        },
+        {
+          "code": "F16H 48/28",
+          "title": {
+            "ko": null,
+            "en": "using self-locking gears or self-braking gears"
+          }
+        },
+        {
+          "code": "F16H 48/285",
+          "title": {
+            "ko": null,
+            "en": "with self-braking intermeshing gears having parallel axes and having worms or helical teeth"
+          }
+        },
+        {
+          "code": "F16H 48/29",
+          "title": {
+            "ko": null,
+            "en": "with self-braking intermeshing gears having perpendicular arranged axes and having worms or helical teeth"
+          }
+        },
+        {
+          "code": "F16H 48/295",
+          "title": {
+            "ko": null,
+            "en": "using multiple means for force boosting"
+          }
+        },
+        {
+          "code": "F16H 48/30",
+          "title": {
+            "ko": null,
+            "en": "using externally-actuatable means"
+          }
+        },
+        {
+          "code": "F16H 48/32",
+          "title": {
+            "ko": null,
+            "en": "using fluid pressure actuators"
+          }
+        },
+        {
+          "code": "F16H 48/34",
+          "title": {
+            "ko": null,
+            "en": "using electromagnetic or electric actuators"
+          }
+        },
+        {
+          "code": "F16H 48/36",
+          "title": {
+            "ko": null,
+            "en": "characterised by intentionally generating speed difference between outputs"
+          }
+        },
+        {
+          "code": "F16H 48/38",
+          "title": {
+            "ko": "구조 세부 (차동장치를 구성하는 외부 케이스와 입력 및 출력 샤프트 지지 F16H 57/037)",
+            "en": "Constructional details (the outer casing comprising the differential and supporting input and output shafts F16H0057037000)"
+          }
+        },
+        {
+          "code": "F16H 48/40",
+          "title": {
+            "ko": null,
+            "en": "characterised by features of the rotating cases"
+          }
+        },
+        {
+          "code": "F16H 48/42",
+          "title": {
+            "ko": null,
+            "en": "characterised by features of the input shafts, e.g. mounting of drive gears thereon"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 49/00",
+      "title": {
+        "ko": null,
+        "en": "Other gearing"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 51/00",
+      "title": {
+        "ko": null,
+        "en": "Details of gearing or mechanisms"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 51/00",
+      "title": {
+        "ko": null,
+        "en": "Levers of gearing mechanisms"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 51/02",
+          "title": {
+            "ko": null,
+            "en": "adjustable"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 53/00",
+      "title": {
+        "ko": "캠 또는 캠-종동체, 예. 전동장치 기구용 롤러",
+        "en": "Cams or cam-followers, e.g. rollers for gearing mechanisms"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 53/02",
+          "title": {
+            "ko": null,
+            "en": "Single-track cams for single-revolution cycles; Camshafts with such cams"
+          }
+        },
+        {
+          "code": "F16H 53/04",
+          "title": {
+            "ko": null,
+            "en": "Adjustable cams"
+          }
+        },
+        {
+          "code": "F16H 53/06",
+          "title": {
+            "ko": "캠-종동체(F16H 53/08이 우선)",
+            "en": "Cam-followers (F16H0053080000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 53/08",
+          "title": {
+            "ko": null,
+            "en": "Multi-track cams, e.g. for cycles consisting of several revolutions; Cam-followers specially adapted for such cams"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 55/00",
+      "title": {
+        "ko": "운동전달용의 이 또는 마찰면을 갖는 요소; 전동장치 기구를 위한 웜, 풀리(pully) 또는 도르래(sheave) (나사-너트 전동장치의 것 F16H 25/00)",
+        "en": "Elements with teeth or friction surfaces for conveying motion; Worms, pulleys or sheaves for gearing mechanisms (of screw-and-nut gearing F16H0025000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 55/02",
+          "title": {
+            "ko": "치를 가진 것; 웜",
+            "en": "Toothed members; Worms"
+          }
+        },
+        {
+          "code": "F16H 55/06",
+          "title": {
+            "ko": null,
+            "en": "Use of materials; Use of treatments of toothed members or worms to affect their intrinsic material properties"
+          }
+        },
+        {
+          "code": "F16H 55/08",
+          "title": {
+            "ko": null,
+            "en": "Profiling"
+          }
+        },
+        {
+          "code": "F16H 55/10",
+          "title": {
+            "ko": null,
+            "en": "Constructively simple tooth shapes, e.g. shaped as pins, as balls"
+          }
+        },
+        {
+          "code": "F16H 55/12",
+          "title": {
+            "ko": null,
+            "en": "with body or rim assembled out of detachable parts"
+          }
+        },
+        {
+          "code": "F16H 55/14",
+          "title": {
+            "ko": "탄성 또는 진동감쇠를 제공하는 구조(F16H 55/06이 우선)",
+            "en": "Construction providing resilience or vibration-damping (F16H0055060000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 55/16",
+          "title": {
+            "ko": null,
+            "en": "relating to teeth only"
+          }
+        },
+        {
+          "code": "F16H 55/17",
+          "title": {
+            "ko": "전동장치륜(웜휠 F16H 55/22; 체인휠 F16H 55/30)",
+            "en": "Toothed wheels (worm wheels F16H0055220000;chain wheels F16H0055300000)"
+          }
+        },
+        {
+          "code": "F16H 55/18",
+          "title": {
+            "ko": null,
+            "en": "Special devices for taking-up backlash"
+          }
+        },
+        {
+          "code": "F16H 55/20",
+          "title": {
+            "ko": null,
+            "en": "for bevel gears"
+          }
+        },
+        {
+          "code": "F16H 55/22",
+          "title": {
+            "ko": "교차된 축을 갖는 전달장치용, 특히 웜베어링",
+            "en": "for transmissions with crossing shafts, especially worms, worm-gears"
+          }
+        },
+        {
+          "code": "F16H 55/24",
+          "title": {
+            "ko": null,
+            "en": "Special devices for taking up backlash"
+          }
+        },
+        {
+          "code": "F16H 55/26",
+          "title": {
+            "ko": null,
+            "en": "Racks"
+          }
+        },
+        {
+          "code": "F16H 55/28",
+          "title": {
+            "ko": null,
+            "en": "Special devices for taking up backlash"
+          }
+        },
+        {
+          "code": "F16H 55/30",
+          "title": {
+            "ko": null,
+            "en": "Chain wheels"
+          }
+        },
+        {
+          "code": "F16H 55/32",
+          "title": {
+            "ko": "마찰부재",
+            "en": "Friction members"
+          }
+        },
+        {
+          "code": "F16H 55/34",
+          "title": {
+            "ko": null,
+            "en": "Non-adjustable friction discs"
+          }
+        },
+        {
+          "code": "F16H 55/36",
+          "title": {
+            "ko": "풀리(조절장치에 본질적인 특징을 가지고 있는 것 F16H 55/52)",
+            "en": "Pulleys (with features essential for adjustment F16H0055520000)"
+          }
+        },
+        {
+          "code": "F16H 55/38",
+          "title": {
+            "ko": null,
+            "en": "Means or measures for increasing adhesion"
+          }
+        },
+        {
+          "code": "F16H 55/40",
+          "title": {
+            "ko": "스포크(spoke)를 갖는 것(F16H 55/48이 우선)",
+            "en": "with spokes (F16H0055480000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 55/42",
+          "title": {
+            "ko": null,
+            "en": "Laminated pulleys"
+          }
+        },
+        {
+          "code": "F16H 55/44",
+          "title": {
+            "ko": null,
+            "en": "Sheet-metal pulleys"
+          }
+        },
+        {
+          "code": "F16H 55/46",
+          "title": {
+            "ko": null,
+            "en": "Split pulleys"
+          }
+        },
+        {
+          "code": "F16H 55/48",
+          "title": {
+            "ko": "전체 또는 일부분이 목제 또는 비금속재료제인 것(F16H 55/38, F16H 55/42, F16H 55/46이 우선)",
+            "en": "manufactured exclusively or in part of non-metallic material, e.g. plastics (F16H0055380000, F16H0055420000, F16H0055460000 take precedence)"
+          }
+        },
+        {
+          "code": "F16H 55/49",
+          "title": {
+            "ko": null,
+            "en": "Features essential to V-belt pulleys"
+          }
+        },
+        {
+          "code": "F16H 55/50",
+          "title": {
+            "ko": null,
+            "en": "Features essential to rope pulleys"
+          }
+        },
+        {
+          "code": "F16H 55/52",
+          "title": {
+            "ko": null,
+            "en": "Pulleys or friction discs of adjustable construction"
+          }
+        },
+        {
+          "code": "F16H 55/54",
+          "title": {
+            "ko": null,
+            "en": "of which the bearing parts are radially adjustable"
+          }
+        },
+        {
+          "code": "F16H 55/56",
+          "title": {
+            "ko": null,
+            "en": "of which the bearing parts are relatively axially adjustable"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 57/00",
+      "title": {
+        "ko": "전동장치의 일반적 세부(나사-너트 전동장치 F16H 25/00; 유체 전동장치 F16H 39/00 - F16H 43/00)",
+        "en": "General details of gearing (of screw-and-nut gearing F16H0025000000; of fluid gearing F16H0039000000-F16H0043000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 57/01",
+          "title": {
+            "ko": null,
+            "en": "Monitoring wear or stress of gearing elements, e.g. for triggering maintenance"
+          }
+        },
+        {
+          "code": "F16H 57/02",
+          "title": {
+            "ko": "기어박스; 그속에 전동장치를 장착하는 것",
+            "en": "Gearboxes; Mounting gearing therein"
+          },
+          "definition": {
+            "ko": "이 그룹에 분류할 때, 다른 상반된 지시가 없는 한, 모든 적절한 서브그룹에서 분류가 이루어진다.",
+            "en": null
+          }
+        },
+        {
+          "code": "F16H 57/021",
+          "title": {
+            "ko": "축 지지 구조, 예, 차단벽, 베어링 아이, 베어링을 갖는 케이싱 벽 또는 커버",
+            "en": "Shaft support structures, e.g. partition walls, bearing eyes, casing walls or covers with bearings"
+          }
+        },
+        {
+          "code": "F16H 57/022",
+          "title": {
+            "ko": "기어 샤프트 또는 베어링의 조절(유성운동이 없는 치합된 기어 축의 오정렬을 보상하기 위한 것 F16H 1/26; 유성 기어 축의 오정렬을 보상하기 위한 것 F16H 1/48)",
+            "en": "Adjustment of gear shafts or bearings (for compensating misalignment of axes of toothed gearings without orbital motion F16H0001260000;for compensating misalignment of axes of planetary gears F16H0001480000)"
+          }
+        },
+        {
+          "code": "F16H 57/023",
+          "title": {
+            "ko": null,
+            "en": "Mounting or installation of gears or shafts in gearboxes, e.g. methods or means for assembly"
+          }
+        },
+        {
+          "code": "F16H 57/025",
+          "title": {
+            "ko": null,
+            "en": "Support of gearboxes, e.g. torque arms, or attachment to other devices"
+          }
+        },
+        {
+          "code": "F16H 57/027",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for venting gearboxes, e.g. air breathers"
+          }
+        },
+        {
+          "code": "F16H 57/028",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for reducing vibration or noise"
+          }
+        },
+        {
+          "code": "F16H 57/029",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for sealing gearboxes, e.g. to improve airtightness"
+          }
+        },
+        {
+          "code": "F16H 57/03",
+          "title": {
+            "ko": null,
+            "en": "characterised by means for reinforcing gearboxes, e.g. ribs"
+          }
+        },
+        {
+          "code": "F16H 57/031",
+          "title": {
+            "ko": null,
+            "en": "characterised by covers or lids for gearboxes"
+          }
+        },
+        {
+          "code": "F16H 57/032",
+          "title": {
+            "ko": null,
+            "en": "characterised by the materials used"
+          }
+        },
+        {
+          "code": "F16H 57/033",
+          "title": {
+            "ko": null,
+            "en": "Series gearboxes, e.g. gearboxes based on the same design being available in different sizes or gearboxes using a combination of several standardised units"
+          }
+        },
+        {
+          "code": "F16H 57/035",
+          "title": {
+            "ko": null,
+            "en": "Gearboxes for gearing with endless flexible members"
+          }
+        },
+        {
+          "code": "F16H 57/037",
+          "title": {
+            "ko": "차동기어를 수용하기 위한 기어박스(차동기어를 위한 회전 케이스 F16H 48/40)",
+            "en": "Gearboxes for accommodating differential gearing (rotating cases for differential gearings F16H0048400000)"
+          }
+        },
+        {
+          "code": "F16H 57/038",
+          "title": {
+            "ko": "베벨기어를 수용하기 위한 기어박스(F16H 57/037이 우선)",
+            "en": "Gearboxes for accommodating bevel gears (F16H0057037000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 57/039",
+          "title": {
+            "ko": null,
+            "en": "Gearboxes for accommodating worm gears"
+          }
+        },
+        {
+          "code": "F16H 57/04",
+          "title": {
+            "ko": null,
+            "en": "Features relating to lubrication or cooling (control of lubrication or cooling in hydrostatic gearing F16H0061416500)"
+          }
+        },
+        {
+          "code": "F16H 57/05",
+          "title": {
+            "ko": null,
+            "en": "of chains"
+          }
+        },
+        {
+          "code": "F16H 57/08",
+          "title": {
+            "ko": null,
+            "en": "of gearings with members having orbital motion"
+          }
+        },
+        {
+          "code": "F16H 57/10",
+          "title": {
+            "ko": null,
+            "en": "Braking arrangements"
+          }
+        },
+        {
+          "code": "F16H 57/12",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for adjusting or for taking-up backlash not provided for elsewhere"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 59/00",
+      "title": {
+        "ko": "회전운동 전달용 변속 혹은 역전전동장치를 위한 제어입력",
+        "en": "Control of gearing conveying rotary motion"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16H 59/00",
+      "title": {
+        "ko": "회전운동 전달용 변속 혹은 역전전동장치를 위한 제어입력",
+        "en": "Control inputs to change-speed- or reversing-gearings for conveying rotary motion"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 59/02",
+          "title": {
+            "ko": null,
+            "en": "Selector apparatus"
+          }
+        },
+        {
+          "code": "F16H 59/04",
+          "title": {
+            "ko": null,
+            "en": "Ratio selector apparatus"
+          }
+        },
+        {
+          "code": "F16H 59/06",
+          "title": {
+            "ko": null,
+            "en": "the ratio being infinitely variable"
+          }
+        },
+        {
+          "code": "F16H 59/08",
+          "title": {
+            "ko": null,
+            "en": "Range selector apparatus"
+          }
+        },
+        {
+          "code": "F16H 59/10",
+          "title": {
+            "ko": null,
+            "en": "comprising levers"
+          }
+        },
+        {
+          "code": "F16H 59/12",
+          "title": {
+            "ko": null,
+            "en": "comprising push button devices"
+          }
+        },
+        {
+          "code": "F16H 59/14",
+          "title": {
+            "ko": null,
+            "en": "Inputs being a function of torque or torque demand"
+          }
+        },
+        {
+          "code": "F16H 59/16",
+          "title": {
+            "ko": null,
+            "en": "Dynamometric measurement of torque"
+          }
+        },
+        {
+          "code": "F16H 59/18",
+          "title": {
+            "ko": null,
+            "en": "dependent on the position of the accelerator pedal"
+          }
+        },
+        {
+          "code": "F16H 59/20",
+          "title": {
+            "ko": null,
+            "en": "Kickdown"
+          }
+        },
+        {
+          "code": "F16H 59/22",
+          "title": {
+            "ko": null,
+            "en": "Idle position"
+          }
+        },
+        {
+          "code": "F16H 59/24",
+          "title": {
+            "ko": null,
+            "en": "dependent on the throttle opening"
+          }
+        },
+        {
+          "code": "F16H 59/26",
+          "title": {
+            "ko": null,
+            "en": "dependent on pressure"
+          }
+        },
+        {
+          "code": "F16H 59/28",
+          "title": {
+            "ko": null,
+            "en": "Gasifier pressure in gas turbines"
+          }
+        },
+        {
+          "code": "F16H 59/30",
+          "title": {
+            "ko": null,
+            "en": "Intake manifold vacuum"
+          }
+        },
+        {
+          "code": "F16H 59/32",
+          "title": {
+            "ko": null,
+            "en": "Supercharger pressure in internal combustion engines"
+          }
+        },
+        {
+          "code": "F16H 59/34",
+          "title": {
+            "ko": null,
+            "en": "dependent on fuel feed"
+          }
+        },
+        {
+          "code": "F16H 59/36",
+          "title": {
+            "ko": "입력이 속도의 함수인 것",
+            "en": "Inputs being a function of speed"
+          }
+        },
+        {
+          "code": "F16H 59/38",
+          "title": {
+            "ko": null,
+            "en": "of gearing elements"
+          }
+        },
+        {
+          "code": "F16H 59/40",
+          "title": {
+            "ko": null,
+            "en": "Output shaft speed"
+          }
+        },
+        {
+          "code": "F16H 59/42",
+          "title": {
+            "ko": null,
+            "en": "Input shaft speed"
+          }
+        },
+        {
+          "code": "F16H 59/44",
+          "title": {
+            "ko": "기계의 속도에 의한 것(F16H 59/46이 우선)",
+            "en": "dependent on machine speed (F16H0059460000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 59/46",
+          "title": {
+            "ko": null,
+            "en": "dependent on a comparison between speeds"
+          }
+        },
+        {
+          "code": "F16H 59/48",
+          "title": {
+            "ko": null,
+            "en": "Inputs being a function of acceleration"
+          }
+        },
+        {
+          "code": "F16H 59/50",
+          "title": {
+            "ko": null,
+            "en": "Inputs being a function of the status of the machine, e.g. position of doors or safety belts"
+          }
+        },
+        {
+          "code": "F16H 59/52",
+          "title": {
+            "ko": null,
+            "en": "dependent on the weight of the machine, e.g. change in weight resulting from passengers boarding a bus"
+          }
+        },
+        {
+          "code": "F16H 59/54",
+          "title": {
+            "ko": null,
+            "en": "dependent on signals from the brakes, e.g. parking brakes"
+          }
+        },
+        {
+          "code": "F16H 59/56",
+          "title": {
+            "ko": null,
+            "en": "dependent on signals from the main clutch"
+          }
+        },
+        {
+          "code": "F16H 59/58",
+          "title": {
+            "ko": null,
+            "en": "dependent on signals from the steering"
+          }
+        },
+        {
+          "code": "F16H 59/60",
+          "title": {
+            "ko": null,
+            "en": "Inputs being a function of ambient conditions"
+          }
+        },
+        {
+          "code": "F16H 59/62",
+          "title": {
+            "ko": null,
+            "en": "Atmospheric pressure"
+          }
+        },
+        {
+          "code": "F16H 59/64",
+          "title": {
+            "ko": null,
+            "en": "Atmospheric temperature"
+          }
+        },
+        {
+          "code": "F16H 59/66",
+          "title": {
+            "ko": null,
+            "en": "Road conditions, e.g. slope, slippery"
+          }
+        },
+        {
+          "code": "F16H 59/68",
+          "title": {
+            "ko": null,
+            "en": "Inputs being a function of gearing status"
+          }
+        },
+        {
+          "code": "F16H 59/70",
+          "title": {
+            "ko": null,
+            "en": "dependent on the ratio established"
+          }
+        },
+        {
+          "code": "F16H 59/72",
+          "title": {
+            "ko": null,
+            "en": "dependent on oil characteristics, e.g. temperature, viscosity"
+          }
+        },
+        {
+          "code": "F16H 59/74",
+          "title": {
+            "ko": "입력이 원동기의 파라미터(parameter)함수인 것(F16H 59/14가 우선)",
+            "en": "Inputs being a function of engine parameters (F16H0059140000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 59/76",
+          "title": {
+            "ko": null,
+            "en": "Number of cylinders operating"
+          }
+        },
+        {
+          "code": "F16H 59/78",
+          "title": {
+            "ko": null,
+            "en": "Temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 61/00",
+      "title": {
+        "ko": "회전운동 전달용 변속 또는 역전전동장치의 제어기능",
+        "en": "Control functions within change-speed- or reversing-gearings for conveying rotary motion"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 61/02",
+          "title": {
+            "ko": null,
+            "en": "characterised by the signals used"
+          }
+        },
+        {
+          "code": "F16H 61/04",
+          "title": {
+            "ko": null,
+            "en": "Smoothing ratio shift"
+          }
+        },
+        {
+          "code": "F16H 61/06",
+          "title": {
+            "ko": null,
+            "en": "by controlling rate of change of fluid pressure"
+          }
+        },
+        {
+          "code": "F16H 61/08",
+          "title": {
+            "ko": null,
+            "en": "Timing control"
+          }
+        },
+        {
+          "code": "F16H 61/10",
+          "title": {
+            "ko": null,
+            "en": "Controlling shift hysteresis"
+          }
+        },
+        {
+          "code": "F16H 61/12",
+          "title": {
+            "ko": null,
+            "en": "Detecting malfunction or potential malfunction, e.g. fail safe (in control of hydrostatic gearing F16H0061419200)"
+          }
+        },
+        {
+          "code": "F16H 61/14",
+          "title": {
+            "ko": null,
+            "en": "Control of torque converter lock-up clutches"
+          }
+        },
+        {
+          "code": "F16H 61/16",
+          "title": {
+            "ko": "좋지않은 상태에서의 전환장애(F16H 61/18이 우선)",
+            "en": "Inhibiting shift during unfavourable conditions (F16H0061180000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 61/18",
+          "title": {
+            "ko": null,
+            "en": "Preventing unintentional or unsafe shift"
+          }
+        },
+        {
+          "code": "F16H 61/20",
+          "title": {
+            "ko": null,
+            "en": "Preventing gear creeping"
+          }
+        },
+        {
+          "code": "F16H 61/21",
+          "title": {
+            "ko": null,
+            "en": "Providing engine brake control"
+          }
+        },
+        {
+          "code": "F16H 61/22",
+          "title": {
+            "ko": "록킹(잠금 또는 비활성화 메커니즘의 구조적 특징 F16H63/34)",
+            "en": "Locking   (constructional features of locking or disabling mechanisms F16H0063340000)"
+          }
+        },
+        {
+          "code": "F16H 61/24",
+          "title": {
+            "ko": null,
+            "en": "Providing feel, e.g. to enable selection"
+          }
+        },
+        {
+          "code": "F16H 61/26",
+          "title": {
+            "ko": "최종 작동기구용 운동의 발생 또는 전달",
+            "en": "Generation or transmission of movements for final actuating mechanisms"
+          },
+          "definition": {
+            "ko": "(1) 선택장치만을 포함하는 운동 발생 또는 전달은 그룹 F16H 59/00에 분류된다. (2) 운동의 발생 또는 전달은 최종출력기구의 일부분인 경우에는 그룹 F16H 63/00에서 분류된다.",
+            "en": null
+          }
+        },
+        {
+          "code": "F16H 61/28",
+          "title": {
+            "ko": null,
+            "en": "with at least one movement of the final actuating mechanism being caused by a non-mechanical force, e.g. power-assisted"
+          }
+        },
+        {
+          "code": "F16H 61/30",
+          "title": {
+            "ko": null,
+            "en": "Hydraulic motors therefor"
+          }
+        },
+        {
+          "code": "F16H 61/32",
+          "title": {
+            "ko": null,
+            "en": "Electric motors therefor"
+          }
+        },
+        {
+          "code": "F16H 61/34",
+          "title": {
+            "ko": "하나는 예비운동용이고 하나는 이동운동용인 2개의 기구를 포함하는 것(61/36이 우선)",
+            "en": "comprising two mechanisms, one for the preselection movement, and one for the shifting movement (F16H0061360000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16H 61/36",
+          "title": {
+            "ko": null,
+            "en": "with at least one movement being transmitted by a cable"
+          }
+        },
+        {
+          "code": "F16H 61/38",
+          "title": {
+            "ko": "유체전동장치만의 제어",
+            "en": "Control of exclusively fluid gearing"
+          }
+        },
+        {
+          "code": "F16H 61/40",
+          "title": {
+            "ko": null,
+            "en": "hydrostatic"
+          }
+        },
+        {
+          "code": "F16H 61/4008",
+          "title": {
+            "ko": null,
+            "en": "Control of circuit pressure"
+          }
+        },
+        {
+          "code": "F16H 61/4017",
+          "title": {
+            "ko": null,
+            "en": "Control of high pressure, e.g. avoiding excess pressure by a relief valve"
+          }
+        },
+        {
+          "code": "F16H 61/4026",
+          "title": {
+            "ko": null,
+            "en": "Control of low pressure"
+          }
+        },
+        {
+          "code": "F16H 61/4035",
+          "title": {
+            "ko": null,
+            "en": "Control of circuit flow"
+          }
+        },
+        {
+          "code": "F16H 61/4043",
+          "title": {
+            "ko": null,
+            "en": "Control of a bypass valve"
+          }
+        },
+        {
+          "code": "F16H 61/4052",
+          "title": {
+            "ko": null,
+            "en": "by using a variable restriction, e.g. an orifice valve"
+          }
+        },
+        {
+          "code": "F16H 61/4061",
+          "title": {
+            "ko": null,
+            "en": "Control related to directional control valves, e.g. change-over valves, for crossing the feeding conduits"
+          }
+        },
+        {
+          "code": "F16H 61/4069",
+          "title": {
+            "ko": null,
+            "en": "Valves related to the control of neutral, e.g. shut off valves"
+          }
+        },
+        {
+          "code": "F16H 61/4078",
+          "title": {
+            "ko": null,
+            "en": "Fluid exchange between hydrostatic circuits and external sources or consumers"
+          }
+        },
+        {
+          "code": "F16H 61/4096",
+          "title": {
+            "ko": null,
+            "en": "with pressure accumulators"
+          }
+        },
+        {
+          "code": "F16H 61/4104",
+          "title": {
+            "ko": null,
+            "en": "Flushing, e.g. by using flushing valves or by connection to exhaust"
+          }
+        },
+        {
+          "code": "F16H 61/4131",
+          "title": {
+            "ko": null,
+            "en": "Fluid exchange by aspiration from reservoirs, e.g. sump"
+          }
+        },
+        {
+          "code": "F16H 61/4139",
+          "title": {
+            "ko": null,
+            "en": "Replenishing or scavenging pumps, e.g. auxiliary charge pumps"
+          }
+        },
+        {
+          "code": "F16H 61/4148",
+          "title": {
+            "ko": null,
+            "en": "Open loop circuits"
+          }
+        },
+        {
+          "code": "F16H 61/4157",
+          "title": {
+            "ko": null,
+            "en": "Control of braking, e.g. preventing pump over-speeding when motor acts as a pump"
+          }
+        },
+        {
+          "code": "F16H 61/4165",
+          "title": {
+            "ko": null,
+            "en": "Control of cooling or lubricating"
+          }
+        },
+        {
+          "code": "F16H 61/4174",
+          "title": {
+            "ko": null,
+            "en": "Control of venting, e.g. removing trapped air"
+          }
+        },
+        {
+          "code": "F16H 61/4183",
+          "title": {
+            "ko": null,
+            "en": "Preventing or reducing vibrations or noise, e.g. avoiding cavitations"
+          }
+        },
+        {
+          "code": "F16H 61/4192",
+          "title": {
+            "ko": null,
+            "en": "Detecting malfunction or potential malfunction, e.g. fail safe"
+          }
+        },
+        {
+          "code": "F16H 61/42",
+          "title": {
+            "ko": null,
+            "en": "involving adjustment of a pump or motor with adjustable output or capacity"
+          }
+        },
+        {
+          "code": "F16H 61/421",
+          "title": {
+            "ko": null,
+            "en": "Motor capacity control by electro-hydraulic control means, e.g. using solenoid valves"
+          }
+        },
+        {
+          "code": "F16H 61/423",
+          "title": {
+            "ko": null,
+            "en": "Motor capacity control by fluid pressure control means"
+          }
+        },
+        {
+          "code": "F16H 61/425",
+          "title": {
+            "ko": null,
+            "en": "Motor capacity control by electric actuators"
+          }
+        },
+        {
+          "code": "F16H 61/427",
+          "title": {
+            "ko": null,
+            "en": "Motor capacity control by mechanical control means, e.g. by levers or pedals"
+          }
+        },
+        {
+          "code": "F16H 61/431",
+          "title": {
+            "ko": null,
+            "en": "Pump capacity control by electro-hydraulic control means, e.g. using solenoid valve"
+          }
+        },
+        {
+          "code": "F16H 61/433",
+          "title": {
+            "ko": null,
+            "en": "Pump capacity control by fluid pressure control means"
+          }
+        },
+        {
+          "code": "F16H 61/435",
+          "title": {
+            "ko": null,
+            "en": "Pump capacity control by electric actuators"
+          }
+        },
+        {
+          "code": "F16H 61/437",
+          "title": {
+            "ko": null,
+            "en": "Pump capacity control by mechanical control means, e.g. by levers or pedals"
+          }
+        },
+        {
+          "code": "F16H 61/438",
+          "title": {
+            "ko": null,
+            "en": "Control of forward-reverse switching, e.g. control of the swash plate causing discharge in two directions"
+          }
+        },
+        {
+          "code": "F16H 61/439",
+          "title": {
+            "ko": null,
+            "en": "Control of the neutral position, e.g. by zero tilt rotation holding means"
+          }
+        },
+        {
+          "code": "F16H 61/44",
+          "title": {
+            "ko": null,
+            "en": "with more than one pump or motor unit in operation"
+          }
+        },
+        {
+          "code": "F16H 61/444",
+          "title": {
+            "ko": null,
+            "en": "by changing the number of pump or motor units in operation"
+          }
+        },
+        {
+          "code": "F16H 61/448",
+          "title": {
+            "ko": null,
+            "en": "Control circuits for tandem pumps or motors"
+          }
+        },
+        {
+          "code": "F16H 61/452",
+          "title": {
+            "ko": null,
+            "en": "Selectively controlling multiple pumps or motors, e.g. switching between series or parallel"
+          }
+        },
+        {
+          "code": "F16H 61/456",
+          "title": {
+            "ko": null,
+            "en": "Control of the balance of torque or speed between pumps or motors"
+          }
+        },
+        {
+          "code": "F16H 61/46",
+          "title": {
+            "ko": null,
+            "en": "Automatic regulation in accordance with output requirements"
+          }
+        },
+        {
+          "code": "F16H 61/462",
+          "title": {
+            "ko": null,
+            "en": "for achieving a target speed ratio"
+          }
+        },
+        {
+          "code": "F16H 61/465",
+          "title": {
+            "ko": null,
+            "en": "for achieving a target input speed"
+          }
+        },
+        {
+          "code": "F16H 61/468",
+          "title": {
+            "ko": null,
+            "en": "for achieving a target input torque"
+          }
+        },
+        {
+          "code": "F16H 61/47",
+          "title": {
+            "ko": null,
+            "en": "for achieving a target output speed"
+          }
+        },
+        {
+          "code": "F16H 61/472",
+          "title": {
+            "ko": null,
+            "en": "for achieving a target output torque"
+          }
+        },
+        {
+          "code": "F16H 61/475",
+          "title": {
+            "ko": null,
+            "en": "for achieving a target power, e.g. input power or output power"
+          }
+        },
+        {
+          "code": "F16H 61/478",
+          "title": {
+            "ko": null,
+            "en": "for preventing overload, e.g. high pressure limitation"
+          }
+        },
+        {
+          "code": "F16H 61/48",
+          "title": {
+            "ko": "동압형",
+            "en": "hydrodynamic"
+          }
+        },
+        {
+          "code": "F16H 61/50",
+          "title": {
+            "ko": "완전하게 충전된 작동회로를 유지하면서 작동회로내의 유체의 흐름, 동력 또는 반작용의 변화에 의하여 제어되는 것",
+            "en": "controlled by changing the flow, force, or reaction of the liquid in the working circuit, while maintaining a completely filled working circuit"
+          }
+        },
+        {
+          "code": "F16H 61/52",
+          "title": {
+            "ko": null,
+            "en": "by altering the position of blades"
+          }
+        },
+        {
+          "code": "F16H 61/54",
+          "title": {
+            "ko": null,
+            "en": "by means of axially-shiftable blade runners"
+          }
+        },
+        {
+          "code": "F16H 61/56",
+          "title": {
+            "ko": null,
+            "en": "to change the blade angle"
+          }
+        },
+        {
+          "code": "F16H 61/58",
+          "title": {
+            "ko": "작용차(runner)사이 또는 그들의 기계적연결의 변경에 의한 것",
+            "en": "by change of the mechanical connection of, or between, the runners"
+          }
+        },
+        {
+          "code": "F16H 61/60",
+          "title": {
+            "ko": null,
+            "en": "exclusively by the use of freewheel clutches"
+          }
+        },
+        {
+          "code": "F16H 61/62",
+          "title": {
+            "ko": "작용차사이의 연결에서 변속전동장치 또는 클러치 를 사용하는 것(F16H61/60이 우선, 회전 운동을 전달하기위한 유체 기어와 유체 역학 유형의 유체 기어를 연결하기위한 기계식 클러치의 조합 F16H45/02)",
+            "en": "involving use of a speed-changing gearing or of a clutch in the connection between runners   (F16H0061600000 takes precedence; combinations of fluid gearings for conveying rotary motion with mechanical clutches for bridging a fluid gearing of the hydrokinetic type F16H0045020000)"
+          }
+        },
+        {
+          "code": "F16H 61/64",
+          "title": {
+            "ko": null,
+            "en": "controlled by changing the amount of liquid in the working circuit"
+          }
+        },
+        {
+          "code": "F16H 61/66",
+          "title": {
+            "ko": "무단변속 전동장치에 특별히 적합한 것(유체 기어링 제어 F16H61/38)",
+            "en": "specially adapted for continuously variable gearings  (control of exclusively fluid gearing F16H0061380000)"
+          }
+        },
+        {
+          "code": "F16H 61/662",
+          "title": {
+            "ko": null,
+            "en": "with endless flexible members"
+          }
+        },
+        {
+          "code": "F16H 61/664",
+          "title": {
+            "ko": null,
+            "en": "Friction gearings"
+          }
+        },
+        {
+          "code": "F16H 61/68",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for stepped gearings"
+          }
+        },
+        {
+          "code": "F16H 61/682",
+          "title": {
+            "ko": null,
+            "en": "with interruption of drive"
+          }
+        },
+        {
+          "code": "F16H 61/684",
+          "title": {
+            "ko": null,
+            "en": "without interruption of drive"
+          }
+        },
+        {
+          "code": "F16H 61/686",
+          "title": {
+            "ko": null,
+            "en": "with orbital gears"
+          }
+        },
+        {
+          "code": "F16H 61/688",
+          "title": {
+            "ko": null,
+            "en": "with two inputs, e.g. selection of one of two torque-flow paths by clutches"
+          }
+        },
+        {
+          "code": "F16H 61/70",
+          "title": {
+            "ko": null,
+            "en": "specially adapted for change-speed gearing in group arrangement, i.e. with separate change-speed gear trains arranged in series, e.g. range or overdrive-type gearing arrangements"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16H 63/00",
+      "title": {
+        "ko": null,
+        "en": "Control outputs to change-speed- or reversing-gearings for conveying rotary motion"
+      },
+      "subgroups": [
+        {
+          "code": "F16H 63/02",
+          "title": {
+            "ko": null,
+            "en": "Final output mechanisms therefor; Actuating means for the final output mechanisms"
+          }
+        },
+        {
+          "code": "F16H 63/04",
+          "title": {
+            "ko": null,
+            "en": "a single final output mechanism being moved by a single final actuating mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/06",
+          "title": {
+            "ko": null,
+            "en": "the final output mechanism having an indefinite number of positions"
+          }
+        },
+        {
+          "code": "F16H 63/08",
+          "title": {
+            "ko": null,
+            "en": "Multiple final output mechanisms being moved by a single common final actuating mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/10",
+          "title": {
+            "ko": null,
+            "en": "the final actuating mechanism having a series of independent ways of movement, each way of movement being associated with only one final output mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/12",
+          "title": {
+            "ko": null,
+            "en": "two or more ways of movement occurring simultaneously"
+          }
+        },
+        {
+          "code": "F16H 63/14",
+          "title": {
+            "ko": null,
+            "en": "the final output mechanisms being successively actuated by repeated movement of the final actuating mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/16",
+          "title": {
+            "ko": null,
+            "en": "the final output mechanisms being successively actuated by progressive movement of the final actuating mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/18",
+          "title": {
+            "ko": null,
+            "en": "the final actuating mechanism comprising cams"
+          }
+        },
+        {
+          "code": "F16H 63/20",
+          "title": {
+            "ko": null,
+            "en": "with preselection and subsequent movement of each final output mechanism by movement of the final actuating mechanism in two different ways, e.g. guided by a shift gate"
+          }
+        },
+        {
+          "code": "F16H 63/22",
+          "title": {
+            "ko": null,
+            "en": "the final output mechanisms being simultaneously moved by the final actuating mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/24",
+          "title": {
+            "ko": null,
+            "en": "each of the final output mechanisms being moved by only one of the various final actuating mechanisms"
+          }
+        },
+        {
+          "code": "F16H 63/26",
+          "title": {
+            "ko": null,
+            "en": "some of the movements of the final output mechanisms being caused by another final output mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/28",
+          "title": {
+            "ko": null,
+            "en": "two or more final actuating mechanisms moving the same final output mechanism"
+          }
+        },
+        {
+          "code": "F16H 63/30",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of the final output mechanisms"
+          }
+        },
+        {
+          "code": "F16H 63/32",
+          "title": {
+            "ko": null,
+            "en": "Gear shifter yokes"
+          }
+        },
+        {
+          "code": "F16H 63/34",
+          "title": {
+            "ko": null,
+            "en": "Locking or disabling mechanisms"
+          }
+        },
+        {
+          "code": "F16H 63/36",
+          "title": {
+            "ko": null,
+            "en": "Interlocking devices"
+          }
+        },
+        {
+          "code": "F16H 63/38",
+          "title": {
+            "ko": null,
+            "en": "Detents"
+          }
+        },
+        {
+          "code": "F16H 63/40",
+          "title": {
+            "ko": null,
+            "en": "comprising signals other than signals for actuating the final output mechanisms"
+          }
+        },
+        {
+          "code": "F16H 63/42",
+          "title": {
+            "ko": null,
+            "en": "Ratio indicator devices"
+          }
+        },
+        {
+          "code": "F16H 63/44",
+          "title": {
+            "ko": null,
+            "en": "Signals to the control unit of auxiliary gearing"
+          }
+        },
+        {
+          "code": "F16H 63/46",
+          "title": {
+            "ko": null,
+            "en": "Signals to a clutch outside the gearbox"
+          }
+        },
+        {
+          "code": "F16H 63/48",
+          "title": {
+            "ko": null,
+            "en": "Signals to a parking brake"
+          }
+        },
+        {
+          "code": "F16H 63/50",
+          "title": {
+            "ko": null,
+            "en": "Signals to an engine or motor"
+          }
+        }
+      ]
+    }
+  ]
+}

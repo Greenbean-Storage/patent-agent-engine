@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3f2a9c41-4b87-8e1c-5d3f-7a82e1f40000",
+    "title": "발명의 목적은 무엇입니까?",
+    "description": "CMM clarity.purpose 의 input. CDS.purpose 가 이미 채워져 있어 해소.",
+    "status": "satisfied",
+    "priority": 1,
+    "input_type": "chat",
+    "options": null,
+    "answer": {
+      "value": "스마트폰 거치대가 자꾸 떨어지는 문제를 해결",
+      "answered_at": "2026-05-26T09:35:27Z"
+    }
+  },
+  {
+    "id": "7e1b2a44-9c41-4b87-8e1c-5d3f7a82e1f5",
+    "title": "핵심 구성요소를 알려주세요",
+    "description": "CMM clarity.components 의 input. CDS.components 가 채워져 해소.",
+    "status": "satisfied",
+    "priority": 1,
+    "input_type": "chat",
+    "options": null,
+    "answer": {
+      "value": "탄성 베이스, 실리콘 마찰 패드, 각도 조절 힌지",
+      "answered_at": "2026-05-26T09:35:27Z"
+    }
+  },
+  {
+    "id": "9a44b8e2-9c41-4b87-8e1c-5d3f7a82e1f6",
+    "title": "동작 순서를 단계별로 설명해주세요",
+    "description": "CMM completeness.sequence 부족 (0.50). 더 구체적인 단계 필요.",
+    "status": "pending",
+    "priority": 2,
+    "input_type": "chat",
+    "options": null,
+    "answer": null
+  },
+  {
+    "id": "b2c4d6e8-9c41-4b87-8e1c-5d3f7a82e1f7",
+    "title": "관심 분야를 선택해주세요",
+    "description": "IPC 분류 hint. selection 1개.",
+    "status": "pending",
+    "priority": 3,
+    "input_type": "selection",
+    "options": ["전자/통신", "기계/물리", "생활용품", "의료/바이오"],
+    "answer": null
+  },
+  {
+    "id": "c5e7f9b1-9c41-4b87-8e1c-5d3f7a82e1f8",
+    "title": "어떤 효과가 있는지 모두 선택해주세요",
+    "description": "CMM potential.effect 부족 (0.55). 효과 다중 선택.",
+    "status": "pending",
+    "priority": 4,
+    "input_type": "checkbox",
+    "options": ["설치 시간 단축", "비용 절감", "안정성 향상", "사용자 편의성", "유지보수 용이"],
+    "answer": null
+  }
+]

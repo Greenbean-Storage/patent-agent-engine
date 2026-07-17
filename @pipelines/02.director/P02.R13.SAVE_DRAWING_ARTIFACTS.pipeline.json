@@ -1,0 +1,28 @@
+{
+  "description": "director(02번) 단일 도면의 artifacts(numerals/dl/figure)를 메모리에 저장하는 sub-pipeline. drawing_orchestration이 fan_out으로 도면별 호출. 입력 payload가 null이면 해당 PUT은 자동 skip(executor body=null 처리).",
+  "common": {
+    "inject_context": {},
+    "recommended_context": {},
+    "fragments": {},
+    "llm_tools": []
+  },
+  "dispatch_to": {
+    "actions": [[]]
+  },
+  "steps": [
+    {
+      "description": "도면 artifacts (numerals + dl + figure) 를 CM 에 저장.",
+      "inject_context": {},
+      "recommended_context": {},
+      "fragments": {},
+      "tool": "cm.save_drawing_artifacts",
+      "params": {
+        "drawing_id": "$.parent_outputs.0.drawing_id",
+        "numerals_payload": "$.parent_outputs.0.numerals_payload",
+        "dl_payload": "$.parent_outputs.0.dl_payload",
+        "figure_payload": "$.parent_outputs.0.figure_payload"
+      },
+      "output_contract": "save-drawing-artifacts-output"
+    }
+  ]
+}

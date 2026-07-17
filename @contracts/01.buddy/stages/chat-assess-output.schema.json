@@ -1,0 +1,119 @@
+{
+  "title": "ChatAssessOutput",
+  "description": "P01.R00.CHAT_CONVERSATION step 0 (assess) — 사용자 발화 + media + conversation + IOM 종합 1차 분석. internal_analysis 는 사용자에게 노출 X — 다음 compose step 의 단서 + conversation meta 보존용. nullable 패턴 (`type: [..., 'null']` 또는 `nullable: true`) 은 Vertex SDK 와 jsonschema 표준 검증 둘 다 호환되는 표현이 없어 사용 X — 정상 응대는 special_case='none' 으로 표현.",
+  "type": "object",
+  "required": [
+    "internal_analysis",
+    "intent_label",
+    "iom_completeness",
+    "special_case",
+    "guidelines"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "internal_analysis": {
+      "type": "string",
+      "minLength": 200,
+      "maxLength": 800,
+      "description": "Gemini 의 1차 자연어 분석 — 사용자 발화의 핵심·맥락·의도 단서·media 관찰·IOM 완성도·특이 케이스 단서 종합. 200~600 자 권장. 사용자 응답에 절대 그대로 노출 X (schema 차원 분리). conversation 누적 시 meta.internal_analysis 로 보존."
+    },
+    "intent_label": {
+      "type": "string",
+      "enum": [
+        "greeting",
+        "invention_describe",
+        "technical_detail",
+        "question",
+        "depth_analysis",
+        "document_request",
+        "clarification_response",
+        "correction",
+        "summary_request",
+        "off_topic",
+        "inappropriate",
+        "not_own_invention",
+        "creative_request",
+        "illegal_request",
+        "system_intrusion",
+        "legal_advice"
+      ],
+      "description": "사용자 의도 분류. greeting/invention_describe/technical_detail/question/depth_analysis/document_request/clarification_response/correction/summary_request 는 정상 응대. off_topic/inappropriate/not_own_invention/creative_request/illegal_request/system_intrusion/legal_advice 는 가드레일 트리거 — special_case 와 짝지어 set."
+    },
+    "iom_completeness": {
+      "type": "object",
+      "required": ["score", "missing_aspects"],
+      "additionalProperties": false,
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "현재 IOM 완성도 0~1. bibliographic.title + specification.{problem,solution,effect} + claims[] 채움 비율 + 품질 가중치."
+        },
+        "missing_aspects": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 0,
+          "maxItems": 2,
+          "description": "가장 임팩트 큰 부족 영역 0~2개. 다음 발화 유도의 단서."
+        }
+      }
+    },
+    "special_case": {
+      "type": "string",
+      "enum": [
+        "none",
+        "inappropriate",
+        "illegal_request",
+        "not_own_invention",
+        "creative_request",
+        "off_topic",
+        "system_intrusion",
+        "legal_advice"
+      ],
+      "description": "가드레일 트리거. 'none' = 정상 응대. 그 외 7 카테고리 = compose step 이 P01.COMMON.fragments 의 *_handling 규칙으로 정중 응대."
+    },
+    "guidelines": {
+      "type": "object",
+      "required": [
+        "tone",
+        "target_length_chars",
+        "must_include",
+        "must_avoid",
+        "follow_up_hint"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "tone": {
+          "type": "string",
+          "enum": ["친근", "격식", "중립", "정중거절"],
+          "description": "다음 compose step 의 응답 톤. special_case ≠ 'none' 이면 보통 정중거절."
+        },
+        "target_length_chars": {
+          "type": "integer",
+          "minimum": 30,
+          "maximum": 400,
+          "description": "응답 본문 권장 길이 (한국어 글자 수)."
+        },
+        "must_include": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "maxItems": 3,
+          "description": "응답에 반드시 포함될 핵심 1~3 항목."
+        },
+        "must_avoid": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "maxItems": 3,
+          "description": "회피 표현 1~3 항목."
+        },
+        "follow_up_hint": {
+          "type": "string",
+          "description": "다음 발화 유도 단서. 없으면 빈 문자열 ''."
+        }
+      }
+    }
+  }
+}

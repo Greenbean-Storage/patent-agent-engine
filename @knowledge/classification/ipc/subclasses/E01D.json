@@ -1,0 +1,398 @@
+{
+  "subclass": "E01D",
+  "title": {
+    "ko": "교량(橋梁)(손님의 승강(乘降)을 위한 터미널 빌딩과 항공기 사이에 가설(架設)하는 다리 B64F 1/305) 다리의 해체",
+    "en": "BRIDGES (bridges extending between terminal buildings and aircraft for embarking or disembarking passengers B64F0001305000)"
+  },
+  "definition": {
+    "ko": "일반교량(橋梁) E01D1/00 Spanning 구조의 crosssection에 특징이 있는 다리 E01D2/00 구조타입에 특징이 있는 다리 E01D4/00 ~ E01D15/00 기능(機能)에 특징이 있는 다리 E01D18/00 세부(細部) E01D19/00 직립(erecting) 또는 조립식 다리 E01D21/00 수선(修繕) 또는 보강(補强)한 구조의 다리 E01D22/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "E01D 1/00",
+      "title": {
+        "ko": "일반 교량(橋梁)(구조(構造) 타입에 특징이 있는 것 E01D 4/00 ～ E01D 15/00)",
+        "en": "Bridges in general (characterised by their structural type E01D0004000000-E01D0015000000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01D 2/00",
+      "title": {
+        "ko": null,
+        "en": "Bridges characterised by the cross-section of their bearing spanning structure"
+      },
+      "subgroups": [
+        {
+          "code": "E01D 2/02",
+          "title": {
+            "ko": null,
+            "en": "of the I-girder type"
+          }
+        },
+        {
+          "code": "E01D 2/04",
+          "title": {
+            "ko": null,
+            "en": "of the box-girder type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01D 4/00",
+      "title": {
+        "ko": null,
+        "en": "Arch-type bridges"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01D 6/00",
+      "title": {
+        "ko": null,
+        "en": "Truss-type bridges"
+      },
+      "subgroups": [
+        {
+          "code": "E01D 6/02",
+          "title": {
+            "ko": null,
+            "en": "of bowstring type"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01D 11/00",
+      "title": {
+        "ko": null,
+        "en": "Suspension or cable-stayed bridges"
+      },
+      "subgroups": [
+        {
+          "code": "E01D 11/02",
+          "title": {
+            "ko": null,
+            "en": "Suspension bridges"
+          }
+        },
+        {
+          "code": "E01D 11/04",
+          "title": {
+            "ko": null,
+            "en": "Cable-stayed bridges"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01D 12/00",
+      "title": {
+        "ko": "그룹 E01D 2/00 ～ E01D 11/00의 어느 하나에 의하여 전체로서 커버되지 않은 구조의 조합에 특징이 있는 교량",
+        "en": "Bridges characterised by a combination of structures not covered as a whole by a single one of groups E01D0002000000-E01D0011000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01D 15/00",
+      "title": {
+        "ko": "가동(可動) 또는 가반교(可搬橋)(갱웨이(gang way) 또는 선외의 사다리 장치 B63B 27/14; 적하용 램프 B65G 69/28); 부교",
+        "en": "Movable or portable bridges (arrangement of ship-based outboard ramps or gangways B63B0027140000;loading ramps B65G0069280000); Floating bridges"
+      },
+      "subgroups": [
+        {
+          "code": "E01D 15/02",
+          "title": {
+            "ko": null,
+            "en": "Vertical lift bridges"
+          }
+        },
+        {
+          "code": "E01D 15/04",
+          "title": {
+            "ko": null,
+            "en": "Swing bridges"
+          }
+        },
+        {
+          "code": "E01D 15/06",
+          "title": {
+            "ko": null,
+            "en": "Bascule bridges; Roller bascule bridges, e.g. of Scherzer type"
+          }
+        },
+        {
+          "code": "E01D 15/08",
+          "title": {
+            "ko": null,
+            "en": "Drawbridges"
+          }
+        },
+        {
+          "code": "E01D 15/10",
+          "title": {
+            "ko": null,
+            "en": "Travelling bridges; Sliding bridges; Rotary cylinder bridges, i.e. rotating about longitudinal axis to invert and raise the road"
+          }
+        },
+        {
+          "code": "E01D 15/12",
+          "title": {
+            "ko": "가반식(可搬式,portable) 또는 조립식 (sectional) 교량(떠있는 교량 E01D 15/14)",
+            "en": "Portable or sectional bridges (floating bridges E01D0015140000)"
+          }
+        },
+        {
+          "code": "E01D 15/127",
+          "title": {
+            "ko": null,
+            "en": "combined with ground-supported vehicles for the transport, handling or placing of such bridges or of sections thereof"
+          }
+        },
+        {
+          "code": "E01D 15/133",
+          "title": {
+            "ko": "쉽게 분리될 수 있는 표준 단면 또는 요소, 예. Bailey식 비상용 조립교(E01D 15/127 이 우선)",
+            "en": "built-up from readily separable standardised sections or elements, e.g. Bailey bridges (E01D0015127000 takes precedence)"
+          }
+        },
+        {
+          "code": "E01D 15/14",
+          "title": {
+            "ko": "떠있는 다리, 예. Pontoon 교량(잔교(棧橋,landing bridge) E01D 15/24; 부교(浮橋) 또는 잔교(棧橋) B63B)",
+            "en": "Floating bridges, e.g. pontoon bridges (landing bridges E01D0015240000;floating bodies or pontoons B63B)"
+          }
+        },
+        {
+          "code": "E01D 15/20",
+          "title": {
+            "ko": "접을 수 있는 것, 신장할 수 있는 것, 부풀게 할 수 있는 것. 또는 그와 같은 것(E01D 15/22가 우선)",
+            "en": "collapsible, expandable, inflatable or the like (E01D0015220000 takes precedence)"
+          }
+        },
+        {
+          "code": "E01D 15/22",
+          "title": {
+            "ko": null,
+            "en": "designed as, or mounted on, vehicles"
+          }
+        },
+        {
+          "code": "E01D 15/24",
+          "title": {
+            "ko": null,
+            "en": "Bridges or similar structures, based on land or on a fixed structure and designed to give access to ships or other floating structures"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01D 18/00",
+      "title": {
+        "ko": null,
+        "en": "Bridges specially adapted for particular applications or functions not provided for elsewhere, e.g. aqueducts, bridges for supporting pipe-lines"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01D 19/00",
+      "title": {
+        "ko": "교량의 세부",
+        "en": "Details of bridges"
+      },
+      "subgroups": [
+        {
+          "code": "E01D 19/02",
+          "title": {
+            "ko": "교각(橋脚); 교대(橋臺)(기초(基礎) E02D)",
+            "en": "Piers; Abutments (foundations E02D)"
+          }
+        },
+        {
+          "code": "E01D 19/04",
+          "title": {
+            "ko": null,
+            "en": "Bearings; Hinges"
+          }
+        },
+        {
+          "code": "E01D 19/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangement, construction, or bridging of expansion joints"
+          }
+        },
+        {
+          "code": "E01D 19/08",
+          "title": {
+            "ko": null,
+            "en": "Damp-proof or other insulating layers; Drainage arrangements or devices"
+          }
+        },
+        {
+          "code": "E01D 19/10",
+          "title": {
+            "ko": null,
+            "en": "Railings; Protectors against smoke or gases, e.g. of locomotives; Maintenance travellers; Fastening of pipes or cables to bridges"
+          }
+        },
+        {
+          "code": "E01D 19/12",
+          "title": {
+            "ko": null,
+            "en": "Grating or flooring for bridges; Fastening railway sleepers or tracks to bridges"
+          }
+        },
+        {
+          "code": "E01D 19/14",
+          "title": {
+            "ko": null,
+            "en": "Towers; Anchors; Saddle supports"
+          }
+        },
+        {
+          "code": "E01D 19/16",
+          "title": {
+            "ko": null,
+            "en": "Suspension cables; Cable clamps for suspension cables"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01D 21/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or apparatus specially adapted for erecting or assembling bridges"
+      },
+      "subgroups": [
+        {
+          "code": "E01D 21/06",
+          "title": {
+            "ko": null,
+            "en": "by translational movement of the bridge or bridge sections"
+          }
+        },
+        {
+          "code": "E01D 21/08",
+          "title": {
+            "ko": null,
+            "en": "by rotational movement of the bridge or bridge sections"
+          }
+        },
+        {
+          "code": "E01D 21/10",
+          "title": {
+            "ko": null,
+            "en": "Cantilevered erection"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01D 22/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or apparatus for repairing or strengthening existing bridges"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01D 24/00",
+      "title": {
+        "ko": null,
+        "en": "Methods or apparatus for dismantling bridges"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01D 101/00",
+      "title": {
+        "ko": "교량의 재료구성",
+        "en": "Indexing scheme associated with groups E01D0001000000-E01D0022000000, relating to the material constitution of bridges."
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01D 101/00",
+      "title": {
+        "ko": "교량의 재료구성",
+        "en": "Material constitution of bridges"
+      },
+      "subgroups": [
+        {
+          "code": "E01D 101/10",
+          "title": {
+            "ko": null,
+            "en": "Wood"
+          }
+        },
+        {
+          "code": "E01D 101/20",
+          "title": {
+            "ko": null,
+            "en": "Concrete, stone or stone-like material"
+          }
+        },
+        {
+          "code": "E01D 101/22",
+          "title": {
+            "ko": null,
+            "en": "Masonry; Bricks"
+          }
+        },
+        {
+          "code": "E01D 101/24",
+          "title": {
+            "ko": null,
+            "en": "Concrete"
+          }
+        },
+        {
+          "code": "E01D 101/26",
+          "title": {
+            "ko": null,
+            "en": "reinforced"
+          }
+        },
+        {
+          "code": "E01D 101/28",
+          "title": {
+            "ko": null,
+            "en": "prestressed"
+          }
+        },
+        {
+          "code": "E01D 101/30",
+          "title": {
+            "ko": "금속(E01D 101/26이 우선)",
+            "en": "Metal (E01D0101260000 takes precedence)"
+          }
+        },
+        {
+          "code": "E01D 101/32",
+          "title": {
+            "ko": null,
+            "en": "prestressed"
+          }
+        },
+        {
+          "code": "E01D 101/34",
+          "title": {
+            "ko": null,
+            "en": "non-ferrous, e.g. aluminium"
+          }
+        },
+        {
+          "code": "E01D 101/40",
+          "title": {
+            "ko": null,
+            "en": "Plastics"
+          }
+        }
+      ]
+    }
+  ]
+}

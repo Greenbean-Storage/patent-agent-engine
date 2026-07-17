@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "structural_gaps": {
+      "type": "array"
+    },
+    "novelty_risk_factors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "enablement_concerns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_boundary_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "structural_gaps",
+    "novelty_risk_factors",
+    "enablement_concerns",
+    "claim_boundary_issues"
+  ]
+}

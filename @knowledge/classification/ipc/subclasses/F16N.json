@@ -1,0 +1,675 @@
+{
+  "subclass": "F16N",
+  "title": {
+    "ko": "윤활",
+    "en": "LUBRICATING"
+  },
+  "definition": {
+    "ko": "윤활을 확실하게 하기 위한 장치 또한 기계의 개량 F16N1/00 윤활 장치 고정된 것; 운반할수 있는 것; 수동인것 F16N7/00, F16N11/00; 9/00; 3/00, F16N5/00 윤활 펌프 F16N13/00 세부; 저장기, 도관류, 첵밸브(CHECK VALVE) F16N19/00, F16N21/00, F16N23/00 분배, 비열, 안전, 제어, 정화를 위한 설비 F16N23/00 ～ 33/00 윤활제의 취급, 저장 F16N33/00 ～ 39/00 특수윤활 F16N15/00, F16N17/00 이 서브 클래스의 다른 그룹으로 분류되지 않는 기술 F16N99/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "F16N 1/00",
+      "title": {
+        "ko": null,
+        "en": "Lubrication devices or arrangements for oil or grease"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 1/00",
+      "title": {
+        "ko": null,
+        "en": "Constructional modifications of parts of machines or apparatus for the purpose of lubrication"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 3/00",
+      "title": {
+        "ko": null,
+        "en": "Devices for supplying lubricant by manual action"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 3/02",
+          "title": {
+            "ko": null,
+            "en": "delivering oil"
+          }
+        },
+        {
+          "code": "F16N 3/04",
+          "title": {
+            "ko": null,
+            "en": "Oil cans; Oil syringes"
+          }
+        },
+        {
+          "code": "F16N 3/06",
+          "title": {
+            "ko": null,
+            "en": "delivering on squeezing"
+          }
+        },
+        {
+          "code": "F16N 3/08",
+          "title": {
+            "ko": null,
+            "en": "incorporating a piston-pump"
+          }
+        },
+        {
+          "code": "F16N 3/10",
+          "title": {
+            "ko": null,
+            "en": "delivering grease"
+          }
+        },
+        {
+          "code": "F16N 3/12",
+          "title": {
+            "ko": null,
+            "en": "Grease guns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 5/00",
+      "title": {
+        "ko": "윤활제를 압력에 의하여 공급하며, 수동으로 위치를 조절할 수 있는 노즐을 갖춘 장치(F16N 3/00이 우선)",
+        "en": "Apparatus with hand-positioned nozzle supplied with lubricant under pressure (F16N0003000000 takes precedence)"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 5/02",
+          "title": {
+            "ko": null,
+            "en": "Nozzles or nozzle-valve arrangements therefor, e.g. high-pressure grease guns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 7/00",
+      "title": {
+        "ko": "고정되어 있는 저장구 또는 그것에 상당하는 것으로부터 윤활하여야 할 기계 또는 부재에 기름 또는 특정하지 않는 윤활제를 공급하기 위한 장치",
+        "en": "Arrangements for supplying oil or unspecified lubricant from a stationary reservoir or the equivalent in or on the machine or member to be lubricated"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 7/02",
+          "title": {
+            "ko": null,
+            "en": "with gravity feed or drip lubrication"
+          }
+        },
+        {
+          "code": "F16N 7/04",
+          "title": {
+            "ko": null,
+            "en": "with oil flow promoted by vibration"
+          }
+        },
+        {
+          "code": "F16N 7/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements in which the droplets are visible"
+          }
+        },
+        {
+          "code": "F16N 7/08",
+          "title": {
+            "ko": null,
+            "en": "controlled by means of the temperature of the member to be lubricated"
+          }
+        },
+        {
+          "code": "F16N 7/10",
+          "title": {
+            "ko": null,
+            "en": "incorporating manually-operated control means, e.g. spindles"
+          }
+        },
+        {
+          "code": "F16N 7/12",
+          "title": {
+            "ko": null,
+            "en": "with feed by capillary action, e.g. by wicks"
+          }
+        },
+        {
+          "code": "F16N 7/14",
+          "title": {
+            "ko": "윤활제가 기계적수단에 의하여 저장용기로부터 운반되는 것(펌프장치에 의한 것 F16N 7/36, F16N 7/38)",
+            "en": "the lubricant being conveyed from the reservoir by mechanical means (by pumping devices F16N0007360000, F16N0007380000)"
+          }
+        },
+        {
+          "code": "F16N 7/16",
+          "title": {
+            "ko": null,
+            "en": "the oil being carried up by a lifting device"
+          }
+        },
+        {
+          "code": "F16N 7/18",
+          "title": {
+            "ko": null,
+            "en": "with one or more feed members fixed on a shaft"
+          }
+        },
+        {
+          "code": "F16N 7/20",
+          "title": {
+            "ko": null,
+            "en": "with one or more members moving around the shaft to be lubricated"
+          }
+        },
+        {
+          "code": "F16N 7/22",
+          "title": {
+            "ko": null,
+            "en": "shaped as rings"
+          }
+        },
+        {
+          "code": "F16N 7/24",
+          "title": {
+            "ko": null,
+            "en": "with discs, rollers, belts, or the like contacting the shaft to be lubricated"
+          }
+        },
+        {
+          "code": "F16N 7/26",
+          "title": {
+            "ko": null,
+            "en": "Splash lubrication"
+          }
+        },
+        {
+          "code": "F16N 7/28",
+          "title": {
+            "ko": null,
+            "en": "Dip lubrication"
+          }
+        },
+        {
+          "code": "F16N 7/30",
+          "title": {
+            "ko": null,
+            "en": "the oil being fed or carried along by another fluid"
+          }
+        },
+        {
+          "code": "F16N 7/32",
+          "title": {
+            "ko": null,
+            "en": "Mist lubrication"
+          }
+        },
+        {
+          "code": "F16N 7/34",
+          "title": {
+            "ko": null,
+            "en": "Atomising devices for oil"
+          }
+        },
+        {
+          "code": "F16N 7/36",
+          "title": {
+            "ko": null,
+            "en": "with feed by pumping action of the member to be lubricated or of a shaft of the machine; Centrifugal lubrication"
+          }
+        },
+        {
+          "code": "F16N 7/38",
+          "title": {
+            "ko": null,
+            "en": "with a separate pump; Central lubrication systems"
+          }
+        },
+        {
+          "code": "F16N 7/40",
+          "title": {
+            "ko": null,
+            "en": "in a closed circulation system"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 9/00",
+      "title": {
+        "ko": "움직이는 오일저장소 또는 그에 상당하는 것으로부터 오일 또는 비특정 윤활제를 공급하기 위한 장치(고정저장소를 함께 사용가능한 것 F16N 7/00)",
+        "en": "Arrangements for supplying oil or unspecified lubricant from a moving reservoir or the equivalent (also usable with a stationary reservoir F16N0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 9/02",
+          "title": {
+            "ko": null,
+            "en": "with reservoir on or in a rotary member"
+          }
+        },
+        {
+          "code": "F16N 9/04",
+          "title": {
+            "ko": null,
+            "en": "with reservoir on or in a reciprocating, rocking, or swinging member"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 11/00",
+      "title": {
+        "ko": "고정저장소 또는 그에 상당하는 것으로부터 윤활 하여야 할 기계나 부재속에 또는 위에 그리스를 공급하기 위한 장치; 그리스 컵(Grease cup)",
+        "en": "Arrangements for supplying grease from a stationary reservoir or the equivalent in or on the machine or member to be lubricated; Grease cups"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 11/02",
+          "title": {
+            "ko": null,
+            "en": "Hand-actuated grease cups, e.g. Stauffer cups"
+          }
+        },
+        {
+          "code": "F16N 11/04",
+          "title": {
+            "ko": null,
+            "en": "Spring-loaded devices"
+          }
+        },
+        {
+          "code": "F16N 11/06",
+          "title": {
+            "ko": null,
+            "en": "Weight-loaded devices"
+          }
+        },
+        {
+          "code": "F16N 11/08",
+          "title": {
+            "ko": "기계적구동으로 공급되는, 직접 스프링 또는 추에 의하지 않는 것(윤활펌프 F16N 13/00)",
+            "en": "with mechanical drive, other than directly by springs or weights (lubricating-pumps F16N0013000000)"
+          }
+        },
+        {
+          "code": "F16N 11/10",
+          "title": {
+            "ko": null,
+            "en": "by pressure of another fluid"
+          }
+        },
+        {
+          "code": "F16N 11/12",
+          "title": {
+            "ko": null,
+            "en": "by centrifugal action"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 13/00",
+      "title": {
+        "ko": "윤활펌프(펌프를 갖춘 오일통 F16N 3/08)",
+        "en": "Lubricating-pumps (oil cans with pump F16N0003080000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 13/02",
+          "title": {
+            "ko": "왕복피스톤을 갖는 것(분배장치를 갖춘 펌프 F16N 13/02)",
+            "en": "with reciprocating piston (pumps with distributing equipment F16N0013220000)"
+          }
+        },
+        {
+          "code": "F16N 13/04",
+          "title": {
+            "ko": null,
+            "en": "Adjustable reciprocating pumps"
+          }
+        },
+        {
+          "code": "F16N 13/06",
+          "title": {
+            "ko": "윤활펌프의 작동",
+            "en": "Actuation of lubricating-pumps"
+          }
+        },
+        {
+          "code": "F16N 13/08",
+          "title": {
+            "ko": null,
+            "en": "by hand"
+          }
+        },
+        {
+          "code": "F16N 13/10",
+          "title": {
+            "ko": "기계적으로 구동되는 것(F16N 13/18이 우선)",
+            "en": "with mechanical drive (F16N0013180000 takes precedence)"
+          }
+        },
+        {
+          "code": "F16N 13/12",
+          "title": {
+            "ko": null,
+            "en": "with ratchet"
+          }
+        },
+        {
+          "code": "F16N 13/14",
+          "title": {
+            "ko": null,
+            "en": "with cam or wobble-plate on shaft parallel to the pump cylinder or cylinders"
+          }
+        },
+        {
+          "code": "F16N 13/16",
+          "title": {
+            "ko": null,
+            "en": "with fluid drive"
+          }
+        },
+        {
+          "code": "F16N 13/18",
+          "title": {
+            "ko": null,
+            "en": "relative movement of pump parts being produced by inertia of one of the parts or of a driving member"
+          }
+        },
+        {
+          "code": "F16N 13/20",
+          "title": {
+            "ko": "회전펌프(분배장치를 갖는 것 F16N 13/22)",
+            "en": "Rotary pumps (with distributing equipment F16N0013220000)"
+          }
+        },
+        {
+          "code": "F16N 13/22",
+          "title": {
+            "ko": null,
+            "en": "with distributing equipment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 15/00",
+      "title": {
+        "ko": "오일 또는 그리스 이외의 물질에 의한 윤활; 특정 장치 또는 조건에 있어서 특정 윤활제의 사용에 특징이 있는 윤활 (F16N17/00이 우선; 윤활용 조합물, 특수물질의 윤활제로서의 선택일반 C10M)",
+        "en": "Lubrication with substances other than oil or grease; Lubrication characterised by the use of particular lubricants in particular apparatus or conditions (F16N0017000000 takes precedence;lubricating compositions, selection of particular substances as lubricants in general C10M)"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 15/02",
+          "title": {
+            "ko": null,
+            "en": "with graphite or graphite-containing compositions"
+          }
+        },
+        {
+          "code": "F16N 15/04",
+          "title": {
+            "ko": null,
+            "en": "with water"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 17/00",
+      "title": {
+        "ko": "극단적인 조건아래에서 작동하는 기계 또는 장치의 윤활유 또는 윤활 그리스의 첨가제 C10M",
+        "en": "Lubrication of machines or apparatus working under extreme conditions (additives to lubricating oil or lubricating grease C10M)"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 17/02",
+          "title": {
+            "ko": null,
+            "en": "at high temperature"
+          }
+        },
+        {
+          "code": "F16N 17/04",
+          "title": {
+            "ko": null,
+            "en": "at low temperature"
+          }
+        },
+        {
+          "code": "F16N 17/06",
+          "title": {
+            "ko": "진공 또는 저온에 있어서의 것( X-선관의 회전양극의 윤활 H01J 35/10)",
+            "en": "in vacuum or under reduced pressure (of rotary anodes of X-ray tubes H01J0035100000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 19/00",
+      "title": {
+        "ko": null,
+        "en": "Details of lubricators or lubrication systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 19/00",
+      "title": {
+        "ko": null,
+        "en": "Lubricant containers for use in lubricators or lubrication systems"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 21/00",
+      "title": {
+        "ko": null,
+        "en": "Conduits; Junctions; Fittings for lubrication apertures"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 21/02",
+          "title": {
+            "ko": null,
+            "en": "Lubricating nipples"
+          }
+        },
+        {
+          "code": "F16N 21/04",
+          "title": {
+            "ko": null,
+            "en": "Nozzles for connection of lubricating equipment to nipples"
+          }
+        },
+        {
+          "code": "F16N 21/06",
+          "title": {
+            "ko": null,
+            "en": "Covering members for nipples, conduits, or apertures"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 23/00",
+      "title": {
+        "ko": null,
+        "en": "Special adaptations of check valves"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 25/00",
+      "title": {
+        "ko": "분배장치(오일펌프와의 결합 F16N 13/22)",
+        "en": "Distributing equipment (combined with oil pump F16N0013220000)"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 25/02",
+          "title": {
+            "ko": null,
+            "en": "with reciprocating distributing slide valve"
+          }
+        },
+        {
+          "code": "F16N 25/04",
+          "title": {
+            "ko": null,
+            "en": "with rotary distributing member"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 27/00",
+      "title": {
+        "ko": null,
+        "en": "Proportioning devices"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 27/02",
+          "title": {
+            "ko": null,
+            "en": "Gating equipment"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 29/00",
+      "title": {
+        "ko": null,
+        "en": "Special means in lubricating arrangements or systems providing for the indication or detection of undesired conditions; Use of devices responsive to conditions in lubricating arrangements or systems"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 29/02",
+          "title": {
+            "ko": null,
+            "en": "for influencing the supply of lubricant"
+          }
+        },
+        {
+          "code": "F16N 29/04",
+          "title": {
+            "ko": null,
+            "en": "enabling a warning to be given; enabling moving parts to be stopped"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 31/00",
+      "title": {
+        "ko": "기계 또는 장치속에서 또는 위에서 윤활제를 모아서 지지하거나 또는 제거하기 위한 수단",
+        "en": "Means for collecting, retaining, or draining-off lubricant in or on machines or apparatus"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 31/02",
+          "title": {
+            "ko": "오일 캐처(boil catcher) 오일와이퍼(oil wiper) (피스톤용 보일 스크랩핑 링(boil scraping ring))",
+            "en": "Oil catchers; Oil wipers (oil-scraping rings for pistons F16J0009200000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 33/00",
+      "title": {
+        "ko": null,
+        "en": "Mechanical arrangements for cleaning lubricating equipment; Special racks or the like for use in draining lubricant from machine parts"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 35/00",
+      "title": {
+        "ko": null,
+        "en": "Care of lubricants"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 35/00",
+      "title": {
+        "ko": null,
+        "en": "Storage of lubricants in engine-rooms or the like"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "F16N 37/00",
+      "title": {
+        "ko": null,
+        "en": "Equipment for transferring lubricant from one container to another"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 37/02",
+          "title": {
+            "ko": null,
+            "en": "for filling grease guns"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 39/00",
+      "title": {
+        "ko": "윤활시스템에 있어서 윤활제 상태를 조정하기 위한 장치(윤활유의 청정 윤활조성물 G10M)",
+        "en": "Arrangements for conditioning of lubricants in the lubricating system (cleaning of lubricating oil, lubricating compositions C10M)"
+      },
+      "subgroups": [
+        {
+          "code": "F16N 39/02",
+          "title": {
+            "ko": null,
+            "en": "by cooling"
+          }
+        },
+        {
+          "code": "F16N 39/04",
+          "title": {
+            "ko": null,
+            "en": "by heating"
+          }
+        },
+        {
+          "code": "F16N 39/06",
+          "title": {
+            "ko": null,
+            "en": "by filtration"
+          }
+        },
+        {
+          "code": "F16N 39/08",
+          "title": {
+            "ko": null,
+            "en": "by diluting, e.g. by addition of fuel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "F16N 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

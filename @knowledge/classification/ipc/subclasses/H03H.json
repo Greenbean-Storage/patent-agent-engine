@@ -1,0 +1,883 @@
+{
+  "subclass": "H03H",
+  "title": {
+    "ko": "임피던스 네트워크, 예. 공진 회로; 공진기 (도파관, 공진기, 선 또는 도파관 유형의 다른 장치 H01P)",
+    "en": "IMPEDANCE NETWORKS, e.g. RESONANT CIRCUITS; RESONATORS   (waveguides, resonators, lines or other devices of the waveguide type H01P)"
+  },
+  "definition": {
+    "ko": "네트워크 적응형의 것 H03H21/00 디지털 기술 이용 H03H17/00 지연선 필터 H03H15/00 수동소자만을 이용한 것 단일포트; 다중포트 H03H5/00; 7/00 전기기계 또는 전기음향 소자를 이용한 것 H03H9/00 능동 소자를 이용한 것 H03H11/00 시간 가변 소자를 이용한 것 H03H19/00 기타 소자 또는 기술을 이용한 것 H03H2/00 세부 H03H1/00 제조 H03H3/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H03H 1/00",
+      "title": {
+        "ko": "전기적 동작모드가 특정되어 있지 않든가 2종류 이상의 회로망에 적용되는 임피던스 회로망의 구조의 세부(전기기계적 트랜스듀서의 구조의 세부 H03H 9/00)",
+        "en": "Constructional details of impedance networks whose electrical mode of operation is not specified or applicable to more than one type of network (constructional details of electromechanical transducers H03H0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 1/02",
+          "title": {
+            "ko": null,
+            "en": "RC networks, e.g. filters"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 2/00",
+      "title": {
+        "ko": "그룹 H03H 3/00에서 H03H 21/00에 해당되지 않는 소자 또는 기술을 사용한 회로망",
+        "en": "Networks using elements or techniques not provided for in groups H03H0003000000-H03H0021000000"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03H 3/00",
+      "title": {
+        "ko": "임피던스회로망, 공진회로, 공진기의 제조에 특유한 장치 또는 공정",
+        "en": "Apparatus or processes specially adapted for the manufacture of impedance networks, resonating circuits, resonators"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 3/007",
+          "title": {
+            "ko": "전기기계적 공진기 또는 회로망의 제조를 위한 것",
+            "en": "for the manufacture of electromechanical resonators or networks"
+          }
+        },
+        {
+          "code": "H03H 3/013",
+          "title": {
+            "ko": "소망의 주파수 또는 온도계수를 얻기 위한 것 (H03H 3/04, H03H 3/10이 우선)",
+            "en": "for obtaining desired frequency or temperature coefficient (H03H0003040000, H03H0003100000 take precedence)"
+          }
+        },
+        {
+          "code": "H03H 3/02",
+          "title": {
+            "ko": "피에조전기(압전) 또는 전왜공진기 또는 회로망의 제조를 위한 것(H03H 3/08이 우선)",
+            "en": "for the manufacture of piezoelectric or electrostrictive resonators or networks (H03H0003080000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 3/04",
+          "title": {
+            "ko": null,
+            "en": "for obtaining desired frequency or temperature coefficient"
+          }
+        },
+        {
+          "code": "H03H 3/06",
+          "title": {
+            "ko": null,
+            "en": "for the manufacture of magnetostrictive resonators or networks"
+          }
+        },
+        {
+          "code": "H03H 3/08",
+          "title": {
+            "ko": null,
+            "en": "for the manufacture of resonators or networks using surface acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 3/10",
+          "title": {
+            "ko": null,
+            "en": "for obtaining desired frequency or temperature coefficient"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 5/00",
+      "title": {
+        "ko": null,
+        "en": "One-port networks comprising only passive electrical elements as network components"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 5/02",
+          "title": {
+            "ko": null,
+            "en": "without voltage- or current-dependent elements"
+          }
+        },
+        {
+          "code": "H03H 5/10",
+          "title": {
+            "ko": null,
+            "en": "comprising at least one element with prescribed temperature coefficient"
+          }
+        },
+        {
+          "code": "H03H 5/12",
+          "title": {
+            "ko": null,
+            "en": "with at least one voltage- or current-dependent element"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 7/00",
+      "title": {
+        "ko": "네트워크 구성요소로서 수동 전기 요소만을 포함하는 다중 포트 네트워크",
+        "en": "Multiple-port networks comprising only passive electrical elements as network components"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 7/01",
+          "title": {
+            "ko": "주파수 선택 이단자회로망",
+            "en": "Frequency selective two-port networks"
+          }
+        },
+        {
+          "code": "H03H 7/03",
+          "title": {
+            "ko": null,
+            "en": "comprising means for compensation of loss"
+          }
+        },
+        {
+          "code": "H03H 7/06",
+          "title": {
+            "ko": "저항기를 포함하는 것(H03H 7/075, H03H 7/09, H03H 7/12, H03H 7/13이 우선)",
+            "en": "including resistors (H03H0007075000, H03H0007090000, H03H0007120000, H03H0007130000 take precedence)"
+          }
+        },
+        {
+          "code": "H03H 7/065",
+          "title": {
+            "ko": null,
+            "en": "Parallel T-filters"
+          }
+        },
+        {
+          "code": "H03H 7/07",
+          "title": {
+            "ko": null,
+            "en": "Bridged T-filters"
+          }
+        },
+        {
+          "code": "H03H 7/075",
+          "title": {
+            "ko": null,
+            "en": "Ladder networks, e.g. electric wave filters"
+          }
+        },
+        {
+          "code": "H03H 7/09",
+          "title": {
+            "ko": null,
+            "en": "Filters comprising mutual inductance"
+          }
+        },
+        {
+          "code": "H03H 7/12",
+          "title": {
+            "ko": "조절가능한 대역폭 및 고정된 중심 주파수를 가지는 대역통과 또는 대역정지 필터 (H03H7/09가 우선)",
+            "en": "Bandpass or bandstop filters with adjustable bandwidth and fixed centre frequency (H03H0007090000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 7/13",
+          "title": {
+            "ko": null,
+            "en": "using electro-optical elements"
+          }
+        },
+        {
+          "code": "H03H 7/18",
+          "title": {
+            "ko": null,
+            "en": "Networks for phase shifting"
+          }
+        },
+        {
+          "code": "H03H 7/19",
+          "title": {
+            "ko": null,
+            "en": "Two-port phase shifters providing a predetermined phase shift, e.g. \"all-pass\" filters"
+          }
+        },
+        {
+          "code": "H03H 7/20",
+          "title": {
+            "ko": null,
+            "en": "Two-port phase shifters providing an adjustable phase shift"
+          }
+        },
+        {
+          "code": "H03H 7/21",
+          "title": {
+            "ko": null,
+            "en": "providing two or more phase shifted output signals, e.g. n-phase output"
+          }
+        },
+        {
+          "code": "H03H 7/24",
+          "title": {
+            "ko": "주파수에 의존하지 않는 감쇠기",
+            "en": "Frequency-independent attenuators"
+          }
+        },
+        {
+          "code": "H03H 7/25",
+          "title": {
+            "ko": "전기적 또는 자기적 변수에 의해서 제어되는 소자를 포함하는 것(H03H 7/27이 우선)",
+            "en": "comprising an element controlled by an electric or magnetic variable (H03H0007270000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 7/27",
+          "title": {
+            "ko": null,
+            "en": "comprising a photo-electric element"
+          }
+        },
+        {
+          "code": "H03H 7/30",
+          "title": {
+            "ko": null,
+            "en": "Time-delay networks"
+          }
+        },
+        {
+          "code": "H03H 7/32",
+          "title": {
+            "ko": null,
+            "en": "with lumped inductance and capacitance"
+          }
+        },
+        {
+          "code": "H03H 7/34",
+          "title": {
+            "ko": null,
+            "en": "with lumped and distributed reactance"
+          }
+        },
+        {
+          "code": "H03H 7/38",
+          "title": {
+            "ko": null,
+            "en": "Impedance-matching networks"
+          }
+        },
+        {
+          "code": "H03H 7/40",
+          "title": {
+            "ko": null,
+            "en": "Automatic matching of load impedance to source impedance"
+          }
+        },
+        {
+          "code": "H03H 7/42",
+          "title": {
+            "ko": null,
+            "en": "Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns"
+          }
+        },
+        {
+          "code": "H03H 7/46",
+          "title": {
+            "ko": null,
+            "en": "Networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common load or source"
+          }
+        },
+        {
+          "code": "H03H 7/48",
+          "title": {
+            "ko": "동일의 주파수 또는 주파수 대역에서 동작하는 약간의 전원 또는 부하를 공통의 부하 또는 전원에 접속하기 위한 회로망(2이상의 출력신호를 제공하는 이상기 H03H 7/21)",
+            "en": "Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (phase shifters providing two or more output signals H03H0007210000)"
+          }
+        },
+        {
+          "code": "H03H 7/52",
+          "title": {
+            "ko": null,
+            "en": "One-way transmission networks, i.e. unilines"
+          }
+        },
+        {
+          "code": "H03H 7/54",
+          "title": {
+            "ko": null,
+            "en": "Modifications of networks to reduce influence of variations of temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 9/00",
+      "title": {
+        "ko": "전기기계 또는 전기음향 요소로 구성된 회로망; 전기기계식 공진기 (기계적 입력 또는 출력이 있는 압전, 전기변형 또는 자기변형 소자, 예. 액츄에이터 또는 센서, H10N30/00, H10N35/00; 라우드스피커, 마이크 또는 축음기 픽업과 같은 전기음향 변환기 H04R)",
+        "en": "Networks comprising electromechanical or electro-acoustic elements; Electromechanical resonators  (piezoelectric, electrostrictive or magnetostrictive devices with mechanical input or output, e.g. actuators or sensors, H10N0030000000, H10N0035000000;electro-acoustic transducers such as loudspeakers, microphones or gramophone pick-ups H04R)"
+      },
+      "definition": {
+        "ko": "그룹 H03H 9/30에서 H03H 9/74보다 그룹 H03H 9/15에서 H03H 9/25가 우선한다.",
+        "en": null
+      },
+      "subgroups": [
+        {
+          "code": "H03H 9/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H03H 9/05",
+          "title": {
+            "ko": null,
+            "en": "Holders or supports"
+          }
+        },
+        {
+          "code": "H03H 9/08",
+          "title": {
+            "ko": null,
+            "en": "Holders with means for regulating temperature"
+          }
+        },
+        {
+          "code": "H03H 9/09",
+          "title": {
+            "ko": null,
+            "en": "Elastic or damping supports"
+          }
+        },
+        {
+          "code": "H03H 9/10",
+          "title": {
+            "ko": null,
+            "en": "Mounting in enclosures"
+          }
+        },
+        {
+          "code": "H03H 9/12",
+          "title": {
+            "ko": null,
+            "en": "for networks with interaction of optical and acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 9/125",
+          "title": {
+            "ko": "구동수단, 예. 전극, 코일",
+            "en": "Driving means, e.g. electrodes, coils"
+          }
+        },
+        {
+          "code": "H03H 9/13",
+          "title": {
+            "ko": "압전 또는 전기변형 재료로 구성된 네트워크용 (표면 음향파를 사용하는 네트워크용 H03H9/145)",
+            "en": "for networks consisting of piezoelectric or electrostrictive materials  (for networks using surface acoustic waves H03H0009145000)"
+          }
+        },
+        {
+          "code": "H03H 9/135",
+          "title": {
+            "ko": "자왜재료로서 되는 회로망을 위한 것(H03H 9/145가 우선)",
+            "en": "for networks consisting of magnetostrictive materials (H03H0009145000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 9/145",
+          "title": {
+            "ko": null,
+            "en": "for networks using surface acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 9/15",
+          "title": {
+            "ko": "압전전기(piezo) 전기 또는 전왜재료로서 되는 공진기의 구조상의 특징(H03H 9/25가 우선)",
+            "en": "Constructional features of resonators consisting of piezoelectric or electrostrictive material (H03H0009250000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 9/17",
+          "title": {
+            "ko": "단일의 공진기를 갖는 것(결정튜우닝 포크 H03H 9/21)",
+            "en": "having a single resonator (crystal tuning forks H03H0009210000)"
+          }
+        },
+        {
+          "code": "H03H 9/19",
+          "title": {
+            "ko": null,
+            "en": "consisting of quartz"
+          }
+        },
+        {
+          "code": "H03H 9/205",
+          "title": {
+            "ko": "다수의 공진기를 갖는 것(결정튜우닝포크 H03H 9/21)",
+            "en": "having multiple resonators (crystal tuning forks H03H0009210000)"
+          }
+        },
+        {
+          "code": "H03H 9/21",
+          "title": {
+            "ko": null,
+            "en": "Crystal tuning forks"
+          }
+        },
+        {
+          "code": "H03H 9/215",
+          "title": {
+            "ko": null,
+            "en": "consisting of quartz"
+          }
+        },
+        {
+          "code": "H03H 9/22",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of resonators consisting of magnetostricitve material"
+          }
+        },
+        {
+          "code": "H03H 9/24",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of resonators of material which is not piezoelectric, electrostrictive, or magnetostrictive"
+          }
+        },
+        {
+          "code": "H03H 9/25",
+          "title": {
+            "ko": null,
+            "en": "Constructional features of resonators using surface acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 9/30",
+          "title": {
+            "ko": "시간지연 회로망",
+            "en": "Time-delay networks"
+          }
+        },
+        {
+          "code": "H03H 9/36",
+          "title": {
+            "ko": "비조정지연시간을 갖는 것(H03H 9/40, H03H 9/42가 우선)",
+            "en": "with non-adjustable delay time (H03H0009400000, H03H0009420000 take precedence)"
+          }
+        },
+        {
+          "code": "H03H 9/38",
+          "title": {
+            "ko": "가조정 지연시간을 갖는 것(H03H 9/40, H03H 9/42가 우선)",
+            "en": "with adjustable delay time (H03H0009400000, H03H0009420000 take precedence)"
+          }
+        },
+        {
+          "code": "H03H 9/40",
+          "title": {
+            "ko": "주파수의존 지연선, 예. 분산적 지연선(H03H 9/42가 우선)",
+            "en": "Frequency-dependent delay lines, e.g. dispersive delay lines (H03H0009420000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 9/42",
+          "title": {
+            "ko": null,
+            "en": "using surface acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 9/44",
+          "title": {
+            "ko": null,
+            "en": "Frequency-dependent delay lines, e.g. dispersive delay lines"
+          }
+        },
+        {
+          "code": "H03H 9/46",
+          "title": {
+            "ko": "여파기(다단자의 전기기계적 여파기 H03H 9/70)",
+            "en": "Filters (multiple-port electromechanical filters H03H0009700000)"
+          }
+        },
+        {
+          "code": "H03H 9/48",
+          "title": {
+            "ko": null,
+            "en": "Coupling means therefor"
+          }
+        },
+        {
+          "code": "H03H 9/50",
+          "title": {
+            "ko": null,
+            "en": "Mechanical coupling means"
+          }
+        },
+        {
+          "code": "H03H 9/52",
+          "title": {
+            "ko": null,
+            "en": "Electric coupling means"
+          }
+        },
+        {
+          "code": "H03H 9/54",
+          "title": {
+            "ko": "압전 또는 전왜 물질의 공진기를 구성하는 것 (표면 음향파를 사용하는 공진기를 구성하는 것 H03H9/64)",
+            "en": "comprising resonators of piezoelectric or electrostrictive material  (comprising resonators using surface acoustic waves H03H0009640000)"
+          }
+        },
+        {
+          "code": "H03H 9/56",
+          "title": {
+            "ko": null,
+            "en": "Monolithic crystal filters"
+          }
+        },
+        {
+          "code": "H03H 9/58",
+          "title": {
+            "ko": null,
+            "en": "Multiple crystal filters"
+          }
+        },
+        {
+          "code": "H03H 9/60",
+          "title": {
+            "ko": null,
+            "en": "Electric coupling means therefor"
+          }
+        },
+        {
+          "code": "H03H 9/62",
+          "title": {
+            "ko": "자왜재료로서 되는 공진기를 포함하는 것(H03H 9/64가 우선)",
+            "en": "comprising resonators of magnetostrictive material (H03H0009640000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 9/64",
+          "title": {
+            "ko": null,
+            "en": "using surface acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 9/66",
+          "title": {
+            "ko": null,
+            "en": "Phase shifters"
+          }
+        },
+        {
+          "code": "H03H 9/68",
+          "title": {
+            "ko": null,
+            "en": "using surface acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 9/70",
+          "title": {
+            "ko": null,
+            "en": "Multiple-port networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common or source"
+          }
+        },
+        {
+          "code": "H03H 9/72",
+          "title": {
+            "ko": null,
+            "en": "Networks using surface acoustic waves"
+          }
+        },
+        {
+          "code": "H03H 9/74",
+          "title": {
+            "ko": "동일한 주파수 또는 주파수대역에서 동작하는 약간의 전원 또는 부하를 공통부하 또는 공통전원에 접속하기 위한 다단자 회로망 (위상천이를 위한 회로망 H03H 9/66)",
+            "en": "Multiple-port networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (networks for phase shifting H03H0009660000)"
+          }
+        },
+        {
+          "code": "H03H 9/76",
+          "title": {
+            "ko": null,
+            "en": "Networks using surface acoustic waves"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 11/00",
+      "title": {
+        "ko": "능동소자를 사용하는 회로망",
+        "en": "Networks using active elements"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 11/02",
+          "title": {
+            "ko": "다단자 회로망",
+            "en": "Multiple-port networks"
+          }
+        },
+        {
+          "code": "H03H 11/04",
+          "title": {
+            "ko": "주파수선택성 2단자 회로망",
+            "en": "Frequency selective two-port networks"
+          }
+        },
+        {
+          "code": "H03H 11/06",
+          "title": {
+            "ko": null,
+            "en": "comprising means for compensation of loss"
+          }
+        },
+        {
+          "code": "H03H 11/08",
+          "title": {
+            "ko": null,
+            "en": "using gyrators"
+          }
+        },
+        {
+          "code": "H03H 11/10",
+          "title": {
+            "ko": "부성임피던스 변환기를 사용하는 것(H03H 11/08이 우선)",
+            "en": "using negative impedance converters (H03H0011080000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 11/12",
+          "title": {
+            "ko": "귀환을 갖는 증폭기를 사용하는 것(H03H 11/08, H03H 11/10이 우선)",
+            "en": "using amplifiers with feedback (H03H0011080000, H03H0011100000 take precedence)"
+          }
+        },
+        {
+          "code": "H03H 11/14",
+          "title": {
+            "ko": null,
+            "en": "using electro-optical devices"
+          }
+        },
+        {
+          "code": "H03H 11/16",
+          "title": {
+            "ko": null,
+            "en": "Networks for phase shifting"
+          }
+        },
+        {
+          "code": "H03H 11/18",
+          "title": {
+            "ko": null,
+            "en": "Two-port phase shifters providing a predetermined phase shift, e.g. \"all-pass\" filters"
+          }
+        },
+        {
+          "code": "H03H 11/20",
+          "title": {
+            "ko": null,
+            "en": "Two-port phase shifters providing an adjustable phase shift"
+          }
+        },
+        {
+          "code": "H03H 11/22",
+          "title": {
+            "ko": null,
+            "en": "providing two or more phase shifted output signals, e.g. n-phase output"
+          }
+        },
+        {
+          "code": "H03H 11/24",
+          "title": {
+            "ko": null,
+            "en": "Frequency-independent attenuators"
+          }
+        },
+        {
+          "code": "H03H 11/26",
+          "title": {
+            "ko": null,
+            "en": "Time-delay networks"
+          }
+        },
+        {
+          "code": "H03H 11/28",
+          "title": {
+            "ko": null,
+            "en": "Impedance matching networks"
+          }
+        },
+        {
+          "code": "H03H 11/30",
+          "title": {
+            "ko": null,
+            "en": "Automatic matching of source impedance to load impedance"
+          }
+        },
+        {
+          "code": "H03H 11/32",
+          "title": {
+            "ko": null,
+            "en": "Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns"
+          }
+        },
+        {
+          "code": "H03H 11/34",
+          "title": {
+            "ko": null,
+            "en": "Networks for connecting several sources or loads working on different frequencies or frequency bands, to a common load or source"
+          }
+        },
+        {
+          "code": "H03H 11/36",
+          "title": {
+            "ko": "동일한 주파수 또는 주파수대역에서 동작하는 약간의 전원 또는 부하를 공통의 부하 또는 전원에 접속하기 위한 회로망(2이상의 출력신호를 제공하는 이상기 H03H 11/22)",
+            "en": "Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (phase shifters providing two or more output signals H03H0011220000)"
+          }
+        },
+        {
+          "code": "H03H 11/38",
+          "title": {
+            "ko": null,
+            "en": "One-way transmission networks, i.e. unilines"
+          }
+        },
+        {
+          "code": "H03H 11/40",
+          "title": {
+            "ko": "임피던스 변환기",
+            "en": "Impedance converters"
+          }
+        },
+        {
+          "code": "H03H 11/42",
+          "title": {
+            "ko": "자이레이터(Gyrator)(주파수 선택 회로망에 사용하는 것 H03H 11/08)",
+            "en": "Gyrators (used in frequency selective networks H03H0011080000)"
+          }
+        },
+        {
+          "code": "H03H 11/44",
+          "title": {
+            "ko": "음의 임피던스 변환기 (H03H11/42가 우선)",
+            "en": "Negative impedance converters (H03H0011420000 takes precedence)"
+          }
+        },
+        {
+          "code": "H03H 11/46",
+          "title": {
+            "ko": null,
+            "en": "One-port networks"
+          }
+        },
+        {
+          "code": "H03H 11/48",
+          "title": {
+            "ko": null,
+            "en": "simulating reactances"
+          }
+        },
+        {
+          "code": "H03H 11/50",
+          "title": {
+            "ko": null,
+            "en": "using gyrators"
+          }
+        },
+        {
+          "code": "H03H 11/52",
+          "title": {
+            "ko": null,
+            "en": "simulating negative resistances"
+          }
+        },
+        {
+          "code": "H03H 11/54",
+          "title": {
+            "ko": null,
+            "en": "Modifications of networks to reduce influence of variations of temperature"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 15/00",
+      "title": {
+        "ko": "지연선 필터 (전기기계적 필터 H03H9/46, H03H9/70)",
+        "en": "Transversal filters (electromechanical filters H03H0009460000, H03H0009700000)"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 15/02",
+          "title": {
+            "ko": null,
+            "en": "using analogue shift registers"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 17/00",
+      "title": {
+        "ko": null,
+        "en": "Networks using digital techniques"
+      },
+      "subgroups": [
+        {
+          "code": "H03H 17/02",
+          "title": {
+            "ko": null,
+            "en": "Frequency-selective networks"
+          }
+        },
+        {
+          "code": "H03H 17/04",
+          "title": {
+            "ko": null,
+            "en": "Recursive filters"
+          }
+        },
+        {
+          "code": "H03H 17/06",
+          "title": {
+            "ko": null,
+            "en": "Non-recursive filters"
+          }
+        },
+        {
+          "code": "H03H 17/08",
+          "title": {
+            "ko": null,
+            "en": "Networks for phase-shifting"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H03H 19/00",
+      "title": {
+        "ko": null,
+        "en": "Networks using time-varying elements, e.g. N-path filters"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H03H 21/00",
+      "title": {
+        "ko": null,
+        "en": "Adaptive networks"
+      },
+      "subgroups": []
+    }
+  ]
+}

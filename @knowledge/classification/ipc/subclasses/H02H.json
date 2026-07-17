@@ -1,0 +1,593 @@
+{
+  "subclass": "H02H",
+  "title": {
+    "ko": "비상보호회로장치(정상이 아닌 동작상태의 지시 또는 경보 G01R, 예. F01R 31/00, G08B; 선로에 따라서 고장점측정 G01R 31/08; 비상보호장치 H01H)",
+    "en": "EMERGENCY PROTECTIVE CIRCUIT ARRANGEMENTS (indicating or signalling undesired working conditions G01R, e.g. G01R0031000000, G08B;locating faults along lines G01R0031080000;emergency protective devices H01H)"
+  },
+  "definition": {
+    "ko": "비상 보호회로장치 상황의 변화에 따라서 자동적으로 개방하는 것 전기적; 검지된 비전기적; 모의된 비전기적 H02H3/00; 5/00; 6/00 특수한 기기 또는 케이블 또는 선로의 구간보호에 적용되는 것 H02H7/00 과전류 또는 과전압의 제한 H02H9/00 희망하지 않는 상황시의 통전방지 H02H11/00 세부 H02H1/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "H02H 1/00",
+      "title": {
+        "ko": null,
+        "en": "Details of emergency protective circuit arrangements"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 1/04",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for preventing response to transient abnormal conditions, e.g. to lightning"
+          }
+        },
+        {
+          "code": "H02H 1/06",
+          "title": {
+            "ko": null,
+            "en": "Arrangements for supplying operative power"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 3/00",
+      "title": {
+        "ko": "차후 재연결 여부에 관계 없이 정상 전기 동작상태에서 이상변화에 직접응답하여 자동단선을하는 비상보호회로장치 (전기기계장치의 특수형식의 것 또는 케이블 선로계통의 구간보호에 적용되는 것 H02H7/00; 예비전원에의 절환방식 H02J9/00)",
+        "en": "Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal electric working condition, with or without subsequent reconnection (specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H0007000000;systems for change-over to standby supply H02J0009000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 3/02",
+          "title": {
+            "ko": "세부",
+            "en": "Details"
+          }
+        },
+        {
+          "code": "H02H 3/027",
+          "title": {
+            "ko": "설정시간후에 자동개방하는 것(3/033, 3/06이 우선)",
+            "en": "with automatic disconnection after a predetermined time (H02H0003033000, H02H0003060000 take precedence)"
+          }
+        },
+        {
+          "code": "H02H 3/033",
+          "title": {
+            "ko": "우선순위에 따라 순차 개방하는 것(3/06이 우선)",
+            "en": "with several disconnections in a preferential order (H02H0003060000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02H 3/04",
+          "title": {
+            "ko": null,
+            "en": "with warning or supervision in addition to disconnection, e.g. for indicating that protective apparatus has functioned"
+          }
+        },
+        {
+          "code": "H02H 3/05",
+          "title": {
+            "ko": null,
+            "en": "with means for increasing reliability, e.g. redundancy arrangements"
+          }
+        },
+        {
+          "code": "H02H 3/06",
+          "title": {
+            "ko": null,
+            "en": "with automatic reconnection"
+          }
+        },
+        {
+          "code": "H02H 3/07",
+          "title": {
+            "ko": null,
+            "en": "and with permanent disconnection after a predetermined number of reconnection cycles"
+          }
+        },
+        {
+          "code": "H02H 3/08",
+          "title": {
+            "ko": "과전류에 대한 응답 (과전류로 유발된 이상온도에 응답하는 것 H02H5/04)",
+            "en": "responsive to excess current (responsive to abnormal temperature caused by excess current H02H0005040000)"
+          }
+        },
+        {
+          "code": "H02H 3/087",
+          "title": {
+            "ko": null,
+            "en": "for DC applications"
+          }
+        },
+        {
+          "code": "H02H 3/093",
+          "title": {
+            "ko": null,
+            "en": "with timing means"
+          }
+        },
+        {
+          "code": "H02H 3/10",
+          "title": {
+            "ko": null,
+            "en": "additionally responsive to some other abnormal electrical conditions"
+          }
+        },
+        {
+          "code": "H02H 3/12",
+          "title": {
+            "ko": null,
+            "en": "responsive to underload or no-load"
+          }
+        },
+        {
+          "code": "H02H 3/13",
+          "title": {
+            "ko": null,
+            "en": "for multiphase applications, e.g. phase interruption"
+          }
+        },
+        {
+          "code": "H02H 3/14",
+          "title": {
+            "ko": null,
+            "en": "responsive to occurrence of voltage on parts normally at earth potential"
+          }
+        },
+        {
+          "code": "H02H 3/16",
+          "title": {
+            "ko": "접지, 프레임 또는 물체에의 고장전류에 응답하는 것 (평형장치 또는 차동장치를 갖는 것 H02H3/26)",
+            "en": "responsive to fault current to earth, frame or mass (with balanced or differential arrangement H02H0003260000)"
+          }
+        },
+        {
+          "code": "H02H 3/17",
+          "title": {
+            "ko": null,
+            "en": "by means of an auxiliary voltage injected into the installation to be protected"
+          }
+        },
+        {
+          "code": "H02H 3/18",
+          "title": {
+            "ko": null,
+            "en": "responsive to reversal of direct current"
+          }
+        },
+        {
+          "code": "H02H 3/20",
+          "title": {
+            "ko": null,
+            "en": "responsive to excess voltage"
+          }
+        },
+        {
+          "code": "H02H 3/22",
+          "title": {
+            "ko": null,
+            "en": "of short duration, e.g. lightning"
+          }
+        },
+        {
+          "code": "H02H 3/24",
+          "title": {
+            "ko": null,
+            "en": "responsive to undervoltage or no-voltage"
+          }
+        },
+        {
+          "code": "H02H 3/247",
+          "title": {
+            "ko": null,
+            "en": "having timing means"
+          }
+        },
+        {
+          "code": "H02H 3/253",
+          "title": {
+            "ko": null,
+            "en": "for multiphase applications, e.g. phase interruption"
+          }
+        },
+        {
+          "code": "H02H 3/26",
+          "title": {
+            "ko": "전압간 또는 전류간의 차에 응답하는 것; 전압간 또는 전류간의 위상 각에 응답하는 것",
+            "en": "responsive to difference between voltages or between currents; responsive to phase angle between voltages or between currents"
+          }
+        },
+        {
+          "code": "H02H 3/28",
+          "title": {
+            "ko": null,
+            "en": "involving comparison of the voltage or current values at two spaced portions of a single system, e.g. at opposite ends of one line, at input and output of apparatus"
+          }
+        },
+        {
+          "code": "H02H 3/30",
+          "title": {
+            "ko": null,
+            "en": "using pilot wires or other signalling channel"
+          }
+        },
+        {
+          "code": "H02H 3/32",
+          "title": {
+            "ko": "단일 시스템의 상이한 도체들의 대응하는 지점의 전압과 전류의 값을 비교하는 것을 포함하는 것, 예. 왕복도체들에서의 전류의 비교",
+            "en": "involving comparison of the voltage or current values at corresponding points in different conductors of a single system, e.g. of currents in go and return conductors"
+          }
+        },
+        {
+          "code": "H02H 3/33",
+          "title": {
+            "ko": "합산 전류 변압기를 이용하는 것 (H02H3/347이 우선)",
+            "en": "using summation current transformers (H02H0003347000 takes precedence)"
+          }
+        },
+        {
+          "code": "H02H 3/34",
+          "title": {
+            "ko": null,
+            "en": "of a three-phase system"
+          }
+        },
+        {
+          "code": "H02H 3/347",
+          "title": {
+            "ko": null,
+            "en": "using summation current transformers"
+          }
+        },
+        {
+          "code": "H02H 3/353",
+          "title": {
+            "ko": null,
+            "en": "involving comparison of phase voltages"
+          }
+        },
+        {
+          "code": "H02H 3/36",
+          "title": {
+            "ko": null,
+            "en": "involving comparison of the voltage or current values at corresponding points of different systems, e.g. of parallel feeder systems"
+          }
+        },
+        {
+          "code": "H02H 3/38",
+          "title": {
+            "ko": null,
+            "en": "responsive to both voltage and current; responsive to phase angle between voltage and current"
+          }
+        },
+        {
+          "code": "H02H 3/40",
+          "title": {
+            "ko": null,
+            "en": "responsive to ratio of voltage and current"
+          }
+        },
+        {
+          "code": "H02H 3/42",
+          "title": {
+            "ko": null,
+            "en": "responsive to product of voltage and current"
+          }
+        },
+        {
+          "code": "H02H 3/44",
+          "title": {
+            "ko": null,
+            "en": "responsive to the rate of change of electrical quantities"
+          }
+        },
+        {
+          "code": "H02H 3/46",
+          "title": {
+            "ko": null,
+            "en": "responsive to frequency deviations"
+          }
+        },
+        {
+          "code": "H02H 3/48",
+          "title": {
+            "ko": null,
+            "en": "responsive to loss of synchronism"
+          }
+        },
+        {
+          "code": "H02H 3/50",
+          "title": {
+            "ko": null,
+            "en": "responsive to the appearance of abnormal wave forms, e.g. AC in DC installations"
+          }
+        },
+        {
+          "code": "H02H 3/52",
+          "title": {
+            "ko": null,
+            "en": "responsive to the appearance of harmonics"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 5/00",
+      "title": {
+        "ko": "전기적이 아닌 정상의 동작상태에서의 이상변화에 직접 응답하고 자동개방을 위한 비상보호회로장치, 그후에 있어서 재폐로하는 경우 또는 하지 않는 경우도 포함한다.(피보호장치의 모의장치를 사용하는 것 6/00; 특수형식의 전기기계 또는 장치에 또는 케이블 혹은 선로계통의 구간보호에 특별히 사용되고 있는 것 7/00)",
+        "en": "Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal non-electric working conditions with or without subsequent reconnection (using simulators of the apparatus being protected H02H0006000000;specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H0007000000)"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 5/04",
+          "title": {
+            "ko": null,
+            "en": "responsive to abnormal temperature"
+          }
+        },
+        {
+          "code": "H02H 5/06",
+          "title": {
+            "ko": null,
+            "en": "in oil-filled electric apparatus"
+          }
+        },
+        {
+          "code": "H02H 5/08",
+          "title": {
+            "ko": null,
+            "en": "responsive to abnormal fluid pressure, liquid level or liquid displacement, e.g. Buchholz relays"
+          }
+        },
+        {
+          "code": "H02H 5/10",
+          "title": {
+            "ko": null,
+            "en": "responsive to mechanical injury, e.g. rupture of line, breakage of earth connection"
+          }
+        },
+        {
+          "code": "H02H 5/12",
+          "title": {
+            "ko": null,
+            "en": "responsive to undesired approach to, or touching of, live parts by living beings"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 6/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements responsive to undesired changes from normal non-electric working conditions using simulators of the apparatus being protected, e.g. using thermal images"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02H 7/00",
+      "title": {
+        "ko": "특정한 형태의 전기 기계 또는 장치에 특히 적합한 비상 보호 회로 장치 또는 케이블 또는 선로 시스템의 부분적인 보호를 위한 것, 그리고 정상적인 작업 조건으로부터의 바람직하지 않은 변화의 경우에 자동 전환을 수행하는 것",
+        "en": "Emergency protective circuit arrangements specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems, and effecting automatic switching in the event of an undesired change from normal working conditions"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 7/04",
+          "title": {
+            "ko": null,
+            "en": "for transformers"
+          }
+        },
+        {
+          "code": "H02H 7/045",
+          "title": {
+            "ko": null,
+            "en": "Differential protection of transformers"
+          }
+        },
+        {
+          "code": "H02H 7/05",
+          "title": {
+            "ko": null,
+            "en": "for capacitive voltage transformers, e.g. against resonant conditions"
+          }
+        },
+        {
+          "code": "H02H 7/055",
+          "title": {
+            "ko": null,
+            "en": "for tapped transformers or tap-changing means thereof"
+          }
+        },
+        {
+          "code": "H02H 7/06",
+          "title": {
+            "ko": null,
+            "en": "for dynamo-electric generators; for synchronous capacitors"
+          }
+        },
+        {
+          "code": "H02H 7/08",
+          "title": {
+            "ko": "전동기를 위한 것",
+            "en": "for dynamo-electric motors"
+          }
+        },
+        {
+          "code": "H02H 7/085",
+          "title": {
+            "ko": null,
+            "en": "against excessive load"
+          }
+        },
+        {
+          "code": "H02H 7/09",
+          "title": {
+            "ko": null,
+            "en": "against over-voltage; against reduction of voltage; against phase interruption"
+          }
+        },
+        {
+          "code": "H02H 7/093",
+          "title": {
+            "ko": "회전속도가 미리 정한 레벨이상으로 증대하는 것 또는 이하로 감소하는 것(원심력 스위치 H01H 35/10)",
+            "en": "against increase beyond, or decrease below, a predetermined level of rotational speed (centrifugal switches H01H0035100000)"
+          }
+        },
+        {
+          "code": "H02H 7/097",
+          "title": {
+            "ko": null,
+            "en": "against wrong direction of rotation"
+          }
+        },
+        {
+          "code": "H02H 7/10",
+          "title": {
+            "ko": null,
+            "en": "for converters; for rectifiers"
+          }
+        },
+        {
+          "code": "H02H 7/12",
+          "title": {
+            "ko": null,
+            "en": "for static converters or rectifiers"
+          }
+        },
+        {
+          "code": "H02H 7/122",
+          "title": {
+            "ko": null,
+            "en": "for inverters, i.e. DC/AC converters"
+          }
+        },
+        {
+          "code": "H02H 7/125",
+          "title": {
+            "ko": null,
+            "en": "for rectifiers"
+          }
+        },
+        {
+          "code": "H02H 7/127",
+          "title": {
+            "ko": null,
+            "en": "having auxiliary control electrode to which blocking control voltages or currents are applied in case of emergency"
+          }
+        },
+        {
+          "code": "H02H 7/16",
+          "title": {
+            "ko": "캐패시터를 위한 것(동기진상기를 위한 것 7/06)",
+            "en": "for capacitors (for synchronous capacitors H02H0007060000)"
+          }
+        },
+        {
+          "code": "H02H 7/18",
+          "title": {
+            "ko": null,
+            "en": "for batteries; for accumulators"
+          }
+        },
+        {
+          "code": "H02H 7/20",
+          "title": {
+            "ko": "전자장치를 위한 것 (변환기를 위한 것 H02H7/10; 전기적 측정기기를 위한 것 G01R1/36; 직류전압 또는 전류 반도체 조정기를 위한 것 G05F1/569; 증폭기를 위한 것 H03F 1/52; 전자적 스위칭 회로를 위한 것 H03K17/08)",
+            "en": "for electronic equipment (for converters H02H0007100000;for electric measuring instruments G01R0001360000;for DC voltage or current semiconductor regulators G05F0001569000;for amplifiers H03F0001520000;for electronic switching circuits H03K0017080000)"
+          }
+        },
+        {
+          "code": "H02H 7/22",
+          "title": {
+            "ko": null,
+            "en": "for distribution gear, e.g. bus-bar systems; for switching devices"
+          }
+        },
+        {
+          "code": "H02H 7/24",
+          "title": {
+            "ko": null,
+            "en": "for spark-gap arresters"
+          }
+        },
+        {
+          "code": "H02H 7/26",
+          "title": {
+            "ko": "케이블, 선로계통의 구분보호, 예. 단락지선 혹은 아크 방전이 생긴 구분을 개방하기 위한 것 (케이블의 고장위치의 검출 G01R31/08)",
+            "en": "Sectionalised protection of cable or line systems, e.g. for disconnecting a section on which a short-circuit, earth fault, or arc discharge has occurred (locating faults in cables G01R0031080000)"
+          }
+        },
+        {
+          "code": "H02H 7/28",
+          "title": {
+            "ko": null,
+            "en": "for meshed systems"
+          }
+        },
+        {
+          "code": "H02H 7/30",
+          "title": {
+            "ko": null,
+            "en": "Staggered disconnection"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 9/00",
+      "title": {
+        "ko": "단선 없이 과전류 또는 과전압을 제한하기 위한 비상 보호 회로 장치",
+        "en": "Emergency protective circuit arrangements for limiting excess current or voltage without disconnection"
+      },
+      "subgroups": [
+        {
+          "code": "H02H 9/02",
+          "title": {
+            "ko": null,
+            "en": "responsive to excess current"
+          }
+        },
+        {
+          "code": "H02H 9/04",
+          "title": {
+            "ko": "과전압에 반응하는 것 (피뢰기 H01C7/12, H01C8/04, H01G9/18, H01T)",
+            "en": "responsive to excess voltage (lightning arrestors H01C0007120000, H01C0008040000, H01G0009180000, H01T)"
+          }
+        },
+        {
+          "code": "H02H 9/06",
+          "title": {
+            "ko": null,
+            "en": "using spark-gap arresters"
+          }
+        },
+        {
+          "code": "H02H 9/08",
+          "title": {
+            "ko": null,
+            "en": "Limitation or suppression of earth fault currents, e.g. Petersen coil"
+          }
+        }
+      ]
+    },
+    {
+      "code": "H02H 11/00",
+      "title": {
+        "ko": null,
+        "en": "Emergency protective circuit arrangements for preventing the switching-on in case an undesired electric working condition might result"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "H02H 99/00",
+      "title": {
+        "ko": null,
+        "en": "Subject matter not provided for in other groups of this subclass"
+      },
+      "subgroups": []
+    }
+  ]
+}

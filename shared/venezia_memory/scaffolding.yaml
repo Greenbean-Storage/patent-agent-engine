@@ -1,0 +1,107 @@
+# shared/venezia_memory/scaffolding.yaml
+# 메모리 S3 layout 의 단일 truth source. (P-A v3 final)
+#
+# 핵심 결정:
+#   - dialogs/ 카테고리 폐기 → runtime/ 으로 통합
+#   - runtime/ 내부 sub-folder: 00.dro + 01.buddy ~ 06.inspector
+#   - 00.dro/ = DRO 자체 자료 (페르소나 아님). conversation 만. queue/chain 없음
+#   - 01.buddy~06.inspector = 페르소나별. queue.json (RT 큐) + 누적 dialog + {chain_id}/ 자료
+#   - chain_queue 완전 폐기 — RT 큐는 (session,persona) 단일 worker 가 chain-at-a-time 소비 (같은 persona chain 직렬; 다른 persona·session 병렬)
+#   - manifest.runtime.yaml = root (페르소나 무관, 전체 세션 chain 인덱스)
+#   - media = sessions/{user_id}/{work_id}/media/{media_id}.{ext} (사용자 업로드, work 레벨 — presigned S3 직접, 메시지/chain 무관)
+#   - conversation = 00.dro/conversation.json (DRO writer, P01 buddy 아님)
+#
+# placeholder:
+#   {user_id} {work_id} {chain_id} {rt_id} {persona} {media_id} {ext} {filename} {name}
+
+schema_version: "1.0.0"
+
+root_prefix: sessions
+entity_path: "sessions/{user_id}/{work_id}"
+root_manifest: manifest.context.yaml
+
+# users/ — 인증·식별 루트 (sessions 와 별개). PII 0 (nickname=비-PII).
+#   - identities/{provider}/{provider_sub}.json = { user_id }   로그인 인덱스 ((provider,sub)→user_id)
+#   - profiles/{user_id}/profile.json            = { nickname, providers:[{provider,sub}], created_at, updated_at }  (updated_at = write 마다 스탬프, alias If-Match/ETag 기준 — D7)
+#   - idempotency/{user_id}/{key_hash}.json      = Idempotency-Key 영속 record { status, body, location?, created_at }  (D6, sessions 밖 user 루트)
+users:
+  root_prefix: users
+  identities:
+    path: "identities/{provider}"
+    file: "{provider_sub}.json"
+  profiles:
+    path: "profiles/{user_id}"
+    files:
+      profile: profile.json
+  # Idempotency-Key 영속 저장 (D6) — user-level 통합 (works 생성은 work_id 가 결과물이라 work 하위 불가).
+  #   key 는 client 제공 opaque 라 sha256 hex(key_hash)로 파일명·URL 안전화. record={status,body,location?,created_at}
+  idempotency:
+    path: "idempotency/{user_id}"
+    file: "{key_hash}.json"
+  # refresh token family (C1 인증) — 회전·재사용 탐지·logout revoke. user-level.
+  #   refresh-tokens/{user_id}/{family_id}.json = { family_id, user_id, current_jti, issued_at, rotated_at, revoked }
+  refresh_tokens:
+    path: "refresh-tokens/{user_id}"
+    file: "{family_id}.json"
+
+namespaces:
+  # 모든 런타임 자료 (chain + 큐 + 페르소나 누적 + DRO 자료)
+  runtime:
+    manifest: manifest.runtime.yaml          # runtime/ root 안, chain 인덱스
+    sub_dirs:
+      # DRO 자체 자료 (페르소나 아님, queue/chain 없음)
+      dro:
+        path: "00.dro"
+        files:
+          conversation: conversation.json
+      # 페르소나별 sub-folder (1~6). 안에 queue + 누적 dialog + chain 인스턴스
+      persona:
+        path: "{persona_dir}"                # 01.buddy / 02.director / 03.finder / 04.thinker / 05.crafter / 06.inspector
+        files:
+          queue: queue.json                  # RT 큐
+        sub_dirs:
+          chain:
+            path: "{chain_id}"
+            files:
+              manifest: manifest.json
+              trail: trail.jsonl
+              rt: "rts/{rt_id}.json"
+              agent_state: agent_state.json
+        # 페르소나별 누적 dialog allowlist (DIALOG_NAMES) — venezia_memory __init__ 에서 dict 로 사용
+        dialog_allowlist:
+          "00.dro": [conversation]           # 정식 dialog 라기보다 단일 파일이지만 allowlist 에 등록
+          "01.buddy": []                     # 누적 dialog 없음 (응대 자체는 chain 자료)
+          "02.director": [analysis, decisions, evaluation, workspace]
+          "03.finder": [research, rejection-cases]
+          "04.thinker": []
+          "05.crafter": []
+          "06.inspector": [evaluation]       # P02 와 다른 의미 (도면 검수), 자체 schema
+
+  # AI 산출 모델 + 구체화 단계 정보 stack (P-C 추가)
+  models:
+    manifest: manifest.models.yaml
+    files:
+      iom: invention-object-model.json
+      cmm: concept-maturity-model.json
+      user_roadmap: user-roadmap.json
+      concept_discovery_stack: concept-discovery-stack.json  # P-C: 모델 아님 (사용자 말 차곡차곡 누적, IOM precursor)
+
+  # 도면 — 보류 (이번 plan 손 안 댐)
+  drawings:
+    manifest: manifest.drawing.yaml
+    sub_dirs:
+      drawing:
+        path: "{drawing_id}"
+        files:
+          numerals: numerals.json
+          dl: dl.json
+          figure: figure.json
+
+  # 최종 산출물 (rename ← documents/)
+  outputs:
+    manifest: manifest.outputs.yaml
+    file_template: "{filename}"
+
+  # 사용자 업로드 미디어 — work 레벨 (메시지/chain 무관, presigned S3 직접 PUT/GET). 장부 없음 = S3 prefix 가 진실.
+  media:
+    file_template: "{media_id}.{ext}"

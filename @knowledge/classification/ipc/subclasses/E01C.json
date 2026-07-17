@@ -1,0 +1,940 @@
+{
+  "subclass": "E01C",
+  "title": {
+    "ko": "도로, 경기장 또는 그와 유사한 것의 건설 또는 그 표면의 시공; 건설 및 보수용 기계 또는 보조 공구(눈이나 얼음을 굳게 하기도 하고, 정지(整地)하여 도로나 유사 표면을 형성하는 것 E01H)",
+    "en": "CONSTRUCTION OF, OR SURFACES FOR, ROADS, SPORTS GROUNDS, OR THE LIKE; MACHINES OR AUXILIARY TOOLS FOR CONSTRUCTION OR REPAIR (forming road or like surfaces by compacting or grading snow or ice E01H)"
+  },
+  "definition": {
+    "ko": "설계; 기초 E01C1/00; 3/00, E01C13/00 도로, 운동장 또는 유사한 것의 포장(鋪裝) 포장(鋪裝)일반 E01C5/00, E01C7/00 특수포장 E01C9/00, E01C13/00, E01C15/00 세부(細部) E01C11/00, E01C17/00 도로, 운동장 또는 유사한 것의 건설 또는 보수(補修) E01C21/00, E01C19/00, E01C23/00",
+    "en": null
+  },
+  "groups": [
+    {
+      "code": "E01C 1/00",
+      "title": {
+        "ko": "도로의 설계, 예. 소음 경감을 위한, 가스 흡수를 위한, 또는 레이아웃(경기장의 설계 또는 레이아웃, A63C 19/00; 비행장의 설계 또는 레이아웃 B64F)",
+        "en": "Design or layout of roads, e.g. for noise abatement, for gas absorption (design or layout of sports grounds A63C0019000000;design or layout of airfields B64F)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 1/02",
+          "title": {
+            "ko": null,
+            "en": "Crossings, junctions, or interconnections between roads on the same level"
+          }
+        },
+        {
+          "code": "E01C 1/04",
+          "title": {
+            "ko": null,
+            "en": "Road crossings on different levels; Interconnections between roads on different levels"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 3/00",
+      "title": {
+        "ko": "포장용 기초(운동장 또는 경기장에 적합한 것 E01C 13/02, 기초 일반 E02D",
+        "en": "Structure of roads, playgrounds, sports grounds, airfields"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01C 3/00",
+      "title": {
+        "ko": "포장용 기초(운동장 또는 경기장에 적합한 것 E01C 13/02, 기초 일반 E02D",
+        "en": "Foundations for pavings (specially adapted for playgrounds or sports grounds E01C0013020000;foundations in general E02D)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 3/02",
+          "title": {
+            "ko": null,
+            "en": "Concrete base for bituminous paving"
+          }
+        },
+        {
+          "code": "E01C 3/04",
+          "title": {
+            "ko": null,
+            "en": "Foundations produced by soil stabilisation"
+          }
+        },
+        {
+          "code": "E01C 3/06",
+          "title": {
+            "ko": null,
+            "en": "Methods or arrangements for protecting foundations from destructive influences of moisture, frost or vibration"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 5/00",
+      "title": {
+        "ko": "조립식 단위 부재에 의하여 조성되는 포장(鋪裝) (운동장 또는 경기장에 적합한 것 E01C 13/04; 인도, 보도 또는 자전거도로 에 적합한 것 E01C 15/00; 인조석의 제조 C04B; 건축용 석재 E04C; 마루용 E04F)",
+        "en": "Pavings made of prefabricated single units (specially adapted for playgrounds or sports grounds E01C0013040000, for footpaths, sidewalks or cycle tracks E01C0015000000;making artificial stones C04B;building stones E04C;flooring E04F)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 5/02",
+          "title": {
+            "ko": null,
+            "en": "made of natural stones, e.g. sett stones"
+          }
+        },
+        {
+          "code": "E01C 5/04",
+          "title": {
+            "ko": null,
+            "en": "made of bricks"
+          }
+        },
+        {
+          "code": "E01C 5/06",
+          "title": {
+            "ko": null,
+            "en": "made of units with cement or like binders"
+          }
+        },
+        {
+          "code": "E01C 5/08",
+          "title": {
+            "ko": null,
+            "en": "Reinforced units"
+          }
+        },
+        {
+          "code": "E01C 5/10",
+          "title": {
+            "ko": null,
+            "en": "Prestressed reinforced units"
+          }
+        },
+        {
+          "code": "E01C 5/12",
+          "title": {
+            "ko": null,
+            "en": "made of units with bituminous binders"
+          }
+        },
+        {
+          "code": "E01C 5/14",
+          "title": {
+            "ko": null,
+            "en": "made of wooden units"
+          }
+        },
+        {
+          "code": "E01C 5/16",
+          "title": {
+            "ko": "금속제(金屬製) 단위 부재로 만들어지는 것(강제(鋼製) 격자 E01C 9/10)",
+            "en": "made of metallic units (steel gratings E01C0009100000)"
+          }
+        },
+        {
+          "code": "E01C 5/18",
+          "title": {
+            "ko": null,
+            "en": "made of rubber units"
+          }
+        },
+        {
+          "code": "E01C 5/20",
+          "title": {
+            "ko": "플라스틱(Plastic)제(製) 단위 부재로 만들어지는 것(E01C 5/18이 우선)",
+            "en": "made of units of plastics (E01C0005180000 takes precedence)"
+          }
+        },
+        {
+          "code": "E01C 5/22",
+          "title": {
+            "ko": "그룹 E01C 5/02 ～ E01C 5/20의 둘 또는 그 이상에 속하는 재료의 혼합에 의하여 구성된 단위 부재로 만들어지는 것",
+            "en": "made of units composed of a mixture of materials covered by two or more of groups E01C0005020000-E01C0005200000"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 7/00",
+      "title": {
+        "ko": "현장시공에 적합한 포장(운동장 또는 경기장용의 것 E01C 13/06; 인도, 보도 또는 자전거도로에 적합한 것 E01C 15/00)",
+        "en": "Coherent pavings made in situ (specially adapted for playgrounds or sports grounds E01C0013060000, for footpaths, sidewalks or cycle tracks E01C0015000000)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 7/02",
+          "title": {
+            "ko": null,
+            "en": "made of road-metal without binders"
+          }
+        },
+        {
+          "code": "E01C 7/04",
+          "title": {
+            "ko": null,
+            "en": "of broken stones, gravel, or like materials"
+          }
+        },
+        {
+          "code": "E01C 7/06",
+          "title": {
+            "ko": null,
+            "en": "by melting, burning, or vitrifying road-metal in situ"
+          }
+        },
+        {
+          "code": "E01C 7/08",
+          "title": {
+            "ko": "쇄석(碎石)과 결합재로 만들어지는 것",
+            "en": "made of road-metal and binders"
+          }
+        },
+        {
+          "code": "E01C 7/10",
+          "title": {
+            "ko": "쇄석(碎石)과 시멘트 또는 그와 유사한 결합재로 만들어지는 것(시멘트 또는 그와 유사한 결합재, 모르타르(mortar) C04B)",
+            "en": "of road-metal and cement or like binders (cement or like binders, composition of mortars C04B)"
+          }
+        },
+        {
+          "code": "E01C 7/12",
+          "title": {
+            "ko": null,
+            "en": "Mortar-bound paving"
+          }
+        },
+        {
+          "code": "E01C 7/14",
+          "title": {
+            "ko": null,
+            "en": "Concrete paving"
+          }
+        },
+        {
+          "code": "E01C 7/16",
+          "title": {
+            "ko": null,
+            "en": "Prestressed concrete paving"
+          }
+        },
+        {
+          "code": "E01C 7/18",
+          "title": {
+            "ko": "쇄석(碎石)과 역청(bitumen) 결합재로 만들어지는 것",
+            "en": "of road-metal and bituminous binders"
+          }
+        },
+        {
+          "code": "E01C 7/20",
+          "title": {
+            "ko": null,
+            "en": "Binder incorporated in cold state, e.g. natural asphalt"
+          }
+        },
+        {
+          "code": "E01C 7/22",
+          "title": {
+            "ko": null,
+            "en": "Binder incorporated in hot state, e.g. heated bitumen"
+          }
+        },
+        {
+          "code": "E01C 7/24",
+          "title": {
+            "ko": "유탁액(乳濁液) 또는 용액체(溶液體)로서 혼합된 결합재(도로 건설용의 분산액(分散液) 또는 유탁액(乳濁液) 제조 C04B)",
+            "en": "Binder incorporated as an emulsion or solution (making dispersions or emulsions for road building C04B)"
+          }
+        },
+        {
+          "code": "E01C 7/26",
+          "title": {
+            "ko": null,
+            "en": "mixed with other materials, e.g. cement, rubber, leather, fibre"
+          }
+        },
+        {
+          "code": "E01C 7/30",
+          "title": {
+            "ko": null,
+            "en": "of road-metal and other binders, e.g. synthetic material"
+          }
+        },
+        {
+          "code": "E01C 7/32",
+          "title": {
+            "ko": null,
+            "en": "of courses of different kind made in situ"
+          }
+        },
+        {
+          "code": "E01C 7/34",
+          "title": {
+            "ko": null,
+            "en": "made of several courses which are not bound to each other"
+          }
+        },
+        {
+          "code": "E01C 7/35",
+          "title": {
+            "ko": null,
+            "en": "Topping or surface dressings; Methods of mixing, impregnating, or spreading them"
+          }
+        },
+        {
+          "code": "E01C 7/36",
+          "title": {
+            "ko": null,
+            "en": "by subjecting soil to stabilisation"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 9/00",
+      "title": {
+        "ko": "특수 포장(운동장 또는 경기장용으로 적합한 것 E01C 13/00; 인도, 보도 또는 자전거도로에 적합한 것 E01C 15/00); 도로 또는 비행장의 특수 부분용 포장(포장면 발광체(發光體) E01C 17/00; 맨홀(man hole) 또는 유사한 뚜껑 또는 틀(frame) E02D 29/14)",
+        "en": "Special pavings (specially adapted for playgrounds or sports grounds E01C0013000000, for footpaths, sidewalks or cycle tracks E01C0015000000); Pavings for special parts of roads or airfields (pavement lights E01C0017000000;manholes or like covers or frames E02D0029140000)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 9/02",
+          "title": {
+            "ko": "차륜(車輪) 궤도(차량을 유도(誘導)하는 레일 궤도, E01B 25/28)",
+            "en": "Wheel tracks (rail tracks for guiding vehicles E01B0025280000)"
+          }
+        },
+        {
+          "code": "E01C 9/04",
+          "title": {
+            "ko": null,
+            "en": "Pavings for railroad level-crossings"
+          }
+        },
+        {
+          "code": "E01C 9/06",
+          "title": {
+            "ko": null,
+            "en": "Pavings adjacent tramways rails"
+          }
+        },
+        {
+          "code": "E01C 9/08",
+          "title": {
+            "ko": "가포장(假鋪裝)(강제(鋼製) 격자 9/10)",
+            "en": "Temporary pavings (steel gratings E01C0009100000)"
+          }
+        },
+        {
+          "code": "E01C 9/10",
+          "title": {
+            "ko": "강제(鋼製) 격자(하수구용(下水溝用) 걸름격자 (grating) E03F 5/06; 구조(構造) 요소로서의 일반 E04C)",
+            "en": "Steel gratings (gully gratings E03F0005060000;as building elements in general E04C)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 11/00",
+      "title": {
+        "ko": "포장의 세부",
+        "en": "Details of pavings"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 11/02",
+          "title": {
+            "ko": "이음매의 배열 또는 구조; 이음매의 조성 방법; 이음매의 충전(packing)(도로 또는 비행장의 포장용에 한정되지 않는 이음매의 실링(Sealing) E04B 1/68)",
+            "en": "Arrangement or construction of joints; Methods of making joints; Packing for joints (sealing joints not restricted to road or airfield paving E04B0001680000)"
+          }
+        },
+        {
+          "code": "E01C 11/04",
+          "title": {
+            "ko": null,
+            "en": "for cement concrete paving"
+          }
+        },
+        {
+          "code": "E01C 11/06",
+          "title": {
+            "ko": null,
+            "en": "Methods of making joints"
+          }
+        },
+        {
+          "code": "E01C 11/08",
+          "title": {
+            "ko": null,
+            "en": "Packing of metal"
+          }
+        },
+        {
+          "code": "E01C 11/10",
+          "title": {
+            "ko": null,
+            "en": "Packing of plastic or elastic materials"
+          }
+        },
+        {
+          "code": "E01C 11/12",
+          "title": {
+            "ko": null,
+            "en": "Packing of metal and plastic or elastic materials"
+          }
+        },
+        {
+          "code": "E01C 11/14",
+          "title": {
+            "ko": null,
+            "en": "Dowel assembly"
+          }
+        },
+        {
+          "code": "E01C 11/16",
+          "title": {
+            "ko": "보강 부재(구축용(構築用) 일반 E04C)",
+            "en": "Reinforcements (for building in general E04C)"
+          }
+        },
+        {
+          "code": "E01C 11/18",
+          "title": {
+            "ko": null,
+            "en": "for cement concrete pavings"
+          }
+        },
+        {
+          "code": "E01C 11/20",
+          "title": {
+            "ko": null,
+            "en": "for prestressed concrete pavings"
+          }
+        },
+        {
+          "code": "E01C 11/22",
+          "title": {
+            "ko": "가거(街渠,gutter); 연석(緣石,kerb)(도로 사용자에게 경보하도록 특별히 적용된 연석(緣石) E01F 9/535 )",
+            "en": "Gutters; Kerbs (kerbs specially adapted for alerting road users E01F0009535000)"
+          }
+        },
+        {
+          "code": "E01C 11/24",
+          "title": {
+            "ko": null,
+            "en": "Methods or arrangements for preventing slipperiness or protecting against influences of the weather"
+          }
+        },
+        {
+          "code": "E01C 11/26",
+          "title": {
+            "ko": null,
+            "en": "Permanently-installed heating or blowing devices"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 13/00",
+      "title": {
+        "ko": "운동장 또는 경기장용으로 특히 적합한 포장(鋪裝) 또는 기초(基礎)(일반적인 레이아웃(layout) A63C 19/00)",
+        "en": "Pavings or foundations specially adapted for playgrounds or sports grounds (general layout A63C0019000000)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 13/02",
+          "title": {
+            "ko": null,
+            "en": "Foundations, e.g. with drainage or heating arrangements"
+          }
+        },
+        {
+          "code": "E01C 13/04",
+          "title": {
+            "ko": "조립식 단일 부재로 제조(製造)된 포장(E01C 13/08, E01C 13/10이 우선)",
+            "en": "Pavings made of prefabricated single units (E01C0013080000, E01C0013100000 take precedence)"
+          }
+        },
+        {
+          "code": "E01C 13/06",
+          "title": {
+            "ko": "현장(現場)에서 제조(製造)된 포장(E01C 13/08, E01C 13/10이 우선)",
+            "en": "Pavings made in situ (E01C0013080000, E01C0013100000 take precedence)"
+          }
+        },
+        {
+          "code": "E01C 13/08",
+          "title": {
+            "ko": null,
+            "en": "Surfaces simulating grass"
+          }
+        },
+        {
+          "code": "E01C 13/10",
+          "title": {
+            "ko": "설상(雪上) 경기 또는 빙상(氷上) 경기의 실외 또는 실내 사용을 위한 인조(人造) 표면을 위한 것(E01C 13/08이 우선; 동계 스포츠용 또는 유사 레크레이션 목적을 위한 얼음 또는 눈의 제조 F25C 3/00)",
+            "en": "for artificial surfaces for outdoor or indoor practice of snow or ice sports (E01C0013080000 takes precedence;production of snow or ice for winter sports or similar recreational purposes F25C0003000000)"
+          }
+        },
+        {
+          "code": "E01C 13/12",
+          "title": {
+            "ko": null,
+            "en": "for snow sports"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 15/00",
+      "title": {
+        "ko": null,
+        "en": "Pavings specially adapted for footpaths, sidewalks, or cycle tracks"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01C 17/00",
+      "title": {
+        "ko": "포장면 발광체(發光體), 즉 표면 부분을 형성하는 반투명(半透明) 구조물(도로에 목표(目標)를 설치하기 위하여 특히 설계된 블록 E01F 9/524 )",
+        "en": "Pavement lights, i.e. translucent constructions forming part of the surface (blocks specially designed for marking roads E01F0009524000)"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01C 19/00",
+      "title": {
+        "ko": "포장용 재료의 조제(調製) 또는 살포(撒布), 부설(敷設)된 재료의 작업 또는 포장의 형성, 다짐 또는 끝마무리에 쓰이는 기계(機械), 공구(工具) 또는 보조(補助) 장치(표면안정화 E01C 21/00; 포장의 수정(修正) 또는 보수용(補修用)에 특히 적합한 장치 E01C 23/00)",
+        "en": "Machines, tools or auxiliary devices for constructing or repairing the surfacing of roads or like structures"
+      },
+      "subgroups": []
+    },
+    {
+      "code": "E01C 19/00",
+      "title": {
+        "ko": "포장용 재료의 조제(調製) 또는 살포(撒布), 부설(敷設)된 재료의 작업 또는 포장의 형성, 다짐 또는 끝마무리에 쓰이는 기계(機械), 공구(工具) 또는 보조(補助) 장치(표면안정화 E01C 21/00; 포장의 수정(修正) 또는 보수용(補修用)에 특히 적합한 장치 E01C 23/00)",
+        "en": "Machines, tools, or auxiliary devices for preparing or distributing paving materials, for working the placed materials, or for forming, consolidating, or finishing the paving (surface stabilisation E01C0021000000;apparatus specially adapted for reconditioning or repairing paving E01C0023000000)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 19/02",
+          "title": {
+            "ko": "재료 조정용(調整用)의 것",
+            "en": "for preparing the materials"
+          }
+        },
+        {
+          "code": "E01C 19/05",
+          "title": {
+            "ko": "파쇄(破碎), 미분쇄(微分碎) 또는 분해용(分解用)의 장치(일반 B02C); 골재의 고르기, 세정(洗淨) 또는 가열(加熱)장치",
+            "en": "Crushing, pulverising, or disintegrating apparatus (in general B02C); Aggregate screening, cleaning, or heating apparatus"
+          }
+        },
+        {
+          "code": "E01C 19/08",
+          "title": {
+            "ko": "아스팔트, 역청(bitumen), 타르(tar) 또는 그 유사물의 운반 및 용융(熔融)장치(타르(tar), 아스팔트 또는 그 유사물에 쓰이기 위해 정치식(定置式)으로 설치된 용융(熔融)보일러 C10C 3/12)",
+            "en": "Apparatus for transporting and melting asphalt, bitumen, tar, or the like (stationarily-arranged melting boilers for tar, asphalt, or the like, in general C10C0003120000)"
+          }
+        },
+        {
+          "code": "E01C 19/10",
+          "title": {
+            "ko": null,
+            "en": "Apparatus or plants for premixing or precoating aggregate or fillers with non-hydraulic binders, e.g. with bitumen, with resins; Apparatus for premixing non-hydraulic mixtures prior to placing or for reconditioning salvaged non-hydraulic compositions"
+          }
+        },
+        {
+          "code": "E01C 19/12",
+          "title": {
+            "ko": "입상(粒狀) 또는 액상물(液狀物) 살포용(撒布用)의 것(E01C 23/07이 우선; 줄눈(joint) 또는 요부(凹部)의 충전(filling) E01C 23/02, E01C 23/09)",
+            "en": "for distributing granular or liquid materials (E01C0023070000 takes precedence;for filling joints or grooves E01C0023020000, E01C0023090000)"
+          }
+        },
+        {
+          "code": "E01C 19/15",
+          "title": {
+            "ko": "피복(被覆)되지 않은 석재 또는 그 유사 재료의 포설용(鋪設用), 또는 다짐없이 고르게 하거나 고르게 펴기 위한 용도의 것, 예. 포장용으로 파쇄(破碎)된 암석의 기층(基層), 모래의 쿠션(cushion)(E01C 19/52가 우선; 살포(撒布) E01C 19/20)",
+            "en": "for laying-down uncoated stone or similar materials, or for striking-off or spreading same without compacting, e.g. for crushed rock base courses, sand cushions for paving (E01C0019520000 takes precedence;distributing E01C0019200000)"
+          }
+        },
+        {
+          "code": "E01C 19/16",
+          "title": {
+            "ko": "액상(液狀) 물질의 적용 또는 확산(擴散), 예. 역청 슬러리(bitumen slurries)(E01C 19/45, E01C 23/02, E01C 23/03, E01C 23/16이 우선; 액체(液體) 또는 다른 액상(液狀) 물질의 표면에 분무(噴霧) 또는 확산(擴散) 일반 B05)",
+            "en": "for applying or spreading liquid materials, e.g. bitumen slurries (E01C0019450000, E01C0023020000, E01C0023030000, E01C0023160000 take precedence;spraying or spreading liquids or other fluent materials to surfaces in general B05)"
+          }
+        },
+        {
+          "code": "E01C 19/17",
+          "title": {
+            "ko": null,
+            "en": "Application by spraying"
+          }
+        },
+        {
+          "code": "E01C 19/18",
+          "title": {
+            "ko": "결합재, 예. 시멘트, 역청(bitumen)을 혼합한 쇄석(碎石)을 고화(固化) 또는 경화(硬化)시키지 않고 살포(撒布)시키는 장치(E01C 19/20, E01C 19/47이 우선; 콘크리트 또는 그 유사물(類似物)의 운반 설비 B65G)",
+            "en": "Devices for distributing road-metals mixed with binders, e.g. cement, bitumen, without consolidating or ironing effect (E01C0019200000, E01C0019470000 take precedence;conveying installations for concrete or the like B65G)"
+          }
+        },
+        {
+          "code": "E01C 19/20",
+          "title": {
+            "ko": "입상(粒狀) 또는 분상(粉狀) 물질, 예. 모래, 자갈, 소금, 건조(乾燥)한 결합재,의 살포(撒布), 예. 고르게 펴기, 장치(비료 살포기(撒布器) A01C 15/00)",
+            "en": "Apparatus for distributing, e.g. spreading, granular or pulverulent materials, e.g. sand, gravel, salt, dry binders (fertiliser distributors A01C0015000000)"
+          }
+        },
+        {
+          "code": "E01C 19/21",
+          "title": {
+            "ko": null,
+            "en": "for simultaneously but separately applying liquid material and granular or pulverulent material, e.g. bitumen and grit, with or without spreading"
+          }
+        },
+        {
+          "code": "E01C 19/22",
+          "title": {
+            "ko": "포설(鋪設)한 미경화물(未硬化物)의 고화(固化) 또는 끝마무리에 쓰는 것(E01C 23/02이 우선; 진동 발생 장치 일반 B06B)",
+            "en": "for consolidating or finishing laid-down unset materials (E01C0023020000 takes precedence;apparatus for generating vibrations in general B06B)"
+          }
+        },
+        {
+          "code": "E01C 19/23",
+          "title": {
+            "ko": "그것을 위한 롤러; 지면을 다지는데 사용되는 롤러 (E01C19/43이 우선; 농업 용도로 특히 적합한 것 A01B29/00; 정원용 롤러 A01G20/35; 설면(雪面) 또는 빙면(氷面) 의 제조 또는 유지 E01H4/00 ; 단지 지면을 다지기 위한 것 E02D3/026)",
+            "en": "Rollers therefor; Such rollers usable also for compacting soil  (E01C0019430000 takes precedence; specially adapted for agricultural purposes A01B0029000000; garden rollers A01G0020350000; making or maintaining surfaces of snow or ice E01H0004000000; solely for soil compaction E02D0003026000)"
+          }
+        },
+        {
+          "code": "E01C 19/24",
+          "title": {
+            "ko": "손으로 추진되는 것(E01C 19/27 ～E01C 19/29가 우선)",
+            "en": "hand propelled (E01C0019270000-E01C0019290000 take precedence)"
+          }
+        },
+        {
+          "code": "E01C 19/25",
+          "title": {
+            "ko": "동물(動物) 또는 차량(車輛)에 의하여 나아가는 것(E01C 19/26 ～ E01C19/29가 우선)",
+            "en": "propelled by animals or vehicles (E01C0019260000-E01C0019290000 take precedence)"
+          }
+        },
+        {
+          "code": "E01C 19/26",
+          "title": {
+            "ko": "자주(自走) 또는 車輛에 부착한 것(E01C 19/27 ～ E01C 19/29가 우선)",
+            "en": "self-propelled or fitted to road vehicles (E01C0019270000-E01C0019290000 take precedence)"
+          }
+        },
+        {
+          "code": "E01C 19/27",
+          "title": {
+            "ko": "탄성적으로 변형 가능한 롤링(rolling) 요소, 예. 공기(空氣) 타이어를 갖는 것(진동 또는 충격의 것 E01C 19/28)",
+            "en": "with elastically-deformable rolling elements, e.g. pneumatic tyres (vibrating or impacting E01C0019280000)"
+          }
+        },
+        {
+          "code": "E01C 19/28",
+          "title": {
+            "ko": "진동하고 있는 롤러 또는 충격을 받는 롤러, 예. 흙 다지기 타격(打擊)(E01C 19/29가 우선)",
+            "en": "Vibrated rollers or rollers subjected to impacts, e.g. hammering blows (E01C0019290000 takes precedence)"
+          }
+        },
+        {
+          "code": "E01C 19/29",
+          "title": {
+            "ko": null,
+            "en": "Rolling apparatus adapted to apply a rolling pressure less than its weight, e.g. roller finishers travelling on formrails"
+          }
+        },
+        {
+          "code": "E01C 19/30",
+          "title": {
+            "ko": "롤러 이외의 다지는 기계 또는 진동기(振動機)(E01C 23/02, E01C 24/04가 우선; 진동 살포기(撒布機) E01C 19/12; 탬핑(tamping) 롤러 또는 진동 롤러 E01C 19/28; 가반식(可搬式) 충격 공구 일반 B25D; 땅의 굳힘 또는 다지기 일반 E02D 3/046)",
+            "en": "Tamping or vibrating apparatus other than rollers (E01C0023020000, E01C0023040000 take precedence;vibrated depositing devices E01C0019120000;tamping or vibrating rollers E01C0019280000;portable percussion tools in general B25D;tamping or vibrating soil in general E02D0003046000)"
+          }
+        },
+        {
+          "code": "E01C 19/32",
+          "title": {
+            "ko": null,
+            "en": "Hand-held hand-actuated rammers or tampers"
+          }
+        },
+        {
+          "code": "E01C 19/34",
+          "title": {
+            "ko": "동력 구동의 다짐봉(奉) 또는 다짐기(機)",
+            "en": "Power-driven rammers or tampers"
+          }
+        },
+        {
+          "code": "E01C 19/35",
+          "title": {
+            "ko": "휴대 또는 수유도(手誘導,hand-guided)공구(E01C 19/36 ～ E01C 19/40이 우선)",
+            "en": "Hand-held or hand-guided tools (E01C0019360000-E01C0019400000 take precedence)"
+          }
+        },
+        {
+          "code": "E01C 19/36",
+          "title": {
+            "ko": null,
+            "en": "with direct-acting explosion chambers"
+          }
+        },
+        {
+          "code": "E01C 19/38",
+          "title": {
+            "ko": null,
+            "en": "with means specifically for generating vibrations"
+          }
+        },
+        {
+          "code": "E01C 19/40",
+          "title": {
+            "ko": null,
+            "en": "adapted to impart a smooth finish to the paving, e.g. tamping or vibrating finishers"
+          }
+        },
+        {
+          "code": "E01C 19/41",
+          "title": {
+            "ko": null,
+            "en": "Apparatus having both rolling tools and ramming, tamping, or vibrating tools"
+          }
+        },
+        {
+          "code": "E01C 19/42",
+          "title": {
+            "ko": "새로 부설(敷設)한 조면(粗面) 포장층을 롤링(rolling),탬핑(tamping) 또는 진동에 의하지 않고 매끈하게 끝마무리하기 위한 기계(살포용 (撒布用)만의 것 E01C 19/12)",
+            "en": "Machines for imparting a smooth finish to freshly-laid paving courses other than by rolling, tamping, or vibrating (for distributing only E01C0019120000)"
+          }
+        },
+        {
+          "code": "E01C 19/43",
+          "title": {
+            "ko": null,
+            "en": "Machines or arrangements for roughening or patterning freshly-laid paving courses, e.g. indenting rollers"
+          }
+        },
+        {
+          "code": "E01C 19/44",
+          "title": {
+            "ko": "롤러(roller), 다짐기(機) 또는 진동기에 의하지 않고 새로 부설(敷設)한 조면(粗面) 포장층에 소정의 표면 마무리를 하기 위하여 특히 적용되는 수동 공구(E01C 19/43이 우선)",
+            "en": "Hand-actuated tools other than rollers, dampers, or vibrators, specially adapted for imparting a required surface finish to freshly-laid paving courses (E01C0019430000 takes precedence)"
+          }
+        },
+        {
+          "code": "E01C 19/45",
+          "title": {
+            "ko": "복합(複合) 액상(液狀) 결합재, 예. 유화(乳化) 역청(bitumen), 용융(熔融) 아스팔트의 조합(調合) 또는 조합(調合)과 같이 도로에 적용하기 위한 가반식(可搬式) 장치(적용(適用)만에 사용하는 것 E01C 19/16)",
+            "en": "Portable apparatus for preparing, or for preparing and applying to the road, compound liquid binders, e.g. emulsified bitumen, fluxed asphalt (applying only E01C0019160000)"
+          }
+        },
+        {
+          "code": "E01C 19/46",
+          "title": {
+            "ko": "재료의 조합(調合) 및 부설용(敷設用)의 것(E01C 19/45가 우선; 결합재(結合材)에 첨가된 골재를 혼합하여 표면을 만드는 것 E01C 21/00)",
+            "en": "for preparing and placing the materials (E01C0019450000 takes precedence;making surfaces by mixing borrowed aggregate with binders E01C0021000000)"
+          }
+        },
+        {
+          "code": "E01C 19/47",
+          "title": {
+            "ko": "도로 건설에 특히 적용되는 살포(撒布) 수단을 결합한 수경성(水硬性) 시멘트 콘크리트 믹서(콘크리트 믹서 그 자체 B28C)",
+            "en": "Hydraulic cement concrete mixers combined with distributing means specially adapted for road building (concrete mixers per seB28C)"
+          }
+        },
+        {
+          "code": "E01C 19/48",
+          "title": {
+            "ko": null,
+            "en": "for laying-down the materials and consolidating them, or finishing the surface"
+          }
+        },
+        {
+          "code": "E01C 19/50",
+          "title": {
+            "ko": "도로 건설 목적을 위한 이동식 거푸집 또는 거푸집널(E01C 23/02, E01C 23/04가 우선; 슬립폼(slip form) E01C 19/48; 영구 거푸집 E01C 3/00 ～ E01C 7/00); 개개의 포장 요소, 예. 연석(緣石)을 현장에서 형성하기 위한 장치 또는 기타 것",
+            "en": "Removable forms or shutterings for road-building purposes (E01C0023020000, E01C0023040000 take precedence;permanent forms E01C0003000000-E01C0007000000;slip forms E01C0019480000); Devices or arrangements for forming individual paving elements, e.g. kerbs, in situ"
+          }
+        },
+        {
+          "code": "E01C 19/52",
+          "title": {
+            "ko": "개개에 미리 형성된 표면 요소, 예. 연석(緣石)을 부설(敷設)하기 위한 장치(연속한 조대(條帶)를 미리 형성 및 부설하는 것 19/46; 현장에서 포장 요소를 형성하는 것 19/50)",
+            "en": "Apparatus for laying individual preformed surface elements, e.g. kerbs (preforming and placing continuous strip E01C0019460000;forming paving elements in situE01C0019500000)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 21/00",
+      "title": {
+        "ko": "도로 건설 또는 유사 목적을 위한 표면 안정용의 장치 또는 방법, 예. 첨가된 골재와 혼합재를 혼합하는 것(현장 표면층 밑에서 토양의 안정화 E01C 23/10; 토양 조절 또는 토양 안정화 재료 C09K 17/00; 토양 안정화 일반 E02D 3/12)",
+        "en": "Apparatus or processes for surface stabilisation for road building or like purposes, e.g. mixing borrowed aggregate with binder (stabilising soil under existing surfacing E01C0023100000;soil-conditioning or soil-stabilising materials C09K0017000000;soil-consolidation in general E02D0003120000)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 21/02",
+          "title": {
+            "ko": null,
+            "en": "Fusing, calcining, or burning soil in situ"
+          }
+        }
+      ]
+    },
+    {
+      "code": "E01C 23/00",
+      "title": {
+        "ko": "도로 또는 유사한 것의 표면의 건설, 보수, 수정 또는 보호용의 보조 장치 또는 기타 것(폐기물 이용의 비수성(非水性) 혼합물의 재조정(再調整)장치 E01C 19/10)",
+        "en": "Auxiliary devices or arrangements for constructing, repairing, reconditioning, or taking-up road or like surfaces (apparatus for reconditioning of salvaged non-hydraulic compositions E01C0019100000)"
+      },
+      "subgroups": [
+        {
+          "code": "E01C 23/01",
+          "title": {
+            "ko": "새로운 표면층의 형상을 측정 또는 점검하기 위한 장치 또는 보조 수단, 예. 형판(型板), 정규지지체 (定規支持體)(형(型)레일 E01C 19/50); 현존 표면층의 표면 상태의 측정, 지시, 또는 기록 장치의 적용, 예. 종단면 도표(圖表)(E01C 23/07이 우선; 조잡성(粗雜性) 또는 불규칙성의 측정 일반 G01B)",
+            "en": "Devices or auxiliary means for setting-out or checking the configuration of new surfacing, e.g. templates, screed supports (form rails E01C0019500000); Applications of apparatus for measuring, indicating, or recording the surface configuration of existing surfacing, e.g. profilographs (E01C0023070000 takes precedence;measuring roughness or irregularity in general G01B)"
+          }
+        },
+        {
+          "code": "E01C 23/02",
+          "title": {
+            "ko": "미경화(未硬化)의 포장에 있어서의 요부(凹部) 또는 이와 유사한 홈의 작성, 처리 또는 충전용(充塡用) 장치, 예. 이음매 또는 테두리 표시를 하기 위한 것(표면의 모양붙이기 E01C 19/43); 그를 위한 이동식 거푸집(비이동식 거푸집 E01C 11/02); 미경화 포장에 삽입물 또는 이동식 삽입 지지체를 삽입하기 위한 장치(E01C 23/04가 우선; 비이동식의 삽입물 지지체 E01C 11/02)",
+            "en": "Devices for making, treating, or filling grooves or like channels in not-yet-hardened paving, e.g. for joints or markings (surface patterning E01C0019430000); Removable forms therefor (non-removable forms E01C0011020000); Devices for introducing inserts or removable insert-supports in not-yet-hardened paving (E01C0023040000 takes precedence;non-removable insert supports E01C0011020000)"
+          }
+        },
+        {
+          "code": "E01C 23/03",
+          "title": {
+            "ko": "포장 양생용(養生用) 장치; 양생(養生) 수단을 적용하기 위한 장치; 조립식 깔판을 놓기 위한 장치, 예. 부포(敷布), 피막(皮膜)(보강 요소 E01C 23/04); 건설시 또는 양생시에 있어서의 포장의 보호, 예. 천막의 사용(도로의 방책(防柵) E01F 13/00)",
+            "en": "Arrangements for curing paving; Devices for applying curing means; Devices for laying prefabricated underlay, e.g. sheets, membranes (reinforcing elements E01C0023040000); Protecting paving under construction or while curing, e.g. use of tents (road barriers E01F0013000000)"
+          }
+        },
+        {
+          "code": "E01C 23/04",
+          "title": {
+            "ko": "보강 요소 또는 듀벨 봉을 놓기 위한 장치 ; 보강 요소를 위한 이동식 지지체(支持體)(그를 위한 비이동식 지지체(支持體) E01C 11/16; 보강재를 떠받치기 위하여 적용되는 측면 거푸집 E01C 19/50); 장치, 예. 실질적 수평의 도관(導管)을 포장중에 형성하기 위한 이동식 거푸집, 예. 미리 가압(加壓)된 보강재용(補强材用)의 것",
+            "en": "Devices for laying reinforcing elements or dowel bars; Removable supports for reinforcing elements (non-removable supports therefor E01C0011160000;side forms adapted to supporting reinforcement E01C0019500000); Devices, e.g. removable forms, for making essentially horizontal ducts in paving, e.g. for prestressed reinforcement"
+          }
+        },
+        {
+          "code": "E01C 23/05",
+          "title": {
+            "ko": null,
+            "en": "Devices for installing or removing forms"
+          }
+        },
+        {
+          "code": "E01C 23/06",
+          "title": {
+            "ko": "마무리 표면의 작업용 장치 또는 그 부속구 (附屬具)(새로 부설(敷設)된 포장 작업 E01C 19/42 ～ E01C 19/44, E01C 23/02; 굴착 피크 E21C 35/18; 파손된 포장의 표면 보수용 장치",
+            "en": "Devices or arrangements for working the finished surface (working freshly-laid paving E01C0019420000-E01C0019440000, E01C0023020000;mining picks E21C0035180000); Devices for repairing the surface of damaged paving"
+          }
+        },
+        {
+          "code": "E01C 23/07",
+          "title": {
+            "ko": "포장면의 형상을 측정하고, 측정된 요철에 비례하여 재료를 도포하는 장치 (측정 수단 자체 E01C23/01)",
+            "en": "Apparatus combining measurement of the surface configuration of paving with application of material in proportion to the measured irregularities (measuring means only E01C0023010000)"
+          }
+        },
+        {
+          "code": "E01C 23/08",
+          "title": {
+            "ko": "조면화(粗面化) 또는 모양현출용(模樣現出用)의 것; 포장면에 접착(接着)한 오물(汚物) 또는 물체 제거용의 것, 예. 조성(造成)(표면에 접착되어 있지 않은 물체의 제거 E01H 1/00; 조면화(粗面化) 또는 얼음(氷)의 제거 E01H 5/12)",
+            "en": "for roughening or patterning; for removing high spots or material bonded to the surface, e.g. markings (removing matter not bonded to the surface E01H0001000000;roughening or detaching ice E01H0005120000)"
+          }
+        },
+        {
+          "code": "E01C 23/082",
+          "title": {
+            "ko": null,
+            "en": "using non-powered tools"
+          }
+        },
+        {
+          "code": "E01C 23/085",
+          "title": {
+            "ko": null,
+            "en": "using power-driven tools, e.g. vibratory tools"
+          }
+        },
+        {
+          "code": "E01C 23/088",
+          "title": {
+            "ko": null,
+            "en": "Rotary tools, e.g. milling drums"
+          }
+        },
+        {
+          "code": "E01C 23/09",
+          "title": {
+            "ko": null,
+            "en": "for forming cuts, grooves, or recesses, e.g. for making joints or channels for markings, for cutting-out sections to be removed; for cleaning, treating, or filling cuts, grooves, recesses, or fissures; for trimming paving edges"
+          }
+        },
+        {
+          "code": "E01C 23/10",
+          "title": {
+            "ko": "침하(沈下)된 포장의 높이기 또는 평탄화용 (平坦化用)의 것; 포장하(鋪裝下)의 공극(空隙) 충전용의 것; 하부 구조에 물질을 삽입하기 위한 것(토양의 안정화 일반 E02D 3/12)",
+            "en": "for raising or levelling sunken paving; for filling voids under paving; for introducing material into substructure (consolidating soil in general E02D0003120000)"
+          }
+        },
+        {
+          "code": "E01C 23/12",
+          "title": {
+            "ko": "포장의 마무리, 파괴 또는 파헤치기에 쓰는 것(포장의 부설(敷設) 및 제거의 쌍방에 적용되는 것 E01C 19/52)",
+            "en": "for taking-up, tearing-up, or breaking-up paving (adapted to both placing and removing paving E01C0019520000)"
+          }
+        },
+        {
+          "code": "E01C 23/14",
+          "title": {
+            "ko": "기초, 포장 또는 그 위의 물질, 예. 페인트의 가열 또는 건조용의 것(E01C 23/03이 우선; 포장에 부수되는 가열 또는 건조 장치 E01C 11/26, 현장에서 용융(熔融)하기도 하고, 태워서 석탄화(石炭化)하기도 하고 또는 토양을 소성(燒成)하여 표면을 안정화시키는 것 E01C 21/02; 가로(街路) 청소용의 것 E01H 1/08; 표면상의 눈(雪) 또는 얼음(氷)을 용해(溶解)시키는 것 E01H 5/10)",
+            "en": "for heating or drying foundation, paving, or materials thereon, e.g. paint (E01C0023030000 takes precedence;heating or drying devices incorporated in the paving E01C0011260000;surface stabilisation by fusing, calcining, or burning soil in situE01C0021020000;for street cleaning E01H0001080000;melting snow or ice on surfacing E01H0005100000)"
+          }
+        },
+        {
+          "code": "E01C 23/16",
+          "title": {
+            "ko": "마무리된 포장상의 교통 또는 그 유사(類似)한 표식(標識)을 그리기도 하고, 붙이기도 하고 형성하기 위한 장치(E01C 23/14가 우선; 미경화 포장에 삽입 또는 형성하는 것 E01C 23/02; 완전 경화 포장에 형성된 요소에 삽입 또는 형성하는 것 E01C 23/09; 정구장 또는 운동장에 표식을 하는 것 A63C 19/06; 액체(液體) 또는 다른 유체(流體) 물질을 표면에 적용하는 것 일반 B05; 도로 표면 표식 그 자체 E01F 9/50); 형성 직후의 표식의 보호",
+            "en": "Devices for marking-out, applying or forming traffic or like markings on finished paving (E01C0023140000 takes precedence;inserting or forming in not-yet-hardened paving E01C0023020000, in recesses formed in fully-set paving E01C0023090000;marking-out playing courts or playgrounds A63C0019060000;applying liquids or other fluent materials to surfaces in general B05;road surface markings per seE01F0009500000); Protecting fresh markings"
+          }
+        },
+        {
+          "code": "E01C 23/18",
+          "title": {
+            "ko": null,
+            "en": "for applying prefabricated markings"
+          }
+        },
+        {
+          "code": "E01C 23/20",
+          "title": {
+            "ko": null,
+            "en": "for forming markings in situ"
+          }
+        },
+        {
+          "code": "E01C 23/22",
+          "title": {
+            "ko": null,
+            "en": "by spraying"
+          }
+        },
+        {
+          "code": "E01C 23/24",
+          "title": {
+            "ko": null,
+            "en": "by pouring"
+          }
+        }
+      ]
+    }
+  ]
+}
